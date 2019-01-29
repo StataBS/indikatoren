@@ -42,6 +42,10 @@
         [
           2017,
           8
+        ],
+        [
+          2018,
+          16
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -88,6 +92,10 @@
         [
           2017,
           60
+        ],
+        [
+          2018,
+          22
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -134,6 +142,10 @@
         [
           2017,
           -12
+        ],
+        [
+          2018,
+          13
         ]
       ],
       "name": "Saldo aus Zusammenlegungen\u002F Aufteilungen"
@@ -180,6 +192,10 @@
         [
           2017,
           6
+        ],
+        [
+          2018,
+          32
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -226,6 +242,10 @@
         [
           2017,
           -8
+        ],
+        [
+          2018,
+          -16
         ]
       ],
       "name": "Zweckentfremdungen von Wohnungen"
@@ -280,6 +300,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          67
         ]
       ],
       "name": "Umbausaldo"
@@ -347,7 +371,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Art des Umbaus",
+    "text": "nach Art des Umbaus, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -407,7 +431,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
   },
   "legend": {
     "symbolRadius": 0,

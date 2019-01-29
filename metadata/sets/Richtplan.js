@@ -226,7 +226,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
@@ -236,29 +236,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
-		"children": [
-			"6248"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5816,
-		"darstellungsart": "Grafik"
+		"data-id": 4135,
+		"chart-id": 4135,
+		"filter": "",
+		"id": 5816
 	},
 	{
 		"title": "Nettowohnungsproduktion",

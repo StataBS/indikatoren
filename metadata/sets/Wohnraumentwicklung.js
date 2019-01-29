@@ -224,8 +224,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Wohnungen",
-		"subtitle": "nach Zimmerzahl",
-		"kuerzel": "I.09.1.04133",
+		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"kuerzel": "I.09.1.4133",
 		"kuerzelKunde": "1.2.A",
 		"description": "Anzahl Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -234,15 +234,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T10:24:11.1111",
+		"aktualisierungsdatum": "2019-01-28T16:39:29.2929",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+10,9% bzw. 8,6% seit 2008). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-3,2%).",
+		"lesehilfe": "Seit 2009 steigt der gesamte Wohnungsbestand leicht und stetig an. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,2% bzw. +8,6% seit 2009). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-2,1%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -250,16 +252,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4133,
-		"darstellungsart": "Grafik"
+		"data-id": 4133,
+		"chart-id": 4133,
+		"filter": "",
+		"id": 4133
 	},
 	{
 		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Stand 2017",
-		"kuerzel": "I.09.1.04134",
+		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.4134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Anteile am Wohnungsbestand",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -268,15 +273,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T15:55:59.5959",
+		"aktualisierungsdatum": "2019-01-28T16:53:19.1919",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2017 nach Zimmerzahl betrachtet die 3-Zimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2018 nach Zimmerzahl betrachtet die Dreizimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -284,16 +291,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4134,
-		"darstellungsart": "Grafik"
+		"data-id": 4134,
+		"chart-id": 4134,
+		"filter": "",
+		"id": 4134
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04135",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4135",
 		"kuerzelKunde": "1.2.C-1",
 		"description": "Nettowohnungsproduktion",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -302,34 +312,40 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T13:02:39.3939",
+		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 war der Umbausaldo wiederum positiv wie stets seit 2011. Dazu beigetragen hat eine Vielzahl von Dachstockausbauten.",
+		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5816"
+			"5816",
+			"6248"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4135,
-		"darstellungsart": "Grafik"
+		"data-id": 4135,
+		"chart-id": 4135,
+		"filter": "",
+		"id": 4135
 	},
 	{
 		"title": "Umbausaldo",
-		"subtitle": "nach Art des Umbaus",
-		"kuerzel": "I.09.1.04136",
+		"subtitle": "nach Art des Umbaus, Basel-Stadt",
+		"kuerzel": "I.09.1.4136",
 		"kuerzelKunde": "1.2.C-2",
 		"description": "Umbausaldo",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -338,7 +354,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T16:23:33.3333",
+		"aktualisierungsdatum": "2019-01-28T16:41:01.011",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
@@ -347,6 +363,8 @@ var indikatorensetData = [
 		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
 		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -354,16 +372,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4136,
-		"darstellungsart": "Grafik"
+		"data-id": 4136,
+		"chart-id": 4136,
+		"filter": "",
+		"id": 4136
 	},
 	{
 		"title": "Anzahl neu erstellte Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04137",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4137",
 		"kuerzelKunde": "1.2.E",
 		"description": "Anzahl neu erstellte Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -372,15 +393,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T14:31:47.4747",
+		"aktualisierungsdatum": "2019-01-28T16:41:55.5555",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 369 Einheiten blieb die Nettoproduktion 2017 wiederum auf einem relativ hohen Niveau. Einzig im Jahre 2015 war sie deutlich höher, was auf die Fertigstellung grosser Neubauprojekte auf dem Erlenmattareal zurückzuführen war.",
+		"lesehilfe": "Mit 807 Einheiten erreichte die Nettoproduktion 2018 den höchsten Stand seit 1981. Die Fertigstellung mehrerer Grossprojekte hat massgeblich dazu beigetragen.",
 		"erlaeuterungen": "Es werden nur neu erstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -388,11 +411,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4137,
-		"darstellungsart": "Grafik"
+		"data-id": 4137,
+		"chart-id": 4137,
+		"filter": "",
+		"id": 4137
 	},
 	{
 		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
@@ -690,8 +716,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04146",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -700,15 +726,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T16:59:21.2121",
+		"aktualisierungsdatum": "2019-01-28T16:48:30.3030",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern stieg zum einen in der Dekade der 1970er-Jahre, und zwar um 2,6 Prozentpunkte. Zum anderen nahm er von 2005 bis 2014 (1,9 Prozentpunkte) zu. Dazwischen war kaum oder nur ein marginales Wachstum zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 (1,9 Prozentpunkte) zu. Danach war ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -716,11 +744,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4146,
-		"darstellungsart": "Grafik"
+		"data-id": 4146,
+		"chart-id": 4146,
+		"filter": "",
+		"id": 4146
 	},
 	{
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
