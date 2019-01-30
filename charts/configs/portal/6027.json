@@ -62,6 +62,10 @@
         [
           2017,
           41.063543712208
+        ],
+        [
+          2018,
+          41.047173024523
         ]
       ],
       "name": "Wohnfläche in m² pro Person"
@@ -164,7 +168,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-30"
   },
   "legend": {
     "enabled": false,

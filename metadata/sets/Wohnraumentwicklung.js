@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T17:10:53.5353",
+		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
@@ -609,8 +609,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04143",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -619,15 +619,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
+		"aktualisierungsdatum": "2019-01-29T12:25:03.033",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2018 etwa 11%.",
+		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -635,11 +637,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4143,
-		"darstellungsart": "Grafik"
+		"data-id": 4143,
+		"chart-id": 4143,
+		"filter": "",
+		"id": 4143
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -726,7 +731,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:48:30.3030",
+		"aktualisierungsdatum": "2019-01-29T11:34:07.077",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
