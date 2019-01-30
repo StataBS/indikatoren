@@ -42,7 +42,7 @@
   "xAxis": {
     lineColor: '#B9CFD7', 
     lineWidth: 0.5,
-    "tickInterval": 5
+    "tickInterval": 1,
   },
   "legend": {
     "enabled": true,
@@ -64,7 +64,7 @@
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+      "type": "scatter",
       "yAxis": 1, 
       shadow: true,
       tooltip: {

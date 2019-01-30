@@ -23,19 +23,19 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.f}%",
       "style": {
         "color": "#000000"
       }
     },
     "min": 0,
-    "max": 24,
+    "max": 25,
     "gridLineWidth": 0,
     "opposite": true
   }
   ],
   "xAxis": {
-    "tickInterval": 5
+    "tickInterval": 1,
   },
   "legend": {
     "enabled": true,
@@ -49,36 +49,45 @@
   },
   "series": [
     {
-      "color": "#73b97c",
-      "index": 0,
-      "type": "column",
-      "pointWidth": "10"
+      color: "#73b97c",
+      index: 0,
+      type: "column",
+      pointWidth: 8,
+      tooltip: {
+        valueDecimals: 0,
+      }
+
     },
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+      type: 'scatter',
+      marker: {
+          symbol: 'dot', 
+          radius: 5,
+      },
       "yAxis": 1, 
       connectNulls: true,
       tooltip: {
-        valueDecimals: 2
+        valueDecimals: 1,
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+        pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y}%</b><br/>',
       }
     }
   ],  
   "tooltip": {
-    "shared": false
+    "shared": false, 
+     valueDecimals: 1,
   },
   "chart": {
     "type": "line",
     "alignTicks": false
   },
-  plotOptions: 
-  {
-    series: 
-    {
+  plotOptions: {
+    series: {
       borderWidth: 1  
     }
   }  
-	}
+	};
 }());
  

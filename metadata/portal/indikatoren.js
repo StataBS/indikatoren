@@ -1947,7 +1947,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T17:10:53.5353",
+		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
@@ -2054,8 +2054,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
-		"subtitle": "",
-		"kuerzel": "I.09.1.04143",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.09.1.4143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Anzahl Genossenschaftswohnungen und Anteil am Bestand",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -2064,15 +2064,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T12:49:29.2929",
+		"aktualisierungsdatum": "2019-01-29T12:25:03.033",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2017 rund 10%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2018 etwa 11%.",
+		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
@@ -2081,11 +2083,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4143,
-		"darstellungsart": "Grafik"
+		"data-id": 4143,
+		"chart-id": 4143,
+		"filter": "",
+		"id": 4143
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot - nur Familien",
@@ -2174,7 +2179,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:48:30.3030",
+		"aktualisierungsdatum": "2019-01-29T11:34:07.077",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -10199,14 +10204,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:53.5353",
+		"aktualisierungsdatum": "2019-01-30T09:16:58.5858",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2017: 41 830) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2017: 25 309). Von 1998 (674) bis 2006 (4 022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2017: 2 096).",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2018:&nbsp;43&nbsp;039) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2018:&nbsp;25&nbsp;416). Von 1999 (644) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2018:&nbsp;2&nbsp;069).",
+		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10220,14 +10225,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6071,
+		"chart-id": 6071,
+		"filter": "",
 		"id": 6071
 	},
 	{
 		"title": "Ausländer nach Art der Bewilligung",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6072",
 		"kuerzelKunde": "A3-2",
 		"description": "Ausländer nach Art der Bewilligung",
@@ -10237,14 +10246,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-01-30T09:17:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Hauptsächlich im Besitz einer Niederlassungsbewilligung sind Personen aus Italien (72,4%), der Türkei (84,1%) und dem Balkan (82,1%). Ein etwas anderes Bild zeigt sich bei den Personen aus den EU-Oststaaten: Mit 19,6% ist der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, dagegen der Anteil an Aufenthaltsbewillungen mit 71,2% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (21,3%) und afrikanischen (12,5%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Hauptsächlich im Besitz einer Niederlassungsbewilligung sind Personen aus Italien (71,9%), der Türkei (84,3%) und dem Balkan (82,2%). Ein etwas anderes Bild zeigt sich bei den Personen aus den EU-Oststaaten: Mit 21,2% ist der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, dagegen der Anteil an Aufenthaltsbewillungen mit 68,9% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (22,0%) und afrikanischen (12,4%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
+		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10258,9 +10267,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6072,
+		"chart-id": 6072,
+		"filter": "",
 		"id": 6072
 	},
 	{
@@ -10275,14 +10288,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-01-30T09:18:47.4747",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen die Türken mit 84,1%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (82,1%) und Italien (72,4%). Im Vergleich zu 1998 haben die Anteile bei den Personen aus der Türkei und dem Balkan stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2018 die Türken mit 84,3%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (82,2%) und Italien (71,9%). Im Vergleich zu 1999 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
+		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10296,9 +10309,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6073,
+		"chart-id": 6073,
+		"filter": "",
 		"id": 6073
 	},
 	{
@@ -18874,7 +18891,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6570",
 		"kuerzelKunde": "A3-4",
 		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
@@ -18884,14 +18901,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:52.5252",
+		"aktualisierungsdatum": "2019-01-30T09:19:40.4040",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 62,7% am höchsten ist. Bei den über 65-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,7%. Im Vergleich zu den anderen Altersgruppen ist der Anteil der Kurzaufenthaltsbewilligungen bei den 15- bis 24-Jährigen (6,3%) hoch.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 62,2% am höchsten ist. Bei den über 65-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,6%. Im Vergleich zu den anderen Altersgruppen ist der Anteil der Kurzaufenthaltsbewilligungen bei den 15- bis 24-Jährigen (6,3%) hoch.",
+		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -18905,9 +18922,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6570,
+		"chart-id": 6570,
+		"filter": "",
 		"id": 6570
 	},
 	{
