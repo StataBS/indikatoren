@@ -76,7 +76,7 @@
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+      "type": "scatter",
       "yAxis": 1,
       "shadow": true,
       "tooltip": {
@@ -230,7 +230,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -291,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-29"
   },
   "legend": {
     "symbolRadius": 0,
