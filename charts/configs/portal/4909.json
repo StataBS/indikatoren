@@ -205,7 +205,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "valueDecimals": 1
   },
   "yAxis": {
     "min": 0,
@@ -268,17 +269,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "y": -10,
-        "enabled": false,
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.x === first.x || this.x === last.x) {
-              return Highcharts.numberFormat(this.y, 0  , ",", " ");
-            }
-          }
       }
     }
   },
