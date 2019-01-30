@@ -8,7 +8,10 @@
   },
   "xAxis": {
       "min": 1982,
-	  "tickInterval": 5
+	    "tickInterval": 5
+  },
+  tooltip: {
+    valueDecimals: 1,
   },
   "series": [
     {
@@ -20,21 +23,5 @@
       "color": "#000000"
     }
   ],
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "y": -10,
-        "enabled": false,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.x === first.x || this.x === last.x) {
-              return Highcharts.numberFormat(this.y, 0  , ",", " ");
-            }
-          }
-      }
-    }
-  }
-	}
+	};
 }());
