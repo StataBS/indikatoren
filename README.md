@@ -208,7 +208,7 @@ npm run reinstall
 ./c9-setup.sh
 ```
 - Close the bash terminal and open a new one: click on the + symbol, choose "New Terminal"
-- enter the following command in terminal and press enter: 
+- Enter the following command in terminal and press enter: 
 ```shell
 npm run reinstall
 ```
