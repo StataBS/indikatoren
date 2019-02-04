@@ -202,17 +202,17 @@ npm run reinstall
 
 
 ### Develop using [cloud9](https://c9.io)
-- Create new hosted workspace based on the node.js template and the correct github repo
+- Create new hosted workspace based on the node.js template and the correct github repo. Use the SSH repo path. 
 - Run the following command. This will set node.js version to 6, install true type fonts, and install the application.
 ```shell
 ./c9-setup.sh
 ```
 - Close the bash terminal and open a new one: click on the + symbol, choose "New Terminal"
-- enter the following command in terminal and press enter: 
+- Enter the following command in terminal and press enter: 
 ```shell
 npm run reinstall
 ```
-- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache http" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
+- Run application on c9: Click "Run", "New Run Configuration...", click "Runner", click "Apache httpd". Click into the field "Run Config Name" and type "Apache httpd" to give this configuration a name. Now click Run, then click the url displayed in the console log: ```https://<c9-vm-name>-<c9-username>.c9users.io```
 - To make this runner configuration the default, right-click the green "Run" button in the menu bar, click "Manage...", click "Set as Default". Now, this runner is always invoked when you click the green "Run" button.
 
 
