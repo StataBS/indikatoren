@@ -151,6 +151,10 @@
         [
           2017,
           161.1
+        ],
+        [
+          2018,
+          163
         ]
       ],
       "name": "Jahresmittel"
@@ -253,7 +257,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
   },
   "legend": {
     "enabled": false,
