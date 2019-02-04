@@ -236,6 +236,10 @@
         [
           2017,
           108574
+        ],
+        [
+          2018,
+          109177
         ]
       ],
       "name": "Belegte Wohnungen"
@@ -476,6 +480,10 @@
         [
           2017,
           546
+        ],
+        [
+          2018,
+          782
         ]
       ],
       "name": "Leerstehende Wohnungen"
@@ -718,6 +726,10 @@
         [
           2017,
           198988
+        ],
+        [
+          2018,
+          200256
         ]
       ],
       "name": "Wohnbevölkerung (rechte Skala)"
@@ -788,7 +800,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -803,7 +815,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "padding": 0
     },
     "tickLength": 0,
     "tickInterval": 5
@@ -820,8 +833,7 @@
         }
       },
       "min": 0,
-      "max": 120000,
-      "tickInterval": 30000
+      "tickAmount": 6
     },
     {
       "title": {
@@ -838,8 +850,7 @@
         }
       },
       "min": 0,
-      "max": 250000,
-      "tickInterval": 62500,
+      "tickAmount": 6,
       "opposite": true
     }
   ],
@@ -862,7 +873,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
   },
   "legend": {
     "symbolRadius": 0,

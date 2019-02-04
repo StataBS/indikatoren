@@ -19,8 +19,9 @@ plotOptions: {
        },
     },
     min: 0,
-    max: 120000,
-    tickInterval: 30000,
+    tickAmount: 6,
+    //max: 120000,
+    //tickInterval: 30000,
   },
   {
     "title": {
@@ -37,13 +38,17 @@ plotOptions: {
        },
     },
    min: 0,
-   max: 250000,
-   tickInterval: 62500,
+   //max: 250000,
+   //tickInterval: 62500,
+   tickAmount: 6,
     "opposite": true
   }
   ],
   "xAxis": {
-    "tickInterval": 5
+    "tickInterval": 5,
+    labels: {
+        padding: 0,
+    },
   },
   "legend": {
     "enabled": true,

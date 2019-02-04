@@ -43,7 +43,8 @@
   "chart": {      
     "renderTo": 'container-I.05.1.0001',
     "type": "column",
-    "marginBottom": 65,
+    "marginBottom": 80,
+    
   }
 	}
 }());
