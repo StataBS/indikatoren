@@ -214,10 +214,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 54,
+    "ceiling": 55,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -229,7 +230,7 @@
         "color": "#000000"
       }
     },
-    "range": 36.666666666667
+    "range": 37.333333333333
   },
   "yAxis": [
     {
@@ -321,7 +322,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Lufthygieneamt beider Basel",
+    "text": "Quelle: Meteorologischer Verein der Region Basel",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -440,7 +441,8 @@
         3161,
         2465,
         2591.4,
-        2726
+        2726,
+        2967
       ],
       "visible": true,
       "_symbolIndex": 0

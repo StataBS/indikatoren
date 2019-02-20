@@ -162,10 +162,11 @@
     "categories": [
       2010,
       2012,
-      2014
+      2014,
+      2016
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 3,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -336,9 +337,10 @@
       "id": "BS0603_1",
       "valueSuffix": "Prozent",
       "data": [
-        40.4,
+        40.2,
         42,
-        44.8
+        44.9,
+        46
       ],
       "visible": true
     }

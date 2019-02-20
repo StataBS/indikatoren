@@ -179,10 +179,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 19,
+    "ceiling": 20,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -194,7 +195,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 15
   },
   "yAxis": [
     {
@@ -326,10 +327,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": false
+    "enabled": true
   },
   "navigator": {
-    "enabled": false,
+    "enabled": true,
     "series": {
       "type": "column",
       "stacking": null
@@ -353,6 +354,7 @@
       "id": "BS1511_1",
       "valueSuffix": "Prozent",
       "data": [
+        2.8,
         2.8,
         2.8,
         2.8,

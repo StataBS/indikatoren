@@ -111,7 +111,7 @@
     }
   },
   "title": {
-    "text": "Energiebezugsfläche mit Minergie-P® und A®-Standard",
+    "text": "Energiebezugsfläche mit Minergie-P\u003Csup\u003E®\u003C\u002Fsup\u003E und A\u003Csup\u003E®\u003C\u002Fsup\u003E-Standard",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -169,10 +169,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 9,
+    "ceiling": 10,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -276,7 +277,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Verein Minergie®",
+    "text": "Quelle: Verein Minergie\u003Csup\u003E®\u003C\u002Fsup\u003E",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -352,7 +353,8 @@
         19660,
         44589,
         59133,
-        91198
+        91198,
+        116637
       ],
       "visible": true
     },
@@ -376,6 +378,7 @@
         0,
         0,
         0,
+        775,
         775
       ],
       "visible": true

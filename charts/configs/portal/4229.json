@@ -165,10 +165,11 @@
       2004,
       2010,
       2012,
-      2014
+      2014,
+      2016
     ],
     "floor": 1995,
-    "ceiling": 2014,
+    "ceiling": 2016,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -272,7 +273,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik; BAK Economics AG; \u003Cbr\u003EBundesamt für Statistik, Volkswirtschaftliche Gesamtrechnung",
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -343,23 +344,27 @@
         ],
         [
           2000,
-          112.4
+          112.5
         ],
         [
           2004,
-          137.5
+          138.6
         ],
         [
           2010,
-          184.8
+          186.7
         ],
         [
           2012,
-          205.2
+          209.6
         ],
         [
           2014,
-          224.2
+          230.3
+        ],
+        [
+          2016,
+          237.6
         ]
       ],
       "visible": true,
@@ -388,15 +393,19 @@
         ],
         [
           2010,
-          91.6
+          91.9
         ],
         [
           2012,
-          84.9
+          85
         ],
         [
           2014,
-          76.1
+          76.8
+        ],
+        [
+          2016,
+          76.2
         ]
       ],
       "visible": true,

@@ -160,10 +160,11 @@
   },
   "xAxis": {
     "categories": [
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 0,
+    "ceiling": 1,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -326,10 +327,6 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
@@ -338,7 +335,8 @@
       "id": "BS0610_1",
       "valueSuffix": "Liter Heizöläquivalente pro Quadratmeter",
       "data": [
-        2.7
+        2.7,
+        2.4
       ],
       "visible": true
     }

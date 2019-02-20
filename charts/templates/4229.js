@@ -262,7 +262,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik; BAK Economics AG; \u003Cbr\u003EBundesamt für Statistik, Volkswirtschaftliche Gesamtrechnung",
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik und Bevölkerungsstatistik",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",

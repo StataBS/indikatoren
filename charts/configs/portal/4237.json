@@ -1,6 +1,6 @@
 {
   "chart": {
-    "renderTo": "container_1610",  
+    "renderTo": "container_1610",
     "type": "line",
     "width": "485",
     "height": "415",
@@ -18,7 +18,7 @@
     },
     "events": {
       "redraw": function updateStacks() {
-			//console.log(this.userOptions.series[0].stacking) Test Comment
+			//console.log(this.userOptions.series[0].stacking)
 
 			//only if plot-type is column and stacking = percent
 			if (this.userOptions.series[0].stacking == 'percent' || this.userOptions.series[0].stacking == 'normal') {

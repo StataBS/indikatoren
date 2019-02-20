@@ -215,10 +215,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 55,
+    "ceiling": 56,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -443,7 +444,8 @@
         15,
         9,
         32,
-        13
+        13,
+        28
       ],
       "visible": true
     }

@@ -383,6 +383,21 @@
       "id": "BS0602_6",
       "valueSuffix": "Gigawattstunden",
       "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "marker": {
+        "enabled": true,
+        "radius": 5
+      },
+      "type": "column",
+      "showInNavigator": true,
+      "color": "#689199",
+      "id": "BS0602_7",
+      "valueSuffix": "Gigawattstunden",
+      "visible": true
     }
   ]
 };}());

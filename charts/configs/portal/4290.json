@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E km\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -168,10 +168,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 8,
+    "ceiling": 9,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -241,7 +242,7 @@
       }
     },
     "series": {
-      "stacking": "normal",
+      "stacking": null,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -321,7 +322,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": "normal"
+      "stacking": null
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -333,8 +334,7 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
+      "stacking": null,
       "type": "column",
       "showInNavigator": true,
       "name": "Ersteingriff",
@@ -350,14 +350,14 @@
         0.71,
         0.71,
         0.75,
+        0.79,
         0.79
       ],
       "visible": true
     },
     {
       "includeInCSVExport": true,
-      "stacking": "normal",
-      "stack": "BS",
+      "stacking": null,
       "type": "column",
       "showInNavigator": true,
       "name": "Nachpflege",
@@ -373,7 +373,8 @@
         0.79,
         0.83,
         0.93,
-        0.97
+        0.97,
+        1
       ],
       "visible": true
     }
