@@ -80,6 +80,7 @@ npm run build
 | hideUnterthema | Portal | [Example](https://statabs.github.io/indikatoren/?hideUnterthema=true) | false | Hides the Unterthema filter control. 
 | hideRaeumlicheGliederung | Portal | [Example](https://statabs.github.io/indikatoren/?hideRaeumlicheGliederung=true) | false | Hides the Räumliche Gliederung filter control. 
 | hideDarstellungsart | Portal | [Example](https://statabs.github.io/indikatoren/?hideDarstellungsart=true) | false | Hides the Darstellungsart filter control. 
+| showLastUpdatedSets | Portal | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&showLastUpdatedSets=true) | false | Shows the table containing the last few updated indikatorensets. 
 | id | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401) |  | Defines the id of the chart to be displayed. 
 | hideHeaeder | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideHeader=true) | false | Hides the header containing bs.ch logo, StatA text and Link to Indikatorenportal, decreases left margin. 
 | hideTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideTitle=true) | false | Hides the chart Title in the html text below the chart. 
@@ -89,7 +90,6 @@ npm run build
 | hideErlaeuterungenTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideErlaeuterungenTitle=true) | false | Hides the Erlaeuterungen Title but leaves the Lesehilfe text. 
 | hideLinks | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinks=true) | false | Hides the Links title and list. 
 | hideLinksTitle | chart-details.html | [Example](https://statabs.github.io/indikatoren/chart-details.html?id=2401&hideLinksTitle=true) | false | Hides the Links Title but leaves the Link list. 
-
 
 
 
