@@ -1,20 +1,33 @@
 (function(){
     return {
-  "xAxis": {
+      plotOptions: {
+        series: {
+            pointPadding: 0,
+            borderWidth: 0
+        }
+    },
+  "xAxis": {    "labels": {
+         "formatter": function() {
+            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}},
     "type": "category"    
   },
-  "yAxis": {
-    "labels": {
+  "yAxis": {"labels": {
+
       "format": "{value}%"
     }    
   },
   "series": [
-    {
-      "color": "#A8C4CB",
+   {
+      "color": "#FABD24",
+      "index": 2
+
+    },
+       {
+      "color": "#007A2F",
       "index": 1
     },
     {
-      "color": "#256370",
+      "color": "#73B97C",
       "index": 0
     }
   ],

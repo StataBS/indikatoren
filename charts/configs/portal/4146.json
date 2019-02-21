@@ -7,18 +7,6 @@
       "pointWidth": "10",
       "data": [
         [
-          1970,
-          21914
-        ],
-        [
-          1980,
-          26125
-        ],
-        [
-          1990,
-          26931
-        ],
-        [
           2000,
           28137
         ],
@@ -77,32 +65,24 @@
         [
           2017,
           32045
+        ],
+        [
+          2018,
+          32285
         ]
       ],
-      "name": "4 Zimmer u. m."
+      "name": "4 Zimmer u.m."
     },
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+      "type": "scatter",
       "yAxis": 1,
       "shadow": true,
       "tooltip": {
         "valueDecimals": 1
       },
       "data": [
-        [
-          1970,
-          23.942138557178
-        ],
-        [
-          1980,
-          26.45703579928
-        ],
-        [
-          1990,
-          26.427295743135
-        ],
         [
           2000,
           27.03089574607
@@ -162,6 +142,10 @@
         [
           2017,
           29.267513014887
+        ],
+        [
+          2018,
+          29.233067729083
         ]
       ],
       "name": "Anteil in Prozent"
@@ -228,7 +212,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -246,7 +230,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -307,7 +291,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-29"
   },
   "legend": {
     "symbolRadius": 0,

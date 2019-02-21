@@ -7540,7 +7540,7 @@
 					
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[6], chart.series[8]];
+					var pieSeries = [chart.series[3], chart.series[4], chart.series[5], chart.series[6], chart.series[7], chart.series[8]];
 
 					//pie diameters in px
 					var maxPieDiameter = 15;
@@ -7640,7 +7640,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-4"
   },
   "colorAxis": {
     "min": 0,

@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T17:10:53.5353",
+		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -226,7 +226,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
@@ -236,34 +236,37 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2014 war die Nettowohnungsproduktion überdurchschnittlich hoch. Dazu beigetragen hat eine hohe Neubauproduktion, ein positiver Umbausaldo und mit Ausnahme von 2015 eine niedrige Anzahl von Abbrüchen.",
+		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_008",
 		"parentId": 4135,
-		"children": [
-			"6248"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5816,
-		"darstellungsart": "Grafik"
+		"data-id": 4135,
+		"chart-id": 4135,
+		"filter": "",
+		"id": 5816
 	},
 	{
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel von 2008 bis 2017",
-		"kuerzel": "I.09.1.05817",
+		"subtitle": "nach Wohnviertel von 2009 bis 2018",
+		"kuerzel": "I.09.1.5817",
 		"kuerzelKunde": "ST 4-9",
 		"description": "Nettowohnungsproduktion",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -272,15 +275,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2019-02-04T09:55:54.5454",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 30% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Nettoproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 25% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
@@ -290,11 +295,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5817,
-		"darstellungsart": "Grafik"
+		"data-id": 5817,
+		"chart-id": 5817,
+		"filter": "",
+		"id": 5817
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
@@ -638,8 +646,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"subtitle": "",
-		"kuerzel": "I.01.1.06214",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.6214",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"thema": "01 Bevölkerung",
@@ -648,15 +656,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2019-02-04T09:56:47.4747",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2017 mit rund 199 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf gut 109 000 Wohnungen (+30 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2018 mit rund 200 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf gut 110 000 Wohnungen (+31 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -667,11 +677,14 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6214,
-		"darstellungsart": "Grafik"
+		"data-id": 6214,
+		"chart-id": 6214,
+		"filter": "",
+		"id": 6214
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",

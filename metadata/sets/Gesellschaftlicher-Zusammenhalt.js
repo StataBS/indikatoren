@@ -2,7 +2,7 @@ var indikatorensetData = [
 	{
 		"title": "Erhaltenene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.2.04716",
+		"kuerzel": "I.50.2.4716",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltenene Hilfeleistungen",
 		"thema": "50 Befragungen",
@@ -11,27 +11,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T13:22:02.022",
+		"aktualisierungsdatum": "2019-01-16T08:56:44.4444",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2013 erhielten 39,7% der Befragten von Freunden oder Bekannten Hilfeleistungen (2009: 46,2%), 28,5% von den Nachbarn (2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2013 12,1% der Befragten, 2009 waren es 13,3%.",
-		"erlaeuterungen": "2013: N=3119; 2009: N=2231",
+		"lesehilfe": "2017 erhielten 42,4% der Befragten von Freunden oder Bekannten Hilfeleistungen (2013: 39,7%; 2009: 46,2%), 30,5% von den Nachbarn (2013: 28,5%; 2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2017 11,6% der Befragten, 2013 waren es 12,1%, 2009 13,3%.",
+		"erlaeuterungen": "2017: N=1665; 2013: N=3119; 2009: N=2231",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74c-e"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F76c-e"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4716,
-		"darstellungsart": "Grafik"
+		"data-id": 4716,
+		"chart-id": 4716,
+		"filter": "",
+		"id": 4716
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
@@ -256,8 +261,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
-		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurück denken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
-		"kuerzel": "I.50.2.04848",
+		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+		"kuerzel": "I.50.2.4848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
 		"thema": "50 Befragungen",
@@ -266,32 +271,37 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2019-01-16T16:13:02.022",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte der Befragten haben 2009 und 2013 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies der deutlich grösste Anteil.",
+		"lesehilfe": "Mehr als die Hälfte der Befragten haben 2017 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben, 2009 und 2013 waren es jeweils knapp die Hälfte. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies in allen Befragungsjahren der deutlich grösste Anteil.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F72a-g"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74a-g"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4848,
-		"darstellungsart": "Grafik"
+		"data-id": 4848,
+		"chart-id": 4848,
+		"filter": "",
+		"id": 4848
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
-		"kuerzel": "I.50.2.04849",
+		"kuerzel": "I.50.2.4849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
 		"thema": "50 Befragungen",
@@ -300,15 +310,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
+		"aktualisierungsdatum": "2019-01-28T16:38:28.2828",
 		"stufe1": "Kernbereich 1: Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2009 gaben 90,4% und 2013 89,6% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
+		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
 		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -316,11 +328,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4849,
-		"darstellungsart": "Grafik"
+		"data-id": 4849,
+		"chart-id": 4849,
+		"filter": "",
+		"id": 4849
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",

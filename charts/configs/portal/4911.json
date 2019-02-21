@@ -74,6 +74,10 @@
         [
           2017,
           0.8
+        ],
+        [
+          2018,
+          1.1
         ]
       ],
       "name": "Basler Index"
@@ -152,6 +156,10 @@
         [
           2017,
           0.5
+        ],
+        [
+          2018,
+          0.9
         ]
       ],
       "name": "Landesindex"
@@ -190,7 +198,7 @@
     },
     "renderTo": "container-4911",
     "type": "column",
-    "marginBottom": 65,
+    "marginBottom": 80,
     "spacingBottom": 50
   },
   "plotOptions": {
@@ -278,7 +286,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
   },
   "legend": {
     "symbolRadius": 0,

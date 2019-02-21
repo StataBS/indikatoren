@@ -44,7 +44,7 @@ filePaths.forEach(filePath => {
             js2svg  : { pretty: true, indent: 2 }
         })
         .then(function(result) {
-            console.log('Optimized file ' + filePath + '...');
+            //console.log('Optimized file ' + filePath + '...');
         })
         .catch(function(error){
             console.log(error);

@@ -4,51 +4,46 @@
       "color": "#73b97c",
       "index": 0,
       "type": "column",
-      "pointWidth": "10",
+      "pointWidth": 8,
+      "tooltip": {
+        "valueDecimals": 0
+      },
       "data": [
         [
-          1980,
-          10090
-        ],
-        [
           1990,
-          10180
+          9588
         ],
         [
           2000,
-          10586
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2010,
-          10713
+          9677
         ],
         [
           2012,
-          null
+          10392
         ],
         [
           2013,
-          10756
+          10383
         ],
         [
           2014,
-          10764
+          10393
         ],
         [
           2015,
-          10814
+          10359
         ],
         [
           2016,
-          11073
+          10566
         ],
         [
           2017,
-          11151
+          10588
+        ],
+        [
+          2018,
+          10662
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen"
@@ -56,56 +51,54 @@
     {
       "color": "#cd9c00",
       "index": 1,
-      "type": "line",
+      "type": "scatter",
+      "marker": {
+        "symbol": "dot",
+        "radius": 5
+      },
       "yAxis": 1,
       "connectNulls": true,
       "tooltip": {
-        "valueDecimals": 2
+        "valueDecimals": 1,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
-          1980,
-          10.218238898172
-        ],
-        [
           1990,
-          10.048168035375
+          9.714088873579
         ],
         [
           2000,
-          10.322769380789
-        ],
-        [
-          2006,
-          null
-        ],
-        [
-          2010,
-          10.176495174405
+          10.277733524507
         ],
         [
           2012,
-          null
+          10.583131352221
         ],
         [
           2013,
-          10.127392733059
+          10.518371440438
         ],
         [
           2014,
-          10.064045626665
+          10.551269035532
         ],
         [
           2015,
-          10.014910306633
+          10.549094686246
         ],
         [
           2016,
-          10.178325213714
+          10.730607519346
         ],
         [
           2017,
-          10.184491734404
+          10.762787671789
+        ],
+        [
+          2018,
+          10.800046192183
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"
@@ -173,7 +166,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -191,7 +184,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 5
+    "tickInterval": 1
   },
   "yAxis": [
     {
@@ -216,13 +209,13 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.f}%",
         "style": {
           "color": "#000000"
         }
       },
       "min": 0,
-      "max": 24,
+      "max": 25,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -246,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-29"
   },
   "legend": {
     "symbolRadius": 0,
@@ -259,7 +252,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "valueDecimals": 1
   },
   "exporting": {
     "filename": 4143

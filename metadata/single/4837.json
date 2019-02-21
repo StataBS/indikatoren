@@ -8,7 +8,7 @@
 "unterthema":"Erwerbspersonen ",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:37.3737",
+"aktualisierungsdatum":"2018-06-21T10:59:40.4040",
 "stufe1":"Teil 2: Rang-Grafiken",
 "stufe2":"Wirtschaft und Arbeit",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
 "erlaeuterungen":"Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
 "template":"dotplot",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":["5124"],
 "renderLink":["5124"],
 "quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4837, 
+"chart-id":4837, 
+"filter":""
 }

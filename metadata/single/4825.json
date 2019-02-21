@@ -8,7 +8,7 @@
 "unterthema":"Haushalte",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-06-14T09:46:37.3737",
+"aktualisierungsdatum":"2018-06-21T10:59:37.3737",
 "stufe1":"Teil 2: Rang-Grafiken",
 "stufe2":"Gesellschaft und Soziales",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 "erlaeuterungen":"Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 "template":"dotplot",
+"darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":["5112"],
 "renderLink":["5112"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4825, 
+"chart-id":4825, 
+"filter":""
 }

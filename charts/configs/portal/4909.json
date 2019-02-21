@@ -151,6 +151,10 @@
         [
           2017,
           161.1
+        ],
+        [
+          2018,
+          163
         ]
       ],
       "name": "Jahresmittel"
@@ -205,7 +209,8 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "valueDecimals": 1
   },
   "yAxis": {
     "min": 0,
@@ -252,7 +257,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
   },
   "legend": {
     "enabled": false,
@@ -268,17 +273,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "y": -10,
-        "enabled": false,
-        "formatter": function () {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.x === first.x || this.x === last.x) {
-              return Highcharts.numberFormat(this.y, 0  , ",", " ");
-            }
-          }
       }
     }
   },

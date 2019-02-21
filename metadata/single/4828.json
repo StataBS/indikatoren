@@ -1,6 +1,6 @@
 {"title":"Sesshaftigkeit",
 "subtitle":"Stand: 2017",
-"kuerzel":"I.01.1.04828",
+"kuerzel":"I.01.1.4828",
 "kuerzelKunde":"GS-7.A",
 "description":"Sesshaftigkeit",
 "id":4828,
@@ -17,6 +17,8 @@
 "lesehilfe":"Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
 "erlaeuterungen":"Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
+"darstellungsart":"Grafik",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"02_01_00_00_00_007",
@@ -24,5 +26,9 @@
 "children":["5115"],
 "renderLink":["5115"],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4828, 
+"chart-id":4828, 
+"filter":""
 }

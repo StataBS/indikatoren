@@ -19,7 +19,7 @@
     "tickInterval": 1
   },  
   "yAxis": {
-     //tickInterval: 60000,
+    tickAmount: 5,
     "labels": {
       "format": "{value:,.0f}",
     },

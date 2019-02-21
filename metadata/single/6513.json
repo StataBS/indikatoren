@@ -8,14 +8,14 @@
 "unterthema":"Familienbefragung",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:04.044",
+"aktualisierungsdatum":"2019-01-18T11:52:56.5656",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2013 haben 81% der befragten nur deutschsprechenden Familien angegeben, dass sie die Elternbildungsangebote kennen. Bei Familien, welche nur andere Sprachen als Deutsch sprechen, lag dieser Anteil mit 50% deutlich tiefer. Bei Familien, welche Deutsch und eine andere Sprache sprechen, liegt der Anteil bei 66%. 24% der nur deutschsprechenden Familien haben diese Beratung auch genutzt. Bei Familien, welche nur eine andere Sprache als Deutsch sprechen, nutzten lediglich 10% dieses Angebot.",
-"erlaeuterungen":"Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009 und 2013 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2013 mehr als 2 200 Familien an der schriftlichen Befragung teilgenommen.",
+"lesehilfe":"Im Jahr 2017 haben 79,9% der befragten nur deutschsprechenden Familien angegeben, dass sie die Elternbildungsangebote kennen. Bei Familien, welche nur andere Sprachen als Deutsch sprechen, lag dieser Anteil mit 44,3% deutlich tiefer. Bei Familien, welche Deutsch und eine andere Sprache sprechen, liegt der Anteil bei 64,1%. 21,5% der nur deutschsprechenden Familien haben diese Beratung auch genutzt. Bei Familien, welche nur eine andere Sprache als Deutsch sprechen, nutzten 11,8% dieses Angebot. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird auch weniger genutzt.",
+"erlaeuterungen":"Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
 "template":"befragungen001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6745"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6513, 
+"chart-id":6513, 
+"filter":""
 }

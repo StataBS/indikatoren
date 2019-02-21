@@ -912,6 +912,9 @@ id | visible | visibleInPortal | indikatorenset
 6771 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6778 | true | true | Gefragte Karten
+6893 | true | true | Wohnviertel
+6894 | true | true | Wohnviertel
+6895 | true | true | Wohnviertel
 6896 | true | true | Steuern
 6897 | true | true | Steuern
 6898 | true | true | Steuern
@@ -929,10 +932,74 @@ id | visible | visibleInPortal | indikatorenset
 6910 | true | true | Steuern
 6911 | true | true | Steuern
 6912 | true | true | Steuern
+6915 | true | true | Wohnviertel
+6916 | true | true | Wohnviertel
+6917 | true | true | Wohnviertel
+6918 | true | true | Wohnviertel
+6919 | true | true | Wohnviertel
+6920 | true | true | Wohnviertel
+6921 | true | true | Wohnviertel
+6922 | true | true | Wohnviertel
+6923 | true | true | Wohnviertel
+6924 | true | true | Wohnviertel
+6925 | true | true | Wohnviertel
+6926 | true | true | Wohnviertel
+6927 | true | true | Wohnviertel
+6928 | true | true | Wohnviertel
+6929 | true | true | Wohnviertel
+6930 | true | true | Wohnviertel
+6931 | true | true | Wohnviertel
+6932 | true | true | Wohnviertel
+6933 | true | true | Wohnviertel
+6935 | true | true | Wohnviertel
+6936 | true | true | Wohnviertel
+6937 | true | true | Wohnviertel
+6938 | true | true | Wohnviertel
+6939 | true | true | Wohnviertel
+6940 | true | true | Wohnviertel
+6941 | true | true | Wohnviertel
+6942 | true | true | Wohnviertel
+6943 | true | true | Wohnviertel
+6944 | true | true | Wohnviertel
+6945 | true | true | Wohnviertel
+6946 | true | true | Wohnviertel
+6947 | true | true | Wohnviertel
+6948 | true | true | Wohnviertel
+6949 | true | true | Wohnviertel
+6951 | true | true | Wohnviertel
+6952 | true | true | Wohnviertel
+6953 | true | true | Wohnviertel
+6954 | true | true | Wohnviertel
+6955 | true | true | Wohnviertel
+6956 | true | true | Wohnviertel
+6957 | true | true | Wohnviertel
+6958 | true | true | Wohnviertel
+6959 | true | true | Wohnviertel
+6960 | true | true | Wohnviertel
+6961 | true | true | Wohnviertel
+6962 | true | true | Wohnviertel
+6963 | true | true | Wohnviertel
+6964 | true | true | Wohnviertel
+6965 | true | true | Wohnviertel
+6966 | true | true | Wohnviertel
+6967 | true | true | Wohnviertel
+6968 | true | true | Wohnviertel
+6969 | true | true | Wohnviertel
+6970 | true | true | Wohnviertel
+6971 | true | true | Wohnviertel
+6972 | true | true | Wohnviertel
+6973 | true | true | Wohnviertel
+6974 | true | true | Wohnviertel
+6975 | true | true | Wohnviertel
+6976 | true | true | Wohnviertel
 6980 | true | true | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
 6983 | true | true | Steuern
+6988 | true | true | Wohnviertel
+6989 | true | false | Wohnviertel
+6990 | true | true | Wohnviertel
+7432 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
