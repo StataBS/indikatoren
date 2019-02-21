@@ -173,7 +173,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.15.6.4826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
@@ -183,14 +183,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-04-16T11:22:54.5454",
+		"aktualisierungsdatum": "2019-02-20T09:15:12.1212",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote ist im Wohnviertel Bachletten am höchsten, im Wohnviertel Klybeck am niedrigsten.",
-		"erlaeuterungen": "Seit 2016/2017 Anteil der Sek P Schüler (Jahre davor: Anteil der Gymnasiasten) an allen Schülern der 10. und 11. Schulstufe des Wohnviertels an öffentlichen Schulen und mit Elternwohnort Basel-Stadt (Schulstufen einschliesslich zweier obligatorischer Kindergartenstufen gezählt).",
+		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck rangiert unverändert an letzter Stelle, wohingegen am anderen Ende der Liste das Wettsteinviertel das Bruderholz von Position 1 verdrängt.",
+		"erlaeuterungen": "Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Seit 2017/18 aufgrund der HarmoS-Anpassungen Anteil der Sek P-Schülerinnen und -schüler an allen Sek-Schülerinnen und Schülern. Im Übergangsjahr 2016/17 für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",

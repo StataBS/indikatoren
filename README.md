@@ -4,7 +4,7 @@ Find and display statistical indicators from the canton of Basel-Stadt, Switzerl
 ## Update charts from ftp server
 - In a terminal window within c9.io, run the following command: 
 ```javascript
-npm run build:deployNewCharts
+npm run deployNewCharts
 ```
 - Build, commit and push as explained further down. 
 
