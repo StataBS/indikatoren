@@ -1,0 +1,995 @@
+{
+  "series": [
+    {
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "circle"
+      },
+      "color": "#662673",
+      "yAxis": 0,
+      "legendIndex": 3,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{point.key}\u003Ctable\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1982",
+          null
+        ],
+        [
+          "1983",
+          104135
+        ],
+        [
+          "1984",
+          null
+        ],
+        [
+          "1985",
+          120773
+        ],
+        [
+          "1986",
+          null
+        ],
+        [
+          "1987",
+          144559
+        ],
+        [
+          "1988",
+          null
+        ],
+        [
+          "1989",
+          152497
+        ],
+        [
+          "1990",
+          null
+        ],
+        [
+          "1991",
+          143054
+        ],
+        [
+          "1992",
+          null
+        ],
+        [
+          "1993",
+          143144
+        ],
+        [
+          "1994",
+          null
+        ],
+        [
+          "1995",
+          153430
+        ],
+        [
+          "1996",
+          null
+        ],
+        [
+          "1997",
+          120000
+        ],
+        [
+          "1998",
+          71312
+        ],
+        [
+          "1999",
+          110000
+        ],
+        [
+          "2000",
+          66348
+        ],
+        [
+          "2001",
+          104167
+        ],
+        [
+          "2002",
+          60540
+        ],
+        [
+          "2003",
+          92990
+        ],
+        [
+          "2004",
+          null
+        ],
+        [
+          "2005",
+          110000
+        ],
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          119774
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          null
+        ],
+        [
+          "2010",
+          108269
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          115111
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2014",
+          104156
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          104978
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2018",
+          97919
+        ]
+      ],
+      "name": "Besucher Swissbau",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "color": "#FFBB58",
+      "yAxis": 0,
+      "legendIndex": 0,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1982",
+          null
+        ],
+        [
+          "1983",
+          null
+        ],
+        [
+          "1984",
+          77405
+        ],
+        [
+          "1985",
+          81247
+        ],
+        [
+          "1986",
+          91151
+        ],
+        [
+          "1987",
+          85317
+        ],
+        [
+          "1988",
+          88406
+        ],
+        [
+          "1989",
+          92338
+        ],
+        [
+          "1990",
+          90563
+        ],
+        [
+          "1991",
+          90689
+        ],
+        [
+          "1992",
+          86058
+        ],
+        [
+          "1993",
+          79067
+        ],
+        [
+          "1994",
+          81224
+        ],
+        [
+          "1995",
+          80588
+        ],
+        [
+          "1996",
+          77846
+        ],
+        [
+          "1997",
+          74486
+        ],
+        [
+          "1998",
+          76767
+        ],
+        [
+          "1999",
+          80400
+        ],
+        [
+          "2000",
+          85000
+        ],
+        [
+          "2001",
+          86700
+        ],
+        [
+          "2002",
+          82500
+        ],
+        [
+          "2003",
+          64350
+        ],
+        [
+          "2004",
+          89350
+        ],
+        [
+          "2005",
+          89700
+        ],
+        [
+          "2006",
+          94200
+        ],
+        [
+          "2007",
+          101700
+        ],
+        [
+          "2008",
+          106800
+        ],
+        [
+          "2009",
+          93900
+        ],
+        [
+          "2010",
+          100700
+        ],
+        [
+          "2011",
+          103200
+        ],
+        [
+          "2012",
+          104300
+        ],
+        [
+          "2013",
+          122000
+        ],
+        [
+          "2014",
+          118000
+        ],
+        [
+          "2015",
+          150000
+        ],
+        [
+          "2016",
+          145000
+        ],
+        [
+          "2017",
+          135000
+        ],
+        [
+          "2018",
+          135000
+        ]
+      ],
+      "name": "Besucher Baselworld",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "color": "#008AC3",
+      "yAxis": 0,
+      "legendIndex": 2,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1982",
+          49002
+        ],
+        [
+          "1983",
+          54141
+        ],
+        [
+          "1984",
+          49136
+        ],
+        [
+          "1985",
+          53614
+        ],
+        [
+          "1986",
+          54386
+        ],
+        [
+          "1987",
+          61365
+        ],
+        [
+          "1988",
+          60244
+        ],
+        [
+          "1989",
+          58106
+        ],
+        [
+          "1990",
+          60621
+        ],
+        [
+          "1991",
+          35385
+        ],
+        [
+          "1992",
+          38773
+        ],
+        [
+          "1993",
+          41310
+        ],
+        [
+          "1994",
+          44006
+        ],
+        [
+          "1995",
+          50000
+        ],
+        [
+          "1996",
+          46000
+        ],
+        [
+          "1997",
+          47000
+        ],
+        [
+          "1998",
+          51000
+        ],
+        [
+          "1999",
+          52000
+        ],
+        [
+          "2000",
+          53000
+        ],
+        [
+          "2001",
+          55000
+        ],
+        [
+          "2002",
+          50000
+        ],
+        [
+          "2003",
+          50000
+        ],
+        [
+          "2004",
+          52000
+        ],
+        [
+          "2005",
+          56000
+        ],
+        [
+          "2006",
+          56000
+        ],
+        [
+          "2007",
+          60000
+        ],
+        [
+          "2008",
+          60000
+        ],
+        [
+          "2009",
+          61000
+        ],
+        [
+          "2010",
+          62500
+        ],
+        [
+          "2011",
+          65000
+        ],
+        [
+          "2012",
+          65000
+        ],
+        [
+          "2013",
+          86000
+        ],
+        [
+          "2014",
+          92000
+        ],
+        [
+          "2015",
+          98000
+        ],
+        [
+          "2016",
+          95000
+        ],
+        [
+          "2017",
+          95000
+        ],
+        [
+          "2018",
+          95000
+        ]
+      ],
+      "name": "Besucher Art Basel",
+      "turboThreshold": 0
+    },
+    {
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "circle"
+      },
+      "color": "#73B97C",
+      "yAxis": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{point.key}\u003Ctable\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1982",
+          null
+        ],
+        [
+          "1983",
+          62075
+        ],
+        [
+          "1984",
+          null
+        ],
+        [
+          "1985",
+          67378
+        ],
+        [
+          "1986",
+          null
+        ],
+        [
+          "1987",
+          95113
+        ],
+        [
+          "1988",
+          null
+        ],
+        [
+          "1989",
+          84222
+        ],
+        [
+          "1990",
+          null
+        ],
+        [
+          "1991",
+          83594
+        ],
+        [
+          "1992",
+          null
+        ],
+        [
+          "1993",
+          86445
+        ],
+        [
+          "1994",
+          null
+        ],
+        [
+          "1995",
+          81895
+        ],
+        [
+          "1996",
+          null
+        ],
+        [
+          "1997",
+          76582
+        ],
+        [
+          "1998",
+          null
+        ],
+        [
+          "1999",
+          80023
+        ],
+        [
+          "2000",
+          null
+        ],
+        [
+          "2001",
+          78389
+        ],
+        [
+          "2002",
+          null
+        ],
+        [
+          "2003",
+          80432
+        ],
+        [
+          "2004",
+          null
+        ],
+        [
+          "2005",
+          78052
+        ],
+        [
+          "2006",
+          null
+        ],
+        [
+          "2007",
+          80240
+        ],
+        [
+          "2008",
+          null
+        ],
+        [
+          "2009",
+          78074
+        ],
+        [
+          "2010",
+          null
+        ],
+        [
+          "2011",
+          74727
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2013",
+          75781
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2015",
+          70927
+        ],
+        [
+          "2016",
+          null
+        ],
+        [
+          "2017",
+          70153
+        ],
+        [
+          "2018",
+          null
+        ]
+      ],
+      "name": "Besucher Igeho",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "color": "#68AB2B",
+      "yAxis": 1,
+      "legendIndex": 3,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "1982",
+          416000
+        ],
+        [
+          "1983",
+          425000
+        ],
+        [
+          "1984",
+          454000
+        ],
+        [
+          "1985",
+          436000
+        ],
+        [
+          "1986",
+          457000
+        ],
+        [
+          "1987",
+          497000
+        ],
+        [
+          "1988",
+          542000
+        ],
+        [
+          "1989",
+          478000
+        ],
+        [
+          "1990",
+          479000
+        ],
+        [
+          "1991",
+          450000
+        ],
+        [
+          "1992",
+          448000
+        ],
+        [
+          "1993",
+          420000
+        ],
+        [
+          "1994",
+          439000
+        ],
+        [
+          "1995",
+          400000
+        ],
+        [
+          "1996",
+          400000
+        ],
+        [
+          "1997",
+          400000
+        ],
+        [
+          "1998",
+          415000
+        ],
+        [
+          "1999",
+          428000
+        ],
+        [
+          "2000",
+          403000
+        ],
+        [
+          "2001",
+          347000
+        ],
+        [
+          "2002",
+          371000
+        ],
+        [
+          "2003",
+          296800
+        ],
+        [
+          "2004",
+          332422
+        ],
+        [
+          "2005",
+          333458
+        ],
+        [
+          "2006",
+          336974
+        ],
+        [
+          "2007",
+          328712
+        ],
+        [
+          "2008",
+          302415
+        ],
+        [
+          "2009",
+          303288
+        ],
+        [
+          "2010",
+          301520
+        ],
+        [
+          "2011",
+          302846
+        ],
+        [
+          "2012",
+          304200
+        ],
+        [
+          "2013",
+          159824
+        ],
+        [
+          "2014",
+          163642
+        ],
+        [
+          "2015",
+          132234
+        ],
+        [
+          "2016",
+          131893
+        ],
+        [
+          "2017",
+          144365
+        ],
+        [
+          "2018",
+          123746
+        ]
+      ],
+      "name": "Besucher Muba (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7551"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung der Besucherzahl ausgewählter Messen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": {
+        "enabled": false
+      }
+    },
+    {
+      "opposite": true,
+      "title": {
+        "enabled": false
+      },
+      "min": 0,
+      "gridLineWidth": 0,
+      "labels": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Messe Schweiz.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "itemDistance": 0,
+    "itemWidth": 200,
+    "width": 400
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7551
+  }
+}

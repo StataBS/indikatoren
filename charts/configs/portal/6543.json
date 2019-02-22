@@ -4,6 +4,18 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
+          1934,
+          1.785266799
+        ],
+        [
+          1935,
+          1.84307021
+        ],
+        [
+          1936,
+          1.816065743
+        ],
+        [
           1937,
           1.793760906
         ],
@@ -326,13 +338,29 @@
         [
           2017,
           1.617925338
+        ],
+        [
+          2018,
+          1.688490323
         ]
       ],
-      "name": "Schweiz"
+      "name": "Inland"
     },
     {
       "color": "rgb(105, 146, 155)",
       "data": [
+        [
+          1934,
+          1.427478651
+        ],
+        [
+          1935,
+          1.466729663
+        ],
+        [
+          1936,
+          1.452496727
+        ],
         [
           1937,
           1.34582531
@@ -656,6 +684,10 @@
         [
           2017,
           1.974916746
+        ],
+        [
+          2018,
+          1.97159699
         ]
       ],
       "name": "Ausland"
@@ -697,7 +729,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der mittleren Aufenthaltsdauer"
+    "text": "Mittlere Aufenthaltsdauer pro Jahr"
   },
   "subtitle": {
     "style": {
@@ -706,7 +738,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Tagen",
+    "text": "in Tagen, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -742,7 +774,7 @@
       "step": 1,
       "formatter": function (){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
           return this.value;
         }
       }
@@ -764,7 +796,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "enabled": true,

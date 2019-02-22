@@ -4,52 +4,52 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          "Jan 17",
-          1.55341127
+          "Jan 18",
+          1.899316149
         ],
         [
-          "Feb 17",
-          1.601740656
+          "Feb 18",
+          1.800411205
         ],
         [
-          "Mrz 17",
-          2.038599159
+          "Mrz 18",
+          1.928760855
         ],
         [
-          "Apr 17",
-          1.509915534
+          "Apr 18",
+          1.75177026
         ],
         [
-          "Mai 17",
-          1.644050504
+          "Mai 18",
+          1.577965816
         ],
         [
-          "Jun 17",
-          1.62282648
+          "Jun 18",
+          1.724162541
         ],
         [
-          "Jul 17",
-          1.540796345
+          "Jul 18",
+          1.631506324
         ],
         [
-          "Aug 17",
-          1.691800443
+          "Aug 18",
+          1.744631725
         ],
         [
-          "Sep 17",
-          1.580443181
+          "Sep 18",
+          1.634043721
         ],
         [
-          "Okt 17",
-          1.526296726
+          "Okt 18",
+          1.56523174
         ],
         [
-          "Nov 17",
-          1.650750895
+          "Nov 18",
+          1.591991342
         ],
         [
-          "Dez 17",
-          1.472958864
+          "Dez 18",
+          1.568057428
         ]
       ],
       "name": "Inland",
@@ -59,52 +59,52 @@
       "color": "rgb(105, 146, 155)",
       "data": [
         [
-          "Jan 17",
-          1.960060379
+          "Jan 18",
+          2.004470289
         ],
         [
-          "Feb 17",
-          2.011048117
+          "Feb 18",
+          1.980260682
         ],
         [
-          "Mrz 17",
-          2.407340171
+          "Mrz 18",
+          2.200136709
         ],
         [
-          "Apr 17",
-          1.91702465
+          "Apr 18",
+          1.980517696
         ],
         [
-          "Mai 17",
-          2.015095598
+          "Mai 18",
+          1.880069394
         ],
         [
-          "Jun 17",
-          2.097305982
+          "Jun 18",
+          2.073554038
         ],
         [
-          "Jul 17",
-          1.852406933
+          "Jul 18",
+          1.819282426
         ],
         [
-          "Aug 17",
-          1.808676283
+          "Aug 18",
+          1.921187728
         ],
         [
-          "Sep 17",
-          1.922955642
+          "Sep 18",
+          1.962502032
         ],
         [
-          "Okt 17",
-          1.949786636
+          "Okt 18",
+          2.020176055
         ],
         [
-          "Nov 17",
-          1.985580544
+          "Nov 18",
+          1.956046029
         ],
         [
-          "Dez 17",
-          1.869166508
+          "Dez 18",
+          1.92118609
         ]
       ],
       "name": "Ausland",
@@ -164,7 +164,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Aufenthaltsdauer im Monatsmittel"
+    "text": "Mittlere Aufenthaltsdauer pro Monat"
   },
   "subtitle": {
     "style": {
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Tagen, Stand: 2017",
+    "text": "in Tagen, Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "enabled": true,
@@ -231,20 +231,9 @@
         "enabled": false
       }
     },
-    "line": {
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function (){
-          //only create dataLabels for max or min value within a series
-          if (this.y == Math.max.apply(null, this.series.yData) || this.y == Math.min.apply(null, this.series.yData)){
-            return Highcharts.numberFormat(this.y, 2, ",", " ");
-          }
-        }
-      },
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
-      }
+    "marker": {
+      "enabled": false,
+      "symbol": "circle"
     }
   },
   "customFunctions": {

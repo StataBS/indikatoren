@@ -1,0 +1,355 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "data": [
+        [
+          1512086400000,
+          0.04
+        ],
+        [
+          1514764800000,
+          0.038243
+        ],
+        [
+          1517443200000,
+          0.03686
+        ],
+        [
+          1519862400000,
+          0.036457
+        ],
+        [
+          1522540800000,
+          0.034762
+        ],
+        [
+          1525132800000,
+          0.033541
+        ],
+        [
+          1527811200000,
+          0.032441
+        ],
+        [
+          1530403200000,
+          0.0323
+        ],
+        [
+          1533081600000,
+          0.032229
+        ],
+        [
+          1535760000000,
+          0.031563
+        ],
+        [
+          1538352000000,
+          0.031593
+        ],
+        [
+          1541030400000,
+          0.0324
+        ],
+        [
+          1543622400000,
+          0.034671
+        ]
+      ],
+      "name": "Total"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          1512086400000,
+          0.029
+        ],
+        [
+          1514764800000,
+          0.041918
+        ],
+        [
+          1517443200000,
+          0.036488
+        ],
+        [
+          1519862400000,
+          0.03171
+        ],
+        [
+          1522540800000,
+          0.030407
+        ],
+        [
+          1525132800000,
+          0.033121
+        ],
+        [
+          1527811200000,
+          0.034859
+        ],
+        [
+          1530403200000,
+          0.040506
+        ],
+        [
+          1533081600000,
+          0.040723
+        ],
+        [
+          1535760000000,
+          0.038334
+        ],
+        [
+          1538352000000,
+          0.036054
+        ],
+        [
+          1541030400000,
+          0.033013
+        ],
+        [
+          1543622400000,
+          0.033447
+        ]
+      ],
+      "name": "15-24 Jahre"
+    },
+    {
+      "color": "#71A3B5",
+      "data": [
+        [
+          1512086400000,
+          0.037
+        ],
+        [
+          1514764800000,
+          0.029306
+        ],
+        [
+          1517443200000,
+          0.028489
+        ],
+        [
+          1519862400000,
+          0.029448
+        ],
+        [
+          1522540800000,
+          0.028347
+        ],
+        [
+          1525132800000,
+          0.028062
+        ],
+        [
+          1527811200000,
+          0.02689
+        ],
+        [
+          1530403200000,
+          0.026428
+        ],
+        [
+          1533081600000,
+          0.026251
+        ],
+        [
+          1535760000000,
+          0.025576
+        ],
+        [
+          1538352000000,
+          0.02554
+        ],
+        [
+          1541030400000,
+          0.027103
+        ],
+        [
+          1543622400000,
+          0.028808
+        ]
+      ],
+      "name": "50 Jahre u.m."
+    }
+  ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+              if (this.isFirst || this.isLast) {
+                return Highcharts.dateFormat('%b %y', this.value);
+              } else {
+                return Highcharts.dateFormat('%b', this.value);
+              }
+            }
+    },
+    "tickLength": 0,
+    "tickInterval": 2592000000
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7510"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitslosenquote nach Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function (){
+          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
+        },
+    "xDateFormat": "%Y-%m"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function (){
+                return Highcharts.numberFormat((this.value*100),0)+'%'; 
+              }
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7510
+  }
+}
