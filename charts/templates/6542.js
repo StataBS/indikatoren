@@ -31,7 +31,7 @@
     series: {
         stacking: 'normal', 
         dataLabels: {
-            enabled: true,
+            enabled: false,
             format: "{point.y:,.0f}",
             style: {
                 fontSize: "11px", 

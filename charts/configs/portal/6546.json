@@ -6,6 +6,18 @@
       "legendIndex": 0,
       "data": [
         [
+          "1934",
+          131085
+        ],
+        [
+          "1935",
+          144458
+        ],
+        [
+          "1936",
+          126627
+        ],
+        [
           "1937",
           126444
         ],
@@ -328,9 +340,13 @@
         [
           "2017",
           424254
+        ],
+        [
+          "2018",
+          458003
         ]
       ],
-      "name": "Logiernächte Schweiz",
+      "name": "Logiernächte Inland",
       "turboThreshold": 0
     },
     {
@@ -338,6 +354,18 @@
       "index": 0,
       "legendIndex": 1,
       "data": [
+        [
+          "1934",
+          173176
+        ],
+        [
+          "1935",
+          159875
+        ],
+        [
+          "1936",
+          155330
+        ],
         [
           "1937",
           208288
@@ -661,6 +689,10 @@
         [
           "2017",
           903793
+        ],
+        [
+          "2018",
+          928496
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -678,7 +710,8 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 6
   },
   "chart": {
     "events": {
@@ -725,7 +758,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -764,7 +797,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "enabled": true,

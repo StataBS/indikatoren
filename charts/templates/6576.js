@@ -19,7 +19,7 @@
       },
       "yAxis": {
           reversedStacks: false, 
-          tickAmount: 7
+          tickAmount: 5
       },
       "series": [
         {
