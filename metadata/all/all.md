@@ -769,7 +769,7 @@ id | visible | visibleInPortal | indikatorenset
 6545 | true | true | Tourismus
 6546 | true | true | Tourismus
 6547 | true | true | Tourismus
-6548 | true | true | Tourismus
+6548 | false |  | Tourismus
 6549 | true | true | Tourismus
 6570 | true | true | Integration
 6574 | true | true | Nachhaltigkeit
