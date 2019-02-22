@@ -25,6 +25,7 @@
   },
   "xAxis": {
   	"type": "category",
+  	tickInterval: 6,
   },
   "legend": {
     "enabled": true,

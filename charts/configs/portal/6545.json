@@ -6,54 +6,54 @@
       "data": [
         [
           "Jan",
-          24104.9
+          25685.8
         ],
         [
           "Feb",
-          25469.2
+          26210
         ],
         [
           "Mrz",
-          31822.4
+          33022.9
         ],
         [
           "Apr",
-          26677.3
+          27485.7
         ],
         [
           "Mai",
-          28088.1
+          29564
         ],
         [
           "Jun",
-          26605.6
+          27978.8
         ],
         [
           "Jul",
-          30721.2
+          32777.4
         ],
         [
           "Aug",
-          26862.9
+          28121.6
         ],
         [
           "Sep",
-          28507.1
+          29809.4
         ],
         [
           "Okt",
-          31825.6
+          33455.7
         ],
         [
           "Nov",
-          36692.7
+          37521.3
         ],
         [
           "Dez",
-          27782.6
+          29438.4
         ]
       ],
-      "name": "Inland Ø 2008-2017",
+      "name": "Inland Ø 2009-2018",
       "turboThreshold": 0
     },
     {
@@ -62,54 +62,54 @@
       "data": [
         [
           "Jan",
-          47353.6
+          48051
         ],
         [
           "Feb",
-          54084.9
+          54961
         ],
         [
           "Mrz",
-          71295.2
+          72984
         ],
         [
           "Apr",
-          60893.6
+          61605
         ],
         [
           "Mai",
-          66409
+          67883
         ],
         [
           "Jun",
-          81801.2
+          84640
         ],
         [
           "Jul",
-          71387.7
+          73800
         ],
         [
           "Aug",
-          69790.7
+          72704.1
         ],
         [
           "Sep",
-          72359.7
+          74275.6
         ],
         [
           "Okt",
-          69725.1
+          71565
         ],
         [
           "Nov",
-          62339.9
+          64183
         ],
         [
           "Dez",
-          56186.4
+          58821
         ]
       ],
-      "name": "Ausland Ø 2008-2017",
+      "name": "Ausland Ø 2009-2018",
       "turboThreshold": 0
     },
     {
@@ -118,54 +118,54 @@
       "data": [
         [
           "Jan",
-          25114
+          36106
         ],
         [
           "Feb",
-          23741
+          35027
         ],
         [
           "Mrz",
-          45579
+          37092
         ],
         [
           "Apr",
-          32892
+          35624
         ],
         [
           "Mai",
-          38673
+          37483
         ],
         [
           "Jun",
-          31452
+          38654
         ],
         [
           "Jul",
-          37768
+          42566
         ],
         [
           "Aug",
-          31300
+          37780
         ],
         [
           "Sep",
-          35590
+          35730
         ],
         [
           "Okt",
-          42138
+          42687
         ],
         [
           "Nov",
-          44737
+          39717
         ],
         [
           "Dez",
-          35270
+          39537
         ]
       ],
-      "name": "Inland 2017",
+      "name": "Inland 2018",
       "turboThreshold": 0
     },
     {
@@ -174,54 +174,54 @@
       "data": [
         [
           "Jan",
-          48045
+          55153
         ],
         [
           "Feb",
-          55336
+          57885
         ],
         [
           "Mrz",
-          79565
+          77249
         ],
         [
           "Apr",
-          66492
+          72075
         ],
         [
           "Mai",
-          84632
+          74776
         ],
         [
           "Jun",
-          95289
+          96582
         ],
         [
           "Jul",
-          84542
+          86556
         ],
         [
           "Aug",
-          85261
+          93558
         ],
         [
           "Sep",
-          81716
+          84523
         ],
         [
           "Okt",
-          80417
+          83306
         ],
         [
           "Nov",
-          73808
+          72583
         ],
         [
           "Dez",
-          68690
+          74250
         ]
       ],
-      "name": "Ausland 2017",
+      "name": "Ausland 2018",
       "turboThreshold": 0
     }
   ],
@@ -298,7 +298,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Logiernächte nach Monat und Herkunft"
+    "text": "Logiernächte pro Monat nach Herkunft der Gäste"
   },
   "subtitle": {
     "style": {
@@ -307,7 +307,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Werte 2017 im Vergleich mit dem Mittelwert 2008 bis 2017",
+    "text": "Basel-Stadt, Werte 2018 im Vergleich mit dem Mittelwert 2009 bis 2018",
     "align": "left"
   },
   "yAxis": {
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "symbolRadius": 0,

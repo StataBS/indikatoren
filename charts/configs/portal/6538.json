@@ -5,26 +5,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          44.76971116
+          47.20136986
         ],
         [
           "3-Sterne",
-          47.83333333
+          48.52107482
         ],
         [
           "4- und 5-Sterne",
-          115.960968
+          116.2547945
         ],
         [
           "Nicht klassiert",
-          16.0941105
+          15.77727639
         ],
         [
           "Total",
-          53.56405586
+          54.38368809
         ]
       ],
-      "name": "2008",
+      "name": "2009",
       "turboThreshold": 0
     },
     {
@@ -32,26 +32,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          73.64876712
+          72.68767123
         ],
         [
           "3-Sterne",
-          62.41896733
+          63.31043203
         ],
         [
           "4- und 5-Sterne",
-          97.16518936
+          99.52667204
         ],
         [
           "Nicht klassiert",
-          28.84794521
+          28.86712329
         ],
         [
           "Total",
-          67.03637513
+          67.86625922
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     },
     {
@@ -68,26 +68,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          56.00460516
+          58.79640117
         ],
         [
           "3-Sterne",
-          53.24950868
+          54.79721855
         ],
         [
           "4- und 5-Sterne",
-          106.7646657
+          105.1212361
         ],
         [
           "Nicht klassiert",
-          16.6327658
+          17.91006708
         ],
         [
           "Total",
-          59.32856173
+          60.75878207
         ]
       ],
-      "name": "Ø 2008-2017",
+      "name": "Ø 2009-2018",
       "turboThreshold": 0
     }
   ],
@@ -171,7 +171,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Zimmer pro Betrieb",
+    "text": "Zimmer je Betrieb, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -210,7 +210,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "symbolRadius": 0,

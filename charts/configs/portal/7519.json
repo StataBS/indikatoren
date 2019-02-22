@@ -1,0 +1,162 @@
+{
+  "series": [
+    {
+      "borderWidth": 2,
+      "name": "Anteil",
+      "data": [
+        [
+          "Schweiz",
+          0.330330566
+        ],
+        [
+          "Deutschland",
+          0.141756323
+        ],
+        [
+          "Vereinigte Staaten",
+          0.102961488
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.068717684
+        ],
+        [
+          "Frankreich",
+          0.043428809
+        ],
+        [
+          "Italien",
+          0.034251016
+        ],
+        [
+          "Spanien",
+          0.0250826
+        ],
+        [
+          "Niederlande",
+          0.02185721
+        ],
+        [
+          "Indien",
+          0.017664636
+        ],
+        [
+          "China, Hongkong, Taiwan",
+          0.015162651
+        ],
+        [
+          "Übrige Länder",
+          0.198787017
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-7519"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      },
+      "colors": [
+        "#B00000",
+        "#FABD24",
+        "#68AB2B",
+        "#C4AB91",
+        "#246370",
+        "#008AC3",
+        "#FFDA80",
+        "#BAA85A",
+        "#B375AB",
+        "#FF8028",
+        "#C8C8C8"
+      ]
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Marktanteile am Übernachtungsvolumen 2018"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.percentage:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "exporting": {
+    "filename": 7519
+  }
+}

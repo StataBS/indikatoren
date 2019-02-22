@@ -1,0 +1,417 @@
+{
+  "series": [
+    {
+      "color": "rgb(168, 196, 203)",
+      "data": [
+        [
+          "Schweiz",
+          314033
+        ],
+        [
+          "Deutschland",
+          201941
+        ],
+        [
+          "Vereinigte Staaten",
+          90940
+        ],
+        [
+          "Vereinigtes Königreich",
+          78413
+        ],
+        [
+          "Frankreich",
+          48130
+        ],
+        [
+          "Italien",
+          41359
+        ],
+        [
+          "Spanien",
+          26997
+        ],
+        [
+          "Niederlande",
+          30835
+        ],
+        [
+          "Indien",
+          7511
+        ],
+        [
+          "VR China",
+          10582
+        ],
+        [
+          "Übrige Länder",
+          179601
+        ]
+      ],
+      "name": "Logiernächte 2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Schweiz",
+          458003
+        ],
+        [
+          "Deutschland",
+          196545
+        ],
+        [
+          "Vereinigte Staaten",
+          142756
+        ],
+        [
+          "Vereinigtes Königreich",
+          95277
+        ],
+        [
+          "Frankreich",
+          60214
+        ],
+        [
+          "Italien",
+          47489
+        ],
+        [
+          "Spanien",
+          34777
+        ],
+        [
+          "Niederlande",
+          30305
+        ],
+        [
+          "Indien",
+          24492
+        ],
+        [
+          "VR China",
+          21023
+        ],
+        [
+          "Übrige Länder",
+          275618
+        ]
+      ],
+      "name": "Logiernächte 2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(176, 0, 0)",
+      "type": "scatter",
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": -0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.304785207
+        ],
+        [
+          "Deutschland",
+          0.195994146
+        ],
+        [
+          "Vereinigte Staaten",
+          0.088261956
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.076103857
+        ],
+        [
+          "Frankreich",
+          0.046712645
+        ],
+        [
+          "Italien",
+          0.040141041
+        ],
+        [
+          "Spanien",
+          0.02620198
+        ],
+        [
+          "Niederlande",
+          0.029926956
+        ],
+        [
+          "Indien",
+          0.007289813
+        ],
+        [
+          "VR China",
+          0.010270376
+        ],
+        [
+          "Übrige Länder",
+          0.174312025
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2009",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(220, 68, 14)",
+      "type": "scatter",
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "pointPlacement": 0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.330330566
+        ],
+        [
+          "Deutschland",
+          0.141756323
+        ],
+        [
+          "Vereinigte Staaten",
+          0.102961488
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.068717684
+        ],
+        [
+          "Frankreich",
+          0.043428809
+        ],
+        [
+          "Italien",
+          0.034251016
+        ],
+        [
+          "Spanien",
+          0.0250826
+        ],
+        [
+          "Niederlande",
+          0.02185721
+        ],
+        [
+          "Indien",
+          0.017664636
+        ],
+        [
+          "VR China",
+          0.015162651
+        ],
+        [
+          "Übrige Länder",
+          0.198787017
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2018",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": -45
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-215, 40);
+          }
+    },
+    "type": "column",
+    "renderTo": "container-7520",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Logiernächte und Marktanteile am Übernachtungsvolumen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "tickAmount": 6,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "tickAmount": 6,
+      "tickInterval": 0.07,
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "style": {
+          "color": "#000000"
+        },
+        "formatter": function () {
+               return Highcharts.numberFormat((this.value*100), 0)+'%';
+            
+                
+            }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "useHTML": true,
+    "y": -40,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "width": 200,
+    "itemWidth": 70,
+    "labelFormatter": function (){
+        //remove text before year on each item with odd index
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return this.name.slice(-4);
+    },
+    "title": {
+      "text": "Logiernächte:\u003Cbr\u002F\u003EMarktanteile (rechte Skala):",
+      "style": {
+        "fontWeight": "normal"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 7520
+  }
+}

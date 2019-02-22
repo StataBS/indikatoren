@@ -57,21 +57,11 @@ global Highcharts
     }
   },
   plotOptions: {
-    line: {
-      dataLabels: {
-        enabled: true,
-        formatter: function(){
-          //only create dataLabels for max or min value within a series
-          if (this.y == Math.max.apply(null, this.series.yData) || this.y == Math.min.apply(null, this.series.yData)){
-            return Highcharts.numberFormat(this.y, 2, ",", " ");
-          }
-        }
-      },
-      "marker":{
+          "marker":{
         "enabled": false,
         "symbol": "circle",
       } 
     }
-  }
+  
 }
 }());
