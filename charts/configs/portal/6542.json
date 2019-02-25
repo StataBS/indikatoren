@@ -4,12 +4,12 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2016",
-          1528.237705
-        ],
-        [
           "2017",
           1747.126027
+        ],
+        [
+          "2018",
+          1765.109589
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -19,12 +19,12 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2016",
-          2678.076503
-        ],
-        [
           "2017",
           3123.682192
+        ],
+        [
+          "2018",
+          3219.112329
         ]
       ],
       "name": "3-Sterne",
@@ -34,12 +34,12 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2016",
-          2913.202186
-        ],
-        [
           "2017",
           3027.632877
+        ],
+        [
+          "2018",
+          3151.835616
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -49,12 +49,12 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2016",
-          423.0956284
-        ],
-        [
           "2017",
           793.9753425
+        ],
+        [
+          "2018",
+          802.7863014
         ]
       ],
       "name": "Nicht klassiert",
@@ -123,7 +123,7 @@
           "color": "black",
           "fontWeight": "normal"
         },
-        "enabled": true,
+        "enabled": false,
         "format": "{point.y:,.0f}"
       },
       "stacking": "normal"
@@ -136,7 +136,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Angebotene Betten nach Hotelkategorie"
+    "text": "Verfügbare Betten nach Hotelkategorie"
   },
   "subtitle": {
     "style": {
@@ -145,7 +145,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -188,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "symbolRadius": 0,

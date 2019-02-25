@@ -1,0 +1,331 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          1514764800000,
+          -83
+        ],
+        [
+          1517443200000,
+          -35
+        ],
+        [
+          1519862400000,
+          -1
+        ],
+        [
+          1522540800000,
+          -83
+        ],
+        [
+          1525132800000,
+          -53
+        ],
+        [
+          1527811200000,
+          28
+        ],
+        [
+          1530403200000,
+          30
+        ],
+        [
+          1533081600000,
+          1
+        ],
+        [
+          1535760000000,
+          -38
+        ],
+        [
+          1538352000000,
+          165
+        ],
+        [
+          1541030400000,
+          55
+        ],
+        [
+          1543622400000,
+          -11
+        ],
+        [
+          1546300800000,
+          -19
+        ]
+      ],
+      "name": "Saldo Geburten-Todesfälle"
+    },
+    {
+      "color": "#923F8D",
+      "visible": true,
+      "data": [
+        [
+          1514764800000,
+          343
+        ],
+        [
+          1517443200000,
+          941
+        ],
+        [
+          1519862400000,
+          163
+        ],
+        [
+          1522540800000,
+          90
+        ],
+        [
+          1525132800000,
+          94
+        ],
+        [
+          1527811200000,
+          -198
+        ],
+        [
+          1530403200000,
+          -178
+        ],
+        [
+          1533081600000,
+          71
+        ],
+        [
+          1535760000000,
+          296
+        ],
+        [
+          1538352000000,
+          185
+        ],
+        [
+          1541030400000,
+          -116
+        ],
+        [
+          1543622400000,
+          -522
+        ],
+        [
+          1546300800000,
+          -718
+        ]
+      ],
+      "name": "Saldo Zuzüge-Wegzüge"
+    },
+    {
+      "color": "#C8C8C8",
+      "visible": true,
+      "data": [
+        [
+          1514764800000,
+          -87
+        ],
+        [
+          1517443200000,
+          383
+        ],
+        [
+          1519862400000,
+          151
+        ],
+        [
+          1522540800000,
+          23
+        ],
+        [
+          1525132800000,
+          66
+        ],
+        [
+          1527811200000,
+          246
+        ],
+        [
+          1530403200000,
+          -357
+        ],
+        [
+          1533081600000,
+          416
+        ],
+        [
+          1535760000000,
+          7
+        ],
+        [
+          1538352000000,
+          18
+        ],
+        [
+          1541030400000,
+          89
+        ],
+        [
+          1543622400000,
+          178
+        ],
+        [
+          1546300800000,
+          -547
+        ]
+      ],
+      "name": "Bereinigungen"
+    }
+  ],
+  "xAxis": {
+    "type": "datetime",
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+              if (this.isFirst || this.isLast) {
+                return Highcharts.dateFormat('%b %y', this.value);
+              } else {
+                return Highcharts.dateFormat('%b', this.value);
+              }
+            }
+    },
+    "tickLength": 0,
+    "tickInterval": 2592000000
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 50,
+    "renderTo": "container-7515"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bilanz der Wohnbevölkerung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 1000,
+    "tickInterval": 250,
+    "min": -1000
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "xDateFormat": "%Y-%m"
+  },
+  "exporting": {
+    "filename": 7515
+  }
+}

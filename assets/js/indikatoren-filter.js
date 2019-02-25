@@ -335,6 +335,9 @@ function prepareIndikatorensetView(indikatorenset){
   setDropdownValFromUrlParameter('stufe2');
   setDropdownValFromUrlParameter('stufe3');
   setDropdownValFromUrlParameter('darstellungsart');
+  
+  //show lastUpdatedSets table if requested
+  if (window.decodeURIComponent($.url('?showLastUpdatedSets')) === 'true'){$('#lastUpdatedSets').show()}
 }
 
 //check if field value exists before setting value of dropdown  

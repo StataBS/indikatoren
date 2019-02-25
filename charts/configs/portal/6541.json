@@ -4,6 +4,18 @@
       "color": "rgb(255, 128, 40)",
       "data": [
         [
+          1934,
+          42
+        ],
+        [
+          1935,
+          42
+        ],
+        [
+          1936,
+          42
+        ],
+        [
           1937,
           42
         ],
@@ -326,14 +338,30 @@
         [
           2017,
           65
+        ],
+        [
+          2018,
+          65
         ]
       ],
-      "name": "Hotelbetriebe"
+      "name": "Geöffnete Betriebe"
     },
     {
       "color": "rgb(0, 122, 47)",
       "yAxis": 1,
       "data": [
+        [
+          1934,
+          2228
+        ],
+        [
+          1935,
+          2225
+        ],
+        [
+          1936,
+          2225
+        ],
         [
           1937,
           2164
@@ -657,9 +685,13 @@
         [
           2017,
           8692
+        ],
+        [
+          2018,
+          8939
         ]
       ],
-      "name": "Anzahl Betten (rechte Skala)"
+      "name": "Verfügbare Betten (rechte Skala)"
     }
   ],
   "chart": {
@@ -698,7 +730,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Betriebsstruktur"
+    "text": "Hotelbetriebe und Anzahl Betten"
   },
   "subtitle": {
     "style": {
@@ -707,7 +739,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -769,7 +801,7 @@
       "step": 1,
       "formatter": function (){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 10 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
           return this.value;
         }
       }
@@ -791,7 +823,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
   },
   "legend": {
     "enabled": true,

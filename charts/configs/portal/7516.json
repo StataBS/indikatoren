@@ -1,0 +1,395 @@
+{
+  "series": [
+    {
+      "stack": 1,
+      "color": "rgb(220, 68, 14)",
+      "data": [
+        [
+          "Jan",
+          25114
+        ],
+        [
+          "Feb",
+          23741
+        ],
+        [
+          "Mrz",
+          45579
+        ],
+        [
+          "Apr",
+          32892
+        ],
+        [
+          "Mai",
+          38673
+        ],
+        [
+          "Jun",
+          31452
+        ],
+        [
+          "Jul",
+          37768
+        ],
+        [
+          "Aug",
+          31300
+        ],
+        [
+          "Sep",
+          35590
+        ],
+        [
+          "Okt",
+          42138
+        ],
+        [
+          "Nov",
+          44737
+        ],
+        [
+          "Dez",
+          35270
+        ]
+      ],
+      "name": "Inland 2017",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
+      "data": [
+        [
+          "Jan",
+          48045
+        ],
+        [
+          "Feb",
+          55336
+        ],
+        [
+          "Mrz",
+          79565
+        ],
+        [
+          "Apr",
+          66492
+        ],
+        [
+          "Mai",
+          84632
+        ],
+        [
+          "Jun",
+          95289
+        ],
+        [
+          "Jul",
+          84542
+        ],
+        [
+          "Aug",
+          85261
+        ],
+        [
+          "Sep",
+          81716
+        ],
+        [
+          "Okt",
+          80417
+        ],
+        [
+          "Nov",
+          73808
+        ],
+        [
+          "Dez",
+          68690
+        ]
+      ],
+      "name": "Ausland 2017",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          36106
+        ],
+        [
+          "Feb",
+          35027
+        ],
+        [
+          "Mrz",
+          37092
+        ],
+        [
+          "Apr",
+          35624
+        ],
+        [
+          "Mai",
+          37483
+        ],
+        [
+          "Jun",
+          38654
+        ],
+        [
+          "Jul",
+          42566
+        ],
+        [
+          "Aug",
+          37780
+        ],
+        [
+          "Sep",
+          35730
+        ],
+        [
+          "Okt",
+          42687
+        ],
+        [
+          "Nov",
+          39717
+        ],
+        [
+          "Dez",
+          39537
+        ]
+      ],
+      "name": "Inland 2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          55153
+        ],
+        [
+          "Feb",
+          57885
+        ],
+        [
+          "Mrz",
+          77249
+        ],
+        [
+          "Apr",
+          72075
+        ],
+        [
+          "Mai",
+          74776
+        ],
+        [
+          "Jun",
+          96582
+        ],
+        [
+          "Jul",
+          86556
+        ],
+        [
+          "Aug",
+          93558
+        ],
+        [
+          "Sep",
+          84523
+        ],
+        [
+          "Okt",
+          83306
+        ],
+        [
+          "Nov",
+          72583
+        ],
+        [
+          "Dez",
+          74250
+        ]
+      ],
+      "name": "Ausland 2018",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-7516"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Logiernächte nach Monat und Herkunft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "reversedStacks": false,
+    "tickAmount": 7
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 180,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "stacking": "normal"
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7516
+  }
+}

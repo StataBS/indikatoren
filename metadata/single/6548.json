@@ -12,7 +12,7 @@
   "Kanton"
  ],
  "aktualisierungsdatum": "2018-02-15T00:00:00.000",
- "schlagwort": [
+ "schlagwort": [ 
   "Ausländer",
   "Ausland",
   "Übernachtung",
@@ -27,8 +27,8 @@
  "lesehilfe": "Der wichtigste Markt der Basler Hotellerie ist die Schweiz. Seit 2008 hat die Anzahl der Übernachtungen der Schweizer Gäste um 41,9% bzw. 125 368 auf 424 254 zugenommen. Der wichtigste ausländische Markt ist weiterhin Deutschland mit 192 042 Übernachtungen.",
  "erlaeuterungen": "",
  "template": "area001",
- "visible": true,
- "visibleInPortal": true,
+ "visible": false,
+ "visibleInPortal": false,
  "orderKey": "_013",
  "parentId": null,
  "children": [],

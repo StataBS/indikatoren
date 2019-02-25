@@ -35,6 +35,7 @@
   },
   yAxis: [
       {
+          tickAmount: 6,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -54,6 +55,7 @@
       },
       {
         opposite: true,
+        tickAmount: 6,
         min: 0,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
@@ -113,7 +115,7 @@
         return this.name.slice(-4);
     }, 
     title: {
-    	text: 'Angebotene Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
+    	text: 'Verfügbare Zimmer:<br/>Nettozimmerauslastung (rechte Skala):', 
     	style: {
     	  fontWeight: 'normal'
     	}

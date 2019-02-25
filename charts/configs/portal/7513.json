@@ -1,0 +1,408 @@
+{
+  "series": [
+    {
+      "color": "#ff8028",
+      "data": [
+        [
+          "Dez",
+          100
+        ],
+        [
+          "Jan",
+          99.7
+        ],
+        [
+          "Feb",
+          99.9
+        ],
+        [
+          "Mrz",
+          100.2
+        ],
+        [
+          "Apr",
+          100.5
+        ],
+        [
+          "Mai",
+          100.7
+        ],
+        [
+          "Jun",
+          100.8
+        ],
+        [
+          "Jul",
+          100.4
+        ],
+        [
+          "Aug",
+          100.4
+        ],
+        [
+          "Sep",
+          100.4
+        ],
+        [
+          "Okt",
+          100.4
+        ],
+        [
+          "Nov",
+          100.2
+        ],
+        [
+          "Dez",
+          100.2
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "Dez",
+          100.2
+        ],
+        [
+          "Jan",
+          100.2
+        ],
+        [
+          "Feb",
+          100.7
+        ],
+        [
+          "Mrz",
+          100.9
+        ],
+        [
+          "Apr",
+          101.1
+        ],
+        [
+          "Mai",
+          101.4
+        ],
+        [
+          "Jun",
+          101.2
+        ],
+        [
+          "Jul",
+          100.9
+        ],
+        [
+          "Aug",
+          101
+        ],
+        [
+          "Sep",
+          101.3
+        ],
+        [
+          "Okt",
+          101.4
+        ],
+        [
+          "Nov",
+          101.3
+        ],
+        [
+          "Dez",
+          101.3
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "Dez",
+          101.3
+        ],
+        [
+          "Jan",
+          101.1
+        ],
+        [
+          "Feb",
+          101.6
+        ],
+        [
+          "Mrz",
+          101.9
+        ],
+        [
+          "Apr",
+          102.2
+        ],
+        [
+          "Mai",
+          102.6
+        ],
+        [
+          "Jun",
+          102.6
+        ],
+        [
+          "Jul",
+          102.4
+        ],
+        [
+          "Aug",
+          102.4
+        ],
+        [
+          "Sep",
+          102.5
+        ],
+        [
+          "Okt",
+          102.6
+        ],
+        [
+          "Nov",
+          102.4
+        ],
+        [
+          "Dez",
+          102.1
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "radius": 3
+      },
+      "data": [
+        [
+          "Dez",
+          102.1
+        ],
+        [
+          "Jan",
+          101.9
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7513"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Basler Index"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basis Dezember 2015 = 100",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.1f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7513
+  }
+}

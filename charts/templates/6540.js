@@ -86,7 +86,7 @@ global Highcharts
       "width": 40
     },
     "title": {
-    	"text": 'Effektiv:<br/>Auf Basis Zimmerzahl 2008:', 
+      "text": 'Effektiv:<br/>Auf Basis Zimmerzahl 2009:', 
     	style: {
     	  fontWeight: 'normal'
     	}
@@ -109,4 +109,3 @@ global Highcharts
   }
 }
 }());
- 

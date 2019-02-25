@@ -17,5 +17,6 @@ var indikatorensetNames = [
 	"Integration (Print)",
 	"Wanderungen (Print)",
 	"Steuern",
+	"Monatsindikatoren",
 	"Test"
 ];
