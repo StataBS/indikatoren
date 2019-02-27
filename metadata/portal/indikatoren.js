@@ -4474,13 +4474,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-20T09:15:12.1212",
+		"aktualisierungsdatum": "2019-02-25T12:56:19.1919",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck rangiert unverändert an letzter Stelle, wohingegen am anderen Ende der Liste das Wettsteinviertel das Bruderholz von Position 1 verdrängt.",
+		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck liegt unverändert auf Position 1, wohingegen am anderen Ende des Spektrums das Wettsteinviertel das Bruderholz überholt hat.",
 		"erlaeuterungen": "Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Seit 2017/18 aufgrund der HarmoS-Anpassungen Anteil der Sek P-Schülerinnen und -schüler an allen Sek-Schülerinnen und Schülern. Im Übergangsjahr 2016/17 für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -4640,7 +4640,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.09.1.4830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
@@ -4650,7 +4650,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
+		"aktualisierungsdatum": "2019-02-25T12:57:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4684,7 +4684,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.09.1.4831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
@@ -4694,7 +4694,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:38.3838",
+		"aktualisierungsdatum": "2019-02-25T12:59:12.1212",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4772,7 +4772,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.09.1.4833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
@@ -4782,7 +4782,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
+		"aktualisierungsdatum": "2019-02-25T12:59:53.5353",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4816,7 +4816,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
@@ -4826,7 +4826,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
+		"aktualisierungsdatum": "2019-02-25T13:00:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7066,8 +7066,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.5117",
+		"subtitle": "2018",
+		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7076,7 +7076,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T16:18:00.000",
+		"aktualisierungsdatum": "2019-02-25T13:01:50.5050",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7108,8 +7108,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.09.1.5118",
+		"subtitle": "2018",
+		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -7118,7 +7118,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:35.3535",
+		"aktualisierungsdatum": "2019-02-25T13:02:42.4242",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -19144,14 +19144,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T11:00:02.022",
+		"aktualisierungsdatum": "2019-02-25T13:04:28.2828",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Altstadt Grossbasel leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch, ebenso die Gymnasialquote. Die Bausubstanz ist die älteste im ganzen Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem gibt es im Wohnviertel die zweitmeisten Arbeitsplätze pro Einwohner und die höchste Erwerbstätigenquote.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -19184,14 +19184,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:41.4141",
+		"aktualisierungsdatum": "2019-02-25T13:04:46.4646",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätzen pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätze pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -19224,14 +19224,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T11:00:03.033",
+		"aktualisierungsdatum": "2019-02-25T13:05:07.077",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Am Ring leben viele Personen ohne Religionszugehörigkeit und der Anteil Personen, die in Einpersonenhaushalten wohnen, ist hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Ausserdem ist die Erwerbstätigenquote sehr hoch und die Arbeitslosenquote eher niedrig.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -19304,14 +19304,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:42.4242",
+		"aktualisierungsdatum": "2019-02-25T13:05:43.4343",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
-		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\"> Gesellschaft und Soziales,  <font color=\"68AB2B\">Raum und Umwelt sowie <font color=\"689199\"> Wirtschaft und Arbeit zugeordnet. <br>Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -22313,9 +22313,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2017",
+		"subtitle": "Altstadt Grossbasel, 2018",
 		"kuerzel": "I.09.1.06956",
-		"kuerzelKunde": "TG-RU-WZ-01",
+		"kuerzelKunde": "RU-01.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -22323,7 +22323,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22353,7 +22353,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2017",
+		"subtitle": "Vorstädte, 2018",
 		"kuerzel": "I.09.1.06957",
 		"kuerzelKunde": "RU-02.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22363,13 +22363,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:43:53.5353",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen, seltener hingegen Zweizimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22393,7 +22393,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2017",
+		"subtitle": "Am Ring, 2018",
 		"kuerzel": "I.09.1.06958",
 		"kuerzelKunde": "RU-03.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22403,13 +22403,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:44:19.1919",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
+		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton, ausser bei den Einzimmerwohnungen, deren Anteil höher ist. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22433,7 +22433,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2017",
+		"subtitle": "Breite, 2018",
 		"kuerzel": "I.09.1.06959",
 		"kuerzelKunde": "RU-04.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22443,13 +22443,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:44:42.4242",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit 6 und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit sechs und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22473,7 +22473,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2017",
+		"subtitle": "St. Alban, 2018",
 		"kuerzel": "I.09.1.06960",
 		"kuerzelKunde": "RU-05.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22483,13 +22483,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:45:09.099",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil mit Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22513,7 +22513,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2017",
+		"subtitle": "Gundeldingen, 2018",
 		"kuerzel": "I.09.1.06961",
 		"kuerzelKunde": "RU-06.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22523,13 +22523,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:45:34.3434",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern etwas niedriger.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern etwas niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22553,21 +22553,23 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2017",
+		"subtitle": "Bruderholz, 2018",
 		"kuerzel": "I.09.1.06962",
 		"kuerzelKunde": "RU-07.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "2019-01-28T09:46:14.1414",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen höheren Anteil von Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Einzimmerwohnungen.",
+		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen höheren Anteil an Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Ein- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22591,7 +22593,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2017",
+		"subtitle": "Bachletten, 2018",
 		"kuerzel": "I.09.1.06963",
 		"kuerzelKunde": "RU-08.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22601,7 +22603,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:46:37.3737",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22631,7 +22633,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2017",
+		"subtitle": "Gotthelf, 2018",
 		"kuerzel": "I.09.1.06964",
 		"kuerzelKunde": "RU-09.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22641,13 +22643,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:47:04.044",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
+		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Einzimmerwohnungen sind anteilmässig stärker vertreten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22671,7 +22673,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2017",
+		"subtitle": "Iselin, 2018",
 		"kuerzel": "I.09.1.06965",
 		"kuerzelKunde": "RU-10.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22681,13 +22683,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:49:07.077",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit fünf und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit fünf und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22711,7 +22713,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2017",
+		"subtitle": "St. Johann, 2018",
 		"kuerzel": "I.09.1.06966",
 		"kuerzelKunde": "RU-11.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22721,7 +22723,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:49:35.3535",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22751,7 +22753,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2017",
+		"subtitle": "Altstadt Kleinbasel, 2018",
 		"kuerzel": "I.09.1.06967",
 		"kuerzelKunde": "RU-12.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22761,13 +22763,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:50:04.044",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Zwei- und Einzimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Ein- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22791,7 +22793,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2017",
+		"subtitle": "Clara, 2018",
 		"kuerzel": "I.09.1.06968",
 		"kuerzelKunde": "RU-13.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22801,7 +22803,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:50:31.3131",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22831,7 +22833,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2017",
+		"subtitle": "Wettstein, 2018",
 		"kuerzel": "I.09.1.06969",
 		"kuerzelKunde": "RU-14.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22841,7 +22843,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:51:00.000",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -22871,7 +22873,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2017",
+		"subtitle": "Hirzbrunnen, 2018",
 		"kuerzel": "I.09.1.06970",
 		"kuerzelKunde": "RU-15.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22881,13 +22883,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:51:32.3232",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Im Wohnviertel Hirzbrunnen liegt der Anteil allerdings deutlich über dem kantonalen Durchschnitt, der Anteil an Ein- und Zweizimmerwohnungen dagegen darunter. Wohnungen mit vier und fünf Zimmern gibt es häufiger.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Deren Anteil allerdings liegt deutlich über dem kantonalen Durchschnitt, bei den Ein- und Zweizimmerwohnungen dagegen darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22911,7 +22913,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2017",
+		"subtitle": "Rosental, 2018",
 		"kuerzel": "I.09.1.06971",
 		"kuerzelKunde": "RU-16.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22921,13 +22923,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:51:59.5959",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich deutlich häufiger Zweizimmerwohnungen. Wohnungen mit sechs und mehr Zimmern gibt es kaum.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Der Anteil der Zweizimmerwohnungen ist fast gleich gross und liegt damit deutlich über dem kantonalen Vergleichswert.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22951,7 +22953,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Matthäus, 2017",
+		"subtitle": "Matthäus, 2018",
 		"kuerzel": "I.09.1.06972",
 		"kuerzelKunde": "RU-17.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -22961,13 +22963,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:52:24.2424",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Matthäus am häufigsten Dreizimmerwohnungen. Der Anteil an Zwei- und Einzimmerwohnungen liegt über dem kantonalen Durchschnitt, derjenige von Wohnungen mit vier und mehr Zimmern darunter.",
+		"lesehilfe": "Der Anteil an Ein- und Zweizimmerwohnungen liegt über dem kantonalen Durchschnitt, derjenige von Wohnungen mit vier und mehr Zimmern darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -22991,7 +22993,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Klybeck, 2017",
+		"subtitle": "Klybeck, 2018",
 		"kuerzel": "I.09.1.06973",
 		"kuerzelKunde": "RU-18.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -23001,13 +23003,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:52:47.4747",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton (36%). Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen aus.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Klybeck am häufigsten Dreizimmerwohnungen. Allerdings gibt es fast genauso viele Zweizimmerwohnungen und damit einen deutlich höheren Anteil im Vergleich zum Gesamtkanton. Das Wohnviertel Klybeck weist damit den höchsten Anteil an Zweizimmerwohnungen im Kanton aus.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23031,7 +23033,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kleinhüningen, 2017",
+		"subtitle": "Kleinhüningen, 2018",
 		"kuerzel": "I.09.1.06974",
 		"kuerzelKunde": "RU-19.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -23041,13 +23043,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:53:13.1313",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte aller Wohnungen im Wohnviertel Kleinhüningen sind Dreizimmerwohnungen. Damit liegt der Anteil deutlich höher als im Gesamtkanton. Der Anteil an Wohnungen mit vier und mehr Zimmern dagegen ist mit 2% kantonsweit der niedrigste.",
+		"lesehilfe": "Die Hälfte aller Wohnungen im Wohnviertel Kleinhüningen sind Dreizimmerwohnungen. Damit liegt der Anteil deutlich höher als im Gesamtkanton. Der Anteil an Wohnungen mit sechs und mehr Zimmern dagegen ist deutlich niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23071,7 +23073,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Riehen, 2017",
+		"subtitle": "Gemeinde Riehen, 2018",
 		"kuerzel": "I.09.1.06975",
 		"kuerzelKunde": "RU-20.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -23082,13 +23084,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:53:41.4141",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlichhäufiger Wohnungen mit vier und mehr Zimmern. Einzimmerwohnungen gibt es dagegen seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es in der Gemeinde Riehen am häufigsten Dreizimmerwohnungen. Im Vergleich zum Gesamtkanton gibt es allerdings deutlich häufiger Wohnungen mit vier und mehr Zimmern. Einzimmerwohnungen sind dagegen seltener vertreten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23112,7 +23114,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Bettingen, 2017",
+		"subtitle": "Gemeinde Bettingen, 2018",
 		"kuerzel": "I.09.1.06976",
 		"kuerzelKunde": "RU-21.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -23123,13 +23125,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-01-28T09:54:05.055",
+		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen gibt es den höchsten Anteil an Wohnungen mit fünf Zimmern gefolgt von Wohnungen mit sechs und mehr Zimmern sowie Vierzimmerwohnungen. Dagegen weist die Gemeinde kantonsweit die geringsten Anteile an Zwei- und Dreizimmerwohnungen auf.",
+		"lesehilfe": "In der Gemeinde Bettingen sind Fünfzimmerwohnungen am häufigsten (26,3%), gefolgt von den Wohnungen mit sechs und mehr Zimmern (23,2%). Im kantonalen Vergleich weist Bettingen in diesen Kategorien die höchsten Anteile auf. Dagegen sind die Anteile an Zwei- und Dreizimmerwohnungen kantonsweit am geringsten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23384,8 +23386,10 @@ var indikatoren = [
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"kennzahlenset": "",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "2019-01-08T09:23:33.3333",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-02-22T14:05:29.2929",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -23868,8 +23872,10 @@ var indikatoren = [
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "",
-		"raeumlicheGliederung": [],
-		"aktualisierungsdatum": "2019-02-21T15:50:42.4242",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-02-22T14:05:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

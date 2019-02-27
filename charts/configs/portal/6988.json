@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1016987853,
-          "Anzahl": 11135
+          "y": 0.1018199928,
+          "Anzahl": 11245
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.233418577,
-          "Anzahl": 25557
+          "y": 0.2339098153,
+          "Anzahl": 25833
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3722075075,
-          "Anzahl": 40753
+          "y": 0.3719395147,
+          "Anzahl": 41077
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1751940817,
-          "Anzahl": 19182
+          "y": 0.1752716407,
+          "Anzahl": 19357
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0637592474,
-          "Anzahl": 6981
+          "y": 0.0636182543,
+          "Anzahl": 7026
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0537218011,
-          "Anzahl": 5882
+          "y": 0.0534407823,
+          "Anzahl": 5902
         }
       ],
       "name": "Wohnungen",
