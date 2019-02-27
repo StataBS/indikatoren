@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1016987853,
-          "Anzahl": 11135
+          "y": 0.1018199928,
+          "Anzahl": 11245
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.233418577,
-          "Anzahl": 25557
+          "y": 0.2339098153,
+          "Anzahl": 25833
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3722075075,
-          "Anzahl": 40753
+          "y": 0.3719395147,
+          "Anzahl": 41077
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1751940817,
-          "Anzahl": 19182
+          "y": 0.1752716407,
+          "Anzahl": 19357
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0637592474,
-          "Anzahl": 6981
+          "y": 0.0636182543,
+          "Anzahl": 7026
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0537218011,
-          "Anzahl": 5882
+          "y": 0.0534407823,
+          "Anzahl": 5902
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.192893401,
-          "Anzahl": 456
+          "y": 0.1882046834,
+          "Anzahl": 434
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.2800338409,
-          "Anzahl": 662
+          "y": 0.2831743278,
+          "Anzahl": 653
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.3447546531,
-          "Anzahl": 815
+          "y": 0.3460537728,
+          "Anzahl": 798
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.1400169205,
-          "Anzahl": 331
+          "y": 0.1392020815,
+          "Anzahl": 321
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.0363790186,
-          "Anzahl": 86
+          "y": 0.0368603643,
+          "Anzahl": 85
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Clara",
-          "y": 0.0059221658,
-          "Anzahl": 14
+          "y": 0.0065047702,
+          "Anzahl": 15
         }
       ],
       "name": "Clara",
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Clara, 2017",
+    "text": "Clara, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
   },
   "legend": {
     "symbolRadius": 0,

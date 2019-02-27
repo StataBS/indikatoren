@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          65.419001868
+          65.501328374
         ],
         [
           "Clara",
-          66.391708968
+          66.433217693
         ],
         [
           "Matthäus",
-          67.244349005
+          67.260189147
         ],
         [
           "Iselin",
-          68.511779293
+          68.644185571
         ],
         [
           "Rosental",
-          69.447001989
+          69.496442255
         ],
         [
           "Breite",
-          70.004521477
-        ],
-        [
-          "Kleinhüningen",
-          70.42468773
+          70.169032499
         ],
         [
           "Gundeldingen",
-          70.427866942
+          70.318120925
         ],
         [
-          "St. Johann",
-          71.680063511
+          "Kleinhüningen",
+          70.376193975
         ],
         [
           "Altstadt Kleinbasel",
-          72.17236927
+          71.346925972
+        ],
+        [
+          "St. Johann",
+          71.702207331
         ],
         [
           "Gotthelf",
-          74.544131911
+          74.558432132
         ],
         [
           "Hirzbrunnen",
-          80.960734102
-        ],
-        [
-          "Vorstädte",
-          81.703573521
+          81.079755892
         ],
         [
           "Am Ring",
-          81.96043395
+          81.975544336
+        ],
+        [
+          "Vorstädte",
+          82.107153371
         ],
         [
           "Wettstein",
-          83.225836146
+          83.103856666
         ],
         [
           "Altstadt Grossbasel",
-          89.982578397
+          89.764261168
         ],
         [
           "Bachletten",
-          92.894002211
+          92.818792867
         ],
         [
           "St. Alban",
-          93.466570467
+          93.409726538
         ],
         [
           "Riehen",
-          102.73655706
+          102.7498071
         ],
         [
           "Bruderholz",
-          109.24315693
+          109.46916648
         ],
         [
           "Bettingen",
-          120.82306163
+          121.21188119
         ]
       ],
       "name": "Fläche pro Wohnung",
@@ -119,19 +119,19 @@
           6
         ],
         [
-          "Kleinhüningen",
+          "Gundeldingen",
           7
         ],
         [
-          "Gundeldingen",
+          "Kleinhüningen",
           8
         ],
         [
-          "St. Johann",
+          "Altstadt Kleinbasel",
           9
         ],
         [
-          "Altstadt Kleinbasel",
+          "St. Johann",
           10
         ],
         [
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Vorstädte",
+          "Am Ring",
           13
         ],
         [
-          "Am Ring",
+          "Vorstädte",
           14
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "2018",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
   },
   "legend": {
     "enabled": false,

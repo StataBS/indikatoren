@@ -5,7 +5,7 @@
       "data": [
         [
           "Clara",
-          0.0229007634
+          0.023715415
         ],
         [
           "Gundeldingen",
@@ -13,79 +13,79 @@
         ],
         [
           "Rosental",
-          0.0697674419
+          0.068852459
         ],
         [
           "Matthäus",
-          0.0709903593
+          0.0708661417
         ],
         [
           "Klybeck",
-          0.0712643678
+          0.0709382151
         ],
         [
           "Vorstädte",
-          0.0776340111
+          0.0773480663
         ],
         [
           "Altstadt Kleinbasel",
-          0.0996441281
+          0.0992907801
         ],
         [
           "Altstadt Grossbasel",
-          0.1022044088
+          0.102
         ],
         [
           "Breite",
-          0.1349325337
+          0.1343283582
         ],
         [
           "Kleinhüningen",
-          0.1556886228
+          0.156626506
         ],
         [
           "Iselin",
-          0.166437414
+          0.1662087912
         ],
         [
           "Am Ring",
-          0.1972789116
+          0.1957446809
         ],
         [
           "St. Johann",
-          0.2478576137
+          0.2480263158
         ],
         [
           "Wettstein",
-          0.3352272727
+          0.3338048091
         ],
         [
           "St. Alban",
-          0.3372582002
+          0.3358458961
         ],
         [
           "Gotthelf",
-          0.3693877551
+          0.3697650664
         ],
         [
           "Bachletten",
-          0.5605273672
+          0.5592341444
         ],
         [
           "Riehen",
-          0.6565143824
+          0.656212304
         ],
         [
           "Hirzbrunnen",
-          0.6972187105
+          0.69327467
         ],
         [
           "Bruderholz",
-          0.7332691382
+          0.7323135755
         ],
         [
           "Bettingen",
-          0.7909967846
+          0.7916666667
         ]
       ],
       "name": "Anteil Einfamilienhäuser",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "2018",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
   },
   "legend": {
     "enabled": false,
