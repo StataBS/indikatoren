@@ -188,15 +188,15 @@
       "data": [
         [
           "bis 29 m²",
-          1.287415513357
+          1.287415513356
         ],
         [
           "30-49 m²",
-          0.945370570831
+          0.94537057083
         ],
         [
           "50-69 m²",
-          0.676500986564
+          0.676500986563
         ],
         [
           "70-99 m²",
@@ -208,7 +208,7 @@
         ],
         [
           "150+ m²",
-          0.482780817509
+          0.482780817508
         ]
       ],
       "name": "LWQ 2018",
@@ -266,7 +266,7 @@
     },
     "type": "column",
     "renderTo": "container-4139",
-    "spacingBottom": 50
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
@@ -355,9 +355,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-1"
   },
   "legend": {
     "symbolRadius": 0,
