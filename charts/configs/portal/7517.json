@@ -9,7 +9,7 @@
         ],
         [
           "3-Sterne",
-          1673
+          1653
         ],
         [
           "4- und 5-Sterne",
@@ -20,7 +20,7 @@
           365
         ]
       ],
-      "name": "Angebotene Zimmer 2017",
+      "name": "Angebotene Zimmer 2018",
       "turboThreshold": 0
     },
     {
@@ -40,10 +40,10 @@
         ],
         [
           "Nicht klassiert",
-          346
+          341
         ]
       ],
-      "name": "Angebotene Zimmer 2018",
+      "name": "Angebotene Zimmer 2019",
       "turboThreshold": 0
     },
     {
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.43961525
+          0.47739729
         ],
         [
           "3-Sterne",
-          0.56772572
+          0.57433767
         ],
         [
           "4- und 5-Sterne",
-          0.52960909
+          0.54557618
         ],
         [
           "Nicht klassiert",
-          0.51671425
+          0.49946761
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2017",
+      "name": "Nettozimmerauslastung (rechte Skala) 2018",
       "turboThreshold": 0
     },
     {
@@ -88,39 +88,57 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.50298031
+          0.40952868
         ],
         [
           "3-Sterne",
-          0.63522993
+          0.44416316
         ],
         [
           "4- und 5-Sterne",
-          0.64586165
+          0.52311324
         ],
         [
           "Nicht klassiert",
-          0.50519906
+          0.40093129
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2018",
+      "name": "Nettozimmerauslastung (rechte Skala) 2019",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       }
     },
     "tickLength": 0
   },
   "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
     "events": {
       "load": function (){
             this.credits.element.onclick = function() {};
@@ -140,17 +158,30 @@
             title.translate(-215, 40);
           }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
-    "style": {
-      "fontFamily": "Arial"
-    },
     "type": "column",
-    "renderTo": "container-7517"
+    "renderTo": "container-7517",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function (){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
   },
   "title": {
     "style": {
@@ -168,12 +199,8 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Dezember",
+    "text": "Basel-Stadt, Januar",
     "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": [
     {
@@ -217,8 +244,13 @@
       }
     }
   ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -231,21 +263,21 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-28"
   },
   "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
       "width": 40
     },
+    "enabled": true,
     "useHTML": true,
     "y": -40,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 2,
+    "align": "right",
     "width": 200,
     "itemWidth": 70,
     "labelFormatter": function (){
@@ -260,59 +292,9 @@
       }
     }
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "stacking": null,
-      "pointPadding": 0,
-      "borderWidth": 0
-    },
-    "scatter": {
-      "yAxis": 1,
-      "tooltip": {
-        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function (){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-          }
-      }
-    }
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": 7517

@@ -6,118 +6,6 @@
       "data": [
         [
           "Jan",
-          25114
-        ],
-        [
-          "Feb",
-          23741
-        ],
-        [
-          "Mrz",
-          45579
-        ],
-        [
-          "Apr",
-          32892
-        ],
-        [
-          "Mai",
-          38673
-        ],
-        [
-          "Jun",
-          31452
-        ],
-        [
-          "Jul",
-          37768
-        ],
-        [
-          "Aug",
-          31300
-        ],
-        [
-          "Sep",
-          35590
-        ],
-        [
-          "Okt",
-          42138
-        ],
-        [
-          "Nov",
-          44737
-        ],
-        [
-          "Dez",
-          35270
-        ]
-      ],
-      "name": "Inland 2017",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
-      "data": [
-        [
-          "Jan",
-          48045
-        ],
-        [
-          "Feb",
-          55336
-        ],
-        [
-          "Mrz",
-          79565
-        ],
-        [
-          "Apr",
-          66492
-        ],
-        [
-          "Mai",
-          84632
-        ],
-        [
-          "Jun",
-          95289
-        ],
-        [
-          "Jul",
-          84542
-        ],
-        [
-          "Aug",
-          85261
-        ],
-        [
-          "Sep",
-          81716
-        ],
-        [
-          "Okt",
-          80417
-        ],
-        [
-          "Nov",
-          73808
-        ],
-        [
-          "Dez",
-          68690
-        ]
-      ],
-      "name": "Ausland 2017",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
           36106
         ],
         [
@@ -169,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Jan",
@@ -222,6 +110,118 @@
         ]
       ],
       "name": "Ausland 2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          24826
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Inland 2019",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          52888
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Ausland 2019",
       "turboThreshold": 0
     }
   ],
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-28"
   },
   "legend": {
     "enabled": true,
