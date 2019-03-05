@@ -4,10 +4,6 @@
       "color": "#ff8028",
       "data": [
         [
-          "Dez",
-          100
-        ],
-        [
           "Jan",
           99.7
         ],
@@ -62,10 +58,6 @@
     {
       "color": "#dc440e",
       "data": [
-        [
-          "Dez",
-          100.2
-        ],
         [
           "Jan",
           100.2
@@ -122,10 +114,6 @@
       "color": "#b00000",
       "data": [
         [
-          "Dez",
-          101.3
-        ],
-        [
           "Jan",
           101.1
         ],
@@ -179,23 +167,14 @@
     },
     {
       "color": "#661200",
-      "type": "scatter",
-      "marker": {
-        "enabled": true,
-        "radius": 3
-      },
       "data": [
-        [
-          "Dez",
-          102.1
-        ],
         [
           "Jan",
           101.9
         ],
         [
           "Feb",
-          null
+          102.4
         ],
         [
           "Mrz",
@@ -339,7 +318,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-5"
   },
   "legend": {
     "enabled": true,

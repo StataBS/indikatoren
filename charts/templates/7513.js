@@ -17,14 +17,7 @@
     {"color": "#ff8028"}, 
 	  {"color": "#dc440e"}, 
   	{"color": "#b00000"},
-    {
-      color: "#661200", 
-      type: "scatter",
-      marker:{
-        "enabled": true,
-        "radius": 3
-      }
-    },
+    {"color": "#661200"},
 //    {"color": "#008AC3"},/* blau  */
   ],
   "legend": {
