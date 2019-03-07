@@ -152,8 +152,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungsbelegung",
-		"subtitle": "nach Belegungsart",
-		"kuerzel": "I.09.1.04131",
+		"subtitle": "nach Belegungsart, Basel-Stadt",
+		"kuerzel": "I.09.1.4131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -162,7 +162,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T10:57:22.2222",
+		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -171,6 +171,8 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist seit 2013 leicht angestiegen.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -178,11 +180,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4131,
-		"darstellungsart": "Grafik"
+		"data-id": 4131,
+		"chart-id": 4131,
+		"filter": "",
+		"id": 4131
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
@@ -695,14 +700,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-02T09:17:12.1212",
+		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Eigentumsquote beträgt seit 2015 rund 15%.",
-		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen, seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgeweisen werden.",
+		"lesehilfe": "Die Eigentumsquote beträgt seit 2012 rund 15%.",
+		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen. Seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgewiesen werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1015,8 +1020,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bestand an Notwohnungen und ihre Belegung",
-		"subtitle": "",
-		"kuerzel": "I.13.3.04154",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.3.4154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
 		"thema": "13 Soziale Sicherheit",
@@ -1025,15 +1030,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T11:56:25.2525",
+		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2017 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
+		"lesehilfe": "Die wenigen Notwohnungen – 2018 machten sie 0,13% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot seit 2013 um 50 Logis erhöht werden.",
 		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Einträgen im Einwohnerregister gemessen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_01_00_00_00_000",
 		"parentId": null,
 		"children": [],
@@ -1041,11 +1048,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4154,
-		"darstellungsart": "Grafik"
+		"data-id": 4154,
+		"chart-id": 4154,
+		"filter": "",
+		"id": 4154
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
