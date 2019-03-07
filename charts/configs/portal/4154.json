@@ -32,6 +32,10 @@
         [
           2017,
           145
+        ],
+        [
+          2018,
+          145
         ]
       ],
       "name": "Notwohnungen"
@@ -68,6 +72,10 @@
         [
           2017,
           125
+        ],
+        [
+          2018,
+          129
         ]
       ],
       "name": "Notwohnungen belegt"
@@ -76,6 +84,9 @@
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
+      "marker": {
+        "enabled": false
+      },
       "yAxis": 1,
       "tooltip": {
         "valueDecimals": 1
@@ -108,6 +119,10 @@
         [
           2017,
           86.2068965517241
+        ],
+        [
+          2018,
+          88.9655172413793
         ]
       ],
       "name": "Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)"
@@ -177,7 +192,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -259,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfe Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfe Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-5"
   },
   "legend": {
     "symbolRadius": 0,
