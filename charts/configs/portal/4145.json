@@ -6,35 +6,39 @@
       "data": [
         [
           1990,
-          11
+          10.966343133877
         ],
         [
           2000,
-          12.6
+          12.556953958897
         ],
         [
           2012,
-          14.99
+          15.258569770047
         ],
         [
           2013,
-          15.0216087451
+          15.186449606434
         ],
         [
           2014,
-          15.136272264
+          15.276142131979
         ],
         [
           2015,
-          15.0992322581
+          15.373021853805
         ],
         [
           2016,
-          15.0978950271
+          15.422582414234
         ],
         [
           2017,
-          15.0333363777
+          15.398064568593
+        ],
+        [
+          2018,
+          15.3649790311
         ]
       ],
       "name": "Wohneigentumsquote"
@@ -139,7 +143,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-5"
   },
   "legend": {
     "enabled": false,

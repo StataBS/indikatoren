@@ -23,6 +23,10 @@
         [
           2017,
           15148
+        ],
+        [
+          2018,
+          15168
         ]
       ],
       "name": "Eigentümerwohungen"
@@ -50,6 +54,10 @@
         [
           2017,
           10588
+        ],
+        [
+          2018,
+          10682
         ]
       ],
       "name": "Genossenschaftswohnungen"
@@ -77,6 +85,10 @@
         [
           2017,
           71856
+        ],
+        [
+          2018,
+          72004
         ]
       ],
       "name": "Mietwohnungen"
@@ -104,9 +116,13 @@
         [
           2017,
           621
+        ],
+        [
+          2018,
+          719
         ]
       ],
-      "name": "sonstige Wohnungen"
+      "name": "Sonstige Wohnungen"
     }
   ],
   "chart": {
@@ -171,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Belegungsart",
+    "text": "nach Belegungsart, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -228,7 +244,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-5"
   },
   "legend": {
     "symbolRadius": 0,

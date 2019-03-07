@@ -79,6 +79,9 @@
       "color": "#cd9c00",
       "index": 1,
       "type": "line",
+       marker: {
+                enabled: false
+            },
       "yAxis": 1, 
       tooltip: {
         valueDecimals: 1
