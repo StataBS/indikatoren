@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.2088444646
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.2727272727
+          0.2043859649
         ],
         [
           "Vorstädte",
-          0.2783649053
+          0.2802712946
         ],
         [
-          "Matthäus",
-          0.2982168735
+          "Altstadt Kleinbasel",
+          0.2862985685
         ],
         [
           "Am Ring",
-          0.3042553191
+          0.3007723762
+        ],
+        [
+          "Matthäus",
+          0.3053274776
         ],
         [
           "Altstadt Grossbasel",
-          0.3111969112
+          0.3108888034
         ],
         [
           "Clara",
-          0.3148873653
-        ],
-        [
-          "St. Johann",
-          0.3171841542
+          0.3143067124
         ],
         [
           "Gundeldingen",
-          0.3199426112
+          0.3186005645
         ],
         [
-          "Iselin",
-          0.3312956259
+          "St. Johann",
+          0.3187219011
         ],
         [
           "St. Alban",
-          0.3366194659
+          0.3256459164
+        ],
+        [
+          "Iselin",
+          0.3337257903
         ],
         [
           "Klybeck",
-          0.3419710544
+          0.3448512272
         ],
         [
           "Breite",
-          0.3470350404
+          0.346051168
         ],
         [
           "Kleinhüningen",
-          0.3516174402
+          0.355143457
         ],
         [
           "Gotthelf",
-          0.3545955349
+          0.35683391
         ],
         [
           "Wettstein",
-          0.3638336347
+          0.3606115108
         ],
         [
           "Hirzbrunnen",
-          0.3984542722
-        ],
-        [
-          "Bachletten",
-          0.4232589088
+          0.4000213288
         ],
         [
           "Bettingen",
-          0.4265323258
+          0.4089035449
         ],
         [
-          "Riehen",
-          0.4280089989
+          "Bachletten",
+          0.4174972315
         ],
         [
           "Bruderholz",
-          0.431151974
+          0.4236400556
+        ],
+        [
+          "Riehen",
+          0.4254942186
         ]
       ],
       "name": "Sesshaftigkeit",
@@ -99,19 +99,19 @@
           1
         ],
         [
-          "Altstadt Kleinbasel",
+          "Vorstädte",
           2
         ],
         [
-          "Vorstädte",
+          "Altstadt Kleinbasel",
           3
         ],
         [
-          "Matthäus",
+          "Am Ring",
           4
         ],
         [
-          "Am Ring",
+          "Matthäus",
           5
         ],
         [
@@ -123,19 +123,19 @@
           7
         ],
         [
-          "St. Johann",
+          "Gundeldingen",
           8
         ],
         [
-          "Gundeldingen",
+          "St. Johann",
           9
         ],
         [
-          "Iselin",
+          "St. Alban",
           10
         ],
         [
-          "St. Alban",
+          "Iselin",
           11
         ],
         [
@@ -163,19 +163,19 @@
           17
         ],
         [
-          "Bachletten",
+          "Bettingen",
           18
         ],
         [
-          "Bettingen",
+          "Bachletten",
           19
         ],
         [
-          "Riehen",
+          "Bruderholz",
           20
         ],
         [
-          "Bruderholz",
+          "Riehen",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "2018",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-12"
   },
   "legend": {
     "enabled": false,

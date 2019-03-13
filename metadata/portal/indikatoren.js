@@ -4565,7 +4565,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "Stand: 2017",
+		"subtitle": "2018",
 		"kuerzel": "I.01.1.4828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
@@ -4575,13 +4575,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
+		"aktualisierungsdatum": "2019-03-12T19:06:24.2424",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Rosentalviertel ist er am niedrigsten. Dies liegt vor allem daran, dass sich im neuen Quartierteil Erlenmatt sehr viele Neuzuzüger niederlassen.",
+		"lesehilfe": "In der Gemeinde Riehen und im Wohnviertel Bruderholz ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, am höchsten. Im Wohnviertel Rosental ist er am niedrigsten. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden.",
 		"erlaeuterungen": "Anteil der seit mindestens 10 Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
