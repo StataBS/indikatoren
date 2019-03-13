@@ -84,6 +84,7 @@ npm run build
 | raeumlicheGliederung | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?raeumlicheGliederung=Kanton) |  | Pre-populates the raeumlicheGliederung filter.  
 | darstellungsart | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?darstellungsart=Karte) |  | Pre-populates the Darstellungsart filter.  
 | stufe1, stufe2, stufe3 | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?Indikatorenset=Arbeitsmarkt&stufe=3&stufe1=Monitoring%20Basler%20Arbeitsmarkt&stufe2=Bruttoinlandprodukt%20und%20Wertsch%C3%B6pfung) |  | Pre-populates the filter for stufe1, stufe2 and stufe3. 
+| sort | Portal, Indikatorenset | [Example](https://statabs.github.io/indikatoren/?sort=aktualisierungsdatum_desc) | orderKey_asc | Sorts charts by a metadata property. Currently supports sorting by kuerzel, kuerzelKunde, orderKey, aktualisierungsdatum. 
 | hideSidebar | Portal | [Example](https://statabs.github.io/indikatoren/?hideSidebar=true) | false | Hides the sidebar that contains full text search text box, reset button, thema filter, and räumliche Gliederung filter. 
 | hideSearch | Portal | [Example](https://statabs.github.io/indikatoren/?hideSearch=true) | false | Hides the full text search text box. 
 | hideResetButton | Portal | [Example](https://statabs.github.io/indikatoren/?hideResetButton=true) | false | Hides the filter reset button. 
