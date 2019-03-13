@@ -28,8 +28,6 @@ global lazyRenderChartById
 
 //holds config of each chart
 
-var sortOptions = {};
-
 var indikatoren;
 var view = false;
 var perPage=16;
@@ -104,7 +102,14 @@ $(document).ready(function(){
         //perPage defined globally with a default value
         perPage=perPageParam;
       }
-      initializeFilterJS(indikatorenset, perPage);
+      
+      //determine sort order
+      var sortOptions;
+      var sortParam = window.decodeURIComponent($.url('?sort'));
+  		if (sortParam != "undefined"){
+      	sortOptions = getSortOptions(sortParam);
+  		}
+      initializeFilterJS(indikatorenset, perPage, sortOptions);
   });  
 });
 
@@ -131,7 +136,7 @@ function resetPortalFilter(FJS, view){
 }
 
 
-function initializeFilterJS(indikatorenset, perPage){
+function initializeFilterJS(indikatorenset, perPage, sortOptions){
   var fjsConfig = {      
     template: undefined,
     search: { ele: '#searchbox', start_length: 1},
@@ -152,7 +157,9 @@ function initializeFilterJS(indikatorenset, perPage){
 
   if (isIndikatorensetView(view)){ 
     //Indikatorenset View
-    sortOptions = {'orderKey': 'asc'};
+    if (!sortOptions) {
+    	sortOptions = {'orderKey': 'asc'};
+    }
     prepareIndikatorensetView(indikatorenset);
 
     //define filter.js configuration 
@@ -167,7 +174,9 @@ function initializeFilterJS(indikatorenset, perPage){
   }  
   else {
     //Portal view
-    sortOptions = {'randomNumber': 'asc'};
+    if (!sortOptions) {
+    	sortOptions = {'randomNumber': 'asc'};
+    }
     preparePortalView();    
     //define filter.js configuration 
     fjsConfig['template'] = '#indikator-template-carousel-portal';
@@ -253,8 +262,12 @@ function getSortOptions(name){
       return {'orderKey': 'asc'};
     case 'orderKey_desc':
       return {'orderKey': 'desc'};
+    case 'aktualisierungsdatum_asc':
+      return {'aktualisierungsdatum': 'asc'};
+    case 'aktualisierungsdatum_desc':
+      return {'aktualisierungsdatum': 'desc'};
     default : 
-      return {'kuerzel': 'asc'};     
+      return {'orderKey': 'asc'};     
   }
 }
 
