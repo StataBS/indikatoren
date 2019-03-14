@@ -350,7 +350,46 @@ function prepareIndikatorensetView(indikatorenset){
   setDropdownValFromUrlParameter('darstellungsart');
   
   //show lastUpdatedSets table if requested
-  if (window.decodeURIComponent($.url('?showLastUpdatedSets')) === 'true'){$('#lastUpdatedSets').show()}
+  if (window.decodeURIComponent($.url('?showLastUpdatedSets')) === 'true'){
+  	renderLastUpdatedSets('#lastUpdatedSets');
+  	$('#lastUpdatedSets').show();
+  }
+}
+
+function renderLastUpdatedSets(selector){
+	//load csv
+	$.get("https://statabs.github.io/indikatoren_plus/datenliste.tsv", function(tsv){
+		//convert tsv to array
+		var datenliste = tsvJSON(tsv);
+		//read template from html
+	  var html = $('#datenliste-row-template').html();
+  	var templateFunction = FilterJS.templateBuilder(html);
+		var container = $("#datenliste");
+		$.each(datenliste, function(i, c){
+			//only add if row is not empty
+			if (c.Datum && i < 5){
+    		container.find('tbody').append(templateFunction({Datum: c.Datum, ThemaLink: c.ThemaLink, Thema: c.Thema, Bereich: c.Bereich, Datenstand: c.Datenstand}));
+			}
+  	});
+	});
+}
+
+//var tsv is the TSV file with headers
+//see http://techslides.com/convert-csv-to-json-in-javascript 
+function tsvJSON(tsv){
+  var lines=tsv.split("\n");
+  var result = [];
+  var headers=lines[0].split("\t");
+  for(var i=1;i<lines.length;i++){
+	  var obj = {};
+	  var currentline=lines[i].split("\t");
+	  for(var j=0;j<headers.length;j++){
+		  obj[headers[j]] = currentline[j];
+	  }
+	  result.push(obj);
+  }
+  return result; //JavaScript object
+  //return JSON.stringify(result); //JSON
 }
 
 //check if field value exists before setting value of dropdown  
