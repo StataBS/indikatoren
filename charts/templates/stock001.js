@@ -132,7 +132,7 @@
         }, 
         tooltip: {
             dateTimeLabelFormats: {
-                day:"%A, %e. %b, %Y"
+                day:"%A, %e. %b. %Y"
             }
         },
         exporting: {
