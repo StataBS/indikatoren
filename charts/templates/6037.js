@@ -61,7 +61,6 @@
  "series": [
     {
 		"color": "#fabd24", // 
-    	"legendIndex": 2,
     	 "yAxis": 0,
     	 index: 2,
     	 legendIndex: 0,
@@ -76,7 +75,6 @@
     }, /* rot */
     {
 		"color": "#DC440E" , // Frauen
-    	"legendIndex": 2,
 		 "type": "column",
 		 "yAxis": 1,
     	 index: 1,
@@ -88,7 +86,6 @@
     },
     {
 		"color": "#008AC3", // Männer
-    	"legendIndex": 2,
     	"type": "column",
     	 "yAxis": 1,
     	 index: 0,
