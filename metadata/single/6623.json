@@ -1,6 +1,6 @@
-{"title":"Bevölkerungsbestand am Jahresende",
+﻿{"title":"Bevölkerungsbestand am Jahresende",
 "subtitle":"Stadt Basel",
-"kuerzel":"I.01.1.06623",
+"kuerzel":"I.01.1.6623",
 "kuerzelKunde":"",
 "description":"Bevölkerungsbestand am Jahresende",
 "id":6623,
@@ -8,15 +8,17 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"",
 "raeumlicheGliederung":["Gemeinde"],
-"aktualisierungsdatum":"2018-05-07T09:38:03.033",
+"aktualisierungsdatum":"2019-03-19T10:23:59.5959",
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2017 bei 176 461.",
+"lesehilfe":"In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2018 bei 177 595.",
 "erlaeuterungen":"Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 "template":"stock001",
+"darstellungsart":"",
+"printformat":"", 
 "visible":true,
 "visibleInPortal":true,
 "orderKey":"_000",
@@ -24,31 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
+"datenInChartIntegriert":false,
 "externalLinks":[""],
-"delimiter": "\t",
-"publishLod": true,
-"tableSchema": {
-     "aboutUrl": "https://ld.data-bs.ch/dataset/6623/observation/{Jahr}-Gemeinde2701",
-     "columns": [
-       {
-         "titles": "Jahr",
-         "propertyUrl": "https://ld.data-bs.ch/property/jahr",
-         "datatype": "date"
-       },
-       {
-         "titles": "Bevölkerung Stadt Basel",
-         "propertyUrl": "https://ld.data-bs.ch/property/bevolkerung"
-       },
-       {
-         "virtual": true,
-         "propertyUrl": "https://ld.data-bs.ch/property/raum",
-         "valueUrl": "https://ld.data-bs.ch/code/raum/Gemeinde2701"
-       }
-     ]
-   },
-"properties": [
-  "https://ld.data-bs.ch/property/jahr",
-  "https://ld.data-bs.ch/property/raum",
-  "https://ld.data-bs.ch/property/bevolkerung"
-]
+"data-id":6623, 
+"chart-id":6623, 
+"filter":""
 }

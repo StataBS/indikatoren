@@ -19,7 +19,8 @@
                     });
                 };
                 
-                negateNumbersInColumn(0,1); //welche datenreihen sollen links (negativ) erscheinen?
+                negateNumbersInColumn(1); 
+                negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
                 
             }     
         },
