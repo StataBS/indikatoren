@@ -7577,7 +7577,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
@@ -7587,9 +7587,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
+		"aktualisierungsdatum": "2019-03-19T10:32:54.5454",
+		"stufe1": "",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7599,9 +7599,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_102",
+		"orderKey": "_102",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6989"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -17502,8 +17504,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel; Stand: 2017",
-		"kuerzel": "I.01.1.06502",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2018",
+		"kuerzel": "I.01.1.6502",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -17513,15 +17515,17 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-01T00:00:00.000",
+		"aktualisierungsdatum": "2019-03-19T10:28:53.5353",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am Jahresende 2017 wiesen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen uner 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Gundeldingen, Altstadt Kleinbasel, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"lesehilfe": "Am Jahresende 2018 weisen das Wohnviertel Bruderholz und die Gemeinde Riehen die höchsten Anteile an Kindern und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren leben in den Wohnvierteln Rosental, Gundeldingen, Altstadt Kleinbasel und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen sind im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -17530,11 +17534,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6502,
-		"darstellungsart": "Grafik"
+		"data-id": 6502,
+		"chart-id": 6502,
+		"filter": "",
+		"id": 6502
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -19107,7 +19114,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Stadt Basel",
-		"kuerzel": "I.01.1.06623",
+		"kuerzel": "I.01.1.6623",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "01 Bevölkerung",
@@ -19116,15 +19123,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2018-05-07T09:38:03.033",
+		"aktualisierungsdatum": "2019-03-19T10:23:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2017 bei 176 461.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2018 bei 177 595.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
@@ -19133,17 +19142,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"delimiter": "",
-		"properties": [
-			"https://ld.data-bs.ch/property/jahr",
-			"https://ld.data-bs.ch/property/raum",
-			"https://ld.data-bs.ch/property/bevolkerung"
-		],
-		"id": 6623,
-		"darstellungsart": "Grafik"
+		"data-id": 6623,
+		"chart-id": 6623,
+		"filter": "",
+		"id": 6623
 	},
 	{
 		"title": "Quartierradar Altstadt Grossbasel",
@@ -23605,7 +23611,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:02:33.3333",
+		"aktualisierungsdatum": "2019-03-25T08:19:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -23617,7 +23623,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],

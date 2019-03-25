@@ -75,7 +75,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.5142",
 		"kuerzelKunde": "BE2",
 		"description": "Bevölkerungspyramide am Jahresende",
@@ -85,9 +85,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
+		"aktualisierungsdatum": "2019-03-19T10:32:54.5454",
+		"stufe1": "",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -96,9 +96,11 @@ var indikatorensetData = [
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_102",
+		"orderKey": "_102",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6989"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
