@@ -7,55 +7,55 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          262
+          276
         ],
         [
           "Vorstädte",
-          563
+          565
         ],
         [
           "Am Ring",
-          1515
+          1594
         ],
         [
           "Breite",
-          1277
+          1267
         ],
         [
           "St. Alban",
-          1856
+          1992
         ],
         [
           "Gundeldingen",
-          2698
+          2685
         ],
         [
           "Bruderholz",
-          1974
+          2011
         ],
         [
           "Bachletten",
-          2395
+          2418
         ],
         [
           "Gotthelf",
-          1100
+          1125
         ],
         [
           "Iselin",
-          2889
+          2939
         ],
         [
           "St. Johann",
-          3167
+          3179
         ],
         [
           "Altstadt Kleinbasel",
-          262
+          268
         ],
         [
           "Clara",
-          504
+          528
         ],
         [
           "Wettstein",
@@ -63,35 +63,35 @@
         ],
         [
           "Hirzbrunnen",
-          1802
+          1853
         ],
         [
           "Rosental",
-          1290
+          1329
         ],
         [
           "Matthäus",
-          2477
+          2440
         ],
         [
           "Klybeck",
-          1416
+          1397
         ],
         [
           "Kleinhüningen",
-          565
+          569
         ],
         [
           "Riehen",
-          4288
+          4361
         ],
         [
           "Bettingen",
-          215
+          233
         ],
         [
           "Kanton BS",
-          33302
+          33816
         ]
       ],
       "name": "0-19",
@@ -104,91 +104,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          747
+          744
         ],
         [
           "Vorstädte",
-          1583
+          1619
         ],
         [
           "Am Ring",
-          3634
+          3766
         ],
         [
           "Breite",
-          2848
+          2904
         ],
         [
           "St. Alban",
-          2861
+          3005
         ],
         [
           "Gundeldingen",
-          7243
+          7184
         ],
         [
           "Bruderholz",
-          1780
+          1855
         ],
         [
           "Bachletten",
-          3385
+          3432
         ],
         [
           "Gotthelf",
-          1952
+          1992
         ],
         [
           "Iselin",
-          5681
+          5725
         ],
         [
           "St. Johann",
-          6545
+          6467
         ],
         [
           "Altstadt Kleinbasel",
-          939
+          894
         ],
         [
           "Clara",
-          1360
+          1371
         ],
         [
           "Wettstein",
-          1748
+          1792
         ],
         [
           "Hirzbrunnen",
-          2390
+          2351
         ],
         [
           "Rosental",
-          2893
+          2945
         ],
         [
           "Matthäus",
-          6029
+          5982
         ],
         [
           "Klybeck",
-          2366
+          2364
         ],
         [
           "Kleinhüningen",
-          839
+          838
         ],
         [
           "Riehen",
-          3830
+          3799
         ],
         [
           "Bettingen",
-          254
+          261
         ],
         [
           "Kanton BS",
-          60907
+          61290
         ]
       ],
       "name": "20-39",
@@ -201,91 +201,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          884
+          865
         ],
         [
           "Vorstädte",
-          1395
+          1372
         ],
         [
           "Am Ring",
-          2737
+          2738
         ],
         [
           "Breite",
-          2353
+          2391
         ],
         [
           "St. Alban",
-          2911
+          3054
         ],
         [
           "Gundeldingen",
-          4959
+          4980
         ],
         [
           "Bruderholz",
-          2774
+          2777
         ],
         [
           "Bachletten",
-          3895
+          3870
         ],
         [
           "Gotthelf",
-          1947
+          1913
         ],
         [
           "Iselin",
-          4611
+          4633
         ],
         [
           "St. Johann",
-          5112
+          5159
         ],
         [
           "Altstadt Kleinbasel",
-          656
+          657
         ],
         [
           "Clara",
-          1129
+          1076
         ],
         [
           "Wettstein",
-          1599
+          1570
         ],
         [
           "Hirzbrunnen",
-          2356
+          2393
         ],
         [
           "Rosental",
-          1577
+          1696
         ],
         [
           "Matthäus",
-          4461
+          4387
         ],
         [
           "Klybeck",
-          2111
+          2121
         ],
         [
           "Kleinhüningen",
-          769
+          765
         ],
         [
           "Riehen",
-          6337
+          6351
         ],
         [
           "Bettingen",
-          354
+          345
         ],
         [
           "Kanton BS",
-          54927
+          55113
         ]
       ],
       "name": "40-59",
@@ -298,91 +298,91 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          581
+          587
         ],
         [
           "Vorstädte",
-          1043
+          1021
         ],
         [
           "Am Ring",
-          2047
+          2026
         ],
         [
           "Breite",
-          1693
+          1710
         ],
         [
           "St. Alban",
-          2194
+          2200
         ],
         [
           "Gundeldingen",
-          3020
+          3022
         ],
         [
           "Bruderholz",
-          1931
+          1938
         ],
         [
           "Bachletten",
-          2818
+          2844
         ],
         [
           "Gotthelf",
-          1349
+          1362
         ],
         [
           "Iselin",
-          2777
+          2825
         ],
         [
           "St. Johann",
-          2800
+          2842
         ],
         [
           "Altstadt Kleinbasel",
-          457
+          479
         ],
         [
           "Clara",
-          768
+          773
         ],
         [
           "Wettstein",
-          1058
+          1080
         ],
         [
           "Hirzbrunnen",
-          2007
+          2029
         ],
         [
           "Rosental",
-          660
+          689
         ],
         [
           "Matthäus",
-          2431
+          2428
         ],
         [
           "Klybeck",
-          1089
+          1135
         ],
         [
           "Kleinhüningen",
-          516
+          530
         ],
         [
           "Riehen",
-          4838
+          4902
         ],
         [
           "Bettingen",
-          268
+          270
         ],
         [
           "Kanton BS",
-          36345
+          36692
         ]
       ],
       "name": "60-79",
@@ -395,75 +395,75 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          116
+          127
         ],
         [
           "Vorstädte",
-          428
+          432
         ],
         [
           "Am Ring",
-          865
+          870
         ],
         [
           "Breite",
-          727
+          713
         ],
         [
           "St. Alban",
-          1331
+          1278
         ],
         [
           "Gundeldingen",
-          896
+          906
         ],
         [
           "Bruderholz",
-          778
+          768
         ],
         [
           "Bachletten",
-          1030
+          976
         ],
         [
           "Gotthelf",
-          547
+          542
         ],
         [
           "Iselin",
-          887
+          861
         ],
         [
           "St. Johann",
-          1049
+          1027
         ],
         [
           "Altstadt Kleinbasel",
-          150
+          146
         ],
         [
           "Clara",
-          320
+          331
         ],
         [
           "Wettstein",
-          338
+          331
         ],
         [
           "Hirzbrunnen",
-          759
+          748
         ],
         [
           "Rosental",
-          183
+          180
         ],
         [
           "Matthäus",
-          468
+          469
         ],
         [
           "Klybeck",
-          273
+          276
         ],
         [
           "Kleinhüningen",
@@ -475,11 +475,11 @@
         ],
         [
           "Bettingen",
-          99
+          103
         ],
         [
           "Kanton BS",
-          13429
+          13269
         ]
       ],
       "name": "80-99",
@@ -496,15 +496,15 @@
         ],
         [
           "Vorstädte",
-          3
+          4
         ],
         [
           "Am Ring",
-          12
+          11
         ],
         [
           "Breite",
-          6
+          5
         ],
         [
           "St. Alban",
@@ -512,7 +512,7 @@
         ],
         [
           "Gundeldingen",
-          3
+          2
         ],
         [
           "Bruderholz",
@@ -520,11 +520,11 @@
         ],
         [
           "Bachletten",
-          3
+          5
         ],
         [
           "Gotthelf",
-          3
+          2
         ],
         [
           "Iselin",
@@ -532,11 +532,11 @@
         ],
         [
           "St. Johann",
-          7
+          10
         ],
         [
           "Altstadt Kleinbasel",
-          0
+          1
         ],
         [
           "Clara",
@@ -548,11 +548,11 @@
         ],
         [
           "Hirzbrunnen",
-          2
+          3
         ],
         [
           "Rosental",
-          0
+          1
         ],
         [
           "Matthäus",
@@ -564,11 +564,11 @@
         ],
         [
           "Kleinhüningen",
-          0
+          1
         ],
         [
           "Riehen",
-          13
+          5
         ],
         [
           "Bettingen",
@@ -576,7 +576,7 @@
         ],
         [
           "Kanton BS",
-          78
+          76
         ]
       ],
       "name": "100 u. ä.",
@@ -664,7 +664,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Altersklasse und Wohnviertel; Stand: 2017",
+    "text": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -705,7 +705,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-19"
   },
   "legend": {
     "symbolRadius": 0,
