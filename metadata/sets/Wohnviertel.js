@@ -4839,9 +4839,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter in Jahren, Basel-Stadt, 2017",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06989",
-		"kuerzelKunde": "",
+		"kuerzelKunde": "GS-99.D",
 		"description": "Bevölkerungspyramide am Jahresende",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -4849,7 +4849,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-15T09:33:03.033",
+		"aktualisierungsdatum": "2019-03-19T10:32:54.5454",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",

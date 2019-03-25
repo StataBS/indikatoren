@@ -170,7 +170,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:02:33.3333",
+		"aktualisierungsdatum": "2019-03-25T08:19:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -181,7 +181,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_000",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
