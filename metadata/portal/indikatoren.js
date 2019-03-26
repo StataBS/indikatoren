@@ -24045,7 +24045,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-28T08:56:52.5252",
+		"aktualisierungsdatum": "2019-03-26T10:49:56.5656",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24075,7 +24075,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Januar",
+		"subtitle": "Basel-Stadt, Februar",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -24085,7 +24085,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-28T08:53:18.1818",
+		"aktualisierungsdatum": "2019-03-26T10:51:37.3737",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
