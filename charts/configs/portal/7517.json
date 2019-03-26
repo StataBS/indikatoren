@@ -9,7 +9,7 @@
         ],
         [
           "3-Sterne",
-          1653
+          1673
         ],
         [
           "4- und 5-Sterne",
@@ -17,10 +17,10 @@
         ],
         [
           "Nicht klassiert",
-          365
+          346
         ]
       ],
-      "name": "Angebotene Zimmer 2018",
+      "name": "Verfügbare Zimmer 2018",
       "turboThreshold": 0
     },
     {
@@ -40,10 +40,10 @@
         ],
         [
           "Nicht klassiert",
-          341
+          340
         ]
       ],
-      "name": "Angebotene Zimmer 2019",
+      "name": "Verfügbare Zimmer 2019",
       "turboThreshold": 0
     },
     {
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.47739729
+          0.46452255
         ],
         [
           "3-Sterne",
-          0.57433767
+          0.60396444
         ],
         [
           "4- und 5-Sterne",
-          0.54557618
+          0.56385723
         ],
         [
           "Nicht klassiert",
-          0.49946761
+          0.51156069
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2018",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.40952868
+          0.41602861
         ],
         [
           "3-Sterne",
-          0.44416316
+          0.52986472
         ],
         [
           "4- und 5-Sterne",
-          0.52311324
+          0.56858389
         ],
         [
           "Nicht klassiert",
-          0.40093129
+          0.47909664
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2019",
@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Januar",
+    "text": "Basel-Stadt, Februar",
     "align": "left"
   },
   "yAxis": [
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-26"
   },
   "legend": {
     "symbolRadius": 0,
