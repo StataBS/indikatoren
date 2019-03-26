@@ -146,6 +146,22 @@
         [
           "2017-4",
           310
+        ],
+        [
+          "2018-1",
+          151
+        ],
+        [
+          "2018-2",
+          63
+        ],
+        [
+          "2018-3",
+          672
+        ],
+        [
+          "2018-4",
+          312
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -297,6 +313,22 @@
         [
           "2017-4",
           4022
+        ],
+        [
+          "2018-1",
+          6333
+        ],
+        [
+          "2018-2",
+          6097
+        ],
+        [
+          "2018-3",
+          6161
+        ],
+        [
+          "2018-4",
+          3792
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -448,6 +480,22 @@
         [
           "2017-4",
           2029
+        ],
+        [
+          "2018-1",
+          9693
+        ],
+        [
+          "2018-2",
+          2354
+        ],
+        [
+          "2018-3",
+          3271
+        ],
+        [
+          "2018-4",
+          2187
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -599,6 +647,22 @@
         [
           "2017-4",
           20396
+        ],
+        [
+          "2018-1",
+          15150
+        ],
+        [
+          "2018-2",
+          25135
+        ],
+        [
+          "2018-3",
+          33497
+        ],
+        [
+          "2018-4",
+          20427
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -615,6 +679,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -690,7 +755,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -706,7 +772,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

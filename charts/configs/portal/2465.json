@@ -146,6 +146,22 @@
         [
           "2017-04",
           67
+        ],
+        [
+          "2018-01",
+          84
+        ],
+        [
+          "2018-02",
+          61
+        ],
+        [
+          "2018-03",
+          84
+        ],
+        [
+          "2018-04",
+          59
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -297,6 +313,22 @@
         [
           "2017-04",
           271
+        ],
+        [
+          "2018-01",
+          341
+        ],
+        [
+          "2018-02",
+          361
+        ],
+        [
+          "2018-03",
+          346
+        ],
+        [
+          "2018-04",
+          285
         ]
       ],
       "name": "Chemie, Pharma",
@@ -448,6 +480,22 @@
         [
           "2017-04",
           15
+        ],
+        [
+          "2018-01",
+          21
+        ],
+        [
+          "2018-02",
+          15
+        ],
+        [
+          "2018-03",
+          58
+        ],
+        [
+          "2018-04",
+          26
         ]
       ],
       "name": "Baugewerbe",
@@ -555,7 +603,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

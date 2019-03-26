@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#000000",
+      "color": "#3C3C3C",
       "index": 0,
       "data": [
         [
@@ -147,6 +147,22 @@
         [
           "2017-4",
           91024
+        ],
+        [
+          "2018-1",
+          141010
+        ],
+        [
+          "2018-2",
+          107257
+        ],
+        [
+          "2018-3",
+          118467
+        ],
+        [
+          "2018-4",
+          89456
         ]
       ],
       "name": "Meldepflichtige insgesamt",
@@ -299,6 +315,22 @@
         [
           "2017-4",
           65179
+        ],
+        [
+          "2018-1",
+          63978
+        ],
+        [
+          "2018-2",
+          70592
+        ],
+        [
+          "2018-3",
+          99847
+        ],
+        [
+          "2018-4",
+          64496
         ]
       ],
       "name": "Arbeitnehmende",
@@ -451,6 +483,22 @@
         [
           "2017-4",
           7494
+        ],
+        [
+          "2018-1",
+          31034
+        ],
+        [
+          "2018-2",
+          15482
+        ],
+        [
+          "2018-3",
+          5389
+        ],
+        [
+          "2018-4",
+          6444
         ]
       ],
       "name": "Selbständigerwerbende",
@@ -603,6 +651,22 @@
         [
           "2017-4",
           18351
+        ],
+        [
+          "2018-1",
+          45998
+        ],
+        [
+          "2018-2",
+          21183
+        ],
+        [
+          "2018-3",
+          13231
+        ],
+        [
+          "2018-4",
+          18516
         ]
       ],
       "name": "Entsandte",
@@ -619,6 +683,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -715,7 +780,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

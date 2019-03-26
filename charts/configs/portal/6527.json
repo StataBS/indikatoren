@@ -14,6 +14,10 @@
         [
           "2014",
           5722
+        ],
+        [
+          "2016",
+          5811
         ]
       ],
       "name": "Handel, Reparatur",
@@ -33,6 +37,10 @@
         [
           "2014",
           6210
+        ],
+        [
+          "2016",
+          5848
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -52,6 +60,10 @@
         [
           "2014",
           4333
+        ],
+        [
+          "2016",
+          4513
         ]
       ],
       "name": "Gastgewerbe",
@@ -71,6 +83,10 @@
         [
           "2014",
           8165
+        ],
+        [
+          "2016",
+          8341
         ]
       ],
       "name": "Information, Kommunikation",
@@ -157,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
@@ -197,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

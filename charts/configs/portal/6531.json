@@ -7,26 +7,26 @@
       "data": [
         [
           "BS",
-          27874
+          27548
         ],
         [
           "BL",
-          32923
+          33022
         ],
         [
           "AG",
-          77597
+          78259
         ],
         [
           "ZH",
-          193618
+          194647
         ],
         [
           "CH",
-          1169440
+          1173582
         ]
       ],
-      "name": "bis 9 VZÄ",
+      "name": "\u003C10 VZÄ",
       "turboThreshold": 0
     },
     {
@@ -36,26 +36,26 @@
       "data": [
         [
           "BS",
-          31929
+          31167
         ],
         [
           "BL",
-          33256
+          33574
         ],
         [
           "AG",
-          71543
+          71136
         ],
         [
           "ZH",
-          201217
+          204057
         ],
         [
           "CH",
-          1093812
+          1101462
         ]
       ],
-      "name": "10 bis 49 VZÄ",
+      "name": "10-49,9 VZÄ",
       "turboThreshold": 0
     },
     {
@@ -65,26 +65,26 @@
       "data": [
         [
           "BS",
-          38479
+          38595
         ],
         [
           "BL",
-          36093
+          35741
         ],
         [
           "AG",
-          66477
+          68077
         ],
         [
           "ZH",
-          200883
+          204509
         ],
         [
           "CH",
-          1012661
+          1021947
         ]
       ],
-      "name": "50 bis 249 VZÄ",
+      "name": "50-249,9 VZÄ",
       "turboThreshold": 0
     },
     {
@@ -94,23 +94,23 @@
       "data": [
         [
           "BS",
-          53139
+          54052
         ],
         [
           "BL",
-          15267
+          14999
         ],
         [
           "AG",
-          46719
+          47780
         ],
         [
           "ZH",
-          183855
+          184061
         ],
         [
           "CH",
-          698027
+          704101
         ]
       ],
       "name": "250 VZÄ u.m.",
@@ -251,7 +251,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "layout": "horizontal",

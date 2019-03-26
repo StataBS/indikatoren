@@ -4,219 +4,205 @@
       "color": "#C8C8C8",
       "data": [
         [
-          2005,
+          "2005",
           5003
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           4578
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           4783
         ],
         [
-          2012,
+          "2012",
           4997
         ],
         [
-          2013,
+          "2013",
           5093
         ],
         [
-          2014,
+          "2014",
           5172
         ],
         [
-          2015,
+          "2015",
           5214
         ],
         [
-          2016,
+          "2016",
           5409
         ]
       ],
-      "name": "Öffentliche Verwaltung,  \u003Cbr\u002F\u003ESozialversicherungen"
+      "name": "Öffentliche Verwaltung, Sozialversicherungen",
+      "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "data": [
         [
-          2005,
+          "2005",
           7012
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           7499
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           7602
         ],
         [
-          2012,
+          "2012",
           7717
         ],
         [
-          2013,
+          "2013",
           7669
         ],
         [
-          2014,
+          "2014",
           8010
         ],
         [
-          2015,
+          "2015",
           7901
         ],
         [
-          2016,
+          "2016",
           7932
         ]
       ],
-      "name": "Erziehung, Unterricht"
+      "name": "Erziehung, Unterricht",
+      "turboThreshold": 0
     },
     {
       "color": "#6F6F6F",
       "data": [
         [
-          2005,
+          "2005",
           16358
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           17160
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           19389
         ],
         [
-          2012,
+          "2012",
           19186
         ],
         [
-          2013,
+          "2013",
           20373
         ],
         [
-          2014,
+          "2014",
           20700
         ],
         [
-          2015,
+          "2015",
           21414
         ],
         [
-          2016,
+          "2016",
           22139
         ]
       ],
-      "name": "Gesundheits-, Sozialwesen"
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
     },
     {
       "color": "#2B0099",
       "data": [
         [
-          2005,
+          "2005",
           5564
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           5687
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           7070
         ],
         [
-          2012,
+          "2012",
           7026
         ],
         [
-          2013,
+          "2013",
           7289
         ],
         [
-          2014,
+          "2014",
           7384
         ],
         [
-          2015,
+          "2015",
           7333
         ],
         [
-          2016,
+          "2016",
           7265
         ]
       ],
-      "name": "Kultur, Unterhaltung, pers. DL"
+      "name": "Kultur, Unterhaltung, pers. DL",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -262,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -288,32 +274,6 @@
     },
     "tickInterval": 5000
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickPositions": [
-      2005,
-      2008,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021
-    ]
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -328,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,
@@ -341,7 +301,11 @@
     },
     "width": 460,
     "itemWidth": 230,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function (){
+      return this.name
+        .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentliche Verwaltung, <br/>Sozialversicherungen");
+    }
   },
   "plotOptions": {
     "series": {

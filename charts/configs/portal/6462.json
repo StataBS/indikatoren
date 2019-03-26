@@ -5,70 +5,11 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.028
+          0.03
         ],
         [
           "Chemie, Pharma",
-          0.082
-        ],
-        [
-          "Baugewerbe",
-          0.025
-        ],
-        [
-          "Handel, Reparatur",
-          0.024
-        ],
-        [
-          "Verkehr, Lagerei, Kommunikation",
-          0.016
-        ],
-        [
-          "Gastgewerbe",
-          0.036
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.007
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
-          0.075
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.006
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.022
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.013
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.041
-        ],
-        [
-          "Total",
-          0.039
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#71A3B5",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.029
-        ],
-        [
-          "Chemie, Pharma",
-          0.073
+          0.072
         ],
         [
           "Baugewerbe",
@@ -80,7 +21,7 @@
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
-          0.017
+          0.018
         ],
         [
           "Gastgewerbe",
@@ -88,11 +29,11 @@
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.004
+          0.005
         ],
         [
           "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
-          0.077
+          0.076
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -119,7 +60,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#008AC3",
+      "color": "#71A3B5",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -127,7 +68,7 @@
         ],
         [
           "Chemie, Pharma",
-          0.075
+          0.074
         ],
         [
           "Baugewerbe",
@@ -143,7 +84,7 @@
         ],
         [
           "Gastgewerbe",
-          0.02
+          0.021
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -151,11 +92,11 @@
         ],
         [
           "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
-          0.082
+          0.081
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.005
+          0.004
         ],
         [
           "Erziehung, Unterricht",
@@ -163,7 +104,7 @@
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.013
+          0.012
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
@@ -175,6 +116,65 @@
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.035
+        ],
+        [
+          "Chemie, Pharma",
+          0.073
+        ],
+        [
+          "Baugewerbe",
+          0.016
+        ],
+        [
+          "Handel, Reparatur",
+          0.029
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.022
+        ],
+        [
+          "Gastgewerbe",
+          0.02
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.005
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung, andere DL",
+          0.105
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.004
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.025
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.012
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.028
+        ],
+        [
+          "Total",
+          0.044
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -196,7 +196,7 @@
       "align": "left",
       "x": -180,
       "formatter": function () {
-            return this.value.replace("/", "<br/>")
+            return this.value.replace("/", "<br/>");
         }
     },
     "tickLength": 0
@@ -257,7 +257,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zuwanderung pro Beschäftigten nach Branche"
+    "text": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche"
   },
   "subtitle": {
     "style": {
@@ -266,7 +266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, pro besetzter Stelle",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -287,9 +287,10 @@
       },
       "format": "{value}%",
       "formatter": function (){
-        return Highcharts.numberFormat((this.value*100),1)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }
-    }
+    },
+    "tickInterval": 0.02
   },
   "navigation": {
     "menuItemStyle": {
@@ -310,7 +311,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

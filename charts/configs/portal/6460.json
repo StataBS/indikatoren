@@ -5,77 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.054
-        ],
-        [
-          "Chemie, Pharma",
-          0.026
-        ],
-        [
-          "Baugewerbe",
-          0.121
-        ],
-        [
-          "Handel, Reparatur",
-          0.039
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.047
-        ],
-        [
-          "Gastgewerbe",
-          0.086
-        ],
-        [
-          "Information, Kommunikation",
-          0.035
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.03
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.033
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.07
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.026
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.027
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.021
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.026
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.039
-        ],
-        [
-          "Total",
-          0.037
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           0.065
         ],
         [
@@ -143,7 +72,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -211,6 +140,77 @@
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.048
+        ],
+        [
+          "Chemie, Pharma",
+          0.02
+        ],
+        [
+          "Baugewerbe",
+          0.107
+        ],
+        [
+          "Handel, Reparatur",
+          0.039
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.044
+        ],
+        [
+          "Gastgewerbe",
+          0.076
+        ],
+        [
+          "Information, Kommunikation",
+          0.034
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.029
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.03
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.06
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.03
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.025
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.02
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.029
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.031
+        ],
+        [
+          "Total",
+          0.034
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

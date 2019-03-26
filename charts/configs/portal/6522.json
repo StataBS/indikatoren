@@ -14,9 +14,13 @@
         [
           "2014",
           6427
+        ],
+        [
+          "2016",
+          6502
         ]
       ],
-      "name": "CH",
+      "name": "Schweiz",
       "turboThreshold": 0
     },
     {
@@ -33,6 +37,10 @@
         [
           "2014",
           6578
+        ],
+        [
+          "2016",
+          6700
         ]
       ],
       "name": "Nordwestschweiz",
@@ -52,6 +60,10 @@
         [
           "2014",
           6810
+        ],
+        [
+          "2016",
+          6869
         ]
       ],
       "name": "Zürich",
@@ -138,7 +150,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken",
+    "text": "in Franken",
     "align": "left"
   },
   "yAxis": {
@@ -178,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

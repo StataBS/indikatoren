@@ -1,0 +1,374 @@
+{
+  "series": [
+    {
+      "color": "#FF8028",
+      "legendIndex": 6,
+      "data": [
+        [
+          "2011",
+          1204.5
+        ],
+        [
+          "2012",
+          1222.3
+        ],
+        [
+          "2013",
+          1223
+        ],
+        [
+          "2014",
+          1220.6
+        ],
+        [
+          "2015",
+          1069.6
+        ],
+        [
+          "2016",
+          1047.1
+        ]
+      ],
+      "name": "Personenbef. Schiene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2E1435",
+      "legendIndex": 5,
+      "data": [
+        [
+          "2011",
+          673.3
+        ],
+        [
+          "2012",
+          626.8
+        ],
+        [
+          "2013",
+          537.7
+        ],
+        [
+          "2014",
+          537.5
+        ],
+        [
+          "2015",
+          76.5
+        ],
+        [
+          "2016",
+          67.4
+        ]
+      ],
+      "name": "Güterbeförderung Schiene",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "legendIndex": 4,
+      "data": [
+        [
+          "2011",
+          954.5
+        ],
+        [
+          "2012",
+          976.4
+        ],
+        [
+          "2013",
+          1024.1
+        ],
+        [
+          "2014",
+          941.1
+        ],
+        [
+          "2015",
+          986.3
+        ],
+        [
+          "2016",
+          971.1
+        ]
+      ],
+      "name": "Nahverkehr (ohne Taxis)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "legendIndex": 3,
+      "data": [
+        [
+          "2011",
+          416.7
+        ],
+        [
+          "2012",
+          422.4
+        ],
+        [
+          "2013",
+          430.2
+        ],
+        [
+          "2014",
+          387.2
+        ],
+        [
+          "2015",
+          426
+        ],
+        [
+          "2016",
+          407.3
+        ]
+      ],
+      "name": "Taxis",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "legendIndex": 2,
+      "data": [
+        [
+          "2011",
+          77.6
+        ],
+        [
+          "2012",
+          81.7
+        ],
+        [
+          "2013",
+          82.7
+        ],
+        [
+          "2014",
+          84.3
+        ],
+        [
+          "2015",
+          95.4
+        ],
+        [
+          "2016",
+          93.2
+        ]
+      ],
+      "name": "Sonstige Personenbef.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "legendIndex": 1,
+      "data": [
+        [
+          "2011",
+          890
+        ],
+        [
+          "2012",
+          943.1
+        ],
+        [
+          "2013",
+          999.4
+        ],
+        [
+          "2014",
+          874.8
+        ],
+        [
+          "2015",
+          879.5
+        ],
+        [
+          "2016",
+          817.2
+        ]
+      ],
+      "name": "Güterbeförderung Strasse",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C9D6DB",
+      "legendIndex": 0,
+      "data": [
+        [
+          "2011",
+          65.5
+        ],
+        [
+          "2012",
+          72.1
+        ],
+        [
+          "2013",
+          93.9
+        ],
+        [
+          "2014",
+          97.6
+        ],
+        [
+          "2015",
+          105.6
+        ],
+        [
+          "2016",
+          128.2
+        ]
+      ],
+      "name": "Umzugstransporte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-7447",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 25,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigung im Landverkehr"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 11,
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "labelFormatter": function () {
+            return this.name.replace("Personenbef.", "Personenbeförderung");
+          }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false,
+    "valueDecimals": 0
+  },
+  "exporting": {
+    "filename": 7447
+  }
+}

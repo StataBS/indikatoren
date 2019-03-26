@@ -1,8 +1,10 @@
 (function(){
     return {
  "xAxis": {
-    //"tickInterval": 1,
-    "tickPositions": [2005,2008,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021]
+    "type": "category",
+    labels:{
+      rotation: 0
+    }
   },
   "yAxis": {
       tickInterval: 5000,
@@ -28,6 +30,12 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    "labelFormatter": function (){
+      return this.name
+        .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, Forschung, <br/>Immobilien")
+        .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, Sicherheit, <br/>sonst. wirtsch. DL")
+        .replace("Personalvermittlung, -überlassung", "Personalvermittlung, <br/>-überlassung");
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -4,165 +4,157 @@
       "color": "#E7CEE2",
       "data": [
         [
-          2005,
+          "2005",
           7940
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           8350
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           9202
         ],
         [
-          2012,
+          "2012",
           8699
         ],
         [
-          2013,
+          "2013",
           8176
         ],
         [
-          2014,
+          "2014",
           8075
         ],
         [
-          2015,
+          "2015",
           8144
         ],
         [
-          2016,
+          "2016",
           8148
         ]
       ],
-      "name": "Industrie (exkl. Chemie, Pharma)"
+      "name": "Industrie (exkl. Chemie, Pharma)",
+      "turboThreshold": 0
     },
     {
       "color": "#B375AB",
       "data": [
         [
-          2005,
+          "2005",
           15489
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           16651
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           17561
         ],
         [
-          2012,
+          "2012",
           18243
         ],
         [
-          2013,
+          "2013",
           18295
         ],
         [
-          2014,
+          "2014",
           18483
         ],
         [
-          2015,
+          "2015",
           18854
         ],
         [
-          2016,
+          "2016",
           19030
         ]
       ],
-      "name": "Chemie, Pharma"
+      "name": "Chemie, Pharma",
+      "turboThreshold": 0
     },
     {
       "color": "#662673",
       "data": [
         [
-          2005,
+          "2005",
           7858
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           7364
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           7418
         ],
         [
-          2012,
+          "2012",
           7442
         ],
         [
-          2013,
+          "2013",
           7318
         ],
         [
-          2014,
+          "2014",
           7739
         ],
         [
-          2015,
+          "2015",
           7825
         ],
         [
-          2016,
+          "2016",
           7774
         ]
       ],
-      "name": "Baugewerbe"
+      "name": "Baugewerbe",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -208,7 +200,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -233,32 +225,6 @@
       "format": "{value:,.0f}"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickPositions": [
-      2005,
-      2008,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021
-    ]
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -273,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

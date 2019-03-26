@@ -1,0 +1,802 @@
+{
+  "series": [
+    {
+      "color": "#73b97c",
+      "index": 0,
+      "type": "column",
+      "yAxis": 1,
+      "data": [
+        [
+          "2010-01",
+          9
+        ],
+        [
+          "2010-02",
+          10
+        ],
+        [
+          "2010-03",
+          14
+        ],
+        [
+          "2010-04",
+          9
+        ],
+        [
+          "2011-01",
+          2
+        ],
+        [
+          "2011-02",
+          7
+        ],
+        [
+          "2011-03",
+          11
+        ],
+        [
+          "2011-04",
+          8
+        ],
+        [
+          "2012-01",
+          7
+        ],
+        [
+          "2012-02",
+          15
+        ],
+        [
+          "2012-03",
+          6
+        ],
+        [
+          "2012-04",
+          8
+        ],
+        [
+          "2013-01",
+          14
+        ],
+        [
+          "2013-02",
+          8
+        ],
+        [
+          "2013-03",
+          8
+        ],
+        [
+          "2013-04",
+          2
+        ],
+        [
+          "2014-01",
+          4
+        ],
+        [
+          "2014-02",
+          8
+        ],
+        [
+          "2014-03",
+          6
+        ],
+        [
+          "2014-04",
+          8
+        ],
+        [
+          "2015-01",
+          7
+        ],
+        [
+          "2015-02",
+          9
+        ],
+        [
+          "2015-03",
+          11
+        ],
+        [
+          "2015-04",
+          4
+        ],
+        [
+          "2016-01",
+          10
+        ],
+        [
+          "2016-02",
+          2
+        ],
+        [
+          "2016-03",
+          8
+        ],
+        [
+          "2016-04",
+          14
+        ],
+        [
+          "2017-01",
+          9
+        ],
+        [
+          "2017-02",
+          5
+        ],
+        [
+          "2017-03",
+          4
+        ],
+        [
+          "2017-04",
+          10
+        ],
+        [
+          "2018-01",
+          4
+        ],
+        [
+          "2018-02",
+          3
+        ],
+        [
+          "2018-03",
+          9
+        ],
+        [
+          "2018-04",
+          5
+        ]
+      ],
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          814
+        ],
+        [
+          "2010-02",
+          792
+        ],
+        [
+          "2010-03",
+          829
+        ],
+        [
+          "2010-04",
+          795
+        ],
+        [
+          "2011-01",
+          798
+        ],
+        [
+          "2011-02",
+          848
+        ],
+        [
+          "2011-03",
+          821
+        ],
+        [
+          "2011-04",
+          773
+        ],
+        [
+          "2012-01",
+          812
+        ],
+        [
+          "2012-02",
+          805
+        ],
+        [
+          "2012-03",
+          834
+        ],
+        [
+          "2012-04",
+          859
+        ],
+        [
+          "2013-01",
+          814
+        ],
+        [
+          "2013-02",
+          846
+        ],
+        [
+          "2013-03",
+          904
+        ],
+        [
+          "2013-04",
+          920
+        ],
+        [
+          "2014-01",
+          966
+        ],
+        [
+          "2014-02",
+          919
+        ],
+        [
+          "2014-03",
+          968
+        ],
+        [
+          "2014-04",
+          986
+        ],
+        [
+          "2015-01",
+          951
+        ],
+        [
+          "2015-02",
+          984
+        ],
+        [
+          "2015-03",
+          1012
+        ],
+        [
+          "2015-04",
+          1004
+        ],
+        [
+          "2016-01",
+          970
+        ],
+        [
+          "2016-02",
+          1059
+        ],
+        [
+          "2016-03",
+          1025
+        ],
+        [
+          "2016-04",
+          1037
+        ],
+        [
+          "2017-01",
+          1112
+        ],
+        [
+          "2017-02",
+          1056
+        ],
+        [
+          "2017-03",
+          1098
+        ],
+        [
+          "2017-04",
+          1038
+        ],
+        [
+          "2018-01",
+          1123
+        ],
+        [
+          "2018-02",
+          1081
+        ],
+        [
+          "2018-03",
+          1101
+        ],
+        [
+          "2018-04",
+          1058
+        ]
+      ],
+      "name": "Bestand Grenzgänger Heime",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 2,
+      "type": "line",
+      "dashStyle": "dash",
+      "data": [
+        [
+          "2010-01",
+          333
+        ],
+        [
+          "2010-02",
+          328
+        ],
+        [
+          "2010-03",
+          357
+        ],
+        [
+          "2010-04",
+          364
+        ],
+        [
+          "2011-01",
+          328
+        ],
+        [
+          "2011-02",
+          328
+        ],
+        [
+          "2011-03",
+          300
+        ],
+        [
+          "2011-04",
+          344
+        ],
+        [
+          "2012-01",
+          340
+        ],
+        [
+          "2012-02",
+          338
+        ],
+        [
+          "2012-03",
+          387
+        ],
+        [
+          "2012-04",
+          340
+        ],
+        [
+          "2013-01",
+          375
+        ],
+        [
+          "2013-02",
+          350
+        ],
+        [
+          "2013-03",
+          364
+        ],
+        [
+          "2013-04",
+          384
+        ],
+        [
+          "2014-01",
+          359
+        ],
+        [
+          "2014-02",
+          408
+        ],
+        [
+          "2014-03",
+          396
+        ],
+        [
+          "2014-04",
+          400
+        ],
+        [
+          "2015-01",
+          397
+        ],
+        [
+          "2015-02",
+          408
+        ],
+        [
+          "2015-03",
+          379
+        ],
+        [
+          "2015-04",
+          404
+        ],
+        [
+          "2016-01",
+          425
+        ],
+        [
+          "2016-02",
+          410
+        ],
+        [
+          "2016-03",
+          430
+        ],
+        [
+          "2016-04",
+          420
+        ],
+        [
+          "2017-01",
+          410
+        ],
+        [
+          "2017-02",
+          453
+        ],
+        [
+          "2017-03",
+          425
+        ],
+        [
+          "2017-04",
+          434
+        ],
+        [
+          "2018-01",
+          393
+        ],
+        [
+          "2018-02",
+          416
+        ],
+        [
+          "2018-03",
+          430
+        ],
+        [
+          "2018-04",
+          415
+        ]
+      ],
+      "name": "Bestand Grenzgänger Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 3,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          33
+        ],
+        [
+          "2010-02",
+          68
+        ],
+        [
+          "2010-03",
+          108
+        ],
+        [
+          "2010-04",
+          76
+        ],
+        [
+          "2011-01",
+          60
+        ],
+        [
+          "2011-02",
+          56
+        ],
+        [
+          "2011-03",
+          105
+        ],
+        [
+          "2011-04",
+          59
+        ],
+        [
+          "2012-01",
+          77
+        ],
+        [
+          "2012-02",
+          46
+        ],
+        [
+          "2012-03",
+          75
+        ],
+        [
+          "2012-04",
+          53
+        ],
+        [
+          "2013-01",
+          91
+        ],
+        [
+          "2013-02",
+          54
+        ],
+        [
+          "2013-03",
+          79
+        ],
+        [
+          "2013-04",
+          55
+        ],
+        [
+          "2014-01",
+          65
+        ],
+        [
+          "2014-02",
+          59
+        ],
+        [
+          "2014-03",
+          103
+        ],
+        [
+          "2014-04",
+          52
+        ],
+        [
+          "2015-01",
+          92
+        ],
+        [
+          "2015-02",
+          66
+        ],
+        [
+          "2015-03",
+          101
+        ],
+        [
+          "2015-04",
+          55
+        ],
+        [
+          "2016-01",
+          76
+        ],
+        [
+          "2016-02",
+          62
+        ],
+        [
+          "2016-03",
+          112
+        ],
+        [
+          "2016-04",
+          66
+        ],
+        [
+          "2017-01",
+          68
+        ],
+        [
+          "2017-02",
+          56
+        ],
+        [
+          "2017-03",
+          116
+        ],
+        [
+          "2017-04",
+          77
+        ],
+        [
+          "2018-01",
+          84
+        ],
+        [
+          "2018-02",
+          62
+        ],
+        [
+          "2018-03",
+          119
+        ],
+        [
+          "2018-04",
+          75
+        ]
+      ],
+      "name": "Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": 17,
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-7471",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 7
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 7,
+      "tickInterval": 10,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "labelFormatter": function (){
+      return this.name.replace("Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen", "Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkr.");
+    }
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 0
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": 7471
+  }
+}

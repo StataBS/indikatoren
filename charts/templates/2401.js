@@ -26,7 +26,7 @@ global Highcharts
  	{"color": "#FF8028"}, /*BL*/
  	{"color": "#A8C3CA"}, /*AG*/
 	{"color": "#008AC3"}, /*ZH*/
-	{"color": "#990300"}, /*CH*/
+	{"color": "#B00000"}, /*CH*/
   ],
   "legend": {
     "enabled": true,

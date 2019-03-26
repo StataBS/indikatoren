@@ -1,4 +1,4 @@
-﻿"Datum"	"Aufenthalter (B)"	"Kurzaufenthalter (L) ab 12 M."	"Kurzaufenthalter 4 bis 12 M."	"Kurzaufenthalter bis 4 M."	"Dienstleistungserbringer bis 4 M."	"Übrige"
+﻿"Datum"	"Aufenthalter (B)"	"Kurzaufenthalter ab 12 Monaten"	"Kurzaufenthalter 4 bis 12 Monate"	"Kurzaufenthalter bis 4 Monate"	"Dienstleistungserbringer bis 4 Monate"	"Übrige"
 "2009-01"	733	113	287	190	44	54
 "2009-02"	653	145	306	207	227	59
 "2009-03"	706	172	421	204	115	91
@@ -35,4 +35,8 @@
 "2017-02"	725	134	431	262	211	4
 "2017-03"	845	126	445	129	261	8
 "2017-04"	704	104	418	97	173	8
+"2018-01"	819	117	275	589	302	3
+"2018-02"	670	122	408	321	242	1
+"2018-03"	867	146	436	371	303	6
+"2018-04"	752	116	361	176	214	3
 

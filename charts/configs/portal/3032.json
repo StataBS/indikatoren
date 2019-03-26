@@ -146,6 +146,22 @@
         [
           "2017-4",
           4983
+        ],
+        [
+          "2018-1",
+          3088
+        ],
+        [
+          "2018-2",
+          3397
+        ],
+        [
+          "2018-3",
+          3064
+        ],
+        [
+          "2018-4",
+          5565
         ]
       ],
       "name": "Handel, Reparatur",
@@ -297,6 +313,22 @@
         [
           "2017-4",
           400
+        ],
+        [
+          "2018-1",
+          438
+        ],
+        [
+          "2018-2",
+          516
+        ],
+        [
+          "2018-3",
+          708
+        ],
+        [
+          "2018-4",
+          2014
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -448,6 +480,22 @@
         [
           "2017-4",
           7592
+        ],
+        [
+          "2018-1",
+          6743
+        ],
+        [
+          "2018-2",
+          5552
+        ],
+        [
+          "2018-3",
+          5928
+        ],
+        [
+          "2018-4",
+          7861
         ]
       ],
       "name": "Gastgewerbe",
@@ -599,6 +647,22 @@
         [
           "2017-4",
           2567
+        ],
+        [
+          "2018-1",
+          3515
+        ],
+        [
+          "2018-2",
+          2326
+        ],
+        [
+          "2018-3",
+          2046
+        ],
+        [
+          "2018-4",
+          2130
         ]
       ],
       "name": "IT-Dienstleistungen",
@@ -615,6 +679,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -706,7 +771,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,
@@ -717,6 +782,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemWidth": 200,
+    "itemDistance": 0,
     "itemMarginBottom": 5
   },
   "plotOptions": {

@@ -8,7 +8,7 @@
 "unterthema":"Sozialleistungen",
 "kennzahlenset":"",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-08-15T12:00:00.0000",
+"aktualisierungsdatum":"2019-03-25T18:01:40.4040",
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",
@@ -17,6 +17,7 @@
 "lesehilfe":"Ende 2017 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2012 lag die FAMI-Quote noch bei 1,5%. Kleinhüningen weist mit 5,0% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
 "erlaeuterungen":"FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 "template":"mappie001",
+"darstellungsart":"Karte kategoriell",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
@@ -25,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":["Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=13_fami.fami_quote_f' target = '_blank'>Basler Atlas</a>"],
+"data-id":6203, 
+"chart-id":6203, 
+"filter":""
 }
