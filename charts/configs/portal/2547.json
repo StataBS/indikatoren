@@ -4,219 +4,205 @@
       "color": "#6F6F6F",
       "data": [
         [
-          2005,
+          "2005",
           134476
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           139565
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           147730
         ],
         [
-          2012,
+          "2012",
           148634
         ],
         [
-          2013,
+          "2013",
           150781
         ],
         [
-          2014,
+          "2014",
           152315
         ],
         [
-          2015,
+          "2015",
           151421
         ],
         [
-          2016,
+          "2016",
           151362
         ]
       ],
-      "name": "BS"
+      "name": "BS",
+      "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "data": [
         [
-          2005,
+          "2005",
           104940
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           112547
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           115066
         ],
         [
-          2012,
+          "2012",
           113548
         ],
         [
-          2013,
+          "2013",
           114976
         ],
         [
-          2014,
+          "2014",
           116662
         ],
         [
-          2015,
+          "2015",
           117540
         ],
         [
-          2016,
+          "2016",
           117336
         ]
       ],
-      "name": "BL"
+      "name": "BL",
+      "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
       "data": [
         [
-          2005,
+          "2005",
           229597
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           251163
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           254010
         ],
         [
-          2012,
+          "2012",
           255160
         ],
         [
-          2013,
+          "2013",
           258874
         ],
         [
-          2014,
+          "2014",
           260990
         ],
         [
-          2015,
+          "2015",
           262337
         ],
         [
-          2016,
+          "2016",
           265251
         ]
       ],
-      "name": "AG"
+      "name": "AG",
+      "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "data": [
         [
-          2005,
+          "2005",
           650526
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           706329
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           756405
         ],
         [
-          2012,
+          "2012",
           760225
         ],
         [
-          2013,
+          "2013",
           771128
         ],
         [
-          2014,
+          "2014",
           782670
         ],
         [
-          2015,
+          "2015",
           779574
         ],
         [
-          2016,
+          "2016",
           787274
         ]
       ],
-      "name": "ZH"
+      "name": "ZH",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -262,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente",
+    "text": "in Vollzeitäquivalenten",
     "align": "left"
   },
   "tooltip": {
@@ -287,32 +273,6 @@
       "format": "{value:,.0f}"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickPositions": [
-      2005,
-      2008,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021
-    ]
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -327,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

@@ -5,78 +5,7 @@
       "data": [
         [
           "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
-          6988
-        ],
-        [
-          "Pharma",
-          9912
-        ],
-        [
-          "Baugewerbe",
-          5889
-        ],
-        [
-          "Handel, Reparatur",
-          5379
-        ],
-        [
-          "Verkehr, Lagerei",
-          5697
-        ],
-        [
-          "Gastgewerbe",
-          4163
-        ],
-        [
-          "Information, Kommunikation",
-          7876
-        ],
-        [
-          "Finanz- und Versicherungs-DL",
-          7976
-        ],
-        [
-          "Beratung, Planung, Forschung",
-          7619
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5170
-        ],
-        [
-          "Personalvermittlung, -üerlassung",
-          5738
-        ],
-        [
-          "Öffentliche Verwaltung",
-          7467
-        ],
-        [
-          "Erziehung, Unterricht",
-          8673
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          6173
-        ],
-        [
-          "Kunst und Unterhaltung",
-          5936
-        ],
-        [
-          "Total",
-          6447
-        ]
-      ],
-      "name": "2010",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#9E7C59",
-      "data": [
-        [
-          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
-          6930
+          7396
         ],
         [
           "Pharma",
@@ -115,11 +44,11 @@
           4727
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung, -überlassung",
           5496
         ],
         [
-          "Öffentliche Verwaltung",
+          "Öffentliche Verwaltung, Sozialversicherungen",
           7411
         ],
         [
@@ -143,11 +72,11 @@
       "turboThreshold": 0
     },
     {
-      "color": "#3A2012",
+      "color": "#9E7C59",
       "data": [
         [
           "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
-          6827
+          7291
         ],
         [
           "Pharma",
@@ -186,11 +115,11 @@
           5299
         ],
         [
-          "Personalvermittlung, -üerlassung",
+          "Personalvermittlung, -überlassung",
           5599
         ],
         [
-          "Öffentliche Verwaltung",
+          "Öffentliche Verwaltung, Sozialversicherungen",
           7369
         ],
         [
@@ -211,6 +140,77 @@
         ]
       ],
       "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3A2012",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          7430
+        ],
+        [
+          "Pharma",
+          10851
+        ],
+        [
+          "Baugewerbe",
+          6011
+        ],
+        [
+          "Handel, Reparatur",
+          5811
+        ],
+        [
+          "Verkehr, Lagerei",
+          5848
+        ],
+        [
+          "Gastgewerbe",
+          4513
+        ],
+        [
+          "Information, Kommunikation",
+          8341
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8579
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7916
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5251
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          5899
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          7740
+        ],
+        [
+          "Erziehung, Unterricht",
+          9266
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6402
+        ],
+        [
+          "Kunst und Unterhaltung",
+          6125
+        ],
+        [
+          "Total",
+          6700
+        ]
+      ],
+      "name": "2016",
       "turboThreshold": 0
     }
   ],
@@ -343,7 +343,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

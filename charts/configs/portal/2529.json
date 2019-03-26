@@ -4,219 +4,205 @@
       "color": "#D7E8D2",
       "data": [
         [
-          2005,
+          "2005",
           13263
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           13323
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           13163
         ],
         [
-          2012,
+          "2012",
           12969
         ],
         [
-          2013,
+          "2013",
           12700
         ],
         [
-          2014,
+          "2014",
           12563
         ],
         [
-          2015,
+          "2015",
           12423
         ],
         [
-          2016,
+          "2016",
           12138
         ]
       ],
-      "name": "Handel, Reparatur"
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
     },
     {
       "color": "#8A8A8A",
       "data": [
         [
-          2005,
+          "2005",
           11949
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           11967
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           11303
         ],
         [
-          2012,
+          "2012",
           11188
         ],
         [
-          2013,
+          "2013",
           10916
         ],
         [
-          2014,
+          "2014",
           10716
         ],
         [
-          2015,
+          "2015",
           9816
         ],
         [
-          2016,
+          "2016",
           9420
         ]
       ],
-      "name": "Verkehr, Lagerei"
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
     },
     {
       "color": "#007A2F",
       "data": [
         [
-          2005,
+          "2005",
           6197
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           6338
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           6586
         ],
         [
-          2012,
+          "2012",
           6693
         ],
         [
-          2013,
+          "2013",
           7163
         ],
         [
-          2014,
+          "2014",
           7327
         ],
         [
-          2015,
+          "2015",
           7388
         ],
         [
-          2016,
+          "2016",
           7190
         ]
       ],
-      "name": "Gastgewerbe"
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
     },
     {
       "color": "#0A3B19",
       "data": [
         [
-          2005,
+          "2005",
           4044
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           4212
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           4022
         ],
         [
-          2012,
+          "2012",
           4489
         ],
         [
-          2013,
+          "2013",
           4437
         ],
         [
-          2014,
+          "2014",
           4227
         ],
         [
-          2015,
+          "2015",
           4097
         ],
         [
-          2016,
+          "2016",
           3952
         ]
       ],
-      "name": "Information, Kommunikation"
+      "name": "Information, Kommunikation",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -262,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -287,32 +273,6 @@
       "format": "{value:,.0f}"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickPositions": [
-      2005,
-      2008,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021
-    ]
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -327,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-22"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

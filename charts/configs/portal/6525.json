@@ -5,28 +5,28 @@
       "visible": true,
       "data": [
         [
-          "Grenzgäger (G)",
-          6722
+          "Grenzgänger (G)",
+          6655
         ],
         [
           "Schweizer",
-          6632
+          6644
         ],
         [
           "Total",
-          6451
+          6498
         ],
         [
           "Niedergelassene (C)",
-          5949
+          6075
         ],
         [
           "Aufenthalter (B)",
-          5904
+          6016
         ],
         [
           "Kurzaufenthalter (L)",
-          5349
+          5582
         ]
       ],
       "name": "Medianlohn",
@@ -94,7 +94,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "In Franken, Nordwestschweiz, Stand: 2014",
+    "text": "in Franken, Nordwestschweiz, 2016",
     "align": "left"
   },
   "tooltip": {
@@ -135,7 +135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": false,

@@ -4,7 +4,7 @@
       "color": "#6F6F6F",
       "index": 0,
       "marker": {
-        "enabled": true
+        "enabled": false
       },
       "data": [
         [
@@ -150,6 +150,22 @@
         [
           "2017-4",
           91024
+        ],
+        [
+          "2018-1",
+          141010
+        ],
+        [
+          "2018-2",
+          107257
+        ],
+        [
+          "2018-3",
+          118467
+        ],
+        [
+          "2018-4",
+          89456
         ]
       ],
       "name": "BS",
@@ -302,6 +318,22 @@
         [
           "2017-4",
           47494
+        ],
+        [
+          "2018-1",
+          39910
+        ],
+        [
+          "2018-2",
+          50076
+        ],
+        [
+          "2018-3",
+          69438
+        ],
+        [
+          "2018-4",
+          45053
         ]
       ],
       "name": "BL",
@@ -454,6 +486,22 @@
         [
           "2017-4",
           129165
+        ],
+        [
+          "2018-1",
+          119274
+        ],
+        [
+          "2018-2",
+          150503
+        ],
+        [
+          "2018-3",
+          161875
+        ],
+        [
+          "2018-4",
+          107311
         ]
       ],
       "name": "AG",
@@ -606,6 +654,22 @@
         [
           "2017-4",
           272989
+        ],
+        [
+          "2018-1",
+          261879
+        ],
+        [
+          "2018-2",
+          308845
+        ],
+        [
+          "2018-3",
+          357451
+        ],
+        [
+          "2018-4",
+          288144
         ]
       ],
       "name": "ZH",
@@ -622,6 +686,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -718,7 +783,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

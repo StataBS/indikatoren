@@ -17,9 +17,9 @@
     },
   }, 
  "series": [
-    {"color": "#008AC3"}, /*Total*/
+    {"color": "#008AC3"}, /*Männer*/
  	{"color": "#DC440E"}, /*Frauen*/
-	{"color": "#474747"}, /*Männer*/
+	{"color": "#474747"}, /*Total*/
 	  ],
   "legend": {
     "enabled": true,

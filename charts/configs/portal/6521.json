@@ -146,6 +146,22 @@
         [
           "2017-04",
           6
+        ],
+        [
+          "2018-01",
+          4
+        ],
+        [
+          "2018-02",
+          7
+        ],
+        [
+          "2018-03",
+          12
+        ],
+        [
+          "2018-04",
+          2
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -297,6 +313,22 @@
         [
           "2017-04",
           78
+        ],
+        [
+          "2018-01",
+          56
+        ],
+        [
+          "2018-02",
+          49
+        ],
+        [
+          "2018-03",
+          115
+        ],
+        [
+          "2018-04",
+          79
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -448,6 +480,22 @@
         [
           "2017-04",
           104
+        ],
+        [
+          "2018-01",
+          98
+        ],
+        [
+          "2018-02",
+          76
+        ],
+        [
+          "2018-03",
+          94
+        ],
+        [
+          "2018-04",
+          74
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -599,6 +647,22 @@
         [
           "2017-04",
           95
+        ],
+        [
+          "2018-01",
+          38
+        ],
+        [
+          "2018-02",
+          73
+        ],
+        [
+          "2018-03",
+          108
+        ],
+        [
+          "2018-04",
+          84
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -706,7 +770,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

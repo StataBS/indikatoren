@@ -1,0 +1,487 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          1070
+        ],
+        [
+          "2010-02",
+          1156
+        ],
+        [
+          "2010-03",
+          1168
+        ],
+        [
+          "2010-04",
+          1115
+        ],
+        [
+          "2011-01",
+          1111
+        ],
+        [
+          "2011-02",
+          1221
+        ],
+        [
+          "2011-03",
+          1202
+        ],
+        [
+          "2011-04",
+          1279
+        ],
+        [
+          "2012-01",
+          1294
+        ],
+        [
+          "2012-02",
+          1348
+        ],
+        [
+          "2012-03",
+          1478
+        ],
+        [
+          "2012-04",
+          1481
+        ],
+        [
+          "2013-01",
+          1524
+        ],
+        [
+          "2013-02",
+          1607
+        ],
+        [
+          "2013-03",
+          1613
+        ],
+        [
+          "2013-04",
+          1659
+        ],
+        [
+          "2014-01",
+          1652
+        ],
+        [
+          "2014-02",
+          1716
+        ],
+        [
+          "2014-03",
+          1803
+        ],
+        [
+          "2014-04",
+          1797
+        ],
+        [
+          "2015-01",
+          1753
+        ],
+        [
+          "2015-02",
+          1878
+        ],
+        [
+          "2015-03",
+          1990
+        ],
+        [
+          "2015-04",
+          2035
+        ],
+        [
+          "2016-01",
+          1958
+        ],
+        [
+          "2016-02",
+          2039
+        ],
+        [
+          "2016-03",
+          2063
+        ],
+        [
+          "2016-04",
+          2099
+        ],
+        [
+          "2017-01",
+          2119
+        ],
+        [
+          "2017-02",
+          2190
+        ],
+        [
+          "2017-03",
+          2377
+        ],
+        [
+          "2017-04",
+          2343
+        ],
+        [
+          "2018-01",
+          2345
+        ],
+        [
+          "2018-02",
+          2368
+        ],
+        [
+          "2018-03",
+          2374
+        ],
+        [
+          "2018-04",
+          2439
+        ]
+      ],
+      "name": "Bestand Grenzgänger Sonstige wirtsch. DL",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          17
+        ],
+        [
+          "2010-02",
+          0
+        ],
+        [
+          "2010-03",
+          1
+        ],
+        [
+          "2010-04",
+          14
+        ],
+        [
+          "2011-01",
+          27
+        ],
+        [
+          "2011-02",
+          8
+        ],
+        [
+          "2011-03",
+          2
+        ],
+        [
+          "2011-04",
+          2
+        ],
+        [
+          "2012-01",
+          46
+        ],
+        [
+          "2012-02",
+          13
+        ],
+        [
+          "2012-03",
+          2
+        ],
+        [
+          "2012-04",
+          8
+        ],
+        [
+          "2013-01",
+          10
+        ],
+        [
+          "2013-02",
+          35
+        ],
+        [
+          "2013-03",
+          3
+        ],
+        [
+          "2013-04",
+          3
+        ],
+        [
+          "2014-01",
+          93
+        ],
+        [
+          "2014-02",
+          21
+        ],
+        [
+          "2014-03",
+          5
+        ],
+        [
+          "2014-04",
+          29
+        ],
+        [
+          "2015-01",
+          106
+        ],
+        [
+          "2015-02",
+          8
+        ],
+        [
+          "2015-03",
+          6
+        ],
+        [
+          "2015-04",
+          13
+        ],
+        [
+          "2016-01",
+          83
+        ],
+        [
+          "2016-02",
+          12
+        ],
+        [
+          "2016-03",
+          3
+        ],
+        [
+          "2016-04",
+          8
+        ],
+        [
+          "2017-01",
+          86
+        ],
+        [
+          "2017-02",
+          9
+        ],
+        [
+          "2017-03",
+          2
+        ],
+        [
+          "2017-04",
+          8
+        ],
+        [
+          "2018-01",
+          30
+        ],
+        [
+          "2018-02",
+          9
+        ],
+        [
+          "2018-03",
+          12
+        ],
+        [
+          "2018-04",
+          21
+        ]
+      ],
+      "name": "Bestand Meldepflichtige in VZÄ",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "x": 17,
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-7467",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        },
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 7
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 6,
+      "tickInterval": 20,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 0
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": 7467
+  }
+}

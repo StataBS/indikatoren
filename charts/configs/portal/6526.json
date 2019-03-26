@@ -14,6 +14,10 @@
         [
           "2014",
           7291
+        ],
+        [
+          "2016",
+          7430
         ]
       ],
       "name": "Industrie (inkl. Chemie\u002FPharma, ohne Energie\u002FWasser)",
@@ -33,6 +37,10 @@
         [
           "2014",
           10866
+        ],
+        [
+          "2016",
+          10851
         ]
       ],
       "name": "Pharma",
@@ -52,6 +60,10 @@
         [
           "2014",
           6068
+        ],
+        [
+          "2016",
+          6011
         ]
       ],
       "name": "Baugewerbe",
@@ -138,7 +150,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
@@ -178,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

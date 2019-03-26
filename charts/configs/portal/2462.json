@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#923F8D",
+      "color": "#DC440E",
       "index": 1,
       "data": [
         [
@@ -147,6 +147,22 @@
         [
           "2017-04",
           575
+        ],
+        [
+          "2018-01",
+          784
+        ],
+        [
+          "2018-02",
+          648
+        ],
+        [
+          "2018-03",
+          728
+        ],
+        [
+          "2018-04",
+          614
         ]
       ],
       "name": "Frauen",
@@ -299,6 +315,22 @@
         [
           "2017-04",
           929
+        ],
+        [
+          "2018-01",
+          1321
+        ],
+        [
+          "2018-02",
+          1116
+        ],
+        [
+          "2018-03",
+          1401
+        ],
+        [
+          "2018-04",
+          1008
         ]
       ],
       "name": "Männer",
@@ -315,6 +347,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -411,7 +444,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-18"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

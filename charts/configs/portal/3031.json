@@ -146,6 +146,22 @@
         [
           "2017-4",
           7916
+        ],
+        [
+          "2018-1",
+          18816
+        ],
+        [
+          "2018-2",
+          9605
+        ],
+        [
+          "2018-3",
+          18164
+        ],
+        [
+          "2018-4",
+          5836
         ]
       ],
       "name": "Industrie (inkl. Chemie, Pharma)",
@@ -297,6 +313,22 @@
         [
           "2017-4",
           14618
+        ],
+        [
+          "2018-1",
+          53727
+        ],
+        [
+          "2018-2",
+          26662
+        ],
+        [
+          "2018-3",
+          16900
+        ],
+        [
+          "2018-4",
+          12472
         ]
       ],
       "name": "Baugewerbe",
@@ -313,6 +345,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "x": 15,
       "formatter": function () {
    			 return this.value.split("-").slice(0, -1);
 		}
@@ -388,7 +421,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 20000
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -404,7 +438,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

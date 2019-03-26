@@ -4,219 +4,205 @@
       "color": "#FFBB58",
       "data": [
         [
-          2005,
+          "2005",
           10094
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           10619
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           10464
         ],
         [
-          2012,
+          "2012",
           10237
         ],
         [
-          2013,
+          "2013",
           10121
         ],
         [
-          2014,
+          "2014",
           10186
         ],
         [
-          2015,
+          "2015",
           10213
         ],
         [
-          2016,
+          "2016",
           9910
         ]
       ],
-      "name": "Finanz-, Versicherungs-DL"
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "data": [
         [
-          2005,
+          "2005",
           14891
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           15348
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           17700
         ],
         [
-          2012,
+          "2012",
           18182
         ],
         [
-          2013,
+          "2013",
           18830
         ],
         [
-          2014,
+          "2014",
           19292
         ],
         [
-          2015,
+          "2015",
           18857
         ],
         [
-          2016,
+          "2016",
           19008
         ]
       ],
-      "name": "Beratung, Planung, Forschung,\u003Cbr\u002F\u003EImmobilien"
+      "name": "Beratung, Planung, Forschung, Immobilien",
+      "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "data": [
         [
-          2005,
+          "2005",
           4099
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           4580
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           5705
         ],
         [
-          2012,
+          "2012",
           5643
         ],
         [
-          2013,
+          "2013",
           5728
         ],
         [
-          2014,
+          "2014",
           5863
         ],
         [
-          2015,
+          "2015",
           5775
         ],
         [
-          2016,
+          "2016",
           5749
         ]
       ],
-      "name": "Gebäudebetreuung, Sicherheit, \u003Cbr\u002F\u003Esonst. wirtsch. DL"
+      "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+      "turboThreshold": 0
     },
     {
       "color": "#B00000",
       "data": [
         [
-          2005,
+          "2005",
           4661
         ],
         [
-          2006,
+          " ",
           null
         ],
         [
-          2007,
-          null
-        ],
-        [
-          2008,
+          "2008",
           5837
         ],
         [
-          2009,
+          "  ",
           null
         ],
         [
-          2010,
-          null
-        ],
-        [
-          2011,
+          "2011",
           5681
         ],
         [
-          2012,
+          "2012",
           5847
         ],
         [
-          2013,
+          "2013",
           6594
         ],
         [
-          2014,
+          "2014",
           6484
         ],
         [
-          2015,
+          "2015",
           6086
         ],
         [
-          2016,
+          "2016",
           6254
         ]
       ],
-      "name": "Personalvermittlung, \u003Cbr\u002F\u003E-überlassung"
+      "name": "Personalvermittlung, -überlassung",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
   "chart": {
     "events": {
       "load": function () {
@@ -262,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Vollzeitäquivalente, Basel-Stadt",
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -288,32 +274,6 @@
     },
     "tickInterval": 5000
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickPositions": [
-      2005,
-      2008,
-      2011,
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021
-    ]
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -328,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,
@@ -341,7 +301,13 @@
     },
     "width": 430,
     "itemWidth": 215,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "labelFormatter": function (){
+      return this.name
+        .replace("Beratung, Planung, Forschung, Immobilien", "Beratung, Planung, Forschung, <br/>Immobilien")
+        .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, Sicherheit, <br/>sonst. wirtsch. DL")
+        .replace("Personalvermittlung, -überlassung", "Personalvermittlung, <br/>-überlassung");
+    }
   },
   "plotOptions": {
     "series": {

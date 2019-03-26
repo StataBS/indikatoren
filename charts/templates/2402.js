@@ -3,7 +3,7 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
-             groupPadding: 0,
+             groupPadding: 0.1,
              borderWidth: 0,
         }
   },

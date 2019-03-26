@@ -15,6 +15,7 @@
   	"type": "category",
     "tickInterval": 4,
      labels:{
+         x: 15,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		},
@@ -34,11 +35,11 @@
 
  "series": [
    	 {"color": "#008AC3", index: 5, legendIndex: 0}, /* */
-	 {"color": "#662673", index: 4, legendIndex: 1}, /* */
+	 {"color": "#8B2223", index: 4, legendIndex: 1}, /* */
 	 {"color": "#689199", index: 3, legendIndex: 2},  /* */
-	 {"color": "#B375AB", index: 2, legendIndex: 3},  /* */
+	 {"color": "#DC440E", index: 2, legendIndex: 3},  /* */
 	 {"color": "#A8C3CA", index: 1, legendIndex: 4}, /* */
-	 {"color": "#E7CEE2", index: 0, legendIndex: 5}, /* */
+	 {"color": "#FF8028", index: 0, legendIndex: 5}, /* */
   ],
  tooltip: {
   "pointFormatter": function(){

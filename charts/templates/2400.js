@@ -14,14 +14,11 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
  "series": [
-	{"color": "#6F6F6F",	  
-	"marker": {
-        "enabled": true
-    }}, /*BS*/
+	{"color": "#6F6F6F"}, /*BS*/
  	{"color": "#FF8028"}, /*BL*/
  	{"color": "#A8C3CA"}, /*AG*/
 	{"color": "#008AC3"}, /*ZH*/
-	{"color": "#990300"}, /*CH*/
+	{"color": "#B00000"}, /*CH*/
 	  ],
   "legend": {
     "enabled": true,

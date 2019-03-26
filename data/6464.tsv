@@ -1,17 +1,18 @@
-Branche	2010	2012	2014
-"Industrie (inkl. Pharma, exkl. Energie, Wasser)"	6988	6930	6827
-Pharma	9912	10832	10866
-Baugewerbe	5889	6105	6068
-Handel, Reparatur	5379	5553	5722
-Verkehr, Lagerei	5697	5885	6210
-Gastgewerbe	4163	4365	4333
-"Information, Kommunikation"	7876	8156	8165
-"Finanz- und Versicherungs-DL"	7976	8411	8461
-"Beratung, Planung, Forschung"	7619	7897	7975
-Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL	5170	4727	5299
-"Personalvermittlung, -üerlassung"	5738	5496	5599
-"Öffentliche Verwaltung"	7467	7411	7369
-"Erziehung, Unterricht"	8673	8323	6 569
-"Gesundheits-, Sozialwesen"	6173	6187	6259
-Kunst und Unterhaltung	5936	5922	6315
-Total	6447	6653	6578
+﻿"Branche"	"2012"	"2014"	"2016"
+"Industrie (inkl. Pharma, exkl. Energie, Wasser)"	7396	7291	7430
+"Pharma"	10832	10866	10851
+"Baugewerbe"	6105	6068	6011
+"Handel, Reparatur"	5553	5722	5811
+"Verkehr, Lagerei"	5885	6210	5848
+"Gastgewerbe"	4365	4333	4513
+"Information, Kommunikation"	8156	8165	8341
+"Finanz- und Versicherungs-DL"	8411	8461	8579
+"Beratung, Planung, Forschung"	7897	7975	7916
+"Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL"	4727	5299	5251
+"Personalvermittlung, -überlassung"	5496	5599	5899
+"Öffentliche Verwaltung, Sozialversicherungen"	7411	7369	7740
+"Erziehung, Unterricht"	8323	6569	9266
+"Gesundheits-, Sozialwesen"	6187	6259	6402
+"Kunst und Unterhaltung"	5922	6315	6125
+"Total"	6653	6578	6700
+

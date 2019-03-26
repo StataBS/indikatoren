@@ -1000,6 +1000,38 @@ id | visible | visibleInPortal | indikatorenset
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
 7432 | true | true | 
+7435 | true | false | Arbeitsmarkt
+7437 | true | false | Arbeitsmarkt
+7438 | true | false | Arbeitsmarkt
+7442 | true | false | Arbeitsmarkt
+7443 | true | false | Arbeitsmarkt
+7444 | true | false | Arbeitsmarkt
+7445 | true | false | Arbeitsmarkt
+7446 | true | false | Arbeitsmarkt
+7447 | true | false | Arbeitsmarkt
+7448 | true | false | Arbeitsmarkt
+7449 | true | false | Arbeitsmarkt
+7450 | true | false | Arbeitsmarkt
+7452 | true | false | Arbeitsmarkt
+7453 | true | false | Arbeitsmarkt
+7454 | true | false | Arbeitsmarkt
+7455 | true | false | Arbeitsmarkt
+7456 | true | false | Arbeitsmarkt
+7458 | true | false | Arbeitsmarkt
+7459 | true | false | Arbeitsmarkt
+7460 | true | false | Arbeitsmarkt
+7461 | true | false | Arbeitsmarkt
+7462 | true | false | Arbeitsmarkt
+7463 | true | false | Arbeitsmarkt
+7464 | true | false | Arbeitsmarkt
+7465 | true | false | Arbeitsmarkt
+7466 | true | false | Arbeitsmarkt
+7467 | true | false | Arbeitsmarkt
+7468 | true | false | Arbeitsmarkt
+7469 | true | false | Arbeitsmarkt
+7470 | true | false | Arbeitsmarkt
+7471 | true | false | Arbeitsmarkt
+7473 | true | false | Arbeitsmarkt
 7510 | true | true | Monatsindikatoren
 7511 | true | true | Monatsindikatoren
 7512 | true | true | Monatsindikatoren
@@ -1012,6 +1044,7 @@ id | visible | visibleInPortal | indikatorenset
 7522 | true | true | Tourismus
 7523 | true | true | Tourismus
 7551 | true | true | 
+7563 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

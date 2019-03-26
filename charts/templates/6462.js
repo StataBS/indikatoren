@@ -12,7 +12,7 @@
 		  align: "left",
           x: -180,
           "formatter": function() {
-            return this.value.replace("/", "<br/>")
+            return this.value.replace("/", "<br/>");
         },
         style: { 
 			textOverflow: 'none' // prevents ellipsis
@@ -22,13 +22,14 @@
   "yAxis": {
   	//"min": 0,
   	//"max": 0.5,
+  	tickInterval: 0.02,
     "labels": {
       "format": "{value}%" ,
         style: { 
 			textOverflow: 'none' // prevents ellipsis
 		},
     "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),1)+'%'; 
+        return Highcharts.numberFormat((this.value*100), 0)+'%'; 
       }, 
     }    
   },
