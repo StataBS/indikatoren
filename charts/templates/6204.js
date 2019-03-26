@@ -69,8 +69,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -104,7 +104,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 3; 
+	                var maxValueInLegend = 3.0; 
 	                
                 	//Add manually drawn legend	
 	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
@@ -112,7 +112,7 @@
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
 	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,"."," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
 
 					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
@@ -386,7 +386,7 @@
 			        }).add();
 			        
 					var minValueInLegend = 0.1; //minAbsNumber;
-	                var maxValueInLegend = 3; //maxAbsNumber;	                
+	                var maxValueInLegend = 3.0; //maxAbsNumber;	                
 	                
 	                chart.renderer.circle(410, 275, 0.5*pieSize(minValueInLegend,maxAbsNumber, maxPieDiameter)).attr({
 					    fill: 'grey',

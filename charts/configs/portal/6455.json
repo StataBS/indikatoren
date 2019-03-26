@@ -136,7 +136,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anteil der Vollzeitäquivalente an den Beschäftigten, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -192,7 +192,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

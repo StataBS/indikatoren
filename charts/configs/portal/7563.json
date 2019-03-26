@@ -1,0 +1,661 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "index": 0,
+      "type": "column",
+      "yAxis": 1,
+      "data": [
+        [
+          "2010-01",
+          1447
+        ],
+        [
+          "2010-02",
+          1360
+        ],
+        [
+          "2010-03",
+          1790
+        ],
+        [
+          "2010-04",
+          1386
+        ],
+        [
+          "2011-01",
+          1469
+        ],
+        [
+          "2011-02",
+          1583
+        ],
+        [
+          "2011-03",
+          1967
+        ],
+        [
+          "2011-04",
+          1570
+        ],
+        [
+          "2012-01",
+          1675
+        ],
+        [
+          "2012-02",
+          1585
+        ],
+        [
+          "2012-03",
+          1786
+        ],
+        [
+          "2012-04",
+          1587
+        ],
+        [
+          "2013-01",
+          1819
+        ],
+        [
+          "2013-02",
+          1876
+        ],
+        [
+          "2013-03",
+          2012
+        ],
+        [
+          "2013-04",
+          1688
+        ],
+        [
+          "2014-01",
+          1813
+        ],
+        [
+          "2014-02",
+          2177
+        ],
+        [
+          "2014-03",
+          1999
+        ],
+        [
+          "2014-04",
+          1884
+        ],
+        [
+          "2015-01",
+          1938
+        ],
+        [
+          "2015-02",
+          1756
+        ],
+        [
+          "2015-03",
+          2092
+        ],
+        [
+          "2015-04",
+          1682
+        ],
+        [
+          "2016-01",
+          1850
+        ],
+        [
+          "2016-02",
+          1756
+        ],
+        [
+          "2016-03",
+          1992
+        ],
+        [
+          "2016-04",
+          1488
+        ],
+        [
+          "2017-01",
+          2103
+        ],
+        [
+          "2017-02",
+          1767
+        ],
+        [
+          "2017-03",
+          1814
+        ],
+        [
+          "2017-04",
+          1504
+        ],
+        [
+          "2018-01",
+          2105
+        ],
+        [
+          "2018-02",
+          1764
+        ],
+        [
+          "2018-03",
+          2129
+        ],
+        [
+          "2018-04",
+          1622
+        ]
+      ],
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#246370",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          "30865,6"
+        ],
+        [
+          "2010-02",
+          "31555,5"
+        ],
+        [
+          "2010-03",
+          "31606,5"
+        ],
+        [
+          "2010-04",
+          "31089,5"
+        ],
+        [
+          "2011-01",
+          "30953,3"
+        ],
+        [
+          "2011-02",
+          "31352,2"
+        ],
+        [
+          "2011-03",
+          "31868,8"
+        ],
+        [
+          "2011-04",
+          "31928,4"
+        ],
+        [
+          "2012-01",
+          "31996,8"
+        ],
+        [
+          "2012-02",
+          "32575,2"
+        ],
+        [
+          "2012-03",
+          32951
+        ],
+        [
+          "2012-04",
+          "32799,6"
+        ],
+        [
+          "2013-01",
+          "32862,7"
+        ],
+        [
+          "2013-02",
+          "33403,2"
+        ],
+        [
+          "2013-03",
+          "33773,5"
+        ],
+        [
+          "2013-04",
+          "33603,1"
+        ],
+        [
+          "2014-01",
+          "33677,5"
+        ],
+        [
+          "2014-02",
+          "34251,7"
+        ],
+        [
+          "2014-03",
+          "34682,2"
+        ],
+        [
+          "2014-04",
+          "34535,3"
+        ],
+        [
+          "2015-01",
+          "34614,8"
+        ],
+        [
+          "2015-02",
+          "35070,9"
+        ],
+        [
+          "2015-03",
+          "35278,3"
+        ],
+        [
+          "2015-04",
+          34948
+        ],
+        [
+          "2016-01",
+          "35283,7"
+        ],
+        [
+          "2016-02",
+          "35743,1"
+        ],
+        [
+          "2016-03",
+          35933
+        ],
+        [
+          "2016-04",
+          "35739,2"
+        ],
+        [
+          "2017-01",
+          "35854,9"
+        ],
+        [
+          "2017-02",
+          "35814,3"
+        ],
+        [
+          "2017-03",
+          "35881,7"
+        ],
+        [
+          "2017-04",
+          "35876,6"
+        ],
+        [
+          "2018-01",
+          "35061,4"
+        ],
+        [
+          "2018-02",
+          "34764,4"
+        ],
+        [
+          "2018-03",
+          34421
+        ],
+        [
+          "2018-04",
+          "34121,5"
+        ]
+      ],
+      "name": "Bestand Grenzgänger",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#923F8D",
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          3300
+        ],
+        [
+          "2010-02",
+          2195
+        ],
+        [
+          "2010-03",
+          2219
+        ],
+        [
+          "2010-04",
+          2811
+        ],
+        [
+          "2011-01",
+          3987
+        ],
+        [
+          "2011-02",
+          2734
+        ],
+        [
+          "2011-03",
+          2890
+        ],
+        [
+          "2011-04",
+          2708
+        ],
+        [
+          "2012-01",
+          4945
+        ],
+        [
+          "2012-02",
+          2908
+        ],
+        [
+          "2012-03",
+          3625
+        ],
+        [
+          "2012-04",
+          2442
+        ],
+        [
+          "2013-01",
+          4753
+        ],
+        [
+          "2013-02",
+          4991
+        ],
+        [
+          "2013-03",
+          3823
+        ],
+        [
+          "2013-04",
+          2484
+        ],
+        [
+          "2014-01",
+          8370
+        ],
+        [
+          "2014-02",
+          3806
+        ],
+        [
+          "2014-03",
+          3880
+        ],
+        [
+          "2014-04",
+          2517
+        ],
+        [
+          "2015-01",
+          8288
+        ],
+        [
+          "2015-02",
+          3338
+        ],
+        [
+          "2015-03",
+          3724
+        ],
+        [
+          "2015-04",
+          2904
+        ],
+        [
+          "2016-01",
+          9059
+        ],
+        [
+          "2016-02",
+          3921
+        ],
+        [
+          "2016-03",
+          3734
+        ],
+        [
+          "2016-04",
+          2694
+        ],
+        [
+          "2017-01",
+          7953
+        ],
+        [
+          "2017-02",
+          4054
+        ],
+        [
+          "2017-03",
+          3767
+        ],
+        [
+          "2017-04",
+          3086
+        ],
+        [
+          "2018-01",
+          7765
+        ],
+        [
+          "2018-02",
+          3864
+        ],
+        [
+          "2018-03",
+          3604
+        ],
+        [
+          "2018-04",
+          2759
+        ]
+      ],
+      "name": "Bestand Meldepflichtige",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "x": 17,
+      "formatter": function () {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7563"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 0
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 9
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 9,
+      "tickInterval": 500,
+      "opposite": true
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": 7563
+  }
+}

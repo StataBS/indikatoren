@@ -8,7 +8,7 @@
         }
   },
   "yAxis": {
-      tickInterval: 2000,
+      tickAmount: 8,
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -30,6 +30,8 @@
     "align": "left",
     padding: 0,
     itemDistance: 2,
+    width: 485,
+    itemWidth: 220
   },
  "series": [
 	 {"color": "#E7CEE2", index: 15}, /* */
@@ -47,12 +49,13 @@
 	 {"color": "#8A8A8A", index: 0}, /* */
   ],
  tooltip: {
+     shared: true,
   "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     },
   },  
   "chart": {
-  	//height: 600,
+  //	height: 600,
   	type: "column",
     inverted: false,
   }

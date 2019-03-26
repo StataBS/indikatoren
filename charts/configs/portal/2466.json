@@ -146,6 +146,22 @@
         [
           "2017-04",
           81
+        ],
+        [
+          "2018-01",
+          101
+        ],
+        [
+          "2018-02",
+          77
+        ],
+        [
+          "2018-03",
+          106
+        ],
+        [
+          "2018-04",
+          108
         ]
       ],
       "name": "Handel, Reparatur",
@@ -297,6 +313,22 @@
         [
           "2017-04",
           32
+        ],
+        [
+          "2018-01",
+          97
+        ],
+        [
+          "2018-02",
+          44
+        ],
+        [
+          "2018-03",
+          51
+        ],
+        [
+          "2018-04",
+          43
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -448,6 +480,22 @@
         [
           "2017-04",
           46
+        ],
+        [
+          "2018-01",
+          58
+        ],
+        [
+          "2018-02",
+          44
+        ],
+        [
+          "2018-03",
+          36
+        ],
+        [
+          "2018-04",
+          41
         ]
       ],
       "name": "Gastgewerbe",
@@ -555,7 +603,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

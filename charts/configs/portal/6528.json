@@ -14,6 +14,10 @@
         [
           "2014",
           8461
+        ],
+        [
+          "2016",
+          8579
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -33,6 +37,10 @@
         [
           "2014",
           7975
+        ],
+        [
+          "2016",
+          7916
         ]
       ],
       "name": "Beratung, Planung, Forschung",
@@ -52,6 +60,10 @@
         [
           "2014",
           5299
+        ],
+        [
+          "2016",
+          5251
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirt. DL",
@@ -71,6 +83,10 @@
         [
           "2014",
           5599
+        ],
+        [
+          "2016",
+          5899
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -157,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
@@ -197,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

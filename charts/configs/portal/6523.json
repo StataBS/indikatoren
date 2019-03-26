@@ -18,6 +18,10 @@
         [
           "2014",
           6014
+        ],
+        [
+          "2016",
+          6220
         ]
       ],
       "name": "Frauen",
@@ -41,6 +45,10 @@
         [
           "2014",
           6934
+        ],
+        [
+          "2016",
+          7034
         ]
       ],
       "name": "Männer",
@@ -64,6 +72,10 @@
         [
           "2014",
           6578
+        ],
+        [
+          "2016",
+          6700
         ]
       ],
       "name": "Total",
@@ -91,9 +103,13 @@
         [
           "2014",
           0.867
+        ],
+        [
+          "2016",
+          0.884
         ]
       ],
-      "name": "Verhältnis Frauen\u002FMänner",
+      "name": "Verhältnis Frauen\u002FMänner (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -177,7 +193,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Median in Franken, Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": [
@@ -229,7 +245,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,
@@ -239,8 +255,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "exporting": {
     "filename": 6523

@@ -5,73 +5,6 @@
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
-          0.012
-        ],
-        [
-          "Baugewerbe",
-          0.071
-        ],
-        [
-          "Handel, Reparatur",
-          0.005
-        ],
-        [
-          "Verkehr, Lagerei, Kommunikation",
-          0.002
-        ],
-        [
-          "Gastgewerbe",
-          0.013
-        ],
-        [
-          "IT-Dienstleistungen",
-          0.03
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.001
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.007
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.016
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.064
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.002
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.001
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.004
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.024
-        ],
-        [
-          "Total",
-          0.014
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B375AB",
-      "data": [
-        [
-          "Industrie (inkl. Chemie, Pharma)",
           0.01
         ],
         [
@@ -88,11 +21,11 @@
         ],
         [
           "Gastgewerbe",
-          0.014
+          0.015
         ],
         [
           "IT-Dienstleistungen",
-          0.026
+          0.027
         ],
         [
           "Finanz-, Versicherungs-DL",
@@ -104,11 +37,11 @@
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.016
+          0.017
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.051
+          0.05
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -124,7 +57,7 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.031
+          0.032
         ],
         [
           "Total",
@@ -135,7 +68,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "data": [
         [
           "Industrie (inkl. Chemie, Pharma)",
@@ -147,7 +80,7 @@
         ],
         [
           "Handel, Reparatur",
-          0.005
+          0.006
         ],
         [
           "Verkehr, Lagerei, Kommunikation",
@@ -155,7 +88,7 @@
         ],
         [
           "Gastgewerbe",
-          0.016
+          0.017
         ],
         [
           "IT-Dienstleistungen",
@@ -175,7 +108,7 @@
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.062
+          0.06
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
@@ -191,7 +124,7 @@
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.034
+          0.036
         ],
         [
           "Total",
@@ -199,6 +132,73 @@
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "Industrie (inkl. Chemie, Pharma)",
+          0.008
+        ],
+        [
+          "Baugewerbe",
+          0.059
+        ],
+        [
+          "Handel, Reparatur",
+          0.005
+        ],
+        [
+          "Verkehr, Lagerei, Kommunikation",
+          0.001
+        ],
+        [
+          "Gastgewerbe",
+          0.015
+        ],
+        [
+          "IT-Dienstleistungen",
+          0.019
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.001
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.005
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.013
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.063
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.004
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.003
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.004
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.036
+        ],
+        [
+          "Total",
+          0.013
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -281,7 +281,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Meldepflichtige pro Beschäftigten nach Branche"
+    "text": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche"
   },
   "subtitle": {
     "style": {
@@ -290,7 +290,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, pro Beschäftigten in Vollzeitäquivalenten",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -334,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "symbolRadius": 0,

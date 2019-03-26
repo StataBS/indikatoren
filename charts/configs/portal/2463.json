@@ -148,6 +148,22 @@
         [
           "2017-04",
           704
+        ],
+        [
+          "2018-01",
+          819
+        ],
+        [
+          "2018-02",
+          670
+        ],
+        [
+          "2018-03",
+          867
+        ],
+        [
+          "2018-04",
+          752
         ]
       ],
       "name": "Aufenthalter (B)",
@@ -301,9 +317,25 @@
         [
           "2017-04",
           104
+        ],
+        [
+          "2018-01",
+          117
+        ],
+        [
+          "2018-02",
+          122
+        ],
+        [
+          "2018-03",
+          146
+        ],
+        [
+          "2018-04",
+          116
         ]
       ],
-      "name": "Kurzaufenthalter (L) ab 12 M.",
+      "name": "Kurzaufenthalter ab 12 Monaten",
       "turboThreshold": 0
     },
     {
@@ -454,9 +486,25 @@
         [
           "2017-04",
           418
+        ],
+        [
+          "2018-01",
+          275
+        ],
+        [
+          "2018-02",
+          408
+        ],
+        [
+          "2018-03",
+          436
+        ],
+        [
+          "2018-04",
+          361
         ]
       ],
-      "name": "Kurzaufenthalter 4 bis 12 M.",
+      "name": "Kurzaufenthalter 4 bis 12 Monate",
       "turboThreshold": 0
     },
     {
@@ -607,9 +655,25 @@
         [
           "2017-04",
           97
+        ],
+        [
+          "2018-01",
+          589
+        ],
+        [
+          "2018-02",
+          321
+        ],
+        [
+          "2018-03",
+          371
+        ],
+        [
+          "2018-04",
+          176
         ]
       ],
-      "name": "Kurzaufenthalter bis 4 M.",
+      "name": "Kurzaufenthalter bis 4 Monate",
       "turboThreshold": 0
     },
     {
@@ -760,9 +824,25 @@
         [
           "2017-04",
           173
+        ],
+        [
+          "2018-01",
+          302
+        ],
+        [
+          "2018-02",
+          242
+        ],
+        [
+          "2018-03",
+          303
+        ],
+        [
+          "2018-04",
+          214
         ]
       ],
-      "name": "Dienstleistungserbringer bis 4 M.",
+      "name": "Dienstleistungserbringer bis 4 Monate",
       "turboThreshold": 0
     },
     {
@@ -913,6 +993,22 @@
         [
           "2017-04",
           8
+        ],
+        [
+          "2018-01",
+          3
+        ],
+        [
+          "2018-02",
+          1
+        ],
+        [
+          "2018-03",
+          6
+        ],
+        [
+          "2018-04",
+          3
         ]
       ],
       "name": "Übrige",
@@ -1026,7 +1122,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-3-14"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
   },
   "legend": {
     "enabled": true,

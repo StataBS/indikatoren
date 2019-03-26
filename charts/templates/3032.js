@@ -4,6 +4,7 @@
     "tickInterval": 4,
      "type": "category",
      labels:{
+       x: 15,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		},
@@ -27,7 +28,8 @@
   "legend": {
     "enabled": true,
     //"y": 45,
-    //itemWidth: 150,
+    itemWidth: 200,
+    itemDistance: 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,

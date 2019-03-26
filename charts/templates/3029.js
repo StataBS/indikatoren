@@ -4,6 +4,7 @@
     "tickInterval": 4,
      "type": "category",
      labels:{
+       x: 15,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		},
@@ -23,7 +24,7 @@
     },
   },
  "series": [
- 	 {"color": "#000000", "index": 0}, /**/
+ 	 {"color": "#3C3C3C", "index": 0}, /**/
  	{"color": "#FABD24","index": 1}, /**/
 	{"color": "#007A2F", "index": 1}, /**/	  
 	{"color": "#923F8D", "index": 2}, /**/

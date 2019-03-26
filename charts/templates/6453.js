@@ -4,6 +4,7 @@
     "tickInterval": 4,
      "type": "category",
      labels:{
+       x: 15,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		},
@@ -11,7 +12,7 @@
   },
   "yAxis": {
   	//max: 25000,
-  	//tickInterval: 5000,
+  	tickInterval: 5000,
 	"labels": {
 		"format": "{value:,.0f}",
 	}
@@ -32,6 +33,11 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    itemDistance: 0,
+    itemWidth: 203,
+    labelFormatter: function (){
+      return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, Sozialvers.");
+    },
     "itemStyle": {
       "fontWeight": "normal"
     }
