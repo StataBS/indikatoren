@@ -32,6 +32,10 @@
         [
           2017,
           2225
+        ],
+        [
+          2018,
+          2263
         ]
       ],
       "name": "Anzahl Haushalte"
@@ -75,6 +79,10 @@
         [
           2017,
           2.2729130062
+        ],
+        [
+          2018,
+          2.3034251107
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"
@@ -220,7 +228,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-8"
   },
   "legend": {
     "symbolRadius": 0,
