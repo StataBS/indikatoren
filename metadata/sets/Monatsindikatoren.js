@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-07T08:43:44.4444",
+		"aktualisierungsdatum": "2019-04-09T08:07:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren ist in der Regel höher als die Quote in der Gesamtbevölkerung, in den letzten drei Monaten war sie aber tiefer. Zudem zeigt sie ausgeprägte Schwankungen.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren war jahrelang höher als die Quote in der Gesamtbevölkerung, in den letzten Monaten ist sie aber tiefer. Zudem zeigt sie ausgeprägte saisonale Schwankungen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -50,14 +50,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-07T08:49:00.000",
+		"aktualisierungsdatum": "2019-04-08T17:30:31.3131",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen. Der grösste Teil davon ist meldepflichtig.",
-		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren, welche die entsprechenden Register bewirtschaften, freiwillig gemeldet. Seit Juli 2018 gilt für bestimmte Branchen eine Meldepflicht.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

@@ -1,7 +1,66 @@
 {
   "series": [
     {
-      "color": "rgb(115,186,124)",
+      "stack": 1,
+      "legendIndex": 1,
+      "color": "rgb(115, 186, 124)",
+      "data": [
+        [
+          "Jan",
+          0
+        ],
+        [
+          "Feb",
+          0
+        ],
+        [
+          "Mrz",
+          0
+        ],
+        [
+          "Apr",
+          0
+        ],
+        [
+          "Mai",
+          0
+        ],
+        [
+          "Jun",
+          0
+        ],
+        [
+          "Jul",
+          343
+        ],
+        [
+          "Aug",
+          652
+        ],
+        [
+          "Sep",
+          708
+        ],
+        [
+          "Okt",
+          672
+        ],
+        [
+          "Nov",
+          659
+        ],
+        [
+          "Dez",
+          810
+        ]
+      ],
+      "name": "Meldepflichtig 2018",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 1,
+      "legendIndex": 3,
+      "color": "rgb(250, 189, 36)",
       "data": [
         [
           "Jan",
@@ -29,46 +88,48 @@
         ],
         [
           "Jul",
-          713
+          370
         ],
         [
           "Aug",
-          998
+          346
         ],
         [
           "Sep",
-          1066
+          358
         ],
         [
           "Okt",
-          1030
+          358
         ],
         [
           "Nov",
-          1029
+          370
         ],
         [
           "Dez",
-          1118
+          308
         ]
       ],
-      "name": "2018",
+      "name": "Nicht meldepflichtig 2018",
       "turboThreshold": 0
     },
     {
-      "color": "rgb(0,122,47)",
+      "stack": 2,
+      "legendIndex": 0,
+      "color": "rgb(0, 122, 47)",
       "data": [
         [
           "Jan",
-          1444
+          1115
         ],
         [
           "Feb",
-          1128
+          774
         ],
         [
           "Mrz",
-          null
+          767
         ],
         [
           "Apr",
@@ -107,7 +168,64 @@
           null
         ]
       ],
-      "name": "2019",
+      "name": "Meldepflichtig 2019",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 2,
+      "color": "rgb(205, 156, 0)",
+      "data": [
+        [
+          "Jan",
+          329
+        ],
+        [
+          "Feb",
+          354
+        ],
+        [
+          "Mrz",
+          387
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Nicht meldepflichtig 2019",
       "turboThreshold": 0
     }
   ],
@@ -122,8 +240,7 @@
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "tickLength": 0
   },
   "chart": {
     "events": {
@@ -152,8 +269,7 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "renderTo": "container-7511",
-    "marginBottom": 80
+    "renderTo": "container-7511"
   },
   "title": {
     "style": {
@@ -176,7 +292,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -192,12 +308,11 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}",
-      "formatter": function (){
-                return Highcharts.numberFormat((this.value*1),0); 
-              }
-    }
+      }
+    },
+    "reversedStacks": false,
+    "tickAmount": 9,
+    "tickInterval": 200
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -213,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-8"
   },
   "legend": {
     "enabled": true,
@@ -223,7 +338,8 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
@@ -231,11 +347,15 @@
         "enabled": false
       },
       "pointPadding": 0,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       }
+    },
+    "column": {
+      "stacking": "normal"
     }
   },
   "customFunctions": {
