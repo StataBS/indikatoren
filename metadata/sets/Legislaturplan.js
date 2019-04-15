@@ -1030,7 +1030,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.01.1.6144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -1040,13 +1040,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T18:23:22.2222",
+		"aktualisierungsdatum": "2019-04-12T10:43:33.3333",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2017 rund 3 200 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1060,9 +1060,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6144,
+		"chart-id": 6144,
+		"filter": "",
 		"id": 6144
 	},
 	{
@@ -2158,14 +2162,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:05:43.4343",
+		"aktualisierungsdatum": "2019-04-12T10:47:33.3333",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge.<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2018 Familienmietzinsbeiträge. In 15,0% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge. Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

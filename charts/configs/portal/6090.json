@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          20339.223606
+          19661.698541
         ],
         [
           "Deutschland",
-          748.19910256
+          722.91997379
         ],
         [
           "Italien",
-          3056.0385754
+          3096.6738658
         ],
         [
           "Türkei",
-          3780.2114538
+          3578.3128795
         ],
         [
           "EU-17 + EFTA",
-          3408.5263476
+          3556.7580705
         ],
         [
           "EU-Ost",
-          311.96239301
+          287.12684947
         ],
         [
           "Balkan",
-          3800.2794232
+          3682.3731098
         ],
         [
           "Mittel- und Südamerika",
-          596.86744558
+          491.17109121
         ],
         [
           "Arabische Länder",
-          311.27877842
+          333.61016838
         ],
         [
           "Afrikanische Länder",
-          578.80596211
+          666.01857189
         ],
         [
           "Übrige Länder",
-          1373.2444531
+          1411.3698286
         ]
       ],
       "name": "Sekundarstufe I",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          49547.753623
+          48980.47027
         ],
         [
           "Deutschland",
-          3407.7381286
+          3220.1615937
         ],
         [
           "Italien",
-          2089.0219844
+          2155.5873673
         ],
         [
           "Türkei",
-          888.02831651
+          901.17578793
         ],
         [
           "EU-17 + EFTA",
-          2148.1548053
+          2176.7736304
         ],
         [
           "EU-Ost",
-          729.3990478
+          775.6578545
         ],
         [
           "Balkan",
-          2096.7151087
+          2285.985349
         ],
         [
           "Mittel- und Südamerika",
-          314.88764339
+          329.07992203
         ],
         [
           "Arabische Länder",
-          245.63732563
+          224.81860435
         ],
         [
           "Afrikanische Länder",
-          278.47866168
+          263.83167291
         ],
         [
           "Übrige Länder",
-          745.2526444
+          780.0838456
         ]
       ],
       "name": "Sekundarstufe II",
@@ -113,47 +113,47 @@
       "data": [
         [
           "Schweiz",
-          36222.22277
+          37129.031188
         ],
         [
           "Deutschland",
-          9485.6688454
+          9705.3454754
         ],
         [
           "Italien",
-          1671.91855
+          1769.7065775
         ],
         [
           "Türkei",
-          639.34136676
+          692.19063023
         ],
         [
           "EU-17 + EFTA",
-          5568.4010664
+          5814.2880384
         ],
         [
           "EU-Ost",
-          1324.863137
+          1588.7648566
         ],
         [
           "Balkan",
-          792.41034639
+          820.63328811
         ],
         [
           "Mittel- und Südamerika",
-          550.4559911
+          570.37047919
         ],
         [
           "Arabische Länder",
-          247.23805423
+          286.41971636
         ],
         [
           "Afrikanische Länder",
-          248.51294407
+          240.10901851
         ],
         [
           "Übrige Länder",
-          3455.4620974
+          3539.8818831
         ]
       ],
       "name": "Tertiärstufe",
@@ -235,7 +235,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2012 bis 2016"
+    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2013 bis 2017"
   },
   "navigation": {
     "menuItemStyle": {
@@ -292,7 +292,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "layout": "horizontal",

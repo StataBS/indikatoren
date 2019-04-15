@@ -1,5 +1,5 @@
 {"title":"Gesprochene Hauptsprachen nach Migrationsstatus",
-"subtitle":"Basel-Stadt, gepoolte Daten 2012 bis 2016",
+"subtitle":"Basel-Stadt, gepoolte Daten 2013 bis 2017",
 "kuerzel":"I.01.8.6404",
 "kuerzelKunde":"A6-3",
 "description":"Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -8,13 +8,13 @@
 "unterthema":"Sprachen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T11:07:48.4848",
+"aktualisierungsdatum":"2019-04-12T10:43:09.099",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2012 bis 2016 zu 80,0% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,7% waren.",
+"lesehilfe":"Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2013 bis 2017 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,3% waren.",
 "erlaeuterungen":"Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 "template":"befragungen001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":["6680"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6404, 
+"chart-id":6404, 
+"filter":""
 }
