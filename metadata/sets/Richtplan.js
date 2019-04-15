@@ -88,15 +88,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-03T17:28:17.1717",
+		"aktualisierungsdatum": "2019-04-12T10:48:08.088",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas weniger als 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 77 000 Personen - der höchste in der beobachteten Zeitspanne.",
+		"lesehilfe": "Im Jahr 2017 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Fast 27 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 75 000 Personen - das sind 2 000 weniger als im Vorjahr.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
@@ -108,11 +109,14 @@ var indikatorensetData = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5203,
-		"darstellungsart": "Grafik"
+		"data-id": 5203,
+		"chart-id": 5203,
+		"filter": "",
+		"id": 5203
 	},
 	{
 		"title": "Leerwohnungsquote",
@@ -808,14 +812,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-02T09:19:49.4949",
+		"aktualisierungsdatum": "2019-04-12T10:48:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2016 beträgt dieser Anteil 40%. Rund 37% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 23% auf Niveau Sekundarstufe I.",
-		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2017 beträgt dieser Anteil 40%. Rund 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 22% auf Niveau Sekundarstufe I.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

@@ -999,6 +999,7 @@ id | visible | visibleInPortal | indikatorenset
 6988 | true | true | Wohnviertel
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
+7068 | true | true | 
 7432 | true | true | 
 7435 | true | false | Arbeitsmarkt
 7437 | true | false | Arbeitsmarkt

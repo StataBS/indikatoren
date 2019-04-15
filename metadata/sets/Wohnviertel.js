@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -11,14 +11,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-13T09:47:50.5050",
+		"aktualisierungsdatum": "2019-04-12T10:50:48.4848",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -35,7 +35,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=soz_sozhilfe.soz_quote' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4822,
 		"chart-id": 4822,

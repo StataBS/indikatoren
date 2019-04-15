@@ -4510,7 +4510,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -4520,14 +4520,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-13T09:47:50.5050",
+		"aktualisierungsdatum": "2019-04-12T10:50:48.4848",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4545,7 +4545,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=soz_sozhilfe.soz_quote' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4822,
 		"chart-id": 4822,
@@ -7838,13 +7838,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T15:40:09.099",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
+		"lesehilfe": "Der Altersquotient ist zwischen 2009 und 2018 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
 		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -7878,13 +7878,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T15:58:43.4343",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
+		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen in diesem Zeitraum weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2015 steigt der Jugendquotient wieder.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -8560,15 +8560,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-03T17:28:17.1717",
+		"aktualisierungsdatum": "2019-04-12T10:48:08.088",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Etwas weniger als 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 77 000 Personen - der höchste in der beobachteten Zeitspanne.",
+		"lesehilfe": "Im Jahr 2017 pendeln gut 102 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Fast 27 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 75 000 Personen - das sind 2 000 weniger als im Vorjahr.",
 		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_012",
@@ -8581,11 +8582,14 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5203,
-		"darstellungsart": "Grafik"
+		"data-id": 5203,
+		"chart-id": 5203,
+		"filter": "",
+		"id": 5203
 	},
 	{
 		"title": "Ökologischer Fussabdruck der Schweiz",
@@ -9905,8 +9909,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
-		"subtitle": "",
-		"kuerzel": "I.03.1.06052",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.1.6052",
 		"kuerzelKunde": "WE8",
 		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
 		"thema": "03 Erwerbsleben",
@@ -9915,28 +9919,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2016 insgesamt bei rund 74%. Bei den Männern lag sie mit 77% über derjenigen der Frauen (72%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_608",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6052,
-		"darstellungsart": "Grafik"
+		"data-id": 6052,
+		"chart-id": 6052,
+		"filter": "",
+		"id": 6052
 	},
 	{
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
@@ -9980,8 +9990,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
-		"subtitle": "",
-		"kuerzel": "I.03.1.06056",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.1.6056",
 		"kuerzelKunde": "WE12",
 		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -9990,28 +10000,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 20% der erwerbstätigen Männer gingen 2016 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2016 bei 52%.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
+		"lesehilfe": "21,9% der erwerbstätigen Männer gingen 2017 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2017 bei 50,9%.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_612",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6056,
-		"darstellungsart": "Grafik"
+		"data-id": 6056,
+		"chart-id": 6056,
+		"filter": "",
+		"id": 6056
 	},
 	{
 		"title": "Ausländeranteil",
@@ -10179,13 +10195,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-04-12T10:41:52.5252",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 1998 und 2017 um 4,3 Jahre auf 37,0 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 0,5 Jahre auf 46,0 Jahre gesunken. Bei der Schweizer Bevölkerung liegt das durchschnittliche Alter der Frauen über demjenigen der Männer. Bei der ausländischen Bevölkerung verhält es sich umgekehrt, wobei hier die Unterschiede zwischen den Geschlechtern deutlich geringer sind als bei den Schweizerinnen und Schweizern.",
+		"lesehilfe": "Das Durchschnittsalter der Ausländerinnen und Ausländer stieg zwischen 1999 und 2018 um 4,2 Jahre auf 37,1 Jahre. Das Durchschnittsalter der Schweizerinnen und Schweizer hingegen ist in diesem Zeitraum um 0,8 Jahre auf 45,9 Jahre gesunken. Bei der Schweizer Bevölkerung liegt das durchschnittliche Alter der Frauen über demjenigen der Männer. Bei der ausländischen Bevölkerung verhält es sich umgekehrt, wobei hier die Unterschiede zwischen den Geschlechtern deutlich geringer sind als bei den Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -10200,9 +10216,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6063,
+		"chart-id": 6063,
+		"filter": "",
 		"id": 6063
 	},
 	{
@@ -10996,14 +11016,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-04-12T10:42:12.1212",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 (gepoolte Daten) haben 19,2% der Schweizer Staatsangehörigen als höchsten Abschluss die Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 32,7% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 (gepoolte Daten) verfügen 18,6% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 31,9% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11018,14 +11038,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6088,
+		"chart-id": 6088,
+		"filter": "",
 		"id": 6088
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2012 bis 2016",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2013 bis 2017",
 		"kuerzel": "I.15.7.6090",
 		"kuerzelKunde": "B4-2",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -11035,13 +11059,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:42:19.1919",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-Ost (56%), EU-17 + EFTA (50%) und Mittel- und Südamerika (38%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (34%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei und dem Balkan (je 12%) auf.",
+		"lesehilfe": "Bei Personen aus Deutschland (71%), EU-Ost (60%), EU-17 + EFTA (50%) sowie Mittel- und Südamerika (41%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (35%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
 		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -11056,14 +11080,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6090,
+		"chart-id": 6090,
+		"filter": "",
 		"id": 6090
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 bis 2016",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
 		"kuerzel": "I.15.7.6091",
 		"kuerzelKunde": "B4-3",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -11073,14 +11101,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:42:27.2727",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländische Staatsangehörige weisen den höchsten Anteil an Personen mit Tertiärausbildung (40%) sowie mit Sekundarstufe-I-Ausbildung (33%) auf.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"lesehilfe": "Ausländische Staatsangehörige weisen den höchsten Anteil an Personen mit Tertiärausbildung (45%) sowie mit Sekundarstufe I-Ausbildung (32%) auf.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11094,9 +11122,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6091,
+		"chart-id": 6091,
+		"filter": "",
 		"id": 6091
 	},
 	{
@@ -11634,7 +11666,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.01.1.6144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -11644,13 +11676,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T18:23:22.2222",
+		"aktualisierungsdatum": "2019-04-12T10:43:33.3333",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2017 rund 3 200 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -11665,9 +11697,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6144,
+		"chart-id": 6144,
+		"filter": "",
 		"id": 6144
 	},
 	{
@@ -12633,14 +12669,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:05:43.4343",
+		"aktualisierungsdatum": "2019-04-12T10:47:33.3333",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge.<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2018 Familienmietzinsbeiträge. In 15,0% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge. Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12823,7 +12859,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Haushalte mit FAMI",
-		"subtitle": "nach Wohnviertel, 2017",
+		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.6203",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit FAMI",
@@ -12833,13 +12869,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-03-25T18:01:40.4040",
+		"aktualisierungsdatum": "2019-04-12T10:48:28.2828",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2012 lag die FAMI-Quote noch bei 1,5%. Kleinhüningen weist mit 5,0% die höchste Beitragsquote auf. Die Vorstädte verzeichnen gegenüber 2012 als einziges Wohnviertel einen Rückgang.",
+		"lesehilfe": "Ende 2018 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2013 lag die FAMI-Quote noch bei 1,7%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel wohnt keine beziehende Familie. Gegenüber 2013 ist einzig in den Wohnvierteln Altstadt Kleinbasel, Vorstädte sowie Rosental ein Rückgang zu beobachten.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -12863,7 +12899,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
-		"subtitle": "nach Wohnviertel, 2017",
+		"subtitle": "nach Wohnviertel, 2018",
 		"kuerzel": "I.13.2.6204",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
@@ -12873,13 +12909,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-03-25T18:04:55.5555",
+		"aktualisierungsdatum": "2019-04-12T10:48:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt liegt der Anteil der Haushalte mit reiner PV an allen Haushalten bei 14,7%. Das Klybeck-Quartier weist mit 23,5% die höchste, die Vorstädte mit 8,5% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2012 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. In der Altstadt Kleinbasel ist sie im gleichen Zeitraum um 1,3 Prozentpunkte gesunken.",
+		"lesehilfe": "Insgesamt liegt Ende 2018 der Anteil der Haushalte mit reiner PV an allen Haushalten bei 15,0%. Das Wohnviertel Klybeck weist mit 25,0% die höchste, das Wohnviertel Vorstädte mit 8,3% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2013 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum um 1,9 Prozentpunkte gesunken.",
 		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -13275,14 +13311,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-02T09:19:49.4949",
+		"aktualisierungsdatum": "2019-04-12T10:48:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2016 beträgt dieser Anteil 40%. Rund 37% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 23% auf Niveau Sekundarstufe I.",
-		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. die höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), ab 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2017 beträgt dieser Anteil 40%. Rund 38% der baselstädtischen Wohnbevölkerung besitzt eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 22% auf Niveau Sekundarstufe I.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14866,7 +14902,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2012 bis 2016",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.01.8.6402",
 		"kuerzelKunde": "A6-1",
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
@@ -14876,13 +14912,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (46,8%), der Türkei (39,2%) und Italien (37,4%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus den EU-17 + EFTA-Ländern (30,9%), Mittel- und Südamerika (30,3%) und der Kategorie «Übrige Länder»&nbsp;(22,6%) zu beobachten sind.",
+		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (45,7%), der Türkei (38,9%) und Italien (37,3%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (29,5%) und der Kategorie «Übrige Länder» (22,5%) zu beobachten sind.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -14897,14 +14933,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6402,
+		"chart-id": 6402,
+		"filter": "",
 		"id": 6402
 	},
 	{
 		"title": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2012 bis 2016",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.01.8.6403",
 		"kuerzelKunde": "A6-2",
 		"description": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
@@ -14914,13 +14954,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (70,7%) am grössten, während er bei den 40- bis &nbsp;64-Jährigen (46,7%) und den über 65-Jährigen (39,6%) geringer ist.",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (68,5%) am grössten, während er bei den 40- bis 64-Jährigen (47,3%) und den über 65-Jährigen (37,2%) geringer ist.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -14935,14 +14975,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6403,
+		"chart-id": 6403,
+		"filter": "",
 		"id": 6403
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2012 bis 2016",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.01.8.6404",
 		"kuerzelKunde": "A6-3",
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -14952,13 +14996,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2012 bis 2016 zu 80,0% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,7% waren.",
+		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2013 bis 2017 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,3% waren.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -14973,14 +15017,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6404,
+		"chart-id": 6404,
+		"filter": "",
 		"id": 6404
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2012 bis 2016",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.01.8.6405",
 		"kuerzelKunde": "A6-4",
 		"description": "Bei der Arbeit gesprochene Sprachen",
@@ -14990,13 +15038,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:48.4848",
+		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Arbeit sprechen 97,7% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 81,2% sind.",
+		"lesehilfe": "Bei der Arbeit sprechen 97,9% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 80,8% sind.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -15011,9 +15059,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6405,
+		"chart-id": 6405,
+		"filter": "",
 		"id": 6405
 	},
 	{
@@ -17312,7 +17364,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten von 2012 bis 2016",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten von 2013 bis 2017",
 		"kuerzel": "I.01.1.6481",
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -17322,13 +17374,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 sind in Basel-Stadt rund 49% aller Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 31% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
+		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 sind in Basel-Stadt rund 48% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 32% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
 		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -17343,9 +17395,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6481,
+		"chart-id": 6481,
+		"filter": "",
 		"id": 6481
 	},
 	{
@@ -23793,6 +23849,46 @@ var indikatoren = [
 		"chart-id": 6933,
 		"filter": "99",
 		"id": 6990
+	},
+	{
+		"title": "Arzt- und Zahnarztpraxen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.14.4.07068",
+		"kuerzelKunde": "",
+		"description": "Arzt- und Zahnarztpraxen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-04-12T10:32:25.2525",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen von Grundversorgern, 534 Spezialarztpraxen und 126 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 288 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
+		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7068,
+		"chart-id": 7068,
+		"filter": "",
+		"id": 7068
 	},
 	{
 		"title": "Privatschulquote",

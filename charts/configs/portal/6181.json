@@ -30,6 +30,10 @@
         [
           2017,
           2.3
+        ],
+        [
+          2018,
+          2.3
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -65,6 +69,10 @@
         [
           2017,
           14.7
+        ],
+        [
+          2018,
+          15
         ]
       ],
       "name": "Prämienverbilligung"
@@ -165,7 +173,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "enabled": true,

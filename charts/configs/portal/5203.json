@@ -44,6 +44,10 @@
         [
           "2016",
           -24080
+        ],
+        [
+          "2017",
+          -26396
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -93,6 +97,10 @@
         [
           "2016",
           -453
+        ],
+        [
+          "2017",
+          -573
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -142,6 +150,10 @@
         [
           "2016",
           65931
+        ],
+        [
+          "2017",
+          66252
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -190,7 +202,11 @@
         ],
         [
           "2016",
-          35925
+          35739
+        ],
+        [
+          "2017",
+          35877
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -242,7 +258,11 @@
         ],
         [
           "2016",
-          77323
+          77137
+        ],
+        [
+          "2017",
+          75160
         ]
       ],
       "name": "Saldo",
@@ -373,7 +393,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "symbolRadius": 0,
