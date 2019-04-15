@@ -1,54 +1,97 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
-      "color": "#8b2223",
+      "index": 0,
+      "color": "#008AC3",
       "data": [
         [
-          2009,
-          32.024923669
-        ],
-        [
-          2010,
-          31.904268974
-        ],
-        [
           2011,
-          31.66841261
+          316
         ],
         [
           2012,
-          31.466675325
+          324
         ],
         [
           2013,
-          31.209603695
+          291
         ],
         [
           2014,
-          31.074865074
+          297
         ],
         [
           2015,
-          30.932563815
+          297
         ],
         [
           2016,
-          30.738330394
-        ],
-        [
-          2017,
-          30.603332755
-        ],
-        [
-          2018,
-          30.442960594
+          300
         ]
       ],
-      "name": "Altersquotient"
+      "name": "Arztpraxen Grundversorger"
+    },
+    {
+      "index": 1,
+      "color": "#990300",
+      "data": [
+        [
+          2011,
+          380
+        ],
+        [
+          2012,
+          411
+        ],
+        [
+          2013,
+          470
+        ],
+        [
+          2014,
+          484
+        ],
+        [
+          2015,
+          497
+        ],
+        [
+          2016,
+          534
+        ]
+      ],
+      "name": "Spezialarztpraxen"
+    },
+    {
+      "index": 1,
+      "color": "orange",
+      "data": [
+        [
+          2011,
+          149
+        ],
+        [
+          2012,
+          137
+        ],
+        [
+          2013,
+          133
+        ],
+        [
+          2014,
+          131
+        ],
+        [
+          2015,
+          132
+        ],
+        [
+          2016,
+          126
+        ]
+      ],
+      "name": "Zahnarztpraxen"
     }
   ],
   "chart": {
@@ -78,7 +121,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-5144"
+    "renderTo": "container-7068"
   },
   "title": {
     "style": {
@@ -87,7 +130,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Altersquotient"
+    "text": "Arzt- und Zahnarztpraxen"
   },
   "subtitle": {
     "style": {
@@ -101,7 +144,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function (){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + '</b><br/><b>'
+    }
   },
   "yAxis": {
     "min": 0,
@@ -118,8 +163,11 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
-    }
+      "formatter": function (){
+        return Highcharts.numberFormat((this.value),0)+'';
+      }
+    },
+    "tickAmount": 7
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -147,21 +195,27 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemDistance": 8,
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "dataLabels": {
         "enabled": false
       }
     }
@@ -202,6 +256,6 @@
     }
   },
   "exporting": {
-    "filename": 5144
+    "filename": 7068
   }
 }

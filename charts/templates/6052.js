@@ -13,11 +13,11 @@
             "type": "column"
         },
         "series": [
-            {"color": "#b375ab"},
-            {"color": "#923f8d"},
-            {"color": "#fabd24"},
-            {"color": "#cd9c00"},
-            {"color": "#C8C8C8"}
+            {"color": "#008AC3"},
+            {"color": "#DC440E"},
+            {"color": "#B00000"},
+            {"color": "#246370"},
+            {"color": "#474747"}
         ],
         "xAxis": {
             "type": "category"

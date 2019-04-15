@@ -7,15 +7,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          35912.145376
+          35633.986325
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          15575.612897
+          15055.932386
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          24535.043425
+          23592.10448
         ]
       ],
       "name": "Sekundarstufe I",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          25859.048095
+          26213.087897
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          22908.778522
+          22538.658117
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          75184.256203
+          74420.234936
         ]
       ],
       "name": "Sekundarstufe II",
@@ -49,15 +49,15 @@
       "data": [
         [
           "Ausländer\u002F-innen",
-          47955.165973
+          50042.041102
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          15683.503886
+          16335.362727
         ],
         [
           "Schweizer\u002F-innen seit Geburt",
-          56447.508803
+          57529.831406
         ]
       ],
       "name": "Tertiärstufe",
@@ -140,7 +140,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2012 bis 2016"
+    "text": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017"
   },
   "navigation": {
     "menuItemStyle": {
@@ -197,7 +197,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "layout": "horizontal",

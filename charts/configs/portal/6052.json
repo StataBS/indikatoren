@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#b375ab",
+      "color": "#008AC3",
       "data": [
         [
           "1970",
@@ -24,15 +24,15 @@
           76
         ],
         [
-          "2016",
-          76.5
+          "2017",
+          76.7
         ]
       ],
       "name": "Männer",
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#DC440E",
       "data": [
         [
           "1970",
@@ -55,15 +55,15 @@
           68.7
         ],
         [
-          "2016",
-          71.6
+          "2017",
+          73
         ]
       ],
       "name": "Frauen",
       "turboThreshold": 0
     },
     {
-      "color": "#fabd24",
+      "color": "#B00000",
       "data": [
         [
           "1970",
@@ -86,15 +86,15 @@
           72.8
         ],
         [
-          "2016",
-          74.4
+          "2017",
+          76
         ]
       ],
       "name": "Schweiz",
       "turboThreshold": 0
     },
     {
-      "color": "#cd9c00",
+      "color": "#246370",
       "data": [
         [
           "1970",
@@ -117,15 +117,15 @@
           71.5
         ],
         [
-          "2016",
-          73.5
+          "2017",
+          73.2
         ]
       ],
       "name": "Ausland",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
+      "color": "#474747",
       "data": [
         [
           "1970",
@@ -148,8 +148,8 @@
           72.3
         ],
         [
-          "2016",
-          74
+          "2017",
+          74.8
         ]
       ],
       "name": "Total",
@@ -206,7 +206,7 @@
     },
     "type": "column",
     "renderTo": "container-6052",
-    "spacingBottom": 40
+    "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
@@ -237,7 +237,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -276,9 +276,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010).\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
   },
   "legend": {
     "symbolRadius": 0,

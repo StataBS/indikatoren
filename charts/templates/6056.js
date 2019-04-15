@@ -37,32 +37,32 @@
   },
   "series": [
     {
-      "color": "#933F8D", 
+      "color": "#008AC3", 
       "stack": "m",
       "legendIndex": 3
     },
     {
-      "color": "#B475AB", 
+      "color": "#00bAf3", 
       "stack": "m",
       "legendIndex": 0
     },
     {
-      "color": "#FABD24", 
+      "color": "#B00000", 
       "stack": "w",
       "legendIndex": 4
     },
     {
-      "color": "#FFDA80", 
+      "color": "#d00000", 
       "stack": "w",
       "legendIndex": 1
     },
     {
-      "color": "#8a8a8a", 
+      "color": "#474747", 
       "stack": "t",
       "legendIndex": 5
     },   
     {
-      "color": "#c8c8c8", 
+      "color": "#6F6F6F", 
       "stack": "t",
       "legendIndex": 2
     }

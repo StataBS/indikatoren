@@ -126,13 +126,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T15:40:09.099",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist zwischen 2008 und 2017 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
+		"lesehilfe": "Der Altersquotient ist zwischen 2009 und 2018 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
 		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -165,13 +165,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T15:58:43.4343",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen deutlich weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2013 steigt der Jugendquotient wieder.",
+		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen in diesem Zeitraum weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2015 steigt der Jugendquotient wieder.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2246,8 +2246,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
-		"subtitle": "",
-		"kuerzel": "I.03.1.06052",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.1.6052",
 		"kuerzelKunde": "WE8",
 		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
 		"thema": "03 Erwerbsleben",
@@ -2256,27 +2256,33 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2016 insgesamt bei rund 74%. Bei den Männern lag sie mit 77% über derjenigen der Frauen (72%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre).",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_608",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6052,
-		"darstellungsart": "Grafik"
+		"data-id": 6052,
+		"chart-id": 6052,
+		"filter": "",
+		"id": 6052
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -2393,8 +2399,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
-		"subtitle": "",
-		"kuerzel": "I.03.1.06056",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.1.6056",
 		"kuerzelKunde": "WE12",
 		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Erwerbsleben",
@@ -2403,27 +2409,33 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-02-07T00:00:00.000",
+		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 20% der erwerbstätigen Männer gingen 2016 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2016 bei 52%.",
-		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige.",
+		"lesehilfe": "21,9% der erwerbstätigen Männer gingen 2017 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2017 bei 50,9%.",
+		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_02_00_00_00_612",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Volkszählung (bis 2000) und Strukturerhebung (ab 2010)"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6056,
-		"darstellungsart": "Grafik"
+		"data-id": 6056,
+		"chart-id": 6056,
+		"filter": "",
+		"id": 6056
 	},
 	{
 		"title": "Jahresmitteltemperatur",
