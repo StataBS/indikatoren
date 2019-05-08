@@ -38139,7 +38139,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-09T08:07:13.1313",
+		"aktualisierungsdatum": "2019-05-08T08:23:57.5757",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -38179,7 +38179,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-08T17:30:31.3131",
+		"aktualisierungsdatum": "2019-05-08T08:28:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
