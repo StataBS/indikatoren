@@ -302,7 +302,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.4829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
@@ -312,13 +312,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
+		"aktualisierungsdatum": "2019-05-10T14:40:33.3333",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
+		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -431,7 +431,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.02.1.4832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
@@ -441,7 +441,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:38.3838",
+		"aktualisierungsdatum": "2019-05-10T13:48:15.1515",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -465,7 +465,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4832,
 		"chart-id": 4832,
@@ -562,7 +562,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2015",
+		"subtitle": "Basel-Stadt, Steuerjahr 2016",
 		"kuerzel": "I.18.2.4835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -572,7 +572,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:39.3939",
+		"aktualisierungsdatum": "2019-05-10T14:39:56.5656",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -596,7 +596,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4835,
 		"chart-id": 4835,
@@ -605,7 +605,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2015",
+		"subtitle": "Basel-Stadt, Steuerjahr 2016",
 		"kuerzel": "I.18.2.4836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
@@ -615,13 +615,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
+		"aktualisierungsdatum": "2019-05-10T13:25:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
+		"lesehilfe": "Bettingen verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -639,7 +639,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4836,
 		"chart-id": 4836,
@@ -648,7 +648,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2012-2016",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.03.1.4837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
@@ -658,14 +658,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
+		"aktualisierungsdatum": "2019-05-10T13:53:22.2222",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
+		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,7%) und im Wohnviertel Altstadt Grossbasel am grössten (85,4%)",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2013 bis 2017 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -778,8 +778,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.13.3.5109",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
@@ -788,14 +788,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-13T09:47:50.5050",
+		"aktualisierungsdatum": "2019-05-10T13:50:09.099",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist im Wohnviertel Klybeck am höchsten, in Bettingen am niedrigsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger an der Wohnbevölkerung des Wohnviertels.",
+		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -810,7 +810,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=soz_sozhilfe.soz_quote' target='_blank'>Basler Atlas</a>."
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=soz_sozhilfe.soz_quote' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 5109,
 		"chart-id": 5109,
@@ -1353,8 +1353,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.5123",
+		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"kuerzel": "I.18.2.05123",
 		"kuerzelKunde": "WA-2.B",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -1363,13 +1363,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T00:00:00.000",
+		"aktualisierungsdatum": "2019-05-10T13:28:01.011",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bruderholz verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
+		"lesehilfe": "Bettingen verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
@@ -1385,7 +1385,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_eink.einkommen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 5123,
 		"chart-id": 5123,
@@ -2337,7 +2337,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Altstadt Grossbasel, 2017",
+		"subtitle": "Altstadt Grossbasel, 2018",
 		"kuerzel": "I.01.1.06893",
 		"kuerzelKunde": "GS-01.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2347,13 +2347,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:21:26.2626",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2376,7 +2376,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Vorstädte, 2017",
+		"subtitle": "Vorstädte, 2018",
 		"kuerzel": "I.01.1.06894",
 		"kuerzelKunde": "GS-02.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2386,7 +2386,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:07.077",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2415,7 +2415,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Am Ring, 2017",
+		"subtitle": "Am Ring, 2018",
 		"kuerzel": "I.01.1.06895",
 		"kuerzelKunde": "GS-03.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2425,7 +2425,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:06.066",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2454,7 +2454,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Breite, 2017",
+		"subtitle": "Breite, 2018",
 		"kuerzel": "I.01.1.06915",
 		"kuerzelKunde": "GS-04.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2464,13 +2464,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Breite vor allem die weibliche Bevölkerung etwas älter.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Breite der Anteil der 65-Jährigen und Älteren etwas höher.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2493,7 +2493,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "St. Alban, 2017",
+		"subtitle": "St. Alban, 2018",
 		"kuerzel": "I.01.1.06916",
 		"kuerzelKunde": "GS-05.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2503,7 +2503,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:05.055",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2532,7 +2532,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Gundeldingen, 2017",
+		"subtitle": "Gundeldingen, 2018",
 		"kuerzel": "I.01.1.06917",
 		"kuerzelKunde": "GS-06.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2542,13 +2542,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 45-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer, das bedeutet, dass es weniger ältere Personen gibt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2571,7 +2571,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bruderholz, 2017",
+		"subtitle": "Bruderholz, 2018",
 		"kuerzel": "I.01.1.06918",
 		"kuerzelKunde": "GS-07.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2581,13 +2581,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:04.044",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe zwischen 40 und 50 Jahren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien im Wohnviertel wider.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe zwischen 40 und 54 Jahren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien im Wohnviertel wider.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2610,7 +2610,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bachletten, 2017",
+		"subtitle": "Bachletten, 2018",
 		"kuerzel": "I.01.1.06919",
 		"kuerzelKunde": "GS-08.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2620,13 +2620,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 50- bis 59-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 55- bis 69-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2649,7 +2649,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Gotthelf, 2017",
+		"subtitle": "Gotthelf, 2018",
 		"kuerzel": "I.01.1.06920",
 		"kuerzelKunde": "GS-09.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2659,13 +2659,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:03.033",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerung zwischen 30 und 39 Jahren weniger stark vertreten.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerung zwischen 20 und 24 Jahren sowie zwischen 35 und 39 Jahren weniger stark vertreten. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2688,7 +2688,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Iselin, 2017",
+		"subtitle": "Iselin, 2018",
 		"kuerzel": "I.01.1.06921",
 		"kuerzelKunde": "GS-10.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2698,7 +2698,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2727,7 +2727,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "St. Johann, 2017",
+		"subtitle": "St. Johann, 2018",
 		"kuerzel": "I.01.1.06922",
 		"kuerzelKunde": "GS-11.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2737,7 +2737,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:02.022",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2766,7 +2766,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Altstadt Kleinbasel, 2017",
+		"subtitle": "Altstadt Kleinbasel, 2018",
 		"kuerzel": "I.01.1.06923",
 		"kuerzelKunde": "GS-12.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2776,7 +2776,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
+		"aktualisierungsdatum": "2019-05-10T15:40:01.011",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2805,7 +2805,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Clara, 2017",
+		"subtitle": "Clara, 2018",
 		"kuerzel": "I.01.1.06924",
 		"kuerzelKunde": "GS-13.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2815,13 +2815,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:01.011",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 80 Jahren ist der Anteil der Frauen höher als jener der Männer.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 75 Jahren ist der Anteil der Frauen höher als jener der Männer.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2844,7 +2844,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wettstein, 2017",
+		"subtitle": "Wettstein, 2018",
 		"kuerzel": "I.01.1.06925",
 		"kuerzelKunde": "GS-14.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2854,7 +2854,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
+		"aktualisierungsdatum": "2019-05-10T15:40:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2883,7 +2883,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Hirzbrunnen, 2017",
+		"subtitle": "Hirzbrunnen, 2018",
 		"kuerzel": "I.01.1.06926",
 		"kuerzelKunde": "GS-15.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2893,7 +2893,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:49:00.000",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2922,7 +2922,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Rosental, 2017",
+		"subtitle": "Rosental, 2018",
 		"kuerzel": "I.01.1.06927",
 		"kuerzelKunde": "GS-16.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2932,7 +2932,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2961,7 +2961,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Matthäus, 2017",
+		"subtitle": "Matthäus, 2018",
 		"kuerzel": "I.01.1.06928",
 		"kuerzelKunde": "GS-17.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2971,7 +2971,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:59.5959",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -3000,7 +3000,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Klybeck, 2017",
+		"subtitle": "Klybeck, 2018",
 		"kuerzel": "I.01.1.06929",
 		"kuerzelKunde": "GS-18.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3010,7 +3010,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -3118,7 +3118,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bettingen, 2017",
+		"subtitle": "Bettingen, 2018",
 		"kuerzel": "I.01.1.06932",
 		"kuerzelKunde": "GS-21.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3129,13 +3129,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
+		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 45-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons fällt bei der Gemeinde Bettingen auf, dass die Bevölkerungsgruppe der 50-Jährigen und Älteren derart stark vertreten ist, dass die Abbildung kaum mehr einer Pyramide ähnelt.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",

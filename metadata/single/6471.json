@@ -8,14 +8,14 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:03.033",
+"aktualisierungsdatum":"2019-05-10T16:06:22.2222",
 "stufe1":"Kapitel C Erwerb und Auskommen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Der höchste Mittelwert des Reinvermögens liegt sowohl 2006 wie auch 2015 für die Gruppe der Schweizer vor. 2006 beträgt er rund 500 000 Franken, im Jahr 2015 544 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6 000 Franken im Jahr 2006 resp. gut 12 000 Franken pro Veranlagung im Jahr 2015. Die Ländergruppen «EU-Ost» und «Arabische Länder» verzeichnen den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-"erlaeuterungen":"Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2006 und 2015; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+"lesehilfe":"Der höchste Mittelwert des Reinvermögens liegt sowohl 2007 wie auch 2016 für die Gruppe der Schweizer vor. 2007 beträgt er rund 480 000 Franken, im Jahr 2016 ca. 610 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6 000 Franken im Jahr 2007 resp. gut 13 400 Franken pro Veranlagung im Jahr 2016. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+"erlaeuterungen":"Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 "template":"template001",
 "darstellungsart":"",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6712"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6471, 
+"chart-id":6471, 
+"filter":""
 }

@@ -6568,76 +6568,8 @@
       },
       "data": [
         [
-          11,
-          1135053
-        ],
-        [
-          15,
-          199538
-        ],
-        [
           1,
           519253
-        ],
-        [
-          17,
-          146954
-        ],
-        [
-          4,
-          87666
-        ],
-        [
-          19,
-          275637
-        ],
-        [
-          13,
-          135893
-        ],
-        [
-          9,
-          98852
-        ],
-        [
-          12,
-          249937
-        ],
-        [
-          20,
-          207567
-        ],
-        [
-          7,
-          58834
-        ],
-        [
-          30,
-          29759
-        ],
-        [
-          8,
-          110727
-        ],
-        [
-          10,
-          161092
-        ],
-        [
-          18,
-          824751
-        ],
-        [
-          6,
-          631156
-        ],
-        [
-          16,
-          581619
-        ],
-        [
-          14,
-          562064
         ],
         [
           2,
@@ -6648,8 +6580,76 @@
           536448
         ],
         [
+          4,
+          87666
+        ],
+        [
           5,
           1173793
+        ],
+        [
+          6,
+          631156
+        ],
+        [
+          7,
+          58834
+        ],
+        [
+          8,
+          110727
+        ],
+        [
+          9,
+          98852
+        ],
+        [
+          10,
+          161092
+        ],
+        [
+          11,
+          1135053
+        ],
+        [
+          12,
+          249937
+        ],
+        [
+          13,
+          135893
+        ],
+        [
+          14,
+          562064
+        ],
+        [
+          15,
+          199538
+        ],
+        [
+          16,
+          581619
+        ],
+        [
+          17,
+          146954
+        ],
+        [
+          18,
+          824751
+        ],
+        [
+          19,
+          275637
+        ],
+        [
+          20,
+          207567
+        ],
+        [
+          30,
+          29759
         ]
       ]
     },
@@ -6657,76 +6657,8 @@
       "visible": false,
       "data": [
         [
-          "St. Johann",
-          -88589
-        ],
-        [
-          "Hirzbrunnen",
-          -11072
-        ],
-        [
           "Altstadt GB",
           -10520
-        ],
-        [
-          "Matthäus",
-          -6320
-        ],
-        [
-          "Breite",
-          -5481
-        ],
-        [
-          "Kleinhüningen",
-          -5388
-        ],
-        [
-          "Clara",
-          -1850
-        ],
-        [
-          "Gotthelf",
-          -346
-        ],
-        [
-          "Altstadt KB",
-          521
-        ],
-        [
-          "Riehen",
-          986
-        ],
-        [
-          "Bruderholz",
-          1033
-        ],
-        [
-          "Bettingen",
-          1933
-        ],
-        [
-          "Bachletten",
-          3567
-        ],
-        [
-          "Iselin",
-          4418
-        ],
-        [
-          "Klybeck",
-          27951
-        ],
-        [
-          "Gundeldingen",
-          36881
-        ],
-        [
-          "Rosental",
-          39669
-        ],
-        [
-          "Wettstein",
-          42438
         ],
         [
           "Vorstädte",
@@ -6737,11 +6669,79 @@
           74265
         ],
         [
+          "Breite",
+          -5481
+        ],
+        [
           "St. Alban",
           167232
+        ],
+        [
+          "Gundeldingen",
+          36881
+        ],
+        [
+          "Bruderholz",
+          1033
+        ],
+        [
+          "Bachletten",
+          3567
+        ],
+        [
+          "Gotthelf",
+          -346
+        ],
+        [
+          "Iselin",
+          4418
+        ],
+        [
+          "St. Johann",
+          -88589
+        ],
+        [
+          "Altstadt KB",
+          521
+        ],
+        [
+          "Clara",
+          -1850
+        ],
+        [
+          "Wettstein",
+          42438
+        ],
+        [
+          "Hirzbrunnen",
+          -11072
+        ],
+        [
+          "Rosental",
+          39669
+        ],
+        [
+          "Matthäus",
+          -6320
+        ],
+        [
+          "Klybeck",
+          27951
+        ],
+        [
+          "Kleinhüningen",
+          -5388
+        ],
+        [
+          "Riehen",
+          986
+        ],
+        [
+          "Bettingen",
+          1933
         ]
       ],
-      "name": "Differenz 2015 zu 1995"
+      "name": "Veränderung 1995 bis 2015"
     },
     {
       "name": "Rhein",
@@ -6982,8 +6982,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -7015,11 +7015,11 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 400; 
+	                var minValueInLegend = 4000; 
 	                var maxValueInLegend = 160000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " in m²", 265, 220);
+	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 	                
 	                fn.addLegendCircle(chart, 390, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 410, 245);
@@ -7055,7 +7055,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Quadratmetern",
+    "text": "in Quadratmetern, 2015",
     "align": "left"
   },
   "credits": {
@@ -7071,7 +7071,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-4"
+    "text": "Quelle: Planungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "colorAxis": {
     "min": 0,

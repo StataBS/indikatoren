@@ -24,6 +24,9 @@ global Highcharts
             borderWidth: 0
         }
     },
+    tooltip:{
+      shared: true
+    },
     "series": [
     {
       "index": 0,
@@ -39,7 +42,7 @@ global Highcharts
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+          return '(95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b>)<br/>';
         }
       }
     }

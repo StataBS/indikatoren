@@ -35,6 +35,10 @@
         [
           2017,
           51.79
+        ],
+        [
+          2018,
+          49.47
         ]
       ],
       "name": "Schweiz"
@@ -75,6 +79,10 @@
         [
           2017,
           46.69
+        ],
+        [
+          2018,
+          44.16
         ]
       ],
       "name": "Schweizer"
@@ -115,6 +123,10 @@
         [
           2017,
           57.44
+        ],
+        [
+          2018,
+          55.3
         ]
       ],
       "name": "Schweizerinnen"
@@ -153,7 +165,11 @@
         ],
         [
           2017,
-          29.05
+          28.98
+        ],
+        [
+          2018,
+          25.52
         ]
       ],
       "name": "Ausland"
@@ -193,7 +209,11 @@
         ],
         [
           2017,
-          24.88
+          24.94
+        ],
+        [
+          2018,
+          22.92
         ]
       ],
       "name": "Ausländer"
@@ -233,7 +253,11 @@
         ],
         [
           2017,
-          33.42
+          33.17
+        ],
+        [
+          2018,
+          28.17
         ]
       ],
       "name": "Ausländerinnen"
@@ -335,7 +359,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": true,

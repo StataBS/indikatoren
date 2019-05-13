@@ -34,6 +34,10 @@
         [
           2017,
           51.8
+        ],
+        [
+          2018,
+          49.5
         ]
       ],
       "name": "Schweiz"
@@ -72,6 +76,10 @@
         [
           2017,
           68.7
+        ],
+        [
+          2018,
+          66
         ]
       ],
       "name": "Deutschland"
@@ -110,6 +118,10 @@
         [
           2017,
           23.2
+        ],
+        [
+          2018,
+          22.1
         ]
       ],
       "name": "Italien"
@@ -148,6 +160,10 @@
         [
           2017,
           9.3
+        ],
+        [
+          2018,
+          8.8
         ]
       ],
       "name": "Türkei"
@@ -186,6 +202,10 @@
         [
           2017,
           32
+        ],
+        [
+          2018,
+          27.7
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -224,6 +244,10 @@
         [
           2017,
           42.1
+        ],
+        [
+          2018,
+          37.5
         ]
       ],
       "name": "EU-Ost"
@@ -262,6 +286,10 @@
         [
           2017,
           17.1
+        ],
+        [
+          2018,
+          11.9
         ]
       ],
       "name": "Balkan"
@@ -299,7 +327,11 @@
         ],
         [
           2017,
-          33.7
+          33.3
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Übrige Länder"
@@ -401,7 +433,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": true,
