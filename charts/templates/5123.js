@@ -24,7 +24,7 @@
         },    	
 		"legend": {
 			"title": {
-				"text": "in tausend Franken"
+				"text": "in 1000 Fr."
 			}
 		},
 		"colorAxis": {

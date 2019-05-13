@@ -69,8 +69,8 @@
 	                //define new Highcharts template "mappie"
 					fn.defineTemplate();
 					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
 					
 					//pie diameters in px
 					var maxPieDiameter = 20;
@@ -102,11 +102,11 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 	                
 					//pie values in legend
-	                var minValueInLegend = 400; 
+	                var minValueInLegend = 4000; 
 	                var maxValueInLegend = 160000; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name + " in m²", 265, 220);
+	                fn.addLegendTitle(chart, "Veränderung von 1995 bis 2015 in m²", 265, 220);
 	                
 	                fn.addLegendCircle(chart, 390, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
 	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),0,","," "), 410, 245);

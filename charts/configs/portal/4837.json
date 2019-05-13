@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.6147351
-        ],
-        [
-          "Kleinhüningen",
-          0.6593773
+          0.6170225
         ],
         [
           "Clara",
-          0.6647432
+          0.6489529
         ],
         [
-          "Matthäus",
-          0.6812807
-        ],
-        [
-          "St. Johann",
-          0.7033538
+          "Kleinhüningen",
+          0.6527738
         ],
         [
           "Altstadt Kleinbasel",
-          0.7043903
+          0.6859847
         ],
         [
-          "Iselin",
-          0.7057801
+          "Matthäus",
+          0.6943841
+        ],
+        [
+          "St. Johann",
+          0.705878
         ],
         [
           "Hirzbrunnen",
-          0.7095861
+          0.7095694
+        ],
+        [
+          "Iselin",
+          0.7160829
         ],
         [
           "Rosental",
-          0.7270216
+          0.7276595
         ],
         [
           "St. Alban",
-          0.728567
-        ],
-        [
-          "Bruderholz",
-          0.7357069
-        ],
-        [
-          "Breite",
-          0.7402545
-        ],
-        [
-          "Riehen",
-          0.7411724
-        ],
-        [
-          "Bettingen",
-          0.7411724
-        ],
-        [
-          "Gotthelf",
-          0.7497291
-        ],
-        [
-          "Gundeldingen",
-          0.7611024
+          0.740654
         ],
         [
           "Vorstädte",
-          0.7730197
+          0.7473388
+        ],
+        [
+          "Bruderholz",
+          0.7498575
+        ],
+        [
+          "Riehen",
+          0.7528096
+        ],
+        [
+          "Bettingen",
+          0.7528096
+        ],
+        [
+          "Breite",
+          0.7616084
+        ],
+        [
+          "Gundeldingen",
+          0.7650346
         ],
         [
           "Bachletten",
-          0.780543
+          0.7746465
         ],
         [
-          "Wettstein",
-          0.8001765
+          "Gotthelf",
+          0.775001
         ],
         [
           "Am Ring",
-          0.8011046
+          0.795711
+        ],
+        [
+          "Wettstein",
+          0.7957958
         ],
         [
           "Altstadt Grossbasel",
-          0.8563774
+          0.854485
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -99,31 +99,31 @@
           1
         ],
         [
-          "Kleinhüningen",
+          "Clara",
           2
         ],
         [
-          "Clara",
+          "Kleinhüningen",
           3
         ],
         [
-          "Matthäus",
+          "Altstadt Kleinbasel",
           4
         ],
         [
-          "St. Johann",
+          "Matthäus",
           5
         ],
         [
-          "Altstadt Kleinbasel",
+          "St. Johann",
           6
         ],
         [
-          "Iselin",
+          "Hirzbrunnen",
           7
         ],
         [
-          "Hirzbrunnen",
+          "Iselin",
           8
         ],
         [
@@ -135,11 +135,11 @@
           10
         ],
         [
-          "Bruderholz",
+          "Vorstädte",
           11
         ],
         [
-          "Breite",
+          "Bruderholz",
           12
         ],
         [
@@ -151,7 +151,7 @@
           14
         ],
         [
-          "Gotthelf",
+          "Breite",
           15
         ],
         [
@@ -159,19 +159,19 @@
           16
         ],
         [
-          "Vorstädte",
+          "Bachletten",
           17
         ],
         [
-          "Bachletten",
+          "Gotthelf",
           18
         ],
         [
-          "Wettstein",
+          "Am Ring",
           19
         ],
         [
-          "Am Ring",
+          "Wettstein",
           20
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: gepoolte Daten 2012-2016",
+    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": false,

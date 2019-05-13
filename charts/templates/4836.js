@@ -17,12 +17,14 @@
         	}
     	},
     	"yAxis": {
+    	    tickAmount: 5,
     		"labels": {
                 "formatter": function(){
                     return Highcharts.numberFormat((this.value), 0, ".", " ");                
                 }
             }		
         },
+       
         "tooltip": {
             "formatter": function(args){
                 var this_point_index = this.series.data.indexOf(this.point);

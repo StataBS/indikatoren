@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          4462.0400684
+          4335.4490206
         ],
         [
           "Kleinhüningen",
-          4908.5997514
-        ],
-        [
-          "Clara",
-          6127.2649713
-        ],
-        [
-          "Matthäus",
-          6313.3239063
+          5027.181357
         ],
         [
           "Iselin",
-          6316.4219119
+          6251.5611288
         ],
         [
-          "Rosental",
-          6401.2032932
+          "Clara",
+          6362.7900621
+        ],
+        [
+          "Matthäus",
+          6536.4357864
         ],
         [
           "St. Johann",
-          6584.1510923
+          6657.9447
+        ],
+        [
+          "Rosental",
+          6933.7445733
         ],
         [
           "Gundeldingen",
-          7236.5977818
+          7375.8589699
         ],
         [
           "Breite",
-          7288.0944151
+          7393.6547428
         ],
         [
           "Hirzbrunnen",
-          7527.794101
+          7795.1969134
         ],
         [
           "Gotthelf",
-          8647.5237414
+          8627.8316339
         ],
         [
           "Altstadt Kleinbasel",
-          8736.081864
+          9082.149938
         ],
         [
           "Wettstein",
-          10771.600289
+          11237.065478
         ],
         [
           "Am Ring",
-          11315.365443
+          11445.527517
         ],
         [
           "Bachletten",
-          11394.452909
+          11819.752941
         ],
         [
           "Riehen",
-          13428.811448
+          13499.917164
         ],
         [
           "St. Alban",
-          16187.932598
-        ],
-        [
-          "Vorstädte",
-          16404.67856
+          16688.864751
         ],
         [
           "Altstadt Grossbasel",
-          16657.376716
+          16990.146778
         ],
         [
-          "Bettingen",
-          19464.664013
+          "Vorstädte",
+          17096.20668
         ],
         [
           "Bruderholz",
-          19693.706779
+          22172.442991
+        ],
+        [
+          "Bettingen",
+          22686.809221
         ]
       ],
       "name": "Einkommenssteuer pro Veranlagung",
@@ -103,23 +103,23 @@
           2
         ],
         [
-          "Clara",
+          "Iselin",
           3
         ],
         [
-          "Matthäus",
+          "Clara",
           4
         ],
         [
-          "Iselin",
+          "Matthäus",
           5
         ],
         [
-          "Rosental",
+          "St. Johann",
           6
         ],
         [
-          "St. Johann",
+          "Rosental",
           7
         ],
         [
@@ -163,19 +163,19 @@
           17
         ],
         [
-          "Vorstädte",
+          "Altstadt Grossbasel",
           18
         ],
         [
-          "Altstadt Grossbasel",
+          "Vorstädte",
           19
         ],
         [
-          "Bettingen",
+          "Bruderholz",
           20
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2015",
+    "text": "Basel-Stadt, Steuerjahr 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -287,7 +287,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 0
+    "min": 0,
+    "tickAmount": 5
   },
   "credits": {
     "enabled": true,
@@ -302,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": false,

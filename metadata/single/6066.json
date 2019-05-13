@@ -1,5 +1,5 @@
 {"title":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
-"subtitle":"Basel-Stadt, 2017",
+"subtitle":"Basel-Stadt, 2018",
 "kuerzel":"I.01.1.6066",
 "kuerzelKunde":"A2-4",
 "description":"Bevölkerungspyramide der Schweizerinnen und Schweizer",
@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-05-10T16:00:35.3535",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"2017 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1998, der Anteil der Kinder und Jugendlichen hat zugenommen.",
+"lesehilfe":"2018 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1999, der Anteil der Kinder und Jugendlichen hat zugenommen.",
 "erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 "template":"populationPyramid001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6651"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6066, 
+"chart-id":6066, 
+"filter":""
 }

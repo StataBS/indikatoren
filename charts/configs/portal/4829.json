@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.1441937259
+          0.1532481954
         ],
         [
           "Altstadt Kleinbasel",
-          0.1516203704
+          0.1579257513
         ],
         [
           "Vorstädte",
-          0.1730710114
+          0.174382716
         ],
         [
           "Clara",
-          0.1859778598
+          0.1988700565
         ],
         [
           "Gundeldingen",
-          0.2041464891
+          0.203671395
         ],
         [
           "Wettstein",
-          0.2148512149
+          0.2129329004
         ],
         [
           "Matthäus",
-          0.2177008262
-        ],
-        [
-          "Am Ring",
-          0.2188357648
+          0.2172171281
         ],
         [
           "Breite",
-          0.2245077356
+          0.2187877741
+        ],
+        [
+          "Am Ring",
+          0.2256192498
         ],
         [
           "St. Johann",
-          0.2510901451
+          0.2524217882
         ],
         [
           "Gotthelf",
-          0.2551612155
+          0.2605976372
         ],
         [
           "Iselin",
-          0.2591496233
+          0.2615466762
         ],
         [
           "Rosental",
-          0.273015873
+          0.2710585356
         ],
         [
           "Klybeck",
-          0.2918384171
-        ],
-        [
-          "St. Alban",
-          0.2924216165
+          0.2863878639
         ],
         [
           "Bachletten",
-          0.2947692308
+          0.2959608323
         ],
         [
-          "Bettingen",
-          0.3115942029
+          "St. Alban",
+          0.3003165988
         ],
         [
           "Kleinhüningen",
-          0.3186689227
+          0.3216506501
+        ],
+        [
+          "Bettingen",
+          0.3386627907
         ],
         [
           "Hirzbrunnen",
-          0.3412232532
+          0.3500850179
         ],
         [
           "Riehen",
-          0.3726427392
+          0.377706565
         ],
         [
           "Bruderholz",
-          0.3859992178
+          0.38621087
         ]
       ],
       "name": "Jugendquotient",
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Am Ring",
+          "Breite",
           8
         ],
         [
-          "Breite",
+          "Am Ring",
           9
         ],
         [
@@ -151,19 +151,19 @@
           14
         ],
         [
-          "St. Alban",
+          "Bachletten",
           15
         ],
         [
-          "Bachletten",
+          "St. Alban",
           16
         ],
         [
-          "Bettingen",
+          "Kleinhüningen",
           17
         ],
         [
-          "Kleinhüningen",
+          "Bettingen",
           18
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": false,

@@ -39,13 +39,16 @@ global Highcharts
             borderWidth: 0
         }
     },
+ tooltip: {
+        shared: true
+    },
   "series": [
     {
       "index": 0,
       color: "#661200",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       }   
     },
@@ -54,8 +57,8 @@ global Highcharts
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
-        }
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+        },
       }
     },
         {
@@ -63,7 +66,7 @@ global Highcharts
       color: "#dc440e",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       }   
       
@@ -73,7 +76,7 @@ global Highcharts
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       }
     },
@@ -82,7 +85,7 @@ global Highcharts
       color: "#7f5f1a",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       }   
     },
@@ -91,7 +94,7 @@ global Highcharts
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       }
     },
@@ -100,7 +103,7 @@ global Highcharts
       color: "#ffda80",
        "tooltip": {
         "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y),1) + '%</b><br/>';
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       }   
     },
@@ -109,12 +112,12 @@ global Highcharts
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100 * this.high),1) + '%</b><br/>';
+         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       }
     },
     
-  ],  
+  ],   
   "xAxis": {
     "type": "category"    
   },

@@ -45,6 +45,10 @@
         [
           2017,
           33.5
+        ],
+        [
+          2018,
+          35.9
         ]
       ],
       "name": "Männer"
@@ -94,6 +98,10 @@
         [
           2017,
           21.4
+        ],
+        [
+          2018,
+          28.4
         ]
       ],
       "name": "Frauen"
@@ -194,7 +202,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "enabled": true,

@@ -5,7 +5,7 @@
       "color": "#661200",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
+          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       },
       "data": [
@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2012-2016",
-          0.752
+          "2013-2017",
+          0.756
         ]
       ],
       "name": "Schweizer",
@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -45,12 +45,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.741,
-          "high": 0.763
+          "name": "2013-2017",
+          "low": 0.744,
+          "high": 0.767
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -58,7 +58,7 @@
       "color": "#dc440e",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       },
       "data": [
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2012-2016",
-          0.73
+          "2013-2017",
+          0.735
         ]
       ],
       "name": "Schweizerinnen",
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -98,12 +98,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.719,
-          "high": 0.741
+          "name": "2013-2017",
+          "low": 0.724,
+          "high": 0.746
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -111,7 +111,7 @@
       "color": "#7f5f1a",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
+         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       },
       "data": [
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2012-2016",
+          "2013-2017",
           0.768
         ]
       ],
@@ -136,7 +136,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -151,12 +151,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.754,
+          "name": "2013-2017",
+          "low": 0.755,
           "high": 0.782
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -164,7 +164,7 @@
       "color": "#ffda80",
       "tooltip": {
         "pointFormatter": function (){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b><br/>';
+          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
         }
       },
       "data": [
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2012-2016",
-          0.66
+          "2013-2017",
+          0.673
         ]
       ],
       "name": "Ausländerinnen",
@@ -189,7 +189,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function (){
-          return this.series.name + ': <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b><br/>';
+         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
         }
       },
       "data": [
@@ -204,12 +204,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.644,
-          "high": 0.675
+          "name": "2013-2017",
+          "low": 0.658,
+          "high": 0.689
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -336,7 +336,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,
@@ -348,6 +348,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
+  },
+  "tooltip": {
+    "shared": true
   },
   "exporting": {
     "filename": 6415

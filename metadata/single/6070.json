@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-05-10T16:02:00.000",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"1998 war der Anteil der Ausländer an der Gesamtbevölkerung bei den Kindern und Jugendlichen am höchsten. Mehr als 40% der bis 6-Jährigen sowie der 17- und 18-Jährigen waren ausländische Staatsangehörige. Bei den 7- bis 16-Jährigen lag der Ausländeranteil zwischen 33% und 39%. In den Altersgruppen der 19-Jährigen und Älteren sank der Ausländeranteil tendenziell. 2007 wurden die höchsten Ausländeranteile später, nämlich bei den 29- bis 34-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2017 akzentuierte sich diese Entwicklung, am höchsten sind die Ausländeranteile nun bei den 32- bis 44-Jährigen (>50% Ausländer am Total der Altersgruppe).",
+"lesehilfe":"1999 war der Anteil der Ausländer an der Gesamtbevölkerung bei den Kindern und Jugendlichen am höchsten. Mehr als 40% der bis 5-Jährigen waren ausländische Staatsangehörige. In den höheren Altersgruppen sank der Ausländeranteil tendenziell. 2008 wurden die höchsten Ausländeranteile später, nämlich bei den 29- bis 35-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2018 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 31- bis 44-Jährigen (>50% Ausländer am Total der Altersgruppe).",
 "erlaeuterungen":"",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6655"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6070, 
+"chart-id":6070, 
+"filter":""
 }

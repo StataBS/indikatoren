@@ -6,11 +6,11 @@
       "data": [
         [
           "Matthäus",
-          6.22
+          6.27
         ],
         [
           "Altstadt Kleinbasel",
-          8.14
+          8.21
         ],
         [
           "Clara",
@@ -18,75 +18,75 @@
         ],
         [
           "Altstadt Grossbasel",
-          9.8
+          9.76
         ],
         [
           "Gundeldingen",
-          10.9
+          10.91
         ],
         [
           "Rosental",
-          13.03
+          12.97
         ],
         [
           "Klybeck",
-          15.13
+          15.14
         ],
         [
           "Am Ring",
-          20.09
+          20.06
         ],
         [
           "Gotthelf",
-          22.89
+          22.64
         ],
         [
           "Iselin",
-          23.93
+          23.64
         ],
         [
           "Breite",
-          27.71
+          27.47
         ],
         [
           "St. Johann",
-          34.24
+          34.28
         ],
         [
           "Vorstädte",
-          35.02
+          35.03
         ],
         [
           "Wettstein",
-          38.08
+          37.96
         ],
         [
           "Bachletten",
-          46.71
+          46.68
         ],
         [
           "St. Alban",
-          86.01
+          83.99
         ],
         [
           "Kleinhüningen",
-          107.73
+          106.6
         ],
         [
           "Hirzbrunnen",
-          196.26
+          195.75
         ],
         [
           "Bruderholz",
-          199.99
+          197.4
         ],
         [
           "Riehen",
-          404.98
+          403.17
         ],
         [
           "Bettingen",
-          1686.65
+          1655.53
         ]
       ],
       "name": "Grünfläche",
@@ -174,7 +174,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, 2017",
+    "text": "Basel-Stadt, in m\u003Csup\u003E2\u003C\u002Fsup\u003E, 2018",
     "align": "left",
     "useHTML": true
   },
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,

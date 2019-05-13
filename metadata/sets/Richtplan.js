@@ -310,8 +310,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bruttogeschossfläche Wohnen nach Wohnviertel",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.1.05818",
+		"subtitle": "in Quadratmetern, 2015",
+		"kuerzel": "I.09.1.5818",
 		"kuerzelKunde": "ST 4-10",
 		"description": "Bruttogeschossfläche Wohnen nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -320,7 +320,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-10-27T00:00:00.000",
+		"aktualisierungsdatum": "2019-05-10T16:06:37.3737",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -329,6 +329,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die stärkste Zunahme der für Wohnen genutzten Bruttogeschossfläche (BGF) von 1995 bis 2015 ergab sich - neben der Gemeinde Riehen - dank der Überbauung des Erlenmattareals im Wohnviertel Rosental. Nach Riehen weisen die Wohnviertel Gundeldingen und St. Johann im Jahr 2015 die höchsten Werte der BGF Wohnen auf.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.",
 		"template": "mappie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_010",
 		"parentId": null,
 		"children": [
@@ -338,11 +340,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5818,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5818,
+		"chart-id": 5818,
+		"filter": "",
+		"id": 5818
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -499,8 +504,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
-		"subtitle": "in Quadratmetern",
-		"kuerzel": "I.09.1.05825",
+		"subtitle": "in Quadratmetern, 2015",
+		"kuerzel": "I.09.1.5825",
 		"kuerzelKunde": "ST 7-3",
 		"description": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
@@ -509,7 +514,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-04T18:50:03.033",
+		"aktualisierungsdatum": "2019-05-10T16:07:22.2222",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
@@ -518,6 +523,8 @@ var indikatorensetData = [
 		"lesehilfe": "Die meiste für Arbeiten genutzte Bruttogeschossfläche (BGF) findet man 2015 in den Wohnvierteln St. Alban und St. Johann. Während das Wohnviertel St. Johann einen Rückgang der BGF Arbeiten seit 1995 verzeichnete, weist das St. Alban-Quartier den stärksten Zuwachs aus.",
 		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche werden fünfjährlich aktualisiert, letztmals 2015.<br> Der Rückgang im Wohnviertel St. Johann geht mit einer gleichzeitigen Zunahme der BGF Wohnen einher. Grund dafür waren Neubau-Projekte wie Volta West, Volta Mitte und Volta Zentrum sowie Umnutzungen generell.",
 		"template": "mappie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
@@ -527,11 +534,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Planungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5825,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5825,
+		"chart-id": 5825,
+		"filter": "",
+		"id": 5825
 	},
 	{
 		"title": "Kontinentale Erreichbarkeit",
