@@ -1,5 +1,5 @@
 {"title":"Bevölkerungspyramide der Ausländerinnen und Ausländer",
-"subtitle":"Basel-Stadt, 2017",
+"subtitle":"Basel-Stadt, 2018",
 "kuerzel":"I.01.1.6067",
 "kuerzelKunde":"A2-5",
 "description":"Bevölkerungspyramide der Ausländerinnen und Ausländer",
@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-05-10T16:00:50.5050",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 war bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
+"lesehilfe":"Im Jahr 2018 ist bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
 "erlaeuterungen":"Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 "template":"populationPyramid001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6652"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6067, 
+"chart-id":6067, 
+"filter":""
 }

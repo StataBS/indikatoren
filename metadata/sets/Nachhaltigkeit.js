@@ -1150,8 +1150,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Grünfläche pro Kopf nach Wohnviertel",
-		"subtitle": "in m<sup>2</sup>, 2017",
-		"kuerzel": "I.02.1.05198",
+		"subtitle": "Basel-Stadt, in m<sup>2</sup>, 2018",
+		"kuerzel": "I.02.1.5198",
 		"kuerzelKunde": "GW20",
 		"description": "Grünfläche pro Kopf nach Wohnviertel",
 		"thema": "02 Raum, Umwelt",
@@ -1160,15 +1160,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.0000",
+		"aktualisierungsdatum": "2019-05-10T13:49:07.077",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (200 m<sup>2</sup>) und in den Landgemeinden Riehen (405 m<sup>2</sup>) und Bettingen (1 687 m<sup>2</sup>).",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (197 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 656 m<sup>2</sup>).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_06_00_00_00_320",
 		"parentId": null,
 		"children": [],
@@ -1177,11 +1179,14 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5198,
-		"darstellungsart": "Grafik"
+		"data-id": 5198,
+		"chart-id": 5198,
+		"filter": "",
+		"id": 5198
 	},
 	{
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
@@ -2483,14 +2488,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-24T09:58:42.4242",
+		"aktualisierungsdatum": "2019-05-10T15:58:11.1111",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2017 bei den Männern etwa 33%, bei den Frauen rund 21%.",
-		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2018 bei den Männern etwa 36%, bei den Frauen rund 28%.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2501,9 +2506,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6435,
+		"chart-id": 6435,
+		"filter": "",
 		"id": 6435
 	},
 	{

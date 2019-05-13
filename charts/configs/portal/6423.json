@@ -6,27 +6,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          3842
+          3893
         ],
         [
           "Unteres Fachkader",
-          67
+          69
         ],
         [
           "Unteres Kader",
-          183
+          174
         ],
         [
           "Mittleres Fachkader",
-          101
+          102
         ],
         [
           "Mittleres Kader",
-          196
+          201
         ],
         [
           "Oberes Kader",
-          122
+          118
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          1444
+          1463
         ],
         [
           "Unteres Fachkader",
-          46
+          42
         ],
         [
           "Unteres Kader",
-          119
+          112
         ],
         [
           "Mittleres Fachkader",
-          45
+          47
         ],
         [
           "Mittleres Kader",
-          110
+          117
         ],
         [
           "Oberes Kader",
-          76
+          72
         ]
       ],
       "name": "Schweizer",
@@ -70,23 +70,23 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          2398
+          2430
         ],
         [
           "Unteres Fachkader",
-          21
+          27
         ],
         [
           "Unteres Kader",
-          64
+          62
         ],
         [
           "Mittleres Fachkader",
-          56
+          55
         ],
         [
           "Mittleres Kader",
-          86
+          84
         ],
         [
           "Oberes Kader",
@@ -102,11 +102,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          683
+          689
         ],
         [
           "Unteres Fachkader",
-          7
+          8
         ],
         [
           "Unteres Kader",
@@ -114,15 +114,15 @@
         ],
         [
           "Mittleres Fachkader",
-          13
+          11
         ],
         [
           "Mittleres Kader",
-          13
+          15
         ],
         [
           "Oberes Kader",
-          5
+          7
         ]
       ],
       "name": "Ausland",
@@ -134,11 +134,11 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          268
+          266
         ],
         [
           "Unteres Fachkader",
-          2
+          3
         ],
         [
           "Unteres Kader",
@@ -150,11 +150,11 @@
         ],
         [
           "Mittleres Kader",
-          9
+          8
         ],
         [
           "Oberes Kader",
-          2
+          3
         ]
       ],
       "name": "Ausländer",
@@ -166,7 +166,7 @@
       "data": [
         [
           "Ohne Kaderfunktion",
-          415
+          423
         ],
         [
           "Unteres Fachkader",
@@ -178,15 +178,15 @@
         ],
         [
           "Mittleres Fachkader",
-          8
+          6
         ],
         [
           "Mittleres Kader",
-          4
+          7
         ],
         [
           "Oberes Kader",
-          3
+          4
         ]
       ],
       "name": "Ausländerinnen",
@@ -244,7 +244,7 @@
     },
     "type": "column",
     "inverted": true,
-    "spacingBottom": 70,
+    "spacingBottom": 60,
     "renderTo": "container-6423"
   },
   "plotOptions": {
@@ -275,7 +275,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2017",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -313,9 +313,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,

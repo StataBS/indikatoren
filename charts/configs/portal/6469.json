@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          48972
+          49666
         ],
         [
           "Deutschland",
-          64369
+          67062
         ],
         [
           "Italien",
-          46458
+          48004
         ],
         [
           "Türkei",
-          37714
+          37794
         ],
         [
           "EU-17 + EFTA",
-          54774
+          57274
         ],
         [
           "EU-Ost",
-          32395
+          32107
         ],
         [
           "Balkan",
-          43854
+          44211
         ],
         [
           "Mittel- und Südamerika",
-          32450
+          31064
         ],
         [
           "Arabische Länder",
-          33799
+          34743
         ],
         [
           "Afrikanische Länder",
-          33480
+          37545
         ],
         [
           "Übrige Länder",
-          43152
+          47131
         ]
       ],
-      "name": "Median 2006",
+      "name": "Median 2007",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          48429
+          48486
         ],
         [
           "Deutschland",
-          71043
+          71728
         ],
         [
           "Italien",
-          46799
+          45979
         ],
         [
           "Türkei",
-          30754
+          29856
         ],
         [
           "EU-17 + EFTA",
-          65555
+          66071
         ],
         [
           "EU-Ost",
-          49979
+          52773
         ],
         [
           "Balkan",
-          40684
+          40230
         ],
         [
           "Mittel- und Südamerika",
-          36317
+          36075
         ],
         [
           "Arabische Länder",
-          23460
+          24328
         ],
         [
           "Afrikanische Länder",
-          21599
+          23959
         ],
         [
           "Übrige Länder",
-          67497
+          70580
         ]
       ],
-      "name": "Median 2015",
+      "name": "Median 2016",
       "turboThreshold": 0
     }
   ],
@@ -227,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,

@@ -6,31 +6,31 @@
       "data": [
         [
           "Schweiz",
-          45.1
+          45.8
         ],
         [
           "Deutschland",
-          14.8
+          15
         ],
         [
           "Italien",
-          10.4
+          12.1
         ],
         [
           "Türkei",
-          1.3
+          1.4
         ],
         [
           "EU-17 + EFTA",
-          6.4
+          6.8
         ],
         [
           "EU-Ost",
-          5.3
+          5.2
         ],
         [
           "Balkan",
-          1.9
+          2.2
         ],
         [
           "Mittel- und Südamerika",
@@ -38,18 +38,18 @@
         ],
         [
           "Arabische Länder",
-          1.4
+          1.9
         ],
         [
           "Afrikanische Länder",
-          0.2
+          0.4
         ],
         [
           "Übrige Länder",
-          4
+          3.5
         ]
       ],
-      "name": "1998",
+      "name": "1999",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          45.4
+          45.3
         ],
         [
           "Deutschland",
-          8.3
+          8.2
         ],
         [
           "Italien",
-          32.7
+          32.2
         ],
         [
           "Türkei",
-          11.7
+          13.2
         ],
         [
           "EU-17 + EFTA",
-          8.7
+          8.8
         ],
         [
           "EU-Ost",
-          2.6
+          2.7
         ],
         [
           "Balkan",
-          11.6
+          13
         ],
         [
           "Mittel- und Südamerika",
-          2.4
+          2.6
         ],
         [
           "Arabische Länder",
-          2.9
+          3.2
         ],
         [
           "Afrikanische Länder",
-          1.1
+          1.4
         ],
         [
           "Übrige Länder",
-          3.3
+          3.4
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -227,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
   },
   "legend": {
     "symbolRadius": 0,

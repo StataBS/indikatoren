@@ -8,13 +8,13 @@
 "unterthema":"Geburten und Todesfälle",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-05-10T16:02:15.1515",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Ende 2017 wiesen Italien (28,0%), die Türkei (26,8%) und der Balkan (26,0%) die höchsten Anteile in der Schweiz Geborener auf. Bei den Italienern ist der Anteil der in der Schweiz Geborenen im Vergleich zum Ende der 1990er-Jahren zurückgegangen, bei den Türken stabil geblieben und bei den Personen aus dem Balkan gestiegen. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2017 Personen aus den EU-Ost-Ländern (7,0%) sowie aus Mittel- und Südamerika (6,7%) auf.",
+"lesehilfe":"Ende 2018 wiesen Italien (27,3%), die Türkei (26,5%) und der Balkan (25,9%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 1999 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2018 Personen aus den EU-Ost-Ländern (7,8%) sowie aus Mittel- und Südamerika (6,3%) auf.",
 "erlaeuterungen":"",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6660"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6075, 
+"chart-id":6075, 
+"filter":""
 }

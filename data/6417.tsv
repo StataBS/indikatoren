@@ -1,7 +1,7 @@
-﻿"Alter"	"Schweizer"	"Schweizer 95% Vertrauensintervall"	"Schweizer 95% Vertrauensintervall Obergrenze"	"Schweizerinnen"	"Schweizerinnen 95% Vertrauensintervall"	"Schweizerinnen 95% Vertrauensintervall Obergrenze"	"Ausländer"	"Ausländer 95% Vertrauensintervall"	"Ausländer 95% Vertrauensintervall Obergrenze"	"Ausländerinnen"	"Ausländerinnen 95% Vertrauensintervall"	"Ausländerinnen 95% Vertrauensintervall Obergrenze"
-"15-24 Jahre"	0.443	0.411	0.475	0.504	0.471	0.537	0.486	0.431	0.540	0.418	0.364	0.472
-"25-34 Jahre"	0.850	0.829	0.872	0.839	0.820	0.858	0.860	0.838	0.883	0.734	0.707	0.761
-"35-44 Jahre"	0.878	0.858	0.898	0.835	0.813	0.856	0.847	0.825	0.869	0.729	0.702	0.756
-"45-54 Jahre"	0.845	0.825	0.864	0.816	0.797	0.835	0.808	0.781	0.834	0.689	0.655	0.723
-"55-64 Jahre"	0.699	0.674	0.723	0.622	0.599	0.646	0.549	0.507	0.592	0.455	0.406	0.504
+﻿"Alter"	"Schweizer"	"Schweizer 95% Vertrauensintervall Untergrenze"	"Schweizer 95% Vertrauensintervall Obergrenze"	"Schweizerinnen"	"Schweizerinnen 95% Vertrauensintervall Untergrenze"	"Schweizerinnen 95% Vertrauensintervall Obergrenze"	"Ausländer"	"Ausländer 95% Vertrauensintervall Untergrenze"	"Ausländer 95% Vertrauensintervall Obergrenze"	"Ausländerinnen"	"Ausländerinnen 95% Vertrauensintervall Untergrenze"	"Ausländerinnen 95% Vertrauensintervall Obergrenze"
+"15-24 Jahre"	0.454	0.421	0.488	0.509	0.476	0.542	0.473	0.418	0.528	0.413	0.360	0.467
+"25-34 Jahre"	0.861	0.840	0.881	0.837	0.818	0.857	0.848	0.825	0.871	0.748	0.722	0.774
+"35-44 Jahre"	0.864	0.843	0.886	0.846	0.825	0.867	0.853	0.831	0.874	0.743	0.716	0.769
+"45-54 Jahre"	0.846	0.827	0.866	0.821	0.801	0.840	0.815	0.789	0.842	0.694	0.660	0.728
+"55-64 Jahre"	0.703	0.679	0.728	0.627	0.603	0.651	0.569	0.528	0.611	0.493	0.444	0.541
 

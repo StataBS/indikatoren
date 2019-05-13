@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-05-10T16:01:13.1313",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"2017 liegt der Jugendquotient der Schweizer bei 28,0. Deutlich höhere Jugendquotienten ergeben sich 2017 für Personen aus arabischen (43,8) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (32,2) und der Türkei (29,5). Die niedrigsten Jugendquotienten weisen Mittel- und Südamerikaner und Deutsche sowie Personen aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1998 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
+"lesehilfe":"2018 liegt der Jugendquotient der Schweizer bei 28,4. Deutlich höhere Jugendquotienten ergeben sich 2018 für Personen aus arabischen (43,0) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (31,3). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland  sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1999 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
 "erlaeuterungen":"Jugendquotient: Anzahl maximal 19-Jähriger pro 100 20- bis 64-Jährige.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6653"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6068, 
+"chart-id":6068, 
+"filter":""
 }
