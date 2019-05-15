@@ -1160,14 +1160,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T13:49:07.077",
+		"aktualisierungsdatum": "2019-05-14T09:37:32.3232",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dicht bewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Hirzbrunnen (196 m<sup>2</sup>), Bruderholz (197 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 656 m<sup>2</sup>).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

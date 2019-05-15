@@ -115,7 +115,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
+    "text": "Wohnungen nach Zimmerzahl"
   },
   "subtitle": {
     "style": {
@@ -124,7 +124,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kanton Basel-Stadt, 2017",
+    "text": "Kanton Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -160,7 +160,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-13"
   },
   "legend": {
     "symbolRadius": 0,
