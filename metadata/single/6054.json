@@ -1,6 +1,6 @@
 {"title":"Mittelwert und Median des Reineinkommens",
-"subtitle":"in Franken, Basel-Stadt",
-"kuerzel":"I.18.2.6054",
+"subtitle":"Basel-Stadt, in Franken",
+"kuerzel":"I.18.2.06054",
 "kuerzelKunde":"WE10",
 "description":"Mittelwert und Median des Reineinkommens",
 "id":6054,
@@ -8,7 +8,7 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-24T09:55:23.2323",
+"aktualisierungsdatum":"2019-05-17T09:41:16.1616",
 "stufe1":"Bereich Wirtschaftliche Entfaltung",
 "stufe2":"Erwerbsarbeit",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6054, 
+"chart-id":6054, 
+"filter":""
 }

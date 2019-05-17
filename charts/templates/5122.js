@@ -24,12 +24,15 @@
         },    	
 		"legend": {
 			"title": {
-				"text": "in tausend Franken"
+				"text": "in 1000 Fr."
 			}
 		},
 		"colorAxis": {
-			"minColor": "#eff4f4",
-			"maxColor": "#4f6e75",
+			min: 0,
+			max: 80000,
+			tickInterval: 20000,
+			"minColor": "#E7CEE2",
+			"maxColor": "#2E1435",
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value / 1000), 0); 

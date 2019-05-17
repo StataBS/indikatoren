@@ -1,4 +1,4 @@
-"Jahr"	"Schweiz"	"Deutschland"	"Italien"	"Türkei"	"EU-17 + EFTA"	"EU-Ost"	"Balkan"	"Mittel- und Südamerika"	"Arabische Länder"	"Afrikanische Länder"	"Übrige Länder"	"Staat unbekannt"
+﻿"Jahr"	"Schweiz"	"Deutschland"	"Italien"	"Türkei"	"EU-17 + EFTA"	"EU-Ost"	"Balkan"	"Mittel- und Südamerika"	"Arabische Länder"	"Afrikanische Länder"	"Übrige Länder"	"Staat unbekannt"
 "2001"	4840	111	502	1196	380	62	729	155	124	129	247	398
 "2002"	5015	120	464	1210	377	66	810	201	147	139	262	433
 "2003"	5669	168	535	1417	504	70	1040	227	174	190	310	318
@@ -17,4 +17,5 @@
 "2016"	5778	390	496	1327	672	326	942	310	888	925	779	33
 "."	""	""	""	""	""	""	""	""	""	""	""	""
 "2017"	6163	466	515	1322	695	368	988	284	960	953	853	32
+"2018"	6023	451	490	1241	688	364	969	293	964	987	888	31
 

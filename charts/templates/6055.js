@@ -25,15 +25,19 @@
     }, /* rot */
     {
 		"color": "#662673",
-    	"legendIndex": 4
+    	"legendIndex": 2
     }, /* violett */
     {
 		"color": "#008AC3",
-    	"legendIndex": 2
+    	"legendIndex": 3
     }, /* blau */
     {
+    	"color": "#FABD24", 
+    	"legendIndex": 4
+    }, /* gelb */
+        {
     	"color": "#007A2F", 
-    	"legendIndex": 3
+    	"legendIndex": 5
     }, /* grün */
   ],
    "legend": {

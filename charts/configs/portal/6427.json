@@ -70,6 +70,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Schweiz (Stadt)"
@@ -77,9 +81,6 @@
     {
       "color": "#b00000",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -148,6 +149,10 @@
         [
           2017,
           4.84
+        ],
+        [
+          2018,
+          4.73
         ]
       ],
       "name": "Schweiz (Kanton)"
@@ -222,6 +227,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Deutschland (Stadt)"
@@ -229,9 +238,6 @@
     {
       "color": "#672773",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -300,6 +306,10 @@
         [
           2017,
           2.88
+        ],
+        [
+          2018,
+          2.74
         ]
       ],
       "name": "Deutschland (Kanton)"
@@ -374,6 +384,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Italien (Stadt)"
@@ -381,9 +395,6 @@
     {
       "color": "#007a2f",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -452,6 +463,10 @@
         [
           2017,
           6.05
+        ],
+        [
+          2018,
+          5.66
         ]
       ],
       "name": "Italien (Kanton)"
@@ -526,6 +541,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Türkei (Stadt)"
@@ -533,9 +552,6 @@
     {
       "color": "#fabd24",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -604,6 +620,10 @@
         [
           2017,
           21.01
+        ],
+        [
+          2018,
+          20.04
         ]
       ],
       "name": "Türkei (Kanton)"
@@ -678,6 +698,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "EU-17 + EFTA  (Stadt)"
@@ -685,9 +709,6 @@
     {
       "color": "#b475ab",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -756,6 +777,10 @@
         [
           2017,
           4.5
+        ],
+        [
+          2018,
+          4.34
         ]
       ],
       "name": "EU-17 + EFTA (Kanton)"
@@ -830,6 +855,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "EU-Ost (Stadt)"
@@ -837,9 +866,6 @@
     {
       "color": "#71a3b5",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -908,6 +934,10 @@
         [
           2017,
           9.34
+        ],
+        [
+          2018,
+          8.76
         ]
       ],
       "name": "EU-Ost (Kanton)"
@@ -982,6 +1012,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Balkan (Stadt)"
@@ -989,9 +1023,6 @@
     {
       "color": "#b9cfd7",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -1060,6 +1091,10 @@
         [
           2017,
           12.08
+        ],
+        [
+          2018,
+          11.92
         ]
       ],
       "name": "Balkan (Kanton)"
@@ -1134,6 +1169,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Mittel- und Südamerika (Stadt)"
@@ -1141,9 +1180,6 @@
     {
       "color": "#ff8028",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -1212,6 +1248,10 @@
         [
           2017,
           16.81
+        ],
+        [
+          2018,
+          16.7
         ]
       ],
       "name": "Mittel- und Südamerika (Kanton)"
@@ -1286,6 +1326,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Arabische Länder (Stadt)"
@@ -1293,9 +1337,6 @@
     {
       "color": "#73ba7c",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -1364,6 +1405,10 @@
         [
           2017,
           63.16
+        ],
+        [
+          2018,
+          61.05
         ]
       ],
       "name": "Arabische Länder (Kanton)"
@@ -1438,6 +1483,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Afrikanische Länder (Stadt)"
@@ -1445,9 +1494,6 @@
     {
       "color": "#9f7c5a",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -1516,6 +1562,10 @@
         [
           2017,
           54.46
+        ],
+        [
+          2018,
+          53.38
         ]
       ],
       "name": "Afrikanische Länder (Kanton)"
@@ -1590,6 +1640,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Übrige Länder (Stadt)"
@@ -1597,9 +1651,6 @@
     {
       "color": "#999999",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2001,
@@ -1668,6 +1719,10 @@
         [
           2017,
           10.53
+        ],
+        [
+          2018,
+          10.68
         ]
       ],
       "name": "Übrige Länder (Kanton)"
@@ -1718,7 +1773,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
     "align": "left"
   },
   "tooltip": {
@@ -1770,7 +1825,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
   },
   "legend": {
     "enabled": true,

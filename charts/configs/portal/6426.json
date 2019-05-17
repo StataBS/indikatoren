@@ -76,6 +76,10 @@
         [
           "2017",
           6163
+        ],
+        [
+          "2018",
+          6023
         ]
       ],
       "name": "Schweiz",
@@ -157,6 +161,10 @@
         [
           "2017",
           466
+        ],
+        [
+          "2018",
+          451
         ]
       ],
       "name": "Deutschland",
@@ -238,6 +246,10 @@
         [
           "2017",
           515
+        ],
+        [
+          "2018",
+          490
         ]
       ],
       "name": "Italien",
@@ -319,6 +331,10 @@
         [
           "2017",
           1322
+        ],
+        [
+          "2018",
+          1241
         ]
       ],
       "name": "Türkei",
@@ -400,6 +416,10 @@
         [
           "2017",
           695
+        ],
+        [
+          "2018",
+          688
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -481,6 +501,10 @@
         [
           "2017",
           368
+        ],
+        [
+          "2018",
+          364
         ]
       ],
       "name": "EU-Ost",
@@ -562,6 +586,10 @@
         [
           "2017",
           988
+        ],
+        [
+          "2018",
+          969
         ]
       ],
       "name": "Balkan",
@@ -643,6 +671,10 @@
         [
           "2017",
           284
+        ],
+        [
+          "2018",
+          293
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -724,6 +756,10 @@
         [
           "2017",
           960
+        ],
+        [
+          "2018",
+          964
         ]
       ],
       "name": "Arabische Länder",
@@ -805,6 +841,10 @@
         [
           "2017",
           953
+        ],
+        [
+          "2018",
+          987
         ]
       ],
       "name": "Afrikanische Länder",
@@ -886,6 +926,10 @@
         [
           "2017",
           853
+        ],
+        [
+          "2018",
+          888
         ]
       ],
       "name": "Übrige Länder",
@@ -975,7 +1019,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
     "align": "left"
   },
   "yAxis": {
@@ -1015,7 +1059,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-15"
   },
   "legend": {
     "symbolRadius": 0,
