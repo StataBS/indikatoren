@@ -1,0 +1,396 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "0 bis 19 J.",
+          10995
+        ],
+        [
+          "20 bis 39 J.",
+          11591
+        ],
+        [
+          "40 bis 59 J.",
+          14207
+        ],
+        [
+          "60 bis 79 J.",
+          19127
+        ],
+        [
+          "80 J. u.m.",
+          7793
+        ],
+        [
+          "Total",
+          63713
+        ]
+      ],
+      "name": "nach Hause",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "0 bis 19 J.",
+          561
+        ],
+        [
+          "20 bis 39 J.",
+          179
+        ],
+        [
+          "40 bis 59 J.",
+          281
+        ],
+        [
+          "60 bis 79 J.",
+          1380
+        ],
+        [
+          "80 J. u.m.",
+          2379
+        ],
+        [
+          "Total",
+          4780
+        ]
+      ],
+      "name": "Akutspital",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "0 bis 19 J.",
+          33
+        ],
+        [
+          "20 bis 39 J.",
+          161
+        ],
+        [
+          "40 bis 59 J.",
+          254
+        ],
+        [
+          "60 bis 79 J.",
+          158
+        ],
+        [
+          "80 J. u.m.",
+          54
+        ],
+        [
+          "Total",
+          660
+        ]
+      ],
+      "name": "Psychiatrische Klinik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "0 bis 19 J.",
+          31
+        ],
+        [
+          "20 bis 39 J.",
+          115
+        ],
+        [
+          "40 bis 59 J.",
+          641
+        ],
+        [
+          "60 bis 79 J.",
+          2825
+        ],
+        [
+          "80 J. u.m.",
+          2722
+        ],
+        [
+          "Total",
+          6334
+        ]
+      ],
+      "name": "Rehabilitationsklinik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "data": [
+        [
+          "0 bis 19 J.",
+          30
+        ],
+        [
+          "20 bis 39 J.",
+          146
+        ],
+        [
+          "40 bis 59 J.",
+          314
+        ],
+        [
+          "60 bis 79 J.",
+          810
+        ],
+        [
+          "80 J. u.m.",
+          1864
+        ],
+        [
+          "Total",
+          3164
+        ]
+      ],
+      "name": "Sozialmedizinische institution",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#7F5F1A",
+      "data": [
+        [
+          "0 bis 19 J.",
+          42
+        ],
+        [
+          "20 bis 39 J.",
+          21
+        ],
+        [
+          "40 bis 59 J.",
+          132
+        ],
+        [
+          "60 bis 79 J.",
+          634
+        ],
+        [
+          "80 J. u.m.",
+          721
+        ],
+        [
+          "Total",
+          1550
+        ]
+      ],
+      "name": "Todesfall",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "0 bis 19 J.",
+          22
+        ],
+        [
+          "20 bis 39 J.",
+          165
+        ],
+        [
+          "40 bis 59 J.",
+          107
+        ],
+        [
+          "60 bis 79 J.",
+          108
+        ],
+        [
+          "80 J. u.m.",
+          93
+        ],
+        [
+          "Total",
+          495
+        ]
+      ],
+      "name": "Andere",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "0 bis 19 J.",
+          12
+        ],
+        [
+          "20 bis 39 J.",
+          27
+        ],
+        [
+          "40 bis 59 J.",
+          33
+        ],
+        [
+          "60 bis 79 J.",
+          8
+        ],
+        [
+          "80 J. u.m.",
+          4
+        ],
+        [
+          "Total",
+          84
+        ]
+      ],
+      "name": "Unbekannt",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function (){
+        return this.axis.defaultLabelFormatter.call(this);
+      }
+    },
+    "tickLength": 0,
+    "reversed": false
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-7000",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Alter der Patienten, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "maxPadding": 0,
+    "reversedStacks": false,
+    "tickAmount": 6
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-15"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "reversed": false,
+    "fontWeight": "normal",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 2
+  },
+  "exporting": {
+    "filename": 7000
+  }
+}

@@ -1,5 +1,5 @@
 {"title":"Sozialhilfequote nach Staatsangehörigkeit",
-"subtitle":"Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+"subtitle":"Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 "kuerzel":"I.13.3.6427",
 "kuerzelKunde":"C4-2",
 "description":"Sozialhilfequote nach Staatsangehörigkeit",
@@ -8,13 +8,13 @@
 "unterthema":"Sozialhilfe und Notwohnen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:03.033",
+"aktualisierungsdatum":"2019-05-17T09:19:41.4141",
 "stufe1":"Kapitel C Erwerb und Auskommen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen von Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2017 mit 63,2% die arabischen gefolgt von den afrikanischen Ländern mit 54,5% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 21,0%, jene von Mittel- und Südamerika bei 16,8%. Deutschland weist mit 2,9% die tiefste Quote auf. Bei Betrachtung der Entwicklung der städtischen Werte von 2016 auf 2017 sind keine bedeutenden Veränderungen zu beobachten. Die Sozialhilfequote der arabischen Länder bleibt bei rund 66%, jene der afrikanischen sinkt leicht auf 56,3%.",
+"lesehilfe":"Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen aus Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als die Stadt Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2018 mit 61,1% die arabischen gefolgt von den afrikanischen Ländern mit 53,4% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 20,0%, jene von Mittel- und Südamerika bei 16,7%. Deutschland weist mit 2,7% die tiefste Quote auf. Gegenüber dem Vorjahr ist die Sozialhilfequote bei allen Ländergruppen bis auf die Kategorie «Übrige Länder» gesunken.",
 "erlaeuterungen":"Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Die Daten der Jahre 2001 bis 2016 wurden mit der Aktualisierung des Jahres 2017 rückwirkend korrigiert.<br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Staatsangehörigkeit ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6702"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Sozialhilfestatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6427, 
+"chart-id":6427, 
+"filter":""
 }

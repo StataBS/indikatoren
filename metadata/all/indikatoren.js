@@ -1149,15 +1149,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:38:27.2727",
+		"aktualisierungsdatum": "2019-05-17T09:41:07.077",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 erhält mit rund 50 000 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2018 erhält mit  50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_02_00_00_00_306",
@@ -1167,11 +1168,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2917,
-		"darstellungsart": "Grafik"
+		"data-id": 2917,
+		"chart-id": 2917,
+		"filter": "",
+		"id": 2917
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -7884,7 +7888,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Basel-Stadt, 2016",
 		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
@@ -7894,14 +7898,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-18T10:26:47.4747",
+		"aktualisierungsdatum": "2019-05-16T14:52:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br> Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -9587,13 +9591,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:01:18.1818",
+		"aktualisierungsdatum": "2019-05-17T09:31:37.3737",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2017 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 50 986 Beziehenden erhalten 2018 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9914,8 +9918,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.1.5116",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -9924,13 +9928,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-20T13:48:14.1414",
+		"aktualisierungsdatum": "2019-05-17T09:37:00.000",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niederigsten das Wohnviertel Altstadt Grossbasel.",
+		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Anteil der unter 20-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
@@ -10167,8 +10171,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Stand: Steuerjahr 2015",
-		"kuerzel": "I.18.2.5122",
+		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
@@ -10177,7 +10181,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:33.3333",
+		"aktualisierungsdatum": "2019-05-17T09:41:26.2626",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -10200,7 +10204,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Karte finden Sie auch im interaktiven <a href='https://basleratlas.ch/#i=wua_steuer_ver.vermoegen_steuerbetrag_du' target='_blank'>Basler Atlas</a>."
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 5122,
 		"chart-id": 5122,
@@ -10251,7 +10255,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Erwerbstätigenquote",
-		"subtitle": "Stand: gepoolte Daten 2012-2016",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
@@ -10261,14 +10265,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
+		"aktualisierungsdatum": "2019-05-17T09:41:34.3434",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2012 bis 2016 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,5%) und im Wohnviertel Altstadt Grossbasel am grössten (85,6%)",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt.",
+		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,7%) und im Wohnviertel Altstadt Grossbasel am grössten (85,4%)",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2013 bis 2017 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -10293,7 +10297,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Basel-Stadt, 2016",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -10303,14 +10307,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-02-06T00:00:00.000",
+		"aktualisierungsdatum": "2019-05-17T09:42:39.3939",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte, die in Basel-Stadt arbeiten, in Vollzeitäquivalenten) an der gesamten Wohnbevölkerung des Wohnviertels.<br> Im Wohnvietel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br> Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -14078,8 +14082,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.6054",
+		"subtitle": "Basel-Stadt, in Franken",
+		"kuerzel": "I.18.2.06054",
 		"kuerzelKunde": "WE10",
 		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
@@ -14088,7 +14092,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-24T09:55:23.2323",
+		"aktualisierungsdatum": "2019-05-17T09:41:16.1616",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -14107,9 +14111,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6054,
+		"chart-id": 6054,
+		"filter": "",
 		"id": 6054
 	},
 	{
@@ -14124,14 +14132,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-01T14:36:30.3030",
+		"aktualisierungsdatum": "2019-05-17T09:31:17.1717",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze in der Tagesbetreuung (Tagesheime oder Tagesfamilien) sowie in den Tagesstrukturen der Schulen erfuhr in den letzten Jahren ein stetiges Wachstum. In der Stichwoche 2017 lag diese bei 4 115, respektive 6 966. In den Tagesstrukturen der Quartiere wurden 2017 insgesamt 896 Plätze angeboten, in den Tagesferien 198.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Seit 2015 werden auch Plätze in den Sekundarschulen angeboten. Die Anzahl Tagesstrukturplätze an den Schulen wurde deshalb für die Jahre 2015 und 2016 rückwirkend angepasst.<br>Tagesbetreung: Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2018 liegt die Platzzahl bei 4087. Auch die Tagesstrukturen wurden stetig ausgebaut. 2018 bieten die Frühhorte Platz für 416 Kinder, die Mittagsmodule 2911 und die Nachmittagsmodule 2551 Plätze. Die Tagesferien können von 211 Kindern gleichzeitig genutzt werden.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseit von privaten Trägerschaften in den Quartieren («Mittagstische») angeboten. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da in den Sekundarschulen keine Anmeldepflicht besteht, gibt es auch keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14141,7 +14149,8 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -15294,13 +15303,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-05-17T09:29:44.4444",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zur Mehrheit der anderen Ländergruppen weniger dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote.",
 		"erlaeuterungen": "Lernendenquote: Lernende mit Wohnort Basel-Stadt und Lehrbetrieb im Kanton Basel-Stadt im Verhältnis zu den 16- bis 20-Jährigen der Wohnbevölkerung des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -15316,9 +15325,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6084,
+		"chart-id": 6084,
+		"filter": "",
 		"id": 6084
 	},
 	{
@@ -15333,7 +15346,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-05-17T09:29:55.5555",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -15355,9 +15368,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6085,
+		"chart-id": 6085,
+		"filter": "",
 		"id": 6085
 	},
 	{
@@ -16341,7 +16358,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Franken, Basel-Stadt",
+		"subtitle": "Basel-Stadt, in Franken",
 		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -16351,13 +16368,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:17:49.4949",
+		"aktualisierungsdatum": "2019-05-17T09:31:45.4545",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z.B. für Berufskosten).",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17107,15 +17124,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:37:42.4242",
+		"aktualisierungsdatum": "2019-05-17T09:31:56.5656",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 erhält mit rund 50 000 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2018 erhält mit  50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_003",
@@ -17128,11 +17146,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6173,
-		"darstellungsart": "Grafik"
+		"data-id": 6173,
+		"chart-id": 6173,
+		"filter": "",
+		"id": 6173
 	},
 	{
 		"title": "Stationäre Fälle in Basler Spitälern",
@@ -17372,7 +17393,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.6183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -17382,15 +17403,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:49:52.5252",
+		"aktualisierungsdatum": "2019-05-17T09:32:09.099",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt 2017 bei 46,9%. 8,1% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ohne Riehen und Bettingen. Ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2018 bei 49,8% (2017: 46,9%). 7,4% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_004",
@@ -17404,11 +17426,14 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6183,
-		"darstellungsart": "Grafik"
+		"data-id": 6183,
+		"chart-id": 6183,
+		"filter": "",
+		"id": 6183
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -24292,7 +24317,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.3.6426",
 		"kuerzelKunde": "C4-1",
 		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
@@ -24302,14 +24327,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-15T10:33:39.3939",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 6 163 Personen besitzen 2017 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei auf Rang zwei vor Personen aus dem Balkan, den arabischen und den afrikanischen Ländern.",
-		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen auch rückwirkend auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat.",
+		"lesehilfe": "Mit 6 023 Personen besitzen 2018 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei mit 1 241 Personen auf Rang zwei vor Personen aus afrikanischen Ländern, dem Balkan und den arabischen Ländern mit jeweils knapp 1 000 beziehenden Personen.",
+		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen auch rückwirkend auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24323,14 +24348,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6426,
+		"chart-id": 6426,
+		"filter": "",
 		"id": 6426
 	},
 	{
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.3.6427",
 		"kuerzelKunde": "C4-2",
 		"description": "Sozialhilfequote nach Staatsangehörigkeit",
@@ -24340,13 +24369,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:19:41.4141",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen von Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2017 mit 63,2% die arabischen gefolgt von den afrikanischen Ländern mit 54,5% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 21,0%, jene von Mittel- und Südamerika bei 16,8%. Deutschland weist mit 2,9% die tiefste Quote auf. Bei Betrachtung der Entwicklung der städtischen Werte von 2016 auf 2017 sind keine bedeutenden Veränderungen zu beobachten. Die Sozialhilfequote der arabischen Länder bleibt bei rund 66%, jene der afrikanischen sinkt leicht auf 56,3%.",
+		"lesehilfe": "Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen aus Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als die Stadt Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2018 mit 61,1% die arabischen gefolgt von den afrikanischen Ländern mit 53,4% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 20,0%, jene von Mittel- und Südamerika bei 16,7%. Deutschland weist mit 2,7% die tiefste Quote auf. Gegenüber dem Vorjahr ist die Sozialhilfequote bei allen Ländergruppen bis auf die Kategorie «Übrige Länder» gesunken.",
 		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Die Daten der Jahre 2001 bis 2016 wurden mit der Aktualisierung des Jahres 2017 rückwirkend korrigiert.<br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Staatsangehörigkeit ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24361,14 +24390,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6427,
+		"chart-id": 6427,
+		"filter": "",
 		"id": 6427
 	},
 	{
 		"title": "Sozialhilfequote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.6428",
 		"kuerzelKunde": "C4-3",
 		"description": "Sozialhilfequote der Ausländer",
@@ -24378,14 +24411,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:08.088",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Sozialhilfequoten im Kanton weisen Personen unter 20 Jahren auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen das höchste Sozialhilferisiko. Bei den ausländischen Frauen liegt die Sozialhilfequote bei den 10- bis 14-Jährigen am höchsten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 23,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Auch bei den ausländischen Frauen liegt die Sozialhilfequote in dieser Altersgruppe mit 18,0% am höchsten.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern  Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24399,14 +24432,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6428,
+		"chart-id": 6428,
+		"filter": "",
 		"id": 6428
 	},
 	{
 		"title": "Sozialhilfequote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.13.2.6429",
 		"kuerzelKunde": "C4-4",
 		"description": "Sozialhilfequote der Schweizer",
@@ -24416,14 +24453,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:20.2020",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Eine Ausnahme bildet die Altergruppen der 65- bis 69-Jährigen. Bei den Minderjährigen liegt die Sozialhilfequote der Männer lediglich bei den 5- bis 9-Jährigen höher als bei den Frauen. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich sowohl bei den Frauen wie auch bei den Männern bei der Altersgruppe der 40- bis 44-Jährigen beobachten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich bei den 40- bis 44-jährigen Frauen und den 45- bis 49-jährigen Männern beobachten.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24437,9 +24474,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6429,
+		"chart-id": 6429,
+		"filter": "",
 		"id": 6429
 	},
 	{
@@ -25757,14 +25798,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2017 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehoerigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
+		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -25778,9 +25819,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6474,
+		"chart-id": 6474,
+		"filter": "",
 		"id": 6474
 	},
 	{
@@ -34742,7 +34787,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Kleinhüningen, 2017",
+		"subtitle": "Kleinhüningen, 2018",
 		"kuerzel": "I.01.1.06930",
 		"kuerzelKunde": "GS-19.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -34752,13 +34797,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:58.5858",
+		"aktualisierungsdatum": "2019-05-15T11:03:25.2525",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind die Altersstrukturen der weiblichen und der männlichen Bevölkerung im Wohnviertel Kleinhüningen sehr unterschiedlich. Bei den Frauen sind die Fünfjahresgruppen zwischen 35 und 64 Jahren jeweils ähnlich gross. Bei den Männern zeigen sich hingegen deutliche Unterschiede. Die 55- bis 59-Jährigen sind wesentlich zahlreicher als die 40- bis 44-Jährigen.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Kleinhüningen bei den Frauen die 20- bis 24-Jährigen und bei den Männern die 55- bis 59-Jährigen stärker vertreten. Kleiner als im Gesamtkanton sind hingegen die Altersgruppen der 30- bis 34-Jährigen bei den Frauen und der 35- bis 39-Jährigen bei den Männern.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -34782,7 +34827,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Riehen, 2017",
+		"subtitle": "Riehen, 2018",
 		"kuerzel": "I.01.1.06931",
 		"kuerzelKunde": "GS-20.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -34793,13 +34838,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-01-25T21:48:57.5757",
+		"aktualisierungsdatum": "2019-05-15T11:04:02.022",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche stärker vertreten. Auch die Gruppe der Personen zwischen 45 und 59 Jahren wohnt anteilsmässig häufiger in Riehen als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien in der Gemeinde wider.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche stärker vertreten. Auch die Gruppe der Personen ab 45 Jahren wohnt anteilsmässig häufiger in Riehen als im Gesamtkanton.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -36811,6 +36856,87 @@ var indikatoren = [
 		"id": 6990
 	},
 	{
+		"title": "Mittlere Aufenthaltsdauer in Basler Spitälern nach Alter",
+		"subtitle": "im Hauptbereich Akutsomatik, in Tagen",
+		"kuerzel": "I.14.1.06991",
+		"kuerzelKunde": "",
+		"description": "Mittlere Aufenthaltsdauer in Basler Spitälern nach Alter",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-05-15T10:34:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,1 Tagen im Jahr 2012 kontinuierlich auf 6,5 Tage im Jahr 2017 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den 6 beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6991,
+		"chart-id": 6991,
+		"filter": "",
+		"id": 6991
+	},
+	{
+		"title": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
+		"subtitle": "nach Alter der Patienten, 2017",
+		"kuerzel": "I.14.1.07000",
+		"kuerzelKunde": "",
+		"description": "Aufenthaltsorte nach dem Austritt aus Basler Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-05-15T10:38:48.4848",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Knapp 80% aller Patienten, die sich im Jahr 2017 einer stationären Behandlung in einem basel-städtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 50% am tiefsten. Gut 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem basel-städtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7000,
+		"chart-id": 7000,
+		"filter": "",
+		"id": 7000
+	},
+	{
 		"title": "Arzt- und Zahnarztpraxen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.14.4.07068",
@@ -38768,6 +38894,46 @@ var indikatoren = [
 		"chart-id": 7563,
 		"filter": "",
 		"id": 7563
+	},
+	{
+		"title": "Ausgaben für bedarfsabhängige Sozialleistungen",
+		"subtitle": "in Mio. Franken, Basel-Stadt",
+		"kuerzel": "I.13.2.07603",
+		"kuerzelKunde": "",
+		"description": "Ausgaben für bedarfsabhängige Sozialleistungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-05-17T09:20:50.5050",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Prämienverbilligungen stellen 2018 mit 178,5 Mio. Franken die höchsten kantonalen Ausgaben bei den bedarfsabhängigen Sozialleistungen dar. Ebenfalls im dreistelligen Millionenbereich befinden sich die Ausgaben für die Sozialhilfe (143,4 Mio.), für die Ergänzungsleistungen zur AHV (135,6 Mio.) bzw. zur IV (101,7 Mio.) sowie für die Behindertenhilfe (102,8 Mio.). Für die Subventionierung der Tagesbetreuungsplätze fallen Kosten von 40,1 Mio. Franken an. Die ausserfamiliäre Unterbringung von Jugendlichen schlägt mit 38,5 Mio. Franken zu Buche. Die Gesamtausgaben 2018 der abgebildeten bedarfsabhängigen Leistungen belaufen sich auf 778,5 Mio. Franken. Gegenüber 2017 (754,7 Mio.) entspricht dies einer Zunahme von 3,2%.",
+		"erlaeuterungen": "Die abgebildeten Leistungen stellen eine Auflistung der kantonalen Ausgaben für die wichtigsten bedarfsabhängigen Sozialleistungen dar. Der Kanton richtet weitere bedarfsabhängige Leistungen aus, die hier nicht aufgelistet sind. Angaben zur Behindertenhilfe liegen erst seit 2010 vor",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialberichterstattung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7603,
+		"chart-id": 7603,
+		"filter": "",
+		"id": 7603
 	},
 	{
 		"title": "Test Daten",

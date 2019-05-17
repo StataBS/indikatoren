@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2008",
-          460
-        ],
-        [
           "2009",
           516
         ],
@@ -48,6 +44,10 @@
         [
           "2017",
           491
+        ],
+        [
+          "2018",
+          431
         ]
       ],
       "name": "Bis 3 Monate",
@@ -58,10 +58,6 @@
       "index": 1,
       "legendIndex": 1,
       "data": [
-        [
-          "2008",
-          818
-        ],
         [
           "2009",
           943
@@ -101,6 +97,10 @@
         [
           "2017",
           1051
+        ],
+        [
+          "2018",
+          927
         ]
       ],
       "name": "4 bis 12 Monate",
@@ -111,10 +111,6 @@
       "index": 2,
       "legendIndex": 2,
       "data": [
-        [
-          "2008",
-          1273
-        ],
         [
           "2009",
           1235
@@ -154,6 +150,10 @@
         [
           "2017",
           1661
+        ],
+        [
+          "2018",
+          1571
         ]
       ],
       "name": "13 bis 36 Monate",
@@ -164,10 +164,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          "2008",
-          2158
-        ],
         [
           "2009",
           2078
@@ -207,6 +203,10 @@
         [
           "2017",
           2828
+        ],
+        [
+          "2018",
+          2901
         ]
       ],
       "name": "Über 36 Monate",
@@ -287,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt"
+    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)"
   },
   "navigation": {
     "menuItemStyle": {
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
   },
   "legend": {
     "layout": "horizontal",

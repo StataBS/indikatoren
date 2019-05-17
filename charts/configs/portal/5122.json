@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          185.90031762
+          182.96207936
         ],
         [
           19,
-          206.8607831
+          195.16423589
         ],
         [
           16,
-          254.13869538
+          318.34641689
         ],
         [
           10,
-          448.2365746
-        ],
-        [
-          17,
-          491.56606275
+          430.87557936
         ],
         [
           13,
-          508.20508614
-        ],
-        [
-          11,
-          509.91830365
-        ],
-        [
-          4,
-          512.9425141
+          534.14120083
         ],
         [
           6,
-          552.75010831
+          561.93371932
+        ],
+        [
+          4,
+          563.2334935
+        ],
+        [
+          17,
+          568.75968476
+        ],
+        [
+          11,
+          575.16967243
         ],
         [
           15,
-          735.59236151
-        ],
-        [
-          9,
-          962.38892866
+          771.02751952
         ],
         [
           12,
-          1123.5396725
+          1406.173482
         ],
         [
           14,
-          1328.9580318
-        ],
-        [
-          8,
-          1877.6147682
+          1568.4051447
         ],
         [
           3,
-          2060.938612
+          2158.1149239
+        ],
+        [
+          8,
+          2190.337709
         ],
         [
           20,
-          3075.9103589
+          3716.3038432
+        ],
+        [
+          9,
+          3957.3872421
         ],
         [
           1,
-          5514.6161194
+          5639.5632458
         ],
         [
           5,
-          5783.6317751
+          5697.8093081
         ],
         [
           2,
-          6165.9059687
+          6521.1233466
         ],
         [
           30,
-          15530.157643
+          14657.565978
         ],
         [
           7,
-          18071.401123
+          18285.117337
         ]
       ]
     },
@@ -3343,23 +3343,23 @@
         ],
         [
           5,
-          "Matthäus"
-        ],
-        [
-          6,
           "Clara"
         ],
         [
-          7,
-          "St. Johann"
+          6,
+          "Gundeldingen"
         ],
         [
-          8,
+          7,
           "Breite"
         ],
         [
+          8,
+          "Matthäus"
+        ],
+        [
           9,
-          "Gundeldingen"
+          "St. Johann"
         ],
         [
           10,
@@ -3367,15 +3367,15 @@
         ],
         [
           11,
-          "Gotthelf"
-        ],
-        [
-          12,
           "Altstadt Kleinbasel"
         ],
         [
-          13,
+          12,
           "Wettstein"
+        ],
+        [
+          13,
+          "Am Ring"
         ],
         [
           14,
@@ -3383,11 +3383,11 @@
         ],
         [
           15,
-          "Am Ring"
+          "Riehen"
         ],
         [
           16,
-          "Riehen"
+          "Gotthelf"
         ],
         [
           17,
@@ -3410,7 +3410,7 @@
           "Bruderholz"
         ]
       ],
-      "name": "wohnviertel"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -3658,7 +3658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: Steuerjahr 2015",
+    "text": "Basel-Stadt, Steuerjahr 2016",
     "align": "left"
   },
   "credits": {
@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
   },
   "colorAxis": {
     "min": 0,
@@ -3694,8 +3694,10 @@
     "marker": {
       "color": "black"
     },
-    "minColor": "#eff4f4",
-    "maxColor": "#4f6e75"
+    "max": 80000,
+    "tickInterval": 20000,
+    "minColor": "#E7CEE2",
+    "maxColor": "#2E1435"
   },
   "mapNavigation": {
     "enabled": true,
@@ -3713,7 +3715,7 @@
         "fontWeight": "normal",
         "fontSize": "11px"
       },
-      "text": "in tausend Franken"
+      "text": "in 1000 Fr."
     }
   },
   "tooltip": {
