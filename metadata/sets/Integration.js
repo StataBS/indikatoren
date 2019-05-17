@@ -1073,13 +1073,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-05-17T09:29:44.4444",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zur Mehrheit der anderen Ländergruppen weniger dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote.",
 		"erlaeuterungen": "Lernendenquote: Lernende mit Wohnort Basel-Stadt und Lehrbetrieb im Kanton Basel-Stadt im Verhältnis zu den 16- bis 20-Jährigen der Wohnbevölkerung des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1094,9 +1094,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6084,
+		"chart-id": 6084,
+		"filter": "",
 		"id": 6084
 	},
 	{
@@ -1111,7 +1115,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-05-17T09:29:55.5555",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1132,9 +1136,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6085,
+		"chart-id": 6085,
+		"filter": "",
 		"id": 6085
 	},
 	{
@@ -2327,7 +2335,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.3.6426",
 		"kuerzelKunde": "C4-1",
 		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
@@ -2337,14 +2345,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-15T10:33:39.3939",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 6 163 Personen besitzen 2017 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei auf Rang zwei vor Personen aus dem Balkan, den arabischen und den afrikanischen Ländern.",
-		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen auch rückwirkend auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat.",
+		"lesehilfe": "Mit 6 023 Personen besitzen 2018 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei mit 1 241 Personen auf Rang zwei vor Personen aus afrikanischen Ländern, dem Balkan und den arabischen Ländern mit jeweils knapp 1 000 beziehenden Personen.",
+		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen auch rückwirkend auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2357,14 +2365,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6426,
+		"chart-id": 6426,
+		"filter": "",
 		"id": 6426
 	},
 	{
 		"title": "Sozialhilfequote nach Staatsangehörigkeit",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.3.6427",
 		"kuerzelKunde": "C4-2",
 		"description": "Sozialhilfequote nach Staatsangehörigkeit",
@@ -2374,13 +2386,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:19:41.4141",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen von Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2017 mit 63,2% die arabischen gefolgt von den afrikanischen Ländern mit 54,5% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 21,0%, jene von Mittel- und Südamerika bei 16,8%. Deutschland weist mit 2,9% die tiefste Quote auf. Bei Betrachtung der Entwicklung der städtischen Werte von 2016 auf 2017 sind keine bedeutenden Veränderungen zu beobachten. Die Sozialhilfequote der arabischen Länder bleibt bei rund 66%, jene der afrikanischen sinkt leicht auf 56,3%.",
+		"lesehilfe": "Zwischen 2001 und 2016 hat für die Stadt Basel die Sozialhilfequote der arabischen Länder von 24,8% auf 66,2% zugenommen. Bei den afrikanischen Ländern nahm sie im gleichen Zeitraum von 17,9% auf 57,4% zu. Der deutliche Abstand zur Türkei, die 2016 mit 21,9% die dritthöchste Quote aufwies, ist unter anderem auf das relativ hohe Flüchtlingsaufkommen aus Afghanistan, Eritrea, Irak und Syrien zurückzuführen. Deutschland, die Schweiz, die EU-17 sowie die EFTA-Staaten wiesen in der Stadt Basel 2016 mit jeweils weniger als 5% die tiefsten Sozialhilfequoten auf.<br>Seit 2017 basieren die dargestellten Werte auf gesamtkantonalen Daten. Eine Vergleichbarkeit zu den Jahren davor ist deshalb nicht mehr gegeben. Da die Gemeinden Riehen und Bettingen tiefere Sozialhilfequoten aufweisen als die Stadt Basel, ist die gesamtkantonale Quote ab 2017 tendenziell tiefer als die der Stadt Basel bis 2016. Die höchste Quote weisen 2018 mit 61,1% die arabischen gefolgt von den afrikanischen Ländern mit 53,4% auf. Die kantonale Sozialhilfequote der Türkei liegt bei 20,0%, jene von Mittel- und Südamerika bei 16,7%. Deutschland weist mit 2,7% die tiefste Quote auf. Gegenüber dem Vorjahr ist die Sozialhilfequote bei allen Ländergruppen bis auf die Kategorie «Übrige Länder» gesunken.",
 		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Die Daten der Jahre 2001 bis 2016 wurden mit der Aktualisierung des Jahres 2017 rückwirkend korrigiert.<br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Staatsangehörigkeit ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2394,14 +2406,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6427,
+		"chart-id": 6427,
+		"filter": "",
 		"id": 6427
 	},
 	{
 		"title": "Sozialhilfequote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.6428",
 		"kuerzelKunde": "C4-3",
 		"description": "Sozialhilfequote der Ausländer",
@@ -2411,14 +2427,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:08.088",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Sozialhilfequoten im Kanton weisen Personen unter 20 Jahren auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen das höchste Sozialhilferisiko. Bei den ausländischen Frauen liegt die Sozialhilfequote bei den 10- bis 14-Jährigen am höchsten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 23,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Auch bei den ausländischen Frauen liegt die Sozialhilfequote in dieser Altersgruppe mit 18,0% am höchsten.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern  Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2431,14 +2447,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6428,
+		"chart-id": 6428,
+		"filter": "",
 		"id": 6428
 	},
 	{
 		"title": "Sozialhilfequote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.13.2.6429",
 		"kuerzelKunde": "C4-4",
 		"description": "Sozialhilfequote der Schweizer",
@@ -2448,14 +2468,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:20.2020",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Eine Ausnahme bildet die Altergruppen der 65- bis 69-Jährigen. Bei den Minderjährigen liegt die Sozialhilfequote der Männer lediglich bei den 5- bis 9-Jährigen höher als bei den Frauen. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich sowohl bei den Frauen wie auch bei den Männern bei der Altersgruppe der 40- bis 44-Jährigen beobachten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich bei den 40- bis 44-jährigen Frauen und den 45- bis 49-jährigen Männern beobachten.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2468,9 +2488,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6429,
+		"chart-id": 6429,
+		"filter": "",
 		"id": 6429
 	},
 	{
@@ -2874,14 +2898,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2017 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehoerigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
+		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2894,9 +2918,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6474,
+		"chart-id": 6474,
+		"filter": "",
 		"id": 6474
 	},
 	{

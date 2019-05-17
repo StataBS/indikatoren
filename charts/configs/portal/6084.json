@@ -30,6 +30,10 @@
         [
           2017,
           28
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Schweiz"
@@ -64,6 +68,10 @@
         [
           2017,
           17.6
+        ],
+        [
+          2018,
+          18.5
         ]
       ],
       "name": "Deutschland"
@@ -98,6 +106,10 @@
         [
           2017,
           34
+        ],
+        [
+          2018,
+          30.5
         ]
       ],
       "name": "Italien"
@@ -132,6 +144,10 @@
         [
           2017,
           39.4
+        ],
+        [
+          2018,
+          36
         ]
       ],
       "name": "Türkei"
@@ -166,6 +182,10 @@
         [
           2017,
           25.5
+        ],
+        [
+          2018,
+          25.2
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -200,6 +220,10 @@
         [
           2017,
           19.4
+        ],
+        [
+          2018,
+          20.4
         ]
       ],
       "name": "EU-Ost"
@@ -234,6 +258,10 @@
         [
           2017,
           46.8
+        ],
+        [
+          2018,
+          46.9
         ]
       ],
       "name": "Balkan"
@@ -268,6 +296,10 @@
         [
           2017,
           44.2
+        ],
+        [
+          2018,
+          41.4
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -302,6 +334,10 @@
         [
           2017,
           21.7
+        ],
+        [
+          2018,
+          35
         ]
       ],
       "name": "Arab. Länder"
@@ -336,6 +372,10 @@
         [
           2017,
           41.3
+        ],
+        [
+          2018,
+          34.9
         ]
       ],
       "name": "Afrikan. Länder"
@@ -370,6 +410,10 @@
         [
           2017,
           29.6
+        ],
+        [
+          2018,
+          30.4
         ]
       ],
       "name": "Übrige Länder"
@@ -471,7 +515,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
   },
   "legend": {
     "enabled": true,

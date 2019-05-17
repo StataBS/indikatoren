@@ -106,6 +106,10 @@
         [
           2015,
           68247.75622
+        ],
+        [
+          2016,
+          69822.5406
         ]
       ],
       "name": "Mittelwert"
@@ -216,6 +220,10 @@
         [
           2015,
           49142
+        ],
+        [
+          2016,
+          49334.5
         ]
       ],
       "name": "Median"
@@ -326,6 +334,10 @@
         [
           2015,
           183184.5627
+        ],
+        [
+          2016,
+          190403.8791
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -436,6 +448,10 @@
         [
           2015,
           6536.396195
+        ],
+        [
+          2016,
+          6419.441661
         ]
       ],
       "name": "Mittelwert unterstes Quintil"
@@ -486,7 +502,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt",
+    "text": "Basel-Stadt, in Franken",
     "align": "left"
   },
   "tooltip": {
@@ -536,7 +552,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
   },
   "legend": {
     "enabled": true,

@@ -8,13 +8,13 @@
 "unterthema":"Berufsfachschulen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-05-17T09:29:44.4444",
 "stufe1":"Kapitel B Schule und Bildung",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zur Mehrheit der anderen Ländergruppen weniger dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan.",
+"lesehilfe":"Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Nach wie vor am höchsten ist die Quote bei Lernenden aus dem Balkan. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote.",
 "erlaeuterungen":"Lernendenquote: Lernende mit Wohnort Basel-Stadt und Lehrbetrieb im Kanton Basel-Stadt im Verhältnis zu den 16- bis 20-Jährigen der Wohnbevölkerung des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6669"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6084, 
+"chart-id":6084, 
+"filter":""
 }

@@ -8,7 +8,7 @@
 "unterthema":"Berufsfachschulen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-05-17T09:29:55.5555",
 "stufe1":"Kapitel B Schule und Bildung",
 "stufe2":"",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":["6670"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6085, 
+"chart-id":6085, 
+"filter":""
 }

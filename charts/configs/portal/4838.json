@@ -5,87 +5,87 @@
       "data": [
         [
           "Breite",
-          0.1306988
+          0.1306987677
         ],
         [
           "Bruderholz",
-          0.138442
+          0.1384419676
         ],
         [
           "Iselin",
-          0.1597338
+          0.1597338161
         ],
         [
           "Riehen",
-          0.1670433
+          0.1670433402
         ],
         [
           "Matthäus",
-          0.1872288
+          0.1872287699
         ],
         [
           "Bachletten",
-          0.1992794
+          0.1992794451
         ],
         [
           "Gotthelf",
-          0.2985507
+          0.2985506691
         ],
         [
           "Bettingen",
-          0.2992306
+          0.2992305528
         ],
         [
           "Hirzbrunnen",
-          0.3260985
+          0.3260985038
         ],
         [
           "Klybeck",
-          0.4792851
+          0.4792851255
         ],
         [
           "Gundeldingen",
-          0.5721469
+          0.572146893
         ],
         [
           "Clara",
-          0.64311
+          0.6431100458
         ],
         [
           "Rosental",
-          0.7308378
+          0.730837811
         ],
         [
           "Am Ring",
-          1.0428211
+          1.042821145
         ],
         [
           "St. Johann",
-          1.1019534
+          1.1019534325
         ],
         [
           "Altstadt Kleinbasel",
-          1.600298
+          1.6002980016
         ],
         [
           "Wettstein",
-          1.9410736
+          1.9410736405
         ],
         [
           "Kleinhüningen",
-          2.1176332
+          2.1176331577
         ],
         [
           "St. Alban",
-          2.2766626
+          2.2766626224
         ],
         [
           "Altstadt Grossbasel",
-          4.1077455
+          4.1077454555
         ],
         [
           "Vorstädte",
-          4.3439132
+          4.3439132243
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-16"
   },
   "legend": {
     "enabled": false,
