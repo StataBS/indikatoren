@@ -2203,7 +2203,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.6182",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
@@ -2213,15 +2213,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:48:22.2222",
+		"aktualisierungsdatum": "2019-05-21T09:32:41.4141",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 12,5% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,1%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Vorjahr ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "11_00_00_00_00_003",
 		"parentId": null,
@@ -2234,11 +2235,14 @@ var indikatorensetData = [
 			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6182,
-		"darstellungsart": "Grafik"
+		"data-id": 6182,
+		"chart-id": 6182,
+		"filter": "",
+		"id": 6182
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
