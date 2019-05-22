@@ -38,7 +38,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6012",
 		"kuerzelKunde": "1-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -48,15 +48,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2019-05-21T09:29:57.5757",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 ergibt sich für den Kanton ein Wanderungsgewinn von 578 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+2 812). Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 212).",
+		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "_002",
 		"parentId": null,
 		"children": [
@@ -66,11 +68,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6012,
-		"darstellungsart": "Grafik"
+		"data-id": 6012,
+		"chart-id": 6012,
+		"filter": "",
+		"id": 6012
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",

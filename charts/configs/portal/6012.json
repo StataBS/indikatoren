@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -210
+          -269
         ],
         [
           "Ausland",
-          -93
+          -156
         ],
         [
           "Unbekannt",
-          -321
+          -384
         ],
         [
           "Total",
-          -624
+          -809
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -797
+          -885
         ],
         [
           "Ausland",
-          2905
+          3212
         ],
         [
           "Unbekannt",
-          -906
+          -830
         ],
         [
           "Total",
-          1202
+          1497
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -1007
+          -1154
         ],
         [
           "Ausland",
-          2812
+          3056
         ],
         [
           "Unbekannt",
-          -1227
+          -1214
         ],
         [
           "Total",
-          578
+          688
         ]
       ],
       "name": "Total",
@@ -153,7 +153,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -196,7 +196,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-21"
   },
   "legend": {
     "symbolRadius": 0,
