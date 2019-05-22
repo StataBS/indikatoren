@@ -12684,7 +12684,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6012",
 		"kuerzelKunde": "1-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -12694,15 +12694,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
+		"aktualisierungsdatum": "2019-05-21T09:29:57.5757",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 ergibt sich für den Kanton ein Wanderungsgewinn von 578 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+2 812). Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 212).",
+		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_002",
 		"parentId": null,
@@ -12713,11 +12715,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6012,
-		"darstellungsart": "Grafik"
+		"data-id": 6012,
+		"chart-id": 6012,
+		"filter": "",
+		"id": 6012
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -17353,7 +17358,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.6182",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
@@ -17363,15 +17368,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:48:22.2222",
+		"aktualisierungsdatum": "2019-05-21T09:32:41.4141",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 12,5% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,1%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Vorjahr ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_003",
@@ -17385,11 +17391,14 @@ var indikatoren = [
 			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
 			"Departement für Wirtschaft, Soziales und Umwelt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6182,
-		"darstellungsart": "Grafik"
+		"data-id": 6182,
+		"chart-id": 6182,
+		"filter": "",
+		"id": 6182
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -36948,13 +36957,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:32:25.2525",
+		"aktualisierungsdatum": "2019-05-22T17:18:10.1010",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen von Grundversorgern, 534 Spezialarztpraxen und 126 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 288 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
+		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen von Grundversorgern, 534 Spezialarztpraxen und 126 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 154 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
 		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -38907,14 +38916,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:20:50.5050",
+		"aktualisierungsdatum": "2019-05-21T09:31:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Prämienverbilligungen stellen 2018 mit 178,5 Mio. Franken die höchsten kantonalen Ausgaben bei den bedarfsabhängigen Sozialleistungen dar. Ebenfalls im dreistelligen Millionenbereich befinden sich die Ausgaben für die Sozialhilfe (143,4 Mio.), für die Ergänzungsleistungen zur AHV (135,6 Mio.) bzw. zur IV (101,7 Mio.) sowie für die Behindertenhilfe (102,8 Mio.). Für die Subventionierung der Tagesbetreuungsplätze fallen Kosten von 40,1 Mio. Franken an. Die ausserfamiliäre Unterbringung von Jugendlichen schlägt mit 38,5 Mio. Franken zu Buche. Die Gesamtausgaben 2018 der abgebildeten bedarfsabhängigen Leistungen belaufen sich auf 778,5 Mio. Franken. Gegenüber 2017 (754,7 Mio.) entspricht dies einer Zunahme von 3,2%.",
-		"erlaeuterungen": "Die abgebildeten Leistungen stellen eine Auflistung der kantonalen Ausgaben für die wichtigsten bedarfsabhängigen Sozialleistungen dar. Der Kanton richtet weitere bedarfsabhängige Leistungen aus, die hier nicht aufgelistet sind. Angaben zur Behindertenhilfe liegen erst seit 2010 vor",
+		"erlaeuterungen": "Die abgebildeten Leistungen stellen eine Auflistung der kantonalen Ausgaben für die wichtigsten bedarfsabhängigen Sozialleistungen dar. Der Kanton richtet weitere bedarfsabhängige Leistungen aus, die hier nicht aufgelistet sind. Angaben zur Behindertenhilfe liegen erst seit 2010 vor.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

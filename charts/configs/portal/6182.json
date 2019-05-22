@@ -5,10 +5,6 @@
       "id": "0",
       "data": [
         [
-          2008,
-          13.62
-        ],
-        [
           2009,
           13.19
         ],
@@ -43,6 +39,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "0 bis 17 J. (Stadt)"
@@ -51,10 +51,6 @@
       "color": "#007A2F",
       "id": "1",
       "data": [
-        [
-          2008,
-          8.82
-        ],
         [
           2009,
           8.53
@@ -90,6 +86,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "18 bis 25 J. (Stadt)"
@@ -98,10 +98,6 @@
       "color": "#4f81bd",
       "id": "2",
       "data": [
-        [
-          2008,
-          7.62
-        ],
         [
           2009,
           7.27
@@ -137,6 +133,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "26 bis 35 J. (Stadt)"
@@ -145,10 +145,6 @@
       "color": "#662673",
       "id": "3",
       "data": [
-        [
-          2008,
-          8.05
-        ],
         [
           2009,
           8.02
@@ -184,6 +180,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "36 bis 50 J. (Stadt)"
@@ -192,10 +192,6 @@
       "color": "#7F5F1A",
       "id": "4",
       "data": [
-        [
-          2008,
-          4.86
-        ],
         [
           2009,
           4.77
@@ -231,6 +227,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "51 bis 65 J. (Stadt)"
@@ -239,10 +239,6 @@
       "color": "#FABD24",
       "id": "5",
       "data": [
-        [
-          2008,
-          0.21
-        ],
         [
           2009,
           0.21
@@ -278,6 +274,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "66 J. u.m. (Stadt)"
@@ -286,10 +286,6 @@
       "color": "#3C3C3C",
       "id": "6",
       "data": [
-        [
-          2008,
-          6.81
-        ],
         [
           2009,
           6.64
@@ -325,6 +321,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Total (Stadt)"
@@ -332,14 +332,7 @@
     {
       "color": "#B00000",
       "linkedTo": "0",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -375,6 +368,10 @@
         [
           2017,
           12.74
+        ],
+        [
+          2018,
+          12.51
         ]
       ],
       "name": "0 bis 17 J. (Kanton)"
@@ -383,14 +380,7 @@
       "color": "#007A2F",
       "showInLegend": false,
       "linkedTo": "1",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -426,6 +416,10 @@
         [
           2017,
           9.82
+        ],
+        [
+          2018,
+          9.12
         ]
       ],
       "name": "18 bis 25 J. (Kanton)"
@@ -434,14 +428,7 @@
       "color": "#4f81bd",
       "showInLegend": false,
       "linkedTo": "2",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -477,6 +464,10 @@
         [
           2017,
           7.42
+        ],
+        [
+          2018,
+          7.28
         ]
       ],
       "name": "26 bis 35 J. (Kanton)"
@@ -485,14 +476,7 @@
       "color": "#662673",
       "showInLegend": false,
       "linkedTo": "3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -528,6 +512,10 @@
         [
           2017,
           8.2
+        ],
+        [
+          2018,
+          7.94
         ]
       ],
       "name": "36 bis 50 J. (Kanton)"
@@ -535,14 +523,7 @@
     {
       "color": "#7F5F1A",
       "linkedTo": "4",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -578,6 +559,10 @@
         [
           2017,
           5.97
+        ],
+        [
+          2018,
+          6.05
         ]
       ],
       "name": "51 bis 65 J. (Kanton)"
@@ -586,14 +571,7 @@
       "color": "#FABD24",
       "showInLegend": false,
       "linkedTo": "5",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -629,6 +607,10 @@
         [
           2017,
           0.21
+        ],
+        [
+          2018,
+          0.22
         ]
       ],
       "name": "66 J. u.m. (Kanton)"
@@ -637,14 +619,7 @@
       "color": "#3C3C3C",
       "showInLegend": false,
       "linkedTo": "6",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
         [
           2009,
           null
@@ -680,6 +655,10 @@
         [
           2017,
           6.99
+        ],
+        [
+          2018,
+          6.84
         ]
       ],
       "name": "Total (Kanton)"
@@ -730,7 +709,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
     "align": "left"
   },
   "tooltip": {
@@ -782,7 +761,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-21"
   },
   "legend": {
     "enabled": true,
