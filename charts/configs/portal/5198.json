@@ -144,7 +144,7 @@
     "marginRight": 18,
     "type": "scatter",
     "inverted": true,
-    "spacingBottom": 60,
+    "spacingBottom": 55,
     "renderTo": "container-5198"
   },
   "plotOptions": {
