@@ -1,22 +1,22 @@
-Wohnviertel_ID	Wohnviertel_Name	Sozialhilfequote in %	Anzahl Sozialhilfebezüger
-1	Altstadt Grossbasel	1.7	43
-2	Vorstädte	3.6	182
-3	Am Ring	3.7	399
-4	Breite	5.9	528
-5	St. Alban	4.0	446
-6	Gundeldingen	7.1	1345
-7	Bruderholz	1.8	166
-8	Bachletten	2.5	334
-9	Gotthelf	4.6	320
-10	Iselin	9.7	1636
-11	St. Johann	8.9	1660
-12	Altstadt Kleinbasel	8.0	197
-13	Clara	8.4	345
-14	Wettstein	3.6	199
-15	Hirzbrunnen	4.9	454
-16	Rosental	11.2	738
-17	Matthäus	11.7	1860
-18	Klybeck	13.9	1012
-19	Kleinhüningen	13.3	379
-20	Riehen	3.7	788
-30	Bettingen	1.6	17
+﻿Wohnviertel_ID	Wohnviertel_Name	Sozialhilfequote in %	Anzahl Sozialhilfebezüger
+1	Altstadt Grossbasel	1.1542901116	30
+2	Vorstädte	3.570716138	179
+3	Am Ring	3.2258064516	355
+4	Breite	5.6952169077	512
+5	St. Alban	3.8234784117	441
+6	Gundeldingen	7.3859097929	1387
+7	Bruderholz	1.8916319333	177
+8	Bachletten	2.5913621262	351
+9	Gotthelf	4.4261822376	307
+10	Iselin	9.5602519574	1624
+11	St. Johann	8.6651680582	1619
+12	Altstadt Kleinbasel	6.7893660532	166
+13	Clara	8.770210681	358
+14	Wettstein	3.309352518	184
+15	Hirzbrunnen	4.969606484	466
+16	Rosental	10.307017544	705
+17	Matthäus	11.571510407	1818
+18	Klybeck	13.739201974	1002
+19	Kleinhüningen	12.631210637	361
+20	Riehen	3.7019768743	794
+30	Bettingen	1.483924155	18
