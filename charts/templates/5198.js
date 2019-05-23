@@ -45,7 +45,7 @@
   	marginRight: 18,
     "type": "scatter",
     "inverted": true,
-    "spacingBottom": 40
+    "spacingBottom": 35
   }
 };
 }());
