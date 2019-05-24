@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.5764338
+          0.46951597
         ],
         [
           "3-Sterne",
-          0.68633516
+          0.62171276
         ],
         [
           "4- und 5-Sterne",
-          0.63217916
+          0.61001747
         ],
         [
           "Nicht klassiert",
-          0.60842812
+          0.58063584
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2018",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.59829838
+          0.51178356
         ],
         [
           "3-Sterne",
-          0.66850468
+          0.57080501
         ],
         [
           "4- und 5-Sterne",
-          0.68478995
+          0.59075581
         ],
         [
           "Nicht klassiert",
-          0.60512334
+          0.58019608
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2019",
@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, März",
+    "text": "Basel-Stadt, April",
     "align": "left"
   },
   "yAxis": [
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-24"
   },
   "legend": {
     "symbolRadius": 0,

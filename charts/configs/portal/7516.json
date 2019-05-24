@@ -130,7 +130,7 @@
         ],
         [
           "Apr",
-          null
+          35971
         ],
         [
           "Mai",
@@ -186,7 +186,7 @@
         ],
         [
           "Apr",
-          null
+          70923
         ],
         [
           "Mai",
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-24"
   },
   "legend": {
     "enabled": true,
