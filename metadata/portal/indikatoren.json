@@ -12584,13 +12584,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:56.5656",
+		"aktualisierungsdatum": "2019-05-23T14:45:44.4444",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 erhält mit  50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2018 erhält mit 50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24379,7 +24379,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-15T09:44:52.5252",
+		"aktualisierungsdatum": "2019-05-24T07:39:08.088",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24409,7 +24409,7 @@
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, März",
+		"subtitle": "Basel-Stadt, April",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -24419,7 +24419,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-15T09:45:28.2828",
+		"aktualisierungsdatum": "2019-05-24T08:00:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
