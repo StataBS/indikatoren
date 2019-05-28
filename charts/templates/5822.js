@@ -14,8 +14,8 @@
   },  
   plotOptions: {
   	column: {
-  		groupPadding: 0,
-  		"pointWidth": 90,
+  	    // groupPadding: 0,
+  		//"pointWidth": 70,
 
   	}
   },
@@ -25,6 +25,7 @@
 	 {"color": "#007A2F", "index": 12, legendIndex: 2}, /*dunkelgrün */
 	 {"color": "#73BA7C", "index": 11, legendIndex: 3}, /*hellgrün */
 	 {"color": "#FFBB58", "index": 10, legendIndex: 4}, /*dunkelgelb */
+	 {"color": "#FF8028", "index": 9, legendIndex: 5}, /*dunkelgelb */
      ],
   "legend": { 
     "enabled": true,

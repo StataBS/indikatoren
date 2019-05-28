@@ -7,23 +7,23 @@
       "data": [
         [
           "Deutschland",
-          1956
-        ],
-        [
-          "Italien",
-          526
+          2011
         ],
         [
           "USA",
-          512
+          532
+        ],
+        [
+          "Italien",
+          486
         ],
         [
           "Frankreich",
-          431
+          474
         ],
         [
           "UK",
-          431
+          438
         ]
       ],
       "name": "Zugezogene",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Deutschland",
-          -1268
-        ],
-        [
-          "Italien",
-          -252
+          -1284
         ],
         [
           "USA",
-          -401
+          -369
+        ],
+        [
+          "Italien",
+          -212
         ],
         [
           "Frankreich",
-          -452
+          -412
         ],
         [
           "UK",
-          -232
+          -298
         ]
       ],
       "name": "Weggezogene",
@@ -68,23 +68,23 @@
       "data": [
         [
           "Deutschland",
-          688
+          727
+        ],
+        [
+          "USA",
+          163
         ],
         [
           "Italien",
           274
         ],
         [
-          "USA",
-          111
-        ],
-        [
           "Frankreich",
-          -21
+          62
         ],
         [
           "UK",
-          199
+          140
         ]
       ],
       "name": "Saldo",
@@ -171,7 +171,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2017",
+    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
   },
   "legend": {
     "symbolRadius": 0,

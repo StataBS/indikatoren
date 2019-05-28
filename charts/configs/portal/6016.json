@@ -6,42 +6,38 @@
       "data": [
         [
           "Schweiz",
-          59
+          57.6995
         ],
         [
           "Deutschland",
-          84.9
+          85.5986
+        ],
+        [
+          "USA",
+          51.1811
         ],
         [
           "Italien",
-          76.4
-        ],
-        [
-          "USA",
-          57.7
+          77.4648
         ],
         [
           "Frankreich",
-          45.2
+          49.3075
         ],
         [
           "UK",
-          56.7
+          62.9098
         ],
         [
-          "Übriges Ausl.",
-          75.5
+          "Übriges Ausland",
+          75.4936
         ],
         [
           "Total",
-          67.2
-        ],
-        [
-          "USA",
-          57.7
+          66.4341
         ]
       ],
-      "name": "2008",
+      "name": "2009",
       "turboThreshold": 0
     },
     {
@@ -50,42 +46,38 @@
       "data": [
         [
           "Schweiz",
-          55.3
+          56.2811
         ],
         [
           "Deutschland",
-          74.6
+          75.2859
+        ],
+        [
+          "USA",
+          56.5789
         ],
         [
           "Italien",
-          84.2
-        ],
-        [
-          "USA",
-          54.3
+          87.037
         ],
         [
           "Frankreich",
-          53.8
+          47.8903
         ],
         [
           "UK",
-          52
+          48.4018
         ],
         [
-          "Übriges Ausl.",
-          71.4
+          "Übriges Ausland",
+          72.6868
         ],
         [
           "Total",
-          63.4
-        ],
-        [
-          "USA",
-          54.3
+          63.6719
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -209,7 +201,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
   },
   "legend": {
     "symbolRadius": 0,
@@ -222,7 +214,7 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

@@ -40,22 +40,22 @@
       "index": 5
     },
       {
-      "color": "#B00000", // rot
+      "color": "#CD9C00", // senfgelb
       "type": "column",
       "pointWidth": "15",
       "index": 4
     },
       {
-      "color": "#CD9C00", //orange
-      "type": "column",
-      "pointWidth": "15",
-      "index": 2
-    },
-     {
-      "color": "#FF8028", // braun
+      "color": "#B00000", //rot
       "type": "column",
       "pointWidth": "15",
       "index": 3
+    },
+     {
+      "color": "#FF8028", // orange
+      "type": "column",
+      "pointWidth": "15",
+      "index": 2
     },
       {
       "color": "#923F8D", // violett
@@ -72,7 +72,7 @@
 
   ],  
   "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}%</b><br/>',
+    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
     "shared": false
   },
   "chart": {

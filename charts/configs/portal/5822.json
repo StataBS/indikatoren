@@ -12,6 +12,10 @@
         [
           "2017",
           127410
+        ],
+        [
+          "2018",
+          128139
         ]
       ],
       "name": "Güteklasse A",
@@ -29,6 +33,10 @@
         [
           "2017",
           62854
+        ],
+        [
+          "2018",
+          63371
         ]
       ],
       "name": "Güteklasse B",
@@ -46,6 +54,10 @@
         [
           "2017",
           7118
+        ],
+        [
+          "2018",
+          7158
         ]
       ],
       "name": "Güteklasse C",
@@ -63,6 +75,10 @@
         [
           "2017",
           642
+        ],
+        [
+          "2018",
+          624
         ]
       ],
       "name": "Güteklasse D",
@@ -80,9 +96,34 @@
         [
           "2017",
           166
+        ],
+        [
+          "2018",
+          158
         ]
       ],
       "name": "Güteklasse E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 9,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2016",
+          0
+        ],
+        [
+          "2017",
+          0
+        ],
+        [
+          "2018",
+          5
+        ]
+      ],
+      "name": "keine Güteklasse",
       "turboThreshold": 0
     }
   ],
@@ -178,10 +219,7 @@
       },
       "stacking": "percent"
     },
-    "column": {
-      "groupPadding": 0,
-      "pointWidth": 90
-    }
+    "column": {}
   },
   "yAxis": {
     "tickInterval": 25,
@@ -221,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-6"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
   },
   "legend": {
     "layout": "vertical",
