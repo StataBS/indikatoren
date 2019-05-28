@@ -9,35 +9,35 @@
       "data": [
         [
           "Schweiz",
-          48.2
+          48.8
         ],
         [
           "Deutschland",
-          51.8
-        ],
-        [
-          "Italien",
-          58.9
+          52.5
         ],
         [
           "USA",
-          49.2
+          46.1
+        ],
+        [
+          "Italien",
+          55.1
         ],
         [
           "Frankreich",
-          52.7
+          53.2
         ],
         [
           "UK",
-          52.7
+          54.6
         ],
         [
-          "Übriges Ausl.",
-          49.3
+          "Übriges Ausland",
+          50.6
         ],
         [
           "Total",
-          49.8
+          50.4
         ]
       ],
       "name": "Männer",
@@ -52,35 +52,35 @@
       "data": [
         [
           "Schweiz",
-          51.8
+          51.2
         ],
         [
           "Deutschland",
-          48.2
-        ],
-        [
-          "Italien",
-          41.1
+          47.5
         ],
         [
           "USA",
-          50.8
+          53.9
+        ],
+        [
+          "Italien",
+          44.9
         ],
         [
           "Frankreich",
-          47.3
+          46.8
         ],
         [
           "UK",
-          47.3
+          45.4
         ],
         [
-          "Übriges Ausl.",
-          50.7
+          "Übriges Ausland",
+          49.4
         ],
         [
           "Total",
-          50.2
+          49.6
         ]
       ],
       "name": "Frauen",
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -208,7 +208,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
   },
   "legend": {
     "symbolRadius": 0,
@@ -223,7 +223,7 @@
     "itemWidth": 110
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

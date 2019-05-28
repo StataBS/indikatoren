@@ -8,14 +8,6 @@
       "zIndex": 5,
       "data": [
         [
-          2007,
-          132
-        ],
-        [
-          2008,
-          155
-        ],
-        [
           2009,
           189
         ],
@@ -50,6 +42,10 @@
         [
           2017,
           25
+        ],
+        [
+          2018,
+          80
         ]
       ],
       "name": "Zuzugsort: unbekannt"
@@ -60,14 +56,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2007,
-          6965
-        ],
-        [
-          2008,
-          7789
-        ],
         [
           2009,
           7432
@@ -103,6 +91,10 @@
         [
           2017,
           7697
+        ],
+        [
+          2018,
+          7756
         ]
       ],
       "name": "Zuzugsort: Ausland"
@@ -113,14 +105,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2007,
-          2929
-        ],
-        [
-          2008,
-          3238
-        ],
         [
           2009,
           3049
@@ -156,6 +140,10 @@
         [
           2017,
           3158
+        ],
+        [
+          2018,
+          3197
         ]
       ],
       "name": "Zuzugsort: übrige Schweiz"
@@ -166,14 +154,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2007,
-          2666
-        ],
-        [
-          2008,
-          2987
-        ],
         [
           2009,
           2802
@@ -209,6 +189,10 @@
         [
           2017,
           2856
+        ],
+        [
+          2018,
+          3036
         ]
       ],
       "name": "Zuzugsort: Schweizer Agglo. BS"
@@ -219,14 +203,6 @@
       "pointWidth": "15",
       "legendIndex": 0,
       "data": [
-        [
-          2007,
-          -897
-        ],
-        [
-          2008,
-          -1160
-        ],
         [
           2009,
           -1023
@@ -262,6 +238,10 @@
         [
           2017,
           -1252
+        ],
+        [
+          2018,
+          -1294
         ]
       ],
       "name": "Wegzugsort: unbekannt"
@@ -272,14 +252,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2007,
-          -3941
-        ],
-        [
-          2008,
-          -3866
-        ],
         [
           2009,
           -3844
@@ -315,6 +287,10 @@
         [
           2017,
           -4885
+        ],
+        [
+          2018,
+          -4700
         ]
       ],
       "name": "Wegzugsort: Ausland"
@@ -325,14 +301,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2007,
-          -3114
-        ],
-        [
-          2008,
-          -3057
-        ],
         [
           2009,
           -2915
@@ -368,6 +336,10 @@
         [
           2017,
           -2952
+        ],
+        [
+          2018,
+          -3205
         ]
       ],
       "name": "Wegzugsort: übrige Schweiz"
@@ -378,14 +350,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2007,
-          -4181
-        ],
-        [
-          2008,
-          -4052
-        ],
         [
           2009,
           -4024
@@ -421,6 +385,10 @@
         [
           2017,
           -4069
+        ],
+        [
+          2018,
+          -4182
         ]
       ],
       "name": "Wegzugsort: Schweizer Agglo. BS"
@@ -433,14 +401,6 @@
       },
       "legendIndex": 4,
       "data": [
-        [
-          2007,
-          559
-        ],
-        [
-          2008,
-          2034
-        ],
         [
           2009,
           1666
@@ -476,6 +436,10 @@
         [
           2017,
           578
+        ],
+        [
+          2018,
+          688
         ]
       ],
       "name": "Saldo"
@@ -632,7 +596,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
   },
   "legend": {
     "symbolRadius": 0,

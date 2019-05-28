@@ -8879,15 +8879,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-06T13:11:21.2121",
+		"aktualisierungsdatum": "2019-05-27T13:40:28.2828",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Erschliessungsqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr. Gut 30% in einem Gebiet der Güteklasse B. Der Unterschied zwischen den Jahren 2016 und 2017 ist minimal.",
+		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Der Unterschied zwischen den Jahren 2017 und 2018 ist minimal.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_001",
@@ -8899,12 +8900,15 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'http://www.stadtplan.bs.ch/geoviewer/data/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
-			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_groups=G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
+			"<a href = 'https://map.geo.bs.ch/main/wsgi/file_proxy/GO_GueteklassenOeV/Definition_Gueteklassen_oeffentlicher_Verkehr.pdf' target = '_blank'>Definition der Güteklassen des öffentlichen Verkehrs</a>",
+			"<a href = 'https://map.geo.bs.ch/ngeodesktop?lang=de&baselayer_ref=Grundkarte%20grau&map_x=2612508&map_y=1267331&map_zoom=2&tree_group_layers_G%C3%BCteklassen%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV&tree_groups=Liniennetz%20%C3%B6ffentlicher%20Verkehr&tree_group_layers_Liniennetz%20%C3%B6ffentlicher%20Verkehr=GO_GueteklassenOeV' target = '_blank'>Karte der Güteklassen des öffentlichen Verkehrs</a>"
 		],
-		"id": 5822,
-		"darstellungsart": "Grafik"
+		"data-id": 5822,
+		"chart-id": 5822,
+		"filter": "",
+		"id": 5822
 	},
 	{
 		"title": "Beschäftigtendichte",
@@ -9068,7 +9072,7 @@ var indikatoren = [
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.5.6011",
-		"kuerzelKunde": "1-1",
+		"kuerzelKunde": "2-1",
 		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9076,17 +9080,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:39:26.2626",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 zogen 13 736 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 158 Personen verliessen den Kanton im Jahr 2017. Ein Jahr zuvor wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2008 und 2017 stets positiv aus.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2018 zogen 14 069 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 381 Personen verliessen den Kanton im Jahr 2018. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2009 und 2018 stets positiv aus.",
+		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bärschwil, Bättwil, Bennwil, Biel-Benken, Binningen, Birsfelden, Blauen, Böckten, Bottmingen, Breitenbach, Bretzwil, Brislach, Bubendorf, Buckten, Büren, Burg im Leimental, Büsserach, Buus, Diepflingen, Dittingen, Dornach, Duggingen, Ettingen, Fehren, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Hellikon, Hemmiken, Hersberg, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kleinlützel, Lampenberg, Laufen, Lausen, Lauwil, Liestal, Lupsingen, Magden, Maisprach, Meltingen, Metzerlen-Mariastein, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Nunningen, Nusshof, Oberdorf, Obermumpf, Oberwil, Olsberg, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rheinfelden, Rickenbach, Rodersdorf, Röschenz, Rümlingen, Rünenberg, Schönenbuch, Seltisberg, Seewen, Sissach, Tecknau, Tenniken, Therwil, Titterten, Thürnen, Wahlen, Wegenstetten, Wenslingen, Wintersingen, Witterswil, Wittinsburg, Zeiningen, Ziefen, Zullwil, Zunzgen, Zuzgen, Zwingen.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_001",
+		"orderKey": "01_01_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5155",
@@ -9096,11 +9102,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6011,
-		"darstellungsart": "Grafik"
+		"data-id": 6011,
+		"chart-id": 6011,
+		"filter": "",
+		"id": 6011
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -9146,9 +9155,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6013",
-		"kuerzelKunde": "1-3",
+		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9156,17 +9165,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:02:47.4747",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2017. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 956 Personen), danach folgen Personen aus Italien (526) und den Vereinigten Staaten von Amerika (512). Aus Frankreich und dem Vereinigten Königreich kommen gleichviele Personen (je 431). Die übrigen 3 841 Zuzüger verteilen sich auf 128 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2018. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 011 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (532) und Italien (486). Aus Frankreich kommen 474 Personen, aus dem Vereinigten Königreich 438. Die übrigen 3 815 Zuzüger verteilen sich auf 125 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"template": "pie001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_003",
+		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6762"
@@ -9175,17 +9186,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6013,
-		"darstellungsart": "Grafik"
+		"data-id": 6013,
+		"chart-id": 6013,
+		"filter": "",
+		"id": 6013
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.5.6016",
-		"kuerzelKunde": "1-6",
+		"kuerzelKunde": "2-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9193,17 +9207,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:48:23.2323",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 55% der Personen, die 2017 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug knapp 75%, derjenige der italienischen Staatsangehörigen an allen aus Italien Zugewanderten 84%.",
+		"lesehilfe": "Bei 56% der Personen, die 2018 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 57%.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_006",
+		"orderKey": "01_01_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6765"
@@ -9212,17 +9228,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6016,
-		"darstellungsart": "Grafik"
+		"data-id": 6016,
+		"chart-id": 6016,
+		"filter": "",
+		"id": 6016
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6017",
-		"kuerzelKunde": "1-7",
+		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9230,17 +9249,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:49:15.1515",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut die Hälfte (50,2%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus der Schweiz (51,8%) und aus den Vereinigten Staaten (50,8%) auf, niedrigere jene aus Deutschland (48,2%), Frankreich (47,3%), dem Vereinigten Königreich (47,3%) und Italien (41,1%).",
+		"lesehilfe": "Knapp die Hälfte (49,6%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus den Vereinigten Staaten (53,9%) und der Schweiz (51,2%) auf, niedrigere jene aus dem Vereinigten Königreich (49,4%), Deutschland (47,5%), Frankreich (46,8%) und Italien (44,9%).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_007",
+		"orderKey": "01_01_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"6766"
@@ -9249,17 +9270,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6017,
-		"darstellungsart": "Grafik"
+		"data-id": 6017,
+		"chart-id": 6017,
+		"filter": "",
+		"id": 6017
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2008 - 2017 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
 		"kuerzel": "I.01.5.6018",
-		"kuerzelKunde": "1-8",
+		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9267,17 +9291,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:50:34.3434",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2008 und 2017 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen sowie den 20- bis 24-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2009 und 2018 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen sowie den 20- bis 24-Jährigen positiv.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_008",
+		"orderKey": "01_01_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"6767"
@@ -9286,17 +9312,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6018,
-		"darstellungsart": "Grafik"
+		"data-id": 6018,
+		"chart-id": 6018,
+		"filter": "",
+		"id": 6018
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2008 - 2017 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
 		"kuerzel": "I.01.5.6019",
-		"kuerzelKunde": "1-9",
+		"kuerzelKunde": "2-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9304,17 +9333,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:51:10.1010",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wanderunsgsaldo der aus dem Ausland Zu- bzw. Weggezogenen fällt für alle Fünfjahresklassen zwischen 0 und 59 Jahren positiv aus. In den Altersgruppen der 60-Jährigen und Älteren übersteigt hingegen die Zahl der Wegzüger jene der Zuzüger.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_009",
+		"orderKey": "01_01_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6768"
@@ -9323,17 +9354,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6019,
-		"darstellungsart": "Grafik"
+		"data-id": 6019,
+		"chart-id": 6019,
+		"filter": "",
+		"id": 6019
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6021",
-		"kuerzelKunde": "1-11",
+		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9342,17 +9376,19 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:52:44.4444",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 kamen 25% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 68% deutlich höher. Ebenfalls überdurchschittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Matthäus, Klybeck und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwandererer aus Italien. In der Grossbasler Altstadt sowie in den Wohnvierteln Bachletten und Wettstein lassen sich Neuzuzüger aus den Vereinigten Staaten im Vergleich zum Gesamtkanton besonders oft nieder, in den Quartieren Bachletten, Altstadt Kleinbasel und Klybeck Personen aus Frankreich. Die Wohnviertel Bruderholz, Gotthelf und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton überdurchschnittlich hohe Anteile von Personen aus dem Vereinigten Königreich.",
+		"lesehilfe": "Im Jahr 2018 kamen 26% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 70% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Altstadt Grossbasel, Bruderholz und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Breite sowie in den Wohnvierteln Gotthelf, Clara und Hirzbrunnen lassen sich Neuzuzüger aus Italien im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt, in den Vorstädten und in den Quartieren Wettstein und Kleinhüningen Personen aus Frankreich. Die Wohnviertel Vorstädte, Wettstein und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus dem Vereinigten Königreich.",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_011",
+		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6770"
@@ -9361,11 +9397,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6021,
-		"darstellungsart": "Grafik"
+		"data-id": 6021,
+		"chart-id": 6021,
+		"filter": "",
+		"id": 6021
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -9407,9 +9446,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2017",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6023",
-		"kuerzelKunde": "1-4",
+		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9417,17 +9456,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:53:21.2121",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2017 den grössten Zuzugsüberschuss gegenüber Deutschland (+688). Den zweiten Rang belegte Italien (+274), den dritten das Vereinigte Königreich (+199). Danach folgten die Vereinigten Staaten (+111). Die Wanderungsbilanz mit Frankreich fiel negativ aus (-21).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2018 den grössten Zuzugsüberschuss gegenüber Deutschland (+727). Den zweiten Rang belegte Italien (+274), den dritten die Vereinigten Staaten (+163). Danach folgten das Vereinigte Königreich (+140) und Frankreich (+62).",
 		"erlaeuterungen": "",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_004",
+		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6772"
@@ -9436,17 +9477,20 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6023,
-		"darstellungsart": "Grafik"
+		"data-id": 6023,
+		"chart-id": 6023,
+		"filter": "",
+		"id": 6023
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2008 = 100)",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2009 = 100)",
 		"kuerzel": "I.01.5.6024",
-		"kuerzelKunde": "1-5",
+		"kuerzelKunde": "2-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9454,17 +9498,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-05-27T13:37:48.4848",
+		"stufe1": "Herkunftsorte und Wanderziele",
+		"stufe2": "Herkunftsorte und Wanderziele",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Italien ist 2017 gegenüber 2008 um 77% auf 177 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 19% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2008 und 2017 ist die Zuwanderung aus den Vereinigten Staaten um 11% gestiegen. Aus Deutschland kamen weniger Personen als noch 2008 (-24%), ebenso aus dem Vereinigten Königreich (-5%).",
+		"lesehilfe": "Die Zuwanderung aus Italien ist 2018 gegenüber 2009 um 71% auf 171 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 31% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2009 und 2018 ist die Zuwanderung aus den Vereinigten Staaten um 5% gestiegen. Aus Deutschland kamen weniger Personen als noch 2009 (-14%), ebenso aus dem Vereinigten Königreich (-10%).",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_005",
+		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6773"
@@ -9473,11 +9519,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6024,
-		"darstellungsart": "Grafik"
+		"data-id": 6024,
+		"chart-id": 6024,
+		"filter": "",
+		"id": 6024
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -14074,23 +14123,23 @@ var indikatoren = [
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
-		"kuerzel": "I.09.2.06377",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.06377",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-05-27T13:29:39.3939",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektar aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -14119,23 +14168,23 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
-		"kuerzel": "I.09.2.06378",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.06378",
 		"kuerzelKunde": "C9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-05-27T13:30:51.5151",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit knapp 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Landgemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
