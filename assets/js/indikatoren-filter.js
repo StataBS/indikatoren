@@ -367,7 +367,7 @@ function renderLastUpdatedSets(selector){
 		var container = $("#datenliste");
 		$.each(datenliste, function(i, c){
 			//only add if row is not empty
-			if (c.Datum && i < 5){
+			if (c.Datum && i < 9){
     		container.find('tbody').append(templateFunction({Datum: c.Datum, ThemaLink: c.ThemaLink, Thema: c.Thema, Bereich: c.Bereich, Datenstand: c.Datenstand}));
 			}
   	});
