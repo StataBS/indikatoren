@@ -1,0 +1,334 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "data": [
+        [
+          2012,
+          7.1
+        ],
+        [
+          2013,
+          7.1
+        ],
+        [
+          2014,
+          7
+        ],
+        [
+          2015,
+          6.81
+        ],
+        [
+          2016,
+          6.69
+        ],
+        [
+          2017,
+          6.52
+        ],
+        [
+          2018,
+          6.56
+        ]
+      ],
+      "name": "Akutsomatik"
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          2012,
+          22.13
+        ],
+        [
+          2013,
+          20.64
+        ],
+        [
+          2014,
+          18.1
+        ],
+        [
+          2015,
+          17.47
+        ],
+        [
+          2016,
+          18.06
+        ],
+        [
+          2017,
+          17.69
+        ],
+        [
+          2018,
+          16.58
+        ]
+      ],
+      "name": "Geriatrie"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2012,
+          36.59
+        ],
+        [
+          2013,
+          36.4
+        ],
+        [
+          2014,
+          38.03
+        ],
+        [
+          2015,
+          35.01
+        ],
+        [
+          2016,
+          35.87
+        ],
+        [
+          2017,
+          34.31
+        ],
+        [
+          2018,
+          37.36
+        ]
+      ],
+      "name": "Psychiatrie"
+    },
+    {
+      "color": "#8B2223",
+      "data": [
+        [
+          2012,
+          28.98
+        ],
+        [
+          2013,
+          29.94
+        ],
+        [
+          2014,
+          28.78
+        ],
+        [
+          2015,
+          28.28
+        ],
+        [
+          2016,
+          31.99
+        ],
+        [
+          2017,
+          29.25
+        ],
+        [
+          2018,
+          28.16
+        ]
+      ],
+      "name": "Rehabilitation"
+    },
+    {
+      "color": "#474747",
+      "data": [
+        [
+          2012,
+          10.62
+        ],
+        [
+          2013,
+          10.5
+        ],
+        [
+          2014,
+          10.19
+        ],
+        [
+          2015,
+          9.86
+        ],
+        [
+          2016,
+          9.93
+        ],
+        [
+          2017,
+          9.5
+        ],
+        [
+          2018,
+          9.48
+        ]
+      ],
+      "name": "Gesamt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6993"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittlere Aufenthaltsdauer in Spitälern"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Hauptbereich in Tagen, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6993
+  }
+}

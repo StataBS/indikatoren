@@ -4,10 +4,6 @@
       "color": "#A8C3CA",
       "data": [
         [
-          2006,
-          62984
-        ],
-        [
           2007,
           65318
         ],
@@ -42,6 +38,10 @@
         [
           2015,
           68248
+        ],
+        [
+          2016,
+          69823
         ]
       ],
       "name": "Mittelwert Reineinkommen"
@@ -49,10 +49,6 @@
     {
       "color": "#689199",
       "data": [
-        [
-          2006,
-          48563
-        ],
         [
           2007,
           49530
@@ -88,6 +84,10 @@
         [
           2015,
           49142
+        ],
+        [
+          2016,
+          49335
         ]
       ],
       "name": "Median Reineinkommen"
@@ -96,10 +96,6 @@
       "color": "#083038",
       "yAxis": 1,
       "data": [
-        [
-          2006,
-          1023135594
-        ],
         [
           2007,
           1069643932
@@ -135,6 +131,10 @@
         [
           2015,
           1115105002
+        ],
+        [
+          2016,
+          1155675717
         ]
       ],
       "name": "Ertrag aus Einkommenssteuer (rechte Skala)"
@@ -249,7 +249,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
   },
   "legend": {
     "enabled": true,

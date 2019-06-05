@@ -1000,6 +1000,8 @@ id | visible | visibleInPortal | indikatorenset
 6989 | true | false | Wohnviertel
 6990 | true | true | Wohnviertel
 6991 | true | true | 
+6992 | true | true | 
+6993 | true | true | 
 7000 | true | true | 
 7068 | true | true | 
 7432 | true | true | 

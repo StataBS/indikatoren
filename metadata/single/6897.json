@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-04T09:58:15.1515",
 "stufe1":"Ertrag des Kantons",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die einzelnen Steuerertragsarten haben sich seit 2006 unterschiedlich entwickelt. Grössere Schwankungen liegen vor allem bei der Gewinnsteuer vor, zwischen 2006 und 2014 ist der Wert nominal um 18,1% zurückgegangen. 2006, vor Beginn der Finanz- und Wirtschaftskrise, lag er am höchsten Der Ertrag aus Vermögenssteuern ist von 2006 bis 2015 um 27,0% gestiegen. Insbesondere bei den juristischen Personen zeigen sich die Auswirkungen der wirtschaftlichen Entwicklung nach 2007. Der Ertrag aus Einkommenssteuern ist seit 2006 um 9,0% gestiegen. Mehr als verdoppelt hat sich seit 2006 der Ertrag aus Quellenbesteuerung.",
+"lesehilfe":"Die einzelnen Steuerertragsarten haben sich seit 2007 unterschiedlich entwickelt. Grössere Schwankungen liegen vor allem bei der Gewinnsteuer vor, zwischen 2007 und 2015 ist der Wert nominal um 32,8% zurückgegangen – allerdings ist der Ausgangswert des Jahres 2007 mit 790 Mio. Franken auch aussergewöhnlich hoch. Generell zeigen sich bei den juristischen Personen die Auswirkungen der wirtschaftlichen Entwicklung nach 2007 deutlicher. Bei den natürlichen Personen ist der Ertrag aus Einkommenssteuern von 2007 bis 2016 um 8,0%, aus Vermögenssteuern um 43,8% gestiegen. Der Ertrag aus Quellenbesteuerung stieg um 76,6%.",
 "erlaeuterungen":"Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist.",
 "template":"line001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6897, 
+"chart-id":6897, 
+"filter":""
 }

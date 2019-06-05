@@ -8,14 +8,14 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-03T10:09:55.5555",
 "stufe1":"Ordentliche Veranlagung natürlicher Personen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2015 beträgt der Mittelwert 68 248 Franken (+8,4% seit 2006, -0,4% gegenüber 2014), der Median 49 142 Franken (+1,2% seit 2006, +0,2% gegenüber 2014). Der Mittelwert ist seit 2006 also stärker gestiegen als der Median; der Mittelwert reagiert zum Beispiel stärker auf eine Zunahme der höheren Einkommen. Der Ertrag aus Einkommenssteuer beträgt 1,115 Mrd. Franken 2015 (fast unverändert gegenüber dem Vorjahr und +9,0% seit 2006).",
-"erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+"lesehilfe":"Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2016 beträgt der Mittelwert rund 69 800 Franken (+6,9% seit 2007, +2,3% gegenüber 2015), der Median ca. 49 300 Franken (-0,4% seit 2007, +0,4% gegenüber 2015). Der Mittelwert ist im Gegensatz zum Median verglichen mit 2007 gestiegen – der Mittelwert reagiert unter anderem stärker auf eine Zunahme der höheren Einkommen. Im Jahr 2016 beträgt der Ertrag aus Einkommenssteuer 1,155 Mrd. Franken (+3,6% gegenüber dem Vorjahr und +8,0% seit 2007).",
+"erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6900, 
+"chart-id":6900, 
+"filter":""
 }

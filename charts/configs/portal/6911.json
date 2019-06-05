@@ -9,31 +9,31 @@
         ],
         [
           "Vorstädte",
-          8011683
+          8011683.35
         ],
         [
           "Am Ring",
-          13716817
+          13716816.5
         ],
         [
           "Breite",
-          6938102
+          6938102.1
         ],
         [
           "St. Alban",
-          20095492
+          20095491.9
         ],
         [
           "Gundeldingen",
-          15998569
+          15998569.3
         ],
         [
           "Bruderholz",
-          9113719
+          9113719.35
         ],
         [
           "Bachletten",
-          8829130
+          8829130.45
         ],
         [
           "Gotthelf",
@@ -41,15 +41,15 @@
         ],
         [
           "Iselin",
-          9824979
+          9824978.5
         ],
         [
           "St. Johann",
-          11498407
+          11498406.65
         ],
         [
           "Altstadt KB",
-          2231840
+          2231840.2
         ],
         [
           "Clara",
@@ -57,35 +57,35 @@
         ],
         [
           "Wettstein",
-          5423391
+          5423391.05
         ],
         [
           "Hirzbrunnen",
-          1930409
+          1930409.2
         ],
         [
           "Rosental",
-          4366105
+          4366104.85
         ],
         [
           "Matthäus",
-          12837922
+          12837921.65
         ],
         [
           "Klybeck",
-          2961136
+          2961135.75
         ],
         [
           "Kleinhüning.",
-          553662
+          553661.75
         ],
         [
           "Riehen",
-          14228365
+          14228364.8
         ],
         [
           "Bettingen",
-          906636
+          906635.85
         ]
       ],
       "name": "Quellensteuerertrag 2008",
@@ -96,90 +96,90 @@
       "data": [
         [
           "Altstadt GB",
-          7822527
+          12185824.2
         ],
         [
           "Vorstädte",
-          17464532
+          18590721.65
         ],
         [
           "Am Ring",
-          20927391
+          23354716.75
         ],
         [
           "Breite",
-          9477788
+          9889189.05
         ],
         [
           "St. Alban",
-          24719887
+          25819403.5
         ],
         [
           "Gundeldingen",
-          21974175
+          22646914.3
         ],
         [
           "Bruderholz",
-          12190721
+          10660708.95
         ],
         [
           "Bachletten",
-          10671509
+          11667208.05
         ],
         [
           "Gotthelf",
-          7291451
+          8133299.3
         ],
         [
           "Iselin",
-          14345802
+          13866450.3
         ],
         [
           "St. Johann",
-          22722628
+          21939070
         ],
         [
           "Altstadt KB",
-          4368879
+          4476044.5
         ],
         [
           "Clara",
-          4854687
+          4752048.8
         ],
         [
           "Wettstein",
-          10440625
+          13335371.15
         ],
         [
           "Hirzbrunnen",
-          5478393
+          6405924.95
         ],
         [
           "Rosental",
-          12874288
+          12980063.24
         ],
         [
           "Matthäus",
-          21576967
+          19273380.75
         ],
         [
           "Klybeck",
-          3807153
+          3711213.75
         ],
         [
           "Kleinhüning.",
-          1499023
+          1579972.95
         ],
         [
           "Riehen",
-          18370208
+          21324682.25
         ],
         [
           "Bettingen",
-          598361
+          541454.4
         ]
       ],
-      "name": "Quellensteuerertrag 2016",
+      "name": "Quellensteuerertrag 2017",
       "turboThreshold": 0
     },
     {
@@ -196,7 +196,7 @@
         ],
         [
           "Vorstädte",
-          543
+          544
         ],
         [
           "Am Ring",
@@ -204,15 +204,15 @@
         ],
         [
           "Breite",
-          647
+          648
         ],
         [
           "St. Alban",
-          847
+          849
         ],
         [
           "Gundeldingen",
-          1889
+          1897
         ],
         [
           "Bruderholz",
@@ -220,7 +220,7 @@
         ],
         [
           "Bachletten",
-          579
+          580
         ],
         [
           "Gotthelf",
@@ -228,39 +228,39 @@
         ],
         [
           "Iselin",
-          1300
+          1301
         ],
         [
           "St. Johann",
-          1879
+          1883
         ],
         [
           "Altstadt KB",
-          227
+          228
         ],
         [
           "Clara",
-          412
+          413
         ],
         [
           "Wettstein",
-          465
+          466
         ],
         [
           "Hirzbrunnen",
-          259
+          260
         ],
         [
           "Rosental",
-          591
+          593
         ],
         [
           "Matthäus",
-          1937
+          1943
         ],
         [
           "Klybeck",
-          574
+          577
         ],
         [
           "Kleinhüning.",
@@ -268,7 +268,7 @@
         ],
         [
           "Riehen",
-          976
+          981
         ],
         [
           "Bettingen",
@@ -289,90 +289,90 @@
       "data": [
         [
           "Altstadt GB",
-          305
+          334
         ],
         [
           "Vorstädte",
-          929
+          921
         ],
         [
           "Am Ring",
-          1788
+          1839
         ],
         [
           "Breite",
-          971
+          985
         ],
         [
           "St. Alban",
-          1242
+          1290
         ],
         [
           "Gundeldingen",
-          2446
+          2490
         ],
         [
           "Bruderholz",
-          523
+          518
         ],
         [
           "Bachletten",
-          940
+          925
         ],
         [
           "Gotthelf",
-          714
+          712
         ],
         [
           "Iselin",
-          2050
+          2141
         ],
         [
           "St. Johann",
-          2855
+          2793
         ],
         [
           "Altstadt KB",
-          459
+          402
         ],
         [
           "Clara",
-          708
+          707
         ],
         [
           "Wettstein",
-          706
+          693
         ],
         [
           "Hirzbrunnen",
-          607
+          673
         ],
         [
           "Rosental",
-          1412
+          1462
         ],
         [
           "Matthäus",
-          2948
+          2862
         ],
         [
           "Klybeck",
-          1000
+          1048
         ],
         [
           "Kleinhüning.",
-          343
+          337
         ],
         [
           "Riehen",
-          1322
+          1402
         ],
         [
           "Bettingen",
-          110
+          120
         ]
       ],
-      "name": "Anzahl Veranlagungen 2016 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2017 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -467,7 +467,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt, 2008 und 2016",
+    "text": "in Franken, Basel-Stadt, 2008 und 2017",
     "align": "left"
   },
   "yAxis": [
@@ -529,7 +529,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-4"
   },
   "legend": {
     "symbolRadius": 0,
