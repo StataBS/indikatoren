@@ -7,11 +7,11 @@
       "data": [
         [
           "Veranlagungen",
-          6290
+          6329
         ],
         [
-          "Summe Gesamtssteuer",
-          34779487
+          "Summe Gesamtsteuer",
+          37832966
         ]
       ],
       "name": "0",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          948
+          933
         ],
         [
-          "Summe Gesamtssteuer",
-          1394740
+          "Summe Gesamtsteuer",
+          1239822
         ]
       ],
       "name": "1 bis 4 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          506
+          446
         ],
         [
-          "Summe Gesamtssteuer",
-          1123222
+          "Summe Gesamtsteuer",
+          979832
         ]
       ],
       "name": "5 000 bis 9 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          521
+          569
         ],
         [
-          "Summe Gesamtssteuer",
-          1857922
+          "Summe Gesamtsteuer",
+          2087034
         ]
       ],
       "name": "10 000 bis 19 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          734
+          720
         ],
         [
-          "Summe Gesamtssteuer",
-          5336132
+          "Summe Gesamtsteuer",
+          5434291
         ]
       ],
       "name": "20 000 bis 49 999",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          460
+          501
         ],
         [
-          "Summe Gesamtssteuer",
-          6518169
+          "Summe Gesamtsteuer",
+          6909356
         ]
       ],
       "name": "50 000 bis 99 999",
@@ -109,11 +109,11 @@
       "data": [
         [
           "Veranlagungen",
-          988
+          999
         ],
         [
-          "Summe Gesamtssteuer",
-          42523484
+          "Summe Gesamtsteuer",
+          42695252
         ]
       ],
       "name": "100 000 bis 999 999",
@@ -126,11 +126,11 @@
       "data": [
         [
           "Veranlagungen",
-          512
+          536
         ],
         [
-          "Summe Gesamtssteuer",
-          601127581
+          "Summe Gesamtsteuer",
+          586049763
         ]
       ],
       "name": "1 Mio. und mehr",
@@ -223,7 +223,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2014"
+    "text": "in Franken, Basel-Stadt, 2015"
   },
   "navigation": {
     "menuItemStyle": {
@@ -284,7 +284,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
   },
   "legend": {
     "layout": "vertical",

@@ -8,14 +8,14 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-03T10:10:57.5757",
 "stufe1":"Ordentliche Veranlagung natürlicher Personen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Der Median des Reinvermögens ist seit 2006 überwiegend gestiegen, insgesamt um 40,8% von 11 561 auf 16 281 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen grössere Schwankungen. Seit 2006 ist der Mittelwert um 9,1% auf 440  302 Franken gestiegen, der Ertrag um 27,0% auf über 270 Mio. Franken. Im Vergleich zum Vorjahr sind beide Werte etwas zurückgegangen, der Mittelwert um 10,1%, der Ertrag um 11,5%. Dass der Median des Reinvermögens gestiegen ist, zeigt, dass sich die tieferen Vermögen im allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
-"erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
+"lesehilfe":"Der Median des Reinvermögens ist seit 2007 überwiegend gestiegen, insgesamt um 64,7% von rund 11 400 auf ca. 18 800 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuer zeigen grössere Schwankungen. Seit 2007 ist der Mittelwert um 25,0% auf rund 490 000 Franken gestiegen, der Ertrag um 43,8% auf über 300 Mio. Franken. Im Vergleich zum Vorjahr sind beide Werte gestiegen, der Mittelwert um 11,0%, der Ertrag um 11,4%. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+"erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6903, 
+"chart-id":6903, 
+"filter":""
 }

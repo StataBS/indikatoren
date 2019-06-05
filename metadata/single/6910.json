@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-03T10:13:59.5959",
 "stufe1":"Wanderung",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Seit dem Jahr 2009 liegt jedes Jahr ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2015 betrug er fast 2,8 Mio. Franken. Sowohl bei der Einkommenssteuer (2,1 Mio. Franken) als auch bei der Vermögenssteuer (680 000 Franken) wurde ein Plus verzeichnet. Von Zuzügern lagen für das Steuerjahr 2015 insgesamt 5 081 Veranlagungen vor, von Wegzügern des Vorjahres 4 399 Veranlagungen.",
+"lesehilfe":"Seit dem Jahr 2009 liegt jedes Jahr ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2016 betrug er 6,4 Mio. Franken. Sowohl bei der Einkommenssteuer (6,2 Mio. Franken) als auch bei der Vermögenssteuer (200 000 Franken) wurde ein Plus verzeichnet. Von Zuzügern lagen für das Steuerjahr 2016 rund 5 100 Veranlagungen vor, von Wegzügern des Vorjahres 4 300 Veranlagungen. Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen.",
 "erlaeuterungen":"Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 "template":"line001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6910, 
+"chart-id":6910, 
+"filter":""
 }

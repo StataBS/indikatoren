@@ -57,15 +57,15 @@
       "data": [
         [
           "Erwerb",
-          178178055
+          178178054.8
         ],
         [
           "Versicherung",
-          709302
+          709301.95
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          66739577
+          66739576.75
         ],
         [
           "Grenzgänger aus Frankreich",
@@ -73,11 +73,11 @@
         ],
         [
           "Künstler, Sport",
-          3018537
+          3018537.4
         ],
         [
           "Verwaltungsräte",
-          4083684
+          4083683.8
         ],
         [
           "Renten",
@@ -85,7 +85,7 @@
         ],
         [
           "Kapitalleistungen",
-          18981716
+          18981716.35
         ]
       ],
       "name": "Ertrag 2008",
@@ -129,7 +129,7 @@
           null
         ]
       ],
-      "name": "Ertrag 2016",
+      "name": "Ertrag 2017",
       "turboThreshold": 0
     },
     {
@@ -148,38 +148,38 @@
       "data": [
         [
           "Erwerb",
-          277696457
+          300499792.29
         ],
         [
           "Versicherung",
-          2290200
+          2316241.7
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          86379197
+          89194693.56
         ],
         [
           "Grenzgänger aus Frankreich",
-          70743027
+          73122259
         ],
         [
           "Künstler, Sport",
-          1255391
+          1261113.55
         ],
         [
           "Verwaltungsräte",
-          10056826
+          14739701.95
         ],
         [
           "Renten",
-          2646568
+          2876929.2
         ],
         [
           "Kapitalleistungen",
-          24891150
+          27893274.7
         ]
       ],
-      "name": "Ertrag 2016",
+      "name": "Ertrag 2017",
       "turboThreshold": 0
     },
     {
@@ -240,38 +240,38 @@
       "data": [
         [
           "Erwerb",
-          30987
+          32044
         ],
         [
           "Versicherung",
-          2360
+          2373
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          25251
+          25579
         ],
         [
           "Grenzgänger aus Frankreich",
-          23311
+          23008
         ],
         [
           "Künstler, Sport",
-          1616
+          1613
         ],
         [
           "Verwaltungsräte",
-          519
+          529
         ],
         [
           "Renten",
-          1295
+          1391
         ],
         [
           "Kapitalleistungen",
-          7421
+          7829
         ]
       ],
-      "name": "Veranlagungen 2016 (rechte Skala)",
+      "name": "Veranlagungen 2017 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -363,7 +363,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt, 2008 und 2016",
+    "text": "in Franken, Basel-Stadt, 2008 und 2017",
     "align": "left"
   },
   "yAxis": [
@@ -425,7 +425,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-27"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-4"
   },
   "legend": {
     "symbolRadius": 0,

@@ -8,14 +8,14 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-03T10:07:52.5252",
 "stufe1":"Ertrag des Kantons",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Gesamteinnahmen des Kantons betragen über die Jahre gesehen zwischen knapp 4 Mrd. und über 5 Mrd. Franken (im Jahr 2007 aufgrund der Spezialfinanzierung in Höhe von über 1 Mrd. Franken zur Ausfinanzierung der Pensionskasse Basel-Stadt). Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt, was den Vergleich erschwert. 2015 beträgt der Ertrag aus Einkommens- und Vermögenssteuern fast 1,8 Mrd. Franken, der Anteil am Gesamtertrag beträgt 40,7%.",
-"erlaeuterungen":"Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer letztlich bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
+"lesehilfe":"Die Gesamteinnahmen des Kantons betragen über die Jahre gesehen zwischen knapp 4 Mrd. und über 5 Mrd. Franken (im Jahr 2007 aufgrund der Spezialfinanzierung in Höhe von über 1 Mrd. Franken zur Ausfinanzierung der Pensionskasse Basel-Stadt). Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt, was den Vergleich erschwert. 2016 beträgt der Ertrag aus Einkommens- und Vermögenssteuern über 1,7 Mrd. Franken, der Anteil am Gesamtertrag beträgt 38,9%.",
+"erlaeuterungen":"Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrundeliegen, die auf ein bestimmtes Steuerjahr bezogen sind – unabhängig davon, wann die Steuer bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6896, 
+"chart-id":6896, 
+"filter":""
 }

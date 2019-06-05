@@ -1,5 +1,5 @@
 {"title":"Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
-"subtitle":"in Franken, Basel-Stadt, 2014",
+"subtitle":"in Franken, Basel-Stadt, 2015",
 "kuerzel":"I.18.2.06982",
 "kuerzelKunde":"5.2",
 "description":"Steuerertrag juristischer Personen nach Stufen der Gesamtsteuer",
@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:06.066",
+"aktualisierungsdatum":"2019-06-03T10:14:40.4040",
 "stufe1":"Juristische Personen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2014 gibt es insgesamt 10 959 Veranlagungen von juristischen Personen in Basel-Stadt. 1 094 (10,0%) von ihnen müssen keine Gewinn-, Kapital- oder Grundstücksteuer bezahlen. Bei der grossen Mehrheit ( 6 975 Veranlagungen bzw. 63,6%) liegt der Steuerbetrag zwischen 1 und 4 999 Franken, der Ertrag belief sich auf etwas mehr als 7 Mio. Franken. In der obersten Kategorie – mit einem Steuerbetrag von über 1 Mio. Franken pro Veranlagung – gibt es 62 Veranlagungen (0,6% von allen), deren Steuerbetrag sich auf ca. 531 Mio. Franken (76,5% des gesamten Steuerbetrags) beläuft.",
+"lesehilfe":"Im Jahr 2015 gibt es insgesamt 11 033 Veranlagungen von juristischen Personen in Basel-Stadt. 1 218 (11,0%) von ihnen müssen keine Gewinn-, Kapital- oder Grundstücksteuer bezahlen. Bei der grossen Mehrheit ( rund 6 900 Veranlagungen bzw. 62,6%) liegt der Steuerbetrag zwischen 1 und 4 999 Franken, der Ertrag belief sich insgesamt auf etwas mehr als 7 Mio. Franken. In der obersten Kategorie – mit einem Steuerbetrag von über 1 Mio. Franken pro Veranlagung – gibt es 59 Veranlagungen (0,5% von allen), deren Steuerbetrag sich auf ca. 528 Mio. Franken (77,3% des gesamten Steuerbetrags der juristischen Personen) beläuft.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von juristischen Personen.",
 "template":"befragungen001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6982, 
+"chart-id":6982, 
+"filter":""
 }
