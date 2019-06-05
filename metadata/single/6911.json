@@ -1,5 +1,5 @@
 {"title":"Quellensteuerertrag",
-"subtitle":"in Franken, Basel-Stadt, 2008 und 2016",
+"subtitle":"in Franken, Basel-Stadt, 2008 und 2017",
 "kuerzel":"I.18.2.06911",
 "kuerzelKunde":"4-1",
 "description":"Quellensteuerertrag",
@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-27T14:45:05.055",
+"aktualisierungsdatum":"2019-06-04T10:37:59.5959",
 "stufe1":"Quellensteuer",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Bei der Quellensteuer liegen die neusten Daten bereits für das Jahr 2016 vor. Detaillierte Angaben wie nach Wohnviertel sind erst ab dem Jahr 2008 vorhanden, deshalb ist ein Zehnjahresvergleich nicht möglich. Innerhalb von neun Jahren hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. Die meisten Veranlagungen liegen 2016 im Wohnviertel Matthäus vor (2 948) vor. Der höchste Ertrag wird im Wohnviertel St. Alban mit 24,7 Mio. Franken verzeichnet.",
+"lesehilfe":"Bei der Quellensteuer liegen die neusten Daten bereits für das Jahr 2017 vor. Im Vergleich mit dem Jahr 2008 hat sowohl die Anzahl Veranlagungen als auch der Ertrag aus Quellensteuer von in Basel-Stadt wohnhaften Personen stark zugenommen. 2017 beträgt der Quellensteuerertrag rund 439 Mio. Franken. Die meisten Veranlagungen liegen 2017 im Wohnviertel Matthäus vor (ca. 2 900). Der höchste Ertrag wird im Wohnviertel St. Alban mit 25,8 Mio. Franken verzeichnet. Von Personen, die nicht im Kanton Basel-Stadt wohnen, stammen rund 172 Mio. Franken Quellensteuern.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Daten aus der Quellenbesteuerung in Basel-Stadt.",
 "template":"template001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6911, 
+"chart-id":6911, 
+"filter":""
 }

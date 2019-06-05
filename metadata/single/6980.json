@@ -1,5 +1,5 @@
 {"title":"Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-"subtitle":"in Franken, Basel-Stadt, 2015",
+"subtitle":"in Franken, Basel-Stadt, 2016",
 "kuerzel":"I.18.2.06980",
 "kuerzelKunde":"2-13",
 "description":"Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Steuern",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2018-09-27T14:45:06.066",
+"aktualisierungsdatum":"2019-06-04T11:05:08.088",
 "stufe1":"Ordentliche Veranlagung natürlicher Personen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2015 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Die grösste Summe des Gesamtertrags tragen Bruderholz und Riehen bei, was durch die Grösse der Kreise symbolisiert wird. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus.",
+"lesehilfe":"Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2016 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Die grösste Summe des Gesamtertrags tragen Bruderholz und Riehen bei, was durch die Grösse der Kreise symbolisiert wird. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
 "template":"mappie002",
 "darstellungsart":"Karte kontinuierlich",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Steuerstatistik Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6980, 
+"chart-id":6980, 
+"filter":""
 }
