@@ -7402,7 +7402,7 @@
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.4827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
@@ -7412,14 +7412,14 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
+		"aktualisierungsdatum": "2019-06-05T12:16:17.1717",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
-		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
