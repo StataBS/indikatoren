@@ -4465,13 +4465,6 @@
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
 		"template": "cbd8013f19a1f4d5c0c79409ed94273446c7d114"
 	},
-	"6437": {
-		"metadata": "771b3d1a8c020c7500f65a4d557695347e95ae18",
-		"chartConfig": "945bed80641ecfca2ace30a8c675a903b0ea398a",
-		"data": "be23f9fb572c0600c82aea4d5683a6624cd8768c",
-		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "34536e50cf379fdc85e2cd9b40c0b8c125efe462"
-	},
 	"6438": {
 		"metadata": "4fc24cc786f6790e17afe21cd95fe6da28ce5bb8",
 		"chartConfig": "ec788d323ffccbb2c8628cecc2646df117d353a2",
