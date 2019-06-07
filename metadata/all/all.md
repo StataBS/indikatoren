@@ -682,7 +682,7 @@ id | visible | visibleInPortal | indikatorenset
 6432 | true | true | Integration
 6434 | true | true | Nachhaltigkeit
 6435 | true | false | Nachhaltigkeit
-6437 | true | true | Legislaturplan
+6437 | false |  | Legislaturplan
 6438 | true | true | Legislaturplan
 6442 | true | false | Legislaturplan (Print)
 6443 | true | false | Legislaturplan (Print)
