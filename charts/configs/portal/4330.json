@@ -184,7 +184,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {

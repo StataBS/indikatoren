@@ -166,10 +166,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 6,
+    "ceiling": 7,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -181,7 +182,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -340,6 +341,7 @@
       "id": "BS0301_1",
       "valueSuffix": "Prozent (der Kantonsfläche)",
       "data": [
+        0.095,
         0.095,
         0.095,
         0.095,

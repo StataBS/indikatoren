@@ -182,7 +182,7 @@
         "color": "#000000"
       }
     },
-    "range": 25
+    "range": 1000
   },
   "yAxis": [
     {
@@ -434,6 +434,39 @@
       ],
       "visible": false,
       "_symbolIndex": 4
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielpfad MIV-Stadtstrassennetz (2020 = 90)",
+      "color": "#444444",
+      "id": "BS1705_6",
+      "valueSuffix": "Indexwert (Basis 2010 = 100)",
+      "data": [
+        100,
+        99,
+        98,
+        97,
+        96,
+        95,
+        94,
+        93
+      ],
+      "visible": true,
+      "_symbolIndex": 0
     }
   ]
 }

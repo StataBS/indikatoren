@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Anzahl Fenster, Basel-Stadt",
+    "text": "Anzahl Fenster (kumuliert), Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Fenster\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Fenster \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -170,10 +170,12 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017,
+      2018
     ],
     "floor": 1995,
-    "ceiling": 2016,
+    "ceiling": 2018,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -185,7 +187,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -336,12 +338,13 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
+      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Schallschutzfenster, kumuliert",
+      "name": "Eingebaute Schallschutzfenster",
       "color": "#FF8028",
       "id": "BS1004_1",
-      "valueSuffix": "Anzahl Fenster",
+      "valueSuffix": "Anzahl Fenster (kumuliert)",
       "data": [
         [
           1995,
@@ -386,6 +389,14 @@
         [
           2016,
           11274
+        ],
+        [
+          2017,
+          11443
+        ],
+        [
+          2018,
+          12680
         ]
       ],
       "visible": true
