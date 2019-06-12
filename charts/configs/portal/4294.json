@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Kilogramm, Basel-Stadt",
+    "text": "in Kilogramm, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -172,10 +172,12 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 12,
+    "ceiling": 14,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -187,7 +189,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -245,7 +247,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -279,7 +281,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: envico AG",
+    "text": "Quelle: Carbotech AG",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -325,7 +327,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -358,9 +360,51 @@
         7988,
         6351,
         6351,
-        6351
+        6351,
+        5900,
+        null
       ],
       "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielpfad (2029: 0)",
+      "color": "#444444",
+      "id": "BS1304_3",
+      "valueSuffix": "Kilogramm",
+      "data": [
+        null,
+        14282.7,
+        13661.7,
+        13040.7,
+        12419.7,
+        11798.7,
+        11177.7,
+        10556.8,
+        9935.8,
+        9314.8,
+        8693.8,
+        8072.8,
+        7451.8,
+        6830.8,
+        6209.9
+      ],
+      "visible": true,
+      "_symbolIndex": 0
     }
   ]
 }

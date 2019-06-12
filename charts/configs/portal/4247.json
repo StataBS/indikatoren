@@ -186,10 +186,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 26,
+    "ceiling": 27,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -201,7 +202,7 @@
         "color": "#000000"
       }
     },
-    "range": 15
+    "range": 1000
   },
   "yAxis": [
     {
@@ -333,10 +334,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": true
+    "enabled": false
   },
   "navigator": {
-    "enabled": true,
+    "enabled": false,
     "series": {
       "type": "column",
       "stacking": null
@@ -386,7 +387,8 @@
         5,
         10,
         9,
-        10
+        10,
+        12
       ],
       "visible": true
     }
