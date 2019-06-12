@@ -9115,7 +9115,7 @@ var indikatoren = [
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6012",
-		"kuerzelKunde": "1-2",
+		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9123,8 +9123,8 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-21T09:29:57.5757",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-06-11T10:05:02.022",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -9135,7 +9135,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_002",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6761"
@@ -9291,9 +9291,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:50:34.3434",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-11T09:40:26.2626",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9303,7 +9303,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_008",
+		"orderKey": "01_00_00_00_00_008",
 		"parentId": null,
 		"children": [
 			"6767"
@@ -9333,9 +9333,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:51:10.1010",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-11T09:41:21.2121",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9345,7 +9345,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_009",
+		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6768"
@@ -24550,7 +24550,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-24T07:39:08.088",
+		"aktualisierungsdatum": "2019-06-12T08:33:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24580,7 +24580,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
+		"subtitle": "Basel-Stadt, Mai",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -24590,7 +24590,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-24T08:00:00.000",
+		"aktualisierungsdatum": "2019-06-12T08:39:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
