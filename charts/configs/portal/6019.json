@@ -298,7 +298,8 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "minPointLength": 1.5
     }
   },
   "title": {
@@ -371,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-11"
   },
   "legend": {
     "symbolRadius": 0,
