@@ -161,10 +161,11 @@
   "xAxis": {
     "categories": [
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 2,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -176,7 +177,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -336,7 +337,8 @@
       "valueSuffix": "Anzahl Standorte",
       "data": [
         165,
-        188
+        188,
+        190
       ],
       "visible": true
     },
@@ -352,7 +354,8 @@
       "valueSuffix": "Anzahl Standorte",
       "data": [
         153,
-        153
+        153,
+        152
       ],
       "visible": true
     },
@@ -368,7 +371,8 @@
       "valueSuffix": "Anzahl Standorte",
       "data": [
         36,
-        13
+        13,
+        9
       ],
       "visible": true
     },
@@ -383,6 +387,7 @@
       "id": "BS0205_9",
       "valueSuffix": "Anzahl Standorte",
       "data": [
+        12,
         12,
         12
       ],
@@ -400,6 +405,7 @@
       "valueSuffix": "Anzahl Standorte",
       "data": [
         5,
+        4,
         4
       ],
       "visible": true

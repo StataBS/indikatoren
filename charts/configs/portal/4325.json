@@ -197,7 +197,7 @@
         "color": "#000000"
       }
     },
-    "range": 25
+    "range": 1000
   },
   "yAxis": [
     {
@@ -346,6 +346,9 @@
   },
   "series": [
     {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Mfz\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
       "includeInCSVExport": true,
       "stacking": null,
       "type": "column",
@@ -379,12 +382,12 @@
         81865,
         81877
       ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Mfz\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
+      "visible": true
     },
     {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u002F1000 Ew.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
       "includeInCSVExport": true,
       "type": "line",
       "showInNavigator": true,
@@ -418,9 +421,6 @@
         318.6
       ],
       "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E PW\u002F1000 Ew.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
       "yAxis": 1,
       "_symbolIndex": 0
     }

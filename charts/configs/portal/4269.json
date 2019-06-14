@@ -162,10 +162,11 @@
     "categories": [
       2000,
       2003,
-      2008
+      2008,
+      2010
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 3,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -177,7 +178,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -337,7 +338,8 @@
       "data": [
         13.4,
         14.9,
-        14.5
+        14.5,
+        10
       ],
       "visible": true
     },
@@ -353,23 +355,8 @@
       "data": [
         17,
         19.4,
-        16.2
-      ],
-      "visible": true
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Über 50 dB (A) in der Nacht",
-      "color": "#B00000",
-      "id": "BS1002_3",
-      "valueSuffix": "Prozent (Anteil an Bevölkerung)",
-      "data": [
-        26,
-        25.6,
-        24.6
+        16.2,
+        18.5
       ],
       "visible": true
     }

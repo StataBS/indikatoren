@@ -164,10 +164,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 4,
+    "ceiling": 5,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -179,7 +180,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -342,7 +343,8 @@
         42,
         41.7,
         41.4,
-        41.2
+        41.2,
+        41
       ],
       "visible": true
     }

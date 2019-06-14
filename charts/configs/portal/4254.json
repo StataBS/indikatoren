@@ -181,10 +181,11 @@
       2013,
       2014,
       2015,
-      2016
+      2016,
+      2017
     ],
     "floor": 0,
-    "ceiling": 20,
+    "ceiling": 21,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -196,7 +197,7 @@
         "color": "#000000"
       }
     },
-    "range": 15
+    "range": 1000
   },
   "yAxis": [
     {
@@ -328,10 +329,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": true
+    "enabled": false
   },
   "navigator": {
-    "enabled": true,
+    "enabled": false,
     "series": {
       "type": "column",
       "stacking": "normal"
@@ -375,7 +376,8 @@
         136.5,
         138.8,
         143,
-        136.5
+        136.5,
+        125.8
       ],
       "visible": true
     },
@@ -410,7 +412,8 @@
         266.7,
         264.9,
         269.2,
-        279.2
+        279.2,
+        287.9
       ],
       "visible": true
     },
@@ -445,6 +448,7 @@
         7.5,
         10.8,
         10,
+        11.2,
         11.2
       ],
       "visible": true
@@ -480,7 +484,8 @@
         13.5,
         4.9,
         5.5,
-        3.6
+        3.6,
+        3.7
       ],
       "visible": true
     }

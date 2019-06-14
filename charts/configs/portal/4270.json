@@ -161,10 +161,12 @@
   "xAxis": {
     "categories": [
       2015,
-      2016
+      2016,
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 3,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -176,7 +178,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -335,8 +337,10 @@
       "id": "BS1008_1",
       "valueSuffix": "Kilometer",
       "data": [
-        4,
-        5.5
+        4.04,
+        5.46,
+        7.59,
+        8.89
       ],
       "visible": true
     }
