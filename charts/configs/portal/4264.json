@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Anzahl Fälle, Basel-Stadt",
+    "text": "in Fällen, Basel-Stadt und Basel-Stadt und Basel-Landschaft",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -164,10 +164,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 4,
+    "ceiling": 5,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -179,7 +180,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -237,7 +238,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -317,7 +318,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -341,9 +342,10 @@
         9,
         17,
         13,
-        15
+        15,
+        18
       ],
-      "visible": true
+      "visible": false
     },
     {
       "includeInCSVExport": true,
@@ -359,9 +361,41 @@
         32,
         29,
         10,
-        10
+        18,
+        23
       ],
       "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert: Keine Beanstandungen",
+      "color": "#444444",
+      "id": "BS&BL0404_5",
+      "valueSuffix": "Anzahl Fälle",
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible": true,
+      "_symbolIndex": 0
     }
   ]
 }
