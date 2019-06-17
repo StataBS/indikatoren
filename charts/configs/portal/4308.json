@@ -179,7 +179,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -339,7 +339,7 @@
       "valueSuffix": "Quadratkilometer (Effektive Maschenweite)",
       "data": [
         3.4,
-        1.6,
+        1.63,
         0.7,
         0.55,
         0.54

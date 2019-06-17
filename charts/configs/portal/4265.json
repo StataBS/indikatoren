@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Anzahl Meldungen, Basel-Stadt",
+    "text": "in Anzahl Meldungen, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -176,10 +176,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 16,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -191,7 +192,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -366,7 +367,8 @@
         68,
         72,
         68,
-        59
+        59,
+        60
       ],
       "visible": true
     },
@@ -397,7 +399,8 @@
         311,
         325,
         340,
-        353
+        353,
+        385
       ],
       "visible": true
     },
@@ -428,7 +431,8 @@
         10,
         12,
         13,
-        13
+        13,
+        16
       ],
       "visible": true
     },
@@ -452,6 +456,7 @@
         356,
         380,
         421,
+        null,
         null,
         null,
         null,

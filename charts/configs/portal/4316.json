@@ -209,7 +209,7 @@
         "color": "#000000"
       }
     },
-    "range": 15
+    "range": 1000
   },
   "yAxis": [
     {
@@ -358,6 +358,9 @@
   },
   "series": [
     {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Schadenfälle\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
       "includeInCSVExport": true,
       "stacking": null,
       "type": "column",
@@ -402,12 +405,12 @@
         130,
         42
       ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Schadenfälle\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
+      "visible": true
     },
     {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Tausend CHF \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
       "includeInCSVExport": true,
       "stacking": null,
       "type": "column",
@@ -417,45 +420,42 @@
       "id": "BS0705_2",
       "valueSuffix": "Anzahl Schadenfälle; Tausend CHF (rechte Skala)",
       "data": [
-        23.4,
+        23.44,
         0,
-        23.6,
+        23.63,
         155.7,
-        11.9,
-        3.7,
-        2.1,
-        516.3,
-        72.9,
-        2.9,
-        119.5,
-        85.5,
-        23.5,
-        3.6,
-        3.6,
-        1351.2,
-        30.2,
-        5.8,
+        11.91,
+        3.66,
+        2.11,
+        516.28,
+        72.93,
+        2.86,
+        119.49,
+        85.55,
+        23.47,
+        3.62,
+        3.56,
+        1351.23,
+        30.21,
+        5.75,
         672.5,
         0,
         94.2,
-        14.4,
-        67.1,
-        172.8,
-        13,
-        20.7,
-        16.8,
+        14.42,
+        67.14,
+        172.79,
+        12.99,
+        20.73,
+        16.83,
         0.98,
         0,
-        1.2,
-        898.6,
-        26.6,
-        764.2,
-        146.9
+        1.25,
+        898.61,
+        26.64,
+        764.17,
+        146.89
       ],
       "visible": false,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Tausend CHF \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      },
       "yAxis": 1
     }
   ]
