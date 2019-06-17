@@ -195,7 +195,7 @@
         "color": "#000000"
       }
     },
-    "range": 15
+    "range": 1000
   },
   "yAxis": [
     {
@@ -337,10 +337,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": true
+    "enabled": false
   },
   "navigator": {
-    "enabled": true,
+    "enabled": false,
     "series": {
       "type": "column",
       "stacking": false

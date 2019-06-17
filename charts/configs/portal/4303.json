@@ -176,7 +176,7 @@
         "color": "#000000"
       }
     },
-    "range": false
+    "range": 1000
   },
   "yAxis": [
     {
@@ -336,7 +336,7 @@
       "valueSuffix": "Kilometer",
       "data": [
         1,
-        2
+        1.98
       ],
       "visible": true,
       "tooltip": {
@@ -354,7 +354,7 @@
       "id": "BS1608_2",
       "valueSuffix": "Kilometer",
       "data": [
-        4.5,
+        4.54,
         9.7
       ],
       "visible": true,
@@ -373,8 +373,8 @@
       "id": "BS1608_3",
       "valueSuffix": "Kilometer",
       "data": [
-        13.2,
-        13.1
+        13.19,
+        13.07
       ],
       "visible": true,
       "tooltip": {
@@ -392,8 +392,8 @@
       "id": "BS1608_4",
       "valueSuffix": "Kilometer",
       "data": [
-        6.8,
-        13.4
+        6.77,
+        13.41
       ],
       "visible": true,
       "tooltip": {
@@ -411,8 +411,8 @@
       "id": "BS1608_5",
       "valueSuffix": "Kilometer",
       "data": [
-        9.5,
-        9.4
+        9.52,
+        9.39
       ],
       "visible": true,
       "tooltip": {
