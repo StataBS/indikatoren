@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil Personen in Einpersonenhaushalten",
+      "name": "Anteil Pers in Einpershaushalten",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3238,87 +3238,87 @@
       "data": [
         [
           30,
-          0.1311627907
+          0.1357798165
         ],
         [
           7,
-          0.1545054945
+          0.1524556245
         ],
         [
           20,
-          0.1628540045
+          0.1649818806
         ],
         [
           15,
-          0.1886155855
+          0.1870076616
         ],
         [
           19,
-          0.1952813067
+          0.1893939394
         ],
         [
           8,
-          0.2107660146
+          0.2106009705
         ],
         [
           16,
-          0.2144399877
+          0.2162282657
         ],
         [
           18,
-          0.2177126918
+          0.2196580008
         ],
         [
           11,
-          0.2289479562
+          0.2306659205
         ],
         [
           5,
-          0.2392694911
+          0.2372775244
         ],
         [
           17,
-          0.2433320448
+          0.2474408294
         ],
         [
           14,
-          0.2642381657
-        ],
-        [
-          10,
-          0.2655998089
+          0.2585888437
         ],
         [
           13,
-          0.2677286742
+          0.2634854772
+        ],
+        [
+          10,
+          0.2655370579
         ],
         [
           6,
-          0.273321097
+          0.2723180388
         ],
         [
           3,
-          0.2780228594
+          0.2763740045
         ],
         [
           4,
-          0.2849794239
+          0.2770660923
         ],
         [
           9,
-          0.2869757174
+          0.2808791209
         ],
         [
           1,
-          0.2922636103
+          0.2977608385
         ],
         [
           2,
-          0.3167572085
+          0.3196893367
         ],
         [
           12,
-          0.3210091344
+          0.3347845015
         ]
       ]
     },
@@ -3377,11 +3377,11 @@
         ],
         [
           13,
-          "Iselin"
+          "Clara"
         ],
         [
           14,
-          "Clara"
+          "Iselin"
         ],
         [
           15,
@@ -3412,7 +3412,7 @@
           "Altstadt Kleinbasel"
         ]
       ],
-      "name": "wohnviertel"
+      "name": "Wohnviertel"
     },
     {
       "name": "Rhein",
@@ -3660,7 +3660,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2017",
+    "text": "Basel-Stadt,  2018",
     "align": "left"
   },
   "credits": {
@@ -3676,7 +3676,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
   },
   "colorAxis": {
     "min": 0,

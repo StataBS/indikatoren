@@ -2205,15 +2205,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-21T08:45:07.077",
+		"aktualisierungsdatum": "2019-06-26T08:58:19.1919",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2017 46% aus, 41% sind Familienhaushalte und 13% werden den Nichtfamilienhaushalten zugeordnet.",
-		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2018 46% aus, 41% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
@@ -2223,11 +2224,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4141,
-		"darstellungsart": "Grafik"
+		"data-id": 4141,
+		"chart-id": 4141,
+		"filter": "",
+		"id": 4141
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -2241,14 +2245,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
+		"aktualisierungsdatum": "2019-06-26T09:00:34.3434",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 41% im Jahr 2011 auf 37% im Jahr 2019. Demgegenüber nahm der Anteil an Paaren mit minderjährigen Kindern in den betrachteten Jahren leicht zu (von 32% auf 35%). Die Anteile der weiteren Familienhaushaltstypen sind seit 2011 gleich geblieben.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2260,9 +2264,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4142,
+		"chart-id": 4142,
+		"filter": "",
 		"id": 4142
 	},
 	{
@@ -4642,7 +4650,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt,  2018",
 		"kuerzel": "I.01.2.4825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
@@ -4652,7 +4660,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
+		"aktualisierungsdatum": "2019-06-26T09:01:29.2929",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7078,8 +7086,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.2.5112",
+		"subtitle": "Basel-Stadt,  2018",
+		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
@@ -7088,7 +7096,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:36.3636",
+		"aktualisierungsdatum": "2019-06-26T09:02:44.4444",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7162,7 +7170,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
@@ -7172,14 +7180,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
+		"aktualisierungsdatum": "2019-06-24T09:43:20.2020",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
-		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -9080,9 +9088,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:39:26.2626",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9092,7 +9100,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_001",
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5155",
@@ -9123,7 +9131,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T10:05:02.022",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -9165,9 +9173,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:02:47.4747",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9177,7 +9185,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6762"
@@ -9207,9 +9215,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:48:23.2323",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9219,7 +9227,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6765"
@@ -9249,9 +9257,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:49:15.1515",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9261,7 +9269,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"6766"
@@ -9291,7 +9299,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T09:40:26.2626",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -9333,7 +9341,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T09:41:21.2121",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -9376,9 +9384,9 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:52:44.4444",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9388,7 +9396,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6770"
@@ -9408,9 +9416,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6022",
-		"kuerzelKunde": "1-12",
+		"kuerzelKunde": "2-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -9419,17 +9427,19 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-06-24T09:36:36.3636",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2017 verbuchten die Wohnviertel Vorstädte, Am Ring und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz und Kleinhüningen sowie für die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Gundeldingen, Wettstein, Rosental und Matthäus zustande.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Vorstädte, Wettstein und Matthäus zustande.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_012",
+		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6771"
@@ -9438,11 +9448,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6022,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 6022,
+		"chart-id": 6022,
+		"filter": "",
+		"id": 6022
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -9456,9 +9469,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:53:21.2121",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9468,7 +9481,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6772"
@@ -9498,9 +9511,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:37:48.4848",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -9510,7 +9523,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6773"
@@ -9951,15 +9964,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
+		"aktualisierungsdatum": "2019-06-24T09:39:22.2222",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2014 4,9 globale Hektaren pro Kopf. Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte relativ konstant.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2016 4,6 globale Hektaren pro Kopf, das Bruttoinlandprodukt lag bei 173 750,6 Fr. pro Kopf.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_607",
@@ -9970,11 +9984,14 @@ var indikatoren = [
 			"BAK Economics",
 			"Global Footprint Network"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
 		],
-		"id": 6051,
-		"darstellungsart": "Grafik"
+		"data-id": 6051,
+		"chart-id": 6051,
+		"filter": "",
+		"id": 6051
 	},
 	{
 		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
@@ -22182,14 +22199,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:33:00.000",
+		"aktualisierungsdatum": "2019-06-26T09:10:31.3131",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner. Letztere haben in keinem anderen Wohnviertel einen so hohen Anteil. Personen aus den Balkanländern und aus Indien sind weniger vertreten als im kantonalen Durchschnitt.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.<br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

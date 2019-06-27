@@ -130,7 +130,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt,  2018",
 		"kuerzel": "I.01.2.4825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
@@ -140,7 +140,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
+		"aktualisierungsdatum": "2019-06-26T09:01:29.2929",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -901,8 +901,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.2.5112",
+		"subtitle": "Basel-Stadt,  2018",
+		"kuerzel": "I.01.2.05112",
 		"kuerzelKunde": "GS-4.B",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
@@ -911,7 +911,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:36.3636",
+		"aktualisierungsdatum": "2019-06-26T09:02:44.4444",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -983,7 +983,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
@@ -993,14 +993,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:37.3737",
+		"aktualisierungsdatum": "2019-06-24T09:43:20.2020",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten, im Wohnviertel Riehen am höchsten.",
-		"erlaeuterungen": "Anteil der über 64-jährigen Personen an den 20- bis 64-jährigen Personen des Wohnviertels in Prozent.",
+		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "map001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -3168,14 +3168,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:33:00.000",
+		"aktualisierungsdatum": "2019-06-26T09:10:31.3131",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner. Letztere haben in keinem anderen Wohnviertel einen so hohen Anteil. Personen aus den Balkanländern und aus Indien sind weniger vertreten als im kantonalen Durchschnitt.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.<br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

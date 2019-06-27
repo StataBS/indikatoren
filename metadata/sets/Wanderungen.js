@@ -11,9 +11,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:39:26.2626",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_001",
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"5155",
@@ -53,7 +53,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T10:05:02.022",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -94,9 +94,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:02:47.4747",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -105,7 +105,7 @@ var indikatorensetData = [
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"6762"
@@ -135,9 +135,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:48:23.2323",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -146,7 +146,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6765"
@@ -176,9 +176,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:49:15.1515",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -187,7 +187,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"6766"
@@ -217,7 +217,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T09:40:26.2626",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-11T09:41:21.2121",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -300,9 +300,9 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:52:44.4444",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -311,7 +311,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6770"
@@ -331,9 +331,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Stand: 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6022",
-		"kuerzelKunde": "1-12",
+		"kuerzelKunde": "2-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
@@ -342,16 +342,18 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-06-24T09:36:36.3636",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtische Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2017 verbuchten die Wohnviertel Vorstädte, Am Ring und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz und Kleinhüningen sowie für die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Gundeldingen, Wettstein, Rosental und Matthäus zustande.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Vorstädte, Wettstein und Matthäus zustande.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
-		"orderKey": "_012",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6771"
@@ -360,11 +362,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6022,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 6022,
+		"chart-id": 6022,
+		"filter": "",
+		"id": 6022
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -378,9 +383,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:53:21.2121",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -389,7 +394,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6772"
@@ -419,9 +424,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:37:48.4848",
-		"stufe1": "Herkunftsorte und Wanderziele",
-		"stufe2": "Herkunftsorte und Wanderziele",
+		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -430,7 +435,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6773"
