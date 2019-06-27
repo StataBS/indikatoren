@@ -1025,7 +1025,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		}
     },
@@ -1034,7 +1034,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
               
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -1083,7 +1083,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function (){
+    "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
     }
   },
@@ -1103,7 +1103,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function (){
+      "formatter": function(){
         return Highcharts.numberFormat((this.value),0)+''; 
       }
     }
@@ -1145,7 +1145,7 @@
     }
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
+    "optimalAxisLabelDecimals": function(axis, formatString){
           
           //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
         	//function checks how many decimal places has a number

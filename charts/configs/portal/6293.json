@@ -324,7 +324,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -380,7 +380,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function (){
+    "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
     }
   },
@@ -401,7 +401,7 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "formatter": function (){
+      "formatter": function(){
   		  return Highcharts.numberFormat((this.value*100),1)+'%'; 
   	  }
     }

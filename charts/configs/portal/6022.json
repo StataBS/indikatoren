@@ -3238,7 +3238,7 @@
       "tooltip": {
         "headerFormat": "",
         "useHTML": true,
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						var columnSeriesIndex = this.index + 6; // 6 series statically defined in this chart incl. afterSeries (rhein and massstab)
 						var columnSeries = this.series.chart.series[columnSeriesIndex];
 						//put together html for tooltip
@@ -3772,7 +3772,7 @@
       "color": "#008AC3",
       "borderColor": "#fbfbfb",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       }
@@ -3815,13 +3815,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function (){
+        "formatter": function(){
 						return '1 km';
 					},
         "style": {
@@ -3846,7 +3846,7 @@
     "inverted": false,
     "animation": true,
     "events": {
-      "redraw": function () {
+      "redraw": function() {
 					//position column charts on the map
 					var fn = this.options.customFunctions;
 			    	if (fn.redrawEnabled) {
@@ -4030,7 +4030,7 @@
   },
   "xAxis": {
     "events": {
-      "afterSetExtremes": function (e){
+      "afterSetExtremes": function(e){
 					var divId = e['target']['chart']['renderTo']['id'] || 'dummySttingForExportServer';
 					var divIdString = '#' + divId;
 					divIdString = '';
@@ -4071,7 +4071,7 @@
   "customFunctions": {
     "redrawEnabled": true,
     "columnChartConfiguration": {},
-    "positionColumnSeries": function (chart, chartWidth, chartHeight){
+    "positionColumnSeries": function(chart, chartWidth, chartHeight){
 			  var mapXAxis = chart.xAxis[0];
 			  var mapYAxis = chart.yAxis[0];
 			  var zoomRatio = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
@@ -4126,7 +4126,7 @@
 			
 			  chart.redraw();
 			},
-    "drawColumns": function (chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth){
+    "drawColumns": function(chart, columnSeries, choroplethSeries, columnSeriesConfig, color, chartHeight, columnWidth){
 				var fn = chart.options.customFunctions;
 				var conf = fn.columnChartConfiguration;
 				//get all y Data into array in order to get max and min            	
@@ -4201,7 +4201,7 @@
 				//chart.redraw();
 				fn.positionColumnSeries(chart);
 			},
-    "addLegendTitle": function (chart, x, y, text){
+    "addLegendTitle": function(chart, x, y, text){
         		return chart.renderer.label(text, x, y)
      				.css({
 	                    fontSize: '12px',
@@ -4212,7 +4212,7 @@
 			        	//class: 'columnLegend' 
 			        }).add();	                
             },
-    "addLegendCircle": function (chart, x, y, radius, fill){
+    "addLegendCircle": function(chart, x, y, radius, fill){
             	return chart.renderer.circle(x, y, radius, fill).attr({
 				    fill: fill,
 				    stroke: fill,
@@ -4221,7 +4221,7 @@
 				    class: 'columnLegend'
 				}).add();
             },
-    "addLegendText": function (chart, x, y, text, color, cssClass, useHtml){
+    "addLegendText": function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
@@ -4230,7 +4230,7 @@
 					})
 					.add();
             },
-    "addLegendTextbold": function (chart, x, y, text, color, cssClass, useHtml){
+    "addLegendTextbold": function(chart, x, y, text, color, cssClass, useHtml){
 				return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 					.attr({
 						zIndex: 6,
@@ -4240,7 +4240,7 @@
                         fontWeight: 'bold' }).
                      add();
             },
-    "addLegendSquare": function (chart, x, y, width, fill){
+    "addLegendSquare": function(chart, x, y, width, fill){
             	return chart.renderer.rect(x, y, width, width, 0)
 	            	.attr({
 			            'stroke-width':0,
@@ -4250,7 +4250,7 @@
 		        	})
 		        	.add();
             },
-    "addLegendColumnChart": function (chart, x, y, values, color, cssClass){
+    "addLegendColumnChart": function(chart, x, y, values, color, cssClass){
             	var fn = chart.options.customFunctions;
             	var conf = fn.columnChartConfiguration;
 				values.forEach(function(value, i, arr){
@@ -4309,7 +4309,7 @@
 				chart.addSeries(mapColumnSeries, true);
 				*/				
             },
-    "AddColumnLegendClickHandler": function (chart){
+    "AddColumnLegendClickHandler": function(chart){
 				var divId = chart['renderTo']['id'] || 'dummySttingForExportServer';
 				var divIdString = '#' + divId;
 				divIdString = '';
@@ -4362,7 +4362,7 @@
 					}
 				});
 			},
-    "exportCurrentSVG": function (chart, type){
+    "exportCurrentSVG": function(chart, type){
 				var origFn = Highcharts.Chart.prototype.getSVG;
 				Highcharts.Chart.prototype.getSVG = function() {
 					console.log("Using current SVG to export.");

@@ -58,7 +58,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -87,7 +87,7 @@
           "fontSize": "10px"
         },
         "enabled": true,
-        "formatter": function () {
+        "formatter": function() {
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {

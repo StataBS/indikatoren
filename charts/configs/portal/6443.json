@@ -391,7 +391,7 @@
         "textOverflow": "none",
         "fontSize": "10px"
       },
-      "formatter": function () {
+      "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
                     return val.visible;
@@ -411,7 +411,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                 this.credits.element.onclick = function() {};
                 //square legends must be placed 3 pixels more to the left that lines, don't know why
                 var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
@@ -540,7 +540,7 @@
       "fontWeight": "normal"
     },
     "symbolRadius": 0,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
             return this.name.indexOf(10) >= 0 ? this.name : this.name.replace("Note ", "");
         },
     "x": 1,

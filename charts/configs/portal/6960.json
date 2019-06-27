@@ -121,7 +121,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -179,7 +179,7 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function (){
+      "formatter": function(){
           return this.value*100 + "%";
         }
     }
@@ -217,7 +217,7 @@
     "reversed": true
   },
   "tooltip": {
-    "pointFormatter": function (){
+    "pointFormatter": function(){
           return '<span style="color:' + this.color + '">●</span> ' + this.Wohnviertel + ': <b> ' + Highcharts.numberFormat(this.Anzahl, 0, ",", " ") + "</b> (" +Highcharts.numberFormat(this.y*100, 1, ",", " ") + "%)";
         }
   },

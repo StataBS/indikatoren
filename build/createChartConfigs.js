@@ -15,6 +15,7 @@
 
 var vm = require("vm");
 var fs = require("fs");
+var eol = require("eol");
 
 var execute = function(path, context) {
   context = context || {};
@@ -73,12 +74,11 @@ function isIndikatorensetView(view){
 //todo: get rid of all the jsdom code if not needed 
 function saveChartConfig(indikator, view, console){
     var fs = require('fs');
-
     //from https://github.com/kirjs/react-highcharts/blob/b8e31a26b741f94a13a798ffcc1f1b60e7764676/src/simulateDOM.js 
     var jsdom = require('jsdom');
 
-    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + indikator.id + '"></div></body></html>', { virtualConsole });
     var virtualConsole = jsdom.createVirtualConsole().sendTo(console);
+    global.document = jsdom.jsdom('<!doctype html><html><body><div id="container-' + indikator.id + '"></div></body></html>', { virtualConsole });
     var win = global.document.defaultView;
     global.window = global;
     for( var i in win ){
@@ -134,7 +134,7 @@ function saveChartConfig(indikator, view, console){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
             //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-            fs.writeFileSync(filePath + indikator.id + '.json', stringifiedOptions);
+            fs.writeFileSync(filePath + indikator.id + '.json', eol.auto(stringifiedOptions));
         });
         
     }

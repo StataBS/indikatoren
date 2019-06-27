@@ -156,14 +156,14 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function () {
+      "formatter": function() {
                   	 return this.value;
             }
     }
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
         //draw lines between stacks of stacked columns
         this.customSvgLines = this.options.customFunctions.drawLinesBetweenStacks.call(this);
         //remove credits link
@@ -180,7 +180,7 @@
         }              
         
       },
-      "redraw": function () {
+      "redraw": function() {
         if (this.customSvgLines !== undefined) {
           this.customSvgLines.forEach(function(line) {
             line.destroy();
@@ -304,7 +304,7 @@
     "itemDistance": 5
   },
   "customFunctions": {
-    "drawLinesBetweenStacks": function (){
+    "drawLinesBetweenStacks": function(){
           function drawLine(points) {
             return this.renderer.path(['M', points.x1, points.y1, 'L', points.x2, points.y2])
               .attr({

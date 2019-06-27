@@ -1,4 +1,5 @@
 var fs = require("fs");
+var eol = require("eol");
 var glob = require("glob");
 var path = require("path");
 var indikatorenInPortal = [];
@@ -142,12 +143,12 @@ fs.writeFileSync('metadata/all/all.md', jsonToMarkdownTable(all));
 
 function saveToJsFile(name, dir, obj, console){
     var jsFile = "var " +  name + " = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFileSync('metadata/' + dir +  name + '.js', jsFile);
+    fs.writeFileSync('metadata/' + dir +  name + '.js', eol.auto(jsFile));
 }
 
 function saveToJsonFile(name, dir, obj, console){
     var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFileSync('metadata/' + dir +  name + '.json', jsonFile);
+    fs.writeFileSync('metadata/' + dir +  name + '.json', eol.auto(jsonFile));
 }
 
 
