@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Anteil Pers in Einpershaushalten",
+      "name": "Anteil Personen in Einpersonenhaushalten",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3676,7 +3676,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-27"
   },
   "colorAxis": {
     "min": 0,
