@@ -52,7 +52,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
               
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -151,7 +151,7 @@
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function () {
+        "formatter": function() {
             var last  = this.series.data[this.series.data.length - 1];
             var first  = this.series.data[0];
             if (this.point.x === first.x || this.point.x === last.x) {
@@ -163,7 +163,7 @@
     }
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
+    "optimalAxisLabelDecimals": function(axis, formatString){
           
           //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
         	//function checks how many decimal places has a number

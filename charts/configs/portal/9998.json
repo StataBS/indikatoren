@@ -69,7 +69,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                   this.credits.element.onclick = function() {};
         
                 // Remove all pie slices with same color when clicking onto legend item

@@ -251,7 +251,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -288,7 +288,7 @@
       "yAxis": 1,
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function (){ 
+        "pointFormatter": function(){ 
               return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
           }
       }
@@ -352,7 +352,7 @@
         "style": {
           "color": "#000000"
         },
-        "formatter": function () {
+        "formatter": function() {
                return Highcharts.numberFormat((this.value*100), 0)+'%';
             
                 
@@ -395,7 +395,7 @@
     "align": "right",
     "width": 200,
     "itemWidth": 70,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
         //remove text before year on each item with odd index
         //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
         return this.name.slice(-4);

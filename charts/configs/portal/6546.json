@@ -715,7 +715,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
               
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -809,7 +809,7 @@
       "fontWeight": "normal"
     },
     "itemWidth": 100,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
       //only return last word
       return this.name.split(" ").slice(-1);
     },
@@ -827,7 +827,7 @@
     }
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
+    "optimalAxisLabelDecimals": function(axis, formatString){
           
           //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
         	//function checks how many decimal places has a number

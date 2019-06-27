@@ -171,7 +171,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -303,7 +303,7 @@
         "enabled": false,
         "allowOverlap": true,
         "y": 40,
-        "formatter": function () {
+        "formatter": function() {
                 var last = this.series.data[this.series.data.length - 1];
                 var first = this.series.data[0];
                 if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {

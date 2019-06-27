@@ -6561,7 +6561,7 @@
         }
       },
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + ' </b><br/>';
 					}
@@ -6900,7 +6900,7 @@
       "color": "#008AC3",
       "borderColor": "#fbfbfb",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       }
@@ -6943,13 +6943,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function (){
+        "formatter": function(){
 						return '1 km';
 					},
         "style": {
@@ -7161,7 +7161,7 @@
   },
   "xAxis": {
     "events": {
-      "afterSetExtremes": function (e){
+      "afterSetExtremes": function(e){
 					var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 					divIdString = '';
@@ -7200,7 +7200,7 @@
     "filename": 6376
   },
   "customFunctions": {
-    "hideOnZoom": function (e, selector){
+    "hideOnZoom": function(e, selector){
 				var divId = e['target']['chart']['renderTo']['id'] || 'dummySettingForExportServer';
 				var divIdString = '#' + divId;
 				divIdString = '';
@@ -7211,7 +7211,7 @@
 					$(divIdString + selector).attr('visibility', zoom == 1 ? 'inherit' : 'hidden');
 				}
 			},
-    "recalculateOnZoom": function (e, zoomableLabels){
+    "recalculateOnZoom": function(e, zoomableLabels){
 				if (e.target.chart){
 					var fn = e.target.chart.userOptions.customFunctions;
 					fn.hideOnZoom(e, '.pieLegendHideOnZoom');
@@ -7240,18 +7240,18 @@
 					}
 				}
 			},
-    "pieSizeCategorical": function (value, conf){
+    "pieSizeCategorical": function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
 					if (value >= conf[i].from && value < conf[i].to) {
 						return conf[i];
 					}
 				}
 			},
-    "pieValue": function (size, maxAbsValue, maxPieDiameter){
+    "pieValue": function(size, maxAbsValue, maxPieDiameter){
 				var value = maxAbsValue * size * size / maxPieDiameter / maxPieDiameter;
 				return value;
 			},
-    "pieSize": function (value, maxAbsValue, maxPieDiameter){
+    "pieSize": function(value, maxAbsValue, maxPieDiameter){
             	var diameter = Math.sqrt(Math.abs(value) / maxAbsValue * maxPieDiameter * maxPieDiameter);
             	return diameter;
             	/*
@@ -7284,7 +7284,7 @@
 				return diameter;
 				*/
             },
-    "defineTemplate": function (){
+    "defineTemplate": function(){
 
 					//define new chart type
 					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
@@ -7343,7 +7343,7 @@
 					});
 
     		    },
-    "getPointsExtremes": function (points){
+    "getPointsExtremes": function(points){
 	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
 	                var minNumber = Number.POSITIVE_INFINITY;
@@ -7361,7 +7361,7 @@
 					    minAbsNumber: minAbsNumber
 					};
 				},
-    "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
             		var fn = chart.userOptions.customFunctions;
         			fn["pieSizeSeries"] = pieSizeSeries ;
         			fn["maxPieDiameter"] = fn["maxPieDiameter"]  ? fn["maxPieDiameter"] : 20;
@@ -7468,13 +7468,13 @@
     	                })
     			        .add();	                
                 },
-    "addSubtitle": function (chart, text, x, y, cssClass, useHtml){
+    "addSubtitle": function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).attr({
     					zIndex: 6,
     					class: cssClass + ' pieSubtitle'
     				}).add();
                 },
-    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
+    "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill)
                 	.attr({
     				    fill: fill,
@@ -7484,7 +7484,7 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml, align){
+    "addLegendLabel": function(chart, text, x, y, cssClass, useHtml, align){
                 	var label = 
     				chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
                 	.css({
@@ -7500,7 +7500,7 @@
 					}
     				return label;
                 },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml, initialValue){
+    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml, initialValue){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
     				.attr({
     					zIndex: 6,
@@ -7512,7 +7512,7 @@
                         fontWeight: 'bold' }).
                      add();
                 },
-    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
+    "addLegendSquare": function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
@@ -7520,7 +7520,7 @@
     		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass){
+    "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, height).attr({
     		            'stroke-width':0,
     		            fill: fill,
@@ -7528,7 +7528,7 @@
     		            class: cssClass
     	        	}).add();
                 },
-    "AddPieLegendClickHandler": function (chart, colorPassive){
+    "AddPieLegendClickHandler": function(chart, colorPassive){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
@@ -7596,7 +7596,7 @@
 						}
 					});
 				},
-    "exportCurrentSVG": function (chart, type){
+    "exportCurrentSVG": function(chart, type){
 					var origFn = Highcharts.Chart.prototype.getSVG;
 					Highcharts.Chart.prototype.getSVG = function() {
 						console.log("Using current SVG to export.");

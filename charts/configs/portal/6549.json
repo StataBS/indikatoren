@@ -78,7 +78,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                   this.credits.element.onclick = function() {};
                   //for top-left legends with no x defined: move legend to x position of first yAxis
                   if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
@@ -209,7 +209,7 @@
           "fontWeight": "normal",
           "textShadow": "none"
         },
-        "formatter": function (){
+        "formatter": function(){
                         return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
                     },
         "inside": false,

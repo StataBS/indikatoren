@@ -259,7 +259,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -359,7 +359,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "labelFormatter": function () {
+    "labelFormatter": function() {
             return this.name.replace("Personenbef.", "Personenbeförderung");
           }
   },

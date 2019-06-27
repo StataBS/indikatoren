@@ -62,7 +62,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                   this.credits.element.onclick = function() {};
               }
     },
@@ -168,7 +168,7 @@
       "fontSize": "10px"
     },
     "symbolRadius": 0,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
             return this.name.replace(" ", "<br/>");
         },
     "style": {

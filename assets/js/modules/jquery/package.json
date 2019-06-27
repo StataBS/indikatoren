@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.0.tgz",
   "_shasum": "3bdbba66e1eee0785532dddadb0e0d2521ca584b",
   "_spec": "jquery@3.2.0",
-  "_where": "/home/ubuntu/workspace",
+  "_where": "C:\\dev\\indikatoren",
   "author": {
     "name": "JS Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.2.0/AUTHORS.txt"

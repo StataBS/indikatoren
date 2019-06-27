@@ -511,7 +511,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
                     this.credits.element.onclick = function() {};
                     
                     //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -586,7 +586,7 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function (args){
+        "afterSetExtremes": function(args){
             	    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
@@ -629,7 +629,7 @@
                 return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             },
     "shared": true,
-    "formatter": function () { //sum values correctly
+    "formatter": function() { //sum values correctly
                 var s = '<span style="font-size: 12px">' + this.points[0].series.chart.series[4].data[0].name + ':</span><br/> <span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
                 var sum = 0;
                 $.each(this.points, function(i, point) {
@@ -642,7 +642,7 @@
             }
   },
   "customFunctions": {
-    "createSymmetricAxis": function (axis){
+    "createSymmetricAxis": function(axis){
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
                 axis.setExtremes(-absMax, absMax);
         	},

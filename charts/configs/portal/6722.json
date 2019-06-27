@@ -34,7 +34,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                   this.credits.element.onclick = function() {};
               }
     },
@@ -134,7 +134,7 @@
     },
     "symbolRadius": 0,
     "enabled": true,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
 	        return this.name
 	            .replace("ohne", "ohne<br/>")
 	            .replace("mit", "mit<br/>")

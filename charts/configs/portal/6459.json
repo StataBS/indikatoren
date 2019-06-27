@@ -219,7 +219,7 @@
       },
       "align": "left",
       "x": -180,
-      "formatter": function () {
+      "formatter": function() {
             return this.value.replace("/", "<br/>")
         }
     },
@@ -241,7 +241,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis

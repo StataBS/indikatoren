@@ -145,7 +145,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
                     this.credits.element.onclick = function() {};
                     
                     //create symmetric xAxes
@@ -232,7 +232,7 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function (args){
+        "afterSetExtremes": function(args){
             	    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
@@ -279,7 +279,7 @@
             }
   },
   "customFunctions": {
-    "createSymmetricAxis": function (axis){
+    "createSymmetricAxis": function(axis){
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
                 axis.setExtremes(-absMax, absMax);
         	}

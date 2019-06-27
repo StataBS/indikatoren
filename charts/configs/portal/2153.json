@@ -1399,7 +1399,7 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		}
     },
@@ -1422,7 +1422,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis

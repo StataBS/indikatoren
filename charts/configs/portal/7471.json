@@ -642,7 +642,7 @@
         "color": "#000000"
       },
       "x": 17,
-      "formatter": function () {
+      "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
      		}
     },
@@ -665,7 +665,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -785,7 +785,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "labelFormatter": function (){
+    "labelFormatter": function(){
       return this.name.replace("Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkrippen", "Best. Meldepflichtige in VZÄ Gesundh.-, Veterinärwesen, Heime, Kinderkr.");
     }
   },
