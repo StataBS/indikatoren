@@ -1,5 +1,6 @@
 var getChartsHashes = function(globString){
     var fs = require("fs");
+    //var fse = require("fs-extra");
     var glob = require("glob");
     var hashFiles = require('hash-files');
     
@@ -38,13 +39,14 @@ var getChartsHashes = function(globString){
 
 var saveToJsonFile = function(name, dir, obj, console){
     var fs = require("fs");
+    var eol = require("eol");
     //create directory of if nonexistent
     if (!fs.existsSync(dir)){
         fs.mkdirSync(dir);
     }    
     //write file    
     var jsonFile = JSON.stringify(obj, null, '\t');
-    fs.writeFileSync(dir +  name + '.json', jsonFile);
+    fs.writeFileSync(dir +  name + '.json', eol.auto(jsonFile));
 };
     
 
