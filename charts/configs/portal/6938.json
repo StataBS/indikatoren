@@ -3480,7 +3480,7 @@
       "fontFamily": "Arial"
     },
     "events": {
-      "load": function () {
+      "load": function() {
                   this.credits.element.onclick = function() {};
                   //for top-left legends with no x defined: move legend to x position of first yAxis
                   if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
@@ -3592,7 +3592,7 @@
     "margin": 5,
     "padding": 5,
     "itemMarginBottom": 0,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
           return this.name
             .replace("Bosnien-", "Bosnien-<br/>")
             .replace("Montenegro", "Monte-<br/>negro");
@@ -3644,7 +3644,7 @@
     "shared": true,
     "split": false,
     "reversed": false,
-    "pointFormatter": function (){
+    "pointFormatter": function(){
            //console.log(this);
            return (this.y > 0 ? '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b><br/>': "");
          },

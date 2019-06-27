@@ -175,7 +175,7 @@
         "step": 1,
         "rotation": 0,
         "x": -240,
-        "formatter": function () {
+        "formatter": function() {
               //get index of current value
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
@@ -195,7 +195,7 @@
         "step": 1,
         "rotation": 0,
         "x": -220,
-        "formatter": function () {
+        "formatter": function() {
               //get index of current value
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
@@ -215,7 +215,7 @@
         "step": 1,
         "rotation": 0,
         "x": -200,
-        "formatter": function () {
+        "formatter": function() {
               //get index of current value
               var index = this.axis.names.indexOf(this.value);
               //check if there's data at this index. if not, suppress axis label
@@ -244,7 +244,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis

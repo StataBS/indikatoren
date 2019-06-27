@@ -301,7 +301,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -368,7 +368,7 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function (){
+      "formatter": function(){
         return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
       }
     },
@@ -409,7 +409,7 @@
     "align": "left"
   },
   "tooltip": {
-    "pointFormatter": function (){
+    "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
     }
   },

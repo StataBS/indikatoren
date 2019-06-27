@@ -108,7 +108,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
               
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -156,7 +156,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function (){
+    "pointFormatter": function(){
       return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ':<br/><b>' + Highcharts.numberFormat((this.y*100),1) + '% </b>Deutsch oder Schweizerdeutsch,<br/><b>' + Highcharts.numberFormat(((1-this.y)*100),1) + '% </b>nicht Deutsch oder Schweizerdeutsch<br/>'
     }
   },
@@ -175,7 +175,7 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function (){
+      "formatter": function(){
         return Highcharts.numberFormat((this.value*100),0)+'%'; 
       }
     },
@@ -232,7 +232,7 @@
     }
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
+    "optimalAxisLabelDecimals": function(axis, formatString){
           
           //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
         	//function checks how many decimal places has a number

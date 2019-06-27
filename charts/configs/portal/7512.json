@@ -4,55 +4,55 @@
       "color": "rgb(111,111,111)",
       "data": [
         [
-          1525132800000,
+          1525140000000,
           1.2
         ],
         [
-          1527811200000,
+          1527818400000,
           1.4
         ],
         [
-          1530403200000,
+          1530410400000,
           1.5
         ],
         [
-          1533081600000,
+          1533088800000,
           1.4
         ],
         [
-          1535760000000,
+          1535767200000,
           1.2
         ],
         [
-          1538352000000,
+          1538359200000,
           1.2
         ],
         [
-          1541030400000,
+          1541034000000,
           1.1
         ],
         [
-          1543622400000,
+          1543626000000,
           0.8
         ],
         [
-          1546300800000,
+          1546304400000,
           0.7
         ],
         [
-          1548979200000,
+          1548982800000,
           0.8
         ],
         [
-          1551398400000,
+          1551402000000,
           0.9
         ],
         [
-          1554076800000,
+          1554084000000,
           0.9
         ],
         [
-          1556668800000,
+          1556676000000,
           0.8
         ]
       ],
@@ -62,55 +62,55 @@
       "color": "rgb(176,0,0)",
       "data": [
         [
-          1525132800000,
+          1525140000000,
           1
         ],
         [
-          1527811200000,
+          1527818400000,
           1.1
         ],
         [
-          1530403200000,
+          1530410400000,
           1.2
         ],
         [
-          1533081600000,
+          1533088800000,
           1.2
         ],
         [
-          1535760000000,
+          1535767200000,
           1
         ],
         [
-          1538352000000,
+          1538359200000,
           1.1
         ],
         [
-          1541030400000,
+          1541034000000,
           0.9
         ],
         [
-          1543622400000,
+          1543626000000,
           0.7
         ],
         [
-          1546300800000,
+          1546304400000,
           0.6
         ],
         [
-          1548979200000,
+          1548982800000,
           0.6
         ],
         [
-          1551398400000,
+          1551402000000,
           0.7
         ],
         [
-          1554076800000,
+          1554084000000,
           0.7
         ],
         [
-          1556668800000,
+          1556676000000,
           0.6
         ]
       ],
@@ -126,7 +126,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "formatter": function () {
+      "formatter": function() {
               if (this.isFirst || this.isLast) {
                 return Highcharts.dateFormat('%b %y', this.value);
               } else {
@@ -139,7 +139,7 @@
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
               
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -207,7 +207,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function (){
+      "formatter": function(){
                 return Highcharts.numberFormat((this.value*1),1)+'%'; 
               }
     }
@@ -252,7 +252,7 @@
     }
   },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function (axis, formatString){
+    "optimalAxisLabelDecimals": function(axis, formatString){
           
           //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
         	//function checks how many decimal places has a number

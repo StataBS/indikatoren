@@ -84,14 +84,14 @@
         "textOverflow": "none",
         "fontSize": "10px"
       },
-      "formatter": function () {
+      "formatter": function() {
       	return this.value.replace("Eingebürgerte", "Eingebürgerte<br/>").replace("seit", "<br/>seit ");
       }
     }
   },
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
                 this.credits.element.onclick = function() {};
                 //square legends must be placed 3 pixels more to the left that lines, don't know why
                 var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);

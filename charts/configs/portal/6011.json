@@ -461,7 +461,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function (){
+      "load": function(){
             this.credits.element.onclick = function() {};
               
             //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -475,7 +475,7 @@
               );
             }
           },
-      "render": function (args){
+      "render": function(args){
         //Add functionality to define plotLines' zIndex between different series. Series have zIndex 3. See https://github.com/highcharts/highcharts/issues/1687 and http://jsfiddle.net/highcharts/r3Lzjjz6/1/
         Highcharts.wrap(Highcharts.PlotLineOrBand.prototype, 'render', function (proceed) {
         	var chart = this.axis.chart;

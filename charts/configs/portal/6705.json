@@ -817,7 +817,7 @@
   ],
   "chart": {
     "events": {
-      "load": function () {
+      "load": function() {
               this.credits.element.onclick = function() {};
 
               //for top-left legends with no x defined: move legend to x position of first yAxis
@@ -941,7 +941,7 @@
     },
     "padding": 0,
     "itemDistance": 5,
-    "labelFormatter": function (){
+    "labelFormatter": function(){
       return this.name.replace("und", "u.");
     }
   },

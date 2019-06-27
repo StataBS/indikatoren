@@ -70,7 +70,7 @@
       "step": 1,
       "x": -5,
       "y": 3,
-      "formatter": function (){
+      "formatter": function(){
         return this.value.replace("und", "u.");
       }
     },
@@ -93,7 +93,7 @@
     },
     "zoomType": "xy",
     "events": {
-      "load": function () {
+      "load": function() {
                     this.credits.element.onclick = function() {};
                     
                     //square legends must be placed 3 pixels more to the left that lines, don't know why

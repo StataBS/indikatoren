@@ -3236,7 +3236,7 @@
         }
       },
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						//console.log(this);
 						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),3) + '</b><br/>';
 					}
@@ -3573,7 +3573,7 @@
       "color": "#008AC3",
       "borderColor": "#fbfbfb",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       }
@@ -3616,13 +3616,13 @@
       ],
       "color": "black",
       "tooltip": {
-        "pointFormatter": function (){
+        "pointFormatter": function(){
 						return '<br/>';
 					}
       },
       "dataLabels": {
         "enabled": true,
-        "formatter": function (){
+        "formatter": function(){
 						return '1 km';
 					},
         "style": {
@@ -3858,7 +3858,7 @@
     "filename": 6250
   },
   "customFunctions": {
-    "pieSizeCategorical": function (value, conf){
+    "pieSizeCategorical": function(value, conf){
 				for (var i=0; i < conf.length; i++ ){
 					//console.log('checking value ' + value);
 					if (value >= conf[i].from && value < conf[i].to) {
@@ -3867,7 +3867,7 @@
 					}
 				}
 			},
-    "pieSize": function (value, maxAbsValue, maxPieDiameter){
+    "pieSize": function(value, maxAbsValue, maxPieDiameter){
             	
             	function circleAreaByDiameter(diameter){
             		return Math.PI * diameter * diameter / 4;
@@ -3903,7 +3903,7 @@
 				//console.log('value absValue area diameter: ' + value + ' ' + Math.abs(value) + ' ' + area + ' ' + diameter);
 				return diameter;
             },
-    "defineTemplate": function (){
+    "defineTemplate": function(){
 
 					//define new chart type
 					// source: https://www.highcharts.com/blog/data-journalism/effectively-visualizing-us-election-results/, 
@@ -3962,7 +3962,7 @@
 					});
 
     		    },
-    "getPointsExtremes": function (points){
+    "getPointsExtremes": function(points){
 	                var maxNumber = Number.NEGATIVE_INFINITY;
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
 	                var minNumber = Number.POSITIVE_INFINITY;
@@ -3980,7 +3980,7 @@
 					    minAbsNumber: minAbsNumber
 					};
 				},
-    "drawPies": function (chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
+    "drawPies": function(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
 	                Highcharts.each(pieSizeSeries.points, function (data) {
@@ -4072,7 +4072,7 @@
 	                // Only redraw once all pies and connectors have been added
 	                chart.redraw();
 				},
-    "addLegendTitle": function (chart, title, x, y){
+    "addLegendTitle": function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
     	                    fontSize: '15px',
@@ -4083,7 +4083,7 @@
     			        	//class: 'pieLegend'
     			        }).add();	                
                 },
-    "addLegendCircle": function (chart, x, y, radius, fill, cssClass){
+    "addLegendCircle": function(chart, x, y, radius, fill, cssClass){
                 	return chart.renderer.circle(x, y, radius, fill).attr({
     				    fill: fill,
     				    stroke: fill,
@@ -4092,7 +4092,7 @@
     				    class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabel": function (chart, text, x, y, cssClass, useHtml){
+    "addLegendLabel": function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml)
 					.css({
 	                    fontSize: '15px'
@@ -4102,7 +4102,7 @@
     					class: cssClass + ' pieLegend'
     				}).add();
                 },
-    "addLegendLabelbold": function (chart, text, x, y, cssClass, useHtml){
+    "addLegendLabelbold": function(chart, text, x, y, cssClass, useHtml){
     				return chart.renderer.label(text, x, y, undefined, undefined, undefined, useHtml).
     				attr({
     					zIndex: 6,
@@ -4111,7 +4111,7 @@
                         fontWeight: 'bold' }).
                      add();
                 },
-    "addLegendSquare": function (chart, x, y, width, fill, cssClass){
+    "addLegendSquare": function(chart, x, y, width, fill, cssClass){
                 	return chart.renderer.rect(x, y, width, width, 0).attr({
     		            'stroke-width':0,
     		            fill: fill,
@@ -4119,7 +4119,7 @@
     		            class: cssClass + ' pieLegend'
     	        	}).add();
                 },
-    "AddPieLegendClickHandler": function (chart){
+    "AddPieLegendClickHandler": function(chart){
 					var divId = chart['renderTo']['id'] || 'dummySettingForExportServer';
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
