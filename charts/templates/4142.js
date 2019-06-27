@@ -11,8 +11,12 @@
   "yAxis": {
     "labels": {
       "format": "{value}%",
-    },
+    }
   },
+    "xAxis": {
+        "type": "category"
+    },
+  
   "legend": {
     "enabled": true,
     "layout": "horizontal",

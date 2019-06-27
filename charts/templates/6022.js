@@ -8,17 +8,20 @@
     return {
     	"legend": {
 			"title": {
-				"text": "Bevölkerungssaldo"
-			}
+				"text": "Bevölkerungssaldo", 
+				
+			},
+				"x": 0,
+					"y":  10,
 			},
 		"colorAxis": {
 			//"min": undefined,
 			//"minColor": "#eff6e9",
 			//"maxColor": "#4b7b1f",
 			stops: [
-	            [0, 'rgb(0,135,135)'],
+	            [0, 'rgb(103,39,115)'], //0,135,135
 	            [0.25, 'rgb(230,230,230)'],
-	            [0.9, 'rgb(103,39,115)']
+	            [0.9, 'rgb(0,135,135)']//103,39,115
 	        ],
 	        min: -1,
 			max: 5,
@@ -140,7 +143,8 @@
                     	
                     	var colors = {
                     		'1': ['#ffaa00','#38a800'],
-                    		'-1': ['#a87000', '#267300']
+                    		'-1': ['#a87000', '#267300'],
+                    		'0': ['#ffaa00','#38a800']
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
@@ -152,18 +156,18 @@
 
 	                
 					//column values in legend
-					var legendColumnValues = [5, 2.5]; 
+				//	var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
-                	var legendTop = 220;
+                	var legendTop = 235;
                 	var legendLeft = 365;
-	                fn.addLegendTitle(chart, 265, 220, 'Wanderung/Umzug'); 
+	                fn.addLegendTitle(chart, legendLeft-100, legendTop+0 , 'Wanderung/Umzug'); 
 	                
-	                fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
+	           //     fn.addLegendColumnChart(chart, legendLeft+35,  legendTop+45,  legendColumnValues, color, 'columnLegendHideOnZoom');
 	                
-	                fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
+	             //   fn.addLegendText(chart,        legendLeft+50, legendTop+45,  Highcharts.numberFormat(legendColumnValues[0], 0,","," "), color(legendColumnValues[0], 0), 'columnLegendHideOnZoom');
 	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
+	               // fn.addLegendText(chart,        legendLeft+63, legendTop+45,  Highcharts.numberFormat(legendColumnValues[1], 1,","," "), color(legendColumnValues[1], 1), 'columnLegendHideOnZoom');
 
 					fn.addLegendSquare(chart,      legendLeft-95,  legendTop+22,  10, color(1, 0));
 					fn.addLegendText(chart,        legendLeft-80, legendTop+32,  'Wanderung positiv');

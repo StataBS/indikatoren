@@ -557,15 +557,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-21T08:45:07.077",
+		"aktualisierungsdatum": "2019-06-26T08:58:19.1919",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2017 46% aus, 41% sind Familienhaushalte und 13% werden den Nichtfamilienhaushalten zugeordnet.",
-		"erlaeuterungen": "Nichtfamilienhaushalte sind Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind. Die übrigen Mehrpersonenhaushalte werden zu den Familienhaushalten gezählt.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2018 46% aus, 41% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
 		"parentId": null,
@@ -574,11 +575,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4141,
-		"darstellungsart": "Grafik"
+		"data-id": 4141,
+		"chart-id": 4141,
+		"filter": "",
+		"id": 4141
 	},
 	{
 		"title": "Anteile der Familienhaushalte",
@@ -592,14 +596,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-12T14:04:26.2626",
+		"aktualisierungsdatum": "2019-06-26T09:00:34.3434",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil kinderloser Familien an allen Familien sank von 41,3% im Jahr 2011 auf 39,1% im Jahr 2014. 2015 stieg er wieder auf 41,0%. In den Jahren 2016 und 2017 gab es einen erneuten Rückgang und der Anteil kinderloser Familien lag noch bei 37,9%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Anteil kinderloser Familienhaushalte an allen Familienhaushalten sank von 41% im Jahr 2011 auf 37% im Jahr 2019. Demgegenüber nahm der Anteil an Paaren mit minderjährigen Kindern in den betrachteten Jahren leicht zu (von 32% auf 35%). Die Anteile der weiteren Familienhaushaltstypen sind seit 2011 gleich geblieben.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier wird nur die Untergruppe Familienhaushalte der Privathaushalte betrachtet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -610,9 +614,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4142,
+		"chart-id": 4142,
+		"filter": "",
 		"id": 4142
 	},
 	{
