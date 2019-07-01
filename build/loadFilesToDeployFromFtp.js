@@ -89,6 +89,6 @@ stream.on("finish", function() {
     
     //open browser tab for visual check
     records.forEach(row => {
-        console.log('http://localhost:8082/chart-details.html?id=' + row.Indikator);
+        console.log('http://127.0.0.1:8084/chart-details.html?id=' + row.Indikator);
     });
 });
