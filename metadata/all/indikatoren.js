@@ -38658,14 +38658,14 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-06-03T08:32:08.088",
+		"aktualisierungsdatum": "2019-07-04T08:32:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jahresteuerung des Basler Index liegt seit dem jüngsten Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Mai 2019 und Mai 2018.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Juni 2019 und Juni 2018.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -38699,7 +38699,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-03T08:27:58.5858",
+		"aktualisierungsdatum": "2019-07-04T07:38:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
