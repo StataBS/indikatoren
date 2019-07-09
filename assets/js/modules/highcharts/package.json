@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "highcharts@6.1.1",
+      "C:\\dev\\indikatoren"
+    ]
+  ],
   "_from": "highcharts@6.1.1",
   "_id": "highcharts@6.1.1",
   "_inBundle": false,
@@ -19,8 +25,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-6.1.1.tgz",
-  "_shasum": "49dc34f5e963744ecd7eb87603b6cdaf8304c13a",
-  "_spec": "highcharts@6.1.1",
+  "_spec": "6.1.1",
   "_where": "C:\\dev\\indikatoren",
   "author": {
     "name": "Highsoft AS",
@@ -30,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/highcharts/highcharts/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "JavaScript charting framework",
   "homepage": "http://www.highcharts.com",
   "keywords": [
