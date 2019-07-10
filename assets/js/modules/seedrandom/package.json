@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "seedrandom@2.4.3",
-      "C:\\dev\\indikatoren"
-    ]
-  ],
   "_from": "seedrandom@2.4.3",
   "_id": "seedrandom@2.4.3",
   "_inBundle": false,
@@ -25,7 +19,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz",
-  "_spec": "2.4.3",
+  "_shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
+  "_spec": "seedrandom@2.4.3",
   "_where": "C:\\dev\\indikatoren",
   "author": {
     "name": "David Bau"
@@ -36,6 +31,7 @@
   "bugs": {
     "url": "https://github.com/davidbau/seedrandom/issues"
   },
+  "bundleDependencies": false,
   "config": {
     "blanket": {
       "pattern": [
@@ -49,6 +45,7 @@
       ]
     }
   },
+  "deprecated": false,
   "description": "Seeded random number generator for Javascript.",
   "devDependencies": {
     "blanket": "latest",
