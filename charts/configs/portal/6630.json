@@ -5,92 +5,92 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 2,
-          "Wert": 0.0166023166
+          "y": 1,
+          "Wert": 0.0115429011
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 7,
-          "Wert": 0.2841698842
+          "y": 6,
+          "Wert": 0.2808772605
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 0.5196911197
+          "Wert": 0.5225086572
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 19,
-          "Wert": 0.2922636103
+          "Wert": 0.2977608385
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 19,
-          "Wert": 0.6666666667
+          "y": 18,
+          "Wert": 0.6153846154
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.2812328013
+          "Wert": 0.2898389783
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 6,
-          "Wert": 0.3111969112
+          "Wert": 0.3108888034
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.1441937259
+          "Wert": 0.1532481954
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 1822.9739479
+          "Wert": 1823.16
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.1022044088
+          "Wert": 0.102
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.0672594599
+          "Wert": 0.067259476
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 16,
-          "Wert": 89.982578397
+          "Wert": 89.764261168
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 20,
-          "Wert": 52.670028818
+          "y": 21,
+          "Wert": 53.158121706
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 17,
-          "Wert": 5514.6161194
+          "Wert": 5639.5632458
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 19,
-          "Wert": 16657.376716
+          "y": 18,
+          "Wert": 16990.146778
         },
         {
           "name": "Erwerbstätigenquote",
@@ -102,7 +102,7 @@
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 4.3204680878
+          "Wert": 4.1077454555
         },
         {
           "name": "Arbeitslosenquote",
@@ -194,7 +194,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Quartierradar Altstadt Grossbasel"
+    "text": "Altstadt Grossbasel - Quartierradar"
   },
   "subtitle": {
     "style": {
@@ -203,7 +203,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2018",
+    "text": "Ausgabe 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
   },
   "legend": {
     "enabled": false,
