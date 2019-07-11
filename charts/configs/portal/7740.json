@@ -1,0 +1,1081 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1985,
+          2540
+        ],
+        [
+          1986,
+          2700
+        ],
+        [
+          1987,
+          2522
+        ],
+        [
+          1988,
+          2623
+        ],
+        [
+          1989,
+          2617
+        ],
+        [
+          1990,
+          2815
+        ],
+        [
+          1991,
+          2637
+        ],
+        [
+          1992,
+          2619
+        ],
+        [
+          1993,
+          2552
+        ],
+        [
+          1994,
+          2546
+        ],
+        [
+          1995,
+          2609
+        ],
+        [
+          1996,
+          2410
+        ],
+        [
+          1997,
+          2547
+        ],
+        [
+          1998,
+          2511
+        ],
+        [
+          1999,
+          2441
+        ],
+        [
+          2000,
+          2413
+        ],
+        [
+          2001,
+          2321
+        ],
+        [
+          2002,
+          2441
+        ],
+        [
+          2003,
+          2420
+        ],
+        [
+          2004,
+          2148
+        ],
+        [
+          2005,
+          2179
+        ],
+        [
+          2006,
+          2182
+        ],
+        [
+          2007,
+          2018
+        ],
+        [
+          2008,
+          2173
+        ],
+        [
+          2009,
+          2182
+        ],
+        [
+          2010,
+          2189
+        ],
+        [
+          2011,
+          2031
+        ],
+        [
+          2012,
+          2159
+        ],
+        [
+          2013,
+          2082
+        ],
+        [
+          2014,
+          2133
+        ],
+        [
+          2015,
+          2191
+        ],
+        [
+          2016,
+          2020
+        ],
+        [
+          2017,
+          2145
+        ],
+        [
+          2018,
+          2107
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
+        ],
+        [
+          2022,
+          null
+        ],
+        [
+          2023,
+          null
+        ],
+        [
+          2024,
+          null
+        ],
+        [
+          2025,
+          null
+        ],
+        [
+          2026,
+          null
+        ],
+        [
+          2027,
+          null
+        ],
+        [
+          2028,
+          null
+        ],
+        [
+          2029,
+          null
+        ],
+        [
+          2030,
+          null
+        ],
+        [
+          2031,
+          null
+        ],
+        [
+          2032,
+          null
+        ],
+        [
+          2033,
+          null
+        ],
+        [
+          2034,
+          null
+        ],
+        [
+          2035,
+          null
+        ],
+        [
+          2036,
+          null
+        ],
+        [
+          2037,
+          null
+        ],
+        [
+          2038,
+          null
+        ],
+        [
+          2039,
+          null
+        ],
+        [
+          2040,
+          null
+        ]
+      ],
+      "name": "Effektiv"
+    },
+    {
+      "color": "#923F8D",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          2038
+        ],
+        [
+          2020,
+          1976
+        ],
+        [
+          2021,
+          1944
+        ],
+        [
+          2022,
+          1926
+        ],
+        [
+          2023,
+          1915
+        ],
+        [
+          2024,
+          1903
+        ],
+        [
+          2025,
+          1898
+        ],
+        [
+          2026,
+          1893
+        ],
+        [
+          2027,
+          1886
+        ],
+        [
+          2028,
+          1880
+        ],
+        [
+          2029,
+          1875
+        ],
+        [
+          2030,
+          1869
+        ],
+        [
+          2031,
+          1863
+        ],
+        [
+          2032,
+          1856
+        ],
+        [
+          2033,
+          1853
+        ],
+        [
+          2034,
+          1851
+        ],
+        [
+          2035,
+          1848
+        ],
+        [
+          2036,
+          1850
+        ],
+        [
+          2037,
+          1846
+        ],
+        [
+          2038,
+          1850
+        ],
+        [
+          2039,
+          1852
+        ],
+        [
+          2040,
+          1857
+        ]
+      ],
+      "name": "Hohes Szenario"
+    },
+    {
+      "color": "#DC440E",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          2080
+        ],
+        [
+          2020,
+          2014
+        ],
+        [
+          2021,
+          1981
+        ],
+        [
+          2022,
+          1961
+        ],
+        [
+          2023,
+          1947
+        ],
+        [
+          2024,
+          1933
+        ],
+        [
+          2025,
+          1927
+        ],
+        [
+          2026,
+          1920
+        ],
+        [
+          2027,
+          1913
+        ],
+        [
+          2028,
+          1906
+        ],
+        [
+          2029,
+          1898
+        ],
+        [
+          2030,
+          1890
+        ],
+        [
+          2031,
+          1882
+        ],
+        [
+          2032,
+          1873
+        ],
+        [
+          2033,
+          1866
+        ],
+        [
+          2034,
+          1863
+        ],
+        [
+          2035,
+          1860
+        ],
+        [
+          2036,
+          1859
+        ],
+        [
+          2037,
+          1853
+        ],
+        [
+          2038,
+          1854
+        ],
+        [
+          2039,
+          1854
+        ],
+        [
+          2040,
+          1857
+        ]
+      ],
+      "name": "Mittleres Szenario"
+    },
+    {
+      "color": "#FFDA80",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          1985,
+          null
+        ],
+        [
+          1986,
+          null
+        ],
+        [
+          1987,
+          null
+        ],
+        [
+          1988,
+          null
+        ],
+        [
+          1989,
+          null
+        ],
+        [
+          1990,
+          null
+        ],
+        [
+          1991,
+          null
+        ],
+        [
+          1992,
+          null
+        ],
+        [
+          1993,
+          null
+        ],
+        [
+          1994,
+          null
+        ],
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          2124
+        ],
+        [
+          2020,
+          2058
+        ],
+        [
+          2021,
+          2020
+        ],
+        [
+          2022,
+          2003
+        ],
+        [
+          2023,
+          1987
+        ],
+        [
+          2024,
+          1976
+        ],
+        [
+          2025,
+          1966
+        ],
+        [
+          2026,
+          1957
+        ],
+        [
+          2027,
+          1951
+        ],
+        [
+          2028,
+          1938
+        ],
+        [
+          2029,
+          1929
+        ],
+        [
+          2030,
+          1919
+        ],
+        [
+          2031,
+          1910
+        ],
+        [
+          2032,
+          1900
+        ],
+        [
+          2033,
+          1890
+        ],
+        [
+          2034,
+          1887
+        ],
+        [
+          2035,
+          1879
+        ],
+        [
+          2036,
+          1877
+        ],
+        [
+          2037,
+          1871
+        ],
+        [
+          2038,
+          1869
+        ],
+        [
+          2039,
+          1870
+        ],
+        [
+          2040,
+          1868
+        ]
+      ],
+      "name": "Tiefes Szenario"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-7740",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sterbefälle "
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Bevölkerungsszenarien Basel-Stadt, 2019",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemWidth": 150,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 7740
+  }
+}

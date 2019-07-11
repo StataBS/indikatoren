@@ -706,7 +706,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
 		"kuerzel": "I.01.9.6215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -716,30 +716,35 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
+		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 199 000 am Ende des Jahres 2017 um 10% auf rund 219 000 Einwohner, was etwa dem Bevölkerungsbestand Mitte der 1970er-Jahre entspricht.",
-		"erlaeuterungen": "Prognosen sind zwangsläufig mit Unsicherheit behaftet. Daher wurden drei Prognoseszenarien erarbeitet, die einen plausiblen Bereich der möglichen zukünftigen Bevölkerungsentwicklung abdecken können. Die Berechnung der vorliegenden Bevölkerungsszenarien erfolgt für den Prognosezeitraum 2018 bis 2040. Das Rechenmodell basiert auf folgender demografischer Grundgleichung: Die Bevölkerung am Ende jedes Jahres entspricht dem Anfangsbestand, zuzüglich der Geburten und Zuwanderungen, abzüglich der Sterbefälle und Abwanderungen. Die Hypothesen, welche für diese vier demografischen Komponenten angenommen werden, bestimmen rechnerisch das Prognoseergebnis, und zwar unter der zentralen Nebenbedingung des vorhandenen Wohnraumes: In einem Stadtkanton wie Basel-Stadt ohne grössere Landreserven bestimmen der vorhandene Wohnraum bzw. die geplanten Wohnraumentwicklungen, insbesondere der grossen Areale, die mögliche Bevölkerungszahl.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6260"
+			"6260",
+			"7747"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
-		"id": 6215,
-		"darstellungsart": "Grafik"
+		"data-id": 6215,
+		"chart-id": 6215,
+		"filter": "",
+		"id": 6215
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",

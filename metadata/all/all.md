@@ -1003,6 +1003,10 @@ id | visible | visibleInPortal | indikatorenset
 6992 | true | true | 
 6993 | true | true | 
 7000 | true | true | 
+7006 | true | false | Arbeitsmarkt (Print)
+7014 | true | false | Arbeitsmarkt (Print)
+7015 | true | false | Arbeitsmarkt (Print)
+7019 | true | false | Arbeitsmarkt (Print)
 7068 | true | true | 
 7432 | true | true | 
 7435 | true | false | Arbeitsmarkt
@@ -1052,6 +1056,32 @@ id | visible | visibleInPortal | indikatorenset
 7563 | true | false | 
 7603 | true | true | 
 7713 | true | false | Testset
+7722 | true | true | Bevoelkerungsszenarien
+7723 | true | true | Bevoelkerungsszenarien
+7724 | true | true | Bevoelkerungsszenarien
+7725 | true | true | Bevoelkerungsszenarien
+7726 | true | true | Bevoelkerungsszenarien
+7727 | true | true | Bevoelkerungsszenarien
+7728 | true | true | Bevoelkerungsszenarien
+7729 | true | true | Bevoelkerungsszenarien
+7730 | true | true | Bevoelkerungsszenarien
+7731 | true | true | Bevoelkerungsszenarien
+7732 | true | true | Bevoelkerungsszenarien
+7733 | true | true | Bevoelkerungsszenarien
+7734 | true | true | Bevoelkerungsszenarien
+7735 | true | true | Bevoelkerungsszenarien
+7736 | true | true | Bevoelkerungsszenarien
+7737 | true | true | Bevoelkerungsszenarien
+7738 | true | true | Bevoelkerungsszenarien
+7739 | true | true | Bevoelkerungsszenarien
+7740 | true | true | Bevoelkerungsszenarien
+7741 | true | true | Bevoelkerungsszenarien
+7742 | true | true | Bevoelkerungsszenarien
+7743 | true | true | Bevoelkerungsszenarien
+7744 | true | true | Bevoelkerungsszenarien
+7745 | true | true | 
+7746 | true | true | 
+7747 | true | false | Bevoelkerungsszenarien
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
