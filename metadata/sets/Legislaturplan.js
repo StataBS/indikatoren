@@ -849,13 +849,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-01T09:13:19.1919",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,8% 2017 auf 3,4% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,6% und lag damit so tief wie zuletzt im Jahr 2008. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag allerdings mit 2,8% weiterhin deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

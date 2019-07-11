@@ -8,13 +8,13 @@
 "unterthema":"Hochschulen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-07-11T16:27:39.3939",
 "stufe1":"Kapitel B Schule und Bildung",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2017 nahezu stabil geblieben, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung verläuft die Entwicklung nach Jahren mit stagnierender Hochschulquote seit 2008 in die gleiche Richtung. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass schon früh angeglichen und lagen in den beobachteten 20 Jahren nie so weit auseinander wie bei den Schweizerinnen und Schweizern.",
+"lesehilfe":"Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 leicht gesunken, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung ist 2018 ebenfalls - und erstmals seit 2011 - ein Rückgang der Hochschulquote zu beobachten. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass 2018 etwas auseinanderentwickelt (Rückgang bei den Ausländern, Stabilität bei den Ausländerinnen).",
 "erlaeuterungen":"Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6668"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS)","Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Bildungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6083, 
+"chart-id":6083, 
+"filter":""
 }

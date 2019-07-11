@@ -475,13 +475,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,2% im Jahresdurchschnitt 2017 auf 3,6% im Jahr 2018. Sie lag damit nur noch leicht über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,4% 2018). Die Arbeitslosenquote der Personen ab 50 ging 2018 vergleichsweise weniger stark zurück, lag mit 2,8% jedoch weiterhin deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,5% im Jahresdurchschnitt 2017 auf 3,9% im Jahr 2018. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,3% 2018). Die Arbeitslosenquote der Personen ab 50 ging 2018 auf 2,5% zurück und lag wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -517,13 +517,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:14.1414",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 6,0% (im Sommer lag sie bei 4,4%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 5,6% (im Sommer lag sie bei 4,1%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -686,13 +686,13 @@
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im vergangenen Jahr weiter gesunken. Im Jahresdurchschnitt ging sie von 3,8% im Jahr 2017 auf 3,4% im Jahr 2018 zurück. In den Kantonen Zürich und Basel-Landschaft sowie in der Gesamtschweiz war der Rückgang noch stärker. Landesweit sank die Arbeitslosenquote im Jahresmittel von 3,2% 2017 auf 2,6% 2018.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im vergangenen Jahr weiter gesunken. Im Jahresdurchschnitt ging sie von 3,6% im Jahr 2017 auf 3,3% im Jahr 2018 zurück. In den Kantonen Zürich und Basel-Landschaft sowie in der Gesamtschweiz war der Rückgang noch stärker. Landesweit sank die Arbeitslosenquote im Jahresmittel von 3,1% 2017 auf 2,5% 2018.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -14123,19 +14123,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-01T09:13:19.1919",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,8% 2017 auf 3,4% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,6% und lag damit so tief wie zuletzt im Jahr 2008. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag allerdings mit 2,8% weiterhin deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "06_02_00_00_00_609",
+		"orderKey": "03_00_00_00_00_609",
 		"parentId": 6137,
 		"children": [],
 		"renderLink": [],
@@ -15294,13 +15294,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichen Anstieg 2017 im Vergleich zum Vorjahr nahezu stabil geblieben. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 im Vergleich zum Vorjahr leicht gesunken. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -15317,9 +15317,13 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6082,
+		"chart-id": 6082,
+		"filter": "",
 		"id": 6082
 	},
 	{
@@ -15334,13 +15338,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2017 nahezu stabil geblieben, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung verläuft die Entwicklung nach Jahren mit stagnierender Hochschulquote seit 2008 in die gleiche Richtung. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass schon früh angeglichen und lagen in den beobachteten 20 Jahren nie so weit auseinander wie bei den Schweizerinnen und Schweizern.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 leicht gesunken, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung ist 2018 ebenfalls - und erstmals seit 2011 - ein Rückgang der Hochschulquote zu beobachten. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass 2018 etwas auseinanderentwickelt (Rückgang bei den Ausländern, Stabilität bei den Ausländerinnen).",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -15357,9 +15361,13 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6083,
+		"chart-id": 6083,
+		"filter": "",
 		"id": 6083
 	},
 	{
@@ -16036,13 +16044,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-01T09:13:19.1919",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,8% 2017 auf 3,4% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,6% und lag damit so tief wie zuletzt im Jahr 2008. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag allerdings mit 2,8% weiterhin deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -18073,7 +18081,7 @@
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
 		"kuerzel": "I.01.9.6215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -18083,31 +18091,36 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-15T12:00:00.0000",
+		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 199 000 am Ende des Jahres 2017 um 10% auf rund 219 000 Einwohner, was etwa dem Bevölkerungsbestand Mitte der 1970er-Jahre entspricht.",
-		"erlaeuterungen": "Prognosen sind zwangsläufig mit Unsicherheit behaftet. Daher wurden drei Prognoseszenarien erarbeitet, die einen plausiblen Bereich der möglichen zukünftigen Bevölkerungsentwicklung abdecken können. Die Berechnung der vorliegenden Bevölkerungsszenarien erfolgt für den Prognosezeitraum 2018 bis 2040. Das Rechenmodell basiert auf folgender demografischer Grundgleichung: Die Bevölkerung am Ende jedes Jahres entspricht dem Anfangsbestand, zuzüglich der Geburten und Zuwanderungen, abzüglich der Sterbefälle und Abwanderungen. Die Hypothesen, welche für diese vier demografischen Komponenten angenommen werden, bestimmen rechnerisch das Prognoseergebnis, und zwar unter der zentralen Nebenbedingung des vorhandenen Wohnraumes: In einem Stadtkanton wie Basel-Stadt ohne grössere Landreserven bestimmen der vorhandene Wohnraum bzw. die geplanten Wohnraumentwicklungen, insbesondere der grossen Areale, die mögliche Bevölkerungszahl.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6260"
+			"6260",
+			"7747"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'http://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
-		"id": 6215,
-		"darstellungsart": "Grafik"
+		"data-id": 6215,
+		"chart-id": 6215,
+		"filter": "",
+		"id": 6215
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
@@ -19069,7 +19082,7 @@
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.9.06260",
+		"kuerzel": "I.01.9.6260",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"thema": "01 Bevölkerung",
@@ -19084,9 +19097,10 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2016 umfasste die baselstädtische Wohnbevölkerung rund 198 200 Personen. Das Mittlere Szenario der aktuellen Bevölkerungsszenarien des Kantons Basel-Stadt geht davon aus, dass sich die Zahl der in Basel-Stadt wohnhaften Personen bis 2035 auf etwa 212 600 erhöht.",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der < href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html.\">Internetseite des Statistischen Amtes</a>",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
 		"template": "template001_print",
+		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_01_00_00_00_000",
 		"parentId": 6215,
@@ -26034,14 +26048,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Pro 1000 Personen liessen sich 2017 gut 36  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. 2007 hatten Personen aus diesen Ländern noch öfter das Schweizer Bürgerrecht erworben. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2017 auch Personen aus arabischen Ländern (30,3), aus dem Balkan (28,8), aus Deutschland (20,6) sowie aus der Türkei (18,4). Die Einbürgerungsziffern der Personen aus arabischen Ländern und aus Deutschland haben im Vergleich zu 2007 zugenommen, jene der Personen aus dem Balkan und der Türkei sind zurückgegangen. Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan in den Jahren 2007 und 2008. Diese Spitzen lassen sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte zwölfjährige Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
-		"erlaeuterungen": "Voraussetzung für eine ordentliche Einbürgerung ist u.&nbsp;a. eine 12-jährige Wohndauer in der Schweiz. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die 5 Jahre in der Schweiz gelebt haben und die seit 3 Jahren verheiratet sind. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2018 30,8  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2018 auch Personen aus arabischen Ländern (30,4), aus dem Balkan (21,8), aus der Türkei (19,2) und aus Deutschland (17,7). Die Einbürgerungsziffern der Personen aus Mittel- und Südamerika sowie aus Deutschland haben im Vergleich zu 2008 zugenommen, jene der Personen aus den arabischen Ländern, dem Balkan und der Türkei sind zurückgegangen. Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan im Jahr 2008. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu  diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26055,14 +26069,18 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6479,
+		"chart-id": 6479,
+		"filter": "",
 		"id": 6479
 	},
 	{
 		"title": "Anzahl ordentlich Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte von 2007 bis 2017",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte von 2008 bis 2018",
 		"kuerzel": "I.01.6.6480",
 		"kuerzelKunde": "D3-2",
 		"description": "Anzahl ordentlich Eingebürgerte",
@@ -26072,14 +26090,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2007 bis 2017 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen, den 25- bis 29-Jährigen und den 30- bis 34-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen. Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (63%) und die 25- bis 29-Jährigen (61%) auf.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2008 bis 2018 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen, den 25- bis 29-Jährigen und den 30- bis 34-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen (52%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (63%) und die 25- bis 29-Jährigen (61%) auf.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu  diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26093,9 +26111,13 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6480,
+		"chart-id": 6480,
+		"filter": "",
 		"id": 6480
 	},
 	{
@@ -29972,17 +29994,19 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer steigt kontinuierlich an. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichen Anstieg 2017 im Vergleich zum Vorjahr nahezu stabil geblieben. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001_print",
-		"printformat": "",
+		"printformat": "large",
 		"visibleInPortal": false,
-		"orderKey": "02_00_00_00_00_000",
+		"orderKey": "02_00_00_00_00_003",
 		"parentId": 6082,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
+			"Bundesamt für Statistik (BFS)",
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
 		"externalLinks": [
 			""
@@ -30375,7 +30399,7 @@
 		"stufe5": "",
 		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (46,8%), der Türkei (39,2%) und Italien (37,4%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus den EU-17 + EFTA-Ländern (30,9%), Mittel- und Südamerika (30,3%) und der Kategorie «Übrige Länder» &nbsp;(22,6%) zu beobachten sind.",
 		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
-		"template": "befragungen001_print",
+		"template": "template001_print",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_00_00_00_00_029",
@@ -37138,6 +37162,167 @@
 		"id": 7000
 	},
 	{
+		"title": "Grenzgänger in Industrie und Baugewerbe",
+		"subtitle": "Bestand Ende Quartal, Basel-Stadt",
+		"kuerzel": "I.03.5.07006",
+		"kuerzelKunde": "3.4-05",
+		"description": "Grenzgänger in Industrie und Baugewerbe",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.4 Ausländische Erwerbstätige",
+		"stufe3": "3.4.1 Grenzgänger",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Nach einer relativ konstanten Entwicklung in den letzten zehn Jahren ging die Zahl der Grenzgänger in den abgebildeten Branchen zuletzt leicht zurück. In der Branche Chemie und Pharma wurden zum Ende des 3. Quartals 2018 6 397 Grenzgänger gezählt, 8,0% weniger als ein Jahr zuvor.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_04_01_00_00_405",
+		"parentId": 2161,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7006,
+		"chart-id": 7006,
+		"filter": "",
+		"id": 7006
+	},
+	{
+		"title": "Arbeitslosenquote nach Alter",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07014",
+		"kuerzelKunde": "3.3-02",
+		"description": "Arbeitslosenquote nach Alter",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 4,2% im Jahresdurchschnitt 2017 auf 3,6% im Jahr 2018. Sie lag damit nur noch leicht über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,4% 2018). Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 vergleichsweise weniger stark zurück, lag mit 2,8% jedoch weiterhin deutlich unterhalb des Durchschnitts.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_03_00_00_00_302",
+		"parentId": 2423,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7014,
+		"chart-id": 7014,
+		"filter": "",
+		"id": 7014
+	},
+	{
+		"title": "Arbeitslosenquote nach Herkunft und Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.07015",
+		"kuerzelKunde": "3.3-03",
+		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2018 beträgt die Arbeitslosenquote der ausländischen Männer 6,0% (im Sommer lag sie bei 4,4%). Gegenüber Dezember 2017 hat sie sich kaum verändert.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_03_00_00_00_303",
+		"parentId": 2424,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7015,
+		"chart-id": 7015,
+		"filter": "",
+		"id": 7015
+	},
+	{
+		"title": "Arbeitslosenquote nach Kanton",
+		"subtitle": "",
+		"kuerzel": "I.03.4.07019",
+		"kuerzelKunde": "3.3-01",
+		"description": "Arbeitslosenquote nach Kanton",
+		"thema": "03 Erwerbsleben",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"aktualisierungsdatum": "",
+		"stufe1": "3 Monitoring Basler Arbeitsmarkt",
+		"stufe2": "3.3 Arbeitslosigkeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im vergangenen Jahr weiter gesunken. Im Jahresdurchschnitt ging sie von 3,8% im Jahr 2017 auf 3,4% im Jahr 2018 zurück. In den Kantonen Zürich und Basel-Landschaft sowie in der Gesamtschweiz war der Rückgang noch stärker. Landesweit sank die Arbeitslosenquote im Jahresmittel von 3,2% 2017 auf 2,6% 2018.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. März bis Mai 2018: Technische Umstellung in der Erfassung von arbeitslosen und nicht arbeitslosen Stellensuchenden. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
+		"template": "line001_print",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_03_00_00_00_301",
+		"parentId": 2459,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7019,
+		"chart-id": 7019,
+		"filter": "",
+		"id": 7019
+	},
+	{
 		"title": "Arzt- und Zahnarztpraxen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.14.4.07068",
@@ -39175,6 +39360,1046 @@
 		"chart-id": 7713,
 		"filter": "",
 		"id": 7713
+	},
+	{
+		"title": "Zusätzliche Wohnfläche nach Prognosezeitraum",
+		"subtitle": "in m². Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "I.01.9.07722",
+		"kuerzelKunde": "2-1",
+		"description": "Zusätzliche Wohnfläche nach Prognosezeitraum",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario rund 285 000 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7722,
+		"chart-id": 7722,
+		"filter": "",
+		"id": 7722
+	},
+	{
+		"title": "Wohnflächenverbrauch pro Person",
+		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-2",
+		"description": "Wohnflächenverbrauch pro Person",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Wohnflächenverbrauch pro Kopf steigt im Mittleren Szenario von 41,0 auf 41,7 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständige Bevölkerung Basel-Stadts.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7723,
+		"chart-id": 7723,
+		"filter": "",
+		"id": 7723
+	},
+	{
+		"title": "Leerwohnungsquote",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-3",
+		"description": "Leerwohnungsquote",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Leehrwohnungsquote entwickelt sich von 0,7% im Jahr 2018 je nach Szenario zu 0,2%, 0,9% oder 1,6%.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Leerwohnungsquote berechnet sich als Leerwohnungsbestand dividiert durch den Gesamtwohnungsbestand.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7724,
+		"chart-id": 7724,
+		"filter": "",
+		"id": 7724
+	},
+	{
+		"title": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-4a",
+		"description": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 83,5 auf 86,4 Jahre im Jahr 2040. Die Lebenserwartung von Schweizern (M) steigt von 79,8 auf 82,8 Jahre im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7725,
+		"chart-id": 7725,
+		"filter": "",
+		"id": 7725
+	},
+	{
+		"title": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-4b",
+		"description": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Ausländerinnen (W) steigt im Mittleren Szenario auf 86,4 Jahre im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7726,
+		"chart-id": 7726,
+		"filter": "",
+		"id": 7726
+	},
+	{
+		"title": "Zusammengefasste Geburtenziffer nach Herkunft",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-5",
+		"description": "Zusammengefasste Geburtenziffer nach Herkunft",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) steigt im Mittleren Szenario auf 1,22 im Jahr 2040. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) sinkt auf 1,54 im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7727,
+		"chart-id": 7727,
+		"filter": "",
+		"id": 7727
+	},
+	{
+		"title": "Einbürgerungsquoten nach Geschlecht",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "2-6",
+		"description": "Einbürgerungsquoten nach Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Mittleren Szenario sinken die Einbürgerungsquoten von in Basel-Stadt wohnhaften Frauen (W) von 1,7% im Jahr 2018 auf 1,6% im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Einbürgerungsquote berechet sich als Quotient der Anzahl der Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7728,
+		"chart-id": 7728,
+		"filter": "",
+		"id": 7728
+	},
+	{
+		"title": "Bevölkerung Grossbasel Ost",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "3-2",
+		"description": "Bevölkerung Grossbasel Ost",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerung von Grossbasel Ost wächst gemäss Mittlerem Szenario von unter 55 000 auf knapp 60 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7729,
+		"chart-id": 7729,
+		"filter": "",
+		"id": 7729
+	},
+	{
+		"title": "Bevölkerung Grossbasel West",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "3-3",
+		"description": "Bevölkerung Grossbasel West",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerung von Grossbasel West wächst gemäss Mittlerem Szenario von 69 000 auf über 71 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7730,
+		"chart-id": 7730,
+		"filter": "",
+		"id": 7730
+	},
+	{
+		"title": "Bevölkerung Kleinbasel",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "3-4",
+		"description": "Bevölkerung Kleinbasel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 54 000 auf 65 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7731,
+		"chart-id": 7731,
+		"filter": "",
+		"id": 7731
+	},
+	{
+		"title": "Bevölkerung Riehen und Bettingen",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "3-5",
+		"description": "Bevölkerung Riehen und Bettingen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Wahlkreis"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von knapp 23 000 auf fast 25 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7732,
+		"chart-id": 7732,
+		"filter": "",
+		"id": 7732
+	},
+	{
+		"title": "Bevölkerung zwischen 0 und 19 Jahren",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-1",
+		"description": "Bevölkerung zwischen 0 und 19 Jahren",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 0 und 19 Jahren wächst gemäss Mittlerem Szenario von unter 34 000 auf 39 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7733,
+		"chart-id": 7733,
+		"filter": "",
+		"id": 7733
+	},
+	{
+		"title": "Bevölkerung ab 65 Jahren",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-2",
+		"description": "Bevölkerung ab 65 Jahren",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 65 Jahren wächst gemäss Mittlerem Szenario von rund 39 000 auf 46 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7734,
+		"chart-id": 7734,
+		"filter": "",
+		"id": 7734
+	},
+	{
+		"title": "Bevölkerung ab 80 Jahren",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-3",
+		"description": "Bevölkerung ab 80 Jahren",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von über 13 000 auf knapp 18 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7735,
+		"chart-id": 7735,
+		"filter": "",
+		"id": 7735
+	},
+	{
+		"title": "Bevölkerung zwischen 20 und 64 Jahren",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-4",
+		"description": "Bevölkerung zwischen 20 und 64 Jahren",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 20 und 64 Jahren wächst gemäss Mittlerem Szenario von unter 128 000 auf 136 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7736,
+		"chart-id": 7736,
+		"filter": "",
+		"id": 7736
+	},
+	{
+		"title": "Jugendquotient",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-5",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Jugendquotient wächst gemäss Mittlerem Szenario von 26,5% im Jahr 2018 auf 28,7% im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Jugendquotient berechnet sich als Verhältnis der 0- bis 19-jährigen Personen an den 20- bis 64-jährigen Personen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7737,
+		"chart-id": 7737,
+		"filter": "",
+		"id": 7737
+	},
+	{
+		"title": "Altersquotient",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "4-6",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4% im Jahr 2018 auf 33,9% im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Altersquotient berechnet sich als Verhältnis der über 64-jährigen Personen an den 20- bis 64-jährigen Personen.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7738,
+		"chart-id": 7738,
+		"filter": "",
+		"id": 7738
+	},
+	{
+		"title": "Geburten",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-1",
+		"description": "Geburten",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung stagniert im Mittleren Szenario und beträgt im Jahr 2040 rund 2 200, etwas über dem Wert des Jahres 2016.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Anzahl Lebendgeburten.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7739,
+		"chart-id": 7739,
+		"filter": "",
+		"id": 7739
+	},
+	{
+		"title": "Sterbefälle",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-2",
+		"description": "Sterbefälle",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl Sterbefälle unter der Wohnbevölkerung von Basel-Stadt sinkt in allen drei Szenarien auf zwischen 1 800 und 1 900 im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019.",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7740,
+		"chart-id": 7740,
+		"filter": "",
+		"id": 7740
+	},
+	{
+		"title": "Geburtenüberschuss",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-3",
+		"description": "Geburtenüberschuss",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario im gesamten Prognosezeitraum positiv und beträgt am Ende des Prognoshorizonts 347.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7741,
+		"chart-id": 7741,
+		"filter": "",
+		"id": 7741
+	},
+	{
+		"title": "Wanderungssaldo international",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-4",
+		"description": "Wanderungssaldo international",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der internationale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 fast 1 400 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der internationale Wanderungssaldo errechnet sich als Differenz der aus dem Ausland eingewanderten Personen abzüglich der ins Ausland ausgewanderten Personen in einem bestimmten Jahr.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7742,
+		"chart-id": 7742,
+		"filter": "",
+		"id": 7742
+	},
+	{
+		"title": "Wanderungssaldo interkantonal",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-5",
+		"description": "Wanderungssaldo interkantonal",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2040 rund 1 100 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7743,
+		"chart-id": 7743,
+		"filter": "",
+		"id": 7743
+	},
+	{
+		"title": "Wanderungssaldo total",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "",
+		"kuerzelKunde": "5-6",
+		"description": "Wanderungssaldo total",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 noch knapp 300 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo errechnet sich als Differenz der eingewanderten Personen abzüglich der ausgewanderten Personen in einem bestimmten Jahr. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+		],
+		"data-id": 7744,
+		"chart-id": 7744,
+		"filter": "",
+		"id": 7744
+	},
+	{
+		"title": "Altersquotient Kleinbasel und Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.01.9.07745",
+		"kuerzelKunde": "",
+		"description": "Altersquotient Kleinbasel und Basel-Stadt",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7745,
+		"chart-id": 7745,
+		"filter": "",
+		"id": 7745
+	},
+	{
+		"title": "Ausländeranteil Kleinbasel und Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.01.9.07746",
+		"kuerzelKunde": "",
+		"description": "Ausländeranteil Kleinbasel und Basel-Stadt",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7746,
+		"chart-id": 7746,
+		"filter": "",
+		"id": 7746
+	},
+	{
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "I.01.9.07747",
+		"kuerzelKunde": "3-1",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kennzahlenset": "Bevoelkerungsszenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": 6215,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+		],
+		"data-id": 7747,
+		"chart-id": 7747,
+		"filter": "",
+		"id": 7747
 	},
 	{
 		"title": "Test Daten",

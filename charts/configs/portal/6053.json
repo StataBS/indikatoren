@@ -105,11 +105,11 @@
         ],
         [
           2017,
-          0.037596
+          0.036038
         ],
         [
           2018,
-          0.033922
+          0.032516
         ]
       ],
       "name": "Total"
@@ -220,11 +220,11 @@
         ],
         [
           2017,
-          0.041872
+          0.044949
         ],
         [
           2018,
-          0.035882
+          0.038518
         ]
       ],
       "name": "15-24 Jahre"
@@ -335,11 +335,11 @@
         ],
         [
           2017,
-          0.030549
+          0.027861
         ],
         [
           2018,
-          0.027521
+          0.025099
         ]
       ],
       "name": "50 Jahre und mehr"
@@ -447,7 +447,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-1"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
   },
   "legend": {
     "enabled": true,
