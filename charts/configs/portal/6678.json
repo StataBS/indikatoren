@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          99204.311691
+          98860.113602
         ],
         [
           "Deutschland",
-          13529.151167
+          13545.709912
         ],
         [
           "Italien",
-          2550.489081
+          2618.366548
         ],
         [
           "Türkei",
-          2080.307799
+          2009.958631
         ],
         [
           "EU-17 + EFTA",
-          3435.420783
+          3642.018837
         ],
         [
           "EU-Ost",
-          751.607435
+          830.42836
         ],
         [
           "Balkan",
-          3130.802805
+          3101.069889
         ],
         [
           "Mittel- und Südamerika",
-          443.216388
+          410.128959
         ],
         [
           "Arabische Länder",
-          274.858788
+          298.198885
         ],
         [
           "Afrikanische Länder",
-          406.778534
+          384.176331
         ],
         [
           "Übrige Länder",
-          1257.075033
+          1291.794185
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          6904.888309
+          6911.086398
         ],
         [
           "Deutschland",
-          112.454909
+          102.71713
         ],
         [
           "Italien",
-          4266.490029
+          4403.601262
         ],
         [
           "Türkei",
-          3227.273338
+          3161.720667
         ],
         [
           "EU-17 + EFTA",
-          7689.661436
+          7905.800902
         ],
         [
           "EU-Ost",
-          1614.617142
+          1821.1212
         ],
         [
           "Balkan",
-          3558.602073
+          3687.921858
         ],
         [
           "Mittel- und Südamerika",
-          1018.994692
+          980.492534
         ],
         [
           "Arabische Länder",
-          529.29537
+          546.649604
         ],
         [
           "Afrikanische Länder",
-          699.019033
+          785.782932
         ],
         [
           "Übrige Länder",
-          4316.884162
+          4439.541373
         ]
       ],
       "name": "Kein Deutsch",
@@ -112,39 +112,20 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
+      "step": 1,
       "formatter": function() {
       	return this.value.replace("und", "u.");
-      },
-      "step": 1
-    }
+      }
+    },
+    "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function() {
-                this.credits.element.onclick = function() {};
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                    }
-                  }
-                );
-              }                              
-            }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
@@ -156,21 +137,52 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px"
+      "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "type": "column",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
     "inverted": true,
     "marginLeft": 120,
     "spacingRight": 3,
     "renderTo": "container-6678",
     "spacingBottom": 2
   },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    }
+  },
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "normal",
+      "fontWeight": "bold",
       "color": "#000000"
     },
     "align": "left",
@@ -178,31 +190,15 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "align": "left",
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2012 bis 2016"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "percent"
-    }
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2012 bis 2016",
+    "align": "left"
   },
   "yAxis": {
-    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -215,24 +211,26 @@
     },
     "labels": {
       "y": 18,
-      "format": "{value}%",
       "style": {
-        "color": "#000000",
         "fontSize": "10px",
+        "color": "#000000",
         "textOverflow": "none"
       },
       "overflow": "justify"
-    }
+    },
+    "tickInterval": 20
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
     "style": {
       "color": "#000000",
-      "fontSize": "10px",
+      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -245,22 +243,23 @@
   },
   "legend": {
     "padding": 1,
+    "symbolRadius": 0,
     "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "useHTML": true,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontFamily": "Arial",
-      "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
     "itemDistance": 1
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
   },
   "exporting": {
     "filename": 6678
