@@ -9088,14 +9088,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2019-07-12T14:04:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 zogen 14 069 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 381 Personen verliessen den Kanton im Jahr 2018. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2009 und 2018 stets positiv aus.",
-		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bärschwil, Bättwil, Bennwil, Biel-Benken, Binningen, Birsfelden, Blauen, Böckten, Bottmingen, Breitenbach, Bretzwil, Brislach, Bubendorf, Buckten, Büren, Burg im Leimental, Büsserach, Buus, Diepflingen, Dittingen, Dornach, Duggingen, Ettingen, Fehren, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Hellikon, Hemmiken, Hersberg, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kleinlützel, Lampenberg, Laufen, Lausen, Lauwil, Liestal, Lupsingen, Magden, Maisprach, Meltingen, Metzerlen-Mariastein, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Nunningen, Nusshof, Oberdorf, Obermumpf, Oberwil, Olsberg, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rheinfelden, Rickenbach, Rodersdorf, Röschenz, Rümlingen, Rünenberg, Schönenbuch, Seltisberg, Seewen, Sissach, Tecknau, Tenniken, Therwil, Titterten, Thürnen, Wahlen, Wegenstetten, Wenslingen, Wintersingen, Witterswil, Wittinsburg, Zeiningen, Ziefen, Zullwil, Zunzgen, Zuzgen, Zwingen.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -9104,7 +9104,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5155",
-			"6760"
+			"6760",
+			"7748"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24915,7 +24916,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24927,7 +24928,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_001",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -24946,7 +24947,7 @@ var indikatoren = [
 	{
 		"title": "Wohnflächenverbrauch pro Person",
 		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07723",
 		"kuerzelKunde": "2-2",
 		"description": "Wohnflächenverbrauch pro Person",
 		"thema": "01 Bevölkerung",
@@ -24955,7 +24956,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24967,7 +24968,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_002",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -24986,7 +24987,7 @@ var indikatoren = [
 	{
 		"title": "Leerwohnungsquote",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07724",
 		"kuerzelKunde": "2-3",
 		"description": "Leerwohnungsquote",
 		"thema": "01 Bevölkerung",
@@ -24995,7 +24996,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25007,7 +25008,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25026,7 +25027,7 @@ var indikatoren = [
 	{
 		"title": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07725",
 		"kuerzelKunde": "2-4a",
 		"description": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
@@ -25035,7 +25036,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25047,7 +25048,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_004",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25066,7 +25067,7 @@ var indikatoren = [
 	{
 		"title": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07726",
 		"kuerzelKunde": "2-4b",
 		"description": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
@@ -25075,7 +25076,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25087,7 +25088,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_005",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25106,7 +25107,7 @@ var indikatoren = [
 	{
 		"title": "Zusammengefasste Geburtenziffer nach Herkunft",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07727",
 		"kuerzelKunde": "2-5",
 		"description": "Zusammengefasste Geburtenziffer nach Herkunft",
 		"thema": "01 Bevölkerung",
@@ -25115,7 +25116,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25127,7 +25128,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_006",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25146,7 +25147,7 @@ var indikatoren = [
 	{
 		"title": "Einbürgerungsquoten nach Geschlecht",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07728",
 		"kuerzelKunde": "2-6",
 		"description": "Einbürgerungsquoten nach Geschlecht",
 		"thema": "01 Bevölkerung",
@@ -25155,7 +25156,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25167,7 +25168,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_007",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25186,7 +25187,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung Grossbasel Ost",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07729",
 		"kuerzelKunde": "3-2",
 		"description": "Bevölkerung Grossbasel Ost",
 		"thema": "01 Bevölkerung",
@@ -25195,7 +25196,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25207,7 +25208,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_009",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25226,7 +25227,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung Grossbasel West",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07730",
 		"kuerzelKunde": "3-3",
 		"description": "Bevölkerung Grossbasel West",
 		"thema": "01 Bevölkerung",
@@ -25235,7 +25236,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25247,7 +25248,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_010",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25266,7 +25267,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung Kleinbasel",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07731",
 		"kuerzelKunde": "3-4",
 		"description": "Bevölkerung Kleinbasel",
 		"thema": "01 Bevölkerung",
@@ -25275,7 +25276,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:30.3030",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25287,7 +25288,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_011",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25306,7 +25307,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung Riehen und Bettingen",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07732",
 		"kuerzelKunde": "3-5",
 		"description": "Bevölkerung Riehen und Bettingen",
 		"thema": "01 Bevölkerung",
@@ -25315,7 +25316,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25327,7 +25328,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_012",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25346,7 +25347,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung zwischen 0 und 19 Jahren",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07733",
 		"kuerzelKunde": "4-1",
 		"description": "Bevölkerung zwischen 0 und 19 Jahren",
 		"thema": "01 Bevölkerung",
@@ -25355,7 +25356,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25367,7 +25368,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_013",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25386,7 +25387,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung ab 65 Jahren",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07734",
 		"kuerzelKunde": "4-2",
 		"description": "Bevölkerung ab 65 Jahren",
 		"thema": "01 Bevölkerung",
@@ -25395,7 +25396,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25407,7 +25408,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_014",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25426,7 +25427,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung ab 80 Jahren",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07735",
 		"kuerzelKunde": "4-3",
 		"description": "Bevölkerung ab 80 Jahren",
 		"thema": "01 Bevölkerung",
@@ -25435,7 +25436,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25447,7 +25448,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_015",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25466,7 +25467,7 @@ var indikatoren = [
 	{
 		"title": "Bevölkerung zwischen 20 und 64 Jahren",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07736",
 		"kuerzelKunde": "4-4",
 		"description": "Bevölkerung zwischen 20 und 64 Jahren",
 		"thema": "01 Bevölkerung",
@@ -25475,7 +25476,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25487,7 +25488,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_016",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25506,7 +25507,7 @@ var indikatoren = [
 	{
 		"title": "Jugendquotient",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07737",
 		"kuerzelKunde": "4-5",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
@@ -25515,7 +25516,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25527,7 +25528,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_017",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25546,7 +25547,7 @@ var indikatoren = [
 	{
 		"title": "Altersquotient",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07738",
 		"kuerzelKunde": "4-6",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
@@ -25555,7 +25556,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25567,7 +25568,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_018",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25586,7 +25587,7 @@ var indikatoren = [
 	{
 		"title": "Geburten",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07739",
 		"kuerzelKunde": "5-1",
 		"description": "Geburten",
 		"thema": "01 Bevölkerung",
@@ -25595,7 +25596,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25607,7 +25608,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_019",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25626,7 +25627,7 @@ var indikatoren = [
 	{
 		"title": "Sterbefälle",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07740",
 		"kuerzelKunde": "5-2",
 		"description": "Sterbefälle",
 		"thema": "01 Bevölkerung",
@@ -25635,7 +25636,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25647,7 +25648,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_020",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25666,7 +25667,7 @@ var indikatoren = [
 	{
 		"title": "Geburtenüberschuss",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07741",
 		"kuerzelKunde": "5-3",
 		"description": "Geburtenüberschuss",
 		"thema": "01 Bevölkerung",
@@ -25675,7 +25676,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25687,7 +25688,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_021",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25706,7 +25707,7 @@ var indikatoren = [
 	{
 		"title": "Wanderungssaldo international",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07742",
 		"kuerzelKunde": "5-4",
 		"description": "Wanderungssaldo international",
 		"thema": "01 Bevölkerung",
@@ -25715,7 +25716,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25727,7 +25728,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_022",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25746,7 +25747,7 @@ var indikatoren = [
 	{
 		"title": "Wanderungssaldo interkantonal",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07743",
 		"kuerzelKunde": "5-5",
 		"description": "Wanderungssaldo interkantonal",
 		"thema": "01 Bevölkerung",
@@ -25755,7 +25756,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25767,7 +25768,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_023",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -25786,7 +25787,7 @@ var indikatoren = [
 	{
 		"title": "Wanderungssaldo total",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
-		"kuerzel": "",
+		"kuerzel": "I.01.9.07744",
 		"kuerzelKunde": "5-6",
 		"description": "Wanderungssaldo total",
 		"thema": "01 Bevölkerung",
@@ -25795,7 +25796,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:25:31.3131",
+		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -25807,7 +25808,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "_024",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
