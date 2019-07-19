@@ -138,7 +138,7 @@
         ],
         [
           "Jun",
-          null
+          38259
         ],
         [
           "Jul",
@@ -194,7 +194,7 @@
         ],
         [
           "Jun",
-          null
+          100289
         ],
         [
           "Jul",
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-19"
   },
   "legend": {
     "enabled": true,
