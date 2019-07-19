@@ -209,7 +209,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-12T08:33:26.2626",
+		"aktualisierungsdatum": "2019-07-19T08:59:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
+		"subtitle": "Basel-Stadt, Juni",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,7 +248,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-12T08:39:15.1515",
+		"aktualisierungsdatum": "2019-07-19T09:01:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
