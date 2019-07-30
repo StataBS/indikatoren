@@ -1,5 +1,5 @@
 {"title":"Mittlere Wohnfläche pro Person",
-"subtitle":"in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+"subtitle":"in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
 "kuerzel":"I.09.1.6476",
 "kuerzelKunde":"D2-2",
 "description":"Mittlere Wohnfläche pro Person",
@@ -8,13 +8,13 @@
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:03.033",
+"aktualisierungsdatum":"2019-07-29T11:45:40.4040",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 45,0 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus dem Balkan, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
+"lesehilfe":"Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 44,9 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
 "erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6717"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6476, 
+"chart-id":6476, 
+"filter":""
 }

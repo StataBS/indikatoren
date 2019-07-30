@@ -101,7 +101,7 @@
           10.800046192183
         ]
       ],
-      "name": "Anteil in Prozent (rechte Skala)"
+      "name": "Anteil am Bestand (rechte Skala)"
     }
   ],
   "chart": {
@@ -157,7 +157,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Genossenschaftswohnungen und Anteil am Bestand"
+    "text": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand"
   },
   "subtitle": {
     "style": {
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,

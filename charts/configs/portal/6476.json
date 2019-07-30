@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          45.05
+          44.94
         ],
         [
           "Deutschland",
-          42.69
+          42.46
         ],
         [
           "Italien",
-          35.63
+          35.72
         ],
         [
           "Türkei",
-          25.39
+          25.9
         ],
         [
-          "EU-17 + EFTA",
-          36.4
+          "EU-17 und EFTA",
+          36.31
         ],
         [
           "EU-Ost",
-          32.2
+          32.15
         ],
         [
           "Balkan",
-          23.76
+          24.03
         ],
         [
           "Mittel- und Südamerika",
-          32.03
+          32.77
         ],
         [
           "Arabische Länder",
-          24.71
+          24.72
         ],
         [
           "Afrikanische Länder",
-          24.89
+          25.3
         ],
         [
           "Übrige Länder",
-          32.65
+          32.85
         ]
       ],
       "turboThreshold": 0
@@ -134,7 +134,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -174,7 +174,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,

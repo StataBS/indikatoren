@@ -332,15 +332,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-17T08:58:32.3232",
+		"aktualisierungsdatum": "2019-07-24T14:36:41.4141",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 wurden in Basel-Stadt 1 146 neue Unternehmen gegründet, 206 weniger als im Jahr 2014. Knapp 30% der neuen Unternehmen wurden 2015 im Bereich der Unternehmensdienstleistungen (freiberufliche, technische und wirtschaftliche Dienstleistungen) gegründet.",
-		"erlaeuterungen": "Unter Neugründungen sind Unternehmen gemeint, die effektiv neugegründet wurden. Die Statistik der Neugründungen basiert auf der Grundgesamtheit der Statistik der Unternehmensstruktur (STATENT).",
+		"lesehilfe": "Im Jahr 2016 wurden in Basel-Stadt 1 024 neue Unternehmen gegründet, 122 bzw. 10,6% weniger als im Jahr 2015. Schon im Jahr 2015 war eine rückläufige Entwicklung der Anzahl Neugründungen zu beobachten (-206). Ein Viertel der Neugründungen 2016 fand im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen statt.",
+		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangene sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
@@ -351,11 +352,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5041,
-		"darstellungsart": "Grafik"
+		"data-id": 5041,
+		"chart-id": 5041,
+		"filter": "",
+		"id": 5041
 	},
 	{
 		"title": "Bezüger von Prämienverbilligungen",
@@ -485,7 +489,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2018",
+		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2019",
 		"kuerzel": "I.04.2.6127",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonales Wettbewerbsprofil",
@@ -495,13 +499,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:05:26.2626",
+		"aktualisierungsdatum": "2019-07-29T10:46:26.2626",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt im Jahr 2018 in den Bereichen Wirtschaftsstruktur, Innovation, Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"lesehilfe": "Basel-Stadt liegt im Jahr 2019 in den Bereichen Innovation, Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteilt die Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2569,13 +2573,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
+		"aktualisierungsdatum": "2019-07-29T10:47:06.066",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
+		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit einigen Jahren rückläufig. Der Rückgang ist dabei mit Ausnahme von 2018 einzig auf die abnehmende Zahl der Schweizerinnen und Schweizer zurückzuführen.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2589,9 +2593,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6209,
+		"chart-id": 6209,
+		"filter": "",
 		"id": 6209
 	},
 	{
