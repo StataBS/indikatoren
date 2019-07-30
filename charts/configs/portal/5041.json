@@ -6,83 +6,27 @@
       "data": [
         [
           "2013",
-          1
+          31
         ],
         [
           "2014",
-          4
+          46
         ],
         [
           "2015",
-          1
+          32
+        ],
+        [
+          "2016",
+          32
         ]
       ],
-      "name": "Chemie\u002FPharma",
+      "name": "Industrie",
       "turboThreshold": 0
     },
     {
       "color": "#DC440E",
       "index": 13,
-      "data": [
-        [
-          "2013",
-          302
-        ],
-        [
-          "2014",
-          399
-        ],
-        [
-          "2015",
-          326
-        ]
-      ],
-      "name": "Unternehmensdienstleistungen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "index": 12,
-      "data": [
-        [
-          "2013",
-          55
-        ],
-        [
-          "2014",
-          80
-        ],
-        [
-          "2015",
-          56
-        ]
-      ],
-      "name": "Detailhandel\u002FReparatur",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 11,
-      "data": [
-        [
-          "2013",
-          121
-        ],
-        [
-          "2014",
-          140
-        ],
-        [
-          "2015",
-          122
-        ]
-      ],
-      "name": "Gesundheits-\u002FSozialwesen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFDA80",
-      "index": 10,
       "data": [
         [
           "2013",
@@ -95,14 +39,66 @@
         [
           "2015",
           72
+        ],
+        [
+          "2016",
+          60
         ]
       ],
       "name": "Baugewerbe",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 9,
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          "2013",
+          89
+        ],
+        [
+          "2014",
+          125
+        ],
+        [
+          "2015",
+          103
+        ],
+        [
+          "2016",
+          74
+        ]
+      ],
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          "2013",
+          34
+        ],
+        [
+          "2014",
+          29
+        ],
+        [
+          "2015",
+          39
+        ],
+        [
+          "2016",
+          33
+        ]
+      ],
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
       "data": [
         [
           "2013",
@@ -115,54 +111,42 @@
         [
           "2015",
           33
+        ],
+        [
+          "2016",
+          38
         ]
       ],
-      "name": "Gastgewerbe",
+      "name": "Gastgewerbe, Beherbergung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          "2013",
+          54
+        ],
+        [
+          "2014",
+          77
+        ],
+        [
+          "2015",
+          67
+        ],
+        [
+          "2016",
+          70
+        ]
+      ],
+      "name": "Information, Kommunikation",
       "turboThreshold": 0
     },
     {
       "color": "#D7E8D2",
       "index": 8,
-      "data": [
-        [
-          "2013",
-          33
-        ],
-        [
-          "2014",
-          25
-        ],
-        [
-          "2015",
-          37
-        ]
-      ],
-      "name": "Verkehr und Lagerei",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73BA7C",
-      "index": 7,
-      "data": [
-        [
-          "2013",
-          34
-        ],
-        [
-          "2014",
-          45
-        ],
-        [
-          "2015",
-          47
-        ]
-      ],
-      "name": "Grosshandel",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#2B0099",
-      "index": 6,
       "data": [
         [
           "2013",
@@ -175,9 +159,61 @@
         [
           "2015",
           28
+        ],
+        [
+          "2016",
+          19
         ]
       ],
-      "name": "Finanzdienstleistungen",
+      "name": "Finanz- und Versicherungsdienstl.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          "2013",
+          76
+        ],
+        [
+          "2014",
+          93
+        ],
+        [
+          "2015",
+          94
+        ],
+        [
+          "2016",
+          76
+        ]
+      ],
+      "name": "Immobilien, wirtschaftliche Dienstl.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          "2013",
+          246
+        ],
+        [
+          "2014",
+          339
+        ],
+        [
+          "2015",
+          275
+        ],
+        [
+          "2016",
+          257
+        ]
+      ],
+      "name": "Freiberufl., wiss., techn. Dienstl.",
       "turboThreshold": 0
     },
     {
@@ -186,18 +222,22 @@
       "data": [
         [
           "2013",
-          36
+          46
         ],
         [
           "2014",
-          48
+          86
         ],
         [
           "2015",
-          51
+          48
+        ],
+        [
+          "2016",
+          48
         ]
       ],
-      "name": "Informatikdienste",
+      "name": "Unterrichtswesen",
       "turboThreshold": 0
     },
     {
@@ -206,18 +246,22 @@
       "data": [
         [
           "2013",
-          20
+          121
         ],
         [
           "2014",
-          33
+          140
         ],
         [
           "2015",
-          43
+          122
+        ],
+        [
+          "2016",
+          118
         ]
       ],
-      "name": "Immobilienwesen",
+      "name": "Gesundheits- und Sozialwesen",
       "turboThreshold": 0
     },
     {
@@ -226,18 +270,22 @@
       "data": [
         [
           "2013",
-          129
+          125
         ],
         [
           "2014",
-          175
+          173
         ],
         [
           "2015",
-          145
+          143
+        ],
+        [
+          "2016",
+          112
         ]
       ],
-      "name": "Unterhaltung\u002FKultur\u002FSport",
+      "name": "Kunst, Unterhaltung, Erholung",
       "turboThreshold": 0
     },
     {
@@ -246,18 +294,22 @@
       "data": [
         [
           "2013",
-          179
+          88
         ],
         [
           "2014",
-          244
+          85
         ],
         [
           "2015",
-          185
+          90
+        ],
+        [
+          "2016",
+          87
         ]
       ],
-      "name": "Anderes",
+      "name": "Sonstige Dienstl.",
       "turboThreshold": 0
     }
   ],
@@ -384,7 +436,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-24"
   },
   "legend": {
     "symbolRadius": 0,

@@ -47,11 +47,11 @@
         ],
         [
           2015,
-          700
+          788
         ],
         [
           2016,
-          350
+          412
         ],
         [
           2017,
@@ -261,7 +261,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl neu erstellte Wohnungen"
+    "text": "Neuerstellte Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -327,7 +327,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,

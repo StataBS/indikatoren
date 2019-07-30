@@ -2947,13 +2947,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-07-24T14:22:23.2323",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2017 für Schweizer 45,0 m², für Ausländer 34,0 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2018 für Schweizer 44,9 m², für Ausländer 34,1 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2969,14 +2969,18 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Bundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6475,
+		"chart-id": 6475,
+		"filter": "",
 		"id": 6475
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.6476",
 		"kuerzelKunde": "D2-2",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -2986,13 +2990,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-07-29T11:45:40.4040",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 45,0 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus dem Balkan, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
+		"lesehilfe": "Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 44,9 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -3007,9 +3011,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6476,
+		"chart-id": 6476,
+		"filter": "",
 		"id": 6476
 	},
 	{
@@ -3104,14 +3112,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-07-24T14:34:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Pro 1000 Personen liessen sich 2018 30,8  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2018 auch Personen aus arabischen Ländern (30,4), aus dem Balkan (21,8), aus der Türkei (19,2) und aus Deutschland (17,7). Die Einbürgerungsziffern der Personen aus Mittel- und Südamerika sowie aus Deutschland haben im Vergleich zu 2008 zugenommen, jene der Personen aus den arabischen Ländern, dem Balkan und der Türkei sind zurückgegangen. Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan im Jahr 2008. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu  diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

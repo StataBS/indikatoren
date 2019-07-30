@@ -8,13 +8,13 @@
 "unterthema":"Gebäude und Wohnungen",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T11:07:50.5050",
+"aktualisierungsdatum":"2019-07-24T14:22:23.2323",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die mittlere Wohnfläche pro Person beträgt 2017 für Schweizer 45,0 m², für Ausländer 34,0 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
+"lesehilfe":"Die mittlere Wohnfläche pro Person beträgt 2018 für Schweizer 44,9 m², für Ausländer 34,1 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
 "erlaeuterungen":"Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6716"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik","Bundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6475, 
+"chart-id":6475, 
+"filter":""
 }

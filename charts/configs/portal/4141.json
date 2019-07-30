@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteile der Haushalte"
+    "text": "Haushalte nach Art des Haushalts"
   },
   "subtitle": {
     "style": {
@@ -200,7 +200,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Art des Haushalts, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -242,7 +242,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,
