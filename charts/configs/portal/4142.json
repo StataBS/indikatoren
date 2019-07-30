@@ -37,7 +37,7 @@
           15126
         ]
       ],
-      "name": "Verheiratete \u002F registrierte Paare ohne Kinder",
+      "name": "Verheiratete\u002Fregistrierte Paare ohne Kinder",
       "turboThreshold": 0
     },
     {
@@ -232,7 +232,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteile der Familienhaushalte"
+    "text": "Familienhaushalte nach Zusammensetzung"
   },
   "subtitle": {
     "style": {
@@ -241,7 +241,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Art der Zusammensetzung, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,

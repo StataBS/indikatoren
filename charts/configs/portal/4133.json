@@ -456,7 +456,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Wohnungen"
+    "text": "Wohnungen nach Zimmerzahl"
   },
   "subtitle": {
     "style": {
@@ -465,7 +465,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -505,7 +505,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
   },
   "legend": {
     "symbolRadius": 0,

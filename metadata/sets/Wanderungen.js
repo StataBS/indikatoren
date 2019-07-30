@@ -343,13 +343,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-24T09:36:36.3636",
+		"aktualisierungsdatum": "2019-07-29T10:50:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne auf. Hohe Umzugsverluste kamen hingegen in den Wohnvierteln Vorstädte, Wettstein und Matthäus zustande.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Wohnvierteln Vorstädte, Wettstein und Matthäus zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban und Rosental sowie die Gemeinde Bettingen auf.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -357,7 +357,8 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6771"
+			"6771",
+			"7759"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -455,11 +456,11 @@ var indikatorensetData = [
 		"id": 6024
 	},
 	{
-		"title": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Stand: 2017",
+		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.5.6025",
-		"kuerzelKunde": "1-10",
-		"description": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"kuerzelKunde": "2-10",
+		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -467,28 +468,34 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-06-20T16:34:59.5959",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-07-29T10:51:09.099",
+		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "44% der Neuzuzüger kommen aus der Schweiz, 56% ziehen aus dem Ausland zu (Jahr 2017). Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (58%) als aus dem Ausland (42%) nieder. In den Quartieren Bruderholz, Bachletten, Iselin und Hirzbrunnen sowie in den Gemeinden Riehen und Bettingen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Rosental, Kleinhüningen und Vorstädte mit einem Anteil von jeweils über 65%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "44% der Neuzuzüger kommen aus der Schweiz, 55% ziehen aus dem Ausland zu (Jahr 2018). Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (53%) als aus dem Ausland (46%) nieder. In den Quartieren Gundeldingen, Bruderholz, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Clara, Wettstein, Rosental, Klybeck und Kleinhüningen mit einem Anteil von jeweils über 60%",
+		"erlaeuterungen": "Im Total der Zugezogenen sind auch Personen mit unbekanntem Zuzugsort enthalten. Aus diesem Grund ergeben die Anteile der aus der Schweiz Zugezogenen und die Anteile der aus dem Ausland Zugezogenen nicht immer 100%.",
 		"template": "mappie002",
-		"orderKey": "_010",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "map",
+		"orderKey": "01_00_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"6774"
+			"6774",
+			"7762"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6025,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 6025,
+		"chart-id": 6025,
+		"filter": "",
+		"id": 6025
 	}
 ];
