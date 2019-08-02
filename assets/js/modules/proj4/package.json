@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "proj4@2.4.3",
+      "C:\\dev\\indikatoren"
+    ]
+  ],
   "_from": "proj4@2.4.3",
   "_id": "proj4@2.4.3",
   "_inBundle": false,
@@ -19,14 +25,12 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/proj4/-/proj4-2.4.3.tgz",
-  "_shasum": "f3bb7e631bffc047c36a1a3cc14533a03bbe9969",
-  "_spec": "proj4@2.4.3",
+  "_spec": "2.4.3",
   "_where": "C:\\dev\\indikatoren",
   "author": "",
   "bugs": {
     "url": "https://github.com/proj4js/proj4js/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Mike Adair",
@@ -58,7 +62,6 @@
     "mgrs": "1.0.0",
     "wkt-parser": "^1.1.3"
   },
-  "deprecated": false,
   "description": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.",
   "devDependencies": {
     "chai": "~1.8.1",

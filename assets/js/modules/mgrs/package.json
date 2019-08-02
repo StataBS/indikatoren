@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "mgrs@1.0.0",
+      "C:\\dev\\indikatoren"
+    ]
+  ],
   "_from": "mgrs@1.0.0",
   "_id": "mgrs@1.0.0",
   "_inBundle": false,
@@ -19,17 +25,14 @@
     "/proj4"
   ],
   "_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz",
-  "_shasum": "fb91588e78c90025672395cb40b25f7cd6ad1829",
-  "_spec": "mgrs@1.0.0",
-  "_where": "C:\\dev\\indikatoren\\node_modules\\proj4",
+  "_spec": "1.0.0",
+  "_where": "C:\\dev\\indikatoren",
   "author": {
     "name": "proj4 team"
   },
   "bugs": {
     "url": "https://github.com/proj4js/mgrs/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Utility for converting between WGS84 lat/lng and MGRS coordinates",
   "devDependencies": {
     "chai": "~1.8.1",
