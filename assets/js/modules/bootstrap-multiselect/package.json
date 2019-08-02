@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "bootstrap-multiselect@0.9.13-1",
+      "C:\\dev\\indikatoren"
+    ]
+  ],
   "_from": "bootstrap-multiselect@0.9.13-1",
   "_id": "bootstrap-multiselect@0.9.13-1",
   "_inBundle": false,
@@ -19,8 +25,7 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/bootstrap-multiselect/-/bootstrap-multiselect-0.9.13-1.tgz",
-  "_shasum": "2c57cee260b18d7f01a4edd9d65f25df0425fd2a",
-  "_spec": "bootstrap-multiselect@0.9.13-1",
+  "_spec": "0.9.13-1",
   "_where": "C:\\dev\\indikatoren",
   "author": {
     "name": "David Stutz"
@@ -28,8 +33,6 @@
   "bugs": {
     "url": "https://github.com/davidstutz/bootstrap-multiselect/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "JQuery multiselect plugin based on Twitter Bootstrap.",
   "directories": {
     "doc": "docs",
