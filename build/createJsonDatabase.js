@@ -15,8 +15,8 @@ files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath, 'utf8');
     //strip whitespace from start of file and save file
     //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
-    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).replace(/’/g, "'");
-    fs.writeFileSync(filepath, fileContentsStripped);
+    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).replace(/’/g, "'").toString();
+    fs.writeFileSync(filepath, eol.auto(fileContentsStripped));
     
     var indikator = JSON.parse(fileContentsStripped);
     
@@ -136,7 +136,7 @@ saveToJsFile('templatesById', 'all/',templatesById, console);
 //create array from object
 var all = Object.keys(allIndikatoren).map(function (key) { return allIndikatoren[key]; });
 console.log('Writing metadata/all/all/md...');
-fs.writeFileSync('metadata/all/all.md', jsonToMarkdownTable(all));
+fs.writeFileSync('metadata/all/all.md', eol.auto(jsonToMarkdownTable(all)));
 
 //console.log('...done!');
 
