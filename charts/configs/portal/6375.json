@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil Personen unter 20 Jahre in %",
+      "name": "Anteil unter 20-Jähriger in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6743,7 +6743,7 @@
           233
         ]
       ],
-      "name": "Anzahl Personen unter 20 Jahre"
+      "name": "Anzahl unter 20-Jähriger"
     },
     {
       "name": "Rhein",
@@ -7083,7 +7083,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Personen unter 20 Jahre nach Wohnviertel"
+    "text": "Unter 20-Jährige nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -7108,7 +7108,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
   },
   "colorAxis": {
     "min": 10,
