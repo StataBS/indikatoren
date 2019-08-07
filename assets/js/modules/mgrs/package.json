@@ -1,62 +1,35 @@
 {
-  "_args": [
-    [
-      "mgrs@1.0.0",
-      "C:\\dev\\indikatoren"
-    ]
-  ],
-  "_from": "mgrs@1.0.0",
-  "_id": "mgrs@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha1-+5FYjnjJACVnI5XLQLJffNatGCk=",
-  "_location": "/mgrs",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "mgrs@1.0.0",
-    "name": "mgrs",
-    "escapedName": "mgrs",
-    "rawSpec": "1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "1.0.0"
-  },
-  "_requiredBy": [
-    "/proj4"
-  ],
-  "_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz",
-  "_spec": "1.0.0",
-  "_where": "C:\\dev\\indikatoren",
-  "author": {
-    "name": "proj4 team"
-  },
-  "bugs": {
-    "url": "https://github.com/proj4js/mgrs/issues"
-  },
+  "name": "mgrs",
+  "version": "1.0.0",
   "description": "Utility for converting between WGS84 lat/lng and MGRS coordinates",
-  "devDependencies": {
-    "chai": "~1.8.1",
-    "istanbul": "~0.1.46",
-    "mocha": "~1.15.1",
-    "rollup": "^0.41.4"
+  "main": "dist/mgrs.js",
+  "module": "mgrs.js",
+  "scripts": {
+    "test": "npm run build && istanbul test _mocha test/test.js",
+    "build": "mkdir -p dist && rollup -c"
   },
-  "homepage": "https://github.com/proj4js/mgrs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/proj4js/mgrs.git"
+  },
   "keywords": [
     "mgrs",
     "proj4",
     "gis"
   ],
+  "author": "proj4 team",
   "license": "MIT",
-  "main": "dist/mgrs.js",
-  "module": "mgrs.js",
-  "name": "mgrs",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/proj4js/mgrs.git"
+  "bugs": {
+    "url": "https://github.com/proj4js/mgrs/issues"
   },
-  "scripts": {
-    "build": "mkdir -p dist && rollup -c",
-    "test": "npm run build && istanbul test _mocha test/test.js"
-  },
-  "version": "1.0.0"
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "chai": "~1.8.1",
+    "istanbul": "~0.1.46",
+    "mocha": "~1.15.1"
+  }
+
+,"_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz"
+,"_integrity": "sha1-+5FYjnjJACVnI5XLQLJffNatGCk="
+,"_from": "mgrs@1.0.0"
 }

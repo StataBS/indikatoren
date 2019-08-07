@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil Personen über 64 Jahre in %",
+      "name": "Anteil über 64-Jähriger in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6743,7 +6743,7 @@
           292
         ]
       ],
-      "name": "Anzahl Personen über 64 Jahre"
+      "name": "Anzahl über 64-Jähriger"
     },
     {
       "name": "Rhein",
@@ -7081,7 +7081,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Personen über 64 Jahre nach Wohnviertel"
+    "text": "Über 64-Jährige nach Wohnviertel"
   },
   "subtitle": {
     "style": {
@@ -7106,7 +7106,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
   },
   "colorAxis": {
     "min": 0,

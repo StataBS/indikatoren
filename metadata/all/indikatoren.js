@@ -22347,7 +22347,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22362,12 +22362,10 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6385",
-			"6778"
+			"6385"
 		],
 		"renderLink": [
-			"6385",
-			"6778"
+			"6385"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -22394,7 +22392,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22428,18 +22426,18 @@ var indikatoren = [
 		"id": 6374
 	},
 	{
-		"title": "Personen unter 20 Jahre nach Wohnviertel",
+		"title": "Unter 20-Jährige nach Wohnviertel",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06375",
 		"kuerzelKunde": "C1-1",
-		"description": "Personen unter 20 Jahre nach Wohnviertel",
+		"description": "Unter 20-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T22:14:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22453,8 +22451,12 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"6387"
+		],
+		"renderLink": [
+			"6387"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -22469,18 +22471,18 @@ var indikatoren = [
 		"id": 6375
 	},
 	{
-		"title": "Personen über 64 Jahre nach Wohnviertel",
+		"title": "Über 64-Jährige nach Wohnviertel",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06376",
 		"kuerzelKunde": "C1-2",
-		"description": "Personen über 64 Jahre nach Wohnviertel",
+		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T22:15:23.2323",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22525,7 +22527,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:29:39.3939",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22570,7 +22572,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-27T13:30:51.5151",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22615,7 +22617,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22660,7 +22662,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-23T10:10:55.5555",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22705,7 +22707,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T22:16:51.5151",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22719,8 +22721,12 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"6778"
+		],
+		"renderLink": [
+			"6778"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -22746,7 +22752,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22791,7 +22797,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22837,7 +22843,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22883,7 +22889,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-25T22:10:41.4141",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22926,7 +22932,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22959,7 +22965,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06387",
 		"kuerzelKunde": "K1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
@@ -22969,13 +22975,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel, Vorstädte, Altstadt Kleinbasel (je 11%) und Clara (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21%), Rosental (20%) und Kleinhüningen (20%) sowie in der Gemeinde Riehen (20%).",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahre an der Gesamtbevölkerung in den Wohnvierteln Vorstädte, Altstadt Kleinbasel (je 11%) und Altstadt Grossbasel (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22%), Hirzbrunnen, Kleinhüningen sowie in der Gemeinde Riehen ( je 20%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -23002,7 +23008,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06388",
 		"kuerzelKunde": "K1-2",
 		"description": "Über 64-Jährige nach Wohnviertel",
@@ -23012,13 +23018,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Der höchste Anteil 65-Jähriger und Älterer weisen die Wohnviertel Vorstädte (24%), St. Alban (26%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf. &nbsp;",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9%), Matthäus (13%) und Klybeck (14%). Die höchsten Anteile 65-Jähriger und Älterer weisen die Wohnviertel St. Alban (25%), Vorstädte (24%) und Hirzbrunnen (24%) sowie die Gemeinden Riehen (26%) und Bettingen (24%) auf.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -23045,23 +23051,23 @@ var indikatoren = [
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
-		"kuerzel": "I.09.2.06389",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.06389",
 		"kuerzelKunde": "K9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektar aus. Ein hoher Anteil von Reiheneinfamilienhäusern im Gotthelfquartier, wie ein hoher Anteil grosser Mehrfamilienhäuser und ein hoher Anteil von Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -23088,23 +23094,23 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
-		"kuerzel": "I.09.2.06390",
+		"subtitle": "Basel-Stadt, 2018",
+		"kuerzel": "I.09.1.06390",
 		"kuerzelKunde": "K9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit knapp 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Landgemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -23141,7 +23147,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23184,7 +23190,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-23T10:13:33.3333",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23227,7 +23233,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23270,7 +23276,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23314,7 +23320,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -33514,7 +33520,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.06778",
 		"kuerzelKunde": "K1-3",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -33524,13 +33530,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-01-04T13:25:32.3232",
+		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (50%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (24%) und Bachletten (21%) sowie die Gemeinde Bettingen auf (24%). In den Wohnvierteln Klybeck und Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2018 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (51%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (25%) und Bachletten (22%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kategoriell",
