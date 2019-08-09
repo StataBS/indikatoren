@@ -24474,7 +24474,7 @@ var indikatoren = [
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft seit Anfang des Jahres nahezu gleich wie die Quote der Gesamtbevölkerung. Seit Junii 2019 zeigt sich ein Anstieg bei der Arbeitslosenquote der unter 25-Jährigen im Vergleich zur Gesamtbevölkerung. Bei der Gesamtbevölkerung geht die Arbeitslosenquote stetig zurück.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft seit Anfang des Jahres nahezu gleich wie die Quote der Gesamtbevölkerung. Seit Juni 2019 zeigt sich ein Anstieg bei der Arbeitslosenquote der unter 25-Jährigen im Vergleich zur Gesamtbevölkerung. Bei der Gesamtbevölkerung geht die Arbeitslosenquote stetig zurück.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
