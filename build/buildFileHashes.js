@@ -1,6 +1,7 @@
+var eol = require("eol");
+var fs = require("fs");
+
 var getChartsHashes = function(globString){
-    var fs = require("fs");
-    //var fse = require("fs-extra");
     var glob = require("glob");
     var hashFiles = require('hash-files');
     
@@ -18,8 +19,8 @@ var getChartsHashes = function(globString){
     files.forEach(function(filepath){
         var fileContents = fs.readFileSync(filepath);
         //strip whitespace from start of file and save file
-        var fileContentsStripped = fileContents.slice(fileContents.indexOf('{'));
-        fs.writeFileSync(filepath, fileContentsStripped);
+        var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).toString();
+        fs.writeFileSync(filepath, eol.auto(fileContentsStripped));
         var indikator = JSON.parse(fileContentsStripped);
         if (indikator.visible == undefined || indikator.visible == true) {
             //console.log(filepath + ' is visible, proceeding with adding to hash object...');
@@ -38,8 +39,6 @@ var getChartsHashes = function(globString){
 
 
 var saveToJsonFile = function(name, dir, obj, console){
-    var fs = require("fs");
-    var eol = require("eol");
     //create directory of if nonexistent
     if (!fs.existsSync(dir)){
         fs.mkdirSync(dir);

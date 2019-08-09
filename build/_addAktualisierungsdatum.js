@@ -1,5 +1,6 @@
 var fs = require("fs");
 var glob = require("glob");
+var eol = require("eol");
 
 var files = glob.sync("metadata/single/*.json");
 console.log("Setting aktialisierungsdatum to each relevant chart's metadata");
@@ -55,6 +56,6 @@ files.forEach(function(filepath){
     }    
 
     var indikatorText = JSON.stringify(indikator, null, 1);
-    fs.writeFileSync(filepath, indikatorText);
+    fs.writeFileSync(filepath, eol.auto(indikatorText));
     console.log("...done!");
 });

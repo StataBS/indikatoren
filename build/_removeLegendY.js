@@ -1,5 +1,6 @@
 var fs = require('fs');
 var pathBase = "charts/templates/";
+var eol = require("eol");
 
 fs.readdirSync(pathBase).forEach(file => {
     try{
@@ -15,7 +16,7 @@ fs.readdirSync(pathBase).forEach(file => {
             if (count == 1 && pointYCount == 0){
                 console.log('only 1 occurence of "y:" found, commenting out...');
                 var changedFile = configFileContents.replace(/y:/g, "//y:").replace(/"y":/g, "//y:").replace(/'y':/g, "//y:");
-                fs.writeFileSync(pathBase + file, changedFile);
+                fs.writeFileSync(pathBase + file, eol.auto(changedFile));
             }
             else {
                 if (pointYCount > 0){

@@ -1,3 +1,5 @@
+var eol = require("eol");
+
 //Hack to re-use existing web js code from within node.js, see http://stackoverflow.com/a/8808162
 var execfile = require("execfile");
 
@@ -18,5 +20,5 @@ indikatoren.forEach(function(indikator){
 function saveToJsonFile(kuerzel, obj, console){
     var fs = require('fs');
     var singleJson = "var indikator = " + JSON.stringify(obj, null, '\t') + ";";
-    fs.writeFileSync('metadata/single/' + kuerzel + '.js', singleJson);
+    fs.writeFileSync('metadata/single/' + kuerzel + '.js', eol.auto(singleJson));
 };
