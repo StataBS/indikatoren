@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-04T17:41:57.5757",
+"aktualisierungsdatum":"2019-08-08T09:25:44.4444",
 "stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
+"lesehilfe":"In der Zehnjahresspanne von 2009 bis 2018 nahm die Bevölkerung in Basel-Stadt von 190 815 auf 200 256 Personen zu. Dies entspricht einem Wachstum von 4,9%.",
 "erlaeuterungen":"Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 "template":"stock001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6143, 
+"chart-id":6143, 
+"filter":""
 }
