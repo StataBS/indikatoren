@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-09T07:30:40.4040",
+		"aktualisierungsdatum": "2019-08-09T08:46:39.3939",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren ist seit Jahren jeweils höher als die Quote in der Gesamtbevölkerung, ausser im April 2019. Zudem zeigt sie ausgeprägte saisonale Schwankungen.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft seit Anfang des Jahres nahezu gleich wie die Quote der Gesamtbevölkerung. Seit Junii 2019 zeigt sich ein Anstieg bei der Arbeitslosenquote der unter 25-Jährigen im Vergleich zur Gesamtbevölkerung. Bei der Gesamtbevölkerung geht die Arbeitslosenquote stetig zurück.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -50,13 +50,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-09T07:53:20.2020",
+		"aktualisierungsdatum": "2019-08-09T08:49:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen. Der grösste Teil davon ist meldepflichtig.",
+		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Seitdem hat sich die Zahl der gemeldeten offenen Stellen auf dem Niveau von rund 1000 Stellen eingependelt. Der grösste Teil davon ist meldepflichtig.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

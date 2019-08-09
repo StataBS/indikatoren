@@ -1,4 +1,5 @@
 var fs = require("fs");
+var eol = require("eol");
 var glob = require("glob");
 
 console.log('Searching for metadata in a print kennzahlenset with no matching tsv and/or chart definition, then copying their parent data and chart...');
@@ -7,8 +8,8 @@ files.forEach(function(filepath){
     var fileContents = fs.readFileSync(filepath);
     
     //strip whitespace from start of file and save file
-    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{'));
-    fs.writeFileSync(filepath, fileContentsStripped);
+    var fileContentsStripped = fileContents.slice(fileContents.indexOf('{')).toString();
+    fs.writeFileSync(filepath, eol.auto(fileContentsStripped));
     var indikator = JSON.parse(fileContentsStripped);
     
     if ((indikator.visible == undefined || indikator.visible == true) && indikator.kennzahlenset.toLowerCase().includes('print')) {
@@ -21,7 +22,7 @@ files.forEach(function(filepath){
           //overwrite tsv files
           /*
           try{
-            fs.writeFileSync(targetCsvPath, fs.readFileSync(sourceCsvPath));
+            fs.writeFileSync(targetCsvPath, eol.auto(fs.readFileSync(sourceCsvPath));
           }
           catch (err){
             console.log(err);
@@ -42,7 +43,7 @@ function copyFileIfNotExists(sourceFilePath, destinationFilePath){
     if (err) {
       if (err.code === 'ENOENT') {
         console.error(destinationFilePath + ' does not exist, copying ' + sourceFilePath + '...');
-        fs.writeFile(destinationFilePath, fs.readFileSync(sourceFilePath), (error) => {
+        fs.writeFile(destinationFilePath, eol.auto(fs.readFileSync(sourceFilePath)), (error) => {
           console.log('Error copying ' + sourceFilePath + ': ' + error); 
         });
         /*

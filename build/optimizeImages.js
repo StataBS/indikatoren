@@ -1,4 +1,5 @@
 var fs = require("fs");
+var eol = require("eol");
 var SVGO = require('svgo');
 var svgo = new SVGO({});
 var filePaths = [];
@@ -64,7 +65,7 @@ var actions = filePaths.map(function(filePath){
 var results = Promise.all(actions);
 
 results.then(svg => {
-         fs.writeFileSync(path + indikator.id + '.svg', svgWithViewBox);
+         fs.writeFileSync(path + indikator.id + '.svg', eol.auto(svgWithViewBox));
     }
 );
 */

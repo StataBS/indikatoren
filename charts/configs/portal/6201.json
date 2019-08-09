@@ -51,6 +51,10 @@
         [
           2017,
           71120
+        ],
+        [
+          2018,
+          71120
         ]
       ],
       "name": "Basel"
@@ -106,6 +110,10 @@
         [
           2017,
           56836
+        ],
+        [
+          2018,
+          56863
         ]
       ],
       "name": "Bern"
@@ -160,6 +168,10 @@
         ],
         [
           2017,
+          72194
+        ],
+        [
+          2018,
           72194
         ]
       ],
@@ -216,6 +228,10 @@
         [
           2017,
           55150
+        ],
+        [
+          2018,
+          55150
         ]
       ],
       "name": "Liestal"
@@ -270,6 +286,10 @@
         ],
         [
           2017,
+          60724
+        ],
+        [
+          2018,
           60724
         ]
       ],
@@ -372,7 +392,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-8"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-8"
   },
   "legend": {
     "enabled": true,

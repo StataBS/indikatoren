@@ -1,4 +1,5 @@
 var fs = require("fs");
+var eol = require("eol");
 
 var glob = require("glob");
 
@@ -24,7 +25,7 @@ views.forEach(function(view){
                     //var replace = 'viewBox="0 0 485 415" width="485" height="415">';
                     var replace = 'viewBox="0 0 485 415">';
                     var svgWithViewBox = svg.replace(re, replace);            
-                    fs.writeFileSync(path + indikator.id + '.svg', svgWithViewBox);
+                    fs.writeFileSync(path + indikator.id + '.svg', eol.auto(svgWithViewBox));
                 }
             }
             else {
