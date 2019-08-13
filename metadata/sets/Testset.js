@@ -5,7 +5,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.07713",
 		"kuerzelKunde": "",
 		"description": "Test-Indikator",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Testset",
 		"raeumlicheGliederung": [

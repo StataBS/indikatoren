@@ -475,7 +475,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.5823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
@@ -591,7 +591,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.5901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6236",
 		"kuerzelKunde": "ST 7-1",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [

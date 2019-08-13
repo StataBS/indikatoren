@@ -1413,7 +1413,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6682",
 		"kuerzelKunde": "C1-1",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1449,7 +1449,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6683",
 		"kuerzelKunde": "C1-2",
 		"description": "Arbeitslosenquote der Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1485,7 +1485,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6684",
 		"kuerzelKunde": "C1-3",
 		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1521,7 +1521,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6685",
 		"kuerzelKunde": "C1-4",
 		"description": "Arbeitslosenquote der Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1557,7 +1557,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6686",
 		"kuerzelKunde": "C1-5",
 		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1593,7 +1593,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6687",
 		"kuerzelKunde": "C1-6",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1628,7 +1628,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6688",
 		"kuerzelKunde": "C1-7",
 		"description": "Anzahl monatlich ausgesteuerte Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1663,7 +1663,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6689",
 		"kuerzelKunde": "C1-8",
 		"description": "Anzahl monatlich ausgesteuerte Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1698,7 +1698,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6690",
 		"kuerzelKunde": "C2-1",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1734,7 +1734,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6691",
 		"kuerzelKunde": "C2-2",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1769,7 +1769,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6692",
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -1804,7 +1804,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6693",
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbsquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
@@ -2340,7 +2340,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6708",
 		"kuerzelKunde": "C6-1",
 		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [

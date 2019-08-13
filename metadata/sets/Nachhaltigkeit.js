@@ -1755,7 +1755,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6037",
 		"kuerzelKunde": "GZ4",
 		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2045,7 +2045,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6046",
 		"kuerzelKunde": "WE2",
 		"description": "Anzahl Beschäftigte nach Sektor",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2119,7 +2119,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06048",
 		"kuerzelKunde": "WE4",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2271,7 +2271,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6052",
 		"kuerzelKunde": "WE8",
 		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2311,7 +2311,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.06053",
 		"kuerzelKunde": "WE9",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2429,7 +2429,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6056",
 		"kuerzelKunde": "WE12",
 		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
@@ -2503,7 +2503,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.06435",
 		"kuerzelKunde": "GZ5",
 		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
