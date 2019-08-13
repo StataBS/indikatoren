@@ -1,5 +1,5 @@
 {"title":"Übrige Ausländer",
-"subtitle":"nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+"subtitle":"nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
 "kuerzel":"I.01.1.6061",
 "kuerzelKunde":"A1-8",
 "description":"Übrige Ausländer",
@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-08-12T09:44:13.1313",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Von 8&nbsp;104 Personen, die Ende 2017 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+"lesehilfe":"Von 8 316 Personen, die Ende 2018 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
 "erlaeuterungen":"",
 "template":"pie001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6646"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6061, 
+"chart-id":6061, 
+"filter":""
 }

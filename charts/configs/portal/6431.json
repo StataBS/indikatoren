@@ -70,6 +70,10 @@
         [
           2017,
           7.96
+        ],
+        [
+          2018,
+          7.88
         ]
       ],
       "name": "Schweiz"
@@ -144,6 +148,10 @@
         [
           2017,
           8.21
+        ],
+        [
+          2018,
+          7.89
         ]
       ],
       "name": "Italien"
@@ -218,6 +226,10 @@
         [
           2017,
           2.8
+        ],
+        [
+          2018,
+          2.62
         ]
       ],
       "name": "Portugal"
@@ -292,6 +304,10 @@
         [
           2017,
           6.26
+        ],
+        [
+          2018,
+          5.83
         ]
       ],
       "name": "Spanien"
@@ -366,6 +382,10 @@
         [
           2017,
           11.83
+        ],
+        [
+          2018,
+          11.62
         ]
       ],
       "name": "Türkei"
@@ -440,6 +460,10 @@
         [
           2017,
           10.12
+        ],
+        [
+          2018,
+          9.51
         ]
       ],
       "name": "Ehemaliges Jugoslawien"
@@ -541,7 +565,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
   },
   "legend": {
     "enabled": true,
