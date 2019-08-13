@@ -5,7 +5,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07510",
 		"kuerzelKunde": "",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07511",
 		"kuerzelKunde": "",
 		"description": "Gemeldete offene Stellen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [

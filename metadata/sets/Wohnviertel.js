@@ -652,7 +652,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.4837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
@@ -695,7 +695,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
@@ -738,7 +738,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.4839",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
@@ -1398,7 +1398,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.05124",
 		"kuerzelKunde": "WA-3.B",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
@@ -1439,7 +1439,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
@@ -1480,7 +1480,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [

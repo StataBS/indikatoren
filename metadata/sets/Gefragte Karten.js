@@ -445,7 +445,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06383",
 		"kuerzelKunde": "C3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
@@ -490,7 +490,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06384",
 		"kuerzelKunde": "C3-1",
 		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
@@ -913,7 +913,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06395",
 		"kuerzelKunde": "K3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
@@ -956,7 +956,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06396",
 		"kuerzelKunde": "K3-1",
 		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
