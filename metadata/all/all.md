@@ -414,7 +414,7 @@ id | visible | visibleInPortal | indikatorenset
 6056 | true | true | Nachhaltigkeit
 6057 | true | true | Integration
 6058 | true | true | Integration
-6059 | true | false | Integration
+6059 | true | true | Integration
 6060 | true | true | Integration
 6061 | true | false | Integration
 6062 | true | true | Integration
@@ -776,7 +776,7 @@ id | visible | visibleInPortal | indikatorenset
 6576 | true | true | Tourismus
 6592 | true | false | Nachhaltigkeit
 6597 | true | false | Nachhaltigkeit
-6599 | true | true | Nachhaltigkeit
+6599 | true | false | Nachhaltigkeit
 6601 | true | false | 
 6623 | true | true | 
 6630 | true | true | Wohnviertel

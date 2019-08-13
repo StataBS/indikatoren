@@ -1,5 +1,5 @@
 {"title":"Ausländer nach Staatsangehörigkeit",
-"subtitle":"Basel-Stadt, 2017",
+"subtitle":"Basel-Stadt, 2018",
 "kuerzel":"I.01.1.6060",
 "kuerzelKunde":"A1-5",
 "description":"Ausländer nach Staatsangehörigkeit",
@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-08-12T09:43:11.1111",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Ende 2017 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+"lesehilfe":"Ende 2018 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
 "erlaeuterungen":"",
 "template":"pie001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6645"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6060, 
+"chart-id":6060, 
+"filter":""
 }

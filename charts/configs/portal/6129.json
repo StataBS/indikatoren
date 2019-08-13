@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#689199",
+      "legendColor": "#A8C3CA",
       "index": 0,
       "type": "column",
       "pointPadding": 0,
@@ -13,113 +13,114 @@
       "data": [
         [
           "ZG",
-          247.7
+          249.7
         ],
         [
           "SZ",
-          172.4
+          181.3
         ],
         [
           "NW",
-          159.5
+          158
         ],
         [
           "BS",
-          149.5
+          146
         ],
         [
           "GE",
-          145.3
+          143.7
         ],
         [
           "ZH",
-          120.5
+          121.7
         ],
         [
           "OW",
-          119.3
+          115.4
         ],
         [
           "VD",
-          99.6
-        ],
-        [
-          "TI",
-          97.1
+          99.9
         ],
         [
           "BL",
-          96.8
+          96.9
         ],
         [
-          "SH",
-          91.7
-        ],
-        [
-          "NE",
-          90.5
-        ],
-        [
-          "LU",
-          89
+          "TI",
+          96.5
         ],
         [
           "IR",
-          88.8
+          91.1
+        ],
+        [
+          "SH",
+          91.1
+        ],
+        [
+          "LU",
+          89.1
         ],
         [
           "AR",
-          85.3
-        ],
-        [
-          "AG",
-          83.8
+          85
         ],
         [
           "GR",
-          83.3
+          82.9
         ],
         [
-          "FR",
-          79.9
+          "NE",
+          82.9
+        ],
+        [
+          "AG",
+          82.2
         ],
         [
           "SG",
-          78.8
+          79.5
+        ],
+        [
+          "FR",
+          79.2
         ],
         [
           "TG",
-          78.4
+          77.7
         ],
         [
           "BE",
-          76.6
+          77.6
         ],
         [
           "SO",
-          73
-        ],
-        [
-          "GL",
-          71.2
+          72.4
         ],
         [
           "UR",
-          70.1
+          71.3
+        ],
+        [
+          "GL",
+          70.3
         ],
         [
           "VS",
-          66.1
+          65.4
         ],
         [
           "JU",
-          65.2
+          64.9
         ]
       ],
       "name": "Ressourcenindex nach Kanton",
       "turboThreshold": 0
     },
     {
+      "legendColor": "#B00000",
       "color": "#B00000",
       "index": 1,
       "type": "line",
@@ -128,6 +129,8 @@
       },
       "legendIndex": 2,
       "tooltip": {
+        "snap": 0,
+        "headerFormat": "",
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
@@ -164,23 +167,11 @@
           100
         ],
         [
-          "TI",
-          100
-        ],
-        [
           "BL",
           100
         ],
         [
-          "SH",
-          100
-        ],
-        [
-          "NE",
-          100
-        ],
-        [
-          "LU",
+          "TI",
           100
         ],
         [
@@ -188,11 +179,15 @@
           100
         ],
         [
-          "AR",
+          "SH",
           100
         ],
         [
-          "AG",
+          "LU",
+          100
+        ],
+        [
+          "AR",
           100
         ],
         [
@@ -200,11 +195,19 @@
           100
         ],
         [
-          "FR",
+          "NE",
+          100
+        ],
+        [
+          "AG",
           100
         ],
         [
           "SG",
+          100
+        ],
+        [
+          "FR",
           100
         ],
         [
@@ -220,11 +223,11 @@
           100
         ],
         [
-          "GL",
+          "UR",
           100
         ],
         [
-          "UR",
+          "GL",
           100
         ],
         [
@@ -302,7 +305,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, 2019",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2020",
     "align": "left"
   },
   "tooltip": {
@@ -342,7 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-10"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
   },
   "legend": {
     "enabled": true,
@@ -361,7 +364,11 @@
     "series": {
       "marker": {
         "enabled": false
-      }
+      },
+      "stickyTracking": false
+    },
+    "column": {
+      "colorByPoint": true
     }
   },
   "customFunctions": {
@@ -399,6 +406,34 @@
           }, true, true);
     }
   },
+  "colors": [
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#689199",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA"
+  ],
   "exporting": {
     "filename": 6129
   }
