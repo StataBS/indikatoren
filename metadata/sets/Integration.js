@@ -1595,7 +1595,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6406",
 		"kuerzelKunde": "C1-1",
 		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1633,7 +1633,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6407",
 		"kuerzelKunde": "C1-2",
 		"description": "Arbeitslosenquote der Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1671,7 +1671,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6408",
 		"kuerzelKunde": "C1-3",
 		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1709,7 +1709,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6409",
 		"kuerzelKunde": "C1-4",
 		"description": "Arbeitslosenquote der Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1747,7 +1747,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6410",
 		"kuerzelKunde": "C1-5",
 		"description": "Arbeitslosenquote der Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1785,7 +1785,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6411",
 		"kuerzelKunde": "C1-6",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1822,7 +1822,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6412",
 		"kuerzelKunde": "C1-7",
 		"description": "Anzahl monatlich ausgesteuerte Schweizer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1859,7 +1859,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6413",
 		"kuerzelKunde": "C1-8",
 		"description": "Anzahl monatlich ausgesteuerte Ausländer",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1896,7 +1896,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6415",
 		"kuerzelKunde": "C2-1",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1938,7 +1938,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6416",
 		"kuerzelKunde": "C2-2",
 		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -1979,7 +1979,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6417",
 		"kuerzelKunde": "C2-3",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -2020,7 +2020,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.6418",
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbsquote",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
@@ -2625,7 +2625,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6467",
 		"kuerzelKunde": "C6-1",
 		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [

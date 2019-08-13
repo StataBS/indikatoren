@@ -5,7 +5,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07006",
 		"kuerzelKunde": "3.4-05",
 		"description": "Grenzgänger in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"raeumlicheGliederung": [
@@ -44,7 +44,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07014",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"raeumlicheGliederung": [
@@ -83,7 +83,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07015",
 		"kuerzelKunde": "3.3-03",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"raeumlicheGliederung": [
@@ -122,7 +122,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07019",
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt (Print)",
 		"raeumlicheGliederung": [

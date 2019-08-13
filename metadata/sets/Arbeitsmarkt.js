@@ -5,7 +5,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2151",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -46,7 +46,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2152",
 		"kuerzelKunde": "3.4-02",
 		"description": "Grenzgänger nach Wohnort und Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -87,7 +87,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2153",
 		"kuerzelKunde": "3.4-03",
 		"description": "Grenzgänger nach Alter",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -128,7 +128,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2161",
 		"kuerzelKunde": "3.4-05",
 		"description": "Grenzgänger in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -169,7 +169,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2163",
 		"kuerzelKunde": "3.4-06",
 		"description": "Grenzgänger im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -210,7 +210,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2173",
 		"kuerzelKunde": "3.4-01",
 		"description": "Grenzgänger nach Kanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -458,7 +458,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2423",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -499,7 +499,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2424",
 		"kuerzelKunde": "3.3-03",
 		"description": "Arbeitslosenquote nach Herkunft und Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -540,7 +540,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2426",
 		"kuerzelKunde": "3.3-04",
 		"description": "Arbeitslose nach Ländergruppe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -581,7 +581,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2428",
 		"kuerzelKunde": "3.3-05",
 		"description": "Arbeitslose in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -622,7 +622,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2429",
 		"kuerzelKunde": "3.3-06",
 		"description": "Arbeitslose im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -663,7 +663,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.2459",
 		"kuerzelKunde": "3.3-01",
 		"description": "Arbeitslosenquote nach Kanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -705,7 +705,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2461",
 		"kuerzelKunde": "3.4-09",
 		"description": "Zuwanderung von Erwerbstätigen nach Arbeitskanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -746,7 +746,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2462",
 		"kuerzelKunde": "3.4-10",
 		"description": "Zuwanderung von Erwerbstätigen nach Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -787,7 +787,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2463",
 		"kuerzelKunde": "3.4-11",
 		"description": "Zuwanderung von Erwerbstätigen nach Aufenthaltsbewilligung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -828,7 +828,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2464",
 		"kuerzelKunde": "3.4-12",
 		"description": "Zuwanderung von Erwerbstätigen nach Herkunft",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -869,7 +869,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2465",
 		"kuerzelKunde": "3.4-13",
 		"description": "Zuwanderung von Erwerbstätigen in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -910,7 +910,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.2466",
 		"kuerzelKunde": "3.4-14",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -951,7 +951,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.2528",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -992,7 +992,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.2529",
 		"kuerzelKunde": "3.2-06",
 		"description": "Beschäftigung im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1033,7 +1033,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.2547",
 		"kuerzelKunde": "3.2-01",
 		"description": "Beschäftigung nach Kanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1074,7 +1074,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3027",
 		"kuerzelKunde": "3.4-17",
 		"description": "Arbeitstage von Meldepflichtigen nach Einsatzkanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1115,7 +1115,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3028",
 		"kuerzelKunde": "3.4-18",
 		"description": "Meldepflichtige nach Einsatzkanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1156,7 +1156,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3029",
 		"kuerzelKunde": "3.4-19",
 		"description": "Arbeitstage von Meldepflichtigen nach Erwerbsstatus",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1197,7 +1197,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3030",
 		"kuerzelKunde": "3.4-20",
 		"description": "Anteil der weiblichen Meldepflichtigen nach Erwerbsstatus",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1238,7 +1238,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3031",
 		"kuerzelKunde": "3.4-21",
 		"description": "Arbeitstage von Meldepflichtigen in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1279,7 +1279,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.3032",
 		"kuerzelKunde": "3.4-22",
 		"description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1402,7 +1402,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6450",
 		"kuerzelKunde": "3.4-07",
 		"description": "Grenzgänger im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1443,7 +1443,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6451",
 		"kuerzelKunde": "3.4-08",
 		"description": "Grenzgänger im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1484,7 +1484,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6452",
 		"kuerzelKunde": "3.4-23",
 		"description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1525,7 +1525,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6453",
 		"kuerzelKunde": "3.4-24",
 		"description": "Arbeitstage von Meldepflichtigen im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1566,7 +1566,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6454",
 		"kuerzelKunde": "3.2-03",
 		"description": "Beschäftigte und Vollzeitäquivalente nach Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1607,7 +1607,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6455",
 		"kuerzelKunde": "3.2-04",
 		"description": "Durchschnittlicher Beschäftigungsgrad nach Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1648,7 +1648,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6456",
 		"kuerzelKunde": "3.2-07",
 		"description": "Beschäftigung im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1689,7 +1689,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6457",
 		"kuerzelKunde": "3.2-08",
 		"description": "Beschäftigung im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6459",
 		"kuerzelKunde": "2-01",
 		"description": "Beschäftigung nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1771,7 +1771,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6460",
 		"kuerzelKunde": "2-02",
 		"description": "Arbeitslosenquote nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1812,7 +1812,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6461",
 		"kuerzelKunde": "2-03",
 		"description": "Anteil Grenzgänger an der Beschäftigung nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1854,7 +1854,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6462",
 		"kuerzelKunde": "2-04",
 		"description": "Zugewanderte Erwerbstätige pro Beschäftigten nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1895,7 +1895,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6463",
 		"kuerzelKunde": "2-05",
 		"description": "Meldepflichtige pro Beschäftigten in Vollzeitäquivalenten nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1936,7 +1936,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6464",
 		"kuerzelKunde": "2-06",
 		"description": "Löhne nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -1977,7 +1977,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6505",
 		"kuerzelKunde": "3.3-07",
 		"description": "Arbeitslose im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2018,7 +2018,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.6506",
 		"kuerzelKunde": "3.3-08",
 		"description": "Arbeitslose im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2059,7 +2059,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6520",
 		"kuerzelKunde": "3.4-15",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2100,7 +2100,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.6521",
 		"kuerzelKunde": "3.4-16",
 		"description": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2141,7 +2141,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6522",
 		"kuerzelKunde": "3.5-01",
 		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2182,7 +2182,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6523",
 		"kuerzelKunde": "3.5-02",
 		"description": "Medianlohn nach Geschlecht",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2223,7 +2223,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6524",
 		"kuerzelKunde": "3.5-03",
 		"description": "Medianlohn nach Alter",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2264,7 +2264,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6525",
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2305,7 +2305,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6526",
 		"kuerzelKunde": "3.5-05",
 		"description": "Medianlohn in Industrie und Baugewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2346,7 +2346,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6527",
 		"kuerzelKunde": "3.5-06",
 		"description": "Medianlohn im Dienstleistungssektor (I)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2387,7 +2387,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6528",
 		"kuerzelKunde": "3.5-07",
 		"description": "Medianlohn im Dienstleistungssektor (II)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2428,7 +2428,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.6529",
 		"kuerzelKunde": "3.5-08",
 		"description": "Medianlohn im Dienstleistungssektor (III)",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2469,7 +2469,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.6531",
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2510,7 +2510,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07435",
 		"kuerzelKunde": "4.1-01",
 		"description": "Beschäftigung im Baunebengewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2551,7 +2551,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07437",
 		"kuerzelKunde": "4.1-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Baunebengewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2592,7 +2592,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07438",
 		"kuerzelKunde": "4.1-03",
 		"description": "Ausländische Erwerbstätige im Baunebengewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2634,7 +2634,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07442",
 		"kuerzelKunde": "4.1-04",
 		"description": "Medianlohn im Baunebengewerbe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2675,7 +2675,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07443",
 		"kuerzelKunde": "4.2-01",
 		"description": "Beschäftigung im Detailhandel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2716,7 +2716,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07444",
 		"kuerzelKunde": "4.2-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Detailhandel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2757,7 +2757,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07445",
 		"kuerzelKunde": "4.2-03",
 		"description": "Ausländische Erwerbstätige im Detailhandel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2799,7 +2799,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07446",
 		"kuerzelKunde": "4.2-04",
 		"description": "Medianlohn im Detailhandel",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2840,7 +2840,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07447",
 		"kuerzelKunde": "4.3-01",
 		"description": "Beschäftigung im Landverkehr",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2881,7 +2881,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07448",
 		"kuerzelKunde": "4.3-02",
 		"description": "Arbeitslose und Arbeitslosenquote im Landverkehr",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2922,7 +2922,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07449",
 		"kuerzelKunde": "4.3-03",
 		"description": "Ausländische Erwerbstätige im Landverkehr",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -2964,7 +2964,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07450",
 		"kuerzelKunde": "4.3-04",
 		"description": "Medianlohn im Landverkehr",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3005,7 +3005,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07452",
 		"kuerzelKunde": "4.4-01",
 		"description": "Beschäftigung in der Branche IT-Dienstleistungen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3046,7 +3046,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07453",
 		"kuerzelKunde": "4.4-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche IT-Dienstleistungen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3087,7 +3087,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07454",
 		"kuerzelKunde": "4.4-03",
 		"description": "Ausländische Erwerbstätige in der Branche IT-Dienstleistungen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3129,7 +3129,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07455",
 		"kuerzelKunde": "4.4-04",
 		"description": "Medianlohn in der Branche IT-Dienstleistungen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3170,7 +3170,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07456",
 		"kuerzelKunde": "4.5-01",
 		"description": "Beschäftigung in Architektur- und Ingenieurbüros",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3211,7 +3211,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07458",
 		"kuerzelKunde": "4.5-02",
 		"description": "Arbeitslose und Arbeitslosenquote in Architektur- und Ingenieurbüros",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3252,7 +3252,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07459",
 		"kuerzelKunde": "4.5-03",
 		"description": "Ausländische Erwerbstätige in Architektur- und Ingenieurbüros",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3294,7 +3294,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07460",
 		"kuerzelKunde": "4.5-04",
 		"description": "Medianlohn in Architektur- und Ingenieurbüros",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3335,7 +3335,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07461",
 		"kuerzelKunde": "4.6-01",
 		"description": "Beschäftigung in der Branche Personalvermittlung und <br/>-überlassung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3376,7 +3376,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07462",
 		"kuerzelKunde": "4.6-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3417,7 +3417,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07463",
 		"kuerzelKunde": "4.6-03",
 		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3459,7 +3459,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07464",
 		"kuerzelKunde": "4.6-04",
 		"description": "Medianlohn in der Branche Personalvermittlung und <br/>-überlassung",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3500,7 +3500,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07465",
 		"kuerzelKunde": "4.7-01",
 		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3541,7 +3541,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07466",
 		"kuerzelKunde": "4.7-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3582,7 +3582,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07467",
 		"kuerzelKunde": "4.7-03",
 		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3624,7 +3624,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07468",
 		"kuerzelKunde": "4.7-04",
 		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3665,7 +3665,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.07469",
 		"kuerzelKunde": "4.8-01",
 		"description": "Beschäftigung in der Branche Heime und Sozialwesen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3706,7 +3706,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.07470",
 		"kuerzelKunde": "4.8-02",
 		"description": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3747,7 +3747,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.5.07471",
 		"kuerzelKunde": "4.8-03",
 		"description": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
@@ -3789,7 +3789,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.07473",
 		"kuerzelKunde": "4.8-04",
 		"description": "Medianlohn in der Branche Heime und Sozialwesen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [

@@ -672,7 +672,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.4.06293",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -777,7 +777,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06296",
 		"kuerzelKunde": "3.8",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -917,7 +917,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.3.06300",
 		"kuerzelKunde": "4.6",
 		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -952,7 +952,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.1.06301",
 		"kuerzelKunde": "4.7",
 		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -1162,7 +1162,7 @@ var indikatorensetData = [
 		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
 		"description": "Transit durch die Region Basel",
-		"thema": "06 Produktion, Handel",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -2498,7 +2498,7 @@ var indikatorensetData = [
 		"kuerzel": "I.06.2.06369",
 		"kuerzelKunde": "2.3",
 		"description": "Anzahl Neugründungen in Basel-Stadt",
-		"thema": "06 Produktion, Handel",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Neugründungen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
@@ -2569,7 +2569,7 @@ var indikatorensetData = [
 		"kuerzel": "I.03.2.06371",
 		"kuerzelKunde": "2.5",
 		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Erwerbsleben",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
