@@ -567,7 +567,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2019",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2020",
 		"kuerzel": "I.04.1.6129",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
@@ -577,14 +577,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:54:29.2929",
+		"aktualisierungsdatum": "2019-08-12T11:15:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2019, welches auf Daten der Jahre 2013 bis 2015 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt. Die Werte des Jahres 2019 sind noch provisorisch.",
-		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
+		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2020, welches auf Daten der Jahre 2014 bis 2016 beruht, im Kanton Basel-Stadt um rund 46% über dem schweizerischen Durchschnitt. Die Werte des Jahres 2020 sind noch provisorisch.",
+		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -597,9 +597,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6129,
+		"chart-id": 6129,
+		"filter": "",
 		"id": 6129
 	},
 	{
@@ -2992,7 +2996,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2017",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2018",
 		"kuerzel": "I.04.2.6348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
@@ -3002,14 +3006,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:53:27.2727",
+		"aktualisierungsdatum": "2019-08-12T11:15:36.3636",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,86 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
-		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,88 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3022,9 +3026,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Credit Suisse Group AG"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6348,
+		"chart-id": 6348,
+		"filter": "",
 		"id": 6348
 	},
 	{

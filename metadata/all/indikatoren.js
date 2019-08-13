@@ -14314,13 +14314,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-12T09:35:05.055",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1998 bis 2017 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,9% auf 36,0%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"lesehilfe": "Von 1999 bis 2018 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,4% auf 36,4%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -14336,9 +14336,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6057,
+		"chart-id": 6057,
+		"filter": "",
 		"id": 6057
 	},
 	{
@@ -14353,13 +14357,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-12T11:02:44.4444",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 lebten im Kanton Basel-Stadt 127 378 Schweizerinnen und Schweizer und 71 610 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1998 um 19 826 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 13 030.",
+		"lesehilfe": "Ende 2018 lebten im Kanton Basel-Stadt 127 325 Schweizerinnen und Schweizer und 72 931 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1999 um 20 650 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 10 641.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -14375,9 +14379,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6058,
+		"chart-id": 6058,
+		"filter": "",
 		"id": 6058
 	},
 	{
@@ -14392,33 +14400,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-12T09:42:17.1717",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 bildeten die Deutschen mit 16 189 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2018 bildeten die Deutschen mit 16 459 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": 6599,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6599",
+			"6644"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6059,
+		"chart-id": 6059,
+		"filter": "",
 		"id": 6059
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6060",
 		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
@@ -14428,13 +14443,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-12T09:43:11.1111",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+		"lesehilfe": "Ende 2018 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -14449,14 +14464,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6060,
+		"chart-id": 6060,
+		"filter": "",
 		"id": 6060
 	},
 	{
 		"title": "Übrige Ausländer",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6061",
 		"kuerzelKunde": "A1-8",
 		"description": "Übrige Ausländer",
@@ -14466,13 +14485,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-12T09:44:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 8&nbsp;104 Personen, die Ende 2017 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+		"lesehilfe": "Von 8 316 Personen, die Ende 2018 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -14487,9 +14506,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6061,
+		"chart-id": 6061,
+		"filter": "",
 		"id": 6061
 	},
 	{
@@ -15780,7 +15803,7 @@ var indikatoren = [
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2019",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2020",
 		"kuerzel": "I.04.1.6129",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
@@ -15790,14 +15813,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-10T10:54:29.2929",
+		"aktualisierungsdatum": "2019-08-12T11:15:00.000",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2019, welches auf Daten der Jahre 2013 bis 2015 beruht,  im Kanton Basel-Stadt um rund 49% über dem Schweizerischen Durchschnitt. Die Werte des Jahres 2019 sind noch provisorisch.",
-		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
+		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2020, welches auf Daten der Jahre 2014 bis 2016 beruht, im Kanton Basel-Stadt um rund 46% über dem schweizerischen Durchschnitt. Die Werte des Jahres 2020 sind noch provisorisch.",
+		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15811,9 +15834,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6129,
+		"chart-id": 6129,
+		"filter": "",
 		"id": 6129
 	},
 	{
@@ -22006,7 +22033,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2017",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2018",
 		"kuerzel": "I.04.2.6348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
@@ -22016,14 +22043,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:53:27.2727",
+		"aktualisierungsdatum": "2019-08-12T11:15:36.3636",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,86 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
-		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,88 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -22037,9 +22064,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Credit Suisse Group AG"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6348,
+		"chart-id": 6348,
+		"filter": "",
 		"id": 6348
 	},
 	{
@@ -24659,14 +24690,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-08-12T09:52:01.011",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2005 sank die IV-Quote kontinuierlich von 8,9% auf 6,4% im Jahr 2017. Die höchste IV-Quote weist 2017 mit 11,8% die Türkei auf, gefolgt von den Balkanländern (10,2%) und Italien (8,2%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,6 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke über den Gesamtbeobachtungszeitraum nie überschritten.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter.",
+		"lesehilfe": "Seit 2005 sank die kantonale IV-Quote kontinuierlich von 8,9% auf 6,2% im Jahr 2018. Die höchste IV-Quote weist 2018 mit 11,6% die Türkei auf, gefolgt von den Balkanländern (9,6%) und Italien sowie der Schweiz (je 7,9%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,9 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24681,9 +24712,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6430,
+		"chart-id": 6430,
+		"filter": "",
 		"id": 6430
 	},
 	{
@@ -24698,14 +24733,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-08-12T09:54:01.011",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 11,8% weist die Türkei 2017 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 10,1% und Italien mit 8,2%. Die IV-Quote der Schweizerinnen und Schweizer liegt bei 8,0%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen werden für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen berücksichtigt, bei den Männern sind es die 18- bis 64-Jährigen im erwerbsfähigen Alter. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
+		"lesehilfe": "Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 11,6% weist die Türkei 2018 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,5% und Italien sowie der Schweiz mit jeweils 7,9%.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24720,14 +24755,18 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6431,
+		"chart-id": 6431,
+		"filter": "",
 		"id": 6431
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.13.1.6432",
 		"kuerzelKunde": "C5-3",
 		"description": "IV-Quote nach Staatsangehörigkeit und Alter",
@@ -24737,14 +24776,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-08-12T11:09:29.2929",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 22,5% bei den Ausländern respektive 15,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote ab 30 Jahren zu beobachten.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 21,1% bei den Ausländern respektive 15,6% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24759,9 +24798,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6432,
+		"chart-id": 6432,
+		"filter": "",
 		"id": 6432
 	},
 	{
@@ -27262,7 +27305,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.15.6.6514",
 		"kuerzelKunde": "B5-1",
 		"description": "Anzahl Gutscheine für Gratis-Deutschkurse",
@@ -27272,13 +27315,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-12T11:12:54.5454",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden 3 070 Gutscheine ausgestellt, demgegenüber wurden 1 432 Gutscheine eingelöst. Die grösste Anzahl Gutscheine (818) ist bei den Personen aus den übrigen Staaten ausgestellt worden, knapp gefolgt von den Personen aus den EU-17- und EFTA-Ländern (805). Mit 72% erreichten Personen aus arabischen Ländern die höchste «Einlösequote», wo hingegen sie mit 36% bei Personen aus den übrigen Ländern am tiefsten war.",
+		"lesehilfe": "Im Jahr 2018 wurden 3 051 Gutscheine ausgestellt und 1 566 eingelöst. Am meisten Gutscheine (890) wurden für Personen aus den EU-17- und EFTA-Ländern ausgestellt. Mit 79,6% erreichten Personen vom Balkan die höchste Einlösequote. Am tiefsten war diese Quote 2018 bei Personen aus den übrigen Ländern (43,0%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -27294,9 +27337,13 @@ var indikatoren = [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
 			"Bevölkerungsdienste und Migration Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6514,
+		"chart-id": 6514,
+		"filter": "",
 		"id": 6514
 	},
 	{
@@ -28498,19 +28545,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:36:48.4848",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
+		"aktualisierungsdatum": "2019-08-12T11:02:44.4444",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 lebten im Kanton Basel-Stadt 127 378 Schweizerinnen und Schweizer und 71 610 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1998 um 19 826 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 13 030.",
+		"lesehilfe": "Ende 2018 lebten im Kanton Basel-Stadt 127 325 Schweizerinnen und Schweizer und 72 931 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 1999 um 20 650 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 10 641.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_105",
+		"orderKey": "01_00_00_00_00_105",
 		"parentId": 6058,
 		"children": [],
 		"renderLink": [],
@@ -28538,19 +28585,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:37:55.5555",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
+		"aktualisierungsdatum": "2019-08-12T09:35:05.055",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1998 bis 2017 stieg der Anteil der ausländischen Personen an der Bevölkerung von 26,9% auf 36,0%. Der stärkste Anstieg um über 0,8 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
+		"lesehilfe": "Von 1999 bis 2018 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,4% auf 36,4%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007 und 2010 zu beobachten.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_106",
+		"orderKey": "01_00_00_00_00_106",
 		"parentId": 6057,
 		"children": [],
 		"renderLink": [],
@@ -28589,7 +28636,7 @@ var indikatoren = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "01_01_00_00_00_101",
 		"parentId": 6059,
 		"children": [],
