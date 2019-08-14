@@ -5,15 +5,15 @@
       "data": [
         [
           "1- und 2-Sterne",
-          754
+          709
         ],
         [
           "3-Sterne",
-          1673
+          1649
         ],
         [
           "4- und 5-Sterne",
-          1717
+          1645
         ],
         [
           "Nicht klassiert",
@@ -28,7 +28,7 @@
       "data": [
         [
           "1- und 2-Sterne",
-          708
+          709
         ],
         [
           "3-Sterne",
@@ -36,7 +36,7 @@
         ],
         [
           "4- und 5-Sterne",
-          1720
+          1678
         ],
         [
           "Nicht klassiert",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.61878868
+          0.50848537
         ],
         [
           "3-Sterne",
-          0.7854663
+          0.66934425
         ],
         [
           "4- und 5-Sterne",
-          0.76211097
+          0.63187439
         ],
         [
           "Nicht klassiert",
-          0.71483622
+          0.57822301
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2018",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.70056497
+          0.66399761
         ],
         [
           "3-Sterne",
-          0.76992923
+          0.73419729
         ],
         [
           "4- und 5-Sterne",
-          0.79563953
+          0.75298935
         ],
         [
           "Nicht klassiert",
-          0.69313725
+          0.62620571
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2019",
@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Juni",
+    "text": "Basel-Stadt, Juli",
     "align": "left"
   },
   "yAxis": [
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-14"
   },
   "legend": {
     "symbolRadius": 0,
