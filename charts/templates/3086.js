@@ -2,9 +2,9 @@
     return {
    plotOptions: {
         series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			"pointWidth": 40,
+           //pointPadding: 0.1,
+            //borderWidth: 0,
+			//"pointWidth": 25,
  
 
         }
