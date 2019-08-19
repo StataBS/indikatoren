@@ -1339,7 +1339,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2017",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2018",
 		"kuerzel": "I.01.1.6399",
 		"kuerzelKunde": "A1-10",
 		"description": "Ausländer nach Staatsangehörigkeit",
@@ -1349,13 +1349,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-16T09:50:27.2727",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2017 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2018 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1369,14 +1369,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6399,
+		"chart-id": 6399,
+		"filter": "",
 		"id": 6399
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-17 + EFTA",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6400",
 		"kuerzelKunde": "A1-6",
 		"description": "Anteil Ausländer der Ländergruppe EU-17 + EFTA",
@@ -1386,13 +1390,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-16T09:56:46.4646",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 15 433 Personen, die Ende 2017 zur Kategorie «EU-17 + EFTA» zählten, bildeten Spanier, Portugiesen und Briten die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Ende 2018 zählten 15 844 Personen zur Kategorie «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -1406,9 +1410,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6400,
+		"chart-id": 6400,
+		"filter": "",
 		"id": 6400
 	},
 	{

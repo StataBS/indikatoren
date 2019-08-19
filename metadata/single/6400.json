@@ -1,5 +1,5 @@
 {"title":"Anteil Ausländer der Ländergruppe EU-17 + EFTA",
-"subtitle":"nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+"subtitle":"nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
 "kuerzel":"I.01.1.6400",
 "kuerzelKunde":"A1-6",
 "description":"Anteil Ausländer der Ländergruppe EU-17 + EFTA",
@@ -8,13 +8,13 @@
 "unterthema":"Bestand und Struktur ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-08-16T09:56:46.4646",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Von 15 433 Personen, die Ende 2017 zur Kategorie «EU-17 + EFTA» zählten, bildeten Spanier, Portugiesen und Briten die grössten Bevölkerungsgruppen.",
+"lesehilfe":"Ende 2018 zählten 15 844 Personen zur Kategorie «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 "erlaeuterungen":"",
 "template":"pie001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6676"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6400, 
+"chart-id":6400, 
+"filter":""
 }
