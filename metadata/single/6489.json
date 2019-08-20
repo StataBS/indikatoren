@@ -1,5 +1,5 @@
 {"title":"Beschuldigte Jugendliche pro 1000 Jugendliche",
-"subtitle":"zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
+"subtitle":"zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
 "kuerzel":"I.19.1.6489",
 "kuerzelKunde":"D5-3",
 "description":"Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -8,13 +8,13 @@
 "unterthema":"Polizei",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:04.044",
+"aktualisierungsdatum":"2019-08-19T15:34:56.5656",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden männliche Schweizer Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige ausländische Jugendliche.",
+"lesehilfe":"Im Jahr 2018 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
 "erlaeuterungen":"Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6729"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6489, 
+"chart-id":6489, 
+"filter":""
 }

@@ -8,14 +8,14 @@
 "unterthema":"Arbeitslose ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-08-19T14:26:26.2626",
 "stufe1":"Kapitel C Erwerb und Auskommen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt in den letzten Jahren relativ konstant bei rund 2,9%. Die Quote der Personen aus den EU-Ost-Ländern ist im Jahr 2017 leicht auf 11,6% zurückgegangen, nachdem sie zwischen 2014 und 2016 von 6,8% auf 12,0% gestiegen war. Von den Ausländern weisen die Deutschen die tiefste Quote auf (2017: 3,2%).",
-"erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden.",
+"lesehilfe":"Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2018 bei 2,5%. Bei den Ausländergruppen erreichen die Personen aus der Türkei sowie diejenige aus den afrikanischen Ländern mit 7,3% die höchsten Arbeitslosenquoten des Jahres 2018. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 4,9%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2018: 2,8%).",
+"erlaeuterungen":"Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 "template":"line001",
 "darstellungsart":"",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6682"],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Strukturerhebung (SE)","Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6406, 
+"chart-id":6406, 
+"filter":""
 }

@@ -38,7 +38,7 @@
         ],
         [
           2017,
-          null
+          13.79
         ],
         [
           2018,
@@ -85,7 +85,7 @@
         ],
         [
           2017,
-          null
+          10.25
         ],
         [
           2018,
@@ -132,7 +132,7 @@
         ],
         [
           2017,
-          null
+          7.46
         ],
         [
           2018,
@@ -179,7 +179,7 @@
         ],
         [
           2017,
-          null
+          8.61
         ],
         [
           2018,
@@ -226,7 +226,7 @@
         ],
         [
           2017,
-          null
+          6.47
         ],
         [
           2018,
@@ -273,7 +273,7 @@
         ],
         [
           2017,
-          null
+          0.22
         ],
         [
           2018,
@@ -320,7 +320,7 @@
         ],
         [
           2017,
-          null
+          7.42
         ],
         [
           2018,
@@ -761,7 +761,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-21"
+    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "enabled": true,

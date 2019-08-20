@@ -238,7 +238,7 @@ var indikatorensetData = [
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05149",
+		"kuerzel": "I.01.1.5149",
 		"kuerzelKunde": "BE7",
 		"description": "Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
@@ -247,15 +247,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:14:05.055",
+		"aktualisierungsdatum": "2019-08-19T16:05:02.022",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 8,9 auf 11,0 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 7,7 auf 9,5) wie auch jene der Ausländer (von 11,4 auf 13,7) gestiegen ist.",
-		"erlaeuterungen": "Lebendgeborene auf 1 000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 8,1 auf 9,3) als auch jene der Ausländer (von 11,9 auf 12,3) gestiegen ist. Im Vergleich zum Vorjahr ist die Geburtenziffer der Schweizer zurückgegangen (von 9,5 auf 9,3).",
+		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_01_00_00_00_109",
 		"parentId": null,
 		"children": [],
@@ -263,11 +265,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5149,
-		"darstellungsart": "Grafik"
+		"data-id": 5149,
+		"chart-id": 5149,
+		"filter": "",
+		"id": 5149
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -839,29 +844,31 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:43:59.5959",
+		"aktualisierungsdatum": "2019-08-19T16:35:50.5050",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100 000 Einwohner ist im Jahr 2017  im Vergleich zum Vorjahr von 358 auf 316 zurückgegangen.",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten ist im Jahr 2018 im Vergleich zum Vorjahr von 316 auf 257 pro 100 000 Einwohner zurückgegangen.",
 		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_04_00_00_00_311",
 		"parentId": null,
-		"children": [
-			"4923"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5188,
+		"chart-id": 5188,
+		"filter": "",
 		"id": 5188
 	},
 	{

@@ -54,8 +54,8 @@
     }
   ],
   "tooltip": {    
-    "shared": true,
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+    "shared": true, 
+    //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
     //"footerFormat": 'Total: <b>{point.total:,.0f}</b>',
   },  
   "legend": { 
@@ -75,16 +75,31 @@
     {
       "color": "#FABD24",
       "type": "column", 
+      tooltip: {
+        valueDecimals: 0
+      }, 
+      marker: {
+        enabled: false
+      },
       "legendIndex": 1
     },
     {
       "color": "#008AC3",
       "type": "column", 
+      tooltip: {
+        valueDecimals: 0
+      }, 
+      marker: {
+        enabled: false
+      },
       "legendIndex": 2
     },
     {
       "color": "#9F7C5A",
       "type": "line",
+      tooltip: {
+        valueDecimals: 1
+      }, 
       marker: {
         enabled: false
       },

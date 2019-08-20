@@ -7127,14 +7127,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T10:44:36.3636",
+		"aktualisierungsdatum": "2019-08-19T16:42:20.2020",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Einbürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282. Die Einbürgerungsziffer verläuft parallel zu den absoluten Werten und liegt 2017 bei 17,9.",
-		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind oder die, wenn sie im Ausland leben, seit sechs Jahren verheiratet sind. Seit Anfang 2018 gelten teilweise neue Bestimmungen, so wird für ordentliche Einbürgerungen eine Niederlassungsbewilligung C vorausgesetzt und die Wohnsitzfrist beträgt noch zehn Jahre. Neu können sich auch junge Ausländer der dritten Generation erleichtert einbürgern lassen. Diese Änderungen werden jedoch frühestens in den Zahlen des Jahres 2019 eine Rolle spielen, da zwischen dem Einreichen eines Einbürgerungsgesuchs und der Einbürgerung zwei bis drei Jahre vergehen.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2009  mit 1 179,  2015 mit 1 170 und 2017 mit 1 282 eingebürgerten Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2010, 2011, 2012 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2018 bei 15,0.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7148,9 +7148,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4722,
+		"chart-id": 4722,
+		"filter": "",
 		"id": 4722
 	},
 	{
@@ -8664,14 +8668,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:23.2323",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 103,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -8687,9 +8691,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4866,
+		"chart-id": 4866,
+		"filter": "",
 		"id": 4866
 	},
 	{
@@ -8704,14 +8712,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:31.3131",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 6,1 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 5,8 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -8724,9 +8732,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4867,
+		"chart-id": 4867,
+		"filter": "",
 		"id": 4867
 	},
 	{
@@ -8778,14 +8790,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:39.3939",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 2,5 Anzeigen wegen Körperverletzung ersattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -8798,9 +8810,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4869,
+		"chart-id": 4869,
+		"filter": "",
 		"id": 4869
 	},
 	{
@@ -10682,7 +10698,7 @@ var indikatoren = [
 	{
 		"title": "Geburtenziffer nach Staatsangehörigkeit",
 		"subtitle": "",
-		"kuerzel": "I.01.1.05149",
+		"kuerzel": "I.01.1.5149",
 		"kuerzelKunde": "BE7",
 		"description": "Geburtenziffer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
@@ -10691,15 +10707,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-14T12:14:05.055",
+		"aktualisierungsdatum": "2019-08-19T16:05:02.022",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 8,9 auf 11,0 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 7,7 auf 9,5) wie auch jene der Ausländer (von 11,4 auf 13,7) gestiegen ist.",
-		"erlaeuterungen": "Lebendgeborene auf 1 000 Einwohner der mittleren Wohnbevölkerung.",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 8,1 auf 9,3) als auch jene der Ausländer (von 11,9 auf 12,3) gestiegen ist. Im Vergleich zum Vorjahr ist die Geburtenziffer der Schweizer zurückgegangen (von 9,5 auf 9,3).",
+		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_109",
 		"parentId": null,
@@ -10708,11 +10726,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5149,
-		"darstellungsart": "Grafik"
+		"data-id": 5149,
+		"chart-id": 5149,
+		"filter": "",
+		"id": 5149
 	},
 	{
 		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
@@ -11299,13 +11320,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T11:43:59.5959",
+		"aktualisierungsdatum": "2019-08-19T16:35:50.5050",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Gewaltstraftaten pro 100 000 Einwohner ist im Jahr 2017  im Vergleich zum Vorjahr von 358 auf 316 zurückgegangen.",
+		"lesehilfe": "Die Zahl der Gewaltstraftaten ist im Jahr 2018 im Vergleich zum Vorjahr von 316 auf 257 pro 100 000 Einwohner zurückgegangen.",
 		"erlaeuterungen": "Unter Gewaltstraftaten werden Straftatbestände zusammengefasst, welche die vorsätzliche Anwendung von Gewalt gegen Personen beinhalten. Für den Indikator sind dies Tötungsdelikte (Art. 111-113/116), schwere, sowie einfache Körperverletzung (Art. 122-123), Raub (Art. 140) und Vergewaltigung (Art. 190). Die Anzahl pro Einwohner wird anhand der mittleren Wohnbevölkerung berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -11313,16 +11334,18 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_04_00_00_00_311",
 		"parentId": null,
-		"children": [
-			"4923"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5188,
+		"chart-id": 5188,
+		"filter": "",
 		"id": 5188
 	},
 	{
@@ -14517,7 +14540,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit und Geschlecht",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6062",
 		"kuerzelKunde": "A1-9",
 		"description": "Ausländer nach Staatsangehörigkeit und Geschlecht",
@@ -14527,13 +14550,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-19T15:42:42.4242",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2017 sowohl bei den Frauen als auch bei den Männern die Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, gefolgt von den Personen der EU-17 + EFTA Staaten. Bei den Männern fallen beide Anteile etwas grösser aus als bei den Frauen. Anders zeigt sich die Situation bei den Personen aus Osteuropa sowie Mittel- und Südamerika: Hier sind die Anteile bei den Frauen grösser als bei den Männern.",
+		"lesehilfe": "Betrachtet man die Ländergruppen nach Geschlecht, so bilden Ende 2018 sowohl bei den Frauen als auch bei den Männern die Personen mit deutscher Staatsangehörigkeit die grösste Gruppe im Kanton, gefolgt von den Personen der EU-17 + EFTA Staaten. Bei den Männern fallen beide Anteile etwas grösser aus als bei den Frauen. Anders zeigt sich die Situation bei den Personen aus Osteuropa sowie Mittel- und Südamerika: Hier sind die Anteile bei den Frauen grösser als bei den Männern.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -14548,9 +14571,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6062,
+		"chart-id": 6062,
+		"filter": "",
 		"id": 6062
 	},
 	{
@@ -15108,14 +15135,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-08-19T15:50:42.4242",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Lebendgeborenen hat zwischen 2007 und 2017 zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und auch für die Schweizer. Zurückgegangen ist die Zahl der Geburten nur bei Türken und Personen aus dem Balkan. Kaum verändert hat sie sich bei Mittel- und Südamerikanern (+1).",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die Zahl der Lebendgeborenen hat zwischen 2007 und 2018 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geburten ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
+		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15129,9 +15156,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6076,
+		"chart-id": 6076,
+		"filter": "",
 		"id": 6076
 	},
 	{
@@ -15214,7 +15245,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2017 gegenüber 1998",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018 gegenüber 1999",
 		"kuerzel": "I.01.1.6079",
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
@@ -15224,13 +15255,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T16:00:27.2727",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 1998 und 2017 sind die Segregationsindices der meisten Gruppen gesunken. Am stärksten war der Rückgang bei den Italienern (-14,4 Punkte) und den Schweizern (-12,5 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus arabischen und afrikanischen Ländern.",
+		"lesehilfe": "Zwischen 1999 und 2018 sind die Segregationsindices der meisten Gruppen gesunken, d. h. sie sind 2018 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Italienern (-13,7 Punkte) und den Schweizern (-12,6 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus afrikanischen Ländern (+1,6 Punkte). Der Segregationsindex der Personen aus arabischen Ländern hat sich nicht verändert.",
 		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -15245,9 +15276,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6079,
+		"chart-id": 6079,
+		"filter": "",
 		"id": 6079
 	},
 	{
@@ -16603,13 +16638,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:26:24.2424",
+		"aktualisierungsdatum": "2019-08-19T16:37:58.5858",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 wiesen Personen aus dem Balkan (31,7), der Türkei (29,8), afrikanischen (26,4) und arabischen Ländern (23,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2017 für die Deutschen (7,8). Der Segregationsindex der Schweizer lag im Jahr 2017 bei 17,5.",
+		"lesehilfe": "2018 wiesen Personen aus dem Balkan (31,6), der Türkei (29,2), afrikanischen (25,2) und arabischen Ländern (21,7) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2018 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2018 bei 17,0.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17478,7 +17513,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:33.3333",
+		"aktualisierungsdatum": "2019-08-19T16:39:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17522,7 +17557,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-21T09:32:41.4141",
+		"aktualisierungsdatum": "2019-08-19T16:39:30.3030",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17556,7 +17591,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
+		"subtitle": "Kanton Basel-Stadt (bis 2015 Stadt Basel)",
 		"kuerzel": "I.13.2.6183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -17566,14 +17601,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:32:09.099",
+		"aktualisierungsdatum": "2019-08-19T16:39:43.4343",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2018 bei 49,8% (2017: 46,9%). 7,4% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23543,7 +23578,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer der Ländergruppe EU-Ost",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6401",
 		"kuerzelKunde": "A1-7",
 		"description": "Anteil Ausländer der Ländergruppe EU-Ost",
@@ -23553,13 +23588,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:25:40.4040",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 3 942 Personen, die Ende 2017 zur Kategorie «EU-Ost» zählten, bildeten Polen, Ungarn und Slowaken die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Von 3 153 Personen, die Ende 2018 zur Kategorie «EU-Ost» zählten, bildeten Polen, Ungarn und Rumänen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -23574,9 +23609,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6401,
+		"chart-id": 6401,
+		"filter": "",
 		"id": 6401
 	},
 	{
@@ -23759,14 +23798,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:26:26.2626",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt in den letzten Jahren relativ konstant bei rund 2,9%. Die Quote der Personen aus den EU-Ost-Ländern ist im Jahr 2017 leicht auf 11,6% zurückgegangen, nachdem sie zwischen 2014 und 2016 von 6,8% auf 12,0% gestiegen war. Von den Ausländern weisen die Deutschen die tiefste Quote auf (2017: 3,2%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen 2010-2014 verwendet worden.",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2018 bei 2,5%. Bei den Ausländergruppen erreichen die Personen aus der Türkei sowie diejenige aus den afrikanischen Ländern mit 7,3% die höchsten Arbeitslosenquoten des Jahres 2018. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 4,9%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2018: 2,8%).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23781,14 +23820,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6406,
+		"chart-id": 6406,
+		"filter": "",
 		"id": 6406
 	},
 	{
 		"title": "Arbeitslosenquote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1998",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1999",
 		"kuerzel": "I.03.4.6407",
 		"kuerzelKunde": "C1-2",
 		"description": "Arbeitslosenquote der Ausländer",
@@ -23798,14 +23841,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:27:30.3030",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 1998 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt höher als diejenige der ausländischen Männer. Insbesondere die Frauen zwischen 20 und 39 Jahren waren stärker von Arbeitslosigkeit betroffen als die Männer in den gleichen Altersgruppen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1998 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
+		"lesehilfe": "Im Jahr 1999 war die Arbeitslosenquote der ausländischen Frauen im Durchschnitt höher als diejenige der ausländischen Männer. Insbesondere die Frauen zwischen 20 und 39 Jahren waren stärker von Arbeitslosigkeit betroffen als die Männer in den gleichen Altersgruppen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23820,14 +23863,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6407,
+		"chart-id": 6407,
+		"filter": "",
 		"id": 6407
 	},
 	{
 		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1998",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1999",
 		"kuerzel": "I.03.4.6408",
 		"kuerzelKunde": "C1-3",
 		"description": "Arbeitslosenquote der Schweizer",
@@ -23837,14 +23884,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:27:53.5353",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1998 die Frauen zwischen 30 und 39 Jahren am stärksten von Arbeitslosigkeit betroffen. Allgemein war die Arbeitslosenquote der Schweizerinnen  und Schweizer für alle Altersgruppen deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1998 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärksten von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen  und Schweize deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23859,14 +23906,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6408,
+		"chart-id": 6408,
+		"filter": "",
 		"id": 6408
 	},
 	{
 		"title": "Arbeitslosenquote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.03.4.6409",
 		"kuerzelKunde": "C1-4",
 		"description": "Arbeitslosenquote der Ausländer",
@@ -23876,14 +23927,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:29:10.1010",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 ist die Arbeitslosenquote bei den ausländischen Männern fast ausnahmslos höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 50 Jahren. Nur bei den Jugendlichen unter 20 Jahren &nbsp;ist die Arbeitslosenquote der Frauen höher als bei den Männern.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2017 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2010-2014 berechnet.",
+		"lesehilfe": "Im Jahr 2018 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von den 20-24-Jährigen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23898,14 +23949,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6409,
+		"chart-id": 6409,
+		"filter": "",
 		"id": 6409
 	},
 	{
 		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
 		"kuerzel": "I.03.4.6410",
 		"kuerzelKunde": "C1-5",
 		"description": "Arbeitslosenquote der Schweizer",
@@ -23915,14 +23970,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:29:43.4343",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizerinnen und Schweizern sind im Jahr 2017 die Männer zwischen 20 und 24 resp. zwischen 30 und 34 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist aber auch in diesen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Frauen registrieren die Altersgruppen zwischen 25 und 34 Jahren die höchsten Quoten.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2017 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2010-2014 berechnet.",
+		"lesehilfe": "Bei den Schweizerinnen und Schweizern sind im Jahr 2018 die Männer zwischen 20 und 24 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist jedoch in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen registriert die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -23937,14 +23992,18 @@ var indikatoren = [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6410,
+		"chart-id": 6410,
+		"filter": "",
 		"id": 6410
 	},
 	{
 		"title": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.03.4.6411",
 		"kuerzelKunde": "C1-6",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
@@ -23954,13 +24013,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:30:16.1616",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Arbeitslosen mit einem Beruf im Baugewerbe waren im Jahresdurchschnitt 2017 rund 80% Ausländer. Für die Berufe im Gastgewerbe lag der Anteil der ausländischen Arbeitslosen bei 70%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (36%) und im Bereich Gesundheit, Lehre, Kultur (41%) auf.",
+		"lesehilfe": "Rund 80% der Arbeitslosen im Bereich Baugewerbe sind ausländische Staatsangehörige. Für die Berufe im Bereich Gastgewerbe und persönliche Dienstleistungen liegt der Anteil der ausländischen Arbeitslosen bei 71%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (40,3%) sowie im Bereich Gesundheit, Lehre, Kultur (40,5%) auf.",
 		"erlaeuterungen": "Die Berufsgruppen wurden nach der Berufsnomenklatur SBN 2000 gebildet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -23975,9 +24034,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6411,
+		"chart-id": 6411,
+		"filter": "",
 		"id": 6411
 	},
 	{
@@ -23992,14 +24055,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:31:48.4848",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Pro Monat werden insgesamt rund 100 Personen von der Arbeitslosenversicherung ausgesteuert. Im Durchschnitt der letzten Jahren sind rund 45% der ausgesteuerten Schweizer Nationalität. Die Anzahl der ausgesteuerten Männer ist im Jahr 2017 leicht höher als die Anzahl ausgesteuerter Frauen.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeistlosenversicherungsgesetzes zurückzuführen.",
+		"lesehilfe": "2018 wurden im Jahresdurchschnitt 106 Personen pro Monat von der Arbeitslosenversicherung ausgesteuert; davon waren pro Monat 49 Schweizer Staatsangehörige betroffen. Im gesamten Jahr 2018 sind fast genauso viele Schweizerinnen wie Schweizer ausgesteuert worden.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24013,9 +24076,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6412,
+		"chart-id": 6412,
+		"filter": "",
 		"id": 6412
 	},
 	{
@@ -24030,14 +24097,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-08-19T14:32:17.1717",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Durchschnitt der letzten Jahre sind rund 55% der ausgesteuerten Ausländer. Davon ist fast jeden Monat eine deutliche Mehrheit männlich.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeistlosenversicherungsgesetzes zurückzuführen.",
+		"lesehilfe": "Von den 106 der im Jahresdurchschnitt 2018 ausgesteuerten Arbeitslosen waren 57 ausländischer Herkunft. Davon war fast jeden Monat eine deutliche Mehrheit männlich.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24051,9 +24118,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6413,
+		"chart-id": 6413,
+		"filter": "",
 		"id": 6413
 	},
 	{
@@ -26308,13 +26379,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-08-19T14:54:43.4343",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 8,8 Personen &nbsp;mindestens einer Straftat beschuldigt. Im Jahr 2016 waren es 9,3 Personen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur die Deutschen (2016: 6,6; 2017: 6,5) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
+		"lesehilfe": "Im Jahr 2018 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 8,9 Personen mindestens einer Straftat beschuldigt. Im Jahr 2017 waren es 8,8 Personen gewesen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2017: 6,5; 2018: 6,9) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26330,9 +26401,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6482,
+		"chart-id": 6482,
+		"filter": "",
 		"id": 6482
 	},
 	{
@@ -26347,13 +26422,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2019-08-19T15:19:51.5151",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1 000 Personen die höchste Beschuldigtenrate auf.",
+		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26369,14 +26444,18 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6483,
+		"chart-id": 6483,
+		"filter": "",
 		"id": 6483
 	},
 	{
 		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6484",
 		"kuerzelKunde": "D4-3",
 		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
@@ -26386,13 +26465,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-19T15:34:13.1313",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 ergab sich die höchste Beschuldigtenrate mit 62,1 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 29,5.",
+		"lesehilfe": "Im Jahr 2018 ergab sich die höchste Beschuldigtenrate mit 67,7 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 37,5.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26408,9 +26487,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6484,
+		"chart-id": 6484,
+		"filter": "",
 		"id": 6484
 	},
 	{
@@ -26503,13 +26586,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-19T15:34:36.3636",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2011 wurden sowohl in der Altersgruppe der 10- bis 14-Jährigen wie auch der 15- bis 17-Jährigen Schweizer Jugendliche seltener einer Straftat beschuldigt als ausländische Jugendliche.",
+		"lesehilfe": "Im Jahr 2011 wurden sowohl in der Altersgruppe der 10- bis 14-Jährigen als auch der 15- bis 17-Jährigen Schweizer Jugendliche seltener einer Straftat beschuldigt als ausländische Jugendliche.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26525,14 +26608,18 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6488,
+		"chart-id": 6488,
+		"filter": "",
 		"id": 6488
 	},
 	{
 		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
-		"subtitle": "zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2017",
+		"subtitle": "zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6489",
 		"kuerzelKunde": "D5-3",
 		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche",
@@ -26542,13 +26629,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-19T15:34:56.5656",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden männliche Schweizer Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige ausländische Jugendliche.",
+		"lesehilfe": "Im Jahr 2018 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26564,9 +26651,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6489,
+		"chart-id": 6489,
+		"filter": "",
 		"id": 6489
 	},
 	{
@@ -26581,13 +26672,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-19T15:35:55.5555",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2011 bis 2017 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 43. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg hingegen von 16 auf 21 Personen.",
+		"lesehilfe": "Von 2011 bis 2018 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 52. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung sank ebenfalls von 16 auf 6 Personen.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder &nbsp;Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26603,14 +26694,18 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6490,
+		"chart-id": 6490,
+		"filter": "",
 		"id": 6490
 	},
 	{
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "zwischen 10 und 17 Jahren, Basel-Stadt, 2017",
+		"subtitle": "zwischen 10 und 17 Jahren, nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6491",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
@@ -26620,13 +26715,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-08-19T15:37:31.3131",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden 22,9% der Schweizer Jugendlichen zwischen 10 und 17 Jahren des Konsums eines Betäubungsmittels beschuldigt. Von den ausländischen Jugendlichen wurden hingegen 27,4% wegen Diebstahls angezeigt.",
+		"lesehilfe": "Im Jahr 2018 wurden 23,3% der Schweizer Jugendlichen zwischen 10 und 17 Jahren des Konsums eines Betäubungsmittels beschuldigt. Bei den ausländischen Jugendlichen war hingegen Diebstahl das häufigste Delikt, 39,8% wurden deswegen angezeigt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26641,9 +26736,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Polizeiliche Kriminalitätsstatistk (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6491,
+		"chart-id": 6491,
+		"filter": "",
 		"id": 6491
 	},
 	{
@@ -27356,24 +27455,24 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
-		"kuerzel": "I.15.6.6515",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2018",
+		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
 		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
-			"Kanton"
+			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2018-12-03T15:01:38.3838",
+		"aktualisierungsdatum": "2019-08-19T15:41:52.5252",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Kindern, die im Jahr 2018 den Kindergarten starten, sind 40% zu einer frühen Deutschförderung (Obligatorium 2016) verpflichtet worden. Nach Ländergruppen differenziert, zeigt sich, dass Kinder aus der Türkei, aus dem Balkan und aus arabischen Ländern am häufigsten verpflichtet wurden.",
-		"erlaeuterungen": "Seit 2013 werden fremdsprachige Kinder in Basel-Stadt obligatorisch in Spielgruppen oder Tagesheime geschickt, falls sie keine oder ungenügende Deutschkenntnisse haben. Eltern erhalten eineinhalb Jahre vor dem Kindergarteneintritt ihres Kindes einen Fragebogen und können so die Deutschkenntnisse ihres Kindes zuverlässig einschätzen.",
+		"lesehilfe": "Von den Kindern, die vom Alter her im August 2019 den Kindergarten starten, sind 40% zu einer frühen Deutschförderung verpflichtet worden. 96% der Kinder aus arabischen Ländern und 90% der Kinder aus dem Balkan fallen ins Obligatorium. Bei Kindern mit türkischer Staatsangehörigkeit sind es 85%. Während der Anteil verpflichteter Kinder mit deutscher Staatsangehörigkeit bei 14% liegt, beträgt er bei jenen mit Schweizer Pass 24%.",
+		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, in dem sie deren Deutschkenntnisse einschätzen sollen. Der Zu- bzw. Wegzug von Familien nach dem ersten Versand im Januar 2018 ist in den Daten ebenfalls berücksichtigt. Stichtag ist der 7.5.2019.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -27385,7 +27484,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsdienste und Migration Basel-Stadt"
+			"Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

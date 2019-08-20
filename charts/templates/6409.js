@@ -23,7 +23,7 @@
         },
         yAxis:[{
             //max: 7,
-            //tickInterval: 1,
+            tickInterval: 2,
             min: 0,
             title: {
                 text: null
@@ -31,7 +31,7 @@
             labels: {
             	step: 1,
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 1, ",", " ")+"%";
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
                 style: {
                     color: "#000000"
