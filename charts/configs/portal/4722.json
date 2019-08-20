@@ -3,12 +3,14 @@
     {
       "color": "#FABD24",
       "type": "column",
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "marker": {
+        "enabled": false
+      },
       "legendIndex": 1,
       "data": [
-        [
-          "2008",
-          204
-        ],
         [
           "2009",
           160
@@ -44,6 +46,10 @@
         [
           "2017",
           230
+        ],
+        [
+          "2018",
+          142
         ]
       ],
       "name": "Erleichtert Eingebürgerte",
@@ -52,12 +58,14 @@
     {
       "color": "#008AC3",
       "type": "column",
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "marker": {
+        "enabled": false
+      },
       "legendIndex": 2,
       "data": [
-        [
-          "2008",
-          1594
-        ],
         [
           "2009",
           1019
@@ -93,6 +101,10 @@
         [
           "2017",
           1052
+        ],
+        [
+          "2018",
+          949
         ]
       ],
       "name": "Ordentlich Eingebürgerte",
@@ -101,6 +113,9 @@
     {
       "color": "#9F7C5A",
       "type": "line",
+      "tooltip": {
+        "valueDecimals": 1
+      },
       "marker": {
         "enabled": false
       },
@@ -109,47 +124,47 @@
       "legendIndex": 0,
       "data": [
         [
-          "2008",
-          29.802751533233
-        ],
-        [
           "2009",
-          18.962300566134
+          19.115715744929
         ],
         [
           "2010",
-          13.722914259484
+          13.954162106483
         ],
         [
           "2011",
-          12.959801334781
+          13.027537249395
         ],
         [
           "2012",
-          13.246448029056
+          13.246448029057
         ],
         [
           "2013",
-          15.484367598294
+          15.484367598295
         ],
         [
           "2014",
-          14.263074484944
+          14.263074484945
         ],
         [
           "2015",
-          16.813485277422
+          16.813485277423
         ],
         [
           "2016",
-          10.620268896169
+          10.62026889617
         ],
         [
           "2017",
-          17.902527579946
+          17.902527579947
+        ],
+        [
+          "2018",
+          14.959345134442
         ]
       ],
-      "name": "Einbürgerungsziffer",
+      "name": "Einbürgerungsziffer (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -294,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,
@@ -308,8 +323,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": true,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": true
   },
   "exporting": {
     "filename": 4722

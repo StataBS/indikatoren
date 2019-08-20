@@ -7,35 +7,35 @@
       "data": [
         [
           "Bau- und Ausbaugewerbe",
-          19.4
+          20.3
         ],
         [
           "Gastgewerbe, pers. DL",
-          30.3
-        ],
-        [
-          "Technische Berufe, Informatik",
-          40.1
-        ],
-        [
-          "Industrie und Gewerbe",
-          44.8
+          29.2
         ],
         [
           "Land- und Forstwirtschaft",
-          47.8
+          38.1
+        ],
+        [
+          "Technische Berufe, Informatik",
+          41.8
+        ],
+        [
+          "Industrie und Gewerbe",
+          46.7
         ],
         [
           "Handels- und Verkehrsberufe",
-          50.2
+          50.3
         ],
         [
           "Gesundheit, Lehre, Kultur",
-          58.6
+          59.5
         ],
         [
           "Banken, Versicherungen o.ä.",
-          63.6
+          59.7
         ]
       ],
       "name": "Schweiz",
@@ -48,35 +48,35 @@
       "data": [
         [
           "Bau- und Ausbaugewerbe",
-          80.6
+          79.7
         ],
         [
           "Gastgewerbe, pers. DL",
-          69.7
-        ],
-        [
-          "Technische Berufe, Informatik",
-          59.9
-        ],
-        [
-          "Industrie und Gewerbe",
-          55.2
+          70.8
         ],
         [
           "Land- und Forstwirtschaft",
-          52.2
+          61.9
+        ],
+        [
+          "Technische Berufe, Informatik",
+          58.2
+        ],
+        [
+          "Industrie und Gewerbe",
+          53.3
         ],
         [
           "Handels- und Verkehrsberufe",
-          49.8
+          49.7
         ],
         [
           "Gesundheit, Lehre, Kultur",
-          41.4
+          40.5
         ],
         [
           "Banken, Versicherungen o.ä.",
-          36.4
+          40.3
         ]
       ],
       "name": "Ausland",
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -210,7 +210,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,

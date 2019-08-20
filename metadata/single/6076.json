@@ -8,14 +8,14 @@
 "unterthema":"Geburten und Todesfälle",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:05.055",
+"aktualisierungsdatum":"2019-08-19T15:50:42.4242",
 "stufe1":"Kapitel A Bevölkerungsstruktur",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Zahl der Lebendgeborenen hat zwischen 2007 und 2017 zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und auch für die Schweizer. Zurückgegangen ist die Zahl der Geburten nur bei Türken und Personen aus dem Balkan. Kaum verändert hat sie sich bei Mittel- und Südamerikanern (+1).",
-"erlaeuterungen":"",
+"lesehilfe":"Die Zahl der Lebendgeborenen hat zwischen 2007 und 2018 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geburten ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
+"erlaeuterungen":"Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 "template":"line001",
 "darstellungsart":"",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6661"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6076, 
+"chart-id":6076, 
+"filter":""
 }

@@ -51,6 +51,10 @@
         [
           2017,
           1208
+        ],
+        [
+          2018,
+          1188
         ]
       ],
       "name": "Schweiz"
@@ -106,6 +110,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          214
         ]
       ],
       "name": "Deutschland"
@@ -160,6 +168,10 @@
         ],
         [
           2017,
+          75
+        ],
+        [
+          2018,
           75
         ]
       ],
@@ -216,6 +228,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          47
         ]
       ],
       "name": "Türkei"
@@ -271,6 +287,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          190
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -326,6 +346,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          68
         ]
       ],
       "name": "EU-Ost"
@@ -380,6 +404,10 @@
         ],
         [
           2017,
+          99
+        ],
+        [
+          2018,
           99
         ]
       ],
@@ -436,6 +464,10 @@
         [
           2017,
           9
+        ],
+        [
+          2018,
+          17
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -491,6 +523,10 @@
         [
           2017,
           32
+        ],
+        [
+          2018,
+          33
         ]
       ],
       "name": "Arabische Länder"
@@ -546,6 +582,10 @@
         [
           2017,
           47
+        ],
+        [
+          2018,
+          45
         ]
       ],
       "name": "Afrikanische Länder"
@@ -600,6 +640,10 @@
         ],
         [
           2017,
+          103
+        ],
+        [
+          2018,
           103
         ]
       ],
@@ -703,7 +747,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "enabled": true,

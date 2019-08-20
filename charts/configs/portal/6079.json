@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          -12.5
+          -12.6
         ],
         [
           "Deutschland",
-          -2.5
+          -1.9
         ],
         [
           "Italien",
-          -14.4
+          -13.7
         ],
         [
           "Türkei",
-          -3.9
-        ],
-        [
-          "EU-17 + EFTA",
-          -4.6
-        ],
-        [
-          "EU-Ost",
-          -2.7
-        ],
-        [
-          "Balkan",
-          -6.9
-        ],
-        [
-          "Mittel- und Südamerika",
           -4.8
         ],
         [
+          "EU-17 + EFTA",
+          -3.7
+        ],
+        [
+          "EU-Ost",
+          -1.7
+        ],
+        [
+          "Balkan",
+          -7.5
+        ],
+        [
+          "Mittel- und Südamerika",
+          -3.1
+        ],
+        [
           "Arabische Länder",
-          6.2
+          0
         ],
         [
           "Afrikanische Länder",
-          3.4
+          1.6
         ],
         [
           "Übrige Länder",
-          0.2
+          0.8
         ]
       ],
       "turboThreshold": 0
@@ -134,7 +134,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017 gegenüber 1998",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018 gegenüber 1999",
     "align": "left"
   },
   "yAxis": {
@@ -176,7 +176,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,

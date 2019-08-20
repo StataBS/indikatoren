@@ -8,14 +8,14 @@
 "unterthema":"Polizei",
 "kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-18T15:58:47.4747",
+"aktualisierungsdatum":"2019-08-19T16:53:31.3131",
 "stufe1":"Kernbereich 3: Gemeinwohlorientierung",
 "stufe2":"3.2 Anerkennung sozialer Regeln",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden auf 1000 Einwohner 6,1 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
-"erlaeuterungen":"Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+"lesehilfe":"Im Jahr 2018 wurden pro 1000 Einwohner 5,8 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+"erlaeuterungen":"Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 "template":"template001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4867, 
+"chart-id":4867, 
+"filter":""
 }

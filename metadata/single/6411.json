@@ -1,5 +1,5 @@
 {"title":"Anteil Arbeitslose in ausgewählten Berufsgruppen",
-"subtitle":"nach Staatsangehörigkeit, Basel-Stadt, 2017",
+"subtitle":"nach Staatsangehörigkeit, Basel-Stadt, 2018",
 "kuerzel":"I.03.4.6411",
 "kuerzelKunde":"C1-6",
 "description":"Anteil Arbeitslose in ausgewählten Berufsgruppen",
@@ -8,13 +8,13 @@
 "unterthema":"Arbeitslose ",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:02.022",
+"aktualisierungsdatum":"2019-08-19T14:30:16.1616",
 "stufe1":"Kapitel C Erwerb und Auskommen",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Von den Arbeitslosen mit einem Beruf im Baugewerbe waren im Jahresdurchschnitt 2017 rund 80% Ausländer. Für die Berufe im Gastgewerbe lag der Anteil der ausländischen Arbeitslosen bei 70%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (36%) und im Bereich Gesundheit, Lehre, Kultur (41%) auf.",
+"lesehilfe":"Rund 80% der Arbeitslosen im Bereich Baugewerbe sind ausländische Staatsangehörige. Für die Berufe im Bereich Gastgewerbe und persönliche Dienstleistungen liegt der Anteil der ausländischen Arbeitslosen bei 71%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (40,3%) sowie im Bereich Gesundheit, Lehre, Kultur (40,5%) auf.",
 "erlaeuterungen":"Die Berufsgruppen wurden nach der Berufsnomenklatur SBN 2000 gebildet.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6687"],
 "renderLink":[],
 "quellenangabe":["Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6411, 
+"chart-id":6411, 
+"filter":""
 }
