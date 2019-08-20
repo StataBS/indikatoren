@@ -191,14 +191,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-02T10:44:36.3636",
+		"aktualisierungsdatum": "2019-08-19T16:42:20.2020",
 		"stufe1": "Kernbereich 2: Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Der Höchstwert wurde 2008 mit 1 798 eingebürgerten Ausländern erreicht. Danach gingen die Einbürgerungen zurück, 2011 erwarben noch 835 Ausländer die Schweizer Staatsangehörigkeit. Seit 2012 nimmt die Zahl der Einbürgerungen tendeziell wieder zu, im Jahr 2015 erhielten 1 166 Personen das Schweizer Bürgerrecht. 2016 liessen sich 752 Ausländer einbürgern, dies ist der tiefste Wert der letzten zehn Jahre. 2017 lag die Zahl der Eingebürgerten wieder bei 1 282. Die Einbürgerungsziffer verläuft parallel zu den absoluten Werten und liegt 2017 bei 17,9.",
-		"erlaeuterungen": "Für eine ordentliche Einbürgerung muss eine Person u. a. zwölf Jahre in der Schweiz gewohnt haben. Eine erleichterte Einbürgerung kommt für ausländische Ehepartner von Schweizern in Frage, die insgesamt fünf Jahre in der Schweiz gelebt haben und seit drei Jahren verheiratet sind oder die, wenn sie im Ausland leben, seit sechs Jahren verheiratet sind. Seit Anfang 2018 gelten teilweise neue Bestimmungen, so wird für ordentliche Einbürgerungen eine Niederlassungsbewilligung C vorausgesetzt und die Wohnsitzfrist beträgt noch zehn Jahre. Neu können sich auch junge Ausländer der dritten Generation erleichtert einbürgern lassen. Diese Änderungen werden jedoch frühestens in den Zahlen des Jahres 2019 eine Rolle spielen, da zwischen dem Einreichen eines Einbürgerungsgesuchs und der Einbürgerung zwei bis drei Jahre vergehen.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2009  mit 1 179,  2015 mit 1 170 und 2017 mit 1 282 eingebürgerten Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2010, 2011, 2012 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2018 bei 15,0.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -211,9 +211,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4722,
+		"chart-id": 4722,
+		"filter": "",
 		"id": 4722
 	},
 	{
@@ -913,14 +917,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:23.2323",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden pro 1000 Einwohner 130,1 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 103,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -935,9 +939,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4866,
+		"chart-id": 4866,
+		"filter": "",
 		"id": 4866
 	},
 	{
@@ -952,14 +960,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:31.3131",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 6,1 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 5,8 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -971,9 +979,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4867,
+		"chart-id": 4867,
+		"filter": "",
 		"id": 4867
 	},
 	{
@@ -1024,14 +1036,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-08-19T16:53:39.3939",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 2,5 Anzeigen wegen Körperverletzung ersattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1043,9 +1055,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4869,
+		"chart-id": 4869,
+		"filter": "",
 		"id": 4869
 	},
 	{

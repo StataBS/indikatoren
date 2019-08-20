@@ -287,7 +287,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Kanton Basel-Stadt (bis 2016 Stadt Basel)"
+    "text": "Kanton Basel-Stadt (bis 2015 Stadt Basel)"
   },
   "navigation": {
     "menuItemStyle": {
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "layout": "horizontal",

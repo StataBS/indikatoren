@@ -1,5 +1,5 @@
 {"title":"Beschuldigte Jugendliche nach Straftatbestand",
-"subtitle":"zwischen 10 und 17 Jahren, Basel-Stadt, 2017",
+"subtitle":"zwischen 10 und 17 Jahren, nach Staatsangehörigkeit, Basel-Stadt, 2018",
 "kuerzel":"I.19.1.6491",
 "kuerzelKunde":"D5-5",
 "description":"Beschuldigte Jugendliche nach Straftatbestand",
@@ -8,13 +8,13 @@
 "unterthema":"Polizei",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:04.044",
+"aktualisierungsdatum":"2019-08-19T15:37:31.3131",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden 22,9% der Schweizer Jugendlichen zwischen 10 und 17 Jahren des Konsums eines Betäubungsmittels beschuldigt. Von den ausländischen Jugendlichen wurden hingegen 27,4% wegen Diebstahls angezeigt.",
+"lesehilfe":"Im Jahr 2018 wurden 23,3% der Schweizer Jugendlichen zwischen 10 und 17 Jahren des Konsums eines Betäubungsmittels beschuldigt. Bei den ausländischen Jugendlichen war hingegen Diebstahl das häufigste Delikt, 39,8% wurden deswegen angezeigt.",
 "erlaeuterungen":"Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 "template":"template001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6731"],
 "renderLink":[],
 "quellenangabe":["Polizeiliche Kriminalitätsstatistk (PKS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6491, 
+"chart-id":6491, 
+"filter":""
 }

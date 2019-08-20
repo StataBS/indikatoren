@@ -187,11 +187,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2017",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": [
     {
+      "tickInterval": 2,
       "min": 0,
       "title": {
         "text": null
@@ -199,7 +200,7 @@
       "labels": {
         "step": 1,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 1, ",", " ")+"%";
+                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
             	},
         "style": {
           "color": "#000000"
@@ -239,7 +240,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,

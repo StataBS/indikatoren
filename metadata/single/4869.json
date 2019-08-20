@@ -8,14 +8,14 @@
 "unterthema":"Polizei",
 "kennzahlenset":"Gesellschaftlicher-Zusammenhalt",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-18T15:58:47.4747",
+"aktualisierungsdatum":"2019-08-19T16:53:39.3939",
 "stufe1":"Kernbereich 3: Gemeinwohlorientierung",
 "stufe2":"3.2 Anerkennung sozialer Regeln",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden auf 1000 Einwohner 2,5 Anzeigen wegen Körperverletzung ersattet.",
-"erlaeuterungen":"Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+"lesehilfe":"Im Jahr 2018 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+"erlaeuterungen":"Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 "template":"template001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4869, 
+"chart-id":4869, 
+"filter":""
 }

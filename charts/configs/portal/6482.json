@@ -38,6 +38,10 @@
         [
           2017,
           8.8
+        ],
+        [
+          2018,
+          8.9
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2017,
           6.5
+        ],
+        [
+          2018,
+          6.9
         ]
       ],
       "name": "Deutschland"
@@ -122,6 +130,10 @@
         [
           2017,
           10.6
+        ],
+        [
+          2018,
+          13
         ]
       ],
       "name": "Italien"
@@ -164,6 +176,10 @@
         [
           2017,
           27.6
+        ],
+        [
+          2018,
+          30.5
         ]
       ],
       "name": "Türkei"
@@ -206,6 +222,10 @@
         [
           2017,
           9.6
+        ],
+        [
+          2018,
+          8.2
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -247,6 +267,10 @@
         ],
         [
           2017,
+          15.2
+        ],
+        [
+          2018,
           15.2
         ]
       ],
@@ -290,6 +314,10 @@
         [
           2017,
           26.9
+        ],
+        [
+          2018,
+          24.4
         ]
       ],
       "name": "Balkan"
@@ -332,6 +360,10 @@
         [
           2017,
           32.1
+        ],
+        [
+          2018,
+          36
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -374,6 +406,10 @@
         [
           2017,
           63.6
+        ],
+        [
+          2018,
+          61.2
         ]
       ],
       "name": "Arabische Länder"
@@ -416,6 +452,10 @@
         [
           2017,
           48.4
+        ],
+        [
+          2018,
+          60.4
         ]
       ],
       "name": "Afrikanische Länder"
@@ -458,6 +498,10 @@
         [
           2017,
           12.7
+        ],
+        [
+          2018,
+          14.5
         ]
       ],
       "name": "Übrige Länder"
@@ -587,7 +631,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,

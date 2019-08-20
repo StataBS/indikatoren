@@ -1348,13 +1348,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:26:24.2424",
+		"aktualisierungsdatum": "2019-08-19T16:37:58.5858",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 wiesen Personen aus dem Balkan (31,7), der Türkei (29,8), afrikanischen (26,4) und arabischen Ländern (23,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2017 für die Deutschen (7,8). Der Segregationsindex der Schweizer lag im Jahr 2017 bei 17,5.",
+		"lesehilfe": "2018 wiesen Personen aus dem Balkan (31,6), der Türkei (29,2), afrikanischen (25,2) und arabischen Ländern (21,7) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2018 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2018 bei 17,0.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2202,7 +2202,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:33.3333",
+		"aktualisierungsdatum": "2019-08-19T16:39:00.000",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2245,7 +2245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-21T09:32:41.4141",
+		"aktualisierungsdatum": "2019-08-19T16:39:30.3030",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2278,7 +2278,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
+		"subtitle": "Kanton Basel-Stadt (bis 2015 Stadt Basel)",
 		"kuerzel": "I.13.2.6183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -2288,14 +2288,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:32:09.099",
+		"aktualisierungsdatum": "2019-08-19T16:39:43.4343",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2018 bei 49,8% (2017: 46,9%). 7,4% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

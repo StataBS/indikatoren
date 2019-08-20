@@ -5,47 +5,43 @@
       "data": [
         [
           "Schweiz",
-          23.58
+          23.66
         ],
         [
           "Deutschland",
-          6.87
-        ],
-        [
-          "Italien",
-          70
+          14.06
         ],
         [
           "Türkei",
-          87.5
+          85.48
         ],
         [
           "EU-17 + EFTA",
-          52.21
+          59.51
         ],
         [
           "EU-Ost",
-          60.61
+          65
         ],
         [
           "Balkan",
-          81.36
+          90.48
         ],
         [
           "Mittel- und Südamerika",
-          72.73
+          41.18
         ],
         [
           "Arabische Länder",
-          84.62
+          95.65
         ],
         [
           "Afrikanische Länder",
-          74.19
+          68.75
         ],
         [
           "Übrige Länder",
-          76.3
+          79.63
         ]
       ],
       "turboThreshold": 0
@@ -134,7 +130,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": " nach Staatsangehörigkeit, Stadt Basel, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -153,7 +149,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -174,7 +171,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-3"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
   },
   "legend": {
     "symbolRadius": 0,
