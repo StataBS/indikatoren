@@ -130,15 +130,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:39:14.1414",
+		"aktualisierungsdatum": "2019-08-22T08:52:46.4646",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an.",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an. In den letzten zwei Jahren verstärkte sich dieser Anstieg.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_005",
 		"parentId": null,
@@ -147,11 +148,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5813,
-		"darstellungsart": "Grafik"
+		"data-id": 5813,
+		"chart-id": 5813,
+		"filter": "",
+		"id": 5813
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -165,28 +169,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:36:05.055",
+		"aktualisierungsdatum": "2019-08-22T08:51:46.4646",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte verzeichnet.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 im Wohnviertel Rosental verzeichnet. Die Zunahme gegenüber der Quote vor 20 Jahren war im Wohnviertel Vorstädte am grössten. Die grösste Abnahme wies das Wohnviertel Matthäus auf.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_006",
-		"parentId": 6009,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6246"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5814,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5814,
+		"chart-id": 5814,
+		"filter": "",
+		"id": 5814
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
@@ -782,26 +792,27 @@ var indikatorensetData = [
 		"id": 6216
 	},
 	{
-		"title": "Leerstehende Industrie- und Gewerbeflächen",
+		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in Quadratmetern, Basel-Stadt",
 		"kuerzel": "I.09.2.6217",
 		"kuerzelKunde": "ST 7-4",
-		"description": "Leerstehende Industrie- und Gewerbeflächen",
+		"description": "Leerstehende Geschäftsflächen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:38:02.022",
+		"aktualisierungsdatum": "2019-08-22T09:09:04.044",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit rund 58 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 61 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
 		"erlaeuterungen": "",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
@@ -813,11 +824,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"SVIT beider Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6217,
-		"darstellungsart": "Grafik"
+		"data-id": 6217,
+		"chart-id": 6217,
+		"filter": "",
+		"id": 6217
 	},
 	{
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
