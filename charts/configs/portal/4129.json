@@ -9,18 +9,6 @@
       "color": "#DC440E",
       "data": [
         [
-          "2007",
-          592
-        ],
-        [
-          "2008",
-          628
-        ],
-        [
-          "2009",
-          685
-        ],
-        [
           "2010",
           869
         ],
@@ -55,6 +43,10 @@
         [
           "2018",
           928
+        ],
+        [
+          "2019",
+          1058
         ]
       ],
       "name": "1 Zimmer",
@@ -68,18 +60,6 @@
       "index": 3,
       "color": "#933F8D",
       "data": [
-        [
-          "2007",
-          965
-        ],
-        [
-          "2008",
-          1053
-        ],
-        [
-          "2009",
-          1034
-        ],
         [
           "2010",
           1168
@@ -115,6 +95,10 @@
         [
           "2018",
           1367
+        ],
+        [
+          "2019",
+          1286
         ]
       ],
       "name": "2 Zimmer",
@@ -128,18 +112,6 @@
       "index": 2,
       "color": "#68AB2B",
       "data": [
-        [
-          "2007",
-          1388
-        ],
-        [
-          "2008",
-          1367
-        ],
-        [
-          "2009",
-          1454
-        ],
         [
           "2010",
           1505
@@ -175,6 +147,10 @@
         [
           "2018",
           1589
+        ],
+        [
+          "2019",
+          1648
         ]
       ],
       "name": "3 Zimmer",
@@ -188,18 +164,6 @@
       "index": 1,
       "color": "#689199",
       "data": [
-        [
-          "2007",
-          1891
-        ],
-        [
-          "2008",
-          1837
-        ],
-        [
-          "2009",
-          1945
-        ],
         [
           "2010",
           2071
@@ -235,6 +199,10 @@
         [
           "2018",
           2175
+        ],
+        [
+          "2019",
+          2242
         ]
       ],
       "name": "4 Zimmer",
@@ -248,18 +216,6 @@
       "index": 0,
       "color": "#008AC3",
       "data": [
-        [
-          "2007",
-          2330
-        ],
-        [
-          "2008",
-          2417
-        ],
-        [
-          "2009",
-          2704
-        ],
         [
           "2010",
           2293
@@ -295,6 +251,10 @@
         [
           "2018",
           2985
+        ],
+        [
+          "2019",
+          2921
         ]
       ],
       "name": "5 Zimmer",
@@ -364,7 +324,9 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "valueSuffix": " Fr."
   },
   "yAxis": {
     "min": 0,
@@ -398,7 +360,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-13"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "legend": {
     "enabled": true,

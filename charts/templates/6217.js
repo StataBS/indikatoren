@@ -38,8 +38,12 @@
     }
   },
   "series": [
-   {"color":"#b00000", "index": 4, "marker": {"enabled": false}}, //rot
+  {"color":"#b00000", "index": 4, "marker": {"enabled": false}}, //rot
   {"color":"#cd9c00", "index": 3, "marker": {"enabled": false}}, //orange
+  {"color":"#2F656B", "index": 2, "marker": {"enabled": false}}, //orange
+  {"color":"#FF8028", "index": 1, "marker": {"enabled": false}}, //orange
+  {"color":"#923F8D", "index": 0, "marker": {"enabled": false}}, //orange
+  
   ],  
   "tooltip": {
     //"shared": true

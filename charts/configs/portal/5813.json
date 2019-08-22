@@ -8,10 +8,6 @@
       "color": "#83522E",
       "data": [
         [
-          1999,
-          1.540636450188
-        ],
-        [
           2000,
           1.306536525381
         ],
@@ -85,7 +81,11 @@
         ],
         [
           2018,
-          0.711174164916
+          0.71
+        ],
+        [
+          2019,
+          1.01
         ]
       ],
       "name": "Leerwohnungsquote in %"
@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "legend": {
     "enabled": false,
