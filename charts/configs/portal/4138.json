@@ -53,6 +53,10 @@
         [
           2018,
           117
+        ],
+        [
+          2019,
+          186
         ]
       ],
       "name": "1 Zimmer"
@@ -110,6 +114,10 @@
         [
           2018,
           251
+        ],
+        [
+          2019,
+          327
         ]
       ],
       "name": "2 Zimmer"
@@ -167,6 +175,10 @@
         [
           2018,
           267
+        ],
+        [
+          2019,
+          403
         ]
       ],
       "name": "3 Zimmer"
@@ -224,6 +236,10 @@
         [
           2018,
           99
+        ],
+        [
+          2019,
+          155
         ]
       ],
       "name": "4 Zimmer"
@@ -281,6 +297,10 @@
         [
           2018,
           48
+        ],
+        [
+          2019,
+          53
         ]
       ],
       "name": "5+ Zimmer"
@@ -338,6 +358,10 @@
         [
           2018,
           782
+        ],
+        [
+          2019,
+          1124
         ]
       ],
       "name": "Anzahl leere Wohnungen"
@@ -399,6 +423,10 @@
         [
           2018,
           0.711174164916
+        ],
+        [
+          2019,
+          1.011355252029
         ]
       ],
       "name": "LWQ alle Wohnungen (rechte Skala)"
@@ -461,6 +489,10 @@
         [
           2018,
           1.044176706827
+        ],
+        [
+          2019,
+          1.638333480137
         ]
       ],
       "name": "LWQ 1 Zimmer"
@@ -523,6 +555,10 @@
         [
           2018,
           0.977376270394
+        ],
+        [
+          2019,
+          1.249379131165
         ]
       ],
       "name": "LWQ 2 Zimmer"
@@ -585,6 +621,10 @@
         [
           2018,
           0.65263621031
+        ],
+        [
+          2019,
+          0.977159206634
         ]
       ],
       "name": "LWQ 3 Zimmer"
@@ -647,6 +687,10 @@
         [
           2018,
           0.513485477178
+        ],
+        [
+          2019,
+          0.798475169997
         ]
       ],
       "name": "LWQ 4 Zimmer"
@@ -708,7 +752,11 @@
         ],
         [
           2018,
-          0.3726129483
+          0.372612948299
+        ],
+        [
+          2019,
+          0.409013736687
         ]
       ],
       "name": "LWQ 5+ Zimmer"
@@ -776,7 +824,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Leerwohnungen und Leerwohnungsquote"
+    "text": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl"
   },
   "subtitle": {
     "style": {
@@ -785,7 +833,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Zimmerzahl, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -861,7 +909,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "legend": {
     "symbolRadius": 0,

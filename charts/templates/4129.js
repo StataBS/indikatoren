@@ -12,7 +12,9 @@
       "type": "category"
     },
     "tooltip": {
-      "shared": false
+      "shared": false,
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+      valueSuffix: ' Fr.'
     },
     "series": [
       {

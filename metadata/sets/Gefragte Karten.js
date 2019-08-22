@@ -265,7 +265,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "C9-3",
 		"description": "Leerwohnungen nach Wohnviertel",
@@ -275,14 +275,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2019-08-22T08:52:10.1010",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte sowie in der Gemeinde Bettingen verzeichnet.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 in den Wohnvierteln Rosental und Vorstädte verzeichnet.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -783,7 +783,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06391",
 		"kuerzelKunde": "K9-3",
 		"description": "Leerwohnungen nach Wohnviertel",
@@ -793,14 +793,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-08-22T08:52:10.1010",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2018 im Wohnviertel Vorstädte sowie in der Gemeinde Bettingen verzeichnet.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 in den Wohnvierteln Rosental und Vorstädte verzeichnet.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",

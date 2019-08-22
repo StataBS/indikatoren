@@ -6568,27 +6568,27 @@
       "data": [
         [
           1,
-          0.4
-        ],
-        [
-          2,
-          1.7
-        ],
-        [
-          3,
-          0.4
-        ],
-        [
-          4,
-          0.8
-        ],
-        [
-          5,
           1.4
         ],
         [
+          2,
+          2.7
+        ],
+        [
+          3,
+          0.9
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1.3
+        ],
+        [
           6,
-          0.5
+          0.9
         ],
         [
           7,
@@ -6600,11 +6600,11 @@
         ],
         [
           9,
-          0.6
+          0.7
         ],
         [
           10,
-          0.6
+          0.9
         ],
         [
           11,
@@ -6612,23 +6612,23 @@
         ],
         [
           12,
-          0.9
+          1
         ],
         [
           13,
-          1.1
+          1.3
         ],
         [
           14,
-          0.3
+          0.6
         ],
         [
           15,
-          0.3
+          0.8
         ],
         [
           16,
-          1
+          3.5
         ],
         [
           17,
@@ -6636,7 +6636,7 @@
         ],
         [
           18,
-          0.3
+          0.6
         ],
         [
           19,
@@ -6644,11 +6644,11 @@
         ],
         [
           20,
-          0.8
+          1
         ],
         [
           30,
-          1.6
+          0.6
         ]
       ]
     },
@@ -6659,87 +6659,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          6
+          21
         ],
         [
           "Vorstädte",
-          58
+          91
         ],
         [
           "Am Ring",
-          25
+          58
         ],
         [
           "Breite",
-          44
+          55
         ],
         [
           "St. Alban",
-          89
+          85
         ],
         [
           "Gundeldingen",
-          59
+          107
         ],
         [
           "Bruderholz",
-          29
+          31
         ],
         [
           "Bachletten",
-          36
-        ],
-        [
-          "Gotthelf",
-          25
-        ],
-        [
-          "Iselin",
-          62
-        ],
-        [
-          "St. Johann",
-          82
-        ],
-        [
-          "Altstadt Kleinbasel",
-          14
-        ],
-        [
-          "Clara",
-          25
-        ],
-        [
-          "Wettstein",
-          11
-        ],
-        [
-          "Hirzbrunnen",
-          15
-        ],
-        [
-          "Rosental",
           37
         ],
         [
+          "Gotthelf",
+          27
+        ],
+        [
+          "Iselin",
+          87
+        ],
+        [
+          "St. Johann",
+          85
+        ],
+        [
+          "Altstadt Kleinbasel",
+          16
+        ],
+        [
+          "Clara",
+          30
+        ],
+        [
+          "Wettstein",
+          19
+        ],
+        [
+          "Hirzbrunnen",
+          36
+        ],
+        [
+          "Rosental",
+          143
+        ],
+        [
           "Matthäus",
-          49
+          55
         ],
         [
           "Klybeck",
-          12
+          22
         ],
         [
           "Kleinhüningen",
-          10
+          9
         ],
         [
           "Riehen",
-          86
+          107
         ],
         [
           "Bettingen",
-          8
+          3
         ]
       ],
       "name": "Anzahl leerstehende Wohnungen"
@@ -7099,7 +7099,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7115,7 +7115,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "colorAxis": {
     "min": 0,
