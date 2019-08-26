@@ -275,7 +275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:52:10.1010",
+		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -793,7 +793,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:52:10.1010",
+		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",

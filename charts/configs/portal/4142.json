@@ -14,7 +14,7 @@
         ],
         [
           "2013",
-          16182
+          16181
         ],
         [
           "2014",
@@ -34,10 +34,10 @@
         ],
         [
           "2018",
-          15126
+          15128
         ]
       ],
-      "name": "Verheiratete\u002Fregistrierte Paare ohne Kinder",
+      "name": "Verheiratete \u002F registrierte Paare ohne Kinder",
       "turboThreshold": 0
     },
     {
@@ -46,35 +46,35 @@
       "data": [
         [
           "2011",
-          12800
+          12809
         ],
         [
           "2012",
-          12963
+          12970
         ],
         [
           "2013",
-          13248
+          13260
         ],
         [
           "2014",
-          13345
+          13358
         ],
         [
           "2015",
-          13456
+          13473
         ],
         [
           "2016",
-          13607
+          13622
         ],
         [
           "2017",
-          13766
+          13789
         ],
         [
           "2018",
-          14012
+          14036
         ]
       ],
       "name": "Paare mit minderjährigen Kindern",
@@ -86,35 +86,35 @@
       "data": [
         [
           "2011",
-          4045
+          4036
         ],
         [
           "2012",
-          4024
+          4017
         ],
         [
           "2013",
-          4006
+          3995
         ],
         [
           "2014",
-          4030
+          4017
         ],
         [
           "2015",
-          4051
+          4034
         ],
         [
           "2016",
-          4115
+          4100
         ],
         [
           "2017",
-          4068
+          4045
         ],
         [
           "2018",
-          4169
+          4145
         ]
       ],
       "name": "Einelternhaushalte mit minderjährigen Kindern",
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
   },
   "legend": {
     "symbolRadius": 0,
