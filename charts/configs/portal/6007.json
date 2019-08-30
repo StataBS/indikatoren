@@ -34,6 +34,10 @@
         [
           2017,
           95.2
+        ],
+        [
+          2018,
+          93.9
         ]
       ],
       "name": "MIV Stadtstrassennetz"
@@ -72,6 +76,10 @@
         [
           2017,
           100.2
+        ],
+        [
+          2018,
+          99
         ]
       ],
       "name": "MIV Total"
@@ -110,6 +118,10 @@
         [
           2017,
           107.515
+        ],
+        [
+          2018,
+          106.6238
         ]
       ],
       "name": "ÖV"
@@ -148,6 +160,10 @@
         [
           2017,
           125.6
+        ],
+        [
+          2018,
+          128.712
         ]
       ],
       "name": "Velo (wetterbereinigt)"
@@ -186,6 +202,10 @@
         [
           2017,
           103.7
+        ],
+        [
+          2018,
+          102.4
         ]
       ],
       "name": "Fussgänger"
@@ -286,7 +306,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-28"
   },
   "legend": {
     "enabled": true,
