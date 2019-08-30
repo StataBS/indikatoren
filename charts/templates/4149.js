@@ -36,7 +36,7 @@
       "text": null
     },
     "labels": {
-      "format": "{value:,.0f}%",
+      "format": "{value:,.1f}%",
       "style": {
         "color": "#000000"
       }
@@ -75,7 +75,7 @@
     }
   ],  "tooltip": {
     "shared": true, 
-    valueDecimals: 1
+    valueDecimals: 2
   },
   "chart": {
     "zoomType": "xy",

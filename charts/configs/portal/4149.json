@@ -7,46 +7,50 @@
       "data": [
         [
           2008,
-          839859.3
+          83.99
         ],
         [
           2009,
-          839547.7
+          83.95
         ],
         [
           2010,
-          849777.8
+          84.98
         ],
         [
           2011,
-          865265.9
+          86.53
         ],
         [
           2012,
-          853453
+          85.35
         ],
         [
           2013,
-          839157.7
+          83.92
         ],
         [
           2014,
-          885036.8
+          88.5
         ],
         [
           2015,
-          888960.2
+          88.9
         ],
         [
           2016,
-          905351.1
+          90.54
         ],
         [
           2017,
-          900906.3
+          90.09
+        ],
+        [
+          2018,
+          89.87
         ]
       ],
-      "name": "Freiräume in m²"
+      "name": "Freiräume in ha"
     },
     {
       "color": "#cd9c00",
@@ -93,6 +97,10 @@
         [
           2017,
           2.44
+        ],
+        [
+          2018,
+          2.43
         ]
       ],
       "name": "in Prozent"
@@ -161,7 +169,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -211,7 +219,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}%",
+        "format": "{value:,.1f}%",
         "style": {
           "color": "#000000"
         }
@@ -240,7 +248,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-2-1"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-28"
   },
   "legend": {
     "symbolRadius": 0,
@@ -254,7 +262,7 @@
   },
   "tooltip": {
     "shared": true,
-    "valueDecimals": 1
+    "valueDecimals": 2
   },
   "exporting": {
     "filename": 4149
