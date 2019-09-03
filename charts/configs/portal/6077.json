@@ -134,7 +134,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2007 bis 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2009 bis 2018",
     "align": "left"
   },
   "yAxis": {
@@ -152,8 +152,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
-    }
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.5
   },
   "navigation": {
     "menuItemStyle": {
@@ -174,7 +175,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-2"
   },
   "legend": {
     "symbolRadius": 0,
