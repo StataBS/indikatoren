@@ -12,13 +12,14 @@
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": 0 
+     "rotation": 0 
     } 
   },
-  "yAxis": {
+  "yAxis": { "tickInterval": 0.5,
 	//"max": 100,
     "labels": {
-      "format": "{value:,.0f}"
+      "format": "{value:,.1f}"
+     
     }    
   },
   
