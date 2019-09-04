@@ -5,92 +5,92 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Vorstädte",
-          "y": 6,
-          "Wert": 0.0362911266
+          "y": 7,
+          "Wert": 0.0357071614
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 0.3840478564
+          "y": 13,
+          "Wert": 0.3810093756
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Vorstädte",
-          "y": 20,
-          "Wert": 0.5509471585
+          "y": 19,
+          "Wert": 0.5487731897
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Vorstädte",
           "y": 20,
-          "Wert": 0.3167572085
+          "Wert": 0.3196893367
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Vorstädte",
-          "y": 11,
-          "Wert": 0.44
+          "y": 7,
+          "Wert": 0.2916666667
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
-          "y": 15,
-          "Wert": 0.3685828466
+          "y": 16,
+          "Wert": 0.3728395062
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Vorstädte",
-          "y": 3,
-          "Wert": 0.2783649053
+          "y": 2,
+          "Wert": 0.2802712946
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 0.1730710114
+          "Wert": 0.174382716
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 1898.8798521
+          "Wert": 1899.0847145
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Vorstädte",
           "y": 6,
-          "Wert": 0.0776340111
+          "Wert": 0.0773480663
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Vorstädte",
           "y": 8,
-          "Wert": 0.1947350181
+          "Wert": 0.1947071744
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 81.703573521
+          "y": 14,
+          "Wert": 82.107153371
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 49.710686542
+          "Wert": 49.837307449
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 6165.9059687
+          "Wert": 6521.1233466
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Vorstädte",
-          "y": 18,
-          "Wert": 16404.67856
+          "y": 19,
+          "Wert": 17096.20668
         },
         {
           "name": "Erwerbstätigenquote",
@@ -102,7 +102,7 @@
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 4.4226589734
+          "Wert": 4.3439132243
         },
         {
           "name": "Arbeitslosenquote",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
   },
   "legend": {
     "enabled": false,

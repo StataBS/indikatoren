@@ -28887,7 +28887,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -28927,7 +28927,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -28950,7 +28950,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6631,
+		"data-id": 6630,
 		"chart-id": 6631,
 		"filter": "",
 		"id": 6631
@@ -28967,7 +28967,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -28990,7 +28990,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6632,
+		"data-id": 6630,
 		"chart-id": 6632,
 		"filter": "",
 		"id": 6632
@@ -29007,7 +29007,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29030,7 +29030,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6633,
+		"data-id": 6630,
 		"chart-id": 6633,
 		"filter": "",
 		"id": 6633
@@ -29047,7 +29047,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29070,7 +29070,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6634,
+		"data-id": 6630,
 		"chart-id": 6634,
 		"filter": "",
 		"id": 6634
@@ -29087,7 +29087,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29110,7 +29110,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6635,
+		"data-id": 6630,
 		"chart-id": 6635,
 		"filter": "",
 		"id": 6635
@@ -29127,7 +29127,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29150,7 +29150,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6636,
+		"data-id": 6630,
 		"chart-id": 6636,
 		"filter": "",
 		"id": 6636
@@ -29167,7 +29167,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:33.3333",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29190,7 +29190,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6637,
+		"data-id": 6630,
 		"chart-id": 6637,
 		"filter": "",
 		"id": 6637
@@ -29207,7 +29207,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29230,7 +29230,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6638,
+		"data-id": 6630,
 		"chart-id": 6638,
 		"filter": "",
 		"id": 6638
@@ -29247,7 +29247,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29270,7 +29270,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6639,
+		"data-id": 6630,
 		"chart-id": 6639,
 		"filter": "",
 		"id": 6639
@@ -29287,7 +29287,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29310,7 +29310,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6640,
+		"data-id": 6630,
 		"chart-id": 6640,
 		"filter": "",
 		"id": 6640
@@ -29327,7 +29327,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -29350,7 +29350,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6641,
+		"data-id": 6630,
 		"chart-id": 6641,
 		"filter": "",
 		"id": 6641
@@ -33331,7 +33331,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33354,7 +33354,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6751,
+		"data-id": 6630,
 		"chart-id": 6751,
 		"filter": "",
 		"id": 6751
@@ -33371,7 +33371,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33394,7 +33394,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6752,
+		"data-id": 6630,
 		"chart-id": 6752,
 		"filter": "",
 		"id": 6752
@@ -33411,7 +33411,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33434,7 +33434,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6753,
+		"data-id": 6630,
 		"chart-id": 6753,
 		"filter": "",
 		"id": 6753
@@ -33451,7 +33451,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33465,7 +33465,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_016",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7664"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33474,7 +33476,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6754,
+		"data-id": 6630,
 		"chart-id": 6754,
 		"filter": "",
 		"id": 6754
@@ -33491,7 +33493,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33514,7 +33516,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6755,
+		"data-id": 6630,
 		"chart-id": 6755,
 		"filter": "",
 		"id": 6755
@@ -33531,7 +33533,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33554,7 +33556,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6756,
+		"data-id": 6630,
 		"chart-id": 6756,
 		"filter": "",
 		"id": 6756
@@ -33571,7 +33573,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33594,7 +33596,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6757,
+		"data-id": 6630,
 		"chart-id": 6757,
 		"filter": "",
 		"id": 6757
@@ -33611,7 +33613,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33634,7 +33636,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6758,
+		"data-id": 6630,
 		"chart-id": 6758,
 		"filter": "",
 		"id": 6758
@@ -33651,7 +33653,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-07-11T10:27:34.3434",
+		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
@@ -33674,7 +33676,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6759,
+		"data-id": 6630,
 		"chart-id": 6759,
 		"filter": "",
 		"id": 6759

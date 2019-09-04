@@ -5,92 +5,92 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Am Ring",
-          "y": 7,
-          "Wert": 0.0369102683
+          "y": 5,
+          "Wert": 0.0322580645
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Am Ring",
           "y": 11,
-          "Wert": 0.3619796485
+          "Wert": 0.3687414811
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Am Ring",
           "y": 17,
-          "Wert": 0.5094357077
+          "Wert": 0.5197637438
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Am Ring",
           "y": 16,
-          "Wert": 0.2780228594
+          "Wert": 0.2763740045
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Am Ring",
-          "y": 17,
-          "Wert": 0.5888888889
+          "y": 15,
+          "Wert": 0.5346534653
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Am Ring",
-          "y": 13,
-          "Wert": 0.3426260292
+          "y": 11,
+          "Wert": 0.332059448
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Am Ring",
-          "y": 5,
-          "Wert": 0.3042553191
+          "y": 4,
+          "Wert": 0.3015496809
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Am Ring",
-          "y": 8,
-          "Wert": 0.2188357648
+          "y": 9,
+          "Wert": 0.2256192498
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Am Ring",
           "y": 4,
-          "Wert": 1918.832483
+          "Wert": 1919.0706383
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Am Ring",
           "y": 12,
-          "Wert": 0.1972789116
+          "Wert": 0.1957446809
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Am Ring",
           "y": 10,
-          "Wert": 0.2376157997
+          "Wert": 0.2415029502
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Am Ring",
-          "y": 14,
-          "Wert": 81.96043395
+          "y": 13,
+          "Wert": 81.975544336
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
-          "y": 13,
-          "Wert": 45.562575574
+          "y": 14,
+          "Wert": 45.35195972
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Am Ring",
-          "y": 15,
-          "Wert": 2060.938612
+          "y": 13,
+          "Wert": 2158.1149239
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Am Ring",
           "y": 14,
-          "Wert": 11315.365443
+          "Wert": 11445.527517
         },
         {
           "name": "Erwerbstätigenquote",
@@ -101,8 +101,8 @@
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
-          "y": 15,
-          "Wert": 1.0218275784
+          "y": 14,
+          "Wert": 1.042821145
         },
         {
           "name": "Arbeitslosenquote",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
   },
   "legend": {
     "enabled": false,

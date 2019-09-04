@@ -8,7 +8,7 @@
 "unterthema":"Räumliche Gliederung und Bodennutzung",
 "kennzahlenset":"Wohnviertel",
 "raeumlicheGliederung":["Wohnviertel"],
-"aktualisierungsdatum":"2019-07-11T10:27:34.3434",
+"aktualisierungsdatum":"2019-09-04T15:27:44.4444",
 "stufe1":"Teil 1: Radar-Grafiken",
 "stufe2":"",
 "stufe3":"",
@@ -23,12 +23,12 @@
 "visibleInPortal":true,
 "orderKey":"01_00_00_00_00_016",
 "parentId":null,
-"children":[],
+"children":["7664"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt"],
 "datenInChartIntegriert":false,
 "externalLinks":[""],
-"data-id":6754, 
+"data-id":6630, 
 "chart-id":6754, 
 "filter":""
 }
