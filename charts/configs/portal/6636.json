@@ -6,91 +6,91 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bruderholz",
           "y": 3,
-          "Wert": 0.0179556517
+          "Wert": 0.0189163193
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bruderholz",
-          "y": 2,
-          "Wert": 0.2398053002
+          "y": 3,
+          "Wert": 0.2469808699
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
           "Wohnviertel": "Bruderholz",
-          "y": 12,
-          "Wert": 0.485559762
+          "y": 11,
+          "Wert": 0.4916105589
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bruderholz",
           "y": 2,
-          "Wert": 0.1545054945
+          "Wert": 0.1524556245
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 0.6835443038
+          "Wert": 0.6585365854
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bruderholz",
-          "y": 18,
-          "Wert": 0.4217833399
+          "y": 17,
+          "Wert": 0.410793163
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bruderholz",
-          "y": 21,
-          "Wert": 0.431151974
+          "y": 20,
+          "Wert": 0.4236400556
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bruderholz",
           "y": 21,
-          "Wert": 0.3859992178
+          "Wert": 0.38621087
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bruderholz",
           "y": 18,
-          "Wert": 1948.622051
+          "Wert": 1949.2155832
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 0.7332691382
+          "Wert": 0.7323135755
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bruderholz",
           "y": 19,
-          "Wert": 0.7137712478
+          "Wert": 0.7130779141
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bruderholz",
           "y": 20,
-          "Wert": 109.24315693
+          "Wert": 109.46916648
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bruderholz",
-          "y": 17,
-          "Wert": 48.67246313
+          "y": 18,
+          "Wert": 48.463106267
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bruderholz",
           "y": 21,
-          "Wert": 18071.401123
+          "Wert": 18285.117337
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bruderholz",
-          "y": 21,
-          "Wert": 19693.706779
+          "y": 20,
+          "Wert": 22172.442991
         },
         {
           "name": "Erwerbstätigenquote",
@@ -102,7 +102,7 @@
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bruderholz",
           "y": 2,
-          "Wert": 0.13613081
+          "Wert": 0.1384419676
         },
         {
           "name": "Arbeitslosenquote",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
   },
   "legend": {
     "enabled": false,

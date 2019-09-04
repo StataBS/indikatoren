@@ -42,7 +42,7 @@
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 6,
-          "Wert": 0.3108888034
+          "Wert": 0.3150434385
         },
         {
           "name": "Jugendquotient",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
   },
   "legend": {
     "enabled": false,
