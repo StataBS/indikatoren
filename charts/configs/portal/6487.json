@@ -25,11 +25,15 @@
         ],
         [
           2016,
-          13.5
+          13.6
         ],
         [
           2017,
           16.9
+        ],
+        [
+          2018,
+          15.4
         ]
       ],
       "name": "Schweiz"
@@ -64,6 +68,10 @@
         [
           2017,
           6.9
+        ],
+        [
+          2018,
+          8.1
         ]
       ],
       "name": "Deutschland"
@@ -98,6 +106,10 @@
         [
           2017,
           11.3
+        ],
+        [
+          2018,
+          15.7
         ]
       ],
       "name": "Italien"
@@ -132,6 +144,10 @@
         [
           2017,
           19
+        ],
+        [
+          2018,
+          35.3
         ]
       ],
       "name": "Türkei"
@@ -166,6 +182,10 @@
         [
           2017,
           11.1
+        ],
+        [
+          2018,
+          14.9
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -200,6 +220,10 @@
         [
           2017,
           22.1
+        ],
+        [
+          2018,
+          12.2
         ]
       ],
       "name": "Balkan"
@@ -234,6 +258,10 @@
         [
           2017,
           25.3
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Übrige Länder"
@@ -336,7 +364,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
   },
   "legend": {
     "enabled": true,

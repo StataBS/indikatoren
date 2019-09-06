@@ -8,13 +8,13 @@
 "unterthema":"Polizei",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:04.044",
+"aktualisierungsdatum":"2019-09-05T10:11:38.3838",
 "stufe1":"Kapitel D Politik und Zusammenleben",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2017 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 16,9 einer Straftat beschuldigt. Im Jahr 2016 waren es 13,5. Weniger Beschuldigte wurden mit 12,7 pro 1000 Personen im Jahr 2016 und mit 11,1 pro 1000 Personen im Jahr 2017 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Von 2011 bis 2017 sank die Rate der beschuldigten türkischen Jugendlichen von 21,5 auf 19,0. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
+"lesehilfe":"Im Jahr 2018 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,4 einer Straftat beschuldigt. Im Jahr 2017 waren es 16,9. Weniger Beschuldigte wurden mit 11,1 pro 1000 Personen im Jahr 2017 und mit 14,9 pro 1000 Personen im Jahr 2018 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
 "erlaeuterungen":"Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 "template":"line001",
 "darstellungsart":"",
@@ -26,5 +26,9 @@
 "children":["6727"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6487, 
+"chart-id":6487, 
+"filter":""
 }
