@@ -14,7 +14,7 @@
         ],
         [
           2010,
-          559
+          560
         ],
         [
           2011,
@@ -38,14 +38,18 @@
         ],
         [
           2016,
-          503
+          502
         ],
         [
           2017,
           494
+        ],
+        [
+          2018,
+          537
         ]
       ],
-      "name": "C-Bew."
+      "name": "C-Bewilligung"
     },
     {
       "color": "#923F8D",
@@ -90,9 +94,13 @@
         [
           2017,
           277
+        ],
+        [
+          2018,
+          289
         ]
       ],
-      "name": "B-Bew."
+      "name": "B-Bewilligung"
     },
     {
       "color": "#FF8028",
@@ -136,6 +144,10 @@
         ],
         [
           2017,
+          154
+        ],
+        [
+          2018,
           154
         ]
       ],
@@ -238,7 +250,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
   },
   "legend": {
     "enabled": true,
@@ -249,7 +261,8 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemWidth": 100,
+    "itemDistance": 5,
+    "itemWidth": 130,
     "itemMarginBottom": 5
   },
   "plotOptions": {

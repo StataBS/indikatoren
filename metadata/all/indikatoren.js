@@ -15071,7 +15071,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2017",
+		"subtitle": "in Jahren, 2018",
 		"kuerzel": "I.01.1.6074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -15082,14 +15082,14 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:05.055",
+		"aktualisierungsdatum": "2019-09-05T10:01:35.3535",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italiener (23,1 Jahre) sind am längsten in der Schweiz, gefolgt von Türken (20,2) und Personen aus dem Balkan (18,7). Ein ähnliches Bild zeichnet sich bei der Aufenthaltsdauer im Kanton Basel-Stadt ab. Am wenigsten lang in Basel-Stadt sind Personen aus EU-Oststaaten (3,3) und arabischen Ländern (3,9). Personen aus EU-Oststaaten sind ebenfalls am wenigsten lang in der Schweiz (4,2).",
-		"erlaeuterungen": "Median der Aufenthaltsdauer:  Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
+		"lesehilfe": "Italienische und türkische Staatsbüger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten bleiben Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie \"Übrige Länder\" (4,3) und aus EU-Oststaaten (3,4) .",
+		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15103,9 +15103,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6074,
+		"chart-id": 6074,
+		"filter": "",
 		"id": 6074
 	},
 	{
@@ -23499,7 +23503,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2017 und Veränderung seit 1998",
+		"subtitle": "Basel-Stadt, Stand 2018 und Veränderung seit 1999",
 		"kuerzel": "I.01.1.6398",
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -23509,13 +23513,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:02.022",
+		"aktualisierungsdatum": "2019-09-05T10:05:44.4444",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1998 am stärksten zugenommen haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen.",
+		"lesehilfe": "Ende 2018 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥47%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1999 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -23530,9 +23534,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6398,
+		"chart-id": 6398,
+		"filter": "",
 		"id": 6398
 	},
 	{
@@ -26551,13 +26559,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-05T10:08:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2009 bis 2017 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung von 530 auf 494. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg dagegen leicht von 267 auf 277 Personen.",
+		"lesehilfe": "Im Jahr 2018 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2017 von 494 auf 537. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg von 277 auf 289 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26573,9 +26581,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6485,
+		"chart-id": 6485,
+		"filter": "",
 		"id": 6485
 	},
 	{
@@ -26590,13 +26602,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-05T10:11:38.3838",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 16,9 einer Straftat beschuldigt. Im Jahr 2016 waren es 13,5. Weniger Beschuldigte wurden mit 12,7 pro 1000 Personen im Jahr 2016 und mit 11,1 pro 1000 Personen im Jahr 2017 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Von 2011 bis 2017 sank die Rate der beschuldigten türkischen Jugendlichen von 21,5 auf 19,0. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
+		"lesehilfe": "Im Jahr 2018 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,4 einer Straftat beschuldigt. Im Jahr 2017 waren es 16,9. Weniger Beschuldigte wurden mit 11,1 pro 1000 Personen im Jahr 2017 und mit 14,9 pro 1000 Personen im Jahr 2018 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26612,9 +26624,13 @@ var indikatoren = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6487,
+		"chart-id": 6487,
+		"filter": "",
 		"id": 6487
 	},
 	{
@@ -26828,7 +26844,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2007",
+		"subtitle": "Basel-Stadt, 2008",
 		"kuerzel": "I.01.7.6493",
 		"kuerzelKunde": "D7-1",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -26838,13 +26854,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-05T11:23:39.3939",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Diese Grafik zeigt für das Jahr 2007 die Wohnbevölkerung nach Religionszugehörigkeit, wobei nur die öffentlich-rechtlich anerkannten Gemeinschaften ausgewiesen werden. Die höchsten Anteile an Personen, die der evangelisch-reformierten Kirche angehören, weisen Schweizer (26,5%) und Deutsche (19,3%) auf. Die höchsten Anteile an Katholiken gibt es bei den Mittel- und Südamerikanern (28,8%), bei Personen aus den EU-Ost-Ländern (28,7%) sowie bei den Italienern (24,7%). 93,8% der Türken, 88,1% der Personen aus arabischen Ländern und 75,3% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen die Italiener, die Personen aus der Ländergruppe EU-17 und EFTA sowie  Mittel- und Südamerikaner auf.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (25,8%) und Deutsche (17,7%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanern (28,0%). 93,2% der Türken, 87,0% der Personen aus arabischen Ländern und 76,1% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen Italiener, Personen aus der Ländergruppe EU-17 und EFTA sowie  Mittel- und Südamerikaner auf.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26859,14 +26875,18 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6493,
+		"chart-id": 6493,
+		"filter": "",
 		"id": 6493
 	},
 	{
 		"title": "Anerkannte Religionen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.7.6494",
 		"kuerzelKunde": "D7-2",
 		"description": "Anerkannte Religionen nach Staatsangehörigkeit",
@@ -26876,13 +26896,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2019-09-05T10:17:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Diese Grafik zeigt für das Jahr 2017 die Wohnbevölkerung nach Religionszugehörigkeit, wobei nur die öffentlich-rechtlich anerkannten Gemeinschaften ausgewiesen werden. Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen EU-17 + EFTA, EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken, den Personen aus dem Balkan und arabischen Ländern bei über 80%. Die höchsten Anteile an Personen, die der evangelisch-reformierten Kirche angehören, weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
+		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen EU-17 + EFTA, EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26897,9 +26917,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6494,
+		"chart-id": 6494,
+		"filter": "",
 		"id": 6494
 	},
 	{
