@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-09T08:46:39.3939",
+		"aktualisierungsdatum": "2019-09-09T08:39:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft seit Anfang des Jahres nahezu gleich wie die Quote der Gesamtbevölkerung. Seit Juni 2019 zeigt sich ein Anstieg bei der Arbeitslosenquote der unter 25-Jährigen im Vergleich zur Gesamtbevölkerung. Bei der Gesamtbevölkerung geht die Arbeitslosenquote stetig zurück.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft in den Monaten Januar bis Mai ähnlich wie die Quote der Gesamtbevölkerung. In den Sommermonaten nimmt die Jugendarbeitslosenquote in der Regel zu und im Herbst sinkt sie wieder, während die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren weniger Schwankungen zeigen.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -50,7 +50,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-09T08:49:13.1313",
+		"aktualisierungsdatum": "2019-09-09T08:41:42.4242",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
