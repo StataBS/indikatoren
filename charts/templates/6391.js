@@ -24,23 +24,28 @@
             dataClassColor: 'category',
         	dataClasses: [{
         		from: 0,
-                to:0.89,
+                to:0.59,
                 color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,90"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,60"
             }, {
-                from: 0.9,
-                to: 1.79,
+                from: 0.6,
+                to: 0.79,
                 color: '#73B97C',
-                name: "0,90 −  1,79"
+                name: "0,60 −  0,79"
             },{
-                from: 1.8,
-                to: 2.69,
+                from: 0.8,
+                to: 0.99,
+                 color: '#68AB2B',
+                 name: "0,80 − 0,99"
+            },{
+				from: 1.0,
+                to: 1.29,
                  color: '#007A2F',
-                 name: "1,80 − 2,69"
+                 name: "1,00 − 1,29"
             },{
-                from: 2.7,
+                from: 1.3,
                 color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>2,69</span> ≥ 2,70"
+                name:  "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,30"
             }], 
         },
         "data": {
@@ -72,7 +77,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
 				}
 			}, 
@@ -122,7 +127,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
+	                	return (value >= 0) ? '#FABD24' : 'FFDA80';
 	                };					
 					
 					//define chart-specific details
@@ -151,11 +156,11 @@
 	        		fn.addLegendTitle(chart, "Leerwohnungs- <br/>  quote in %", 250, 210);
 	                fn.addLegendTitle(chart, "Anzahl leerstehende <br/>  Wohnungen", 355, 210);
 	                
-	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
+	               	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#FABD24');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#7F5F1A');
+	                fn.addLegendCircle(chart, 373, 285, 0.5*pieSizeCatConfig[1].diameter, '#FABD24');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 450, 275, undefined, false, 'right');
-	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#7F5F1A');
+	                fn.addLegendCircle(chart, 373, 310, 0.5*pieSizeCatConfig[2].diameter, '#FABD24');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 450, 300, undefined, false, 'right');
 					
 					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
