@@ -12,10 +12,6 @@
           107149
         ],
         [
-          " ",
-          null
-        ],
-        [
           "2011",
           113469
         ],
@@ -38,6 +34,10 @@
         [
           "2016",
           116366
+        ],
+        [
+          "2017",
+          116859
         ]
       ],
       "name": "Handel und Dienstleistungen",
@@ -53,10 +53,6 @@
         [
           "2008",
           32366
-        ],
-        [
-          " ",
-          null
         ],
         [
           "2011",
@@ -81,6 +77,10 @@
         [
           "2016",
           34951
+        ],
+        [
+          "2017",
+          34298
         ]
       ],
       "name": "Industrie, Energie und Baugewerbe",
@@ -96,10 +96,6 @@
         [
           "2008",
           50
-        ],
-        [
-          " ",
-          null
         ],
         [
           "2011",
@@ -124,6 +120,10 @@
         [
           "2016",
           44
+        ],
+        [
+          "2017",
+          42
         ]
       ],
       "name": "Land- und Forstwirtschaft",
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-8"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-9"
   },
   "legend": {
     "symbolRadius": 0,

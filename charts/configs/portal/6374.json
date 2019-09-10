@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          34167
+          31236
         ],
         [
           2,
-          44249
+          48880.5
         ],
         [
           3,
-          35245
+          38772
         ],
         [
           4,
-          13462
+          14148
         ],
         [
           5,
-          56238
+          59000
         ],
         [
           6,
-          11338
+          12708.5
         ],
         [
           7,
-          62151.5
+          74863
         ],
         [
           8,
-          35927.5
+          45676
         ],
         [
           9,
-          29072
+          27817
         ],
         [
           10,
-          8713
+          9631
         ],
         [
           11,
-          7123.5
+          8176
         ],
         [
           12,
-          8870.5
+          10020
         ],
         [
           13,
-          8303
+          8111
         ],
         [
           14,
-          28136
+          31499
         ],
         [
           15,
-          16113
+          18500.5
         ],
         [
           16,
-          2999.5
+          3833
         ],
         [
           17,
-          4561
+          5302
         ],
         [
           18,
-          1500
+          1964.5
         ],
         [
           19,
-          2678
+          3763
         ],
         [
           20,
-          46951.5
+          60135
         ],
         [
           30,
-          78648.5
+          99999
         ]
       ]
     },
@@ -6897,7 +6897,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2015",
+    "text": "Basel-Stadt, 2016",
     "align": "left"
   },
   "credits": {
@@ -6913,7 +6913,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-9"
   },
   "colorAxis": {
     "min": 0,
@@ -6933,8 +6933,8 @@
     "marker": {
       "color": "black"
     },
-    "max": 80000,
-    "tickInterval": 20000,
+    "max": 100000,
+    "tickInterval": 25000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"
   },
