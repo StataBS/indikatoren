@@ -26259,7 +26259,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.01.2.6478",
 		"kuerzelKunde": "D2-4",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -26269,13 +26269,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-09-11T11:34:25.2525",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppen miteinander, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppen ohne Aufteilung der Haushaltsarten. Allein wohnende Schweizer haben mit 69,9 m² die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,9 m² an erster Stelle.",
+		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,8 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,3 m² an erster Stelle.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26284,16 +26284,21 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_006",
 		"parentId": null,
 		"children": [
-			"6719"
+			"6719",
+			"7860"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6478,
+		"chart-id": 6478,
+		"filter": "",
 		"id": 6478
 	},
 	{
