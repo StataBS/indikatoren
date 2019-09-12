@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          69.9
+          69.77
         ],
         [
           "Deutschland",
-          62.6
+          62.39
         ],
         [
           "Italien",
-          58.52
+          57.92
         ],
         [
           "Türkei",
-          51.38
+          52.05
         ],
         [
-          "EU-17 + EFTA",
-          61.45
+          "EU-17 und EFTA",
+          60.6
         ],
         [
           "EU-Ost",
-          53.37
+          52.99
         ],
         [
           "Balkan",
-          49.26
+          49.49
         ],
         [
           "Mittel- und Südamerika",
-          57.05
+          58.19
         ],
         [
           "Arabische Länder",
-          49.07
+          49.02
         ],
         [
           "Afrikanische Länder",
-          44.67
+          45.97
         ],
         [
           "Übrige Länder",
-          60.34
+          59.42
         ]
       ],
       "name": "Einpersonenhaushalt",
@@ -58,43 +58,43 @@
       "data": [
         [
           "Schweiz",
-          27.66
+          27.65
         ],
         [
           "Deutschland",
-          28.89
+          28.33
         ],
         [
           "Italien",
-          23.28
-        ],
-        [
-          "Türkei",
-          19.49
-        ],
-        [
-          "EU-17 + EFTA",
-          25.59
-        ],
-        [
-          "EU-Ost",
-          21.36
-        ],
-        [
-          "Balkan",
-          19.14
-        ],
-        [
-          "Mittel- und Südamerika",
           23.1
         ],
         [
+          "Türkei",
+          19.67
+        ],
+        [
+          "EU-17 und EFTA",
+          25.91
+        ],
+        [
+          "EU-Ost",
+          21.7
+        ],
+        [
+          "Balkan",
+          19.5
+        ],
+        [
+          "Mittel- und Südamerika",
+          24.12
+        ],
+        [
           "Arabische Länder",
-          19.82
+          19.9
         ],
         [
           "Afrikanische Länder",
-          19.68
+          19.44
         ],
         [
           "Übrige Länder",
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -227,7 +227,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-11"
   },
   "legend": {
     "symbolRadius": 0,
