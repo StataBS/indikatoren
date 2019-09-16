@@ -8,7 +8,7 @@
 "unterthema":"Staatspersonal",
 "kennzahlenset":"Integration",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-03T09:50:03.033",
+"aktualisierungsdatum":"2019-09-13T15:23:36.3636",
 "stufe1":"Kapitel C Erwerb und Auskommen",
 "stufe2":"",
 "stufe3":"",
@@ -23,8 +23,12 @@
 "visibleInPortal":false,
 "orderKey":"03_00_00_00_00_018",
 "parentId":null,
-"children":["6699"],
+"children":["6699","7840"],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik","Finanzdepartement Basel-Stadt, Zentraler Personaldienst"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6424, 
+"chart-id":6424, 
+"filter":""
 }

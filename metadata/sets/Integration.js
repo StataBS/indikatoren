@@ -506,21 +506,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:28.2828",
+		"aktualisierungsdatum": "2019-09-13T14:37:08.088",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Altersquotient: Anzahl über 64-Jähriger pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_017",
 		"parentId": null,
 		"children": [
-			"6654"
+			"6654",
+			"7795"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1993,7 +1994,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:03:38.3838",
+		"aktualisierungsdatum": "2019-09-13T15:06:05.055",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2007,7 +2008,8 @@ var indikatorensetData = [
 		"orderKey": "03_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6690"
+			"6690",
+			"7831"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2117,7 +2119,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:37.3737",
+		"aktualisierungsdatum": "2019-09-13T15:08:51.5151",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2131,7 +2133,8 @@ var indikatorensetData = [
 		"orderKey": "03_00_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6693"
+			"6693",
+			"7834"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2365,7 +2368,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-09-13T15:23:36.3636",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2379,16 +2382,21 @@ var indikatorensetData = [
 		"orderKey": "03_00_00_00_00_018",
 		"parentId": null,
 		"children": [
-			"6699"
+			"6699",
+			"7840"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6424,
+		"chart-id": 6424,
+		"filter": "",
 		"id": 6424
 	},
 	{
@@ -4296,7 +4304,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:41:52.5252",
+		"aktualisierungsdatum": "2019-09-13T15:00:43.4343",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -4310,7 +4318,8 @@ var indikatorensetData = [
 		"orderKey": "02_00_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6747"
+			"6747",
+			"7888"
 		],
 		"renderLink": [],
 		"quellenangabe": [
