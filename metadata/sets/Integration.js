@@ -1333,7 +1333,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:05:44.4444",
+		"aktualisierungsdatum": "2019-09-24T11:26:18.1818",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1347,9 +1347,12 @@ var indikatorensetData = [
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6674"
+			"6674",
+			"7815"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"7815"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],

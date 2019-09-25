@@ -788,7 +788,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T13:50:09.099",
+		"aktualisierungsdatum": "2019-09-24T10:48:01.011",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -797,7 +797,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_001",
 		"parentId": 4822,
@@ -829,7 +829,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:23:57.5757",
+		"aktualisierungsdatum": "2019-09-24T10:48:40.4040",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -838,7 +838,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_002",
 		"parentId": 4823,
@@ -870,7 +870,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:22:31.3131",
+		"aktualisierungsdatum": "2019-09-24T10:47:35.3535",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -879,7 +879,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
 		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_003",
 		"parentId": 4824,
@@ -911,7 +911,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-27T15:31:01.011",
+		"aktualisierungsdatum": "2019-09-24T10:49:15.1515",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -920,7 +920,7 @@ var indikatorensetData = [
 		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_004",
 		"parentId": 4825,
@@ -942,7 +942,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
@@ -952,16 +952,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-20T09:15:12.1212",
+		"aktualisierungsdatum": "2019-09-24T10:49:47.4747",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck rangiert unverändert an letzter Stelle, wohingegen am anderen Ende der Liste das Wettsteinviertel das Bruderholz von Position 1 verdrängt.",
+		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck liegt unverändert auf Position 1, wohingegen am anderen Ende des Spektrums das Wettsteinviertel das Bruderholz überholt hat.",
 		"erlaeuterungen": "Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Seit 2017/18 aufgrund der HarmoS-Anpassungen Anteil der Sek P-Schülerinnen und -schüler an allen Sek-Schülerinnen und Schülern. Im Übergangsjahr 2016/17 für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_005",
 		"parentId": 4826,
@@ -993,7 +993,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-24T09:43:20.2020",
+		"aktualisierungsdatum": "2019-09-24T10:50:23.2323",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -1002,7 +1002,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_006",
 		"parentId": 4827,
@@ -1034,7 +1034,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-02T11:59:18.1818",
+		"aktualisierungsdatum": "2019-09-24T10:50:42.4242",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -1043,7 +1043,7 @@ var indikatorensetData = [
 		"lesehilfe": "In der Gemeinde Riehen und im Wohnviertel Bruderholz ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, am grössten. Im Wohnviertel Rosental ist er am kleinsten. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden.",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_007",
 		"parentId": 4828,
@@ -1075,7 +1075,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:25:24.2424",
+		"aktualisierungsdatum": "2019-09-24T10:51:13.1313",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -1084,7 +1084,7 @@ var indikatorensetData = [
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_008",
 		"parentId": 4829,
@@ -1106,7 +1106,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.05117",
 		"kuerzelKunde": "RU-1.B",
 		"description": "Baujahr Wohngebäude",
@@ -1116,7 +1116,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T13:01:50.5050",
+		"aktualisierungsdatum": "2019-09-24T10:51:38.3838",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -1125,7 +1125,7 @@ var indikatorensetData = [
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
 		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_009",
 		"parentId": 4830,
@@ -1147,7 +1147,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.05118",
 		"kuerzelKunde": "RU-2.B",
 		"description": "Anteil Einfamilienhäuser",
@@ -1157,7 +1157,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T13:02:42.4242",
+		"aktualisierungsdatum": "2019-09-24T10:52:06.066",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -1166,7 +1166,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_010",
 		"parentId": 4831,
@@ -1198,7 +1198,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-14T09:37:08.088",
+		"aktualisierungsdatum": "2019-09-24T10:52:30.3030",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -1207,7 +1207,7 @@ var indikatorensetData = [
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_011",
 		"parentId": 4832,
@@ -1229,7 +1229,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.05120",
 		"kuerzelKunde": "RU-4.B",
 		"description": "Fläche pro Wohnung",
@@ -1239,7 +1239,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-03-01T13:12:44.4444",
+		"aktualisierungsdatum": "2019-09-24T10:52:57.5757",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -1248,7 +1248,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_012",
 		"parentId": 4833,
@@ -1270,7 +1270,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
@@ -1280,7 +1280,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-03-01T13:13:30.3030",
+		"aktualisierungsdatum": "2019-09-24T10:53:20.2020",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -1289,7 +1289,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen geteilt durch das Total der dort wohnenden Personen.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_013",
 		"parentId": 4834,
@@ -1322,7 +1322,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:41:26.2626",
+		"aktualisierungsdatum": "2019-09-24T10:53:41.4141",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1331,7 +1331,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_014",
 		"parentId": 4835,
@@ -1363,7 +1363,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T13:28:01.011",
+		"aktualisierungsdatum": "2019-09-24T10:54:06.066",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1372,7 +1372,7 @@ var indikatorensetData = [
 		"lesehilfe": "Bettingen verzeichnet im Durchschnitt die höchste Einkommenssteuer pro Veranlagung, die niedrigsten Werte weist das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_015",
 		"parentId": 4836,
@@ -1404,7 +1404,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:41:34.3434",
+		"aktualisierungsdatum": "2019-09-24T10:54:34.3434",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1413,7 +1413,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (61,7%) und im Wohnviertel Altstadt Grossbasel am grössten (85,4%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2013 bis 2017 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_016",
 		"parentId": 4837,
@@ -1445,7 +1445,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:42:39.3939",
+		"aktualisierungsdatum": "2019-09-24T10:54:57.5757",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1454,7 +1454,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br> Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_017",
 		"parentId": 4838,
@@ -1476,7 +1476,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitslosenquote",
-		"subtitle": "Stand: 2016",
+		"subtitle": "Basel-Stadt, 2016",
 		"kuerzel": "I.03.4.05126",
 		"kuerzelKunde": "WA-5.B",
 		"description": "Arbeitslosenquote",
@@ -1486,7 +1486,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
+		"aktualisierungsdatum": "2019-09-24T10:55:25.2525",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1495,7 +1495,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
 		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 		"template": "map001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_018",
 		"parentId": 4839,

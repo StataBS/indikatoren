@@ -349,39 +349,43 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "AOX-Fracht Abwasser",
-		"subtitle": "Milligramm pro Liter",
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
 		"kuerzel": "I.02.19.04231",
 		"kuerzelKunde": "1604",
-		"description": "AOX-Fracht Abwasser",
+		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
 		"kennzahlenset": "Umwelt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
-		"stufe1": "Thema Wasser",
+		"aktualisierungsdatum": "2019-09-24T17:55:12.1212",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.Das Abwasser aus dem Kanton Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
-		"template": "dotplot",
-		"orderKey": "16_00_00_00_00_000",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"template": "Empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6164,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"ProRheno AG"
+			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target = '_blank'>Gewässerschutzverordnung, Anhang 3.1</a>",
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target='_blank'>Gewässerschutzverordnung, Anhang 3.1</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
-		"id": 4231,
-		"darstellungsart": "Grafik"
+		"data-id": 4231,
+		"chart-id": 4231,
+		"filter": "",
+		"id": 4231
 	},
 	{
 		"title": "Nitrat im Grundwasser",
@@ -523,7 +527,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wassertemperatur Grundwasser",
-		"subtitle": "°C",
+		"subtitle": "in °C, Basel-Stadt",
 		"kuerzel": "I.02.19.04237",
 		"kuerzelKunde": "1610",
 		"description": "Wassertemperatur Grundwasser",
@@ -533,28 +537,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-11T00:00:00.000",
-		"stufe1": "Thema Wasser",
+		"aktualisierungsdatum": "2019-09-24T17:55:38.3838",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
-		"template": "dotplot",
-		"orderKey": "16_00_00_00_00_000",
+		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
+		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.<br>Erhöhte Temperaturen des Grundwassers können zu einem vermehrten Auftreten von Mikroorganismen im Wasser führen, was in Gebieten mit Trinkwassernutzung unerwünscht ist. Die Jahresmittelwerte der Grundwassertemperaturen in Basel-Stadt liegen an den gemessenen Messstellen im Bereich von 12-19 °C. Die Grundwassertemperaturen sind gegenüber natürlichen Verhältnissen anthropogen stark erhöht. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
+		"template": "Empty",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "07_00_00_00_00_000",
 		"parentId": 6166,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'http://www.aue.bs.ch/wasser/grundwasser/grundwasserpegel-grundwasserqualitaet.html' target = '_blank'>Hydrologisches Jahrbuch BS</a>",
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target = '_blank'>Umweltbericht beider Basel</a>"
+			"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'' target = '_blank'>Umweltbericht beider Basel</a>."
 		],
-		"id": 4237,
-		"darstellungsart": "Grafik"
+		"data-id": 4237,
+		"chart-id": 4237,
+		"filter": "",
+		"id": 4237
 	},
 	{
 		"title": "Pflanzenschutzmittel im Grundwasser",

@@ -2,7 +2,7 @@
     return {
    "yAxis": {
    	min: undefined,
-    "labels": {
+     "labels": {
       "format": "{value:,.0f}",
     }
   },
@@ -21,9 +21,12 @@
   "plotOptions": {
     "series": {
           },
-    
-    
+
+  },
+  "chart": {
+    "type": "column"
   }
+  
 }
 }());
 

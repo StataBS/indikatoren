@@ -3658,7 +3658,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2018",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -3674,7 +3674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
   },
   "colorAxis": {
     "min": 1800,
