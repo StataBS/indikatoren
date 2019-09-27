@@ -1,12 +1,12 @@
 var fs = require('fs');
-var eol = require("eol");
 var glob = require("glob");
 var metadataPathBase = "metadata/single/";
 var configPathBase = "charts/configs/portal/";
 var templatePathBase = "charts/templates/";
+var dataPathBase = "data/";
 var serialize = require('serialize-javascript');
 var clone = require('clone');
-
+var crlf = require('crlf');
 
 var files = glob.sync(metadataPathBase + "*.json");
 files.forEach(function(filepath){
@@ -15,7 +15,11 @@ files.forEach(function(filepath){
     //strip whitespace from start of file and save file
     //replace 'nice' quotes with technical quotes - 'nice' quotes are usually created when pasting content from word, link hrefs do not work with those quotes
     var metadataFileContentsStripped = metadataFileContents.slice(metadataFileContents.indexOf('{')).replace(/’/g, "'").toString();
-    fs.writeFileSync(filepath, eol.auto(metadataFileContentsStripped));
+    fs.writeFileSync(filepath, metadataFileContentsStripped);
+    console.log('Saving: ' + filepath);
+    crlf.set(filepath, 'CRLF', function(err, endingType) {
+        console.log('Setting CRLF for: ' + filepath);
+    });
 
     var indikator = JSON.parse(metadataFileContentsStripped);
     if (indikator.kennzahlenset == 'Umwelt' /*&& indikator.id == 4221*/){
@@ -43,12 +47,36 @@ files.forEach(function(filepath){
                 //wrap chart config in self-evaluating function and save as js file
                 var stringifiedChart = serialize(configForJs, {space: 2});
                 stringifiedChart = '(function(){return ' + stringifiedChart + ';}());';
-                fs.writeFileSync(templatePathBase + indikator.id + '.js', eol.auto(stringifiedChart));
+                fs.writeFileSync(templatePathBase + indikator.id + '.js', stringifiedChart);
+                console.log('Saving: ' + templatePathBase + indikator.id + '.js')
+                crlf.set(templatePathBase + indikator.id + '.js', 'CRLF', function(err, endingType) {
+                    console.log('Setting CRLF for: ' + templatePathBase + indikator.id + '.js');
+                });
                 
                 //replace template in metadata and save
                 indikator.template = 'empty';
                 var stringifiedMetadata = JSON.stringify(indikator, undefined, 2);
-                fs.writeFileSync(metadataPathBase + indikator.id + '.json', eol.auto(stringifiedMetadata));
+                fs.writeFileSync(metadataPathBase + indikator.id + '.json', stringifiedMetadata);
+                console.log('Saving: ' + metadataPathBase + indikator.id + '.json')
+                crlf.set(metadataPathBase + indikator.id + '.json', 'CRLF', function(err, endingType) {
+                    console.log('Setting CRLF for: ' + metadataPathBase + indikator.id + '.json');
+                });
+
+                //ensure crlf for tsv files
+                console.log('Saving: ' + dataPathBase + indikator.id + '.tsv')
+                crlf.set(dataPathBase + indikator.id + '.tsv', 'CRLF', function(err, endingType) {
+                    console.log('Setting CRLF for: ' + dataPathBase + indikator.id + '.tsv');
+                });
+
+            }
+
+            if (indikator.datenInChartIntegriert || indikator.datenInChartIntegriert === undefined)
+            {
+                //ensure crlf for tsv files
+                console.log('Saving: ' + dataPathBase + indikator.id + '.tsv')
+                crlf.set(dataPathBase + indikator.id + '.tsv', 'CRLF', function(err, endingType) {
+                    console.log('Setting CRLF for: ' + dataPathBase + indikator.id + '.tsv');
+                });
             }
 
             try{
@@ -73,8 +101,12 @@ files.forEach(function(filepath){
             }
             
             var stringifiedOptions = serialize(config, {space: 2});
-            fs.writeFileSync(configPathBase + indikator.id + '.json', eol.auto(stringifiedOptions));
-        }
+            fs.writeFileSync(configPathBase + indikator.id + '.json', stringifiedOptions);
+            console.log('Saving: ' + configPathBase + indikator.id + '.json')
+            crlf.set(configPathBase + indikator.id + '.json', 'CRLF', function(err, endingType) {
+                console.log('Setting CRLF for: ' + configPathBase + indikator.id + '.json');
+            });
+    }
         catch (error){
             //silently ignore errors
             //console.log(error);
@@ -82,6 +114,8 @@ files.forEach(function(filepath){
 
     }
 });
+
+console.log('Finished!');
 
 
 /*
