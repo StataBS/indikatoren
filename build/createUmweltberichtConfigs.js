@@ -2,11 +2,21 @@
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
 
 var serialize = require('serialize-javascript');
+var envVars = require('system').env;
+var proxyBS = envVars.http_proxy;
 
-var casper = require('casper').create();
+//var casper = require('casper').create();
+var casper = require('casper').create({
+    pageSettings: {
+        proxy: proxyBS
+     }
+});
+
+
 //var urlbase = 'http://ub.basleratlas.ch/?format=chart_export2indikatorenportal&i=';
 var urlbase = 'http://ub.basleratlas.ch/?format=stata&k=bs&i=';
 var fs = require('fs');
+ 
 var pathBase = "metadata/single/";
 
 // http://phantomjs.org/api/fs/method/list.html
@@ -64,10 +74,10 @@ while (ubFileList.length > 0) {
                     var path = 'charts/configs/portal/' + id + '.json';
                     casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, jsContent, 'w');
-                    
+
                     //get tsv from umweltbericht if necessary
                     if (currentConfig.datenInChartIntegriert || currentConfig.datenInChartIntegriert === undefined){
-                        var tsvContent = casper.fetchText('#data-tsv');
+                        var tsvContent = casper.fetchText('#data-tsv');                        
                         var tsvPath = 'data/' + id + '.tsv';
                         casper.echo('Saving tsv contents to ' + tsvPath + '...');
                         fs.write(tsvPath, tsvContent, 'w');
@@ -104,9 +114,9 @@ while (ubFileList.length > 0) {
         else {
             casper.echo('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
         }
+        
     })(idText);
 }        
-
 
 //https://stackoverflow.com/a/5367656
 function padLeft(nr, n, str){
@@ -127,6 +137,7 @@ function deserialize(serializedJavascript){
 
 casper.run(function() {
     this.exit();
+    this.echo('Finished!');
 });
 
 
