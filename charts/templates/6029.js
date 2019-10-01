@@ -1,4 +1,4 @@
-(function(){
+(function () {
   return {
     title: {
       useHTML: true
@@ -7,52 +7,52 @@
       useHTML: true
     },
     "yAxis": {
-  	  "labels": {
-    		"format": "{value:,.0f}"
-    	}
-    },	
+      "labels": {
+        "format": "{value:,.0f}"
+      }
+    },
     "tooltip": {
       useHTML: true,
-      "shared": false, 
-  	  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+      "shared": false,
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
     },
     "series": [
       {
         "color": "#2B0099",
         "marker": {
           "enabled": false
-        }    
+        },
+        legendIndex: 2
       }, /* duneklblau */
       {
-        "color": "#007A2F",
-  	    visible:true,
+        "color": "#68AB2B",
+        visible: true,
         "marker": {
           "enabled": false
-        }    
+        },
+        dashStyle: 'ShortDash',
+        legendIndex: 3
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
         "marker": {
           "enabled": false
         },
-        dashStyle: 'ShortDash'
+        dashStyle: 'ShortDash',
+        legendIndex: 4
       }, /* duneklblau */
       {
-        "color": "#68AB2B",
-  	    visible:true,
+        "color": "#007A2F",
+        visible: true,
         "marker": {
           "enabled": false
         },
-        dashStyle: 'ShortDash'
+        legendIndex: 1
       }, /* dunkelgrün */
     ],
     "legend": {
       useHTML: true,
-    	//symbolWidth: 30,
       "enabled": true,
-      //"x": 25,
-      //"y": 65,
-      //"itemWidth": 220,
       "layout": "horizontal",
       "verticalAlign": "top",
       "itemMarginBottom": 5,
@@ -63,16 +63,15 @@
     },
     "plotOptions": {
       "line": {
-    	  "connectNulls": true,
-        "marker":{
+        "connectNulls": true,
+        "marker": {
           "enabled": false,
           "symbol": "circle",
         }
       }
-    }, 
+    },
     exporting: {
       allowHTML: true,
     },
   };
 }());
- 

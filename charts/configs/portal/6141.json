@@ -27,9 +27,13 @@
         [
           "2016",
           14.979787
+        ],
+        [
+          "2017",
+          14.715058
         ]
       ],
-      "name": "Industrie Total",
+      "name": "Industrie",
       "turboThreshold": 0
     },
     {
@@ -59,9 +63,13 @@
         [
           "2016",
           1.7488902
+        ],
+        [
+          "2017",
+          1.721363
         ]
       ],
-      "name": "Dienstleistungen Total",
+      "name": "Dienstleistungen",
       "turboThreshold": 0
     }
   ],
@@ -187,7 +195,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-30"
   },
   "legend": {
     "symbolRadius": 0,
