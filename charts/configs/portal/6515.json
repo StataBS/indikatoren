@@ -12,12 +12,16 @@
           14.06
         ],
         [
+          "Italien",
+          64.71
+        ],
+        [
           "Türkei",
           85.48
         ],
         [
           "EU-17 + EFTA",
-          59.51
+          57.79
         ],
         [
           "EU-Ost",
@@ -171,7 +175,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-13"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-27"
   },
   "legend": {
     "symbolRadius": 0,

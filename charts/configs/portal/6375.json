@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil unter 20-Jähriger in %",
+      "name": "Anteil Personen unter 20 Jahren in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          11.75125743
+          11.75
         ],
         [
           2,
-          11.27069619
+          11.27
         ],
         [
           3,
-          14.220601641
+          14.22
         ],
         [
           4,
-          14.093437152
+          14.09
         ],
         [
           5,
-          17.270677995
+          17.27
         ],
         [
           6,
-          14.297885936
+          14.3
         ],
         [
           7,
-          21.491931175
+          21.49
         ],
         [
           8,
-          17.851605759
+          17.85
         ],
         [
           9,
-          16.219723183
+          16.22
         ],
         [
           10,
-          17.301465827
+          17.3
         ],
         [
           11,
-          17.178414217
+          17.18
         ],
         [
           12,
-          10.961145194
+          10.96
         ],
         [
           13,
-          12.936546975
+          12.94
         ],
         [
           14,
-          14.154676259
+          14.15
         ],
         [
           15,
-          19.761117628
+          19.76
         ],
         [
           16,
-          19.429824561
+          19.43
         ],
         [
           17,
-          15.572304548
+          15.57
         ],
         [
           18,
-          19.155354449
+          19.16
         ],
         [
           19,
-          19.909027292
+          19.91
         ],
         [
           20,
-          20.332898172
+          20.33
         ],
         [
           30,
-          19.208573784
+          19.21
         ]
       ]
     },
@@ -6743,7 +6743,7 @@
           233
         ]
       ],
-      "name": "Anzahl unter 20-Jähriger"
+      "name": "Anzahl Personen unter 20 Jahren"
     },
     {
       "name": "Rhein",
@@ -7023,7 +7023,7 @@
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
-	                fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahre in %", 265, 300, 'pieLegendStayOnZoom');
+	                fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahren in %", 265, 300, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
@@ -7108,7 +7108,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-30"
   },
   "colorAxis": {
     "min": 10,
