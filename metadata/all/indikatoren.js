@@ -12219,7 +12219,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:51:46.4646",
+		"aktualisierungsdatum": "2019-09-27T11:28:13.1313",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -12228,15 +12228,17 @@ var indikatoren = [
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 im Wohnviertel Rosental verzeichnet. Die Zunahme gegenüber der Quote vor 20 Jahren war im Wohnviertel Vorstädte am grössten. Die grösste Abnahme wies das Wohnviertel Matthäus auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "02_04_00_00_00_046",
 		"parentId": null,
 		"children": [
 			"6246"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6246"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -13378,19 +13380,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:54:16.1616",
-		"stufe1": "Bereich Natürliche Lebensgrundlagen",
-		"stufe2": "Umgang mit Energie und Ressourcen",
+		"aktualisierungsdatum": "2019-09-30T10:08:29.2929",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2018 mit 27,8 resp. 26,9 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_01_00_00_00_408",
+		"orderKey": "07_00_00_00_00_408",
 		"parentId": 6157,
 		"children": [],
 		"renderLink": [],
@@ -13399,7 +13401,8 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
 		"data-id": 6029,
 		"chart-id": 6029,
@@ -16316,14 +16319,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-17T11:05:40.4040",
+		"aktualisierungsdatum": "2019-09-30T10:17:51.5151",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt waren 2016 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
-		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige (NOGA) in Klammern): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
+		"lesehilfe": "Insgesamt waren 2017 rund 16% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige NOGA in Klammern): <br><i>im Dienstleistungssektor</i>: Forschung und Entwicklung (72); <i>im Industriesektor</i>: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33). <br>Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16338,9 +16341,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6141,
+		"chart-id": 6141,
+		"filter": "",
 		"id": 6141
 	},
 	{
@@ -16764,25 +16771,25 @@ var indikatoren = [
 		"id": 6154
 	},
 	{
-		"title": "Transit durch die Region Basel",
-		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
+		"title": "Warentransit durch die Schweiz",
+		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
 		"kuerzel": "I.06.4.6155",
 		"kuerzelKunde": "5.3",
-		"description": "Transit durch die Region Basel",
+		"description": "Warentransit durch die Schweiz",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:28:29.2929",
+		"aktualisierungsdatum": "2019-09-27T17:09:29.2929",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
-		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16790,7 +16797,8 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6307"
+			"6307",
+			"7778"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17917,7 +17925,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:48:28.2828",
+		"aktualisierungsdatum": "2019-09-27T11:26:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -17926,7 +17934,7 @@ var indikatoren = [
 		"lesehilfe": "Ende 2018 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2013 lag die FAMI-Quote noch bei 1,7%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel wohnt keine beziehende Familie. Gegenüber 2013 ist einzig in den Wohnvierteln Altstadt Kleinbasel, Vorstädte sowie Rosental ein Rückgang zu beobachten.",
 		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -17957,7 +17965,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:48:33.3333",
+		"aktualisierungsdatum": "2019-09-27T11:29:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -17966,7 +17974,7 @@ var indikatoren = [
 		"lesehilfe": "Insgesamt liegt Ende 2018 der Anteil der Haushalte mit reiner PV an allen Haushalten bei 15,0%. Das Wohnviertel Klybeck weist mit 25,0% die höchste, das Wohnviertel Vorstädte mit 8,3% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2013 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum um 1,9 Prozentpunkte gesunken.",
 		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -22521,13 +22529,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2019-09-30T09:22:18.1818",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz und Bachletten (je 42%) sowie in der Gemeinden Riehen (43%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (29%), Vorstädte (28%) und Rosental (20%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,4%) und Bachletten (41,7%) sowie in der Gemeinde Riehen (42,5%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Vorstädte (28,0%), Altstadt Kleinbasel (28,6%) und Rosental (20,4%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -22611,13 +22619,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2019-09-30T09:38:38.3838",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahre an der Gesamtbevölkerung in den Wohnvierteln Vorstädte, Altstadt Kleinbasel (je 11%) und Altstadt Grossbasel (12%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22%), Hirzbrunnen, Kleinhüningen sowie in der Gemeinde Riehen ( je 20%).",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (11,8%), Vorstädte (11,3%) und Altstadt Kleinbasel (11,0%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (21,5%), Kleinhüningen (19,9%) sowie in der Gemeinde Riehen (20,3%).",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -27572,7 +27580,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-09-13T15:00:43.4343",
+		"aktualisierungsdatum": "2019-09-27T13:01:49.4949",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -40788,6 +40796,46 @@ var indikatoren = [
 		"chart-id": 7763,
 		"filter": "",
 		"id": 7763
+	},
+	{
+		"title": "Warentransit durch die Schweiz",
+		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
+		"kuerzel": "I.06.4.07778",
+		"kuerzelKunde": "ST 11-3",
+		"description": "Warentransit durch die Schweiz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-09-27T17:09:29.2929",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "05_00_00_00_00_113",
+		"parentId": 6155,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung EZV"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6155,
+		"chart-id": 6155,
+		"filter": "",
+		"id": 7778
 	},
 	{
 		"title": "Test Daten",

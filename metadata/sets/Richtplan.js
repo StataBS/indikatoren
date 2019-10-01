@@ -169,7 +169,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:51:46.4646",
+		"aktualisierungsdatum": "2019-09-27T11:28:13.1313",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -178,14 +178,16 @@ var indikatorensetData = [
 		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 im Wohnviertel Rosental verzeichnet. Die Zunahme gegenüber der Quote vor 20 Jahren war im Wohnviertel Vorstädte am grössten. Die grösste Abnahme wies das Wohnviertel Matthäus auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kategoriell",
+		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_006",
+		"orderKey": "02_04_00_00_00_046",
 		"parentId": null,
 		"children": [
 			"6246"
 		],
-		"renderLink": [],
+		"renderLink": [
+			"6246"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -959,5 +961,44 @@ var indikatorensetData = [
 		],
 		"id": 6236,
 		"darstellungsart": "Grafik"
+	},
+	{
+		"title": "Warentransit durch die Schweiz",
+		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
+		"kuerzel": "I.06.4.07778",
+		"kuerzelKunde": "ST 11-3",
+		"description": "Warentransit durch die Schweiz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-09-27T17:09:29.2929",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_00_00_00_00_113",
+		"parentId": 6155,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung EZV"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6155,
+		"chart-id": 6155,
+		"filter": "",
+		"id": 7778
 	}
 ];
