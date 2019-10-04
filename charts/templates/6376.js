@@ -107,7 +107,7 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 200; 
-	                var maxValueInLegend = 4000; 
+	                var maxValueInLegend = 6000; 
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
@@ -139,8 +139,8 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);	                
 	                
-					fn.addLegendTitle(chart, 'Anteil Personen über 64 Jahre in %', 265, 300);
-					fn.addLegendLabelbold(chart, 'Anzahl Personen über 64 Jahre', 265, 220);
+					fn.addLegendTitle(chart, 'Anteil Personen über 64 Jahren in %', 265, 300);
+					fn.addLegendLabelbold(chart, 'Anzahl Personen über 64 Jahren', 265, 220);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);

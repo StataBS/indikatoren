@@ -1,22 +1,23 @@
-﻿"Wohnviertel_ID"	"Wohnviertel_Name"	"Anteil über 64-Jähriger in %"	"Anzahl über 64-Jähriger"
-1	Altstadt Grossbasel	20.484682213	448
-2	Vorstädte	24.097346898	1208
-3	Am Ring	21.385597083	2346
-4	Breite	21.49054505	1932
-5	St. Alban	25.221085486	2909
-6	Gundeldingen	15.5013579	2911
-7	Bruderholz	22.859890991	2139
-8	Bachletten	21.830933924	2957
-9	Gotthelf	21.539792388	1494
-10	Iselin	16.547948431	2811
-11	St. Johann	15.689364708	2887
-12	Altstadt Kleinbasel	19.63190184	480
-13	Clara	22.085587801	898
-14	Wettstein	19.370503597	1077
-15	Hirzbrunnen	23.792257652	2231
-16	Rosental	8.8888888889	608
-17	Matthäus	13.010986203	2037
-18	Klybeck	13.958590429	1018
-19	Kleinhüningen	18.194541638	520
-20	Riehen	25.834576651	5541
-30	Bettingen	24.072547403	292
+﻿"Wohnviertel_ID Wohnviertel_Name"		"Anteil Personen über 64 Jahren in %"	"Anzahl Personen über 64 Jahren"
+"1"	"Altstadt Grossbasel"	20.48	448
+"2"	"Vorstädte"	24.10	1208
+"3"	"Am Ring"	21.39	2346
+"4"	"Breite"	21.49	1932
+"5"	"St. Alban"	25.22	2909
+"6"	"Gundeldingen"	15.50	2911
+"7"	"Bruderholz"	22.86	2139
+"8"	"Bachletten"	21.83	2957
+"9"	"Gotthelf"	21.54	1494
+"10"	"Iselin"	16.55	2811
+"11"	"St. Johann"	15.69	2887
+"12"	"Altstadt Kleinbasel"	19.63	480
+"13"	"Clara"	22.09	898
+"14"	"Wettstein"	19.37	1077
+"15"	"Hirzbrunnen"	23.79	2231
+"16"	"Rosental"	8.89	608
+"17"	"Matthäus"	13.01	2037
+"18"	"Klybeck"	13.96	1018
+"19"	"Kleinhüningen"	18.19	520
+"20"	"Riehen"	25.83	5541
+"30"	"Bettingen"	24.07	292
+
