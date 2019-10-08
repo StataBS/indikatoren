@@ -1884,7 +1884,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:52:37.3737",
+		"aktualisierungsdatum": "2019-10-07T09:30:19.1919",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
@@ -1900,7 +1900,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6143",
-			"6297"
+			"6297",
+			"7773"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1908,7 +1909,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
 		],
 		"data-id": 4132,
 		"chart-id": 4132,
@@ -9160,13 +9161,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-17T17:30:20.2020",
+		"aktualisierungsdatum": "2019-10-04T10:46:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 71 000.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 67 000.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9179,9 +9180,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Beitreibungs- und Konkursamt Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4912,
+		"chart-id": 4912,
+		"filter": "",
 		"id": 4912
 	},
 	{
@@ -15912,14 +15917,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-13T16:21:26.2626",
+		"aktualisierungsdatum": "2019-10-04T16:36:51.5151",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2020, welches auf Daten der Jahre 2014 bis 2016 beruht, im Kanton Basel-Stadt um rund 46% über dem schweizerischen Durchschnitt. Die Werte des Jahres 2020 sind noch provisorisch.",
-		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
+		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone – d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons – im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16375,7 +16380,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:44.4444",
+		"aktualisierungsdatum": "2019-10-07T09:30:19.1919",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16396,7 +16401,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
 		],
 		"data-id": 6143,
 		"chart-id": 6143,
@@ -16584,14 +16589,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:44.4444",
+		"aktualisierungsdatum": "2019-10-04T17:27:33.3333",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Die Einbürgerungsziffer der Frauen ist während des gesamten Beobachtungszeitraums höher als diejenige der Männer. Die Einbürgerungsziffer unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden bei Männern und Frauen 2008 erreicht. Danach ging die Einbürgerungsziffer zurück, 2011 lag sie bei den Männern noch bei 11,0 und bei den Frauen bei 15,3. Nach einem tendenziellen Anstieg bis zum Jahr 2015 sank sie 2016 erneut  auf 9,8  bei den Männern und auf 11,5 bei den Frauen. 2017 und 2018 wurden wieder etwas höhere Werte erreicht, 2018 betrugen diese 13,2 bei den Männern und 16,8 bei den Frauen. Der Ausländeranteil stieg zwischen 2008 und 2018 kontinuierlich um 4,7 Prozentpunkte.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 ausländische Männer und pro 1000 ausländische Frauen am Jahresende berechnet.",
+		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer (EZ) ist während der vergangenen 10 Jahre höher als diejenige der Männer. Die Höchstwerte wurden 2008 erreicht, danach ging sie zurück und lag 2011 noch bei 11,0 (Männer) und 15,3 (Frauen). Seither ist sie tendenziell wieder gestiegen, mit einem kurzzeitigen Unterbruch 2016 (Männer: 9,8; Frauen: 11,5). 2018 lag die EZ bei 13,2 (Männer) und 16,8 (Frauen). Der Ausländeranteil stieg zwischen 2008 und 2018 kontinuierlich um 4,7 Prozentpunkte.",
+		"erlaeuterungen": "Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 ausländische Männer respektive Frauen am Jahresende berechnet. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -17275,15 +17280,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T13:46:03.033",
+		"aktualisierungsdatum": "2019-10-07T09:38:06.066",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2017. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
-		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant. Höhere Besuchszahlen verzeichneten in den letzten Jahren die Museen.",
+		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2018 der Saison 2017/18.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_002",
@@ -17295,13 +17301,16 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Jeweilige Institutionen",
-			"ProCinema"
+			"Bundesamt für Statistik (BFS), Film- und Kinostatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6169,
-		"darstellungsart": "Grafik"
+		"data-id": 6169,
+		"chart-id": 6169,
+		"filter": "",
+		"id": 6169
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
@@ -39134,7 +39143,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T08:39:40.4040",
+		"aktualisierungsdatum": "2019-10-08T08:43:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -39174,7 +39183,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T08:41:42.4242",
+		"aktualisierungsdatum": "2019-10-08T08:46:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
