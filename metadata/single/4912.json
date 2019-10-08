@@ -8,13 +8,13 @@
 "unterthema":"Betreibungen und Konkurse",
 "kennzahlenset":"",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-17T17:30:20.2020",
+"aktualisierungsdatum":"2019-10-04T10:46:02.022",
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 71 000.",
+"lesehilfe":"Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 67 000.",
 "erlaeuterungen":"",
 "template":"line001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Beitreibungs- und Konkursamt Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":4912, 
+"chart-id":4912, 
+"filter":""
 }

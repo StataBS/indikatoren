@@ -201,7 +201,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:52:37.3737",
+		"aktualisierungsdatum": "2019-10-07T09:30:19.1919",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
@@ -216,7 +216,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6143",
-			"6297"
+			"6297",
+			"7773"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -224,7 +225,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
 		],
 		"data-id": 4132,
 		"chart-id": 4132,
