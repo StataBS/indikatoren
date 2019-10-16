@@ -5,6 +5,10 @@
       "legendIndex": 3,
       "data": [
         [
+          2002,
+          1675.95
+        ],
+        [
           2003,
           1709.64
         ],
@@ -14,11 +18,11 @@
         ],
         [
           2005,
-          1702.52
+          1702.59
         ],
         [
           2006,
-          1699.72
+          1699.79
         ],
         [
           2007,
@@ -63,6 +67,10 @@
         [
           2017,
           1675.72
+        ],
+        [
+          2018,
+          1673.34
         ]
       ],
       "name": "Befestigte Fläche und Gebäude"
@@ -71,6 +79,10 @@
       "color": "#008AC3",
       "legendIndex": 2,
       "data": [
+        [
+          2002,
+          141.09
+        ],
         [
           2003,
           134.25
@@ -130,6 +142,10 @@
         [
           2017,
           133.92
+        ],
+        [
+          2018,
+          133.86
         ]
       ],
       "name": "Gewässer"
@@ -138,6 +154,10 @@
       "color": "#68ab2b",
       "legendIndex": 1,
       "data": [
+        [
+          2002,
+          1878.27
+        ],
         [
           2003,
           1851.44
@@ -164,7 +184,7 @@
         ],
         [
           2009,
-          1860.39
+          1860.4
         ],
         [
           2010,
@@ -197,6 +217,10 @@
         [
           2017,
           1885.76
+        ],
+        [
+          2018,
+          1888.2
         ]
       ],
       "name": "Grünfläche"
@@ -325,7 +349,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-2"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
   },
   "legend": {
     "symbolRadius": 0,

@@ -1,7 +1,10 @@
 (function(){
     return {
   "xAxis": {
-  	tickInterval: 2,
+     tickInterval: 2,
+    "labels":{
+      x: -10,
+  }
   },
   "yAxis": {
   	tickInterval: 0.2,

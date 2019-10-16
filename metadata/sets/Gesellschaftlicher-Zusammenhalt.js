@@ -1000,14 +1000,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-10-14T11:56:37.3737",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 35,4 Anzeigen wegen Diebstahl erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 32,4 Anzeigen wegen Diebstahl erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1019,9 +1019,13 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4868,
+		"chart-id": 4868,
+		"filter": "",
 		"id": 4868
 	},
 	{

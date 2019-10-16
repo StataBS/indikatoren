@@ -4,6 +4,7 @@
       "color": "#cd9c00",
       "index": 0,
       "type": "column",
+      "yAxis": 0,
       "data": [
         [
           "1975",
@@ -112,6 +113,10 @@
         [
           "2017",
           13
+        ],
+        [
+          "2018",
+          13
         ]
       ],
       "name": "Anzahl Betriebe",
@@ -120,7 +125,6 @@
     {
       "color": "#73b97c",
       "index": 1,
-      "type": "column",
       "yAxis": 1,
       "data": [
         [
@@ -230,6 +234,10 @@
         [
           "2017",
           428.7
+        ],
+        [
+          "2018",
+          424.5
         ]
       ],
       "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Achse)",
@@ -252,6 +260,33 @@
       }
     },
     "tickLength": 0,
+    "tickPositioner": function () {
+        var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min) + 1;
+        var xMin_even = Math.round(ext.min);
+
+
+        if (xMax % 2 == 1) {
+
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0) {
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }
+      },
     "tickInterval": 2
   },
   "chart": {
@@ -295,6 +330,13 @@
         "style": {
           "fontSize": "10px"
         }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },
@@ -363,7 +405,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
   },
   "legend": {
     "symbolRadius": 0,
