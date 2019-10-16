@@ -2091,13 +2091,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:50:43.4343",
+		"aktualisierungsdatum": "2019-10-14T14:58:41.4141",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig gestiegen und liegt 2019 bei 1,0%.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ stetig gestiegen und liegt 2019 bei 1,0%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -6103,14 +6103,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T15:58:47.4747",
+		"aktualisierungsdatum": "2019-10-14T11:56:37.3737",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden auf 1000 Einwohner 35,4 Anzeigen wegen Diebstahl erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139). Berechnet auf die ständige Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 32,4 Anzeigen wegen Diebstahl erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -6123,9 +6123,13 @@
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4868,
+		"chart-id": 4868,
+		"filter": "",
 		"id": 4868
 	},
 	{
@@ -6557,7 +6561,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-26T10:40:38.3838",
+		"aktualisierungsdatum": "2019-10-14T14:50:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9681,22 +9685,22 @@
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.10.6026",
+		"kuerzel": "I.02.1.06026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Boden",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
+		"aktualisierungsdatum": "2019-10-14T14:57:51.5151",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2018: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9790,8 +9794,8 @@
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-		"subtitle": "",
-		"kuerzel": "I.18.2.06036",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.18.2.6036",
 		"kuerzelKunde": "GZ3",
 		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"thema": "18 Öffentliche Finanzen",
@@ -9800,15 +9804,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-14T14:54:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_503",
 		"parentId": null,
@@ -9817,11 +9823,14 @@
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6036,
-		"darstellungsart": "Grafik"
+		"data-id": 6036,
+		"chart-id": 6036,
+		"filter": "",
+		"id": 6036
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -10988,14 +10997,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T11:20:01.011",
+		"aktualisierungsdatum": "2019-10-14T14:59:28.2828",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2009 bis 2018 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
-		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters, multipliziert mit 1000). Das arithmetische Mittel wird hier berechnet, indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
+		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters). Das arithmetische Mittel wird hier berechnet, indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert, und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11003,7 +11012,8 @@
 		"orderKey": "01_00_00_00_00_026",
 		"parentId": null,
 		"children": [
-			"6662"
+			"6662",
+			"7803"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -13464,14 +13474,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:12:38.3838",
+		"aktualisierungsdatum": "2019-10-14T14:50:51.5151",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
-		"erlaeuterungen": "Stichwoche im Oktober.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Seit 2016 stagniert die Anzahl angebotener Plätze bei rund 4 100. 2018 stehen insgesamt 4 087 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
+		"erlaeuterungen": "Die Daten werden jeweils in einer Stichwoche im Oktober erhoben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13485,9 +13495,13 @@
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6210,
+		"chart-id": 6210,
+		"filter": "",
 		"id": 6210
 	},
 	{
@@ -13545,13 +13559,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:18:54.5454",
+		"aktualisierungsdatum": "2019-10-14T14:53:06.066",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In beiden dargestellten Jahren zeigt sich: Je älter die Befragten sind, desto seltener wird eine Note über 6 vergeben.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In beiden dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -13802,13 +13816,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:22:06.066",
+		"aktualisierungsdatum": "2019-10-14T14:53:22.2222",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -16568,7 +16582,7 @@
 	{
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
-		"kuerzel": "I.02.3.06434",
+		"kuerzel": "I.02.3.6434",
 		"kuerzelKunde": "NL13",
 		"description": "Jahresmitteltemperatur",
 		"thema": "02 Raum, Umwelt",
@@ -16577,15 +16591,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-14T14:53:52.5252",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5&nbsp;°C.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2018 12,3&nbsp;°C. Dies ist der höchste Wert in Basel seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_413",
 		"parentId": null,
@@ -16594,11 +16610,14 @@
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6434,
-		"darstellungsart": "Grafik"
+		"data-id": 6434,
+		"chart-id": 6434,
+		"filter": "",
+		"id": 6434
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
@@ -26279,5 +26298,45 @@
 		"chart-id": 7763,
 		"filter": "",
 		"id": 7763
+	},
+	{
+		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
+		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
+		"kuerzel": "I.09.1.07774",
+		"kuerzelKunde": "ST 1-2",
+		"description": "Bruttogeschossflächen Wohnen und Arbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-10-14T17:01:22.2222",
+		"stufe1": "Sachgebiet Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Sowohl die für Wohn- als auch die für Arbeitszwecke genutzte Bruttogeschossfläche hat seit 1995 zugenommen. Dies ist auf die Bautätigkeit im Kanton zurückzuführen.",
+		"erlaeuterungen": "Die Daten zur Bruttogeschossfläche (BGF) werden fünfjährlich aktualisiert, letztmals 2015. Die Bruttogeschossfläche ist die Summe der Grundflächen der ober- und unterirdischen Geschosse von Gebäuden, welche zum Wohnen oder Arbeiten genutzt werden können. Für das Jahr 2000 stehen keine Daten zur Verfügung.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_012",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bau- und Verkehrsdepartement des Kantons Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7774,
+		"chart-id": 7774,
+		"filter": "",
+		"id": 7774
 	}
 ]

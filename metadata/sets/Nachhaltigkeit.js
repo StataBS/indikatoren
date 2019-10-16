@@ -1059,26 +1059,27 @@ var indikatorensetData = [
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzahl Leerwohnungen und Leerwohnungsquote",
-		"subtitle": "nach Zimmerzahl, Basel-Stadt",
+		"title": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.05195",
 		"kuerzelKunde": "GW17",
-		"description": "Anzahl Leerwohnungen und Leerwohnungsquote",
+		"description": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-22T15:37:44.4444",
+		"aktualisierungsdatum": "2019-10-14T15:13:33.3333",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die Leerwohnungsquote stetig angestiegen und liegt 2018 bei 0,7%.",
-		"erlaeuterungen": "LWQ = Leerwohnungsquote.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ stetig gestiegen und liegt 2019 bei 1,0%.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_317",
 		"parentId": 4138,
@@ -1087,11 +1088,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5195,
-		"darstellungsart": "Grafik"
+		"data-id": 5195,
+		"chart-id": 5195,
+		"filter": "",
+		"id": 5195
 	},
 	{
 		"title": "Mietpreisindex Basel-Stadt",
@@ -1397,22 +1401,22 @@ var indikatorensetData = [
 	{
 		"title": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.10.6026",
+		"kuerzel": "I.02.1.06026",
 		"kuerzelKunde": "NL5",
 		"description": "Anteile der Bodenbedeckungsarten an der Kantonsfläche",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Boden",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-11-02T09:18:42.4242",
+		"aktualisierungsdatum": "2019-10-14T14:57:51.5151",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2017: 51%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
+		"lesehilfe": "Auf gut der Hälfte der Kantonsfläche (2018: 51,1%) ist der Boden von Grünflächen bedeckt. Gewässer haben im Kanton Basel-Stadt mit 3,6% einen nur sehr geringen Anteil an der Gesamtfläche. Die Flächenanteile der drei Bodenbedeckungskategorien verändern sich über die Zeit nur minimal.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6-12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1734,8 +1738,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-		"subtitle": "",
-		"kuerzel": "I.18.2.06036",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.18.2.6036",
 		"kuerzelKunde": "GZ3",
 		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"thema": "18 Öffentliche Finanzen",
@@ -1744,15 +1748,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-14T14:54:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich etwas konstanter auf höherem Niveau. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_02_00_00_00_503",
 		"parentId": null,
 		"children": [],
@@ -1760,11 +1766,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6036,
-		"darstellungsart": "Grafik"
+		"data-id": 6036,
+		"chart-id": 6036,
+		"filter": "",
+		"id": 6036
 	},
 	{
 		"title": "Verhältnis der Löhne von Frauen und Männern",
@@ -2483,7 +2492,7 @@ var indikatorensetData = [
 	{
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
-		"kuerzel": "I.02.3.06434",
+		"kuerzel": "I.02.3.6434",
 		"kuerzelKunde": "NL13",
 		"description": "Jahresmitteltemperatur",
 		"thema": "02 Raum, Umwelt",
@@ -2492,15 +2501,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-14T14:53:52.5252",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Mittel der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2017 11,5&nbsp;°C.",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2018 12,3&nbsp;°C. Dies ist der höchste Wert in Basel seit Messbeginn im Jahr 1755.",
 		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
 		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_02_00_00_00_413",
 		"parentId": null,
 		"children": [],
@@ -2508,11 +2519,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6434,
-		"darstellungsart": "Grafik"
+		"data-id": 6434,
+		"chart-id": 6434,
+		"filter": "",
+		"id": 6434
 	},
 	{
 		"title": "Arbeitnehmende in Leitungsfunktionen",

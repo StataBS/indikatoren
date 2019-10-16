@@ -2688,14 +2688,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:12:38.3838",
+		"aktualisierungsdatum": "2019-10-14T14:50:51.5151",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
-		"erlaeuterungen": "Stichwoche im Oktober.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Seit 2016 stagniert die Anzahl angebotener Plätze bei rund 4 100. 2018 stehen insgesamt 4 087 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
+		"erlaeuterungen": "Die Daten werden jeweils in einer Stichwoche im Oktober erhoben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2708,9 +2708,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6210,
+		"chart-id": 6210,
+		"filter": "",
 		"id": 6210
 	},
 	{
@@ -2767,13 +2771,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:18:54.5454",
+		"aktualisierungsdatum": "2019-10-14T14:53:06.066",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In beiden dargestellten Jahren zeigt sich: Je älter die Befragten sind, desto seltener wird eine Note über 6 vergeben.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In beiden dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -2808,13 +2812,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:22:06.066",
+		"aktualisierungsdatum": "2019-10-14T14:53:22.2222",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",

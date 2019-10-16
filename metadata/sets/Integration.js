@@ -836,21 +836,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T11:20:01.011",
+		"aktualisierungsdatum": "2019-10-14T14:59:28.2828",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2009 bis 2018 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
-		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters, multipliziert mit 1000). Das arithmetische Mittel wird hier berechnet, indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
+		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters). Das arithmetische Mittel wird hier berechnet, indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert, und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_026",
 		"parentId": null,
 		"children": [
-			"6662"
+			"6662",
+			"7803"
 		],
 		"renderLink": [],
 		"quellenangabe": [
