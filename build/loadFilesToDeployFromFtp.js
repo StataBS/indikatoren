@@ -5,7 +5,8 @@ const filePath = "tmp/chartsToDeploy.txt";
 const urlBase = "https://indikatoren.statabs.ch/";
 const parse = require('csv-parse/lib/sync');
 const child_process = require('child_process');
-var crlf = require('crlf');
+const eol = require("eol");
+//var crlf = require('crlf');
 
 /*
 request(
@@ -55,10 +56,18 @@ stream.on("finish", function() {
             //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
             //console.log('body:', body); // Print the HTML for the Google homepage.
         }).pipe(file);
-        crlf.set(filePath, 'CRLF', function(err, endingType) {
-            console.log('Setting CRLF for: ' + filePath);
-        });
-    
+        // crlf.set(filePath, 'CRLF', function(err, endingType) {
+        //     console.log('Setting CRLF for: ' + filePath);
+        // });
+        // file.end();
+        // stream2.end();
+        // var myContent = fs.readFileSync(filePath, "utf8");
+        // console.log('Content: ' + myContent);
+        //fs.writeFileSync(filePath + 'x',eol.auto(content));
+        stream2.on("finish", function() {
+            var fileContent = fs.readFileSync(filePath);
+            fs.writeFileSync(filePath, eol.auto(fileContent.toString()));
+        });           
     };
       
     //load json and tsv for each row
@@ -85,7 +94,7 @@ stream.on("finish", function() {
             }
         }
         else{
-            downloadFileContents(urlBase + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
+            downloadFileContents(urlBase + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');    
         }
     });
     console.log('...done!');
@@ -96,3 +105,9 @@ stream.on("finish", function() {
         console.log('http://127.0.0.1:8084/chart-details.html?id=' + row.Indikator);
     });
 });
+
+// fs.readFile('data/6129.tsv', 'utf8', (err, data) => {
+//     if (err) throw err;
+//     console.log(data);
+//   });
+

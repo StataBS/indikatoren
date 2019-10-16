@@ -105,6 +105,10 @@
         [
           2015,
           0.512
+        ],
+        [
+          2016,
+          0.521
         ]
       ],
       "name": "Reineinkommen"
@@ -215,6 +219,10 @@
         [
           2015,
           0.92
+        ],
+        [
+          2016,
+          0.92
         ]
       ],
       "name": "Reinvermögen"
@@ -265,7 +273,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -298,7 +306,8 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "x": -10
     },
     "tickLength": 0,
     "tickInterval": 2
@@ -317,7 +326,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
   },
   "legend": {
     "enabled": true,

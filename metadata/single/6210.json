@@ -8,14 +8,14 @@
 "unterthema":"Sozialleistungen",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-08T12:12:38.3838",
+"aktualisierungsdatum":"2019-10-14T14:50:51.5151",
 "stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut, bevor 2017 ein leichter Rückgang erfolgte. 2017 stehen insgesamt 4 115 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
-"erlaeuterungen":"Stichwoche im Oktober.",
+"lesehilfe":"Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Seit 2016 stagniert die Anzahl angebotener Plätze bei rund 4 100. 2018 stehen insgesamt 4 087 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
+"erlaeuterungen":"Die Daten werden jeweils in einer Stichwoche im Oktober erhoben.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6338"],
 "renderLink":[],
 "quellenangabe":["Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6210, 
+"chart-id":6210, 
+"filter":""
 }
