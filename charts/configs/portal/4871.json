@@ -26,6 +26,10 @@
         [
           "2016 (GR)",
           41.7
+        ],
+        [
+          "2019 (NR)",
+          47.7
         ]
       ],
       "name": "Wahlbeteiligung",
@@ -115,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -155,7 +159,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-18"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-23"
   },
   "legend": {
     "symbolRadius": 0,

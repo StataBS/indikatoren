@@ -74,13 +74,15 @@
       "name": "4 Zimmer u.m."
     },
     {
-      "color": "#cd9c00",
+      "color": "#923F8D",
       "index": 1,
       "type": "scatter",
       "yAxis": 1,
-      "shadow": true,
+      "connectNulls": true,
       "tooltip": {
-        "valueDecimals": 1
+        "valueDecimals": 1,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -148,7 +150,7 @@
           29.233067729083
         ]
       ],
-      "name": "Anteil in Prozent"
+      "name": "Anteil am Gesamtbestand (rechte Skala)"
     }
   ],
   "chart": {
@@ -188,7 +190,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -203,7 +205,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern"
+    "text": "Wohnungen mit 4 oder mehr Zimmern"
   },
   "subtitle": {
     "style": {
@@ -291,7 +293,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
   },
   "legend": {
     "symbolRadius": 0,
@@ -302,9 +304,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"
-  },
-  "tooltip": {
-    "shared": false
   },
   "exporting": {
     "filename": 4146
