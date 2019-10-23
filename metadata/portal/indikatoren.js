@@ -2407,24 +2407,24 @@ var indikatoren = [
 		"id": 4145
 	},
 	{
-		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.1.4146",
 		"kuerzelKunde": "2.1.A",
-		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+		"description": "Wohnungen mit 4 oder mehr Zimmern",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-29T11:34:07.077",
+		"aktualisierungsdatum": "2019-10-21T15:13:01.011",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 (1,9 Prozentpunkte) zu. Danach war ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Danach war ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2432,8 +2432,12 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"6391"
+		],
+		"renderLink": [
+			"6391"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -2458,7 +2462,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T09:16:13.1313",
+		"aktualisierungsdatum": "2019-10-21T15:14:01.011",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -2477,9 +2481,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
+		"data-id": 4147,
+		"chart-id": 4147,
+		"filter": "",
 		"id": 4147
 	},
 	{
@@ -5259,7 +5267,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
@@ -5269,7 +5277,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-16T14:52:16.1616",
+		"aktualisierungsdatum": "2019-10-21T15:11:37.3737",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -6211,8 +6219,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
-		"subtitle": "",
-		"kuerzel": "I.17.3.04871",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.17.3.4871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
@@ -6221,15 +6229,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-23T06:19:38.3838",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
 		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
@@ -6240,11 +6250,14 @@ var indikatoren = [
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4871,
-		"darstellungsart": "Grafik"
+		"data-id": 4871,
+		"chart-id": 4871,
+		"filter": "",
+		"id": 4871
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
@@ -7692,7 +7705,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -7702,7 +7715,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:54:57.5757",
+		"aktualisierungsdatum": "2019-10-21T15:12:15.1515",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -13351,14 +13364,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:08:28.2828",
+		"aktualisierungsdatum": "2019-10-21T15:15:56.5656",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt. 2017 allerdings gingen die Staatsausgaben um 8,1% zurück.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13373,9 +13386,13 @@ var indikatoren = [
 			"BAK Economics",
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6205,
+		"chart-id": 6205,
+		"filter": "",
 		"id": 6205
 	},
 	{
@@ -14056,7 +14073,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2018",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich",
 		"kuerzel": "I.04.2.6348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
@@ -14066,13 +14083,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:15:36.3636",
+		"aktualisierungsdatum": "2019-10-21T15:16:13.1313",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,88 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 2,07 vor Zug, Zürich und Aargau auf dem ersten Rang aller Kantone. 2018 lag Basel-Stadt noch auf Rang vier. Der Sprung auf den ersten Rang 2019 wird mit der markanten Senkung der Unternehmenssteuer begründet.",
 		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -14696,7 +14713,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.06383",
 		"kuerzelKunde": "C3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -14706,14 +14723,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-10-21T17:53:51.5151",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 61 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z.B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn).",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -14742,7 +14759,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.06384",
 		"kuerzelKunde": "C3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -14752,14 +14769,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-10-21T17:54:29.2929",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 560 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -15175,7 +15192,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.06395",
 		"kuerzelKunde": "K3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -15185,14 +15202,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-10-21T17:55:37.3737",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 61 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z.B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn).",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -15219,7 +15236,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.03.2.06396",
 		"kuerzelKunde": "K3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -15229,14 +15246,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2019-10-21T17:56:05.055",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 560 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -24664,13 +24681,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-22T17:18:10.1010",
+		"aktualisierungsdatum": "2019-10-21T15:14:47.4747",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 gibt es im Kanton Basel-Stadt 300 Arztpraxen von Grundversorgern, 534 Spezialarztpraxen und 126 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 154 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als fünf Jahre zuvor.",
+		"lesehilfe": "Im Jahr 2017 gibt es im Kanton Basel-Stadt 275 Arztpraxen von Grundversorgern, 561 Spezialarztpraxen und 122 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 181 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als sechs Jahre zuvor.",
 		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24907,7 +24924,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-24T08:44:46.4646",
+		"aktualisierungsdatum": "2019-10-23T06:24:55.5555",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -26260,7 +26277,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
+		"subtitle": "Basel-Stadt, September",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -26271,14 +26288,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-09-24T08:43:10.1010",
+		"aktualisierungsdatum": "2019-10-23T06:30:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im August 2019 nahm die Bevölkerung des Kantons Basel-Stadt gegenüber Juli um 42 Personen auf 200 298 zu.",
-		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die aktuelle Einwohnerzahl (Punkte) und deren Veränderung gegenüber dem Vormonat (Flächen).",
+		"lesehilfe": "Absolut betrachtet nahm im September 2019 die Bevölkerung im Quartier Bachletten gegenüber dem Vormonat am meisten zu (+83). Dagegen sank sie in Riehen um 36 Personen.",
+		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",

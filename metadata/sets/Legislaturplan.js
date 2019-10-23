@@ -2568,14 +2568,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T12:08:28.2828",
+		"aktualisierungsdatum": "2019-10-21T15:15:56.5656",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt. 2017 allerdings gingen die Staatsausgaben um 8,1% zurück.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2589,9 +2589,13 @@ var indikatorensetData = [
 			"BAK Economics",
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6205,
+		"chart-id": 6205,
+		"filter": "",
 		"id": 6205
 	},
 	{
@@ -3042,7 +3046,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2018",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich",
 		"kuerzel": "I.04.2.6348",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
@@ -3052,13 +3056,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:15:36.3636",
+		"aktualisierungsdatum": "2019-10-21T15:16:13.1313",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 0,88 hinter Zug, Zürich und Aargau auf dem vierten Rang aller Kantone.",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 2,07 vor Zug, Zürich und Aargau auf dem ersten Rang aller Kantone. 2018 lag Basel-Stadt noch auf Rang vier. Der Sprung auf den ersten Rang 2019 wird mit der markanten Senkung der Unternehmenssteuer begründet.",
 		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

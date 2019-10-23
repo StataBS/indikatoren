@@ -1,8 +1,123 @@
 {
   "series": [
     {
-      "name": "Standortqualität",
+      "color": "#008AC3",
       "data": [
+        [
+          "BS",
+          2.07
+        ],
+        [
+          "ZG",
+          2.05
+        ],
+        [
+          "ZH",
+          1.35
+        ],
+        [
+          "AG",
+          0.84
+        ],
+        [
+          "NW",
+          0.61
+        ],
+        [
+          "SZ",
+          0.59
+        ],
+        [
+          "LU",
+          0.54
+        ],
+        [
+          "VD",
+          0.24
+        ],
+        [
+          "AR",
+          0.19
+        ],
+        [
+          "TG",
+          0.13
+        ],
+        [
+          "BL",
+          0.09
+        ],
+        [
+          "OW",
+          0.04
+        ],
+        [
+          "SH",
+          0.03
+        ],
+        [
+          "GE",
+          0.02
+        ],
+        [
+          "SG",
+          -0.29
+        ],
+        [
+          "AI",
+          -0.3
+        ],
+        [
+          "SO",
+          -0.31
+        ],
+        [
+          "BE",
+          -0.72
+        ],
+        [
+          "NE",
+          -0.74
+        ],
+        [
+          "UR",
+          -0.83
+        ],
+        [
+          "GL",
+          -0.95
+        ],
+        [
+          "TI",
+          -1
+        ],
+        [
+          "FR",
+          -1.06
+        ],
+        [
+          "GR",
+          -1.17
+        ],
+        [
+          "VS",
+          -1.67
+        ],
+        [
+          "JU",
+          -1.92
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          "BS",
+          0.88
+        ],
         [
           "ZG",
           2.21
@@ -14,10 +129,6 @@
         [
           "AG",
           0.97
-        ],
-        [
-          "BS",
-          0.88
         ],
         [
           "NW",
@@ -32,6 +143,10 @@
           0.7
         ],
         [
+          "VD",
+          -0.48
+        ],
+        [
           "AR",
           0.32
         ],
@@ -40,12 +155,12 @@
           0.27
         ],
         [
-          "OW",
-          0.22
-        ],
-        [
           "BL",
           0.18
+        ],
+        [
+          "OW",
+          0.22
         ],
         [
           "SH",
@@ -56,28 +171,24 @@
           0.06
         ],
         [
-          "AI",
-          -0.07
-        ],
-        [
           "SG",
           -0.17
+        ],
+        [
+          "AI",
+          -0.07
         ],
         [
           "SO",
           -0.21
         ],
         [
-          "VD",
-          -0.48
+          "BE",
+          -0.66
         ],
         [
           "NE",
           -0.57
-        ],
-        [
-          "BE",
-          -0.66
         ],
         [
           "UR",
@@ -108,6 +219,7 @@
           -1.84
         ]
       ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -125,7 +237,10 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": -90,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+}
     },
     "tickLength": 0
   },
@@ -172,11 +287,10 @@
         "style": {
           "fontSize": "10px"
         }
-      }
+      },
+      "pointPadding": 0
     },
-    "column": {
-      "colorByPoint": true
-    }
+    "column": {}
   },
   "title": {
     "style": {
@@ -194,7 +308,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, 2018",
+    "text": "Basel-Stadt im kantonalen Vergleich",
     "align": "left"
   },
   "yAxis": {
@@ -234,47 +348,19 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
+    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
     "x": 35
   },
-  "colors": [
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA"
-  ],
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

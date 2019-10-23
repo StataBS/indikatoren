@@ -2141,7 +2141,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil der Beschäftigten in innovativen Branchen",
-		"subtitle": "an der gesamten Beschäftigung (in Vollzeitäquivalenten)",
+		"subtitle": "an der gesamten Beschäftigung (in Vollzeitäquivalenten), Basel-Stadt",
 		"kuerzel": "I.03.2.06048",
 		"kuerzelKunde": "WE4",
 		"description": "Anteil der Beschäftigten in innovativen Branchen",
@@ -2151,15 +2151,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-21T15:15:34.3434",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt waren 2015 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in Industriebranchen.",
-		"erlaeuterungen": "Als innovative Branchen gelten (NOGA 2-Steller in Klammer): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72).",
+		"lesehilfe": "Insgesamt waren 2017 rund 16% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige NOGA in Klammern): <br><i>im Dienstleistungssektor</i>: Forschung und Entwicklung (72); <i>im Industriesektor</i>: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33). <br>Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "06_01_00_00_00_604",
 		"parentId": 6141,
 		"children": [],
@@ -2167,11 +2169,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6048,
-		"darstellungsart": "Grafik"
+		"data-id": 6141,
+		"chart-id": 6048,
+		"filter": "",
+		"id": 6048
 	},
 	{
 		"title": "Aufwendungen für Forschung und Entwicklung",

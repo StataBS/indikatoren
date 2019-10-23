@@ -62,27 +62,30 @@
       "pointWidth": "10"
     },
     {
-      "color": "#cd9c00",
+      "color": "#923F8D",
       "index": 1,
       "type": "scatter",
       "yAxis": 1, 
-      shadow: true,
+      //shadow: true,
+      connectNulls: true,
       tooltip: {
-        valueDecimals: 1
+        valueDecimals: 1,
+        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+        pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}%</b><br/>',
       }
     }
   ],  
-  "tooltip": {
-    "shared": false
-  },
+  //"tooltip": {
+    //"shared": false
+  //},
   "chart": {
     "type": "line"
   },
   plotOptions: 
-  {
+  { 
     series: 
     {
-      borderWidth: 1  
+      borderWidth: 0  
     }
   }
 	}
