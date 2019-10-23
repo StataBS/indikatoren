@@ -8,7 +8,7 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Wohnraumentwicklung",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-18T09:16:13.1313",
+"aktualisierungsdatum":"2019-10-21T15:14:01.011",
 "stufe1":"Ziel 2: Fiskalpolitik",
 "stufe2":"2.1 Grosszügiger Wohnraum",
 "stufe3":"",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Steuerstatistik"],
-"externalLinks":["Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."]
+"datenInChartIntegriert":false,
+"externalLinks":["Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."],
+"data-id":4147, 
+"chart-id":4147, 
+"filter":""
 }

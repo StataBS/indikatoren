@@ -2,16 +2,20 @@
     return {
   "plotOptions": {
   	   series: {
+         pointPadding: 0
           //pointWidth: 5, 
         },
     "column": {
-        "colorByPoint": true
+     
     }
   },
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "rotation": -90,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+}
     } 
   },
   "yAxis": {
@@ -21,8 +25,14 @@
   },
   
   series: [{
-    name: 'Kanton'
-  }],
+    
+    "color":'#008AC3'
+  },
+  {
+    
+    "color":'#A0BEC8'
+  }    
+    ],
 
   /*"series": [
            function() {
@@ -35,37 +45,8 @@
             }, 
   {"color": "col", "visible": true}, 
   ],*/
-
-  "colors": [
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#689199",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",        
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA", 
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-    "#A8C3CA",
-  ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

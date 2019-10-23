@@ -8,14 +8,14 @@
 "unterthema":"Staatsrechnung",
 "kennzahlenset":"Legislaturplan",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-08T12:08:28.2828",
+"aktualisierungsdatum":"2019-10-21T15:15:56.5656",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt.",
-"erlaeuterungen":"Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
+"lesehilfe":"Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt. 2017 allerdings gingen die Staatsausgaben um 8,1% zurück.",
+"erlaeuterungen":"Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 "template":"line001",
 "darstellungsart":"Grafik",
 "printformat":"", 
@@ -26,5 +26,9 @@
 "children":["6335"],
 "renderLink":[],
 "quellenangabe":["BAK Economics","Eidgenössische Finanzverwaltung"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6205, 
+"chart-id":6205, 
+"filter":""
 }

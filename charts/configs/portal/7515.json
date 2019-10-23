@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          1533088800000,
-          24
-        ],
-        [
           1535767200000,
           17
         ],
@@ -55,6 +51,10 @@
         [
           1564624800000,
           -66
+        ],
+        [
+          1567303200000,
+          -71
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -63,10 +63,6 @@
       "color": "#923F8D",
       "visible": true,
       "data": [
-        [
-          1533088800000,
-          111
-        ],
         [
           1535767200000,
           543
@@ -114,6 +110,10 @@
         [
           1564624800000,
           189
+        ],
+        [
+          1567303200000,
+          363
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -122,10 +122,6 @@
       "color": "#C8C8C8",
       "visible": true,
       "data": [
-        [
-          1533088800000,
-          353
-        ],
         [
           1535767200000,
           -295
@@ -173,6 +169,10 @@
         [
           1564624800000,
           -81
+        ],
+        [
+          1567303200000,
+          -28
         ]
       ],
       "name": "Bereinigungen"
@@ -309,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-23"
   },
   "legend": {
     "symbolRadius": 0,

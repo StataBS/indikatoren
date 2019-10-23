@@ -750,32 +750,36 @@ var indikatorensetData = [
 		"id": 4145
 	},
 	{
-		"title": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.1.4146",
 		"kuerzelKunde": "2.1.A",
-		"description": "Anzahl und Anteil Wohnungen mit 4 oder mehr Zimmern",
+		"description": "Wohnungen mit 4 oder mehr Zimmern",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-29T11:34:07.077",
+		"aktualisierungsdatum": "2019-10-21T15:13:01.011",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 (1,9 Prozentpunkte) zu. Danach war ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Danach war ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"6391"
+		],
+		"renderLink": [
+			"6391"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -800,7 +804,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T09:16:13.1313",
+		"aktualisierungsdatum": "2019-10-21T15:14:01.011",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
@@ -818,9 +822,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
 		],
+		"data-id": 4147,
+		"chart-id": 4147,
+		"filter": "",
 		"id": 4147
 	},
 	{

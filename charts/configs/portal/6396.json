@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          554.04556
+          542.20077
         ],
         [
           2,
-          560.47391
+          574.69591
         ],
         [
           3,
-          135.08478
+          129.27845
         ],
         [
           4,
-          17.983438
+          17.991914
         ],
         [
           5,
-          288.83076
+          295.08873
         ],
         [
           6,
-          74.561729
+          74.281311
         ],
         [
           7,
-          20.330148
+          20.03245
         ],
         [
           8,
-          28.099845
+          28.426734
         ],
         [
           9,
-          37.955244
+          36.691795
         ],
         [
           10,
-          21.807937
+          21.496825
         ],
         [
           11,
-          124.27231
+          122.79979
         ],
         [
           12,
-          209.97596
+          206.20942
         ],
         [
           13,
-          85.085757
+          81.75808
         ],
         [
           14,
-          220.27266
+          233.45389
         ],
         [
           15,
-          40.888407
+          39.040361
         ],
         [
           16,
-          83.424908
+          79.342723
         ],
         [
           17,
-          24.846202
+          24.529015
         ],
         [
           18,
-          56.442655
+          53.935217
         ],
         [
           19,
-          263.67093
+          262.23629
         ],
         [
           20,
-          23.827437
+          22.708099
         ],
         [
           30,
-          46.302521
+          43.324937
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          14106
+          14043
         ],
         [
           "Vorstädte",
-          28147
+          28821
         ],
         [
           "Am Ring",
-          14500
+          13975
         ],
         [
           "Breite",
-          1607
+          1602
         ],
         [
           "St. Alban",
-          31471
+          32926
         ],
         [
           "Gundeldingen",
-          14078
+          13979
         ],
         [
           "Bruderholz",
-          1872
+          1852
         ],
         [
           "Bachletten",
-          3805
+          3845
         ],
         [
           "Gotthelf",
-          2595
+          2531
         ],
         [
           "Iselin",
-          3638
+          3622
         ],
         [
           "St. Johann",
-          23311
+          22939
         ],
         [
           "Altstadt Kleinbasel",
-          5241
+          5081
         ],
         [
           "Clara",
-          3423
+          3339
         ],
         [
           "Wettstein",
-          12441
+          12910
         ],
         [
           "Hirzbrunnen",
-          3774
+          3637
         ],
         [
           "Rosental",
-          5466
+          5239
         ],
         [
           "Matthäus",
-          3958
+          3893
         ],
         [
           "Klybeck",
-          4065
+          3913
         ],
         [
           "Kleinhüningen",
-          7628
+          7458
         ],
         [
           "Riehen",
-          5004
+          4845
         ],
         [
           "Bettingen",
-          551
+          516
         ]
       ],
       "name": "Anzahl Beschäftigte"
@@ -7076,7 +7076,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {
@@ -7092,7 +7092,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
   },
   "colorAxis": {
     "min": 0,

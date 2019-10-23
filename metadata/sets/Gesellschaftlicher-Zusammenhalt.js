@@ -1105,8 +1105,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
-		"subtitle": "",
-		"kuerzel": "I.17.3.04871",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.17.3.4871",
 		"kuerzelKunde": "3.3.02",
 		"description": "Wahlbeteiligung an National- und Grossratswahlen",
 		"thema": "17 Politik",
@@ -1115,15 +1115,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-01-18T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-23T06:19:38.3838",
 		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen liegt die Wahlbeteiligung im Stadtkanton rund 10 Prozentpunkte höher als bei den Wahlen ins kantonale Parlament.",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
 		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "03_03_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -1133,11 +1135,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4871,
-		"darstellungsart": "Grafik"
+		"data-id": 4871,
+		"chart-id": 4871,
+		"filter": "",
+		"id": 4871
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",

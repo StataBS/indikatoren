@@ -1,11 +1,13 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 2
+    type: "category",
+    "tickInterval": 2,
+    //ShowLastLabel: true
   },
   "yAxis": {
   	min: 80,
-  	max: 180,
+  	//max: 180,
   	tickInterval: 20, 
 	"labels": {
 		"format": "{value:,.0f}"

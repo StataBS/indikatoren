@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          -0.23392
+          0.66432
         ],
         [
           2,
-          0.0599
+          1.11754
         ],
         [
           3,
-          0.27139
+          0.31577
         ],
         [
           4,
-          -0.06656
+          0.111
         ],
         [
           5,
-          0.31034
+          0.1461
         ],
         [
           6,
-          0.21875
+          0.12777
         ],
         [
           7,
-          0.19169
+          -0.15944
         ],
         [
           8,
-          -0.02202
+          0.60935
         ],
         [
           9,
-          0.23269
+          -0.07255
         ],
         [
           10,
-          -0.21275
+          0.19544
         ],
         [
           11,
-          -0.3691
+          -0.08054
         ],
         [
           12,
-          -0.61375
+          0.24702
         ],
         [
           13,
-          0.02473
+          0.39555
         ],
         [
           14,
-          -0.30488
+          0.39575
         ],
         [
           15,
-          -0.61499
+          -0.18137
         ],
         [
           16,
-          1.06383
+          0.84757
         ],
         [
           17,
-          -0.1882
+          -0.15605
         ],
         [
           18,
-          -0.17938
+          -0.27647
         ],
         [
           19,
-          0.07135
+          0.10695
         ],
         [
           20,
-          0.3413
+          -0.16774
         ],
         [
           30,
-          -0.25316
+          1.01523
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          2559
+          2576
         ],
         [
           "Vorstädte",
-          5011
+          5067
         ],
         [
           "Am Ring",
-          11084
+          11119
         ],
         [
           "Breite",
-          9009
+          9019
         ],
         [
           "St. Alban",
-          11636
+          11653
         ],
         [
           "Gundeldingen",
-          18784
+          18808
         ],
         [
           "Bruderholz",
-          9408
+          9393
         ],
         [
           "Bachletten",
-          13621
+          13704
         ],
         [
           "Gotthelf",
-          6892
+          6887
         ],
         [
           "Iselin",
-          16885
+          16918
         ],
         [
           "St. Johann",
-          18625
+          18610
         ],
         [
           "Altstadt Kleinbasel",
-          2429
+          2435
         ],
         [
           "Clara",
-          4045
+          4061
         ],
         [
           "Wettstein",
-          5559
+          5581
         ],
         [
           "Hirzbrunnen",
-          9373
+          9356
         ],
         [
           "Rosental",
-          7315
+          7377
         ],
         [
           "Matthäus",
-          15380
+          15356
         ],
         [
           "Klybeck",
-          7234
+          7214
         ],
         [
           "Kleinhüningen",
-          2805
+          2808
         ],
         [
           "Riehen",
-          21462
+          21426
         ],
         [
           "Bettingen",
-          1182
+          1194
         ]
       ],
       "name": "Anzahl Einwohner"
@@ -7094,7 +7094,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, August",
+    "text": "Basel-Stadt, September",
     "align": "left"
   },
   "credits": {
@@ -7110,7 +7110,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-23"
   },
   "colorAxis": {
     "min": -1.5,
