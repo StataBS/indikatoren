@@ -6747,7 +6747,7 @@
 	{
 		"title": "Nettoverschuldungsquotient",
 		"subtitle": "des Kantons Basel-Stadt",
-		"kuerzel": "I.04.2.04361",
+		"kuerzel": "I.04.2.4361",
 		"kuerzelKunde": "W10",
 		"description": "Nettoverschuldungsquotient",
 		"thema": "04 Volkswirtschaft",
@@ -6756,15 +6756,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "2019-10-25T13:26:41.4141",
 		"stufe1": "Wirtschaft",
 		"stufe2": "W10: Öffentlicher Haushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Nettoverschuldungsquotient des Kantons Basel-Stadt sank von 171,44% im Jahr 2003 auf 65,89% im Jahr 2015.",
+		"lesehilfe": "Der Nettoverschuldungsquotient des Kantons Basel-Stadt sank von 171,5% im Jahr 2003 auf 65,9% im Jahr 2017.",
 		"erlaeuterungen": "Der Nettoverschuldungsquotient gibt an, welcher Anteil der jährlichen Fiskalerträge erforderlich wäre, um die Nettoschulden abzutragen. Er wird berechnet, indem die Nettoschulden I durch die Fiskalerträge dividiert werden. (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>). Bis zum Jahr 2011 wurde für Basel-Stadt zur Berechnung das alte Harmonisierte Rechnungslegungsmodell (HRM1) verwendet, ab 2013 das neue Modell HRM2.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_28_00_00_00_400",
 		"parentId": null,
@@ -6773,11 +6775,14 @@
 		"quellenangabe": [
 			"Finanzverwaltung Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4361,
-		"darstellungsart": "Grafik"
+		"data-id": 4361,
+		"chart-id": 4361,
+		"filter": "",
+		"id": 4361
 	},
 	{
 		"title": "Verkehrsberuhigte Zonen",
