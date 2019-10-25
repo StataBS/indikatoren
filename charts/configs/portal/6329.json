@@ -216,6 +216,7 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
+    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
     "tickLength": 0,
@@ -227,11 +228,11 @@
     "labels": {
       "rotation": -45,
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
-        "textOverflow": "none",
-        "fontSize": "10px"
+        "textOverflow": "none"
       },
       "formatter": function() {
               	 return this.value;
@@ -241,25 +242,23 @@
   },
   "chart": {
     "events": {
-      "load": function() {
-                this.credits.element.onclick = function() {};
-                //square legends must be placed 3 pixels more to the left that lines, don't know why
-                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-                
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
                     }
-                  }
-                );
-              }                              
-            }
+                }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
+    "type": "column",
     "width": 320,
     "height": 221,
     "spacing": [
@@ -268,72 +267,78 @@
       2,
       2
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "style": {
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "zoomType": "xy",
-    "type": "column",
     "renderTo": "container-6329",
     "inverted": false,
     "spacingBottom": 22
   },
-  "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt"
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "plotOptions": {
     "series": {
+      "stacking": "normal",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "stacking": "normal",
       "pointPadding": 100,
       "pointWidth": 20
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
+  "title": {
+    "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
+  },
+  "subtitle": {
+    "text": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt"
+  },
   "yAxis": {
+    "type": "category",
     "tickInterval": 2500,
+    "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": 10
-      },
-      "text": ""
+      "text": null
     },
     "labels": {
       "y": 3,
       "format": "{value:,.0f}",
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
-        "fontSize": "10px"
+        "textOverflow": "none"
       }
     }
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "itemWidth": 120
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -342,37 +347,15 @@
   },
   "credits": {
     "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
     "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
       "y": -35
     },
     "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
   },
-  "legend": {
-    "padding": 0,
-    "itemMarginBottom": 2,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "useHTML": true,
-    "itemStyle": {
-      "fontSize": "10px",
-      "fontFamily": "Arial",
-      "fontWeight": "normal"
-    },
-    "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        },
-    "enabled": true,
-    "itemWidth": 120
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
   },
   "exporting": {
     "filename": 6329
