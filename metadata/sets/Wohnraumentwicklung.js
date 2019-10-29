@@ -35,7 +35,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mietpreisentwicklung",
-		"subtitle": "Wohnungen nach Zimmerzahl, Basel-Stadt",
+		"subtitle": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
 		"kuerzel": "I.09.3.4128",
 		"kuerzelKunde": "0.1.B-1",
 		"description": "Mietpreisentwicklung",
@@ -45,14 +45,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-12-04T09:38:44.4444",
+		"aktualisierungsdatum": "2019-10-29T11:52:38.3838",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2008 ist bei allen Zimmerkategorien eine steigende Tendenz der Mietpreise (Nettomieten) zu beobachten.",
-		"erlaeuterungen": "Es handelt sich hier im Gegensatz zu den Mietpreisen der Leerwohnungen um Bestandsmieten.<br/>Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
+		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Jahr 2006 im Durchschnitt 2 017 Franken, im Jahr 2019 betrug der Durchschnittspreis 2 224 Franken.",
+		"erlaeuterungen": "Es handelt sich in der Abbildung um Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
