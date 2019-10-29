@@ -59,6 +59,10 @@
         [
           "2018",
           666
+        ],
+        [
+          "2019",
+          675
         ]
       ],
       "name": "1 Zimmer",
@@ -123,6 +127,10 @@
         [
           "2018",
           970
+        ],
+        [
+          "2019",
+          986
         ]
       ],
       "name": "2 Zimmer",
@@ -187,6 +195,10 @@
         [
           "2018",
           1198
+        ],
+        [
+          "2019",
+          1210
         ]
       ],
       "name": "3 Zimmer",
@@ -251,6 +263,10 @@
         [
           "2018",
           1607
+        ],
+        [
+          "2019",
+          1628
         ]
       ],
       "name": "4 Zimmer",
@@ -315,6 +331,10 @@
         [
           "2018",
           2202
+        ],
+        [
+          "2019",
+          2224
         ]
       ],
       "name": "5 Zimmer",
@@ -379,12 +399,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnungen nach Zimmerzahl, Basel-Stadt",
+    "text": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -419,7 +439,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-29"
   },
   "legend": {
     "enabled": true,
