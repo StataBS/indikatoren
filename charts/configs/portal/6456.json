@@ -42,6 +42,10 @@
         [
           "2016",
           9910
+        ],
+        [
+          "2017",
+          9439
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -89,6 +93,10 @@
         [
           "2016",
           19008
+        ],
+        [
+          "2017",
+          19597
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -136,6 +144,10 @@
         [
           "2016",
           5749
+        ],
+        [
+          "2017",
+          5766
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -183,6 +195,10 @@
         [
           "2016",
           6254
+        ],
+        [
+          "2017",
+          6419
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -288,7 +304,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-31"
   },
   "legend": {
     "enabled": true,

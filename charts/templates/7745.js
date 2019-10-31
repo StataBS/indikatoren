@@ -7,13 +7,13 @@
     "min": 0, 
 	"labels": {
 		"formatter": function(){
-            return Highcharts.numberFormat((this.value*100),0)+'%'; 
+            return Highcharts.numberFormat((this.value*100),0); 
           }
 	}
   },	
   tooltip: {
     "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name.replace("BS", "Basel-Stadt") .replace("KB", "Kleinbasel") + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name.replace("BS", "Basel-Stadt") .replace("KB", "Kleinbasel") + ': <b>' + Highcharts.numberFormat((this.y*100),1) + ' </b><br/><b>'
         
     }  
 

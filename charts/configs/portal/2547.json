@@ -42,6 +42,10 @@
         [
           "2016",
           151362
+        ],
+        [
+          "2017",
+          151198
         ]
       ],
       "name": "BS",
@@ -89,6 +93,10 @@
         [
           "2016",
           117336
+        ],
+        [
+          "2017",
+          118121
         ]
       ],
       "name": "BL",
@@ -136,6 +144,10 @@
         [
           "2016",
           265251
+        ],
+        [
+          "2017",
+          267499
         ]
       ],
       "name": "AG",
@@ -183,6 +195,10 @@
         [
           "2016",
           787274
+        ],
+        [
+          "2017",
+          796714
         ]
       ],
       "name": "ZH",
@@ -287,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
   },
   "legend": {
     "enabled": true,

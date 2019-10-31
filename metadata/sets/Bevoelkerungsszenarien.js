@@ -625,7 +625,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "",
 		"kuerzel": "I.01.9.07738",
 		"kuerzelKunde": "4-6",
 		"description": "Altersquotient",
@@ -633,16 +633,17 @@ var indikatorensetData = [
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
-			"Kanton"
+			"Kanton",
+			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
+		"aktualisierungsdatum": "2019-10-30T16:18:41.4141",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4% im Jahr 2018 auf 33,9% im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Altersquotient berechnet sich als Verhältnis der über 64-jährigen Personen an den 20- bis 64-jährigen Personen.",
+		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4 im Jahr 2018 auf 33,9 im Jahr 2040.",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -655,7 +656,8 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>",
+			""
 		],
 		"data-id": 7738,
 		"chart-id": 7738,
