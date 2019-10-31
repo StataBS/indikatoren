@@ -42,6 +42,10 @@
         [
           "2016",
           8148
+        ],
+        [
+          "2017",
+          7888
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -89,6 +93,10 @@
         [
           "2016",
           19030
+        ],
+        [
+          "2017",
+          18872
         ]
       ],
       "name": "Chemie, Pharma",
@@ -136,6 +144,10 @@
         [
           "2016",
           7774
+        ],
+        [
+          "2017",
+          7538
         ]
       ],
       "name": "Baugewerbe",
@@ -239,7 +251,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
   },
   "legend": {
     "enabled": true,

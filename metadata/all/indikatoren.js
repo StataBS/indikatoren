@@ -1023,13 +1023,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
+		"aktualisierungsdatum": "2019-10-30T12:52:51.5151",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2016 in Vollzeitäquivalente (VZÄ) umgerechnet 19 030 Beschäftigte tätig, was einem Wachstum von 0,9% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum kaum verändert, während das Baugewerbe einen Rückgang um 0,7% verzeichnet.",
+		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2017 in Vollzeitäquivalente (VZÄ) umgerechnet 18 872 Beschäftigte tätig, was einem Rückgang um 0,8% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 3,2% und im Baugewerbe um 3,0% reduziert.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1065,13 +1065,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
+		"aktualisierungsdatum": "2019-10-30T12:53:11.1111",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2015 und 2016 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit 4,0%, Information und Kommunikation mit 3,5% und im Gastgewerbe mit 2,7%.",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2016 und 2017 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 1,1%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit 3,2% sowie Information und Kommunikation mit 1,5%. Das Gastgewerbe verzeichnet einen Anstieg um 0,9%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1107,13 +1107,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
+		"aktualisierungsdatum": "2019-10-30T12:53:49.4949",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt sind 2016 190 681 Beschäftigte tätig, was 151 362 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert. Der Kanton Basel-Landschaft verzeichnet einen Rückgang der VZÄ um 0,2%, Zürich und Aargau registrieren einen Anstieg um 1,0% bzw. 1,1%.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind 2017 190 966 Beschäftigte tätig, was 151 198 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert (-0,1%). Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 0,7%, die Kantone Zürich und Aargau um 1,2% bzw. 0,8%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -7476,7 +7476,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-05T12:16:17.1717",
+		"aktualisierungsdatum": "2019-10-30T16:19:05.055",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7564,7 +7564,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:23:00.000",
+		"aktualisierungsdatum": "2019-10-30T16:19:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -13953,9 +13953,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -13965,7 +13965,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "06_01_00_00_00_601",
+		"orderKey": "02_00_00_00_00_601",
 		"parentId": 6124,
 		"children": [],
 		"renderLink": [],
@@ -13976,8 +13976,8 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6124,
-		"chart-id": 6124,
+		"data-id": 6045,
+		"chart-id": 6045,
 		"filter": "",
 		"id": 6045
 	},
@@ -15788,7 +15788,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
+		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -25518,13 +25518,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:15.1515",
+		"aktualisierungsdatum": "2019-10-30T12:54:48.4848",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 beträgt die Beschäftigung bei den Frauen 63 877 Vollzeitäquivalente (VZÄ) bzw. 90 571 Beschäftigte, was einem Zuwachs um 443 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 503 VZÄ auf 87 484 VZÄ (100 110 Beschäftigte) gesunken.",
+		"lesehilfe": "Im Jahr 2017 beträgt die Beschäftigung bei den Frauen 64 168 Vollzeitäquivalente (VZÄ) bzw. 90 848 Beschäftigte, was einem Zuwachs um 291 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 454 VZÄ auf 87 030 VZÄ (100 118 Beschäftigte) gesunken.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -25560,13 +25560,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
+		"aktualisierungsdatum": "2019-10-30T12:55:17.1717",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die 190 681 Beschäftigten aus dem Jahr 2016 entsprechen umgerechnet 151 362  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"lesehilfe": "Die 190 966 Beschäftigten aus dem Jahr 2017 entsprechen umgerechnet 151 198  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25602,13 +25602,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
+		"aktualisierungsdatum": "2019-10-31T08:38:43.4343",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und -überlassung verzeichnen zwischen 2015 und 2016 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 0,8% bzw. 2,8%. Die Finanz- und Versicherungsdienstleistungen sowie die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 3,0% bzw. 0,5% auf.",
+		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und -überlassung verzeichnen zwischen 2016 und 2017 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 3,1% bzw. 2,7%. Auch die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen legt mit 0,3% leicht zu. Die Finanz- und Versicherungsdienstleistungen weisen einen Rückgang um 4,7% auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25644,13 +25644,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
+		"aktualisierungsdatum": "2019-10-30T12:56:06.066",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2016 bei 22 139 Vollzeitäquivalenten (VZÄ), und damit 3,4% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 0,4% bzw. 3,8% zugenommen. Die Branche Kultur, Unterhaltung und persönliche Dienstleistungen verzeichnet einen Rückgang um 0,9%.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2017 bei 22 780 Vollzeitäquivalenten (VZÄ), und damit 2,9% über dem Vorjahreswert. In der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 0,9% zugenommen, in der Branche Öffentliche Verwaltung und Sozialversicherungen um 1,6% abgenommen. Die Beschäftigung in der Branche Erziehung und Unterricht blieb nahezu unverändert.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -28202,7 +28202,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2016",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2017",
 		"kuerzel": "I.03.2.6531",
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
@@ -28212,13 +28212,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
+		"aktualisierungsdatum": "2019-10-30T12:57:03.033",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt von den 151 362 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 36% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 23% ebenfalls tiefer aus als in Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt von den 151 198 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 36% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 23% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -40443,7 +40443,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "",
 		"kuerzel": "I.01.9.07738",
 		"kuerzelKunde": "4-6",
 		"description": "Altersquotient",
@@ -40451,16 +40451,17 @@ var indikatoren = [
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
-			"Kanton"
+			"Kanton",
+			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
+		"aktualisierungsdatum": "2019-10-30T16:18:41.4141",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4% im Jahr 2018 auf 33,9% im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Altersquotient berechnet sich als Verhältnis der über 64-jährigen Personen an den 20- bis 64-jährigen Personen.",
+		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4 im Jahr 2018 auf 33,9 im Jahr 2040.",
+		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -40474,7 +40475,8 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>",
+			""
 		],
 		"data-id": 7738,
 		"chart-id": 7738,
@@ -40733,7 +40735,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-10-30T16:18:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40744,7 +40746,7 @@ var indikatoren = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
@@ -40773,7 +40775,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-10-30T15:43:25.2525",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40784,7 +40786,7 @@ var indikatoren = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "_000",
 		"parentId": null,
 		"children": [],

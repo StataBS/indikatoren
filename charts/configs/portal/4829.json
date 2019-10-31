@@ -279,9 +279,9 @@
       "text": null
     },
     "labels": {
-      "formatter": function(){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
+      "formatter": function () {
+					return Highcharts.numberFormat((this.value * 100), 0);
+				},
       "style": {
         "color": "#000000",
         "textOverflow": "none"
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
   },
   "legend": {
     "enabled": false,
@@ -315,7 +315,7 @@
                 var other_series = args.chart.series[other_series_index];
                 var other_point = other_series.data[this_point_index];
                 return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '</b><br/>' + 
                     'Rang <b>' + other_point.y + '</b>';
             },
     "shared": true
