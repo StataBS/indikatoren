@@ -26,6 +26,10 @@
         [
           2016,
           0.8738822
+        ],
+        [
+          2017,
+          0.8692753
         ]
       ],
       "name": "Männer"
@@ -56,6 +60,10 @@
         [
           2016,
           0.7052739
+        ],
+        [
+          2017,
+          0.7063241
         ]
       ],
       "name": "Frauen"
@@ -86,6 +94,10 @@
         [
           2016,
           0.7937954
+        ],
+        [
+          2017,
+          0.7917547
         ]
       ],
       "name": "Total"
@@ -192,7 +204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
   },
   "legend": {
     "enabled": true,

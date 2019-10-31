@@ -2038,9 +2038,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-25T14:22:18.1818",
-		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Wirtschaftssystem",
+		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2049,7 +2049,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "06_01_00_00_00_601",
+		"orderKey": "02_00_00_00_00_601",
 		"parentId": 6124,
 		"children": [],
 		"renderLink": [],
@@ -2060,8 +2060,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6124,
-		"chart-id": 6124,
+		"data-id": 6045,
+		"chart-id": 6045,
 		"filter": "",
 		"id": 6045
 	},

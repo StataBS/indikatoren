@@ -1920,7 +1920,7 @@
   "tooltip": {
     "shared": false,
     "pointFormatter": function(){
-        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name.replace("BS", "Basel-Stadt") .replace("KB", "Kleinbasel") + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>'
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name.replace("BS", "Basel-Stadt") .replace("KB", "Kleinbasel") + ': <b>' + Highcharts.numberFormat((this.y*100),1) + ' </b><br/><b>'
         
     }
   },
@@ -1940,7 +1940,7 @@
         "color": "#000000"
       },
       "formatter": function(){
-            return Highcharts.numberFormat((this.value*100),0)+'%'; 
+            return Highcharts.numberFormat((this.value*100),0); 
           }
     }
   },
@@ -1969,7 +1969,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
   },
   "legend": {
     "enabled": true,
