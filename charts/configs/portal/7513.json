@@ -206,7 +206,7 @@
         ],
         [
           "Okt",
-          null
+          102.5
         ],
         [
           "Nov",
@@ -318,7 +318,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-1"
   },
   "legend": {
     "enabled": true,

@@ -25,6 +25,7 @@
           },
         },
         "yAxis": {
+          "min": null,
         	"labels": {
         		"format": "{value:,.0f}",
         		"formatter": function(){
@@ -58,7 +59,7 @@
   "chart": {      
     "renderTo": 'container-I.05.1.0001',
     "type": "column",
-    "marginBottom": 80,
+    //"marginBottom": 90,
   }
 	}
 }());
