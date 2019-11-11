@@ -112,7 +112,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Wachstumsbeiträge der aufkommensstärksten Herkunftsmärkte"
+    "text": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte"
   },
   "subtitle": {
     "style": {
@@ -121,7 +121,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -179,7 +179,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-8"
   },
   "legend": {
     "enabled": false,

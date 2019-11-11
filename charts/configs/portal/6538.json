@@ -171,7 +171,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Zimmer je Betrieb, Basel-Stadt",
+    "text": "in Zimmern, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -210,7 +210,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-8"
   },
   "legend": {
     "symbolRadius": 0,
