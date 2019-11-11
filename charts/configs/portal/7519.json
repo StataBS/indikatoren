@@ -110,7 +110,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Marktanteile am Übernachtungsvolumen 2018"
+    "text": "Marktanteile am Übernachtungsvolumen"
   },
   "subtitle": {
     "style": {
@@ -119,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -140,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-8"
   },
   "legend": {
     "layout": "vertical",

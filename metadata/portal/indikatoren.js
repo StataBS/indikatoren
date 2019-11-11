@@ -19585,7 +19585,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Durchschnittliche Betriebsgrösse",
-		"subtitle": "Zimmer je Betrieb, Basel-Stadt",
+		"subtitle": "in Zimmern, Basel-Stadt",
 		"kuerzel": "I.10.1.6538",
 		"kuerzelKunde": "2-2",
 		"description": "Durchschnittliche Betriebsgrösse",
@@ -19595,8 +19595,8 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-11-08T14:07:13.1313",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -19607,9 +19607,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_002",
+		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7973"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -19986,19 +19988,19 @@ var indikatoren = [
 		"id": 6547
 	},
 	{
-		"title": "Wachstumsbeiträge der aufkommensstärksten Herkunftsmärkte",
-		"subtitle": "Basel-Stadt",
+		"title": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.10.1.6549",
 		"kuerzelKunde": "2-15",
-		"description": "Wachstumsbeiträge der aufkommensstärksten Herkunftsmärkte",
+		"description": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-11-08T14:02:43.4343",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -20009,9 +20011,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_015",
+		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7983"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25038,19 +25042,19 @@ var indikatoren = [
 		"id": 7517
 	},
 	{
-		"title": "Marktanteile am Übernachtungsvolumen 2018",
-		"subtitle": "Basel-Stadt",
+		"title": "Marktanteile am Übernachtungsvolumen",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.10.1.07519",
 		"kuerzelKunde": "2-13",
-		"description": "Marktanteile am Übernachtungsvolumen 2018",
+		"description": "Marktanteile am Übernachtungsvolumen",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-11-08T14:04:30.3030",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -25061,9 +25065,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_013",
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7985"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25121,19 +25127,19 @@ var indikatoren = [
 		"id": 7520
 	},
 	{
-		"title": "Logiernächte nach Herkunft und Hotelkategorie 2018",
-		"subtitle": "Basel-Stadt",
+		"title": "Logiernächte nach Herkunft und Hotelkategorie",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.10.1.07522",
 		"kuerzelKunde": "2-16",
-		"description": "Logiernächte nach Herkunft und Hotelkategorie 2018",
+		"description": "Logiernächte nach Herkunft und Hotelkategorie",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-11-08T14:01:54.5454",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -25144,9 +25150,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_016",
+		"orderKey": "01_00_00_00_00_016",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7987"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -25161,19 +25169,19 @@ var indikatoren = [
 		"id": 7522
 	},
 	{
-		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie 2018",
-		"subtitle": "Basel-Stadt",
+		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.10.1.07523",
 		"kuerzelKunde": "2-17",
-		"description": "Logiernächte der Hauptmärkte nach Hotelkategorie 2018",
+		"description": "Logiernächte der Hauptmärkte nach Hotelkategorie",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-11-08T14:00:47.4747",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -25184,9 +25192,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_017",
+		"orderKey": "01_00_00_00_00_017",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7988"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
