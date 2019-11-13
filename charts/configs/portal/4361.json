@@ -30,10 +30,6 @@
         [
           "2015",
           65.87
-        ],
-        [
-          "2017",
-          65.87
         ]
       ],
       "name": "Nettoverschuldungsquotient",
@@ -161,7 +157,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-25"
+    "text": "Quelle: Finanzverwaltung Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "symbolRadius": 0,

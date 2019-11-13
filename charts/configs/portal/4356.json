@@ -30,6 +30,10 @@
         [
           "2015",
           61.12
+        ],
+        [
+          "2017",
+          62.29
         ]
       ],
       "name": "Umbau- und Unterhaltsarbeiten",
@@ -97,16 +101,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ") + "%";
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -166,7 +161,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Bau- und Wohnbaustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "symbolRadius": 0,
