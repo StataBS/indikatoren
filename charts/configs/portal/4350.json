@@ -30,6 +30,10 @@
         [
           "2015",
           308.15
+        ],
+        [
+          "2017",
+          380.33
         ]
       ],
       "name": "Ablauffracht nach ARA",
@@ -132,7 +136,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EProRheno AG;\u003Cbr\u002F\u003EStatistisches Amt Basel-Landschaft.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-12"
   },
   "legend": {
     "enabled": false,
@@ -148,17 +152,6 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 2, ",", " ");
-            }
-            return "";
-          }
       }
     }
   },
