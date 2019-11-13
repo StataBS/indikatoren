@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "dataLabels": {
+      /*"dataLabels": {
         "enabled": true,
           //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
           formatter: function() {
@@ -13,7 +13,7 @@
             }
             return "";
           }
-      }
+      }*/
     }
   },
   "xAxis": {
