@@ -935,14 +935,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:03:39.3939",
+		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

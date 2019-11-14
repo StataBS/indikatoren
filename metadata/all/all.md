@@ -456,7 +456,7 @@ id | visible | visibleInPortal | indikatorenset
 6134 | true | true | Legislaturplan
 6136 | true | true | Legislaturplan
 6137 | true | true | Legislaturplan
-6138 | true | false | Legislaturplan
+6138 | true | true | Legislaturplan
 6140 | true | true | Legislaturplan
 6141 | true | true | Legislaturplan
 6143 | true | false | Legislaturplan
@@ -481,8 +481,8 @@ id | visible | visibleInPortal | indikatorenset
 6165 | true | true | Legislaturplan
 6166 | true | true | Legislaturplan
 6169 | true | true | Legislaturplan
-6170 | true | false | Legislaturplan
-6172 | true | false | Legislaturplan
+6170 | true | true | Legislaturplan
+6172 | true | true | Legislaturplan
 6173 | true | true | Legislaturplan
 6175 | true | true | Legislaturplan
 6176 | true | false | Legislaturplan
@@ -491,7 +491,7 @@ id | visible | visibleInPortal | indikatorenset
 6181 | true | true | Legislaturplan
 6182 | true | true | Legislaturplan
 6183 | true | true | Legislaturplan
-6184 | true | false | Legislaturplan
+6184 | true | true | Legislaturplan
 6185 | true | false | Legislaturplan
 6186 | true | false | Legislaturplan
 6201 | true | true | Legislaturplan

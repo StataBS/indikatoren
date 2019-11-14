@@ -437,7 +437,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-12T09:13:09.099",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",

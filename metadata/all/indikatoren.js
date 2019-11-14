@@ -10997,7 +10997,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-12T09:13:09.099",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -16077,7 +16077,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-05T08:42:26.2626",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16093,15 +16093,7 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5161",
-			"6138",
-			"6170",
-			"6172",
-			"6184",
-			"6288",
-			"6294",
-			"6319",
-			"6320",
-			"6330"
+			"6288"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16324,32 +16316,34 @@ var indikatoren = [
 		"id": 6137
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"title": "Entwicklung der Staatsausgaben für Bildung",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06138",
 		"kuerzelKunde": "3.5",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Bildung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-05T08:42:26.2626",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Bildung» lagen 2017 bei 7&nbsp;704 Franken pro Einwohner.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_006",
-		"parentId": 6131,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6294"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -16358,7 +16352,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6138,
+		"data-id": 6131,
 		"chart-id": 6138,
 		"filter": "",
 		"id": 6138
@@ -17394,32 +17388,34 @@ var indikatoren = [
 		"id": 6169
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06170",
 		"kuerzelKunde": "8.3",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-05T08:42:26.2626",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2017 bei 1&nbsp;532 Franken pro Einwohner.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_003",
-		"parentId": 6131,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6319"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -17428,38 +17424,40 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6170,
+		"data-id": 6131,
 		"chart-id": 6170,
 		"filter": "",
 		"id": 6170
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"title": "Entwicklung der Staatsausgaben für Gesundheit",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06172",
 		"kuerzelKunde": "9.2",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Gesundheit",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-05T08:42:26.2626",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Gesundheit» lagen 2017 bei 2&nbsp;966 Franken pro Einwohner.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_002",
-		"parentId": 6131,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6320"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -17468,7 +17466,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6172,
+		"data-id": 6131,
 		"chart-id": 6172,
 		"filter": "",
 		"id": 6172
@@ -17813,32 +17811,34 @@ var indikatoren = [
 		"id": 6183
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
+		"title": "Entwicklung der Staatsausgaben für Soziale Sicherheit",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06184",
 		"kuerzelKunde": "11.5",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Soziale Sicherheit",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-05T08:42:26.2626",
+		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Soziale Sicherheit» lagen 2017 bei 4&nbsp;716 Franken pro Einwohner.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"orderKey": "11_00_00_00_00_005",
-		"parentId": 6131,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"6330"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
@@ -17847,7 +17847,7 @@ var indikatoren = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6184,
+		"data-id": 6131,
 		"chart-id": 6184,
 		"filter": "",
 		"id": 6184
@@ -18655,14 +18655,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:03:39.3939",
+		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -22237,14 +22237,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:03:39.3939",
+		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
