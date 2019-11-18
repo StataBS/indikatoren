@@ -1,5 +1,5 @@
 {"title":"Übertritte nach der obligatorischen Schulzeit",
-"subtitle":"im Schuljahr 2017/18, Basel-Stadt",
+"subtitle":"im Schuljahr 2018/19, Basel-Stadt",
 "kuerzel":"I.15.1.6039",
 "kuerzelKunde":"GZ6",
 "description":"Übertritte nach der obligatorischen Schulzeit",
@@ -8,13 +8,13 @@
 "unterthema":"Schulen und Schulpersonal",
 "kennzahlenset":"Nachhaltigkeit",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-10-22T11:53:22.2222",
+"aktualisierungsdatum":"2019-11-15T11:31:07.077",
 "stufe1":"Bereich Gesellschaftlicher Zusammenhalt",
 "stufe2":"Chancengerechtigkeit",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
+"lesehilfe":"Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Staatsangehörigkeit (Schweiz/Ausland) und Erstsprache (Deutsch/Fremdsprache).",
 "erlaeuterungen":"Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 "template":"template001",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Erziehungsdepartement Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6039, 
+"chart-id":6039, 
+"filter":""
 }

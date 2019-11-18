@@ -7,9 +7,9 @@
       "legendIndex": 0,
       "tooltip": {
         "shared": false,
-        "pointFormatter": function(){ 
-			return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-				}
+        "pointFormatter": function () {
+              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+            }
       },
       "data": [
         [
@@ -56,7 +56,7 @@
       "legendIndex": 1,
       "tooltip": {
         "shared": false,
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -92,7 +92,7 @@
           5918
         ]
       ],
-      "name": "Bruttolohn der Frauen in Fr.",
+      "name": "Bruttolohn der Frauen",
       "turboThreshold": 0
     },
     {
@@ -103,7 +103,7 @@
       "legendIndex": 2,
       "tooltip": {
         "shared": false,
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
@@ -139,7 +139,7 @@
           6848
         ]
       ],
-      "name": "Bruttolohn der Männer in Fr.",
+      "name": "Bruttolohn der Männer",
       "turboThreshold": 0
     }
   ],
@@ -223,9 +223,9 @@
         "text": null
       },
       "labels": {
-        "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      },
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        },
         "style": {
           "color": "#000000"
         }
@@ -247,7 +247,9 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}",
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + ' Fr.';
+        },
         "style": {
           "color": "#000000"
         }
@@ -273,7 +275,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
   },
   "legend": {
     "enabled": true,

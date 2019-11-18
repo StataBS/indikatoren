@@ -502,7 +502,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, in Franken",
+    "text": "in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -552,7 +552,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
   },
   "legend": {
     "enabled": true,
