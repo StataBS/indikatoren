@@ -31,6 +31,10 @@
         [
           "2016",
           4
+        ],
+        [
+          "2017",
+          4
         ]
       ],
       "name": "Landwirtschaft etc.",
@@ -62,11 +66,15 @@
         ],
         [
           "2015",
-          13265
+          13801
         ],
         [
           "2016",
-          14399
+          14959
+        ],
+        [
+          "2017",
+          17094
         ]
       ],
       "name": "Bau, Herstellung von Waren",
@@ -98,11 +106,15 @@
         ],
         [
           "2015",
-          2069
+          2006
         ],
         [
           "2016",
-          2036
+          2056
+        ],
+        [
+          "2017",
+          2043
         ]
       ],
       "name": "Versorgung und Bildung",
@@ -134,11 +146,15 @@
         ],
         [
           "2015",
-          5071
+          5092
         ],
         [
           "2016",
-          4999
+          4925
+        ],
+        [
+          "2017",
+          4795
         ]
       ],
       "name": "Fahrzeuge, Transport, IT, Gastronomie",
@@ -170,11 +186,15 @@
         ],
         [
           "2015",
-          2802
+          2742
         ],
         [
           "2016",
-          2728
+          2726
+        ],
+        [
+          "2017",
+          2808
         ]
       ],
       "name": "Finanzen und Versicherungen",
@@ -206,11 +226,15 @@
         ],
         [
           "2015",
-          5693
+          5761
         ],
         [
           "2016",
-          5728
+          5791
+        ],
+        [
+          "2017",
+          5615
         ]
       ],
       "name": "Wirtsch. Dienstl. u. Unterhaltung",
@@ -242,11 +266,15 @@
         ],
         [
           "2015",
-          2133
+          2155
         ],
         [
           "2016",
-          2159
+          2160
+        ],
+        [
+          "2017",
+          2173
         ]
       ],
       "name": "Öffentliche Verwaltung",
@@ -282,6 +310,10 @@
         ],
         [
           "2016",
+          52
+        ],
+        [
+          "2017",
           52
         ]
       ],
@@ -411,7 +443,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Volkswirtschaftliche Gesamtrechnung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
   },
   "legend": {
     "symbolRadius": 0,
