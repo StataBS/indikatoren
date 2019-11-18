@@ -268,7 +268,7 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "spacingBottom": 65,
+    "spacingBottom": 75,
     "inverted": false,
     "renderTo": "container-6183"
   },
@@ -346,9 +346,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
   },
   "legend": {
     "layout": "horizontal",

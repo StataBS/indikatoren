@@ -865,14 +865,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-11-15T15:22:04.044",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1150,14 +1150,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-15T14:34:49.4949",
+		"aktualisierungsdatum": "2019-11-15T16:10:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1173,7 +1173,7 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 6147,
-		"chart-id": 6147,
+		"chart-id": 6037,
 		"filter": "",
 		"id": 6147
 	},
@@ -1262,7 +1262,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "Basel-Stadt, in Franken",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -1272,7 +1272,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:45.4545",
+		"aktualisierungsdatum": "2019-11-15T16:50:25.2525",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1911,13 +1911,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-07T09:38:06.066",
+		"aktualisierungsdatum": "2019-11-15T17:08:54.5454",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant. Höhere Besuchszahlen verzeichneten in den letzten Jahren die Museen.",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Kleintheatern und Museen blieben die Zahlen vergleichsweise konstant.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2018 der Saison 2017/18.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2281,7 +2281,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:39:30.3030",
+		"aktualisierungsdatum": "2019-11-15T17:38:20.2020",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2300,8 +2300,9 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2324,7 +2325,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:39:43.4343",
+		"aktualisierungsdatum": "2019-11-15T17:39:28.2828",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2344,7 +2345,8 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2857,14 +2859,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:45.4545",
+		"aktualisierungsdatum": "2019-11-15T14:58:59.5959",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2018.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9&nbsp;780&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3088,8 +3090,8 @@ var indikatorensetData = [
 	{
 		"title": "Beurteilung der Kantonspolizei",
 		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», 2012-2018",
-		"kuerzel": "I.85.2.6438",
-		"kuerzelKunde": "10.4b",
+		"kuerzel": "I.50.2.06438",
+		"kuerzelKunde": "10.4",
 		"description": "Beurteilung der Kantonspolizei",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragungen für öffentliche Organe",
@@ -3097,14 +3099,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-18T17:29:32.3232",
+		"aktualisierungsdatum": "2019-11-15T17:27:37.3737",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 81,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7 (2015: 86,5%). Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 71,8% der Befragten den Wert 7 oder mehr an (2015: 79,3%).",
-		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch; Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Anzahl Nennungen sind gewichtet.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 81,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten 2018 mit 10, 9, 8 oder 7 (2015: 86,5%). Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 71,8% der Befragten den Wert 7 oder mehr an (2015: 79,3%).",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: «Freundlich»: Der Basler Polizist oder die Basler Polizistin ist freundlich; «Handelt angemessen»: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; «Hilfsbereit»: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; «Sympathisch»: Der Basler Polizist oder die Basler Polizistin ist sympathisch; «Respektvoll»: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; «Nimmt Anliegen ernst»: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; «Gerecht»: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Anzahl Nennungen sind gewichtet.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3115,7 +3117,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung"
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

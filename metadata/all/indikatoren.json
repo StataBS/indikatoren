@@ -9100,14 +9100,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-12T12:12:10.1010",
+		"aktualisierungsdatum": "2019-11-15T11:19:28.2828",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 14,4 Mrd. Franken im Jahr 2016 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
-		"erlaeuterungen": "2016 provisorisch. Die Bezeichnung der Branchengruppen sind in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgenden Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. u. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"lesehilfe": "Die Branchengruppe Bau und Herstellung von Waren macht mit über 17,1 Mrd. Franken im Jahr 2017 wie in sämtlichen anderen Beobachtungsjahren den grössten Anteil an der Bruttowertschöpfung des Kantons Basel-Stadt aus.",
+		"erlaeuterungen": "2017 provisorisch. Die Bezeichnung der Branchengruppen ist in den meisten Fällen in der Legende verkürzt dargestellt. Im Detail umfassen sie &nbsp;folgende Untergruppen: «Landwirtschaft etc.»: Landwirtschaft, Forstwirtschaft und Fischerei; «Bau, Herstellung von Waren»: Bergbau und Gewinnung von Steinen und Erden, Herstellung von Waren, Bau; «Versorgung und Bildung»: Energieversorgung, Wasserversorgung, Sammlung, Behandlung und Beseitigung von Abfällen, Erziehung und Unterricht, Gesundheitswesen; «Fahrzeuge, Transport, IT, Gastronomie»: Handel und Reparatur von Fahrzeugen, Transport, Informationsdienstleistungen und Telekommunikation, Beherbergung und Gastronomie; «Finanzen und Versicherungen»: Erbringung von Finanzdienstleistungen und Versicherungen; «Wirtsch. Dienstl. U. Unterhaltung»: Grundstücks- und Wohnungswesen, sonstige freiberufliche, wissenschaftliche und technische Tätigkeiten, wirtschaftliche Dienstleistungen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10682,14 +10682,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
+		"aktualisierungsdatum": "2019-11-15T11:19:56.5656",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist zwischen 2009 und 2018 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
-		"erlaeuterungen": "Der Altersquotient bezeichnet die Anzahl 65-Jährige und Ältere pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Altersquotient  gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13734,14 +13734,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-15T14:34:49.4949",
+		"aktualisierungsdatum": "2019-11-15T16:10:14.1414",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13767,7 +13767,7 @@
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2017/18, Basel-Stadt",
+		"subtitle": "im Schuljahr 2018/19, Basel-Stadt",
 		"kuerzel": "I.15.1.6039",
 		"kuerzelKunde": "GZ6",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
@@ -13777,13 +13777,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-22T11:53:22.2222",
+		"aktualisierungsdatum": "2019-11-15T11:31:07.077",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengerechtigkeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach wie vor treten Schülerinnen nach der obligatorischen Schulzeit deutlich häufiger ins Gymnasium oder eine weiterführende Schule ein als Schüler, letztere besuchen danach hingegen häufiger eine berufliche Grundbildung. Noch deutlicher sind die Unterschiede, wenn die Schülerinnen und Schüler nach Staatsangehörigkeit oder Erstsprache gruppiert werden.",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Staatsangehörigkeit (Schweiz/Ausland) und Erstsprache (Deutsch/Fremdsprache).",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13796,9 +13796,13 @@
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6039,
+		"chart-id": 6039,
+		"filter": "",
 		"id": 6039
 	},
 	{
@@ -14310,14 +14314,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-11-15T15:22:04.044",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14340,7 +14344,7 @@
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "Basel-Stadt, in Franken",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.06054",
 		"kuerzelKunde": "WE10",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -14350,7 +14354,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:41:16.1616",
+		"aktualisierungsdatum": "2019-11-15T16:50:25.2525",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Erwerbsarbeit",
 		"stufe3": "",
@@ -16284,14 +16288,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-11-15T15:22:04.044",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich mit der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16576,14 +16580,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-15T14:34:49.4949",
+		"aktualisierungsdatum": "2019-11-15T16:10:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16600,7 +16604,7 @@
 			""
 		],
 		"data-id": 6147,
-		"chart-id": 6147,
+		"chart-id": 6037,
 		"filter": "",
 		"id": 6147
 	},
@@ -16691,7 +16695,7 @@
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "Basel-Stadt, in Franken",
+		"subtitle": "in Franken, Basel-Stadt",
 		"kuerzel": "I.18.2.6150",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens",
@@ -16701,7 +16705,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:45.4545",
+		"aktualisierungsdatum": "2019-11-15T16:50:25.2525",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17355,13 +17359,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-07T09:38:06.066",
+		"aktualisierungsdatum": "2019-11-15T17:08:54.5454",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant. Höhere Besuchszahlen verzeichneten in den letzten Jahren die Museen.",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Kleintheatern und Museen blieben die Zahlen vergleichsweise konstant.",
 		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2018 der Saison 2017/18.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17734,7 +17738,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:39:30.3030",
+		"aktualisierungsdatum": "2019-11-15T17:38:20.2020",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17754,8 +17758,9 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -17778,7 +17783,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:39:43.4343",
+		"aktualisierungsdatum": "2019-11-15T17:39:28.2828",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17799,7 +17804,8 @@
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -18699,14 +18705,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:45.4545",
+		"aktualisierungsdatum": "2019-11-15T14:58:59.5959",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2018.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9&nbsp;780&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -25182,8 +25188,8 @@
 	{
 		"title": "Beurteilung der Kantonspolizei",
 		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», 2012-2018",
-		"kuerzel": "I.85.2.6438",
-		"kuerzelKunde": "10.4b",
+		"kuerzel": "I.50.2.06438",
+		"kuerzelKunde": "10.4",
 		"description": "Beurteilung der Kantonspolizei",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragungen für öffentliche Organe",
@@ -25191,14 +25197,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-18T17:29:32.3232",
+		"aktualisierungsdatum": "2019-11-15T17:27:37.3737",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 81,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7 (2015: 86,5%). Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 71,8% der Befragten den Wert 7 oder mehr an (2015: 79,3%).",
-		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch; Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Anzahl Nennungen sind gewichtet.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 81,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten 2018 mit 10, 9, 8 oder 7 (2015: 86,5%). Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 71,8% der Befragten den Wert 7 oder mehr an (2015: 79,3%).",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: «Freundlich»: Der Basler Polizist oder die Basler Polizistin ist freundlich; «Handelt angemessen»: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; «Hilfsbereit»: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; «Sympathisch»: Der Basler Polizist oder die Basler Polizistin ist sympathisch; «Respektvoll»: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; «Nimmt Anliegen ernst»: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; «Gerecht»: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Anzahl Nennungen sind gewichtet.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -25210,7 +25216,7 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung"
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
