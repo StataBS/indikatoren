@@ -14636,18 +14636,18 @@ var indikatoren = [
 		"id": 6060
 	},
 	{
-		"title": "Übrige Ausländer",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6061",
 		"kuerzelKunde": "A1-8",
-		"description": "Übrige Ausländer",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:44:13.1313",
+		"aktualisierungsdatum": "2019-11-18T15:24:02.022",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -14659,10 +14659,11 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_008",
+		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6646"
+			"6646",
+			"7787"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15195,13 +15196,13 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:01:35.3535",
+		"aktualisierungsdatum": "2019-11-19T09:10:15.1515",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italienische und türkische Staatsbüger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten bleiben Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie \"Übrige Länder\" (4,3) und aus EU-Oststaaten (3,4) .",
+		"lesehilfe": "Italienische und türkische Staatsbürger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten da sind Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie «Übrige Länder» (4,3) und aus EU-Oststaaten (3,4) .",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -15210,7 +15211,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_023",
 		"parentId": null,
 		"children": [
-			"6659"
+			"6659",
+			"7800"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -23747,33 +23749,34 @@ var indikatoren = [
 		"id": 6399
 	},
 	{
-		"title": "Anteil Ausländer der Ländergruppe EU-17 + EFTA",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6400",
 		"kuerzelKunde": "A1-6",
-		"description": "Anteil Ausländer der Ländergruppe EU-17 + EFTA",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:56:46.4646",
+		"aktualisierungsdatum": "2019-11-18T15:23:22.2222",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 zählten 15 844 Personen zur Kategorie «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Ende 2018 zählten 15 844 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_006",
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6676"
+			"6676",
+			"7817"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -23789,33 +23792,34 @@ var indikatoren = [
 		"id": 6400
 	},
 	{
-		"title": "Anteil Ausländer der Ländergruppe EU-Ost",
-		"subtitle": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6401",
 		"kuerzelKunde": "A1-7",
-		"description": "Anteil Ausländer der Ländergruppe EU-Ost",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:25:40.4040",
+		"aktualisierungsdatum": "2019-11-18T15:23:44.4444",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 3 153 Personen, die Ende 2018 zur Kategorie «EU-Ost» zählten, bildeten Polen, Ungarn und Rumänen die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Von 3 153 Personen, die Ende 2018 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "01_00_00_00_00_008",
 		"parentId": null,
 		"children": [
-			"6677"
+			"6677",
+			"7818"
 		],
 		"renderLink": [],
 		"quellenangabe": [
