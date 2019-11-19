@@ -10932,13 +10932,13 @@
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:01:35.3535",
+		"aktualisierungsdatum": "2019-11-19T09:10:15.1515",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italienische und türkische Staatsbüger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten bleiben Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie \"Übrige Länder\" (4,3) und aus EU-Oststaaten (3,4) .",
+		"lesehilfe": "Italienische und türkische Staatsbürger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten da sind Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie «Übrige Länder» (4,3) und aus EU-Oststaaten (3,4) .",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -10947,7 +10947,8 @@
 		"orderKey": "01_00_00_00_00_023",
 		"parentId": null,
 		"children": [
-			"6659"
+			"6659",
+			"7800"
 		],
 		"renderLink": [],
 		"quellenangabe": [
