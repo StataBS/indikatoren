@@ -10847,13 +10847,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:17:53.5353",
+		"aktualisierungsdatum": "2019-11-19T09:24:40.4040",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Hauptsächlich im Besitz einer Niederlassungsbewilligung sind Personen aus Italien (71,9%), der Türkei (84,3%) und dem Balkan (82,2%). Ein etwas anderes Bild zeigt sich bei den Personen aus den EU-Oststaaten: Mit 21,2% ist der Anteil an Niederlassungsbewilligungen unterdurchschnittlich, dagegen der Anteil an Aufenthaltsbewillungen mit 68,9% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (22,0%) und afrikanischen (12,4%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
+		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (71,9%), der Türkei (84,3%) und dem Balkan (82,2%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,2% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewillungen mit 68,9% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (22,0%) und afrikanischen (12,4%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -10862,7 +10862,8 @@
 		"orderKey": "01_00_00_00_00_020",
 		"parentId": null,
 		"children": [
-			"6657"
+			"6657",
+			"7798"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11102,14 +11103,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:00:27.2727",
+		"aktualisierungsdatum": "2019-11-19T09:54:29.2929",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Zwischen 1999 und 2018 sind die Segregationsindices der meisten Gruppen gesunken, d. h. sie sind 2018 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Italienern (-13,7 Punkte) und den Schweizern (-12,6 Punkte). Stärker segregiert als vor 20 Jahren waren Personen aus afrikanischen Ländern (+1,6 Punkte). Der Segregationsindex der Personen aus arabischen Ländern hat sich nicht verändert.",
-		"erlaeuterungen": "Der Segregationsindex misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betracheten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 würde bedeuten, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross wäre.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11117,7 +11118,8 @@
 		"orderKey": "01_00_00_00_00_028",
 		"parentId": null,
 		"children": [
-			"6664"
+			"6664",
+			"7805"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11144,13 +11146,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:34.3434",
+		"aktualisierungsdatum": "2019-11-19T11:25:15.1515",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft. An zweiter Stelle folgen die Schweizerinnen und Schweizer. Bei Schülerinnen und Schülern aus EU-Ost ist die Quote am dritthöchsten.",
+		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (66%), gefolgt von den Schweizerinnen und Schweizern (49,5%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus der Türkei (8,8%) und dem Balkan (11,9%) auf.",
 		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -11159,7 +11161,8 @@
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6665"
+			"6665",
+			"7806"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11487,13 +11490,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:27.2727",
+		"aktualisierungsdatum": "2019-11-19T12:04:10.1010",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländische Staatsangehörige weisen den höchsten Anteil an Personen mit Tertiärausbildung (45%) sowie mit Sekundarstufe I-Ausbildung (32%) auf.",
+		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den Ausländischen Staatsangehörigen am höchsten (32%).",
 		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -11502,7 +11505,8 @@
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6673"
+			"6673",
+			"7814"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15714,14 +15718,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-11-19T11:20:10.1010",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei der Arbeit sprechen 97,9% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 80,8% sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15729,7 +15733,8 @@
 		"orderKey": "01_00_00_00_00_032",
 		"parentId": null,
 		"children": [
-			"6681"
+			"6681",
+			"7822"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15756,13 +15761,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:26:26.2626",
+		"aktualisierungsdatum": "2019-11-19T13:40:48.4848",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2018 bei 2,5%. Bei den Ausländergruppen erreichen die Personen aus der Türkei sowie diejenige aus den afrikanischen Ländern mit 7,3% die höchsten Arbeitslosenquoten des Jahres 2018. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 4,9%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2018: 2,8%).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2018 bei 2,5%. Bei den Ausländergruppen weisen Personen aus der Türkei und aus den afrikanischen Ländern mit 7,3% die höchsten Arbeitslosenquoten des Jahres 2018 auf. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 4,9%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2,8%).",
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -15771,7 +15776,8 @@
 		"orderKey": "03_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6682"
+			"6682",
+			"7823"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15842,13 +15848,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:27:53.5353",
+		"aktualisierungsdatum": "2019-11-19T14:42:09.099",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärksten von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen  und Schweize deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärker von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -15857,7 +15863,8 @@
 		"orderKey": "03_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6684"
+			"6684",
+			"7825"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16013,13 +16020,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:31:48.4848",
+		"aktualisierungsdatum": "2019-11-19T18:12:11.1111",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden im Jahresdurchschnitt 106 Personen pro Monat von der Arbeitslosenversicherung ausgesteuert; davon waren pro Monat 49 Schweizer Staatsangehörige betroffen. Im gesamten Jahr 2018 sind fast genauso viele Schweizerinnen wie Schweizer ausgesteuert worden.",
+		"lesehilfe": "Im Jahr 2018 wurden insgesamt 293 Schweizer Frauen und 295 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat 49 Schweizer Staatsangehörige (von Total 106 Personen).",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -16028,7 +16035,8 @@
 		"orderKey": "03_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6688"
+			"6688",
+			"7829"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16055,13 +16063,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:32:17.1717",
+		"aktualisierungsdatum": "2019-11-19T18:20:09.099",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 106 der im Jahresdurchschnitt 2018 ausgesteuerten Arbeitslosen waren 57 ausländischer Herkunft. Davon war fast jeden Monat eine deutliche Mehrheit männlich.",
+		"lesehilfe": "Im Jahr 2018 wurden insgesamt 277 ausländische Frauen und 408 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat rund 57 ausländische Staatsangehörige (von Total 106 Personen).",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -16070,7 +16078,8 @@
 		"orderKey": "03_00_00_00_00_008",
 		"parentId": null,
 		"children": [
-			"6689"
+			"6689",
+			"7830"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -19257,13 +19266,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-18T11:17:49.4949",
+		"aktualisierungsdatum": "2019-11-19T12:14:06.066",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 stimmten 45,6% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% deutlich häufiger zu als Familien, welche nur deutsch (41,4%) bzw. deutsch und eine andere Sprache (48,8%) sprechen. Seit 2009 wird diese Frage zunehmend positiver beurteilt.",
+		"lesehilfe": "Im Jahr 2017 stimmten 45,6% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% deutlich häufiger zu als Familien, welche nur Deutsch (41,4%) bzw. Deutsch und eine andere Sprache (48,8%) sprechen. Seit 2009 wird diese Frage zunehmend positiver beurteilt.",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -19272,7 +19281,8 @@
 		"orderKey": "02_00_00_00_00_013",
 		"parentId": null,
 		"children": [
-			"6749"
+			"6749",
+			"7890"
 		],
 		"renderLink": [],
 		"quellenangabe": [
