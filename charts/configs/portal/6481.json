@@ -83,7 +83,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten von 2013 bis 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
     "align": "left"
   },
   "tooltip": {
@@ -104,7 +104,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "layout": "horizontal",

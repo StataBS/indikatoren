@@ -24353,18 +24353,18 @@ var indikatoren = [
 		"id": 6413
 	},
 	{
-		"title": "Erwerbstätigenquote",
-		"subtitle": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
+		"title": "Erwerbstätigenquote der 15-64-Jährigen",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.1.6415",
 		"kuerzelKunde": "C2-1",
-		"description": "Erwerbstätigenquote",
+		"description": "Erwerbstätigenquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T15:06:05.055",
+		"aktualisierungsdatum": "2019-11-20T17:25:09.099",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -24397,18 +24397,18 @@ var indikatoren = [
 		"id": 6415
 	},
 	{
-		"title": "Erwerbstätigenquote nach Staatsangehörigkeit",
-		"subtitle": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"title": "Erwerbstätigenquote der 15-64-Jährigen",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.03.1.6416",
 		"kuerzelKunde": "C2-2",
-		"description": "Erwerbstätigenquote nach Staatsangehörigkeit",
+		"description": "Erwerbstätigenquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:04:38.3838",
+		"aktualisierungsdatum": "2019-11-20T17:18:07.077",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -24423,7 +24423,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"6691"
+			"6691",
+			"7832"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24481,18 +24482,18 @@ var indikatoren = [
 		"id": 6417
 	},
 	{
-		"title": "Erwerbsquote",
-		"subtitle": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
+		"title": "Erwerbsquote der 15-64-Jährigen",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.1.6418",
 		"kuerzelKunde": "C2-4",
-		"description": "Erwerbsquote",
+		"description": "Erwerbsquote der 15-64-Jährigen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T15:08:51.5151",
+		"aktualisierungsdatum": "2019-11-20T17:25:57.5757",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -24663,13 +24664,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:37:57.5757",
+		"aktualisierungsdatum": "2019-11-20T17:27:14.1414",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 86,6% sind es 2018 beim «Unteren Kader» und 94,4% beim «Oberen Kader». Auffällig ist der mit 48,7% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 13,4% («Unteres Kader»). Bei den Beschäftigten «Ohne Kaderfunktion» sind Angestellte ohne Schweizer Pass mit 15,0% am stärksten vertreten.",
+		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 86,6% sind es 2018 beim «Unteren Kader» und 94,4% beim «Oberen Kader». Auffällig ist der mit 48,7% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 13,4% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,0% bei den Beschäftigten «Ohne Kaderfunktion» am stärksten vertreten.",
 		"erlaeuterungen": "Der Indikator zeigt das Staatspersonal mit Wohnsitz Basel-Stadt, ausgewertet nach Staatsangehörigkeit (Schweiz/Ausland), Geschlecht und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Staatsangehörigkeit (CH/Ausland), Geschlecht und Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -24678,7 +24679,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_016",
 		"parentId": null,
 		"children": [
-			"6697"
+			"6697",
+			"7838"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24791,13 +24793,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:39:11.1111",
+		"aktualisierungsdatum": "2019-11-20T17:33:27.2727",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden auch 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) ausgewertet nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -24806,7 +24808,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_019",
 		"parentId": null,
 		"children": [
-			"6700"
+			"6700",
+			"7841"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24917,14 +24920,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:08.088",
+		"aktualisierungsdatum": "2019-11-20T17:35:06.066",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 23,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Auch bei den ausländischen Frauen liegt die Sozialhilfequote in dieser Altersgruppe mit 18,0% am höchsten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern  Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24932,7 +24935,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_022",
 		"parentId": null,
 		"children": [
-			"6703"
+			"6703",
+			"7844"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25001,13 +25005,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:52:01.011",
+		"aktualisierungsdatum": "2019-11-20T17:44:32.3232",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2005 sank die kantonale IV-Quote kontinuierlich von 8,9% auf 6,2% im Jahr 2018. Die höchste IV-Quote weist 2018 mit 11,6% die Türkei auf, gefolgt von den Balkanländern (9,6%) und Italien sowie der Schweiz (je 7,9%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,9 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten.",
+		"lesehilfe": "Die höchste IV-Quote weist 2018 mit 11,6% die Türkei auf, gefolgt von den Balkanländern (9,6%) und Italien sowie der Schweiz (je 7,9%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,9 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2018 kontinuierlich von 8,9% auf 6,2%.",
 		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25016,7 +25020,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_024",
 		"parentId": null,
 		"children": [
-			"6705"
+			"6705",
+			"7846"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25987,7 +25992,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2002 bis 2017, 3-Jahres-Pooling",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling 2002 bis 2017",
 		"kuerzel": "I.03.3.6467",
 		"kuerzelKunde": "C6-1",
 		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
@@ -25997,13 +26002,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2019-11-20T18:04:26.2626",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Ausländern ist im Kanton Basel-Stadt im Mittel der Jahre 2015 bis 2017 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (24,4%) und im 5. Quintil (24,4%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung in der Schweiz (gemäss Definition 20% für jedes Quintil). Bei den Schweizern ist der Anteil im 1. Quintil (24,4%) im Kanton Basel-Stadt höher, der Anteil im 5. Quintil (19,3%) hingegen tiefer als in der landesweiten Verteilung.",
+		"lesehilfe": "Bei den Ausländern ist im Kanton Basel-Stadt im Mittel der Jahre 2015 bis 2017 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1.&nbsp;Quintil (25,3%) und im 5.&nbsp;Quintil (25,7%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung in der Schweiz (gemäss Definition 20% für jedes Quintil). Bei den Schweizern ist der Anteil im 1.&nbsp;Quintil (21,4%) im Kanton Basel-Stadt höher, der Anteil im 5.&nbsp;Quintil (19,2%) hingegen tiefer als in der landesweiten Verteilung.",
 		"erlaeuterungen": "Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3. Quintile: Das Quintil gibt Auskunft über die Position des Haushalts in Bezug auf die schweizweite Einkommensverteilung. Die Verteilung der Einkommen wird in fünf gleiche Gruppen eingeteilt. Das erste Quintil entspricht den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Grenzen der Quintile variieren je nach Erhebungsjahr.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26012,15 +26017,20 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_027",
 		"parentId": null,
 		"children": [
-			"6708"
+			"6708",
+			"7849"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6467,
+		"chart-id": 6467,
+		"filter": "",
 		"id": 6467
 	},
 	{
@@ -26035,13 +26045,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:05:57.5757",
+		"aktualisierungsdatum": "2019-11-20T18:13:59.5959",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2&nbsp;400 Veranlagungen) im Steuerjahr 2016 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 130&nbsp;000 Franken. Den kleinsten Mittelwert weisen die Veranlagungen aus afrikanischen Ländern auf, mit rund 32&nbsp;400 Franken (ca. 700 Veranlagungen).",
+		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2&nbsp;400 Veranlagungen) im Steuerjahr 2016 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 130&nbsp;000&nbsp;Franken. Den kleinsten Mittelwert weisen die Veranlagungen aus afrikanischen Ländern auf, mit rund 32&nbsp;400&nbsp;Franken (ca. 700 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26050,7 +26060,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_028",
 		"parentId": null,
 		"children": [
-			"6709"
+			"6709",
+			"7850"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26119,13 +26130,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:12.1212",
+		"aktualisierungsdatum": "2019-11-20T18:14:53.5353",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2016 Personen aus den USA auf, der Wert beträgt rund 290 000 Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (209 000 Franken, 62 Veranlagungen) und Belgien (173 000 Franken, 114 Veranlagungen).",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2016 Personen aus den USA auf, der Wert beträgt rund 290&nbsp;000&nbsp;Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (209&nbsp;000&nbsp;Franken, 62 Veranlagungen) und Belgien (173&nbsp;000&nbsp;Franken, 114 Veranlagungen).",
 		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26134,7 +26145,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_030",
 		"parentId": null,
 		"children": [
-			"6711"
+			"6711",
+			"7852"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26161,14 +26173,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:22.2222",
+		"aktualisierungsdatum": "2019-11-20T18:15:44.4444",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2007 wie auch 2016 für die Gruppe der Schweizer vor. 2007 beträgt er rund 480 000 Franken, im Jahr 2016 ca. 610 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6 000 Franken im Jahr 2007 resp. gut 13 400 Franken pro Veranlagung im Jahr 2016. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2007 wie auch 2016 für die Gruppe der Schweizer vor. 2007 beträgt er rund 480&nbsp;000&nbsp;Franken, im Jahr 2016 ca. 610&nbsp;000&nbsp;Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6&nbsp;000&nbsp;Franken im Jahr 2007 resp. gut 13&nbsp;400&nbsp;Franken pro Veranlagung im Jahr 2016. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26176,7 +26188,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_031",
 		"parentId": null,
 		"children": [
-			"6712"
+			"6712",
+			"7853"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26365,7 +26378,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:45:40.4040",
+		"aktualisierungsdatum": "2019-11-20T18:24:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -26380,7 +26393,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6717"
+			"6717",
+			"7858"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26495,13 +26509,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:34:04.044",
+		"aktualisierungsdatum": "2019-11-20T18:29:23.2323",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Pro 1000 Personen liessen sich 2018 30,8  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2018 auch Personen aus arabischen Ländern (30,4), aus dem Balkan (21,8), aus der Türkei (19,2) und aus Deutschland (17,7). Die Einbürgerungsziffern der Personen aus Mittel- und Südamerika sowie aus Deutschland haben im Vergleich zu 2008 zugenommen, jene der Personen aus den arabischen Ländern, dem Balkan und der Türkei sind zurückgegangen. Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan im Jahr 2008. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2018 30,8  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2018 auch Personen aus arabischen Ländern (30,4), aus dem Balkan (21,8), aus der Türkei (19,2) und aus Deutschland (17,7). Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan im Jahr 2008. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
 		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26510,7 +26524,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"6720"
+			"6720",
+			"7861"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26527,7 +26542,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anzahl ordentlich Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte von 2008 bis 2018",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2008 bis 2018",
 		"kuerzel": "I.01.6.6480",
 		"kuerzelKunde": "D3-2",
 		"description": "Anzahl ordentlich Eingebürgerte",
@@ -26537,7 +26552,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2019-11-20T18:30:52.5252",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -26552,7 +26567,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
 		"children": [
-			"6721"
+			"6721",
+			"7862"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26569,7 +26585,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten von 2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
 		"kuerzel": "I.01.1.6481",
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -26579,7 +26595,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2019-11-20T18:31:17.1717",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -26594,7 +26610,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6722"
+			"6722",
+			"7863"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26610,25 +26627,25 @@ var indikatoren = [
 		"id": 6481
 	},
 	{
-		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
-		"subtitle": "Basel-Stadt",
+		"title": "Beschuldigte Erwachsene",
+		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
 		"kuerzel": "I.19.1.6482",
 		"kuerzelKunde": "D4-1",
-		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
+		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:54:43.4343",
+		"aktualisierungsdatum": "2019-11-20T18:32:22.2222",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 8,9 Personen mindestens einer Straftat beschuldigt. Im Jahr 2017 waren es 8,8 Personen gewesen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2017: 6,5; 2018: 6,9) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt.",
+		"lesehilfe": "Im Jahr 2018 wurden von 1&nbsp;000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 8,9 Personen mindestens einer Straftat beschuldigt. Im Jahr 2017 waren es 8,8 Personen gewesen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2017: 6,5; 2018: 6,9) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26636,7 +26653,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"6723"
+			"6723",
+			"7864"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26653,25 +26671,25 @@ var indikatoren = [
 		"id": 6482
 	},
 	{
-		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
+		"title": "Beschuldigte Erwachsene",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
 		"kuerzel": "I.19.1.6483",
 		"kuerzelKunde": "D4-2",
-		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
+		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:19:51.5151",
+		"aktualisierungsdatum": "2019-11-20T18:33:39.3939",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1000 Personen die höchste Beschuldigtenrate auf.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"lesehilfe": "Männer werden häufiger einer Straftat beschuldigt als Frauen; ebenso ausländische Einwohnerinnen und Einwohner häufiger als solche mit Schweizer Pass. Mit zunehmendem Alter nimmt die Anzahl Beschuldigter pro 1&nbsp;000 Personen der entsprechenden Altersgruppe tendenziell ab. 2009 wiesen die jungen ausländischen Männer zwischen 18 und 24 Jahren mit 60,7 Beschuldigten pro 1&nbsp;000 Personen die höchste Beschuldigtenrate auf.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26679,7 +26697,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6724"
+			"6724",
+			"7865"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26696,25 +26715,25 @@ var indikatoren = [
 		"id": 6483
 	},
 	{
-		"title": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
+		"title": "Beschuldigte Erwachsene",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6484",
 		"kuerzelKunde": "D4-3",
-		"description": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene",
+		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:13.1313",
+		"aktualisierungsdatum": "2019-11-20T18:34:09.099",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 ergab sich die höchste Beschuldigtenrate mit 67,7 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 37,5.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter durch die Anzahl Einwohner der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26722,7 +26741,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6725"
+			"6725",
+			"7866"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26740,7 +26760,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte ausländische Erwachsene",
-		"subtitle": "Personen ab 18 Jahren nach Aufenthaltsstatus, Basel-Stadt",
+		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
 		"kuerzel": "I.19.1.6485",
 		"kuerzelKunde": "D4-4",
 		"description": "Beschuldigte ausländische Erwachsene",
@@ -26750,14 +26770,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:08:04.044",
+		"aktualisierungsdatum": "2019-11-20T18:49:09.099",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2017 von 494 auf 537. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg von 277 auf 289 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26765,7 +26785,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
 		"children": [
-			"6726"
+			"6726",
+			"7867"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26782,25 +26803,25 @@ var indikatoren = [
 		"id": 6485
 	},
 	{
-		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"title": "Beschuldigte Jugendliche",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
 		"kuerzel": "I.19.1.6487",
 		"kuerzelKunde": "D5-1",
-		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche",
+		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:11:38.3838",
+		"aktualisierungsdatum": "2019-11-20T18:34:40.4040",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,4 einer Straftat beschuldigt. Im Jahr 2017 waren es 16,9. Weniger Beschuldigte wurden mit 11,1 pro 1000 Personen im Jahr 2017 und mit 14,9 pro 1000 Personen im Jahr 2018 bei Jugendlichen aus den EU-17 und EFTA-Ländern registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2018 wurden von 1&nbsp;000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,4 einer Straftat beschuldigt. Weniger Beschuldigte wurden mit 11,1 im Jahr 2017 und mit 14,9 im Jahr 2018 bei Jugendlichen aus den «EU-17 + EFTA»-Ländern registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26808,7 +26829,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
-			"6727"
+			"6727",
+			"7868"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26825,25 +26847,25 @@ var indikatoren = [
 		"id": 6487
 	},
 	{
-		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
-		"subtitle": "zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2011",
+		"title": "Beschuldigte Jugendliche",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2011",
 		"kuerzel": "I.19.1.6488",
 		"kuerzelKunde": "D5-2",
-		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche",
+		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:36.3636",
+		"aktualisierungsdatum": "2019-11-20T18:51:23.2323",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2011 wurden sowohl in der Altersgruppe der 10- bis 14-Jährigen als auch der 15- bis 17-Jährigen Schweizer Jugendliche seltener einer Straftat beschuldigt als ausländische Jugendliche.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26851,7 +26873,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_015",
 		"parentId": null,
 		"children": [
-			"6728"
+			"6728",
+			"7869"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26868,25 +26891,25 @@ var indikatoren = [
 		"id": 6488
 	},
 	{
-		"title": "Beschuldigte Jugendliche pro 1000 Jugendliche",
-		"subtitle": "zwischen 10 und 17 Jahren nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
+		"title": "Beschuldigte Jugendliche",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6489",
 		"kuerzelKunde": "D5-3",
-		"description": "Beschuldigte Jugendliche pro 1000 Jugendliche",
+		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:34:56.5656",
+		"aktualisierungsdatum": "2019-11-20T18:51:38.3838",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
-		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26894,7 +26917,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_016",
 		"parentId": null,
 		"children": [
-			"6729"
+			"6729",
+			"7870"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26912,7 +26936,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte ausländische Jugendliche",
-		"subtitle": "zwischen 10 und 17 Jahren nach Aufenthaltsstatus, Basel-Stadt",
+		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
 		"kuerzel": "I.19.1.6490",
 		"kuerzelKunde": "D5-4",
 		"description": "Beschuldigte ausländische Jugendliche",
@@ -26922,14 +26946,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:35:55.5555",
+		"aktualisierungsdatum": "2019-11-20T18:52:42.4242",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2011 bis 2018 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 52. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung sank ebenfalls von 16 auf 6 Personen.",
-		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder &nbsp;Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder &nbsp;Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26937,7 +26961,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_017",
 		"parentId": null,
 		"children": [
-			"6730"
+			"6730",
+			"7871"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26955,7 +26980,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "zwischen 10 und 17 Jahren, nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.19.1.6491",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
@@ -26965,14 +26990,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T15:37:31.3131",
+		"aktualisierungsdatum": "2019-11-20T18:54:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 23,3% der Schweizer Jugendlichen zwischen 10 und 17 Jahren des Konsums eines Betäubungsmittels beschuldigt. Bei den ausländischen Jugendlichen war hingegen Diebstahl das häufigste Delikt, 39,8% wurden deswegen angezeigt.",
-		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2018 wurden 23,3% der beschuldigten Schweizer Jugendlichen der Konsums eines Betäubungsmittels vorgeworfen. Bei den ausländischen Jugendlichen war hingegen Diebstahl mit 39,8% das häufigste Delikt.",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26980,7 +27005,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_018",
 		"parentId": null,
 		"children": [
-			"6731"
+			"6731",
+			"7872"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27045,13 +27071,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T11:23:39.3939",
+		"aktualisierungsdatum": "2019-11-20T18:58:29.2929",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (25,8%) und Deutsche (17,7%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanern (28,0%). 93,2% der Türken, 87,0% der Personen aus arabischen Ländern und 76,1% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen Italiener, Personen aus der Ländergruppe EU-17 und EFTA sowie  Mittel- und Südamerikaner auf.",
+		"lesehilfe": "Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (25,8%) und Deutsche (17,7%) auf. Die höchsten Anteile an Katholiken gibt es bei Personen aus den EU-Ost-Ländern (29,7%) sowie bei den Mittel- und Südamerikanern (28,0%). 93,2% der Türken, 87,0% der Personen aus arabischen Ländern und 76,1% der Personen aus dem Balkan gehören einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Hohe Anteile an Personen ohne religiöse Zugehörigkeit (>60%) weisen Italiener, Personen aus der Ländergruppe «EU-17&nbsp;+&nbsp;EFTA» sowie Mittel- und Südamerikaner auf.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -27060,7 +27086,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_020",
 		"parentId": null,
 		"children": [
-			"6733"
+			"6733",
+			"7874"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27087,13 +27114,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-05T10:17:32.3232",
+		"aktualisierungsdatum": "2019-11-20T19:00:06.066",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen EU-17 + EFTA, EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
+		"lesehilfe": "Bei Schweizern, Deutschen und Italienern bilden Personen ohne religiöse Zugehörigkeit die grösste Gruppe. Das Gleiche gilt auch für Personen aus den Ländergruppen «EU-17&nbsp;+&nbsp;EFTA», EU-Ost sowie Mittel- und Südamerika. Bei den übrigen Ländergruppen gehört der Grossteil einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft an. Dieser Anteil liegt bei Türken sowie bei Personen aus dem Balkan und arabischen Ländern bei über 75%. Die höchsten Anteile an Evangelisch-Reformierten weisen Schweizer (20,4%) und Deutsche (11,7%) auf, während die höchsten Anteile an Katholiken bei Italienern (20,5%) und Personen aus Mittel- und Südamerika (18,7%) zu finden sind.",
 		"erlaeuterungen": "Seit 2015 weist das Statistische Amt aus Datenschutzgründen nur noch die öffentlich-rechtlich anerkannten Religionen aus.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -27102,7 +27129,8 @@ var indikatoren = [
 		"orderKey": "04_00_00_00_00_021",
 		"parentId": null,
 		"children": [
-			"6734"
+			"6734",
+			"7875"
 		],
 		"renderLink": [],
 		"quellenangabe": [
