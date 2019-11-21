@@ -255,7 +255,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte von 2008 bis 2018",
+    "text": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2008 bis 2018",
     "align": "left"
   },
   "yAxis": {
@@ -295,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "symbolRadius": 0,

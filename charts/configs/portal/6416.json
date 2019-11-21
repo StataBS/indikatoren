@@ -199,7 +199,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbstätigenquote nach Staatsangehörigkeit"
+    "text": "Erwerbstätigenquote der 15-64-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -208,7 +208,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "der 15-64-Jährigen in Basel-Stadt, gepoolte Daten 2013 bis 2017",
+    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
     "align": "left"
   },
   "yAxis": {
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "symbolRadius": 0,

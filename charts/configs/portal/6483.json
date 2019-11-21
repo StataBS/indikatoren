@@ -180,7 +180,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene"
+    "text": "Beschuldigte Erwachsene"
   },
   "subtitle": {
     "style": {
@@ -189,7 +189,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
+    "text": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2009",
     "align": "left"
   },
   "yAxis": {
@@ -229,7 +229,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "symbolRadius": 0,

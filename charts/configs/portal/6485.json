@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Personen ab 18 Jahren nach Aufenthaltsstatus, Basel-Stadt",
+    "text": "nach Aufenthaltsstatus, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "enabled": true,
