@@ -65,7 +65,10 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": 0
+      "rotation": 0,
+      "formatter": function () {
+          return this.value.replace('und EFTA', '+ EFTA');
+        }
     },
     "tickLength": 0
   },
@@ -174,7 +177,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "symbolRadius": 0,

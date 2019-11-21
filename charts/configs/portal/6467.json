@@ -350,7 +350,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2002 bis 2017, 3-Jahres-Pooling",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling 2002 bis 2017",
     "align": "left"
   },
   "yAxis": {
@@ -393,7 +393,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
   },
   "legend": {
     "symbolRadius": 0,
