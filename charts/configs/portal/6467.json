@@ -316,9 +316,9 @@
             }
           }
     },
-    "renderTo": "container-6467",
     "type": "column",
     "inverted": true,
+    "renderTo": "container-6467",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -350,7 +350,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling 2002 bis 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {
@@ -368,11 +368,12 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+        }
     },
-    "max": 1
+    "max": 1,
+    "tickInterval": 0.2
   },
   "navigation": {
     "menuItemStyle": {
@@ -393,7 +394,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-21"
   },
   "legend": {
     "symbolRadius": 0,
@@ -405,13 +406,13 @@
     "verticalAlign": "top",
     "symbolPadding": 1,
     "itemDistance": 1,
-    "padding": 0,
+    "padding": 1,
     "align": "left"
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+      }
   },
   "exporting": {
     "filename": 6467
