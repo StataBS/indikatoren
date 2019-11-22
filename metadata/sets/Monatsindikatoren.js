@@ -170,7 +170,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-23T06:24:55.5555",
+		"aktualisierungsdatum": "2019-11-22T08:48:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -277,7 +277,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, September",
+		"subtitle": "Basel-Stadt, Oktober",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -288,13 +288,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-10-23T06:30:50.5050",
+		"aktualisierungsdatum": "2019-11-22T08:59:27.2727",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Absolut betrachtet nahm im September 2019 die Bevölkerung im Quartier Bachletten gegenüber dem Vormonat am meisten zu (+83). Dagegen sank sie in Riehen um 36 Personen.",
+		"lesehilfe": "In mehr als der Hälfte der Wohnviertel (13) wurden im Oktober 2019 Bevölkerungsrückgänge verzeichnet. Die Einwohnerzahl stieg in acht Wohnvierteln an - am stärksten im Wohnviertel Rosental.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
