@@ -11570,13 +11570,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-29T15:00:32.3232",
+		"aktualisierungsdatum": "2019-11-22T09:41:04.044",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2016 von rund 1 300 Fr. auf 1 600 Fr. pro Kopf gestiegen.",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2017 von rund 1 300 Fr. auf über 1 500 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -14774,14 +14774,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:59:53.5353",
+		"aktualisierungsdatum": "2019-11-22T09:30:16.1616",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Diese Bevölkerungspyramide zeigt die Alterszusammensetzung der Schweizerinnen und Schweizer im Jahr 1999. Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die grösste Fünfjahresklasse bilden bei den Männern die 35- bis 39-Jährigen. Bei den Frauen ist die Klasse der 70- bis 74-Jährigen am stärksten besetzt, gefolgt von derjenigen der 65- bis 69-Jährigen und derjenigen der 35- bis 39-Jährigen.",
-		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 1999 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14789,7 +14789,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6649"
+			"6649",
+			"7790"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14808,7 +14809,7 @@ var indikatoren = [
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"subtitle": "Basel-Stadt, 1999",
 		"kuerzel": "I.01.1.6065",
-		"kuerzelKunde": "A2-3",
+		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14816,22 +14817,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:09.099",
+		"aktualisierungsdatum": "2019-11-22T09:31:17.1717",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Diese Bevölkerungspyramide bildet die Altersstruktur der Ausländerinnen und Ausländer im Jahr 1999 ab. Ihre Basis ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Die grössten Altersgruppen sind diejenigen der 30- bis 34-jährigen Männer und Frauen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
-		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"lesehilfe": "Die grössten Altersgruppen sind 1999 diejenigen der 30- bis 34-jährigen Männer und Frauen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_013",
+		"orderKey": "01_00_00_00_00_014",
 		"parentId": null,
 		"children": [
-			"6650"
+			"6650",
+			"7791"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14850,7 +14852,7 @@ var indikatoren = [
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6066",
-		"kuerzelKunde": "A2-4",
+		"kuerzelKunde": "A2-3",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14858,22 +14860,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:35.3535",
+		"aktualisierungsdatum": "2019-11-22T09:32:59.5959",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 ist die Basis der Alterspyramide der Schweizerinnen und Schweizer etwas breiter als 1999, der Anteil der Kinder und Jugendlichen hat zugenommen.",
-		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 1999 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und 55- bis 59-Jährigen.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_014",
+		"orderKey": "01_00_00_00_00_013",
 		"parentId": null,
 		"children": [
-			"6651"
+			"6651",
+			"7792"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14900,14 +14903,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:00:50.5050",
+		"aktualisierungsdatum": "2019-11-22T09:35:11.1111",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 ist bei den ausländischen Männern die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
-		"erlaeuterungen": "Prozentanteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei den ausländischen Männern ist die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14915,7 +14918,8 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
 		"children": [
-			"6652"
+			"6652",
+			"7793"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15101,7 +15105,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Ausländer nach Art der Bewilligung",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6072",
 		"kuerzelKunde": "A3-2",
 		"description": "Ausländer nach Art der Bewilligung",
@@ -15111,7 +15115,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T09:24:40.4040",
+		"aktualisierungsdatum": "2019-11-22T15:16:10.1010",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -15324,14 +15328,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:59:28.2828",
+		"aktualisierungsdatum": "2019-11-22T16:31:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2009 bis 2018 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
-		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters). Das arithmetische Mittel wird hier berechnet, indem man die zusammengefassten Geburtenziffern der einzelnen Jahre addiert, und die Summe durch die Anzahl der berücksichtigten Jahre teilt.",
+		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24278,14 +24282,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T18:12:11.1111",
+		"aktualisierungsdatum": "2019-11-22T16:35:18.1818",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 wurden insgesamt 293 Schweizer Frauen und 295 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat 49 Schweizer Staatsangehörige (von Total 106 Personen).",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24321,14 +24325,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T18:20:09.099",
+		"aktualisierungsdatum": "2019-11-22T16:36:43.4343",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2018 wurden insgesamt 277 ausländische Frauen und 408 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat rund 57 ausländische Staatsangehörige (von Total 106 Personen).",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind 506 Arbeitslose ausgesteuert worden. Dieser Spitzenwert ist auf die Revision des Arbeitslosenversicherungsgesetzes zurückzuführen.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24537,14 +24541,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:35:55.5555",
+		"aktualisierungsdatum": "2019-11-22T17:32:37.3737",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Quote ist zwischen 2009 und 2018 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
-		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals mit Wohnsitz Basel-Stadt an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Staatsangehörigkeit (Ländergruppen). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24552,7 +24556,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_013",
 		"parentId": null,
 		"children": [
-			"6694"
+			"6694",
+			"7835"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24580,14 +24585,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:36:51.5151",
+		"aktualisierungsdatum": "2019-11-22T17:30:46.4646",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum bis 2012 gestiegen und stagniert seither.",
-		"erlaeuterungen": "Der Indikator zeigt das ausländische Staatspersonal mit Wohnsitz Basel-Stadt. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24595,7 +24600,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_014",
 		"parentId": null,
 		"children": [
-			"6695"
+			"6695",
+			"7836"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24622,14 +24628,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:37:23.2323",
+		"aktualisierungsdatum": "2019-11-22T17:33:26.2626",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Seit 2005 ist die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt recht stabil. Zwischen gut 85% und knapp 90% der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Dieser Anteil war bis 2011 ziemlich stabil und ist seither tendenziell rückläufig. Die absolute Zahl der Schweizer Staatsangestellten mit Kaderfunktion hat in den letzten Jahren zugenommen.",
-		"erlaeuterungen": "Der Indikator zeigt das Schweizer Staatspersonal mit Wohnsitz Basel-Stadt. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24637,7 +24643,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_015",
 		"parentId": null,
 		"children": [
-			"6696"
+			"6696",
+			"7837"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24664,14 +24671,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:27:14.1414",
+		"aktualisierungsdatum": "2019-11-22T17:34:41.4141",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 86,6% sind es 2018 beim «Unteren Kader» und 94,4% beim «Oberen Kader». Auffällig ist der mit 48,7% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 13,4% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,0% bei den Beschäftigten «Ohne Kaderfunktion» am stärksten vertreten.",
-		"erlaeuterungen": "Der Indikator zeigt das Staatspersonal mit Wohnsitz Basel-Stadt, ausgewertet nach Staatsangehörigkeit (Schweiz/Ausland), Geschlecht und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Staatsangehörigkeit (CH/Ausland), Geschlecht und Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24707,14 +24714,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:38:46.4646",
+		"aktualisierungsdatum": "2019-11-22T17:41:40.4040",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede 2. Stelle in der Kantonsverwaltung – wird nur der Wohnkanton Basel-Stadt berücksichtigt – mit einer Schweizerin besetzt. 2018 sind dies bei einem Personalbestand von 5&nbsp;314 Personen 2&nbsp;704 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
-		"erlaeuterungen": "Der Indikator zeigt das Staatspersonal mit Wohnsitz Basel-Stadt, ausgewertet nach Staatsangehörigkeit (Schweiz/Ausland), Geschlecht und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). Ausgewertet nach Staatsangehörigkeit (CH/Ausland), Geschlecht und Kaderstufe. In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24722,7 +24729,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_017",
 		"parentId": null,
 		"children": [
-			"6698"
+			"6698",
+			"7839"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -24749,14 +24757,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T15:23:36.3636",
+		"aktualisierungsdatum": "2019-11-22T17:43:07.077",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2010 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». Von den 2010 insgesamt 123 ausländischen Staatsangehörigen mit Kaderfunktion besitzen 91 die deutsche Staatsbürgerschaft.",
-		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) ausgewertet nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24793,14 +24801,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:33:27.2727",
+		"aktualisierungsdatum": "2019-11-22T17:43:57.5757",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2018 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
-		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz) ausgewertet nach Staatsangehörigkeit (Ländergruppen) und Kaderstufe. Definition Staatspersonal auf Basis des ordentlichen Bestandes (sog. Headcount). In die Auswertung fliessen nur Angaben der Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler) ein.",
+		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24963,14 +24971,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:20.2020",
+		"aktualisierungsdatum": "2019-11-22T17:02:50.5050",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Erwachsene Frauen weisen im Kanton Basel-Stadt bei fast allen Altergruppen eine tiefere Sozialhilfequote auf als Männer. Die höchste Sozialhilfequote im Erwachsenenalter lässt sich bei den 40- bis 44-jährigen Frauen und den 45- bis 49-jährigen Männern beobachten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24978,7 +24986,8 @@ var indikatoren = [
 		"orderKey": "03_00_00_00_00_023",
 		"parentId": null,
 		"children": [
-			"6704"
+			"6704",
+			"7845"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26002,14 +26011,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-21T09:29:25.2525",
+		"aktualisierungsdatum": "2019-11-22T17:06:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei den Ausländern ist im Kanton Basel-Stadt im Mittel der Jahre 2015 bis 2017 der Anteil Personen mit einem Äquivalenz-Haushaltseinkommen im 1.&nbsp;Quintil (25,3%) und im 5.&nbsp;Quintil (25,7%) grösser als in der Einkommensverteilung der gesamten ständigen Wohnbevölkerung in der Schweiz (gemäss Definition 20% für jedes Quintil). Bei den Schweizern ist der Anteil im 1.&nbsp;Quintil (21,4%) im Kanton Basel-Stadt höher, der Anteil im 5.&nbsp;Quintil (19,2%) hingegen tiefer als in der landesweiten Verteilung. Würde die Verteilung der Äquivalenz-Haushaltseinkommen jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten.",
-		"erlaeuterungen": "<i>Quintile</i>: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br><br><i>Äquivalenz-Haushaltseinkommen</i>: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
+		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -26455,7 +26464,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2018",
 		"kuerzel": "I.01.2.6478",
 		"kuerzelKunde": "D2-4",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -26465,7 +26474,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-11T11:34:25.2525",
+		"aktualisierungsdatum": "2019-11-22T10:11:17.1717",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -26946,14 +26955,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:52:42.4242",
+		"aktualisierungsdatum": "2019-11-22T17:09:54.5454",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von 2011 bis 2018 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 52. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung sank ebenfalls von 16 auf 6 Personen.",
-		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder &nbsp;Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

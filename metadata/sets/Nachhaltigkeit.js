@@ -995,13 +995,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-29T15:00:32.3232",
+		"aktualisierungsdatum": "2019-11-22T09:41:04.044",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2016 von rund 1 300 Fr. auf 1 600 Fr. pro Kopf gestiegen.",
+		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2017 von rund 1 300 Fr. auf über 1 500 Fr. pro Kopf gestiegen.",
 		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
