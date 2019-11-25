@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
+    "text": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -227,7 +227,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
   },
   "legend": {
     "symbolRadius": 0,
