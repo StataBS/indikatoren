@@ -13219,13 +13219,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2019-11-26T10:52:40.4040",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2018 den grössten Zuzugsüberschuss gegenüber Deutschland (+727). Den zweiten Rang belegte Italien (+274), den dritten die Vereinigten Staaten (+163). Danach folgten das Vereinigte Königreich (+140) und Frankreich (+62).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2018 den grössten Zuzugsüberschuss gegenüber Deutschland (+727). Den zweiten Rang belegte Italien (+274), den dritten belegten die Vereinigten Staaten (+163). Danach folgten das Vereinigte Königreich (+140) und Frankreich (+62).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13234,7 +13234,8 @@
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6772"
+			"6772",
+			"7760"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -13261,13 +13262,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2019-11-26T10:54:45.4545",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Italien ist 2018 gegenüber 2009 um 71% auf 171 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 31% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2014 bis 2016 verbucht. Zwischen 2009 und 2018 ist die Zuwanderung aus den Vereinigten Staaten um 5% gestiegen. Aus Deutschland kamen weniger Personen als noch 2009 (-14%), ebenso aus dem Vereinigten Königreich (-10%).",
+		"lesehilfe": "Die Zuwanderung aus Italien ist 2018 gegenüber 2009 um 71% auf 171 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 31% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Zwischen 2009 und 2018 ist die Zuwanderung aus den Vereinigten Staaten um 5% gestiegen. Aus Deutschland kamen weniger Personen als noch 2009 (-14%), ebenso aus dem Vereinigten Königreich (-10%).",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -13276,7 +13277,8 @@
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6773"
+			"6773",
+			"7761"
 		],
 		"renderLink": [],
 		"quellenangabe": [
