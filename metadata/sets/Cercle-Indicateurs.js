@@ -124,7 +124,7 @@ var indikatorensetData = [
 	{
 		"title": "Erneuerbarer Strom",
 		"subtitle": "Anteil am gesamten Stromverbrauch in der Stadt Basel",
-		"kuerzel": "I.08.3.04352",
+		"kuerzel": "I.08.3.4352",
 		"kuerzelKunde": "U03",
 		"description": "Erneuerbarer Strom",
 		"thema": "08 Energie",
@@ -133,15 +133,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "2019-11-27T15:20:33.3333",
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Strom aus erneuerbaren Quellen beträgt im Kanton Basel-Stadt 100%.",
+		"lesehilfe": "Der Anteil Strom aus erneuerbaren Quellen beträgt in der Stadt Basel 100%.",
 		"erlaeuterungen": "Anteil des erneuerbaren Stroms am gesamten Stromverbrauch (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_03_00_00_00_030",
 		"parentId": null,
 		"children": [],
@@ -151,11 +153,14 @@ var indikatorensetData = [
 			"Swisspower",
 			"Verband Schweizerischer Elektrizitätsunternehmen VSE"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4352,
-		"darstellungsart": "Grafik"
+		"data-id": 4352,
+		"chart-id": 4352,
+		"filter": "",
+		"id": 4352
 	},
 	{
 		"title": "Brutvogelindex",
