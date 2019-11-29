@@ -1,8 +1,215 @@
 {
   "series": [
     {
-      "color": "#E64900",
+      "color": "rgba(255, 255, 255, 0)",
       "legendIndex": 0,
+      "visible": true,
+      "marker": {
+        "symbol": "diamond"
+      },
+      "events": {
+        "legendItemClick": function (e) {
+            e.preventDefault()
+          }
+      },
+      "data": [
+        [
+          "1979\u002F80",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "1989\u002F90",
+          null
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "1999\u002F00",
+          null
+        ],
+        [
+          "2000-01",
+          null
+        ],
+        [
+          "2001-02",
+          null
+        ],
+        [
+          "2002-03",
+          null
+        ],
+        [
+          "2003-04",
+          null
+        ],
+        [
+          "2004-05",
+          null
+        ],
+        [
+          "2005-06",
+          null
+        ],
+        [
+          "2006-07",
+          null
+        ],
+        [
+          "2007-08",
+          null
+        ],
+        [
+          "2008-09",
+          null
+        ],
+        [
+          "2009-10",
+          null
+        ],
+        [
+          "2010-11",
+          null
+        ],
+        [
+          "2011-12",
+          null
+        ],
+        [
+          "2012\u002F13",
+          null
+        ],
+        [
+          "2013\u002F14",
+          null
+        ],
+        [
+          "2014\u002F15",
+          null
+        ],
+        [
+          "2015\u002F16",
+          null
+        ],
+        [
+          "2016\u002F17",
+          null
+        ]
+      ],
+      "name": "Knaben",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgba(255, 255, 255, 0)",
+      "legendIndex": 1,
+      "visible": true,
+      "events": {
+        "legendItemClick": function (e) {
+            e.preventDefault()
+          }
+      },
+      "data": [
+        [
+          "1979\u002F80",
+          null
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "1989\u002F90",
+          null
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "1999\u002F00",
+          null
+        ],
+        [
+          "2000-01",
+          null
+        ],
+        [
+          "2001-02",
+          null
+        ],
+        [
+          "2002-03",
+          null
+        ],
+        [
+          "2003-04",
+          null
+        ],
+        [
+          "2004-05",
+          null
+        ],
+        [
+          "2005-06",
+          null
+        ],
+        [
+          "2006-07",
+          null
+        ],
+        [
+          "2007-08",
+          null
+        ],
+        [
+          "2008-09",
+          null
+        ],
+        [
+          "2009-10",
+          null
+        ],
+        [
+          "2010-11",
+          null
+        ],
+        [
+          "2011-12",
+          null
+        ],
+        [
+          "2012\u002F13",
+          null
+        ],
+        [
+          "2013\u002F14",
+          null
+        ],
+        [
+          "2014\u002F15",
+          null
+        ],
+        [
+          "2015\u002F16",
+          null
+        ],
+        [
+          "2016\u002F17",
+          null
+        ]
+      ],
+      "name": "Mädchen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E64900",
+      "legendIndex": 2,
       "visible": false,
       "marker": {
         "symbol": "diamond"
@@ -97,12 +304,12 @@
           7
         ]
       ],
-      "name": "1. Klasse CH Knaben",
+      "name": "1. Stufe CH Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#E64900",
-      "legendIndex": 1,
+      "legendIndex": 3,
       "visible": false,
       "data": [
         [
@@ -194,12 +401,12 @@
           12
         ]
       ],
-      "name": "1. Klasse CH Mädchen",
+      "name": "1. Stufe CH Mädchen",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
-      "legendIndex": 2,
+      "legendIndex": 4,
       "visible": false,
       "marker": {
         "symbol": "diamond"
@@ -294,12 +501,12 @@
           9
         ]
       ],
-      "name": "1. Klasse Ausland Knaben",
+      "name": "1. Stufe Ausland Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
-      "legendIndex": 4,
+      "legendIndex": 5,
       "visible": false,
       "data": [
         [
@@ -391,12 +598,12 @@
           17
         ]
       ],
-      "name": "1. Klasse Ausland Mädchen",
+      "name": "1. Stufe Ausland Mädchen",
       "turboThreshold": 0
     },
     {
       "color": "#68AB2B",
-      "legendIndex": 4,
+      "legendIndex": 6,
       "visible": true,
       "marker": {
         "symbol": "diamond"
@@ -491,12 +698,12 @@
           18
         ]
       ],
-      "name": "3. Klasse CH Knaben",
+      "name": "5. Stufe CH Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#68AB2B",
-      "legendIndex": 5,
+      "legendIndex": 7,
       "visible": true,
       "data": [
         [
@@ -588,12 +795,12 @@
           22
         ]
       ],
-      "name": "3. Klasse CH Mädchen",
+      "name": "5. Stufe CH Mädchen",
       "turboThreshold": 0
     },
     {
       "color": "#B375AB",
-      "legendIndex": 6,
+      "legendIndex": 8,
       "visible": true,
       "marker": {
         "symbol": "diamond"
@@ -688,12 +895,12 @@
           29
         ]
       ],
-      "name": "3. Klasse Ausland Knaben",
+      "name": "5. Stufe Ausland Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#B375AB",
-      "legendIndex": 7,
+      "legendIndex": 9,
       "visible": true,
       "data": [
         [
@@ -785,12 +992,12 @@
           28
         ]
       ],
-      "name": "3. Klasse Ausland Mädchen",
+      "name": "5. Stufe Ausland Mädchen",
       "turboThreshold": 0
     },
     {
       "color": "#FFDA80",
-      "legendIndex": 8,
+      "legendIndex": 10,
       "visible": true,
       "marker": {
         "symbol": "diamond"
@@ -885,12 +1092,12 @@
           18
         ]
       ],
-      "name": "9. Klasse CH Knaben",
+      "name": "11. Stufe CH Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#FFDA80",
-      "legendIndex": 9,
+      "legendIndex": 11,
       "visible": true,
       "data": [
         [
@@ -982,12 +1189,12 @@
           23
         ]
       ],
-      "name": "9. Klasse CH Mädchen",
+      "name": "11. Stufe CH Mädchen",
       "turboThreshold": 0
     },
     {
       "color": "#3C3C3C",
-      "legendIndex": 10,
+      "legendIndex": 12,
       "visible": true,
       "marker": {
         "symbol": "diamond"
@@ -1082,12 +1289,12 @@
           32
         ]
       ],
-      "name": "9. Klasse Ausland Knaben",
+      "name": "11. Stufe Ausland Knaben",
       "turboThreshold": 0
     },
     {
       "color": "#3C3C3C",
-      "legendIndex": 11,
+      "legendIndex": 13,
       "visible": true,
       "data": [
         [
@@ -1179,7 +1386,7 @@
           29
         ]
       ],
-      "name": "9. Klasse Ausland Mädchen",
+      "name": "11. Stufe Ausland Mädchen",
       "turboThreshold": 0
     }
   ],
@@ -1198,7 +1405,8 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "chart": {
     "borderColor": "#fbfbfb",
@@ -1286,7 +1494,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "max": 50,
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {
@@ -1307,19 +1517,28 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-28"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": [
+        "bold",
+        "normal",
+        "bold"
+      ]
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "itemMarginBottom": 5,
-    "itemWidth": 200
+    "itemMarginBottom": 2,
+    "itemWidth": 200,
+    "y": -10,
+    "margin": 3,
+    "labelFormatter": function () {
+        return this.name.replace(' Mädchen', '').replace(' Knaben','').replace('Knaben','<b>Knaben</b>').replace('Mädchen','<b>Mädchen</b>');
+      }
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

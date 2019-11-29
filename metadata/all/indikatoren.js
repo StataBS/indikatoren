@@ -6579,7 +6579,7 @@ var indikatoren = [
 	{
 		"title": "Erneuerbarer Strom",
 		"subtitle": "Anteil am gesamten Stromverbrauch in der Stadt Basel",
-		"kuerzel": "I.08.3.04352",
+		"kuerzel": "I.08.3.4352",
 		"kuerzelKunde": "U03",
 		"description": "Erneuerbarer Strom",
 		"thema": "08 Energie",
@@ -6588,15 +6588,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-14T00:00:00.000",
+		"aktualisierungsdatum": "2019-11-27T15:20:33.3333",
 		"stufe1": "Umwelt",
 		"stufe2": "U3: Energiequalität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Strom aus erneuerbaren Quellen beträgt im Kanton Basel-Stadt 100%.",
+		"lesehilfe": "Der Anteil Strom aus erneuerbaren Quellen beträgt in der Stadt Basel 100%.",
 		"erlaeuterungen": "Anteil des erneuerbaren Stroms am gesamten Stromverbrauch (Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>).<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_03_00_00_00_030",
 		"parentId": null,
@@ -6607,11 +6609,14 @@ var indikatoren = [
 			"Swisspower",
 			"Verband Schweizerischer Elektrizitätsunternehmen VSE"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen zur den Nachhaltigkeitsindikatoren des Cercle Indicateurs finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/cercle-indicateurs.html' target = '_blank'>Webseite des Bundesamtes für Statistik</a>."
 		],
-		"id": 4352,
-		"darstellungsart": "Grafik"
+		"data-id": 4352,
+		"chart-id": 4352,
+		"filter": "",
+		"id": 4352
 	},
 	{
 		"title": "Brutvogelindex",
@@ -11224,14 +11229,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T10:03:25.2525",
+		"aktualisierungsdatum": "2019-11-28T18:30:18.1818",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen in der neunten Klasse übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.",
+		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht und werden von Zeit zu Zeit neu erhoben. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte nach Tim J Cole (BMJ Vol. 320, 5/2000) verwendet.<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11243,9 +11248,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5182,
+		"chart-id": 5182,
+		"filter": "",
 		"id": 5182
 	},
 	{
