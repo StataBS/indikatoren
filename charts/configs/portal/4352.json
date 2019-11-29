@@ -26,6 +26,10 @@
         [
           "2015",
           100
+        ],
+        [
+          "2017",
+          100
         ]
       ],
       "name": "Erneuerbarer Strom",
@@ -93,16 +97,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ") + "%";
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -163,7 +158,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Swissgrid SA;\u003Cbr\u002F\u003ESwisspower;\u003Cbr\u002F\u003EVerband Schweizerischer Elektrizitätsunternehmen VSE.\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
+    "text": "Quelle: Swissgrid SA;\u003Cbr\u002F\u003ESwisspower;\u003Cbr\u002F\u003EVerband Schweizerischer Elektrizitätsunternehmen VSE.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-27"
   },
   "legend": {
     "symbolRadius": 0,
