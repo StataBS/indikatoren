@@ -16,7 +16,12 @@
     },
     "xAxis": {
       "type": "category",
-      "tickInterval": 1
+      "tickInterval": 1,
+      "labels": {
+        formatter: function () {
+          return this.value.replace('-', '/'); //workaround for Chrome which automatically replaces e.g. 2000/01 by 2000-01 (interprets it as year/month)
+        }
+      }
     },
     "legend": {
       "enabled": true,
@@ -29,13 +34,13 @@
       "itemMarginBottom": 2,
       itemWidth: 200,
       y: -10,
-      margin:3,
+      margin: 3,
       "itemStyle": {
         "fontWeight": ["bold", "normal", "bold"]
       },
       labelFormatter: function () {
-        return this.name.replace(' Mädchen', '').replace(' Knaben','').replace('Knaben','<b>Knaben</b>').replace('Mädchen','<b>Mädchen</b>');
-      }    
+        return this.name.replace(' Mädchen', '').replace(' Knaben', '').replace('Knaben', '<b>Knaben</b>').replace('Mädchen', '<b>Mädchen</b>');
+      }
     },
     "series": [
       {

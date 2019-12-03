@@ -1403,7 +1403,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return this.value.replace('-', '/'); //workaround for Chrome which automatically replaces e.g. 2000/01 by 2000-01 (interprets it as year/month)
+        }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -1517,7 +1520,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-28"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-2"
   },
   "legend": {
     "symbolRadius": 0,
@@ -1537,7 +1540,7 @@
     "y": -10,
     "margin": 3,
     "labelFormatter": function () {
-        return this.name.replace(' Mädchen', '').replace(' Knaben','').replace('Knaben','<b>Knaben</b>').replace('Mädchen','<b>Mädchen</b>');
+        return this.name.replace(' Mädchen', '').replace(' Knaben', '').replace('Knaben', '<b>Knaben</b>').replace('Mädchen', '<b>Mädchen</b>');
       }
   },
   "tooltip": {
