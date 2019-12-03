@@ -85,6 +85,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Unfälle"
@@ -92,7 +96,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true,
+        "enabled": false,
         "radius": 2
       },
       "color": "#8b2223",
@@ -176,6 +180,10 @@
         [
           2017,
           835
+        ],
+        [
+          2018,
+          777
         ]
       ],
       "name": "Unfälle"
@@ -277,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-2"
   },
   "legend": {
     "enabled": false,

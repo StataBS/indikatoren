@@ -2159,15 +2159,16 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T17:00:00.000",
+		"aktualisierungsdatum": "2019-12-02T09:51:39.3939",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1999 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 3 000 auf rund 900 Unfälle gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. 2017 zeichnet sich durch einen leichten Rückgang der Unfälle aus.",
-		"erlaeuterungen": "Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3&nbsp;000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. 2018 wurde eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
+		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "10_00_00_00_00_002",
 		"parentId": null,
@@ -2178,11 +2179,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6177,
-		"darstellungsart": "Grafik"
+		"data-id": 6177,
+		"chart-id": 6177,
+		"filter": "",
+		"id": 6177
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
