@@ -3,7 +3,6 @@ var indikatorensetNames = [
 	"Legislaturplan",
 	"Nachhaltigkeit",
 	"Wohnraumentwicklung",
-	"Cercle-Indicateurs",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
