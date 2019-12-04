@@ -72,7 +72,7 @@ id | visible | visibleInPortal | indikatorenset
 4156 | true | true | Wohnraumentwicklung
 4200 | false |  | Integration-kompakt
 4203 | false |  | Integration-kompakt
-4211 | true | true | Cercle-Indicateurs
+4211 | false |  | Cercle-Indicateurs
 4218 | false |  | Integration-kompakt
 4219 | false |  | Integration-kompakt
 4220 | false |  | Integration-kompakt
@@ -189,17 +189,17 @@ id | visible | visibleInPortal | indikatorenset
 4339 | true | true | 
 4340 | false |  | Integration-kompakt
 4342 | false |  | Integration-kompakt
-4348 | true | true | Cercle-Indicateurs
-4350 | true | true | Cercle-Indicateurs
-4352 | true | true | Cercle-Indicateurs
-4355 | true | true | Cercle-Indicateurs
-4356 | true | true | Cercle-Indicateurs
-4359 | true | true | Cercle-Indicateurs
-4360 | true | true | Cercle-Indicateurs
-4361 | true | true | Cercle-Indicateurs
-4364 | true | true | Cercle-Indicateurs
-4367 | true | true | Cercle-Indicateurs
-4374 | true | true | Cercle-Indicateurs
+4348 | false |  | Cercle-Indicateurs
+4350 | false |  | Cercle-Indicateurs
+4352 | false |  | Cercle-Indicateurs
+4355 | false |  | Cercle-Indicateurs
+4356 | false |  | Cercle-Indicateurs
+4359 | false |  | Cercle-Indicateurs
+4360 | true | true | 
+4361 | false |  | Cercle-Indicateurs
+4364 | false |  | Cercle-Indicateurs
+4367 | false |  | Cercle-Indicateurs
+4374 | false |  | Cercle-Indicateurs
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
