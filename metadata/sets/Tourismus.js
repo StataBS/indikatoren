@@ -317,7 +317,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Logiernächte pro Monat nach Herkunft der Gäste",
-		"subtitle": "Basel-Stadt, Werte 2018 im Vergleich mit dem Mittelwert 2009 bis 2018",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6545",
 		"kuerzelKunde": "2-10",
 		"description": "Logiernächte pro Monat nach Herkunft der Gäste",
@@ -327,20 +327,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-12-05T15:29:39.3939",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 135 236 Logiernächten stellte der Juni den meistfrequentierten Monat 2018 dar. Dieser Wert bedeutet gleichzeitig die höchste je in einem Monat gemessene Übernachtungszahl seit Beginn der statistischen Aufzeichnung vor 85 Jahren. Im Verlauf des Jahres 2018 wurden insgesamt 1 386 499 Hotelübernachtungen verzeichnet, dies entspricht 7 Übernachtungen pro Kantonseinwohner. Beim Zehnjahresvergleich der Logiernächtezahlen ergibt sich ein Zuwachs um 356 157 Logiernächte bzw. 34,6%.",
+		"lesehilfe": "Mit 135 236 Logiernächten stellte der Juni den meistfrequentierten Monat 2018 dar. Dieser Wert bedeutet gleichzeitig die höchste je in einem Monat gemessene Übernachtungszahl seit Beginn der statistischen Aufzeichnung vor 85 Jahren. Im Verlauf des Jahres 2018 wurden insgesamt 1 386 499 Hotelübernachtungen verzeichnet, dies entspricht 7 Übernachtungen pro Kantonseinwohner. Beim Zehnjahresvergleich der Logiernächtezahlen ergibt sich ein Zuwachs um 356 157 Logiernächte bzw. 34,6%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_010",
+		"orderKey": "01_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7980"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -405,20 +407,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-12-05T11:02:55.5555",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die positive Nachfrageentwicklung der letzten Dekade basiert sowohl auf dem Wachstum des Inlandmarktes, als auch der ausländischen Quellmärkte. Die Anzahl der Buchungen von Schweizer Gästen hat im Beobachtungszeitraum 2009-2018 um 143 970 bzw. 45,8% auf 458 003 Logiernächte zugenommen. Bei den Logiernächten von Touristen aus dem Ausland gab es in der letzten Dekade ebenfalls einen hohen Zuwachs um 212 187 bzw. 29,6% auf 928 496 Logiernächte. Das verhältnismässige Abflachen deren Wachstumskurve im Berichtsjahr (+2,7% Logiernächte gegenüber 2017) erklärt sich hauptsächlich durch die hohe Logiernächtezahl des Vorjahres, die ihrerseits einen Anstieg um 11,4% bedeutet hatte.",
+		"lesehilfe": "Die positive Nachfrageentwicklung der letzten Dekade basiert sowohl auf dem Wachstum des Inlandmarktes, als auch der ausländischen Quellmärkte. Die Anzahl der Buchungen von Schweizer Gästen hat im Beobachtungszeitraum 2009-2018 um 143 970 bzw. 45,8% auf 458 003 Logiernächte zugenommen. Bei den Logiernächten von Touristen aus dem Ausland gab es in der letzten Dekade ebenfalls einen hohen Zuwachs um 212 187 bzw. 29,6% auf 928 496 Logiernächte. Das verhältnismässige Abflachen deren Wachstumskurve im Berichtsjahr (+2,7% Logiernächte gegenüber 2017) erklärt sich hauptsächlich durch die hohe Logiernächtezahl des Vorjahres, die ihrerseits einen Anstieg um 11,4% bedeutet hatte.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_012",
+		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7982"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -485,20 +489,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2019-12-05T11:01:27.2727",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basler Hotellerie begrüsste 2018 insgesamt 742 186 Hotelgäste. Gegenüber 2009 entspricht dies einer Zunahme um 210 717 bzw. 39,6%. Zu diesem Wachstum haben sowohl die inländischen als auch die ausländischen Gäste beigetragen. Am meisten Besucher wurden 2018 im Juli (73 667) verzeichnet. Die Gäste aus der Schweiz nutzten vor allem den Monat Oktober (27 272) für einen Besuch in Basel, während der bevorzugte Monat der ausländischen Touristen der August (48 698) war.",
+		"lesehilfe": "Die Basler Hotellerie begrüsste 2018 insgesamt 742 186 Hotelgäste. Gegenüber 2009 entspricht dies einer Zunahme um 210 717 bzw. 39,6%. Zu diesem Wachstum haben sowohl die inländischen als auch die ausländischen Gäste beigetragen. Am meisten Besucher wurden 2018 im Juli (73 667) verzeichnet. Die Gäste aus der Schweiz nutzten vor allem den Monat Oktober (27 272) für einen Besuch in Basel, während der bevorzugte Monat der ausländischen Touristen der August (48 698) war.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_009",
+		"orderKey": "01_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7984"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -648,13 +654,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-08T14:00:47.4747",
+		"aktualisierungsdatum": "2019-12-05T12:34:09.099",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ein interessantes Bild zeigt sich bei der Betrachtung der Logiernächte der Top 10-Herkunftsländer nach Unterkunftsart: Von insgesamt 142 756 Logiernächten von Gästen aus den Vereinigten Staaten entfielen im Jahr 2018 mehr als zwei Drittel aller Übernachtungen auf die 4- und 5-Sterne-Hotels. Mit 49,3% bzw. 47,3% hoch im Kurs standen die Luxushotels auch bei den Touristen aus der Volksrepublik China und dem Vereinigten Königreich. 40,9% der Gäste aus den Niederlanden sowie 40,7% der Besucher aus Deutschland wählten für ihren Aufenthalt ein 3-Sterne-Hotel.",
+		"lesehilfe": "Ein interessantes Bild zeigt sich bei der Betrachtung der Logiernächte der Top 10-Herkunftsländer nach Unterkunftsart: Von insgesamt 142 756 Logiernächten von Gästen aus den Vereinigten Staaten entfielen im Jahr 2018 mehr als zwei Drittel aller Übernachtungen auf die 4- und 5-Sterne-Hotels. Mit 49,3% bzw. 47,3% hoch im Kurs standen die Luxushotels auch bei den Touristen aus der Volksrepublik China und dem Vereinigten Königreich. 40,9% der Gäste aus den Niederlanden sowie 40,7% der Besucher aus Deutschland wählten für ihren Aufenthalt ein 3-Sterne-Hotel.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
