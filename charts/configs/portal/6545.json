@@ -307,7 +307,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Werte 2018 im Vergleich mit dem Mittelwert 2009 bis 2018",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-5"
   },
   "legend": {
     "symbolRadius": 0,
