@@ -54,6 +54,10 @@
         [
           2017,
           84.4
+        ],
+        [
+          2018,
+          84.2
         ]
       ],
       "name": "Frauen"
@@ -111,6 +115,10 @@
         ],
         [
           2017,
+          80.9
+        ],
+        [
+          2018,
           80.9
         ]
       ],
@@ -213,7 +221,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-5"
   },
   "legend": {
     "enabled": true,
