@@ -25130,7 +25130,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:20.2020",
+		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25172,7 +25172,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:20.2020",
+		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25215,7 +25215,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25258,7 +25258,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25300,7 +25300,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25342,7 +25342,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25384,7 +25384,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25427,7 +25427,7 @@ var indikatoren = [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25469,7 +25469,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:21.2121",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25511,7 +25511,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25553,7 +25553,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -25595,7 +25595,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25637,7 +25637,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25679,7 +25679,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25721,7 +25721,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:22.2222",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25763,7 +25763,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25805,7 +25805,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25847,7 +25847,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25889,7 +25889,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25931,7 +25931,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -25973,7 +25973,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26015,7 +26015,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:23.2323",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26057,7 +26057,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26099,7 +26099,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26141,7 +26141,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26183,7 +26183,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26225,7 +26225,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26268,7 +26268,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:24.2424",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26310,7 +26310,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
 		"stufe2": "",
 		"stufe3": "",
@@ -26353,7 +26353,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "5 Bildung, Soziales und Gesundheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -26395,7 +26395,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "5 Bildung, Soziales und Gesundheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -26437,7 +26437,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "5 Bildung, Soziales und Gesundheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -26479,7 +26479,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "5 Bildung, Soziales und Gesundheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -26521,7 +26521,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "5 Bildung, Soziales und Gesundheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -26564,7 +26564,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:25.2525",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26606,7 +26606,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:26.2626",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26648,14 +26648,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:26.2626",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B.Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
 		"template": "map002",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -26690,7 +26690,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:26.2626",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26733,7 +26733,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:26.2626",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26775,7 +26775,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:26.2626",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26817,7 +26817,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:19.1919",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26860,7 +26860,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:19.1919",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26904,7 +26904,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:19.1919",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26948,7 +26948,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:19.1919",
+		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -26990,7 +26990,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:20.2020",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -27032,7 +27032,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:20.2020",
+		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
@@ -28037,7 +28037,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-10T09:38:20.2020",
+		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
