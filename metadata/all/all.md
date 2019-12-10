@@ -1055,6 +1055,53 @@ id | visible | visibleInPortal | indikatorenset
 7551 | true | true | 
 7563 | true | false | 
 7603 | true | true | 
+7664 | true | false | Stadtteilmonitoring Rosental
+7665 | true | true | Stadtteilmonitoring Rosental
+7666 | true | true | Stadtteilmonitoring Rosental
+7667 | true | true | Stadtteilmonitoring Rosental
+7668 | true | true | Stadtteilmonitoring Rosental
+7669 | true | true | Stadtteilmonitoring Rosental
+7670 | true | true | Stadtteilmonitoring Rosental
+7671 | true | true | Stadtteilmonitoring Rosental
+7672 | true | true | Stadtteilmonitoring Rosental
+7673 | true | true | Stadtteilmonitoring Rosental
+7674 | true | true | Stadtteilmonitoring Rosental
+7675 | true | true | Stadtteilmonitoring Rosental
+7676 | true | true | Stadtteilmonitoring Rosental
+7677 | true | true | Stadtteilmonitoring Rosental
+7678 | true | true | Stadtteilmonitoring Rosental
+7679 | true | true | Stadtteilmonitoring Rosental
+7680 | true | true | Stadtteilmonitoring Rosental
+7681 | true | true | Stadtteilmonitoring Rosental
+7682 | true | true | Stadtteilmonitoring Rosental
+7683 | true | true | Stadtteilmonitoring Rosental
+7684 | true | true | Stadtteilmonitoring Rosental
+7685 | true | true | Stadtteilmonitoring Rosental
+7686 | true | true | Stadtteilmonitoring Rosental
+7687 | true | true | Stadtteilmonitoring Rosental
+7688 | true | true | Stadtteilmonitoring Rosental
+7689 | true | true | Stadtteilmonitoring Rosental
+7690 | true | true | Stadtteilmonitoring Rosental
+7691 | true | true | Stadtteilmonitoring Rosental
+7692 | true | true | Stadtteilmonitoring Rosental
+7693 | true | true | Stadtteilmonitoring Rosental
+7694 | true | true | Stadtteilmonitoring Rosental
+7695 | true | true | Stadtteilmonitoring Rosental
+7696 | true | true | Stadtteilmonitoring Rosental
+7697 | true | true | Stadtteilmonitoring Rosental
+7698 | true | true | Stadtteilmonitoring Rosental
+7699 | true | true | Stadtteilmonitoring Rosental
+7700 | true | true | Stadtteilmonitoring Rosental
+7701 | true | true | Stadtteilmonitoring Rosental
+7703 | true | true | Stadtteilmonitoring Rosental
+7704 | true | true | Stadtteilmonitoring Rosental
+7705 | true | true | Stadtteilmonitoring Rosental
+7706 | true | true | Stadtteilmonitoring Rosental
+7707 | true | true | Stadtteilmonitoring Rosental
+7708 | true | true | Stadtteilmonitoring Rosental
+7709 | true | true | Stadtteilmonitoring Rosental
+7711 | true | true | Stadtteilmonitoring Rosental
+7712 | true | true | Stadtteilmonitoring Rosental
 7713 | true | false | Testset
 7722 | true | true | Bevoelkerungsszenarien
 7723 | true | true | Bevoelkerungsszenarien
@@ -1083,6 +1130,7 @@ id | visible | visibleInPortal | indikatorenset
 7746 | true | false | 
 7747 | true | false | Bevoelkerungsszenarien
 7763 | true | true | Monatsindikatoren
+7764 | true | true | Stadtteilmonitoring Rosental
 7774 | true | true | Richtplan
 7778 | true | false | Richtplan
 9995 | true | false | 
