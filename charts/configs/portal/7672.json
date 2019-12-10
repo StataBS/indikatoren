@@ -1,0 +1,485 @@
+{
+  "series": [
+    {
+      "color": "#2f656b",
+      "index": 0,
+      "data": [
+        [
+          "2010: Messe",
+          937
+        ],
+        [
+          "2010: Erlenmatt",
+          118
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Messe",
+          971
+        ],
+        [
+          "2011: Erlenmatt",
+          115
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Messe",
+          1017
+        ],
+        [
+          "2012: Erlenmatt",
+          106
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Messe",
+          1022
+        ],
+        [
+          "2013: Erlenmatt",
+          109
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Messe",
+          1016
+        ],
+        [
+          "2014: Erlenmatt",
+          115
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Messe",
+          1018
+        ],
+        [
+          "2015: Erlenmatt",
+          322
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Messe",
+          991
+        ],
+        [
+          "2016: Erlenmatt",
+          364
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Messe",
+          1015
+        ],
+        [
+          "2017: Erlenmatt",
+          375
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Messe",
+          1066
+        ],
+        [
+          "2018: Erlenmatt",
+          389
+        ]
+      ],
+      "name": "Einpersonenhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73b97c",
+      "index": 1,
+      "data": [
+        [
+          "2010: Messe",
+          855
+        ],
+        [
+          "2010: Erlenmatt",
+          97
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Messe",
+          912
+        ],
+        [
+          "2011: Erlenmatt",
+          115
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Messe",
+          923
+        ],
+        [
+          "2012: Erlenmatt",
+          122
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Messe",
+          932
+        ],
+        [
+          "2013: Erlenmatt",
+          129
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Messe",
+          899
+        ],
+        [
+          "2014: Erlenmatt",
+          119
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Messe",
+          881
+        ],
+        [
+          "2015: Erlenmatt",
+          266
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Messe",
+          898
+        ],
+        [
+          "2016: Erlenmatt",
+          330
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Messe",
+          884
+        ],
+        [
+          "2017: Erlenmatt",
+          370
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Messe",
+          874
+        ],
+        [
+          "2018: Erlenmatt",
+          411
+        ]
+      ],
+      "name": "Familienhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e8d2",
+      "index": 2,
+      "data": [
+        [
+          "2010: Messe",
+          247
+        ],
+        [
+          "2010: Erlenmatt",
+          23
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Messe",
+          286
+        ],
+        [
+          "2011: Erlenmatt",
+          44
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Messe",
+          295
+        ],
+        [
+          "2012: Erlenmatt",
+          40
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Messe",
+          324
+        ],
+        [
+          "2013: Erlenmatt",
+          33
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Messe",
+          337
+        ],
+        [
+          "2014: Erlenmatt",
+          36
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Messe",
+          351
+        ],
+        [
+          "2015: Erlenmatt",
+          113
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Messe",
+          382
+        ],
+        [
+          "2016: Erlenmatt",
+          143
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Messe",
+          351
+        ],
+        [
+          "2017: Erlenmatt",
+          123
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Messe",
+          356
+        ],
+        [
+          "2018: Erlenmatt",
+          139
+        ]
+      ],
+      "name": "Andere Haushalte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-7672",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Haushalte nach Art des Haushalts"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 10,
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 7672
+  }
+}

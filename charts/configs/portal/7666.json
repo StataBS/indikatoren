@@ -1,0 +1,540 @@
+{
+  "series": [
+    {
+      "color": "#7f5f1a",
+      "stacking": "normal",
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -100
+        ],
+        [
+          "5-9",
+          -74
+        ],
+        [
+          "10-14",
+          -45
+        ],
+        [
+          "15-19",
+          -31
+        ],
+        [
+          "20-24",
+          -33
+        ],
+        [
+          "25-29",
+          -127
+        ],
+        [
+          "30-34",
+          -141
+        ],
+        [
+          "35-39",
+          -164
+        ],
+        [
+          "40-44",
+          -122
+        ],
+        [
+          "45-49",
+          -59
+        ],
+        [
+          "50-54",
+          -49
+        ],
+        [
+          "55-59",
+          -30
+        ],
+        [
+          "60-64",
+          -22
+        ],
+        [
+          "65-69",
+          -16
+        ],
+        [
+          "70-74",
+          -11
+        ],
+        [
+          "75-79",
+          -10
+        ],
+        [
+          "80-84",
+          -8
+        ],
+        [
+          "85-89",
+          -8
+        ],
+        [
+          "90-94",
+          -5
+        ],
+        [
+          "95 u.m.",
+          -1
+        ]
+      ],
+      "name": "Männer Erlenmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#cd9c00",
+      "stacking": "normal",
+      "legendIndex": 2,
+      "data": [
+        [
+          "0-4",
+          -113
+        ],
+        [
+          "5-9",
+          -107
+        ],
+        [
+          "10-14",
+          -102
+        ],
+        [
+          "15-19",
+          -125
+        ],
+        [
+          "20-24",
+          -174
+        ],
+        [
+          "25-29",
+          -310
+        ],
+        [
+          "30-34",
+          -308
+        ],
+        [
+          "35-39",
+          -264
+        ],
+        [
+          "40-44",
+          -207
+        ],
+        [
+          "45-49",
+          -182
+        ],
+        [
+          "50-54",
+          -161
+        ],
+        [
+          "55-59",
+          -132
+        ],
+        [
+          "60-64",
+          -121
+        ],
+        [
+          "65-69",
+          -82
+        ],
+        [
+          "70-74",
+          -50
+        ],
+        [
+          "75-79",
+          -41
+        ],
+        [
+          "80-84",
+          -20
+        ],
+        [
+          "85-89",
+          -8
+        ],
+        [
+          "90-94",
+          -3
+        ],
+        [
+          "95 u.m.",
+          -1
+        ]
+      ],
+      "name": "Männer Messe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "stacking": "normal",
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          107
+        ],
+        [
+          "5-9",
+          77
+        ],
+        [
+          "10-14",
+          31
+        ],
+        [
+          "15-19",
+          26
+        ],
+        [
+          "20-24",
+          46
+        ],
+        [
+          "25-29",
+          136
+        ],
+        [
+          "30-34",
+          145
+        ],
+        [
+          "35-39",
+          158
+        ],
+        [
+          "40-44",
+          83
+        ],
+        [
+          "45-49",
+          43
+        ],
+        [
+          "50-54",
+          37
+        ],
+        [
+          "55-59",
+          31
+        ],
+        [
+          "60-64",
+          28
+        ],
+        [
+          "65-69",
+          19
+        ],
+        [
+          "70-74",
+          15
+        ],
+        [
+          "75-79",
+          15
+        ],
+        [
+          "80-84",
+          19
+        ],
+        [
+          "85-89",
+          16
+        ],
+        [
+          "90-94",
+          12
+        ],
+        [
+          "95 u.m.",
+          10
+        ]
+      ],
+      "name": "Frauen Erlenmatt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "stacking": "normal",
+      "legendIndex": 3,
+      "data": [
+        [
+          "0-4",
+          107
+        ],
+        [
+          "5-9",
+          91
+        ],
+        [
+          "10-14",
+          107
+        ],
+        [
+          "15-19",
+          86
+        ],
+        [
+          "20-24",
+          198
+        ],
+        [
+          "25-29",
+          273
+        ],
+        [
+          "30-34",
+          249
+        ],
+        [
+          "35-39",
+          219
+        ],
+        [
+          "40-44",
+          152
+        ],
+        [
+          "45-49",
+          158
+        ],
+        [
+          "50-54",
+          130
+        ],
+        [
+          "55-59",
+          120
+        ],
+        [
+          "60-64",
+          91
+        ],
+        [
+          "65-69",
+          72
+        ],
+        [
+          "70-74",
+          54
+        ],
+        [
+          "75-79",
+          42
+        ],
+        [
+          "80-84",
+          32
+        ],
+        [
+          "85-89",
+          26
+        ],
+        [
+          "90-94",
+          10
+        ],
+        [
+          "95 u.m.",
+          2
+        ]
+      ],
+      "name": "Frauen Messe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
+  "chart": {
+    "type": "bar",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginRight": 15,
+    "marginBottom": 70,
+    "renderTo": "container-7666"
+  },
+  "plotOptions": {
+    "bar": {
+      "grouping": false
+    },
+    "series": {
+      "stacking": null,
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "groupPadding": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnbevölkerung nach Alter und Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk, 2018",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "max": 2000,
+      "min": 0,
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "step": 1,
+        "formatter": function () {
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ");
+                },
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "plotLines": [
+        {
+          "value": 0,
+          "color": "white",
+          "width": 1,
+          "zIndex": 4
+        }
+      ],
+      "events": {
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
+                }
+      }
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 145,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+            },
+    "shared": true,
+    "formatter": function () { //sum values correctly
+                var s = '<span style="font-size: 12px">Alter: <b>' + this.points[0].key + '</b></span><br/>';
+                var sum = 0;
+                $.each(this.points, function (i, point) {
+                    var v = Math.sqrt(this.y * this.y); //make - to + again
+                    s += '<span style="color:' + point.series.color + '">\u25CF</span> ' + point.series.name + ': <b>' + v + '</b><br/>';
+                    sum += v;
+                });
+                // s += 'Total: <b>'+ sum + '</b>';
+                return s;
+            }
+  },
+  "customFunctions": {
+    "createSymmetricAxis": function(axis){
+                var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                axis.setExtremes(-absMax, absMax);
+        	}
+  },
+  "exporting": {
+    "filename": 7666
+  }
+}

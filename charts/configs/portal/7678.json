@@ -1,0 +1,532 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "stacking": "normal",
+      "stack": 0,
+      "legendIndex": 1,
+      "data": [
+        [
+          2005,
+          121617
+        ],
+        [
+          2006,
+          159431
+        ],
+        [
+          2007,
+          101797
+        ],
+        [
+          2008,
+          648156
+        ],
+        [
+          2009,
+          502610
+        ],
+        [
+          2010,
+          564007
+        ],
+        [
+          2011,
+          530678
+        ],
+        [
+          2012,
+          894881
+        ],
+        [
+          2013,
+          806423
+        ],
+        [
+          2014,
+          711859
+        ],
+        [
+          2015,
+          689943
+        ],
+        [
+          2016,
+          693953
+        ]
+      ],
+      "name": "Zugezogene Messe"
+    },
+    {
+      "color": "#7f5f1a",
+      "stacking": "normal",
+      "stack": 0,
+      "legendIndex": 3,
+      "data": [
+        [
+          2005,
+          -161998
+        ],
+        [
+          2006,
+          -103520
+        ],
+        [
+          2007,
+          -85689
+        ],
+        [
+          2008,
+          -111770
+        ],
+        [
+          2009,
+          -555815
+        ],
+        [
+          2010,
+          -412341
+        ],
+        [
+          2011,
+          -510926
+        ],
+        [
+          2012,
+          -643431
+        ],
+        [
+          2013,
+          -549151
+        ],
+        [
+          2014,
+          -621333
+        ],
+        [
+          2015,
+          -578767
+        ],
+        [
+          2016,
+          -525292
+        ]
+      ],
+      "name": "Weggezogene Messe"
+    },
+    {
+      "color": "#b375ab",
+      "stacking": "normal",
+      "stack": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          46031
+        ],
+        [
+          2009,
+          293511
+        ],
+        [
+          2010,
+          222091
+        ],
+        [
+          2011,
+          226185
+        ],
+        [
+          2012,
+          100093
+        ],
+        [
+          2013,
+          213476
+        ],
+        [
+          2014,
+          201772
+        ],
+        [
+          2015,
+          1546250
+        ],
+        [
+          2016,
+          668510
+        ]
+      ],
+      "name": "Zugezogene Erlenmatt"
+    },
+    {
+      "color": "#923f8d",
+      "stacking": "normal",
+      "stack": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          -62610
+        ],
+        [
+          2010,
+          -52489
+        ],
+        [
+          2011,
+          -75896
+        ],
+        [
+          2012,
+          -287525
+        ],
+        [
+          2013,
+          -167089
+        ],
+        [
+          2014,
+          -145043
+        ],
+        [
+          2015,
+          -167365
+        ],
+        [
+          2016,
+          -397977
+        ]
+      ],
+      "name": "Weggezogene Erlenmatt"
+    },
+    {
+      "color": "#fabd24",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 5,
+      "marker": {
+        "radius": 4
+      },
+      "zIndex": 2,
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          -40381
+        ],
+        [
+          2006,
+          55911
+        ],
+        [
+          2007,
+          16108
+        ],
+        [
+          2008,
+          536386
+        ],
+        [
+          2009,
+          -53205
+        ],
+        [
+          2010,
+          151666
+        ],
+        [
+          2011,
+          19752
+        ],
+        [
+          2012,
+          251450
+        ],
+        [
+          2013,
+          257272
+        ],
+        [
+          2014,
+          90526
+        ],
+        [
+          2015,
+          111176
+        ],
+        [
+          2016,
+          168661
+        ]
+      ],
+      "name": "Saldo Messe"
+    },
+    {
+      "color": "#d7bed2",
+      "type": "line",
+      "lineWidth": 0,
+      "legendIndex": 6,
+      "marker": {
+        "symbol": "diamond",
+        "radius": 5
+      },
+      "zIndex": 1,
+      "tooltip": {
+        "shared": true
+      },
+      "states": {
+        "hover": {
+          "lineWidth": 2
+        }
+      },
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          46031
+        ],
+        [
+          2009,
+          230901
+        ],
+        [
+          2010,
+          169602
+        ],
+        [
+          2011,
+          150289
+        ],
+        [
+          2012,
+          -187432
+        ],
+        [
+          2013,
+          46387
+        ],
+        [
+          2014,
+          56729
+        ],
+        [
+          2015,
+          1378885
+        ],
+        [
+          2016,
+          270533
+        ]
+      ],
+      "name": "Saldo Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-7678"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Steuerertrag durch Zu- und Wegzüger"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": -750000,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 250000,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B6CFD7",
+        "width": 2,
+        "zIndex": 0
+      }
+    ]
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": true
+      },
+      "borderWidth": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7678
+  }
+}

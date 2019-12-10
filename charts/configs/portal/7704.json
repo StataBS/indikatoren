@@ -1,0 +1,548 @@
+{
+  "series": [
+    {
+      "color": "#9E7C59",
+      "index": 5,
+      "legendIndex": 0,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2013: Messe",
+          65
+        ],
+        [
+          "2013: Erlenmatt",
+          8
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Messe",
+          81
+        ],
+        [
+          "2014: Erlenmatt",
+          7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Messe",
+          77
+        ],
+        [
+          "2015: Erlenmatt",
+          7
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Messe",
+          77
+        ],
+        [
+          "2016: Erlenmatt",
+          7
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Messe",
+          76
+        ],
+        [
+          "2017: Erlenmatt",
+          7
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Messe",
+          76
+        ],
+        [
+          "2018: Erlenmatt",
+          7
+        ]
+      ],
+      "name": "Erdgas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "index": 4,
+      "legendIndex": 1,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2013: Messe",
+          51
+        ],
+        [
+          "2013: Erlenmatt",
+          2
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Messe",
+          43
+        ],
+        [
+          "2014: Erlenmatt",
+          3
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Messe",
+          48
+        ],
+        [
+          "2015: Erlenmatt",
+          3
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Messe",
+          38
+        ],
+        [
+          "2016: Erlenmatt",
+          3
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Messe",
+          39
+        ],
+        [
+          "2017: Erlenmatt",
+          3
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Messe",
+          39
+        ],
+        [
+          "2018: Erlenmatt",
+          3
+        ]
+      ],
+      "name": "Heizöl",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 3,
+      "legendIndex": 2,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2013: Messe",
+          174
+        ],
+        [
+          "2013: Erlenmatt",
+          13
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Messe",
+          173
+        ],
+        [
+          "2014: Erlenmatt",
+          14
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Messe",
+          168
+        ],
+        [
+          "2015: Erlenmatt",
+          24
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Messe",
+          179
+        ],
+        [
+          "2016: Erlenmatt",
+          25
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Messe",
+          179
+        ],
+        [
+          "2017: Erlenmatt",
+          28
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Messe",
+          184
+        ],
+        [
+          "2018: Erlenmatt",
+          31
+        ]
+      ],
+      "name": "Fernwärme",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C9D6DB",
+      "index": 2,
+      "legendIndex": 3,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2013: Messe",
+          68
+        ],
+        [
+          "2013: Erlenmatt",
+          13
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Messe",
+          62
+        ],
+        [
+          "2014: Erlenmatt",
+          10
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Messe",
+          63
+        ],
+        [
+          "2015: Erlenmatt",
+          6
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Messe",
+          60
+        ],
+        [
+          "2016: Erlenmatt",
+          5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Messe",
+          56
+        ],
+        [
+          "2017: Erlenmatt",
+          6
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Messe",
+          52
+        ],
+        [
+          "2018: Erlenmatt",
+          5
+        ]
+      ],
+      "name": "Anderer Energieträger",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 1,
+      "legendIndex": 4,
+      "tooltip": {
+        "valueDecimals": 0
+      },
+      "data": [
+        [
+          "2013: Messe",
+          2
+        ],
+        [
+          "2013: Erlenmatt",
+          1
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Messe",
+          2
+        ],
+        [
+          "2014: Erlenmatt",
+          1
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Messe",
+          2
+        ],
+        [
+          "2015: Erlenmatt",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Messe",
+          1
+        ],
+        [
+          "2016: Erlenmatt",
+          0
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Messe",
+          2
+        ],
+        [
+          "2017: Erlenmatt",
+          1
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Messe",
+          2
+        ],
+        [
+          "2018: Erlenmatt",
+          1
+        ]
+      ],
+      "name": "Kein Energieträger",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "min": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "renderTo": "container-7704",
+    "type": "column",
+    "inverted": false,
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 100,
+      "pointWidth": 20,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Heizsysteme nach Energieträger"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 5
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": 7704
+  }
+}

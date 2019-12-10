@@ -1,0 +1,381 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2005,
+          44210.66
+        ],
+        [
+          2006,
+          44806.2
+        ],
+        [
+          2007,
+          45546.12
+        ],
+        [
+          2008,
+          43457.8
+        ],
+        [
+          2009,
+          44509.83
+        ],
+        [
+          2010,
+          44007.46
+        ],
+        [
+          2011,
+          44541.1
+        ],
+        [
+          2012,
+          44549.28
+        ],
+        [
+          2013,
+          45285.19
+        ],
+        [
+          2014,
+          45454.24
+        ],
+        [
+          2015,
+          45216.69
+        ],
+        [
+          2016,
+          45548.09
+        ]
+      ],
+      "name": "Mittelwert Messe"
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          2005,
+          39775
+        ],
+        [
+          2006,
+          40132.5
+        ],
+        [
+          2007,
+          41597
+        ],
+        [
+          2008,
+          39000
+        ],
+        [
+          2009,
+          39739
+        ],
+        [
+          2010,
+          39168
+        ],
+        [
+          2011,
+          40280
+        ],
+        [
+          2012,
+          39682
+        ],
+        [
+          2013,
+          39296
+        ],
+        [
+          2014,
+          39554
+        ],
+        [
+          2015,
+          39340
+        ],
+        [
+          2016,
+          39503
+        ]
+      ],
+      "name": "Median Messe"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          40484.26
+        ],
+        [
+          2006,
+          35592.71
+        ],
+        [
+          2007,
+          39692.53
+        ],
+        [
+          2008,
+          37180.39
+        ],
+        [
+          2009,
+          48387.38
+        ],
+        [
+          2010,
+          64573.23
+        ],
+        [
+          2011,
+          76821.23
+        ],
+        [
+          2012,
+          83799.28
+        ],
+        [
+          2013,
+          83893.26
+        ],
+        [
+          2014,
+          84368.84
+        ],
+        [
+          2015,
+          74160.28
+        ],
+        [
+          2016,
+          79502.63
+        ]
+      ],
+      "name": "Mittelwert Erlenmatt"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          2005,
+          40405
+        ],
+        [
+          2006,
+          34312.5
+        ],
+        [
+          2007,
+          31255.5
+        ],
+        [
+          2008,
+          33192.5
+        ],
+        [
+          2009,
+          42656
+        ],
+        [
+          2010,
+          50004
+        ],
+        [
+          2011,
+          55187
+        ],
+        [
+          2012,
+          56524
+        ],
+        [
+          2013,
+          60584
+        ],
+        [
+          2014,
+          58298
+        ],
+        [
+          2015,
+          55210
+        ],
+        [
+          2016,
+          60862.5
+        ]
+      ],
+      "name": "Median Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7676"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert und Median des Reineinkommens"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 7676
+  }
+}
