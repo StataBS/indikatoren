@@ -113,6 +113,7 @@
                     style: { fontSize: "12px", fontWeight: "normal", color: 'black' },
                     y: -10
                 }
+            }
 		],
         customFunctions: {
             addLegendRectangle: function (chart, x, y, width, height, fill, cssClass) {

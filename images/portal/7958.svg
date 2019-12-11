@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   class="highcharts-root"
+   style="font-family:Arial;font-size:12px;"
+   viewBox="0 0 485 415"
+   id="svg4925"
+   sodipodi:docname="7958.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata4929">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview4927"
+     showgrid="false"
+     inkscape:zoom="4.5493976"
+     inkscape:cx="327.98255"
+     inkscape:cy="61.135633"
+     inkscape:window-x="1072"
+     inkscape:window-y="832"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4925" />
+  <desc
+     id="desc4725">Created with Highstock 6.1.1</desc>
+  <defs
+     id="defs4733">
+    <clipPath
+       id="highcharts-ts6nrah-6">
+      <rect
+         x="0"
+         y="0"
+         width="428"
+         height="212"
+         fill="none"
+         id="rect4727" />
+    </clipPath>
+    <clipPath
+       id="highcharts-ts6nrah-7">
+      <rect
+         x="0"
+         y="0"
+         width="428"
+         height="212"
+         fill="none"
+         id="rect4730" />
+    </clipPath>
+  </defs>
+  <rect
+     fill="#fbfbfb"
+     class="highcharts-background"
+     x="0"
+     y="0"
+     width="485"
+     height="428"
+     rx="0"
+     ry="0"
+     id="rect4735" />
+  <rect
+     fill="none"
+     class="highcharts-plot-background"
+     x="47"
+     y="154"
+     width="428"
+     height="212"
+     id="rect4737" />
+  <g
+     class="highcharts-pane-group"
+     data-z-index="0"
+     id="g4739" />
+  <g
+     class="highcharts-grid highcharts-xaxis-grid "
+     data-z-index="1"
+     id="g4753">
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 132.5 154 L 132.5 366"
+       opacity="1"
+       id="path4741" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 217.5 154 L 217.5 366"
+       opacity="1"
+       id="path4743" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 303.5 154 L 303.5 366"
+       opacity="1"
+       id="path4745" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 388.5 154 L 388.5 366"
+       opacity="1"
+       id="path4747" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 474.5 154 L 474.5 366"
+       opacity="1"
+       id="path4749" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 46.5 154 L 46.5 366"
+       opacity="1"
+       id="path4751" />
+  </g>
+  <g
+     class="highcharts-grid highcharts-yaxis-grid "
+     data-z-index="1"
+     id="g4767">
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 366.25 L 475 366.25"
+       opacity="1"
+       id="path4755" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 324.25 L 475 324.25"
+       opacity="1"
+       id="path4757" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 281.25 L 475 281.25"
+       opacity="1"
+       id="path4759" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 239.25 L 475 239.25"
+       opacity="1"
+       id="path4761" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 196.25 L 475 196.25"
+       opacity="1"
+       id="path4763" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 47 153.75 L 475 153.75"
+       opacity="1"
+       id="path4765" />
+  </g>
+  <rect
+     fill="none"
+     class="highcharts-plot-border"
+     data-z-index="1"
+     x="47"
+     y="154"
+     width="428"
+     height="212"
+     id="rect4769" />
+  <g
+     class="highcharts-axis highcharts-xaxis "
+     data-z-index="2"
+     id="g4773">
+    <path
+       fill="none"
+       class="highcharts-axis-line"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="7"
+       d="M 47 366.25 L 475 366.25"
+       id="path4771" />
+  </g>
+  <g
+     class="highcharts-axis highcharts-yaxis "
+     data-z-index="2"
+     id="g4777">
+    <path
+       fill="none"
+       class="highcharts-axis-line"
+       data-z-index="7"
+       d="M 47 154 L 47 366"
+       id="path4775" />
+  </g>
+  <g
+     id="g4992"
+     transform="translate(6.4214783)">
+    <rect
+       style="fill:#73b97c"
+       id="rect4781"
+       class="highcharts-point"
+       height="77"
+       width="14"
+       y="290"
+       x="148" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect4795"
+       class="highcharts-point"
+       height="109"
+       width="14"
+       y="258"
+       x="162" />
+    <rect
+       style="fill:#ff8028"
+       id="rect4809"
+       class="highcharts-point"
+       height="62"
+       width="14"
+       y="305"
+       x="176" />
+  </g>
+  <g
+     id="g5003"
+     transform="translate(6.7718811)">
+    <rect
+       style="fill:#73b97c"
+       id="rect4785"
+       class="highcharts-point"
+       height="146"
+       width="14"
+       y="221"
+       x="319" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect4799"
+       class="highcharts-point"
+       height="183"
+       width="14"
+       y="184"
+       x="333" />
+    <rect
+       style="fill:#ff8028"
+       id="rect4813"
+       class="highcharts-point"
+       height="127"
+       width="14"
+       y="240"
+       x="347" />
+  </g>
+  <g
+     id="g5008"
+     transform="translate(5.9341431)">
+    <rect
+       style="fill:#73b97c"
+       id="rect4787"
+       class="highcharts-point"
+       height="117"
+       width="14"
+       y="250"
+       x="405" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect4801"
+       class="highcharts-point"
+       height="137"
+       width="14"
+       y="230"
+       x="419" />
+    <rect
+       style="fill:#ff8028"
+       id="rect4815"
+       class="highcharts-point"
+       height="108"
+       width="14"
+       y="259"
+       x="433" />
+  </g>
+  <g
+     id="g4987"
+     transform="translate(-7.1865692)">
+    <rect
+       style="fill:#73b97c"
+       id="rect4779"
+       class="highcharts-point"
+       height="95"
+       width="14"
+       y="272"
+       x="62" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect4793"
+       class="highcharts-point"
+       height="157"
+       width="14"
+       y="210"
+       x="76" />
+    <rect
+       style="fill:#ff8028"
+       id="rect4807"
+       class="highcharts-point"
+       height="95"
+       width="14"
+       y="272"
+       x="90" />
+    <rect
+       style="fill:#dc440e"
+       id="rect4821"
+       class="highcharts-point"
+       height="61"
+       width="14"
+       y="306"
+       x="104" />
+    <rect
+       style="fill:#b00000"
+       id="rect4827"
+       class="highcharts-point"
+       height="58"
+       width="14"
+       y="309"
+       x="118" />
+  </g>
+  <g
+     id="g4998"
+     transform="translate(0.06176758)">
+    <rect
+       style="fill:#73b97c"
+       id="rect4783"
+       class="highcharts-point"
+       height="136"
+       width="14"
+       y="231"
+       x="233" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect4797"
+       class="highcharts-point"
+       height="203"
+       width="14"
+       y="164"
+       x="247" />
+    <rect
+       style="fill:#ff8028"
+       id="rect4811"
+       class="highcharts-point"
+       height="148"
+       width="14"
+       y="219"
+       x="261" />
+    <rect
+       style="fill:#b00000"
+       id="rect4829"
+       class="highcharts-point"
+       height="80"
+       width="14"
+       y="287"
+       x="275" />
+  </g>
+  <text
+     x="10"
+     text-anchor="start"
+     class="highcharts-title"
+     data-z-index="4"
+     style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;"
+     y="21"
+     id="text4839">
+    <tspan
+       id="tspan4837">Ausländeranteil</tspan>
+  </text>
+  <text
+     x="10"
+     text-anchor="start"
+     class="highcharts-subtitle"
+     data-z-index="4"
+     style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;"
+     y="40"
+     id="text4843">
+    <tspan
+       id="tspan4841">2017</tspan>
+  </text>
+  <g
+     class="highcharts-legend"
+     data-z-index="7"
+     transform="translate(39,56)"
+     id="g4891">
+    <rect
+       fill="none"
+       class="highcharts-legend-box"
+       rx="0"
+       ry="0"
+       x="0"
+       y="0"
+       width="296"
+       height="86"
+       visibility="visible"
+       id="rect4845" />
+    <g
+       data-z-index="1"
+       id="g4889">
+      <g
+         id="g4887">
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0"
+           data-z-index="1"
+           transform="translate(8,3)"
+           id="g4853">
+          <text
+             x="21"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             y="15"
+             id="text4849">
+            <tspan
+               id="tspan4847">Gesamte Agglomeration</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#73B97C"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect4851" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1"
+           data-z-index="1"
+           transform="translate(8,18)"
+           id="g4861">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text4857">
+            <tspan
+               id="tspan4855">Kernstadt</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#FFBB58"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect4859" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2"
+           data-z-index="1"
+           transform="translate(8,33)"
+           id="g4869">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text4865">
+            <tspan
+               id="tspan4863">Übrige Agglomerationsgemeinden Schweiz</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#FF8028"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect4867" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3"
+           data-z-index="1"
+           transform="translate(8,48)"
+           id="g4877">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text4873">
+            <tspan
+               id="tspan4871">Agglomerationsgemeinden Deutschland</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#DC440E"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect4875" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4"
+           data-z-index="1"
+           transform="translate(8,63)"
+           id="g4885">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text4881">
+            <tspan
+               id="tspan4879">Agglomerationsgemeinden Frankreich</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#B00000"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect4883" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     id="text4893"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="89.800003">Basel</text>
+  <text
+     id="text4895"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="175.39999">Bern</text>
+  <text
+     id="text4897"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="261">Genève</text>
+  <text
+     id="text4899"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="346.60001">Lausanne</text>
+  <text
+     id="text4901"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="432.20001">Zürich</text>
+  <g
+     class="highcharts-axis-labels highcharts-yaxis-labels "
+     data-z-index="7"
+     id="g4917">
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="370"
+       opacity="1"
+       id="text4905">0%</text>
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="328"
+       opacity="1"
+       id="text4907">10%</text>
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="285"
+       opacity="1"
+       id="text4909">20%</text>
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="243"
+       opacity="1"
+       id="text4911">30%</text>
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="200"
+       opacity="1"
+       id="text4913">40%</text>
+    <text
+       x="32"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="158"
+       opacity="1"
+       id="text4915">50%</text>
+  </g>
+  <text
+     x="10"
+     class="highcharts-credits"
+     text-anchor="start"
+     data-z-index="8"
+     style="cursor:default;color:#000000;font-size:10px;fill:#000000;"
+     y="403"
+     id="text4923">
+    <tspan
+       id="tspan4919">Quelle: Bundesamt für Statistik (BFS), City Statistics.</tspan>
+    <tspan
+       x="10"
+       dy="13"
+       id="tspan4921">Zuletzt geändert: 2019-10-24</tspan>
+  </text>
+</svg>

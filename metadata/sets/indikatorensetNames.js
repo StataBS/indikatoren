@@ -22,5 +22,6 @@ var indikatorensetNames = [
 	"Testset",
 	"Bevoelkerungsszenarien",
 	"Stadtteilmonitoring Rosental (Print)",
+	"City-Statistics",
 	"Test"
 ];

@@ -1,0 +1,442 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          5172
+        ],
+        [
+          "Basel: Kernstadt",
+          22
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          4017
+        ],
+        [
+          "Basel: Agglomeration D",
+          496
+        ],
+        [
+          "Basel: Agglomeration F",
+          637
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          7727
+        ],
+        [
+          "Bern: Kernstadt",
+          302
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          7425
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genève: Agglomeration",
+          4702
+        ],
+        [
+          "Genève: Kernstadt",
+          49
+        ],
+        [
+          "Genève: Übrige Agglomeration CH",
+          3085
+        ],
+        [
+          "Genève: Agglomeration F",
+          1568
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          4999
+        ],
+        [
+          "Lausanne: Kernstadt",
+          113
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          4886
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          9443
+        ],
+        [
+          "Zürich: Kernstadt",
+          236
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          9207
+        ]
+      ],
+      "name": "1. Sektor",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          117871
+        ],
+        [
+          "Basel: Kernstadt",
+          36407
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          46988
+        ],
+        [
+          "Basel: Agglomeration D",
+          26931
+        ],
+        [
+          "Basel: Agglomeration F",
+          7545
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          42431
+        ],
+        [
+          "Bern: Kernstadt",
+          15247
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          27184
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genève: Agglomeration",
+          65781
+        ],
+        [
+          "Genève: Kernstadt",
+          9874
+        ],
+        [
+          "Genève: Übrige Agglomeration CH",
+          42502
+        ],
+        [
+          "Genève: Agglomeration F",
+          13405
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          36838
+        ],
+        [
+          "Lausanne: Kernstadt",
+          6143
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          30695
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          127549
+        ],
+        [
+          "Zürich: Kernstadt",
+          28748
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          98801
+        ]
+      ],
+      "name": "2. Sektor",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          343272
+        ],
+        [
+          "Basel: Kernstadt",
+          148697
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          129959
+        ],
+        [
+          "Basel: Agglomeration D",
+          46141
+        ],
+        [
+          "Basel: Agglomeration F",
+          18475
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          270083
+        ],
+        [
+          "Bern: Kernstadt",
+          172682
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          97401
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genève: Agglomeration",
+          397115
+        ],
+        [
+          "Genève: Kernstadt",
+          170177
+        ],
+        [
+          "Genève: Übrige Agglomeration CH",
+          163766
+        ],
+        [
+          "Genève: Agglomeration F",
+          63172
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          221020
+        ],
+        [
+          "Lausanne: Kernstadt",
+          112858
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          108162
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          815692
+        ],
+        [
+          "Zürich: Kernstadt",
+          443412
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          372280
+        ]
+      ],
+      "name": "3. Sektor",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 513,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-7968",
+    "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigte nach Wirtschaftssektor"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "2017"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "groupPadding": 0.1
+    }
+  },
+  "yAxis": {
+    "tickInterval": null,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value:,.0f}%",
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
+    },
+    "tickAmount": 5,
+    "reversedStacks": false
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-11"
+  },
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemWidth": 250
+  },
+  "exporting": {
+    "filename": 7968
+  }
+}
