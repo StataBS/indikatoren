@@ -1,0 +1,322 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "type": "column",
+      "data": [
+        [
+          2010,
+          0.42
+        ],
+        [
+          2011,
+          0.4
+        ],
+        [
+          2012,
+          0.41
+        ],
+        [
+          2013,
+          0.39
+        ],
+        [
+          2014,
+          0.38
+        ],
+        [
+          2015,
+          0.4
+        ],
+        [
+          2016,
+          0.38
+        ],
+        [
+          2017,
+          0.39
+        ]
+      ],
+      "name": "PW pro Haushalt Messe"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2010,
+          187.2
+        ],
+        [
+          2011,
+          190.2
+        ],
+        [
+          2012,
+          198.8
+        ],
+        [
+          2013,
+          189
+        ],
+        [
+          2014,
+          182
+        ],
+        [
+          2015,
+          191.2
+        ],
+        [
+          2016,
+          180.7
+        ],
+        [
+          2017,
+          188
+        ]
+      ],
+      "name": "Motorisierungsgrad Messe"
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
+      "data": [
+        [
+          2010,
+          0.54
+        ],
+        [
+          2011,
+          0.49
+        ],
+        [
+          2012,
+          0.54
+        ],
+        [
+          2013,
+          0.54
+        ],
+        [
+          2014,
+          0.79
+        ],
+        [
+          2015,
+          0.52
+        ],
+        [
+          2016,
+          0.45
+        ],
+        [
+          2017,
+          0.48
+        ]
+      ],
+      "name": "PW pro Haushalt Erlenmatt"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "type": "line",
+      "yAxis": 1,
+      "data": [
+        [
+          2010,
+          249
+        ],
+        [
+          2011,
+          220.6
+        ],
+        [
+          2012,
+          233.6
+        ],
+        [
+          2013,
+          235.2
+        ],
+        [
+          2014,
+          352
+        ],
+        [
+          2015,
+          247.4
+        ],
+        [
+          2016,
+          217.1
+        ],
+        [
+          2017,
+          223.2
+        ]
+      ],
+      "name": "Motorisierungsgrad Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          //move legend title
+          var title = this.legend.title.translate(-165, 25);
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 27,
+    "marginTop": 40,
+    "renderTo": "container-7944",
+    "spacingBottom": 22
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Personenwagen pro Haushalt, Motorisierungsgrad"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "format": "{value:,.2f}",
+        "x": -5,
+        "y": 3,
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "y": 3,
+        "x": 5,
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonspolizei Basel-Stadt, Motorfahrzeugkontrolle.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "alignColumns": false,
+    "useHTML": true,
+    "y": -30,
+    "x": 20,
+    "width": 160,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(-1); //return only last word of legend-title
+      },
+    "title": {
+      "text": " \u003Cbr\u003EPersonenwagen pro Haushalt:\u003Cbr\u002F\u003EMotorisierungsgrad (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7944
+  }
+}

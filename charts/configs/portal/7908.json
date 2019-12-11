@@ -1,0 +1,817 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2014: Messe",
+          335
+        ],
+        [
+          "2014: Erlenmatt",
+          80
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          336
+        ],
+        [
+          "2015: Erlenmatt",
+          194
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          352
+        ],
+        [
+          "2016: Erlenmatt",
+          233
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          350
+        ],
+        [
+          "2017: Erlenmatt",
+          224
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          360
+        ],
+        [
+          "2018: Erlenmatt",
+          243
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2014: Messe",
+          245
+        ],
+        [
+          "2014: Erlenmatt",
+          26
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          250
+        ],
+        [
+          "2015: Erlenmatt",
+          70
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          243
+        ],
+        [
+          "2016: Erlenmatt",
+          83
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          244
+        ],
+        [
+          "2017: Erlenmatt",
+          78
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          252
+        ],
+        [
+          "2018: Erlenmatt",
+          88
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2014: Messe",
+          361
+        ],
+        [
+          "2014: Erlenmatt",
+          19
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          354
+        ],
+        [
+          "2015: Erlenmatt",
+          27
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          337
+        ],
+        [
+          "2016: Erlenmatt",
+          25
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          313
+        ],
+        [
+          "2017: Erlenmatt",
+          36
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          302
+        ],
+        [
+          "2018: Erlenmatt",
+          33
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2014: Messe",
+          389
+        ],
+        [
+          "2014: Erlenmatt",
+          68
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          413
+        ],
+        [
+          "2015: Erlenmatt",
+          191
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          459
+        ],
+        [
+          "2016: Erlenmatt",
+          225
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          459
+        ],
+        [
+          "2017: Erlenmatt",
+          214
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          502
+        ],
+        [
+          "2018: Erlenmatt",
+          208
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2014: Messe",
+          125
+        ],
+        [
+          "2014: Erlenmatt",
+          24
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          150
+        ],
+        [
+          "2015: Erlenmatt",
+          53
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          156
+        ],
+        [
+          "2016: Erlenmatt",
+          69
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          155
+        ],
+        [
+          "2017: Erlenmatt",
+          67
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          163
+        ],
+        [
+          "2018: Erlenmatt",
+          86
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2014: Messe",
+          457
+        ],
+        [
+          "2014: Erlenmatt",
+          54
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          431
+        ],
+        [
+          "2015: Erlenmatt",
+          89
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          443
+        ],
+        [
+          "2016: Erlenmatt",
+          106
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          440
+        ],
+        [
+          "2017: Erlenmatt",
+          136
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          428
+        ],
+        [
+          "2018: Erlenmatt",
+          152
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2014: Messe",
+          57
+        ],
+        [
+          "2014: Erlenmatt",
+          3
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          66
+        ],
+        [
+          "2015: Erlenmatt",
+          15
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          81
+        ],
+        [
+          "2016: Erlenmatt",
+          14
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          79
+        ],
+        [
+          "2017: Erlenmatt",
+          17
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          66
+        ],
+        [
+          "2018: Erlenmatt",
+          29
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2014: Messe",
+          41
+        ],
+        [
+          "2014: Erlenmatt",
+          10
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          44
+        ],
+        [
+          "2015: Erlenmatt",
+          26
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          46
+        ],
+        [
+          "2016: Erlenmatt",
+          20
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          58
+        ],
+        [
+          "2017: Erlenmatt",
+          22
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          51
+        ],
+        [
+          "2018: Erlenmatt",
+          37
+        ]
+      ],
+      "name": "Arabische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2014: Messe",
+          73
+        ],
+        [
+          "2014: Erlenmatt",
+          4
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          83
+        ],
+        [
+          "2015: Erlenmatt",
+          2
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          103
+        ],
+        [
+          "2016: Erlenmatt",
+          2
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          110
+        ],
+        [
+          "2017: Erlenmatt",
+          2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          111
+        ],
+        [
+          "2018: Erlenmatt",
+          8
+        ]
+      ],
+      "name": "Afrikanische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2014: Messe",
+          423
+        ],
+        [
+          "2014: Erlenmatt",
+          110
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Messe",
+          388
+        ],
+        [
+          "2015: Erlenmatt",
+          209
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2016: Messe",
+          402
+        ],
+        [
+          "2016: Erlenmatt",
+          253
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2017: Messe",
+          412
+        ],
+        [
+          "2017: Erlenmatt",
+          267
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2018: Messe",
+          395
+        ],
+        [
+          "2018: Erlenmatt",
+          295
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "formatter": function () {
+          var l = this.value.replace('Messe', 'Me.');
+          l = l.replace('Erlenmatt', 'Erl.');
+          return l;
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      5,
+      2,
+      5,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "renderTo": "container-7908",
+    "spacingBottom": 15
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0.02
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "enabled": true,
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "exporting": {
+    "filename": 7908
+  }
+}
