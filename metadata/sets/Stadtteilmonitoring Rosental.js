@@ -50,13 +50,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
+		"aktualisierungsdatum": "2019-12-10T13:35:29.2929",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2018 4&nbsp;730 Einwohner. Dies sind 13,0% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2018 weniger stark zugenommen (+6,2%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Erst mit der Fertigstellung der ersten Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen die Einwohnerzahlen auch dort markant. Ende 2018 wurden in diesem neuen Stadtteil 2&nbsp;110 Einwohner registriert.",
+		"lesehilfe": "Im Bezirk Messe lebten Ende 2018 4 730 Einwohner. Dies sind 13,0% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2018 weniger stark zugenommen (+6,2%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Erst mit der Fertigstellung der ersten Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen die Einwohnerzahlen auch dort markant. Ende 2018 wurden in diesem neuen Stadtteil 2 110 Einwohner registriert.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1244,8 +1244,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
-		"stufe1": "5 Bildung, Soziales und Gesundheit",
+		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1285,8 +1285,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
-		"stufe1": "5 Bildung, Soziales und Gesundheit",
+		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1326,8 +1326,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
-		"stufe1": "5 Bildung, Soziales und Gesundheit",
+		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1367,8 +1367,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
-		"stufe1": "5 Bildung, Soziales und Gesundheit",
+		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
@@ -1408,8 +1408,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
-		"stufe1": "5 Bildung, Soziales und Gesundheit",
+		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",

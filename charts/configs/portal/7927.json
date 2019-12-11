@@ -1,0 +1,279 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1789
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          679
+        ],
+        [
+          "Erziehung und Unterricht",
+          514
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          379
+        ],
+        [
+          "Baugewerbe",
+          293
+        ],
+        [
+          "Beherbergung und Gastronomie",
+          614
+        ],
+        [
+          "Chemie, Pharma",
+          917
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          225
+        ],
+        [
+          "Gross- und Detailhandel",
+          59
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1673
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          593
+        ],
+        [
+          "Erziehung und Unterricht",
+          528
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          391
+        ],
+        [
+          "Baugewerbe",
+          385
+        ],
+        [
+          "Beherbergung und Gastronomie",
+          319
+        ],
+        [
+          "Chemie, Pharma",
+          344
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          203
+        ],
+        [
+          "Gross- und Detailhandel",
+          249
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1608
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          599
+        ],
+        [
+          "Erziehung und Unterricht",
+          492
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          437
+        ],
+        [
+          "Baugewerbe",
+          376
+        ],
+        [
+          "Beherbergung und Gastronomie",
+          284
+        ],
+        [
+          "Chemie, Pharma",
+          274
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          270
+        ],
+        [
+          "Gross- und Detailhandel",
+          222
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "align": "right",
+      "x": -10,
+      "formatter": function () {
+          return this.value.replace("/", "<br/>")
+            .replace("Unternehmensverwaltung und -führung, Unternehmensberatung", "Unternehmensverwaltung und<br/>-führung, Unternehmensberatung")
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "marginLeft": 170,
+    "inverted": true,
+    "renderTo": "container-7927",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigung nach ausgewählten Branchen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 15,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7927
+  }
+}

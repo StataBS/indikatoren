@@ -1,0 +1,360 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2005,
+          55782.04
+        ],
+        [
+          2006,
+          53536.01
+        ],
+        [
+          2007,
+          46652.64
+        ],
+        [
+          2008,
+          49002.3
+        ],
+        [
+          2009,
+          54276.05
+        ],
+        [
+          2010,
+          54432.21
+        ],
+        [
+          2011,
+          58614.89
+        ],
+        [
+          2012,
+          66717.66
+        ],
+        [
+          2013,
+          66212.29
+        ],
+        [
+          2014,
+          62337.64
+        ],
+        [
+          2015,
+          62792.53
+        ],
+        [
+          2016,
+          69087.81
+        ]
+      ],
+      "name": "Mittelwert Messe"
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          2005,
+          171
+        ],
+        [
+          2006,
+          164.5
+        ],
+        [
+          2007,
+          242.5
+        ],
+        [
+          2008,
+          362.5
+        ],
+        [
+          2009,
+          664
+        ],
+        [
+          2010,
+          555
+        ],
+        [
+          2011,
+          849
+        ],
+        [
+          2012,
+          1195.5
+        ],
+        [
+          2013,
+          1465.5
+        ],
+        [
+          2014,
+          1737
+        ],
+        [
+          2015,
+          2000
+        ],
+        [
+          2016,
+          2000
+        ]
+      ],
+      "name": "Median Messe"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          26572.05
+        ],
+        [
+          2006,
+          17493.26
+        ],
+        [
+          2007,
+          30205.79
+        ],
+        [
+          2008,
+          34709.8
+        ],
+        [
+          2009,
+          64591.75
+        ],
+        [
+          2010,
+          74926.64
+        ],
+        [
+          2011,
+          80551.55
+        ],
+        [
+          2012,
+          96000.31
+        ],
+        [
+          2013,
+          137993.47
+        ],
+        [
+          2014,
+          162725.19
+        ],
+        [
+          2015,
+          125210.55
+        ],
+        [
+          2016,
+          159376.18
+        ]
+      ],
+      "name": "Mittelwert Erlenmatt"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          362.5
+        ],
+        [
+          2009,
+          966
+        ],
+        [
+          2010,
+          2636.5
+        ],
+        [
+          2011,
+          4435
+        ],
+        [
+          2012,
+          6789
+        ],
+        [
+          2013,
+          9798
+        ],
+        [
+          2014,
+          10000
+        ],
+        [
+          2015,
+          11039
+        ],
+        [
+          2016,
+          16805
+        ]
+      ],
+      "name": "Median Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7915",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert und Median des Reinvermögens"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 25000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7915
+  }
+}

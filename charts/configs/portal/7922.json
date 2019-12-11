@@ -1,0 +1,263 @@
+{
+  "series": [
+    {
+      "color": "#999",
+      "dashStyle": "ShortDash",
+      "legendIndex": 2,
+      "data": [
+        [
+          2011,
+          5.797101
+        ],
+        [
+          2012,
+          5.797101
+        ],
+        [
+          2013,
+          5.281690140845
+        ],
+        [
+          2014,
+          5.226480836236
+        ],
+        [
+          2015,
+          7.046979865771
+        ],
+        [
+          2016,
+          7.046979865771
+        ],
+        [
+          2017,
+          6.976744186046
+        ],
+        [
+          2018,
+          6.885245901639
+        ]
+      ],
+      "name": "Rosental"
+    },
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2011,
+          5.797101
+        ],
+        [
+          2012,
+          5.797101
+        ],
+        [
+          2013,
+          5.66037735849
+        ],
+        [
+          2014,
+          5.617977528089
+        ],
+        [
+          2015,
+          5.617977528089
+        ],
+        [
+          2016,
+          5.617977528089
+        ],
+        [
+          2017,
+          5.617977528089
+        ],
+        [
+          2018,
+          5.597014925373
+        ]
+      ],
+      "name": "Messe"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          19.354838709677
+        ],
+        [
+          2016,
+          19.354838709677
+        ],
+        [
+          2017,
+          17.647058823529
+        ],
+        [
+          2018,
+          16.216216216216
+        ]
+      ],
+      "name": "Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7922",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Einfamilienhäuser"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickAmount": 5,
+    "max": 20
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7922
+  }
+}

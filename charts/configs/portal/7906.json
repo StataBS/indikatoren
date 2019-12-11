@@ -1,0 +1,312 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2000,
+          21.2
+        ],
+        [
+          2001,
+          20.6
+        ],
+        [
+          2002,
+          19.5
+        ],
+        [
+          2003,
+          19.1
+        ],
+        [
+          2004,
+          17.8
+        ],
+        [
+          2005,
+          17.3
+        ],
+        [
+          2006,
+          16.9
+        ],
+        [
+          2007,
+          16.1
+        ],
+        [
+          2008,
+          15.6
+        ],
+        [
+          2009,
+          15.6
+        ],
+        [
+          2010,
+          15.8
+        ],
+        [
+          2011,
+          15.9
+        ],
+        [
+          2012,
+          15.4
+        ],
+        [
+          2013,
+          14.7
+        ],
+        [
+          2014,
+          13.9
+        ],
+        [
+          2015,
+          14.1
+        ],
+        [
+          2016,
+          12.5
+        ],
+        [
+          2017,
+          12.8
+        ],
+        [
+          2018,
+          12.8
+        ]
+      ],
+      "name": "Messe"
+    },
+    {
+      "color": "#b375ab",
+      "visible": true,
+      "data": [
+        [
+          2000,
+          6.8
+        ],
+        [
+          2001,
+          5.4
+        ],
+        [
+          2002,
+          6.3
+        ],
+        [
+          2003,
+          5.7
+        ],
+        [
+          2004,
+          7.1
+        ],
+        [
+          2005,
+          5.6
+        ],
+        [
+          2006,
+          5.5
+        ],
+        [
+          2007,
+          5.3
+        ],
+        [
+          2008,
+          6.3
+        ],
+        [
+          2009,
+          5.9
+        ],
+        [
+          2010,
+          4.7
+        ],
+        [
+          2011,
+          4.6
+        ],
+        [
+          2012,
+          5.3
+        ],
+        [
+          2013,
+          5.9
+        ],
+        [
+          2014,
+          5.8
+        ],
+        [
+          2015,
+          8.2
+        ],
+        [
+          2016,
+          10.1
+        ],
+        [
+          2017,
+          11.4
+        ],
+        [
+          2018,
+          11.3
+        ]
+      ],
+      "name": "Erlenmatt"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-7906",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Altersquotient"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 40,
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7906
+  }
+}
