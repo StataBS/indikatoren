@@ -33,8 +33,10 @@ console.log('Loading rhein shape...');
 var geojson_rheinEPSG2056 = JSON.parse(fs.readFileSync('geojson/rhein_EPSG_2056.json'));
 console.log('Loading scalebar shape...');
 var geojson_scalebarEPSG2056 = JSON.parse(fs.readFileSync('geojson/scalebar_EPSG_2056.json'));
-
-
+console.log('Loading scalebar Trinat shape...');
+var geojson_scalebarTrinat = JSON.parse(fs.readFileSync('geojson/scalebar_Trinat.json'));
+console.log('Loading gemeinde shape...');
+var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.json'));
 
 //console.log('deleting previous chart configs...');
 //var rimraf = require("rimraf");
@@ -69,8 +71,6 @@ function isIndikatorensetView(view){
   return ((view == true || view == "indikatorenset") ? true :  false);
 }
 
-
-
 //todo: get rid of all the jsdom code if not needed 
 function saveChartConfig(indikator, view, console){
     var fs = require('fs');
@@ -96,6 +96,7 @@ function saveChartConfig(indikator, view, console){
     //convert rhein shape to geojson, see http://api.highcharts.com/highmaps/Highcharts.geojson
     var rheinDataEPSG2056 = Highcharts.geojson(geojson_rheinEPSG2056, 'map');
     var scalebarDataEPSG2056 = Highcharts.geojson(geojson_scalebarEPSG2056, 'mapline');
+    var scalebarDataTrinat = Highcharts.geojson(geojson_scalebarTrinat, 'mapline');
 
     // Disable all animation
     Highcharts.setOptions({
@@ -117,7 +118,7 @@ function saveChartConfig(indikator, view, console){
         var csv = (fs.readFileSync('data/' + (indikator["data-id"] || indikator.id) + '.tsv', 'utf8'));
         //remove quotes from data
         var dataWithoutQuotes = csv.replace(/"/g, "");
-        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console});
+        var result = execute('charts/templates/' + (indikator["chart-id"] || indikator.id) + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console});
         var options = (result.result || {} );
     
         //disable animations and prevent exceptions
@@ -125,10 +126,10 @@ function saveChartConfig(indikator, view, console){
         //forExport = true  -- crashes highcharts export server for chart 4741
         //options.chart.forExport = true;
         
-        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056,  console: console});
+        result = execute('charts/templates/' + indikator.template + '.js', {Highcharts: Highcharts, geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console});
         var template = result.result;
     
-        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, console: console}).context;
+        var ctx = execute("assets/js/indikatoren-highcharts.js", {Highcharts: Highcharts, chartOptions: {},  geojson_wohnviertelEPSG2056: geojson_wohnviertelEPSG2056, rheinDataEPSG2056: rheinDataEPSG2056, scalebarDataEPSG2056: scalebarDataEPSG2056, scalebarDataTrinat: scalebarDataTrinat, geojson_gemeinden: geojson_gemeinden, console: console}).context;
         
         ctx.createChartConfig(dataWithoutQuotes, options, template, indikator, view, true, function(options){
             var stringifiedOptions = serialize(options, {space: 2});
