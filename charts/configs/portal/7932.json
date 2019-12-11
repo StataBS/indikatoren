@@ -1,0 +1,494 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          304
+        ],
+        [
+          2002,
+          337
+        ],
+        [
+          2003,
+          405
+        ],
+        [
+          2004,
+          451
+        ],
+        [
+          2005,
+          545
+        ],
+        [
+          2006,
+          572
+        ],
+        [
+          2007,
+          561
+        ],
+        [
+          2008,
+          514
+        ],
+        [
+          2009,
+          476
+        ],
+        [
+          2010,
+          495
+        ],
+        [
+          2011,
+          511
+        ],
+        [
+          2012,
+          510
+        ],
+        [
+          2013,
+          568
+        ],
+        [
+          2014,
+          556
+        ],
+        [
+          2015,
+          573
+        ],
+        [
+          2016,
+          664
+        ],
+        [
+          2017,
+          713
+        ],
+        [
+          2018,
+          670
+        ]
+      ],
+      "name": "Bezüger Messe"
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          24
+        ],
+        [
+          2002,
+          31
+        ],
+        [
+          2003,
+          40
+        ],
+        [
+          2004,
+          37
+        ],
+        [
+          2005,
+          19
+        ],
+        [
+          2006,
+          18
+        ],
+        [
+          2007,
+          20
+        ],
+        [
+          2008,
+          27
+        ],
+        [
+          2009,
+          22
+        ],
+        [
+          2010,
+          29
+        ],
+        [
+          2011,
+          23
+        ],
+        [
+          2012,
+          23
+        ],
+        [
+          2013,
+          18
+        ],
+        [
+          2014,
+          15
+        ],
+        [
+          2015,
+          26
+        ],
+        [
+          2016,
+          25
+        ],
+        [
+          2017,
+          25
+        ],
+        [
+          2018,
+          35
+        ]
+      ],
+      "name": "Bezüger Erlenmatt"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          7.2157607406
+        ],
+        [
+          2002,
+          7.7116704805
+        ],
+        [
+          2003,
+          9.2066378722
+        ],
+        [
+          2004,
+          10.100783875
+        ],
+        [
+          2005,
+          12.186940966
+        ],
+        [
+          2006,
+          12.505465676
+        ],
+        [
+          2007,
+          12.142857143
+        ],
+        [
+          2008,
+          10.906004668
+        ],
+        [
+          2009,
+          10.170940171
+        ],
+        [
+          2010,
+          10.723570191
+        ],
+        [
+          2011,
+          11.24807396
+        ],
+        [
+          2012,
+          10.981912145
+        ],
+        [
+          2013,
+          11.942809083
+        ],
+        [
+          2014,
+          11.757242546
+        ],
+        [
+          2015,
+          12.165605096
+        ],
+        [
+          2016,
+          13.827571845
+        ],
+        [
+          2017,
+          15.086754126
+        ],
+        [
+          2018,
+          14.164904863
+        ]
+      ],
+      "name": "Quote Messe (rechte Skala)"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2001,
+          18.604651163
+        ],
+        [
+          2002,
+          22.794117647
+        ],
+        [
+          2003,
+          27.027027027
+        ],
+        [
+          2004,
+          27.611940299
+        ],
+        [
+          2005,
+          13.103448276
+        ],
+        [
+          2006,
+          12.162162162
+        ],
+        [
+          2007,
+          12.903225806
+        ],
+        [
+          2008,
+          15.882352941
+        ],
+        [
+          2009,
+          5.5415617128
+        ],
+        [
+          2010,
+          5.5133079848
+        ],
+        [
+          2011,
+          3.795379538
+        ],
+        [
+          2012,
+          3.68
+        ],
+        [
+          2013,
+          2.88
+        ],
+        [
+          2014,
+          2.4671052632
+        ],
+        [
+          2015,
+          1.7771701982
+        ],
+        [
+          2016,
+          1.4285714286
+        ],
+        [
+          2017,
+          1.3319126265
+        ],
+        [
+          2018,
+          1.6587677725
+        ]
+      ],
+      "name": "Quote Erlenmatt  (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          //move legend title
+          var title = this.legend.title.translate(-105, 25);
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 29,
+    "marginTop": 40,
+    "renderTo": "container-7932",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Sozialhilfebezüger und -quote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental, nach Bezirk",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "x": -8,
+        "y": 3,
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      }
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "x": 8,
+        "y": 3,
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "alignColumns": false,
+    "useHTML": true,
+    "y": -27,
+    "x": -27,
+    "width": 160,
+    "labelFormatter": function () {
+        return this.name.split(" ").slice(1,2); //return only last word of legend-title
+      },
+    "title": {
+      "text": " \u003Cbr\u003EBezüger:\u003Cbr\u002F\u003EQuote (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "dataLabels": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7932
+  }
+}

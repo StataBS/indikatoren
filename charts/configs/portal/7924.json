@@ -1,0 +1,454 @@
+{
+  "series": [
+    {
+      "color": "#689199",
+      "index": 0,
+      "type": "column",
+      "legendIndex": 0,
+      "data": [
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          239
+        ],
+        [
+          2010,
+          9
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          15
+        ],
+        [
+          2014,
+          63
+        ],
+        [
+          2015,
+          574
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          80
+        ],
+        [
+          2018,
+          124
+        ]
+      ],
+      "name": "Neubau"
+    },
+    {
+      "color": "#a8c4cb",
+      "index": 0,
+      "type": "column",
+      "legendIndex": 1,
+      "data": [
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          0
+        ],
+        [
+          2006,
+          0
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          -2
+        ],
+        [
+          2010,
+          0
+        ],
+        [
+          2011,
+          -7
+        ],
+        [
+          2012,
+          0
+        ],
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          -39
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ]
+      ],
+      "name": "Abbruch"
+    },
+    {
+      "color": "#fabd24",
+      "index": 0,
+      "type": "column",
+      "legendIndex": 2,
+      "data": [
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          -9
+        ],
+        [
+          2006,
+          -5
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          -4
+        ],
+        [
+          2010,
+          1
+        ],
+        [
+          2011,
+          0
+        ],
+        [
+          2012,
+          8
+        ],
+        [
+          2013,
+          1
+        ],
+        [
+          2014,
+          3
+        ],
+        [
+          2015,
+          2
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          2
+        ],
+        [
+          2018,
+          5
+        ]
+      ],
+      "name": "Umbausaldo"
+    },
+    {
+      "color": "#000000",
+      "index": 1,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "lineWidth": 1,
+      "legendIndex": 3,
+      "data": [
+        [
+          2004,
+          0
+        ],
+        [
+          2005,
+          -9
+        ],
+        [
+          2006,
+          -5
+        ],
+        [
+          2007,
+          0
+        ],
+        [
+          2008,
+          0
+        ],
+        [
+          2009,
+          233
+        ],
+        [
+          2010,
+          10
+        ],
+        [
+          2011,
+          -7
+        ],
+        [
+          2012,
+          8
+        ],
+        [
+          2013,
+          16
+        ],
+        [
+          2014,
+          66
+        ],
+        [
+          2015,
+          537
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          82
+        ],
+        [
+          2018,
+          129
+        ]
+      ],
+      "name": "Nettowohnungsproduktion"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      5,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "renderTo": "container-7924",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "pointWidth": "10"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nettowohnungsproduktion"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100,
+    "min": -100,
+    "max": 600,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B6CFD7",
+        "width": 1,
+        "zIndex": 0
+      }
+    ]
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "labelFormatter": function () {
+        var l = this.name.replace('Nettowohnungs', 'Netto-<br>wohnungs-<br>');
+        return l;
+      }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "filename": 7924
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "series": [
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          1999,
+          23.3
+        ],
+        [
+          2000,
+          24.3
+        ],
+        [
+          2001,
+          26.1
+        ],
+        [
+          2002,
+          23.7
+        ],
+        [
+          2003,
+          22.2
+        ],
+        [
+          2004,
+          20.9
+        ],
+        [
+          2005,
+          20
+        ],
+        [
+          2006,
+          17.5
+        ],
+        [
+          2007,
+          15.6
+        ],
+        [
+          2008,
+          13.5
+        ],
+        [
+          2009,
+          13.8
+        ],
+        [
+          2010,
+          12
+        ],
+        [
+          2011,
+          12.2
+        ],
+        [
+          2012,
+          15.1
+        ],
+        [
+          2013,
+          14.2
+        ],
+        [
+          2014,
+          13.2
+        ],
+        [
+          2015,
+          13
+        ],
+        [
+          2016,
+          11.6
+        ],
+        [
+          2017,
+          12
+        ],
+        [
+          2018,
+          13.4
+        ]
+      ],
+      "name": "Schweiz"
+    },
+    {
+      "color": "#672773",
+      "data": [
+        [
+          1999,
+          27.2
+        ],
+        [
+          2000,
+          29.6
+        ],
+        [
+          2001,
+          22.7
+        ],
+        [
+          2002,
+          19.7
+        ],
+        [
+          2003,
+          19.7
+        ],
+        [
+          2004,
+          19.6
+        ],
+        [
+          2005,
+          13.4
+        ],
+        [
+          2006,
+          16.3
+        ],
+        [
+          2007,
+          15.6
+        ],
+        [
+          2008,
+          18.1
+        ],
+        [
+          2009,
+          16.3
+        ],
+        [
+          2010,
+          20.6
+        ],
+        [
+          2011,
+          20.5
+        ],
+        [
+          2012,
+          19.5
+        ],
+        [
+          2013,
+          15.9
+        ],
+        [
+          2014,
+          15.1
+        ],
+        [
+          2015,
+          17.4
+        ],
+        [
+          2016,
+          15.9
+        ],
+        [
+          2017,
+          14.8
+        ],
+        [
+          2018,
+          16.1
+        ]
+      ],
+      "name": "Deutschland"
+    },
+    {
+      "color": "#007a2f",
+      "data": [
+        [
+          1999,
+          18.5
+        ],
+        [
+          2000,
+          20.6
+        ],
+        [
+          2001,
+          19.4
+        ],
+        [
+          2002,
+          17.6
+        ],
+        [
+          2003,
+          14.8
+        ],
+        [
+          2004,
+          15.1
+        ],
+        [
+          2005,
+          19.1
+        ],
+        [
+          2006,
+          19.4
+        ],
+        [
+          2007,
+          20.6
+        ],
+        [
+          2008,
+          18.5
+        ],
+        [
+          2009,
+          19.9
+        ],
+        [
+          2010,
+          20.6
+        ],
+        [
+          2011,
+          20.5
+        ],
+        [
+          2012,
+          19.1
+        ],
+        [
+          2013,
+          18.1
+        ],
+        [
+          2014,
+          15.5
+        ],
+        [
+          2015,
+          13.6
+        ],
+        [
+          2016,
+          14.9
+        ],
+        [
+          2017,
+          14.1
+        ],
+        [
+          2018,
+          15.4
+        ]
+      ],
+      "name": "Italien"
+    },
+    {
+      "color": "#fabd24",
+      "data": [
+        [
+          1999,
+          26
+        ],
+        [
+          2000,
+          25.8
+        ],
+        [
+          2001,
+          26.5
+        ],
+        [
+          2002,
+          27.8
+        ],
+        [
+          2003,
+          29.9
+        ],
+        [
+          2004,
+          26.8
+        ],
+        [
+          2005,
+          25.7
+        ],
+        [
+          2006,
+          21.3
+        ],
+        [
+          2007,
+          21.9
+        ],
+        [
+          2008,
+          23.6
+        ],
+        [
+          2009,
+          27.5
+        ],
+        [
+          2010,
+          27.6
+        ],
+        [
+          2011,
+          26.9
+        ],
+        [
+          2012,
+          26.6
+        ],
+        [
+          2013,
+          27.7
+        ],
+        [
+          2014,
+          27.1
+        ],
+        [
+          2015,
+          31.1
+        ],
+        [
+          2016,
+          31.9
+        ],
+        [
+          2017,
+          30.4
+        ],
+        [
+          2018,
+          33.4
+        ]
+      ],
+      "name": "Türkei"
+    },
+    {
+      "color": "#b475ab",
+      "data": [
+        [
+          1999,
+          20.3
+        ],
+        [
+          2000,
+          19.9
+        ],
+        [
+          2001,
+          17.4
+        ],
+        [
+          2002,
+          20.7
+        ],
+        [
+          2003,
+          23.8
+        ],
+        [
+          2004,
+          24
+        ],
+        [
+          2005,
+          23.8
+        ],
+        [
+          2006,
+          23.7
+        ],
+        [
+          2007,
+          21
+        ],
+        [
+          2008,
+          17.8
+        ],
+        [
+          2009,
+          14.8
+        ],
+        [
+          2010,
+          12.6
+        ],
+        [
+          2011,
+          12.4
+        ],
+        [
+          2012,
+          16.3
+        ],
+        [
+          2013,
+          17
+        ],
+        [
+          2014,
+          16.2
+        ],
+        [
+          2015,
+          17.4
+        ],
+        [
+          2016,
+          13.2
+        ],
+        [
+          2017,
+          14
+        ],
+        [
+          2018,
+          14.6
+        ]
+      ],
+      "name": "EU-17 + EFTA"
+    },
+    {
+      "color": "#71a3b5",
+      "data": [
+        [
+          1999,
+          28.3
+        ],
+        [
+          2000,
+          30.7
+        ],
+        [
+          2001,
+          34.4
+        ],
+        [
+          2002,
+          44.8
+        ],
+        [
+          2003,
+          39.5
+        ],
+        [
+          2004,
+          43.6
+        ],
+        [
+          2005,
+          35.9
+        ],
+        [
+          2006,
+          32.8
+        ],
+        [
+          2007,
+          31.5
+        ],
+        [
+          2008,
+          29.5
+        ],
+        [
+          2009,
+          21.5
+        ],
+        [
+          2010,
+          20.5
+        ],
+        [
+          2011,
+          17.7
+        ],
+        [
+          2012,
+          24.6
+        ],
+        [
+          2013,
+          28.2
+        ],
+        [
+          2014,
+          21.6
+        ],
+        [
+          2015,
+          17.6
+        ],
+        [
+          2016,
+          19.4
+        ],
+        [
+          2017,
+          18.8
+        ],
+        [
+          2018,
+          18.4
+        ]
+      ],
+      "name": "EU-Ost"
+    },
+    {
+      "color": "#b9cfd7",
+      "data": [
+        [
+          1999,
+          21
+        ],
+        [
+          2000,
+          24
+        ],
+        [
+          2001,
+          25.5
+        ],
+        [
+          2002,
+          25.8
+        ],
+        [
+          2003,
+          26.2
+        ],
+        [
+          2004,
+          24.5
+        ],
+        [
+          2005,
+          22.4
+        ],
+        [
+          2006,
+          20.4
+        ],
+        [
+          2007,
+          17
+        ],
+        [
+          2008,
+          17
+        ],
+        [
+          2009,
+          15.6
+        ],
+        [
+          2010,
+          14.9
+        ],
+        [
+          2011,
+          16.7
+        ],
+        [
+          2012,
+          19.4
+        ],
+        [
+          2013,
+          18.8
+        ],
+        [
+          2014,
+          18.6
+        ],
+        [
+          2015,
+          22.4
+        ],
+        [
+          2016,
+          20.5
+        ],
+        [
+          2017,
+          20.8
+        ],
+        [
+          2018,
+          17.9
+        ]
+      ],
+      "name": "Balkan"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          1999,
+          17.6
+        ],
+        [
+          2000,
+          17.6
+        ],
+        [
+          2001,
+          16.7
+        ],
+        [
+          2002,
+          15.3
+        ],
+        [
+          2003,
+          14.7
+        ],
+        [
+          2004,
+          12.1
+        ],
+        [
+          2005,
+          16.8
+        ],
+        [
+          2006,
+          20.5
+        ],
+        [
+          2007,
+          19.5
+        ],
+        [
+          2008,
+          18.4
+        ],
+        [
+          2009,
+          18.6
+        ],
+        [
+          2010,
+          13.3
+        ],
+        [
+          2011,
+          12.6
+        ],
+        [
+          2012,
+          14
+        ],
+        [
+          2013,
+          16.4
+        ],
+        [
+          2014,
+          14.9
+        ],
+        [
+          2015,
+          12.5
+        ],
+        [
+          2016,
+          12.7
+        ],
+        [
+          2017,
+          16
+        ],
+        [
+          2018,
+          14.7
+        ]
+      ],
+      "name": "Übrige Länder"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "spacingTop": 7,
+    "renderTo": "container-7912",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Segregationsindex nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Rosental",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value}"
+    },
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "itemDistance": 10
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "lineWidth": 1.5
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7912
+  }
+}
