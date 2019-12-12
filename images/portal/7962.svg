@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   class="highcharts-root"
+   style="font-family:Arial;font-size:12px;"
+   viewBox="0 0 485 415"
+   id="svg6382"
+   sodipodi:docname="7962.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata6386">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview6384"
+     showgrid="false"
+     inkscape:zoom="2.2746988"
+     inkscape:cx="155.94568"
+     inkscape:cy="154.6923"
+     inkscape:window-x="1072"
+     inkscape:window-y="832"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6382" />
+  <desc
+     id="desc6186">Created with Highstock 6.1.1</desc>
+  <defs
+     id="defs6194">
+    <clipPath
+       id="highcharts-6zsoamm-6">
+      <rect
+         x="0"
+         y="0"
+         width="434"
+         height="212"
+         fill="none"
+         id="rect6188" />
+    </clipPath>
+    <clipPath
+       id="highcharts-6zsoamm-7">
+      <rect
+         x="0"
+         y="0"
+         width="434"
+         height="212"
+         fill="none"
+         id="rect6191" />
+    </clipPath>
+  </defs>
+  <rect
+     fill="#fbfbfb"
+     class="highcharts-background"
+     x="0"
+     y="0"
+     width="485"
+     height="428"
+     rx="0"
+     ry="0"
+     id="rect6196" />
+  <rect
+     fill="none"
+     class="highcharts-plot-background"
+     x="41"
+     y="154"
+     width="434"
+     height="212"
+     id="rect6198" />
+  <g
+     class="highcharts-pane-group"
+     data-z-index="0"
+     id="g6200" />
+  <g
+     class="highcharts-grid highcharts-xaxis-grid "
+     data-z-index="1"
+     id="g6214">
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 127.5 154 L 127.5 366"
+       opacity="1"
+       id="path6202" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 214.5 154 L 214.5 366"
+       opacity="1"
+       id="path6204" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 300.5 154 L 300.5 366"
+       opacity="1"
+       id="path6206" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 387.5 154 L 387.5 366"
+       opacity="1"
+       id="path6208" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 474.5 154 L 474.5 366"
+       opacity="1"
+       id="path6210" />
+    <path
+       fill="none"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 40.5 154 L 40.5 366"
+       opacity="1"
+       id="path6212" />
+  </g>
+  <g
+     class="highcharts-grid highcharts-yaxis-grid "
+     data-z-index="1"
+     id="g6226">
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 41 366.25 L 475 366.25"
+       opacity="1"
+       id="path6216" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 41 313.25 L 475 313.25"
+       opacity="1"
+       id="path6218" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 41 260.25 L 475 260.25"
+       opacity="1"
+       id="path6220" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 41 207.25 L 475 207.25"
+       opacity="1"
+       id="path6222" />
+    <path
+       fill="none"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="1"
+       class="highcharts-grid-line"
+       d="M 41 153.75 L 475 153.75"
+       opacity="1"
+       id="path6224" />
+  </g>
+  <rect
+     fill="none"
+     class="highcharts-plot-border"
+     data-z-index="1"
+     x="41"
+     y="154"
+     width="434"
+     height="212"
+     id="rect6228" />
+  <g
+     class="highcharts-axis highcharts-xaxis "
+     data-z-index="2"
+     id="g6232">
+    <path
+       fill="none"
+       class="highcharts-axis-line"
+       stroke="#B9CFD7"
+       stroke-width="0.5"
+       data-z-index="7"
+       d="M 41 366.25 L 475 366.25"
+       id="path6230" />
+  </g>
+  <g
+     class="highcharts-axis highcharts-yaxis "
+     data-z-index="2"
+     id="g6236">
+    <path
+       fill="none"
+       class="highcharts-axis-line"
+       data-z-index="7"
+       d="M 41 154 L 41 366"
+       id="path6234" />
+  </g>
+  <g
+     id="g6449"
+     transform="translate(7.2214813)">
+    <rect
+       style="fill:#73b97c"
+       id="rect6240"
+       class="highcharts-point"
+       height="65"
+       width="14"
+       y="302"
+       x="143" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect6254"
+       class="highcharts-point"
+       height="55"
+       width="14"
+       y="312"
+       x="157" />
+    <rect
+       style="fill:#ff8028"
+       id="rect6268"
+       class="highcharts-point"
+       height="70"
+       width="14"
+       y="297"
+       x="171" />
+  </g>
+  <g
+     id="g6460"
+     transform="translate(6.9718628)">
+    <rect
+       style="fill:#73b97c"
+       id="rect6244"
+       class="highcharts-point"
+       height="105"
+       width="14"
+       y="262"
+       x="317" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect6258"
+       class="highcharts-point"
+       height="125"
+       width="14"
+       y="242"
+       x="331" />
+    <rect
+       style="fill:#ff8028"
+       id="rect6272"
+       class="highcharts-point"
+       height="95"
+       width="14"
+       y="272"
+       x="345" />
+  </g>
+  <g
+     id="g6465"
+     transform="translate(6.334137)">
+    <rect
+       style="fill:#73b97c"
+       id="rect6246"
+       class="highcharts-point"
+       height="67"
+       width="14"
+       y="300"
+       x="404" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect6260"
+       class="highcharts-point"
+       height="67"
+       width="14"
+       y="300"
+       x="418" />
+    <rect
+       style="fill:#ff8028"
+       id="rect6274"
+       class="highcharts-point"
+       height="67"
+       width="14"
+       y="300"
+       x="432" />
+  </g>
+  <g
+     id="g6444"
+     transform="translate(-7.5865707)">
+    <rect
+       style="fill:#73b97c"
+       id="rect6238"
+       class="highcharts-point"
+       height="90"
+       width="14"
+       y="277"
+       x="57" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect6252"
+       class="highcharts-point"
+       height="82"
+       width="14"
+       y="285"
+       x="71" />
+    <rect
+       style="fill:#ff8028"
+       id="rect6266"
+       class="highcharts-point"
+       height="76"
+       width="14"
+       y="291"
+       x="85" />
+    <rect
+       style="fill:#dc440e"
+       id="rect6280"
+       class="highcharts-point"
+       height="109"
+       width="14"
+       y="258"
+       x="99" />
+    <rect
+       style="fill:#b00000"
+       id="rect6286"
+       class="highcharts-point"
+       height="122"
+       width="14"
+       y="245"
+       x="113" />
+  </g>
+  <g
+     id="g6455"
+     transform="translate(0.06176758)">
+    <rect
+       style="fill:#73b97c"
+       id="rect6242"
+       class="highcharts-point"
+       height="131"
+       width="14"
+       y="236"
+       x="230" />
+    <rect
+       style="fill:#ffbb58"
+       id="rect6256"
+       class="highcharts-point"
+       height="101"
+       width="14"
+       y="266"
+       x="244" />
+    <rect
+       style="fill:#ff8028"
+       id="rect6270"
+       class="highcharts-point"
+       height="110"
+       width="14"
+       y="257"
+       x="258" />
+    <rect
+       style="fill:#b00000"
+       id="rect6288"
+       class="highcharts-point"
+       height="172"
+       width="14"
+       y="195"
+       x="272" />
+  </g>
+  <text
+     x="10"
+     text-anchor="start"
+     class="highcharts-title"
+     data-z-index="4"
+     style="color:#000000;font-size:14px;font-weight:bold;fill:#000000;"
+     y="21"
+     id="text6298">
+    <tspan
+       id="tspan6296">Anteil der privaten Einelternhaushalte</tspan>
+  </text>
+  <text
+     x="10"
+     text-anchor="start"
+     class="highcharts-subtitle"
+     data-z-index="4"
+     style="color:#000000;font-size:12px;font-weight:normal;font-family:Arial;fill:#000000;"
+     y="40"
+     id="text6302">
+    <tspan
+       id="tspan6300">mit Kindern unter 18 Jahren, 2017</tspan>
+  </text>
+  <g
+     class="highcharts-legend"
+     data-z-index="7"
+     transform="translate(33,56)"
+     id="g6350">
+    <rect
+       fill="none"
+       class="highcharts-legend-box"
+       rx="0"
+       ry="0"
+       x="0"
+       y="0"
+       width="296"
+       height="86"
+       visibility="visible"
+       id="rect6304" />
+    <g
+       data-z-index="1"
+       id="g6348">
+      <g
+         id="g6346">
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-0"
+           data-z-index="1"
+           transform="translate(8,3)"
+           id="g6312">
+          <text
+             x="21"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             y="15"
+             id="text6308">
+            <tspan
+               id="tspan6306">Gesamte Agglomeration</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#73B97C"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect6310" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-1"
+           data-z-index="1"
+           transform="translate(8,18)"
+           id="g6320">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text6316">
+            <tspan
+               id="tspan6314">Kernstadt</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#FFBB58"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect6318" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-2"
+           data-z-index="1"
+           transform="translate(8,33)"
+           id="g6328">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text6324">
+            <tspan
+               id="tspan6322">Übrige Agglomerationsgemeinden Schweiz</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#FF8028"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect6326" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-3"
+           data-z-index="1"
+           transform="translate(8,48)"
+           id="g6336">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text6332">
+            <tspan
+               id="tspan6330">Agglomerationsgemeinden Deutschland</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#DC440E"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect6334" />
+        </g>
+        <g
+           class="highcharts-legend-item highcharts-column-series highcharts-color-undefined highcharts-series-4"
+           data-z-index="1"
+           transform="translate(8,63)"
+           id="g6344">
+          <text
+             x="21"
+             y="15"
+             style="color:#333333;font-size:12px;font-weight:normal;cursor:pointer;fill:#333333;"
+             text-anchor="start"
+             data-z-index="2"
+             id="text6340">
+            <tspan
+               id="tspan6338">Agglomerationsgemeinden Frankreich</tspan>
+          </text>
+          <rect
+             x="2"
+             y="4"
+             width="12"
+             height="12"
+             fill="#B00000"
+             class="highcharts-point"
+             data-z-index="3"
+             id="rect6342" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     id="text6352"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="84.400002">Basel</text>
+  <text
+     id="text6354"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="171.2">Bern</text>
+  <text
+     id="text6356"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="258">Genève</text>
+  <text
+     id="text6358"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="344.79999">Lausanne</text>
+  <text
+     id="text6360"
+     y="385"
+     style="color:#000000;font-size:11px;text-anchor:middle;opacity:1;fill:#000000"
+     x="431.60001">Zürich</text>
+  <g
+     class="highcharts-axis-labels highcharts-yaxis-labels "
+     data-z-index="7"
+     id="g6374">
+    <text
+       x="26"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="370"
+       opacity="1"
+       id="text6364">0%</text>
+    <text
+       x="26"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="317"
+       opacity="1"
+       id="text6366">2%</text>
+    <text
+       x="26"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="264"
+       opacity="1"
+       id="text6368">4%</text>
+    <text
+       x="26"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="211"
+       opacity="1"
+       id="text6370">6%</text>
+    <text
+       x="26"
+       style="color:#000000;cursor:default;font-size:11px;fill:#000000;"
+       text-anchor="end"
+       transform="translate(0,0)"
+       y="158"
+       opacity="1"
+       id="text6372">8%</text>
+  </g>
+  <text
+     x="10"
+     class="highcharts-credits"
+     text-anchor="start"
+     data-z-index="8"
+     style="cursor:default;color:#000000;font-size:10px;fill:#000000;"
+     y="403"
+     id="text6380">
+    <tspan
+       id="tspan6376">Quelle: Bundesamt für Statistik (BFS), City Statistics.</tspan>
+    <tspan
+       x="10"
+       dy="13"
+       id="tspan6378">Zuletzt geändert: 2019-10-24</tspan>
+  </text>
+</svg>

@@ -1,0 +1,282 @@
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel",
+          511.66
+        ],
+        [
+          "Bern",
+          476.83
+        ],
+        [
+          "Genève",
+          530.28
+        ],
+        [
+          "Lausanne",
+          501.66
+        ],
+        [
+          "Zürich",
+          506.61
+        ]
+      ],
+      "name": "Gesamte Agglomeration",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Basel",
+          334.25
+        ],
+        [
+          "Bern",
+          383.2
+        ],
+        [
+          "Genève",
+          364.66
+        ],
+        [
+          "Lausanne",
+          363.31
+        ],
+        [
+          "Zürich",
+          348.26
+        ]
+      ],
+      "name": "Kernstadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Basel",
+          517.92
+        ],
+        [
+          "Bern",
+          520.92
+        ],
+        [
+          "Genève",
+          538.2
+        ],
+        [
+          "Lausanne",
+          570.3
+        ],
+        [
+          "Zürich",
+          573.64
+        ]
+      ],
+      "name": "Übrige Agglomerationsgemeinden Schweiz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Basel",
+          580.04
+        ],
+        [
+          "Bern",
+          null
+        ],
+        [
+          "Genève",
+          null
+        ],
+        [
+          "Lausanne",
+          null
+        ],
+        [
+          "Zürich",
+          null
+        ]
+      ],
+      "name": "Agglomerationsgemeinden Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "Basel",
+          654.45
+        ],
+        [
+          "Bern",
+          null
+        ],
+        [
+          "Genève",
+          624.55
+        ],
+        [
+          "Lausanne",
+          null
+        ],
+        [
+          "Zürich",
+          null
+        ]
+      ],
+      "name": "Agglomerationsgemeinden Frankreich",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function (event) {
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                }
+              }
+            );
+          }
+          justifyColumns(event.target);
+        },
+      "redraw": function (event) {
+          justifyColumns(event.target);
+        }
+    },
+    "type": "column",
+    "animation": false,
+    "inverted": false,
+    "renderTo": "container-7970",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "pointWidth": 14
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Personenwagen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "pro 1000 Einwohner, 2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 6
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 300
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 7970
+  }
+}
