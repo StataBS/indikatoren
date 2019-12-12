@@ -28119,17 +28119,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:50.5050",
+		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
 		"stufe1": "1. Einführung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die trinationalen Agglomeration Basel umfasst 203 Gemeinden. Sie besteht aus der Kernstadt Basel, 106 übrigen Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
+		"lesehilfe": "Die trinationale Agglomeration Basel umfasst 203 Gemeinden. Sie besteht aus der Kernstadt Basel, 106 übrigen Gemeinden in der Schweiz, 24 in Deutschland und 72 in Frankreich.",
 		"erlaeuterungen": "",
 		"template": "map_gemeinden",
-		"darstellungsart": "Karte kontinuierlich",
-		"printformat": "",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "large",
 		"visibleInPortal": true,
 		"orderKey": "99_00_00_00_00_001",
 		"parentId": null,
@@ -28162,7 +28162,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:52.5252",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -28195,7 +28195,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungsdichte nach Gemeinde",
-		"subtitle": "Trinationale Agglomeration Basel, 2017",
+		"subtitle": "trinationale Agglomeration Basel, 2017",
 		"kuerzel": "I.01.1.07954",
 		"kuerzelKunde": "2.2",
 		"description": "Bevölkerungsdichte nach Gemeinde",
@@ -28205,13 +28205,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:50.5050",
+		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 7170,5 Einwohner per Quadratkilometer ist die Stadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteile zeigen folgende Gemeinden die höchste und die tiefste Bevölkerungsdichte: Birsfelden (4154,4) und Lauwil (45,6) in der Schweiz; Huningue (2349,5) und Bendorf (28,8) in Frankreich; Weil am Rhein (1549,3) und Häg-Ehrsberg (34,0) in Deutschland.",
+		"lesehilfe": "Mit 7170,5 Einwohnern pro Quadratkilometer ist die Stadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteile zeigen folgende Gemeinden die höchste und die tiefste Bevölkerungsdichte: Birsfelden (4154,4) und Lauwil (45,6) in der Schweiz; Huningue (2349,5) und Bendorf (28,8) in Frankreich; Weil am Rhein (1549,3) und Häg-Ehrsberg (34,0) in Deutschland.",
 		"erlaeuterungen": "",
 		"template": "map_gemeinden",
 		"darstellungsart": "Karte kontinuierlich",
@@ -28248,7 +28248,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:50.5050",
+		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -28291,7 +28291,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:50.5050",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -28334,7 +28334,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -28377,7 +28377,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -28420,7 +28420,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "3. Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -28463,14 +28463,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "3. Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einelternhaushalte mit Kindern variiert zwischen 2,5% in den Agglomerationen Bern und Zürich und 5,0% in Genf. In den französischen Gemeinden der Agglomeration Genf liegt er bei 6,5%. In der Agglomeration Basel beträgt der Anteil 3,4%, wobei er in den französischen und in den deutschen Agglomerationsgemeinden grösser als im Schweizer Teil der Agglomeration ist.",
-		"erlaeuterungen": "Private Haushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
+		"erlaeuterungen": "Privathaushalte sind alle Haushalte ausser Kollektivhaushalte (z. B. Alters- und Pflegeheime).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -28506,7 +28506,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "3. Familienhaushalte und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -28549,7 +28549,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -28592,7 +28592,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -28635,7 +28635,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:50.5050",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -28678,7 +28678,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -28721,7 +28721,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
@@ -28764,7 +28764,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "5. Verkehr und Tourismus",
 		"stufe2": "",
 		"stufe3": "",
@@ -28807,7 +28807,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "5. Verkehr und Tourismus",
 		"stufe2": "",
 		"stufe3": "",
@@ -28850,7 +28850,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T17:23:51.5151",
+		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
 		"stufe1": "4. Arbeitsmarkt",
 		"stufe2": "",
 		"stufe3": "",
