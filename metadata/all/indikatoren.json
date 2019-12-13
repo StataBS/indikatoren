@@ -44704,13 +44704,13 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
+		"aktualisierungsdatum": "2019-12-12T13:39:29.2929",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 7170,5 Einwohnern pro Quadratkilometer ist die Stadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteile zeigen folgende Gemeinden die höchste und die tiefste Bevölkerungsdichte: Birsfelden (4154,4) und Lauwil (45,6) in der Schweiz; Huningue (2349,5) und Bendorf (28,8) in Frankreich; Weil am Rhein (1549,3) und Häg-Ehrsberg (34,0) in Deutschland.",
+		"lesehilfe": "Mit 7 170,5 Einwohnern pro Quadratkilometer ist die Stadt Basel die Gemeinde mit der höchsten Bevölkerungsdichte. In den Agglomerationsteile zeigen folgende Gemeinden die höchste und die tiefste Bevölkerungsdichte: Birsfelden (4 154,4) und Lauwil (45,6) in der Schweiz; Huningue (2 349,5) und Bendorf (28,8) in Frankreich; Weil am Rhein (1 549,3) und Häg-Ehrsberg (34,0) in Deutschland.",
 		"erlaeuterungen": "",
 		"template": "map_gemeinden",
 		"darstellungsart": "Karte kontinuierlich",
@@ -44719,8 +44719,7 @@
 		"orderKey": "99_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"8097",
-			"8118"
+			"8097"
 		],
 		"renderLink": [],
 		"quellenangabe": [

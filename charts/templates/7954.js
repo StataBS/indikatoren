@@ -15,7 +15,7 @@ global rheinData
         },    	
 		"legend": {
 			"title": {
-				"text": "in Einwohner pro km<sup>2</sup>"
+				"text": "Einwohner pro km<sup>2</sup>"
 			},
 			useHTML: true,
 		},
