@@ -1,13 +1,12 @@
-﻿""	"Anteil"
-"Schweiz"	23.58
-"Deutschland"	6.87
-"Italien"	70.00
-"Türkei"	87.50
-"EU-17 & EFTA"	52.21
-"EU-Ost"	60.61
-"Balkan"	81.36
-"Mittel- und Südamerika"	72.73
-"Arabische Länder"	84.62
-"Afrikanische Länder"	74.19
-"Übrige Länder"	76.30
-
+﻿Laendergruppe	Anteil
+Schweiz	23.66
+Deutschland	14.06
+Italien	64.71
+Türkei	85.48
+EU-17 + EFTA	57.79
+EU-Ost	65.00
+Balkan	90.48
+Mittel- und Südamerika	41.18
+Arabische Länder	95.65
+Afrikanische Länder	68.75
+Übrige Länder	79.63

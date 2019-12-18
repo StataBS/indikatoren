@@ -5,47 +5,47 @@
       "data": [
         [
           "Spanien",
-          3689
+          3844
         ],
         [
           "Portugal",
-          3449
-        ],
-        [
-          "Vereinigtes Königreich",
-          2207
+          3469
         ],
         [
           "Frankreich",
-          2152
+          2210
+        ],
+        [
+          "Vereinigtes Königreich",
+          2198
         ],
         [
           "Österreich",
-          1220
+          1216
         ],
         [
           "Niederlande",
-          758
+          792
         ],
         [
           "Griechenland",
-          436
+          537
         ],
         [
           "Irland",
-          304
-        ],
-        [
-          "Belgien",
-          301
+          345
         ],
         [
           "Schweden",
-          300
+          315
+        ],
+        [
+          "Belgien",
+          298
         ],
         [
           "Übrige",
-          617
+          620
         ]
       ],
       "turboThreshold": 0
@@ -70,7 +70,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -82,7 +82,7 @@
     },
     "type": "pie",
     "renderTo": "container-6676",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "pie": {
@@ -123,7 +123,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer der Ländergruppe EU-17 + EFTA"
+    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»"
   },
   "subtitle": {
     "style": {
@@ -132,7 +132,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -151,9 +151,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

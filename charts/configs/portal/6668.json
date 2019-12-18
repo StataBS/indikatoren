@@ -90,7 +90,7 @@
     {
       "color": "#661200",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1999,
@@ -178,7 +178,7 @@
     {
       "color": "#dc440e",
       "legendIndex": 4,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1999,
@@ -353,7 +353,7 @@
     {
       "color": "#7f5f1a",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1999,
@@ -441,7 +441,7 @@
     {
       "color": "#ffda80",
       "legendIndex": 5,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           1999,
@@ -549,8 +549,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
-    "height": 208,
+    "width": 665,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -561,8 +561,9 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 7,
     "renderTo": "container-6668",
-    "spacingBottom": 22
+    "spacingBottom": 32
   },
   "title": {
     "style": {
@@ -584,8 +585,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -636,20 +636,19 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik."
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "padding": 0
   },
@@ -657,12 +656,6 @@
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

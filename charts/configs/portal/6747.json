@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          23.58
+          23.66
         ],
         [
           "Deutschland",
-          6.87
+          14.06
         ],
         [
           "Italien",
-          70
+          64.71
         ],
         [
           "Türkei",
-          87.5
+          85.48
         ],
         [
-          "EU-17 & EFTA",
-          52.21
+          "EU-17 + EFTA",
+          57.79
         ],
         [
           "EU-Ost",
-          60.61
+          65
         ],
         [
           "Balkan",
-          81.36
+          90.48
         ],
         [
           "Mittel- und Südamerika",
-          72.73
+          41.18
         ],
         [
           "Arabische Länder",
-          84.62
+          95.65
         ],
         [
           "Afrikanische Länder",
-          74.19
+          68.75
         ],
         [
           "Übrige Länder",
-          76.3
+          79.63
         ]
       ],
       "turboThreshold": 0
@@ -66,13 +66,11 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "rotation": 0,
-      "step": 1,
       "x": -5,
       "y": 3,
-      "formatter": function(){
-        return this.value.replace("und", "u.");
-      }
+      "formatter": function () {
+          return this.value.replace("und", "u.");
+        }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -81,7 +79,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -114,6 +112,8 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 15,
+    "marginLeft": 117,
     "renderTo": "container-6747",
     "spacingBottom": 12
   },
@@ -149,7 +149,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": " nach Staatsangehörigkeit, Stadt Basel, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -170,7 +170,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "max": 100
   },
   "navigation": {
     "menuItemStyle": {
@@ -191,20 +192,16 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bevölkerungsdienste und Migration Basel-Stadt;\u003Cbr\u002F\u003EZentrale Informatikdienste Basel-Stadt ZID."
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "enabled": false
   },
   "dataLabels": {
     "enabled": false,
@@ -225,11 +222,6 @@
     "#9f7c5a",
     "#999999"
   ],
-  "tooltip": {
-    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
-  },
   "exporting": {
     "filename": 6747
   }

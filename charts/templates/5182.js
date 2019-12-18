@@ -61,10 +61,10 @@
           }
         }
       },
-      { "color": "#E64900", legendIndex: 2, "visible": false, marker: { symbol: 'diamond' } },
-      { "color": "#E64900", legendIndex: 3, "visible": false }, // hellrot 
-      { "color": "#008AC3", legendIndex: 4, "visible": false, marker: { symbol: 'diamond' } },
-      { "color": "#008AC3", legendIndex: 5, "visible": false },// hellblau
+      { "color": "#E64900", legendIndex: 2, "visible": true, marker: { symbol: 'diamond' } },
+      { "color": "#E64900", legendIndex: 3, "visible": true }, // hellrot 
+      { "color": "#008AC3", legendIndex: 4, "visible": true, marker: { symbol: 'diamond' } },
+      { "color": "#008AC3", legendIndex: 5, "visible": true },// hellblau
       { "color": "#68AB2B", legendIndex: 6, "visible": true, marker: { symbol: 'diamond' } },
       { "color": "#68AB2B", legendIndex: 7, "visible": true }, //hellgrün 
       { "color": "#B375AB", legendIndex: 8, "visible": true, marker: { symbol: 'diamond' } },

@@ -182,9 +182,8 @@
       "labels": {
         "step": 1,
         "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
+          "fontSize": "8px",
+          "color": "#000000"
         }
       },
       "tickLength": 0,
@@ -193,7 +192,6 @@
           "color": "#000000"
         }
       },
-      "tickColor": "#FFFFFF",
       "lineColor": "#B9CFD7",
       "lineWidth": 0.5
     },
@@ -211,7 +209,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -243,7 +241,7 @@
                 }
     },
     "renderTo": "container-6652",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "bar": {
@@ -277,7 +275,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": [
@@ -293,8 +291,8 @@
       "labels": {
         "step": 1,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
+                },
         "style": {
           "color": "#000000",
           "textOverflow": "none",
@@ -310,8 +308,8 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
     }
@@ -333,9 +331,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "symbolRadius": 0,
@@ -353,7 +351,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
   },
   "customFunctions": {

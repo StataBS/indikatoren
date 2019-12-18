@@ -70,6 +70,10 @@
         [
           2017,
           7.96
+        ],
+        [
+          2018,
+          7.88
         ]
       ],
       "name": "Schweiz"
@@ -144,6 +148,10 @@
         [
           2017,
           1.36
+        ],
+        [
+          2018,
+          1.38
         ]
       ],
       "name": "Deutschland"
@@ -218,6 +226,10 @@
         [
           2017,
           8.21
+        ],
+        [
+          2018,
+          7.89
         ]
       ],
       "name": "Italien"
@@ -292,6 +304,10 @@
         [
           2017,
           11.83
+        ],
+        [
+          2018,
+          11.62
         ]
       ],
       "name": "Türkei"
@@ -366,6 +382,10 @@
         [
           2017,
           2.88
+        ],
+        [
+          2018,
+          2.74
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -440,6 +460,10 @@
         [
           2017,
           1.02
+        ],
+        [
+          2018,
+          0.92
         ]
       ],
       "name": "EU-Ost"
@@ -514,6 +538,10 @@
         [
           2017,
           10.2
+        ],
+        [
+          2018,
+          9.63
         ]
       ],
       "name": "Balkan"
@@ -588,6 +616,10 @@
         [
           2017,
           1.64
+        ],
+        [
+          2018,
+          1.58
         ]
       ],
       "name": "Mittel- und Südamerika"
@@ -662,6 +694,10 @@
         [
           2017,
           2.24
+        ],
+        [
+          2018,
+          2.26
         ]
       ],
       "name": "Arabische Länder"
@@ -736,6 +772,10 @@
         [
           2017,
           1.58
+        ],
+        [
+          2018,
+          1.87
         ]
       ],
       "name": "Afrikanische Länder"
@@ -810,6 +850,10 @@
         [
           2017,
           1.11
+        ],
+        [
+          2018,
+          1.09
         ]
       ],
       "name": "Übrige Länder"
@@ -837,8 +881,8 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
-    "width": 320,
-    "height": 208,
+    "width": 665,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -849,8 +893,9 @@
       "fontFamily": "Arial"
     },
     "type": "line",
+    "spacingTop": 5,
     "renderTo": "container-6705",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -892,7 +937,8 @@
         "fontSize": 10,
         "color": "#000000"
       },
-      "format": "{value}%"
+      "format": "{value}%",
+      "x": -5
     },
     "tickAmount": 5
   },
@@ -906,7 +952,6 @@
         "textOverflow": null,
         "whiteSpace": "nowrap"
       },
-      "step": 1,
       "rotation": -45
     },
     "tickLength": 0,
@@ -924,26 +969,25 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "padding": 0,
-    "itemDistance": 5,
-    "labelFormatter": function(){
-      return this.name.replace("und", "u.");
-    }
+    "labelFormatter": function () {
+        return this.name.replace("und", " u.");
+        //return this.name.replace(" ", "<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
+      }
   },
   "plotOptions": {
     "series": {

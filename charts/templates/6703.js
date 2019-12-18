@@ -1,17 +1,16 @@
 /*
     global Highcharts
 */
-
-(function(){
+(function () {
     return {
         data: {
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
-                var negateNumbersInColumn = function(columnIndex){
-                    Highcharts.each(columns, function(column, i, c) {
-                        if (i == columnIndex){
-                            Highcharts.each(column, function(item, j, v){
-                                if (typeof(item) == 'number'){
+                var negateNumbersInColumn = function (columnIndex) {
+                    Highcharts.each(columns, function (column, i, c) {
+                        if (i == columnIndex) {
+                            Highcharts.each(column, function (item, j, v) {
+                                if (typeof (item) == 'number') {
                                     v[j] = -v[j];
                                 }
                             });
@@ -19,20 +18,20 @@
                     });
                 };
                 negateNumbersInColumn(1);
-            }     
+            }
         },
-        yAxis:[{
+        yAxis: [{
             tickInterval: 5,
             min: 0,
-            max: 30,
+            max: 25,
             title: {
                 text: null
             },
             labels: {
-            	step: 1,
+                step: 1,
                 formatter: function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
+                },
                 style: {
                     color: "#000000",
                     textOverflow: 'none',
@@ -47,75 +46,75 @@
             }],
             //create symmetric xAxis
             events: {
-                afterSetExtremes: function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
-                }, 
+                afterSetExtremes: function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
+                },
             }
         }],
         xAxis: [{
-                reversed: false,
-                type: 'category',
-                labels: {
-    	        	step: 1,
-	               "style": {
+            reversed: false,
+            type: 'category',
+            labels: {
+                step: 1,
+                "style": {
                     "color": "#000000",
                     textOverflow: 'none',
-                     fontSize: '10px'
-                    
+                    fontSize: '10px'
+
                 }
-                }, 
-                tickLength: 0, 
-	            title: {
-	                style: {
-	                    color: "#000000"
-	                }
-	            },
-	            tickColor: "#FFFFFF"
-            }, 
-            { // mirror axis on right side
-                type: 'category',
-                visible: false,
-                opposite: true,
-                reversed: false,
-                linkedTo: 0
-            }
-        ],                
-		series: [
-            {
-              color: "#7f5f1a", // Männer
-              //borderWidth: 0,
-              //pointWidth: 15
-            }, 
-            {
-              color: "#ffda80", //Frauen
-              //borderWidth: 0,
-              //pointWidth: 15
             },
-             /*{
-              color: "#000000", //schwarz
-              //borderWidth: 0,
-              //pointWidth: 15
-            }*/
-	    ],
-    "legend": {
-        "enabled": true,
-        x: 7,
-        "layout": "horizontal",
-        "verticalAlign": "top",
-        "align": "center",
-        "itemStyle": {
-          "fontWeight": "normal"
+            tickLength: 0,
+            title: {
+                style: {
+                    color: "#000000"
+                }
+            },
+            tickColor: "#FFFFFF"
+        },
+        { // mirror axis on right side
+            type: 'category',
+            visible: false,
+            opposite: true,
+            reversed: false,
+            linkedTo: 0
         }
-      },
+        ],
+        series: [
+            {
+                color: "#7f5f1a", // Männer
+                //borderWidth: 0,
+                //pointWidth: 15
+            },
+            {
+                color: "#ffda80", //Frauen
+                //borderWidth: 0,
+                //pointWidth: 15
+            },
+            /*{
+             color: "#000000", //schwarz
+             //borderWidth: 0,
+             //pointWidth: 15
+           }*/
+        ],
+        "legend": {
+            "enabled": true,
+            x: 7,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "align": "center",
+            "itemStyle": {
+                "fontWeight": "normal"
+            }
+        },
         plotOptions: {
             series: {
-	            borderWidth: 0.2,
+                borderWidth: 0.2,
             }
         },
         tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 1, ",", " ") + '%</b><br/>';
             }
         },
-	};
+    };
 }());

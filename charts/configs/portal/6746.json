@@ -6,39 +6,39 @@
       "data": [
         [
           "Italien",
-          419
+          412
         ],
         [
           "Türkei",
-          107
+          93
         ],
         [
           "EU-17 und EFTA",
-          805
+          890
         ],
         [
           "EU-Ost",
-          478
+          396
         ],
         [
           "Balkan",
-          156
+          152
         ],
         [
           "Mittel- und Südamerika",
-          149
+          168
         ],
         [
           "Arabische Länder",
-          65
+          62
         ],
         [
           "Afrikanische Länder",
-          73
+          80
         ],
         [
           "Übrige Länder",
-          818
+          798
         ]
       ],
       "name": "Ausgestellte Gutscheine",
@@ -58,31 +58,31 @@
         ],
         [
           "EU-17 und EFTA",
-          394
+          431
         ],
         [
           "EU-Ost",
-          190
+          204
         ],
         [
           "Balkan",
-          97
+          121
         ],
         [
           "Mittel- und Südamerika",
-          99
+          102
         ],
         [
           "Arabische Länder",
-          47
+          46
         ],
         [
           "Afrikanische Länder",
-          41
+          53
         ],
         [
           "Übrige Länder",
-          298
+          343
         ]
       ],
       "name": "Eingelöste Gutscheine",
@@ -106,7 +106,10 @@
       },
       "y": 3,
       "step": 1,
-      "rotation": 0
+      "rotation": 0,
+      "formatter": function(){
+          return this.value.replace("und Süd", "u. Süd").replace("und EFTA", "+ EFTA");
+        }
     },
     "tickLength": 0
   },
@@ -114,7 +117,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -148,9 +151,9 @@
     "type": "column",
     "inverted": true,
     "marginLeft": 120,
-    "marginRight": 9,
+    "marginRight": 15,
     "renderTo": "container-6746",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -182,7 +185,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -223,9 +226,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt."
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

@@ -27,7 +27,7 @@
         ],
         [
           "2013 Total",
-          898
+          906
         ],
         [
           "2013 Kein Deutsch",
@@ -40,6 +40,26 @@
         [
           "2013 Nur Deutsch",
           575
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          776
+        ],
+        [
+          "2017 Kein Deutsch",
+          74
+        ],
+        [
+          "2017 Deutsch und weitere",
+          205
+        ],
+        [
+          "2017 Nur Deutsch",
+          487
         ]
       ],
       "name": "Ja, genutzt",
@@ -72,7 +92,7 @@
         ],
         [
           "2013 Total",
-          903
+          913
         ],
         [
           "2013 Kein Deutsch",
@@ -85,6 +105,26 @@
         [
           "2013 Nur Deutsch",
           498
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          633
+        ],
+        [
+          "2017 Kein Deutsch",
+          80
+        ],
+        [
+          "2017 Deutsch und weitere",
+          214
+        ],
+        [
+          "2017 Nur Deutsch",
+          323
         ]
       ],
       "name": "Ja, nicht genutzt",
@@ -130,6 +170,26 @@
         [
           "2013 Nur Deutsch",
           24
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          62
+        ],
+        [
+          "2017 Kein Deutsch",
+          24
+        ],
+        [
+          "2017 Deutsch und weitere",
+          21
+        ],
+        [
+          "2017 Nur Deutsch",
+          15
         ]
       ],
       "name": "Nein, würde genutzt",
@@ -162,7 +222,7 @@
         ],
         [
           "2013 Total",
-          157
+          158
         ],
         [
           "2013 Kein Deutsch",
@@ -175,6 +235,26 @@
         [
           "2013 Nur Deutsch",
           37
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          80
+        ],
+        [
+          "2017 Kein Deutsch",
+          37
+        ],
+        [
+          "2017 Deutsch und weitere",
+          20
+        ],
+        [
+          "2017 Nur Deutsch",
+          21
         ]
       ],
       "name": "Nein, würde nicht genutzt",
@@ -220,6 +300,26 @@
         [
           "2013 Nur Deutsch",
           56
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          114
+        ],
+        [
+          "2017 Kein Deutsch",
+          31
+        ],
+        [
+          "2017 Deutsch und weitere",
+          56
+        ],
+        [
+          "2017 Nur Deutsch",
+          24
         ]
       ],
       "name": "Keine Angabe",
@@ -241,28 +341,38 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>'; 
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                },
       "align": "left",
-      "x": -160
+      "x": -125,
+      "step": 1
     }
   },
   "chart": {
@@ -285,7 +395,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -299,11 +409,11 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginLeft": 165,
-    "marginRight": 5,
     "inverted": true,
+    "marginLeft": 130,
+    "marginRight": 5,
     "renderTo": "container-6744",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -342,7 +452,6 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "type": "category",
       "rotation": 0
     },
     "max": 100
@@ -355,7 +464,7 @@
     "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 1,
-    "itemMarginBottom": 4,
+    "itemMarginBottom": 2,
     "itemStyle": {
       "fontFamily": "Arial",
       "fontSize": "10px",
@@ -368,7 +477,9 @@
             },
     "x": -1,
     "margin": 10,
-    "itemWidth": 155
+    "itemWidth": 155,
+    "itemDistance": 1,
+    "symbolPadding": 1
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -377,9 +488,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {

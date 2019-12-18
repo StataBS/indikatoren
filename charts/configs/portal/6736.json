@@ -447,23 +447,31 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + '<br/>(' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>'; 
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                },
       "x": -6,
-      "y": 10,
-      "align": "right"
+      "y": 10
     }
   },
   "chart": {
@@ -486,7 +494,7 @@
     },
     "type": "column",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -500,11 +508,10 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "inverted": false,
     "marginBottom": 75,
     "spacingTop": 5,
     "renderTo": "container-6736",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -542,8 +549,7 @@
         "fontSize": "10px",
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "type": "category"
+      }
     },
     "max": 100
   },
@@ -555,7 +561,7 @@
     "verticalAlign": "middle",
     "symbolRadius": 0,
     "padding": 0,
-    "itemMarginBottom": 3,
+    "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
       "fontSize": "10px",
@@ -564,10 +570,10 @@
       "whitespace": "nowrap"
     },
     "labelFormatter": function () {
-        return this.name.replace("/ ", "/<br/>");
-    },
-    "y": -13,
-    "reversed": true
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "reversed": true,
+    "y": -13
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -576,9 +582,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {
