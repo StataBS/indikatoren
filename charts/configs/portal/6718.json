@@ -5,23 +5,23 @@
       "data": [
         [
           "Schweiz",
-          1.88
+          1.87
         ],
         [
           "Deutschland",
-          1.82
+          1.83
         ],
         [
           "Italien",
-          1.99
+          1.97
         ],
         [
           "Türkei",
-          2.68
+          2.65
         ],
         [
           "EU-17 + EFTA",
-          2.09
+          2.1
         ],
         [
           "EU-Ost",
@@ -33,19 +33,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.19
+          2.15
         ],
         [
           "Arabische Länder",
-          2.61
+          2.66
         ],
         [
           "Afrikanische Länder",
-          2.43
+          2.38
         ],
         [
           "Übrige Länder",
-          2.41
+          2.17
         ]
       ],
       "turboThreshold": 0
@@ -80,7 +80,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -114,7 +114,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6718",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -148,7 +148,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -189,9 +189,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweizer",
-          13.74
+          16.67
         ],
         [
           "Ausländer",
-          27.4
+          39.76
         ]
       ],
       "name": "Diebstahl",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Schweizer",
-          10.69
+          8.33
         ],
         [
           "Ausländer",
-          4.11
+          6.02
         ]
       ],
       "name": "Sachbeschädigung",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Schweizer",
-          3.82
+          0
         ],
         [
           "Ausländer",
-          8.22
+          2.41
         ]
       ],
       "name": "Körperverletzung",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Schweizer",
-          22.9
+          23.33
         ],
         [
           "Ausländer",
-          9.59
+          10.84
         ]
       ],
       "name": "Betäubungsmittelkonsum",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Schweizer",
-          5.34
+          9.17
         ],
         [
           "Ausländer",
-          8.22
+          3.61
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          43.51
+          42.5
         ],
         [
           "Ausländer",
-          42.47
+          37.35
         ]
       ],
       "name": "Übrige",
@@ -128,7 +128,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       5,
       2,
@@ -162,7 +162,7 @@
     "renderTo": "container-6731",
     "type": "column",
     "inverted": false,
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -196,7 +196,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jugendliche zwischen 10 und 17 Jahren, Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -238,9 +238,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS)."
+    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

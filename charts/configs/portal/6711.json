@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          300451
+          291417
         ],
         [
           "Australien",
-          201677
-        ],
-        [
-          "Kanada",
-          187043
-        ],
-        [
-          "Grossbritannien",
-          166714
+          208745
         ],
         [
           "Belgien",
-          159428
+          172540
+        ],
+        [
+          "Grossbritannien",
+          167629
         ],
         [
           "Irland",
-          157356
+          165113
+        ],
+        [
+          "Kanada",
+          155465
         ],
         [
           "Dänemark",
-          142692
+          146914
         ],
         [
           "Niederlande",
-          128648
+          140198
         ],
         [
           "Indien",
-          124884
+          138063
         ],
         [
-          "Frankreich",
-          124606
+          "Schweden",
+          134400
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          162883
+          168806
         ],
         [
           "Australien",
-          175566
-        ],
-        [
-          "Kanada",
-          150097
-        ],
-        [
-          "Grossbritannien",
-          129164
+          190359
         ],
         [
           "Belgien",
-          98109
+          100286
+        ],
+        [
+          "Grossbritannien",
+          131021
         ],
         [
           "Irland",
-          140621
+          143280
+        ],
+        [
+          "Kanada",
+          135658
         ],
         [
           "Dänemark",
-          86020
+          99308
         ],
         [
           "Niederlande",
-          89882
+          94277
         ],
         [
           "Indien",
-          119008
+          120407
         ],
         [
-          "Frankreich",
-          74468
+          "Schweden",
+          100250
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          529
+          547
         ],
         [
           "Australien",
-          64
-        ],
-        [
-          "Kanada",
-          122
-        ],
-        [
-          "Grossbritannien",
-          1005
+          62
         ],
         [
           "Belgien",
-          126
+          114
+        ],
+        [
+          "Grossbritannien",
+          1062
         ],
         [
           "Irland",
-          110
+          118
+        ],
+        [
+          "Kanada",
+          117
         ],
         [
           "Dänemark",
-          89
+          96
         ],
         [
           "Niederlande",
-          349
+          354
         ],
         [
           "Indien",
-          271
+          329
         ],
         [
-          "Frankreich",
-          845
+          "Schweden",
+          138
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -175,7 +175,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -209,7 +209,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6711",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -242,14 +242,15 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2015",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
     "align": "left"
   },
   "yAxis": [
     {
       "tickAmount": 5,
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f} Fr.",
+        "x": -5,
         "style": {
           "color": "#000000",
           "fontSize": "10px"
@@ -267,6 +268,7 @@
       },
       "labels": {
         "format": "{value:,.0f}",
+        "x": 5,
         "style": {
           "color": "#000000",
           "fontSize": "10px"
@@ -295,9 +297,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

@@ -2,106 +2,104 @@
   "series": [
     {
       "color": "#923F8D",
-      "visible": true,
       "data": [
         [
           "Schweiz",
-          499886
+          483184
         ],
         [
           "Deutschland",
-          229923
+          220917
         ],
         [
           "Italien",
-          52322
+          55987
         ],
         [
           "Türkei",
-          5971
+          5979
         ],
         [
           "EU-17 + EFTA",
-          141458
+          147178
         ],
         [
           "EU-Ost",
-          31304
+          31324
         ],
         [
           "Balkan",
-          8014
+          8394
         ],
         [
-          "Mittel- u. Südamerika",
-          151079
+          "Mittel- und Südamerika",
+          28830
         ],
         [
           "Arabische Länder",
-          9967
+          9766
         ],
         [
           "Afrikanische Länder",
-          20065
+          18457
         ],
         [
           "Übrige Länder",
-          62186
+          154902
         ]
       ],
-      "name": "Mittelwert 2006",
+      "name": "Mittelwert 2007",
       "turboThreshold": 0
     },
     {
       "color": "#E7CEE2",
-      "visible": true,
       "data": [
         [
           "Schweiz",
-          544492
+          606883
         ],
         [
           "Deutschland",
-          258739
+          251815
         ],
         [
           "Italien",
-          97359
+          121018
         ],
         [
           "Türkei",
-          11937
+          13454
         ],
         [
           "EU-17 + EFTA",
-          256911
+          281881
         ],
         [
           "EU-Ost",
-          76696
+          91698
         ],
         [
           "Balkan",
-          14073
+          15281
         ],
         [
-          "Mittel- u. Südamerika",
-          331412
+          "Mittel- und Südamerika",
+          49643
         ],
         [
           "Arabische Länder",
-          31273
+          21115
         ],
         [
           "Afrikanische Länder",
-          14009
+          13673
         ],
         [
           "Übrige Länder",
-          110848
+          269630
         ]
       ],
-      "name": "Mittelwert 2015",
+      "name": "Mittelwert 2016",
       "turboThreshold": 0
     }
   ],
@@ -123,7 +121,6 @@
       "padding": -100,
       "x": -5,
       "step": 1,
-      "rotation": 0,
       "y": 3
     },
     "tickLength": 0
@@ -132,7 +129,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -167,7 +164,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6712",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -200,7 +197,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt",
+    "text": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -218,12 +215,11 @@
       "y": 18,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 200000
+    "max": 750000
   },
   "navigation": {
     "menuItemStyle": {
@@ -242,17 +238,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "itemDistance": 6,
     "enabled": true,
@@ -265,10 +260,6 @@
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 6712

@@ -38,6 +38,10 @@
         [
           2017,
           8.8
+        ],
+        [
+          2018,
+          8.9
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2017,
           6.5
+        ],
+        [
+          2018,
+          6.9
         ]
       ],
       "name": "Deutschland"
@@ -122,6 +130,10 @@
         [
           2017,
           10.6
+        ],
+        [
+          2018,
+          13
         ]
       ],
       "name": "Italien"
@@ -164,6 +176,10 @@
         [
           2017,
           27.6
+        ],
+        [
+          2018,
+          30.5
         ]
       ],
       "name": "Türkei"
@@ -206,6 +222,10 @@
         [
           2017,
           9.6
+        ],
+        [
+          2018,
+          8.2
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -247,6 +267,10 @@
         ],
         [
           2017,
+          15.2
+        ],
+        [
+          2018,
           15.2
         ]
       ],
@@ -290,6 +314,10 @@
         [
           2017,
           26.9
+        ],
+        [
+          2018,
+          24.4
         ]
       ],
       "name": "Balkan"
@@ -332,9 +360,13 @@
         [
           2017,
           32.1
+        ],
+        [
+          2018,
+          36
         ]
       ],
-      "name": "Mittel- u. Südamerika"
+      "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -374,6 +406,10 @@
         [
           2017,
           63.6
+        ],
+        [
+          2018,
+          61.2
         ]
       ],
       "name": "Arabische Länder"
@@ -416,6 +452,10 @@
         [
           2017,
           48.4
+        ],
+        [
+          2018,
+          60.4
         ]
       ],
       "name": "Afrikanische Länder"
@@ -458,6 +498,10 @@
         [
           2017,
           12.7
+        ],
+        [
+          2018,
+          14.5
         ]
       ],
       "name": "Übrige Länder"
@@ -467,7 +511,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -501,7 +545,7 @@
     "spacingTop": 5,
     "type": "line",
     "renderTo": "container-6723",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -529,7 +573,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beschuldigte ab 18 Jahren pro 1000 Erwachsene"
+    "text": "Beschuldigte Erwachsene"
   },
   "subtitle": {
     "style": {
@@ -538,7 +582,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "pro 1000 Erwachsene, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -598,9 +642,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

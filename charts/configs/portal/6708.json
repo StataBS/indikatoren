@@ -292,7 +292,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -325,8 +325,9 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 15,
     "renderTo": "container-6708",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -360,7 +361,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2002 bis 2017, 3-Jahres-Pooling",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
     "align": "left"
   },
   "yAxis": {
@@ -380,11 +381,12 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "formatter": function(){
-        return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat(100 * this.value, 0, ",", " ") + '%';
+        }
     },
-    "max": 1
+    "max": 1,
+    "tickInterval": 0.2
   },
   "navigation": {
     "menuItemStyle": {
@@ -403,9 +405,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)."
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,
@@ -420,18 +422,13 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "symbolPadding": 1,
-    "itemDistance": 3,
+    "itemDistance": 5,
     "align": "right"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
-    }
-  },
-  "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
     }
   },
   "exporting": {

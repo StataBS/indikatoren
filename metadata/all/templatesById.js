@@ -769,7 +769,7 @@ var templatesById = {
 	"6675": "template001_print",
 	"6676": "pie001_print",
 	"6677": "pie001_print",
-	"6678": "template001_print",
+	"6678": "befragungen001_print",
 	"6679": "befragungen001_print",
 	"6680": "befragungen001_print",
 	"6681": "befragungen001_print",

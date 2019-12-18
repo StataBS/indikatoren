@@ -1,134 +1,56 @@
-(function(){
-    return {
-  "xAxis": {
-    type: 'category',
-    "tickInterval": 4,
-  },
-  "yAxis": {
-    "min": 0, 
-    tickAmount: 4,
-	  "labels": {
-		  "format": "{value}%"
-	  }
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f}%</b><br/>'
-  },
- "series": [
-  {color: "#b00000"}, /*Schweiz*/
-  {color: "#672773"}, /*Deutschland*/
-  {color: "#007a2f"}, /*Italien*/
-  {color: "#fabd24"}, /*Türkei*/
-  {color: "#b475ab"}, /*EU-17 & EFTA*/
-  {color: "#71a3b5"}, /*EU-Ost */
-  {color: "#b9cfd7"}, /*Balkan*/
-  {color: "#ff8028"}, /*Mittel- & Südamerika */
-  {color: "#73ba7c"}, /*Arabische Länder */
-  {color: "#9f7c5a"}, /*Afrikanische Länder*/
-  {color: "#999999"}, /*Übrige Länder*/
-  
-  { 
-    color: "#b00000", 
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Schweiz*/
-  {
-    color: "#672773",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Deutschland*/
-  {
-    color: "#007a2f",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }    
-  }, /*Italien*/
-  {
-    color: "#fabd24",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Türkei*/
-  {
-    color: "#b475ab",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*EU-17 & EFTA*/
-  {
-    color: "#71a3b5",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*EU-Ost */
-  {
-    color: "#b9cfd7",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Balkan*/
-  {
-    color: "#ff8028",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Mittel- & Südamerika */
-  {
-    color: "#73ba7c",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Arabische Länder */
-  {
-    color: "#9f7c5a",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Afrikanische Länder*/
-  {
-    color: "#999999",
-    showInLegend: false,
-    marker: {
-      enabled: true,
-    }
-  }, /*Übrige Länder*/
-
-  ],
-   "legend": {
-    "enabled": true,
-    itemDistance: 1, 
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    //"itemMarginBottom": 5,
-    "align": "left",
-    labelFormatter: function(){
-      return this.name.split("(")[0].replace("und", "u.");//.replace(" und Süd", " <br/>und Süd");
+(function () {
+  return {
+    "chart": {
+      width: 665,
+      spacingTop: 7,
+      /*marginBottom: 63*/
     },
-    "itemStyle": {
-      "fontWeight": "normal"
+    "xAxis": {
+      //type: 'category',
+      //"tickInterval": 4,
+      //tickPositions: [2001, 2005, 2009, 2013, 2018]
+    },
+    "yAxis": {
+      "min": 0,
+      tickAmount: 4,
+      "labels": {
+        "format": "{value}%"
+      }
+    },
+    "series": [
+      { "color": "#b00000" }, /*Schweiz*/
+      { color: "#b00000", linkedTo: ':previous'},
+      { "color": "#672773" }, /*Deutschland*/
+      { color: "#672773", linkedTo: ':previous'},
+      { "color": "#007a2f" }, /*Italien*/
+      { color: "#007a2f", linkedTo: ':previous'},
+      { "color": "#fabd24" }, /*Türkei*/
+      { color: "#fabd24", linkedTo: ':previous'},
+      { "color": "#b475ab" }, /*EU-17 & EFTA*/
+      { color: "#b475ab", linkedTo: ':previous'},
+      { "color": "#71a3b5" }, /*EU-Ost */
+      { color: "#71a3b5", linkedTo: ':previous'},
+      { "color": "#b9cfd7" }, /*Balkan*/
+      { color: "#b9cfd7", linkedTo: ':previous'},
+      { "color": "#ff8028" }, /*Mittel- & Südamerika */
+      { color: "#ff8028", linkedTo: ':previous'},
+      { "color": "#73ba7c" }, /*Arabische Länder */
+      { color: "#73ba7c", linkedTo: ':previous'},
+      { "color": "#9f7c5a" }, /*Afrikanische Länder*/
+      { color: "#9f7c5a", linkedTo: ':previous' },
+      { "color": "#999999" }, /*Übrige Länder*/
+      { color: "#999999", linkedTo: ':previous' }
+    ],
+    "legend": {
+      "enabled": true,
+      itemDistance: 1,
+      "layout": "vertical",
+      "verticalAlign": "middle",
+      //"itemMarginBottom": 5,
+      "align": "right",
+      labelFormatter: function () {
+        return this.name.split("(")[0].replace("und", "u.");
+      }
     }
-  },
-  "plotOptions": {
-    "line": {
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-        radius: 1.5
-      } 
-    }
-  }
-};
+  };
 }());

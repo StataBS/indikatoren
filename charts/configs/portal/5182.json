@@ -210,7 +210,7 @@
     {
       "color": "#E64900",
       "legendIndex": 2,
-      "visible": false,
+      "visible": true,
       "marker": {
         "symbol": "diamond"
       },
@@ -310,7 +310,7 @@
     {
       "color": "#E64900",
       "legendIndex": 3,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           "1979\u002F80",
@@ -407,7 +407,7 @@
     {
       "color": "#008AC3",
       "legendIndex": 4,
-      "visible": false,
+      "visible": true,
       "marker": {
         "symbol": "diamond"
       },
@@ -507,7 +507,7 @@
     {
       "color": "#008AC3",
       "legendIndex": 5,
-      "visible": false,
+      "visible": true,
       "data": [
         [
           "1979\u002F80",
@@ -1520,7 +1520,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-2"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "symbolRadius": 0,

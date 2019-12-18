@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          1998,
-          46.5
-        ],
-        [
           1999,
           46.7
         ],
@@ -83,6 +79,10 @@
         [
           2017,
           46
+        ],
+        [
+          2018,
+          45.9
         ]
       ],
       "name": "Schweiz"
@@ -90,12 +90,8 @@
     {
       "color": "#661200",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
-        [
-          1998,
-          43.5
-        ],
         [
           1999,
           43.7
@@ -171,6 +167,10 @@
         [
           2017,
           43.8
+        ],
+        [
+          2018,
+          43.7
         ]
       ],
       "name": "Schweizer"
@@ -178,12 +178,8 @@
     {
       "color": "#dc440e",
       "legendIndex": 4,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
-        [
-          1998,
-          48.9
-        ],
         [
           1999,
           49.1
@@ -259,6 +255,10 @@
         [
           2017,
           47.9
+        ],
+        [
+          2018,
+          47.8
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          1998,
-          32.7
-        ],
         [
           1999,
           32.9
@@ -346,6 +342,10 @@
         [
           2017,
           37
+        ],
+        [
+          2018,
+          37.1
         ]
       ],
       "name": "Ausland"
@@ -353,12 +353,8 @@
     {
       "color": "#7f5f1a",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
-        [
-          1998,
-          33.3
-        ],
         [
           1999,
           33.5
@@ -434,6 +430,10 @@
         [
           2017,
           37.4
+        ],
+        [
+          2018,
+          37.4
         ]
       ],
       "name": "Ausländer"
@@ -441,12 +441,8 @@
     {
       "color": "#ffda80",
       "legendIndex": 5,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
-        [
-          1998,
-          31.9
-        ],
         [
           1999,
           32.1
@@ -522,6 +518,10 @@
         [
           2017,
           36.6
+        ],
+        [
+          2018,
+          36.8
         ]
       ],
       "name": "Ausländerinnen"
@@ -550,7 +550,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -562,7 +562,7 @@
     },
     "type": "line",
     "renderTo": "container-6648",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -624,13 +624,13 @@
     },
     "tickLength": 0,
     "tickPositions": [
-      1998,
-      2001,
-      2004,
-      2007,
-      2010,
-      2013,
-      2017
+      1999,
+      2002,
+      2005,
+      2008,
+      2011,
+      2014,
+      2018
     ]
   },
   "credits": {
@@ -645,9 +645,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,

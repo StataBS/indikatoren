@@ -5,83 +5,83 @@
       "data": [
         [
           "0-4",
-          -2.23
+          -3.44
         ],
         [
           "5-9",
-          -2.07
+          -3.28
         ],
         [
           "10-14",
-          -2.04
+          -2.83
         ],
         [
           "15-19",
-          -2.21
+          -3.29
         ],
         [
           "20-24",
-          -2.94
+          -3.94
         ],
         [
           "25-29",
-          -3.82
+          -4.98
         ],
         [
           "30-34",
-          -4.04
+          -6
         ],
         [
           "35-39",
-          -3.92
+          -5.9
         ],
         [
           "40-44",
-          -3.77
+          -4.82
         ],
         [
           "45-49",
-          -3.65
+          -3.98
         ],
         [
           "50-54",
-          -3.43
+          -3.56
         ],
         [
           "55-59",
-          -3.08
+          -2.96
         ],
         [
           "60-64",
-          -2.65
+          -2.15
         ],
         [
           "65-69",
-          -2.25
+          -1.23
         ],
         [
           "70-74",
-          -1.94
+          -0.56
         ],
         [
           "75-79",
-          -1.59
+          -0.35
         ],
         [
           "80-84",
-          -1.14
+          -0.08
         ],
         [
           "85-89",
-          -0.65
+          -0.07
         ],
         [
           "90-94",
-          -0.24
+          -0.02
         ],
         [
           "95 u.m.",
-          -0.05
+          -0.01
         ]
       ],
       "name": "Männer",
@@ -92,83 +92,83 @@
       "data": [
         [
           "0-4",
-          2.09
+          3.28
         ],
         [
           "5-9",
-          1.95
+          3.12
         ],
         [
           "10-14",
-          1.94
+          2.62
         ],
         [
           "15-19",
-          2.16
+          3.12
         ],
         [
           "20-24",
-          3.3
+          3.93
         ],
         [
           "25-29",
-          4.02
+          5.3
         ],
         [
           "30-34",
-          3.98
+          5.55
         ],
         [
           "35-39",
-          3.75
+          4.78
         ],
         [
           "40-44",
-          3.63
+          3.52
         ],
         [
           "45-49",
-          3.57
+          2.94
         ],
         [
           "50-54",
-          3.42
+          2.47
         ],
         [
           "55-59",
-          3.15
+          1.93
         ],
         [
           "60-64",
-          2.89
+          1.55
         ],
         [
           "65-69",
-          2.72
+          0.85
         ],
         [
           "70-74",
-          2.64
+          0.69
         ],
         [
           "75-79",
-          2.5
+          0.44
         ],
         [
           "80-84",
-          2.11
+          0.19
         ],
         [
           "85-89",
-          1.51
+          0.16
         ],
         [
           "90-94",
-          0.75
+          0.08
         ],
         [
           "95 u.m.",
-          0.23
+          0.02
         ]
       ],
       "name": "Frauen",
@@ -184,18 +184,10 @@
         "style": {
           "color": "#000000",
           "textOverflow": "none",
-          "fontSize": "10px"
+          "fontSize": "8px"
         }
       },
       "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000",
-          "textOverflow": "none",
-          "fontSize": "10px"
-        }
-      },
-      "tickColor": "#FFFFFF",
       "lineColor": "#B9CFD7",
       "lineWidth": 0.5
     },
@@ -213,7 +205,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -245,7 +237,7 @@
                 }
     },
     "renderTo": "container-6650",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "bar": {
@@ -279,7 +271,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 1998",
+    "text": "Basel-Stadt, 1999",
     "align": "left"
   },
   "yAxis": [
@@ -295,8 +287,8 @@
       "labels": {
         "step": 1,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
+                },
         "style": {
           "color": "#000000",
           "textOverflow": "none",
@@ -312,8 +304,8 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
     }
@@ -335,9 +327,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "symbolRadius": 0,
@@ -355,7 +347,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
   },
   "customFunctions": {
