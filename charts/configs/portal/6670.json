@@ -31,6 +31,10 @@
         [
           2017,
           28
+        ],
+        [
+          2018,
+          26.6
         ]
       ],
       "name": "Schweiz"
@@ -38,7 +42,7 @@
     {
       "color": "#661200",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2011,
@@ -67,6 +71,10 @@
         [
           2017,
           30.5
+        ],
+        [
+          2018,
+          30.7
         ]
       ],
       "name": "Schweizer"
@@ -74,7 +82,7 @@
     {
       "color": "#dc440e",
       "legendIndex": 4,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2011,
@@ -103,6 +111,10 @@
         [
           2017,
           25.4
+        ],
+        [
+          2018,
+          22.4
         ]
       ],
       "name": "Schweizerinnen"
@@ -138,6 +150,10 @@
         [
           2017,
           32.1
+        ],
+        [
+          2018,
+          31
         ]
       ],
       "name": "Ausland"
@@ -145,7 +161,7 @@
     {
       "color": "#7f5f1a",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2011,
@@ -174,6 +190,10 @@
         [
           2017,
           33.8
+        ],
+        [
+          2018,
+          32.8
         ]
       ],
       "name": "Ausländer"
@@ -181,7 +201,7 @@
     {
       "color": "#ffda80",
       "legendIndex": 5,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2011,
@@ -210,6 +230,10 @@
         [
           2017,
           30.4
+        ],
+        [
+          2018,
+          29.3
         ]
       ],
       "name": "Ausländerinnen"
@@ -238,7 +262,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -250,7 +274,7 @@
     },
     "type": "line",
     "renderTo": "container-6670",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -272,8 +296,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -322,9 +345,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,
@@ -334,8 +357,7 @@
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "padding": 0
   },
@@ -343,12 +365,6 @@
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

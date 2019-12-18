@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          187
+          181
         ],
         [
           "Mittleres Kader",
-          395
+          410
         ],
         [
           "Mittleres Fachkader",
-          232
+          234
         ],
         [
           "Unteres Kader",
-          601
+          595
         ],
         [
           "Unteres Fachkader",
-          135
+          132
         ]
       ],
       "name": "Schweiz",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Oberes Kader",
-          8
+          11
         ],
         [
           "Mittleres Kader",
-          35
+          40
         ],
         [
           "Mittleres Fachkader",
-          23
+          21
         ],
         [
           "Unteres Kader",
-          73
+          78
         ],
         [
           "Unteres Fachkader",
-          11
+          13
         ]
       ],
       "name": "Deutschland",
@@ -69,7 +69,7 @@
         ],
         [
           "Mittleres Kader",
-          0
+          1
         ],
         [
           "Mittleres Fachkader",
@@ -77,7 +77,7 @@
         ],
         [
           "Unteres Kader",
-          8
+          5
         ],
         [
           "Unteres Fachkader",
@@ -127,7 +127,7 @@
         ],
         [
           "Mittleres Kader",
-          5
+          8
         ],
         [
           "Mittleres Fachkader",
@@ -135,7 +135,7 @@
         ],
         [
           "Unteres Kader",
-          8
+          9
         ],
         [
           "Unteres Fachkader",
@@ -156,7 +156,7 @@
         ],
         [
           "Mittleres Kader",
-          1
+          0
         ],
         [
           "Mittleres Fachkader",
@@ -348,7 +348,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -379,6 +379,7 @@
                     
                 }
     },
+    "marginRight": 8,
     "type": "column",
     "inverted": true,
     "renderTo": "container-6700",
@@ -416,7 +417,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2017",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -460,34 +461,30 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst."
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "itemDistance": 0,
     "symbolPadding": 0,
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "align": "right",
-    "labelFormatter": function(){
-    	return this.name.replace("und", "u.");	
-     }
+    "labelFormatter": function () {
+        return this.name.replace("und", "u.");
+      }
   },
   "dataLabels": {
     "enabled": false,
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 6700

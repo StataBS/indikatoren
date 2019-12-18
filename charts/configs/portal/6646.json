@@ -5,31 +5,31 @@
       "data": [
         [
           "Indien",
-          1651
+          1666
         ],
         [
           "Vereinigte Staaten",
-          1522
+          1609
         ],
         [
           "Sri Lanka",
-          846
+          820
         ],
         [
           "China",
-          486
+          496
         ],
         [
           "Russland",
-          425
+          439
         ],
         [
           "Thailand",
-          419
+          423
         ],
         [
           "Übrige",
-          2755
+          2863
         ]
       ],
       "turboThreshold": 0
@@ -54,7 +54,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -66,7 +66,7 @@
     },
     "type": "pie",
     "renderTo": "container-6646",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "pie": {
@@ -75,15 +75,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": false,
-        "format": "{point.percentage:.1f}%",
-        "distance": 10,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
+        "enabled": false
       },
       "colors": [
         "#B00000",
@@ -103,7 +95,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Übrige Ausländer"
+    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»"
   },
   "subtitle": {
     "style": {
@@ -112,12 +104,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -131,9 +123,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

@@ -1,23 +1,23 @@
 {
   "series": [
     {
-      "name": "Arithmetisches Mittel der Jahre 2007-2017",
+      "name": "Arithmetisches Mittel der Jahre 2009-2018",
       "data": [
         [
           "Schweiz",
-          1.15
+          1.17
         ],
         [
           "Deutschland",
-          1.11
+          1.16
         ],
         [
           "Italien",
-          1.09
+          1.1
         ],
         [
           "Türkei",
-          1.99
+          1.95
         ],
         [
           "EU-17 + EFTA",
@@ -25,27 +25,27 @@
         ],
         [
           "EU-Ost",
-          1.02
+          1.05
         ],
         [
           "Balkan",
-          2.14
+          2.17
         ],
         [
           "Mittel- und Südamerika",
-          1.58
+          1.63
         ],
         [
           "Arabische Länder",
-          3.4
+          3.54
         ],
         [
           "Afrikanische Länder",
-          2.64
+          2.77
         ],
         [
           "Übrige Länder",
-          1.54
+          1.58
         ]
       ],
       "turboThreshold": 0
@@ -79,7 +79,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -114,7 +114,7 @@
     "inverted": true,
     "marginLeft": 120,
     "renderTo": "container-6662",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -148,7 +148,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2007 bis 2017",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2009 bis 2018",
     "align": "left"
   },
   "yAxis": {
@@ -189,9 +189,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

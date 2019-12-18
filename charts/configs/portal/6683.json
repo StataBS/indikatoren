@@ -5,43 +5,43 @@
       "data": [
         [
           "15-19",
-          -3.8
+          -3.4
         ],
         [
           "20-24",
-          -7
+          -4
         ],
         [
           "25-29",
-          -5
+          -3.5
         ],
         [
           "30-34",
-          -6.7
+          -4.1
         ],
         [
           "35-39",
-          -7.6
-        ],
-        [
-          "40-44",
-          -6.5
-        ],
-        [
-          "45-49",
-          -6.5
-        ],
-        [
-          "50-54",
           -4.8
         ],
         [
+          "40-44",
+          -4.4
+        ],
+        [
+          "45-49",
+          -3.6
+        ],
+        [
+          "50-54",
+          -2.7
+        ],
+        [
           "55-59",
-          -5
+          -3.2
         ],
         [
           "60-64",
-          -8.2
+          -4.4
         ]
       ],
       "name": "Männer",
@@ -52,43 +52,43 @@
       "data": [
         [
           "15-19",
-          4.6
+          4.2
         ],
         [
           "20-24",
-          9.4
+          6.1
         ],
         [
           "25-29",
-          8.3
+          6.2
         ],
         [
           "30-34",
-          10.7
+          6.6
         ],
         [
           "35-39",
-          10.1
+          6.8
         ],
         [
           "40-44",
-          7.1
+          5.3
         ],
         [
           "45-49",
-          6.4
+          3.4
         ],
         [
           "50-54",
-          5.5
+          3.2
         ],
         [
           "55-59",
-          6.7
+          4.4
         ],
         [
           "60-64",
-          5.3
+          5.8
         ]
       ],
       "name": "Frauen",
@@ -133,7 +133,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -165,7 +165,7 @@
                 }
     },
     "renderTo": "container-6683",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "bar": {
@@ -199,13 +199,13 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 1998",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 1999",
     "align": "left"
   },
   "yAxis": [
     {
       "min": 0,
-      "max": 12,
+      "max": 8,
       "tickInterval": 2,
       "gridLineColor": "#B9CFD7",
       "gridLineWidth": 0.5,
@@ -215,8 +215,8 @@
       "labels": {
         "step": 1,
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ")+"%";
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", " ") + "%";
+                },
         "style": {
           "color": "#000000",
           "textOverflow": "none",
@@ -232,8 +232,8 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
     }
@@ -255,9 +255,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "symbolRadius": 0,
@@ -275,7 +275,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y),1, ",", " ") + '%</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 1, ",", " ") + '%</b><br/>';
             }
   },
   "customFunctions": {

@@ -196,7 +196,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -230,7 +230,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6721",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -262,7 +262,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Geschlecht und Altersgruppe, aufsummiert von 2007 bis 2017",
+    "text": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2008 bis 2018",
     "align": "left"
   },
   "yAxis": {
@@ -303,9 +303,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

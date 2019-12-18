@@ -64,6 +64,10 @@
         [
           "2017",
           3842
+        ],
+        [
+          "2018",
+          3893
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -133,6 +137,10 @@
         [
           "2017",
           67
+        ],
+        [
+          "2018",
+          69
         ]
       ],
       "name": "Unteres Fachkader",
@@ -202,6 +210,10 @@
         [
           "2017",
           183
+        ],
+        [
+          "2018",
+          174
         ]
       ],
       "name": "Unteres Kader",
@@ -271,6 +283,10 @@
         [
           "2017",
           101
+        ],
+        [
+          "2018",
+          102
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -340,6 +356,10 @@
         [
           "2017",
           196
+        ],
+        [
+          "2018",
+          201
         ]
       ],
       "name": "Mittleres Kader",
@@ -409,6 +429,10 @@
         [
           "2017",
           122
+        ],
+        [
+          "2018",
+          118
         ]
       ],
       "name": "Oberes Kader",
@@ -440,7 +464,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -551,7 +575,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst."
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

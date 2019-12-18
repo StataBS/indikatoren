@@ -8,10 +8,6 @@
       "color": "#cd9c00",
       "data": [
         [
-          1998,
-          26.94388944389
-        ],
-        [
           1999,
           27.48059102115
         ],
@@ -86,6 +82,10 @@
         [
           2017,
           35.98709469918
+        ],
+        [
+          2018,
+          36.4188838287
         ]
       ],
       "name": "Ausländeranteil"
@@ -114,7 +114,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -127,7 +127,7 @@
     "type": "line",
     "spacingTop": 7,
     "renderTo": "container-6642",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -201,9 +201,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": false,

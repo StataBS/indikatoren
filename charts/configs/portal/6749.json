@@ -27,7 +27,7 @@
         ],
         [
           "2013 Total",
-          239
+          241
         ],
         [
           "2013 Kein Deutsch",
@@ -40,6 +40,26 @@
         [
           "2013 Nur Deutsch",
           81
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          217
+        ],
+        [
+          "2017 Kein Deutsch",
+          53
+        ],
+        [
+          "2017 Deutsch und weitere",
+          77
+        ],
+        [
+          "2017 Nur Deutsch",
+          79
         ]
       ],
       "name": "Stimmt genau",
@@ -72,7 +92,7 @@
         ],
         [
           "2013 Total",
-          661
+          671
         ],
         [
           "2013 Kein Deutsch",
@@ -85,6 +105,26 @@
         [
           "2013 Nur Deutsch",
           347
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          542
+        ],
+        [
+          "2017 Kein Deutsch",
+          74
+        ],
+        [
+          "2017 Deutsch und weitere",
+          175
+        ],
+        [
+          "2017 Nur Deutsch",
+          281
         ]
       ],
       "name": "Stimmt eher",
@@ -117,7 +157,7 @@
         ],
         [
           "2013 Total",
-          449
+          451
         ],
         [
           "2013 Kein Deutsch",
@@ -130,6 +170,26 @@
         [
           "2013 Nur Deutsch",
           291
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          264
+        ],
+        [
+          "2017 Kein Deutsch",
+          29
+        ],
+        [
+          "2017 Deutsch und weitere",
+          71
+        ],
+        [
+          "2017 Nur Deutsch",
+          160
         ]
       ],
       "name": "Stimmt eher nicht",
@@ -162,7 +222,7 @@
         ],
         [
           "2013 Total",
-          129
+          132
         ],
         [
           "2013 Kein Deutsch",
@@ -175,6 +235,26 @@
         [
           "2013 Nur Deutsch",
           89
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          113
+        ],
+        [
+          "2017 Kein Deutsch",
+          3
+        ],
+        [
+          "2017 Deutsch und weitere",
+          35
+        ],
+        [
+          "2017 Nur Deutsch",
+          74
         ]
       ],
       "name": "Stimmt gar nicht",
@@ -207,7 +287,7 @@
         ],
         [
           "2013 Total",
-          613
+          616
         ],
         [
           "2013 Kein Deutsch",
@@ -220,6 +300,26 @@
         [
           "2013 Nur Deutsch",
           333
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          456
+        ],
+        [
+          "2017 Kein Deutsch",
+          72
+        ],
+        [
+          "2017 Deutsch und weitere",
+          134
+        ],
+        [
+          "2017 Nur Deutsch",
+          244
         ]
       ],
       "name": "Weiss nicht",
@@ -252,7 +352,7 @@
         ],
         [
           "2013 Total",
-          121
+          120
         ],
         [
           "2013 Kein Deutsch",
@@ -265,6 +365,26 @@
         [
           "2013 Nur Deutsch",
           49
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017 Total",
+          73
+        ],
+        [
+          "2017 Kein Deutsch",
+          15
+        ],
+        [
+          "2017 Deutsch und weitere",
+          24
+        ],
+        [
+          "2017 Nur Deutsch",
+          32
         ]
       ],
       "name": "Keine Angabe",
@@ -286,30 +406,39 @@
     "labels": {
       "rotation": 0,
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
-                var category = this.value.replace("und weitere", "u.a.");
-                //check for value that contains only spaces
-            	return (category.replace(/\s/g,"") == "") ? category : category + ' (' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>'; 
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                },
       "align": "left",
       "x": -135,
-      "y": 3
+      "y": 3,
+      "step": 1
     }
   },
   "chart": {
@@ -332,7 +461,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -346,11 +475,11 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
+    "inverted": true,
     "marginLeft": 140,
     "marginRight": 5,
-    "inverted": true,
     "renderTo": "container-6749",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -389,7 +518,6 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "type": "category",
       "rotation": 0
     },
     "max": 100
@@ -401,13 +529,13 @@
     "align": "left",
     "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 1,
+    "padding": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
       "fontFamily": "Arial",
       "fontSize": "10px",
       "fontWeight": "normal",
-      "textOverflow": "none",
+      "textOverflow": null,
       "whitespace": "nowrap"
     },
     "labelFormatter": function () {
@@ -425,9 +553,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {

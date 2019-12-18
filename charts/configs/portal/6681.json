@@ -7,15 +7,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          42544.82628
+          42388.254214
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          14157.812146
+          14546.723995
         ],
         [
           "Ausländer\u002F-innen",
-          29279.119972
+          29930.431942
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          387.08496
+          420.271772
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          332.466876
+          306.2025
         ],
         [
           "Ausländer\u002F-innen",
-          6773.284329
+          7126.631743
         ]
       ],
       "name": "Kein Deutsch",
@@ -57,9 +57,16 @@
     },
     "labels": {
       "rotation": 0,
-      "formatter": function() {
-      	return this.value.replace(" ", "<br/>");
-      }
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return this.value.replace("Eingebürgerte","Eingebürgerte<br/>").replace("innen seit","innen<br>seit ");
+        }
     }
   },
   "chart": {
@@ -82,7 +89,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -97,9 +104,9 @@
       "fontSize": "10px"
     },
     "inverted": true,
-    "spacingRight": 3,
+    "marginRight": 15,
     "renderTo": "container-6681",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -119,7 +126,7 @@
     "text": "Bei der Arbeit gesprochene Sprachen"
   },
   "subtitle": {
-    "text": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2012 bis 2016"
+    "text": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2013 bis 2017"
   },
   "yAxis": {
     "type": "category",
@@ -138,7 +145,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "overflow": "justify"
+      "rotation": 0
     }
   },
   "legend": {
@@ -148,7 +155,7 @@
     "align": "left",
     "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 1,
+    "padding": 0,
     "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
@@ -159,7 +166,9 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "itemDistance": 10,
+    "symbolPadding": 1
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -168,9 +177,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {

@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2012-2016",
-          0.752
+          "2013-2017",
+          0.756
         ]
       ],
       "name": "Schweizer",
@@ -45,12 +45,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.741,
-          "high": 0.763
+          "name": "2013-2017",
+          "low": 0.744,
+          "high": 0.767
         }
       ],
-      "name": "Schweizer 95% Vertrauensintervall",
+      "name": "Schweizer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2012-2016",
-          0.73
+          "2013-2017",
+          0.735
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,12 +98,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.719,
-          "high": 0.741
+          "name": "2013-2017",
+          "low": 0.724,
+          "high": 0.746
         }
       ],
-      "name": "Schweizerinnen 95% Vertrauensintervall",
+      "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2012-2016",
+          "2013-2017",
           0.768
         ]
       ],
@@ -151,12 +151,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.754,
+          "name": "2013-2017",
+          "low": 0.755,
           "high": 0.782
         }
       ],
-      "name": "Ausländer 95% Vertrauensintervall",
+      "name": "Ausländer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2012-2016",
-          0.66
+          "2013-2017",
+          0.673
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,12 +204,12 @@
           "high": null
         },
         {
-          "name": "2012-2016",
-          "low": 0.644,
-          "high": 0.675
+          "name": "2013-2017",
+          "low": 0.658,
+          "high": 0.689
         }
       ],
-      "name": "Ausländerinnen 95% Vertrauensintervall",
+      "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -235,7 +235,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -269,7 +269,7 @@
     "type": "column",
     "inverted": false,
     "renderTo": "container-6690",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "plotOptions": {
     "series": {
@@ -292,7 +292,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Erwerbstätigenquote"
+    "text": "Erwerbstätigenquote der 15-64-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -301,7 +301,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "der 15-64-Jährigen nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
+    "text": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -344,9 +344,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 1,

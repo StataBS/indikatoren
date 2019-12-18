@@ -5,35 +5,35 @@
       "data": [
         [
           "Polen",
-          887
+          944
         ],
         [
           "Ungarn",
-          813
-        ],
-        [
-          "Slowakei",
-          611
+          841
         ],
         [
           "Rumänien",
-          604
+          681
+        ],
+        [
+          "Slowakei",
+          589
         ],
         [
           "Bulgarien",
-          319
-        ],
-        [
-          "Tschechien",
-          241
+          336
         ],
         [
           "Slowenien",
-          225
+          250
+        ],
+        [
+          "Tschechien",
+          238
         ],
         [
           "Litauen",
-          127
+          155
         ],
         [
           "Lettland",
@@ -41,7 +41,7 @@
         ],
         [
           "Estland",
-          33
+          37
         ]
       ],
       "turboThreshold": 0
@@ -66,7 +66,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -78,7 +78,7 @@
     },
     "type": "pie",
     "renderTo": "container-6677",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "pie": {
@@ -87,15 +87,7 @@
       "cursor": true,
       "showInLegend": true,
       "dataLabels": {
-        "enabled": false,
-        "format": "{point.percentage:.1f}%",
-        "distance": 20,
-        "style": {
-          "color": "black",
-          "textOutline": "0px black",
-          "fontWeight": "normal",
-          "fontSize": "12px"
-        }
+        "enabled": false
       },
       "colors": [
         "#B00000",
@@ -119,7 +111,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer der Ländergruppe EU-Ost"
+    "text": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»"
   },
   "subtitle": {
     "style": {
@@ -128,7 +120,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach einzelnen Staatsangehörigkeiten, Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -147,9 +139,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,

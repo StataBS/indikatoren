@@ -1,45 +1,35 @@
-(function(){
-    return {
-  series: [
-    {"color": "#923F8D", index: 1, legendIndex: 0}, /*Deutschland*/
-    {"color": "#E7CEE2", index: 0, legendIndex: 1}, /*Italien*/
-  ],
-  chart: {
-    inverted: true, 
-    marginLeft: 120,
-    spacingRight: 3,
-  },
-  legend: {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    padding: 1,
-    itemDistance: 1,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },  
-  yAxis: {
-    tickInterval: 20, 
-     labels: {
-       y: 18, 
-       overflow: 'justify',
-       style: {
-         textOverflow: 'none'
-       }
-     }, 
-  },
-  xAxis: {
-    labels: {
-      step: 1,
-      formatter: function() {
-      	return this.value.replace("und", "u.");
-      },
-      style: undefined
-    }
-  },
-
-};
+(function () {
+  return {
+    chart: {
+      inverted: true,
+      marginLeft: 120,
+      marginRight: 10,
+      spacingRight: 3
+    },
+    legend: {
+      layout: "horizontal",
+      align: "left",
+      verticalAlign: "top",
+      itemDistance: 10,
+      symbolPadding: 1
+    },
+    xAxis: {
+      labels: {
+        formatter: function () {
+          return this.value.replace("und", "u.");
+        }
+      }
+    },
+    yAxis: {
+      tickInterval: 20,
+      labels: {
+        rotation: 0,
+        y: 18
+      }
+    },
+    series: [
+      { color: "#923F8D", index: 1, legendIndex: 0 },
+      { color: "#E7CEE2", index: 0, legendIndex: 1 }
+    ]
+  };
 }());
-

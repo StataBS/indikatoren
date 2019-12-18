@@ -14,7 +14,7 @@
         ],
         [
           2010,
-          559
+          560
         ],
         [
           2011,
@@ -38,14 +38,18 @@
         ],
         [
           2016,
-          503
+          502
         ],
         [
           2017,
           494
+        ],
+        [
+          2018,
+          537
         ]
       ],
-      "name": "C-Bew."
+      "name": "C-Bewilligung"
     },
     {
       "color": "#923F8D",
@@ -90,9 +94,13 @@
         [
           2017,
           277
+        ],
+        [
+          2018,
+          289
         ]
       ],
-      "name": "B-Bew."
+      "name": "B-Bewilligung"
     },
     {
       "color": "#FF8028",
@@ -137,6 +145,10 @@
         [
           2017,
           154
+        ],
+        [
+          2018,
+          154
         ]
       ],
       "name": "Übrige"
@@ -165,7 +177,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -178,7 +190,7 @@
     "type": "area",
     "marginRight": 5,
     "renderTo": "container-6726",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -196,7 +208,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Personen ab 18 Jahren nach Aufenthaltsstatus, Basel-Stadt",
+    "text": "nach Aufenthaltsstatus, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -250,9 +262,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,

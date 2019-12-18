@@ -7,19 +7,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          1941.774532
+          1867.943001
         ],
         [
           "40-64 Jahre",
-          10495.361701
+          10836.078572
         ],
         [
           "25-39 Jahre",
-          11750.934725
+          11886.812582
         ],
         [
           "15-24 Jahre",
-          3671.636856
+          3541.016382
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -32,19 +32,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          2959.425468
+          3158.656999
         ],
         [
           "40-64 Jahre",
-          11996.791631
+          12082.450424
         ],
         [
           "25-39 Jahre",
-          10554.111943
+          10962.258422
         ],
         [
           "15-24 Jahre",
-          1522.963144
+          1631.983618
         ]
       ],
       "name": "Kein Deutsch",
@@ -65,9 +65,16 @@
     },
     "labels": {
       "rotation": 0,
-      "formatter": function() {
-      	return this.value;
-      }
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return this.value; //dummy
+        }
     }
   },
   "chart": {
@@ -90,7 +97,7 @@
     },
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -104,10 +111,10 @@
       "fontFamily": "Arial",
       "fontSize": "10px"
     },
-    "marginRight": 5,
     "inverted": true,
+    "marginRight": 15,
     "renderTo": "container-6679",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -127,7 +134,7 @@
     "text": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter"
   },
   "subtitle": {
-    "text": "Basel-Stadt, gepoolte Daten 2012 bis 2016"
+    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017"
   },
   "yAxis": {
     "type": "category",
@@ -146,7 +153,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "overflow": "justify"
+      "rotation": 0
     }
   },
   "legend": {
@@ -156,7 +163,7 @@
     "align": "left",
     "verticalAlign": "top",
     "symbolRadius": 0,
-    "padding": 1,
+    "padding": 0,
     "itemMarginBottom": 4,
     "itemStyle": {
       "fontFamily": "Arial",
@@ -167,7 +174,9 @@
     },
     "labelFormatter": function () {
                 return this.name.replace('/ ', '/<br/>');
-            }
+            },
+    "itemDistance": 10,
+    "symbolPadding": 1
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -176,9 +185,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "navigation": {
     "buttonOptions": {

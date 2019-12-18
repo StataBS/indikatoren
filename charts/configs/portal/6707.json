@@ -5,43 +5,43 @@
       "data": [
         [
           "18-19",
-          1.2
+          1.13
         ],
         [
           "20-24",
-          1.97
+          2.22
         ],
         [
           "25-29",
-          2.2
+          2.27
         ],
         [
           "30-34",
-          3.5
+          3.39
         ],
         [
           "35-39",
-          5.06
+          4.75
         ],
         [
           "40-44",
-          7.32
+          7.43
         ],
         [
           "45-49",
-          9.44
+          9.15
         ],
         [
           "50-54",
-          12.05
+          11.74
         ],
         [
           "55-59",
-          14.93
+          14.65
         ],
         [
           "60-64",
-          15.43
+          15.62
         ]
       ],
       "name": "Schweiz",
@@ -52,43 +52,43 @@
       "data": [
         [
           "18-19",
-          0.68
+          0.97
         ],
         [
           "20-24",
-          1.12
+          1.37
         ],
         [
           "25-29",
-          0.89
+          0.91
         ],
         [
           "30-34",
-          0.95
+          0.92
         ],
         [
           "35-39",
-          1.22
+          1.27
         ],
         [
           "40-44",
-          2.4
+          2.36
         ],
         [
           "45-49",
-          4.32
+          4.05
         ],
         [
           "50-54",
-          7.39
+          6.8
         ],
         [
           "55-59",
-          13.03
+          11.96
         ],
         [
           "60-64",
-          22.53
+          21.05
         ]
       ],
       "name": "Ausland",
@@ -135,7 +135,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -147,7 +147,7 @@
     },
     "type": "line",
     "renderTo": "container-6707",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -165,7 +165,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "tooltip": {
@@ -206,9 +206,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,

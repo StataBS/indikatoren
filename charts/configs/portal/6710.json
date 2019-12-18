@@ -2,106 +2,104 @@
   "series": [
     {
       "color": "#246370",
-      "visible": true,
       "data": [
         [
           "Schweiz",
-          48972
+          49666
         ],
         [
           "Deutschland",
-          64369
+          67062
         ],
         [
           "Italien",
-          46458
+          48004
         ],
         [
           "Türkei",
-          37714
+          37794
         ],
         [
           "EU-17 + EFTA",
-          54774
+          57274
         ],
         [
           "EU-Ost",
-          32395
+          32107
         ],
         [
           "Balkan",
-          43854
+          44211
         ],
         [
           "Mittel- und Südamerika",
-          32450
+          31064
         ],
         [
           "Arabische Länder",
-          33799
+          34743
         ],
         [
           "Afrikanische Länder",
-          33480
+          37545
         ],
         [
           "Übrige Länder",
-          43152
+          47131
         ]
       ],
-      "name": "Median 2006",
+      "name": "Median 2007",
       "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
-      "visible": true,
       "data": [
         [
           "Schweiz",
-          48429
+          48486
         ],
         [
           "Deutschland",
-          71043
+          71728
         ],
         [
           "Italien",
-          46799
+          45979
         ],
         [
           "Türkei",
-          30754
+          29856
         ],
         [
           "EU-17 + EFTA",
-          65555
+          66071
         ],
         [
           "EU-Ost",
-          49979
+          52773
         ],
         [
           "Balkan",
-          40684
+          40230
         ],
         [
           "Mittel- und Südamerika",
-          36317
+          36075
         ],
         [
           "Arabische Länder",
-          23460
+          24328
         ],
         [
           "Afrikanische Länder",
-          21599
+          23959
         ],
         [
           "Übrige Länder",
-          67497
+          70580
         ]
       ],
-      "name": "Median 2015",
+      "name": "Median 2016",
       "turboThreshold": 0
     }
   ],
@@ -118,17 +116,16 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "step": 1,
       "padding": -100,
       "x": -5,
       "y": 3,
       "rotation": 0,
-      "formatter": function(){
-        return this.value.replace("und", "u.");
-      }
+      "formatter": function () {
+          return this.value.replace("und", "u.");
+        }
     },
     "tickLength": 0
   },
@@ -136,7 +133,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -171,7 +168,7 @@
     "type": "column",
     "inverted": true,
     "renderTo": "container-6710",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -204,7 +201,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt",
+    "text": "in Franken, nach Staatsangehörigkeit, Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -225,7 +222,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": 75000
   },
   "navigation": {
     "menuItemStyle": {
@@ -244,17 +242,16 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "padding": 0,
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {
-      "fontSize": "10px",
-      "fontWeight": "normal"
+      "fontSize": "10px"
     },
     "enabled": true,
     "layout": "horizontal",
@@ -268,10 +265,6 @@
     "style": {
       "fontSize": "10px"
     }
-  },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
   },
   "exporting": {
     "filename": 6710

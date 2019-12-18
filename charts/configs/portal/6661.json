@@ -51,6 +51,10 @@
         [
           2017,
           1208
+        ],
+        [
+          2018,
+          1188
         ]
       ],
       "name": "Schweiz"
@@ -106,6 +110,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          214
         ]
       ],
       "name": "Deutschland"
@@ -160,6 +168,10 @@
         ],
         [
           2017,
+          75
+        ],
+        [
+          2018,
           75
         ]
       ],
@@ -216,6 +228,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          47
         ]
       ],
       "name": "Türkei"
@@ -271,6 +287,10 @@
         [
           2017,
           201
+        ],
+        [
+          2018,
+          190
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -326,6 +346,10 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          68
         ]
       ],
       "name": "EU-Ost"
@@ -380,6 +404,10 @@
         ],
         [
           2017,
+          99
+        ],
+        [
+          2018,
           99
         ]
       ],
@@ -436,6 +464,10 @@
         [
           2017,
           9
+        ],
+        [
+          2018,
+          17
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -491,6 +523,10 @@
         [
           2017,
           32
+        ],
+        [
+          2018,
+          33
         ]
       ],
       "name": "Arabische Länder"
@@ -546,6 +582,10 @@
         [
           2017,
           47
+        ],
+        [
+          2018,
+          45
         ]
       ],
       "name": "Afrikanische Länder"
@@ -601,6 +641,10 @@
         [
           2017,
           103
+        ],
+        [
+          2018,
+          103
         ]
       ],
       "name": "Übrige Länder"
@@ -629,7 +673,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -641,7 +685,7 @@
     },
     "type": "area",
     "renderTo": "container-6661",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -650,7 +694,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Lebendgeborene nach Staatsangehörigkeit"
+    "text": "Anzahl Geborene nach Staatsangehörigkeit"
   },
   "subtitle": {
     "style": {
@@ -659,7 +703,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -704,7 +748,7 @@
       2011,
       2013,
       2015,
-      2017
+      2018
     ]
   },
   "credits": {
@@ -719,9 +763,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
   },
   "legend": {
     "enabled": true,
