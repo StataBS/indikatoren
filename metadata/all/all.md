@@ -186,7 +186,7 @@ id | visible | visibleInPortal | indikatorenset
 4336 | true | false | Umwelt
 4337 | true | true | Umwelt
 4338 | true | false | Umwelt
-4339 | true | true | 
+4339 | false |  | 
 4340 | false |  | Integration-kompakt
 4342 | false |  | Integration-kompakt
 4348 | false |  | Cercle-Indicateurs
@@ -1093,7 +1093,7 @@ id | visible | visibleInPortal | indikatorenset
 7699 | true | true | Stadtteilmonitoring Rosental
 7700 | true | true | Stadtteilmonitoring Rosental
 7701 | true | true | Stadtteilmonitoring Rosental
-7703 | true | true | Stadtteilmonitoring Rosental
+7703 | false |  | Stadtteilmonitoring Rosental
 7704 | true | true | Stadtteilmonitoring Rosental
 7705 | true | true | Stadtteilmonitoring Rosental
 7706 | true | true | Stadtteilmonitoring Rosental
@@ -1171,7 +1171,7 @@ id | visible | visibleInPortal | indikatorenset
 7937 | true | false | Stadtteilmonitoring Rosental (Print)
 7938 | true | false | Stadtteilmonitoring Rosental (Print)
 7939 | true | false | Stadtteilmonitoring Rosental (Print)
-7941 | true | false | Stadtteilmonitoring Rosental (Print)
+7941 | false |  | Stadtteilmonitoring Rosental (Print)
 7942 | true | false | Stadtteilmonitoring Rosental (Print)
 7943 | true | false | Stadtteilmonitoring Rosental (Print)
 7944 | true | false | Stadtteilmonitoring Rosental (Print)
