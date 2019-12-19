@@ -15,11 +15,11 @@
         ],
         [
           "Schweiz",
-          null
+          114
         ],
         [
           "Ausland",
-          null
+          25
         ],
         [
           "18-29 J.",
@@ -43,7 +43,7 @@
         ],
         [
           "Total",
-          null
+          139
         ]
       ],
       "name": "Oblig. Schule",
@@ -64,11 +64,11 @@
         ],
         [
           "Schweiz",
-          114
+          13
         ],
         [
           "Ausland",
-          25
+          1
         ],
         [
           "18-29 J.",
@@ -92,7 +92,7 @@
         ],
         [
           "Total",
-          139
+          14
         ]
       ],
       "name": "Berufsvorb. Schule",
@@ -113,11 +113,11 @@
         ],
         [
           "Schweiz",
-          13
+          527
         ],
         [
           "Ausland",
-          1
+          50
         ],
         [
           "18-29 J.",
@@ -141,7 +141,7 @@
         ],
         [
           "Total",
-          14
+          577
         ]
       ],
       "name": "Berufslehre",
@@ -162,11 +162,11 @@
         ],
         [
           "Schweiz",
-          527
+          18
         ],
         [
           "Ausland",
-          50
+          3
         ],
         [
           "18-29 J.",
@@ -190,7 +190,7 @@
         ],
         [
           "Total",
-          577
+          21
         ]
       ],
       "name": "DMS",
@@ -211,11 +211,11 @@
         ],
         [
           "Schweiz",
-          18
+          89
         ],
         [
           "Ausland",
-          3
+          13
         ],
         [
           "18-29 J.",
@@ -239,7 +239,7 @@
         ],
         [
           "Total",
-          21
+          102
         ]
       ],
       "name": "Matura",
@@ -260,11 +260,11 @@
         ],
         [
           "Schweiz",
-          89
+          32
         ],
         [
           "Ausland",
-          13
+          1
         ],
         [
           "18-29 J.",
@@ -288,7 +288,7 @@
         ],
         [
           "Total",
-          102
+          33
         ]
       ],
       "name": "Lehrkräfte-Seminar",
@@ -309,11 +309,11 @@
         ],
         [
           "Schweiz",
-          32
+          255
         ],
         [
           "Ausland",
-          1
+          24
         ],
         [
           "18-29 J.",
@@ -337,7 +337,7 @@
         ],
         [
           "Total",
-          33
+          279
         ]
       ],
       "name": "Höhere Fachschule",
@@ -358,11 +358,11 @@
         ],
         [
           "Schweiz",
-          255
+          276
         ],
         [
           "Ausland",
-          24
+          56
         ],
         [
           "18-29 J.",
@@ -386,7 +386,7 @@
         ],
         [
           "Total",
-          279
+          332
         ]
       ],
       "name": "Universität",
@@ -407,11 +407,11 @@
         ],
         [
           "Schweiz",
-          276
+          7
         ],
         [
           "Ausland",
-          56
+          0
         ],
         [
           "18-29 J.",
@@ -435,7 +435,7 @@
         ],
         [
           "Total",
-          332
+          7
         ]
       ],
       "name": "Andere Ausbildung",
@@ -456,7 +456,7 @@
         ],
         [
           "Schweiz",
-          7
+          2
         ],
         [
           "Ausland",
@@ -484,7 +484,7 @@
         ],
         [
           "Total",
-          7
+          2
         ]
       ],
       "name": "Keine Angabe",
@@ -576,7 +576,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 \u003Cbr\u003E«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»"
+    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, 2015 \u003Cbr\u003E«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -634,7 +634,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S15A.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
   },
   "legend": {
     "layout": "vertical",
