@@ -1562,48 +1562,6 @@ var indikatorensetData = [
 		"id": 7701
 	},
 	{
-		"title": "Sauberkeitsindex",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.6.07703",
-		"kuerzelKunde": "7.05",
-		"description": "Sauberkeitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wert des Sauberkeitsindex für die Stadt Basel beläuft sich 2018 auf 3,73.",
-		"erlaeuterungen": "Der Sauberkeitsindex ist ein Mass für die Sauberkeit der Stadt Basel. Er bewegt sich auf einer Skala zwischen 0 und 5, wobei 5 für sehr sauber steht. Von April bis Oktober wird durch das Tiefbauemt Basel-Stadt mehrmals in verschiedenen Begehungen visuell die Verschmutzung im öffentlichen Raum erhoben (2018 an insgesamt 89 Objekten und nach 18 verschiedenen Arten der Verschmutzung).",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "07_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7941",
-			"8084"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Tiefbauamt Basel-Stadt, Stadtreinigung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7703,
-		"chart-id": 7703,
-		"filter": "",
-		"id": 7703
-	},
-	{
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
 		"kuerzel": "I.08.1.07704",

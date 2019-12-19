@@ -920,7 +920,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 		"kuerzel": "I.50.1.05191",
 		"kuerzelKunde": "GW13",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -946,14 +946,14 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S15A"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 5191,
-		"chart-id": 5191,
+		"data-id": 6136,
+		"chart-id": 6136,
 		"filter": "",
 		"id": 5191
 	},

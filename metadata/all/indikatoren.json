@@ -6416,42 +6416,6 @@
 		"darstellungsart": "Grafik"
 	},
 	{
-		"title": "Anzahl Ausländer nach Art der Bewilligung",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.4339",
-		"kuerzelKunde": "",
-		"description": "Anzahl Ausländer nach Art der Bewilligung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2018-10-18T09:13:11.1111",
-		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Mehr als die Hälfte der ausländischen Einwohner im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpfte sogenannte Niederlassungsbewilligung. Gut ein Drittel der Ausländer besitzt eine Aufenthaltsbewilligung. Rückläufig war in den letzten 10 Jahren die Anzahl der ausgestellten Kurzaufenthaltsbewilligungen. Die Anzahl der vorläufig Aufgenommenen beträgt 2017 rund 820 Personen, die Anzahl Personen mit einer N-Bewilligung (Asylsuchende) liegt bei gut 400.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_060",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 4339
-	},
-	{
 		"title": "Qualifikationsniveau",
 		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe in der Stadt Basel",
 		"kuerzel": "I.15.6.4360",
@@ -11052,7 +11016,7 @@
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
 		"kuerzel": "I.50.1.05191",
 		"kuerzelKunde": "GW13",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -11079,14 +11043,14 @@
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S15A"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"data-id": 5191,
-		"chart-id": 5191,
+		"data-id": 6136,
+		"chart-id": 6136,
 		"filter": "",
 		"id": 5191
 	},
@@ -41477,49 +41441,6 @@
 		"id": 7701
 	},
 	{
-		"title": "Sauberkeitsindex",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.6.07703",
-		"kuerzelKunde": "7.05",
-		"description": "Sauberkeitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wert des Sauberkeitsindex für die Stadt Basel beläuft sich 2018 auf 3,73.",
-		"erlaeuterungen": "Der Sauberkeitsindex ist ein Mass für die Sauberkeit der Stadt Basel. Er bewegt sich auf einer Skala zwischen 0 und 5, wobei 5 für sehr sauber steht. Von April bis Oktober wird durch das Tiefbauemt Basel-Stadt mehrmals in verschiedenen Begehungen visuell die Verschmutzung im öffentlichen Raum erhoben (2018 an insgesamt 89 Objekten und nach 18 verschiedenen Arten der Verschmutzung).",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7941",
-			"8084"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Tiefbauamt Basel-Stadt, Stadtreinigung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7703,
-		"chart-id": 7703,
-		"filter": "",
-		"id": 7703
-	},
-	{
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
 		"kuerzel": "I.08.1.07704",
@@ -44630,46 +44551,6 @@
 		"chart-id": 7939,
 		"filter": "",
 		"id": 7939
-	},
-	{
-		"title": "Sauberkeitsindex",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.6.07941",
-		"kuerzelKunde": "7.05",
-		"description": "Sauberkeitsindex",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-10T15:05:33.3333",
-		"stufe1": "7 Raum und Umwelt",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Wert des Sauberkeitsindex für die Stadt Basel beläuft sich 2018 auf 3,73.",
-		"erlaeuterungen": "Der Sauberkeitsindex ist ein Mass für die Sauberkeit der Stadt Basel. Er bewegt sich auf einer Skala zwischen 0 und 5, wobei 5 für sehr sauber steht. Von April bis Oktober wird durch das Tiefbauemt Basel-Stadt mehrmals in verschiedenen Begehungen visuell die Verschmutzung im öffentlichen Raum erhoben (2018 an insgesamt 89 Objekten und nach 18 verschiedenen Arten der Verschmutzung).",
-		"template": "line001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "07_00_00_00_00_005",
-		"parentId": 7703,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Tiefbauamt Basel-Stadt, Stadtreinigung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7941,
-		"chart-id": 7941,
-		"filter": "",
-		"id": 7941
 	},
 	{
 		"title": "Heizsysteme nach Energieträger",
