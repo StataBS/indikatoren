@@ -39442,7 +39442,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T08:48:12.1212",
+		"aktualisierungsdatum": "2019-12-20T09:23:47.4747",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -42865,7 +42865,7 @@
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober",
+		"subtitle": "Basel-Stadt, November",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -42876,13 +42876,13 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-11-22T08:59:27.2727",
+		"aktualisierungsdatum": "2019-12-20T09:22:09.099",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In mehr als der Hälfte der Wohnviertel (13) wurden im Oktober 2019 Bevölkerungsrückgänge verzeichnet. Die Einwohnerzahl stieg in acht Wohnvierteln an - am stärksten im Wohnviertel Rosental.",
+		"lesehilfe": "In mehr als der Hälfte der Wohnviertel (13) wurden im November 2019 Bevölkerungsrückgänge verzeichnet. Die Einwohnerzahl stieg in sieben Wohnvierteln an - am stärksten im Wohnviertel Rosental. Im Wohnviertel Matthäus blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
