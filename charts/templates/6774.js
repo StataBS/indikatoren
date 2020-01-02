@@ -15,8 +15,12 @@
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "right",
-			"x": -235,
-			"y":  -35,
+		//	legendTop: 280,
+        //	legendLeft: 520,
+			"x": -125,
+			"y": -31,
+//			"x": -275,
+//			"y":  -103,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
@@ -27,27 +31,27 @@
 		            dataClassColor: 'category',
 		                   dataClasses: [{
 		                to: 4.999,
-		                color: 'rgb(242,242,242)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>7,0</span> <<span style='color: rgba(0,0,0,0)'>11</span>5,0"
+		                color: '#FFDA80', //rgb(242,242,242)',
+		                name:  "<span style='color: rgba(0,0,0,0)'>----</span> <<span style='color: rgba(0,0,0,0)'>11</span>5,0"
 		            }, {
 		                from: 5,
 		                to:  6.999,
-		                color: 'rgb(230,230,230)',
+		                color: '#FABD24',//rgb(230,230,230)',
 		                name: "5,0 −<span style='color: rgba(0,0,0,0)'>11</span>6,9"
 		            }, {
 		                from: 7,
 		                to:8.999,
-		                 color: 'rgb(200,200,200)',
+		                 color: '#CD9C00',  //rgb(200,200,200)',
 		                 name: "7,0 −<span style='color: rgba(0,0,0,0)'>11</span>8,9"
 		            },{
 		                from: 9,
-		                to: 11.00,
-		                 color: 'rgb(153,153,153)',
-		                 name: "9,0 −<span style='color: rgba(0,0,0,0)'>1</span>11,0"
+		                to: 10.9999999,
+		                 color: '#7F5F1A', //rgb(153,153,153
+		                 name: "9,0 −<span style='color: rgba(0,0,0,0)'>1</span>10,9"
 		            },{
-		                from: 11.001,
-		                color: 'rgb(60,60,60)',
-		                name: "<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>11,0"
+		                from: 11.00,
+		                color: '#45381D', //rgb(60,60,60)
+		                name: "<span style='color: rgba(0,0,0,0)'>7,--</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>11,0"
 		            }], 
         },
         "data": {
@@ -97,8 +101,8 @@
 			{
 				visible: false,
 				type: 'pie',
-				color: 'red',
-				borderColor: 'red'
+				color: '#B00000',
+				borderColor: '#B00000'
 
 			}, 
 			{
@@ -152,15 +156,20 @@
 
                 	//Add manually drawn legend	
                 	
-                	var legendTop = 180;
-                	var legendLeft = 596;;
+                //	var legendTop = 280;
+                //	var legendLeft = 520;;
                 	
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "blue");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
-					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+                	var legendTop = 190;
+                	var legendLeft = 350;;
+                	
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft+20, legendTop+33,  'Schweiz');
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+39,  10, "blue");
+					fn.addLegendText(chart,        legendLeft+20, legendTop+47,  'Ausland');
+					fn.addLegendText(chart,     legendLeft+110,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
+				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
 			}
 		}

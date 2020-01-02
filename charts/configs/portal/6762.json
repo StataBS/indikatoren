@@ -1,0 +1,150 @@
+{
+  "series": [
+    {
+      "name": "Anz Zuzüger",
+      "data": [
+        [
+          "Deutschland",
+          2011
+        ],
+        [
+          "USA",
+          532
+        ],
+        [
+          "Italien",
+          486
+        ],
+        [
+          "Frankreich",
+          474
+        ],
+        [
+          "UK",
+          438
+        ],
+        [
+          "Übriges Ausland",
+          3815
+        ]
+      ],
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-6762",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.0f}%",
+        "distance": -30,
+        "style": {
+          "color": "white",
+          "textOutline": "0px white",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        }
+      },
+      "colors": [
+        "#71A3B5",
+        "#CD9C00",
+        "#B00000 ",
+        "#FF8028",
+        "#923F8D",
+        "#999999"
+      ]
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Aus dem Ausland Zugezogene nach Zuzugsland"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2018",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} ({point.percentage:,.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+  },
+  "legend": {
+    "padding": 0,
+    "margin": 0,
+    "itemMarginBottom": 2,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px"
+    },
+    "symbolRadius": 0
+  },
+  "exporting": {
+    "filename": 6762
+  }
+}

@@ -909,7 +909,17 @@ id | visible | visibleInPortal | indikatorenset
 6757 | true | true | Wohnviertel
 6758 | true | true | Wohnviertel
 6759 | true | true | Wohnviertel
+6760 | true | false | Wanderungen (Print)
+6761 | true | false | Wanderungen (Print)
+6762 | true | false | Wanderungen (Print)
+6765 | true | false | Wanderungen (Print)
+6766 | true | false | Wanderungen (Print)
+6767 | true | false | Wanderungen (Print)
+6768 | true | false | Wanderungen (Print)
+6770 | true | false | Wanderungen (Print)
 6771 | true | false | Wanderungen (Print)
+6772 | true | false | Wanderungen (Print)
+6773 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
 6778 | true | true | Gefragte Karten
 6893 | true | true | Wohnviertel
@@ -1002,6 +1012,8 @@ id | visible | visibleInPortal | indikatorenset
 6991 | true | true | 
 6992 | true | true | 
 6993 | true | true | 
+6995 | true | true | 
+6996 | true | true | 
 7000 | true | true | 
 7006 | true | false | Arbeitsmarkt (Print)
 7014 | true | false | Arbeitsmarkt (Print)
@@ -1132,6 +1144,7 @@ id | visible | visibleInPortal | indikatorenset
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
 7774 | true | true | Richtplan
+7777 | true | false | Richtplan
 7778 | true | false | Richtplan
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)
@@ -1199,6 +1212,7 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8348 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
