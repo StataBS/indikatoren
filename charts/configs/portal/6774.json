@@ -3244,59 +3244,59 @@
       "data": [
         [
           1,
-          9.3
+          7.8
         ],
         [
           2,
-          11.4
+          11.7
         ],
         [
           3,
-          11
+          10.9
         ],
         [
           4,
-          6.3
+          6.5
         ],
         [
           5,
-          7.1
+          8.3
         ],
         [
           6,
-          8.5
+          8.4
         ],
         [
           7,
-          3.9
+          4.2
         ],
         [
           8,
-          4.4
+          4.8
         ],
         [
           9,
-          6.3
+          5.8
         ],
         [
           10,
-          5.9
+          6.6
         ],
         [
           11,
-          7.6
+          7.5
         ],
         [
           12,
-          9
+          8.6
         ],
         [
           13,
-          9.3
+          9.4
         ],
         [
           14,
-          7.6
+          8.5
         ],
         [
           15,
@@ -3304,27 +3304,27 @@
         ],
         [
           16,
-          13.4
+          12.9
         ],
         [
           17,
-          8.1
+          8.2
         ],
         [
           18,
-          6.2
+          6.1
         ],
         [
           19,
-          5.8
+          5.1
         ],
         [
           20,
-          3.7
+          3.3
         ],
         [
           30,
-          6.2
+          8.3
         ]
       ]
     },
@@ -3332,7 +3332,7 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
+          "Altstadt Grossbasel",
           0.1
         ],
         [
@@ -3376,7 +3376,7 @@
           0.1
         ],
         [
-          "Altstadt KB",
+          "Altstadt Kleinbasel",
           0.1
         ],
         [
@@ -3416,97 +3416,97 @@
           0.1
         ]
       ],
-      "name": "Anzahl"
+      "name": "Kuchengrösse"
     },
     {
       "visible": false,
       "type": "pie",
-      "color": "red",
-      "borderColor": "red",
+      "color": "#B00000",
+      "borderColor": "#B00000",
       "data": [
         [
           1,
-          39
+          40.7
         ],
         [
           2,
-          35
+          33.3
         ],
         [
           3,
-          37
+          39.3
         ],
         [
           4,
-          58
+          53.4
         ],
         [
           5,
-          47
+          47.7
         ],
         [
           6,
-          50
+          52.5
         ],
         [
           7,
-          53
+          53.9
         ],
         [
           8,
-          55
+          57.8
         ],
         [
           9,
-          47
+          51.2
         ],
         [
           10,
-          50.1
+          52.4
         ],
         [
           11,
-          39
+          41
         ],
         [
           12,
-          43
+          50.2
         ],
         [
           13,
-          36
+          34.5
         ],
         [
           14,
-          39
+          36.3
         ],
         [
           15,
-          56
+          55.8
         ],
         [
           16,
-          25
+          26
         ],
         [
           17,
-          38
+          39
         ],
         [
           18,
-          43
+          35.4
         ],
         [
           19,
-          29
+          39.3
         ],
         [
           20,
-          56
+          46.1
         ],
         [
           30,
-          54
+          50.5
         ]
       ],
       "name": "Anteil Zugezogene nach Zuzugsland: Schweiz"
@@ -3519,87 +3519,87 @@
       "data": [
         [
           1,
-          60
+          59.3
         ],
         [
           2,
-          65.3
+          66.6
         ],
         [
           3,
-          63
+          60.3
         ],
         [
           4,
-          42
+          46.2
         ],
         [
           5,
-          53
+          52
         ],
         [
           6,
-          50
+          46.9
         ],
         [
           7,
-          47
+          45.8
         ],
         [
           8,
-          45
+          41.5
         ],
         [
           9,
-          53
+          48.5
         ],
         [
           10,
-          50
+          47
         ],
         [
           11,
-          60
+          57.7
         ],
         [
           12,
-          57
+          49.8
         ],
         [
           13,
-          64
+          64.4
         ],
         [
           14,
-          61
+          63.5
         ],
         [
           15,
-          44
+          43.6
         ],
         [
           16,
-          75
+          73.6
         ],
         [
           17,
-          62
+          60
         ],
         [
           18,
-          57
+          63.7
         ],
         [
           19,
-          71
+          60.7
         ],
         [
           20,
-          44
+          53.6
         ],
         [
           30,
-          46
+          49.5
         ]
       ],
       "name": "Anteil Zugezogene nach Zuzugsland: Ausland"
@@ -3824,7 +3824,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 992,
-    "height": 484,
+    "height": 497,
     "spacing": [
       2,
       2,
@@ -3879,19 +3879,24 @@
 
                 	//Add manually drawn legend	
                 	
-                	var legendTop = 180;
-                	var legendLeft = 596;;
+                //	var legendTop = 280;
+                //	var legendLeft = 520;;
                 	
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+20,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+30,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft-145,  legendTop+35,  10, "blue");
-					fn.addLegendText(chart,        legendLeft-120, legendTop+45,  'Ausland');
-					fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
+                	var legendTop = 190;
+                	var legendLeft = 350;;
+                	
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
+					fn.addLegendText(chart,        legendLeft+20, legendTop+33,  'Schweiz');
+					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+39,  10, "blue");
+					fn.addLegendText(chart,        legendLeft+20, legendTop+47,  'Ausland');
+					fn.addLegendText(chart,     legendLeft+110,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
+				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
+				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}
     },
     "renderTo": "container-6774",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -3901,7 +3906,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner"
+    "text": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -3910,7 +3915,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -3924,9 +3929,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
   },
   "colorAxis": {
     "min": 0,
@@ -3947,31 +3952,31 @@
     "dataClasses": [
       {
         "to": 4.999,
-        "color": "rgb(242,242,242)",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
+        "color": "#FFDA80",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E----\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
         "to": 6.999,
-        "color": "rgb(230,230,230)",
+        "color": "#FABD24",
         "name": "5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E6,9"
       },
       {
         "from": 7,
         "to": 8.999,
-        "color": "rgb(200,200,200)",
+        "color": "#CD9C00",
         "name": "7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E11\u003C\u002Fspan\u003E8,9"
       },
       {
         "from": 9,
-        "to": 11,
-        "color": "rgb(153,153,153)",
-        "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "to": 10.9999999,
+        "color": "#7F5F1A",
+        "name": "9,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E10,9"
       },
       {
-        "from": 11.001,
-        "color": "rgb(60,60,60)",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,0\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
+        "from": 11,
+        "color": "#45381D",
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E7,--\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E11,0"
       }
     ]
   },
@@ -3999,8 +4004,8 @@
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -235,
-    "y": -35,
+    "x": -125,
+    "y": -31,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },

@@ -212,7 +212,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
+		"aktualisierungsdatum": "2019-12-30T16:07:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
 		"stufe3": "",
@@ -223,9 +223,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_007",
+		"orderKey": "02_04_00_00_00_007",
 		"parentId": 4140,
-		"children": [],
+		"children": [
+			"6247"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -235,8 +237,8 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 4140,
-		"chart-id": 4140,
+		"data-id": 5815,
+		"chart-id": 5815,
 		"filter": "",
 		"id": 5815
 	},
@@ -1006,6 +1008,51 @@ var indikatorensetData = [
 		"id": 7774
 	},
 	{
+		"title": "Jährlich durch Stau generierte Verzögerungszeit",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
+		"kuerzel": "I.11.6.07777",
+		"kuerzelKunde": "ST 11-2",
+		"description": "Jährlich durch Stau generierte Verzögerungszeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2019-12-30T16:02:40.4040",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Mobilität",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2018 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
+		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_11_00_00_00_002",
+		"parentId": 6156,
+		"children": [
+			"8420"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"TomTom International"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
+			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
+		],
+		"data-id": 7777,
+		"chart-id": 6156,
+		"filter": "",
+		"id": 7777
+	},
+	{
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
 		"kuerzel": "I.06.4.07778",
@@ -1017,9 +1064,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-27T17:09:29.2929",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
+		"aktualisierungsdatum": "2019-12-30T16:03:20.2020",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1028,9 +1075,11 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_113",
+		"orderKey": "05_11_00_00_00_003",
 		"parentId": 6155,
-		"children": [],
+		"children": [
+			"8421"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung EZV"
@@ -1039,7 +1088,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 6155,
+		"data-id": 7778,
 		"chart-id": 6155,
 		"filter": "",
 		"id": 7778
