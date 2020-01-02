@@ -1,0 +1,770 @@
+{
+  "series": [
+    {
+      "color": "#71A3B5",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          24.79
+        ],
+        [
+          "Vorstädte",
+          22.05
+        ],
+        [
+          "Am Ring",
+          20.5
+        ],
+        [
+          "Breite",
+          32.96
+        ],
+        [
+          "St. Alban",
+          20.52
+        ],
+        [
+          "Gundeldingen",
+          24.87
+        ],
+        [
+          "Bruderholz",
+          24.44
+        ],
+        [
+          "Bachletten",
+          28.89
+        ],
+        [
+          "Gotthelf",
+          25.51
+        ],
+        [
+          "Iselin",
+          29.81
+        ],
+        [
+          "St. Johann",
+          24.35
+        ],
+        [
+          "Altstadt Kleinbasel",
+          34.29
+        ],
+        [
+          "Clara",
+          27.42
+        ],
+        [
+          "Wettstein",
+          25.91
+        ],
+        [
+          "Hirzbrunnen",
+          45.58
+        ],
+        [
+          "Rosental",
+          18.46
+        ],
+        [
+          "Matthäus",
+          22.28
+        ],
+        [
+          "Klybeck",
+          28.72
+        ],
+        [
+          "Kleinhüningen",
+          14.77
+        ],
+        [
+          "Riehen",
+          45.87
+        ],
+        [
+          "Bettingen",
+          70
+        ],
+        [
+          "Kanton BS",
+          25.93
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          12.4
+        ],
+        [
+          "Vorstädte",
+          7.69
+        ],
+        [
+          "Am Ring",
+          7.98
+        ],
+        [
+          "Breite",
+          7.04
+        ],
+        [
+          "St. Alban",
+          11.87
+        ],
+        [
+          "Gundeldingen",
+          5.78
+        ],
+        [
+          "Bruderholz",
+          16.11
+        ],
+        [
+          "Bachletten",
+          8.89
+        ],
+        [
+          "Gotthelf",
+          3.57
+        ],
+        [
+          "Iselin",
+          2.64
+        ],
+        [
+          "St. Johann",
+          8.61
+        ],
+        [
+          "Altstadt Kleinbasel",
+          1.9
+        ],
+        [
+          "Clara",
+          4.44
+        ],
+        [
+          "Wettstein",
+          10.3
+        ],
+        [
+          "Hirzbrunnen",
+          0.68
+        ],
+        [
+          "Rosental",
+          10.15
+        ],
+        [
+          "Matthäus",
+          2.72
+        ],
+        [
+          "Klybeck",
+          1.77
+        ],
+        [
+          "Kleinhüningen",
+          12.5
+        ],
+        [
+          "Riehen",
+          3.2
+        ],
+        [
+          "Bettingen",
+          8
+        ],
+        [
+          "Kanton BS",
+          6.86
+        ]
+      ],
+      "name": "USA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          4.13
+        ],
+        [
+          "Vorstädte",
+          5.38
+        ],
+        [
+          "Am Ring",
+          5.91
+        ],
+        [
+          "Breite",
+          8.89
+        ],
+        [
+          "St. Alban",
+          3.82
+        ],
+        [
+          "Gundeldingen",
+          6.05
+        ],
+        [
+          "Bruderholz",
+          5
+        ],
+        [
+          "Bachletten",
+          2.96
+        ],
+        [
+          "Gotthelf",
+          11.22
+        ],
+        [
+          "Iselin",
+          8.3
+        ],
+        [
+          "St. Johann",
+          7.26
+        ],
+        [
+          "Altstadt Kleinbasel",
+          6.67
+        ],
+        [
+          "Clara",
+          8.87
+        ],
+        [
+          "Wettstein",
+          3.99
+        ],
+        [
+          "Hirzbrunnen",
+          8.84
+        ],
+        [
+          "Rosental",
+          5.85
+        ],
+        [
+          "Matthäus",
+          6.74
+        ],
+        [
+          "Klybeck",
+          8.51
+        ],
+        [
+          "Kleinhüningen",
+          6.82
+        ],
+        [
+          "Riehen",
+          3.47
+        ],
+        [
+          "Bettingen",
+          0
+        ],
+        [
+          "Kanton BS",
+          6.27
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          9.09
+        ],
+        [
+          "Vorstädte",
+          9.23
+        ],
+        [
+          "Am Ring",
+          5.36
+        ],
+        [
+          "Breite",
+          4.07
+        ],
+        [
+          "St. Alban",
+          8.65
+        ],
+        [
+          "Gundeldingen",
+          7.8
+        ],
+        [
+          "Bruderholz",
+          5
+        ],
+        [
+          "Bachletten",
+          6.67
+        ],
+        [
+          "Gotthelf",
+          3.57
+        ],
+        [
+          "Iselin",
+          8.3
+        ],
+        [
+          "St. Johann",
+          5.9
+        ],
+        [
+          "Altstadt Kleinbasel",
+          1.9
+        ],
+        [
+          "Clara",
+          4.03
+        ],
+        [
+          "Wettstein",
+          9.3
+        ],
+        [
+          "Hirzbrunnen",
+          5.44
+        ],
+        [
+          "Rosental",
+          3.38
+        ],
+        [
+          "Matthäus",
+          4.27
+        ],
+        [
+          "Klybeck",
+          4.61
+        ],
+        [
+          "Kleinhüningen",
+          14.77
+        ],
+        [
+          "Riehen",
+          5.6
+        ],
+        [
+          "Bettingen",
+          0
+        ],
+        [
+          "Kanton BS",
+          6.11
+        ]
+      ],
+      "name": "Frankreich",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          3.31
+        ],
+        [
+          "Vorstädte",
+          8.72
+        ],
+        [
+          "Am Ring",
+          6.74
+        ],
+        [
+          "Breite",
+          2.96
+        ],
+        [
+          "St. Alban",
+          4.83
+        ],
+        [
+          "Gundeldingen",
+          7.93
+        ],
+        [
+          "Bruderholz",
+          6.11
+        ],
+        [
+          "Bachletten",
+          5.93
+        ],
+        [
+          "Gotthelf",
+          5.1
+        ],
+        [
+          "Iselin",
+          5.85
+        ],
+        [
+          "St. Johann",
+          6.03
+        ],
+        [
+          "Altstadt Kleinbasel",
+          5.71
+        ],
+        [
+          "Clara",
+          3.23
+        ],
+        [
+          "Wettstein",
+          8.64
+        ],
+        [
+          "Hirzbrunnen",
+          2.72
+        ],
+        [
+          "Rosental",
+          6.15
+        ],
+        [
+          "Matthäus",
+          3.11
+        ],
+        [
+          "Klybeck",
+          5.32
+        ],
+        [
+          "Kleinhüningen",
+          13.64
+        ],
+        [
+          "Riehen",
+          2.13
+        ],
+        [
+          "Bettingen",
+          0
+        ],
+        [
+          "Kanton BS",
+          5.65
+        ]
+      ],
+      "name": "UK",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "type": "column",
+      "pointWidth": "15",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          46.28
+        ],
+        [
+          "Vorstädte",
+          46.92
+        ],
+        [
+          "Am Ring",
+          53.51
+        ],
+        [
+          "Breite",
+          44.07
+        ],
+        [
+          "St. Alban",
+          50.3
+        ],
+        [
+          "Gundeldingen",
+          47.58
+        ],
+        [
+          "Bruderholz",
+          43.33
+        ],
+        [
+          "Bachletten",
+          46.67
+        ],
+        [
+          "Gotthelf",
+          51.02
+        ],
+        [
+          "Iselin",
+          45.09
+        ],
+        [
+          "St. Johann",
+          47.85
+        ],
+        [
+          "Altstadt Kleinbasel",
+          49.52
+        ],
+        [
+          "Clara",
+          52.02
+        ],
+        [
+          "Wettstein",
+          41.86
+        ],
+        [
+          "Hirzbrunnen",
+          36.73
+        ],
+        [
+          "Rosental",
+          56
+        ],
+        [
+          "Matthäus",
+          60.88
+        ],
+        [
+          "Klybeck",
+          51.06
+        ],
+        [
+          "Kleinhüningen",
+          37.5
+        ],
+        [
+          "Riehen",
+          39.73
+        ],
+        [
+          "Bettingen",
+          22
+        ],
+        [
+          "Kanton BS",
+          49.19
+        ]
+      ],
+      "name": "Übriges Ausland",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "rotation": -90,
+      "formatter": function() {
+          return this.value
+            .replace("Altstadt Grossbasel", "Altstadt GB")
+         //   .replace("Kleinhüningen", "Kleinh.")
+          //.replace("Hirzbrunnen", "Hirzbr.")
+            .replace("Altstadt Kleinbasel", "Altstadt KB");
+        //  .replace("Gundeldingen", "Gundeld.")
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 662,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "spacingTop": 5,
+    "spacingBottom": 15,
+    "renderTo": "container-6770"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "groupPadding": 0.5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2018",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 25
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 6770
+  }
+}
