@@ -1,0 +1,334 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "2005",
+          10094
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2008",
+          10619
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011",
+          10464
+        ],
+        [
+          "2012",
+          10237
+        ],
+        [
+          "2013",
+          10121
+        ],
+        [
+          "2014",
+          10186
+        ],
+        [
+          "2015",
+          10213
+        ],
+        [
+          "2016",
+          9910
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2005",
+          14891
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2008",
+          15348
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011",
+          17700
+        ],
+        [
+          "2012",
+          18182
+        ],
+        [
+          "2013",
+          18830
+        ],
+        [
+          "2014",
+          19292
+        ],
+        [
+          "2015",
+          18857
+        ],
+        [
+          "2016",
+          19008
+        ]
+      ],
+      "name": "Beratung, Planung, Forschung, Immobilien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2005",
+          4099
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2008",
+          4580
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011",
+          5705
+        ],
+        [
+          "2012",
+          5643
+        ],
+        [
+          "2013",
+          5728
+        ],
+        [
+          "2014",
+          5863
+        ],
+        [
+          "2015",
+          5775
+        ],
+        [
+          "2016",
+          5749
+        ]
+      ],
+      "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "2005",
+          4661
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2008",
+          5837
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011",
+          5681
+        ],
+        [
+          "2012",
+          5847
+        ],
+        [
+          "2013",
+          6594
+        ],
+        [
+          "2014",
+          6484
+        ],
+        [
+          "2015",
+          6086
+        ],
+        [
+          "2016",
+          6254
+        ]
+      ],
+      "name": "Personalvermittlung, -überlassung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-7043",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigung im Dienstleistungssektor (II)"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "max": 25000,
+    "tickInterval": 5000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": null,
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7043
+  }
+}

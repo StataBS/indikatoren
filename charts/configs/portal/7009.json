@@ -1,0 +1,378 @@
+{
+  "series": [
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2008,
+          165144
+        ],
+        [
+          2009,
+          161855
+        ],
+        [
+          2010,
+          163050
+        ],
+        [
+          2011,
+          169570
+        ],
+        [
+          2012,
+          171581
+        ],
+        [
+          2013,
+          169673
+        ],
+        [
+          2014,
+          170355
+        ],
+        [
+          2015,
+          172396
+        ],
+        [
+          2016,
+          173751
+        ],
+        [
+          2017,
+          174219
+        ]
+      ],
+      "name": "BS"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2008,
+          67318
+        ],
+        [
+          2009,
+          65585
+        ],
+        [
+          2010,
+          67590
+        ],
+        [
+          2011,
+          68339
+        ],
+        [
+          2012,
+          67615
+        ],
+        [
+          2013,
+          68045
+        ],
+        [
+          2014,
+          69664
+        ],
+        [
+          2015,
+          69803
+        ],
+        [
+          2016,
+          69102
+        ],
+        [
+          2017,
+          69625
+        ]
+      ],
+      "name": "BL"
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          2008,
+          64954
+        ],
+        [
+          2009,
+          62443
+        ],
+        [
+          2010,
+          62771
+        ],
+        [
+          2011,
+          62972
+        ],
+        [
+          2012,
+          62623
+        ],
+        [
+          2013,
+          62946
+        ],
+        [
+          2014,
+          63076
+        ],
+        [
+          2015,
+          62992
+        ],
+        [
+          2016,
+          62330
+        ],
+        [
+          2017,
+          62179
+        ]
+      ],
+      "name": "AG"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2008,
+          100461
+        ],
+        [
+          2009,
+          96493
+        ],
+        [
+          2010,
+          96278
+        ],
+        [
+          2011,
+          96911
+        ],
+        [
+          2012,
+          96928
+        ],
+        [
+          2013,
+          97259
+        ],
+        [
+          2014,
+          97632
+        ],
+        [
+          2015,
+          96835
+        ],
+        [
+          2016,
+          94431
+        ],
+        [
+          2017,
+          94739
+        ]
+      ],
+      "name": "ZH"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2008,
+          79072
+        ],
+        [
+          2009,
+          76503
+        ],
+        [
+          2010,
+          78197
+        ],
+        [
+          2011,
+          78938
+        ],
+        [
+          2012,
+          78748
+        ],
+        [
+          2013,
+          79385
+        ],
+        [
+          2014,
+          79822
+        ],
+        [
+          2015,
+          79423
+        ],
+        [
+          2016,
+          79306
+        ],
+        [
+          2017,
+          79407
+        ]
+      ],
+      "name": "CH"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 18,
+    "renderTo": "container-7009",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nominales Bruttoinlandprodukt pro Kopf nach Kanton"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Franken",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 25000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "itemDistance": 10
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 7009
+  }
+}

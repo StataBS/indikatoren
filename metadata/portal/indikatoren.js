@@ -2502,14 +2502,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-12-19T10:00:13.1313",
+		"aktualisierungsdatum": "2020-01-06T08:39:46.4646",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2017 hatten 166 703 Personen ab 18 Jahren ihren Hauptwohnsitz im Kanton Basel-Stadt. Die Zahl der Erwachsenen mit Hauptwohnsitz in Basel-Stadt hat in den letzten Jahren laufend zugenommen, 2010 hatte sie noch bei 160 312 gelegen.",
-		"erlaeuterungen": "Für den Indikator werden die Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören die in einer baselstädtischen Gemeinde niedergelassenen Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt nimmt seit 2010 jedes Jahr leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
+		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11197,13 +11197,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T17:03:45.4545",
+		"aktualisierungsdatum": "2020-01-03T11:31:27.2727",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 439 Mio. Franken.",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 442 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -11218,9 +11218,13 @@ var indikatoren = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6128,
+		"chart-id": 6128,
+		"filter": "",
 		"id": 6128
 	},
 	{

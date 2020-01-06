@@ -139,7 +139,23 @@ function resetPortalFilter(FJS, view){
 function initializeFilterJS(indikatorenset, perPage, sortOptions){
   var fjsConfig = {      
     template: undefined,
-    search: { ele: '#searchbox', start_length: 1},
+    search: { ele: '#searchbox',
+              start_length: 1,
+              // define fields in which to search for search term
+              fields: [ 
+                        'title'
+                        ,'subtitle'
+                        ,'description'
+                        ,'thema'
+                        ,'unterthema'
+                        ,'kennzahlenset'
+                        ,'stufe1'
+                        ,'lesehilfe'
+                        ,'erlaeuterungen'
+                        ,'quellenangabe'
+                        ,'id'
+              ]
+    },
     callbacks: {
           afterFilter: afterFilter, 
           shortResult: sortResult
@@ -276,7 +292,7 @@ function getSortOptions(name){
 function preparePortalView(){
   $("#main-control-element-indikatorenset").remove();    
   renderThema();
-  renderMultiselectDropdownFromJson(["Schweiz", "Grossregion", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite"], '', '#raeumlicheGliederung_filter', false);
+  renderMultiselectDropdownFromJson(["Schweiz", "Grossregion", "Kanton", "Gemeinde", "Wohnviertel", "Bezirk", "Block", "Blockseite", "Agglomeration"], '', '#raeumlicheGliederung_filter', false);
   renderMultiselectDropdownFromJson(indikatoren, 'darstellungsart', '#darstellungsart_filter', false);
 
   //prepare query String object for filtering thema and unterthema
@@ -529,7 +545,7 @@ function configureMultiselect(selector){
   var control = $(selector);
   //configure multiselect
   control.multiselect({
-      maxHeight: 220,
+      maxHeight: 245,
       buttonWidth: '100%', 
       inheritClass: true, 
       includeSelectAllOption: true, 

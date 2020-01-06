@@ -544,13 +544,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-18T17:03:45.4545",
+		"aktualisierungsdatum": "2020-01-03T11:31:27.2727",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 439 Mio. Franken.",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 442 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -564,9 +564,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6128,
+		"chart-id": 6128,
+		"filter": "",
 		"id": 6128
 	},
 	{
