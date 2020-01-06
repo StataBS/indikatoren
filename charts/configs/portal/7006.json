@@ -546,7 +546,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -558,7 +558,7 @@
     },
     "type": "line",
     "renderTo": "container-7006",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -576,7 +576,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Bestand Ende Quartal, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -616,9 +616,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
   },
   "legend": {
     "enabled": true,

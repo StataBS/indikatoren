@@ -1,0 +1,627 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "index": 15,
+      "data": [
+        [
+          "BS",
+          0.04
+        ],
+        [
+          "BL",
+          0.152
+        ],
+        [
+          "AG",
+          0.203
+        ],
+        [
+          "ZH",
+          0.086
+        ],
+        [
+          "CH",
+          0.141
+        ]
+      ],
+      "name": "Industrie (exkl. Chemie, Pharma)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "index": 14,
+      "data": [
+        [
+          "BS",
+          0.414
+        ],
+        [
+          "BL",
+          0.111
+        ],
+        [
+          "AG",
+          0.113
+        ],
+        [
+          "ZH",
+          0.008
+        ],
+        [
+          "CH",
+          0.06
+        ]
+      ],
+      "name": "Chemie, Pharma",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "index": 13,
+      "data": [
+        [
+          "BS",
+          0.019
+        ],
+        [
+          "BL",
+          0.062
+        ],
+        [
+          "AG",
+          0.064
+        ],
+        [
+          "ZH",
+          0.042
+        ],
+        [
+          "CH",
+          0.054
+        ]
+      ],
+      "name": "Baugewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "index": 12,
+      "data": [
+        [
+          "BS",
+          0.065
+        ],
+        [
+          "BL",
+          0.188
+        ],
+        [
+          "AG",
+          0.166
+        ],
+        [
+          "ZH",
+          0.142
+        ],
+        [
+          "CH",
+          0.147
+        ]
+      ],
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B6CFD7",
+      "index": 11,
+      "data": [
+        [
+          "BS",
+          0.034
+        ],
+        [
+          "BL",
+          0.047
+        ],
+        [
+          "AG",
+          0.037
+        ],
+        [
+          "ZH",
+          0.043
+        ],
+        [
+          "CH",
+          0.041
+        ]
+      ],
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 10,
+      "data": [
+        [
+          "BS",
+          0.012
+        ],
+        [
+          "BL",
+          0.008
+        ],
+        [
+          "AG",
+          0.01
+        ],
+        [
+          "ZH",
+          0.017
+        ],
+        [
+          "CH",
+          0.017
+        ]
+      ],
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0A3B19",
+      "index": 9,
+      "data": [
+        [
+          "BS",
+          0.018
+        ],
+        [
+          "BL",
+          0.021
+        ],
+        [
+          "AG",
+          0.023
+        ],
+        [
+          "ZH",
+          0.073
+        ],
+        [
+          "CH",
+          0.042
+        ]
+      ],
+      "name": "Information, Kommunikation",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 8,
+      "data": [
+        [
+          "BS",
+          0.091
+        ],
+        [
+          "BL",
+          0.032
+        ],
+        [
+          "AG",
+          0.041
+        ],
+        [
+          "ZH",
+          0.18
+        ],
+        [
+          "CH",
+          0.092
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 7,
+      "data": [
+        [
+          "BS",
+          0.131
+        ],
+        [
+          "BL",
+          0.156
+        ],
+        [
+          "AG",
+          0.121
+        ],
+        [
+          "ZH",
+          0.183
+        ],
+        [
+          "CH",
+          0.151
+        ]
+      ],
+      "name": "Beratung, Planung, Forschung, Immobilien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 6,
+      "data": [
+        [
+          "BS",
+          0.011
+        ],
+        [
+          "BL",
+          0.013
+        ],
+        [
+          "AG",
+          0.01
+        ],
+        [
+          "ZH",
+          0.015
+        ],
+        [
+          "CH",
+          0.013
+        ]
+      ],
+      "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "index": 5,
+      "data": [
+        [
+          "BS",
+          0.019
+        ],
+        [
+          "BL",
+          0.012
+        ],
+        [
+          "AG",
+          0.016
+        ],
+        [
+          "ZH",
+          0.013
+        ],
+        [
+          "CH",
+          0.015
+        ]
+      ],
+      "name": "Personalvermittlung, -überlassung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 4,
+      "data": [
+        [
+          "BS",
+          0.064
+        ],
+        [
+          "BL",
+          0.089
+        ],
+        [
+          "AG",
+          0.086
+        ],
+        [
+          "ZH",
+          0.098
+        ],
+        [
+          "CH",
+          0.107
+        ]
+      ],
+      "name": "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 3,
+      "data": [
+        [
+          "BS",
+          0.003
+        ],
+        [
+          "BL",
+          0.005
+        ],
+        [
+          "AG",
+          0.005
+        ],
+        [
+          "ZH",
+          0.006
+        ],
+        [
+          "CH",
+          0.006
+        ]
+      ],
+      "name": "Erziehung, Unterricht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "data": [
+        [
+          "BS",
+          0.062
+        ],
+        [
+          "BL",
+          0.082
+        ],
+        [
+          "AG",
+          0.078
+        ],
+        [
+          "ZH",
+          0.07
+        ],
+        [
+          "CH",
+          0.082
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 1,
+      "data": [
+        [
+          "BS",
+          0.017
+        ],
+        [
+          "BL",
+          0.013
+        ],
+        [
+          "AG",
+          0.018
+        ],
+        [
+          "ZH",
+          0.02
+        ],
+        [
+          "CH",
+          0.02
+        ]
+      ],
+      "name": "Kultur, Unterhaltung, pers. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "data": [
+        [
+          "BS",
+          0.001
+        ],
+        [
+          "BL",
+          0.008
+        ],
+        [
+          "AG",
+          0.011
+        ],
+        [
+          "ZH",
+          0.005
+        ],
+        [
+          "CH",
+          0.01
+        ]
+      ],
+      "name": "Übrige Branchen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "spacingTop": 7,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-7011",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "pointWidth": 30,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil an der nominalen Wertschöpfung nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      }
+    },
+    "tickAmount": 11,
+    "max": 1
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 0.3,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right",
+    "itemMarginTop": 0.3,
+    "labelFormatter": function(){
+      return this.name
+        .replace("Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)", "Öffentl. Verw., Sozialvers. (inkl. staatl. Schulen)")
+        ;
+    }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "exporting": {
+    "filename": 7011
+  }
+}
