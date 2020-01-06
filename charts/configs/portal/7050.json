@@ -1,0 +1,414 @@
+{
+  "series": [
+    {
+      "color": "#ECE1D0",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          7396
+        ],
+        [
+          "Pharma",
+          10832
+        ],
+        [
+          "Baugewerbe",
+          6105
+        ],
+        [
+          "Handel, Reparatur",
+          5553
+        ],
+        [
+          "Verkehr, Lagerei",
+          5885
+        ],
+        [
+          "Gastgewerbe",
+          4365
+        ],
+        [
+          "Information, Kommunikation",
+          8156
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8411
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7897
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          4727
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          5496
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          7411
+        ],
+        [
+          "Erziehung, Unterricht",
+          8323
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6187
+        ],
+        [
+          "Kunst und Unterhaltung",
+          5922
+        ],
+        [
+          "Total",
+          6653
+        ]
+      ],
+      "name": "2012",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          7291
+        ],
+        [
+          "Pharma",
+          10866
+        ],
+        [
+          "Baugewerbe",
+          6068
+        ],
+        [
+          "Handel, Reparatur",
+          5722
+        ],
+        [
+          "Verkehr, Lagerei",
+          6210
+        ],
+        [
+          "Gastgewerbe",
+          4333
+        ],
+        [
+          "Information, Kommunikation",
+          8165
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8461
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7975
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5299
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          5599
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          7369
+        ],
+        [
+          "Erziehung, Unterricht",
+          6569
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6259
+        ],
+        [
+          "Kunst und Unterhaltung",
+          6315
+        ],
+        [
+          "Total",
+          6578
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3A2012",
+      "data": [
+        [
+          "Industrie (inkl. Pharma, exkl. Energie, Wasser)",
+          7430
+        ],
+        [
+          "Pharma",
+          10851
+        ],
+        [
+          "Baugewerbe",
+          6011
+        ],
+        [
+          "Handel, Reparatur",
+          5811
+        ],
+        [
+          "Verkehr, Lagerei",
+          5848
+        ],
+        [
+          "Gastgewerbe",
+          4513
+        ],
+        [
+          "Information, Kommunikation",
+          8341
+        ],
+        [
+          "Finanz- und Versicherungs-DL",
+          8579
+        ],
+        [
+          "Beratung, Planung, Forschung",
+          7916
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5251
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          5899
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          7740
+        ],
+        [
+          "Erziehung, Unterricht",
+          9266
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          6402
+        ],
+        [
+          "Kunst und Unterhaltung",
+          6125
+        ],
+        [
+          "Total",
+          6700
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "9px",
+        "color": "#000000",
+        "textAlign": "center",
+        "width": "100px"
+      },
+      "rotation": -90,
+      "y": 7,
+      "formatter": function() {
+            return this.value
+            .replace("Industrie (inkl. Pharma, exkl. Energie, Wasser)", "Industrie<br/>(inkl. Pharma, exkl. <br/>Energie, Wasser)")
+            .replace("Pharma", "Pharma")
+            .replace("Baugewerbe", "Baugewerbe")
+            .replace("Handel, Reparatur", "Handel, Reparatur")
+            .replace("Verkehr, Lagerei", "Verkehr, Lagerei")
+            .replace("Gastgewerbe", "Gastgewerbe")
+            .replace("Information, Kommunikation", "Information, <br/>Kommunikation")
+            .replace("Finanz- und Versicherungs-DL", "Finanz- und <br/> Versicherungs-DL")
+            .replace("Beratung, Planung, Forschung", "Beratung, Planung, <br/>Forschung")
+            .replace("Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL", "Gebäudebetreuung, <br/>Sicherheit, sonst. <br/>wirtsch. DL")
+            .replace("Personalvermittlung, -überlassung", "Personalvermittlung,<br/>-überlassung")
+            .replace("Öffentliche Verwaltung, Sozialversicherungen", "Öffentl. Verwaltung, <br/>Sozialversicherungen")
+            .replace("Erziehung, Unterricht", "Erziehung, Unterricht")
+            .replace("Kunst und Unterhaltung", "Kunst und<br/>Unterhaltung")
+            .replace("Gesundheits-, Sozialwesen", "Gesundheits-, <br/>Sozialwesen")
+            .replace("Total", "Total")
+            ;
+    }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 662,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                },
+      "render": function(args){
+        let chart = this;
+          chart.xAxis[0].labelGroup.element.childNodes.forEach(label => {
+            if(label.getBBox().height > 9){
+            	label.attributes[4].value = label.attributes[4].value - (label.getBBox().height - 9)/4
+            }
+          })
+ 
+        }
+    },
+    "type": "column",
+    "inverted": false,
+    "hight": 208,
+    "spacingTop": 5,
+    "spacingBottom": 15,
+    "renderTo": "container-7050"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Löhne nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Nordwestschweiz, Median in Franken",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "9px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 5
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "9px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "margin": 8,
+    "itemDistance": 3
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 7050
+  }
+}
