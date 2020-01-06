@@ -545,7 +545,7 @@ function configureMultiselect(selector){
   var control = $(selector);
   //configure multiselect
   control.multiselect({
-      maxHeight: 240,
+      maxHeight: 245,
       buttonWidth: '100%', 
       inheritClass: true, 
       includeSelectAllOption: true, 

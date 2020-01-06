@@ -131,6 +131,14 @@ input[type="radio"] {
     margin-top: 0px;
 }
 
+.multiselect-container>li>a>label>input[type=checkbox]{
+    margin-top: 2px;
+}
+
+.multiselect-container.dropdown-menu {
+    padding-bottom: 5px;
+}
+
 .multiselect {
     margin-top: 0px;   
 }
