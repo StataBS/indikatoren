@@ -667,7 +667,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
+		"aktualisierungsdatum": "2020-01-06T16:46:18.1818",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
