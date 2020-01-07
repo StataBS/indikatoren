@@ -437,7 +437,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
+		"aktualisierungsdatum": "2020-01-06T16:46:18.1818",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
@@ -460,7 +460,7 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 5161,
-		"chart-id": 5161,
+		"chart-id": 6131,
 		"filter": "",
 		"id": 5161
 	},
