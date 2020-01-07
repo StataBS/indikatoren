@@ -11323,7 +11323,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-13T19:34:16.1616",
+		"aktualisierungsdatum": "2020-01-06T16:46:18.1818",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -24727,13 +24727,13 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-12-03T08:42:04.044",
+		"aktualisierungsdatum": "2020-01-07T08:44:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index liegt seit dem jüngsten Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Oktober 2019 und Oktober 2018.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24768,13 +24768,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-03T08:34:38.3838",
+		"aktualisierungsdatum": "2020-01-07T08:40:58.5858",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im ersten Jahr nach dem jüngsten Basiswechsel von Dezember 2015 sind die Durchschnittspreise in Basel-Stadt mehrheitlich gesunken. Seit Dezember 2016 hingegen liegt die Jahresteuerung des Basler Index der Konsumentenpreise meist im positiven Bereich.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

@@ -214,7 +214,7 @@
         ],
         [
           "Dez",
-          null
+          102.4
         ]
       ],
       "name": "2019",
@@ -318,7 +318,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-7"
   },
   "legend": {
     "enabled": true,
