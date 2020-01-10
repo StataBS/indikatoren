@@ -1201,6 +1201,7 @@ id | visible | visibleInPortal | indikatorenset
 7707 | true | true | Stadtteilmonitoring Rosental
 7708 | true | true | Stadtteilmonitoring Rosental
 7709 | true | true | Stadtteilmonitoring Rosental
+7710 | true | true | 
 7711 | true | true | Stadtteilmonitoring Rosental
 7712 | true | true | Stadtteilmonitoring Rosental
 7713 | true | false | Testset
@@ -1302,6 +1303,7 @@ id | visible | visibleInPortal | indikatorenset
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
 8348 | true | true | 
+8379 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

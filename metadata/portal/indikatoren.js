@@ -24646,13 +24646,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:41:25.2525",
+		"aktualisierungsdatum": "2020-01-10T08:41:51.5151",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft in den Monaten Januar bis Mai ähnlich wie die Quote der Gesamtbevölkerung. In den Sommermonaten nimmt die Jugendarbeitslosenquote in der Regel zu und im Herbst sinkt sie wieder, während die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren weniger Schwankungen zeigen.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren zeigt mehr saisonalen Schwankungen als die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren. Im August und Ende Dezember erreicht die Jugendarbeitslosenquote in der Regel die höchsten Werte.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -24686,13 +24686,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:43:35.3535",
+		"aktualisierungsdatum": "2020-01-10T08:41:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Seit Februar 2019 bewegt sich die Zahl der offenen Stellen zwischen 1000 und 1200. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
+		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Von Februar bis November 2019 bewegte sich die Zahl der offenen Stellen zwischen 1000 und 1200. Ende Dezember 2019 lag sie bei über 1 300. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25811,13 +25811,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-01-09T16:43:52.5252",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 selbstbewohnte Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26982,6 +26982,48 @@ var indikatoren = [
 		"chart-id": 7709,
 		"filter": "",
 		"id": 7709
+	},
+	{
+		"title": "Verlorene potentielle Lebensjahre",
+		"subtitle": "je 100 000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.14.3.07710",
+		"kuerzelKunde": "",
+		"description": "Verlorene potentielle Lebensjahre",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2020-01-09T17:58:13.1313",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit 1995 sinken die Verlorenen potentiellen Lebensjahre (VPL) im Kanton Basel-Stadt. Die Entwicklung verläuft allerdings bei den Männern deutlich schneller als bei den Frauen. 2017 waren es bei den Männern 3&nbsp;967 VPL und bei den Frauen 2&nbsp;463.",
+		"erlaeuterungen": "Anzahl verlorene potentielle Lebensjahre (VPL) je 100&nbsp;000 Einwohner (ständige Wohnbevölkerung) für Todesfälle zwischen der Geburt und 75 Jahren. Zur Berechnung der VPL werden die bis zu einer festgelegten Altersgrenze verbleibenden Lebensjahre pro Altersgruppe addiert und gemäss der Altersstruktur gewichtet. Als Altersgrenze wurde hier 75 Jahre gewählt, aus Gründen der Vergleichbarkeit beispielsweise mit dem Indikator des Schweizerischen Gesundheitsobservatoriums (Obsan). Ein Todesfall im Alter von 65 Jahren entspricht damit beispielsweise 10 potentiell verlorenen Lebensjahren. Todesfälle nach der Vollendung des 75. Lebensjahres fliessen nicht in die Berechnung ein.<br>Damit die VPL zwischen Männern und Frauen sowie den verschiedenen Jahren vergleichbar sind, wurden sie nach der Altersstruktur der Basler Bevölkerung im Jahr 2010 standardisiert.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_006",
+		"parentId": null,
+		"children": [
+			"7948"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7710,
+		"chart-id": 7710,
+		"filter": "",
+		"id": 7710
 	},
 	{
 		"title": "Delikte",
@@ -28924,5 +28966,45 @@ var indikatoren = [
 		"chart-id": 8348,
 		"filter": "",
 		"id": 8348
+	},
+	{
+		"title": "Abhängigkeitsquotient",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.08379",
+		"kuerzelKunde": "BE4",
+		"description": "Abhängigkeitsquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-01-10T08:43:15.1515",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9, was bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient gibt das Verhältnis der Anzahl unter 20-Jähriger und der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_104",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8379,
+		"chart-id": 8379,
+		"filter": "",
+		"id": 8379
 	}
 ];
