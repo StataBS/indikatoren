@@ -1,200 +1,194 @@
 {
   "series": [
     {
-      "color": "#083038",
+      "color": "#dc440e",
       "data": [
         [
-          1543626000000,
-          0.033234
+          1995,
+          4188
         ],
         [
-          1546304400000,
-          0.034453
+          1996,
+          4149
         ],
         [
-          1548982800000,
-          0.032712
+          1997,
+          4277
         ],
         [
-          1551402000000,
-          0.032054
+          1998,
+          4122
         ],
         [
-          1554084000000,
-          0.030526
+          1999,
+          5069
         ],
         [
-          1556676000000,
-          0.029142
+          2000,
+          4385
         ],
         [
-          1559354400000,
-          0.028069
+          2001,
+          3641
         ],
         [
-          1561946400000,
-          0.02775
+          2002,
+          3922
         ],
         [
-          1564624800000,
-          0.02774
+          2003,
+          3905
         ],
         [
-          1567303200000,
-          0.026792
+          2004,
+          3590
         ],
         [
-          1569895200000,
-          0.02746
+          2005,
+          3269
         ],
         [
-          1572570000000,
-          0.029239
+          2006,
+          3562
         ],
         [
-          1575162000000,
-          0.031464
+          2007,
+          3462
+        ],
+        [
+          2008,
+          3279
+        ],
+        [
+          2009,
+          3385
+        ],
+        [
+          2010,
+          2978
+        ],
+        [
+          2011,
+          3166
+        ],
+        [
+          2012,
+          3322
+        ],
+        [
+          2013,
+          3026
+        ],
+        [
+          2014,
+          3168
+        ],
+        [
+          2015,
+          2605
+        ],
+        [
+          2016,
+          2485
         ]
       ],
-      "name": "Total"
+      "name": "Frauen"
     },
     {
-      "color": "#008AC3",
+      "color": "#008ac3",
       "data": [
         [
-          1543626000000,
-          0.035904
+          1995,
+          9934
         ],
         [
-          1546304400000,
-          0.034972
+          1996,
+          9664
         ],
         [
-          1548982800000,
-          0.033223
+          1997,
+          8820
         ],
         [
-          1551402000000,
-          0.03334
+          1998,
+          9014
         ],
         [
-          1554084000000,
-          0.030076
+          1999,
+          8514
         ],
         [
-          1556676000000,
-          0.029143
+          2000,
+          7451
         ],
         [
-          1559354400000,
-          0.030076
+          2001,
+          8171
         ],
         [
-          1561946400000,
-          0.03264
+          2002,
+          6521
         ],
         [
-          1564624800000,
-          0.035205
+          2003,
+          7985
         ],
         [
-          1567303200000,
-          0.030542
+          2004,
+          6731
         ],
         [
-          1569895200000,
-          0.030659
+          2005,
+          7357
         ],
         [
-          1572570000000,
-          0.033107
+          2006,
+          5679
         ],
         [
-          1575162000000,
-          0.035788
+          2007,
+          6101
+        ],
+        [
+          2008,
+          6550
+        ],
+        [
+          2009,
+          5948
+        ],
+        [
+          2010,
+          5502
+        ],
+        [
+          2011,
+          5503
+        ],
+        [
+          2012,
+          5347
+        ],
+        [
+          2013,
+          5445
+        ],
+        [
+          2014,
+          5309
+        ],
+        [
+          2015,
+          4525
+        ],
+        [
+          2016,
+          4309
         ]
       ],
-      "name": "15-24 Jahre"
-    },
-    {
-      "color": "#71A3B5",
-      "data": [
-        [
-          1543626000000,
-          0.026274
-        ],
-        [
-          1546304400000,
-          0.027958
-        ],
-        [
-          1548982800000,
-          0.027116
-        ],
-        [
-          1551402000000,
-          0.026177
-        ],
-        [
-          1554084000000,
-          0.025496
-        ],
-        [
-          1556676000000,
-          0.024589
-        ],
-        [
-          1559354400000,
-          0.023844
-        ],
-        [
-          1561946400000,
-          0.02352
-        ],
-        [
-          1564624800000,
-          0.02339
-        ],
-        [
-          1567303200000,
-          0.023066
-        ],
-        [
-          1569895200000,
-          0.023941
-        ],
-        [
-          1572570000000,
-          0.025399
-        ],
-        [
-          1575162000000,
-          0.027051
-        ]
-      ],
-      "name": "50 Jahre u.m."
+      "name": "Männer"
     }
   ],
-  "xAxis": {
-    "type": "datetime",
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "formatter": function() {
-              if (this.isFirst || this.isLast) {
-                return Highcharts.dateFormat('%b %y', this.value);
-              } else {
-                return Highcharts.dateFormat('%b', this.value);
-              }
-            }
-    },
-    "tickLength": 0,
-    "tickInterval": 2592000000
-  },
   "chart": {
     "events": {
       "load": function() {
@@ -222,7 +216,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "renderTo": "container-7510"
+    "renderTo": "container-7710"
   },
   "title": {
     "style": {
@@ -231,7 +225,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslosenquote nach Alter"
+    "text": "Verlorene potentielle Lebensjahre"
   },
   "subtitle": {
     "style": {
@@ -240,15 +234,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "je 100 000 Einwohner, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function(){
-          return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
-        },
-    "xDateFormat": "%Y-%m"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -265,11 +256,20 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}",
-      "formatter": function(){
-                return Highcharts.numberFormat((this.value*100),0)+'%'; 
-              }
+      "format": "{value:,.0f}"
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -285,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-9"
   },
   "legend": {
     "enabled": true,
@@ -295,22 +295,13 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      },
-      "stacking": null,
-      "pointPadding": 0,
-      "groupPadding": 0.1,
-      "borderWidth": 0
-    },
-    "line": {
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },
@@ -350,6 +341,6 @@
     }
   },
   "exporting": {
-    "filename": 7510
+    "filename": 7710
   }
 }

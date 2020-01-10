@@ -668,13 +668,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-01-09T16:43:52.5252",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 selbstbewohnte Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

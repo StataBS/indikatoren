@@ -165,7 +165,7 @@
         ],
         [
           "Dez",
-          null
+          882
         ]
       ],
       "name": "Meldepflichtig 2019",
@@ -222,7 +222,7 @@
         ],
         [
           "Dez",
-          null
+          431
         ]
       ],
       "name": "Nicht meldepflichtig 2019",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-9"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-10"
   },
   "legend": {
     "enabled": true,
