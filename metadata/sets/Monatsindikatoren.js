@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:41:25.2525",
+		"aktualisierungsdatum": "2020-01-10T08:41:51.5151",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren verläuft in den Monaten Januar bis Mai ähnlich wie die Quote der Gesamtbevölkerung. In den Sommermonaten nimmt die Jugendarbeitslosenquote in der Regel zu und im Herbst sinkt sie wieder, während die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren weniger Schwankungen zeigen.",
+		"lesehilfe": "Die Arbeitslosenquote der Personen zwischen 15 und 24 Jahren zeigt mehr saisonalen Schwankungen als die Quote der Gesamtbevölkerung und die Quote der Personen ab 50 Jahren. Im August und Ende Dezember erreicht die Jugendarbeitslosenquote in der Regel die höchsten Werte.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -50,13 +50,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-09T08:43:35.3535",
+		"aktualisierungsdatum": "2020-01-10T08:41:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Seit Februar 2019 bewegt sich die Zahl der offenen Stellen zwischen 1000 und 1200. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
+		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Von Februar bis November 2019 bewegte sich die Zahl der offenen Stellen zwischen 1000 und 1200. Ende Dezember 2019 lag sie bei über 1 300. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
