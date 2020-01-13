@@ -23007,7 +23007,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-09T16:04:43.4343",
+		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23020,10 +23020,10 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
-		"parentId": 4146,
+		"parentId": 6379,
 		"children": [],
 		"renderLink": [
-			"4146"
+			"6379"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
@@ -45604,7 +45604,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
+		"aktualisierungsdatum": "2020-01-10T16:07:20.2020",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
