@@ -25,12 +25,13 @@
           enabled: false
         },
         "labels": {
+          useHTML: true,
           //"format": "{value:,.2f}",
           "style": {
             "color": "#000000"
           }
         },
-        "min": 0,
+        "min": 0
       },
       {
         gridLineColor: '#B9CFD7',
@@ -39,7 +40,6 @@
           enabled: false
         },
         "labels": {
-          useHTML: true,
           //"format": "{value:,.2f}",
           "style": {
             "color": "#000000"
@@ -47,7 +47,7 @@
         },
         "min": 0,
         "opposite": true
-      },
+      }
     ],
     "xAxis": {
       "tickInterval": 1
@@ -58,7 +58,6 @@
       "verticalAlign": "top",
       //"align": "left",
       alignColumns: true,
-      "itemMarginBottom": 5,
       //itemWidth: 200
       useHTML: true,
       y: -50,
@@ -87,15 +86,15 @@
         "index": 0,
         //legendIndex: 0,
         "type": "column",
-        // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
-      },
+       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: ,.0f}</b><br/>'}
+        },
       {
         "color": "#7f5f1a",
         "index": 2,
         //legendIndex: 1,
         "type": "line",
         "yAxis": 1,
-        // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
+       // tooltip: {"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f}%</b><br/>'}
       },
       {
         "color": "#b375ab",

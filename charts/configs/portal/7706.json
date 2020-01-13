@@ -213,6 +213,7 @@
         "enabled": false
       },
       "labels": {
+        "useHTML": true,
         "style": {
           "color": "#000000"
         }
@@ -226,7 +227,6 @@
         "enabled": false
       },
       "labels": {
-        "useHTML": true,
         "style": {
           "color": "#000000"
         }
@@ -261,7 +261,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonspolizei Basel-Stadt, Motorfahrzeugkontrolle.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKantonspolizei Basel-Stadt, Motorfahrzeugkontrolle.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-10"
   },
   "legend": {
     "enabled": true,
@@ -273,10 +273,10 @@
       "fontWeight": "normal"
     },
     "alignColumns": true,
-    "itemMarginBottom": 5,
     "useHTML": true,
     "y": -50,
     "x": -20,
+    "itemMarginBottom": 5,
     "width": 200,
     "itemWidth": 80,
     "labelFormatter": function () {
