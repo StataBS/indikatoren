@@ -517,7 +517,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-01-14T15:41:01.011",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -532,7 +532,8 @@
 		"orderKey": "02_03_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7015"
+			"7015",
+			"8252"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -10341,22 +10342,24 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:16:58.5858",
+		"aktualisierungsdatum": "2020-01-14T15:39:05.055",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2018:&nbsp;43&nbsp;039) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2018:&nbsp;25&nbsp;416). Von 1999 (644) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie wieder ab (2018:&nbsp;2&nbsp;069).",
+		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendentiell wieder ab und liegt seit 2015 bei etwa zweitausend Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_019",
+		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6656"
+			"6656",
+			"7797",
+			"8255"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -28926,6 +28929,46 @@
 		"chart-id": 7993,
 		"filter": "",
 		"id": 7993
+	},
+	{
+		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2017",
+		"kuerzel": "I.15.6.07697",
+		"kuerzelKunde": "5.03",
+		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2020-01-14T15:39:52.5252",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Wohnviertel Klybeck und Kleinhüningen haben verglichen mit den anderen städtischen Wohnvierteln den tiefsten Anteil von Personen mit tertiärem Bildungsabschluss. Im Mittel des Zeitraums von 2013 bis 2017 lag der Anteil im Wohnviertel Klybeck bei ca. 18%, im Wohnviertel Kleinhüningen bei rund 14%. In der Stadt Basel liegt der Anteil bei 38%.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss «Tertiärstufe» an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_003",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8078,
+		"chart-id": 8078,
+		"filter": "",
+		"id": 8078
 	},
 	{
 		"title": "Durchimpfungsraten ausgewählter Krankheiten",
