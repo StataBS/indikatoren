@@ -84,6 +84,10 @@
         [
           "2018",
           43039
+        ],
+        [
+          "2019",
+          43102
         ]
       ],
       "name": "C",
@@ -173,6 +177,10 @@
         [
           "2018",
           25416
+        ],
+        [
+          "2019",
+          26218
         ]
       ],
       "name": "B",
@@ -262,6 +270,10 @@
         [
           "2018",
           870
+        ],
+        [
+          "2019",
+          875
         ]
       ],
       "name": "F",
@@ -351,6 +363,10 @@
         [
           "2018",
           2069
+        ],
+        [
+          "2019",
+          2187
         ]
       ],
       "name": "L",
@@ -440,6 +456,10 @@
         [
           "2018",
           333
+        ],
+        [
+          "2019",
+          272
         ]
       ],
       "name": "N",
@@ -529,6 +549,10 @@
         [
           "2018",
           1204
+        ],
+        [
+          "2019",
+          661
         ]
       ],
       "name": "Übrige",
@@ -661,7 +685,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-14"
   },
   "legend": {
     "symbolRadius": 0,

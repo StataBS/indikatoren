@@ -1302,6 +1302,7 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8078 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8348 | true | true | 
 8379 | true | true | Nachhaltigkeit
 9995 | true | false | 

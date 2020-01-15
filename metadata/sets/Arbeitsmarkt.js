@@ -505,7 +505,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-01-14T15:41:01.011",
 		"stufe1": "Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "Arbeitslosigkeit",
 		"stufe3": "",
@@ -519,7 +519,8 @@ var indikatorensetData = [
 		"orderKey": "02_03_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"7015"
+			"7015",
+			"8252"
 		],
 		"renderLink": [],
 		"quellenangabe": [
