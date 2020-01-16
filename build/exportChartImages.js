@@ -93,7 +93,7 @@ function createSvgImages(chartDetails){
                 customCode: "function(){Highcharts.seriesType('mappie', 'pie', {}, {});}()", 
                 //add proj4 and jQuery to export server's dependencies
                 resources: {
-                    files: "node_modules/proj4/dist/proj4.js,node_modules/jquery/dist/jquery.min.js"
+                    files: "node_modules/proj4/dist/proj4.js,node_modules/jquery/dist/jquery.min.js,assets/js/customFunctions.js"
                 }
             };
     
@@ -119,4 +119,3 @@ function createSvgImages(chartDetails){
 function deserialize(serializedJavascript){
   return eval('(' + serializedJavascript + ')');
 }
-

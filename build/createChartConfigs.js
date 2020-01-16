@@ -135,7 +135,7 @@ function saveChartConfig(indikator, view, console){
             var stringifiedOptions = serialize(options, {space: 2});
             var filePath = 'charts/configs/' + view + '/';
             //var filePath = (isIndikatorensetView(view)) ? 'charts/configs/indikatorenset/' : 'charts/configs/portal/';
-            fs.writeFileSync(filePath + indikator.id + '.json', eol.auto(stringifiedOptions));
+            fs.writeFileSync(filePath + indikator.id + '.json', eol.auto(stringifiedOptions.toString()));
         });
         
     }
