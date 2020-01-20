@@ -2583,13 +2583,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T13:03:08.088",
+		"aktualisierungsdatum": "2020-01-17T09:26:52.5252",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,43%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9&nbsp;Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5&nbsp;Hektar.",
+		"lesehilfe": "Im Jahr 2019 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,41%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9&nbsp;Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5&nbsp;Hektar.",
 		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100&nbsp;m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12&nbsp;Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13483,24 +13483,24 @@ var indikatoren = [
 		"id": 6043
 	},
 	{
-		"title": "Entwicklung des Frauenanteils im grossen Rat",
+		"title": "Frauenanteil im Grossen Rat",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.17.3.6044",
-		"kuerzelKunde": "GZ10",
-		"description": "Entwicklung des Frauenanteils im grossen Rat",
+		"kuerzelKunde": "",
+		"description": "Frauenanteil im Grossen Rat",
 		"thema": "17 Politik",
 		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-17T13:46:15.1515",
+		"aktualisierungsdatum": "2020-01-16T11:03:08.088",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Grossratskandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13508,16 +13508,18 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "05_03_00_00_00_511",
 		"parentId": null,
-		"children": [
-			"4922"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6044,
+		"chart-id": 6044,
+		"filter": "",
 		"id": 6044
 	},
 	{
@@ -28737,13 +28739,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
+		"aktualisierungsdatum": "2020-01-17T09:25:16.1616",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätzen pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
+		"lesehilfe": "Im Wohnviertel Vorstädte leben sehr viele Personen in Einpersonenhaushalten und der Anteil Personen ohne Religionszugehörigkeit ist hoch. Die Bausubstanz ist eine der ältesten im Kanton. Die durchschnittliche Wohnfläche pro Einwohner ist gross. Ausserdem verfügt das Wohnviertel über die meisten Arbeitsplätze pro Kopf, eine hohe Erwerbstätigenquote sowie hohe Vermögens- und Einkommenssteuerwerte.",
 		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
@@ -28751,7 +28753,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8296"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -28857,13 +28861,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
+		"aktualisierungsdatum": "2020-01-17T10:32:58.5858",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
+		"lesehilfe": "Beim Wohnviertel St. Alban sticht der zweithöchste Altersquotient hervor, wobei der Jugendquotient auch im oberen Drittel rangiert. Die Wohnungen sind überdurchschnittlich gross, ebenso die Wohnfläche pro Kopf. Ausserdem zeichnet sich das Wohnviertel durch einen sehr hohen Anteil an Arbeitsplätzen pro Einwohner aus. Ebenfalls hoch sind die Werte der Einkommens- und Vermögenssteuer.",
 		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
@@ -28871,7 +28875,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8299"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -28977,13 +28983,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
+		"aktualisierungsdatum": "2020-01-17T11:55:09.099",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Bachletten weist den kleinsten Ausländeranteil auf. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote eine der höchsten im Kanton. Das Wohnviertel hat einen hohen Anteil Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel hoch, die Anzahl Arbeitsplätze pro Kopf dagegen gering.",
+		"lesehilfe": "Das Wohnviertel Bachletten weist den kleinsten Ausländeranteil auf. Die Sesshaftigkeit ist stark ausgeprägt und die Gymnasialquote eine der höchsten im Kanton. Das Wohnviertel hat einen hohen Anteil an Einfamilienhäusern und Grünflächen. Ausserdem ist die Erwerbstätigenquote im Wohnviertel hoch, die Anzahl Arbeitsplätze pro Kopf dagegen gering.",
 		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
@@ -28991,7 +28997,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8302"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -33651,13 +33659,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-04T15:27:44.4444",
+		"aktualisierungsdatum": "2020-01-17T11:57:23.2323",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit ausgeprägt. Ebenfalls mit zu den höchsten Werten im Kanton zählen sowohl der Jugend- als auch der Altersquotient. Dagegen leben relativ wenige Personen in Einpersonenhaushalten und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil Grünflächen und Einfamilienhäusern aus. Die Erwerbstätigenquote und der Anteil Arbeitsplätze pro Kopf liegt im unteren Mittelfeld, ebenso die Arbeitslosenquote und die Steuererträge.",
+		"lesehilfe": "Im Wohnviertel Hirzbrunnen ist die Sesshaftigkeit ausgeprägt. Ebenfalls mit zu den höchsten Werten im Kanton zählen sowohl der Jugend- als auch der Altersquotient. Dagegen leben relativ wenige Personen in Einpersonenhaushalten und auch der Ausländeranteil ist gering. Das Wohnviertel zeichnet sich durch einen hohen Anteil an Grünflächen und Einfamilienhäusern aus. Die Erwerbstätigenquote und der Anteil Arbeitsplätze pro Kopf liegt im unteren Mittelfeld, ebenso die Arbeitslosenquote und die Steuererträge.",
 		"erlaeuterungen": "Die Grafik fasst 18 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreichen das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
 		"template": "spider001",
 		"darstellungsart": "Grafik",
@@ -33665,7 +33673,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_015",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8309"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"

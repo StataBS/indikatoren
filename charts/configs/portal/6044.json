@@ -56,7 +56,7 @@
           0.31
         ]
       ],
-      "name": "Grossratswahlen"
+      "name": "Gewählte"
     },
     {
       "color": "#923F8D",
@@ -172,7 +172,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung des Frauenanteils im grossen Rat"
+    "text": "Frauenanteil im Grossen Rat"
   },
   "subtitle": {
     "style": {
@@ -241,7 +241,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-17"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-16"
   },
   "legend": {
     "symbolRadius": 0,

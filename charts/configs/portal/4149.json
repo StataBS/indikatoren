@@ -48,6 +48,10 @@
         [
           2018,
           89.87
+        ],
+        [
+          2019,
+          89.18
         ]
       ],
       "name": "Freiräume in ha"
@@ -101,9 +105,13 @@
         [
           2018,
           2.43
+        ],
+        [
+          2019,
+          2.41
         ]
       ],
-      "name": "in Prozent"
+      "name": "Anteil an der Kantonsfläche (rechte Skala)"
     }
   ],
   "chart": {
@@ -248,7 +256,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-28"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
   },
   "legend": {
     "symbolRadius": 0,
