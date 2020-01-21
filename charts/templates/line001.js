@@ -11,11 +11,6 @@
                   {
                     legend: {
                       x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    },
-                    plotOptions: {
-                      series: {
-                        animation: true
-                      }
                     }
                   }
                 );
