@@ -302,7 +302,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
@@ -312,7 +312,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:19:46.4646",
+		"aktualisierungsdatum": "2020-01-22T08:52:24.2424",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",

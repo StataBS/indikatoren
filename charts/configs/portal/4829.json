@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.1532481954
+          0.1490084986
         ],
         [
           "Altstadt Kleinbasel",
-          0.1579257513
+          0.1544424568
         ],
         [
           "Vorstädte",
-          0.174382716
+          0.1661576054
         ],
         [
           "Clara",
-          0.1988700565
+          0.2010562052
         ],
         [
           "Gundeldingen",
-          0.203671395
+          0.2040816327
         ],
         [
           "Wettstein",
-          0.2129329004
+          0.2107133096
         ],
         [
           "Matthäus",
-          0.2172171281
+          0.2115173675
         ],
         [
           "Breite",
-          0.2187877741
+          0.217735006
         ],
         [
           "Am Ring",
-          0.2256192498
-        ],
-        [
-          "St. Johann",
-          0.2524217882
+          0.2265439844
         ],
         [
           "Gotthelf",
-          0.2605976372
+          0.2541905855
+        ],
+        [
+          "St. Johann",
+          0.2542359271
         ],
         [
           "Iselin",
-          0.2615466762
+          0.2609666756
         ],
         [
           "Rosental",
-          0.2710585356
+          0.2619919443
         ],
         [
           "Klybeck",
-          0.2863878639
+          0.280817675
         ],
         [
           "Bachletten",
-          0.2959608323
+          0.2951296341
         ],
         [
           "St. Alban",
-          0.3003165988
+          0.3023012552
         ],
         [
           "Kleinhüningen",
-          0.3216506501
+          0.3171577123
         ],
         [
           "Bettingen",
-          0.3386627907
+          0.3478915663
         ],
         [
           "Hirzbrunnen",
-          0.3500850179
+          0.3600152468
         ],
         [
           "Riehen",
-          0.377706565
+          0.3766110198
         ],
         [
           "Bruderholz",
-          0.38621087
+          0.4004638578
         ]
       ],
       "name": "Jugendquotient",
@@ -131,11 +131,11 @@
           9
         ],
         [
-          "St. Johann",
+          "Gotthelf",
           10
         ],
         [
-          "Gotthelf",
+          "St. Johann",
           11
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-22"
   },
   "legend": {
     "enabled": false,
