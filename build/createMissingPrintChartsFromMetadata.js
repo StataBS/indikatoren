@@ -43,7 +43,7 @@ function copyFileIfNotExists(sourceFilePath, destinationFilePath){
     if (err) {
       if (err.code === 'ENOENT') {
         console.error(destinationFilePath + ' does not exist, copying ' + sourceFilePath + '...');
-        fs.writeFileSync(destinationFilePath, eol.auto(fs.readFileSync(sourceFilePath)), (error) => {
+        fs.writeFileSync(destinationFilePath, eol.auto(fs.readFileSync(sourceFilePath).toString()), (error) => {
           console.log('Error copying ' + sourceFilePath + ': ' + error); 
         });
         /*
