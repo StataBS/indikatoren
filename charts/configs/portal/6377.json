@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Gebäude pro Hektare",
+      "name": "Gebäude pro Hektar",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,51 +6569,51 @@
       "data": [
         [
           1,
-          13.254980844
+          13.334510729
         ],
         [
           2,
-          6.0210181435
+          6.0431950059
         ],
         [
           3,
-          12.85643748
+          12.834554182
         ],
         [
           4,
-          9.7641912829
+          9.7496178631
         ],
         [
           5,
-          4.0078385131
+          3.9944119184
         ],
         [
           6,
-          12.275586926
+          12.258418273
         ],
         [
           7,
-          8.0763115701
+          8.0801721397
         ],
         [
           8,
-          16.39389962
+          16.40043887
         ],
         [
           9,
-          20.092694021
+          20.133741405
         ],
         [
           10,
-          13.33169373
+          13.304224581
         ],
         [
           11,
-          6.7468535239
+          6.7290986462
         ],
         [
           12,
-          11.375764829
+          11.456444012
         ],
         [
           13,
@@ -6621,35 +6621,35 @@
         ],
         [
           14,
-          9.352883762
+          9.3661127347
         ],
         [
           15,
-          5.1367581132
+          5.1270722085
         ],
         [
           16,
-          4.8133824025
+          4.9080718924
         ],
         [
           17,
-          19.19455032
+          19.261722849
         ],
         [
           18,
-          4.7488740007
+          4.7597409892
         ],
         [
           19,
-          1.2286653912
+          1.23606699
         ],
         [
           20,
-          3.8166691544
+          3.8314017735
         ],
         [
           30,
-          1.4009758542
+          1.3919952398
         ]
       ]
     },
@@ -6660,51 +6660,51 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          500
+          503
         ],
         [
           "Vorstädte",
-          543
+          545
         ],
         [
           "Am Ring",
-          1175
+          1173
         ],
         [
           "Breite",
-          670
+          669
         ],
         [
           "St. Alban",
-          1194
+          1190
         ],
         [
           "Gundeldingen",
-          1430
+          1428
         ],
         [
           "Bruderholz",
-          2092
+          2093
         ],
         [
           "Bachletten",
-          2507
+          2508
         ],
         [
           "Gotthelf",
-          979
+          981
         ],
         [
           "Iselin",
-          1456
+          1453
         ],
         [
           "St. Johann",
-          1520
+          1516
         ],
         [
           "Altstadt Kleinbasel",
-          282
+          284
         ],
         [
           "Clara",
@@ -6712,35 +6712,35 @@
         ],
         [
           "Wettstein",
-          707
+          708
         ],
         [
           "Hirzbrunnen",
-          1591
+          1588
         ],
         [
           "Rosental",
-          305
+          311
         ],
         [
           "Matthäus",
-          1143
+          1147
         ],
         [
           "Klybeck",
-          437
+          438
         ],
         [
           "Kleinhüningen",
-          166
+          167
         ],
         [
           "Riehen",
-          4145
+          4161
         ],
         [
           "Bettingen",
-          312
+          310
         ]
       ],
       "name": "Anzahl Gebäude"
@@ -7093,7 +7093,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7109,7 +7109,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
   },
   "colorAxis": {
     "min": 0,

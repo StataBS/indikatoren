@@ -69,6 +69,10 @@
         [
           2018,
           32285
+        ],
+        [
+          2019,
+          32433
         ]
       ],
       "name": "4 Zimmer u.m."
@@ -148,6 +152,10 @@
         [
           2018,
           29.233067729083
+        ],
+        [
+          2019,
+          29.091023249138
         ]
       ],
       "name": "Anteil am Gesamtbestand (rechte Skala)"
@@ -229,7 +237,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -46
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -293,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
   },
   "legend": {
     "symbolRadius": 0,
