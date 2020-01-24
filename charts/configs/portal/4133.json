@@ -59,6 +59,10 @@
         [
           "2018",
           11245
+        ],
+        [
+          "2019",
+          11419
         ]
       ],
       "name": "1 Zimmer",
@@ -123,6 +127,10 @@
         [
           "2018",
           25833
+        ],
+        [
+          "2019",
+          26300
         ]
       ],
       "name": "2 Zimmer",
@@ -187,6 +195,10 @@
         [
           "2018",
           41077
+        ],
+        [
+          "2019",
+          41336
         ]
       ],
       "name": "3 Zimmer",
@@ -251,6 +263,10 @@
         [
           "2018",
           19357
+        ],
+        [
+          "2019",
+          19437
         ]
       ],
       "name": "4 Zimmer",
@@ -315,6 +331,10 @@
         [
           "2018",
           7026
+        ],
+        [
+          "2019",
+          7083
         ]
       ],
       "name": "5 Zimmer",
@@ -379,6 +399,10 @@
         [
           "2018",
           5902
+        ],
+        [
+          "2019",
+          5913
         ]
       ],
       "name": "6 Zimmer u.m.",
@@ -505,7 +529,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
   },
   "legend": {
     "symbolRadius": 0,

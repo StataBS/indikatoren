@@ -43,6 +43,10 @@
     lineColor: '#B9CFD7', 
     lineWidth: 0.5,
     "tickInterval": 1,
+    labels:{
+      rotation: -46
+
+    }
   },
   "legend": {
     "enabled": true,

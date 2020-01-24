@@ -244,13 +244,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:56:27.2727",
+		"aktualisierungsdatum": "2020-01-23T17:07:50.5050",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,2% bzw. +8,6% seit 2009). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-2,1%).",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+12,1% bzw. +9,1% seit 2009). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-0,6%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -272,24 +272,24 @@ var indikatorensetData = [
 		"id": 4133
 	},
 	{
-		"title": "Anteile am Wohnungsbestand",
-		"subtitle": "nach Zimmerzahl und Wohnflächenkategorie, Basel-Stadt, 2018",
+		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4134",
 		"kuerzelKunde": "1.2.B",
-		"description": "Anteile am Wohnungsbestand",
+		"description": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:53:19.1919",
+		"aktualisierungsdatum": "2020-01-23T17:08:45.4545",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2018 nach Zimmerzahl betrachtet die Dreizimmerwohnungen (37%) und nach Wohnungsflächenkategorie Logis zwischen 70 und 99 Quadratmetern (35%).",
+		"lesehilfe": "Am zahlreichsten sind 2019 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (35%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -322,13 +322,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
+		"aktualisierungsdatum": "2020-01-23T17:09:42.4242",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
+		"lesehilfe": "2019 wurde die höchste Neubauproduktion seit 1981 verzeichnet. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -337,7 +337,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5816",
-			"6248"
+			"6248",
+			"7595"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -364,20 +365,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:41:01.011",
+		"aktualisierungsdatum": "2020-01-23T17:16:46.4646",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt der Dachstockausbau zum positiven Umbausaldo bei.",
-		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 und 2019 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt vor allem der Dachstockausbau zum positiven Umbausaldo bei.",
+		"erlaeuterungen": "Die prozentualen Anteile im Tooltip beziehen sich auf das Total der Zugänge resp. das Total der Abgänge. Beispiel: Im Jahr 2018 sind 57,7% der Zugänge durch Umnutzungen von Büros zu Wohnungen entstanden.git",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7596"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -403,13 +406,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:38:03.033",
+		"aktualisierungsdatum": "2020-01-23T17:13:46.4646",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 807 Einheiten erreichte die Nettoproduktion 2018 den höchsten Stand seit 1981. Die Fertigstellung mehrerer Grossprojekte hat massgeblich dazu beigetragen.",
+		"lesehilfe": "Mit 865 Einheiten erreichte die Nettoproduktion 2019 den höchsten Stand seit 1981. Die Fertigstellung mehrerer Grossprojekte hat massgeblich dazu beigetragen. Der Zehnjahresdurchschnitt stieg dadurch stark.",
 		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -761,25 +764,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:13:01.011",
+		"aktualisierungsdatum": "2020-01-23T17:14:42.4242",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Danach war ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_000",
 		"parentId": null,
-		"children": [
-			"6391"
-		],
-		"renderLink": [
-			"6391"
-		],
+		"children": [],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],

@@ -63,7 +63,11 @@
         ],
         [
           2019,
-          0
+          865
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "Neubau"
@@ -131,7 +135,11 @@
         ],
         [
           2019,
-          800
+          null
+        ],
+        [
+          2020,
+          450
         ]
       ],
       "name": "Neubauprognose"
@@ -146,66 +154,70 @@
       "data": [
         [
           2005,
-          372
+          null
         ],
         [
           2006,
-          372
+          null
         ],
         [
           2007,
-          372
+          null
         ],
         [
           2008,
-          372
+          null
         ],
         [
           2009,
-          372
+          null
         ],
         [
           2010,
-          372
+          null
         ],
         [
           2011,
-          372
+          null
         ],
         [
           2012,
-          372
+          null
         ],
         [
           2013,
-          372
+          null
         ],
         [
           2014,
-          372
+          298
         ],
         [
           2015,
-          372
+          347
         ],
         [
           2016,
-          372
+          353
         ],
         [
           2017,
-          372
+          378
         ],
         [
           2018,
-          372
+          438
         ],
         [
           2019,
+          478
+        ],
+        [
+          2020,
           null
         ]
       ],
-      "name": "Durchschnitt"
+      "name": "Durchschnitt der letzten 10 Jahre"
     }
   ],
   "chart": {
@@ -327,7 +339,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
   },
   "legend": {
     "symbolRadius": 0,
