@@ -6,47 +6,47 @@
       "data": [
         [
           "Altstadt GB",
-          37
+          52
         ],
         [
           "Vorstädte",
-          140
+          113
         ],
         [
           "Am Ring",
-          90
+          121
         ],
         [
           "Breite",
-          170
+          183
         ],
         [
           "St. Alban",
-          382
+          406
         ],
         [
           "Gundeldingen",
-          310
+          450
         ],
         [
           "Bruderholz",
-          101
+          89
         ],
         [
           "Bachletten",
-          60
+          81
         ],
         [
           "Gotthelf",
-          -6
+          51
         ],
         [
           "Iselin",
-          241
+          233
         ],
         [
           "St. Johann",
-          362
+          274
         ],
         [
           "Altstadt KB",
@@ -54,7 +54,7 @@
         ],
         [
           "Clara",
-          -20
+          -32
         ],
         [
           "Wettstein",
@@ -62,19 +62,19 @@
         ],
         [
           "Hirzbrunnen",
-          257
+          252
         ],
         [
           "Rosental",
-          1074
+          1241
         ],
         [
           "Matthäus",
-          70
+          148
         ],
         [
           "Klybeck",
-          21
+          103
         ],
         [
           "Kleinhüningen",
@@ -82,14 +82,14 @@
         ],
         [
           "Riehen",
-          393
+          458
         ],
         [
           "Bettingen",
-          15
+          11
         ]
       ],
-      "name": "Nettoproduktion  2009 bis  2018",
+      "name": "Nettoproduktion 2010 bis 2019",
       "turboThreshold": 0
     }
   ],
@@ -173,7 +173,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel von 2009 bis 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2010-2019",
     "align": "left"
   },
   "yAxis": {
@@ -213,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
   },
   "legend": {
     "symbolRadius": 0,

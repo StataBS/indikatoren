@@ -177,7 +177,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.06377",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
@@ -187,7 +187,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -221,7 +221,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.06378",
 		"kuerzelKunde": "C9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
@@ -231,7 +231,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2020-01-23T17:16:15.1515",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -699,7 +699,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.06389",
 		"kuerzelKunde": "K9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
@@ -709,7 +709,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -741,7 +741,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.06390",
 		"kuerzelKunde": "K9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
@@ -751,7 +751,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
