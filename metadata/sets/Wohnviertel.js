@@ -4145,7 +4145,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2018",
+		"subtitle": "St. Alban, 2019",
 		"kuerzel": "I.09.1.06960",
 		"kuerzelKunde": "RU-05.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4155,7 +4155,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4184,7 +4184,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2018",
+		"subtitle": "Gundeldingen, 2019",
 		"kuerzel": "I.09.1.06961",
 		"kuerzelKunde": "RU-06.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4194,7 +4194,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4223,7 +4223,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2018",
+		"subtitle": "Bruderholz, 2019",
 		"kuerzel": "I.09.1.06962",
 		"kuerzelKunde": "RU-07.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4233,7 +4233,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4262,7 +4262,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2018",
+		"subtitle": "Bachletten, 2019",
 		"kuerzel": "I.09.1.06963",
 		"kuerzelKunde": "RU-08.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4272,7 +4272,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4301,7 +4301,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2018",
+		"subtitle": "Gotthelf, 2019",
 		"kuerzel": "I.09.1.06964",
 		"kuerzelKunde": "RU-09.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4311,7 +4311,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4340,7 +4340,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2018",
+		"subtitle": "Iselin, 2019",
 		"kuerzel": "I.09.1.06965",
 		"kuerzelKunde": "RU-10.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4350,7 +4350,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4379,7 +4379,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2018",
+		"subtitle": "St. Johann, 2019",
 		"kuerzel": "I.09.1.06966",
 		"kuerzelKunde": "RU-11.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4389,7 +4389,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4418,7 +4418,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2018",
+		"subtitle": "Altstadt Kleinbasel, 2019",
 		"kuerzel": "I.09.1.06967",
 		"kuerzelKunde": "RU-12.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4428,7 +4428,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4457,7 +4457,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2018",
+		"subtitle": "Clara, 2019",
 		"kuerzel": "I.09.1.06968",
 		"kuerzelKunde": "RU-13.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4467,13 +4467,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Clara am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -4496,7 +4496,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2018",
+		"subtitle": "Wettstein, 2019",
 		"kuerzel": "I.09.1.06969",
 		"kuerzelKunde": "RU-14.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4506,7 +4506,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4535,7 +4535,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2018",
+		"subtitle": "Hirzbrunnen, 2019",
 		"kuerzel": "I.09.1.06970",
 		"kuerzelKunde": "RU-15.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4545,7 +4545,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4574,7 +4574,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2018",
+		"subtitle": "Rosental, 2019",
 		"kuerzel": "I.09.1.06971",
 		"kuerzelKunde": "RU-16.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4584,7 +4584,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4613,7 +4613,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Matthäus, 2018",
+		"subtitle": "Matthäus, 2019",
 		"kuerzel": "I.09.1.06972",
 		"kuerzelKunde": "RU-17.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4623,7 +4623,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4652,7 +4652,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Klybeck, 2018",
+		"subtitle": "Klybeck, 2019",
 		"kuerzel": "I.09.1.06973",
 		"kuerzelKunde": "RU-18.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4662,7 +4662,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4691,7 +4691,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Kleinhüningen, 2018",
+		"subtitle": "Kleinhüningen, 2019",
 		"kuerzel": "I.09.1.06974",
 		"kuerzelKunde": "RU-19.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4701,7 +4701,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4730,7 +4730,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Riehen, 2018",
+		"subtitle": "Gemeinde Riehen, 2019",
 		"kuerzel": "I.09.1.06975",
 		"kuerzelKunde": "RU-20.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4741,7 +4741,7 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4770,7 +4770,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gemeinde Bettingen, 2018",
+		"subtitle": "Gemeinde Bettingen, 2019",
 		"kuerzel": "I.09.1.06976",
 		"kuerzelKunde": "RU-21.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4781,7 +4781,7 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
