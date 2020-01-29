@@ -4446,14 +4446,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-22T08:52:24.2424",
+		"aktualisierungsdatum": "2020-01-28T16:08:37.3737",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7474,86 +7474,6 @@ var indikatoren = [
 		"id": 5142
 	},
 	{
-		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.5144",
-		"kuerzelKunde": "BE3",
-		"description": "Altersquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-15T11:19:56.5656",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist zwischen 2009 und 2018 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
-		"erlaeuterungen": "Der Altersquotient  gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_103",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5144,
-		"chart-id": 5144,
-		"filter": "",
-		"id": 5144
-	},
-	{
-		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.5147",
-		"kuerzelKunde": "BE4",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen in diesem Zeitraum weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2015 steigt der Jugendquotient wieder.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_104",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5147,
-		"chart-id": 5147,
-		"filter": "",
-		"id": 5147
-	},
-	{
 		"title": "Saldo aus Geburten und Todesfällen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.3.05148",
@@ -10209,7 +10129,7 @@ var indikatoren = [
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6068",
-		"kuerzelKunde": "A2-6",
+		"kuerzelKunde": "A2-2",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -10217,22 +10137,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:13.1313",
+		"aktualisierungsdatum": "2020-01-28T16:10:14.1414",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 liegt der Jugendquotient der Schweizer bei 28,4. Deutlich höhere Jugendquotienten ergeben sich 2018 für Personen aus arabischen (43,0) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (31,3). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland  sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1999 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
-		"erlaeuterungen": "Jugendquotient: Anzahl maximal 19-Jähriger pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_016",
+		"orderKey": "01_00_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"6653"
+			"6653",
+			"7794"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -10251,7 +10172,7 @@ var indikatoren = [
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6069",
-		"kuerzelKunde": "A2-7",
+		"kuerzelKunde": "A2-3",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -10259,19 +10180,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T14:37:08.088",
+		"aktualisierungsdatum": "2020-01-28T16:07:35.3535",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_017",
+		"orderKey": "01_00_00_00_00_203",
 		"parentId": null,
 		"children": [
 			"6654",
@@ -25277,14 +25198,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
+		"aktualisierungsdatum": "2020-01-28T16:09:22.2222",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2000 und 2018 von 28,7 auf 24,3 gesunken. Im Bezirk Erlenmatt hat der Jugendquotient hingegen zugenommen, von 26,0 im Jahr 2000 auf 33,8 im Jahr 2018. Im Kanton Basel-Stadt lag der Jugendquotient im Jahr 2000 bei 27,8, im Jahr 2018 bei 26,5.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -25320,14 +25241,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
+		"aktualisierungsdatum": "2020-01-28T16:07:09.099",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2018 bei 12,8, im Bezirk Erlenmatt bei 11,3. Während der Altersquotient im Messe-Bezirk im Vergleich zum Jahr 2000 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient seit dem Jahr 2000 (33,9) gesunken, 2018 lag er bei 30,4.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -28308,14 +28229,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
+		"aktualisierungsdatum": "2020-01-28T16:11:06.066",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen übrigen Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (38,0) und Genf (43,1) hoch. In der gesamten Agglomeration Basel ist er mit 31,9 zwar tiefer als in Genf (37,7) und Lausanne (34,1), jedoch höher als in Zürich (30,7) und Bern (29,8).",
-		"erlaeuterungen": "Personen im Alter von 19 Jahren oder jünger pro 100 Personen im Alter von 20 bis 64 Jahren.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -28323,8 +28244,7 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"8098",
-			"8119"
+			"8098"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -28351,14 +28271,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
+		"aktualisierungsdatum": "2020-01-28T16:10:50.5050",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 33,0 im Jahr 2017 deutlich höher als in den Agglomerationen Genf (24,4), Lausanne (25,5) und Zürich (26,6). Dies ist auf die relativ ältere Bevölkerung in der Kernstadt Basel (Altersquotient von 30,1) sowie im Schweizer Gürtel der Agglomeration (35,8) zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (32,2).",
-		"erlaeuterungen": "Personen im Alter von 65 oder mehr Jahren pro 100 Personen im Alter von 20 bis 64 Jahren.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -28366,8 +28286,7 @@ var indikatoren = [
 		"orderKey": "99_00_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"8100",
-			"8121"
+			"8100"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -29033,14 +28952,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-10T08:43:15.1515",
+		"aktualisierungsdatum": "2020-01-28T16:11:31.3131",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9, was bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
-		"erlaeuterungen": "Der Abhängigkeitsquotient gibt das Verhältnis der Anzahl unter 20-Jähriger und der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient ergibt sich aus der Anzahl unter 20-Jähriger plus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
