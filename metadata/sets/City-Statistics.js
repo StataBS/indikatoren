@@ -136,22 +136,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-12T08:40:12.1212",
+		"aktualisierungsdatum": "2020-01-28T16:11:06.066",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Anzahl Jugendlicher unter 20 Jahren pro 100 Personen im Alter von 20 bis 64 Jahren ist in den Kernstädten tiefer als in den jeweiligen übrigen Agglomerationsgemeinden. Der Jugendquotient ist vor allem im französischen Teil der Agglomerationen Basel (38,0) und Genf (43,1) hoch. In der gesamten Agglomeration Basel ist er mit 31,9 zwar tiefer als in Genf (37,7) und Lausanne (34,1), jedoch höher als in Zürich (30,7) und Bern (29,8).",
-		"erlaeuterungen": "Personen im Alter von 19 Jahren oder jünger pro 100 Personen im Alter von 20 bis 64 Jahren.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"8098",
-			"8119"
+			"8098"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -178,22 +177,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-12-12T08:40:11.1111",
+		"aktualisierungsdatum": "2020-01-28T16:10:50.5050",
 		"stufe1": "2. Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerung der Agglomeration Basel ist vergleichsweise alt: Der Altersquotient ist mit 33,0 im Jahr 2017 deutlich höher als in den Agglomerationen Genf (24,4), Lausanne (25,5) und Zürich (26,6). Dies ist auf die relativ ältere Bevölkerung in der Kernstadt Basel (Altersquotient von 30,1) sowie im Schweizer Gürtel der Agglomeration (35,8) zurückzuführen. Nach Basel weist die Agglomeration Bern den höchsten Altersquotienten auf (32,2).",
-		"erlaeuterungen": "Personen im Alter von 65 oder mehr Jahren pro 100 Personen im Alter von 20 bis 64 Jahren.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "99_00_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"8100",
-			"8121"
+			"8100"
 		],
 		"renderLink": [],
 		"quellenangabe": [

@@ -462,7 +462,7 @@ var indikatorensetData = [
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6068",
-		"kuerzelKunde": "A2-6",
+		"kuerzelKunde": "A2-2",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -470,21 +470,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:01:13.1313",
+		"aktualisierungsdatum": "2020-01-28T16:10:14.1414",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 liegt der Jugendquotient der Schweizer bei 28,4. Deutlich höhere Jugendquotienten ergeben sich 2018 für Personen aus arabischen (43,0) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (31,3). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland  sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1999 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
-		"erlaeuterungen": "Jugendquotient: Anzahl maximal 19-Jähriger pro 100 20- bis 64-Jährige.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_016",
+		"orderKey": "01_00_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"6653"
+			"6653",
+			"7794"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -503,7 +504,7 @@ var indikatorensetData = [
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6069",
-		"kuerzelKunde": "A2-7",
+		"kuerzelKunde": "A2-3",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -511,18 +512,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-13T14:37:08.088",
+		"aktualisierungsdatum": "2020-01-28T16:07:35.3535",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_017",
+		"orderKey": "01_00_00_00_00_203",
 		"parentId": null,
 		"children": [
 			"6654",
