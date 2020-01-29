@@ -119,84 +119,6 @@ var indikatorensetData = [
 		"id": 5142
 	},
 	{
-		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.5144",
-		"kuerzelKunde": "BE3",
-		"description": "Altersquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-15T11:19:56.5656",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Altersquotient ist zwischen 2009 und 2018 leicht gesunken. Dies ist darauf zurückzuführen, dass die Zahl der Personen im Erwerbsalter stärker zugenommen hat als diejenige der Senioren.",
-		"erlaeuterungen": "Der Altersquotient  gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_103",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5144,
-		"chart-id": 5144,
-		"filter": "",
-		"id": 5144
-	},
-	{
-		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.5147",
-		"kuerzelKunde": "BE4",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient ist von 2008 bis 2011 leicht zurückgegangen. Dies liegt daran, dass die Zahl der Jugendlichen in diesem Zeitraum weniger stark gestiegen ist als jene der Personen im Erwerbsalter. Seit 2015 steigt der Jugendquotient wieder.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl 0- bis 19-Jähriger pro 100 20- bis 64-Jährige.",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_104",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5147,
-		"chart-id": 5147,
-		"filter": "",
-		"id": 5147
-	},
-	{
 		"title": "Saldo aus Geburten und Todesfällen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.3.05148",
@@ -2706,14 +2628,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-10T08:43:15.1515",
+		"aktualisierungsdatum": "2020-01-28T16:11:31.3131",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9, was bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
-		"erlaeuterungen": "Der Abhängigkeitsquotient gibt das Verhältnis der Anzahl unter 20-Jähriger und der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient ergibt sich aus der Anzahl unter 20-Jähriger plus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
