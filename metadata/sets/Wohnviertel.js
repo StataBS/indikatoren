@@ -3989,7 +3989,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2018",
+		"subtitle": "Altstadt Grossbasel, 2019",
 		"kuerzel": "I.09.1.06956",
 		"kuerzelKunde": "RU-01.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -3999,7 +3999,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4028,7 +4028,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2018",
+		"subtitle": "Vorstädte, 2019",
 		"kuerzel": "I.09.1.06957",
 		"kuerzelKunde": "RU-02.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4038,7 +4038,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4067,7 +4067,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2018",
+		"subtitle": "Am Ring, 2019",
 		"kuerzel": "I.09.1.06958",
 		"kuerzelKunde": "RU-03.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4077,13 +4077,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton, ausser bei den Einzimmerwohnungen, deren Anteil höher ist. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
+		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -4106,7 +4106,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2018",
+		"subtitle": "Breite, 2019",
 		"kuerzel": "I.09.1.06959",
 		"kuerzelKunde": "RU-04.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
@@ -4116,7 +4116,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:53:04.044",
+		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",

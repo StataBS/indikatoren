@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.1125344896,
-          "Anzahl": 1142
+          "y": 0.1090891109,
+          "Anzahl": 1103
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.2935553804,
-          "Anzahl": 2979
+          "y": 0.2935416873,
+          "Anzahl": 2968
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.3815530154,
-          "Anzahl": 3872
+          "y": 0.3820591435,
+          "Anzahl": 3863
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.1472211273,
-          "Anzahl": 1494
+          "y": 0.1481554742,
+          "Anzahl": 1498
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.0314347655,
-          "Anzahl": 319
+          "y": 0.0326377213,
+          "Anzahl": 330
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.0337012219,
-          "Anzahl": 342
+          "y": 0.0345168628,
+          "Anzahl": 349
         }
       ],
       "name": "St. Johann",

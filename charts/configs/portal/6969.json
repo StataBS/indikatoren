@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.058001822,
-          "Anzahl": 191
+          "y": 0.059411943,
+          "Anzahl": 196
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.2235044033,
-          "Anzahl": 736
+          "y": 0.2224916641,
+          "Anzahl": 734
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.4515639235,
-          "Anzahl": 1487
+          "y": 0.4516520158,
+          "Anzahl": 1490
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.1597327665,
+          "y": 0.1594422552,
           "Anzahl": 526
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.0476768904,
+          "y": 0.0475901788,
           "Anzahl": 157
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.0595201944,
+          "y": 0.059411943,
           "Anzahl": 196
         }
       ],

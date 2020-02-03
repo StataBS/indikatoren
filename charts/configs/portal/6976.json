@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.0336633663,
-          "Anzahl": 17
+          "y": 0.0357142857,
+          "Anzahl": 18
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.0871287129,
+          "y": 0.0873015873,
           "Anzahl": 44
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.1801980198,
-          "Anzahl": 91
+          "y": 0.1825396825,
+          "Anzahl": 92
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.203960396,
-          "Anzahl": 103
+          "y": 0.2063492063,
+          "Anzahl": 104
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.2633663366,
-          "Anzahl": 133
+          "y": 0.2599206349,
+          "Anzahl": 131
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.2316831683,
-          "Anzahl": 117
+          "y": 0.2281746032,
+          "Anzahl": 115
         }
       ],
       "name": "Bettingen",

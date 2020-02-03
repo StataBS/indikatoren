@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.1800687285,
-          "Anzahl": 262
+          "y": 0.1866125761,
+          "Anzahl": 276
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.2652920962,
-          "Anzahl": 386
+          "y": 0.260311021,
+          "Anzahl": 385
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.2426116838,
-          "Anzahl": 353
+          "y": 0.2434077079,
+          "Anzahl": 360
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.1704467354,
-          "Anzahl": 248
+          "y": 0.1670047329,
+          "Anzahl": 247
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.0804123711,
-          "Anzahl": 117
+          "y": 0.0797836376,
+          "Anzahl": 118
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 0.0611683849,
-          "Anzahl": 89
+          "y": 0.0628803245,
+          "Anzahl": 93
         }
       ],
       "name": "Altstadt Grossbasel",
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Altstadt Grossbasel, 2018",
+    "text": "Altstadt Grossbasel, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-3"
   },
   "legend": {
     "symbolRadius": 0,
