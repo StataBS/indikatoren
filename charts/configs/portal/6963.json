@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.0519890261,
-          "Anzahl": 379
+          "y": 0.0528905289,
+          "Anzahl": 387
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.1469135802,
-          "Anzahl": 1071
+          "y": 0.1497881645,
+          "Anzahl": 1096
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.404526749,
-          "Anzahl": 2949
+          "y": 0.4008473418,
+          "Anzahl": 2933
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.1706447188,
-          "Anzahl": 1244
+          "y": 0.1701517015,
+          "Anzahl": 1245
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.1034293553,
-          "Anzahl": 754
+          "y": 0.1044143775,
+          "Anzahl": 764
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Bachletten",
-          "y": 0.1224965706,
-          "Anzahl": 893
+          "y": 0.1219078857,
+          "Anzahl": 892
         }
       ],
       "name": "Bachletten",

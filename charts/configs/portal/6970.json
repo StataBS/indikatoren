@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.0422979798,
-          "Anzahl": 201
+          "y": 0.0425263158,
+          "Anzahl": 202
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.1403619529,
-          "Anzahl": 667
+          "y": 0.1410526316,
+          "Anzahl": 670
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.4640151515,
-          "Anzahl": 2205
+          "y": 0.4635789474,
+          "Anzahl": 2202
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.2255892256,
-          "Anzahl": 1072
+          "y": 0.2235789474,
+          "Anzahl": 1062
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.085016835,
-          "Anzahl": 404
+          "y": 0.0863157895,
+          "Anzahl": 410
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.0427188552,
-          "Anzahl": 203
+          "y": 0.0429473684,
+          "Anzahl": 204
         }
       ],
       "name": "Hirzbrunnen",

@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.1434793128,
-          "Anzahl": 593
+          "y": 0.1433341283,
+          "Anzahl": 601
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.2334865715,
-          "Anzahl": 965
+          "y": 0.2353923205,
+          "Anzahl": 987
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.3743043794,
-          "Anzahl": 1547
+          "y": 0.375149058,
+          "Anzahl": 1573
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.1446890878,
-          "Anzahl": 598
+          "y": 0.1430956356,
+          "Anzahl": 600
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.0604887491,
-          "Anzahl": 250
+          "y": 0.0603386597,
+          "Anzahl": 253
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.0435518993,
-          "Anzahl": 180
+          "y": 0.0426901979,
+          "Anzahl": 179
         }
       ],
       "name": "Gotthelf",

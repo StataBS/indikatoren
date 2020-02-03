@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.1348575511,
-          "Anzahl": 1510
+          "y": 0.1353343865,
+          "Anzahl": 1542
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.2595338037,
-          "Anzahl": 2906
+          "y": 0.2655783746,
+          "Anzahl": 3026
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.4003751005,
-          "Anzahl": 4483
+          "y": 0.3976654379,
+          "Anzahl": 4531
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.1642404215,
+          "y": 0.1614007372,
           "Anzahl": 1839
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.0327766366,
+          "y": 0.0322099351,
           "Anzahl": 367
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.0082164866,
-          "Anzahl": 92
+          "y": 0.0078111287,
+          "Anzahl": 89
         }
       ],
       "name": "Gundeldingen",

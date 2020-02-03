@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.0967056323,
-          "Anzahl": 364
+          "y": 0.1068920676,
+          "Anzahl": 411
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.3594580234,
-          "Anzahl": 1353
+          "y": 0.355006502,
+          "Anzahl": 1365
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.3735387885,
-          "Anzahl": 1406
+          "y": 0.3677503251,
+          "Anzahl": 1414
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.1352284803,
+          "y": 0.1323797139,
           "Anzahl": 509
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.0281615303,
-          "Anzahl": 106
+          "y": 0.0288686606,
+          "Anzahl": 111
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Klybeck",
-          "y": 0.0069075452,
-          "Anzahl": 26
+          "y": 0.0091027308,
+          "Anzahl": 35
         }
       ],
       "name": "Klybeck",
