@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.1031746032,
-          "Anzahl": 377
+          "y": 0.1064039409,
+          "Anzahl": 432
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.3429118774,
-          "Anzahl": 1253
+          "y": 0.3487684729,
+          "Anzahl": 1416
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.3842364532,
-          "Anzahl": 1404
+          "y": 0.371182266,
+          "Anzahl": 1507
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.1392993979,
-          "Anzahl": 509
+          "y": 0.1416256158,
+          "Anzahl": 575
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.026272578,
-          "Anzahl": 96
+          "y": 0.0248768473,
+          "Anzahl": 101
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Rosental",
-          "y": 0.0041050903,
-          "Anzahl": 15
+          "y": 0.0071428571,
+          "Anzahl": 29
         }
       ],
       "name": "Rosental",

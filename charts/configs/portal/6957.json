@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1018199928,
-          "Anzahl": 11245
+          "y": 0.1024235792,
+          "Anzahl": 11419
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2339098153,
-          "Anzahl": 25833
+          "y": 0.2358998278,
+          "Anzahl": 26300
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3719395147,
-          "Anzahl": 41077
+          "y": 0.3707663605,
+          "Anzahl": 41336
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1752716407,
-          "Anzahl": 19357
+          "y": 0.1743416332,
+          "Anzahl": 19437
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0636182543,
-          "Anzahl": 7026
+          "y": 0.0635315011,
+          "Anzahl": 7083
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0534407823,
-          "Anzahl": 5902
+          "y": 0.0530370982,
+          "Anzahl": 5913
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.2416838387,
-          "Anzahl": 821
+          "y": 0.2353113125,
+          "Anzahl": 805
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.2034147777,
-          "Anzahl": 691
+          "y": 0.2063724057,
+          "Anzahl": 706
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.2675890492,
-          "Anzahl": 909
+          "y": 0.2747734581,
+          "Anzahl": 940
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.1680894907,
-          "Anzahl": 571
+          "y": 0.166617948,
+          "Anzahl": 570
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.0771268767,
-          "Anzahl": 262
+          "y": 0.0748319205,
+          "Anzahl": 256
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Vorstädte",
-          "y": 0.042095967,
-          "Anzahl": 143
+          "y": 0.0420929553,
+          "Anzahl": 144
         }
       ],
       "name": "Vorstädte",
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Vorstädte, 2018",
+    "text": "Vorstädte, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -203,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-3"
   },
   "legend": {
     "symbolRadius": 0,
