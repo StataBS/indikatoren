@@ -98,6 +98,10 @@
         [
           2018,
           104
+        ],
+        [
+          2019,
+          105.4
         ]
       ],
       "name": "Index"
@@ -199,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-12-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-4"
   },
   "legend": {
     "enabled": false,
