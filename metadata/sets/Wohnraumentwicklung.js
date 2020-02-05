@@ -45,7 +45,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-29T11:52:38.3838",
+		"aktualisierungsdatum": "2020-02-04T14:38:39.3939",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",

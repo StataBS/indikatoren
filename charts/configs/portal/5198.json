@@ -6,87 +6,87 @@
       "data": [
         [
           "Matthäus",
-          6.27
+          6.43
         ],
         [
           "Altstadt Kleinbasel",
-          8.21
+          8.33
         ],
         [
           "Clara",
-          9.05
+          9.02
         ],
         [
           "Altstadt Grossbasel",
-          9.76
+          9.85
         ],
         [
           "Gundeldingen",
-          10.91
+          11.02
         ],
         [
           "Rosental",
-          12.97
+          12.21
         ],
         [
           "Klybeck",
-          15.14
+          15.69
         ],
         [
           "Am Ring",
-          20.06
+          19.77
         ],
         [
           "Gotthelf",
-          22.64
+          22.41
         ],
         [
           "Iselin",
-          23.64
+          23.96
         ],
         [
           "Breite",
-          27.47
+          27.36
         ],
         [
           "St. Johann",
-          34.28
+          34.45
         ],
         [
           "Vorstädte",
-          35.03
+          35
         ],
         [
           "Wettstein",
-          37.96
+          38.1
         ],
         [
           "Bachletten",
-          46.68
+          46.26
         ],
         [
           "St. Alban",
-          83.99
+          82.74
         ],
         [
           "Kleinhüningen",
-          106.6
-        ],
-        [
-          "Hirzbrunnen",
-          195.75
+          108.19
         ],
         [
           "Bruderholz",
-          197.4
+          196.47
+        ],
+        [
+          "Hirzbrunnen",
+          198.5
         ],
         [
           "Riehen",
-          403.17
+          403.27
         ],
         [
           "Bettingen",
-          1655.53
+          1702.31
         ]
       ],
       "name": "Grünfläche",
@@ -165,7 +165,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Grünfläche pro Kopf nach Wohnviertel"
+    "text": "Grünfläche pro Kopf"
   },
   "subtitle": {
     "style": {
@@ -174,7 +174,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, in m\u003Csup\u003E2\u003C\u002Fsup\u003E, 2018",
+    "text": "nach Wohnviertel, in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2019",
     "align": "left",
     "useHTML": true
   },
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-4"
   },
   "legend": {
     "symbolRadius": 0,

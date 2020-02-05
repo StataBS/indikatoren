@@ -71,6 +71,10 @@
         [
           2018,
           1673.34
+        ],
+        [
+          2019,
+          1671.98
         ]
       ],
       "name": "Befestigte Fläche und Gebäude"
@@ -146,6 +150,10 @@
         [
           2018,
           133.86
+        ],
+        [
+          2019,
+          133.83
         ]
       ],
       "name": "Gewässer"
@@ -221,6 +229,10 @@
         [
           2018,
           1888.2
+        ],
+        [
+          2019,
+          1889.58
         ]
       ],
       "name": "Grünfläche"
@@ -349,7 +361,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-4"
   },
   "legend": {
     "symbolRadius": 0,
