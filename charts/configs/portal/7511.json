@@ -7,120 +7,6 @@
       "data": [
         [
           "Jan",
-          0
-        ],
-        [
-          "Feb",
-          0
-        ],
-        [
-          "Mrz",
-          0
-        ],
-        [
-          "Apr",
-          0
-        ],
-        [
-          "Mai",
-          0
-        ],
-        [
-          "Jun",
-          0
-        ],
-        [
-          "Jul",
-          343
-        ],
-        [
-          "Aug",
-          652
-        ],
-        [
-          "Sep",
-          708
-        ],
-        [
-          "Okt",
-          672
-        ],
-        [
-          "Nov",
-          659
-        ],
-        [
-          "Dez",
-          810
-        ]
-      ],
-      "name": "Meldepflichtig 2018",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "legendIndex": 3,
-      "color": "rgb(250, 189, 36)",
-      "data": [
-        [
-          "Jan",
-          214
-        ],
-        [
-          "Feb",
-          203
-        ],
-        [
-          "Mrz",
-          210
-        ],
-        [
-          "Apr",
-          201
-        ],
-        [
-          "Mai",
-          224
-        ],
-        [
-          "Jun",
-          329
-        ],
-        [
-          "Jul",
-          370
-        ],
-        [
-          "Aug",
-          346
-        ],
-        [
-          "Sep",
-          358
-        ],
-        [
-          "Okt",
-          358
-        ],
-        [
-          "Nov",
-          370
-        ],
-        [
-          "Dez",
-          308
-        ]
-      ],
-      "name": "Nicht meldepflichtig 2018",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "legendIndex": 0,
-      "color": "rgb(0, 122, 47)",
-      "data": [
-        [
-          "Jan",
           1115
         ],
         [
@@ -172,9 +58,9 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "legendIndex": 2,
-      "color": "rgb(205, 156, 0)",
+      "stack": 1,
+      "legendIndex": 3,
+      "color": "rgb(250, 189, 36)",
       "data": [
         [
           "Jan",
@@ -226,6 +112,120 @@
         ]
       ],
       "name": "Nicht meldepflichtig 2019",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 0,
+      "color": "rgb(0, 122, 47)",
+      "data": [
+        [
+          "Jan",
+          1128
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Meldepflichtig 2020",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 2,
+      "color": "rgb(205, 156, 0)",
+      "data": [
+        [
+          "Jan",
+          559
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Nicht meldepflichtig 2020",
       "turboThreshold": 0
     }
   ],
@@ -310,9 +310,7 @@
         "color": "#000000"
       }
     },
-    "reversedStacks": false,
-    "tickAmount": 9,
-    "tickInterval": 200
+    "reversedStacks": false
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -328,7 +326,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-10"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "enabled": true,
