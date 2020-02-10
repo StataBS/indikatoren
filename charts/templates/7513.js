@@ -18,13 +18,15 @@
 	  {"color": "#dc440e"}, 
   	{"color": "#b00000"},
     {"color": "#661200"},
-//    {"color": "#008AC3"},/* blau  */
+    {"color": "#3C3C3C", type: "scatter", marker:{"enabled": true,"radius": 3},
+    "tooltip": {
+      "shared": false, 
+      "headerFormat": '<span style="font-size: 10px"> {point.key}</span><br/>',
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
+    },},
   ],
   "legend": {
     "enabled": true,
-    //"x": 30,
-    //"y": 35,
-    //"itemWidth": 150,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
