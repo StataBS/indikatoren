@@ -19,8 +19,8 @@
       },
       "yAxis": {
           reversedStacks: false, 
-          tickAmount: 9,
-          tickInterval:200,
+          //tickAmount: 9,
+          //tickInterval:200,
       },
       "series": [
         {
