@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          0.1640625
-        ],
-        [
-          "Rosental",
-          0.2164948454
-        ],
-        [
-          "Gundeldingen",
-          0.2602040816
-        ],
-        [
-          "Breite",
-          0.2631578947
-        ],
-        [
-          "Matthäus",
-          0.2648648649
+          0.157480315
         ],
         [
           "Kleinhüningen",
-          0.2708333333
+          0.1632653061
         ],
         [
-          "Vorstädte",
-          0.2916666667
-        ],
-        [
-          "Clara",
-          0.2954545455
+          "Rosental",
+          0.1923076923
         ],
         [
           "Altstadt Kleinbasel",
-          0.3333333333
+          0.2173913043
         ],
         [
-          "Iselin",
-          0.3347107438
+          "Breite",
+          0.2641509434
         ],
         [
-          "St. Johann",
-          0.3632478632
+          "Clara",
+          0.2708333333
+        ],
+        [
+          "Matthäus",
+          0.2880434783
+        ],
+        [
+          "Gundeldingen",
+          0.2950819672
         ],
         [
           "Hirzbrunnen",
-          0.3656716418
+          0.32
         ],
         [
-          "St. Alban",
-          0.4888888889
+          "Iselin",
+          0.3361702128
         ],
         [
-          "Gotthelf",
-          0.5161290323
-        ],
-        [
-          "Am Ring",
-          0.5346534653
-        ],
-        [
-          "Bettingen",
-          0.5416666667
-        ],
-        [
-          "Riehen",
-          0.5482233503
+          "St. Johann",
+          0.3703703704
         ],
         [
           "Altstadt Grossbasel",
-          0.6153846154
+          0.4117647059
+        ],
+        [
+          "Vorstädte",
+          0.4583333333
+        ],
+        [
+          "St. Alban",
+          0.4841269841
+        ],
+        [
+          "Gotthelf",
+          0.4909090909
+        ],
+        [
+          "Bettingen",
+          0.5238095238
+        ],
+        [
+          "Riehen",
+          0.5315533981
+        ],
+        [
+          "Am Ring",
+          0.5454545455
+        ],
+        [
+          "Wettstein",
+          0.5740740741
         ],
         [
           "Bachletten",
-          0.6262135922
+          0.595
         ],
         [
           "Bruderholz",
           0.6585365854
-        ],
-        [
-          "Wettstein",
-          0.6612903226
         ]
       ],
       "name": "Gymnasialquote",
@@ -99,35 +99,35 @@
           1
         ],
         [
-          "Rosental",
+          "Kleinhüningen",
           2
         ],
         [
-          "Gundeldingen",
+          "Rosental",
           3
         ],
         [
-          "Breite",
+          "Altstadt Kleinbasel",
           4
         ],
         [
-          "Matthäus",
+          "Breite",
           5
         ],
         [
-          "Kleinhüningen",
+          "Clara",
           6
         ],
         [
-          "Vorstädte",
+          "Matthäus",
           7
         ],
         [
-          "Clara",
+          "Gundeldingen",
           8
         ],
         [
-          "Altstadt Kleinbasel",
+          "Hirzbrunnen",
           9
         ],
         [
@@ -139,19 +139,19 @@
           11
         ],
         [
-          "Hirzbrunnen",
+          "Altstadt Grossbasel",
           12
         ],
         [
-          "St. Alban",
+          "Vorstädte",
           13
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           14
         ],
         [
-          "Am Ring",
+          "Gotthelf",
           15
         ],
         [
@@ -163,19 +163,19 @@
           17
         ],
         [
-          "Altstadt Grossbasel",
+          "Am Ring",
           18
         ],
         [
-          "Bachletten",
+          "Wettstein",
           19
         ],
         [
-          "Bruderholz",
+          "Bachletten",
           20
         ],
         [
-          "Wettstein",
+          "Bruderholz",
           21
         ]
       ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "enabled": false,

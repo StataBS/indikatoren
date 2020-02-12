@@ -94,6 +94,10 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -101,10 +105,6 @@
     {
       "color": "#B00000",
       "linkedTo": ":previous",
-      "marker": {
-        "enabled": true,
-        "radius": 2
-      },
       "data": [
         [
           1995,
@@ -197,6 +197,10 @@
         [
           2017,
           835
+        ],
+        [
+          2018,
+          777
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -295,6 +299,10 @@
         [
           2017,
           446
+        ],
+        [
+          2018,
+          473
         ]
       ],
       "name": "Verunfallte Personen"
@@ -368,7 +376,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 500
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -378,7 +387,8 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "step": 2
+      "step": 1,
+      "rotation": -45
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -397,7 +407,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-11-29"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-11"
   },
   "legend": {
     "enabled": true,

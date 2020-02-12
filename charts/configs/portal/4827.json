@@ -5,87 +5,87 @@
       "data": [
         [
           "Rosental",
-          0.1240057108
+          0.1188209447
         ],
         [
           "Matthäus",
-          0.181429716
+          0.1888482633
         ],
         [
           "Klybeck",
-          0.2086920869
+          0.2135040264
         ],
         [
           "Gundeldingen",
-          0.2208146856
+          0.2246420956
         ],
         [
           "St. Johann",
-          0.2311418136
+          0.2315104794
         ],
         [
           "Iselin",
-          0.2501557355
+          0.2480121505
         ],
         [
           "Altstadt Kleinbasel",
-          0.2828520919
+          0.2820512821
         ],
         [
           "Altstadt Grossbasel",
-          0.2898389783
-        ],
-        [
-          "Wettstein",
-          0.2913961039
+          0.2968838527
         ],
         [
           "Kleinhüningen",
-          0.293951385
+          0.299248989
+        ],
+        [
+          "Wettstein",
+          0.2992620935
         ],
         [
           "Am Ring",
-          0.332059448
+          0.3281751011
         ],
         [
           "Breite",
-          0.3336211362
+          0.3313284069
         ],
         [
           "Clara",
-          0.338606403
+          0.3398717465
         ],
         [
           "Gotthelf",
-          0.3460736623
+          0.3421354765
         ],
         [
           "Bachletten",
-          0.3619339045
+          0.359462079
         ],
         [
           "Vorstädte",
-          0.3728395062
+          0.3668295663
         ],
         [
           "Bruderholz",
-          0.410793163
+          0.4165056049
         ],
         [
           "Hirzbrunnen",
-          0.4215000945
+          0.4170001906
         ],
         [
           "Bettingen",
-          0.4244186047
+          0.4292168675
         ],
         [
           "St. Alban",
-          0.438564752
+          0.437537358
         ],
         [
           "Riehen",
-          0.4799064611
+          0.4781593288
         ]
       ],
       "name": "Altersquotient",
@@ -127,11 +127,11 @@
           8
         ],
         [
-          "Wettstein",
+          "Kleinhüningen",
           9
         ],
         [
-          "Kleinhüningen",
+          "Wettstein",
           10
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "enabled": false,
