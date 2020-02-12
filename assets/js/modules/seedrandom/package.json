@@ -1,26 +1,37 @@
 {
-  "name": "seedrandom",
-  "version": "2.4.3",
-  "description": "Seeded random number generator for Javascript.",
-  "main": "index.js",
-  "keywords": [
-    "seed",
-    "random",
-    "crypto"
+  "_from": "seedrandom@2.4.3",
+  "_id": "seedrandom@2.4.3",
+  "_inBundle": false,
+  "_integrity": "sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=",
+  "_location": "/seedrandom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "seedrandom@2.4.3",
+    "name": "seedrandom",
+    "escapedName": "seedrandom",
+    "rawSpec": "2.4.3",
+    "saveSpec": null,
+    "fetchSpec": "2.4.3"
+  },
+  "_requiredBy": [
+    "/"
   ],
-  "scripts": {
-    "test": "grunt travis"
+  "_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz",
+  "_shasum": "2438504dad33917314bff18ac4d794f16d6aaecc",
+  "_spec": "seedrandom@2.4.3",
+  "_where": "C:\\dev\\indikatoren",
+  "author": {
+    "name": "David Bau"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/davidbau/seedrandom.git"
+  "browser": {
+    "crypto": false
   },
-  "author": "David Bau",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidbau/seedrandom/issues"
   },
-  "homepage": "http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html",
+  "bundleDependencies": false,
   "config": {
     "blanket": {
       "pattern": [
@@ -34,9 +45,8 @@
       ]
     }
   },
-  "browser": {
-    "crypto": false
-  },
+  "deprecated": false,
+  "description": "Seeded random number generator for Javascript.",
   "devDependencies": {
     "blanket": "latest",
     "grunt": "latest",
@@ -51,9 +61,22 @@
     "phantomjs-prebuilt": "latest",
     "proxyquire": "latest",
     "requirejs": "latest"
-  }
-
-,"_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz"
-,"_integrity": "sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw="
-,"_from": "seedrandom@2.4.3"
+  },
+  "homepage": "http://davidbau.com/archives/2010/01/30/random_seeds_coded_hints_and_quintillions.html",
+  "keywords": [
+    "seed",
+    "random",
+    "crypto"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "seedrandom",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidbau/seedrandom.git"
+  },
+  "scripts": {
+    "test": "grunt travis"
+  },
+  "version": "2.4.3"
 }

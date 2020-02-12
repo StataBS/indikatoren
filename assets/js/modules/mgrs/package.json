@@ -1,35 +1,59 @@
 {
-  "name": "mgrs",
-  "version": "1.0.0",
+  "_from": "mgrs@1.0.0",
+  "_id": "mgrs@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-+5FYjnjJACVnI5XLQLJffNatGCk=",
+  "_location": "/mgrs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "mgrs@1.0.0",
+    "name": "mgrs",
+    "escapedName": "mgrs",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/proj4"
+  ],
+  "_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz",
+  "_shasum": "fb91588e78c90025672395cb40b25f7cd6ad1829",
+  "_spec": "mgrs@1.0.0",
+  "_where": "C:\\dev\\indikatoren\\node_modules\\proj4",
+  "author": {
+    "name": "proj4 team"
+  },
+  "bugs": {
+    "url": "https://github.com/proj4js/mgrs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Utility for converting between WGS84 lat/lng and MGRS coordinates",
-  "main": "dist/mgrs.js",
-  "module": "mgrs.js",
-  "scripts": {
-    "test": "npm run build && istanbul test _mocha test/test.js",
-    "build": "mkdir -p dist && rollup -c"
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "istanbul": "~0.1.46",
+    "mocha": "~1.15.1",
+    "rollup": "^0.41.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/proj4js/mgrs.git"
-  },
+  "homepage": "https://github.com/proj4js/mgrs#readme",
   "keywords": [
     "mgrs",
     "proj4",
     "gis"
   ],
-  "author": "proj4 team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/proj4js/mgrs/issues"
+  "main": "dist/mgrs.js",
+  "module": "mgrs.js",
+  "name": "mgrs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/proj4js/mgrs.git"
   },
-  "devDependencies": {
-    "rollup": "^0.41.4",
-    "chai": "~1.8.1",
-    "istanbul": "~0.1.46",
-    "mocha": "~1.15.1"
-  }
-
-,"_resolved": "https://registry.npmjs.org/mgrs/-/mgrs-1.0.0.tgz"
-,"_integrity": "sha1-+5FYjnjJACVnI5XLQLJffNatGCk="
-,"_from": "mgrs@1.0.0"
+  "scripts": {
+    "build": "mkdir -p dist && rollup -c",
+    "test": "npm run build && istanbul test _mocha test/test.js"
+  },
+  "version": "1.0.0"
 }
