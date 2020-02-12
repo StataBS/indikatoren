@@ -806,7 +806,7 @@ var indikatorensetData = [
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "",
-		"kuerzel": "I.18.2.04863",
+		"kuerzel": "I.18.2.4863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"thema": "18 Öffentliche Finanzen",
@@ -815,27 +815,34 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-28T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-02-10T09:09:58.5858",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "19,9% der Steuerveranlagungen im Jahr 2015 enthielten Zuwendungen. Seit 2006 ist dieser Anteil tendenziell steigend.",
+		"lesehilfe": "20,1% der Steuerveranlagungen im Jahr 2016 enthielten Zuwendungen. Seit 2007 ist dieser Anteil tendenziell steigend.",
 		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
 		"template": "template001",
-		"orderKey": "03_01_00_00_00_000",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8402"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4863,
-		"darstellungsart": "Grafik"
+		"data-id": 4863,
+		"chart-id": 4863,
+		"filter": "",
+		"id": 4863
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
@@ -1115,8 +1122,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-23T06:19:38.3838",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-02-11T11:41:32.3232",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1126,10 +1133,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_000",
+		"orderKey": "03_03_00_00_00_032",
 		"parentId": null,
 		"children": [
-			"6042"
+			"6042",
+			"8410"
 		],
 		"renderLink": [],
 		"quellenangabe": [

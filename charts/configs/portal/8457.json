@@ -1,0 +1,409 @@
+{
+  "series": [
+    {
+      "color": "#d00000",
+      "stack": "m",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1968",
+          14
+        ],
+        [
+          "1972",
+          21
+        ],
+        [
+          "1976",
+          22
+        ],
+        [
+          "1980",
+          21
+        ],
+        [
+          "1984",
+          32
+        ],
+        [
+          "1988",
+          35
+        ],
+        [
+          "1992",
+          38
+        ],
+        [
+          "1996",
+          40
+        ],
+        [
+          "2000",
+          45
+        ],
+        [
+          "2004",
+          47
+        ],
+        [
+          "2008",
+          37
+        ],
+        [
+          "2012",
+          31
+        ],
+        [
+          "2016",
+          31
+        ]
+      ],
+      "name": "Gewählte Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stack": "m",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1968",
+          116
+        ],
+        [
+          "1972",
+          109
+        ],
+        [
+          "1976",
+          108
+        ],
+        [
+          "1980",
+          109
+        ],
+        [
+          "1984",
+          98
+        ],
+        [
+          "1988",
+          95
+        ],
+        [
+          "1992",
+          92
+        ],
+        [
+          "1996",
+          90
+        ],
+        [
+          "2000",
+          85
+        ],
+        [
+          "2004",
+          83
+        ],
+        [
+          "2008",
+          63
+        ],
+        [
+          "2012",
+          69
+        ],
+        [
+          "2016",
+          69
+        ]
+      ],
+      "name": "Gewählte Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffaaaa",
+      "stack": "w",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1968",
+          165
+        ],
+        [
+          "1972",
+          181
+        ],
+        [
+          "1976",
+          220
+        ],
+        [
+          "1980",
+          254
+        ],
+        [
+          "1984",
+          331
+        ],
+        [
+          "1988",
+          464
+        ],
+        [
+          "1992",
+          415
+        ],
+        [
+          "1996",
+          403
+        ],
+        [
+          "2000",
+          392
+        ],
+        [
+          "2004",
+          354
+        ],
+        [
+          "2008",
+          288
+        ],
+        [
+          "2012",
+          262
+        ],
+        [
+          "2016",
+          268
+        ]
+      ],
+      "name": "Kandidatinnen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#80eAf3",
+      "stack": "w",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1968",
+          655
+        ],
+        [
+          "1972",
+          753
+        ],
+        [
+          "1976",
+          700
+        ],
+        [
+          "1980",
+          721
+        ],
+        [
+          "1984",
+          791
+        ],
+        [
+          "1988",
+          873
+        ],
+        [
+          "1992",
+          793
+        ],
+        [
+          "1996",
+          632
+        ],
+        [
+          "2000",
+          681
+        ],
+        [
+          "2004",
+          624
+        ],
+        [
+          "2008",
+          542
+        ],
+        [
+          "2012",
+          507
+        ],
+        [
+          "2016",
+          495
+        ]
+      ],
+      "name": "Kandidaten",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-8457"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geschlechterverhältnis im Grossen Rat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003Cbr\u002F\u003E\u003Cb\u003E{point.y}\u003C\u002Fb\u003E Personen (\u003Cb\u003E{point.percentage:.1f}%\u003C\u002Fb\u003E von Total {point.stackTotal: ,2f} Personen)\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "reversedStacks": false
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-11"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5,
+    "x": 40
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "percent",
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8457
+  }
+}

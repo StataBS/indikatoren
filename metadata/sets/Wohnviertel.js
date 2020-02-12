@@ -173,7 +173,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.15.6.4826",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
@@ -183,14 +183,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:56:19.1919",
+		"aktualisierungsdatum": "2020-02-10T11:43:21.2121",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck liegt unverändert auf Position 1, wohingegen am anderen Ende des Spektrums das Wettsteinviertel das Bruderholz überholt hat.",
-		"erlaeuterungen": "Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Seit 2017/18 aufgrund der HarmoS-Anpassungen Anteil der Sek P-Schülerinnen und -schüler an allen Sek-Schülerinnen und Schülern. Im Übergangsjahr 2016/17 für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil.",
+		"lesehilfe": "Der Spitzenwert wird mit 65,9% im Schuljahr 2019/20 auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert wie bereits im Vorjahr das Wohnviertel Klybeck (15,7%). Insgesamt weisen 2019 elf Wohnviertel und die beiden Landgemeinden eine gegenüber 2018 tiefere Gymnasialquote auf (dies wohl nicht zuletzt als Folge des erschwerten Zugangs zum progymnasialen Leistungszug P an der Sekundarschule). In sieben Wohnvierteln ist die Quote gestiegen. Auf dem Bruderholz ist sie unverändert geblieben.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und -Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -216,7 +216,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
@@ -226,14 +226,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:19:05.055",
+		"aktualisierungsdatum": "2020-02-10T11:54:22.2222",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus dem Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -259,7 +259,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4828",
 		"kuerzelKunde": "GS-7.A",
 		"description": "Sesshaftigkeit",
@@ -269,24 +269,26 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-02T11:57:58.5858",
+		"aktualisierungsdatum": "2020-02-10T11:58:33.3333",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Riehen und im Wohnviertel Bruderholz ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, am grössten. Im Wohnviertel Rosental ist er am kleinsten. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden.",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
 		"children": [
-			"5115"
+			"5115",
+			"6373"
 		],
 		"renderLink": [
-			"5115"
+			"5115",
+			"6373"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -431,7 +433,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.02.1.4832",
 		"kuerzelKunde": "RU-3.A",
 		"description": "Anteil Grünflächen",
@@ -441,21 +443,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-14T09:36:42.4242",
+		"aktualisierungsdatum": "2020-02-10T12:00:23.2323",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"5119"
+			"5119",
+			"8284",
+			"8555"
 		],
 		"renderLink": [
 			"5119"
@@ -942,7 +946,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gymnasialquote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
@@ -952,14 +956,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:49:47.4747",
+		"aktualisierungsdatum": "2020-02-11T08:24:50.5050",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quoten 2018 fallen gegenüber dem Vorjahr zumeist tiefer aus. Das Wohnviertel Klybeck liegt unverändert auf Position 1, wohingegen am anderen Ende des Spektrums das Wettsteinviertel das Bruderholz überholt hat.",
-		"erlaeuterungen": "Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen gezählt) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Seit 2017/18 aufgrund der HarmoS-Anpassungen Anteil der Sek P-Schülerinnen und -schüler an allen Sek-Schülerinnen und Schülern. Im Übergangsjahr 2016/17 für Stufe 10 der Sek P-Anteil und für Stufe 11 der Gym-Anteil.",
+		"lesehilfe": "Der Spitzenwert wird mit 65,9% im Schuljahr 2019/20 auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert wie bereits im Vorjahr das Wohnviertel Klybeck (15,7%). Insgesamt weisen 2019 elf Wohnviertel und die beiden Landgemeinden eine gegenüber 2018 tiefere Gymnasialquote auf (dies wohl nicht zuletzt als Folge des erschwerten Zugangs zum progymnasialen Leistungszug P an der Sekundarschule). In sieben Wohnvierteln ist die Quote gestiegen. Auf dem Bruderholz ist sie unverändert geblieben.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und -Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -983,7 +987,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.05114",
 		"kuerzelKunde": "GS-6.B",
 		"description": "Altersquotient",
@@ -993,20 +997,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:50:23.2323",
+		"aktualisierungsdatum": "2020-02-10T17:15:48.4848",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient gibt das Verhältnis der Anzahl über 64-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Altersquotient ergibt sich aus dem Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_006",
 		"parentId": 4827,
-		"children": [],
+		"children": [
+			"8320",
+			"8591"
+		],
 		"renderLink": [
 			"4827"
 		],
@@ -1024,7 +1031,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
@@ -1034,14 +1041,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:50:42.4242",
+		"aktualisierungsdatum": "2020-02-11T08:23:01.011",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Riehen und im Wohnviertel Bruderholz ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, am grössten. Im Wohnviertel Rosental ist er am kleinsten. Dies liegt unter anderem daran, dass im Wohnviertel Rosental in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden.",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -1188,7 +1195,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Grünflächen",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.02.1.05119",
 		"kuerzelKunde": "RU-3.B",
 		"description": "Anteil Grünflächen",
@@ -1198,14 +1205,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:52:30.3030",
+		"aktualisierungsdatum": "2020-02-11T08:38:36.3636",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6–12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",

@@ -5,7 +5,7 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.067259476
+          0.0666591589
         ],
         [
           "Altstadt Kleinbasel",
@@ -13,79 +13,79 @@
         ],
         [
           "Klybeck",
-          0.1199746955
+          0.123419748
         ],
         [
           "Rosental",
-          0.1400398587
+          0.145365968
         ],
         [
           "Clara",
-          0.1596210671
+          0.159184092
         ],
         [
           "Matthäus",
-          0.1653432841
+          0.1653368754
         ],
         [
           "Gundeldingen",
-          0.1759519674
+          0.1774198731
         ],
         [
           "Vorstädte",
-          0.1947071744
+          0.1947799544
         ],
         [
           "Kleinhüningen",
-          0.2255022919
+          0.2240506642
         ],
         [
           "Am Ring",
-          0.2415029502
+          0.2412124253
         ],
         [
           "Wettstein",
-          0.2792035016
+          0.278453652
         ],
         [
           "St. Johann",
-          0.2842565586
+          0.282953173
         ],
         [
           "Gotthelf",
-          0.322336817
+          0.3197877716
         ],
         [
           "St. Alban",
-          0.3251612185
+          0.3233511533
         ],
         [
           "Breite",
-          0.3599290089
+          0.3593640802
         ],
         [
           "Iselin",
-          0.3676661667
+          0.370621891
         ],
         [
           "Bachletten",
-          0.4134473173
+          0.4131432106
         ],
         [
           "Hirzbrunnen",
-          0.5926365548
+          0.5975573457
         ],
         [
           "Bruderholz",
-          0.7130779141
+          0.7130501471
         ],
         [
           "Riehen",
-          0.7962272279
+          0.7962399194
         ],
         [
           "Bettingen",
-          0.9017231209
+          0.9019785762
         ]
       ],
       "name": "Anteil Grünflächen",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-14"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "enabled": false,

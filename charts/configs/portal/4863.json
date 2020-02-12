@@ -4,10 +4,6 @@
       "color": "#FF8028",
       "data": [
         [
-          2006,
-          16.480775140548
-        ],
-        [
           2007,
           17.327752912017
         ],
@@ -42,9 +38,13 @@
         [
           2015,
           19.928930490552
+        ],
+        [
+          2016,
+          20.11370116
         ]
       ],
-      "name": "Anteil Veranlagungen mit Zuwendung"
+      "name": "Anteil Veranlagungen mit Zuwendungen"
     }
   ],
   "chart": {
@@ -90,16 +90,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ") + '%';
-            }
-            return "";
-          }
+        }
       }
     }
   },
@@ -178,7 +169,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-2-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "symbolRadius": 0,
