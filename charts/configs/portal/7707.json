@@ -6992,19 +6992,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: " < \u00A0\u00A0 300",
+								name: "< <span style='color: rgba(0,0,0,0)'>1 </span>300",
 								from: 0,
 								to: 299,
 								diameter: 5
 							},
 							{
-								name: "300 \u00A0−  1 299",
+								name: "300 − 1 299",
 								from: 300,
 								to: 1299,
 								diameter: 10
 							},
 							{
-								name: "≥  1 300",
+								name: "≥ 1 300",
 								from: 1300,
 								to: 1000000000,
 								diameter: 20
@@ -7013,7 +7013,7 @@
 
 					//define different colors for positive and negative values
 					var color = function (value) {
-						return (value >= 0) ? '#67401E' : '#67401E';
+						return (value >= 0) ? '#662673' : '#67401E';
 					};
 
 					//define chart-specific details
@@ -7041,11 +7041,11 @@
 					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
 					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 365, 220, undefined, true);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#67401E');
+					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
+					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#662673');
+					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#662673');
 					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#67401E');
 					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#67401E');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
 
 
@@ -7093,7 +7093,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003ELufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003ELufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-14"
   },
   "colorAxis": {
     "min": 0,
@@ -7116,19 +7116,19 @@
         "from": 0,
         "to": 2.99,
         "color": "#D7E8D2",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E........\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E 3,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,0\u003C\u002Fspan\u003E \u003C \u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E3,0"
       },
       {
         "from": 3,
         "to": 6.99,
         "color": "#73B97C",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.\u003C\u002Fspan\u003E 3,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E 6,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E3,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E6,9"
       },
       {
         "from": 7,
         "to": 11.99,
         "color": "#68AB2B",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E.\u003C\u002Fspan\u003E 7,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E 11,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E7,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E\u003C\u002Fspan\u003E11,9"
       },
       {
         "from": 12,
@@ -7139,7 +7139,7 @@
       {
         "from": 16,
         "color": "#0A3B19",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E........\u003C\u002Fspan\u003E ≥ 16,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E12,0\u003C\u002Fspan\u003E ≥ 16,0"
       }
     ]
   },

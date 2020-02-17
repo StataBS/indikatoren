@@ -1,10 +1,4 @@
-/*  
-	global Highcharts
-	global geojson_wohnviertelEPSG2056 
-	global $
-*/
 (function () {
-
 	return {
 		"legend": {
 			useHTML: false,
@@ -26,17 +20,17 @@
 				from: 0,
 				to: 4.99,
 				color: '#FFDA80',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> <<span style='color: rgba(0,0,0,0)'>0</span> 5,0"
+				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> < <span style='color: rgba(0,0,0,0)'>0</span>5,0"
 			}, {
 				from: 5.0,
 				to: 9.99,
 				color: '#FABD24',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 5,0 −<span style='color: rgba(0,0,0,0)'>0</span> 9,9"
+				name: "<span style='color: rgba(0,0,0,0)'>2</span>5,0 − <span style='color: rgba(0,0,0,0)'>0</span>9,9"
 			}, {
 				from: 10.0,
 				to: 19.99,
 				color: '#CD9C00',
-				name: "10,0 −<span style='color: rgba(0,0,0,0)'></span> 19,9"
+				name: "10,0 − 19,9"
 			}, {
 				from: 20.0,
 				to: 49.99,
@@ -45,7 +39,7 @@
 			}, {
 				from: 50.0,
 				color: '#45381D',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> ≥ 50,0"
+				name: "<span style='color: rgba(0,0,0,0)'>20,0</span> ≥ 50,0"
 			}],
 		},
 		"data": {
@@ -58,6 +52,9 @@
 					y: 3
 				}
 			]
+		},
+		tooltip: {
+			useHTML: true
 		},
 		"series": [
 			{
@@ -106,19 +103,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: " < \u00A0\u00A0 600",
+								name: " < <span style='color: rgba(0,0,0,0)'>1 </span>600",
 								from: 0,
 								to: 599,
 								diameter: 5
 							},
 							{
-								name: "600 \u00A0−  1 499",
+								name: "600 − 1 499",
 								from: 600,
 								to: 1499,
 								diameter: 10
 							},
 							{
-								name: "≥  1 500",
+								name: "≥ 1 500",
 								from: 1500,
 								to: 1000000000,
 								diameter: 20
@@ -127,7 +124,7 @@
 
 					//define different colors for positive and negative values
 					var color = function (value) {
-						return (value >= 0) ? '#007A2F' : '#007A2F';
+						return (value >= 0) ? '#5badff' : '#007A2F';
 					};
 
 					//define chart-specific details
@@ -155,11 +152,11 @@
 					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 30 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
 					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 30 µg/m<sup>3</sup>", 365, 220, undefined, true);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#007A2F');
+					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#5badff');
+					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#5badff');
+					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#5badff');
 					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#007A2F');
 					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#007A2F');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
 
 
