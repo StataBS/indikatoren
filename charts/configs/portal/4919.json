@@ -123,9 +123,13 @@
         [
           2018,
           30558
+        ],
+        [
+          2019,
+          31969
         ]
       ],
-      "name": "Mio Franken"
+      "name": "Mio. Franken"
     }
   ],
   "chart": {
@@ -222,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-4"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
   },
   "legend": {
     "enabled": false,

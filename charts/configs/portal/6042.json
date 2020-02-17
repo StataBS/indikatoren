@@ -26,6 +26,10 @@
         [
           "2016 (GR)",
           41.7
+        ],
+        [
+          "2019 (NR)",
+          47.7
         ]
       ],
       "name": "Wahlbeteiligung",
@@ -45,7 +49,10 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "formatter": function () {
+          return this.value.replace(' ', '<br>');
+        }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -81,7 +88,7 @@
             }
           }
     },
-    "marginBottom": 65,
+    "marginBottom": 75,
     "marginTop": 75,
     "type": "column",
     "renderTo": "container-6042",
@@ -93,9 +100,7 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        },
-        "enabled": true,
-        "format": "{y:,.1f}%"
+        }
       }
     }
   },
@@ -115,7 +120,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -134,7 +139,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "tickInterval": 10
   },
   "navigation": {
     "menuItemStyle": {
@@ -155,7 +161,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-11"
   },
   "legend": {
     "symbolRadius": 0,
@@ -165,7 +171,6 @@
     "enabled": false
   },
   "tooltip": {
-    "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {

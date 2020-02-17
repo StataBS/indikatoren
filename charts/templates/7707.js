@@ -26,17 +26,17 @@
 				from: 0,
 				to: 2.99,
 				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> <<span style='color: rgba(0,0,0,0)'>0</span> 3,0"
+				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> < <span style='color: rgba(0,0,0,0)'>1</span>3,0"
 			}, {
 				from: 3.0,
 				to: 6.99,
 				color: '#73B97C',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 3,0 −<span style='color: rgba(0,0,0,0)'>0</span> 6,9"
+				name: "<span style='color: rgba(0,0,0,0)'>1</span>3,0 − <span style='color: rgba(0,0,0,0)'>1</span>6,9"
 			}, {
 				from: 7.0,
 				to: 11.99,
 				color: '#68AB2B',
-				name: "<span style='color: rgba(0,0,0,0)'>.</span> 7,0 −<span style='color: rgba(0,0,0,0)'></span> 11,9"
+				name: "<span style='color: rgba(0,0,0,0)'>1</span>7,0 − <span style='color: rgba(0,0,0,0)'></span>11,9"
 			}, {
 				from: 12.0,
 				to: 15.99,
@@ -45,7 +45,7 @@
 			}, {
 				from: 16.0,
 				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>........</span> ≥ 16,0"
+				name: "<span style='color: rgba(0,0,0,0)'>12,0</span> ≥ 16,0"
 			}],
 		},
 		"data": {
@@ -106,19 +106,19 @@
 					var pieSizeCatConfig =
 						[
 							{
-								name: " < \u00A0\u00A0 300",
+								name: "< <span style='color: rgba(0,0,0,0)'>1 </span>300",
 								from: 0,
 								to: 299,
 								diameter: 5
 							},
 							{
-								name: "300 \u00A0−  1 299",
+								name: "300 − 1 299",
 								from: 300,
 								to: 1299,
 								diameter: 10
 							},
 							{
-								name: "≥  1 300",
+								name: "≥ 1 300",
 								from: 1300,
 								to: 1000000000,
 								diameter: 20
@@ -127,7 +127,7 @@
 
 					//define different colors for positive and negative values
 					var color = function (value) {
-						return (value >= 0) ? '#67401E' : '#67401E';
+						return (value >= 0) ? '#662673' : '#67401E';
 					};
 
 					//define chart-specific details
@@ -155,11 +155,11 @@
 					fn.addLegendTitle(chart, "Anteil Einwohner <br/> über 20 µg/m<sup>3</sup> in %", 245, 220, undefined, true); //addLegendTitle: function (chart, text, x, y, cssClass, useHtml)
 					fn.addLegendTitle(chart, "Anzahl Einwohner <br/> über 20 µg/m<sup>3</sup>", 365, 220, undefined, true);
 
-					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#67401E');
+					fn.addLegendCircle(chart, 378, 271, 0.5 * pieSizeCatConfig[0].diameter, '#662673');
+					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#662673');
+					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#662673');
 					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 260, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 290, 0.5 * pieSizeCatConfig[1].diameter, '#67401E');
 					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, 465, 280, undefined, false, 'right');
-					fn.addLegendCircle(chart, 378, 315, 0.5 * pieSizeCatConfig[2].diameter, '#67401E');
 					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, 465, 305, undefined, false, 'right');
 
 

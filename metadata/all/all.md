@@ -329,12 +329,12 @@ id | visible | visibleInPortal | indikatorenset
 5184 | true | false | Nachhaltigkeit
 5185 | true | false | Nachhaltigkeit
 5186 | true | true | Nachhaltigkeit
-5188 | true | true | Nachhaltigkeit
+5188 | true | false | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
 5192 | true | true | Nachhaltigkeit
 5193 | true | true | Nachhaltigkeit
-5194 | true | false | Nachhaltigkeit
+5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
 5196 | true | true | Nachhaltigkeit
 5197 | true | false | Nachhaltigkeit
@@ -401,7 +401,7 @@ id | visible | visibleInPortal | indikatorenset
 6043 | true | false | Nachhaltigkeit
 6044 | true | true | 
 6045 | true | false | Nachhaltigkeit
-6046 | true | true | Nachhaltigkeit
+6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
 6048 | true | false | Nachhaltigkeit
 6049 | true | false | Nachhaltigkeit
@@ -1304,7 +1304,10 @@ id | visible | visibleInPortal | indikatorenset
 7993 | true | true | City-Statistics
 8078 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8348 | true | true | 
+8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
+8448 | true | false | Nachhaltigkeit
+8457 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
