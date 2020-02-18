@@ -30,6 +30,9 @@
         "fontWeight": "normal"
       }
     },
+    "chart": {
+      "marginRight": 20
+    },
     "plotOptions": {
       "line": {
         "marker":{

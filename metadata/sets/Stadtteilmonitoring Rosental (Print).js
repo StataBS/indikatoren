@@ -822,18 +822,18 @@ var indikatorensetData = [
 		"id": 7922
 	},
 	{
-		"title": "Umbausaldo, nach Art des Umbaus",
-		"subtitle": "Wohnviertel Rosental",
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel Rosental",
 		"kuerzel": "I.09.1.07923",
 		"kuerzelKunde": "4.08",
-		"description": "Umbausaldo, nach Art des Umbaus",
+		"description": "Umgebaute Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
+		"aktualisierungsdatum": "2020-02-17T09:06:06.066",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",

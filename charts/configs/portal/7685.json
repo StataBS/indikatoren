@@ -362,7 +362,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Umbausaldo, nach Art des Umbaus"
+    "text": "Umgebaute Wohnungen"
   },
   "subtitle": {
     "style": {
@@ -371,7 +371,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Rosental",
+    "text": "nach Art des Umbaus, Wohnviertel Rosental",
     "align": "left"
   },
   "xAxis": {
@@ -436,7 +436,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "symbolRadius": 0,

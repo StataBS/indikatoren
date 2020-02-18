@@ -3,73 +3,73 @@
     {
       "data": [
         {
-          "x": 33,
-          "y": 54.4,
-          "z": 44.9,
-          "name": "CH",
+          "x": 33.5,
+          "y": 55.2,
+          "z": 45.9,
+          "name": "Schweiz",
           "color": "rgb(176, 0, 0)"
         },
         {
-          "x": 14.2,
-          "y": 1.6,
-          "z": 0.9,
-          "name": "DE",
+          "x": 14.4,
+          "y": 6.9,
+          "z": 3.6,
+          "name": "Deutschland",
           "color": "rgb(255, 128, 40)"
         },
         {
-          "x": 10.3,
-          "y": 50.3,
-          "z": 13.3,
-          "name": "US",
+          "x": 10,
+          "y": 42.4,
+          "z": 11.5,
+          "name": "USA",
           "color": "rgb(115, 186, 124)"
         },
         {
-          "x": 6.9,
-          "y": 17.3,
-          "z": 3.9,
-          "name": "GB",
+          "x": 6.3,
+          "y": 10.4,
+          "z": 2.3,
+          "name": "UK",
           "color": "rgb(180, 117, 171)"
         },
         {
-          "x": 4.3,
-          "y": 33.2,
-          "z": 4.2,
-          "name": "FR",
+          "x": 4,
+          "y": 20.4,
+          "z": 2.6,
+          "name": "Frankreich",
           "color": "rgb(8, 161, 217)"
         },
         {
-          "x": 3.4,
-          "y": 10.9,
-          "z": 1.3,
-          "name": "IT",
+          "x": 3.1,
+          "y": 4.7,
+          "z": 0.5,
+          "name": "Italien",
           "color": "rgb(131, 82, 46)"
         },
         {
-          "x": 2.5,
-          "y": 38.1,
-          "z": 2.7,
-          "name": "ES",
+          "x": 2.4,
+          "y": 37.2,
+          "z": 2.5,
+          "name": "Spanien",
           "color": "rgb(255, 232, 70)"
         },
         {
-          "x": 2.2,
-          "y": 2.3,
-          "z": 0.2,
-          "name": "NL",
+          "x": 2.3,
+          "y": 8.7,
+          "z": 0.7,
+          "name": "Niederlande",
           "color": "rgb(60, 60, 60)"
         },
         {
-          "x": 1.8,
-          "y": 167.4,
-          "z": 4.3,
-          "name": "IN",
+          "x": 1.5,
+          "y": 108.2,
+          "z": 3.1,
+          "name": "Indien",
           "color": "rgb(0, 122, 47)"
         },
         {
-          "x": 1.5,
-          "y": 69.4,
-          "z": 2.4,
-          "name": "CN",
+          "x": 2.7,
+          "y": 180.4,
+          "z": 6.6,
+          "name": "VR China",
           "color": "rgb(103, 39, 115)"
         }
       ],
@@ -78,19 +78,28 @@
   ],
   "chart": {
     "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-                  //for top-left legends with no x defined: move legend to x position of first yAxis
-                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                    this.update(
-                      {
-                        legend: {
-                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                        }
-                      }
-                    );
-                  }              
-                }
+      "load": function () {
+          var chart = this;
+          chart.series.forEach(function (series) {
+            series.points.forEach(function (point) {
+              var x = 0, y = 0;
+              switch (point.name) {
+                case 'Schweiz': case 'Schweiz': x = 0; y = -3; break; //ent-kommentieren falls gewünscht
+                case 'DE': case 'Deutschland': x = 0; y = -3; break;
+                case 'US': case 'USA': x = 0; y = -3; break;
+                case 'GB': case 'UK': x = 15; y = 25; break;
+                case 'FR': case 'Frankreich': x = 15; y = -3; break;
+                case 'IT': case 'Italien': x = 15; y = 20; break;
+                case 'ES': case 'Spanien': x = -10; y = -5; break;
+                case 'NL': case 'Niederlande': x = -10; y = 28; break;
+                case 'IN': case 'Indien': x = 0; y = -5; break;
+                case 'CN': case 'VR China': x = 0; y = -10; break;
+
+              }
+              point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
+            });
+          });
+        }
     },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -121,7 +130,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -133,7 +142,7 @@
         "color": "black",
         "fontSize": "11px"
       },
-      "text": "Veränderung Logiernächte 2018 gegenüber Ø 2007\u003Cspan\u003E-\u003C\u002Fspan\u003E2011"
+      "text": "Veränderung Logiernächte 2019 gegenüber Ø 2008\u003Cspan\u003E-\u003C\u002Fspan\u003E2012"
     },
     "labels": {
       "style": {
@@ -153,7 +162,7 @@
         "color": "black",
         "fontSize": "11px"
       },
-      "text": "Anteile am Übernachtungsvolumen 2018"
+      "text": "Anteile am Übernachtungsvolumen 2019"
     },
     "labels": {
       "style": {
@@ -179,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "enabled": false,
@@ -188,7 +197,7 @@
   "tooltip": {
     "useHTML": false,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EAnteile am Übernachtungsvolumen 2018:\u003Cb\u003E {point.x}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EVeränderung 2018 gegenüber dem Mittelwert 2007-2011:\u003Cb\u003E {point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EWachstumsbeitrag:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EAnteile am Übernachtungsvolumen 2019:\u003Cb\u003E {point.x:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EVeränderung 2019 gegenüber dem Mittelwert 2008-2012:\u003Cb\u003E {point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EWachstumsbeitrag:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },
@@ -209,9 +218,12 @@
           "fontWeight": "normal",
           "textShadow": "none"
         },
-        "formatter": function(){
-                        return this.key.replace(" ", "<br/>");// + ': ' + this.point.z + '%';
-                    },
+        "formatter": function () {
+              return this.point.name.replace('Niederlande', 'Nieder-<br>lande');
+              //only return last word
+              //return this.name.split(" ").slice(-1);
+              //return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
+            },
         "inside": false,
         "y": -5,
         "padding": 0,

@@ -20,8 +20,8 @@
   },
   yAxis: {
       reversedStacks: false, 
-      max: 9000,
-      tickInterval: 1800,
+      max: 9500,
+      tickInterval: 1900,
       labels: { 
       	format: "{value:,.0f}", 
       	style:{ color: "black", },
@@ -66,6 +66,7 @@
   },
   chart: {
       type: 'bar',
+      marginRight: 15
  }, 
  tooltip: {
      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>'

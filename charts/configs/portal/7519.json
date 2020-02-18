@@ -1,52 +1,52 @@
 {
   "series": [
     {
-      "borderWidth": 2,
+      "borderWidth": 0,
       "name": "Anteil",
       "data": [
         [
           "Schweiz",
-          0.330330566
+          0.334936206
         ],
         [
           "Deutschland",
-          0.141756323
+          0.144316839
         ],
         [
           "Vereinigte Staaten",
-          0.102961488
+          0.100069829
         ],
         [
           "Vereinigtes Königreich",
-          0.068717684
+          0.062701003
         ],
         [
           "Frankreich",
-          0.043428809
+          0.040173911
         ],
         [
           "Italien",
-          0.034251016
+          0.030934621
         ],
         [
           "Spanien",
-          0.0250826
+          0.023913126
         ],
         [
           "Niederlande",
-          0.02185721
+          0.022966155
         ],
         [
           "Indien",
-          0.017664636
+          0.015393899
         ],
         [
           "China, Hongkong, Taiwan",
-          0.015162651
+          0.026638829
         ],
         [
           "Übrige Länder",
-          0.198787017
+          0.197955582
         ]
       ],
       "turboThreshold": 0
@@ -119,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -140,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "layout": "vertical",
