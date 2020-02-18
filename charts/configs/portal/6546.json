@@ -344,6 +344,10 @@
         [
           "2018",
           458003
+        ],
+        [
+          "2019",
+          476777
         ]
       ],
       "name": "Logiernächte Inland",
@@ -693,6 +697,10 @@
         [
           "2018",
           928496
+        ],
+        [
+          "2019",
+          946709
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -711,7 +719,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 6
+    "tickInterval": 17
   },
   "chart": {
     "events": {
@@ -749,7 +757,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Entwicklung der Logiernächte nach Herkunft der Gäste"
+    "text": "Logiernächte nach Herkunft der Gäste"
   },
   "subtitle": {
     "style": {
@@ -797,7 +805,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "enabled": true,

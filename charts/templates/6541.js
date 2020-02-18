@@ -7,7 +7,7 @@
       step: 1,
       formatter: function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
           return this.value;
         }
       }
@@ -37,8 +37,8 @@
     },
     {
       opposite: true,
-      max: 9000,
-      tickInterval: 1800,
+      max: 9500,
+      tickInterval: 1900,
       tickAmount: 6,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
