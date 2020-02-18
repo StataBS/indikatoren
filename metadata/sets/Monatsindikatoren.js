@@ -209,7 +209,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:34:13.1313",
+		"aktualisierungsdatum": "2020-02-17T18:15:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, November",
+		"subtitle": "Basel-Stadt, Dezember",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:32:49.4949",
+		"aktualisierungsdatum": "2020-02-17T18:19:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 50%.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 48%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

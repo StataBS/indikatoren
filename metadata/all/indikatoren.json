@@ -22465,7 +22465,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:47.4747",
+		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -22486,8 +22486,7 @@
 			"6392"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -22993,7 +22992,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23007,13 +23006,15 @@
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": 6380,
-		"children": [],
+		"children": [
+			"8241",
+			"8512"
+		],
 		"renderLink": [
 			"6380"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -27836,21 +27837,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden in Basel-Stadt 65 geöffnete Hotelbetriebe verzeichnet. Die meisten davon sind im Bereich der gehobenen Mittelklasse angesiedelt: Vier von zehn Hotels sind 3-Sterne-Betriebe. Trotz einigen Schliessungen und Neueröffnungen blieb die Gesamtzahl der Hotels 2018 im Vergleich zum Jahr 2009 gleich, während sich das Zimmer- und Bettenangebot in allen Hotelkategorien ausdehnte. Verantwortlich für diese Entwicklung waren vor allem Betriebseröffnungen grösserer Hotelketten.",
+		"lesehilfe": "2019 waren durchschnittlich 63 Hotelbetriebe im Kanton Basel-Stadt geöffnet. Von diesen gehörten 18 Betriebe zur Kategorie der 4- oder 5-Sterne-Hotels, 25 Betriebe zur Kategorie der 3-Sterne-Hotels, 9 Betriebe zu den 1- und 2-Sterne-Hotels sowie 11 Betriebe zur nicht klassierten Kategorie. Im Vergleich zu 2010 hat die durchschnittliche Zahl geöffneter Betriebe im Jahr 2019 um 4 Betriebe abgenommen.",
 		"erlaeuterungen": "Anzahl der im Erhebungsjahr während mindestens einem Tag geöffneten Hotels, Appartementhäuser, Hostels, Jugendherbergen, Backpackers und B&Bs, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_001",
+		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7972"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -27876,14 +27879,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-08T14:07:13.1313",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 betrug die durchschnittliche Betriebsgrösse 68 Zimmer. Trotz der mit Ausnahme von 4- oder 5-Sterne-Hotels in der letzten Dekade zu beobachtenden Tendenz zu grösseren Hotels zeigt dies, dass die Basler Hotellerie nach wie vor von mittelgrossen Betrieben geprägt ist. 2018 entfielen im Schnitt 73 Zimmer auf Häuser mit 1 und 2 Sternen, 63 auf 3-Sterne-Hotels, 100 auf Hotels mit 4 und 5 Sternen sowie 29 Zimmer auf nicht klassierte Betriebe.",
-		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet.",
+		"lesehilfe": "2019 betrug die durchschnittliche Betriebsgrösse 71 Zimmer. Dies sind 15 mehr als noch vor zehn Jahren. Nach Hotelkategorie betrachtet entfielen durchschnittlich 96 Zimmer auf die Betriebe mit 4 oder 5 Sternen, 68 auf die 3-Sterne-Hotels, 79 Zimmer auf 1- und 2-Sterne-Hotels sowie 31 Zimmer auf die nicht klassierten Kategorien. In den letzten zehn Jahren ist die Zahl der Zimmer in den 1-, 2- und 3-Sterne-Hotels stetig gestiegen, während die Tendenz in den 4- und 5-Sterne-Häusern eher sinkend ist.",
+		"erlaeuterungen": "Als durchschnittliche Betriebsgrösse wird die Anzahl Zimmer je Betrieb bezeichnet. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des BFS angepasst. Für den Jahresvergleich wurde die Berechnung für 2010 rückwirkend angepasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -27918,22 +27921,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 standen den Gästen der Basler Hotellerie insgesamt 4 411 Zimmer zur Verfügung. Drei Viertel davon entfielen auf die Betriebe mit 3 , 4 und 5 Sternen. Die Nettozimmerauslastung zeigt, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war. Bei den nicht klassierten Betrieben nahm diese von 2009 bis 2018 um 18,9 Prozentpunkte zu. Ein Teil des Zuwachses in dieser Kategorie ist jedoch mit der Aufnahme der Jugendherberge in die Statistik zu erklären. Bei den anderen Kategorien stieg die Nettozimmerauslastung über denselben Zeitraum nur leicht. Über alle Kategorien betrachtet waren die Zimmer 2018 zu 62,9% ausgelastet (2009: 60,6%).",
-		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
+		"lesehilfe": "2019 standen den Gästen der Basler Hotellerie insgesamt 4 467 Zimmer zur Verfügung. Davon entfielen 1 726 Zimmer auf die Betriebe mit 4 oder 5 Sternen, 1 690 Zimmer auf die 3-Sterne-Hotels, 709 Zimmer auf 1- und 2-Sterne-Hotels sowie 342 Zimmer auf die nicht klassierte Kategorie. Bei den nicht klassierten Betrieben nahm die Nettozimmerauslastung von 2010 bis 2019 um 21,2 Prozentpunkte zu. Ein Teil des Zuwachses in dieser Kategorie ist jedoch mit der Aufnahme der Jugendherberge in die Statistik zu erklären. Bei den 4- und 5-Sterne-Betrieben stieg die Nettozimmerauslastung über denselben Zeitraum um 6,5 Prozentpunkte. Bei den 1-, 2- und 3-Sterne-Hotels sank diese leicht. Über alle Kategorien betrachtet waren die Zimmer 2019 zu 64,6% ausgelastet.",
+		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen belegt war, an denen der Betrieb geöffnet war, und das Zimmer zur Verfügung stand. 2019 wurde die Berechnung der Anzahl verfügbarer Zimmer an die Methodik des BFS angepasst. Für den Jahresvergleich wurde die Berechnung für 2010 rückwirkend angepasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_003",
+		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"7543"
+			"7543",
+			"7974"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27960,21 +27964,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Auslastung der Hotelzimmer ist im Wochen- und Jahresverlauf grossen Schwankungen unterworfen. Während 2018 die Auslastung an Werktagen durchschnittlich 70,4% betrug und zur Zeit der wichtigsten Messen wie der «Baselworld» und der «Art Basel» zwischen 95 und 97% lag, fielen die Wochenendzahlen im Vergleich dazu tiefer aus (52,8%). Stände heute die gleiche Zimmerzahl zur Verfügung wie 2009, so würde die Auslastung an den Werktagen 87,9% und an den Wochenenden 65,9% betragen.",
+		"lesehilfe": "2019 lag die Nettozimmerauslastung von Montag bis Donnerstag durchschnittlich bei 71,5%. An Wochenenden von Freitag bis Sonntag betrug sie 55,5%. Über die ganze Woche verteilt lag die Auslastung bei 64,6%. Verglichen mit 2010 ist die durchschnittliche Nettozimmerauslastung um 3,5 Prozentpunkte gestiegen. Die Auslastung hat sich an Werktagen kaum verändert (+0,2 Prozentpunkte), während die Auslastung an Wochenenden um 7,9 Prozentpunkte gestiegen ist.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_004",
+		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7975"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28000,21 +28006,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden in den 65 Beherbergungsbetrieben insgesamt 8 939 Betten gezählt. Zu Beginn der Erhebung im Jahr 1934 hatte die Basler Hotellerie über 42 Betriebe mit 2 228 Betten verfügt.",
-		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
+		"lesehilfe": "2019 gab es in den 63 baselstädtischen Hotels insgesamt 9 175 Betten. In der ersten Erhebung 1934 gab es in 42 Betrieben insgesamt 2 228 Betten.",
+		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_005",
+		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7976"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28040,21 +28048,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die «vorhandenen Betten» entsprechen dem Total aller Hotelbetten im Kanton. Verschiedene Betriebe sind aufgrund Betriebsferien, Renovationen usw. zeitweilig geschlossen. Die für den Gast tatsächlich zugänglichen Betten werden als «verfügbare Betten» ausgewiesen. Von diesen verzeichnete der Stadtkanton 2018 rund 9 000. Gegenüber 2017 entspricht dies einer Zunahme um 2,8%. Die Hälfte der 246 hinzugekommenen Betten fallen auf Betriebe mit 4 oder 5 Sternen.",
-		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. Deshalb ist die Bettenzahl ab 2016 mit den früher publizierten Daten der vergangenen Jahre nicht vergleichbar.",
+		"lesehilfe": "2019 standen den Gästen insgesamt 9 175 Betten in den baselstädtischen Hotels zur Verfügung. Gegenüber 2018 bedeutet dies eine Zunahme um 1,7% bzw. 149 Betten. Von den 9 175 Betten entfielen 3 299 auf Betriebe mit 4 oder 5 Sternen, 3 329 auf die 3-Sterne-Hotels, 1 752 Betten auf 1- und 2-Sterne-Hotels sowie 796 Betten auf die nicht klassierten Betriebe.",
+		"erlaeuterungen": "Seit 2016 werden bei allen Hotels die Doppelbetten, welche eine Schlafgelegenheit für zwei Personen anbieten, als zwei Betten in der Statistik aufgeführt. 2019 wurde die Berechnung der Anzahl verfügbarer Betten an die Methodik des BFS angepasst. Für den Jahresvergleich wurde die Berechnung für 2018 rückwirkend angepasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_006",
+		"orderKey": "01_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7977"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28080,21 +28090,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Besucherinnen und Besucher aus der Schweiz blieben 2018 etwas kürzer (1,69 Tage) als diejenigen aus dem Ausland (1,97). Bis Mitte der 1990er-Jahre, mit Ausnahme der Kriegsjahre 1940-1944, war es umgekehrt.",
+		"lesehilfe": "2019 blieben die Gäste durchschnittlich 1,88 Tage in einem der Hotelbetriebe des Kantons Basel-Stadt. Unterschiede gibt es bei inländischen und ausländischen Gästen: So blieben Schweizer Gäste im Durchschnitt mit 1,67 Tage kürzer als diejenigen aus dem Ausland mit durchschnittlich 2,01 Tagen. Bis Mitte der 1990er-Jahre, mit Ausnahme der Kriegsjahre 1940-1944, war es umgekehrt.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_007",
+		"orderKey": "01_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7978"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28110,7 +28122,7 @@
 	},
 	{
 		"title": "Mittlere Aufenthaltsdauer pro Monat",
-		"subtitle": "in Tagen, Basel-Stadt, 2018",
+		"subtitle": "in Tagen, Basel-Stadt, 2019",
 		"kuerzel": "I.10.1.6544",
 		"kuerzelKunde": "2-8",
 		"description": "Mittlere Aufenthaltsdauer pro Monat",
@@ -28120,21 +28132,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Monat März scheint bei beiden Gästegruppen bevorzugt für längere Aufenthalte genutzt zu werden: Die Aufenthalte ausländischer Gäste dauerten im Schnitt 2,20 Tage, die der Inlandgäste 1,93 Tage. Am kürzesten blieben die Gäste aus dem Ausland im Juli (1,82 Tage). Die Schweizer Besucher verweilten mit jeweils 1,57 Tagen am kürzesten in den Monaten Oktober und Dezember. Grosse Unterschiede gab es auch bei den Herkunftsländern: Während Touristen aus weit entfernten Destinationen wie Katar und Indien durchschnittlich 5,22 bzw. 3,19 Tage in den Basler Hotels verbrachten, dauerten die Aufenthalte der Besucher aus dem näheren Ausland wie Luxemburg und den Niederlanden nur 1,50 bzw. 1,51 Tage.",
+		"lesehilfe": "Am längsten verweilten Inlandgäste in den baselstädtischen Hotels im Monat März mit 1,87 Tagen. Die längste Aufenthaltsdauer bei den ausländischen Gästen wurde im Juni mit 2,17 Tagen registriert. Die kürzeste Aufenthaltsdauer beider Gästegruppen wurde im Dezember verzeichnet: So blieben Gäste aus der Schweiz im Schnitt 1,55 Tage, diejenigen aus dem Ausland 1,87.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_008",
+		"orderKey": "01_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7979"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28160,13 +28174,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-05T15:29:39.3939",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 135 236 Logiernächten stellte der Juni den meistfrequentierten Monat 2018 dar. Dieser Wert bedeutet gleichzeitig die höchste je in einem Monat gemessene Übernachtungszahl seit Beginn der statistischen Aufzeichnung vor 85 Jahren. Im Verlauf des Jahres 2018 wurden insgesamt 1 386 499 Hotelübernachtungen verzeichnet, dies entspricht 7 Übernachtungen pro Kantonseinwohner. Beim Zehnjahresvergleich der Logiernächtezahlen ergibt sich ein Zuwachs um 356 157 Logiernächte bzw. 34,6%.",
+		"lesehilfe": "Von Januar bis Dezember 2019 wurden insgesamt 1 423 486 Logiernächte in den Basler Hotels gezählt. Der meistfrequentierte Monat war der Mai mit 146 436 Übernachtungen. Dieser Wert bedeutet die höchste je in einem Monat gemessene Übernachtungszahl seit Beginn der statistischen Aufzeichnung vor 85 Jahren. Im Vergleich zum Mittelwert der letzten zehn Jahre entspricht dies einer Zunahme um 40,3% bzw. 42 069 Logiernächte. Die höchste Übernachtungszahl der ausländischen Gäste wurde im Mai 2019 mit 100 558 verzeichnet, bei den Inlandgästen waren es die 50 055 Übernachtungen im November. Der besucherschwächste Monat war der Januar mit 77 714 Übernachtungen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -28191,32 +28205,34 @@
 		"id": 6545
 	},
 	{
-		"title": "Entwicklung der Logiernächte nach Herkunft der Gäste",
+		"title": "Logiernächte nach Herkunft der Gäste",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.10.1.6546",
 		"kuerzelKunde": "2-11",
-		"description": "Entwicklung der Logiernächte nach Herkunft der Gäste",
+		"description": "Logiernächte nach Herkunft der Gäste",
 		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"kennzahlenset": "Tourismus",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2008 wurde erstmals die Millionenmarke bei den Logiernächten überschritten. Die Vorjahreswerte werden seither jedes Jahr überboten, so auch 2018 mit einem neuen Höchststand von 1,39 Millionen Übernachtungen. Das sind gut 58 000 bzw. 4,4% mehr als vor Jahresfrist. Interessant ist auch der zeitliche Verlauf: 1934, zu Beginn der statistischen Aufzeichnung der touristischen Ströme in Basel, sind 304 261 Logiernächte registriert worden – 56,9% davon von ausländischen Besuchern.  Einen Einbruch erlitt die Basler Hotellerie durch den Zweiten Weltkrieg. Einen sprunghaften Anstieg erfuhren die Logiernächtezahlen im Jahr 2004 (+142 113 bzw. +21,5% gegenüber dem Vorjahr): Die Ausstellung «Tutanchamun – Das goldene Jenseits» im Antikenmuseum Basel und Sammlung Ludwig wirkte sich mit 620 000 generierten Eintritten positiv auf die Logiernächte aus.",
+		"lesehilfe": "2019 wurde der Vorjahreswert der Anzahl Logiernächte erneut überboten. Die über 1,42 Millionen Übernachtungen bedeuten einen neuen Höchststand für die Basler Hotellerie. Dies sind 2,7% bzw. 36 987 Übernachtungen mehr als 2018. Die Entwicklung basiert sowohl auf dem Wachstum der Logiernächte des Inlandmarktes als auch der ausländischen Märkte. Bei den Gästen aus der Schweiz gab es 476 777 Logiernächte, bei denjenigen aus dem Ausland 946 709. Dabei sind die Logiernächte der inländischen Gäste gegenüber dem Vorjahr relativ stärker gewachsen (+4,1%) als diejenige aus dem Ausland (+2,0%). Im Jahresdurchschnitt 2019 übernachteten 3 900 Gäste pro Tag in den baselstädtischen Hotelbetrieben. Der Höchstwert der täglichen Übernachtungen 2019 wurde am 13. Juli mit 6 734 registriert, der Tiefstwert am 6. Januar mit 1 014.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_011",
+		"orderKey": "01_00_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"7981"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -28232,7 +28248,7 @@
 	},
 	{
 		"title": "Logiernächte nach Herkunft der Gäste",
-		"subtitle": "indexiert (2009 = 100), Basel-Stadt",
+		"subtitle": "indexiert (2010 = 100), Basel-Stadt",
 		"kuerzel": "I.10.1.6547",
 		"kuerzelKunde": "2-12",
 		"description": "Logiernächte nach Herkunft der Gäste",
@@ -28242,13 +28258,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-05T11:02:55.5555",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die positive Nachfrageentwicklung der letzten Dekade basiert sowohl auf dem Wachstum des Inlandmarktes, als auch der ausländischen Quellmärkte. Die Anzahl der Buchungen von Schweizer Gästen hat im Beobachtungszeitraum 2009-2018 um 143 970 bzw. 45,8% auf 458 003 Logiernächte zugenommen. Bei den Logiernächten von Touristen aus dem Ausland gab es in der letzten Dekade ebenfalls einen hohen Zuwachs um 212 187 bzw. 29,6% auf 928 496 Logiernächte. Das verhältnismässige Abflachen deren Wachstumskurve im Berichtsjahr (+2,7% Logiernächte gegenüber 2017) erklärt sich hauptsächlich durch die hohe Logiernächtezahl des Vorjahres, die ihrerseits einen Anstieg um 11,4% bedeutet hatte.",
+		"lesehilfe": "In den letzten zehn Jahren ist die Anzahl der Logiernächte der inländischen Gäste um 57,0% bzw. 173 146 gewachsen. Die Übernachtungen der ausländischen Besucherinnen und Besucher verzeichnen seit 2010 einen Zuwachs um 23,4% bzw. 179 259.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -28274,7 +28290,7 @@
 	},
 	{
 		"title": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.10.1.6549",
 		"kuerzelKunde": "2-15",
 		"description": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
@@ -28284,14 +28300,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-08T14:02:43.4343",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Dank eines Zugewinns der Hotelübernachtungen von 54,4% gegenüber dem Mittelwert 2007-2011 und der grossen Bedeutung für die Gesamtnachfrage – rund ein Drittel der Logiernächte gehen auf dessen Konto – generierte der einheimische Markt mit 44,9% den grössten positiven Wachstumsbeitrag im Beobachtungszeitraum. Die Gäste aus den Vereinigten Staaten wiesen den zweithöchsten Beitrag (13,3%) auf, gefolgt von indischen Besuchern mit 4,3%. Damit platzierte sich Indien zum ersten Mal in den Top 10. Zehn Jahre zuvor hatte Indien mit einem Anteil von 0,7% am Übernachtungsvolumen noch die 16. Position im Ranking der aufkommensstärksten Herkunftsländer belegt. Der Wachstumsbeitrag aus Deutschland, dem traditionell wichtigsten ausländischen Quellmarkt mit einem Anteil am Übernachtungsvolumen 2018 von 14,2%, betrug lediglich 0,9%.",
-		"erlaeuterungen": "Als Wachstumsbeitrag bezeichnet man denjenigen Beitrag, welchen einzelne Quellmärkte zum Wachstum der gesamten Nachfrage erbringen. Die Kreisgrösse symbolisiert den Marktanteil, die Kreisfarbe die verschiedenen Herkunftsländer. Die Abbildung zeigt neben dem Wachstumsbeitrag auch die Entwicklung und die aktuelle Nachfragestruktur der einzelnen Herkunftsmärkte. Um den Effekt von allfälligen Ausreissern (z. B. aufgrund von Grossveranstaltungen, welche nicht jedes Jahr stattfinden) auszugleichen, wird anstelle des Jahreswertes 2009 der Mittelwert über die Jahre 2007-2011 als Referenz für die Berechnung des Wachstumsbeitrags verwendet.",
+		"lesehilfe": "Dank eines Zugewinns der Hotelübernachtungen von 55,2% gegenüber dem Mittelwert 2008-2012 und der grossen Bedeutung für die Gesamtnachfrage – rund ein Drittel der Logiernächte gehen auf sein Konto – generierte der einheimische Markt mit 45,9% den grössten Wachstumsbeitrag im Beobachtungszeitraum. Die Gäste aus den Vereinigten Staaten wiesen mit 11,5% den zweithöchsten Beitrag auf. Auf dem dritten Rang folgen die Besucherinnen und Besucher aus der Volksrepublik China mit einem Wachstumsbeitrag von 6,6%. Der Wachstumsbeitrag aus Deutschland, dem traditionell wichtigsten ausländischen Quellmarkt mit einem Anteil am Übernachtungsvolumen 2019 von 14,4%, betrug 3,6%.",
+		"erlaeuterungen": "Als Wachstumsbeitrag bezeichnet man denjenigen Beitrag, welchen einzelne Quellmärkte zum Wachstum der gesamten Nachfrage beisteuern. Die Kreisgrösse symbolisiert den Wachstumsbeitrag, die Kreisfarbe die verschiedenen Herkunftsländer. Die Abbildung zeigt neben dem Wachstumsbeitrag auch die Entwicklung und den aktuellen Marktanteil der einzelnen Herkunftsmärkte. Um den Effekt von allfälligen Ausreissern (z. B. aufgrund von Grossveranstaltungen, welche nicht jedes Jahr stattfinden) auszugleichen, wird anstelle des Jahreswertes 2010 der Mittelwert über die Jahre 2008-2012 als Bezugsgrösse für die Berechnung des Wachstums verwendet.",
 		"template": "bubble001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -28403,13 +28419,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-05T11:01:27.2727",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basler Hotellerie begrüsste 2018 insgesamt 742 186 Hotelgäste. Gegenüber 2009 entspricht dies einer Zunahme um 210 717 bzw. 39,6%. Zu diesem Wachstum haben sowohl die inländischen als auch die ausländischen Gäste beigetragen. Am meisten Besucher wurden 2018 im Juli (73 667) verzeichnet. Die Gäste aus der Schweiz nutzten vor allem den Monat Oktober (27 272) für einen Besuch in Basel, während der bevorzugte Monat der ausländischen Touristen der August (48 698) war.",
+		"lesehilfe": "Insgesamt 757 369 Gäste haben von Januar bis Dezember 2019 in den baselstädtischen Hotels übernachtet. Gegenüber 2010 bedeutet dies eine Steigerung um 38,2% (+209 216 Gäste). Der ankunftsstärkste Monat war der Mai mit insgesamt 75 606 Gästen. Bei den Gästen aus der Schweiz war der Oktober mit 29 170 Ankünften der bevorzugte Monat, bei den Besucherinnen und Besuchern aus dem Ausland der Juli mit 48 530 Ankünften.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -43501,7 +43517,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:34:13.1313",
+		"aktualisierungsdatum": "2020-02-17T18:15:33.3333",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -43531,7 +43547,7 @@
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, November",
+		"subtitle": "Basel-Stadt, Dezember",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -43541,13 +43557,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-11T08:32:49.4949",
+		"aktualisierungsdatum": "2020-02-17T18:19:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 50%.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 48%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -43571,7 +43587,7 @@
 	},
 	{
 		"title": "Marktanteile am Übernachtungsvolumen",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.10.1.07519",
 		"kuerzelKunde": "2-13",
 		"description": "Marktanteile am Übernachtungsvolumen",
@@ -43581,13 +43597,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-08T14:04:30.3030",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Top 10 der aufkommensstärksten Herkunftsländer der Basler Hotellerie machten 2018 über 80% der Gesamtnachfrage aus 72 erhobenen Quellmärkten aus.",
+		"lesehilfe": "Die Top 10 der aufkommensstärksten Herkunftsländer der Basler Hotellerie machten 2019 über 80% der Gesamtnachfrage der 72 erhobenen Quellmärkte aus. Die Schweiz ist mit einem Anteil von 33,5% der wichtigste Markt. Der wichtigste ausländische Markt ist Deutschland mit einem Marktanteil von 14,4%, gefolgt von den Vereinigten Staaten mit 10,0% und dem Vereinigten Königreich mit 6,3%.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -43623,23 +43639,24 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-21T19:36:00.000",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-02-17T18:07:14.1414",
+		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Entwicklung der Übernachtungszahlen nach Herkunft der Gäste und der jeweiligen Marktanteile am Übernachtungsvolumen zeigen über den gesamten Zeitraum 2009-2018 ein uneinheitliches Bild. Mit einer Zunahme um 143 970 bzw. 45,8% auf 458 003 Übernachtungen erreichte die Nachfrage aus der Schweiz die stärkste absolute Steigerung der letzten zehn Jahre. Gegenüber 2017 beträgt das Wachstum 8,0%. Die Gäste aus Deutschland hingegen verzeichneten im Zehnjahresvergleich einen Rückgang der Logiernächte um 2,7%. Nichtsdestotrotz konnte das nördliche Nachbarland mit einem Marktanteil von 14,2% seine Spitzenposition unter den ausländischen Quellmärkten halten. Einen überduchschnittlich hohen Zuwachs um 57,0% bzw. rund 52 000 Logiernächte gegenüber 2009 gab es 2018 beim zurzeit zweitplatzierten Auslands- und wichtigsten Überseemarkt, den Vereinigten Staaten. 2009 betrug der US-amerikanische Anteil am Übernachtungsvolumen 8,8%; aktuell liegt er bei 10,3%.                                                                                                                                                                                                                                                                                                                                         Den dritten Platz im Ranking der ausländischen Quellmärkte nimmt das Vereinigte Königreich ein. Der Zuwachs der Logiernächte gegenüber 2009 betrug 21,5%. In den letzten zwei Jahren wurde jedoch eine  rückläufige Entwicklung beobachtet. Der Rückgang der Logiernächte 2018 gegenüber dem Vorjahr betrug 3,1%.",
+		"lesehilfe": "Mit einer Zunahme um 173 146 bzw. 57,0% auf 476 777 Übernachtungen erreichte die Nachfrage aus der Schweiz die stärkste absolute Steigerung der letzten zehn Jahre. Gegenüber 2018 beträgt das Wachstum 4,1%. Auch die Gäste aus Deutschland verzeichneten im Zehnjahresvergleich einen Zuwachs der Logiernächte um 1,5%. Das nördliche Nachbarland konnte mit einem Marktanteil von 14,4% seine Spitzenposition unter den ausländischen Quellmärkten halten. Im Vergleich zu 2010 hat der Marktanteil aber um 4,5 Prozentpunkte abgenommen. Einen Zuwachs um 37,1% bzw. 38 577 Logiernächte gegenüber 2010 gab es 2019 beim zurzeit zweitplatzierten Auslands- und wichtigsten Überseemarkt, den Vereinigten Staaten. 2010 betrug der US-amerikanische Anteil am Übernachtungsvolumen 9,7%; aktuell liegt er bei 10,0%. Den dritten Platz im Ranking der ausländischen Quellmärkte nimmt das Vereinigte Königreich ein. Der Zuwachs der Logiernächte gegenüber 2010 betrug 12,8%. Wie schon in den Jahren zuvor wurde auch 2019 jedoch eine rückläufige Entwicklung beobachtet. Der Rückgang der Logiernächte gegenüber dem Vorjahr betrug 6,3%.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_014",
+		"orderKey": "01_00_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"7544",
-			"7548"
+			"7548",
+			"7986"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -43656,7 +43673,7 @@
 	},
 	{
 		"title": "Logiernächte nach Herkunft und Hotelkategorie",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.10.1.07522",
 		"kuerzelKunde": "2-16",
 		"description": "Logiernächte nach Herkunft und Hotelkategorie",
@@ -43666,13 +43683,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-08T14:01:54.5454",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Wahl der Hotelkategorie gibt es zwischen den beiden Gästegruppen grosse Unterschiede: Mit 42% bevorzugten 2018 die Touristinnen und Touristen aus dem Ausland die 4- oder 5-Sterne-Hotels. Zehn Jahre zuvor hatte der Buchungsanteil dieser Gästegruppe in einem Hotel der Luxusklasse 50% betragen. Anders sah es bei den Besuchern aus der Schweiz aus. Nach wie vor blieben diese auch 2018 den 3-Sterne-Hotels treu: 43% von ihnen wählten für ihren Aufenthalt in Basel ein Hotel dieser Kategorie. 2009 waren es ebenfalls 43% gewesen.",
+		"lesehilfe": "Bei der Wahl der Hotelkategorie gibt es zwischen den aus- und inländischen Gästen Unterschiede: 45% der ausländischen Touristinnen und Touristen buchten 2019 ein 4- oder 5-Sterne-Hotel. Dieser Wert ist in den letzten Jahren sehr konstant geblieben (-1  Prozentpunkt gegenüber 2010). Besucherinnen und Besucher aus dem Inland dagegen bevorzugten wie schon in den vergangenen Jahren mit 43% die 3-Sterne-Hotels.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -43698,7 +43715,7 @@
 	},
 	{
 		"title": "Logiernächte der Hauptmärkte nach Hotelkategorie",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.10.1.07523",
 		"kuerzelKunde": "2-17",
 		"description": "Logiernächte der Hauptmärkte nach Hotelkategorie",
@@ -43708,13 +43725,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-05T12:34:09.099",
+		"aktualisierungsdatum": "2020-02-17T18:07:15.1515",
 		"stufe1": "Kernindikatoren zum Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ein interessantes Bild zeigt sich bei der Betrachtung der Logiernächte der Top 10-Herkunftsländer nach Unterkunftsart: Von insgesamt 142 756 Logiernächten von Gästen aus den Vereinigten Staaten entfielen im Jahr 2018 mehr als zwei Drittel aller Übernachtungen auf die 4- und 5-Sterne-Hotels. Mit 49,3% bzw. 47,3% hoch im Kurs standen die Luxushotels auch bei den Touristen aus der Volksrepublik China und dem Vereinigten Königreich. 40,9% der Gäste aus den Niederlanden sowie 40,7% der Besucher aus Deutschland wählten für ihren Aufenthalt ein 3-Sterne-Hotel.",
+		"lesehilfe": "Von insgesamt 142 448 Logiernächten von Gästen aus den Vereinigten Staaten entfielen im Jahr 2019 mehr als zwei Drittel auf 4- und 5-Sterne-Hotels. Touristinnen und Touristen aus der Volksrepublik China und dem Vereinigten Königreich buchten ebenfalls mehrheitlich 4- und 5-Sterne-Hotels. 43% der Gäste aus den Niederlanden, 42% der Gäste aus Indien sowie 41% der Besucherinnen und Besucher aus Italien wählten für ihren Aufenthalt ein 3-Sterne-Hotel.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -44743,18 +44760,18 @@
 		"id": 7684
 	},
 	{
-		"title": "Umbausaldo, nach Art des Umbaus",
-		"subtitle": "Wohnviertel Rosental",
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel Rosental",
 		"kuerzel": "I.09.1.07685",
 		"kuerzelKunde": "4.08",
-		"description": "Umbausaldo, nach Art des Umbaus",
+		"description": "Umgebaute Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-02-17T09:06:06.066",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -47979,18 +47996,18 @@
 		"id": 7922
 	},
 	{
-		"title": "Umbausaldo, nach Art des Umbaus",
-		"subtitle": "Wohnviertel Rosental",
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel Rosental",
 		"kuerzel": "I.09.1.07923",
 		"kuerzelKunde": "4.08",
-		"description": "Umbausaldo, nach Art des Umbaus",
+		"description": "Umgebaute Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T15:05:32.3232",
+		"aktualisierungsdatum": "2020-02-17T09:06:06.066",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",

@@ -342,6 +342,10 @@
         [
           2018,
           1.688490323
+        ],
+        [
+          2019,
+          1.671734473
         ]
       ],
       "name": "Inland"
@@ -688,6 +692,10 @@
         [
           2018,
           1.97159699
+        ],
+        [
+          2019,
+          2.005017261
         ]
       ],
       "name": "Ausland"
@@ -760,8 +768,9 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.f}"
-    }
+      "format": "{value:,.1f}"
+    },
+    "tickInterval": 0.5
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -774,7 +783,7 @@
       "step": 1,
       "formatter": function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
           return this.value;
         }
       }
@@ -796,7 +805,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "enabled": true,

@@ -21,7 +21,8 @@
   ],
   chart: {
     inverted: true,
-    type: "column"
+    type: "column", 
+    marginRight: 20
   },
   "tooltip": {
     "shared": false, 

@@ -18,7 +18,7 @@
       type: "category"
   },
   yAxis: {
-      tickAmount: 4,
+      tickAmount: 5,
       reversedStacks: false
   },
   plotOptions: {

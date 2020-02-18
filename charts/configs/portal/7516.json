@@ -162,7 +162,7 @@
         ],
         [
           "Dez",
-          null
+          40976
         ]
       ],
       "name": "Inland 2019",
@@ -218,7 +218,7 @@
         ],
         [
           "Dez",
-          null
+          70760
         ]
       ],
       "name": "Ausland 2019",
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "enabled": true,

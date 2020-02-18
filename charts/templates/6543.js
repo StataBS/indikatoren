@@ -6,7 +6,7 @@
       step: 1,
       formatter: function(){
         //show first, last, and every 10th year
-        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 12 == 0){
+        if (this.isFirst || this.isLast || (this.value - this.chart.series[0].xData[0]) % 17 == 0){
           return this.value;
         }
       }
@@ -14,7 +14,8 @@
   },
   yAxis: 
     {
-      min: 0, 
+      min: 0,
+      tickInterval: 0.5, 
       //max: 3.25,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
@@ -26,7 +27,7 @@
         text: null
       },
       labels: {
-  		  format: "{value:,.f}", 
+  		  format: "{value:,.1f}", 
         style: {
           color: "#000000"
         }

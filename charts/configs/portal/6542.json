@@ -4,12 +4,12 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2017",
-          1747.126027
+          "2018",
+          1786.276712
         ],
         [
-          "2018",
-          1765.109589
+          "2019",
+          1752.413699
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -19,12 +19,12 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2017",
-          3123.682192
+          "2018",
+          3261.158904
         ],
         [
-          "2018",
-          3219.112329
+          "2019",
+          3328.709589
         ]
       ],
       "name": "3-Sterne",
@@ -34,12 +34,12 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2017",
-          3027.632877
+          "2018",
+          3174.358904
         ],
         [
-          "2018",
-          3151.835616
+          "2019",
+          3298.654795
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -49,12 +49,12 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2017",
-          793.9753425
+          "2018",
+          804.2
         ],
         [
-          "2018",
-          802.7863014
+          "2019",
+          795.6712329
         ]
       ],
       "name": "Nicht klassiert",
@@ -111,6 +111,7 @@
           }
     },
     "type": "bar",
+    "marginRight": 15,
     "renderTo": "container-6542",
     "spacingBottom": 40
   },
@@ -121,7 +122,8 @@
         "style": {
           "fontSize": "11px",
           "color": "black",
-          "fontWeight": "normal"
+          "fontWeight": "normal",
+          "textOutline": undefined
         },
         "enabled": false,
         "format": "{point.y:,.0f}"
@@ -166,8 +168,8 @@
       "format": "{value:,.0f}"
     },
     "reversedStacks": false,
-    "max": 9000,
-    "tickInterval": 1800
+    "max": 9500,
+    "tickInterval": 1900
   },
   "navigation": {
     "menuItemStyle": {
@@ -188,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "symbolRadius": 0,

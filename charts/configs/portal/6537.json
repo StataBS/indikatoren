@@ -4,12 +4,12 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2009",
+          "2010",
           8
         ],
         [
-          "2018",
-          10
+          "2019",
+          9
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -19,12 +19,12 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2009",
-          26
+          "2010",
+          27
         ],
         [
-          "2018",
-          26
+          "2019",
+          25
         ]
       ],
       "name": "3-Sterne",
@@ -34,12 +34,12 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2009",
-          14
+          "2010",
+          15
         ],
         [
-          "2018",
-          17
+          "2019",
+          18
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -49,12 +49,12 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2009",
+          "2010",
           17
         ],
         [
-          "2018",
-          12
+          "2019",
+          11
         ]
       ],
       "name": "Nicht klassiert",
@@ -120,7 +120,8 @@
         "style": {
           "fontSize": "11px",
           "color": "black",
-          "fontWeight": "normal"
+          "fontWeight": "normal",
+          "textOutline": undefined
         },
         "enabled": false
       },
@@ -162,7 +163,7 @@
         "color": "#000000"
       }
     },
-    "tickAmount": 4,
+    "tickAmount": 5,
     "reversedStacks": false
   },
   "navigation": {
@@ -184,7 +185,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-2-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
   },
   "legend": {
     "symbolRadius": 0,
