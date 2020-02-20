@@ -1,0 +1,313 @@
+{
+  "series": [
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2077
+        ],
+        [
+          "Gastronomie",
+          1365
+        ],
+        [
+          "Schiffahrt, Luftfahrt",
+          997
+        ],
+        [
+          "Chemie",
+          861
+        ],
+        [
+          "Landverkehr",
+          527
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          302
+        ],
+        [
+          "Baunebengewerbe",
+          432
+        ],
+        [
+          "Detailhandel",
+          502
+        ],
+        [
+          "Lagerei",
+          476
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          204
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2075
+        ],
+        [
+          "Gastronomie",
+          1074
+        ],
+        [
+          "Schiffahrt, Luftfahrt",
+          876
+        ],
+        [
+          "Chemie",
+          826
+        ],
+        [
+          "Landverkehr",
+          537
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          371
+        ],
+        [
+          "Baunebengewerbe",
+          424
+        ],
+        [
+          "Detailhandel",
+          460
+        ],
+        [
+          "Lagerei",
+          484
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          313
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Sonst. wirtsch. DL",
+          2139
+        ],
+        [
+          "Gastronomie",
+          970
+        ],
+        [
+          "Schiffahrt, Luftfahrt",
+          928
+        ],
+        [
+          "Chemie",
+          744
+        ],
+        [
+          "Landverkehr",
+          587
+        ],
+        [
+          "Architektur- und Ingenieurbüros",
+          499
+        ],
+        [
+          "Baunebengewerbe",
+          447
+        ],
+        [
+          "Detailhandel",
+          415
+        ],
+        [
+          "Lagerei",
+          404
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          398
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -110,
+      "formatter": function () {
+          return this.value.replace("/", "<br/>")
+            .replace("und", "und<br>")
+            .replace("vermittlung,", "vermittlung,<br>")
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "marginRight": 50,
+    "marginLeft": 130,
+    "inverted": true,
+    "renderTo": "container-8070"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigung nach ausgewählten Branchen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 250
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8070
+  }
+}

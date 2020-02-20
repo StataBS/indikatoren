@@ -1,0 +1,910 @@
+{
+  "series": [
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          "2008: Klybeck",
+          10.1753
+        ],
+        [
+          "2008: Kleinhüningen",
+          12.868
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          10.1727
+        ],
+        [
+          "2009: Kleinhüningen",
+          12.9162
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          10.2134
+        ],
+        [
+          "2010: Kleinhüningen",
+          12.9442
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          10.4436
+        ],
+        [
+          "2011: Kleinhüningen",
+          12.9443
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          10.3953
+        ],
+        [
+          "2012: Kleinhüningen",
+          13.4465
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          10.1694
+        ],
+        [
+          "2013: Kleinhüningen",
+          20.9963
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          10.8231
+        ],
+        [
+          "2014: Kleinhüningen",
+          21.0217
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          10.8532
+        ],
+        [
+          "2015: Kleinhüningen",
+          20.9661
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          10.8753
+        ],
+        [
+          "2016: Kleinhüningen",
+          20.9532
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          10.9799
+        ],
+        [
+          "2017: Kleinhüningen",
+          30.6372
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          11.0403
+        ],
+        [
+          "2018: Kleinhüningen",
+          30.4667
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          11.3573
+        ],
+        [
+          "2019: Kleinhüningen",
+          30.2706
+        ]
+      ],
+      "name": "Grünfläche",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2008: Klybeck",
+          1.86045
+        ],
+        [
+          "2008: Kleinhüningen",
+          1.785
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          1.86045
+        ],
+        [
+          "2009: Kleinhüningen",
+          1.785
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          1.86045
+        ],
+        [
+          "2010: Kleinhüningen",
+          1.78527
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          1.86045
+        ],
+        [
+          "2011: Kleinhüningen",
+          1.78527
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          1.86198
+        ],
+        [
+          "2012: Kleinhüningen",
+          1.78527
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          1.8616
+        ],
+        [
+          "2013: Kleinhüningen",
+          1.78601
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          1.8616
+        ],
+        [
+          "2014: Kleinhüningen",
+          1.78831
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1.8616
+        ],
+        [
+          "2015: Kleinhüningen",
+          1.78831
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1.8616
+        ],
+        [
+          "2016: Kleinhüningen",
+          1.78831
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1.8616
+        ],
+        [
+          "2017: Kleinhüningen",
+          1.78855
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1.8616
+        ],
+        [
+          "2018: Kleinhüningen",
+          1.78855
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1.93146
+        ],
+        [
+          "2019: Kleinhüningen",
+          1.66673
+        ]
+      ],
+      "name": "Gewässer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2008: Klybeck",
+          25.6321
+        ],
+        [
+          "2008: Kleinhüningen",
+          20.0169
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          25.4596
+        ],
+        [
+          "2009: Kleinhüningen",
+          20.1012
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          25.3256
+        ],
+        [
+          "2010: Kleinhüningen",
+          22.9401
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          26.1114
+        ],
+        [
+          "2011: Kleinhüningen",
+          23.0718
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          25.5924
+        ],
+        [
+          "2012: Kleinhüningen",
+          23.3381
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          25.4586
+        ],
+        [
+          "2013: Kleinhüningen",
+          23.3136
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          25.3776
+        ],
+        [
+          "2014: Kleinhüningen",
+          23.1889
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          25.3816
+        ],
+        [
+          "2015: Kleinhüningen",
+          23.0767
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          25.3816
+        ],
+        [
+          "2016: Kleinhüningen",
+          23.066
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          25.2394
+        ],
+        [
+          "2017: Kleinhüningen",
+          22.6766
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          25.335
+        ],
+        [
+          "2018: Kleinhüningen",
+          22.6135
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          25.0182
+        ],
+        [
+          "2019: Kleinhüningen",
+          22.4198
+        ]
+      ],
+      "name": "Gebäude",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "data": [
+        [
+          "2008: Klybeck",
+          24.2411
+        ],
+        [
+          "2008: Kleinhüningen",
+          43.2979
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          24.2505
+        ],
+        [
+          "2009: Kleinhüningen",
+          43.3174
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          24.2547
+        ],
+        [
+          "2010: Kleinhüningen",
+          43.4981
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          23.1952
+        ],
+        [
+          "2011: Kleinhüningen",
+          43.6384
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          23.1922
+        ],
+        [
+          "2012: Kleinhüningen",
+          43.6437
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          23.2021
+        ],
+        [
+          "2013: Kleinhüningen",
+          37.4064
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          22.4455
+        ],
+        [
+          "2014: Kleinhüningen",
+          37.4123
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          22.4154
+        ],
+        [
+          "2015: Kleinhüningen",
+          37.588
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          22.3597
+        ],
+        [
+          "2016: Kleinhüningen",
+          37.59
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          22.3597
+        ],
+        [
+          "2017: Kleinhüningen",
+          28.2326
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          22.3741
+        ],
+        [
+          "2018: Kleinhüningen",
+          28.249
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          21.9544
+        ],
+        [
+          "2019: Kleinhüningen",
+          28.1078
+        ]
+      ],
+      "name": "Verkehrsfläche",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#474747",
+      "data": [
+        [
+          "2008: Klybeck",
+          30.1129
+        ],
+        [
+          "2008: Kleinhüningen",
+          57.1358
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2009: Klybeck",
+          30.2785
+        ],
+        [
+          "2009: Kleinhüningen",
+          56.9838
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2010: Klybeck",
+          30.3677
+        ],
+        [
+          "2010: Kleinhüningen",
+          53.9359
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          30.4111
+        ],
+        [
+          "2011: Kleinhüningen",
+          53.6639
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          30.9799
+        ],
+        [
+          "2012: Kleinhüningen",
+          52.89
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          31.3301
+        ],
+        [
+          "2013: Kleinhüningen",
+          51.5999
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          31.5141
+        ],
+        [
+          "2014: Kleinhüningen",
+          51.6947
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          31.51
+        ],
+        [
+          "2015: Kleinhüningen",
+          51.6868
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          31.5435
+        ],
+        [
+          "2016: Kleinhüningen",
+          51.7084
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          31.5812
+        ],
+        [
+          "2017: Kleinhüningen",
+          51.771
+        ],
+        [
+          "          ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          31.4108
+        ],
+        [
+          "2018: Kleinhüningen",
+          51.9881
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          31.7604
+        ],
+        [
+          "2019: Kleinhüningen",
+          52.641
+        ]
+      ],
+      "name": "Übrige befestigte Flächen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -90,
+      "formatter": function () {
+          return this.value.replace("Kleinhüningen", "Kleinh.");
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      5,
+      2,
+      5,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "renderTo": "container-8650",
+    "spacingBottom": 15
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "percent",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Bodenbedeckung nach Nutzungsart"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": 0,
+    "tickInterval": 25
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "width": 70,
+      "textOverflow": null
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "y": -28,
+    "align": "right",
+    "labelFormatter": function () {
+        return this.name.replace("Verkehrs", "Verkehrs-<br/>")
+      }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} ha\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 8650
+  }
+}

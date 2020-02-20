@@ -1,0 +1,481 @@
+{
+  "series": [
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          "2013: Klybeck",
+          2883
+        ],
+        [
+          "2013: Kleinhüningen",
+          937
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          2893
+        ],
+        [
+          "2014: Kleinhüningen",
+          927
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          2852
+        ],
+        [
+          "2015: Kleinhüningen",
+          927
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          2829
+        ],
+        [
+          "2016: Kleinhüningen",
+          929
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          2875
+        ],
+        [
+          "2017: Kleinhüningen",
+          930
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          2850
+        ],
+        [
+          "2018: Kleinhüningen",
+          894
+        ]
+      ],
+      "name": "Mietwohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "2013: Klybeck",
+          493
+        ],
+        [
+          "2013: Kleinhüningen",
+          305
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          491
+        ],
+        [
+          "2014: Kleinhüningen",
+          307
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          486
+        ],
+        [
+          "2015: Kleinhüningen",
+          304
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          482
+        ],
+        [
+          "2016: Kleinhüningen",
+          303
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          456
+        ],
+        [
+          "2017: Kleinhüningen",
+          300
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          473
+        ],
+        [
+          "2018: Kleinhüningen",
+          303
+        ]
+      ],
+      "name": "Genossenschaftswohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "2013: Klybeck",
+          79
+        ],
+        [
+          "2013: Kleinhüningen",
+          41
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          80
+        ],
+        [
+          "2014: Kleinhüningen",
+          39
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          80
+        ],
+        [
+          "2015: Kleinhüningen",
+          40
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          80
+        ],
+        [
+          "2016: Kleinhüningen",
+          39
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          77
+        ],
+        [
+          "2017: Kleinhüningen",
+          36
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          80
+        ],
+        [
+          "2018: Kleinhüningen",
+          36
+        ]
+      ],
+      "name": "Selbstbewohnte Eigentümerwohnungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "2013: Klybeck",
+          19
+        ],
+        [
+          "2013: Kleinhüningen",
+          8
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2014: Klybeck",
+          10
+        ],
+        [
+          "2014: Kleinhüningen",
+          8
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2015: Klybeck",
+          10
+        ],
+        [
+          "2015: Kleinhüningen",
+          7
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2016: Klybeck",
+          6
+        ],
+        [
+          "2016: Kleinhüningen",
+          6
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2017: Klybeck",
+          6
+        ],
+        [
+          "2017: Kleinhüningen",
+          6
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2018: Klybeck",
+          20
+        ],
+        [
+          "2018: Kleinhüningen",
+          31
+        ]
+      ],
+      "name": "Sonstige Wohnungen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "align": "right",
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
+    "spacingTop": 5,
+    "renderTo": "container-8631",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0.02,
+      "pointPadding": 0.1,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnungen nach Belegungsart"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500,
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "top",
+    "reversed": true,
+    "labelFormatter": function () {
+        return this.name.replace(' ', '<br>')
+        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
+          .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
+          .replace('Eigentümer', 'Eigentümer-<br>')
+          .replace('Mietwohnungen', 'Miet-<br>wohnungen');
+      }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+  },
+  "exporting": {
+    "filename": 8631
+  }
+}

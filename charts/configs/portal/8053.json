@@ -1,0 +1,484 @@
+{
+  "series": [
+    {
+      "color": "#2f656b",
+      "data": [
+        [
+          "2010: Klybeck",
+          1515
+        ],
+        [
+          "2010: Kleinhüningen",
+          488
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          1577
+        ],
+        [
+          "2011: Kleinhüningen",
+          509
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          1545
+        ],
+        [
+          "2012: Kleinhüningen",
+          546
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          1553
+        ],
+        [
+          "2013: Kleinhüningen",
+          539
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          1587
+        ],
+        [
+          "2014: Kleinhüningen",
+          524
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1552
+        ],
+        [
+          "2015: Kleinhüningen",
+          519
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1569
+        ],
+        [
+          "2016: Kleinhüningen",
+          521
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1561
+        ],
+        [
+          "2017: Kleinhüningen",
+          538
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1580
+        ],
+        [
+          "2018: Kleinhüningen",
+          525
+        ]
+      ],
+      "name": "Einpersonenhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73b97c",
+      "data": [
+        [
+          "2010: Klybeck",
+          1436
+        ],
+        [
+          "2010: Kleinhüningen",
+          550
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          1521
+        ],
+        [
+          "2011: Kleinhüningen",
+          595
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          1538
+        ],
+        [
+          "2012: Kleinhüningen",
+          626
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          1548
+        ],
+        [
+          "2013: Kleinhüningen",
+          633
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          1526
+        ],
+        [
+          "2014: Kleinhüningen",
+          646
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1499
+        ],
+        [
+          "2015: Kleinhüningen",
+          642
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1481
+        ],
+        [
+          "2016: Kleinhüningen",
+          640
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1478
+        ],
+        [
+          "2017: Kleinhüningen",
+          625
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1467
+        ],
+        [
+          "2018: Kleinhüningen",
+          632
+        ]
+      ],
+      "name": "Familienhaushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e8d2",
+      "data": [
+        [
+          "2010: Klybeck",
+          276
+        ],
+        [
+          "2010: Kleinhüningen",
+          78
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2011: Klybeck",
+          372
+        ],
+        [
+          "2011: Kleinhüningen",
+          110
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2012: Klybeck",
+          372
+        ],
+        [
+          "2012: Kleinhüningen",
+          125
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2013: Klybeck",
+          378
+        ],
+        [
+          "2013: Kleinhüningen",
+          127
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          393
+        ],
+        [
+          "2014: Kleinhüningen",
+          121
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          413
+        ],
+        [
+          "2015: Kleinhüningen",
+          130
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          383
+        ],
+        [
+          "2016: Kleinhüningen",
+          126
+        ],
+        [
+          "       ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          413
+        ],
+        [
+          "2017: Kleinhüningen",
+          115
+        ],
+        [
+          "        ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          414
+        ],
+        [
+          "2018: Kleinhüningen",
+          114
+        ]
+      ],
+      "name": "Andere Haushalte",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-8053",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Haushalte nach Art des Haushalts"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 10,
+    "min": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8053
+  }
+}

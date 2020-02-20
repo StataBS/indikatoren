@@ -1,0 +1,679 @@
+{
+  "series": [
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2013: Klybeck",
+          366
+        ],
+        [
+          "2013: Kleinhüningen",
+          88
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          340
+        ],
+        [
+          "2014: Kleinhüningen",
+          90
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          342
+        ],
+        [
+          "2015: Kleinhüningen",
+          92
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          357
+        ],
+        [
+          "2016: Kleinhüningen",
+          94
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          359
+        ],
+        [
+          "2017: Kleinhüningen",
+          94
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          364
+        ],
+        [
+          "2018: Kleinhüningen",
+          95
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          411
+        ],
+        [
+          "2019: Kleinhüningen",
+          96
+        ]
+      ],
+      "name": "1 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "2013: Klybeck",
+          1328
+        ],
+        [
+          "2013: Kleinhüningen",
+          340
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          1341
+        ],
+        [
+          "2014: Kleinhüningen",
+          342
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1348
+        ],
+        [
+          "2015: Kleinhüningen",
+          343
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1347
+        ],
+        [
+          "2016: Kleinhüningen",
+          345
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1352
+        ],
+        [
+          "2017: Kleinhüningen",
+          346
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1353
+        ],
+        [
+          "2018: Kleinhüningen",
+          347
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1365
+        ],
+        [
+          "2019: Kleinhüningen",
+          347
+        ]
+      ],
+      "name": "2 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "2013: Klybeck",
+          1412
+        ],
+        [
+          "2013: Kleinhüningen",
+          673
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2014: Klybeck",
+          1411
+        ],
+        [
+          "2014: Kleinhüningen",
+          673
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2015: Klybeck",
+          1404
+        ],
+        [
+          "2015: Kleinhüningen",
+          672
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          1404
+        ],
+        [
+          "2016: Kleinhüningen",
+          674
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          1405
+        ],
+        [
+          "2017: Kleinhüningen",
+          674
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          1406
+        ],
+        [
+          "2018: Kleinhüningen",
+          673
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          1414
+        ],
+        [
+          "2019: Kleinhüningen",
+          667
+        ]
+      ],
+      "name": "3 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2013: Klybeck",
+          499
+        ],
+        [
+          "2013: Kleinhüningen",
+          195
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2014: Klybeck",
+          500
+        ],
+        [
+          "2014: Kleinhüningen",
+          196
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2015: Klybeck",
+          504
+        ],
+        [
+          "2015: Kleinhüningen",
+          196
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2016: Klybeck",
+          502
+        ],
+        [
+          "2016: Kleinhüningen",
+          197
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2017: Klybeck",
+          501
+        ],
+        [
+          "2017: Kleinhüningen",
+          197
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2018: Klybeck",
+          509
+        ],
+        [
+          "2018: Kleinhüningen",
+          197
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2019: Klybeck",
+          509
+        ],
+        [
+          "2019: Kleinhüningen",
+          203
+        ]
+      ],
+      "name": "4 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "data": [
+        [
+          "2013: Klybeck",
+          100
+        ],
+        [
+          "2013: Kleinhüningen",
+          28
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2014: Klybeck",
+          100
+        ],
+        [
+          "2014: Kleinhüningen",
+          30
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2015: Klybeck",
+          100
+        ],
+        [
+          "2015: Kleinhüningen",
+          31
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2016: Klybeck",
+          100
+        ],
+        [
+          "2016: Kleinhüningen",
+          31
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2017: Klybeck",
+          104
+        ],
+        [
+          "2017: Kleinhüningen",
+          31
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2018: Klybeck",
+          106
+        ],
+        [
+          "2018: Kleinhüningen",
+          30
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2019: Klybeck",
+          111
+        ],
+        [
+          "2019: Kleinhüningen",
+          30
+        ]
+      ],
+      "name": "5 Zimmer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "2013: Klybeck",
+          24
+        ],
+        [
+          "2013: Kleinhüningen",
+          21
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2014: Klybeck",
+          25
+        ],
+        [
+          "2014: Kleinhüningen",
+          21
+        ],
+        [
+          "  ",
+          undefined
+        ],
+        [
+          "2015: Klybeck",
+          27
+        ],
+        [
+          "2015: Kleinhüningen",
+          21
+        ],
+        [
+          "   ",
+          undefined
+        ],
+        [
+          "2016: Klybeck",
+          31
+        ],
+        [
+          "2016: Kleinhüningen",
+          19
+        ],
+        [
+          "    ",
+          undefined
+        ],
+        [
+          "2017: Klybeck",
+          26
+        ],
+        [
+          "2017: Kleinhüningen",
+          19
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2018: Klybeck",
+          26
+        ],
+        [
+          "2018: Kleinhüningen",
+          19
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2019: Klybeck",
+          35
+        ],
+        [
+          "2019: Kleinhüningen",
+          19
+        ]
+      ],
+      "name": "6 Zimmer u.m.",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "align": "right",
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-8060",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0.04,
+      "pointPadding": 0.03,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnungen nach Zimmerzahl"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500,
+    "max": 4000,
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "itemMarginBottom": 5,
+    "reversed": true
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+  },
+  "exporting": {
+    "filename": 8060
+  }
+}

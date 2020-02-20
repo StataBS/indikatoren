@@ -1,0 +1,401 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2008,
+          4840
+        ],
+        [
+          2009,
+          4840
+        ],
+        [
+          2010,
+          4885
+        ],
+        [
+          2011,
+          4885
+        ],
+        [
+          2012,
+          4885
+        ],
+        [
+          2013,
+          4885
+        ],
+        [
+          2014,
+          4885
+        ],
+        [
+          2015,
+          4885
+        ],
+        [
+          2016,
+          4885
+        ],
+        [
+          2017,
+          4885
+        ],
+        [
+          2018,
+          4885
+        ],
+        [
+          2019,
+          4885
+        ]
+      ],
+      "name": "Freiraumfläche Kleinhüningen"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2008,
+          0.36
+        ],
+        [
+          2009,
+          0.36
+        ],
+        [
+          2010,
+          0.36
+        ],
+        [
+          2011,
+          0.36
+        ],
+        [
+          2012,
+          0.36
+        ],
+        [
+          2013,
+          0.36
+        ],
+        [
+          2014,
+          0.36
+        ],
+        [
+          2015,
+          0.36
+        ],
+        [
+          2016,
+          0.36
+        ],
+        [
+          2017,
+          0.36
+        ],
+        [
+          2018,
+          0.36
+        ],
+        [
+          2019,
+          0.36
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Kleinhüningen (rechte Skala)"
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2008,
+          29428
+        ],
+        [
+          2009,
+          29428
+        ],
+        [
+          2010,
+          29428
+        ],
+        [
+          2011,
+          29428
+        ],
+        [
+          2012,
+          29428
+        ],
+        [
+          2013,
+          23479
+        ],
+        [
+          2014,
+          23360
+        ],
+        [
+          2015,
+          23360
+        ],
+        [
+          2016,
+          23360
+        ],
+        [
+          2017,
+          23360
+        ],
+        [
+          2018,
+          23360
+        ],
+        [
+          2019,
+          23407
+        ]
+      ],
+      "name": "Freiraumfläche Klybeck"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2008,
+          3.2
+        ],
+        [
+          2009,
+          3.2
+        ],
+        [
+          2010,
+          3.2
+        ],
+        [
+          2011,
+          3.2
+        ],
+        [
+          2012,
+          3.2
+        ],
+        [
+          2013,
+          2.55
+        ],
+        [
+          2014,
+          2.54
+        ],
+        [
+          2015,
+          2.54
+        ],
+        [
+          2016,
+          2.54
+        ],
+        [
+          2017,
+          2.54
+        ],
+        [
+          2018,
+          2.54
+        ],
+        [
+          2019,
+          2.54
+        ]
+      ],
+      "name": "Anteil Freiraumfläche Klybeck (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          //move legend title
+          var title = this.legend.title.translate(-103, 25);
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 30,
+    "marginTop": 40,
+    "renderTo": "container-8659",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Freiraumfläche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "useHTML": true,
+        "format": "{value:,.0f} m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+        "y": 3,
+        "x": -5,
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "tickAmount": 5,
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "y": 3,
+        "x": 5,
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "alignColumns": false,
+    "useHTML": true,
+    "y": -30,
+    "x": -4,
+    "width": 160,
+    "labelFormatter": function () {
+        //var tmp = this.name.split(" ").slice(1, 2).toString(); //return only last word of legend-title
+        return this.name.replace('Kleinhüningen', 'Kleinh.').replace(' (rechte Skala)', '').replace('Freiraumfläche','').replace('Anteil ', '');
+      },
+    "title": {
+      "text": " \u003Cbr\u003EFläche:\u003Cbr\u002F\u003EAnteil (rechte Skala):",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": true,
+    "filename": 8659
+  }
+}

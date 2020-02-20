@@ -1302,12 +1302,110 @@ id | visible | visibleInPortal | indikatorenset
 7970 | true | true | City-Statistics
 7971 | true | true | City-Statistics
 7993 | true | true | City-Statistics
+8045 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
+8046 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8047 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8048 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8049 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8050 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8051 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8052 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8053 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8054 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8055 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8056 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8057 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8058 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8059 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8060 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8061 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8062 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8063 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8064 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8065 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8066 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8067 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8068 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8069 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8070 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8071 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8072 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8073 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8074 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8075 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8076 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8077 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8078 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8079 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8080 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8081 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8082 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8085 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8086 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8087 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8088 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8089 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8090 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8092 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8093 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8094 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8348 | true | true | 
+8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
 8448 | true | false | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
+8614 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8615 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8616 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8617 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8618 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8619 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8620 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8621 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8622 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8623 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8624 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8625 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8626 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8627 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8628 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8629 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8630 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8631 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8632 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8633 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8634 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8635 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8636 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8637 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8638 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8639 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8640 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8641 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8642 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8643 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8644 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8645 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8646 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8647 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8648 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8649 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8650 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8651 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8652 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8654 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8655 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8656 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8657 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8658 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8659 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8661 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8662 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8663 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
