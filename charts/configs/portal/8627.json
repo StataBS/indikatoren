@@ -1,0 +1,363 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2005,
+          44672
+        ],
+        [
+          2006,
+          44314
+        ],
+        [
+          2007,
+          44955
+        ],
+        [
+          2008,
+          42861
+        ],
+        [
+          2009,
+          42727
+        ],
+        [
+          2010,
+          42403
+        ],
+        [
+          2011,
+          42347
+        ],
+        [
+          2012,
+          41688
+        ],
+        [
+          2013,
+          42571
+        ],
+        [
+          2014,
+          42361
+        ],
+        [
+          2015,
+          42281
+        ],
+        [
+          2016,
+          41703
+        ]
+      ],
+      "name": "Mittelwert Klybeck"
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          2005,
+          41870.5
+        ],
+        [
+          2006,
+          41565
+        ],
+        [
+          2007,
+          41678.5
+        ],
+        [
+          2008,
+          39481.5
+        ],
+        [
+          2009,
+          39440
+        ],
+        [
+          2010,
+          38528
+        ],
+        [
+          2011,
+          38489
+        ],
+        [
+          2012,
+          37928.5
+        ],
+        [
+          2013,
+          38251
+        ],
+        [
+          2014,
+          38332
+        ],
+        [
+          2015,
+          37400
+        ],
+        [
+          2016,
+          36802.5
+        ]
+      ],
+      "name": "Median Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          45554
+        ],
+        [
+          2006,
+          45715
+        ],
+        [
+          2007,
+          45914
+        ],
+        [
+          2008,
+          43807
+        ],
+        [
+          2009,
+          43199
+        ],
+        [
+          2010,
+          42674
+        ],
+        [
+          2011,
+          43744
+        ],
+        [
+          2012,
+          44965
+        ],
+        [
+          2013,
+          46638
+        ],
+        [
+          2014,
+          45488
+        ],
+        [
+          2015,
+          45955
+        ],
+        [
+          2016,
+          46046
+        ]
+      ],
+      "name": "Mittelwert Kleinhüningen"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          2005,
+          41856.5
+        ],
+        [
+          2006,
+          41584
+        ],
+        [
+          2007,
+          42523.5
+        ],
+        [
+          2008,
+          40363
+        ],
+        [
+          2009,
+          40213
+        ],
+        [
+          2010,
+          39383
+        ],
+        [
+          2011,
+          40608.5
+        ],
+        [
+          2012,
+          40968
+        ],
+        [
+          2013,
+          41468
+        ],
+        [
+          2014,
+          41881
+        ],
+        [
+          2015,
+          41403
+        ],
+        [
+          2016,
+          41368
+        ]
+      ],
+      "name": "Median Kleinhüningen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8627",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Mittelwert und Median des Reineinkommens"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.replace('Kleinhüningen', 'Kleinh.');
+      }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8627
+  }
+}

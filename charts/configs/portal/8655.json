@@ -1,0 +1,215 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          "2010",
+          135.521281
+        ],
+        [
+          "2012",
+          124.389035
+        ],
+        [
+          "2014",
+          100.038977
+        ],
+        [
+          "2016",
+          96.921504
+        ]
+      ],
+      "name": "Stromverbrauch Klybeck",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          "2010",
+          54.720635
+        ],
+        [
+          "2012",
+          51.841674
+        ],
+        [
+          "2014",
+          48.059304
+        ],
+        [
+          "2016",
+          48.391548
+        ]
+      ],
+      "name": "Stromverbrauch Kleinhüningen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999",
+      "visible": false,
+      "showInLegend": false,
+      "data": [
+        [
+          "2010",
+          1211.012948
+        ],
+        [
+          "2012",
+          1271.574697
+        ],
+        [
+          "2014",
+          1131.005707
+        ],
+        [
+          "2016",
+          1180.640203
+        ]
+      ],
+      "name": "Stromverbrauch Basel",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "renderTo": "container-8655",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Stromverbrauch"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Gigawattstunden (GWh), Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 30
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.replace('Stromverbrauch ', '');
+      }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "groupPadding": 0.2,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8655
+  }
+}

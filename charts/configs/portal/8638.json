@@ -1,0 +1,320 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "index": 0,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          493
+        ],
+        [
+          2014,
+          491
+        ],
+        [
+          2015,
+          486
+        ],
+        [
+          2016,
+          482
+        ],
+        [
+          2017,
+          456
+        ],
+        [
+          2018,
+          473
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "index": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          305
+        ],
+        [
+          2014,
+          307
+        ],
+        [
+          2015,
+          304
+        ],
+        [
+          2016,
+          303
+        ],
+        [
+          2017,
+          300
+        ],
+        [
+          2018,
+          303
+        ]
+      ],
+      "name": "Anzahl Genossenschaftswohnungen Kleinhüningen"
+    },
+    {
+      "color": "#7f5f1a",
+      "index": 2,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          14.19113413932
+        ],
+        [
+          2014,
+          14.133563615428
+        ],
+        [
+          2015,
+          14.177362893815
+        ],
+        [
+          2016,
+          14.188990285546
+        ],
+        [
+          2017,
+          13.35676625659
+        ],
+        [
+          2018,
+          13.818288051416
+        ]
+      ],
+      "name": "Anteil am Bestand Klybeck (rechte Skala)"
+    },
+    {
+      "color": "#923f8d",
+      "index": 3,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          2013,
+          23.625096824167
+        ],
+        [
+          2014,
+          23.965651834504
+        ],
+        [
+          2015,
+          23.787167449139
+        ],
+        [
+          2016,
+          23.727486296006
+        ],
+        [
+          2017,
+          23.584905660377
+        ],
+        [
+          2018,
+          23.971518987341
+        ]
+      ],
+      "name": "Anteil am Bestand Kleinhüningen (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "alignTicks": false,
+    "renderTo": "container-8638",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Genossenschaftswohnungen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "tickInterval": 100,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "title": {
+        "enabled": false
+      }
+    },
+    {
+      "tickInterval": 5,
+      "gridLineColor": "#B9CFD7",
+      "title": {
+        "enabled": false
+      },
+      "labels": {
+        "format": "{value:,.f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": 30,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "labelFormatter": function () {
+        return this.name.replace('Genossenschaftswohnungen ', '');
+      }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "exporting": {
+    "filename": 8638
+  }
+}

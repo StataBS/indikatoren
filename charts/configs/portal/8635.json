@@ -1,0 +1,274 @@
+{
+  "series": [
+    {
+      "color": "#999",
+      "index": 3,
+      "data": [
+        [
+          2011,
+          32.5710288
+        ],
+        [
+          2012,
+          32.5660194
+        ],
+        [
+          2013,
+          33.347547974413
+        ],
+        [
+          2014,
+          33.322710856171
+        ],
+        [
+          2015,
+          33.488717025108
+        ],
+        [
+          2016,
+          33.372148414756
+        ],
+        [
+          2017,
+          33.301597376494
+        ],
+        [
+          2018,
+          33.261213720316
+        ],
+        [
+          2019,
+          33.2102347665
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#cd9c00",
+      "index": 1,
+      "data": [
+        [
+          2011,
+          6.849315
+        ],
+        [
+          2012,
+          6.849315
+        ],
+        [
+          2013,
+          7.621247113163
+        ],
+        [
+          2014,
+          7.3732718894
+        ],
+        [
+          2015,
+          7.35632183908
+        ],
+        [
+          2016,
+          7.339449541284
+        ],
+        [
+          2017,
+          7.126436781609
+        ],
+        [
+          2018,
+          7.093821510297
+        ],
+        [
+          2019,
+          7.0776255707
+        ]
+      ],
+      "name": "Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "index": 2,
+      "data": [
+        [
+          2011,
+          12.804878
+        ],
+        [
+          2012,
+          12.804878
+        ],
+        [
+          2013,
+          15.950920245398
+        ],
+        [
+          2014,
+          15.662650602409
+        ],
+        [
+          2015,
+          15.662650602409
+        ],
+        [
+          2016,
+          15.568862275449
+        ],
+        [
+          2017,
+          15.568862275449
+        ],
+        [
+          2018,
+          15.662650602409
+        ],
+        [
+          2019,
+          15.5688622754
+        ]
+      ],
+      "name": "Kleinhüningen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8635",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Einfamilienhäuser"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8635
+  }
+}

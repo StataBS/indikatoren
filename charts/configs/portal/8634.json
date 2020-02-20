@@ -1,0 +1,385 @@
+{
+  "series": [
+    {
+      "colorByPoint": true,
+      "index": 0,
+      "color": "#73b97c",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Fr.</b><br/>';
+          }
+      },
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          19.591392
+        ],
+        [
+          "Am Ring",
+          19.175069
+        ],
+        [
+          "Vorstädte",
+          19.1296
+        ],
+        [
+          "Rosental",
+          18.481539
+        ],
+        [
+          "Clara",
+          17.922095
+        ],
+        [
+          "Gotthelf",
+          17.871641
+        ],
+        [
+          "Matthäus",
+          17.652541
+        ],
+        [
+          "Bruderholz",
+          17.624859
+        ],
+        [
+          "Gundeldingen",
+          17.294567
+        ],
+        [
+          "St. Johann",
+          16.994475
+        ],
+        [
+          "Bachletten",
+          16.941389
+        ],
+        [
+          "Altstadt Kleinbasel",
+          16.880841
+        ],
+        [
+          "Riehen\u002FBettingen",
+          16.869336
+        ],
+        [
+          "St. Alban",
+          16.707902
+        ],
+        [
+          "Iselin",
+          16.577406
+        ],
+        [
+          "Breite",
+          16.495352
+        ],
+        [
+          "Wettstein",
+          16.439125
+        ],
+        [
+          "Klybeck",
+          15.915488
+        ],
+        [
+          "Kleinhüningen",
+          15.585018
+        ],
+        [
+          "Hirzbrunnen",
+          15.372848
+        ]
+      ],
+      "name": "Quadratmeterpreis",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '(95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + ' Fr.</b> - <b>' + Highcharts.numberFormat((this.high), 1) + ' Fr.</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Altstadt Grossbasel",
+          "low": 17.6040676,
+          "high": 21.5787156
+        },
+        {
+          "name": "Am Ring",
+          "low": 18.3029334,
+          "high": 20.0472045
+        },
+        {
+          "name": "Vorstädte",
+          "low": 17.7375521,
+          "high": 20.5216489
+        },
+        {
+          "name": "Rosental",
+          "low": 16.7935257,
+          "high": 20.1695516
+        },
+        {
+          "name": "Clara",
+          "low": 16.6920887,
+          "high": 19.1521019
+        },
+        {
+          "name": "Gotthelf",
+          "low": 16.5365391,
+          "high": 19.2067428
+        },
+        {
+          "name": "Matthäus",
+          "low": 16.9372131,
+          "high": 18.367869
+        },
+        {
+          "name": "Bruderholz",
+          "low": 16.8791161,
+          "high": 18.3706028
+        },
+        {
+          "name": "Gundeldingen",
+          "low": 16.8293664,
+          "high": 17.759767
+        },
+        {
+          "name": "St. Johann",
+          "low": 16.5505756,
+          "high": 17.438375
+        },
+        {
+          "name": "Bachletten",
+          "low": 16.3429953,
+          "high": 17.5397819
+        },
+        {
+          "name": "Altstadt Kleinbasel",
+          "low": 15.213706,
+          "high": 18.5479769
+        },
+        {
+          "name": "Riehen\u002FBettingen",
+          "low": 16.4550507,
+          "high": 17.2836219
+        },
+        {
+          "name": "St. Alban",
+          "low": 16.1756233,
+          "high": 17.2401801
+        },
+        {
+          "name": "Iselin",
+          "low": 15.7834229,
+          "high": 17.3713896
+        },
+        {
+          "name": "Breite",
+          "low": 15.8885249,
+          "high": 17.1021785
+        },
+        {
+          "name": "Wettstein",
+          "low": 15.4422425,
+          "high": 17.4360081
+        },
+        {
+          "name": "Klybeck",
+          "low": 14.655561,
+          "high": 17.175416
+        },
+        {
+          "name": "Kleinhüningen",
+          "low": 14.5319919,
+          "high": 16.6380431
+        },
+        {
+          "name": "Hirzbrunnen",
+          "low": 14.8629993,
+          "high": 15.882696
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "9px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -10
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "marginRight": 7,
+    "inverted": true,
+    "renderTo": "container-8634",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Nettomietpreise nach Wohnviertel"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Fr. pro m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2015-2017",
+    "align": "left",
+    "useHTML": true
+  },
+  "tooltip": {
+    "shared": true,
+    "snap": 0
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 12,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
+    },
+    "tickAmount": 6
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0,
+      "stickyTracking": false
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8634
+  },
+  "colors": [
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#007a2f",
+    "#007a2f",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c",
+    "#73b97c"
+  ]
+}

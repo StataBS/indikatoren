@@ -1,0 +1,300 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2011,
+          2.394691
+        ],
+        [
+          2012,
+          3.245436
+        ],
+        [
+          2013,
+          3.9
+        ],
+        [
+          2014,
+          4.029937
+        ],
+        [
+          2015,
+          4.434072
+        ],
+        [
+          2016,
+          4.827789226
+        ],
+        [
+          2017,
+          4.686584651
+        ],
+        [
+          2018,
+          4.84954718
+        ]
+      ],
+      "name": "FAMI-Quote Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2011,
+          2.564103
+        ],
+        [
+          2012,
+          3.325599
+        ],
+        [
+          2013,
+          3.7
+        ],
+        [
+          2014,
+          4.137393
+        ],
+        [
+          2015,
+          4.538341
+        ],
+        [
+          2016,
+          5.246671887
+        ],
+        [
+          2017,
+          5.031446541
+        ],
+        [
+          2018,
+          5.14240506
+        ]
+      ],
+      "name": "FAMI-Quote  Kleinhüningen"
+    },
+    {
+      "color": "#7f5f1a",
+      "data": [
+        [
+          2011,
+          22.01384882
+        ],
+        [
+          2012,
+          22.63112141
+        ],
+        [
+          2013,
+          22.97063903
+        ],
+        [
+          2014,
+          23.48877375
+        ],
+        [
+          2015,
+          23.01633606
+        ],
+        [
+          2016,
+          23.93288195
+        ],
+        [
+          2017,
+          23.49150557
+        ],
+        [
+          2018,
+          25.00730353
+        ]
+      ],
+      "name": "PV-Quote Klybeck"
+    },
+    {
+      "color": "#923f8d",
+      "data": [
+        [
+          2011,
+          20.0165426
+        ],
+        [
+          2012,
+          19.18020108
+        ],
+        [
+          2013,
+          19.28737413
+        ],
+        [
+          2014,
+          19.90632319
+        ],
+        [
+          2015,
+          20.97026604
+        ],
+        [
+          2016,
+          22.47454973
+        ],
+        [
+          2017,
+          23.27044025
+        ],
+        [
+          2018,
+          23.33860759
+        ]
+      ],
+      "name": "PV-Quote Kleinhüningen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8649",
+    "spacingBottom": 22
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.replace('Kleinhüningen','Kleinh.');
+      }
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8649
+  }
+}
