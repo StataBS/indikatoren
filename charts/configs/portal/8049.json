@@ -1,0 +1,423 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2000,
+          22.7
+        ],
+        [
+          2001,
+          22.7
+        ],
+        [
+          2002,
+          21.7
+        ],
+        [
+          2003,
+          21.4
+        ],
+        [
+          2004,
+          21.1
+        ],
+        [
+          2005,
+          21.2
+        ],
+        [
+          2006,
+          21.4
+        ],
+        [
+          2007,
+          21.4
+        ],
+        [
+          2008,
+          20.8
+        ],
+        [
+          2009,
+          20.6
+        ],
+        [
+          2010,
+          20.7
+        ],
+        [
+          2011,
+          20.5
+        ],
+        [
+          2012,
+          20.4
+        ],
+        [
+          2013,
+          20.9
+        ],
+        [
+          2014,
+          20.6
+        ],
+        [
+          2015,
+          20.1
+        ],
+        [
+          2016,
+          20.6
+        ],
+        [
+          2017,
+          20.3
+        ],
+        [
+          2018,
+          20.9
+        ],
+        [
+          2019,
+          21.4
+        ]
+      ],
+      "name": "Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2000,
+          30.3
+        ],
+        [
+          2001,
+          30.9
+        ],
+        [
+          2002,
+          29.8
+        ],
+        [
+          2003,
+          29.3
+        ],
+        [
+          2004,
+          28.3
+        ],
+        [
+          2005,
+          27.1
+        ],
+        [
+          2006,
+          26.9
+        ],
+        [
+          2007,
+          28.5
+        ],
+        [
+          2008,
+          29
+        ],
+        [
+          2009,
+          27.6
+        ],
+        [
+          2010,
+          28.9
+        ],
+        [
+          2011,
+          29.4
+        ],
+        [
+          2012,
+          28
+        ],
+        [
+          2013,
+          27.8
+        ],
+        [
+          2014,
+          28
+        ],
+        [
+          2015,
+          28.2
+        ],
+        [
+          2016,
+          28.1
+        ],
+        [
+          2017,
+          28.5
+        ],
+        [
+          2018,
+          29.4
+        ],
+        [
+          2019,
+          29.9
+        ]
+      ],
+      "name": "Kleinhüningen"
+    },
+    {
+      "color": "#999999",
+      "data": [
+        [
+          2000,
+          32.8
+        ],
+        [
+          2001,
+          32.7
+        ],
+        [
+          2002,
+          32.1
+        ],
+        [
+          2003,
+          31.7
+        ],
+        [
+          2004,
+          31.4
+        ],
+        [
+          2005,
+          31.3
+        ],
+        [
+          2006,
+          31.2
+        ],
+        [
+          2007,
+          31.1
+        ],
+        [
+          2008,
+          30.7
+        ],
+        [
+          2009,
+          30.3
+        ],
+        [
+          2010,
+          30.2
+        ],
+        [
+          2011,
+          29.9
+        ],
+        [
+          2012,
+          29.6
+        ],
+        [
+          2013,
+          29.3
+        ],
+        [
+          2014,
+          29.2
+        ],
+        [
+          2015,
+          29.1
+        ],
+        [
+          2016,
+          28.9
+        ],
+        [
+          2017,
+          28.8
+        ],
+        [
+          2018,
+          28.6
+        ],
+        [
+          2019,
+          28.6
+        ]
+      ],
+      "name": "Stadt Basel"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8049"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Altersquotient"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8049
+  }
+}

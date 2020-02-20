@@ -1,0 +1,423 @@
+{
+  "series": [
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#999",
+      "index": 3,
+      "data": [
+        [
+          2000,
+          1.373474508
+        ],
+        [
+          2001,
+          1.493552019
+        ],
+        [
+          2002,
+          1.395482206
+        ],
+        [
+          2003,
+          1.460264865
+        ],
+        [
+          2004,
+          1.519782646
+        ],
+        [
+          2005,
+          1.582298631
+        ],
+        [
+          2006,
+          1.422925739
+        ],
+        [
+          2007,
+          1.401275235
+        ],
+        [
+          2008,
+          1.239669421
+        ],
+        [
+          2009,
+          0.927759714
+        ],
+        [
+          2010,
+          0.766251174
+        ],
+        [
+          2011,
+          0.493026
+        ],
+        [
+          2012,
+          0.472934712
+        ],
+        [
+          2013,
+          0.327591783
+        ],
+        [
+          2014,
+          0.201562888
+        ],
+        [
+          2015,
+          0.302435835
+        ],
+        [
+          2016,
+          0.397543567
+        ],
+        [
+          2017,
+          0.468213925
+        ],
+        [
+          2018,
+          0.686270598
+        ],
+        [
+          2019,
+          1.0114511431
+        ]
+      ],
+      "name": "Stadt Basel"
+    },
+    {
+      "color": "#cd9c00",
+      "index": 1,
+      "data": [
+        [
+          2000,
+          1.146914255
+        ],
+        [
+          2001,
+          2.075368651
+        ],
+        [
+          2002,
+          1.064991808
+        ],
+        [
+          2003,
+          1.865057597
+        ],
+        [
+          2004,
+          1.645639057
+        ],
+        [
+          2005,
+          1.481888035
+        ],
+        [
+          2006,
+          2.212743268
+        ],
+        [
+          2007,
+          1.943039659
+        ],
+        [
+          2008,
+          1.893838357
+        ],
+        [
+          2009,
+          1.147584734
+        ],
+        [
+          2010,
+          0.667200427
+        ],
+        [
+          2011,
+          0.320170758
+        ],
+        [
+          2012,
+          0.4
+        ],
+        [
+          2013,
+          0.350121196
+        ],
+        [
+          2014,
+          0.215343203
+        ],
+        [
+          2015,
+          0.214018192
+        ],
+        [
+          2016,
+          0.18706574
+        ],
+        [
+          2017,
+          0.319914689
+        ],
+        [
+          2018,
+          0.318809777
+        ],
+        [
+          2019,
+          0.5844845908
+        ]
+      ],
+      "name": "Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "index": 2,
+      "data": [
+        [
+          2000,
+          1.496062992
+        ],
+        [
+          2001,
+          3.624901497
+        ],
+        [
+          2002,
+          1.65615142
+        ],
+        [
+          2003,
+          3.511450382
+        ],
+        [
+          2004,
+          3.358778626
+        ],
+        [
+          2005,
+          1.374045802
+        ],
+        [
+          2006,
+          1.221374046
+        ],
+        [
+          2007,
+          1.06870229
+        ],
+        [
+          2008,
+          1.14416476
+        ],
+        [
+          2009,
+          1.447067784
+        ],
+        [
+          2010,
+          1.370906321
+        ],
+        [
+          2011,
+          0.5702067
+        ],
+        [
+          2012,
+          0.356379187
+        ],
+        [
+          2013,
+          0.222551929
+        ],
+        [
+          2014,
+          0.295857988
+        ],
+        [
+          2015,
+          0.073691968
+        ],
+        [
+          2016,
+          0.293901543
+        ],
+        [
+          2017,
+          0.661278472
+        ],
+        [
+          2018,
+          0.734214391
+        ],
+        [
+          2019,
+          0.6607929515
+        ]
+      ],
+      "name": "Kleinhüningen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8063"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Leerwohnungsquote"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8063
+  }
+}

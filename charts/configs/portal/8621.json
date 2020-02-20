@@ -1,0 +1,821 @@
+{
+  "series": [
+    {
+      "color": "#672773",
+      "index": 9,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2015: Klybeck",
+          430
+        ],
+        [
+          "2015: Kleinhüningen",
+          188
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          410
+        ],
+        [
+          "2016: Kleinhüningen",
+          192
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          409
+        ],
+        [
+          "2017: Kleinhüningen",
+          185
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          435
+        ],
+        [
+          "2018: Kleinhüningen",
+          184
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          430
+        ],
+        [
+          "2019: Kleinhüningen",
+          171
+        ]
+      ],
+      "name": "Deutschland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007a2f",
+      "index": 8,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2015: Klybeck",
+          576
+        ],
+        [
+          "2015: Kleinhüningen",
+          199
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          565
+        ],
+        [
+          "2016: Kleinhüningen",
+          196
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          552
+        ],
+        [
+          "2017: Kleinhüningen",
+          203
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          552
+        ],
+        [
+          "2018: Kleinhüningen",
+          215
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          551
+        ],
+        [
+          "2019: Kleinhüningen",
+          202
+        ]
+      ],
+      "name": "Italien",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#fabd24",
+      "index": 7,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2015: Klybeck",
+          610
+        ],
+        [
+          "2015: Kleinhüningen",
+          184
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          578
+        ],
+        [
+          "2016: Kleinhüningen",
+          179
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          570
+        ],
+        [
+          "2017: Kleinhüningen",
+          174
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          528
+        ],
+        [
+          "2018: Kleinhüningen",
+          172
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          511
+        ],
+        [
+          "2019: Kleinhüningen",
+          162
+        ]
+      ],
+      "name": "Türkei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b475ab",
+      "index": 6,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2015: Klybeck",
+          732
+        ],
+        [
+          "2015: Kleinhüningen",
+          152
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          708
+        ],
+        [
+          "2016: Kleinhüningen",
+          152
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          741
+        ],
+        [
+          "2017: Kleinhüningen",
+          152
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          761
+        ],
+        [
+          "2018: Kleinhüningen",
+          162
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          741
+        ],
+        [
+          "2019: Kleinhüningen",
+          175
+        ]
+      ],
+      "name": "EU-17 + EFTA",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2015: Klybeck",
+          179
+        ],
+        [
+          "2015: Kleinhüningen",
+          40
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          199
+        ],
+        [
+          "2016: Kleinhüningen",
+          64
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          230
+        ],
+        [
+          "2017: Kleinhüningen",
+          68
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          217
+        ],
+        [
+          "2018: Kleinhüningen",
+          66
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          232
+        ],
+        [
+          "2019: Kleinhüningen",
+          71
+        ]
+      ],
+      "name": "EU-Ost",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 4,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2015: Klybeck",
+          778
+        ],
+        [
+          "2015: Kleinhüningen",
+          312
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          752
+        ],
+        [
+          "2016: Kleinhüningen",
+          288
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          749
+        ],
+        [
+          "2017: Kleinhüningen",
+          296
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          737
+        ],
+        [
+          "2018: Kleinhüningen",
+          301
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          692
+        ],
+        [
+          "2019: Kleinhüningen",
+          284
+        ]
+      ],
+      "name": "Balkan",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 3,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2015: Klybeck",
+          82
+        ],
+        [
+          "2015: Kleinhüningen",
+          19
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          72
+        ],
+        [
+          "2016: Kleinhüningen",
+          27
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          70
+        ],
+        [
+          "2017: Kleinhüningen",
+          26
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          79
+        ],
+        [
+          "2018: Kleinhüningen",
+          28
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          73
+        ],
+        [
+          "2019: Kleinhüningen",
+          24
+        ]
+      ],
+      "name": "Mittel- und Südamerika",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 2,
+      "legendIndex": 7,
+      "data": [
+        [
+          "2015: Klybeck",
+          73
+        ],
+        [
+          "2015: Kleinhüningen",
+          75
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          96
+        ],
+        [
+          "2016: Kleinhüningen",
+          85
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          107
+        ],
+        [
+          "2017: Kleinhüningen",
+          71
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          102
+        ],
+        [
+          "2018: Kleinhüningen",
+          67
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          110
+        ],
+        [
+          "2019: Kleinhüningen",
+          71
+        ]
+      ],
+      "name": "Arabische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9f7c5a",
+      "index": 1,
+      "legendIndex": 8,
+      "data": [
+        [
+          "2015: Klybeck",
+          106
+        ],
+        [
+          "2015: Kleinhüningen",
+          68
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          137
+        ],
+        [
+          "2016: Kleinhüningen",
+          59
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          155
+        ],
+        [
+          "2017: Kleinhüningen",
+          50
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          165
+        ],
+        [
+          "2018: Kleinhüningen",
+          49
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          170
+        ],
+        [
+          "2019: Kleinhüningen",
+          52
+        ]
+      ],
+      "name": "Afrikanische Länder",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 9,
+      "data": [
+        [
+          "2015: Klybeck",
+          204
+        ],
+        [
+          "2015: Kleinhüningen",
+          108
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016: Klybeck",
+          204
+        ],
+        [
+          "2016: Kleinhüningen",
+          115
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2017: Klybeck",
+          215
+        ],
+        [
+          "2017: Kleinhüningen",
+          124
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2018: Klybeck",
+          231
+        ],
+        [
+          "2018: Kleinhüningen",
+          127
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          243
+        ],
+        [
+          "2019: Kleinhüningen",
+          103
+        ]
+      ],
+      "name": "Übrige Länder",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "11px",
+        "color": "#000000"
+      },
+      "step": 1,
+      "rotation": -45,
+      "formatter": function () {
+          return this.value.replace('Kleinhüningen', 'Kleinh.');
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "spacingTop": 5,
+    "type": "column",
+    "renderTo": "container-8621",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "normal",
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländer nach Staatsangehörigkeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "enabled": true,
+    "reversed": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": 8621
+  }
+}

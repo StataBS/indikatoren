@@ -1,0 +1,403 @@
+{
+  "series": [
+    {
+      "color": "#cd9c00",
+      "data": [
+        [
+          2000,
+          49.0598
+        ],
+        [
+          2001,
+          48.6729
+        ],
+        [
+          2002,
+          49.4797
+        ],
+        [
+          2003,
+          50.1847
+        ],
+        [
+          2004,
+          49.95
+        ],
+        [
+          2005,
+          50.6769
+        ],
+        [
+          2006,
+          50.5897
+        ],
+        [
+          2007,
+          49.1176
+        ],
+        [
+          2008,
+          48.1336
+        ],
+        [
+          2009,
+          49.0318
+        ],
+        [
+          2010,
+          48.7481
+        ],
+        [
+          2011,
+          50.0276
+        ],
+        [
+          2012,
+          51.0044
+        ],
+        [
+          2013,
+          50.6581
+        ],
+        [
+          2014,
+          51.4562
+        ],
+        [
+          2015,
+          51.7786
+        ],
+        [
+          2016,
+          51.6662
+        ],
+        [
+          2017,
+          52.3501
+        ],
+        [
+          2018,
+          52.2007
+        ],
+        [
+          2019,
+          51.8585
+        ]
+      ],
+      "name": "Klybeck"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2000,
+          39.9238
+        ],
+        [
+          2001,
+          40.7956
+        ],
+        [
+          2002,
+          43.6334
+        ],
+        [
+          2003,
+          43.77
+        ],
+        [
+          2004,
+          43.3468
+        ],
+        [
+          2005,
+          45.2344
+        ],
+        [
+          2006,
+          46.1298
+        ],
+        [
+          2007,
+          43.7057
+        ],
+        [
+          2008,
+          42.6557
+        ],
+        [
+          2009,
+          45.3202
+        ],
+        [
+          2010,
+          43.75
+        ],
+        [
+          2011,
+          44.7203
+        ],
+        [
+          2012,
+          45.5335
+        ],
+        [
+          2013,
+          45.7262
+        ],
+        [
+          2014,
+          45.6885
+        ],
+        [
+          2015,
+          46.3793
+        ],
+        [
+          2016,
+          46.9063
+        ],
+        [
+          2017,
+          47.4332
+        ],
+        [
+          2018,
+          47.9706
+        ],
+        [
+          2019,
+          46.9979
+        ]
+      ],
+      "name": "Kleinhüningen"
+    },
+    {
+      "color": "#999",
+      "data": [
+        [
+          2000,
+          29.4171
+        ],
+        [
+          2001,
+          29.8282
+        ],
+        [
+          2002,
+          30.6928
+        ],
+        [
+          2003,
+          31.2406
+        ],
+        [
+          2004,
+          31.7215
+        ],
+        [
+          2005,
+          32.2189
+        ],
+        [
+          2006,
+          32.9197
+        ],
+        [
+          2007,
+          32.9627
+        ],
+        [
+          2008,
+          33.3922
+        ],
+        [
+          2009,
+          34.1011
+        ],
+        [
+          2010,
+          34.1639
+        ],
+        [
+          2011,
+          34.8611
+        ],
+        [
+          2012,
+          35.3653
+        ],
+        [
+          2013,
+          36.0134
+        ],
+        [
+          2014,
+          36.3741
+        ],
+        [
+          2015,
+          36.636
+        ],
+        [
+          2016,
+          37.0133
+        ],
+        [
+          2017,
+          37.2626
+        ],
+        [
+          2018,
+          37.6829
+        ],
+        [
+          2019,
+          37.8004
+        ]
+      ],
+      "name": "Stadt Basel"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8620",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländeranteil"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wohnviertel Klybeck und Kleinhüningen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px"
+    },
+    "padding": 0,
+    "itemDistance": 10
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8620
+  }
+}

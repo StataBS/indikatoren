@@ -1697,7 +1697,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-14T14:42:52.5252",
+		"aktualisierungsdatum": "2020-02-19T19:42:30.3030",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -1740,7 +1740,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-14T14:43:03.033",
+		"aktualisierungsdatum": "2020-02-19T19:42:23.2323",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
