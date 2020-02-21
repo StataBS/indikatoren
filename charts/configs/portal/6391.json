@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6966,7 +6968,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -7068,7 +7070,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Leerwohnungen nach Wohnviertel"
+    "text": "Leerwohnungen"
   },
   "subtitle": {
     "style": {
@@ -7077,7 +7079,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7091,9 +7093,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-20"
   },
   "colorAxis": {
     "min": 0,
