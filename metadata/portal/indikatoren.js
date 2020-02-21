@@ -14154,18 +14154,18 @@ var indikatoren = [
 		"id": 6378
 	},
 	{
-		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"title": "Leerwohnungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "C9-3",
-		"description": "Leerwohnungen nach Wohnviertel",
+		"description": "Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"aktualisierungsdatum": "2020-02-20T10:32:40.4040",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -14180,14 +14180,17 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6391"
+			"6391",
+			"8275",
+			"8546"
 		],
 		"renderLink": [
-			"6391"
+			"6391",
+			"8275",
+			"8546"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -14199,18 +14202,18 @@ var indikatoren = [
 		"id": 6379
 	},
 	{
-		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sozialhilfequote und Sozialhilfebezüger",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.06380",
 		"kuerzelKunde": "C13-1",
-		"description": "Sozialhilfe nach Wohnviertel",
+		"description": "Sozialhilfequote und Sozialhilfebezüger",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
+		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -14683,18 +14686,18 @@ var indikatoren = [
 		"id": 6390
 	},
 	{
-		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"title": "Leerwohnungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06391",
 		"kuerzelKunde": "K9-3",
-		"description": "Leerwohnungen nach Wohnviertel",
+		"description": "Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"aktualisierungsdatum": "2020-02-20T10:32:40.4040",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -14713,8 +14716,7 @@ var indikatoren = [
 			"6379"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -14726,18 +14728,18 @@ var indikatoren = [
 		"id": 6391
 	},
 	{
-		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sozialhilfequote und Sozialhilfebezüger",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.06392",
 		"kuerzelKunde": "K13-1",
-		"description": "Sozialhilfe nach Wohnviertel",
+		"description": "Sozialhilfequote und Sozialhilfebezüger",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
+		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -16959,13 +16961,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Der Basler Arbeitsmarkt in der Übersicht",
+		"aktualisierungsdatum": "2020-02-20T11:04:52.5252",
+		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 850 Franken im Jahr 2016 in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 510 Franken brutto bezahlt. Er beträgt damit etwa zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 700 Franken. Über diesem Wert liegt der Medianlohn bei den Finanz- und Versicherungsdienstleistungen (8 580 Franken), im Bereich Information und Kommunikation (8 340), Beratung, Planung, Forschung (7 920) und in der Branche Öffentliche Verwaltung und Sozialversicherungen (7 740). Die Ergebnisse für die Branche Erziehung und Unterricht sind statistisch unsicher.",
+		"lesehilfe": "Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 850 Franken im Jahr 2016 in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 510 Franken brutto bezahlt. Er beträgt damit etwa zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 700 Franken. Über diesem Wert liegt der Medianlohn bei den Finanz- und Versicherungsdienstleistungen (8 580 Franken), im Bereich Information und Kommunikation (8 340), Beratung, Planung, Forschung (7 920) und in der Branche Öffentliche Verwaltung und Sozialversicherungen (7 740). Die Ergebnisse für die Branche Erziehung und Unterricht im Jahr 2014 sind statistisch unsicher.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19125,13 +19127,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-02-20T11:04:06.066",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 6 000 Franken (Median) brutto verdient man in der Nordwestschweiz 2016 im Gesundheits- und Sozialwesen (6 402 Franken) sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 125 Franken). In der öffentlichen Verwaltung liegt der Bruttomedianlohn 2016 bei 7 740 Franken. Der Medianlohn im Bereich Erziehung und Unterricht ist statistisch unsicher.",
+		"lesehilfe": "Über 6 000 Franken (Median) brutto verdient man in der Nordwestschweiz 2016 im Gesundheits- und Sozialwesen (6 402 Franken) sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 125 Franken). In der öffentlichen Verwaltung liegt der Bruttomedianlohn 2016 bei 7 740 Franken. Der Medianlohn im Bereich Erziehung und Unterricht im Jahr 2014 ist statistisch unsicher.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

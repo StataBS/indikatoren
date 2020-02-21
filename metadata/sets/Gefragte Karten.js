@@ -264,18 +264,18 @@ var indikatorensetData = [
 		"id": 6378
 	},
 	{
-		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"title": "Leerwohnungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06379",
 		"kuerzelKunde": "C9-3",
-		"description": "Leerwohnungen nach Wohnviertel",
+		"description": "Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"aktualisierungsdatum": "2020-02-20T10:32:40.4040",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -289,14 +289,17 @@ var indikatorensetData = [
 		"orderKey": "02_00_00_00_00_009",
 		"parentId": null,
 		"children": [
-			"6391"
+			"6391",
+			"8275",
+			"8546"
 		],
 		"renderLink": [
-			"6391"
+			"6391",
+			"8275",
+			"8546"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -308,18 +311,18 @@ var indikatorensetData = [
 		"id": 6379
 	},
 	{
-		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sozialhilfequote und Sozialhilfebezüger",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.06380",
 		"kuerzelKunde": "C13-1",
-		"description": "Sozialhilfe nach Wohnviertel",
+		"description": "Sozialhilfequote und Sozialhilfebezüger",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
+		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -781,18 +784,18 @@ var indikatorensetData = [
 		"id": 6390
 	},
 	{
-		"title": "Leerwohnungen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"title": "Leerwohnungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.06391",
 		"kuerzelKunde": "K9-3",
-		"description": "Leerwohnungen nach Wohnviertel",
+		"description": "Leerwohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-23T15:39:05.055",
+		"aktualisierungsdatum": "2020-02-20T10:32:40.4040",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -810,8 +813,7 @@ var indikatorensetData = [
 			"6379"
 		],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -823,18 +825,18 @@ var indikatorensetData = [
 		"id": 6391
 	},
 	{
-		"title": "Sozialhilfe nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Sozialhilfequote und Sozialhilfebezüger",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.13.3.06392",
 		"kuerzelKunde": "K13-1",
-		"description": "Sozialhilfe nach Wohnviertel",
+		"description": "Sozialhilfequote und Sozialhilfebezüger",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-18T08:25:57.5757",
+		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
