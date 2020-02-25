@@ -43479,7 +43479,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T08:33:50.5050",
+		"aktualisierungsdatum": "2020-02-25T08:27:27.2727",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -46945,7 +46945,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Dezember",
+		"subtitle": "Basel-Stadt, Januar 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -46956,13 +46956,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-01-23T08:29:33.3333",
+		"aktualisierungsdatum": "2020-02-25T08:25:37.3737",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In elf Wohnvierteln und in der Gemeinde Bettingen wurden im Dezember 2019 Bevölkerungsrückgänge verzeichnet. Die Einwohnerzahl stieg in acht Wohnvierteln und in Riehen - am stärksten in den Wohnvierteln Gotthelf, Clara und Kleinhüningen.",
+		"lesehilfe": "Im Januar 2020 stieg die Einwohnerzahl gegenüber Dezember 2019 in allen Wohnviertel, in Riehen und in Bettingen. Einzige Ausnahme bildet das Wohnviertel Kleinhüningen, wo ein geringfügiger Rückgang verzeichnet wurde.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
