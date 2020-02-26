@@ -895,40 +895,6 @@ var indikatorensetData = [
 		"id": 5191
 	},
 	{
-		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
-		"kuerzel": "I.50.1.05192",
-		"kuerzelKunde": "GW14",
-		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
-		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Bildung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
-		"erlaeuterungen": "",
-		"template": "befragungen001",
-		"orderKey": "03_05_00_00_00_314",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 5192,
-		"darstellungsart": "Grafik"
-	},
-	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.18.1.5193",

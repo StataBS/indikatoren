@@ -6,118 +6,6 @@
       "data": [
         [
           "Jan",
-          36106
-        ],
-        [
-          "Feb",
-          35027
-        ],
-        [
-          "Mrz",
-          37092
-        ],
-        [
-          "Apr",
-          35624
-        ],
-        [
-          "Mai",
-          37483
-        ],
-        [
-          "Jun",
-          38654
-        ],
-        [
-          "Jul",
-          42566
-        ],
-        [
-          "Aug",
-          37780
-        ],
-        [
-          "Sep",
-          35730
-        ],
-        [
-          "Okt",
-          42687
-        ],
-        [
-          "Nov",
-          39717
-        ],
-        [
-          "Dez",
-          39537
-        ]
-      ],
-      "name": "Inland 2018",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "color": "rgb(168, 196, 203)",
-      "data": [
-        [
-          "Jan",
-          55153
-        ],
-        [
-          "Feb",
-          57885
-        ],
-        [
-          "Mrz",
-          77249
-        ],
-        [
-          "Apr",
-          72075
-        ],
-        [
-          "Mai",
-          74776
-        ],
-        [
-          "Jun",
-          96582
-        ],
-        [
-          "Jul",
-          86556
-        ],
-        [
-          "Aug",
-          93558
-        ],
-        [
-          "Sep",
-          84523
-        ],
-        [
-          "Okt",
-          83306
-        ],
-        [
-          "Nov",
-          72583
-        ],
-        [
-          "Dez",
-          74250
-        ]
-      ],
-      "name": "Ausland 2018",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "color": "rgb(176, 0, 0)",
-      "data": [
-        [
-          "Jan",
           24826
         ],
         [
@@ -169,8 +57,8 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "color": "rgb(105, 146, 155)",
+      "stack": 1,
+      "color": "rgb(168, 196, 203)",
       "data": [
         [
           "Jan",
@@ -222,6 +110,118 @@
         ]
       ],
       "name": "Ausland 2019",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          "Jan",
+          38946
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Inland 2020",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          "Jan",
+          52412
+        ],
+        [
+          "Feb",
+          undefined
+        ],
+        [
+          "Mrz",
+          undefined
+        ],
+        [
+          "Apr",
+          undefined
+        ],
+        [
+          "Mai",
+          undefined
+        ],
+        [
+          "Jun",
+          undefined
+        ],
+        [
+          "Jul",
+          undefined
+        ],
+        [
+          "Aug",
+          undefined
+        ],
+        [
+          "Sep",
+          undefined
+        ],
+        [
+          "Okt",
+          undefined
+        ],
+        [
+          "Nov",
+          undefined
+        ],
+        [
+          "Dez",
+          undefined
+        ]
+      ],
+      "name": "Ausland 2020",
       "turboThreshold": 0
     }
   ],
@@ -323,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-26"
   },
   "legend": {
     "enabled": true,
