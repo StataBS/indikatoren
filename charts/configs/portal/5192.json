@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#3A2012",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -24,6 +24,10 @@
         [
           "2015",
           338
+        ],
+        [
+          "2019",
+          464
         ]
       ],
       "name": "Eine(n)",
@@ -31,8 +35,8 @@
     },
     {
       "color": "#7F5F1A",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -53,6 +57,10 @@
         [
           "2015",
           213
+        ],
+        [
+          "2019",
+          366
         ]
       ],
       "name": "Mehrere",
@@ -60,8 +68,8 @@
     },
     {
       "color": "#CD9C00",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -82,6 +90,10 @@
         [
           "2015",
           953
+        ],
+        [
+          "2019",
+          1217
         ]
       ],
       "name": "Keine",
@@ -89,6 +101,39 @@
     },
     {
       "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          1
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
       "index": 0,
       "legendIndex": 0,
       "data": [
@@ -111,9 +156,13 @@
         [
           "2015",
           2
+        ],
+        [
+          "2019",
+          60
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -193,7 +242,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten"
+    "text": "Besuchte Weiterbildungen und Kurse im letzten Jahr"
   },
   "subtitle": {
     "style": {
@@ -258,7 +307,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-25"
   },
   "legend": {
     "layout": "vertical",

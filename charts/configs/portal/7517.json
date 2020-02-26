@@ -17,10 +17,10 @@
         ],
         [
           "Nicht klassiert",
-          346
+          341
         ]
       ],
-      "name": "Verfügbare Zimmer 2018",
+      "name": "Verfügbare Zimmer 2019",
       "turboThreshold": 0
     },
     {
@@ -40,10 +40,10 @@
         ],
         [
           "Nicht klassiert",
-          365
+          368
         ]
       ],
-      "name": "Verfügbare Zimmer 2019",
+      "name": "Verfügbare Zimmer 2020",
       "turboThreshold": 0
     },
     {
@@ -58,22 +58,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.502980306
+          0.409528684
         ],
         [
           "3-Sterne",
-          0.63522993
+          0.444163162
         ],
         [
           "4- und 5-Sterne",
-          0.645861654
+          0.523113243
         ],
         [
           "Nicht klassiert",
-          0.505199063
+          0.400931293
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2018",
+      "name": "Nettozimmerauslastung (rechte Skala) 2019",
       "turboThreshold": 0
     },
     {
@@ -88,22 +88,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.489463332
+          0.44002196
         ],
         [
           "3-Sterne",
-          0.591553162
+          0.563769925
         ],
         [
           "4- und 5-Sterne",
-          0.616502121
+          0.557423641
         ],
         [
           "Nicht klassiert",
-          0.479985799
+          0.466514727
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2019",
+      "name": "Nettozimmerauslastung (rechte Skala) 2020",
       "turboThreshold": 0
     }
   ],
@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Dezember",
+    "text": "Basel-Stadt, Januar",
     "align": "left"
   },
   "yAxis": [
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-26"
   },
   "legend": {
     "symbolRadius": 0,

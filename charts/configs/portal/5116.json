@@ -3238,87 +3238,87 @@
       "data": [
         [
           1,
-          0.1532481954
+          0.1490084986
         ],
         [
           12,
-          0.1579257513
+          0.1544424568
         ],
         [
           2,
-          0.174382716
+          0.1661576054
         ],
         [
           13,
-          0.1988700565
+          0.2010562052
         ],
         [
           6,
-          0.203671395
+          0.2040816327
         ],
         [
           14,
-          0.2129329004
+          0.2107133096
         ],
         [
           17,
-          0.2172171281
+          0.2115173675
         ],
         [
           4,
-          0.2187877741
+          0.217735006
         ],
         [
           3,
-          0.2256192498
-        ],
-        [
-          11,
-          0.2524217882
+          0.2265439844
         ],
         [
           9,
-          0.2605976372
+          0.2541905855
+        ],
+        [
+          11,
+          0.2542359271
         ],
         [
           10,
-          0.2615466762
+          0.2609666756
         ],
         [
           16,
-          0.2710585356
+          0.2619919443
         ],
         [
           18,
-          0.2863878639
+          0.280817675
         ],
         [
           8,
-          0.2959608323
+          0.2951296341
         ],
         [
           5,
-          0.3003165988
+          0.3023012552
         ],
         [
           19,
-          0.3216506501
+          0.3171577123
         ],
         [
           30,
-          0.3386627907
+          0.3478915663
         ],
         [
           15,
-          0.3500850179
+          0.3600152468
         ],
         [
           20,
-          0.377706565
+          0.3766110198
         ],
         [
           7,
-          0.38621087
+          0.4004638578
         ]
       ]
     },
@@ -3365,11 +3365,11 @@
         ],
         [
           10,
-          "St. Johann"
+          "Gotthelf"
         ],
         [
           11,
-          "Gotthelf"
+          "St. Johann"
         ],
         [
           12,
@@ -3552,6 +3552,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3591,6 +3592,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3660,7 +3662,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -3676,7 +3678,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-25"
   },
   "colorAxis": {
     "min": 0,
@@ -3690,7 +3692,7 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value*100),0)+'%'; 
+					return Highcharts.numberFormat((this.value*100),0); 
 				}
     },
     "marker": {
@@ -3718,22 +3720,22 @@
     }
   },
   "tooltip": {
-    "formatter": function(args){
-        		if (! this.point["Wohnviertel Id"]) {
-        		    //Rhein
-        			return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
-        		}
-                else {
-                    //Wohnviertel
-                    var this_point_index = this.series.data.indexOf(this.point);
-                    var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                    var other_series = args.chart.series[other_series_index];
-                    var other_point = other_series.data[this_point_index];
-                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>' + 
-                        'Rang <b>' + other_point.value + '</b>';
-                }
-            }
+    "formatter": function (args) {
+				if (!this.point["Wohnviertel Id"]) {
+					//Rhein
+					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+				}
+				else {
+					//Wohnviertel
+					var this_point_index = this.series.data.indexOf(this.point);
+					var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+					var other_series = args.chart.series[other_series_index];
+					var other_point = other_series.data[this_point_index];
+					return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
+						this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value * 100), 1) + '</b><br/>' +
+						'Rang <b>' + other_point.value + '</b>';
+				}
+			}
   },
   "customFunctions": {
     "addLegendRectangle": function(chart, x, y, width, height, fill, cssClass){

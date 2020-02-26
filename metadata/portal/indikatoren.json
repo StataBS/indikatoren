@@ -4482,7 +4482,7 @@
 	},
 	{
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
@@ -4492,14 +4492,14 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:57:46.4646",
+		"aktualisierungsdatum": "2020-02-25T17:11:09.099",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die modernste.",
-		"erlaeuterungen": "Mittleres Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel des Baujahres über alle Wohngebäude).",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die jüngste.",
+		"erlaeuterungen": "Ausgewiesen ist das mittlere Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel).",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4526,7 +4526,7 @@
 	},
 	{
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
@@ -4536,7 +4536,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:59:12.1212",
+		"aktualisierungsdatum": "2020-02-25T15:45:24.2424",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -4616,7 +4616,7 @@
 	},
 	{
 		"title": "Fläche pro Wohnung",
-		"subtitle": "2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
@@ -4626,7 +4626,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T12:59:53.5353",
+		"aktualisierungsdatum": "2020-02-25T16:00:28.2828",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -6908,7 +6908,7 @@
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
@@ -6918,21 +6918,24 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:51:13.1313",
+		"aktualisierungsdatum": "2020-02-25T15:41:34.3434",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient gibt das Verhältnis der Anzahl unter 20-Jähriger zur Anzahl 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter) an.",
+		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_008",
 		"parentId": 4829,
-		"children": [],
+		"children": [
+			"8276",
+			"8547"
+		],
 		"renderLink": [
 			"4829"
 		],
@@ -7844,39 +7847,44 @@
 		"id": 5186
 	},
 	{
-		"title": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"title": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"subtitle": "«Haben Sie in den letzten 12 Monaten eine Veranstaltung oder einen Kurs besucht oder machen Sie zurzeit eine Weiterbildung?»",
-		"kuerzel": "I.50.1.05192",
-		"kuerzelKunde": "GW14",
-		"description": "Besuchte Weiterbildungen und Kurse in den letzten zwölf Monaten",
+		"kuerzel": "I.50.1.5192",
+		"kuerzelKunde": "",
+		"description": "Besuchte Weiterbildungen und Kurse im letzten Jahr",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-02-25T13:20:48.4848",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "22,4% der Befragten gaben 2015 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 14,1% haben mehrere Kurse besucht. 63,3% gaben 2015 an, keinen Kurs besucht zu haben. 2003 lag dieser Wert bei 54,1%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "22,0% der Befragten gaben 2019 an, innerhalb der letzten zwölf Monate einen Weiterbildungskurs besucht zu haben, 17,4% haben mehrere Kurse besucht. 57,7% gaben an, keinen Kurs besucht zu haben.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_314",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, Frage F15"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5192,
-		"darstellungsart": "Grafik"
+		"data-id": 5192,
+		"chart-id": 5192,
+		"filter": "",
+		"id": 5192
 	},
 	{
 		"title": "Staatsausgaben für Kultur und Freizeit",
@@ -12603,14 +12611,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T09:07:03.033",
+		"aktualisierungsdatum": "2020-02-25T13:30:48.4848",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 sind bei der Chemiefachberatung des Kantons 12 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: <br><br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -19835,13 +19843,13 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-03-19T10:23:59.5959",
+		"aktualisierungsdatum": "2020-02-25T13:27:38.3838",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2003 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2018 bei 177 595.",
+		"lesehilfe": "In den 1970er-Jahren begann die Einwohnerzahl der Stadt Basel deutlich zu sinken. Seit 2007 nimmt die Einwohnerzahl der Stadt Basel wieder zu und lag am Jahresende 2019 bei 177 784.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1970: Eidgenössische Volkszählungen; 1971-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
@@ -24495,14 +24503,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-22T14:05:29.2929",
+		"aktualisierungsdatum": "2020-02-25T13:28:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2016 werden 9,6% aller Schülerinnen und Schüler in der obligatorischen Schulzeit mit Wohnort Basel-Stadt an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, während er bei den Ausländern 14,0% beträgt.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als Anteil Schülerinnen und Schüler an einer Privatschule in der obligatorischen Schulzeit an allen Schülerinnen und Schülern in der obligatorischen Schulzeit.<br>Berücksichtigt werden sämtliche Schülerinnen und Schüler mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
+		"lesehilfe": "2017 werden 9,7% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 14,2%.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -24738,7 +24746,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-17T18:15:33.3333",
+		"aktualisierungsdatum": "2020-02-26T07:56:21.2121",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -24768,7 +24776,7 @@
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Dezember",
+		"subtitle": "Basel-Stadt, Januar",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -24778,13 +24786,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-17T18:19:45.4545",
+		"aktualisierungsdatum": "2020-02-26T08:00:53.5353",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 48%.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 40%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
