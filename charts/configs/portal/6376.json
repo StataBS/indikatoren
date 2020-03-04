@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil Personen über 64 Jahren in %",
+      "name": "Anteil Personen über 64 Jahre in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,47 +6569,47 @@
       "data": [
         [
           1,
-          20.48
+          21.06
         ],
         [
           2,
-          24.1
+          23.93
         ],
         [
           3,
-          21.39
+          21.17
         ],
         [
           4,
-          21.49
+          21.39
         ],
         [
           5,
-          25.22
+          25.15
         ],
         [
           6,
-          15.5
+          15.72
         ],
         [
           7,
-          22.86
+          22.92
         ],
         [
           8,
-          21.83
+          21.73
         ],
         [
           9,
-          21.54
+          21.43
         ],
         [
           10,
-          16.55
+          16.44
         ],
         [
           11,
-          15.69
+          15.67
         ],
         [
           12,
@@ -6617,39 +6617,39 @@
         ],
         [
           13,
-          22.09
+          22.06
         ],
         [
           14,
-          19.37
+          19.82
         ],
         [
           15,
-          23.79
+          23.47
         ],
         [
           16,
-          8.89
+          8.61
         ],
         [
           17,
-          13.01
+          13.53
         ],
         [
           18,
-          13.96
+          14.29
         ],
         [
           19,
-          18.19
+          18.51
         ],
         [
           20,
-          25.83
+          25.78
         ],
         [
           30,
-          24.07
+          24.15
         ]
       ]
     },
@@ -6660,90 +6660,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          448
+          452
         ],
         [
           "Vorstädte",
-          1208
+          1201
         ],
         [
           "Am Ring",
-          2346
+          2354
         ],
         [
           "Breite",
-          1932
+          1928
         ],
         [
           "St. Alban",
-          2909
+          2928
         ],
         [
           "Gundeldingen",
-          2911
+          2950
         ],
         [
           "Bruderholz",
-          2139
+          2155
         ],
         [
           "Bachletten",
-          2957
+          2967
         ],
         [
           "Gotthelf",
-          1494
+          1490
         ],
         [
           "Iselin",
-          2811
+          2776
         ],
         [
           "St. Johann",
-          2887
+          2861
         ],
         [
           "Altstadt Kleinbasel",
-          480
+          473
         ],
         [
           "Clara",
-          898
+          901
         ],
         [
           "Wettstein",
-          1077
+          1095
         ],
         [
           "Hirzbrunnen",
-          2231
+          2188
         ],
         [
           "Rosental",
-          608
+          649
         ],
         [
           "Matthäus",
-          2037
+          2066
         ],
         [
           "Klybeck",
-          1018
+          1034
         ],
         [
           "Kleinhüningen",
-          520
+          518
         ],
         [
           "Riehen",
-          5541
+          5528
         ],
         [
           "Bettingen",
-          292
+          285
         ]
       ],
-      "name": "Anzahl Personen über 64 Jahren"
+      "name": "Anzahl Personen über 64 Jahre"
     },
     {
       "name": "Rhein",
@@ -6883,6 +6883,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6927,6 +6928,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6968,7 +6970,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -7090,7 +7092,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7104,9 +7106,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-3"
   },
   "colorAxis": {
     "min": 0,
