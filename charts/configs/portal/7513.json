@@ -239,47 +239,47 @@
         ],
         [
           "Feb",
-          null
+          102.3
         ],
         [
           "Mrz",
-          null
+          undefined
         ],
         [
           "Apr",
-          null
+          undefined
         ],
         [
           "Mai",
-          null
+          undefined
         ],
         [
           "Jun",
-          null
+          undefined
         ],
         [
           "Jul",
-          null
+          undefined
         ],
         [
           "Aug",
-          null
+          undefined
         ],
         [
           "Sep",
-          null
+          undefined
         ],
         [
           "Okt",
-          null
+          undefined
         ],
         [
           "Nov",
-          null
+          undefined
         ],
         [
           "Dez",
-          null
+          undefined
         ]
       ],
       "name": "2020",
@@ -353,6 +353,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -383,7 +384,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-4"
   },
   "legend": {
     "enabled": true,

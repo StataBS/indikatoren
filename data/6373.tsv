@@ -1,22 +1,22 @@
-﻿"Wohnviertel_ID"	"Wohnviertel_Name"	"Seit mindestens 10 Jahren an der gleichen Adresse lebende Personen in %"
-1	Altstadt Grossbasel	31.50434385
-2	Vorstädte	28.027129463
-3	Am Ring	30.154968095
-4	Breite	34.605116796
-5	St. Alban	32.564591642
-6	Gundeldingen	31.860056446
-7	Bruderholz	42.364005557
-8	Bachletten	41.749723145
-9	Gotthelf	35.683391003
-10	Iselin	33.372579031
-11	St. Johann	32.356937123
-12	Altstadt Kleinbasel	28.629856851
-13	Clara	31.554353173
-14	Wettstein	36.061151079
-15	Hirzbrunnen	40.002132878
-16	Rosental	20.438596491
-17	Matthäus	30.633622892
-18	Klybeck	34.48512272
-19	Kleinhüningen	35.514345696
-20	Riehen	42.549421858
-30	Bettingen	40.890354493
+﻿wohnviertel_id	Sesshaftigkeit	Rang	Wohnviertel	jahr_num
+16	0.1886767436	1	Rosental	2019
+2	0.2823271568	2	Vorstädte	2019
+12	0.2860107929	3	Altstadt Kleinbasel	2019
+3	0.2989208633	4	Am Ring	2019
+17	0.3087397709	5	Matthäus	2019
+1	0.3154706431	6	Altstadt Grossbasel	2019
+6	0.3170770707	7	Gundeldingen	2019
+13	0.3211750306	8	Clara	2019
+11	0.3238194368	9	St. Johann	2019
+5	0.3245727046	10	St. Alban	2019
+10	0.3351095323	11	Iselin	2019
+4	0.3392500555	12	Breite	2019
+18	0.3442033992	13	Klybeck	2019
+14	0.3648868778	14	Wettstein	2019
+9	0.3652186421	15	Gotthelf	2019
+19	0.37884203	16	Kleinhüningen	2019
+15	0.4001501502	17	Hirzbrunnen	2019
+8	0.4121695834	18	Bachletten	2019
+30	0.4177966102	19	Bettingen	2019
+20	0.4244741874	20	Riehen	2019
+7	0.4283586852	21	Bruderholz	2019

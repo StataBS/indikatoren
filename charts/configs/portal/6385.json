@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Seit mindestens 10 Jahren an der gleichen Adresse lebende Personen in %",
+      "name": "Sesshaftigkeit",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6562,88 +6562,88 @@
       },
       "data": [
         [
-          1,
-          31.50434385
+          16,
+          0.1886767436
         ],
         [
           2,
-          28.027129463
-        ],
-        [
-          3,
-          30.154968095
-        ],
-        [
-          4,
-          34.605116796
-        ],
-        [
-          5,
-          32.564591642
-        ],
-        [
-          6,
-          31.860056446
-        ],
-        [
-          7,
-          42.364005557
-        ],
-        [
-          8,
-          41.749723145
-        ],
-        [
-          9,
-          35.683391003
-        ],
-        [
-          10,
-          33.372579031
-        ],
-        [
-          11,
-          32.356937123
+          0.2823271568
         ],
         [
           12,
-          28.629856851
+          0.2860107929
         ],
         [
-          13,
-          31.554353173
-        ],
-        [
-          14,
-          36.061151079
-        ],
-        [
-          15,
-          40.002132878
-        ],
-        [
-          16,
-          20.438596491
+          3,
+          0.2989208633
         ],
         [
           17,
-          30.633622892
+          0.3087397709
+        ],
+        [
+          1,
+          0.3154706431
+        ],
+        [
+          6,
+          0.3170770707
+        ],
+        [
+          13,
+          0.3211750306
+        ],
+        [
+          11,
+          0.3238194368
+        ],
+        [
+          5,
+          0.3245727046
+        ],
+        [
+          10,
+          0.3351095323
+        ],
+        [
+          4,
+          0.3392500555
         ],
         [
           18,
-          34.48512272
+          0.3442033992
+        ],
+        [
+          14,
+          0.3648868778
+        ],
+        [
+          9,
+          0.3652186421
         ],
         [
           19,
-          35.514345696
+          0.37884203
         ],
         [
-          20,
-          42.549421858
+          15,
+          0.4001501502
+        ],
+        [
+          8,
+          0.4121695834
         ],
         [
           30,
-          40.890354493
+          0.4177966102
+        ],
+        [
+          20,
+          0.4244741874
+        ],
+        [
+          7,
+          0.4283586852
         ]
       ]
     },
@@ -6785,6 +6785,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6824,6 +6825,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6872,7 +6874,7 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -6888,7 +6890,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sesshaftigkeit nach Wohnviertel"
+    "text": "Sesshaftigkeit"
   },
   "subtitle": {
     "style": {
@@ -6897,7 +6899,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -6911,9 +6913,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-3"
   },
   "colorAxis": {
     "min": 0,
@@ -6934,30 +6936,30 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 29.99,
+        "to": 0.2999,
         "color": "#ECE1D0",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E30,0\u003C\u002Fspan\u003E \u003C 30,0"
       },
       {
-        "from": 30,
-        "to": 31.9999,
+        "from": 0.3,
+        "to": 0.319999,
         "color": "#C4AB91",
         "name": "30,0 − 31,9"
       },
       {
-        "from": 32,
-        "to": 34.9,
+        "from": 0.32,
+        "to": 0.349,
         "color": "#9E7C59",
         "name": "32,0 − 34,9"
       },
       {
-        "from": 35,
-        "to": 39.9,
+        "from": 0.35,
+        "to": 0.399,
         "color": "#67401E",
         "name": "35,0 − 39,9"
       },
       {
-        "from": 40,
+        "from": 0.4,
         "color": "#3A2012",
         "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E40,0\u003C\u002Fspan\u003E ≥ 40,0"
       }
@@ -7000,7 +7002,7 @@
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>';
                 }
             }
   },

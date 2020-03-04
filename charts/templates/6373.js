@@ -6,12 +6,12 @@ global geojson_wohnviertelEPSG2056
     return {
     	
 		"colorAxis": {
-			min: 20,
+			//min: 0.15,
 			"minColor": "#ECE1D0",
 			"maxColor": "#3A2012",
 			"labels": {
 				"formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value*100),0)+'%'; 
 				}
 			}
 		},
@@ -24,7 +24,7 @@ global geojson_wohnviertelEPSG2056
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, y: 2
+		      	x: 0, y: 1
 		      }		      
 		    ]
         },
@@ -54,7 +54,7 @@ global geojson_wohnviertelEPSG2056
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>';
                 }
             }
         },

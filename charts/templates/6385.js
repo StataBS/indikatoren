@@ -22,26 +22,26 @@ global geojson_wohnviertelEPSG2056
             dataClassColor: 'category',
                    dataClasses: [{
                 from: 0,
-                to:29.99,
+                to:0.2999,
                 color: '#ECE1D0',
                 name:  "<span style='color: rgba(0,0,0,0)'>30,0</span> < 30,0"
             }, {
-                from: 30.0,
-                to: 31.9999,
+                from: 0.300,
+                to: 0.319999,
                 color: '#C4AB91',
                 name: "30,0 − 31,9"
             }, {
-                from: 32.0,
-                to: 34.9,
+                from: 0.320,
+                to: 0.349,
                  color: '#9E7C59',
                  name: "32,0 − 34,9"
             },{
-                from: 35.0,
-                to: 39.9,
+                from: 0.350,
+                to: 0.399,
                  color: '#67401E',
                  name: "35,0 − 39,9"
             },{
-                from: 40.0,
+                from: 0.400,
                 color: '#3A2012',
                 name:  "<span style='color: rgba(0,0,0,0)'>40,0</span> ≥ 40,0" 
             }],
@@ -49,7 +49,7 @@ global geojson_wohnviertelEPSG2056
         "data": {
 		    "seriesMapping": [
 		      {
-		      	x: 0, y: 2
+		      	x: 0, y: 1
 		      }
 		    ]
         },
@@ -79,7 +79,7 @@ global geojson_wohnviertelEPSG2056
                 else {
                     //Wohnviertel
                     return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),1) + '</b><br/>';
+                        this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value*100),1) + '%</b><br/>';
                 }
             }
         },
