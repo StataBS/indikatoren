@@ -5,52 +5,52 @@
       "visible": true,
       "data": [
         [
-          "Life Sciences Industrie",
-          23.6
+          "Life Sciences",
+          23.22733977
         ],
         [
           "Chemische Industrie",
-          2.8
-        ],
-        [
-          "Finanz- und Versicherungsdienstl.",
-          15.4
-        ],
-        [
-          "Verkehr und Lagerei",
-          5.7
-        ],
-        [
-          "Handel und Reparatur",
-          8.7
-        ],
-        [
-          "Unternehmens- und freiberufl. Dienstl.",
-          9.5
-        ],
-        [
-          "Grundstücks- und Wohnungswesen",
-          6.1
+          2.806498356
         ],
         [
           "Baugewerbe",
-          3.1
+          2.989515168
+        ],
+        [
+          "Handel und Reparatur",
+          8.578085415
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.755377716
+        ],
+        [
+          "Gastgewerbe",
+          1.591353174
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          15.67160423
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          6.245774346
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.496608035
         ],
         [
           "Öffentliche Verwaltung",
-          6.6
+          6.559878768
         ],
         [
           "Gesundheits- und Sozialwesen",
-          6
-        ],
-        [
-          "Tourismus",
-          1.6
+          5.97794453
         ],
         [
           "Übrige Branchen",
-          8.1
+          11.10002049
         ]
       ],
       "name": "2000",
@@ -61,52 +61,52 @@
       "visible": true,
       "data": [
         [
-          "Life Sciences Industrie",
-          39.4
+          "Life Sciences",
+          38.97666396
         ],
         [
           "Chemische Industrie",
-          1.4
-        ],
-        [
-          "Finanz- und Versicherungsdienstl.",
-          10
-        ],
-        [
-          "Verkehr und Lagerei",
-          4.2
-        ],
-        [
-          "Handel und Reparatur",
-          7.7
-        ],
-        [
-          "Unternehmens- und freiberufl. Dienstl.",
-          9.6
-        ],
-        [
-          "Grundstücks- und Wohnungswesen",
-          5
+          1.401433941
         ],
         [
           "Baugewerbe",
-          1.9
+          1.697099787
+        ],
+        [
+          "Handel und Reparatur",
+          7.532695824
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.273916098
+        ],
+        [
+          "Gastgewerbe",
+          1.176358867
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.06013296
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          5.195977153
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.766632361
         ],
         [
           "Öffentliche Verwaltung",
-          6.1
+          6.214821241
         ],
         [
           "Gesundheits- und Sozialwesen",
-          5.7
-        ],
-        [
-          "Tourismus",
-          1.2
+          5.688722742
         ],
         [
           "Übrige Branchen",
-          6.4
+          8.015545063
         ]
       ],
       "name": "2010",
@@ -117,55 +117,55 @@
       "visible": true,
       "data": [
         [
-          "Life Sciences Industrie",
-          41.5
+          "Life Sciences",
+          43.9768263
         ],
         [
           "Chemische Industrie",
-          1
-        ],
-        [
-          "Finanz- und Versicherungsdienstl.",
-          8.8
-        ],
-        [
-          "Verkehr und Lagerei",
-          3.5
-        ],
-        [
-          "Handel und Reparatur",
-          6.7
-        ],
-        [
-          "Unternehmens- und freiberufl. Dienstl.",
-          11.5
-        ],
-        [
-          "Grundstücks- und Wohnungswesen",
-          4.5
+          0.965794056
         ],
         [
           "Baugewerbe",
-          1.9
+          1.859716086
+        ],
+        [
+          "Handel und Reparatur",
+          6.194464256
+        ],
+        [
+          "Verkehr und Lagerei",
+          3.321310324
+        ],
+        [
+          "Gastgewerbe",
+          1.181892399
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          8.794577539
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          4.301702859
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          10.89912364
         ],
         [
           "Öffentliche Verwaltung",
-          6.1
+          6.105424731
         ],
         [
           "Gesundheits- und Sozialwesen",
-          6.2
-        ],
-        [
-          "Tourismus",
-          1.2
+          5.986358233
         ],
         [
           "Übrige Branchen",
-          6
+          6.412809574
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -270,7 +270,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-11"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-4"
   },
   "legend": {
     "enabled": true,
