@@ -1647,14 +1647,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:27:09.099",
+		"aktualisierungsdatum": "2020-03-04T17:14:05.055",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Städte Basel, Zürich und Genf blieb in den letzten zehn Jahren eher unverändert, während sich diejenige der Stadt Bern seit 2012 verschlechtert hat. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -9216,14 +9216,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:36:41.4141",
+		"aktualisierungsdatum": "2020-03-04T17:14:15.1515",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wurden in Basel-Stadt 1 024 neue Unternehmen gegründet, 122 bzw. 10,6% weniger als im Jahr 2015. Schon im Jahr 2015 war eine rückläufige Entwicklung der Anzahl Neugründungen zu beobachten (-206). Ein Viertel der Neugründungen 2016 fand im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen statt.",
-		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangene sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
+		"lesehilfe": "Im Jahr 2017 wurden in Basel-Stadt 1 061 neue Unternehmen gegründet, 37 bzw. 3,6% mehr als im Jahr 2016. In den Jahren 2015 und 2016 war die Entwicklung der Anzahl der Neugründungen hingegen rückläufig. Ein Viertel der Neugründungen 2017 fand im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen statt (269).",
+		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10939,14 +10939,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T09:26:54.5454",
+		"aktualisierungsdatum": "2020-03-04T17:18:11.1111",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 sind bei der Chemiefachberatung des Kantons 12 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: <br><br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13559,13 +13559,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-11T09:28:40.4040",
+		"aktualisierungsdatum": "2020-03-04T17:17:27.2727",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences-Industrie an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2017 bei 41,5%. Im Jahr 2000 lag er noch bei 23,6%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,4% im Jahr 2000 auf 8,8% im Jahr 2017).",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2018 bei 44,0%. Im Jahr 2000 lag er noch bei 23,2%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,7% im Jahr 2000 auf 8,8% im Jahr 2018).",
 		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -13578,9 +13578,13 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6047,
+		"chart-id": 6047,
+		"filter": "",
 		"id": 6047
 	},
 	{
@@ -15788,14 +15792,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T15:22:04.044",
+		"aktualisierungsdatum": "2020-03-04T17:14:27.2727",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,6% 2017 auf 3,3% 2018 gesunken. Die Jugendarbeitslosenquote reduzierte sich 2018 auf 3,9% und lag damit zum ersten Mal seit 2008 unter 4,0%. Die Arbeitslosenquote der Personen über 50 Jahre ging 2018 auf 2,5% zurück und lag damit weiterhin deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen geteilt durch die Erwerbspersonen mal 100.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% 2018 auf 3,2% 2019. Die Arbeitslosenquote der Personen über 50 Jahre lag 2019 unverändert bei 2,5% und damit weiterhin unterhalb der Durchschnittsquote.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",

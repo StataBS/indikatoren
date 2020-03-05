@@ -154,6 +154,7 @@ function initializeFilterJS(indikatorenset, perPage, sortOptions){
                         ,'erlaeuterungen'
                         ,'quellenangabe'
                         ,'id'
+                        ,'children'
               ]
     },
     callbacks: {

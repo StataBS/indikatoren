@@ -46,6 +46,10 @@
         [
           2016,
           108.61
+        ],
+        [
+          2018,
+          108.37
         ]
       ],
       "name": "Basel global"
@@ -97,6 +101,10 @@
         [
           2016,
           107.15
+        ],
+        [
+          2018,
+          106.96
         ]
       ],
       "name": "Bern global"
@@ -148,6 +156,10 @@
         [
           2016,
           108.09
+        ],
+        [
+          2018,
+          108.45
         ]
       ],
       "name": "Genf global"
@@ -199,6 +211,10 @@
         [
           2016,
           113.53
+        ],
+        [
+          2018,
+          113.47
         ]
       ],
       "name": "Zürich global"
@@ -250,6 +266,10 @@
         [
           2016,
           133.74
+        ],
+        [
+          2018,
+          133.33
         ]
       ],
       "name": "Basel kontinental"
@@ -301,6 +321,10 @@
         [
           2016,
           118.59
+        ],
+        [
+          2018,
+          115.57
         ]
       ],
       "name": "Bern kontinental"
@@ -352,6 +376,10 @@
         [
           2016,
           135.55
+        ],
+        [
+          2018,
+          134.82
         ]
       ],
       "name": "Genf kontinental"
@@ -403,6 +431,10 @@
         [
           2016,
           146
+        ],
+        [
+          2018,
+          146.43
         ]
       ],
       "name": "Zürich kontinental"
@@ -461,7 +493,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 75,
+    "min": 90,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -476,7 +508,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -504,7 +537,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-4"
   },
   "legend": {
     "enabled": true,
