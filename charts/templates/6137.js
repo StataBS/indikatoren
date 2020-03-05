@@ -1,7 +1,8 @@
 (function(){
     return {
   "xAxis": {
-    tickInterval: 1,
+    type: "category",
+    tickInterval: 2,
     labels: {
       rotation: -45
     },
