@@ -5,7 +5,8 @@
       { "color": "#68ab2b"}, // grün
       { "color": "#ffbb58"}, // orange
       { "color": "#dc440e"}, // rot
-      { "color": "#999999"}, // grau
+      { "color": "#C8C8C8"}, // grau
+      { "color": "#6F6F6F"}, // grau
     ],
     xAxis: {
         type: "category"

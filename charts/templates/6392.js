@@ -156,7 +156,7 @@
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
 	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  empfänger", 355, 210);
+	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  bezüger", 355, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');

@@ -831,7 +831,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-20T10:14:57.5757",
+		"aktualisierungsdatum": "2020-03-05T13:59:32.3232",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
