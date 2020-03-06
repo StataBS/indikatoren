@@ -39,34 +39,34 @@ var indikatorensetData = [
 		"id": 2917
 	},
 	{
-		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.05138",
-		"kuerzelKunde": "SH4",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"kuerzelKunde": "SH5",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-25T14:26:22.2222",
+		"aktualisierungsdatum": "2020-03-05T14:22:28.2828",
 		"stufe1": "Bereich Staatliches Handeln",
-		"stufe2": "Dynamische Verwaltung",
+		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1&nbsp;500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "2019 fühlten sich 50% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2015 entspricht dies einem Rückgang um 18 Prozentpunkte. Der Anteil der Befragten, die sich gar nicht gut vertreten fühlen, ist hingegen grösser geworden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. 2003 bis 2015 erfolgte sie jeweils telefonisch.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_204",
+		"orderKey": "02_02_00_00_00_205",
 		"parentId": 4724,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1748,9 +1748,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
 		"kuerzel": "I.50.1.06040",
-		"kuerzelKunde": "GZ7.1",
+		"kuerzelKunde": "GZ8.1",
 		"description": "Freiwillige Tätigkeit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -1758,27 +1758,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-03-05T14:14:18.1818",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "41,0% der Befragten gaben an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben.",
-		"erlaeuterungen": "Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
+		"lesehilfe": "35,2% der Befragten gaben 2019 an, in ihrer Freizeit freiwillig tätig zu sein. Die Frage nach der freiwilligen Tätigkeit wurde 2015 zum ersten Mal im Rahmen der Bevölkerungsbefragung erhoben. Damals lag dieser Anteil bei 41,0%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "befragungen001",
-		"orderKey": "05_03_00_00_00_507",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_03_00_00_00_508",
 		"parentId": 4864,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6040,
-		"darstellungsart": "Grafik"
+		"data-id": 4864,
+		"chart-id": 4864,
+		"filter": "",
+		"id": 6040
 	},
 	{
 		"title": "Beteiligung der Bevölkerung an Freiwilligenarbeit",
@@ -2705,6 +2710,45 @@ var indikatorensetData = [
 		"chart-id": 6215,
 		"filter": "",
 		"id": 8448
+	},
+	{
+		"title": "Sicherheitsgefühl nachts im Quartier",
+		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
+		"kuerzel": "I.50.1.08456",
+		"kuerzelKunde": "GZ2",
+		"description": "Sicherheitsgefühl nachts im Quartier",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-05T14:13:18.1818",
+		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
+		"stufe2": "Friedliches Zusammenleben",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich des Nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_01_00_00_00_502",
+		"parentId": 4854,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 4854,
+		"chart-id": 4854,
+		"filter": "",
+		"id": 8456
 	},
 	{
 		"title": "Geschlechterverhältnis im Grossen Rat",

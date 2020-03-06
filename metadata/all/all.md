@@ -199,7 +199,7 @@ id | visible | visibleInPortal | indikatorenset
 4361 | false |  | Cercle-Indicateurs
 4364 | false |  | Cercle-Indicateurs
 4367 | false |  | Cercle-Indicateurs
-4374 | false |  | Cercle-Indicateurs
+4374 | true | true | 
 4462 | true | true | 
 4463 | true | true | 
 4465 | false |  | Integration-kompakt
@@ -1354,6 +1354,7 @@ id | visible | visibleInPortal | indikatorenset
 8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
 8448 | true | false | Nachhaltigkeit
+8456 | true | false | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
 8614 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8615 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
