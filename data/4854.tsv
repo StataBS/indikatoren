@@ -1,6 +1,7 @@
-Antwort,Sehr sicher,Eher sicher,Eher unsicher,Ganz unsicher,Geht nachts nie raus,Weiss nicht / keine Angabe
-2003 (N=1497),33.7,36.2,16.6,5.8,7.7,0
-2005 (N=1510),34.2,35.5,16.9,6,7.4,0
-2007 (N=1509),29.8,37.4,18.9,6,7.9,0
-2011 (N=1516),28.8,34.8,23.3,7.1,6.1,0.1
-2015 (N=1506),24.5,37.9,22.2,7.4,7.9,0.1
+﻿	Sehr sicher	Eher sicher	Eher unsicher	Ganz unsicher	Geht nachts nie raus	Weiss nicht	Keine Angabe
+2003	504	542	248	87	116	0	0
+2007	449	565	285	91	118	1	0
+2011	436	527	353	107	92	1	0
+2015	369	571	335	111	119	1	0
+2019	498	926	442	164	32	7	39
+

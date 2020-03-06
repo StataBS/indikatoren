@@ -1,23 +1,24 @@
 (function(){
     return {
-    "series": [
-        {
-            "color": "#71A3B5"
-        },
-        {
-            "color": "#FFBB58"
-        },
-        {
-            "color": "#8A8A8A"
-        }        
-  ],
-  "xAxis": {
-      "type": "category"
-  },
-  "legend": {
-      "reversed": false
-  }
-	}
+    series: [
+      { "color": "#246370"}, // dunkelgrün
+      { "color": "#FFBB58"}, // grün
+      { "color": "#C8C8C8"}, // grau
+      { "color": "#6F6F6F"}, // grau
+    ],
+    xAxis: {
+        type: "category"
+    },
+    yAxis: {
+        reversedStacks: false,
+    },
+    legend: {
+        reversed: true,
+        labelFormatter: function(){
+            return this.name.replace("/", " /<br/>");
+        }
+    }
+	};
 }());
 
  

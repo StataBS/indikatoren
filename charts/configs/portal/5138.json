@@ -22,6 +22,10 @@
         [
           "2015",
           129
+        ],
+        [
+          "2019",
+          55
         ]
       ],
       "name": "Sehr gut",
@@ -49,6 +53,10 @@
         [
           "2015",
           898
+        ],
+        [
+          "2019",
+          1005
         ]
       ],
       "name": "Eher gut",
@@ -76,6 +84,10 @@
         [
           "2015",
           324
+        ],
+        [
+          "2019",
+          426
         ]
       ],
       "name": "Eher nicht gut",
@@ -103,13 +115,17 @@
         [
           "2015",
           40
+        ],
+        [
+          "2019",
+          124
         ]
       ],
       "name": "Gar nicht gut",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
+      "color": "#C8C8C8",
       "data": [
         [
           "2003",
@@ -129,10 +145,45 @@
         ],
         [
           "2015",
-          115
+          114
+        ],
+        [
+          "2019",
+          452
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          46
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -212,7 +263,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Vertretung der Anliegen der Bevölkerung durch Behörden"
+    "text": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung"
   },
   "subtitle": {
     "style": {
@@ -278,7 +329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-5"
   },
   "legend": {
     "layout": "vertical",

@@ -1,11 +1,15 @@
 {
   "series": [
     {
-      "color": "#71A3B5",
+      "color": "#246370",
       "data": [
         [
           "2015",
           618
+        ],
+        [
+          "2019",
+          741
         ]
       ],
       "name": "Ja",
@@ -17,20 +21,43 @@
         [
           "2015",
           886
+        ],
+        [
+          "2019",
+          1286
         ]
       ],
       "name": "Nein",
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
+      "color": "#C8C8C8",
       "data": [
         [
           "2015",
           2
+        ],
+        [
+          "2019",
+          25
         ]
       ],
       "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          56
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -118,7 +145,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Sind Sie in Ihrer Freizeit freiwillig tätig?»"
+    "text": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -134,8 +161,7 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent",
-      "pointWidth": 100
+      "stacking": "percent"
     }
   },
   "yAxis": {
@@ -157,7 +183,8 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -176,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S22.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-5"
   },
   "legend": {
     "layout": "vertical",
@@ -189,10 +216,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
         },
-    "reversed": false
+    "reversed": true
   },
   "exporting": {
     "filename": 6040
