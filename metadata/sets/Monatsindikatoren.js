@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T08:35:40.4040",
+		"aktualisierungsdatum": "2020-03-09T08:41:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -50,14 +50,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T08:38:47.4747",
+		"aktualisierungsdatum": "2020-03-09T08:43:51.5151",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Direkt nach der Einführung der Meldepflicht im Juli 2018 ist die Zahl der gemeldeten offenen Stellen stark gestiegen mit dem höchsten Wert im Januar 2019. Von Februar bis Dezember 2019 bewegte sich die Zahl der offenen Stellen zwischen 1000 und 1400. Ende Januar 2020 lag sie bei über 1 600. Der grösste Teil der gemeldeten offenen Stellen unterliegt der Meldepflicht.",
-		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Seit Juli 2018 gilt für Branchen mit einer Arbeitslosenquote über 8% eine Meldepflicht.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
