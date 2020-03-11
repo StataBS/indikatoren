@@ -1,84 +1,871 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#FABD24",
+      "showInNavigator": false,
       "data": [
         [
-          2008,
+          31536000000,
+          -129
+        ],
+        [
+          63072000000,
+          3
+        ],
+        [
+          94694400000,
+          -416
+        ],
+        [
+          126230400000,
+          -373
+        ],
+        [
+          157766400000,
+          -511
+        ],
+        [
+          189302400000,
+          -800
+        ],
+        [
+          220924800000,
+          -772
+        ],
+        [
+          252460800000,
+          -858
+        ],
+        [
+          283996800000,
+          -824
+        ],
+        [
+          315532800000,
+          -805
+        ],
+        [
+          347155200000,
+          -954
+        ],
+        [
+          378691200000,
+          -700
+        ],
+        [
+          410227200000,
+          -998
+        ],
+        [
+          441763200000,
+          -815
+        ],
+        [
+          473385600000,
+          -820
+        ],
+        [
+          504921600000,
+          -904
+        ],
+        [
+          536457600000,
+          -765
+        ],
+        [
+          567993600000,
+          -842
+        ],
+        [
+          599616000000,
+          -891
+        ],
+        [
+          631152000000,
+          -974
+        ],
+        [
+          662688000000,
+          -671
+        ],
+        [
+          694224000000,
+          -703
+        ],
+        [
+          725846400000,
+          -568
+        ],
+        [
+          757382400000,
+          -561
+        ],
+        [
+          788918400000,
+          -757
+        ],
+        [
+          820454400000,
+          -451
+        ],
+        [
+          852076800000,
+          -726
+        ],
+        [
+          883612800000,
+          -722
+        ],
+        [
+          915148800000,
+          -712
+        ],
+        [
+          946684800000,
+          -716
+        ],
+        [
+          978307200000,
+          -755
+        ],
+        [
+          1009843200000,
+          -830
+        ],
+        [
+          1041379200000,
+          -774
+        ],
+        [
+          1072915200000,
+          -520
+        ],
+        [
+          1104537600000,
+          -513
+        ],
+        [
+          1136073600000,
+          -520
+        ],
+        [
+          1167609600000,
+          -351
+        ],
+        [
+          1199145600000,
           -478
         ],
         [
-          2009,
+          1230768000000,
           -407
         ],
         [
-          2010,
+          1262304000000,
           -279
         ],
         [
-          2011,
+          1293840000000,
           -163
         ],
         [
-          2012,
+          1325376000000,
           -229
         ],
         [
-          2013,
+          1356998400000,
           -120
         ],
         [
-          2014,
+          1388534400000,
           -177
         ],
         [
-          2015,
+          1420070400000,
           -126
         ],
         [
-          2016,
+          1451606400000,
           152
         ],
         [
-          2017,
+          1483228800000,
           -62
         ],
         [
-          2018,
+          1514764800000,
           -28
         ]
       ],
-      "name": "Saldo Geburten\u002FTodesfälle"
+      "name": "Saldo Geburten-Todesfälle",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "showInNavigator": false,
+      "data": [
+        [
+          31536000000,
+          -3711
+        ],
+        [
+          63072000000,
+          -2416
+        ],
+        [
+          94694400000,
+          -2207
+        ],
+        [
+          126230400000,
+          -3133
+        ],
+        [
+          157766400000,
+          -2992
+        ],
+        [
+          189302400000,
+          -3530
+        ],
+        [
+          220924800000,
+          -2786
+        ],
+        [
+          252460800000,
+          -1556
+        ],
+        [
+          283996800000,
+          -1129
+        ],
+        [
+          315532800000,
+          -741
+        ],
+        [
+          347155200000,
+          -573
+        ],
+        [
+          378691200000,
+          -487
+        ],
+        [
+          410227200000,
+          283
+        ],
+        [
+          441763200000,
+          -1
+        ],
+        [
+          473385600000,
+          435
+        ],
+        [
+          504921600000,
+          -1451
+        ],
+        [
+          536457600000,
+          -579
+        ],
+        [
+          567993600000,
+          -957
+        ],
+        [
+          599616000000,
+          345
+        ],
+        [
+          631152000000,
+          1534
+        ],
+        [
+          662688000000,
+          2346
+        ],
+        [
+          694224000000,
+          1065
+        ],
+        [
+          725846400000,
+          1298
+        ],
+        [
+          757382400000,
+          104
+        ],
+        [
+          788918400000,
+          -170
+        ],
+        [
+          820454400000,
+          -862
+        ],
+        [
+          852076800000,
+          -1510
+        ],
+        [
+          883612800000,
+          -1410
+        ],
+        [
+          915148800000,
+          -1268
+        ],
+        [
+          946684800000,
+          -844
+        ],
+        [
+          978307200000,
+          -367
+        ],
+        [
+          1009843200000,
+          1386
+        ],
+        [
+          1041379200000,
+          972
+        ],
+        [
+          1072915200000,
+          784
+        ],
+        [
+          1104537600000,
+          -44
+        ],
+        [
+          1136073600000,
+          392
+        ],
+        [
+          1167609600000,
+          559
+        ],
+        [
+          1199145600000,
+          2034
+        ],
+        [
+          1230768000000,
+          1666
+        ],
+        [
+          1262304000000,
+          263
+        ],
+        [
+          1293840000000,
+          1668
+        ],
+        [
+          1325376000000,
+          1738
+        ],
+        [
+          1356998400000,
+          1899
+        ],
+        [
+          1388534400000,
+          793
+        ],
+        [
+          1420070400000,
+          712
+        ],
+        [
+          1451606400000,
+          902
+        ],
+        [
+          1483228800000,
+          578
+        ],
+        [
+          1514764800000,
+          688
+        ]
+      ],
+      "name": "Saldo Zuzüge-Wegzüge",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#bbbbbb",
+      "showInNavigator": false,
+      "data": [
+        [
+          31536000000,
+          null
+        ],
+        [
+          63072000000,
+          null
+        ],
+        [
+          94694400000,
+          null
+        ],
+        [
+          126230400000,
+          null
+        ],
+        [
+          157766400000,
+          null
+        ],
+        [
+          189302400000,
+          null
+        ],
+        [
+          220924800000,
+          null
+        ],
+        [
+          252460800000,
+          null
+        ],
+        [
+          283996800000,
+          null
+        ],
+        [
+          315532800000,
+          null
+        ],
+        [
+          347155200000,
+          null
+        ],
+        [
+          378691200000,
+          null
+        ],
+        [
+          410227200000,
+          null
+        ],
+        [
+          441763200000,
+          null
+        ],
+        [
+          473385600000,
+          null
+        ],
+        [
+          504921600000,
+          null
+        ],
+        [
+          536457600000,
+          null
+        ],
+        [
+          567993600000,
+          null
+        ],
+        [
+          599616000000,
+          null
+        ],
+        [
+          631152000000,
+          null
+        ],
+        [
+          662688000000,
+          null
+        ],
+        [
+          694224000000,
+          null
+        ],
+        [
+          725846400000,
+          null
+        ],
+        [
+          757382400000,
+          null
+        ],
+        [
+          788918400000,
+          null
+        ],
+        [
+          820454400000,
+          null
+        ],
+        [
+          852076800000,
+          null
+        ],
+        [
+          883612800000,
+          null
+        ],
+        [
+          915148800000,
+          null
+        ],
+        [
+          946684800000,
+          null
+        ],
+        [
+          978307200000,
+          null
+        ],
+        [
+          1009843200000,
+          null
+        ],
+        [
+          1041379200000,
+          null
+        ],
+        [
+          1072915200000,
+          null
+        ],
+        [
+          1104537600000,
+          null
+        ],
+        [
+          1136073600000,
+          null
+        ],
+        [
+          1167609600000,
+          null
+        ],
+        [
+          1199145600000,
+          null
+        ],
+        [
+          1230768000000,
+          null
+        ],
+        [
+          1262304000000,
+          null
+        ],
+        [
+          1293840000000,
+          null
+        ],
+        [
+          1325376000000,
+          -354
+        ],
+        [
+          1356998400000,
+          221
+        ],
+        [
+          1388534400000,
+          396
+        ],
+        [
+          1420070400000,
+          147
+        ],
+        [
+          1451606400000,
+          -52
+        ],
+        [
+          1483228800000,
+          266
+        ],
+        [
+          1514764800000,
+          608
+        ]
+      ],
+      "name": "Bereinigungen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "showInNavigator": true,
+      "data": [
+        [
+          31536000000,
+          -3840
+        ],
+        [
+          63072000000,
+          -2413
+        ],
+        [
+          94694400000,
+          -2623
+        ],
+        [
+          126230400000,
+          -3506
+        ],
+        [
+          157766400000,
+          -3503
+        ],
+        [
+          189302400000,
+          -4330
+        ],
+        [
+          220924800000,
+          -3558
+        ],
+        [
+          252460800000,
+          -2414
+        ],
+        [
+          283996800000,
+          -1953
+        ],
+        [
+          315532800000,
+          -1546
+        ],
+        [
+          347155200000,
+          -1527
+        ],
+        [
+          378691200000,
+          -1187
+        ],
+        [
+          410227200000,
+          -715
+        ],
+        [
+          441763200000,
+          -816
+        ],
+        [
+          473385600000,
+          -385
+        ],
+        [
+          504921600000,
+          -2355
+        ],
+        [
+          536457600000,
+          -1344
+        ],
+        [
+          567993600000,
+          -1799
+        ],
+        [
+          599616000000,
+          -546
+        ],
+        [
+          631152000000,
+          560
+        ],
+        [
+          662688000000,
+          1675
+        ],
+        [
+          694224000000,
+          362
+        ],
+        [
+          725846400000,
+          730
+        ],
+        [
+          757382400000,
+          -457
+        ],
+        [
+          788918400000,
+          -927
+        ],
+        [
+          820454400000,
+          -1313
+        ],
+        [
+          852076800000,
+          -2236
+        ],
+        [
+          883612800000,
+          -2132
+        ],
+        [
+          915148800000,
+          -1980
+        ],
+        [
+          946684800000,
+          -1560
+        ],
+        [
+          978307200000,
+          -1122
+        ],
+        [
+          1009843200000,
+          556
+        ],
+        [
+          1041379200000,
+          198
+        ],
+        [
+          1072915200000,
+          264
+        ],
+        [
+          1104537600000,
+          -557
+        ],
+        [
+          1136073600000,
+          -128
+        ],
+        [
+          1167609600000,
+          208
+        ],
+        [
+          1199145600000,
+          1556
+        ],
+        [
+          1230768000000,
+          1259
+        ],
+        [
+          1262304000000,
+          -16
+        ],
+        [
+          1293840000000,
+          1505
+        ],
+        [
+          1325376000000,
+          1155
+        ],
+        [
+          1356998400000,
+          2000
+        ],
+        [
+          1388534400000,
+          1012
+        ],
+        [
+          1420070400000,
+          733
+        ],
+        [
+          1451606400000,
+          1002
+        ],
+        [
+          1483228800000,
+          782
+        ],
+        [
+          1514764800000,
+          1268
+        ]
+      ],
+      "name": "Gesamtveränderung",
+      "turboThreshold": 0
     }
   ],
-  "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "ordinal": false,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
     },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0,
+    "endOnTick": true,
+    "startOnTick": true,
+    "showFirstLabel": true,
+    "showLastLabel": true,
+    "crosshair": {
+      "width": 0
+    }
+  },
+  "isStock": true,
+  "chart": {
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 55,
+    "spacingBottom": 50,
     "style": {
       "fontFamily": "Arial"
     },
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
     "type": "column",
+    "inverted": false,
     "renderTo": "container-5148"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
   },
   "title": {
     "style": {
@@ -87,7 +874,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Saldo aus Geburten und Todesfällen"
+    "text": "Bilanz der Wohnbevölkerung"
   },
   "subtitle": {
     "style": {
@@ -99,13 +886,10 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
   "yAxis": {
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -118,22 +902,28 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
+    },
+    "showLastLabel": true,
+    "endOnTick": true,
+    "maxPadding": 0,
+    "opposite": false,
+    "reversedStacks": false,
+    "min": null,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 0,
+        "width": 1
+      }
+    ]
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
     }
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -146,61 +936,70 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
+  "rangeSelector": {
+    "verticalAlign": "bottom",
+    "buttonPosition": {},
+    "buttons": [
+      {
+        "count": 9,
+        "type": "year",
+        "text": "10 J"
+      },
+      {
+        "count": 19,
+        "type": "year",
+        "text": "20 J"
+      },
+      {
+        "count": 29,
+        "type": "year",
+        "text": "30 J"
+      },
+      {
+        "type": "all",
+        "text": "Alle J"
       }
-    }
+    ],
+    "buttonSpacing": 15,
+    "inputEnabled": false,
+    "selected": 0,
+    "inputDateFormat": "%Y",
+    "inputEditDateFormat": "%Y"
   },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+  "navigator": {
+    "margin": 10,
+    "height": 30,
+    "series": {
+      "includeInCSVExport": false,
+      "type": "line"
+    },
+    "outlineColor": "#B9CFD7",
+    "enabled": true
+  },
+  "tooltip": {
+    "dateTimeLabelFormats": {
+      "day": "%A, %e. %b. %Y"
+    },
+    "shared": false,
+    "split": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
+    "csv": {
+      "dateFormat": "%d.%m.%Y"
+    },
     "filename": 5148
   }
 }

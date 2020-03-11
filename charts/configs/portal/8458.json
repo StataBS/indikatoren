@@ -1,54 +1,84 @@
 {
   "series": [
     {
-      "color": "#0F7399",
-      "visible": true,
+      "color": "#008AC3",
       "data": [
         [
-          "Soziales",
-          51
+          2004,
+          17.5
         ],
         [
-          "Nachbarschaftshilfe",
-          28.7
+          2007,
+          17
         ],
         [
-          "Sport und Freizeit",
-          23.6
+          2010,
+          16.7
         ],
         [
-          "Kultur",
-          21.9
+          2013,
+          18.5
         ],
         [
-          "Umwelt",
-          10.7
-        ],
-        [
-          "Anderer Bereich",
-          11.7
+          2016,
+          16.1
         ]
       ],
-      "name": "Anteil Ja",
-      "turboThreshold": 0
+      "name": "Männer"
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          2004,
+          26.5
+        ],
+        [
+          2007,
+          28.4
+        ],
+        [
+          2010,
+          26.7
+        ],
+        [
+          2013,
+          26.9
+        ],
+        [
+          2016,
+          25.7
+        ]
+      ],
+      "name": "Frauen"
+    },
+    {
+      "color": "#3c3c3c",
+      "data": [
+        [
+          2004,
+          22.3
+        ],
+        [
+          2007,
+          23.1
+        ],
+        [
+          2010,
+          22.2
+        ],
+        [
+          2013,
+          22.7
+        ],
+        [
+          2016,
+          21.1
+        ]
+      ],
+      "name": "Total"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": false,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "textOverflow": "none"
-      },
-      "align": "left",
-      "x": -105
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "chart": {
     "events": {
       "load": function() {
@@ -71,14 +101,12 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 50,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
     "type": "column",
-    "inverted": true,
-    "marginLeft": 120,
-    "renderTo": "container-6041"
+    "renderTo": "container-8458"
   },
   "title": {
     "style": {
@@ -87,7 +115,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Beteiligung der Bevölkerung an Freiwilligenarbeit"
+    "text": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit"
   },
   "subtitle": {
     "style": {
@@ -96,12 +124,14 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Tätigkeitsbereiche der freiwillig tätigen Personen in %, Stand: 2019",
+    "text": "in Stunden pro Woche, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + ' Stunden</b><br/><b>'
+      }
   },
   "yAxis": {
     "min": 0,
@@ -118,8 +148,23 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}%"
+      "format": "{value:,.0f}",
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
     }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 3
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -135,10 +180,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -146,14 +191,15 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "x": 35
+    "itemMarginBottom": 5
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
       },
-      "pointWidth": 20
+      "pointPadding": 0,
+      "borderWidth": 0
     }
   },
   "customFunctions": {
@@ -192,6 +238,6 @@
     }
   },
   "exporting": {
-    "filename": 6041
+    "filename": 8458
   }
 }
