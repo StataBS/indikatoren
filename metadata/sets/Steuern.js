@@ -352,7 +352,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Median des Reinvermögens",
-		"subtitle": "in Franken, Basel-Stadt, 2007 und 2016",
+		"subtitle": "in Franken, Basel-Stadt, 2008 und 2017",
 		"kuerzel": "I.18.2.06905",
 		"kuerzelKunde": "2-8",
 		"description": "Median des Reinvermögens",
@@ -362,20 +362,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-04T11:06:30.3030",
+		"aktualisierungsdatum": "2020-03-11T10:27:05.055",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2016 wird mit rund 100 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Bereits 2007 war in Bettingen der höchste Median zu beobachten.",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2017 wird mit rund 109 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt 20 000 Franken.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_008",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8318",
+			"8589"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
