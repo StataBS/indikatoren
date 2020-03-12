@@ -13,90 +13,90 @@
       "data": [
         [
           "Altstadt GB",
-          26730
+          30057
         ],
         [
           "Vorstädte",
-          23802
+          25786
         ],
         [
           "Am Ring",
-          21262
+          23475
         ],
         [
           "Breite",
-          10261
+          10929
         ],
         [
           "St. Alban",
-          45334
+          45604
         ],
         [
           "Gundeldingen",
-          4579
+          5448
         ],
         [
           "Bruderholz",
-          56199
+          55614
         ],
         [
           "Bachletten",
-          31950
+          32293
         ],
         [
           "Gotthelf",
-          19259
+          19781
         ],
         [
           "Iselin",
-          7059
+          8147
         ],
         [
           "St. Johann",
-          3542
+          3317
         ],
         [
           "Altstadt KB",
-          5195
+          5398
         ],
         [
           "Clara",
-          3791
+          4342
         ],
         [
           "Wettstein",
-          16657
+          18102
         ],
         [
           "Hirzbrunnen",
-          15967
+          16363
         ],
         [
           "Rosental",
-          204
+          363
         ],
         [
           "Matthäus",
-          1120
+          1483
         ],
         [
           "Klybeck",
-          528
+          398
         ],
         [
           "Kleinhüning.",
-          1546
+          1392
         ],
         [
           "Riehen",
-          44334
+          44825
         ],
         [
           "Bettingen",
-          59334
+          51731
         ]
       ],
-      "name": "Median 2007",
+      "name": "Median 2008",
       "turboThreshold": 0
     },
     {
@@ -113,90 +113,90 @@
       "data": [
         [
           "Altstadt GB",
-          11398
+          12253
         ],
         [
           "Vorstädte",
-          11398
+          12253
         ],
         [
           "Am Ring",
-          11398
+          12253
         ],
         [
           "Breite",
-          11398
+          12253
         ],
         [
           "St. Alban",
-          11398
+          12253
         ],
         [
           "Gundeldingen",
-          11398
+          12253
         ],
         [
           "Bruderholz",
-          11398
+          12253
         ],
         [
           "Bachletten",
-          11398
+          12253
         ],
         [
           "Gotthelf",
-          11398
+          12253
         ],
         [
           "Iselin",
-          11398
+          12253
         ],
         [
           "St. Johann",
-          11398
+          12253
         ],
         [
           "Altstadt KB",
-          11398
+          12253
         ],
         [
           "Clara",
-          11398
+          12253
         ],
         [
           "Wettstein",
-          11398
+          12253
         ],
         [
           "Hirzbrunnen",
-          11398
+          12253
         ],
         [
           "Rosental",
-          11398
+          12253
         ],
         [
           "Matthäus",
-          11398
+          12253
         ],
         [
           "Klybeck",
-          11398
+          12253
         ],
         [
           "Kleinhüning.",
-          11398
+          12253
         ],
         [
           "Riehen",
-          11398
+          12253
         ],
         [
           "Bettingen",
-          11398
+          12253
         ]
       ],
-      "name": "Median Kt. BS 2007",
+      "name": "Median Kt. BS 2008",
       "turboThreshold": 0
     },
     {
@@ -212,90 +212,90 @@
       "data": [
         [
           "Altstadt GB",
-          31236
+          31391
         ],
         [
           "Vorstädte",
-          48881
+          48690
         ],
         [
           "Am Ring",
-          38772
+          41941
         ],
         [
           "Breite",
-          14148
+          14799
         ],
         [
           "St. Alban",
-          59000
+          65590
         ],
         [
           "Gundeldingen",
-          12709
+          13491
         ],
         [
           "Bruderholz",
-          74863
+          78357
         ],
         [
           "Bachletten",
-          45676
+          50438
         ],
         [
           "Gotthelf",
-          27817
+          30156
         ],
         [
           "Iselin",
-          9631
+          10000
         ],
         [
           "St. Johann",
-          8176
+          8508
         ],
         [
           "Altstadt KB",
-          10020
+          9591
         ],
         [
           "Clara",
-          8111
+          8430
         ],
         [
           "Wettstein",
-          31499
+          33876
         ],
         [
           "Hirzbrunnen",
-          18501
+          18864
         ],
         [
           "Rosental",
-          3833
+          3866
         ],
         [
           "Matthäus",
-          5302
+          5867
         ],
         [
           "Klybeck",
-          1965
+          2242
         ],
         [
           "Kleinhüning.",
-          3763
+          3415
         ],
         [
           "Riehen",
-          60135
+          60515
         ],
         [
           "Bettingen",
-          99999
+          108794
         ]
       ],
-      "name": "Median 2016",
+      "name": "Median 2017",
       "turboThreshold": 0
     },
     {
@@ -312,90 +312,90 @@
       "data": [
         [
           "Altstadt GB",
-          18772
+          20000
         ],
         [
           "Vorstädte",
-          18772
+          20000
         ],
         [
           "Am Ring",
-          18772
+          20000
         ],
         [
           "Breite",
-          18772
+          20000
         ],
         [
           "St. Alban",
-          18772
+          20000
         ],
         [
           "Gundeldingen",
-          18772
+          20000
         ],
         [
           "Bruderholz",
-          18772
+          20000
         ],
         [
           "Bachletten",
-          18772
+          20000
         ],
         [
           "Gotthelf",
-          18772
+          20000
         ],
         [
           "Iselin",
-          18772
+          20000
         ],
         [
           "St. Johann",
-          18772
+          20000
         ],
         [
           "Altstadt KB",
-          18772
+          20000
         ],
         [
           "Clara",
-          18772
+          20000
         ],
         [
           "Wettstein",
-          18772
+          20000
         ],
         [
           "Hirzbrunnen",
-          18772
+          20000
         ],
         [
           "Rosental",
-          18772
+          20000
         ],
         [
           "Matthäus",
-          18772
+          20000
         ],
         [
           "Klybeck",
-          18772
+          20000
         ],
         [
           "Kleinhüning.",
-          18772
+          20000
         ],
         [
           "Riehen",
-          18772
+          20000
         ],
         [
           "Bettingen",
-          18772
+          20000
         ]
       ],
-      "name": "Median Kt. BS 2016",
+      "name": "Median Kt. BS 2017",
       "turboThreshold": 0
     }
   ],
@@ -461,7 +461,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt, 2007 und 2016",
+    "text": "in Franken, Basel-Stadt, 2008 und 2017",
     "align": "left"
   },
   "tooltip": {
@@ -501,7 +501,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-4"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-11"
   },
   "legend": {
     "enabled": true,
