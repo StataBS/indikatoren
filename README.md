@@ -1,5 +1,5 @@
 # Indikatorenportal Statistisches Amt Basel-Stadt 
-Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).  
+Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).
 
 ## Update charts from ftp server
 - If this is the first time you deploy charts from your c9.io workspace, run the following commands in a terminal window within c9.io:
