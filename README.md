@@ -2,15 +2,10 @@
 Find and display statistical indicators from the canton of Basel-Stadt, Switzerland. See live version [here](http://www.statistik.bs.ch/zahlen/indikatoren/).
 
 ## Update charts from ftp server
-- If this is the first time you deploy charts from your c9.io workspace, run the following commands in a terminal window within c9.io:
-
+- Run the following command in a terminal window: 
 ```javascript
+npm run deployNewCharts
 npm run build
-npm run deployNewCharts
-```
-- If you have deployed charts from your workspace before, run the following command in a terminal window within c9.io: 
-```javascript
-npm run deployNewCharts
 ```
 - Build, commit and push as explained further down. 
 
