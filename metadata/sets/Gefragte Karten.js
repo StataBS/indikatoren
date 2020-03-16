@@ -352,7 +352,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06381",
 		"kuerzelKunde": "C1-3",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -362,13 +362,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-03-13T11:31:11.1111",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (51%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (25%) und Bachletten (22%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2019 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (50%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (22%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -993,7 +993,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländische Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.06778",
 		"kuerzelKunde": "K1-3",
 		"description": "Ausländische Bevölkerung nach Wohnviertel",
@@ -1003,13 +1003,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-06T14:55:48.4848",
+		"aktualisierungsdatum": "2020-03-13T11:31:27.2727",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 war der Ausländeranteil in den Wohnvierteln Rosental (56%), Matthäus (51%) und Klybeck (52%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bruderholz (25%) und Bachletten (22%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
+		"lesehilfe": "Ende 2019 war der Ausländeranteil in den Wohnvierteln Rosental (56%),  Klybeck (52%) und Matthäus (50%) am höchsten. Den niedrigsten Ausländeranteil wiesen die Wohnviertel Bachletten (22%),  Bruderholz (25%) sowie die Gemeinde Bettingen auf (25%). In den Wohnvierteln Klybeck und  Kleinhüningen bildeteten die Italiener die grösste ausländische Bevölkerungsgruppe, in den übrigen Gemeinden und Wohnvierteln sind es die Deutschen.",
 		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kategoriell",
