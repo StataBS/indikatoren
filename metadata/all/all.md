@@ -1234,8 +1234,10 @@ id | visible | visibleInPortal | indikatorenset
 7763 | true | true | Monatsindikatoren
 7764 | true | true | Stadtteilmonitoring Rosental
 7774 | true | true | Richtplan
+7775 | true | true | Richtplan
 7777 | true | false | Richtplan
 7778 | true | false | Richtplan
+7779 | true | true | Richtplan
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)
 7904 | true | false | Stadtteilmonitoring Rosental (Print)
@@ -1410,6 +1412,16 @@ id | visible | visibleInPortal | indikatorenset
 8663 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8683 | true | true | Arbeitsmarkt
+8684 | true | true | Arbeitsmarkt
+8685 | true | true | Arbeitsmarkt
+8687 | true | true | Arbeitsmarkt
+8689 | true | true | Arbeitsmarkt
+8690 | true | true | Arbeitsmarkt
+8693 | true | true | Arbeitsmarkt
+8694 | true | true | Arbeitsmarkt
+8695 | true | true | Arbeitsmarkt
+8696 | true | true | Arbeitsmarkt
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 9995 | true | false | 
 9996 | true | false | 

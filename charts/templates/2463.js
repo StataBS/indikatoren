@@ -8,6 +8,8 @@
         }
   },
   "yAxis": {
+    tickInterval: 500,
+    max: 2500,
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -52,7 +54,7 @@
     },
   },  
   "chart": {
-  	height: 600,
+  	//height: 600,
   	type: "column",
     "inverted": false,
   }

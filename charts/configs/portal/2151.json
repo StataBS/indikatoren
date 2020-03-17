@@ -5,10 +5,6 @@
       "index": 15,
       "data": [
         [
-          "2009",
-          319
-        ],
-        [
           "2010",
           455
         ],
@@ -43,6 +39,10 @@
         [
           "2018",
           210
+        ],
+        [
+          "2019",
+          227
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -52,10 +52,6 @@
       "color": "#923F8D",
       "index": 14,
       "data": [
-        [
-          "2009",
-          674
-        ],
         [
           "2010",
           679
@@ -91,6 +87,10 @@
         [
           "2018",
           382
+        ],
+        [
+          "2019",
+          347
         ]
       ],
       "name": "Chemie, Pharma",
@@ -100,10 +100,6 @@
       "color": "#662673",
       "index": 13,
       "data": [
-        [
-          "2009",
-          292
-        ],
         [
           "2010",
           307
@@ -139,6 +135,10 @@
         [
           "2018",
           98
+        ],
+        [
+          "2019",
+          88
         ]
       ],
       "name": "Baugewerbe",
@@ -148,10 +148,6 @@
       "color": "#73B97C",
       "index": 12,
       "data": [
-        [
-          "2009",
-          560
-        ],
         [
           "2010",
           547
@@ -187,6 +183,10 @@
         [
           "2018",
           302
+        ],
+        [
+          "2019",
+          344
         ]
       ],
       "name": "Handel, Reparatur",
@@ -196,10 +196,6 @@
       "color": "#B6CFD7",
       "index": 11,
       "data": [
-        [
-          "2009",
-          256
-        ],
         [
           "2010",
           224
@@ -235,6 +231,10 @@
         [
           "2018",
           114
+        ],
+        [
+          "2019",
+          137
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -244,10 +244,6 @@
       "color": "#007A2F",
       "index": 10,
       "data": [
-        [
-          "2009",
-          342
-        ],
         [
           "2010",
           302
@@ -283,6 +279,10 @@
         [
           "2018",
           174
+        ],
+        [
+          "2019",
+          173
         ]
       ],
       "name": "Gastgewerbe",
@@ -292,10 +292,6 @@
       "color": "#FFDA80",
       "index": 9,
       "data": [
-        [
-          "2009",
-          72
-        ],
         [
           "2010",
           74
@@ -331,6 +327,10 @@
         [
           "2018",
           64
+        ],
+        [
+          "2019",
+          59
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -340,10 +340,6 @@
       "color": "#FFBB58",
       "index": 8,
       "data": [
-        [
-          "2009",
-          1705
-        ],
         [
           "2010",
           2174
@@ -379,6 +375,10 @@
         [
           "2018",
           2729
+        ],
+        [
+          "2019",
+          2675
         ]
       ],
       "name": "Berat., Plan., Forsch., Immob., IT",
@@ -388,10 +388,6 @@
       "color": "#689199",
       "index": 6,
       "data": [
-        [
-          "2009",
-          19
-        ],
         [
           "2010",
           21
@@ -427,6 +423,10 @@
         [
           "2018",
           56
+        ],
+        [
+          "2019",
+          67
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialvers.",
@@ -436,10 +436,6 @@
       "color": "#008AC3",
       "index": 3,
       "data": [
-        [
-          "2009",
-          244
-        ],
         [
           "2010",
           213
@@ -475,6 +471,10 @@
         [
           "2018",
           87
+        ],
+        [
+          "2019",
+          86
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -484,10 +484,6 @@
       "color": "#C8C8C8",
       "index": 2,
       "data": [
-        [
-          "2009",
-          429
-        ],
         [
           "2010",
           401
@@ -523,6 +519,10 @@
         [
           "2018",
           414
+        ],
+        [
+          "2019",
+          380
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -532,10 +532,6 @@
       "color": "#2B0099",
       "index": 1,
       "data": [
-        [
-          "2009",
-          269
-        ],
         [
           "2010",
           211
@@ -571,6 +567,10 @@
         [
           "2018",
           144
+        ],
+        [
+          "2019",
+          172
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -580,10 +580,6 @@
       "color": "#8A8A8A",
       "index": 0,
       "data": [
-        [
-          "2009",
-          69
-        ],
         [
           "2010",
           46
@@ -619,6 +615,10 @@
         [
           "2018",
           73
+        ],
+        [
+          "2019",
+          72
         ]
       ],
       "name": "Übrige",
@@ -692,8 +692,9 @@
   "tooltip": {
     "shared": true,
     "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
-    }
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/>' 
+    },
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -731,7 +732,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "enabled": true,
