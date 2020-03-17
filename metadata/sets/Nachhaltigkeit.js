@@ -632,18 +632,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:05:43.4343",
+		"aktualisierungsdatum": "2020-03-16T08:44:38.3838",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge.<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2018 Familienmietzinsbeiträge. In 15,0% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge. Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_307",
+		"orderKey": "03_03_00_00_00_308",
 		"parentId": 6181,
 		"children": [],
 		"renderLink": [],
@@ -662,7 +662,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.05184",
 		"kuerzelKunde": "GW8",
 		"description": "Sozialhilfequote nach Altersgruppe",
@@ -672,28 +672,31 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-21T09:27:12.1212",
+		"aktualisierungsdatum": "2020-03-16T08:45:52.5252",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 11,9% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,9%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Jahr 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_308",
+		"orderKey": "03_03_00_00_00_309",
 		"parentId": 6182,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5184,
+		"chart-id": 5184,
+		"filter": "",
 		"id": 5184
 	},
 	{

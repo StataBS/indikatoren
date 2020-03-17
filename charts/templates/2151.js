@@ -51,8 +51,9 @@
  tooltip: {
      shared: true,
   "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/>' 
     },
+    footerFormat: '\u25CF Total: <b>{point.total:,.0f}</b><br/>'
   },  
   "chart": {
   //	height: 600,

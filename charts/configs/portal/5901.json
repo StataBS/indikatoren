@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FFBB58",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -62,13 +62,17 @@
         [
           2017,
           198988
+        ],
+        [
+          2018,
+          200256
         ]
       ],
       "name": "Bevölkerung"
     },
     {
       "color": "#B00000",
-      "index": 1,
+      "zIndex": 1,
       "type": "line",
       "yAxis": 1,
       "marker": {
@@ -130,13 +134,17 @@
         [
           2017,
           106.14788
+        ],
+        [
+          2018,
+          106.82428
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
     },
     {
       "color": "#A8C3CA",
-      "index": 0,
+      "zIndex": 0,
       "type": "column",
       "pointPadding": 0,
       "borderWidth": 0,
@@ -195,6 +203,10 @@
         ],
         [
           2017,
+          190966
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -202,7 +214,7 @@
     },
     {
       "color": "#246370",
-      "index": 1,
+      "zIndex": 2,
       "type": "line",
       "yAxis": 1,
       "legendIndex": 3,
@@ -210,7 +222,8 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
-        "enabled": true
+        "enabled": true,
+        "radius": 5
       },
       "data": [
         [
@@ -263,6 +276,10 @@
         ],
         [
           2017,
+          111.19289
+        ],
+        [
+          2018,
           null
         ]
       ],
@@ -315,7 +332,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
+    "text": "indexiert (Basis 2005 = 100), Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -323,9 +340,9 @@
   },
   "yAxis": [
     {
-      "min": 0,
-      "max": 200000,
-      "tickAmount": 6,
+      "max": 210000,
+      "tickAmount": 8,
+      "tickInterval": 30000,
       "alignTicks": true,
       "title": {
         "text": null,
@@ -341,7 +358,7 @@
     },
     {
       "tickInterval": 5,
-      "tickAmount": 6,
+      "tickAmount": 8,
       "alignTicks": true,
       "title": {
         "style": {
@@ -385,7 +402,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "enabled": true,

@@ -5,14 +5,6 @@
       "id": "0",
       "data": [
         [
-          2008,
-          13.62
-        ],
-        [
-          2009,
-          13.19
-        ],
-        [
           2010,
           12.54
         ],
@@ -42,6 +34,14 @@
         ],
         [
           2017,
+          13.79
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -51,14 +51,6 @@
       "color": "#007A2F",
       "id": "1",
       "data": [
-        [
-          2008,
-          8.82
-        ],
-        [
-          2009,
-          8.53
-        ],
         [
           2010,
           9.24
@@ -89,6 +81,14 @@
         ],
         [
           2017,
+          10.25
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -98,14 +98,6 @@
       "color": "#4f81bd",
       "id": "2",
       "data": [
-        [
-          2008,
-          7.62
-        ],
-        [
-          2009,
-          7.27
-        ],
         [
           2010,
           6.95
@@ -136,6 +128,14 @@
         ],
         [
           2017,
+          7.46
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -145,14 +145,6 @@
       "color": "#662673",
       "id": "3",
       "data": [
-        [
-          2008,
-          8.05
-        ],
-        [
-          2009,
-          8.02
-        ],
         [
           2010,
           7.83
@@ -183,6 +175,14 @@
         ],
         [
           2017,
+          8.61
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -192,14 +192,6 @@
       "color": "#7F5F1A",
       "id": "4",
       "data": [
-        [
-          2008,
-          4.86
-        ],
-        [
-          2009,
-          4.77
-        ],
         [
           2010,
           4.89
@@ -230,6 +222,14 @@
         ],
         [
           2017,
+          6.47
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -239,14 +239,6 @@
       "color": "#FABD24",
       "id": "5",
       "data": [
-        [
-          2008,
-          0.21
-        ],
-        [
-          2009,
-          0.21
-        ],
         [
           2010,
           0.2
@@ -277,6 +269,14 @@
         ],
         [
           2017,
+          0.22
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -286,14 +286,6 @@
       "color": "#3C3C3C",
       "id": "6",
       "data": [
-        [
-          2008,
-          6.81
-        ],
-        [
-          2009,
-          6.64
-        ],
         [
           2010,
           6.55
@@ -320,10 +312,18 @@
         ],
         [
           2016,
-          7.31
+          null
         ],
         [
           2017,
+          7.42
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -332,18 +332,7 @@
     {
       "color": "#B00000",
       "linkedTo": "0",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -375,6 +364,14 @@
         [
           2017,
           12.74
+        ],
+        [
+          2018,
+          12.51
+        ],
+        [
+          2019,
+          11.9
         ]
       ],
       "name": "0 bis 17 J. (Kanton)"
@@ -383,18 +380,7 @@
       "color": "#007A2F",
       "showInLegend": false,
       "linkedTo": "1",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -426,6 +412,14 @@
         [
           2017,
           9.82
+        ],
+        [
+          2018,
+          9.12
+        ],
+        [
+          2019,
+          8.93
         ]
       ],
       "name": "18 bis 25 J. (Kanton)"
@@ -434,18 +428,7 @@
       "color": "#4f81bd",
       "showInLegend": false,
       "linkedTo": "2",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -477,6 +460,14 @@
         [
           2017,
           7.42
+        ],
+        [
+          2018,
+          7.28
+        ],
+        [
+          2019,
+          6.84
         ]
       ],
       "name": "26 bis 35 J. (Kanton)"
@@ -485,18 +476,7 @@
       "color": "#662673",
       "showInLegend": false,
       "linkedTo": "3",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -528,6 +508,14 @@
         [
           2017,
           8.2
+        ],
+        [
+          2018,
+          7.94
+        ],
+        [
+          2019,
+          7.56
         ]
       ],
       "name": "36 bis 50 J. (Kanton)"
@@ -535,18 +523,7 @@
     {
       "color": "#7F5F1A",
       "linkedTo": "4",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -578,6 +555,14 @@
         [
           2017,
           5.97
+        ],
+        [
+          2018,
+          6.05
+        ],
+        [
+          2019,
+          6.05
         ]
       ],
       "name": "51 bis 65 J. (Kanton)"
@@ -586,18 +571,7 @@
       "color": "#FABD24",
       "showInLegend": false,
       "linkedTo": "5",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -629,6 +603,14 @@
         [
           2017,
           0.21
+        ],
+        [
+          2018,
+          0.22
+        ],
+        [
+          2019,
+          0.22
         ]
       ],
       "name": "66 J. u.m. (Kanton)"
@@ -637,18 +619,7 @@
       "color": "#3C3C3C",
       "showInLegend": false,
       "linkedTo": "6",
-      "marker": {
-        "enabled": true
-      },
       "data": [
-        [
-          2008,
-          null
-        ],
-        [
-          2009,
-          null
-        ],
         [
           2010,
           null
@@ -680,6 +651,14 @@
         [
           2017,
           6.99
+        ],
+        [
+          2018,
+          6.84
+        ],
+        [
+          2019,
+          6.58
         ]
       ],
       "name": "Total (Kanton)"
@@ -707,7 +686,7 @@
     "zoomType": "xy",
     "width": 485,
     "height": 428,
-    "spacingBottom": 65,
+    "spacingBottom": 55,
     "style": {
       "fontFamily": "Arial"
     },
@@ -730,7 +709,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+    "text": "Basel-Stadt (bis 2016 Stadt Basel)",
     "align": "left"
   },
   "tooltip": {
@@ -780,9 +759,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "enabled": true,
@@ -794,8 +773,8 @@
       "fontWeight": "normal"
     },
     "labelFormatter": function () {
-        return this.name.slice(0, this.name.indexOf('(Stadt)'));
-      },
+      return this.name.slice(0, this.name.indexOf('(Stadt)'));
+    },
     "itemDistance": 5,
     "itemMarginBottom": 5
   },

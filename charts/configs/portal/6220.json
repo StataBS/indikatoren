@@ -33,6 +33,10 @@
         [
           2017,
           108.394975
+        ],
+        [
+          2018,
+          112.097943
         ]
       ],
       "name": "Haushalte in Begegnungszonen"
@@ -70,6 +74,10 @@
         [
           2017,
           101.0855252
+        ],
+        [
+          2018,
+          101.4336261
         ]
       ],
       "name": "Haushalte in der Stadt Basel"
@@ -111,7 +119,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Indexierter Verlauf der Haushalte in Begegnungszonen"
+    "text": "Haushalte in Begegnungszonen"
   },
   "subtitle": {
     "style": {
@@ -120,7 +128,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel, Werte 2011 = 100",
+    "text": "indexiert (2011 = 100), Basel",
     "align": "left"
   },
   "tooltip": {
@@ -128,6 +136,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -143,7 +152,14 @@
       },
       "format": "{value:,.f}"
     },
-    "tickInterval": 2
+    "tickInterval": 2,
+    "plotLines": [
+      {
+        "value": 100,
+        "color": "#B9CFD7",
+        "width": 2
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -171,7 +187,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "enabled": true,

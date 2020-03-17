@@ -25,8 +25,9 @@
     "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false,
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    footerFormat: 'Total: <b>{point.total:,.0f}</b>',
+    "shared": true,
     valueDecimals: 0
   },  
   "legend": {

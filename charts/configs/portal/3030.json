@@ -5,22 +5,6 @@
       "index": 0,
       "data": [
         [
-          "2009-1",
-          0.258
-        ],
-        [
-          "2009-2",
-          0.212
-        ],
-        [
-          "2009-3",
-          0.258
-        ],
-        [
-          "2009-4",
-          0.346
-        ],
-        [
           "2010-1",
           0.25
         ],
@@ -163,6 +147,22 @@
         [
           "2018-4",
           0.351
+        ],
+        [
+          "2019-1",
+          0.294
+        ],
+        [
+          "2019-2",
+          0.3
+        ],
+        [
+          "2019-3",
+          0.304
+        ],
+        [
+          "2019-4",
+          0.321
         ]
       ],
       "name": "Frauenanteil insgesamt",
@@ -172,22 +172,6 @@
       "color": "#FABD24",
       "index": 1,
       "data": [
-        [
-          "2009-1",
-          0.44
-        ],
-        [
-          "2009-2",
-          0.359
-        ],
-        [
-          "2009-3",
-          0.341
-        ],
-        [
-          "2009-4",
-          0.472
-        ],
         [
           "2010-1",
           0.449
@@ -331,6 +315,22 @@
         [
           "2018-4",
           0.437
+        ],
+        [
+          "2019-1",
+          0.472
+        ],
+        [
+          "2019-2",
+          0.418
+        ],
+        [
+          "2019-3",
+          0.359
+        ],
+        [
+          "2019-4",
+          0.391
         ]
       ],
       "name": "Frauenanteil bei den Arbeitnehmenden",
@@ -340,22 +340,6 @@
       "color": "#923F8D",
       "index": 2,
       "data": [
-        [
-          "2009-1",
-          0.107
-        ],
-        [
-          "2009-2",
-          0.051
-        ],
-        [
-          "2009-3",
-          0.059
-        ],
-        [
-          "2009-4",
-          0.056
-        ],
         [
           "2010-1",
           0.041
@@ -499,6 +483,22 @@
         [
           "2018-4",
           0.144
+        ],
+        [
+          "2019-1",
+          0.041
+        ],
+        [
+          "2019-2",
+          0.049
+        ],
+        [
+          "2019-3",
+          0.089
+        ],
+        [
+          "2019-4",
+          0.113
         ]
       ],
       "name": "Frauenanteil bei den Selbstständigerwerbenden",
@@ -508,22 +508,6 @@
       "color": "#007A2F",
       "index": 3,
       "data": [
-        [
-          "2009-1",
-          0.055
-        ],
-        [
-          "2009-2",
-          0.027
-        ],
-        [
-          "2009-3",
-          0.064
-        ],
-        [
-          "2009-4",
-          0.155
-        ],
         [
           "2010-1",
           0.079
@@ -667,6 +651,22 @@
         [
           "2018-4",
           0.124
+        ],
+        [
+          "2019-1",
+          0.079
+        ],
+        [
+          "2019-2",
+          0.083
+        ],
+        [
+          "2019-3",
+          0.064
+        ],
+        [
+          "2019-4",
+          0.132
         ]
       ],
       "name": "Frauenanteil bei den Entsandten",
@@ -684,9 +684,9 @@
         "textOverflow": "none"
       },
       "x": 15,
-      "formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-		}
+      "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        }
     },
     "tickLength": 0,
     "tickInterval": 4
@@ -741,9 +741,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + ' </b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '%</b><br/><b>'
+      }
   },
   "yAxis": {
     "min": 0,
@@ -761,9 +761,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        }
     }
   },
   "credits": {
@@ -780,7 +780,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "enabled": true,
