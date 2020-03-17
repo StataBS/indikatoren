@@ -27,6 +27,10 @@
         [
           "2016",
           1044.2
+        ],
+        [
+          "2017",
+          1146.7
         ]
       ],
       "name": "Programmierungstätigkeiten",
@@ -59,6 +63,10 @@
         [
           "2016",
           974.6
+        ],
+        [
+          "2017",
+          956.6
         ]
       ],
       "name": "IT-Beratung",
@@ -91,6 +99,10 @@
         [
           "2016",
           141.7
+        ],
+        [
+          "2017",
+          161.1
         ]
       ],
       "name": "Sonstige",
@@ -220,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "symbolRadius": 0,
@@ -234,7 +246,8 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false,
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true,
     "valueDecimals": 0
   },
   "exporting": {

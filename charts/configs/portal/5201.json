@@ -131,7 +131,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungsdichte Basel-Stadt"
+    "text": "Bevölkerungsdichte"
   },
   "subtitle": {
     "style": {
@@ -140,7 +140,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Einwohner pro Hektar",
+    "text": "Einwohner pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -191,7 +191,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
   },
   "legend": {
     "enabled": false,

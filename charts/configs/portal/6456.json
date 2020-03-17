@@ -4,19 +4,11 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2005",
-          10094
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           10619
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -55,19 +47,11 @@
       "color": "#FF8028",
       "data": [
         [
-          "2005",
-          14891
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           15348
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -106,19 +90,11 @@
       "color": "#DC440E",
       "data": [
         [
-          "2005",
-          4099
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           4580
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -157,19 +133,11 @@
       "color": "#B00000",
       "data": [
         [
-          "2005",
-          4661
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           5837
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -304,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-31"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "enabled": true,

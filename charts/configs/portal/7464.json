@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Personalvermittlung und \u003Cbr\u002F\u003E-überlassung"
+    "text": "Medianlohn in der Branche Personalvermittlung und ‑überlassung"
   },
   "subtitle": {
     "style": {
@@ -107,7 +107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nordwestschweiz",
+    "text": "in Franken, Nordwestschweiz",
     "align": "left"
   },
   "yAxis": {
@@ -149,14 +149,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left"

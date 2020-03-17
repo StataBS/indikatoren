@@ -123,35 +123,51 @@
         ],
         [
           "2017-01",
-          2176
+          1799
         ],
         [
           "2017-02",
-          2179
+          2039
         ],
         [
           "2017-03",
-          2255
+          2172
         ],
         [
           "2017-04",
-          2307
+          2087
         ],
         [
           "2018-01",
-          2205
+          2224
         ],
         [
           "2018-02",
-          2190
+          2207
         ],
         [
           "2018-03",
-          2233
+          2249
         ],
         [
           "2018-04",
-          2216
+          2231
+        ],
+        [
+          "2019-01",
+          2154
+        ],
+        [
+          "2019-02",
+          2109
+        ],
+        [
+          "2019-03",
+          2259
+        ],
+        [
+          "2019-04",
+          2241
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -309,6 +325,22 @@
         [
           "2018-04",
           340
+        ],
+        [
+          "2019-01",
+          258
+        ],
+        [
+          "2019-02",
+          357
+        ],
+        [
+          "2019-03",
+          523
+        ],
+        [
+          "2019-04",
+          342
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -330,9 +362,9 @@
         "color": "#000000"
       },
       "x": 17,
-      "formatter": function() {
-   			 return this.value.split("-").slice(0, -1);
-     		}
+      "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        }
     },
     "tickLength": 0,
     "tickInterval": 4
@@ -389,7 +421,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung"
+    "text": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung"
   },
   "subtitle": {
     "style": {
@@ -438,6 +470,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 20,
       "opposite": true
@@ -462,7 +495,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "symbolRadius": 0,

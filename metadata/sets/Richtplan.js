@@ -1,19 +1,19 @@
 var indikatorensetData = [
 	{
-		"title": "Bevölkerungsdichte Basel-Stadt",
-		"subtitle": "Anzahl Einwohner pro Hektar",
+		"title": "Bevölkerungsdichte",
+		"subtitle": "Einwohner pro Hektar, Basel-Stadt",
 		"kuerzel": "I.01.1.5201",
 		"kuerzelKunde": "ST 4-2",
-		"description": "Bevölkerungsdichte Basel-Stadt",
+		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:09:37.3737",
+		"aktualisierungsdatum": "2020-03-16T08:47:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -22,7 +22,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_042",
+		"orderKey": "02_04_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6242"
@@ -88,9 +88,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:48:08.088",
+		"aktualisierungsdatum": "2020-03-16T08:47:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -99,7 +99,7 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_012",
+		"orderKey": "02_04_00_00_00_012",
 		"parentId": null,
 		"children": [
 			"6244"
@@ -159,7 +159,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -169,9 +169,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-27T11:28:13.1313",
+		"aktualisierungsdatum": "2020-03-16T08:52:56.5656",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -180,14 +180,12 @@ var indikatorensetData = [
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_046",
+		"orderKey": "02_04_00_00_00_006",
 		"parentId": null,
 		"children": [
 			"6246"
 		],
-		"renderLink": [
-			"6246"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
 		],
@@ -254,18 +252,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:37:40.4040",
+		"aktualisierungsdatum": "2020-03-16T08:56:48.4848",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 war die Neubauproduktion sehr hoch. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
+		"lesehilfe": "2019 wurde die höchste Neubauproduktion seit 1981 verzeichnet. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
 		"erlaeuterungen": "",
-		"template": "line001",
+		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_008",
+		"orderKey": "02_04_00_00_00_008",
 		"parentId": 4135,
 		"children": [],
 		"renderLink": [],
@@ -488,7 +486,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigtendichte",
-		"subtitle": "Anzahl Beschäftigte pro Hektar, Basel-Stadt",
+		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
 		"kuerzel": "I.03.2.5823",
 		"kuerzelKunde": "ST 7-2",
 		"description": "Beschäftigtendichte",
@@ -498,17 +496,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-07T10:01:16.1616",
+		"aktualisierungsdatum": "2020-03-16T08:57:17.1717",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2016 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 300 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2017 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 200 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
 		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_002",
+		"orderKey": "03_07_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"6254"
@@ -517,11 +516,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5823,
-		"darstellungsart": "Grafik"
+		"data-id": 5823,
+		"chart-id": 5823,
+		"filter": "",
+		"id": 5823
 	},
 	{
 		"title": "Bruttogeschossfläche Arbeiten nach Wohnviertel",
@@ -606,7 +608,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "Basel-Stadt, Indexwert (Basis 2005 = 100)",
+		"subtitle": "indexiert (Basis 2005 = 100), Basel-Stadt",
 		"kuerzel": "I.03.2.5901",
 		"kuerzelKunde": "ST 4-11",
 		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
@@ -616,17 +618,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-07-19T16:15:08.088",
+		"aktualisierungsdatum": "2020-03-16T08:58:47.4747",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2016 von 187&nbsp;463 auf 198&nbsp;206 gestiegen, was einem Anstieg um etwa 5,7% entspricht. Demgegenüber stieg die Zahl der Beschäftigten um 11,0% von 171&nbsp;743 auf 190&nbsp;681.",
-		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist jeweils der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2018 von 187&nbsp;463 auf 200&nbsp;256 gestiegen, was einem Anstieg um etwa 6,8% entspricht. Demgegenüber stieg die Zahl der Beschäftigten zwischen 2005 und 2017 um 11,2% von 171&nbsp;743 auf 190&nbsp;966.",
+		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_011",
+		"orderKey": "02_04_00_00_00_011",
 		"parentId": null,
 		"children": [
 			"6257"
@@ -636,11 +639,14 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5901,
-		"darstellungsart": "Grafik"
+		"data-id": 5901,
+		"chart-id": 5901,
+		"filter": "",
+		"id": 5901
 	},
 	{
 		"title": "Verkehrsleistungsindex",
@@ -887,29 +893,29 @@ var indikatorensetData = [
 		"id": 6218
 	},
 	{
-		"title": "Indexierter Verlauf der Haushalte in Begegnungszonen",
-		"subtitle": "Basel, Werte 2011 = 100",
+		"title": "Haushalte in Begegnungszonen",
+		"subtitle": "indexiert (2011 = 100), Basel",
 		"kuerzel": "I.01.2.6220",
 		"kuerzelKunde": "ST 5-4",
-		"description": "Indexierter Verlauf der Haushalte in Begegnungszonen",
+		"description": "Haushalte in Begegnungszonen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:18:32.3232",
+		"aktualisierungsdatum": "2020-03-16T09:01:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2017 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2017 gibt es 7 411 Privathaushalte in Begegnungszonen.",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2018 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2018 gibt es 7 670 Privathaushalte in Begegnungszonen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_004",
+		"orderKey": "02_05_00_00_00_005",
 		"parentId": null,
 		"children": [
 			"6264"
@@ -1011,6 +1017,49 @@ var indikatorensetData = [
 		"id": 7774
 	},
 	{
+		"title": "Bauzonen",
+		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
+		"kuerzel": "I.09.1.07775",
+		"kuerzelKunde": "ST 1-3",
+		"description": "Bauzonen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-16T11:23:27.2727",
+		"stufe1": "Sachgebiet Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2018 um 0,3 Prozentpunkte höher als 2005. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt gar 0,7 Prozentpunkte höher als noch 2005.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "01_01_00_00_00_003",
+		"parentId": null,
+		"children": [
+			"8419"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bau- und Verkehrsdepartement Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Zonenpläne Basel-Stadt, Riehen und Bettingen als Karten auf <a href = 'https://map.geo.bs.ch/s/h97S' target = '_blank'>MapBS</a>",
+			"Informationen zum <a href = 'http://www.zonenplan.bs.ch/' target = '_blank'>Zonenplan Basel-Stadt</a>"
+		],
+		"data-id": 7775,
+		"chart-id": 7775,
+		"filter": "",
+		"id": 7775
+	},
+	{
 		"title": "Jährlich durch Stau generierte Verzögerungszeit",
 		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.07777",
@@ -1095,5 +1144,46 @@ var indikatorensetData = [
 		"chart-id": 6155,
 		"filter": "",
 		"id": 7778
+	},
+	{
+		"title": "Motorisierungsgrad",
+		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.11.1.07779",
+		"kuerzelKunde": "ST 11-4",
+		"description": "Motorisierungsgrad",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-16T09:08:04.044",
+		"stufe1": "Sachgebiet Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 318 Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "05_11_00_00_00_004",
+		"parentId": null,
+		"children": [
+			"8422"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+		],
+		"data-id": 7779,
+		"chart-id": 7779,
+		"filter": "",
+		"id": 7779
 	}
 ];
