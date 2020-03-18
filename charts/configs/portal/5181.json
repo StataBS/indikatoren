@@ -2,32 +2,32 @@
   "series": [
     {
       "color": "#923F8D",
-      "index": 9,
-      "legendIndex": 0,
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
           "18-29",
-          53
+          67
         ],
         [
           "30-39",
-          68
+          128
         ],
         [
           "40-49",
-          82
+          121
         ],
         [
           "50-59",
-          118
+          115
         ],
         [
           "60-69",
-          143
+          109
         ],
         [
           "70 u.m.",
-          127
+          101
         ],
         [
           " ",
@@ -52,6 +52,10 @@
         [
           "2015",
           591
+        ],
+        [
+          "2019",
+          651
         ]
       ],
       "name": "Sehr gut",
@@ -59,32 +63,32 @@
     },
     {
       "color": "#B375AB",
-      "index": 8,
-      "legendIndex": 1,
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
           "18-29",
-          40
-        ],
-        [
-          "30-39",
-          42
-        ],
-        [
-          "40-49",
           70
         ],
         [
+          "30-39",
+          158
+        ],
+        [
+          "40-49",
+          163
+        ],
+        [
           "50-59",
-          115
+          194
         ],
         [
           "60-69",
-          164
+          202
         ],
         [
           "70 u.m.",
-          280
+          326
         ],
         [
           " ",
@@ -109,6 +113,10 @@
         [
           "2015",
           711
+        ],
+        [
+          "2019",
+          1130
         ]
       ],
       "name": "Gut",
@@ -116,32 +124,32 @@
     },
     {
       "color": "#FABD24",
-      "index": 7,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "18-29",
-          4
+          12
         ],
         [
           "30-39",
-          9
+          26
         ],
         [
           "40-49",
-          15
+          14
         ],
         [
           "50-59",
-          33
+          42
         ],
         [
           "60-69",
-          20
+          42
         ],
         [
           "70 u.m.",
-          79
+          94
         ],
         [
           " ",
@@ -166,6 +174,10 @@
         [
           "2015",
           160
+        ],
+        [
+          "2019",
+          235
         ]
       ],
       "name": "Eher nicht so gut",
@@ -173,32 +185,32 @@
     },
     {
       "color": "#008AC3",
-      "index": 6,
-      "legendIndex": 3,
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
           "18-29",
-          0
-        ],
-        [
-          "30-39",
           1
         ],
         [
+          "30-39",
+          6
+        ],
+        [
           "40-49",
-          7
+          6
         ],
         [
           "50-59",
-          7
+          8
         ],
         [
           "60-69",
-          5
+          6
         ],
         [
           "70 u.m.",
-          20
+          11
         ],
         [
           " ",
@@ -223,23 +235,27 @@
         [
           "2015",
           40
+        ],
+        [
+          "2019",
+          39
         ]
       ],
       "name": "Gar nicht gut",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 5,
-      "legendIndex": 4,
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
           "18-29",
-          0
+          4
         ],
         [
           "30-39",
-          0
+          1
         ],
         [
           "40-49",
@@ -247,11 +263,11 @@
         ],
         [
           "50-59",
-          0
+          2
         ],
         [
           "60-69",
-          2
+          1
         ],
         [
           "70 u.m.",
@@ -280,9 +296,74 @@
         [
           "2015",
           4
+        ],
+        [
+          "2019",
+          12
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "18-29",
+          1
+        ],
+        [
+          "30-39",
+          3
+        ],
+        [
+          "40-49",
+          1
+        ],
+        [
+          "50-59",
+          3
+        ],
+        [
+          "60-69",
+          3
+        ],
+        [
+          "70 u.m.",
+          4
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          41
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -374,7 +455,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Altersgruppe \u003Cbr\u003E «Und darf ich fragen, wie es Ihnen zur Zeit gesundheitlich geht?»"
+    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 \u003Cbr\u003E «Wie fühlen Sie sich zurzeit gesundheitlich?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -434,7 +515,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: S11.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "layout": "vertical",

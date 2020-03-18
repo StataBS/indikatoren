@@ -9,10 +9,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "1999",
-          52281
-        ],
-        [
           "2000",
           51847
         ],
@@ -87,6 +83,10 @@
         [
           "2018",
           72931
+        ],
+        [
+          "2019",
+          73315
         ]
       ],
       "name": "Ausländer",
@@ -100,10 +100,6 @@
       },
       "legendIndex": 0,
       "data": [
-        [
-          "1999",
-          137966
-        ],
         [
           "2000",
           136304
@@ -179,6 +175,10 @@
         [
           "2018",
           127325
+        ],
+        [
+          "2019",
+          127092
         ]
       ],
       "name": "Schweizer",
@@ -283,7 +283,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
     "enabled": true,

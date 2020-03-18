@@ -395,35 +395,39 @@ var indikatorensetData = [
 		"id": 6381
 	},
 	{
-		"title": "Reineinkommen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"title": "Reineinkommen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06382",
 		"kuerzelKunde": "C18-1",
-		"description": "Reineinkommen nach Wohnviertel",
+		"description": "Reineinkommen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-09T09:37:20.2020",
+		"aktualisierungsdatum": "2020-03-17T15:18:11.1111",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2016 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 700 Franken. Mit 36 800 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2017 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 300 Franken. Mit ca. 36 200 Franken verzeichnet das Wohnviertel Klybeck den kleinsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_011",
 		"parentId": null,
 		"children": [
-			"6394"
+			"6394",
+			"8294",
+			"8565"
 		],
 		"renderLink": [
-			"6394"
+			"6394",
+			"8294",
+			"8565"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik",

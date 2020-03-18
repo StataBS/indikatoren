@@ -83,14 +83,16 @@ stream.on("finish", function() {
             var gitJsCommand = 'git checkout origin/issue-' + row.Branch + ' -- charts/templates/' + row.Indikator + '.js';
             var gitTsvCommand = 'git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv';
             console.log(gitJsCommand);
-            console.log(gitTsvCommand);
             try{
                 child_process.execSync(gitJsCommand);
-                child_process.execSync(gitTsvCommand);
-                //child_process.execSync('git checkout origin/issue-' + row.Branch + ' -- data/' + row.Indikator + '.tsv');
             }
             catch(error){
-                //console.log(JSON.stringify(error));
+            }
+            console.log(gitTsvCommand);
+            try{
+                child_process.execSync(gitTsvCommand);
+            }
+            catch(error){
             }
         }
         else{
