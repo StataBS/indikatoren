@@ -31,11 +31,12 @@
       	}
       },
       "series": [
-      {"color": "#923F8D", "index": 9, "legendIndex":0}, /*grün dunkel2*/
-      {"color": "#B375AB", "index": 8, "legendIndex":1}, /*grün mittel*/
-      {"color": "#FABD24", "index": 7, "legendIndex":2}, /*grün dunkel1*/
-      {"color": "#008AC3", "index": 6, "legendIndex":3}, /*grün hell*/
-      {"color": "#999999", "index": 5, "legendIndex":4}, /*blau hell */
+      {"color": "#923F8D", "index": 5, "legendIndex":1}, /*grün dunkel2*/
+      {"color": "#B375AB", "index": 4, "legendIndex":2}, /*grün mittel*/
+      {"color": "#FABD24", "index": 3, "legendIndex":3}, /*grün dunkel1*/
+      {"color": "#008AC3", "index": 2, "legendIndex":4}, /*grün hell*/
+      { "color": "#C8C8C8", "index": 1, "legendIndex": 5 },
+      { "color": "#6F6F6F", "index": 0, "legendIndex": 6 },
       ],
     "chart": {      
     	 marginLeft: 125,

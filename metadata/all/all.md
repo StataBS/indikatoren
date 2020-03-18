@@ -1357,11 +1357,14 @@ id | visible | visibleInPortal | indikatorenset
 8379 | true | true | Nachhaltigkeit
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
+8453 | true | true | Nachhaltigkeit
+8454 | true | false | Nachhaltigkeit
 8455 | true | false | Nachhaltigkeit
 8456 | true | false | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
 8458 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
+8461 | true | true | Nachhaltigkeit
 8614 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8615 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8616 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
@@ -1423,6 +1426,7 @@ id | visible | visibleInPortal | indikatorenset
 8695 | true | true | Arbeitsmarkt
 8696 | true | true | Arbeitsmarkt
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
+8852 | true | true | Nachhaltigkeit
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
