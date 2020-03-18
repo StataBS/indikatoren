@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 5,
+      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -24,15 +24,19 @@
         [
           "2015",
           355
+        ],
+        [
+          "2019",
+          1053
         ]
       ],
-      "name": "Sehr grosse",
+      "name": "Stimme sehr zu",
       "turboThreshold": 0
     },
     {
       "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 4,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -53,15 +57,19 @@
         [
           "2015",
           788
+        ],
+        [
+          "2019",
+          709
         ]
       ],
-      "name": "Eher grosse",
+      "name": "Stimme eher zu",
       "turboThreshold": 0
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -82,15 +90,19 @@
         [
           "2015",
           258
+        ],
+        [
+          "2019",
+          161
         ]
       ],
-      "name": "Eher nicht so grosse",
+      "name": "Stimme eher nicht zu",
       "turboThreshold": 0
     },
     {
       "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 2,
+      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -111,15 +123,19 @@
         [
           "2015",
           54
+        ],
+        [
+          "2019",
+          27
         ]
       ],
-      "name": "Gar keine",
+      "name": "Stimme überhaupt nicht zu",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 5,
       "data": [
         [
           "2003",
@@ -135,14 +151,51 @@
         ],
         [
           "2011",
-          39
+          36
         ],
         [
           "2015",
-          51
+          50
+        ],
+        [
+          "2019",
+          83
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          75
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -230,7 +283,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -250,7 +303,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": 10,
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -267,8 +320,11 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
-    }
+      },
+      "type": "category",
+      "rotation": 0
+    },
+    "max": 100
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -287,22 +343,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-      return this.name.replace("/", " /<br/>");
-    }
+    "labelFormatter": function () {
+        return this.name.replace("/", " /<br/>");
+      },
+    "itemWidth": 200
   },
   "exporting": {
     "filename": 4719
