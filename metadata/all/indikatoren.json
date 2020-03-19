@@ -10635,25 +10635,25 @@
 		"id": 5165
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.5178",
-		"kuerzelKunde": "GW2",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"kuerzelKunde": "GW2.1",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-19T09:22:11.1111",
+		"aktualisierungsdatum": "2020-03-18T10:52:49.4949",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
-		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
+		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 2 des Indikators). Am zufriedensten (70,5% «sehr» und 21,7% «eher zufrieden») sind sie 2019 mit dem öffentlichen Verkehr, gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Basel und der Abfallbeseitigung.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10663,15 +10663,20 @@
 		"children": [
 			"6174",
 			"6216",
-			"6261"
+			"6261",
+			"8896"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 5178,
+		"chart-id": 5178,
+		"filter": "",
 		"id": 5178
 	},
 	{
@@ -41455,175 +41460,6 @@
 		"id": 7455
 	},
 	{
-		"title": "Beschäftigung in Architektur- und Ingenieurbüros",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07456",
-		"kuerzelKunde": "4.5-01",
-		"description": "Beschäftigung in Architektur- und Ingenieurbüros",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Architektur- und Ingenieurbüros",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Beschäftigung in der Branche Architektur- und Ingenieurbüros (NOGA 71) liegt im Jahr 2016 bei rund 5 000 Vollzeitäquivalenten (VZÄ) und ist damit leicht tiefer als im Vorjahr (2015: 5 100 VZÄ). Zuvor war die Beschäftigung seit 2011 um rund 900 VZÄ gestiegen.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_05_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7490"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7456,
-		"chart-id": 7456,
-		"filter": "",
-		"id": 7456
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote in Architektur- und Ingenieurbüros",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07458",
-		"kuerzelKunde": "4.5-02",
-		"description": "Arbeitslose und Arbeitslosenquote in Architektur- und Ingenieurbüros",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Architektur- und Ingenieurbüros",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ende 2018 sind rund 50 Personen in der Branche Architektur- und Ingenieurbüros arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt 2018 bei 2,3% und damit tiefer als 2017 mit 2,6%.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_05_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7491"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7458,
-		"chart-id": 7458,
-		"filter": "",
-		"id": 7458
-	},
-	{
-		"title": "Ausländische Erwerbstätige in Architektur- und Ingenieurbüros",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07459",
-		"kuerzelKunde": "4.5-03",
-		"description": "Ausländische Erwerbstätige in Architektur- und Ingenieurbüros",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Architektur- und Ingenieurbüros",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Branche Architektur- und Ingenieurbüros verzeichnet in den letzten Jahren eine deutlich steigende Zahl an Grenzgängern. Im 4. Quartal 2018 liegt sie bei 2 210 Personen. Zu den Meldepflichtigen sind für die Branche Architektur- und Ingenieurbüros keine Daten vorhanden. Im nächsthöheren Branchenaggregat Beratung und Planung sind es im 4. Quartal 2018 42 Meldepflichtige in Vollzeitäquivalenten. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_05_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7492"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7459,
-		"chart-id": 7459,
-		"filter": "",
-		"id": 7459
-	},
-	{
-		"title": "Medianlohn in Architektur- und Ingenieurbüros",
-		"subtitle": "Nordwestschweiz",
-		"kuerzel": "I.03.3.07460",
-		"kuerzelKunde": "4.5-04",
-		"description": "Medianlohn in Architektur- und Ingenieurbüros",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:17.1717",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Architektur- und Ingenieurbüros",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Vergleich zu 2014 ist der Medianlohn für Beschäftigte in der Branche Architektur- und Ingenieurbüros in der Nordwestschweiz im Jahr 2016 leicht gestiegen, von rund 7 200 Franken auf 7 300 Franken brutto.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_05_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7493"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7460,
-		"chart-id": 7460,
-		"filter": "",
-		"id": 7460
-	},
-	{
 		"title": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07461",
@@ -41791,344 +41627,6 @@
 		"chart-id": 7464,
 		"filter": "",
 		"id": 7464
-	},
-	{
-		"title": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07465",
-		"kuerzelKunde": "4.7-01",
-		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Wach- und Sicherheitsdienste",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Rund 800 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Wach- und Sicherheitsdienste (NOGA 80) tätig. Diese sind fast ausschliesslich im Bereich Private Wach- und Sicherheitsdienste tätig. Die gesamte Branche konnte seit 2011 einen Zuwachs von rund 250 VZÄ verzeichnen (+42%).",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_07_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7498"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7465,
-		"chart-id": 7465,
-		"filter": "",
-		"id": 7465
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07466",
-		"kuerzelKunde": "4.7-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Wach- und Sicherheitsdienste",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ende 2018 sind rund 20 Personen aus der Branche Wach- und Sicherheitsdienste arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt im Vergleich zum Vorjahr unverändert bei 8,6%.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_07_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7499"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7466,
-		"chart-id": 7466,
-		"filter": "",
-		"id": 7466
-	},
-	{
-		"title": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07467",
-		"kuerzelKunde": "4.7-03",
-		"description": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Wach- und Sicherheitsdienste",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Wach- und Sicherheitsdienste ist nicht bekannt. Für das nächsthöhere Branchenaggregat Sonstige wirtschaftliche Dienstleistungen ist sie in den letzten Jahren deutlich gestiegen. Im 4. Quartal 2018 liegt sie bei 2 439 Personen. Die Meldepflichtigen machen im 4. Quartal 2018 in Vollzeitäquivalente umgerechnet 21 Stellen aus. Zur Zuwanderung sind keine hinreichend detaillierten Zahlen vorhanden.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_07_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7500"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7467,
-		"chart-id": 7467,
-		"filter": "",
-		"id": 7467
-	},
-	{
-		"title": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
-		"subtitle": "Nordwestschweiz",
-		"kuerzel": "I.03.3.07468",
-		"kuerzelKunde": "4.7-04",
-		"description": "Medianlohn in der Branche Wach- und Sicherheitsdienste",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Wach- und Sicherheitsdienste",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte in der Branche Wach- und Sicherheitsdienste in der Nordwestschweiz liegt 2016 bei rund 4 700 Franken brutto (Daten für die Vorjahre nicht verfügbar). Der Wert für die gesamte Schweiz beträgt in der gleichen Branche rund 5 300 Franken brutto.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_07_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7501"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7468,
-		"chart-id": 7468,
-		"filter": "",
-		"id": 7468
-	},
-	{
-		"title": "Beschäftigung in der Branche Heime und Sozialwesen",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.07469",
-		"kuerzelKunde": "4.8-01",
-		"description": "Beschäftigung in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Rund 7 900 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind im Jahr 2016 in der Branche Heime und Sozialwesen (NOGA 87 und 88) tätig. Das sind etwa 200 VZÄ mehr als im Vorjahr. Bedeutend sind mit 3 300 VZÄ die Pflegeheime, mit 1 100 VZÄ die Tagesbetreuung von Kindern und mit 700 VZÄ die Soziale Betreuung älterer Menschen und Behinderter.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7502"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7469,
-		"chart-id": 7469,
-		"filter": "",
-		"id": 7469
-	},
-	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07470",
-		"kuerzelKunde": "4.8-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bereich Heime sind Ende 2018 rund 70 Personen arbeitslos. Im Sozialwesen sind es etwa 80 Arbeitslose. Die mittlere jährliche Arbeitslosenquote des Bereichs Heime ist von 4,1% im Jahr 2017 auf 3,2% im Jahr 2018 gesunken. Im Sozialwesen ist im selben Zeitraum ebenfalls ein Rückgang der Quote zu beobachten, von 5,3% auf 4,9%.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7503"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7470,
-		"chart-id": 7470,
-		"filter": "",
-		"id": 7470
-	},
-	{
-		"title": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.5.07471",
-		"kuerzelKunde": "4.8-03",
-		"description": "Ausländische Erwerbstätige in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Zahl der Grenzgänger in der Branche Heime und Sozialwesen ist zwischen 2010 und 2017 leicht gestiegen, seit zwei Jahren stagniert sie allerdings. Im 4. Quartal 2018 sind im Bereich Heime 1 058 und im Bereich Sozialwesen 415 Grenzgänger beschäftigt. Die Zuwanderung von Kurz- und Daueraufenthaltern im 4. Quartal 2018 beträgt 5 Personen. Die in Vollzeitäquivalente umgerechnete Zahl der Meldepflichtigen ist für die Branche Heime und Sozialwesen nicht bekannt. Das nächsthöhere Branchenaggregat Gesundheits-, Veterinärwesen, Heime und Kinderkrippen verzeichnet 75 Meldepflichtige in VZÄ.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7504"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7471,
-		"chart-id": 7471,
-		"filter": "",
-		"id": 7471
-	},
-	{
-		"title": "Medianlohn in der Branche Heime und Sozialwesen",
-		"subtitle": "Nordwestschweiz",
-		"kuerzel": "I.03.3.07473",
-		"kuerzelKunde": "4.8-04",
-		"description": "Medianlohn in der Branche Heime und Sozialwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Arbeitsmarkt",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2019-03-25T17:52:18.1818",
-		"stufe1": "Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "Heime und Sozialwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Medianlohn für Beschäftigte im Bereich Heime liegt im Jahr 2016 bei 5 800 Franken brutto und hat sich damit seit 2012 kaum verändert. Im Sozialwesen ist der Medianlohn im Vergleich zu 2014 von rund 5 500 Franken brutto auf 5 800 Franken brutto gestiegen, liegt damit aber immer noch unter dem Wert von 2010.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7505"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7473,
-		"chart-id": 7473,
-		"filter": "",
-		"id": 7473
 	},
 	{
 		"title": "Beschäftigung im Baunebengewerbe",
