@@ -1094,22 +1094,22 @@ id | visible | visibleInPortal | indikatorenset
 7453 | true | false | Arbeitsmarkt
 7454 | true | false | Arbeitsmarkt
 7455 | true | false | Arbeitsmarkt
-7456 | true | false | Arbeitsmarkt
-7458 | true | false | Arbeitsmarkt
-7459 | true | false | Arbeitsmarkt
-7460 | true | false | Arbeitsmarkt
+7456 | false |  | Arbeitsmarkt
+7458 | false |  | Arbeitsmarkt
+7459 | false |  | Arbeitsmarkt
+7460 | false |  | Arbeitsmarkt
 7461 | true | false | Arbeitsmarkt
 7462 | true | false | Arbeitsmarkt
 7463 | true | false | Arbeitsmarkt
 7464 | true | false | Arbeitsmarkt
-7465 | true | false | Arbeitsmarkt
-7466 | true | false | Arbeitsmarkt
-7467 | true | false | Arbeitsmarkt
-7468 | true | false | Arbeitsmarkt
-7469 | true | false | Arbeitsmarkt
-7470 | true | false | Arbeitsmarkt
-7471 | true | false | Arbeitsmarkt
-7473 | true | false | Arbeitsmarkt
+7465 | false |  | Arbeitsmarkt
+7466 | false |  | Arbeitsmarkt
+7467 | false |  | Arbeitsmarkt
+7468 | false |  | Arbeitsmarkt
+7469 | false |  | Arbeitsmarkt
+7470 | false |  | Arbeitsmarkt
+7471 | false |  | Arbeitsmarkt
+7473 | false |  | Arbeitsmarkt
 7474 | true | false | Arbeitsmarkt (Print)
 7475 | true | false | Arbeitsmarkt (Print)
 7476 | true | false | Arbeitsmarkt (Print)
