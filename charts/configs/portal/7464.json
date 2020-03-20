@@ -98,7 +98,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Branche Personalvermittlung und ‑überlassung"
+    "text": "Medianlohn in der Branche Personalvermittlung und -überlassung"
   },
   "subtitle": {
     "style": {
@@ -149,7 +149,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-19"
   },
   "legend": {
     "symbolRadius": 0,

@@ -7815,26 +7815,28 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:19:37.3737",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.2 Vertrauen in Mitmenschen",
+		"aktualisierungsdatum": "2020-03-19T09:10:25.2525",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56% und die Sicherheit insgesamte bei 95% lag.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_000",
+		"orderKey": "01_02_00_00_00_021",
 		"parentId": null,
 		"children": [
-			"6035"
+			"6035",
+			"8391",
+			"8926"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -10606,14 +10608,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:23:36.3636",
+		"aktualisierungsdatum": "2020-03-19T09:11:26.2626",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10623,7 +10625,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -12094,27 +12096,28 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T16:23:02.022",
+		"aktualisierungsdatum": "2020-03-19T09:11:09.099",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2015 geben die Bewohnerinnen und Bewohner im Durchschnitt der Lebensqualität im Stadtkanton eine 7,8. 2003 betrug die Durchschnittsnote 7,4.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_002",
+		"orderKey": "02_05_00_00_00_002",
 		"parentId": null,
 		"children": [
 			"5165",
-			"6252"
+			"6252",
+			"8893"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -13207,7 +13210,7 @@ var indikatoren = [
 		"title": "Sicherheitsgefühl im Alltag",
 		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
 		"kuerzel": "I.50.1.06035",
-		"kuerzelKunde": "GZ2",
+		"kuerzelKunde": "GZ3",
 		"description": "Sicherheitsgefühl im Alltag",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -13215,28 +13218,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-03-19T09:10:51.5151",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 42% fühlten sich 2015 weniger als die Hälfte der Befragten im Alltag sehr sicher und 49% fühlten sich eher sicher. Im Vergleich zu den vorherigen Befragungen fühlten sich die Befragten im Alltag weniger sicher. Am höchsten war das Sicherheitsempfinden 2005, als der Anteil Personen, die sich sehr sicher fühlten, bei 56% und die Sicherheit insgesamte bei 95% lag.",
-		"erlaeuterungen": "",
+		"lesehilfe": "59,5% der 2019 Befragten fühlen sich sehr sicher. 2015 lag dieser Anteil noch bei 42,2%. Insgesamt 3,9% geben an, sich eher oder ganz unsicher zu fühlen.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "05_01_00_00_00_502",
+		"orderKey": "05_01_00_00_00_503",
 		"parentId": 4852,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6035,
-		"darstellungsart": "Grafik"
+		"data-id": 4852,
+		"chart-id": 4852,
+		"filter": "",
+		"id": 6035
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -41460,18 +41468,18 @@ var indikatoren = [
 		"id": 7455
 	},
 	{
-		"title": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Beschäftigung in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07461",
 		"kuerzelKunde": "4.8-01",
-		"description": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Beschäftigung in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:07:18.1818",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
@@ -41502,24 +41510,24 @@ var indikatoren = [
 		"id": 7461
 	},
 	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07462",
 		"kuerzelKunde": "4.8-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 30 Personen aus der Branche Personalvermittlung und ‑überlassung sind Ende 2019 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 2,6%.",
+		"lesehilfe": "Rund 30 Personen aus der Branche Personalvermittlung und -überlassung sind Ende 2019 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 2,6%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -41544,18 +41552,18 @@ var indikatoren = [
 		"id": 7462
 	},
 	{
-		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07463",
 		"kuerzelKunde": "4.8-03",
-		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
@@ -41587,18 +41595,18 @@ var indikatoren = [
 		"id": 7463
 	},
 	{
-		"title": "Medianlohn in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Medianlohn in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "in Franken, Nordwestschweiz",
 		"kuerzel": "I.03.3.07464",
 		"kuerzelKunde": "4.8-04",
-		"description": "Medianlohn in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Medianlohn in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
@@ -46639,6 +46647,46 @@ var indikatoren = [
 		"id": 7764
 	},
 	{
+		"title": "Bevölkerungsbestand am Jahresende",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.01.1.07773",
+		"kuerzelKunde": "ST 1-1",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-19T09:40:25.2525",
+		"stufe1": "Sachgebiet Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen dem 31.12.2009 und dem 31.12.2019 nahm die Bevölkerung im Kanton Basel-Stadt von 190 815 auf 200 407 Personen zu.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_01_00_00_00_001",
+		"parentId": 4132,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
+		],
+		"data-id": 7773,
+		"chart-id": 7773,
+		"filter": "",
+		"id": 7773
+	},
+	{
 		"title": "Bruttogeschossflächen Wohnen und Arbeiten",
 		"subtitle": "in m<sup>2</sup>, Basel-Stadt",
 		"kuerzel": "I.09.1.07774",
@@ -46851,6 +46899,46 @@ var indikatoren = [
 		"chart-id": 7779,
 		"filter": "",
 		"id": 7779
+	},
+	{
+		"title": "Mietpreisindex Basel-Stadt",
+		"subtitle": "Indexwert (Basis 2015 = 100)",
+		"kuerzel": "I.09.3.07782",
+		"kuerzelKunde": "ST 5-5",
+		"description": "Mietpreisindex Basel-Stadt",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-19T09:42:37.3737",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
+		"erlaeuterungen": "Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_05_00_00_00_006",
+		"parentId": 5196,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 7782,
+		"chart-id": 5196,
+		"filter": "",
+		"id": 7782
 	},
 	{
 		"title": "Rosental - Quartierradar",
@@ -54576,6 +54664,46 @@ var indikatoren = [
 		"chart-id": 8852,
 		"filter": "",
 		"id": 8852
+	},
+	{
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
+		"kuerzel": "I.50.1.08877",
+		"kuerzelKunde": "ST 5-3b",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Richtplan",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-03-19T09:45:38.3838",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Kinderbetreuung (17,7% «sehr» und 21,8% «eher zufrieden») und die Einrichtungen für Jugendliche (12,1% «sehr» und 29,5% «eher zufrieden») erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "02_05_00_00_00_004",
+		"parentId": 8852,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8877,
+		"chart-id": 8877,
+		"filter": "",
+		"id": 8877
 	},
 	{
 		"title": "Test Daten",

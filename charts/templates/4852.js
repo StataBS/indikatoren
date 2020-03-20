@@ -1,36 +1,26 @@
-(function(){
+(function () {
     return {
-    "series": [
-        {
-            "color": "#256370",
-            "index": 4,
-            "legendIndex": 4 
+        series: [
+            { "color": "#246370" }, // dunkelgrün
+            { "color": "#A8C3CA" }, // grün
+            { "color": "#FFBB58" }, // orange
+            { "color": "#DC440E" }, // orange
+            { "color": "#D3E2E4" }, // orange
+            { "color": "#C8C8C8" }, // grau
+            { "color": "#6F6F6F" }, // grau
+        ],
+        xAxis: {
+            type: "category"
         },
-        {
-            "color": "#71A3B5",
-            "index": 3,
-            "legendIndex": 3 
+        yAxis: {
+            reversedStacks: false,
         },
-        {
-            "color": "#FFBB58",
-            "index": 2,
-            "legendIndex": 3 
-        },
-        {
-            "color": "#FF8028",
-            "index": 1,
-            "legendIndex": 1 
-        },
-        {
-            "color": "#C8C8C8",
-            "index": 0,
-            "legendIndex": 0 
-        }        
-  ],
-  "xAxis": {
-      "type": "category"
-  }
-	}
+        legend: {
+            reversed: true,
+            labelFormatter: function () {
+                return this.name.replace("mich", " mich<br/>");
+            }
+        }
+    };
 }());
 
- 
