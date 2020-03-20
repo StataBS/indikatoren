@@ -1040,7 +1040,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung"
+    "text": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung"
   },
   "subtitle": {
     "style": {
@@ -1108,7 +1108,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-19"
   },
   "legend": {
     "enabled": true,

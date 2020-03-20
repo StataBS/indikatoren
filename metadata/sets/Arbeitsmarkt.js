@@ -3168,18 +3168,18 @@ var indikatorensetData = [
 		"id": 7455
 	},
 	{
-		"title": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Beschäftigung in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
 		"kuerzel": "I.03.2.07461",
 		"kuerzelKunde": "4.8-01",
-		"description": "Beschäftigung in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Beschäftigung in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:07:18.1818",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
@@ -3209,24 +3209,24 @@ var indikatorensetData = [
 		"id": 7461
 	},
 	{
-		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.07462",
 		"kuerzelKunde": "4.8-02",
-		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Arbeitslose und Arbeitslosenquote in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 30 Personen aus der Branche Personalvermittlung und ‑überlassung sind Ende 2019 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 2,6%.",
+		"lesehilfe": "Rund 30 Personen aus der Branche Personalvermittlung und -überlassung sind Ende 2019 arbeitslos. Die mittlere jährliche Arbeitslosenquote liegt bei 2,6%.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -3250,18 +3250,18 @@ var indikatorensetData = [
 		"id": 7462
 	},
 	{
-		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.5.07463",
 		"kuerzelKunde": "4.8-03",
-		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Ausländische Erwerbstätige in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:43.4343",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
@@ -3292,18 +3292,18 @@ var indikatorensetData = [
 		"id": 7463
 	},
 	{
-		"title": "Medianlohn in der Branche Personalvermittlung und ‑überlassung",
+		"title": "Medianlohn in der Branche Personalvermittlung und -überlassung",
 		"subtitle": "in Franken, Nordwestschweiz",
 		"kuerzel": "I.03.3.07464",
 		"kuerzelKunde": "4.8-04",
-		"description": "Medianlohn in der Branche Personalvermittlung und ‑überlassung",
+		"description": "Medianlohn in der Branche Personalvermittlung und -überlassung",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-03-19T09:08:52.5252",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.8 Personalvermittlung und -überlassung",
 		"stufe3": "",
