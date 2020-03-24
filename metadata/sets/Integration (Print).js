@@ -3545,16 +3545,16 @@ var indikatorensetData = [
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.16.3.06732",
+		"kuerzel": "I.03.6.06732",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:27.2727",
+		"aktualisierungsdatum": "2020-03-23T12:37:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",

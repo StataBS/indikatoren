@@ -13421,21 +13421,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-12T10:00:17.1717",
+		"aktualisierungsdatum": "2020-03-23T13:06:23.2323",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den 822 Befragten die angeben, frewillig tätig zu sein, sind 51,0% im sozialen Bereich engagiert. 28,7% helfen der Nachbarschaft und 23,6% betätigen sich in Sport und Freizeit.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur Personen, die freiwillig tätig sind.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur Personen, die freiwillig tätig sind. Freiwilligenarbeit ist ein unbezahlter Beitrag an Mitmenschen und/oder Umwelt und findet ausserhalb des eigenen Haushalts statt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_03_00_00_00_509",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8931"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -17973,28 +17975,28 @@
 	{
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6214",
+		"kuerzel": "I.09.1.06214",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-02-04T09:56:47.4747",
+		"aktualisierungsdatum": "2020-03-23T08:15:06.066",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2018 mit rund 200 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf gut 110 000 Wohnungen (+31 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_001",
+		"orderKey": "02_04_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6259"
@@ -26640,16 +26642,16 @@
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.03.2.6492",
+		"kuerzel": "I.03.6.06492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-03-23T12:37:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -26661,7 +26663,7 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_019",
+		"orderKey": "04_00_00_00_00_601",
 		"parentId": null,
 		"children": [
 			"6732"
@@ -26670,9 +26672,13 @@
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6492,
+		"chart-id": 6492,
+		"filter": "",
 		"id": 6492
 	},
 	{
@@ -32889,16 +32895,16 @@
 	{
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.16.3.06732",
+		"kuerzel": "I.03.6.06732",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
 		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:27.2727",
+		"aktualisierungsdatum": "2020-03-23T12:37:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -43099,7 +43105,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-25T08:27:27.2727",
+		"aktualisierungsdatum": "2020-03-24T09:13:21.2121",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -46565,7 +46571,7 @@
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar 2020",
+		"subtitle": "Basel-Stadt, Februar 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -46576,13 +46582,13 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-02-25T08:25:37.3737",
+		"aktualisierungsdatum": "2020-03-24T09:14:29.2929",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Januar 2020 stieg die Einwohnerzahl gegenüber Dezember 2019 in allen Wohnviertel, in Riehen und in Bettingen. Einzige Ausnahme bildet das Wohnviertel Kleinhüningen, wo ein geringfügiger Rückgang verzeichnet wurde.",
+		"lesehilfe": "Im Februarr 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 14  Wohnvierteln und in Bettingen. Bevölkerungsrückgänge wurden in den Wohnvierteln Clara, Bruderholz, Kleinhüningen und Hirzbrunnen, sowie in der Gemeinde Riehen, verzeichnet. In der Altstadt Grossbasel bleib die Einwohnerzahl unverändert.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -52029,16 +52035,16 @@
 	{
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Basel-Stadt",
-		"kuerzel": "I.16.3.08458",
+		"kuerzel": "I.03.6.08458",
 		"kuerzelKunde": "WE9",
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Unbezahlte Arbeit",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:32:27.2727",
+		"aktualisierungsdatum": "2020-03-23T12:38:16.1616",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -52052,7 +52058,9 @@
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_609",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8961"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
