@@ -603,7 +603,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:45:25.2525",
+		"aktualisierungsdatum": "2020-03-24T10:24:26.2626",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -614,9 +614,11 @@ var indikatorensetData = [
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_305",
+		"orderKey": "03_02_00_00_00_306",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8899"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
