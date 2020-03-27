@@ -13,6 +13,7 @@
   },
   "yAxis": {
   tickAmount: 8,
+  tickInterval: 100,
 	"labels": {
 		"format": "{value:,.0f}",
 	}

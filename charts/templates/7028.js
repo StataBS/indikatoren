@@ -12,6 +12,7 @@
     //}
   },
   "yAxis": {
+    offset: -10,
     max: 800000,
     tickAmount: 5,
 	"labels": {
@@ -52,7 +53,9 @@
 
             }
         },
-        "chart": {      
+        "chart": {   
+          marginLeft: 48,
+          spacing: [2,1,1,1], 
             "type": "column"
         },
     }

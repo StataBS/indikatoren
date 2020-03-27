@@ -1,0 +1,869 @@
+{
+  "series": [
+    {
+      "color": "#73b97c",
+      "index": 0,
+      "type": "column",
+      "yAxis": 1,
+      "data": [
+        [
+          "2010-01",
+          22
+        ],
+        [
+          "2010-02",
+          23
+        ],
+        [
+          "2010-03",
+          15
+        ],
+        [
+          "2010-04",
+          27
+        ],
+        [
+          "2011-01",
+          25
+        ],
+        [
+          "2011-02",
+          37
+        ],
+        [
+          "2011-03",
+          18
+        ],
+        [
+          "2011-04",
+          29
+        ],
+        [
+          "2012-01",
+          41
+        ],
+        [
+          "2012-02",
+          29
+        ],
+        [
+          "2012-03",
+          21
+        ],
+        [
+          "2012-04",
+          4
+        ],
+        [
+          "2013-01",
+          26
+        ],
+        [
+          "2013-02",
+          21
+        ],
+        [
+          "2013-03",
+          18
+        ],
+        [
+          "2013-04",
+          13
+        ],
+        [
+          "2014-01",
+          35
+        ],
+        [
+          "2014-02",
+          13
+        ],
+        [
+          "2014-03",
+          38
+        ],
+        [
+          "2014-04",
+          23
+        ],
+        [
+          "2015-01",
+          32
+        ],
+        [
+          "2015-02",
+          14
+        ],
+        [
+          "2015-03",
+          20
+        ],
+        [
+          "2015-04",
+          18
+        ],
+        [
+          "2016-01",
+          35
+        ],
+        [
+          "2016-02",
+          31
+        ],
+        [
+          "2016-03",
+          14
+        ],
+        [
+          "2016-04",
+          10
+        ],
+        [
+          "2017-01",
+          30
+        ],
+        [
+          "2017-02",
+          29
+        ],
+        [
+          "2017-03",
+          5
+        ],
+        [
+          "2017-04",
+          16
+        ],
+        [
+          "2018-01",
+          22
+        ],
+        [
+          "2018-02",
+          17
+        ],
+        [
+          "2018-03",
+          21
+        ],
+        [
+          "2018-04",
+          21
+        ],
+        [
+          "2019-01",
+          35
+        ],
+        [
+          "2019-02",
+          15
+        ],
+        [
+          "2019-03",
+          20
+        ],
+        [
+          "2019-04",
+          15
+        ]
+      ],
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          615
+        ],
+        [
+          "2010-02",
+          604
+        ],
+        [
+          "2010-03",
+          619
+        ],
+        [
+          "2010-04",
+          512
+        ],
+        [
+          "2011-01",
+          506
+        ],
+        [
+          "2011-02",
+          487
+        ],
+        [
+          "2011-03",
+          523
+        ],
+        [
+          "2011-04",
+          549
+        ],
+        [
+          "2012-01",
+          571
+        ],
+        [
+          "2012-02",
+          550
+        ],
+        [
+          "2012-03",
+          504
+        ],
+        [
+          "2012-04",
+          483
+        ],
+        [
+          "2013-01",
+          452
+        ],
+        [
+          "2013-02",
+          446
+        ],
+        [
+          "2013-03",
+          451
+        ],
+        [
+          "2013-04",
+          445
+        ],
+        [
+          "2014-01",
+          418
+        ],
+        [
+          "2014-02",
+          426
+        ],
+        [
+          "2014-03",
+          417
+        ],
+        [
+          "2014-04",
+          391
+        ],
+        [
+          "2015-01",
+          431
+        ],
+        [
+          "2015-02",
+          421
+        ],
+        [
+          "2015-03",
+          389
+        ],
+        [
+          "2015-04",
+          392
+        ],
+        [
+          "2016-01",
+          396
+        ],
+        [
+          "2016-02",
+          391
+        ],
+        [
+          "2016-03",
+          395
+        ],
+        [
+          "2016-04",
+          377
+        ],
+        [
+          "2017-01",
+          370
+        ],
+        [
+          "2017-02",
+          378
+        ],
+        [
+          "2017-03",
+          384
+        ],
+        [
+          "2017-04",
+          372
+        ],
+        [
+          "2018-01",
+          350
+        ],
+        [
+          "2018-02",
+          357
+        ],
+        [
+          "2018-03",
+          334
+        ],
+        [
+          "2018-04",
+          354
+        ],
+        [
+          "2019-01",
+          341
+        ],
+        [
+          "2019-02",
+          331
+        ],
+        [
+          "2019-03",
+          346
+        ],
+        [
+          "2019-04",
+          338
+        ]
+      ],
+      "name": "Bestand Grenzgänger Lagerei u. sonst. DL für den Verkehr",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 2,
+      "type": "line",
+      "dashStyle": "dash",
+      "data": [
+        [
+          "2010-01",
+          62
+        ],
+        [
+          "2010-02",
+          57
+        ],
+        [
+          "2010-03",
+          61
+        ],
+        [
+          "2010-04",
+          66
+        ],
+        [
+          "2011-01",
+          56
+        ],
+        [
+          "2011-02",
+          59
+        ],
+        [
+          "2011-03",
+          55
+        ],
+        [
+          "2011-04",
+          56
+        ],
+        [
+          "2012-01",
+          64
+        ],
+        [
+          "2012-02",
+          64
+        ],
+        [
+          "2012-03",
+          70
+        ],
+        [
+          "2012-04",
+          75
+        ],
+        [
+          "2013-01",
+          70
+        ],
+        [
+          "2013-02",
+          64
+        ],
+        [
+          "2013-03",
+          69
+        ],
+        [
+          "2013-04",
+          57
+        ],
+        [
+          "2014-01",
+          60
+        ],
+        [
+          "2014-02",
+          58
+        ],
+        [
+          "2014-03",
+          59
+        ],
+        [
+          "2014-04",
+          56
+        ],
+        [
+          "2015-01",
+          57
+        ],
+        [
+          "2015-02",
+          64
+        ],
+        [
+          "2015-03",
+          67
+        ],
+        [
+          "2015-04",
+          66
+        ],
+        [
+          "2016-01",
+          56
+        ],
+        [
+          "2016-02",
+          56
+        ],
+        [
+          "2016-03",
+          53
+        ],
+        [
+          "2016-04",
+          50
+        ],
+        [
+          "2017-01",
+          55
+        ],
+        [
+          "2017-02",
+          43
+        ],
+        [
+          "2017-03",
+          42
+        ],
+        [
+          "2017-04",
+          39
+        ],
+        [
+          "2018-01",
+          46
+        ],
+        [
+          "2018-02",
+          38
+        ],
+        [
+          "2018-03",
+          34
+        ],
+        [
+          "2018-04",
+          25
+        ],
+        [
+          "2019-01",
+          25
+        ],
+        [
+          "2019-02",
+          27
+        ],
+        [
+          "2019-03",
+          23
+        ],
+        [
+          "2019-04",
+          22
+        ]
+      ],
+      "name": "Bestand Grenzgänger Post-, Kurier- und Expressdienste",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 3,
+      "type": "line",
+      "data": [
+        [
+          "2010-01",
+          1
+        ],
+        [
+          "2010-02",
+          0
+        ],
+        [
+          "2010-03",
+          3
+        ],
+        [
+          "2010-04",
+          0
+        ],
+        [
+          "2011-01",
+          1
+        ],
+        [
+          "2011-02",
+          0
+        ],
+        [
+          "2011-03",
+          0
+        ],
+        [
+          "2011-04",
+          2
+        ],
+        [
+          "2012-01",
+          1
+        ],
+        [
+          "2012-02",
+          0
+        ],
+        [
+          "2012-03",
+          0
+        ],
+        [
+          "2012-04",
+          0
+        ],
+        [
+          "2013-01",
+          5
+        ],
+        [
+          "2013-02",
+          0
+        ],
+        [
+          "2013-03",
+          -1
+        ],
+        [
+          "2013-04",
+          1
+        ],
+        [
+          "2014-01",
+          2
+        ],
+        [
+          "2014-02",
+          0
+        ],
+        [
+          "2014-03",
+          2
+        ],
+        [
+          "2014-04",
+          1
+        ],
+        [
+          "2015-01",
+          0
+        ],
+        [
+          "2015-02",
+          null
+        ],
+        [
+          "2015-03",
+          1
+        ],
+        [
+          "2015-04",
+          0
+        ],
+        [
+          "2016-01",
+          0
+        ],
+        [
+          "2016-02",
+          0
+        ],
+        [
+          "2016-03",
+          0
+        ],
+        [
+          "2016-04",
+          2
+        ],
+        [
+          "2017-01",
+          2
+        ],
+        [
+          "2017-02",
+          0
+        ],
+        [
+          "2017-03",
+          2
+        ],
+        [
+          "2017-04",
+          2
+        ],
+        [
+          "2018-01",
+          1
+        ],
+        [
+          "2018-02",
+          1
+        ],
+        [
+          "2018-03",
+          0
+        ],
+        [
+          "2018-04",
+          0
+        ],
+        [
+          "2019-01",
+          3
+        ],
+        [
+          "2019-02",
+          2
+        ],
+        [
+          "2019-03",
+          1
+        ],
+        [
+          "2019-04",
+          3
+        ]
+      ],
+      "name": "Best. Meldepflichtige in VZÄ",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "x": 11,
+      "rotation": 0,
+      "formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+     		}
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8706",
+    "spacingBottom": 22
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige in der Branche Lagerei und Zustelldienste"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 1
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0,
+      "max": 800,
+      "tickAmount": 9
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        }
+      },
+      "min": 0,
+      "max": 80,
+      "tickAmount": 9,
+      "opposite": true
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "borderWidth": 0,
+      "dataLabels": {
+        "enabled": false
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8706
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line"
+}

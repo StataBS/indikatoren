@@ -76,7 +76,7 @@
         ],
         [
           "2014-02",
-          16
+          14
         ],
         [
           "2014-03",
@@ -149,6 +149,22 @@
         [
           "2018-04",
           20
+        ],
+        [
+          "2019-01",
+          16
+        ],
+        [
+          "2019-02",
+          13
+        ],
+        [
+          "2019-03",
+          25
+        ],
+        [
+          "2019-04",
+          21
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -277,35 +293,51 @@
         ],
         [
           "2017-01",
-          633
+          635
         ],
         [
           "2017-02",
-          620
+          637
         ],
         [
           "2017-03",
-          606
+          614
         ],
         [
           "2017-04",
-          599
+          606
         ],
         [
           "2018-01",
-          571
+          572
         ],
         [
           "2018-02",
-          563
+          565
         ],
         [
           "2018-03",
-          559
+          560
         ],
         [
           "2018-04",
-          559
+          561
+        ],
+        [
+          "2019-01",
+          566
+        ],
+        [
+          "2019-02",
+          555
+        ],
+        [
+          "2019-03",
+          558
+        ],
+        [
+          "2019-04",
+          560
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -463,6 +495,22 @@
         [
           "2018-04",
           33
+        ],
+        [
+          "2019-01",
+          29
+        ],
+        [
+          "2019-02",
+          42
+        ],
+        [
+          "2019-03",
+          93
+        ],
+        [
+          "2019-04",
+          12
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Verkehr",
@@ -605,6 +653,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 20,
       "opposite": true
@@ -629,7 +678,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "padding": 0,

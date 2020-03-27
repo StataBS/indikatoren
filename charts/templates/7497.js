@@ -22,7 +22,7 @@
   {"color": "#923F8D", "visible": true}, 
   ],
   "legend": {
-    "enabled": true,
+    "enabled": false,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
