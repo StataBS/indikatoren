@@ -120,53 +120,32 @@
   "xAxis": {
     "type": "category",
     "uniqueNames": true,
-    "reversed": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
       }
     },
     "labels": {
-      "rotation": 0,
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "width": 1,
-        "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "color": "#000000"
       },
       "formatter": function () {
-        return this.value
-                .replace("Basel-Stadt", "BS")	
-                .replace("Basel-Landschaft", "BL")
-                .replace("Aargau", "AG")
-                .replace("Zürich", "ZH")
-                .replace("Schweiz", "CH");
-    }
-    }
+          return this.value
+            .replace("Basel-Stadt", "BS")
+            .replace("Basel-Landschaft", "BL")
+            .replace("Aargau", "AG")
+            .replace("Zürich", "ZH")
+            .replace("Schweiz", "CH");
+        }
+    },
+    "tickLength": 0
   },
   "chart": {
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //square legends must be placed 3 pixels more to the left than lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                            }
-                        });
-                    }
-                }
-    },
-    "type": "column",
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "width": 320,
     "height": 221,
     "spacing": [
@@ -175,92 +154,135 @@
       2,
       2
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "style": {
-      "fontFamily": "Arial",
-      "fontSize": "10px"
+      "fontFamily": "Arial"
     },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "type": "column",
     "inverted": false,
     "renderTo": "container-7064",
     "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
-      "stacking": "percent",
       "borderWidth": 0,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
         }
-      }
-    },
-    "column": {
+      },
+      "stacking": "percent",
       "groupPadding": 0.2
     }
   },
   "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
     "text": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton"
   },
   "subtitle": {
-    "text": "Anteil der Vollzeitäquivalente, 2017"
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anteil der Vollzeitäquivalente, 2017",
+    "align": "left"
   },
   "yAxis": {
-    "type": "category",
-    "tickInterval": 20,
-    "lineColor": "#B9CFD7",
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
     "title": {
-      "text": null
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
     },
     "labels": {
       "y": 3,
-      "format": "{value}%",
       "style": {
         "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none"
+        "color": "#000000"
+      },
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value),0)+'%'; 
       }
-    }
-  },
-  "legend": {
-    "enabled": true,
-    "useHTML": true,
-    "layout": "horizontal",
-    "align": "left",
-    "verticalAlign": "top",
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 4,
-    "itemStyle": {
-      "fontFamily": "Arial",
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "whitespace": "nowrap"
     },
-    "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            },
-    "itemDistance": 20
+    "tickAmount": 6
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
     "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
     "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
-  "navigation": {
-    "buttonOptions": {
-      "enabled": false
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "itemDistance": 20,
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
     }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 7064

@@ -2574,7 +2574,7 @@
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.04150",
+		"kuerzel": "I.50.1.4150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"thema": "50 Befragungen",
@@ -2583,15 +2583,17 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
+		"aktualisierungsdatum": "2020-03-26T08:37:03.033",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Über 85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
@@ -2602,11 +2604,14 @@
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4150,
-		"darstellungsart": "Grafik"
+		"data-id": 4150,
+		"chart-id": 4150,
+		"filter": "",
+		"id": 4150
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
@@ -7593,32 +7598,34 @@
 		"id": 5148
 	},
 	{
-		"title": "Geburtenziffer nach Staatsangehörigkeit",
+		"title": "Geburtenziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.1.5149",
+		"kuerzel": "I.01.3.05149",
 		"kuerzelKunde": "BE7",
-		"description": "Geburtenziffer nach Staatsangehörigkeit",
+		"description": "Geburtenziffer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:05:02.022",
+		"aktualisierungsdatum": "2020-03-26T16:43:58.5858",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 8,1 auf 9,3) als auch jene der Ausländer (von 11,9 auf 12,3) gestiegen ist. Im Vergleich zum Vorjahr ist die Geburtenziffer der Schweizer zurückgegangen (von 9,5 auf 9,3).",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen.",
 		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
+		"orderKey": "01_01_00_00_00_108",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8886"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -8675,18 +8682,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-03T17:38:43.4343",
+		"aktualisierungsdatum": "2020-03-24T15:33:12.1212",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 8: Qualität für Wirtschaft und Bildung",
+		"stufe2": "Strategie 8: Bedingugen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städte hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter.",
 		"erlaeuterungen": "Kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_001",
+		"orderKey": "03_08_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6256"
@@ -8695,12 +8703,15 @@
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Weiterführende Informationen <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a>, und",
 			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
-		"id": 5891,
-		"darstellungsart": "Grafik"
+		"data-id": 5891,
+		"chart-id": 5891,
+		"filter": "",
+		"id": 5891
 	},
 	{
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
@@ -8714,7 +8725,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-16T08:58:47.4747",
+		"aktualisierungsdatum": "2020-03-24T15:45:07.077",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
@@ -9455,7 +9466,7 @@
 		"title": "Übertritte nach der obligatorischen Schulzeit",
 		"subtitle": "im Schuljahr 2018/19, Basel-Stadt",
 		"kuerzel": "I.15.1.6039",
-		"kuerzelKunde": "GZ6",
+		"kuerzelKunde": "GW14",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
@@ -9463,21 +9474,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T11:31:07.077",
-		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Chancengerechtigkeit",
+		"aktualisierungsdatum": "2020-03-26T16:46:50.5050",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Staatsangehörigkeit (Schweiz/Ausland) und Erstsprache (Deutsch/Fremdsprache).",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache).",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_506",
+		"orderKey": "03_05_00_00_00_315",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8929"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt"
@@ -9655,32 +9668,34 @@
 		"id": 6051
 	},
 	{
-		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"title": "Nettoerwerbstätigenquote nach Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.1.6052",
-		"kuerzelKunde": "WE8",
-		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"kuerzelKunde": "WE7",
+		"description": "Nettoerwerbstätigenquote nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
+		"aktualisierungsdatum": "2020-03-26T16:42:58.5858",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer und Frauen stark an.",
 		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_02_00_00_00_608",
+		"orderKey": "06_02_00_00_00_607",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8941"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",

@@ -1126,22 +1126,22 @@ id | visible | visibleInPortal | indikatorenset
 7487 | true | false | Arbeitsmarkt (Print)
 7488 | true | false | Arbeitsmarkt (Print)
 7489 | true | false | Arbeitsmarkt (Print)
-7490 | true | false | Arbeitsmarkt (Print)
-7491 | true | false | Arbeitsmarkt (Print)
-7492 | true | false | Arbeitsmarkt (Print)
-7493 | true | false | Arbeitsmarkt (Print)
+7490 | false |  | Arbeitsmarkt (Print)
+7491 | false |  | Arbeitsmarkt (Print)
+7492 | false |  | Arbeitsmarkt (Print)
+7493 | false |  | Arbeitsmarkt (Print)
 7494 | true | false | Arbeitsmarkt (Print)
 7495 | true | false | Arbeitsmarkt (Print)
 7496 | true | false | Arbeitsmarkt (Print)
 7497 | true | false | Arbeitsmarkt (Print)
-7498 | true | false | Arbeitsmarkt (Print)
-7499 | true | false | Arbeitsmarkt (Print)
-7500 | true | false | Arbeitsmarkt (Print)
-7501 | true | false | Arbeitsmarkt (Print)
-7502 | true | false | Arbeitsmarkt (Print)
-7503 | true | false | Arbeitsmarkt (Print)
-7504 | true | false | Arbeitsmarkt (Print)
-7505 | true | false | Arbeitsmarkt (Print)
+7498 | false |  | Arbeitsmarkt (Print)
+7499 | false |  | Arbeitsmarkt (Print)
+7500 | false |  | Arbeitsmarkt (Print)
+7501 | false |  | Arbeitsmarkt (Print)
+7502 | false |  | Arbeitsmarkt (Print)
+7503 | false |  | Arbeitsmarkt (Print)
+7504 | false |  | Arbeitsmarkt (Print)
+7505 | false |  | Arbeitsmarkt (Print)
 7510 | true | true | Monatsindikatoren
 7511 | true | true | Monatsindikatoren
 7512 | true | true | Monatsindikatoren
@@ -1428,6 +1428,16 @@ id | visible | visibleInPortal | indikatorenset
 8694 | true | true | Arbeitsmarkt
 8695 | true | true | Arbeitsmarkt
 8696 | true | true | Arbeitsmarkt
+8698 | true | false | Arbeitsmarkt (Print)
+8699 | true | false | Arbeitsmarkt (Print)
+8700 | true | false | Arbeitsmarkt (Print)
+8701 | true | false | Arbeitsmarkt (Print)
+8702 | true | false | Arbeitsmarkt (Print)
+8703 | true | false | Arbeitsmarkt (Print)
+8704 | true | false | Arbeitsmarkt (Print)
+8705 | true | false | Arbeitsmarkt (Print)
+8706 | true | false | Arbeitsmarkt (Print)
+8707 | true | false | Arbeitsmarkt (Print)
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
 8877 | true | false | Richtplan

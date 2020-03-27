@@ -13,7 +13,7 @@
   "xAxis": {
     "type": "category",  
     "labels": {
-      rotation: 0
+      rotation: -45
     }
   },  
   "yAxis": {
@@ -34,7 +34,7 @@
     "align": "right",
     symbolPadding: 0,
     margin: 1,
-    width: 105,
+    width: 106,
     "itemStyle": {
       fontSize: "9px",
       textOverflow: "undefined",

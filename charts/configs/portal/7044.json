@@ -4,19 +4,11 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2005",
-          5003
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           4578
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -42,6 +34,10 @@
         [
           "2016",
           5409
+        ],
+        [
+          "2017",
+          5321
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -51,19 +47,11 @@
       "color": "#008AC3",
       "data": [
         [
-          "2005",
-          7012
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           7499
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -89,6 +77,10 @@
         [
           "2016",
           7932
+        ],
+        [
+          "2017",
+          7932
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -98,19 +90,11 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2005",
-          16358
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           17160
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -136,6 +120,10 @@
         [
           "2016",
           22139
+        ],
+        [
+          "2017",
+          22780
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -145,19 +133,11 @@
       "color": "#2B0099",
       "data": [
         [
-          "2005",
-          5564
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           5687
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -183,6 +163,10 @@
         [
           "2016",
           7265
+        ],
+        [
+          "2017",
+          7330
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -301,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "enabled": true,

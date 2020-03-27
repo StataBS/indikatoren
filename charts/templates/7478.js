@@ -14,7 +14,7 @@
   "xAxis": {
     "type": "category",  
     "labels": {
-      rotation: 0
+      rotation: -45
     }
   },  
   "yAxis": {
@@ -32,7 +32,7 @@
   },  
   "legend": {
     "layout": "vertical",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "itemMarginBottom": 2,
     "align": "right",
     symbolPadding: 0,

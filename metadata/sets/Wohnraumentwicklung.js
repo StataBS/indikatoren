@@ -911,7 +911,7 @@ var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.04150",
+		"kuerzel": "I.50.1.4150",
 		"kuerzelKunde": "3.2.B",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"thema": "50 Befragungen",
@@ -920,15 +920,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:09:53.5353",
+		"aktualisierungsdatum": "2020-03-26T08:37:03.033",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 90% der Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. Dieser Wert ist seit 2005 jeweils leicht angestiegen.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Über 85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
@@ -938,11 +940,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4150,
-		"darstellungsart": "Grafik"
+		"data-id": 4150,
+		"chart-id": 4150,
+		"filter": "",
+		"id": 4150
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
