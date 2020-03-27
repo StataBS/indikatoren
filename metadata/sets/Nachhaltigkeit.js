@@ -158,31 +158,33 @@ var indikatorensetData = [
 		"id": 5148
 	},
 	{
-		"title": "Geburtenziffer nach Staatsangehörigkeit",
+		"title": "Geburtenziffer",
 		"subtitle": "",
-		"kuerzel": "I.01.1.5149",
+		"kuerzel": "I.01.3.05149",
 		"kuerzelKunde": "BE7",
-		"description": "Geburtenziffer nach Staatsangehörigkeit",
+		"description": "Geburtenziffer",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"unterthema": "Geburten und Todesfälle",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:05:02.022",
+		"aktualisierungsdatum": "2020-03-26T16:43:58.5858",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen. Nach Staatsangehörigkeit betrachtet zeigt sich, dass sowohl die rohe Geburtenziffer der Schweizer (von 8,1 auf 9,3) als auch jene der Ausländer (von 11,9 auf 12,3) gestiegen ist. Im Vergleich zum Vorjahr ist die Geburtenziffer der Schweizer zurückgegangen (von 9,5 auf 9,3).",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen.",
 		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_109",
+		"orderKey": "01_01_00_00_00_108",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8886"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1731,7 +1733,7 @@ var indikatorensetData = [
 		"title": "Übertritte nach der obligatorischen Schulzeit",
 		"subtitle": "im Schuljahr 2018/19, Basel-Stadt",
 		"kuerzel": "I.15.1.6039",
-		"kuerzelKunde": "GZ6",
+		"kuerzelKunde": "GW14",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
@@ -1739,20 +1741,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T11:31:07.077",
-		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Chancengerechtigkeit",
+		"aktualisierungsdatum": "2020-03-26T16:46:50.5050",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Staatsangehörigkeit (Schweiz/Ausland) und Erstsprache (Deutsch/Fremdsprache).",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache).",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_506",
+		"orderKey": "03_05_00_00_00_315",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8929"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt"
@@ -2199,31 +2203,33 @@ var indikatorensetData = [
 		"id": 6051
 	},
 	{
-		"title": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"title": "Nettoerwerbstätigenquote nach Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.1.6052",
-		"kuerzelKunde": "WE8",
-		"description": "Nettoerwerbstätigenquote nach Geschlecht und Heimat",
+		"kuerzelKunde": "WE7",
+		"description": "Nettoerwerbstätigenquote nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
+		"aktualisierungsdatum": "2020-03-26T16:42:58.5858",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer, Frauen, Schweizer und Ausländer stark an.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer und Frauen stark an.",
 		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "06_02_00_00_00_608",
+		"orderKey": "06_02_00_00_00_607",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8941"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",

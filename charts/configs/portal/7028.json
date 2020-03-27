@@ -4,19 +4,11 @@
       "color": "#6F6F6F",
       "data": [
         [
-          "2005",
-          134476
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           139565
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -42,28 +34,24 @@
         [
           "2016",
           151362
+        ],
+        [
+          "2017",
+          151198
         ]
       ],
-      "name": "Basel-Stadt",
+      "name": "BS",
       "turboThreshold": 0
     },
     {
       "color": "#FF8028",
       "data": [
         [
-          "2005",
-          104940
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           112547
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -89,28 +77,24 @@
         [
           "2016",
           117336
+        ],
+        [
+          "2017",
+          118121
         ]
       ],
-      "name": "Basel-Landschaft",
+      "name": "BL",
       "turboThreshold": 0
     },
     {
       "color": "#A8C3CA",
       "data": [
         [
-          "2005",
-          229597
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           251163
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -136,28 +120,24 @@
         [
           "2016",
           265251
+        ],
+        [
+          "2017",
+          267499
         ]
       ],
-      "name": "Aargau",
+      "name": "AG",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "data": [
         [
-          "2005",
-          650526
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           706329
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -183,9 +163,13 @@
         [
           "2016",
           787274
+        ],
+        [
+          "2017",
+          796714
         ]
       ],
-      "name": "Zürich",
+      "name": "ZH",
       "turboThreshold": 0
     }
   ],
@@ -231,16 +215,17 @@
     "height": 221,
     "spacing": [
       2,
-      2,
-      2,
-      2
+      1,
+      1,
+      1
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "column",
+    "marginLeft": 48,
     "renderTo": "container-7028",
-    "spacingBottom": 12
+    "spacingBottom": 11
   },
   "title": {
     "style": {
@@ -284,6 +269,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "offset": -10,
     "max": 800000,
     "tickAmount": 5
   },
@@ -301,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "enabled": true,

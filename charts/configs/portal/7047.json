@@ -5,70 +5,70 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.287
+          0.283
         ],
         [
           "Chemie, Pharma",
-          0.361
+          0.349
         ],
         [
           "Baugewerbe",
-          0.248
+          0.242
         ],
         [
           "Handel, Reparatur",
-          0.225
+          0.215
         ],
         [
           "Verkehr, Lagerei",
-          0.105
+          0.103
         ],
         [
           "Gastgewerbe",
-          0.105
+          0.096
         ],
         [
           "Information, Kommunikation",
-          0.27
+          0.283
         ],
         [
           "Finanz-, Versicherungs-DL",
-          0.094
+          0.089
         ],
         [
           "Beratung, Planung, Forschung, Immobilien",
-          0.24
+          0.254
         ],
         [
           "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.25
+          0.27
         ],
         [
           "Personalvermittlung, -überlassung",
-          0.271
+          0.266
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.086
+          0.092
         ],
         [
           "Erziehung, Unterricht",
-          0.059
+          0.053
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.114
+          0.115
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.074
+          0.076
         ],
         [
           "Total",
           0.187
         ]
       ],
-      "name": "2016",
+      "name": "2017",
       "turboThreshold": 0
     },
     {
@@ -76,86 +76,15 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          0.28
+          0.249
         ],
         [
           "Chemie, Pharma",
-          0.347
+          0.32
         ],
         [
           "Baugewerbe",
-          0.22
-        ],
-        [
-          "Handel, Reparatur",
-          0.21
-        ],
-        [
-          "Verkehr, Lagerei",
-          0.099
-        ],
-        [
-          "Gastgewerbe",
-          0.097
-        ],
-        [
-          "Information, Kommunikation",
-          0.289
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.079
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.268
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          0.278
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          0.309
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          0.087
-        ],
-        [
-          "Erziehung, Unterricht",
-          0.051
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          0.116
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          0.074
-        ],
-        [
-          "Total",
-          0.188
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#007A2F",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
-          0.244
-        ],
-        [
-          "Chemie, Pharma",
-          0.317
-        ],
-        [
-          "Baugewerbe",
-          0.204
+          0.207
         ],
         [
           "Handel, Reparatur",
@@ -163,35 +92,35 @@
         ],
         [
           "Verkehr, Lagerei",
-          0.094
+          0.095
         ],
         [
           "Gastgewerbe",
-          0.086
+          0.083
         ],
         [
           "Information, Kommunikation",
-          0.293
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          0.074
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          0.271
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
           0.29
         ],
         [
+          "Finanz-, Versicherungs-DL",
+          0.077
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.262
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.284
+        ],
+        [
           "Personalvermittlung, -überlassung",
-          0.296
+          0.284
         ],
         [
           "Öffentliche Verwaltung, Sozialversicherungen",
-          0.088
+          0.09
         ],
         [
           "Erziehung, Unterricht",
@@ -199,18 +128,89 @@
         ],
         [
           "Gesundheits-, Sozialwesen",
-          0.114
+          0.11
         ],
         [
           "Kultur, Unterhaltung, pers. DL",
-          0.071
+          0.07
         ],
         [
           "Total",
-          0.179
+          0.178
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.248
+        ],
+        [
+          "Chemie, Pharma",
+          0.316
+        ],
+        [
+          "Baugewerbe",
+          0.205
+        ],
+        [
+          "Handel, Reparatur",
+          0.18
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.093
+        ],
+        [
+          "Gastgewerbe",
+          0.081
+        ],
+        [
+          "Information, Kommunikation",
+          0.305
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.076
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.27
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.304
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.286
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.092
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.042
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.108
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.068
+        ],
+        [
+          "Total",
+          0.178
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -384,7 +384,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "padding": 0,

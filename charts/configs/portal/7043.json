@@ -4,19 +4,11 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2005",
-          10094
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           10619
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -42,6 +34,10 @@
         [
           "2016",
           9910
+        ],
+        [
+          "2017",
+          9439
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -51,19 +47,11 @@
       "color": "#FF8028",
       "data": [
         [
-          "2005",
-          14891
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           15348
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -89,6 +77,10 @@
         [
           "2016",
           19008
+        ],
+        [
+          "2017",
+          19597
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -98,19 +90,11 @@
       "color": "#DC440E",
       "data": [
         [
-          "2005",
-          4099
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           4580
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -136,6 +120,10 @@
         [
           "2016",
           5749
+        ],
+        [
+          "2017",
+          5766
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -145,19 +133,11 @@
       "color": "#B00000",
       "data": [
         [
-          "2005",
-          4661
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           5837
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -183,6 +163,10 @@
         [
           "2016",
           6254
+        ],
+        [
+          "2017",
+          6419
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -301,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "enabled": true,

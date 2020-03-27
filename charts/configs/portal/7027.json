@@ -4,19 +4,11 @@
       "color": "#D7E8D2",
       "data": [
         [
-          "2005",
-          13263
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           13323
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -42,6 +34,10 @@
         [
           "2016",
           12138
+        ],
+        [
+          "2017",
+          12009
         ]
       ],
       "name": "Handel, Reparatur",
@@ -51,19 +47,11 @@
       "color": "#8A8A8A",
       "data": [
         [
-          "2005",
-          11949
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           11967
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -89,6 +77,10 @@
         [
           "2016",
           9420
+        ],
+        [
+          "2017",
+          9117
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -98,19 +90,11 @@
       "color": "#007A2F",
       "data": [
         [
-          "2005",
-          6197
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           6338
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -136,6 +120,10 @@
         [
           "2016",
           7190
+        ],
+        [
+          "2017",
+          7253
         ]
       ],
       "name": "Gastgewerbe",
@@ -145,19 +133,11 @@
       "color": "#0A3B19",
       "data": [
         [
-          "2005",
-          4044
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2008",
           4212
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -183,6 +163,10 @@
         [
           "2016",
           3952
+        ],
+        [
+          "2017",
+          3894
         ]
       ],
       "name": "Information, Kommunikation",
@@ -301,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
   },
   "legend": {
     "enabled": true,
