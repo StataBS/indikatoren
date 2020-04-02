@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#6F6F6F",
       "legendIndex": 1,
       "dashStyle": "ShortDash",
       "data": [
@@ -97,7 +97,7 @@
       "name": "Bern global"
     },
     {
-      "color": "#4f81bd",
+      "color": "#2B0099",
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
@@ -145,7 +145,7 @@
       "name": "Genf global"
     },
     {
-      "color": "#2B0099",
+      "color": "#B00000",
       "legendIndex": 7,
       "dashStyle": "ShortDash",
       "data": [
@@ -193,7 +193,7 @@
       "name": "Zürich global"
     },
     {
-      "color": "#E64900",
+      "color": "#C8C8C8",
       "visible": true,
       "legendIndex": 2,
       "marker": {
@@ -244,7 +244,7 @@
       "name": "Basel kontinental"
     },
     {
-      "color": "#68AB2B",
+      "color": "#73B97C",
       "legendIndex": 4,
       "marker": {
         "enabled": false
@@ -344,7 +344,7 @@
       "name": "Genf kontinental"
     },
     {
-      "color": "#B375AB",
+      "color": "#FF8028",
       "legendIndex": 8,
       "marker": {
         "enabled": false
@@ -448,7 +448,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stadt Basel im nationalen Vergleich",
+    "text": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
     "align": "left"
   },
   "tooltip": {
@@ -505,7 +505,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

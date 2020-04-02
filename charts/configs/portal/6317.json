@@ -5,99 +5,103 @@
       "data": [
         [
           1994,
-          13.80048
+          13.8
         ],
         [
           1995,
-          13.91751
+          13.92
         ],
         [
           1996,
-          13.68646
+          13.69
         ],
         [
           1997,
-          13.62674
+          13.63
         ],
         [
           1998,
-          13.60893
+          13.61
         ],
         [
           1999,
-          13.71587
+          13.72
         ],
         [
           2000,
-          13.79591
+          13.8
         ],
         [
           2001,
-          13.8645
+          13.86
         ],
         [
           2002,
-          13.86005
+          13.86
         ],
         [
           2003,
-          14.02129
+          14.02
         ],
         [
           2004,
-          14.16306
+          14.16
         ],
         [
           2005,
-          14.06938
+          14.07
         ],
         [
           2006,
-          13.93354
+          13.93
         ],
         [
           2007,
-          14.0182
+          14.02
         ],
         [
           2008,
-          13.97718
+          13.98
         ],
         [
           2009,
-          13.95817
+          13.96
         ],
         [
           2010,
-          14.29422
+          14.29
         ],
         [
           2011,
-          14.30248
+          14.3
         ],
         [
           2012,
-          14.54477
+          14.54
         ],
         [
           2013,
-          14.47147
+          14.47
         ],
         [
           2014,
-          14.58597
+          14.59
         ],
         [
           2015,
-          14.72809
+          14.73
         ],
         [
           2016,
-          14.7222
+          14.72
         ],
         [
           2017,
-          14.83439
+          14.83
+        ],
+        [
+          2018,
+          14.93
         ]
       ],
       "name": "Mittlere Grundwassertemperatur"
@@ -193,10 +197,37 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickPositioner": function() {
+      var positions = [],
+      ext = this.getExtremes(),
+      xMax = Math.round(ext.max),
+      xMin = Math.round(ext.min)+1;
+      var xMin_even=Math.round(ext.min);
+      
+  
+      if(xMax % 2 == 1) {
+  
+      for (var i = xMin; i < xMax; i++) {
+        if (i % 2 == 1) {
+          positions.push(i);
+        }
+      }
+      positions.push(xMax);
+      return positions;
+    } else if (xMax % 2 == 0){
+      for (var i = xMin_even; i < xMax; i++) {
+        if (i % 2 == 0) {
+          positions.push(i);
+        }
+      }
+      positions.push(xMax);
+      return positions;
+    }
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -212,7 +243,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": false,

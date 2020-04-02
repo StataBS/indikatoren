@@ -1,44 +1,167 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#fabd24",
+      "yAxis": 0,
+      "index": 2,
+      "legendIndex": 2,
+      "tooltip": {
+        "shared": false,
+        "pointFormatter": function () {
+              return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+            }
+      },
       "data": [
         [
-          2002,
+          "2002",
           0.792556742323097
         ],
         [
-          2004,
+          "2004",
           0.799902072792558
         ],
         [
-          2006,
+          "2006",
           0.812689303363622
         ],
         [
-          2008,
+          "2008",
           0.815384615384615
         ],
         [
-          2010,
+          "2010",
           0.8228631833283
         ],
         [
-          2012,
+          "2012",
           0.827756764620308
         ],
         [
-          2014,
+          "2014",
           0.855968286595214
         ],
         [
-          2016,
+          "2016",
           0.864193925233645
         ]
       ],
-      "name": "Verhältnis der Löhne von Frauen und Männern (rechte Achse)"
+      "name": "Verhältnis der Löhne von Frauen und Männern (rechte Achse)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "type": "column",
+      "yAxis": 1,
+      "index": 1,
+      "legendIndex": 0,
+      "tooltip": {
+        "shared": false,
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2002",
+          4749
+        ],
+        [
+          "2004",
+          4901
+        ],
+        [
+          "2006",
+          5098
+        ],
+        [
+          "2008",
+          5300
+        ],
+        [
+          "2010",
+          5449
+        ],
+        [
+          "2012",
+          5690
+        ],
+        [
+          "2014",
+          5830
+        ],
+        [
+          "2016",
+          5918
+        ]
+      ],
+      "name": "Bruttolohn der Frauen in Fr.",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "type": "column",
+      "yAxis": 1,
+      "index": 0,
+      "legendIndex": 1,
+      "tooltip": {
+        "shared": false,
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2002",
+          5992
+        ],
+        [
+          "2004",
+          6127
+        ],
+        [
+          "2006",
+          6273
+        ],
+        [
+          "2008",
+          6500
+        ],
+        [
+          "2010",
+          6622
+        ],
+        [
+          "2012",
+          6874
+        ],
+        [
+          "2014",
+          6811
+        ],
+        [
+          "2016",
+          6848
+        ]
+      ],
+      "name": "Bruttolohn der Männer in Fr.",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "step": 1,
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "endOnTick": false
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -73,8 +196,6 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "spacingTop": 5,
-    "marginRight": 5,
     "renderTo": "container-6300",
     "spacingBottom": 12
   },
@@ -98,43 +219,62 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": 10
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "text": ""
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        },
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        },
+        "x": 5
+      },
+      "min": 0,
+      "opposite": true,
+      "tickInterval": 0.25,
+      "tickAmount": 5,
+      "max": 1
     },
-    "labels": {
-      "y": 3,
-      "style": {
-        "fontSize": 10,
-        "color": "#000000"
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
       },
-      "format": "{value:,.2f}"
+      "labels": {
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + ' Fr.';
+        },
+        "style": {
+          "color": "#000000",
+          "fontSize": "10px"
+        },
+        "x": -5
+      },
+      "min": 0,
+      "tickInterval": 2000,
+      "max": 7500,
+      "tickAmount": 5,
+      "opposite": false
     }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
-  },
+  ],
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -149,25 +289,40 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 5,
     "itemStyle": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "fontWeight": "normal"
     },
-    "padding": 0
+    "padding": 0,
+    "labelFormatter": function () {
+        return this.name.replace("der Löhne von Frauen und Männern", "Löhne Frauen/Männer");
+      }
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
       }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    },
+    "column": {
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
     }
   },
   "exporting": {

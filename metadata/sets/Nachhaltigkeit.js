@@ -1539,36 +1539,43 @@ var indikatorensetData = [
 	{
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.3.06033",
+		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL12",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
+		"unterthema": "Klima",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T17:03:31.3131",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
+		"lesehilfe": "Im Jahr 2018 wurden 31 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_02_00_00_00_412",
-		"parentId": 4300,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"8924"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 6033,
-		"darstellungsart": "Grafik"
+		"data-id": 6033,
+		"chart-id": 6033,
+		"filter": "",
+		"id": 6033
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1741,7 +1748,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T16:46:50.5050",
+		"aktualisierungsdatum": "2020-04-01T17:30:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -1940,20 +1947,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
+		"aktualisierungsdatum": "2020-04-01T17:04:16.1616",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2018 beträgt es fast 191 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die übrigen Kantone verlaufen etwas konstanter.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_601",
-		"parentId": 6124,
-		"children": [],
+		"orderKey": "06_01_00_00_00_601",
+		"parentId": null,
+		"children": [
+			"8934"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"

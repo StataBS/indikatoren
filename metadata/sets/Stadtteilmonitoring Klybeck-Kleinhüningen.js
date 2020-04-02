@@ -1243,13 +1243,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-04-01T17:06:09.099",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 beträgt die Sozialhilfequote im Klybeck 13,7% und in Kleinhüningen 12,6%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (7,3%).",
+		"lesehilfe": "2019 beträgt die Sozialhilfequote im Klybeck 13,6% und in Kleinhüningen 11,4%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (7,0%).",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

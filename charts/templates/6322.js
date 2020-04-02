@@ -20,6 +20,9 @@
   	"type": "category",
     "tickInterval": 1,
       "labels": {
+        style:{
+          fontSize: "9px"
+        },
       	//align: "left",
       	step: 1,
         "rotation": -90,

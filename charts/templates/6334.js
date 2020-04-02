@@ -17,9 +17,9 @@
  "series": [
  	{"color": "#6F6F6F",}, /*dunkelgrau BS*/
  	{"color": "#007a2f",}, /*grün BE*/
-	{"color": "#ff8028",}, /*orange GE*/
+	{"color": "#FABD24",}, /*orange GE*/
 	{"color": "#b00000",}, /*rot Liestal*/
-	{"color": "#256370",}, /*dunkelblau ZH*/
+	{"color": "#a0bec8",}, /*dunkelblau ZH*/
   ],
   "legend": {
     "enabled": true,

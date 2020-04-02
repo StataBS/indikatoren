@@ -8,14 +8,14 @@
 "unterthema":"Luftschadstoffe",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-05T16:07:06.066",
+"aktualisierungsdatum":"2020-04-01T10:24:14.1414",
 "stufe1":"Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"Sowohl die Produktion von CO<sub>2</sub> aus fossilen Brennstoffen wie auch der Pro-Kopf-Verbrauch von CO<sub>2</sub> haben sich seit 2010 stetig verringert.",
-"erlaeuterungen":"Die CO<sub>2</sub> Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub> durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
+"erlaeuterungen":"Die CO<sub>2</sub> -Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Ausstoss durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 "template":"template001_print",
 "darstellungsart":"Grafik",
 "printformat":"small", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6310, 
+"chart-id":6310, 
+"filter":""
 }

@@ -1,62 +1,103 @@
 (function(){
-    return {
-   plotOptions: {
-        series: {
-            pointPadding: 0,
-            borderWidth: 0,
-			//"pointWidth": 40,
- 
-
-        }
-   },
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      "rotation": 0 
-    } 
-  },
-  "yAxis": {
-	//"max": 100,
-    "labels": {
-      "format": "{value:,.0f}"
-    }    
-  },
-  "series": [
-  {"color": "#689199", "visible": true}, /* hellbraun*/
-  {
-    "color": "#B00000", // 
-    "index": 1,
-    "type": "line",
-     "marker": {
-      "enabled": false
+  return {
+    "plotOptions": {
+      series: {
+          pointPadding: 0,
+          borderWidth: 0,
+        
+       }
     },
-    legendIndex: 2,
-  "tooltip": {
-  	"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-   },
-  },
+    "yAxis": {
+      "min": 0,
+      title: {
+          text: null,
+          "color": "#000000",
+          "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+         style:{
+            color: "black",
+         },
+      },
 
-  //{"color": "#83522E", "visible": true} /* dunkelbraun */
-  ],
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    },
+    "xAxis": {
+      type: "category",
+      "labels": {
+        "formatter": function() {
+          return this.value.replace("BS", "<b>BS<br/>");
   },
-   tooltip: {
-    headerFormat: ' ',
-    pointFormat: '<span style="color:{point.color}">\u25CF</span> {point.name}: <b>{point.y:,.0f}</b><br/>',
-    "shared": false
-  },
-  "chart": {      
-    "type": "column",
-    "inverted": false,
-    "spacingTop": 5,
-    width: 665,
-  }
-};
+              "rotation": 0,
+        }
+    },
+    "legend": {
+      "enabled": true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal", 
+      }
+    },
+    "series": [
+      { 
+        "index": 0,
+        "type": "column",
+        borderWidth: 0,
+        legendIndex: 1,
+        color: "#008AC3"
+      },
+      {
+        "legendColor": "#B00000",
+        "color": "#B00000",
+        "index": 1,
+        "type": "line",
+         "marker": {
+          "enabled": false
+        },
+        legendIndex: 2,
+      },
+
+      ],
+      
+      "colors": [
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#689199",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",        
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA", 
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA",
+        "#A8C3CA"
+      ],
+      
+         "chart": {     
+          "type": "column",
+          "inverted": false,
+          "spacingTop": 5,
+          width: 665,
+        }
+      };
+      
 }());
+
+

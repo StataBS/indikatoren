@@ -99,79 +99,79 @@
       "data": [
         [
           1998,
-          null
+          undefined
         ],
         [
           1999,
-          null
+          undefined
         ],
         [
           2000,
-          null
+          undefined
         ],
         [
           2001,
-          null
+          undefined
         ],
         [
           2002,
-          null
+          undefined
         ],
         [
           2003,
-          null
+          undefined
         ],
         [
           2004,
-          null
+          undefined
         ],
         [
           2005,
-          null
+          undefined
         ],
         [
           2006,
-          null
+          undefined
         ],
         [
           2007,
-          null
+          undefined
         ],
         [
           2008,
-          null
+          undefined
         ],
         [
           2009,
-          null
+          undefined
         ],
         [
           2010,
-          null
+          undefined
         ],
         [
           2011,
-          null
+          undefined
         ],
         [
           2012,
-          null
+          undefined
         ],
         [
           2013,
-          null
+          undefined
         ],
         [
           2014,
-          null
+          undefined
         ],
         [
           2015,
-          null
+          undefined
         ],
         [
           2016,
-          null
+          undefined
         ],
         [
           2017,
@@ -294,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": false,

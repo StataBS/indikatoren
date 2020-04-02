@@ -8,14 +8,14 @@
 "unterthema":"Löhne ",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-05T10:09:50.5050",
+"aktualisierungsdatum":"2020-04-01T10:24:14.1414",
 "stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
-"erlaeuterungen":"Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+"erlaeuterungen":"Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 "template":"line001_print",
 "darstellungsart":"Grafik",
 "printformat":"small", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6300, 
+"chart-id":6300, 
+"filter":""
 }

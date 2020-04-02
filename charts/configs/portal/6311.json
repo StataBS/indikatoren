@@ -20,7 +20,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#4f81bd",
+      "color": "#923f8d",
       "data": [
         [
           "2000",
@@ -39,7 +39,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#9A86A6",
+      "color": "#b375ab",
       "data": [
         [
           "2000",
@@ -190,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

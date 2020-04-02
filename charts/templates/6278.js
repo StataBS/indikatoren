@@ -21,50 +21,50 @@
   },
   "series": [
       {
-        "color": "#B00000",
+        "color": "#6F6F6F", /* dunkelgrau */
         legendIndex: 1,
         dashStyle: 'ShortDash'
-      }, /* dunkelrot */
+      }, 
     	{
-    	  "color": "#007A2F",
+    	  "color": "#007A2F", /* dunkelgrün */
       	legendIndex: 3,
       	dashStyle: 'ShortDash'
-    }, /* dunkelgrün */
+    }, 
     	{
-    	  "color": "#4f81bd",
+    	  "color": "#2B0099", /* dunkelblau */
       	legendIndex: 5,
         dashStyle: 'ShortDash'  
-    }, /* dunkelblau */
+    }, 
     	{
-    	  "color": "#2B0099",
+    	  "color": "#B00000", /* dunkelrot */
     	  legendIndex: 7,
     	  dashStyle: 'ShortDash'
-    }, /* dunkelviolett */
-       {"color": "#E64900",
+    }, 
+       {"color": "#C8C8C8", /* hellgrau */
        visible: true,
        legendIndex: 2,
       "marker": {
         "enabled": false
       }    
-    }, /* hellrot */
-    	{"color": "#68AB2B",
+    }, 
+    	{"color": "#73B97C", /* hellgrün */
     	legendIndex: 4,
       "marker": {
         "enabled": false
       }    
-    }, /* hellgrün */
-    	{"color": "#008AC3",
+    }, 
+    	{"color": "#008AC3", /* hellblau */
     	legendIndex: 6,
       "marker": {
         "enabled": false
       }    
-    }, /* hellblau */
-    	{"color": "#B375AB",
+    }, 
+    	{"color": "#FF8028", /* orange */
     	legendIndex: 8,
       "marker": {
         "enabled": false
       }    
-    }, /* hellviolett */
+    },
   ],
   "legend": {
     "enabled": true,

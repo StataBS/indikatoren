@@ -400,7 +400,7 @@ id | visible | visibleInPortal | indikatorenset
 6042 | true | false | Nachhaltigkeit
 6043 | true | false | Nachhaltigkeit
 6044 | true | true | 
-6045 | true | false | Nachhaltigkeit
+6045 | true | true | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
 6048 | true | false | Nachhaltigkeit
@@ -684,7 +684,7 @@ id | visible | visibleInPortal | indikatorenset
 6435 | true | false | Nachhaltigkeit
 6437 | false |  | Legislaturplan
 6438 | true | true | Legislaturplan
-6442 | true | false | Legislaturplan (Print)
+6442 | false |  | Legislaturplan (Print)
 6443 | true | false | Legislaturplan (Print)
 6448 | true | true | Arbeitsmarkt
 6449 | true | true | Arbeitsmarkt

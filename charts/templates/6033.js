@@ -1,14 +1,17 @@
 (function(){
     return {
         "chart": {
-            "type": "column"
+            "type": "column",
+            marginTop: 70,
         },
         "yAxis": {
             showLastLabel: true,
             endOnTick: true,
             tickAmount: 6,
+            
             labels: {
                 format: "{value:,.0f}",
+                y: 2,
             }, 
             opposite: false,
         },
@@ -26,7 +29,7 @@
         }
         ],
         "tooltip": {
-            "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+            "pointFormat": '<span style="color:{series.color}">\u25CF</span> Anzahl Hitzetage: <b>{point.y:,.0f}</b><br/>',
             "shared": false
         },
         data: {

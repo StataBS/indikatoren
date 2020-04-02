@@ -48,7 +48,7 @@
       color: "#B00000", /* dunkelrot */
       linkedTo: '0',
         marker: {
-          enabled: true,
+          enabled: false,
         }    
     }, 
     { 
@@ -56,7 +56,7 @@
 	    showInLegend: false,
 	    linkedTo: '1',
       marker: {
-        enabled: true,
+        enabled: false,
       }    
     }, 
     { 
@@ -64,7 +64,7 @@
 	    showInLegend: false,
 	    linkedTo: '2',
         marker: {
-        enabled: true,
+        enabled: false,
       }    
     }, 
   	{ 
@@ -72,14 +72,14 @@
 	    showInLegend: false,
 	    linkedTo: '3',
       marker: {
-        enabled: true,
+        enabled: false,
       }    
     }, 
     { 
       color: "#7F5F1A", /* dunkelbraun */
       linkedTo: '4',
       marker: {
-        enabled: true,
+        enabled: false,
       }    
     }, 
   	{ 
@@ -87,7 +87,7 @@
 	    showInLegend: false,
 	    linkedTo: '5',
       marker: {
-        enabled: true, 
+        enabled: false, 
       }    
     }, 
   	{ 
@@ -95,7 +95,7 @@
 	    showInLegend: false,
 	    linkedTo: '6',
       marker: {
-        enabled: true, 
+        enabled: false, 
       }    
     }, 
   ],

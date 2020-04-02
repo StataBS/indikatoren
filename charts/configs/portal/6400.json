@@ -4,47 +4,47 @@
       "data": [
         [
           "Spanien",
-          3844
+          3927
         ],
         [
           "Portugal",
-          3469
+          3421
         ],
         [
           "Frankreich",
-          2210
+          2299
         ],
         [
           "Vereinigtes Königreich",
-          2198
+          2170
         ],
         [
           "Österreich",
-          1216
+          1241
         ],
         [
           "Niederlande",
-          792
+          770
         ],
         [
           "Griechenland",
-          537
-        ],
-        [
-          "Irland",
-          345
+          589
         ],
         [
           "Schweden",
-          315
+          326
+        ],
+        [
+          "Irland",
+          321
         ],
         [
           "Belgien",
-          298
+          309
         ],
         [
           "Übrige",
-          620
+          610
         ]
       ],
       "name": "Anzahl",
@@ -118,7 +118,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "layout": "vertical",

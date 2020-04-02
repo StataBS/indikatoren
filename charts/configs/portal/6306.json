@@ -1,196 +1,238 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
+      "color": "#ff8028",
       "data": [
         [
-          2010,
+          "2010",
           100
         ],
         [
-          2011,
+          "2011",
           99.2
         ],
         [
-          2012,
+          "2012",
           98.2
         ],
         [
-          2013,
+          "2013",
           98.5
         ],
         [
-          2014,
+          "2014",
           98.2
         ],
         [
-          2015,
+          "2015",
           97.1
         ],
         [
-          2016,
+          "2016",
           97.2
         ],
         [
-          2017,
+          "2017",
           95.2
+        ],
+        [
+          "2018",
+          93.9
         ]
       ],
-      "name": "MIV Stadtstrassennetz"
+      "name": "MIV Stadtstrassennetz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "2010",
+          100
+        ],
+        [
+          "2011",
+          100.5
+        ],
+        [
+          "2012",
+          99.5
+        ],
+        [
+          "2013",
+          100.7
+        ],
+        [
+          "2014",
+          101.1
+        ],
+        [
+          "2015",
+          100.9
+        ],
+        [
+          "2016",
+          101.4
+        ],
+        [
+          "2017",
+          100.2
+        ],
+        [
+          "2018",
+          99
+        ]
+      ],
+      "name": "MIV Total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "data": [
+        [
+          "2010",
+          100
+        ],
+        [
+          "2011",
+          102.5897
+        ],
+        [
+          "2012",
+          104.2585
+        ],
+        [
+          "2013",
+          104.7428
+        ],
+        [
+          "2014",
+          106.158
+        ],
+        [
+          "2015",
+          109.5414
+        ],
+        [
+          "2016",
+          108.7326
+        ],
+        [
+          "2017",
+          107.515
+        ],
+        [
+          "2018",
+          106.6238
+        ]
+      ],
+      "name": "ÖV",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "data": [
+        [
+          "2010",
+          100
+        ],
+        [
+          "2011",
+          103.1315
+        ],
+        [
+          "2012",
+          103.1315
+        ],
+        [
+          "2013",
+          103.8825
+        ],
+        [
+          "2014",
+          114.699
+        ],
+        [
+          "2015",
+          118.4358
+        ],
+        [
+          "2016",
+          122.9
+        ],
+        [
+          "2017",
+          125.6
+        ],
+        [
+          "2018",
+          128.712
+        ]
+      ],
+      "name": "Velo (wetterbereinigt)",
+      "turboThreshold": 0
     },
     {
       "color": "#672773",
       "data": [
         [
-          2010,
-          100
-        ],
-        [
-          2011,
-          100.5
-        ],
-        [
-          2012,
-          99.5
-        ],
-        [
-          2013,
-          100.7
-        ],
-        [
-          2014,
-          101.1
-        ],
-        [
-          2015,
-          100.9
-        ],
-        [
-          2016,
-          101.4
-        ],
-        [
-          2017,
-          100.2
-        ]
-      ],
-      "name": "MIV Total"
-    },
-    {
-      "color": "#007a2f",
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          102.5897
-        ],
-        [
-          2012,
-          104.2585
-        ],
-        [
-          2013,
-          104.7428
-        ],
-        [
-          2014,
-          106.158
-        ],
-        [
-          2015,
-          109.5414
-        ],
-        [
-          2016,
-          108.7326
-        ],
-        [
-          2017,
-          107.515
-        ]
-      ],
-      "name": "ÖV"
-    },
-    {
-      "color": "#7F5F1A",
-      "data": [
-        [
-          2010,
-          100
-        ],
-        [
-          2011,
-          103.1315
-        ],
-        [
-          2012,
-          103.1315
-        ],
-        [
-          2013,
-          103.8825
-        ],
-        [
-          2014,
-          114.699
-        ],
-        [
-          2015,
-          118.4358
-        ],
-        [
-          2016,
-          122.9
-        ],
-        [
-          2017,
-          125.6
-        ]
-      ],
-      "name": "Velo (wetterbereinigt)"
-    },
-    {
-      "color": "#E6E600",
-      "data": [
-        [
-          2010,
+          "2010",
           null
         ],
         [
-          2011,
+          "2011",
           null
         ],
         [
-          2012,
+          "2012",
           null
         ],
         [
-          2013,
+          "2013",
           100
         ],
         [
-          2014,
+          "2014",
           107
         ],
         [
-          2015,
+          "2015",
           103
         ],
         [
-          2016,
+          "2016",
           102.5
         ],
         [
-          2017,
+          "2017",
           103.7
+        ],
+        [
+          "2018",
+          102.4
         ]
       ],
-      "name": "Fussgänger"
+      "name": "Fussgänger",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -252,7 +294,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 95,
+    "min": 90,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -272,20 +314,6 @@
     },
     "tickInterval": 5
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -300,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-25"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

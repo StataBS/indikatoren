@@ -8,13 +8,13 @@
 "unterthema":"Steuern",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-05T11:12:38.3838",
+"aktualisierungsdatum":"2020-04-01T10:24:11.1111",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2017 betrug deren Ertrag 816,9 Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2017 über 1,8 Mrd. Franken.",
+"lesehilfe":"Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2018 betrug deren Ertrag 748&nbsp;Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2018 fast 1,9&nbsp;Mrd. Franken.",
 "erlaeuterungen":"Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 "template":"line001_print",
 "darstellungsart":"Grafik",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Jahresbericht des Kantons Basel-Stadt"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6289, 
+"chart-id":6289, 
+"filter":""
 }

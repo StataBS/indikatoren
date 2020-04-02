@@ -103,6 +103,10 @@
         [
           2015,
           68247.75622
+        ],
+        [
+          2016,
+          69822.5406
         ]
       ],
       "name": "Mittelwert"
@@ -210,6 +214,10 @@
         [
           2015,
           49142
+        ],
+        [
+          2016,
+          49334.5
         ]
       ],
       "name": "Median"
@@ -317,6 +325,10 @@
         [
           2015,
           183184.5627
+        ],
+        [
+          2016,
+          190403.8791
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -424,6 +436,10 @@
         [
           2015,
           6536.396195
+        ],
+        [
+          2016,
+          6419.441661
         ]
       ],
       "name": "Mittelwert unterstes Quintil"
@@ -486,10 +502,10 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -519,11 +535,11 @@
         "textOverflow": null,
         "whiteSpace": "nowrap"
       },
-      "step": 2,
       "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2,
+    "showLastLabel": true
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -539,7 +555,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-14"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,
@@ -558,13 +574,6 @@
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },

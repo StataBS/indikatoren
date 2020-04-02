@@ -1,221 +1,263 @@
 {
   "series": [
     {
-      "color": "#6F6F6F",
+      "color": "#474747",
       "legendIndex": 0,
       "data": [
         [
-          2010,
+          "2010",
           446
         ],
         [
-          2011,
+          "2011",
           460
         ],
         [
-          2012,
+          "2012",
           494.5
         ],
         [
-          2013,
+          "2013",
           510
         ],
         [
-          2014,
+          "2014",
           523
         ],
         [
-          2015,
+          "2015",
           543
         ],
         [
-          2016,
+          "2016",
           558.5
         ],
         [
-          2017,
+          "2017",
           580
         ],
         [
-          2018,
+          "2018",
           602.8
+        ],
+        [
+          "2019",
+          620.9
         ]
       ],
-      "name": "Basel-Stadt"
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
     },
     {
-      "color": "#B00000",
+      "color": "#662673",
       "legendIndex": 4,
       "data": [
         [
-          2010,
+          "2010",
           357
         ],
         [
-          2011,
+          "2011",
           378
         ],
         [
-          2012,
+          "2012",
           409
         ],
         [
-          2013,
+          "2013",
           418
         ],
         [
-          2014,
+          "2014",
           431
         ],
         [
-          2015,
+          "2015",
           451
         ],
         [
-          2016,
+          "2016",
           470
         ],
         [
-          2017,
+          "2017",
           496
         ],
         [
-          2018,
+          "2018",
           522.5
+        ],
+        [
+          "2019",
+          539.5
         ]
       ],
-      "name": "Basel-Landschaft"
+      "name": "Basel-Landschaft",
+      "turboThreshold": 0
     },
     {
       "color": "#008AC3",
       "legendIndex": 1,
       "data": [
         [
-          2010,
+          "2010",
           369
         ],
         [
-          2011,
+          "2011",
           390
         ],
         [
-          2012,
+          "2012",
           419
         ],
         [
-          2013,
+          "2013",
           427.1
         ],
         [
-          2014,
+          "2014",
           432.5
         ],
         [
-          2015,
+          "2015",
           457
         ],
         [
-          2016,
+          "2016",
           473
         ],
         [
-          2017,
+          "2017",
           503
         ],
         [
-          2018,
+          "2018",
           515
+        ],
+        [
+          "2019",
+          529
         ]
       ],
-      "name": "Zürich"
+      "name": "Zürich",
+      "turboThreshold": 0
     },
     {
       "color": "#007A2F",
       "legendIndex": 2,
       "data": [
         [
-          2010,
+          "2010",
           453
         ],
         [
-          2011,
+          "2011",
           460
         ],
         [
-          2012,
+          "2012",
           488
         ],
         [
-          2013,
+          "2013",
           499.9
         ],
         [
-          2014,
+          "2014",
           519
         ],
         [
-          2015,
+          "2015",
           538.8
         ],
         [
-          2016,
+          "2016",
           564.3
         ],
         [
-          2017,
+          "2017",
           582
         ],
         [
-          2018,
+          "2018",
           612.6
+        ],
+        [
+          "2019",
+          630.9
         ]
       ],
-      "name": "Genf"
+      "name": "Genf",
+      "turboThreshold": 0
     },
     {
       "color": "#E6E600",
       "legendIndex": 3,
       "data": [
         [
-          2010,
+          "2010",
           406.1
         ],
         [
-          2011,
+          "2011",
           432
         ],
         [
-          2012,
+          "2012",
           468.5
         ],
         [
-          2013,
+          "2013",
           474.9
         ],
         [
-          2014,
+          "2014",
           480.9
         ],
         [
-          2015,
+          "2015",
           492.5
         ],
         [
-          2016,
+          "2016",
           500.5
         ],
         [
-          2017,
+          "2017",
           522.4
         ],
         [
-          2018,
+          "2018",
           541
+        ],
+        [
+          "2019",
+          555.4
         ]
       ],
-      "name": "Bern"
+      "name": "Bern",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -269,7 +311,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken, Basel-Stadt im kantonalen Vergleich",
+    "text": "in Franken, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
     "align": "left"
   },
   "tooltip": {
@@ -294,20 +336,10 @@
         "color": "#000000"
       },
       "format": "{value}"
-    }
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      }
     },
-    "tickLength": 0
+    "max": 640,
+    "tickInterval": 160,
+    "tickAmount": 5
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -323,7 +355,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,
@@ -340,7 +372,7 @@
     },
     "padding": 0,
     "itemWidth": 90,
-    "itemDistance": 10
+    "itemDistance": 0
   },
   "plotOptions": {
     "series": {

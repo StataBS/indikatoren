@@ -1,111 +1,112 @@
 {
   "series": [
     {
-      "name": "undefined",
+      "name": "KWI",
+      "color": "#008AC3",
       "data": [
         [
           "ZG",
           100
         ],
         [
-          "ZH",
-          96.6
-        ],
-        [
           "BS",
-          94.4
+          90.6
         ],
         [
-          "AG",
-          82.1
-        ],
-        [
-          "SZ",
-          77.7
-        ],
-        [
-          "LU",
-          77.4
+          "ZH",
+          90.1
         ],
         [
           "VD",
-          76.3
+          75.2
+        ],
+        [
+          "AG",
+          74.3
         ],
         [
           "NW",
-          73.5
+          72.4
+        ],
+        [
+          "SZ",
+          71.3
+        ],
+        [
+          "LU",
+          71.2
         ],
         [
           "BL",
-          72.1
-        ],
-        [
-          "TG",
-          69.8
+          71.1
         ],
         [
           "GE",
-          69.1
+          69.8
+        ],
+        [
+          "TG",
+          66.7
         ],
         [
           "SH",
-          68.3
-        ],
-        [
-          "SG",
-          66.3
+          66.1
         ],
         [
           "FR",
-          66.2
-        ],
-        [
-          "BE",
-          63
-        ],
-        [
-          "SO",
           62.9
         ],
         [
-          "AR",
-          62.7
+          "SG",
+          62.8
         ],
         [
           "OW",
-          61.5
+          58.6
         ],
         [
-          "TI",
-          57.9
+          "AR",
+          57.3
+        ],
+        [
+          "SO",
+          55.8
         ],
         [
           "NE",
-          57.4
-        ],
-        [
-          "AI",
-          55.7
+          55.5
         ],
         [
           "GL",
-          54.1
+          55.5
+        ],
+        [
+          "TI",
+          54.8
+        ],
+        [
+          "BE",
+          54.3
+        ],
+        [
+          "AI",
+          53.8
         ],
         [
           "UR",
-          50.8
+          47.9
         ],
         [
           "GR",
-          44.8
+          42.3
         ],
         [
           "VS",
-          42.7
+          40
         ],
         [
           "JU",
-          35
+          36.9
         ]
       ],
       "turboThreshold": 0
@@ -126,7 +127,10 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "rotation": -90
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
+      "rotation": 0
     },
     "tickLength": 0
   },
@@ -134,7 +138,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -169,7 +173,7 @@
     "inverted": false,
     "marginTop": 5,
     "renderTo": "container-6283",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -183,9 +187,7 @@
         }
       }
     },
-    "column": {
-      "colorByPoint": true
-    }
+    "column": {}
   },
   "title": {
     "style": {
@@ -203,7 +205,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
+    "text": "Basel-Stadt im kantonalen Vergleich, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -245,9 +247,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG."
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,
@@ -268,34 +270,6 @@
       "fontSize": "10px"
     }
   },
-  "colors": [
-    "#69929B",
-    "#69929B",
-    "#B00000",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B"
-  ],
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

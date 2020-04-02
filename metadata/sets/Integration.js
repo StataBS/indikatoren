@@ -126,29 +126,29 @@ var indikatorensetData = [
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6060",
-		"kuerzelKunde": "A1-5",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"kuerzelKunde": "A1-6",
+		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:43:11.1111",
+		"aktualisierungsdatum": "2020-04-01T16:56:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+		"lesehilfe": "Ende 2019 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_00_00_00_00_106",
 		"parentId": null,
 		"children": [
 			"6645"
@@ -168,9 +168,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6061",
-		"kuerzelKunde": "A1-8",
+		"kuerzelKunde": "A1-9",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -178,22 +178,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:24:02.022",
+		"aktualisierungsdatum": "2020-04-01T16:56:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 8 316 Personen, die Ende 2018 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
+		"lesehilfe": "Von 8 476 Personen, die Ende 2019 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_009",
+		"orderKey": "01_00_00_00_00_109",
 		"parentId": null,
 		"children": [
-			"6646",
-			"7787"
+			"6646"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -711,7 +710,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2018",
+		"subtitle": "in Jahren, 2019",
 		"kuerzel": "I.01.1.6074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -722,22 +721,21 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-11-19T09:10:15.1515",
+		"aktualisierungsdatum": "2020-04-01T16:57:23.2323",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italienische und türkische Staatsbürger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten da sind Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie «Übrige Länder» (4,3) und aus EU-Oststaaten (3,4) .",
+		"lesehilfe": "Italienische und türkische Staatsbürger sind 2019 am längsten in der Schweiz (25,1 bzw. 22,7 Jahre), gefolgt von Personen aus dem Balkan (20,6). Am längsten im Kanton Basel-Stadt sind Türken (17,6 Jahre) vor Personen aus dem Balkan (16,5) und Italienern (11,6). Personen aus EU-Oststaaten sind sowohl am wenigsten lang in der Schweiz (6,5) als auch in Basel-Stadt (3,4).",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_023",
+		"orderKey": "01_00_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"6659",
-			"7800"
+			"6659"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1381,9 +1379,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2018",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2019",
 		"kuerzel": "I.01.1.6399",
-		"kuerzelKunde": "A1-10",
+		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1391,18 +1389,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:50:27.2727",
+		"aktualisierungsdatum": "2020-04-01T16:58:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2018 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2019 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Ausnahmen stellen die Wohnviertel Kleinhüningen und Rosental dar, wo Personen aus dem Balkan bzw. aus der Ländergruppe \"Übrige\" die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_010",
+		"orderKey": "01_00_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"6675"
@@ -1422,9 +1420,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6400",
-		"kuerzelKunde": "A1-6",
+		"kuerzelKunde": "A1-7",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1432,22 +1430,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:23:22.2222",
+		"aktualisierungsdatum": "2020-04-01T16:58:42.4242",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 zählten 15 844 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Ende 2019 zählten 15 983 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_007",
+		"orderKey": "01_00_00_00_00_107",
 		"parentId": null,
 		"children": [
-			"6676",
-			"7817"
+			"6676"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1464,9 +1461,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6401",
-		"kuerzelKunde": "A1-7",
+		"kuerzelKunde": "A1-8",
 		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -1474,22 +1471,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-18T15:23:44.4444",
+		"aktualisierungsdatum": "2020-04-01T16:59:04.044",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 3 153 Personen, die Ende 2018 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
+		"lesehilfe": "Von 4 462 Personen, die Ende 2019 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_008",
+		"orderKey": "01_00_00_00_00_108",
 		"parentId": null,
 		"children": [
-			"6677",
-			"7818"
+			"6677"
 		],
 		"renderLink": [],
 		"quellenangabe": [

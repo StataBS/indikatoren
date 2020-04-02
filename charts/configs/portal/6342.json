@@ -14,7 +14,7 @@
         ],
         [
           "Genf",
-          6824
+          6631
         ],
         [
           "Liestal",
@@ -22,10 +22,10 @@
         ],
         [
           "Zürich",
-          6822
+          6824
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -100,8 +100,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
@@ -120,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr.; 2017",
+    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
     "align": "left"
   },
   "yAxis": {
@@ -162,7 +161,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

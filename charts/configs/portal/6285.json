@@ -78,7 +78,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -91,7 +91,7 @@
     "type": "line",
     "spacingTop": 5,
     "renderTo": "container-6285",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -109,7 +109,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken",
+    "text": "in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -163,9 +163,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt."
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": false,

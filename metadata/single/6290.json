@@ -8,7 +8,7 @@
 "unterthema":"Bevölkerungsbefragung",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2017-03-08T12:11:39.3939",
+"aktualisierungsdatum":"2020-04-01T10:24:11.1111",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
@@ -18,7 +18,7 @@
 "erlaeuterungen":"",
 "template":"befragungen001_print",
 "darstellungsart":"Grafik",
-"printformat":"large", 
+"printformat":"", 
 "visible":true,
 "visibleInPortal":false,
 "orderKey":"02_00_00_00_00_017",
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6290, 
+"chart-id":6290, 
+"filter":""
 }
