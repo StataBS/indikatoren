@@ -1,14 +1,10 @@
 {
   "series": [
     {
-      "color": "#d7e9d2",
+      "color": "#D3E2E4",
       "index": 0,
       "legendIndex": 0,
       "data": [
-        [
-          "2008",
-          460
-        ],
         [
           "2009",
           516
@@ -48,20 +44,20 @@
         [
           "2017",
           491
+        ],
+        [
+          "2018",
+          431
         ]
       ],
       "name": "Bis 3 Monate",
       "turboThreshold": 0
     },
     {
-      "color": "#73ba7c",
+      "color": "#689199",
       "index": 1,
       "legendIndex": 1,
       "data": [
-        [
-          "2008",
-          818
-        ],
         [
           "2009",
           943
@@ -101,20 +97,20 @@
         [
           "2017",
           1051
+        ],
+        [
+          "2018",
+          927
         ]
       ],
       "name": "4 bis 12 Monate",
       "turboThreshold": 0
     },
     {
-      "color": "#44ab2b",
+      "color": "#2F656B",
       "index": 2,
       "legendIndex": 2,
       "data": [
-        [
-          "2008",
-          1273
-        ],
         [
           "2009",
           1235
@@ -154,20 +150,20 @@
         [
           "2017",
           1661
+        ],
+        [
+          "2018",
+          1571
         ]
       ],
       "name": "13 bis 36 Monate",
       "turboThreshold": 0
     },
     {
-      "color": "#007a2f",
+      "color": "#083038",
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          "2008",
-          2158
-        ],
         [
           "2009",
           2078
@@ -207,6 +203,10 @@
         [
           "2017",
           2828
+        ],
+        [
+          "2018",
+          2901
         ]
       ],
       "name": "Über 36 Monate",
@@ -276,7 +276,7 @@
     },
     "renderTo": "container-6329",
     "inverted": false,
-    "spacingBottom": 22
+    "spacingBottom": 32
   },
   "plotOptions": {
     "series": {
@@ -298,7 +298,7 @@
     "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
   },
   "subtitle": {
-    "text": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt"
+    "text": "Basel-Stadt (bis 2015 Stadt Basel)"
   },
   "yAxis": {
     "type": "category",
@@ -348,9 +348,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -35
+      "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003EDepartement für Wirtschaft, Soziales und Umwelt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "navigation": {
     "buttonOptions": {

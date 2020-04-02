@@ -230,9 +230,13 @@
         [
           1483228800000,
           28
+        ],
+        [
+          1514764800000,
+          31
         ]
       ],
-      "name": "Anzahl Hitzetage"
+      "name": "Kantone Basel-Stadt und Basel-Landschaft"
     }
   ],
   "isStock": true,
@@ -261,6 +265,7 @@
                 }
     },
     "type": "column",
+    "marginTop": 70,
     "renderTo": "container-6033"
   },
   "plotOptions": {
@@ -328,7 +333,8 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "y": 2
     },
     "showLastLabel": true,
     "endOnTick": true,
@@ -354,7 +360,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2018-4-3"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "symbolRadius": 0,
@@ -404,7 +410,7 @@
     "dateTimeLabelFormats": {
       "day": "%A, %e. %b. %Y"
     },
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E Anzahl Hitzetage: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {

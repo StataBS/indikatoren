@@ -95,13 +95,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:35.3535",
+		"aktualisierungsdatum": "2020-04-01T16:50:49.4949",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.4 Ausländische Erwerbstätige",
 		"stufe3": "3.4.1 Grenzgänger",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Altersgruppen gab es im 4. Quartal 2019 mehr Grenzgänger als zehn Jahre zuvor. In einigen Gruppen gingen die Zahlen in den letzten Quartalen etwas zurück. Vergleichen mit dem 4. Quartal 2018 fiel der Rückgang mit 6,1% in der Gruppe der Personen im Alter von 25 bis 29 Jahre am stärksten aus.",
+		"lesehilfe": "In den meisten Altersgruppen gab es im 4. Quartal 2019 mehr Grenzgänger als zehn Jahre zuvor. In einigen Gruppen gingen die Zahlen in den letzten Quartalen etwas zurück. Vergleichen mit dem 4. Quartal 2018 fiel der Rückgang mit 6,1% in der Gruppe der Personen im Alter von 25 bis 29 Jahren am stärksten aus.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Das BFS schätzt die Zahl der aktiven Grenzgänger aufgrund Daten verschiedener Quellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -814,13 +814,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:37.3737",
+		"aktualisierungsdatum": "2020-04-01T16:51:53.5353",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.4 Ausländische Erwerbstätige",
 		"stufe3": "3.4.2 Zuwanderung",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den im Jahr 2019 nach Basel-Stadt zugewanderten Erwerbstätigen weisen 43% eine B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) und 7% eine Kurzaufenthaltsbewilligung ab 12 Monaten auf. Der Rest hat eine Aufenthaltsbewilligung für weniger als 12 Monate. Im 1. Quartal 2019 wurden überdurchschnittlich viele Bewilligungen für Kurzaufenthalter bis 4 Monaten erlassen (837).",
+		"lesehilfe": "Von den im Jahr 2019 nach Basel-Stadt zugewanderten Erwerbstätigen weisen 43% eine B-Bewilligung für Aufenthalter (5 Jahre für EU/EFTA-Bürger oder 1 Jahr für Angehörige von Drittstaaten) und 7% eine Kurzaufenthaltsbewilligung ab 12 Monaten auf. Der Rest hat eine Aufenthaltsbewilligung für weniger als 12 Monate. Im 1. Quartal 2019 wurden überdurchschnittlich viele Bewilligungen für Kurzaufenthalter bis 4 Monate erlassen (837).",
 		"erlaeuterungen": "Zuwanderung in die ausländische erwerbstätige Bevölkerung (im Arbeitskanton); ständige und nichtständige ausländische Bevölkerung (Dauer- und Kurzaufenthalter) sind zusammengefasst. In der Grafik sind Quartalswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2583,7 +2583,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T08:37:03.033",
+		"aktualisierungsdatum": "2020-04-01T11:41:44.4444",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -2598,11 +2598,12 @@
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5819"
+			"5819",
+			"6251"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -8173,8 +8174,8 @@
 	},
 	{
 		"title": "Bevölkerungsdichte",
-		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
-		"kuerzel": "I.01.1.05202",
+		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2019",
+		"kuerzel": "I.01.1.5202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
@@ -8183,30 +8184,37 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T16:45:16.1616",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
+		"lesehilfe": "Mit 257,3 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2019 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigen sich in den Wohnvierteln Gundeldingen, Iselin und Clara. Im Vergleich zu 2000 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental; dies aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 2000 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel, Iselin und Am Ring.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
+		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6243"
+			"6243",
+			"8977",
+			"8978"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5202,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5202,
+		"chart-id": 5202,
+		"filter": "",
+		"id": 5202
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -9347,37 +9355,44 @@
 	{
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
-		"kuerzel": "I.02.3.06033",
+		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL12",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
+		"unterthema": "Klima",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T17:03:31.3131",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden 28 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br><b<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30&nbsp;°C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33&#039; N / 7°35&#039; E).",
+		"lesehilfe": "Im Jahr 2018 wurden 31 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
 		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_412",
-		"parentId": 4300,
-		"children": [],
+		"parentId": null,
+		"children": [
+			"8924"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
-		"id": 6033,
-		"darstellungsart": "Grafik"
+		"data-id": 6033,
+		"chart-id": 6033,
+		"filter": "",
+		"id": 6033
 	},
 	{
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
@@ -9474,7 +9489,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T16:46:50.5050",
+		"aktualisierungsdatum": "2020-04-01T17:30:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -9585,6 +9600,48 @@
 		"chart-id": 6044,
 		"filter": "",
 		"id": 6044
+	},
+	{
+		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
+		"kuerzel": "I.04.1.06045",
+		"kuerzelKunde": "WE1",
+		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-01T17:04:16.1616",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Wirtschaftssystem",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2018 beträgt es fast 191 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die übrigen Kantone verlaufen etwas konstanter.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "06_01_00_00_00_601",
+		"parentId": null,
+		"children": [
+			"8934"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6045,
+		"chart-id": 6045,
+		"filter": "",
+		"id": 6045
 	},
 	{
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
@@ -9922,30 +9979,30 @@
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6060",
-		"kuerzelKunde": "A1-5",
-		"description": "Ausländer nach Staatsangehörigkeit",
+		"kuerzelKunde": "A1-6",
+		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:43:11.1111",
+		"aktualisierungsdatum": "2020-04-01T16:56:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
+		"lesehilfe": "Ende 2019 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_005",
+		"orderKey": "01_00_00_00_00_106",
 		"parentId": null,
 		"children": [
 			"6645"
@@ -10435,7 +10492,7 @@
 	},
 	{
 		"title": "Median der Aufenthaltsdauer der Ausländer",
-		"subtitle": "in Jahren, 2018",
+		"subtitle": "in Jahren, 2019",
 		"kuerzel": "I.01.1.6074",
 		"kuerzelKunde": "A3-5",
 		"description": "Median der Aufenthaltsdauer der Ausländer",
@@ -10446,23 +10503,22 @@
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-11-19T09:10:15.1515",
+		"aktualisierungsdatum": "2020-04-01T16:57:23.2323",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Italienische und türkische Staatsbürger sind am längsten in der Schweiz (jeweils 20,7 Jahre), gefolgt von Personen aus dem Balkan (19,0). Personen aus EU-Oststaaten sind am wenigsten lang in der Schweiz (4,4). Ein ähnliches Bild zeigt sich bei der Aufenthaltsdauer im Kanton Basel-Stadt, wobei die Reihenfolge eine leicht andere ist: Am längsten da sind Türken (16,9 Jahre) vor Personen aus dem Balkan (16,4) und Italienern (13,0). Am wenigsten lang in Basel-Stadt sind Personen aus der Kategorie «Übrige Länder» (4,3) und aus EU-Oststaaten (3,4) .",
+		"lesehilfe": "Italienische und türkische Staatsbürger sind 2019 am längsten in der Schweiz (25,1 bzw. 22,7 Jahre), gefolgt von Personen aus dem Balkan (20,6). Am längsten im Kanton Basel-Stadt sind Türken (17,6 Jahre) vor Personen aus dem Balkan (16,5) und Italienern (11,6). Personen aus EU-Oststaaten sind sowohl am wenigsten lang in der Schweiz (6,5) als auch in Basel-Stadt (3,4).",
 		"erlaeuterungen": "Median der Aufenthaltsdauer: Der Median teilt die betrachteten Ausländergruppen in zwei Gruppen. Die eine Hälfte weist eine höhere Aufenthaltsdauer auf als der Median, die andere Hälfte eine niedrigere.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_023",
+		"orderKey": "01_00_00_00_00_305",
 		"parentId": null,
 		"children": [
-			"6659",
-			"7800"
+			"6659"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15067,9 +15123,9 @@
 	},
 	{
 		"title": "Ausländer nach Staatsangehörigkeit",
-		"subtitle": "nach Gemeinde und Wohnviertel, 2018",
+		"subtitle": "nach Gemeinde und Wohnviertel, 2019",
 		"kuerzel": "I.01.1.6399",
-		"kuerzelKunde": "A1-10",
+		"kuerzelKunde": "A1-5",
 		"description": "Ausländer nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -15077,19 +15133,19 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-08-16T09:50:27.2727",
+		"aktualisierungsdatum": "2020-04-01T16:58:21.2121",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2018 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Eine Ausnahme stellt das Wohnviertel Kleinhüningen dar, wo Personen aus dem Balkan die grösste Ausländergruppe stellen.",
+		"lesehilfe": "In fast allen Gemeinden und Wohnvierteln bilden im Jahr 2019 entweder Deutsche oder Personen aus der EU-17 + EFTA die grösste Ausländergruppe. Ausnahmen stellen die Wohnviertel Kleinhüningen und Rosental dar, wo Personen aus dem Balkan bzw. aus der Ländergruppe \"Übrige\" die grösste Ausländergruppe stellen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_010",
+		"orderKey": "01_00_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"6675"
@@ -16995,14 +17051,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:40.4040",
+		"aktualisierungsdatum": "2020-04-01T16:52:30.3030",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Zuwanderung in die Branche Chemie und Pharma 2019 entspricht wie in den Vorjahren etwas über 7% der Beschäftigung in dieser Branche in Basel-Stadt (Quote von 7,3%). Am höchsten ist die Quote in der Sammelbranche Beratung, Planung, Forschung, Immobilien, IT, Personalvermittlung und andere Dienstleistungen mit 8,9% im Jahr 2019. Am geringsten ist die Zuwanderung im Vergleich zur bestehenden Beschäftigung in der Finanz- und Versicherungsbranche sowie in der Öffentlichen Verwaltung und den Sozialversicherungen. Im Total entspricht die Zuwanderung 4,0% der Beschäftigten (Beschäftigungsstand: 2017).",
-		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stelle): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"erlaeuterungen": "Zugewanderte Erwerbstätige mit Aufenthaltsbewilligung in der Schweiz (ständige und nichtständige Wohnbevölkerung), die in Basel-Stadt erwerbstätig sind. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -19081,13 +19137,13 @@
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-04-01T16:53:50.5050",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ergebnisse der LSE nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn bei 6 498 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 655 Franken) und die Schweizer (6 644 Franken), während die Niedergelassenen und die Aufenthalter knapp über 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter ist am tiefsten (5 582 Franken).",
+		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn bei 6 498 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 655 Franken) und die Schweizer (6 644 Franken), während die Niedergelassenen und die Aufenthalter knapp über 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter ist am tiefsten (5 582 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -30302,13 +30358,13 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-04-01T17:06:09.099",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 beträgt die Sozialhilfequote im Klybeck 13,7% und in Kleinhüningen 12,6%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (7,3%).",
+		"lesehilfe": "2019 beträgt die Sozialhilfequote im Klybeck 13,6% und in Kleinhüningen 11,4%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (7,0%).",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

@@ -5,277 +5,345 @@
       "legendIndex": 4,
       "data": [
         [
-          2006,
+          "2006",
           1080
         ],
         [
-          2007,
+          "2007",
           1143
         ],
         [
-          2008,
+          "2008",
           1241
         ],
         [
-          2009,
+          "2009",
           1247
         ],
         [
-          2010,
+          "2010",
           1294
         ],
         [
-          2011,
+          "2011",
           1378
         ],
         [
-          2012,
+          "2012",
           1409
         ],
         [
-          2013,
+          "2013",
           1409
         ],
         [
-          2014,
+          "2014",
           1555
         ],
         [
-          2015,
+          "2015",
           1586
         ],
         [
-          2016,
+          "2016",
           1656
         ],
         [
-          2017,
+          "2017",
           1681
+        ],
+        [
+          "2018",
+          1738
         ]
       ],
-      "name": "Subventionierte Tagesheime"
+      "name": "Subventionierte Tagesheime",
+      "turboThreshold": 0
     },
     {
       "color": "#4f81bd",
       "legendIndex": 2,
       "data": [
         [
-          2006,
+          "2006",
           542
         ],
         [
-          2007,
+          "2007",
           602
         ],
         [
-          2008,
+          "2008",
           662
         ],
         [
-          2009,
+          "2009",
           722
         ],
         [
-          2010,
+          "2010",
           1147
         ],
         [
-          2011,
+          "2011",
           1339
         ],
         [
-          2012,
+          "2012",
           1443
         ],
         [
-          2013,
+          "2013",
           1528
         ],
         [
-          2014,
+          "2014",
           1705
         ],
         [
-          2015,
+          "2015",
           1822
         ],
         [
-          2016,
+          "2016",
           1949
         ],
         [
-          2017,
+          "2017",
           1893
+        ],
+        [
+          "2018",
+          1850
         ]
       ],
-      "name": "Nicht subventionierte Tagesheime"
+      "name": "Nicht subventionierte Tagesheime",
+      "turboThreshold": 0
     },
     {
       "color": "#662673",
       "legendIndex": 1,
       "data": [
         [
-          2006,
+          "2006",
           280
         ],
         [
-          2007,
+          "2007",
           271
         ],
         [
-          2008,
+          "2008",
           262
         ],
         [
-          2009,
+          "2009",
           253
         ],
         [
-          2010,
+          "2010",
           394
         ],
         [
-          2011,
+          "2011",
           393
         ],
         [
-          2012,
+          "2012",
           516
         ],
         [
-          2013,
+          "2013",
           524
         ],
         [
-          2014,
+          "2014",
           501
         ],
         [
-          2015,
+          "2015",
           492
         ],
         [
-          2016,
+          "2016",
           466
         ],
         [
-          2017,
+          "2017",
           456
+        ],
+        [
+          "2018",
+          414
         ]
       ],
-      "name": "Firmen-Tagesheime"
+      "name": "Firmen-Tagesheime",
+      "turboThreshold": 0
     },
     {
       "color": "#FABD24",
       "legendIndex": 3,
       "data": [
         [
-          2006,
+          "2006",
           95
         ],
         [
-          2007,
+          "2007",
           85
         ],
         [
-          2008,
+          "2008",
           74
         ],
         [
-          2009,
+          "2009",
           94
         ],
         [
-          2010,
+          "2010",
           93
         ],
         [
-          2011,
+          "2011",
           102
         ],
         [
-          2012,
+          "2012",
           89
         ],
         [
-          2013,
+          "2013",
           99
         ],
         [
-          2014,
+          "2014",
           98
         ],
         [
-          2015,
+          "2015",
           87
         ],
         [
-          2016,
+          "2016",
           90
         ],
         [
-          2017,
+          "2017",
+          85
+        ],
+        [
+          "2018",
           85
         ]
       ],
-      "name": "Tagesfamilien"
+      "name": "Tagesfamilien",
+      "turboThreshold": 0
     },
     {
       "color": "#3C3C3C",
       "legendIndex": 0,
       "data": [
         [
-          2006,
+          "2006",
           1997
         ],
         [
-          2007,
+          "2007",
           2101
         ],
         [
-          2008,
+          "2008",
           2239
         ],
         [
-          2009,
+          "2009",
           2316
         ],
         [
-          2010,
+          "2010",
           2928
         ],
         [
-          2011,
+          "2011",
           3212
         ],
         [
-          2012,
+          "2012",
           3457
         ],
         [
-          2013,
+          "2013",
           3560
         ],
         [
-          2014,
+          "2014",
           3859
         ],
         [
-          2015,
+          "2015",
           3987
         ],
         [
-          2016,
+          "2016",
           4161
         ],
         [
-          2017,
+          "2017",
           4115
+        ],
+        [
+          "2018",
+          4087
         ]
       ],
-      "name": "Total"
+      "name": "Total",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickPositioner": function() {
+      var positions = [],
+      ext = this.getExtremes(),
+      xMax = Math.round(ext.max),
+      xMin = Math.round(ext.min)+1;
+      var xMin_even=Math.round(ext.min);
+      
+  
+      if(xMax % 2 == 1) {
+  
+      for (var i = xMin; i < xMax; i++) {
+        if (i % 2 == 1) {
+          positions.push(i);
+        }
+      }
+      positions.push(xMax);
+      return positions;
+    } else if (xMax % 2 == 0){
+      for (var i = xMin_even; i < xMax; i++) {
+        if (i % 2 == 0) {
+          positions.push(i);
+        }
+      }
+      positions.push(xMax);
+      return positions;
+    }
+    }
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -299,7 +367,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -311,7 +379,7 @@
     },
     "type": "line",
     "renderTo": "container-6338",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -329,7 +397,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -358,20 +426,6 @@
     "tickAmount": 6,
     "max": 5000
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null,
-        "whiteSpace": "nowrap"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 2
-  },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
@@ -384,9 +438,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung."
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

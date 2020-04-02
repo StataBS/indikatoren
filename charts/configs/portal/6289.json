@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#CD9C00",
+      "color": "#B00000",
       "data": [
         [
           2006,
@@ -50,12 +50,16 @@
         [
           2017,
           1808.4
+        ],
+        [
+          2018,
+          1888.9
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
     },
     {
-      "color": "#923F8D",
+      "color": "#4f81bd",
       "data": [
         [
           2006,
@@ -104,6 +108,10 @@
         [
           2017,
           816.9
+        ],
+        [
+          2018,
+          748.1
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -218,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

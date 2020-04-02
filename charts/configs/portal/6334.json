@@ -50,6 +50,10 @@
         [
           2017,
           164520
+        ],
+        [
+          2018,
+          164520
         ]
       ],
       "name": "Basel"
@@ -104,12 +108,16 @@
         [
           2017,
           146744
+        ],
+        [
+          2018,
+          146744
         ]
       ],
       "name": "Bern"
     },
     {
-      "color": "#ff8028",
+      "color": "#FABD24",
       "data": [
         [
           2006,
@@ -157,6 +165,10 @@
         ],
         [
           2017,
+          178506
+        ],
+        [
+          2018,
           178506
         ]
       ],
@@ -212,12 +224,16 @@
         [
           2017,
           138891
+        ],
+        [
+          2018,
+          138891
         ]
       ],
       "name": "Liestal"
     },
     {
-      "color": "#256370",
+      "color": "#a0bec8",
       "data": [
         [
           2006,
@@ -266,6 +282,10 @@
         [
           2017,
           147400
+        ],
+        [
+          2018,
+          147400
         ]
       ],
       "name": "Zürich"
@@ -294,7 +314,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -306,7 +326,7 @@
     },
     "type": "line",
     "renderTo": "container-6334",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -379,9 +399,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung."
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

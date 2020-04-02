@@ -1,7 +1,10 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval":1,
+    type: "category",
+    step: 2, 
+    showLastLabel: true,
+    EndOnTick: true,
     labels: {
       rotation: -45
     }
@@ -20,8 +23,8 @@
   "series": [
     {"color": "#6F6F6F",
     }, /* dunkelgrau */
-    	{"color": "#007A2F",
-    }, /* dunkelgrün */
+    	{"color": "#B00000",
+    }, /* dunkelrot */
     	{"color": "#4f81bd",
     }, /* dunkelblau */
   ],

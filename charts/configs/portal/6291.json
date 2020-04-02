@@ -14,7 +14,7 @@
         ],
         [
           "Genf",
-          2485
+          2302
         ],
         [
           "Liestal",
@@ -22,10 +22,10 @@
         ],
         [
           "Zürich",
-          3891
+          3712
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -52,7 +52,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -87,7 +87,7 @@
     "inverted": false,
     "spacingTop": 5,
     "renderTo": "container-6291",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -100,8 +100,7 @@
           "color": "black"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
@@ -120,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von \u003Cbr\u002F\u003E 100 000 Fr.; Stand: 2016",
+    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
     "align": "left"
   },
   "yAxis": {
@@ -160,9 +159,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung."
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

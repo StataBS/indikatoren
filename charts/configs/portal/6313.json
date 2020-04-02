@@ -14,14 +14,14 @@
         ],
         [
           "2014",
-          37.8
+          37.9
         ],
         [
           "2016",
           38.8
         ]
       ],
-      "name": "Anteil Erneuerbare Energie",
+      "name": "Anteil erneuerbare Energie",
       "turboThreshold": 0
     }
   ],
@@ -104,7 +104,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil erneuerbare Energie am Bruttoenergieverbrauch"
+    "text": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch"
   },
   "subtitle": {
     "style": {
@@ -157,7 +157,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-8-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

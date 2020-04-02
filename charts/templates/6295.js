@@ -8,6 +8,9 @@
 
         }
    },
+   "data":{
+    "switchRowsAndColumns": true
+  },
   "xAxis": {
     "type": "category",
     "labels": {
@@ -16,14 +19,15 @@
   },
   "yAxis": {
 	  "max": 10,
-	  tickAmount: 5,
+	  tickAmount: 6,
     "labels": {
-      "format": "{value:,.1f}%"
+      "format": "{value:,.0f}%"
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
-  {"color": "#83522E", "visible": true} /* dunkelbraun */
+    {"color": "#FABD24", "visible": true}, /* hellbraun1*/
+    {"color": "#CD9C00", "visible": true}, /* hellbraun2*/
+    {"color": "#83522E", "visible": true} /* dunkelbraun */
   ],
   "legend": {
     "enabled": true,

@@ -5,47 +5,47 @@
       "data": [
         [
           2004,
-          0.09216667
+          0.092
         ],
         [
           2005,
-          0.06425
+          0.064
         ],
         [
           2006,
-          0.05583333
+          0.056
         ],
         [
           2007,
-          0.04825
+          0.048
         ],
         [
           2008,
-          0.04116667
+          0.041
         ],
         [
           2009,
-          0.05558333
+          0.056
         ],
         [
           2010,
-          0.04975
+          0.05
         ],
         [
           2011,
-          0.05708333
+          0.057
         ],
         [
           2012,
-          0.04233333
+          0.042
         ],
         [
           2013,
-          0.04258334
+          0.043
         ],
         [
           2014,
-          0.04960791
+          0.05
         ],
         [
           2015,
@@ -58,13 +58,17 @@
         [
           2017,
           0.035
+        ],
+        [
+          2018,
+          0.033
         ]
       ],
-      "name": "AOX"
+      "name": "AOX-Konzentration"
     },
     {
-      "color": "#3C3C3C",
-      "dashStyle": "LongDash",
+      "color": "#8A8A8A",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2004,
@@ -121,9 +125,13 @@
         [
           2017,
           0.08
+        ],
+        [
+          2018,
+          0.08
         ]
       ],
-      "name": "AOX-Grenzwert"
+      "name": "Grenzwert"
     }
   ],
   "chart": {
@@ -235,7 +243,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-24"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

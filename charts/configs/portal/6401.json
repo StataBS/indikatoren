@@ -5,43 +5,43 @@
       "data": [
         [
           "Polen",
-          944
+          1011
         ],
         [
           "Ungarn",
-          841
+          859
         ],
         [
           "Rumänien",
-          681
+          788
         ],
         [
           "Slowakei",
-          589
+          602
         ],
         [
           "Bulgarien",
-          336
-        ],
-        [
-          "Slowenien",
-          250
+          391
         ],
         [
           "Tschechien",
-          238
+          268
+        ],
+        [
+          "Slowenien",
+          247
         ],
         [
           "Litauen",
-          155
+          164
         ],
         [
           "Lettland",
-          82
+          88
         ],
         [
           "Estland",
-          37
+          44
         ]
       ],
       "turboThreshold": 0
@@ -114,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -135,7 +135,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "layout": "vertical",

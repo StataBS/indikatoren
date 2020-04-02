@@ -8,7 +8,9 @@
         }
   },
   "yAxis": {
-   tickAmount: 7,
+   tickAmount: 6,
+   tickInterval: 500,
+   max: 2500,
     "labels": {
       "format": "{value:,.0f}",
        "formatter": function(){
@@ -35,6 +37,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemMarginBottom: 1,
      //width: 350,
      //itemWidth: 175,
      //itemDistance: 0,

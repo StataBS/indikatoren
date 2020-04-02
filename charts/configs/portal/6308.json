@@ -38,6 +38,14 @@
         [
           2016,
           27
+        ],
+        [
+          2017,
+          27
+        ],
+        [
+          2018,
+          26
         ]
       ],
       "name": "Basel"
@@ -80,6 +88,14 @@
         [
           2016,
           36
+        ],
+        [
+          2017,
+          34
+        ],
+        [
+          2018,
+          33
         ]
       ],
       "name": "Genf"
@@ -121,6 +137,14 @@
         ],
         [
           2016,
+          31
+        ],
+        [
+          2017,
+          31
+        ],
+        [
+          2018,
           31
         ]
       ],
@@ -164,6 +188,14 @@
         [
           2016,
           20
+        ],
+        [
+          2017,
+          20
+        ],
+        [
+          2018,
+          20
         ]
       ],
       "name": "Bern"
@@ -192,7 +224,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -204,7 +236,7 @@
     },
     "type": "line",
     "renderTo": "container-6308",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -213,7 +245,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Jährlich durch  Stau generierte Verzögerungszeit"
+    "text": "Jährlich durch Stau generierte Verzögerungszeit"
   },
   "subtitle": {
     "style": {
@@ -222,7 +254,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel im nationalen Vergleich",
+    "text": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
     "align": "left"
   },
   "tooltip": {
@@ -277,9 +309,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: TomTom International."
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

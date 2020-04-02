@@ -6,11 +6,14 @@
     }
   },
   "xAxis": {
-	"tickInterval": 1,
+  "tickInterval": 1,
+  labels:{
+    rotation:0
+  }
   },
   "series": [
     {
-      "color": "#8b2223"
+      "color": "#73BA7C"
     }
   ],
   "tooltip": {
@@ -20,6 +23,7 @@
   chart: {
     spacingTop: 5, 
     marginRight: 5,
+    "type": "column"
   }
 };
 }());

@@ -549,7 +549,7 @@
     },
     "type": "column",
     "width": 665,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -565,7 +565,7 @@
     },
     "inverted": true,
     "renderTo": "container-6292",
-    "spacingBottom": 2
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -585,7 +585,7 @@
     "text": "Höchste abgeschlossene Ausbildung"
   },
   "subtitle": {
-    "text": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 \u003Cbr\u003E«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»"
+    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017"
   },
   "yAxis": {
     "type": "category",
@@ -634,9 +634,9 @@
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "navigation": {
     "buttonOptions": {

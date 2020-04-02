@@ -3,7 +3,7 @@
 "plotOptions": {
     "series": {
        borderWidth: 0,
-      "pointWidth": 30,
+      //"pointWidth": 30,
       "stacking": "normal"
     }
   },

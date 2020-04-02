@@ -920,7 +920,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T08:37:03.033",
+		"aktualisierungsdatum": "2020-04-01T11:41:44.4444",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
@@ -934,11 +934,12 @@ var indikatorensetData = [
 		"orderKey": "04_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5819"
+			"5819",
+			"6251"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
