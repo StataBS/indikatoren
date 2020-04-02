@@ -30,7 +30,11 @@
         ],
         [
           "2017",
-          3836
+          3803
+        ],
+        [
+          "2018",
+          3711
         ]
       ],
       "name": "Schweiz",
@@ -67,6 +71,10 @@
         [
           "2017",
           1413
+        ],
+        [
+          "2018",
+          1375
         ]
       ],
       "name": "Ausland",
@@ -169,7 +177,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -185,7 +194,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,
@@ -205,9 +214,7 @@
       "marker": {
         "enabled": false
       },
-      "pointPadding": 100,
       "borderWidth": 0,
-      "pointWidth": 30,
       "dataLabels": {
         "style": {
           "fontSize": "10px"

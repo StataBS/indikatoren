@@ -14,8 +14,8 @@
 	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
   },
   "series": [
-    {"color": "#CD9C00",}, /* ocker */
-    	{"color": "#923F8D",}, //violett 
+    {"color": "#B00000"}, /* ocker */
+    	{"color": "#4f81bd",}, //violett 
   ],
   "legend": {
     "enabled": true,

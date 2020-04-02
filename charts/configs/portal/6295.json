@@ -1,23 +1,43 @@
 {
   "series": [
     {
+      "color": "#FABD24",
+      "visible": true,
+      "data": [
+        [
+          "2008",
+          1.78415011240352
+        ],
+        [
+          "2012",
+          1.53982784147816
+        ],
+        [
+          "2015",
+          1.66703374865647
+        ]
+      ],
+      "name": "Genferseeregion",
+      "turboThreshold": 0
+    },
+    {
       "color": "#CD9C00",
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.78415011240352
-        ],
-        [
-          "Nordwestschweiz",
+          "2008",
           6.57209231401793
         ],
         [
-          "Zürich",
-          0.773963498792129
+          "2012",
+          7.1634547380111
+        ],
+        [
+          "2015",
+          8.01277028153831
         ]
       ],
-      "name": "2008",
+      "name": "Nordwestschweiz",
       "turboThreshold": 0
     },
     {
@@ -25,19 +45,19 @@
       "visible": true,
       "data": [
         [
-          "Genferseeregion",
-          1.53982784147816
+          "2008",
+          0.773963498792129
         ],
         [
-          "Nordwestschweiz",
-          7.1634547380111
-        ],
-        [
-          "Zürich",
+          "2012",
           1.08005156852695
+        ],
+        [
+          "2015",
+          1.21382630693244
         ]
       ],
-      "name": "2012",
+      "name": "Zürich",
       "turboThreshold": 0
     }
   ],
@@ -64,7 +84,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -97,7 +117,7 @@
     },
     "type": "column",
     "inverted": false,
-    "spacingBottom": 3,
+    "spacingBottom": 13,
     "renderTo": "container-6295"
   },
   "plotOptions": {
@@ -151,10 +171,10 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.1f}%"
+      "format": "{value:,.0f}%"
     },
     "max": 10,
-    "tickAmount": 5
+    "tickAmount": 6
   },
   "navigation": {
     "menuItemStyle": {
@@ -173,9 +193,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS)."
+    "text": "Quelle: Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

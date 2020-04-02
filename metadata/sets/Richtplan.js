@@ -42,8 +42,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bevölkerungsdichte",
-		"subtitle": "Anzahl Einwohner pro Hektar nach Wohnviertel",
-		"kuerzel": "I.01.1.05202",
+		"subtitle": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2019",
+		"kuerzel": "I.01.1.5202",
 		"kuerzelKunde": "ST 4-3",
 		"description": "Bevölkerungsdichte",
 		"thema": "01 Bevölkerung",
@@ -52,29 +52,36 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-01-16T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T16:45:16.1616",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 266,5 Einwohner pro Hektar wies das Matthäusviertel am Jahresende 2017 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten wiesen die Wohnviertel Gundeldingen, Iselin und Clara auf. Im Vergleich zu 1998 am stärksten zugenommen hat die Bevölkerungsdichte im Rosentalviertel aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 1998 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel und Iselin.",
+		"lesehilfe": "Mit 257,3 Einwohnern pro Hektar weist das Wohnviertel Matthäus am Jahresende 2019 die höchste Bevölkerungsdichte auf. Ebenfalls hohe Bevölkerungsdichten zeigen sich in den Wohnvierteln Gundeldingen, Iselin und Clara. Im Vergleich zu 2000 am stärksten zugenommen hat die Bevölkerungsdichte im Wohnviertel Rosental; dies aufgrund der Bebauung des Erlenmattareals. Ebenfalls deutlich höher als noch 2000 sind die Bevölkerungsdichten in den Wohnvierteln Clara, Altstadt Grossbasel, Iselin und Am Ring.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
-		"orderKey": "01_01_00_00_00_003",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"orderKey": "02_04_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6243"
+			"6243",
+			"8977",
+			"8978"
 		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 5202,
-		"darstellungsart": "Karte kontinuierlich"
+		"data-id": 5202,
+		"chart-id": 5202,
+		"filter": "",
+		"id": 5202
 	},
 	{
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
@@ -779,38 +786,42 @@ var indikatorensetData = [
 		"id": 6215
 	},
 	{
-		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an ihrem Wohnort?» <br> Stand: 2015",
+		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
 		"kuerzel": "I.50.1.06216",
-		"kuerzelKunde": "ST 5-3",
-		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort",
+		"kuerzelKunde": "ST 5-3a",
+		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-22T09:27:35.3535",
+		"aktualisierungsdatum": "2020-04-01T17:05:02.022",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 5: Bessere Qualität für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 hatten die befragten Personen die Gelegenheit, 23 Punkte, die für den Wohnort wichtig sind, zu bewerten. Am zufriedensten sind sie mit der generellen Vielfalt der Einkaufsmöglichkeiten in Basel, gefolgt von den öffentlichen Verkehrsmitteln und der Gesundheitsversorgung. Beim Thema Parkplätze gehen die Meinungen auseinander: Der Anteil Zufriedener und der Anteil Unzufriedener halten sich in etwa die Waage.",
-		"erlaeuterungen": "Frage 6 zur Zufriedenheit ist eine Filterfrage und wurde nur den Personen gestellt, die Frage 5 zur Wichtigkeit nicht mit «Keine Angabe» beantwortet haben.",
+		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 2 des Indikators). Am zufriedensten (70,5% «sehr» und 21,7% «eher zufrieden») sind sie 2019 mit dem öffentlichen Verkehr, gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Basel und der Abfallbeseitigung.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_003",
+		"orderKey": "02_05_00_00_00_003",
 		"parentId": 5178,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bevölkerungsbefragung Basel-Stadt 2015, Frage F6"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6216,
+		"chart-id": 6216,
+		"filter": "",
 		"id": 6216
 	},
 	{

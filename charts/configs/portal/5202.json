@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2017",
+      "name": "Bevölkerungsdichte 2019",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6561,95 +6561,95 @@
         }
       },
       "tooltip": {
-        "pointFormatter": function(){
+        "pointFormatter": function () {
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + ' Einwohner pro ha </b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 2) + ' Einwohner pro ha </b><br/>';
 					}
       },
       "data": [
         [
           1,
-          68.6608066150688
+          67.653
         ],
         [
           2,
-          55.6084810979296
+          55.653
         ],
         [
           3,
-          118.279220402794
+          122.021
         ],
         [
           4,
-          129.761708298833
+          131.365
         ],
         [
           5,
-          37.4534890001514
+          39.081
         ],
         [
           6,
-          161.548455623625
+          161.059
         ],
         [
           7,
-          35.6909748170874
+          36.293
         ],
         [
           8,
-          88.4499007049744
+          89.307
         ],
         [
           9,
-          141.572430667547
+          142.681
         ],
         [
           10,
-          154.275952605078
+          154.651
         ],
         [
           11,
-          82.9152855568483
+          82.125
         ],
         [
           12,
-          99.3967859488542
+          97.178
         ],
         [
           13,
-          176.466784078152
+          176.51
         ],
         [
           14,
-          73.1562130852625
+          73.09
         ],
         [
           15,
-          30.0779630684564
+          30.104
         ],
         [
           16,
-          104.205774916023
+          119.025
         ],
         [
           17,
-          266.523802675853
+          257.271
         ],
         [
           18,
-          78.8400026165908
+          78.644
         ],
         [
           19,
-          21.0501412168718
+          20.71
         ],
         [
           20,
-          19.6459479760398
+          19.744
         ],
         [
           30,
-          5.34795608028678
+          5.299
         ]
       ]
     },
@@ -6657,91 +6657,91 @@
       "visible": false,
       "data": [
         [
-          "Altstadt GB",
-          11.0016350367774
+          "Altstadt Grossbasel",
+          11.3993
         ],
         [
           "Vorstädte",
-          0.842720750437209
+          3.2489
         ],
         [
           "Am Ring",
-          1.36770606386209
+          8.5126
         ],
         [
           "Breite",
-          2.18601260611239
+          5.5962
         ],
         [
           "St. Alban",
-          3.36671889829287
+          5.6593
         ],
         [
           "Gundeldingen",
-          0.0772589457788797
+          4.7557
         ],
         [
           "Bruderholz",
-          0.922676363578567
+          1.6176
         ],
         [
           "Bachletten",
-          -0.470826027706494
+          1.164
         ],
         [
           "Gotthelf",
-          1.10827939345427
+          6.1776
         ],
         [
           "Iselin",
-          5.28323488949673
+          8.9733
         ],
         [
           "St. Johann",
-          0.781214681906064
+          2.4635
         ],
         [
-          "Altstadt KB",
-          2.38003667653507
+          "Altstadt Kleinbasel",
+          2.5817
         ],
         [
           "Clara",
-          13.3084646170595
+          12.9196
         ],
         [
           "Wettstein",
-          2.61933638171465
+          3.5851
         ],
         [
           "Hirzbrunnen",
-          -0.187260826317143
+          0.6005
         ],
         [
           "Rosental",
-          38.2387691385013
+          51.448
         ],
         [
           "Matthäus",
-          -1.34345058371042
+          1.8808
         ],
         [
           "Klybeck",
-          1.70611721720259
+          1.7822
         ],
         [
           "Kleinhüningen",
-          2.8348115633129
+          3.2271
         ],
         [
           "Riehen",
-          0.592067142322527
+          0.8471
         ],
         [
           "Bettingen",
-          0.0493933810941689
+          -0.0314
         ]
       ],
-      "name": "Differenz 2017 zu 1998"
+      "name": "Differenz 2019 zu 2000"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6974,67 +6976,72 @@
     "inverted": false,
     "events": {
       "load": function (e) {
-	            	
-	            	this.credits.element.onclick = function() {};
 
-	                var chart = this;
-	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
-					var choroplethSeries = chart.series[0];
-					var pieSizeSeries = chart.series[1];
-					
+
+					var choroplethSeries = chart.series[1];
+					var pieSizeSeries = chart.series[2];
+
 					//pie diameters in px
-					var maxPieDiameter = 20;
+					var maxPieDiameter = 30;
 
 					var extremeValues = fn.getPointsExtremes(pieSizeSeries.points);
-					
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#7F5F1A' : '#FABD24';
-	                };					
-					
-					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
-						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
-								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
-								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + ' Einwohner pro ha </b><br/>';
-	                            }
-	                        }
-	                    };
+					var color = function (value) {
+						//return '#7F5F1A';
+						return (value >= 0) ? '#7F5F1A' : '#FABD24';
 					};
-					 var pieSizeCatConfig;
+
+					//define chart-specific details
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
+						return {
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
+								return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter);
+								//return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + ((this.v > 0) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Einwohner pro ha</b><br/>';
+								}
+							}
+						};
+					};
+					var pieSizeCatConfig;
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
-	                
-					//pie values in legend
-	                var minValueInLegend = 0.1; 
-	                var maxValueInLegend = 30; 
-	                
-                	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220);
-	                
-	                fn.addLegendCircle(chart, 410, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 430, 245);
-	                fn.addLegendCircle(chart, 410, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),0,"."," "), 430, 270);
 
-					fn.addLegendSquare(chart, 270, 250, 10, '#7F5F1A');
-					fn.addLegendLabel(chart, 'Zunahme', 300, 245);
-					fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
-					fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendLabelbold(chart, 'Bevölkerungsdichte', 265, 300);
-					
+					//pie values in legend
+					var minValueInLegend = 5;
+					var maxValueInLegend = 50;
+                
+					//Add manually drawn legend					
+                	fn.addLegendRectangle(chart, 260, 220, 215, 77, '#fbfbfb', 'pieLegend');
+                	fn.addLegendRectangle(chart, 260, 300, 215, 60, '#fbfbfb');
+
+					fn.addLegendTitle(chart, pieSizeSeries.name, 265, 220, 'pieLegend');
+
+					fn.addLegendCircle(chart, 285, 255, 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendCircle(chart, 285, 280, 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), 305, 245);
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), 305, 270);
+
+					fn.addLegendSquare(chart, 350, 250, 10, '#7F5F1A');
+					fn.addLegendSquare(chart, 350, 275, 10, '#FABD24');
+					fn.addLegendLabel(chart, 'Zunahme', 365, 245);
+					fn.addLegendLabel(chart, 'Abnahme', 365, 270);
+
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300);
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
-	            }
+				}
     },
     "renderTo": "container-5202"
   },
@@ -7055,7 +7062,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Einwohner pro Hektar nach Wohnviertel",
+    "text": "Einwohner pro Hektar, nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7071,7 +7078,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-1-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "colorAxis": {
     "min": 0,
@@ -7085,12 +7092,13 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-					return Highcharts.numberFormat((this.value),0); 
+					return Highcharts.numberFormat((this.value), 0);
 				}
     },
     "marker": {
       "color": "black"
     },
+    "max": 300,
     "minColor": "#eff6e9",
     "maxColor": "#4b7b1f"
   },
@@ -7120,7 +7128,8 @@
         "fontSize": "12px"
       },
       "text": ""
-    }
+    },
+    "y": -7
   },
   "xAxis": {
     "events": {

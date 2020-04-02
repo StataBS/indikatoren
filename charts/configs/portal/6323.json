@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#8b2223",
+      "color": "#73BA7C",
       "data": [
         [
           2009,
@@ -38,9 +38,13 @@
         [
           2017,
           110.1
+        ],
+        [
+          2018,
+          103
         ]
       ],
-      "name": "Straftaten nach StGB"
+      "name": "Anzahl Anzeigen"
     }
   ],
   "chart": {
@@ -76,7 +80,7 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "line",
+    "type": "column",
     "spacingTop": 5,
     "marginRight": 5,
     "renderTo": "container-6323",
@@ -89,7 +93,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Straftaten nach StGB pro 1000 Einwohner"
+    "text": "Angezeigte Straftaten betreffend Strafgesetzbuch"
   },
   "subtitle": {
     "style": {
@@ -98,7 +102,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt",
+    "text": "pro 1000 Einwohner, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -134,7 +138,8 @@
         "color": "#000000",
         "textOverflow": null,
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -153,7 +158,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP);\u003Cbr\u002F\u003EPolizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": false,

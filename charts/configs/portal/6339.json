@@ -74,6 +74,10 @@
         [
           2017,
           2.9
+        ],
+        [
+          2018,
+          2.5
         ]
       ],
       "name": "Nettoschuldenquote"
@@ -153,6 +157,10 @@
         [
           2017,
           9643
+        ],
+        [
+          2018,
+          8636
         ]
       ],
       "name": "Nettoschulden pro Kopf (rechte Skala)"
@@ -211,7 +219,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Nettoschuldenquote Basel-Stadt in Promille des BIP der Schweiz und Nettoschulden Basel-Stadt pro Kopf in Franken",
+    "text": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -228,6 +236,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": "",
       "tickAmount": 5
     },
@@ -247,6 +256,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "tickAmount": 5,
       "opposite": true
@@ -280,7 +290,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

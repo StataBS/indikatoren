@@ -8,14 +8,14 @@
 "unterthema":"Bevölkerungsbefragung",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2016-12-14T12:19:48.4848",
+"aktualisierungsdatum":"2020-04-01T10:24:16.1616",
 "stufe1":"Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
 "lesehilfe":"96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-"erlaeuterungen":"Für die Zufriedenheit werden die Antwortkategorien \"Sehr zufrieden\" und \"Eher zufrieden\" zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+"erlaeuterungen":"Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 "template":"template001_print",
 "darstellungsart":"Grafik",
 "printformat":"large", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6276, 
+"chart-id":6276, 
+"filter":""
 }

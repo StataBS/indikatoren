@@ -8,9 +8,10 @@
             //endOnTick: true,    
             //startOnTick: true,
             //showFirstLabel: true,
-            //showLastLabel: true,
+            
             tickInterval: 5 * 12 * 30 * 24 * 3600 * 1000,
             min: Date.UTC(1967, 12, 30),
+            showLastLabel: true,
             labels: {
                 rotation: -45, 
                 style: {

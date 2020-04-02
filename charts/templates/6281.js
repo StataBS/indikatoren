@@ -38,10 +38,10 @@
   }
   ],
   "xAxis": {
-    "tickInterval": 1,
-    labels: {
-      step: 2,
-    },
+    "tickInterval": 2,
+    //labels: {
+     // step: 2,
+    //},
   },
   "legend": {
     "enabled": true,
@@ -61,7 +61,7 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "15"
+     // "pointWidth": "15"
     },
     {
       "color": "#7d60a0",

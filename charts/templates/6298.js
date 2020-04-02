@@ -26,7 +26,7 @@
     }    
   },
   "series": [
-  {"color": "#CD9C00", "visible": true}, /* hellbraun*/
+  {"color": "#7F5F1A", "visible": true}, /* braun*/
   //{"color": "#83522E", "visible": true} /* dunkelbraun */
   ],
   "legend": {

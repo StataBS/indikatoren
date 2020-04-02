@@ -8,14 +8,14 @@
 "unterthema":"Neugründungen",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-08-17T08:58:32.3232",
+"aktualisierungsdatum":"2020-04-01T10:24:12.1212",
 "stufe1":"Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Im Jahr 2015 wurden in Basel-Stadt 1 146 neue Unternehmen gegründet, 206 weniger als im Jahr 2014. Knapp 30% der neuen Unternehmen wurden 2015 im Bereich der Unternehmensdienstleistungen (freiberufliche, technische und wirtschaftliche Dienstleistungen) gegründet.",
-"erlaeuterungen":"Unter Neugründungen sind Unternehmen gemeint, die effektiv neugegründet wurden. Die Statistik der Neugründungen basiert auf der Grundgesamtheit der Statistik der Unternehmensstruktur (STATENT).",
+"lesehilfe":"Im Jahr 2017 wurden in Basel-Stadt 1 061 neue Unternehmen gegründet, 37 bzw. 3,6% mehr als im Jahr 2016. In den Jahren 2015 und 2016 war die Entwicklung der Anzahl der Neugründungen hingegen rückläufig. Ein Viertel der Neugründungen 2017 fand im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen statt (269).",
+"erlaeuterungen":"Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 "template":"template001_print",
 "darstellungsart":"Grafik",
 "printformat":"small", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6369, 
+"chart-id":6369, 
+"filter":""
 }

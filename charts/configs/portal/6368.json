@@ -43,6 +43,10 @@
         [
           "2017",
           21
+        ],
+        [
+          "2018",
+          27
         ]
       ],
       "name": "Anzahl",
@@ -111,7 +115,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Durch BaselArea unterstützte internationale Ansiedlungen"
+    "text": "Ansiedlungen von Firmen aus dem Ausland"
   },
   "subtitle": {
     "style": {
@@ -120,7 +124,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in BS, BL, JU",
+    "text": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
     "align": "left"
   },
   "tooltip": {
@@ -162,7 +166,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2015-12-17"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": false,

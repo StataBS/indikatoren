@@ -22,7 +22,7 @@
         "text": null
       },
       "labels": {
-        "format": "{value:,.0f}",
+        "format": "{value:,.0f}%",
         "style": {
           color: "#000000", 
           fontSize: '10px', 
@@ -51,7 +51,7 @@
       "yAxis": 0,
     },
     {
-      "color": "#ff8028",
+      "color": "#8A8A8A",
       "yAxis": 1,
     }
   ],

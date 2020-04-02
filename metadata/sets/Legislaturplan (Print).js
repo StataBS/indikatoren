@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"subtitle": "Basel-Stadt im nationalen Vergleich, 2016",
+		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz, 2018",
 		"kuerzel": "I.04.1.06273",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
@@ -12,14 +12,14 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2017-09-26T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "Die reale Wertschöpfung in der Branche Life Sciences ist im Jahr 2018 in allen betrachteten Regionen um mehr als 6% gestiegen, am stärksten im Kanton Genf (+9,5%). In Basel-Stadt war 2018 nur das Wertschöpfungswachstum im Baugewerbe (+7,4%) stärker als im Bereich Life Sciences. In der Herstellung von chemischen Erzeugnissen und in der Branche Handel und Garagengewerbe entwickelte sich die reale Wertschöpfung 2018 in Basel-Stadt rückläufig (-0,7% und -0,8%).",
+		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Damit zeigt sie auch, ob eine Branche erfolgreich ist. Dieser Indikator sagt aber nichts über die Bedeutung einer Branche in einer Region aus.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -30,9 +30,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6273,
+		"chart-id": 6273,
+		"filter": "",
 		"id": 6273
 	},
 	{
@@ -47,7 +51,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-15T10:22:47.4747",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -65,9 +69,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6274,
+		"chart-id": 6274,
+		"filter": "",
 		"id": 6274
 	},
 	{
@@ -82,7 +90,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
@@ -100,9 +108,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6275,
+		"chart-id": 6275,
+		"filter": "",
 		"id": 6275
 	},
 	{
@@ -117,14 +129,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:19:48.4848",
+		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien \"Sehr zufrieden\" und \"Eher zufrieden\" zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -135,14 +147,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6276,
+		"chart-id": 6276,
+		"filter": "",
 		"id": 6276
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"subtitle": "nach Geschlecht",
+		"subtitle": "nach Geschlecht, Basel-Stadt",
 		"kuerzel": "I.15.7.06277",
 		"kuerzelKunde": "3.1b",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -152,14 +168,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-16T13:43:21.2121",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2015 und 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement.",
+		"lesehilfe": "Knaben haben in den letzten 10 Jahren mit Ausnahme von 2012 mehr Mühe, eine Anschlusslösung zu finden, als Mädchen.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule. In die Auswertung fliessen ausserdem Zahlen der Allgemeinen Gewerbeschule, der Berufsfachschule und des Zentrums für Brückenangebote.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -170,14 +186,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6277,
+		"chart-id": 6277,
+		"filter": "",
 		"id": 6277
 	},
 	{
 		"title": "Globale und kontinentale Erreichbarkeit",
-		"subtitle": "Stadt Basel im nationalen Vergleich",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.06278",
 		"kuerzelKunde": "5.1",
 		"description": "Globale und kontinentale Erreichbarkeit",
@@ -187,14 +207,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T09:58:51.5151",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die kontinentale Erreichbarkeit der Stadt Basel und der anderen Schweizer Städten hat sich zwischen 1996 und 2016 verbessert, wobei sie in den letzten Jahren eher unverändert blieb. Die Stadt Zürich bewegt sich auf einem leicht höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
-		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d.h. es wird die Reisezeit und Frequenz herangezogen, die benötigt wird, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
+		"lesehilfe": "Die kontinentale Erreichbarkeit der Städte Basel, Zürich und Genf blieb in den letzten zehn Jahren eher unverändert, während sich diejenige der Stadt Bern seit 2012 verschlechtert hat. Die Stadt Zürich bewegt sich auf einem höheren Niveau als Basel und Genf, die Erreichbarkeit der Stadt Bern liegt etwas darunter. Die Entwicklung bei der globalen Erreichbarkeit verläuft bei allen Städten parallel und mit wenig Veränderungen über die Jahre. Basel liegt bei diesem Indikator zusammen mit Genf und Bern unterhalb des Niveaus von Zürich.",
+		"erlaeuterungen": "Bei der Kennzahl handelt es sich um einen indexierten Wert: 100 = Mittel aller einbezogenen Ursprungsregionen im Jahr 2002; globale Erreichbarkeit = Erreichbarkeit von Regionen ausserhalb Europas; kontinentale Erreichbarkeit = Erreichbarkeit aller Regionen Europas. Erreichbarkeit ist kein klares, lineares Konzept. Vielmehr beruht es auf einer Vielzahl von Faktoren, die unter dem Themenbereich Erreichbarkeit subsumiert werden können. Die Erreichbarkeitsmodelle von BAK Economics basieren auf dem Ansatz aktivitätsbasierter Gravitationsindikatoren. Ihnen liegen Strassenerreichbarkeit, Bahnfahr- und Flugpläne zugrunde. Zudem folgen sie dem Konzept der Erreichbarkeit «aus der Region» (outbound accessibility), d. h. es werden Reisezeit und Frequenz herangezogen, die benötigt werden, um aus der Region andere Regionen zu erreichen. Der resultierende Indikator reflektiert das gesamte Potenzial aller Regionen ohne jegliche Limitierung der Reisezeit. Jedoch werden die Reisedestinationen über die Reisezeit und das Bruttoinlandprodukt der Region gewichtet.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -205,15 +225,20 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weiterführende Informationen: <a href = 'https://www.bak-economics.com/en/solutions/regional-analysis/region-international/location-factors/erreichbarkeit/' target = '_blank'>BAK Economics</a> und",
+			"<a href = 'http://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/erreichbarkeit.html' target = '_blank'>Amt für Mobilität</a>"
 		],
+		"data-id": 6278,
+		"chart-id": 6278,
+		"filter": "",
 		"id": 6278
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen;  Stand 2010 bis 2013",
-		"kuerzel": "I.04.1.6279",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
+		"kuerzel": "I.04.1.06279",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
 		"thema": "04 Volkswirtschaft",
@@ -222,14 +247,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-05T15:36:26.2626",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "",
+		"lesehilfe": "In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -240,9 +265,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6279,
+		"chart-id": 6279,
+		"filter": "",
 		"id": 6279
 	},
 	{
@@ -257,34 +286,38 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:14:55.5555",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit rund 50 000 Beziehenden erhalten 2017 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
-		"erlaeuterungen": "PV: Prämienverbilligungen.",
+		"lesehilfe": "Mit 50 986 Beziehenden erhalten 2018 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_001",
 		"parentId": 5066,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6281,
+		"chart-id": 6281,
+		"filter": "",
 		"id": 6281
 	},
 	{
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"subtitle": "nach Kanton",
-		"kuerzel": "I.04.1.6282",
+		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
+		"kuerzel": "I.04.1.06282",
 		"kuerzelKunde": "2.1",
 		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"thema": "04 Volkswirtschaft",
@@ -293,13 +326,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -311,15 +344,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BAK Economics"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6282,
+		"chart-id": 6282,
+		"filter": "",
 		"id": 6282
 	},
 	{
 		"title": "Kantonaler Wettbewerbsindikator (KWI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
-		"kuerzel": "I.04.2.6283",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2019",
+		"kuerzel": "I.04.2.06283",
 		"kuerzelKunde": "1.1",
 		"description": "Kantonaler Wettbewerbsindikator (KWI)",
 		"thema": "04 Volkswirtschaft",
@@ -328,13 +365,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:09.099",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Im Jahr 2019 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator der UBS mit einem Wert von 90,6 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -346,15 +383,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6283,
+		"chart-id": 6283,
+		"filter": "",
 		"id": 6283
 	},
 	{
 		"title": "Kantonales Wettbewerbsprofil",
-		"subtitle": "Basel-Stadt im Vergleich zum Median-Kanton, Stand: 2016",
-		"kuerzel": "I.04.2.6284",
+		"subtitle": "Basel-Stadt im Vergleich zum Mediankanton, 2019",
+		"kuerzel": "I.04.2.06284",
 		"kuerzelKunde": "1.3",
 		"description": "Kantonales Wettbewerbsprofil",
 		"thema": "04 Volkswirtschaft",
@@ -363,14 +404,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteiltdie Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
+		"lesehilfe": "Basel-Stadt liegt im Jahr 2019 in den Bereichen Innovation, Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteilt die Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -381,30 +422,34 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"UBS Switzerland AG"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6284,
+		"chart-id": 6284,
+		"filter": "",
 		"id": 6284
 	},
 	{
 		"title": "Steuereinnahmen aus Quellensteuer",
-		"subtitle": "in Franken",
-		"kuerzel": "I.04.1.6285",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.06285",
 		"kuerzelKunde": "1.4",
 		"description": "Steuereinnahmen aus Quellensteuer",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei über 400 Mio. Franken.",
+		"lesehilfe": "Der Ertrag aus der Quellenbesteuerung steigt seit vielen Jahren kontinuierlich. Zuletzt lag er bei 442 Mio. Franken.",
 		"erlaeuterungen": "Der Ertrag aus der Quellenbesteuerung ist hier gemäss Steuerstatistik Basel-Stadt nach Steuerjahr dargestellt. Er unterscheidet sich vom Ertrag nach Kalenderjahr, wie er im Jahresbericht des Kantons Basel-Stadt dargestellt ist. Enthalten ist auch der Anteil, der an den Bund fliesst.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -416,14 +461,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6285,
+		"chart-id": 6285,
+		"filter": "",
 		"id": 6285
 	},
 	{
 		"title": "NFA-Ressourcenindex",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2018",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich, 2020",
 		"kuerzel": "I.04.1.06286",
 		"kuerzelKunde": "2.6",
 		"description": "NFA-Ressourcenindex",
@@ -433,14 +482,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressoucenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone - d.h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons - im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
+		"lesehilfe": "Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Dieser liegt im Bemessungsjahr 2020, welches auf Daten der Jahre 2014 bis 2016 beruht, im Kanton Basel-Stadt um rund 46% über dem schweizerischen Durchschnitt. Die Werte des Jahres 2020 sind noch provisorisch.",
+		"erlaeuterungen": "Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Der Ressourcenindex soll das Ressourcenpotenzial der Kantone – d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons – im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -451,31 +500,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6286,
+		"chart-id": 6286,
+		"filter": "",
 		"id": 6286
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.04.1.6287",
+		"kuerzel": "I.18.2.06287",
 		"kuerzelKunde": "2.11a",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 80&nbsp;000&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -486,14 +539,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6287,
+		"chart-id": 6287,
+		"filter": "",
 		"id": 6287
 	},
 	{
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06288",
 		"kuerzelKunde": "2.8",
 		"description": "Entwicklung der Staatsausgaben nach Funktion",
@@ -503,14 +560,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -521,9 +578,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6288,
+		"chart-id": 6288,
+		"filter": "",
 		"id": 6288
 	},
 	{
@@ -538,13 +599,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:12:38.3838",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2017 betrug deren Ertrag 816,9 Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2017 über 1,8 Mrd. Franken.",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2018 betrug deren Ertrag 748&nbsp;Mio. Franken. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2018 fast 1,9&nbsp;Mrd. Franken.",
 		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -556,9 +617,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6289,
+		"chart-id": 6289,
+		"filter": "",
 		"id": 6289
 	},
 	{
@@ -573,7 +638,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T12:11:39.3939",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -583,7 +648,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "02_00_00_00_00_017",
 		"parentId": 4860,
 		"children": [],
@@ -591,15 +656,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6290,
+		"chart-id": 6290,
+		"filter": "",
 		"id": 6290
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von <br/> 100 000 Fr.; Stand: 2016",
-		"kuerzel": "I.18.2.6291",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+		"kuerzel": "I.18.2.06291",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"thema": "18 Öffentliche Finanzen",
@@ -608,14 +677,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 6&nbsp;309&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -626,14 +695,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6291,
+		"chart-id": 6291,
+		"filter": "",
 		"id": 6291
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "Nach Geschlecht, Staatsangehörigkeit und Altersklasse, Stand: 2015 <br>«Welches ist Ihre höchste abgeschlossene Schul- und Berufsbildung?»",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017",
 		"kuerzel": "I.50.1.06292",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
@@ -643,14 +716,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "9,2% der Befragten haben einen obligatorischen Schulabschluss. 40,6% aller Befragten absolvierten ein Studium an einer Fachhochschule oder Universität. Ein deutlicher Unterschied zwischen den Geschlechtern ist hier zu beobachten: Bei den Männern liegt der Anteil bei 46,4%, bei den Frauen bei 35,7%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "In der Altersgruppe der der 30- bis 39-Jährigen haben 49,0% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 28,4%.",
+		"erlaeuterungen": "Keine oder obligatorische Schule: keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. 1 Jahr), Sozialjahr, Brückenangebote. DMS, FMS o. ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -659,16 +732,20 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Bevölkerungsbefragung Basel-Stadt 2015, S15A"
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6292,
+		"chart-id": 6292,
+		"filter": "",
 		"id": 6292
 	},
 	{
 		"title": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.06293",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
@@ -678,14 +755,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-16T16:36:29.2929",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt 2017 auf 3,8% gesunken. Die Jugendarbeitslosenquote reduzierte sich 2017 auf 4,2%. Die Arbeitslosenquote der Personen über 50 Jahre lag mit 3,1% wie in den Vorjahren deutlich unterhalb des Durchschnitts.",
-		"erlaeuterungen": "Die Arbeitslosenquote berechnet sich folgendermassen: Registrierte Arbeitslose geteilt durch Erwerbspersonen mal 100.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% 2018 auf 3,2% 2019. Die Arbeitslosenquote der Personen über 50 Jahre lag 2019 unverändert bei 2,5% und damit weiterhin unterhalb der Durchschnittsquote.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Erwerbspersonen mal 100.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -696,44 +773,52 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6293,
+		"chart-id": 6293,
+		"filter": "",
 		"id": 6293
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
+		"title": "Entwicklung der Staatsausgaben für Bildung",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06294",
 		"kuerzelKunde": "3.5",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Bildung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Bildung» lagen 2017 bei 7&nbsp;704 Franken pro Einwohner.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
 		"orderKey": "03_00_00_00_00_006",
-		"parentId": 6131,
+		"parentId": 6138,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6294,
+		"chart-id": 6294,
+		"filter": "",
 		"id": 6294
 	},
 	{
@@ -748,14 +833,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2015 8,0% des Bruttoinlandprodukts aus. Dieser Anteil steigt von Jahr zu Jahr an und ist höher als in den beiden Vergleichsregionen.",
-		"erlaeuterungen": "Revidierte Zahlen zu den Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft für das Jahr 2012. Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die BIP-Daten im 2015 sind provisorische Werte.",
+		"lesehilfe": "In der Nordwestschweiz machen die Aufwendungen für Forschung und Entwicklung in der Privatwirtschaft im Jahr 2017 7,3% des Bruttoinlandprodukts aus. Dieser Anteil ist höher als in den beiden Vergleichsregionen, jedoch tiefer als 2015.",
+		"erlaeuterungen": "Die Grossregion Genferseeregion umfasst die Kantone Waadt, Wallis und Genf. Die Grossregion Nordwestschweiz beinhaltet die Kantone Basel-Stadt, Basel-Landschaft und Aargau. Die Grossregion Zürich entspricht dem Kanton Zürich. BIP = Bruttoinlandprodukt. Die BIP-Daten für 2017 sind provisorische Werte.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -764,11 +849,15 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
+			"Bundesamt für Statistik (BFS), Forschung und Entwicklung (F+E)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6295,
+		"chart-id": 6295,
+		"filter": "",
 		"id": 6295
 	},
 	{
@@ -783,14 +872,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-17T11:05:40.4040",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt waren 2016 knapp 17% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
-		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige (NOGA) in Klammern): Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33), Forschung und Entwicklung (72). Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
+		"lesehilfe": "Insgesamt waren 2017 rund 16% der Beschäftigten (in Vollzeitäquivalenten) in Basel-Stadt in innovativen Branchen tätig, der Grossteil davon in der Industrie.",
+		"erlaeuterungen": "Als innovative Branchen gelten (Code der Allgemeinen Systematik der Wirtschaftszweige NOGA in Klammern): <br><i>im Dienstleistungssektor</i>: Forschung und Entwicklung (72); <i>im Industriesektor</i>: Herstellung von chemischen (20) und pharmazeutischen Produkten (21), Gummi- und Kunststoffwaren (22), elektronischen und optischen Produkten (26), elektrischen Ausrüstungen (27), Maschinenbau (28), sonstiger Fahrzeugbau (30), Herstellung von medizinischen und zahnmedizinischen Apparaten und Materialien (325), Reparatur und Installation von Maschinen und Ausrüstungen (33). <br>Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -801,14 +890,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6296,
+		"chart-id": 6296,
+		"filter": "",
 		"id": 6296
 	},
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06297",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
@@ -818,17 +911,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-05-07T10:15:36.3636",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der 10-Jahresspanne von 2008 bis 2017 nahm die Bevölkerung in Basel-Stadt von 188 556 auf 198 988 Personen zu. Dies entspricht einem Wachstum um 5,0%.",
+		"lesehilfe": "Zwischen dem 31.12.2009 und dem 31.12.2019 nahm die Bevölkerung im Kanton Basel-Stadt von 190 815 auf 200 407 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_001",
 		"parentId": 4132,
 		"children": [],
@@ -836,15 +929,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
 		],
+		"data-id": 6297,
+		"chart-id": 6297,
+		"filter": "",
 		"id": 6297
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "Basel-Stadt, 2016",
-		"kuerzel": "I.01.1.6298",
+		"subtitle": "Basel-Stadt, 2017",
+		"kuerzel": "I.01.1.06298",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"thema": "01 Bevölkerung",
@@ -853,13 +950,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-14T10:11:30.3030",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2016 rund 3 400 Personen im obersten Management.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2017 rund 3 200 Personen im obersten Management.",
 		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -871,14 +968,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6298,
+		"chart-id": 6298,
+		"filter": "",
 		"id": 6298
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
-		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.»",
 		"kuerzel": "I.50.1.06299",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -888,27 +989,31 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-17T16:37:28.2828",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfanden 2015 den multikulturellen Charakter des Kantons Basel-Stadt als eine sehr oder eher grosse Bereicherung für den Kanton.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Mit 50,0% der Befragten stimmen 2019 dieser Aussage deutlich mehr Befragte sehr zu als 2015 (23,6%). Insgesamt 8,9% der Befragten stimmen der Aussage eher oder überhaupt nicht zu.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_005",
 		"parentId": 6146,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6299,
+		"chart-id": 6299,
+		"filter": "",
 		"id": 6299
 	},
 	{
@@ -923,14 +1028,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T10:09:50.5050",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -941,9 +1046,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6300,
+		"chart-id": 6300,
+		"filter": "",
 		"id": 6300
 	},
 	{
@@ -958,14 +1067,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:32:37.3737",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2017 bei den Männern etwa 33%, bei den Frauen rund 21%.",
-		"erlaeuterungen": "Die Ergebnisse basieren auf der Hochrechnung einer Stichprobenerhebung von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2018 bei den Männern etwa 36%, bei den Frauen rund 28%.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -976,9 +1085,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6301,
+		"chart-id": 6301,
+		"filter": "",
 		"id": 6301
 	},
 	{
@@ -993,14 +1106,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T13:54:30.3030",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Einbürgerungsziffer unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 mit 32,4 bei den Männern und mit 36,9 bei den Frauen erreicht. Danach gingen die Einbürgerungsziffern zurück, bis 2011 bei den Männern und bis 2012 bei den Frauen. In den Jahren bis 2015 stiegen die Einbürgerungsziffern in der Tendenz wieder. 2016 wurden mit 9,8 (Männer) und 11,5 (Frauen) die niedrigsten Werte der abgebildeten Jahre registriert. 2017 liessen sich pro 1000 ausländische Männer 16,5 einbürgern, pro 1000 ausländische Frauen 19,4.",
-		"erlaeuterungen": "Die Einbürgerungsziffer wird folgendermassen berechet: Anzahl ordentlich und erleichtert eingebürgerte Ausländer pro 1000 Ausländer der Wohnbevölkerung am Jahresende; jeweils für Männer und Frauen.",
+		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer (EZ) ist während der vergangenen 10 Jahre höher als diejenige der Männer. Die Höchstwerte wurden 2008 erreicht, danach ging sie zurück und lag 2011 noch bei 11,0 (Männer) und 15,3 (Frauen). Seither ist sie tendenziell wieder gestiegen, mit einem kurzzeitigen Unterbruch 2016 (Männer: 9,8; Frauen: 11,5). 2018 lag die EZ bei 13,2 (Männer) und 16,8 (Frauen). Der Ausländeranteil stieg zwischen 2008 und 2018 kontinuierlich um 4,7 Prozentpunkte.",
+		"erlaeuterungen": "Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 ausländische Männer respektive Frauen am Jahresende berechnet. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1011,15 +1124,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6302,
+		"chart-id": 6302,
+		"filter": "",
 		"id": 6302
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.6303",
+		"kuerzel": "I.18.2.06303",
 		"kuerzelKunde": "4.9",
 		"description": "Mittelwert und Median des Reineinkommens",
 		"thema": "18 Öffentliche Finanzen",
@@ -1028,14 +1145,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-14T16:52:46.4646",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten (untersten) Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten (niedrigsten) Reineinkommen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1046,9 +1163,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6303,
+		"chart-id": 6303,
+		"filter": "",
 		"id": 6303
 	},
 	{
@@ -1063,13 +1184,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. Frauen vergeben in allen Jahren häufiger die Note 10 als Männer dies tun.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. Frauen vergeben in allen Jahren häufiger die Note 10 als Männer dies tun.",
 		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
@@ -1081,31 +1202,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6304,
+		"chart-id": 6304,
+		"filter": "",
 		"id": 6304
 	},
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.5.06305",
+		"kuerzel": "I.01.1.06305",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:01:53.5353",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 wiesen Personen aus dem Balkan (31,7), der Türkei (29,8), afrikanischen (26,4) und arabischen Ländern (23,6) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2017 für die Deutschen (7,8). Der Segregationsindex der Schweizer lag im Jahr 2017 bei 17,5.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in eine anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"lesehilfe": "2018 wiesen Personen aus dem Balkan (31,6), der Türkei (29,2), afrikanischen (25,2) und arabischen Ländern (21,7) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2018 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2018 bei 17,0.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -1116,9 +1241,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6305,
+		"chart-id": 6305,
+		"filter": "",
 		"id": 6305
 	},
 	{
@@ -1133,14 +1262,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-25T11:41:34.3434",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2017 um 0,2%, diejenige des Veloverkehrs um 25,6% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2017 bei einem Indexwert von 103,7.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistung für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen, Motorrädern), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und  Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1151,31 +1280,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6306,
+		"chart-id": 6306,
+		"filter": "",
 		"id": 6306
 	},
 	{
-		"title": "Transit durch die Region Basel",
-		"subtitle": "in Brutto-Tonnen nach Verkehrsträger",
+		"title": "Warentransit durch die Schweiz",
+		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
 		"kuerzel": "I.06.4.06307",
 		"kuerzelKunde": "5.3",
-		"description": "Transit durch die Region Basel",
+		"description": "Warentransit durch die Schweiz",
 		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-12T14:00:02.022",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab. Auch der Transit auf  Schienen ist nach einer längeren Wachstumsphase seit 2015 rückläufig.",
-		"erlaeuterungen": "Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen Basel-Mülhausen und Rheinhafen BS/BL. Mit Transit wird die Ware gemeint, welche die Schweiz durchquert. Am jeweiligen Zollamt wird die Ware registriert, welche in die resp. aus der Region transportiert wird. Für die Pipeline wird nur der Eingang angezeigt, da keine Waren aus der Region durch die Pipeline transportiert werden.",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1184,33 +1317,37 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6307,
+		"chart-id": 6307,
+		"filter": "",
 		"id": 6307
 	},
 	{
-		"title": "Jährlich durch  Stau generierte Verzögerungszeit",
-		"subtitle": "Basel im nationalen Vergleich",
+		"title": "Jährlich durch Stau generierte Verzögerungszeit",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
 		"kuerzel": "I.11.6.06308",
 		"kuerzelKunde": "5.4",
-		"description": "Jährlich durch  Stau generierte Verzögerungszeit",
+		"description": "Jährlich durch Stau generierte Verzögerungszeit",
 		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Damit die urbanen Flächen für die der Index berechnet wird international vergleichbar sind, wurden sie von TomTom individuell definiert. Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <br/>-  <a href='https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi10_XS-c_XAhVS46QKHf26CBUQFggoMAA&url=http%3A%2F%2Fwww.congres-atecitsfrance.fr%2Fwp-content%2Fuploads%2F2013%2F12%2FCOHN_com085-Atelier-A7.pdf&usg=AOvVaw2VO2AxK37y7-LebxQcI6el' target='_blank'>TomTom Traffic Index: Toward a Global Measure  </a> <br/> -  <a href='https://www.tomtom.com/en_gb/trafficindex/about' target='_blank'>TomTom Traffic Index: About  </a> <br/>-  TomTom Traffic Index: <a href='https://www.tomtom.com/en_gb/trafficindex/city/basel' target='_blank'>Basel</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/GNV' target='_blank'>Genf</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target='_blank'>Zürich</a>, <a href='https://www.tomtom.com/en_gb/trafficindex/city/bern' target='_blank'>Bern</a>",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2018 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
+		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1221,9 +1358,17 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"TomTom International"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den TomTom Staudaten und der angewandten Methodik sind hier zu finden: <a href = 'https://www.tomtom.com/en_gb/traffic-index/about' target = '_blank'>TomTom Traffic Index</a>.",
+			"Die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/basel' target = '_blank'>Basel</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/GNV' target = '_blank'>Genf</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/ZUR' target = '_blank'>Zürich</a>;",
+			"die Werte für <a href = 'https://www.tomtom.com/en_gb/trafficindex/city/bern' target = '_blank'>Bern</a>."
 		],
+		"data-id": 6308,
+		"chart-id": 6308,
+		"filter": "",
 		"id": 6308
 	},
 	{
@@ -1238,14 +1383,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2016 mit 27,8 resp. 16,1 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und - zusammen mit flüchtigen organischen Verbindungen - von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2018 mit 27,8 resp. 26,9 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1256,9 +1401,14 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
+		"data-id": 6309,
+		"chart-id": 6309,
+		"filter": "",
 		"id": 6309
 	},
 	{
@@ -1273,14 +1423,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:07:06.066",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl die Produktion von CO<sub>2</sub> aus fossilen Brennstoffen wie auch der Pro-Kopf-Verbrauch von CO<sub>2</sub> haben sich seit 2010 stetig verringert.",
-		"erlaeuterungen": "Die CO<sub>2</sub> Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub> durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
+		"erlaeuterungen": "Die CO<sub>2</sub> -Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Ausstoss durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1291,9 +1441,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6310,
+		"chart-id": 6310,
+		"filter": "",
 		"id": 6310
 	},
 	{
@@ -1308,14 +1462,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-24T09:50:51.5151",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen sind, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.&nbsp;B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1326,14 +1480,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6311,
+		"chart-id": 6311,
+		"filter": "",
 		"id": 6311
 	},
 	{
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
-		"subtitle": "in Mio. kWh, Basel-Stadt",
+		"subtitle": "in GWh, Basel-Stadt",
 		"kuerzel": "I.08.1.06312",
 		"kuerzelKunde": "7.1",
 		"description": "Endenergieverbrauch nach Verbrauchergruppe",
@@ -1343,14 +1501,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-15T10:47:41.4141",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 Mio. kWh abgenommen. Der Rückgang verteilt sich in etwa gleichmässig auf die Verbrauchergruppen Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte rund 8,1% weniger Heizgradtage als das Jahr 2010.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 GWh abgenommen. Der Rückgang verteilt sich annähernd gleichmässig auf die Energienutzer Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte bspw. 8,1% weniger Heizgradtage als das Jahr 2010.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übrig gebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1361,30 +1519,34 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
 		],
+		"data-id": 6312,
+		"chart-id": 6312,
+		"filter": "",
 		"id": 6312
 	},
 	{
-		"title": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.08.3.06313",
 		"kuerzelKunde": "7.2",
-		"description": "Anteil erneuerbare Energie am Bruttoenergieverbrauch",
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Erneuerbare",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-17T09:27:17.1717",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,8% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -1396,9 +1558,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6313,
+		"chart-id": 6313,
+		"filter": "",
 		"id": 6313
 	},
 	{
@@ -1413,13 +1579,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:40:49.4949",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2017 von ca. 194 auf 158 kg pro Kopf. Die Recyclingquote liegt wie im Jahr 2000 aktuell bei ca. 42%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2018 von ca. 194 auf 163 kg pro Kopf. Die Recyclingquote liegt aktuell bei ca. 40,1%.",
 		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
@@ -1431,9 +1597,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6314,
+		"chart-id": 6314,
+		"filter": "",
 		"id": 6314
 	},
 	{
@@ -1448,14 +1618,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-24T11:49:46.4646",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2017 0,035 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0.08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1466,9 +1636,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6315,
+		"chart-id": 6315,
+		"filter": "",
 		"id": 6315
 	},
 	{
@@ -1483,14 +1657,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:20:29.2929",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910 740 Tonnen auf 741 614 Tonnen ab. Das entspricht einer Reduktion von 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. &nbsp;Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910&nbsp;740 Tonnen auf 741&nbsp;614 Tonnen ab. Das entspricht einer Reduktion um 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1501,9 +1675,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6316,
+		"chart-id": 6316,
+		"filter": "",
 		"id": 6316
 	},
 	{
@@ -1518,14 +1696,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:39:09.099",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahre 2017 14,8 °C.",
-		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt. Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'>Umweltbericht beider Basel</a>.",
+		"lesehilfe": "Die mittlere Grundwassertemperatur im Kanton Basel-Stadt betrug im Jahr 2018 14,9&nbsp;°C.",
+		"erlaeuterungen": "In Basel-Stadt wird die Grundwassertemperatur an 82 Messstellen kontinuierlich gemessen und daraus der Mittelwert der Jahrestemperatur des Grundwassers ermittelt.<br>Erhöhte Temperaturen des Grundwassers können zu einem vermehrten Auftreten von Mikroorganismen im Wasser führen, was in Gebieten mit Trinkwassernutzung unerwünscht ist. Die Jahresmittelwerte der Grundwassertemperaturen in Basel-Stadt liegen an den gemessenen Messstellen im Bereich von 12-19 °C. Die Grundwassertemperaturen sind gegenüber natürlichen Verhältnissen anthropogen stark erhöht. Dies ist bedingt durch den Wärmeübertrag von Einbauten (Gebäuden) ins Grundwasser, den Wärmeinseleffekt von dicht bebauten Gebieten, Kühlwassernutzungen von Gebäuden wie auch durch klimatische Veränderungen.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1536,9 +1714,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'' target = '_blank'>Umweltbericht beider Basel</a>."
 		],
+		"data-id": 6317,
+		"chart-id": 6317,
+		"filter": "",
 		"id": 6317
 	},
 	{
@@ -1553,14 +1735,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T13:46:03.033",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von 1,31 Mio. im Jahr 2002 auf 0,65 Mio. im Jahr 2017. Bei den Theatern und Museen blieben die Zahlen vergleichsweise konstant.",
-		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entspricht die Zahl für das Jahr 2015 der Saison 2015/2016.",
+		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Kleintheatern und Museen blieben die Zahlen vergleichsweise konstant.",
+		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2018 der Saison 2017/18.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1570,81 +1752,93 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Jeweilige Institutionen",
-			"ProCinema"
+			"Bundesamt für Statistik (BFS), Film- und Kinostatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6318,
+		"chart-id": 6318,
+		"filter": "",
 		"id": 6318
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.6319",
+		"title": "Entwicklung der Staatsausgaben für Kultur und Sport",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.06319",
 		"kuerzelKunde": "8.3",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Kultur und Sport",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:15.1515",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Kultur und Sport» lagen 2017 bei 1&nbsp;532 Franken pro Einwohner.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
 		"orderKey": "08_00_00_00_00_003",
-		"parentId": 6131,
+		"parentId": 6170,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6319,
+		"chart-id": 6319,
+		"filter": "",
 		"id": 6319
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.6320",
+		"title": "Entwicklung der Staatsausgaben für Gesundheit",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.06320",
 		"kuerzelKunde": "9.2",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Gesundheit",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Gesundheit» lagen 2017 bei 2&nbsp;966 Franken pro Einwohner.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
 		"orderKey": "09_00_00_00_00_002",
-		"parentId": 6131,
+		"parentId": 6172,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6320,
+		"chart-id": 6320,
+		"filter": "",
 		"id": 6320
 	},
 	{
@@ -1659,13 +1853,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:37:42.4242",
+		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 erhält mit rund 50 000 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
+		"lesehilfe": "2018 erhält mit 50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
 		"erlaeuterungen": "",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -1675,11 +1869,15 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6321,
+		"chart-id": 6321,
+		"filter": "",
 		"id": 6321
 	},
 	{
@@ -1694,17 +1892,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-20T11:32:29.2929",
+		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 wurden mehr ausserkantonale Patienten (45 278) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (35 502). Von den insgesamt 35 502 Fällen aus dem Stadtkanton können knapp 80% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 88% aus.",
-		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr (A-Fälle). Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
+		"lesehilfe": "Im Jahr 2018 wurden mehr ausserkantonale Patienten (42&nbsp;766) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38&nbsp;351). Von den insgesamt 38&nbsp;351 Fällen aus dem Stadtkanton können knapp 79% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr. Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "09_00_00_00_00_005",
 		"parentId": 6175,
 		"children": [],
@@ -1712,45 +1910,53 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6322,
+		"chart-id": 6322,
+		"filter": "",
 		"id": 6322
 	},
 	{
-		"title": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
-		"subtitle": "Basel-Stadt",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
 		"kuerzel": "I.19.1.06323",
 		"kuerzelKunde": "10.1",
-		"description": "Anzahl Straftaten nach StGB pro 1000 Einwohner",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"thema": "19 Rechtspflege",
 		"unterthema": "Polizei",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T11:39:46.4646",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Straftaten nach Strafgesetzbuch pro 1000 Einwohner beträgt 2017 etwas mehr als 110. Im Jahr 2012 lag der Wert über 140 und damit am höchsten innerhalb des beobachteten Zeitraums.",
-		"erlaeuterungen": "Auf die ständige Wohnbevölkerung am Hauptwohnsitz am Jahresende berechnet. Wohnbevölkerung: Vorjahreszahlen.",
+		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 103,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
 		"orderKey": "10_00_00_00_00_001",
-		"parentId": 6176,
+		"parentId": 4866,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)",
-			"Polizeiliche Kriminalitätsstatistk (PKS)"
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6323,
+		"chart-id": 6323,
+		"filter": "",
 		"id": 6323
 	},
 	{
@@ -1765,14 +1971,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T17:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1999 bis 2012 ist die Anzahl Strassenverkehrsunfälle von knapp 3 000 auf rund 900 Unfälle gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. 2017 zeichnet sich durch einen leichten Rückgang der Unfälle aus.",
-		"erlaeuterungen": "Seit 2017 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3&nbsp;000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. 2018 wurde eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
+		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1783,31 +1989,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6324,
+		"chart-id": 6324,
+		"filter": "",
 		"id": 6324
 	},
 	{
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.14.3.06326",
+		"kuerzel": "I.02.18.06326",
 		"kuerzelKunde": "10.3",
 		"description": "Anzahl Störfälle und Ereignisse",
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Störfälle",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T16:18:31.3131",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten. Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IRFB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: <br><br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br><br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1818,9 +2028,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6326,
+		"chart-id": 6326,
+		"filter": "",
 		"id": 6326
 	},
 	{
@@ -1835,14 +2049,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-18T16:01:08.088",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2017 Familienmietzinsbeiträge. In 14,7% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
-		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge<br>Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "2,3% der baselstädtischen Haushalte erhalten Ende 2018 Familienmietzinsbeiträge. In 15,0% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung.",
+		"erlaeuterungen": "FAMI: Familienmietzinsbeiträge. Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1854,14 +2068,18 @@ var indikatorensetData = [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Basler Informationssystem Sozialleistungen (BISS)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6327,
+		"chart-id": 6327,
+		"filter": "",
 		"id": 6327
 	},
 	{
 		"title": "Sozialhilfequote nach Altersgruppe",
-		"subtitle": "Stadt Basel (bis 2016) resp. Kanton Basel-Stadt",
+		"subtitle": "Basel-Stadt (bis 2016 Stadt Basel)",
 		"kuerzel": "I.13.2.06328",
 		"kuerzelKunde": "11.3",
 		"description": "Sozialhilfequote nach Altersgruppe",
@@ -1871,33 +2089,36 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:48:22.2222",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren. Minderjährige weisen mit 12,7% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 9,8%. Mit 6,0% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 11,9% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,9%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Jahr 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "11_00_00_00_00_003",
 		"parentId": 6182,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt des Kantons Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6328,
+		"chart-id": 6328,
+		"filter": "",
 		"id": 6328
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Stadt Basel (bis 2015) resp. Kanton Basel-Stadt",
+		"subtitle": "Basel-Stadt (bis 2015 Stadt Basel)",
 		"kuerzel": "I.13.2.06329",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -1907,14 +2128,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:49:52.5252",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt 2017 bei 46,9%. 8,1% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
-		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ohne Riehen und Bettingen. Ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
+		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2019 bei 50,7% (2018: 49,8%). 7,2% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -1924,81 +2145,94 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik",
-			"Departement für Wirtschaft, Soziales und Umwelt"
+			"Sozialhilfe Stadt Basel",
+			"Sozialhilfe Riehen"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6329,
+		"chart-id": 6329,
+		"filter": "",
 		"id": 6329
 	},
 	{
-		"title": "Entwicklung der Staatsausgaben nach Funktion",
-		"subtitle": "pro Kopf in Franken",
-		"kuerzel": "I.04.1.6330",
+		"title": "Entwicklung der Staatsausgaben für Soziale Sicherheit",
+		"subtitle": "pro Kopf in Franken, Basel-Stadt",
+		"kuerzel": "I.04.1.06330",
 		"kuerzelKunde": "11.5",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"description": "Entwicklung der Staatsausgaben für Soziale Sicherheit",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössischen Finanzverwaltung (EFV) wegen des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept an, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
+		"lesehilfe": "Die Ausgaben des Staates für die Funktion «Soziale Sicherheit» lagen 2017 bei 4&nbsp;716 Franken pro Einwohner.",
+		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
 		"orderKey": "11_00_00_00_00_005",
-		"parentId": 6131,
+		"parentId": 6184,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6330,
+		"chart-id": 6330,
+		"filter": "",
 		"id": 6330
 	},
 	{
-		"title": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
 		"kuerzel": "I.50.1.06331",
 		"kuerzelKunde": "12.1",
-		"description": "Vertretung der Anliegen der Bevölkerung durch Behörden",
+		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-13T17:10:58.5858",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 fühlten sich 68% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2011 entspricht dies einem Rückgang um 2 Prozentpunkte. In den vorhergehenden Befragungsjahren lag die Zufriedenheit mit der Vertretung durch die Behörden jeweils deutlich unter derjenigen von 2011 und 2015 und die Frage konnte deutlich häufiger nicht beantwortet werden.",
-		"erlaeuterungen": "",
+		"lesehilfe": "2019 fühlten sich 50% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2015 entspricht dies einem Rückgang um 18 Prozentpunkte. Der Anteil der Befragten, die sich gar nicht gut vertreten fühlen, ist hingegen grösser geworden.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. 2003 bis 2015 erfolgte sie jeweils telefonisch.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "12_00_00_00_00_001",
 		"parentId": 4724,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F21a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6331,
+		"chart-id": 6331,
+		"filter": "",
 		"id": 6331
 	},
 	{
@@ -2013,17 +2247,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T11:54:16.1616",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1&nbsp;500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
-		"printformat": "large",
+		"printformat": "",
 		"orderKey": "12_00_00_00_00_002",
 		"parentId": 4859,
 		"children": [],
@@ -2031,31 +2265,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6332,
+		"chart-id": 6332,
+		"filter": "",
 		"id": 6332
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
-		"kuerzel": "I.04.1.6333",
+		"kuerzel": "I.18.2.06333",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"lesehilfe": "Die Werte für Basel-Stadt sind in den letzten Jahren konstant, nachdem die Steuerbelastung zuvor leicht zurückgegangen ist. Zusammen mit Genf liegt Basel an der Spitze der verglichenen Kantonshauptorte.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 400&nbsp;000&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2066,31 +2304,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6333,
+		"chart-id": 6333,
+		"filter": "",
 		"id": 6333
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
 		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
-		"kuerzel": "I.04.1.6334",
+		"kuerzel": "I.18.2.06334",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2018 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 1&nbsp;Mio.&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2101,15 +2343,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Steuerverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6334,
+		"chart-id": 6334,
+		"filter": "",
 		"id": 6334
 	},
 	{
 		"title": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"subtitle": "indexiert (1995 = 100)",
-		"kuerzel": "I.18.1.6335",
+		"kuerzel": "I.18.1.06335",
 		"kuerzelKunde": "2.9",
 		"description": "Kantonales BIP im Vergleich zu den Staatsausgaben",
 		"thema": "18 Öffentliche Finanzen",
@@ -2118,14 +2364,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft.",
+		"lesehilfe": "Das kantonale nominale Bruttoinlandprodukt stieg von 1999 bis 2008 relativ stark, danach war das Wachstum moderat. Die Staatsausgaben in Basel-Stadt erhöhten sich vor allem in den letzten Jahren etwas stärker als das Bruttoinlandprodukt. 2017 allerdings gingen die Staatsausgaben um 8,1% zurück.",
+		"erlaeuterungen": "Indexierte Werte, 1995 = 100. Nominales BIP: Zu laufenden Preisen bewertete Gesamtproduktion von Gütern und Dienstleistungen einer Volkswirtschaft. Quelle: Eidgenössische Finanzverwaltung, Ausgaben nach Funktion.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2137,14 +2383,18 @@ var indikatorensetData = [
 			"BAK Economics",
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6335,
+		"chart-id": 6335,
+		"filter": "",
 		"id": 6335
 	},
 	{
 		"title": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
-		"subtitle": "nach Schultyp",
+		"subtitle": "nach Schultyp, Basel-Stadt",
 		"kuerzel": "I.15.7.06336",
 		"kuerzelKunde": "3.1a",
 		"description": "Schulabgängerinnen und -abgänger ohne Anschlusslösung",
@@ -2154,14 +2404,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendlichen der Abschlussklassen der Sekundarstufe I werden jeweils Ende Schuljahr schriftlich über ihren nächsten Ausbildungsschritt befragt. Die Werte 2015 und 2016 deuten darauf hin, dass die Jugendlichen wieder mehr Mühe haben, eine für sie passende Anschlusslösung zu finden. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allg. Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Die Weiterbildungsschule wurde per Ende Schuljahr 2016/17 aufgelöst.",
+		"lesehilfe": "Bei der Sekundarschule (und davor bei der Weiterbildungsschule) ist die Zahl der Schulabgängerinnen und -abgänger ohne Anschlusslösung konstant tief. Bei den übrigen Schultypen führen die geringe Zahl an Beobachtungen und die damit verbundenen grossen jährlichen Abweichungen zu einem unruhigen Kurvenverlauf.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Allgemeine Gewerbeschule: nur Link zum Beruf und Vorkurse; Berufsfachschule: nur Vorkurse und Vorlehren. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2172,9 +2422,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6336,
+		"chart-id": 6336,
+		"filter": "",
 		"id": 6336
 	},
 	{
@@ -2189,13 +2443,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-19T09:27:39.3939",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit 2011 mit Ausnahme von 2014 rückläufig. Bei Lernenden ohne Schweizer Pass ist in diesem Zeitraum eine leichte Zunahme zu beobachten.",
+		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit einigen Jahren rückläufig. Der Rückgang ist dabei mit Ausnahme von 2018 einzig auf die abnehmende Zahl der Schweizerinnen und Schweizer zurückzuführen.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2207,15 +2461,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6337,
+		"chart-id": 6337,
+		"filter": "",
 		"id": 6337
 	},
 	{
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"subtitle": "",
-		"kuerzel": "I.13.2.6338",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.13.2.06338",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"thema": "13 Soziale Sicherheit",
@@ -2224,14 +2482,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde seit 2016 kontinuierlich ausgebaut. 2016 stehen insgesamt 4 161 Plätze zur Verfügung, davon befinden sich 90 Plätze in Tagesfamilien.",
-		"erlaeuterungen": "Stichwoche im Oktober.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Seit 2016 stagniert die Anzahl angebotener Plätze bei rund 4 100. 2018 stehen insgesamt 4 087 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
+		"erlaeuterungen": "Die Daten werden jeweils in einer Stichwoche im Oktober erhoben.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2242,14 +2500,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6338,
+		"chart-id": 6338,
+		"filter": "",
 		"id": 6338
 	},
 	{
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "Nettoschuldenquote Basel-Stadt in Promille des BIP der Schweiz und Nettoschulden Basel-Stadt pro Kopf in Franken",
+		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
 		"kuerzel": "I.04.1.06339",
 		"kuerzelKunde": "2.7",
 		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
@@ -2259,14 +2521,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:51:44.4444",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote ist seit dem Jahr 2000 ebenso wie die Nettoschulden pro Kopf zurückgegangen. 2017 liegen die Quote bei 2,9 Promille und die Schulden bei 9 643 Franken pro Kopf.",
-		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprokukt berechnet.",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2018 beträgt die Quote 2,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 8 636 Franken pro Kopf.",
+		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2277,9 +2539,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6339,
+		"chart-id": 6339,
+		"filter": "",
 		"id": 6339
 	},
 	{
@@ -2294,14 +2560,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In beiden dargestellten Jahren zeigt sich: Je älter die Befragten sind, desto seltener wird eine Note über 6 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In beiden dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -2312,9 +2578,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6340,
+		"chart-id": 6340,
+		"filter": "",
 		"id": 6340
 	},
 	{
@@ -2329,14 +2599,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, häufiger wird eine Note über 6 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit \"Weiss nicht\" oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
+		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -2347,14 +2617,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6341,
+		"chart-id": 6341,
+		"filter": "",
 		"id": 6341
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr.; 2017",
+		"subtitle": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
 		"kuerzel": "I.18.2.06342",
 		"kuerzelKunde": "2.12b",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -2364,14 +2638,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:52:37.3737",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2017 im ausgewählten Modellfall 9 780 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2017.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9&nbsp;780&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2382,15 +2656,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6342,
+		"chart-id": 6342,
+		"filter": "",
 		"id": 6342
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr.; Stand: 2016",
-		"kuerzel": "I.18.2.6343",
+		"subtitle": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+		"kuerzel": "I.18.2.06343",
 		"kuerzelKunde": "2.12c",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
 		"thema": "18 Öffentliche Finanzen",
@@ -2399,14 +2677,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:11.1111",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2016.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 15&nbsp;547&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2417,9 +2695,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Eidgenössische Finanzverwaltung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6343,
+		"chart-id": 6343,
+		"filter": "",
 		"id": 6343
 	},
 	{
@@ -2434,7 +2716,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:13.1313",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2452,31 +2734,35 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6344,
+		"chart-id": 6344,
+		"filter": "",
 		"id": 6344
 	},
 	{
-		"title": "Durch BaselArea unterstützte internationale Ansiedlungen",
-		"subtitle": "in BS, BL, JU",
-		"kuerzel": "I.04.1.6368",
+		"title": "Ansiedlungen von Firmen aus dem Ausland",
+		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
+		"kuerzel": "I.04.1.06368",
 		"kuerzelKunde": "2.4",
-		"description": "Durch BaselArea unterstützte internationale Ansiedlungen",
+		"description": "Ansiedlungen von Firmen aus dem Ausland",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"kennzahlenset": "Legislaturplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2015-12-17T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Die Anzahl von durch BaselArea unterstützten internationalen Ansiedlungen beinhalten seit 2013 auch ausländische Firmengründungen im Kanton Jura.",
+		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland nahm von 21 im Jahr 2017 auf 27 Ansiedlungen im Jahr 2018 zu. Ein Drittel davon war aus Deutschland. Die Mehrheit der neu angesiedelten Firmen sind im Bereich Life Sciences oder in der Chemiebranche tätig.",
+		"erlaeuterungen": "Durch BaselArea unterstützte Ansiedlungen von Unternehmen aus dem Ausland in den Kantonen Basel-Stadt, Basel-Landschaft und Jura. BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2487,9 +2773,13 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"BaselArea"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6368,
+		"chart-id": 6368,
+		"filter": "",
 		"id": 6368
 	},
 	{
@@ -2504,14 +2794,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-08-17T08:58:32.3232",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 wurden in Basel-Stadt 1 146 neue Unternehmen gegründet, 206 weniger als im Jahr 2014. Knapp 30% der neuen Unternehmen wurden 2015 im Bereich der Unternehmensdienstleistungen (freiberufliche, technische und wirtschaftliche Dienstleistungen) gegründet.",
-		"erlaeuterungen": "Unter Neugründungen sind Unternehmen gemeint, die effektiv neugegründet wurden. Die Statistik der Neugründungen basiert auf der Grundgesamtheit der Statistik der Unternehmensstruktur (STATENT).",
+		"lesehilfe": "Im Jahr 2017 wurden in Basel-Stadt 1 061 neue Unternehmen gegründet, 37 bzw. 3,6% mehr als im Jahr 2016. In den Jahren 2015 und 2016 war die Entwicklung der Anzahl der Neugründungen hingegen rückläufig. Ein Viertel der Neugründungen 2017 fand im Bereich der freiberuflichen, wissenschaftlichen und technischen Dienstleistungen statt (269).",
+		"erlaeuterungen": "Unter Neugründungen werden Unternehmen mit marktwirtschaftlicher Tätigkeit verstanden, die tatsächlich neu entstanden sind, also nicht aus Fusionen, Übernahmen, Spaltungen oder Restrukturierungen hervorgegangen sind. Die Statistik der Unternehmensdemografie (UDEMO) basiert auf der Statistik der Unternehmensstruktur (STATENT).",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "small",
@@ -2522,14 +2812,18 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6369,
+		"chart-id": 6369,
+		"filter": "",
 		"id": 6369
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
-		"subtitle": "in Franken, Basel-Stadt im kantonalen Vergleich",
+		"subtitle": "in Franken, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
 		"kuerzel": "I.14.4.06370",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Prämienregion",
@@ -2539,13 +2833,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T15:59:20.2020",
+		"aktualisierungsdatum": "2020-04-01T10:24:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den teuersten Prämienregionen aller verglichenen Kantone steigen die Medianprämien seit 2010 setig an. Basel-Stadt liegt zusammen mit Genf an der Spitze dieser Rangliste.",
+		"lesehilfe": "Die Medianprämien steigen seit 2010 in den fünf ausgewählten Kantonen stetig an. Basel-Stadt gehört mit Genf schweizweit zu den Kantonen mit den höchsten Prämien.",
 		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Größe nach sortiert.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -2558,9 +2852,13 @@ var indikatorensetData = [
 			"Bundesamt für Gesundheit (BAG)",
 			"Gesundheitsdepartement Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6370,
+		"chart-id": 6370,
+		"filter": "",
 		"id": 6370
 	},
 	{
@@ -2575,14 +2873,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-05T14:35:54.5454",
+		"aktualisierungsdatum": "2020-04-01T10:24:12.1212",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 sind in Basel-Stadt 190 681 Personen beschäftigt. Das sind 72 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Handel und Verkehr mit einer Abnahme um 944 Personen, während im Gesundheits- und Sozialwesen mit 1 078 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "Unternehmens-DL, Freiberufe umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; Übrige Branchen umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -2593,15 +2891,19 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6371,
+		"chart-id": 6371,
+		"filter": "",
 		"id": 6371
 	},
 	{
 		"title": "Standortqualitätsindikator (SQI)",
-		"subtitle": "Basel-Stadt im kantonalen Vergleich, Stand: 2016",
-		"kuerzel": "I.04.2.6372",
+		"subtitle": "Basel-Stadt im kantonalen Vergleich",
+		"kuerzel": "I.04.2.06372",
 		"kuerzelKunde": "1.2",
 		"description": "Standortqualitätsindikator (SQI)",
 		"thema": "04 Volkswirtschaft",
@@ -2610,14 +2912,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen als synthetischen Indikator im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen –0.3 und +0.3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
+		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 2,07 vor Zug, Zürich und Aargau auf dem ersten Rang aller Kantone. 2018 lag Basel-Stadt noch auf Rang vier. Der Sprung auf den ersten Rang 2019 wird mit der markanten Senkung der Unternehmenssteuer begründet.",
+		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -2628,16 +2930,20 @@ var indikatorensetData = [
 		"quellenangabe": [
 			"Credit Suisse Group AG"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6372,
+		"chart-id": 6372,
+		"filter": "",
 		"id": 6372
 	},
 	{
 		"title": "Beurteilung der Kantonspolizei",
-		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2012",
-		"kuerzel": "I.85.2.6442",
-		"kuerzelKunde": "10.4a",
+		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», 2012-2018",
+		"kuerzel": "I.50.2.06443",
+		"kuerzelKunde": "10.4",
 		"description": "Beurteilung der Kantonspolizei",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragungen für öffentliche Organe",
@@ -2645,49 +2951,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-28T10:15:29.2929",
+		"aktualisierungsdatum": "2020-04-01T10:24:10.1010",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "87,2% der Befragten stimmen der Aussage, dass die Basler Polizistinnen und Polizisten hilfsbereit sind, mit einer 7 oder mehr zu. Dass die Basler Polizistinnen und Polizisten sympathisch sind, bejahen 77,7% der Befragten. Kritischer sehen die Befragten den Aspekt Respekt: 7,5% der Befragten antworten auf diese Frage mit einer 4 oder weniger.",
-		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001_print",
-		"darstellungsart": "Grafik",
-		"printformat": "large",
-		"orderKey": "10_00_00_00_00_004",
-		"parentId": 6437,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2012, F 51"
-		],
-		"externalLinks": [
-			""
-		],
-		"id": 6442
-	},
-	{
-		"title": "Beurteilung der Kantonspolizei",
-		"subtitle": "«Wie würden Sie die folgenden Eigenschaften der Basler Polizistinnen und Polizisten bewerten?», Stand: 2015",
-		"kuerzel": "I.85.2.6443",
-		"kuerzelKunde": "10.4b",
-		"description": "Beurteilung der Kantonspolizei",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragungen für öffentliche Organe",
-		"kennzahlenset": "Legislaturplan (Print)",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-03-28T10:17:08.088",
-		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 86,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten mit 10, 9, 8 oder 7. Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 79,3% der Befragten den Wert 7 oder mehr an.",
-		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: Freundlich: Der Basler Polizist oder die Basler Polizistin ist freundlich; Handelt angemessen: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; Hilfsbereit: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; Sympathisch: Der Basler Polizist oder die Basler Polizistin ist sympathisch;  Respektvoll: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; Nimmt Anliegen ernst: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen von der Bevölkerung ernst; Gerecht: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Eigenschaften der Basler Polizistinnen und Polizisten bewerten. 81,5% der befragten Personen bewerten die Hilfsbereitschaft der Basler Polizistinnen und Polizisten 2018 mit 10, 9, 8 oder 7 (2015: 86,5%). Weniger einverstanden sind die befragten Personen mit der Aussage, dass Basler Polizistinnen und Polizisten einen ausgeprägten Sinn für Gerechtigkeit haben. Hier geben 71,8% der Befragten den Wert 7 oder mehr an (2015: 79,3%).",
+		"erlaeuterungen": "Die Antwortkategorien in der Abbildung wurden abgekürzt. Die vollständigen Fragen lauten: «Freundlich»: Der Basler Polizist oder die Basler Polizistin ist freundlich; «Handelt angemessen»: Der Basler Polizist oder die Basler Polizistin handelt der Situation angemessen; «Hilfsbereit»: Der Basler Polizist oder die Basler Polizistin ist hilfsbereit; «Sympathisch»: Der Basler Polizist oder die Basler Polizistin ist sympathisch; «Respektvoll»: Der Basler Polizist oder die Basler Polizistin behandelt die Leute mit Respekt; «Nimmt Anliegen ernst»: Der Basler Polizist oder die Basler Polizistin nimmt die Anliegen der Bevölkerung ernst; «Gerecht»: Der Basler Polizist oder die Basler Polizistin hat einen ausgeprägten Sinn für Gerechtigkeit. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt. Die Anzahl Nennungen sind gewichtet.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -2696,11 +2967,15 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Justiz- und Sicherheitsdepartement des Kantons Basel-Stadt, Kundenbefragung 2015, F 51"
+			"Justiz- und Sicherheitsdepartement Basel-Stadt, Kundenbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Der Ergebnisbericht von 2018 ist auf der <a href = 'http://www.polizei.bs.ch/ueber-uns/kundenbefragungen.html' target = '_blank'>Internetseite der Kantonspolizei</a> publiziert."
 		],
+		"data-id": 6443,
+		"chart-id": 6443,
+		"filter": "",
 		"id": 6443
 	}
 ];

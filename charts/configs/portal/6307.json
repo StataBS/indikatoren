@@ -47,6 +47,10 @@
         [
           2017,
           13781296
+        ],
+        [
+          2018,
+          14125256
         ]
       ],
       "name": "Schiene Ausgang"
@@ -98,6 +102,10 @@
         [
           2017,
           16865292
+        ],
+        [
+          2018,
+          17734194
         ]
       ],
       "name": "Schiene Eingang"
@@ -149,6 +157,10 @@
         [
           2017,
           2150476
+        ],
+        [
+          2018,
+          1945180
         ]
       ],
       "name": "Strasse Ausgang"
@@ -200,6 +212,10 @@
         [
           2017,
           1777024
+        ],
+        [
+          2018,
+          1611071
         ]
       ],
       "name": "Strasse Eingang"
@@ -251,6 +267,10 @@
         [
           2017,
           1506172
+        ],
+        [
+          2018,
+          2112040
         ]
       ],
       "name": "Pipeline Eingang"
@@ -300,7 +320,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transit durch die Region Basel"
+    "text": "Warentransit durch die Schweiz"
   },
   "subtitle": {
     "style": {
@@ -309,7 +329,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Brutto-Tonnen nach Verkehrsträger",
+    "text": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
     "align": "left"
   },
   "tooltip": {
@@ -365,7 +385,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-12"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

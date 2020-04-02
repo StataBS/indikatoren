@@ -42,6 +42,10 @@
         [
           2017,
           33.5
+        ],
+        [
+          2018,
+          35.9
         ]
       ],
       "name": "Männer"
@@ -88,6 +92,10 @@
         [
           2017,
           21.4
+        ],
+        [
+          2018,
+          28.4
         ]
       ],
       "name": "Frauen"
@@ -154,6 +162,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -200,7 +209,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "enabled": true,

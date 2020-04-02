@@ -8,14 +8,14 @@
 "unterthema":"Einbürgerungen",
 "kennzahlenset":"Legislaturplan (Print)",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2018-09-05T13:54:30.3030",
+"aktualisierungsdatum":"2020-04-01T10:24:14.1414",
 "stufe1":"Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 "stufe2":"",
 "stufe3":"",
 "stufe4":"",
 "stufe5":"", 
-"lesehilfe":"Die Einbürgerungsziffer unterlag in den vergangenen Jahren diversen Schwankungen. Die Höchstwerte wurden 2007 mit 32,4 bei den Männern und mit 36,9 bei den Frauen erreicht. Danach gingen die Einbürgerungsziffern zurück, bis 2011 bei den Männern und bis 2012 bei den Frauen. In den Jahren bis 2015 stiegen die Einbürgerungsziffern in der Tendenz wieder. 2016 wurden mit 9,8 (Männer) und 11,5 (Frauen) die niedrigsten Werte der abgebildeten Jahre registriert. 2017 liessen sich pro 1000 ausländische Männer 16,5 einbürgern, pro 1000 ausländische Frauen 19,4.",
-"erlaeuterungen":"Die Einbürgerungsziffer wird folgendermassen berechet: Anzahl ordentlich und erleichtert eingebürgerte Ausländer pro 1000 Ausländer der Wohnbevölkerung am Jahresende; jeweils für Männer und Frauen.",
+"lesehilfe":"Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer (EZ) ist während der vergangenen 10 Jahre höher als diejenige der Männer. Die Höchstwerte wurden 2008 erreicht, danach ging sie zurück und lag 2011 noch bei 11,0 (Männer) und 15,3 (Frauen). Seither ist sie tendenziell wieder gestiegen, mit einem kurzzeitigen Unterbruch 2016 (Männer: 9,8; Frauen: 11,5). 2018 lag die EZ bei 13,2 (Männer) und 16,8 (Frauen). Der Ausländeranteil stieg zwischen 2008 und 2018 kontinuierlich um 4,7 Prozentpunkte.",
+"erlaeuterungen":"Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 ausländische Männer respektive Frauen am Jahresende berechnet. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
 "template":"line001_print",
 "darstellungsart":"Grafik",
 "printformat":"small", 
@@ -26,5 +26,9 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
-"externalLinks":[""]
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":6302, 
+"chart-id":6302, 
+"filter":""
 }

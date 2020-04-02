@@ -44,6 +44,12 @@
     "inverted": true,
     width: 665
   },
+  plotOptions: {
+    series: {
+        borderWidth: 0,
+        pointPadding: 0.13
+    }
+},
 };
 }());
 

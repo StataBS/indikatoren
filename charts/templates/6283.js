@@ -5,13 +5,16 @@
           //pointWidth: 5, 
         },
     "column": {
-        "colorByPoint": true
+        //"colorByPoint": true
     }
   },
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
+      "rotation": 0 
     } 
   },
   "yAxis": {
@@ -24,7 +27,8 @@
   },
   
   series: [{
-    name: 'Kanton'
+    name: 'Kanton',
+    color: "#008AC3"
   }],
 
   /*"series": [
@@ -39,34 +43,34 @@
   {"color": "col", "visible": true}, 
   ],*/
 
-    "colors": [
-    "#69929B",
-    "#69929B",
-    "#B00000",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",        
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B", 
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-  ],
+  /*"colors": [
+    "#A8C3CA",
+    "#689199",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",        
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA", 
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+    "#A8C3CA",
+  ],*/
   "legend": {
     "enabled": false,
     "layout": "horizontal",

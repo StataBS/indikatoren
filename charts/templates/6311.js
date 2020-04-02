@@ -22,9 +22,9 @@
     }    
   },
   "series": [
-  {"color": "#b00000"},
-  {"color": "#4f81bd"}, 
-  {"color": "#9A86A6"}, 
+    {"color": "#b00000"},
+    {"color": "#923f8d"}, 
+    {"color": "#b375ab"}, 
   //{"color": "#9bbb59"},  
   ],
   "legend": {

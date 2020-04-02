@@ -2,22 +2,31 @@
     return {
   "plotOptions": {
   	   series: {
+        pointPadding: 0
           //pointWidth: 5, 
         },
     "column": {
-        "colorByPoint": true
+        
     }
   },
  "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90,
+      "rotation": 0,
+      "formatter": function() {
+        return this.value.replace("BS", "<b>BS<br/>");
+},
       padding: 0,
       step: 1,
     } 
   },
   "yAxis": {
     //tickAmount: 8,
+    plotLines: [{
+      value: 0,
+      color: '#B9CFD7',
+      width: 1
+    }],
     tickInterval: 0.5,
     "labels": {
       "format": "{value:,.1f}", 
@@ -25,55 +34,20 @@
   },
   
   series: [{
-    name: 'Kanton'
-  }],
-
-  /*"series": [
-           function() {
-           var col;
-				if(this.series.data[0]=="BS"){
-		   col="#0066FF";
-				}else {
-    		col="#0066EE";
-			}
-            }, 
-  {"color": "col", "visible": true}, 
-  ],*/
-
-    "colors": [
-    "#69929B",
-    "#69929B",
-    "#69929B",
-     "#B00000",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",        
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B", 
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-    "#69929B",
-  ],
+    
+    "color":'#008AC3'
+  },
+  {
+    
+    "color":'#A0BEC8'
+  }    
+    ],
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35,
+    //"x": 35,
 	//"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"

@@ -16,7 +16,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -28,7 +28,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -40,7 +40,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -52,7 +52,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -64,7 +64,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -76,7 +76,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -88,7 +88,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -100,7 +100,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -112,15 +112,27 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
-          28361
+          30057
         ],
         [
           "2017 Nicht-BS",
-          40050
+          38354
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2018 BS",
+          30090
+        ],
+        [
+          "2018 Nicht-BS",
+          39083
         ]
       ],
       "name": "Akutsomatik",
@@ -142,7 +154,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -154,7 +166,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -166,7 +178,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -178,7 +190,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -190,7 +202,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -202,7 +214,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -214,7 +226,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -226,7 +238,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -238,15 +250,27 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
-          3117
+          4070
         ],
         [
           "2017 Nicht-BS",
-          1962
+          1009
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2018 BS",
+          3567
+        ],
+        [
+          "2018 Nicht-BS",
+          1073
         ]
       ],
       "name": "Geriatrie",
@@ -268,7 +292,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -280,7 +304,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -292,7 +316,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -304,7 +328,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -316,7 +340,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -328,7 +352,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -340,7 +364,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -352,7 +376,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -364,15 +388,27 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
-          2288
+          2784
         ],
         [
           "2017 Nicht-BS",
-          1441
+          945
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2018 BS",
+          2559
+        ],
+        [
+          "2018 Nicht-BS",
+          1013
         ]
       ],
       "name": "Psychiatrie",
@@ -394,7 +430,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2009 BS",
@@ -406,7 +442,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2010 BS",
@@ -418,7 +454,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2011 BS",
@@ -430,7 +466,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2012 BS",
@@ -442,7 +478,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2013 BS",
@@ -454,7 +490,7 @@
         ],
         [
           "      ",
-          null
+          undefined
         ],
         [
           "2014 BS",
@@ -466,7 +502,7 @@
         ],
         [
           "       ",
-          null
+          undefined
         ],
         [
           "2015 BS",
@@ -478,7 +514,7 @@
         ],
         [
           "        ",
-          null
+          undefined
         ],
         [
           "2016 BS",
@@ -490,15 +526,27 @@
         ],
         [
           "         ",
-          null
+          undefined
         ],
         [
           "2017 BS",
-          1736
+          2102
         ],
         [
           "2017 Nicht-BS",
-          1825
+          1459
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2018 BS",
+          2135
+        ],
+        [
+          "2018 Nicht-BS",
+          1597
         ]
       ],
       "name": "Rehabilitation",
@@ -517,7 +565,7 @@
     },
     "labels": {
       "style": {
-        "fontSize": "10px",
+        "fontSize": "9px",
         "color": "#000000"
       },
       "step": 1,
@@ -649,7 +697,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,

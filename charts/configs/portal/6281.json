@@ -4,7 +4,6 @@
       "color": "#71a3b5",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
       "data": [
         [
           2005,
@@ -57,6 +56,10 @@
         [
           2017,
           51887
+        ],
+        [
+          2018,
+          50986
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -124,6 +127,10 @@
         [
           2017,
           26.07544173518
+        ],
+        [
+          2018,
+          25.4604106743368
         ]
       ],
       "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
@@ -214,11 +221,10 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000"
-      },
-      "step": 2
+      }
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "yAxis": [
     {
@@ -277,7 +283,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
     "padding": 0,
