@@ -1244,13 +1244,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-04-03T15:27:14.1414",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 beträgt die Sozialhilfequote im Bezirk Messe 14,2%. 670 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,7% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 35.",
+		"lesehilfe": "2019 beträgt die Sozialhilfequote im Bezirk Messe 13,5%. 643 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,0% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 29.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
