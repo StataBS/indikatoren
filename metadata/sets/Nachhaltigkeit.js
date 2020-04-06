@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-23T14:45:44.4444",
+		"aktualisierungsdatum": "2020-04-03T12:25:58.5858",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -22,12 +22,12 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_306",
+		"orderKey": "03_02_00_00_00_307",
 		"parentId": 6173,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -605,7 +605,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-24T10:24:26.2626",
+		"aktualisierungsdatum": "2020-04-03T12:25:23.2323",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -1034,7 +1034,7 @@ var indikatorensetData = [
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.02.14.05197",
-		"kuerzelKunde": "GW19",
+		"kuerzelKunde": "GW18",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
@@ -1042,14 +1042,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:57:40.4040",
+		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.&nbsp;B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1422,7 +1422,7 @@ var indikatorensetData = [
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
 		"kuerzel": "I.02.5.06029",
-		"kuerzelKunde": "NL8",
+		"kuerzelKunde": "NL7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
@@ -1430,7 +1430,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:35:03.033",
+		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1462,7 +1462,7 @@ var indikatorensetData = [
 		"title": "Wasserqualität: AOX-Konzentration",
 		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
 		"kuerzel": "I.02.19.06030",
-		"kuerzelKunde": "NL9",
+		"kuerzelKunde": "NL8",
 		"description": "Wasserqualität: AOX-Konzentration",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Wasser",
@@ -1470,7 +1470,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T09:27:02.022",
+		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -2454,7 +2454,7 @@ var indikatorensetData = [
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.1.06435",
-		"kuerzelKunde": "GZ5",
+		"kuerzelKunde": "GZ6",
 		"description": "Arbeitnehmende in Leitungsfunktionen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -2462,9 +2462,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:58:11.1111",
+		"aktualisierungsdatum": "2020-04-03T10:28:12.1212",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Chancengerechtigkeit",
+		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2473,7 +2473,7 @@ var indikatorensetData = [
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_505",
+		"orderKey": "05_02_00_00_00_506",
 		"parentId": 6148,
 		"children": [],
 		"renderLink": [],
@@ -2492,8 +2492,8 @@ var indikatorensetData = [
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"subtitle": "",
-		"kuerzel": "I.02.13.06574",
-		"kuerzelKunde": "NL11",
+		"kuerzel": "I.02.13.6574",
+		"kuerzelKunde": "NL13",
 		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
@@ -2501,7 +2501,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-03T14:23:35.3535",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2510,24 +2510,31 @@ var indikatorensetData = [
 		"lesehilfe": "Im Jahre 2017 betrug der kumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
 		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel.",
 		"template": "template001",
-		"orderKey": "04_02_00_00_00_411",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "04_02_00_00_00_414",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8948"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6574,
-		"darstellungsart": "Grafik"
+		"data-id": 6574,
+		"chart-id": 6574,
+		"filter": "",
+		"id": 6574
 	},
 	{
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06592",
-		"kuerzelKunde": "BE5.1",
+		"kuerzelKunde": "BE5",
 		"description": "Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -2535,7 +2542,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:14.1414",
+		"aktualisierungsdatum": "2020-04-03T12:19:49.4949",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -2561,45 +2568,6 @@ var indikatorensetData = [
 		"chart-id": 6058,
 		"filter": "",
 		"id": 6592
-	},
-	{
-		"title": "Ausländeranteil",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06597",
-		"kuerzelKunde": "BE5.2",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-17T15:16:14.1414",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Von 2000 bis 2019 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,6% auf 36,6%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007, 2010 und 2019 zu beobachten.",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_106",
-		"parentId": 6057,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6057,
-		"chart-id": 6057,
-		"filter": "",
-		"id": 6597
 	},
 	{
 		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
@@ -2810,7 +2778,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:15.1515",
+		"aktualisierungsdatum": "2020-04-03T12:23:23.2323",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Kultur",
 		"stufe3": "",
@@ -2823,7 +2791,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_316",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8956"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

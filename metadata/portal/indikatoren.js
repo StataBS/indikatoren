@@ -7857,7 +7857,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-24T10:24:26.2626",
+		"aktualisierungsdatum": "2020-04-03T12:25:23.2323",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -11785,7 +11785,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:57:43.4343",
+		"aktualisierungsdatum": "2020-04-03T10:28:12.1212",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -11801,7 +11801,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6301",
-			"6435"
+			"6435",
+			"8947"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -19927,8 +19928,8 @@ var indikatoren = [
 	{
 		"title": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"subtitle": "",
-		"kuerzel": "I.02.13.06574",
-		"kuerzelKunde": "NL11",
+		"kuerzel": "I.02.13.6574",
+		"kuerzelKunde": "NL13",
 		"description": "Saldo aus Anzahl Baumpflanzungen und -fällungen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Landschaft",
@@ -19936,7 +19937,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
+		"aktualisierungsdatum": "2020-04-03T14:23:35.3535",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -19945,19 +19946,26 @@ var indikatoren = [
 		"lesehilfe": "Im Jahre 2017 betrug der kumulierte Saldo 2 294 Bäume. Im selben Jahr wurden leicht mehr Bäume gefällt (398) als gepflanzt (392).",
 		"erlaeuterungen": "Der ausgewiesene Auszug aus dem Baumkataster umfasst den durch die Stadtgärtnerei Basel gepflegten Allmendbaumbestand in der Stadt Basel.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_411",
+		"orderKey": "04_02_00_00_00_414",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8948"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Stadtgärtnerei Basel-Stadt"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6574,
-		"darstellungsart": "Grafik"
+		"data-id": 6574,
+		"chart-id": 6574,
+		"filter": "",
+		"id": 6574
 	},
 	{
 		"title": "Ankünfte pro Monat nach Herkunft der Gäste",
@@ -26514,13 +26522,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-04-03T15:27:14.1414",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 beträgt die Sozialhilfequote im Bezirk Messe 14,2%. 670 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,7% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 35.",
+		"lesehilfe": "2019 beträgt die Sozialhilfequote im Bezirk Messe 13,5%. 643 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,0% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 29.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -31240,7 +31248,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:15.1515",
+		"aktualisierungsdatum": "2020-04-03T12:23:23.2323",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Kultur",
 		"stufe3": "",
@@ -31254,7 +31262,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_316",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8956"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

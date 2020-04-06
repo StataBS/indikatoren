@@ -775,7 +775,7 @@ id | visible | visibleInPortal | indikatorenset
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus
 6592 | true | false | Nachhaltigkeit
-6597 | true | false | Nachhaltigkeit
+6597 | false |  | Nachhaltigkeit
 6599 | true | true | Nachhaltigkeit
 6601 | true | false | 
 6623 | true | true | 
