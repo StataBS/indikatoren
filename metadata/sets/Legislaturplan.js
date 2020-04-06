@@ -1199,7 +1199,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:57:43.4343",
+		"aktualisierungsdatum": "2020-04-03T10:28:12.1212",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1214,7 +1214,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6301",
-			"6435"
+			"6435",
+			"8947"
 		],
 		"renderLink": [],
 		"quellenangabe": [
