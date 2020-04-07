@@ -1,0 +1,498 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "2013-01",
+          254
+        ],
+        [
+          "2013-02",
+          164
+        ],
+        [
+          "2013-03",
+          161
+        ],
+        [
+          "2013-04",
+          71
+        ],
+        [
+          "2013-05",
+          -31
+        ],
+        [
+          "2013-06",
+          41
+        ],
+        [
+          "2013-07",
+          93
+        ],
+        [
+          "2013-08",
+          76
+        ],
+        [
+          "2013-09",
+          41
+        ],
+        [
+          "2013-10",
+          -29
+        ],
+        [
+          "2013-11",
+          -6
+        ],
+        [
+          "2013-12",
+          -8
+        ],
+        [
+          "2014-01",
+          -139
+        ],
+        [
+          "2014-02",
+          -146
+        ],
+        [
+          "2014-03",
+          -136
+        ],
+        [
+          "2014-04",
+          -129
+        ],
+        [
+          "2014-05",
+          -184
+        ],
+        [
+          "2014-06",
+          -187
+        ],
+        [
+          "2014-07",
+          -214
+        ],
+        [
+          "2014-08",
+          -209
+        ],
+        [
+          "2014-09",
+          -175
+        ],
+        [
+          "2014-10",
+          -125
+        ],
+        [
+          "2014-11",
+          -27
+        ],
+        [
+          "2014-12",
+          -25
+        ],
+        [
+          "2015-01",
+          139
+        ],
+        [
+          "2015-02",
+          122
+        ],
+        [
+          "2015-03",
+          182
+        ],
+        [
+          "2015-04",
+          215
+        ],
+        [
+          "2015-05",
+          312
+        ],
+        [
+          "2015-06",
+          375
+        ],
+        [
+          "2015-07",
+          265
+        ],
+        [
+          "2015-08",
+          352
+        ],
+        [
+          "2015-09",
+          420
+        ],
+        [
+          "2015-10",
+          354
+        ],
+        [
+          "2015-11",
+          243
+        ],
+        [
+          "2015-12",
+          112
+        ],
+        [
+          "2016-01",
+          94
+        ],
+        [
+          "2016-02",
+          296
+        ],
+        [
+          "2016-03",
+          202
+        ],
+        [
+          "2016-04",
+          363
+        ],
+        [
+          "2016-05",
+          338
+        ],
+        [
+          "2016-06",
+          257
+        ],
+        [
+          "2016-07",
+          227
+        ],
+        [
+          "2016-08",
+          207
+        ],
+        [
+          "2016-09",
+          56
+        ],
+        [
+          "2016-10",
+          76
+        ],
+        [
+          "2016-11",
+          180
+        ],
+        [
+          "2016-12",
+          251
+        ],
+        [
+          "2017-01",
+          234
+        ],
+        [
+          "2017-02",
+          13
+        ],
+        [
+          "2017-03",
+          57
+        ],
+        [
+          "2017-04",
+          -121
+        ],
+        [
+          "2017-05",
+          -204
+        ],
+        [
+          "2017-06",
+          -141
+        ],
+        [
+          "2017-07",
+          -85
+        ],
+        [
+          "2017-08",
+          -39
+        ],
+        [
+          "2017-09",
+          -194
+        ],
+        [
+          "2017-10",
+          -165
+        ],
+        [
+          "2017-11",
+          -314
+        ],
+        [
+          "2017-12",
+          -316
+        ],
+        [
+          "2018-01",
+          -391
+        ],
+        [
+          "2018-02",
+          -422
+        ],
+        [
+          "2018-03",
+          -379
+        ],
+        [
+          "2018-04",
+          -418
+        ],
+        [
+          "2018-05",
+          -328
+        ],
+        [
+          "2018-06",
+          -366
+        ],
+        [
+          "2018-07",
+          -313
+        ],
+        [
+          "2018-08",
+          -432
+        ],
+        [
+          "2018-09",
+          -327
+        ],
+        [
+          "2018-10",
+          -381
+        ],
+        [
+          "2018-11",
+          -333
+        ],
+        [
+          "2018-12",
+          -280
+        ],
+        [
+          "2019-01",
+          -228
+        ],
+        [
+          "2019-02",
+          -271
+        ],
+        [
+          "2019-03",
+          -299
+        ],
+        [
+          "2019-04",
+          -289
+        ],
+        [
+          "2019-05",
+          -311
+        ],
+        [
+          "2019-06",
+          -313
+        ],
+        [
+          "2019-07",
+          -332
+        ],
+        [
+          "2019-08",
+          -326
+        ],
+        [
+          "2019-09",
+          -358
+        ],
+        [
+          "2019-10",
+          -292
+        ],
+        [
+          "2019-11",
+          -188
+        ],
+        [
+          "2019-12",
+          -183
+        ],
+        [
+          "2020-01",
+          -217
+        ],
+        [
+          "2020-02",
+          -90
+        ],
+        [
+          "2020-03",
+          336
+        ]
+      ],
+      "name": "Veränderung im Vergleich zum Vorjahresmonat",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function() {
+   			 return this.value.split("-").slice(0, -1);
+		}
+    },
+    "tickLength": 0,
+    "tickInterval": 12
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-8981",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false
+  },
+  "tooltip": {
+    "valueDecimals": 0,
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8981
+  }
+}
