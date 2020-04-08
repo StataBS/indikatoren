@@ -4100,22 +4100,24 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:42:20.2020",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-04-07T22:30:02.022",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2009  mit 1 179,  2015 mit 1 170 und 2017 mit 1 282 eingebürgerten Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2010, 2011, 2012 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2018 bei 15,0.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Die Zahl der Einbürgerungen unterlag in den vergangenen zehn Jahren diversen Schwankungen. Die Höchstwerte wurden 2009 mit 1 179, 2015 mit 1 170 und 2017 mit 1 282 eingebürgerten Ausländern erreicht. Die Tiefstwerte der letzten zehn Jahre wurden in den Jahren 2010, 2011, 2012 und 2016 verzeichnet, als jeweils weniger als 900 Ausländer die Schweizer Staatsangehörigkeit erwarben. Die Einbürgerungsziffer verläuft in der Tendenz parallel zu den absoluten Werten und lag 2018 bei 15,0.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_013",
 		"parentId": null,
 		"children": [
-			"6043"
+			"6043",
+			"8385",
+			"8933"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -4142,14 +4144,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-05T14:16:13.1313",
+		"aktualisierungsdatum": "2020-04-07T11:34:31.3131",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2019 fühlten sich 50% der befragten Personen sehr oder eher gut von den Behörden vertreten. Im Vergleich zu 2015 entspricht dies einem Rückgang um 18 Prozentpunkte. Der Anteil der Befragten, die sich gar nicht gut vertreten fühlen, ist hingegen grösser geworden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. 2003 bis 2015 erfolgte sie jeweils telefonisch.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4160,7 +4162,8 @@ var indikatoren = [
 			"5138",
 			"6185",
 			"6331",
-			"8386"
+			"8386",
+			"8881"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -5216,13 +5219,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-12T10:04:07.077",
+		"aktualisierungsdatum": "2020-04-07T22:26:02.022",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "23,6% der 2019 Befragten fühlen sich des Nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
+		"lesehilfe": "23,6% der 2019 Befragten fühlen sich nachts draussen sehr und 43,9% eher sicher. 21,0% geben an, sich eher unsicher zu fühlen. 7,8% fühlen sich ganz unsicher.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -5232,7 +5235,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"8393",
-			"8456"
+			"8456",
+			"8959"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -5874,14 +5878,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T11:41:32.3232",
+		"aktualisierungsdatum": "2020-04-07T22:28:56.5656",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
-		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle 4 Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -5890,7 +5894,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6042",
-			"8410"
+			"8410",
+			"8932"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -7528,13 +7533,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-04T14:43:34.3434",
+		"aktualisierungsdatum": "2020-04-07T11:21:57.5757",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen zahlreiche Schweizerinnen gibt.",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -7543,7 +7548,8 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"6989"
+			"6989",
+			"8882"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -7600,7 +7606,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geburtenziffer",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.3.05149",
 		"kuerzelKunde": "BE7",
 		"description": "Geburtenziffer",
@@ -7610,7 +7616,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T16:43:58.5858",
+		"aktualisierungsdatum": "2020-04-07T11:27:46.4646",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -7622,7 +7628,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_108",
+		"orderKey": "01_01_00_00_00_107",
 		"parentId": null,
 		"children": [
 			"8886"
@@ -7681,32 +7687,34 @@ var indikatoren = [
 		"id": 5156
 	},
 	{
-		"title": "Wanderungen der Ausländer",
+		"title": "Wanderungen der ausländischen Bevölkerung",
 		"subtitle": "Basel-Stadt, Summe 2009 bis 2018",
 		"kuerzel": "I.01.5.5157",
 		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen der Ausländer",
+		"description": "Wanderungen der ausländischen Bevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:47:19.1919",
+		"aktualisierungsdatum": "2020-04-07T11:30:31.3131",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2009 bis 2018 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 6 870 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
+		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2009 bis 2018 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Zuzugsüberschuss 6 870 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
 		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_112",
+		"orderKey": "01_01_00_00_00_110",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8889"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -7732,14 +7740,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-18T10:52:49.4949",
+		"aktualisierungsdatum": "2020-04-07T11:38:41.4141",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 2 des Indikators). Am zufriedensten (70,5% «sehr» und 21,7% «eher zufrieden») sind sie 2019 mit dem öffentlichen Verkehr, gefolgt von der generellen Vielfalt der Einkaufsmöglichkeiten in Basel und der Abfallbeseitigung.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7807,7 +7815,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 <br> «Wie fühlen Sie sich zurzeit gesundheitlich?»",
+		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019, Basel-Stadt<br>«Wie fühlen Sie sich zurzeit gesundheitlich?»",
 		"kuerzel": "I.50.1.5181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",
@@ -7817,7 +7825,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:14.1414",
+		"aktualisierungsdatum": "2020-04-07T11:44:20.2020",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -7831,7 +7839,9 @@ var indikatoren = [
 		"visibleInPortal": true,
 		"orderKey": "03_02_00_00_00_305",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8898"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -7857,14 +7867,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T12:25:23.2323",
+		"aktualisierungsdatum": "2020-04-07T11:47:56.5656",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2016/2017 waren auf der 11. Schulstufe 23% der Schweizer Mädchen übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen auf den Schulstufen 1, 5 und 11 erhoben (gemäss HarmoS-Definition: 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium)). Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).",
+		"lesehilfe": "Im Schuljahr 2016/2017 waren auf der 11. Schulstufe 23% der Schweizer Mädchen übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen auf den Schulstufen 1, 5 und 11 erhoben (gemäss HarmoS-Definition: 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium)). Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J. Cole (BMJ Vol. 320, 5/2000).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7899,21 +7909,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T08:41:25.2525",
+		"aktualisierungsdatum": "2020-04-07T11:51:23.2323",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und zwei tödlich.",
+		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und 2 tödlich.",
 		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_04_00_00_00_310",
+		"orderKey": "03_04_00_00_00_311",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8903"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -9320,8 +9332,8 @@ var indikatoren = [
 	{
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
-		"kuerzel": "I.11.2.06028",
-		"kuerzelKunde": "NL7",
+		"kuerzel": "I.11.2.6028",
+		"kuerzelKunde": "GW21",
 		"description": "Anteile der Verkehrsmittel",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
@@ -9329,28 +9341,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-04-03T00:00:00.000",
-		"stufe1": "Bereich Natürliche Lebensgrundlagen",
-		"stufe2": "Umgang mit Energie und Ressourcen",
+		"aktualisierungsdatum": "2020-04-07T22:15:24.2424",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehrs (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
+		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
 		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_00_00_00_407",
+		"orderKey": "03_08_00_00_00_322",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8920"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6028,
-		"darstellungsart": "Grafik"
+		"data-id": 6028,
+		"chart-id": 6028,
+		"filter": "",
+		"id": 6028
 	},
 	{
 		"title": "Hitzetage",
@@ -9771,7 +9790,7 @@ var indikatoren = [
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.6055",
-		"kuerzelKunde": "WE11",
+		"kuerzelKunde": "WE13",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
@@ -9779,21 +9798,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:17.1717",
+		"aktualisierungsdatum": "2020-04-07T22:42:26.2626",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2018 liegt die Platzzahl bei 4087. Auch die Tagesstrukturen wurden stetig ausgebaut. 2018 bieten die Frühhorte Platz für 416 Kinder, die Mittagsmodule 2911 und die Nachmittagsmodule 2551 Plätze. Die Tagesferien können von 211 Kindern gleichzeitig genutzt werden.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2018 liegt die Platzzahl bei 4 087. Auch die Tagesstrukturen wurden stetig ausgebaut. 2018 bieten die Frühhorte Platz für 416 Kinder, die Mittagsmodule 2 911 und die Nachmittagsmodule 2 551 Plätze. Die Tagesferien können von 211 Kindern gleichzeitig genutzt werden.",
 		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseit von privaten Trägerschaften in den Quartieren («Mittagstische») angeboten. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da in den Sekundarschulen keine Anmeldepflicht besteht, gibt es auch keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_02_00_00_00_611",
+		"orderKey": "06_02_00_00_00_613",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8944"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
@@ -11484,7 +11505,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:15:16.1616",
+		"aktualisierungsdatum": "2020-04-07T11:54:57.5757",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -11492,7 +11513,7 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "In der Altersgruppe der der 30- bis 39-Jährigen haben 49,0% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 28,4%.",
 		"erlaeuterungen": "Keine oder obligatorische Schule: keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. 1 Jahr), Sozialjahr, Brückenangebote. DMS, FMS o. ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "template001",
+		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -11500,7 +11521,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5191",
-			"6292"
+			"6292",
+			"8906"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11527,14 +11549,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-04T17:14:27.2727",
+		"aktualisierungsdatum": "2020-04-07T22:39:50.5050",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist im Jahresdurchschnitt von 3,3% im Jahr 2018 auf 3,0% im Jahr 2019 gesunken. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% 2018 auf 3,2% 2019. Die Arbeitslosenquote der Personen über 50 Jahre lag 2019 unverändert bei 2,5% und damit weiterhin unterhalb der Durchschnittsquote.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Erwerbspersonen mal 100.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitsloser geteilt durch die Anzahl Erwerbspersonen mal 100.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11543,7 +11565,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6053",
-			"6293"
+			"6293",
+			"8942"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12000,14 +12023,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-12T14:28:39.3939",
+		"aktualisierungsdatum": "2020-04-07T12:00:40.4040",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und  Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne die Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12017,8 +12040,10 @@ var indikatoren = [
 		"children": [
 			"4319",
 			"6007",
+			"6258",
 			"6306",
-			"8454"
+			"8454",
+			"8957"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12308,13 +12333,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:01:28.2828",
+		"aktualisierungsdatum": "2020-04-07T22:17:06.066",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammte 37,9% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
+		"lesehilfe": "Im Jahr 2010 lag der Anteil der erneuerbaren Energieträger bei 34,5%. Zwei Jahre später fiel der Wert mit 36,1% bereits höher aus. Im Jahr 2014  stammten 37,9% der Energie aus erneuerbaren Quellen, 2016 waren es bereits 38,8%.",
 		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Schlamm, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -12324,7 +12349,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5795",
-			"6313"
+			"6313",
+			"8916"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12780,14 +12806,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-25T13:30:48.4848",
+		"aktualisierungsdatum": "2020-04-07T11:52:41.4141",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt aber im Ermessen der zuständigen Fachstelle.",
+		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12796,7 +12822,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5189",
-			"6326"
+			"6326",
+			"8905"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -13672,24 +13699,26 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-13T19:16:59.5959",
+		"aktualisierungsdatum": "2020-04-07T22:31:48.4848",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen  mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
+		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
 		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_07_00_00_00_071",
+		"orderKey": "03_07_00_00_00_001",
 		"parentId": null,
 		"children": [
+			"6046",
 			"6265",
 			"6347",
-			"6371"
+			"6371",
+			"8935"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -31128,21 +31157,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:11:31.3131",
+		"aktualisierungsdatum": "2020-04-07T11:23:56.5656",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9, was bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
-		"erlaeuterungen": "Der Abhängigkeitsquotient ergibt sich aus der Anzahl unter 20-Jähriger plus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9. Dies bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen, da die Zahl der 20- bis 64-jährigen stärker zugenommen hat als das Total der unter 20-jährigen und der über 64-jährigen.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient ergibt sich aus der Anzahl unter 20-jähriger plus der Anzahl über 64-jähriger pro 100 20- bis 64-jähriger (Personen im erwerbsfähigen Alter).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_104",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8953"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -31290,21 +31321,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T08:47:29.2929",
+		"aktualisierungsdatum": "2020-04-07T22:26:43.4343",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_506",
+		"orderKey": "05_02_00_00_00_507",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8960"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatskanzlei Basel-Stadt"
@@ -31330,13 +31363,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-23T12:38:16.1616",
+		"aktualisierungsdatum": "2020-04-07T22:40:58.5858",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2016 wendete eine Person im Kanton Basel-Stadt durchschnittlich 21,1 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 25,7 Stunden mehr Zeit in die Haus- und Familienarbeit als die Männer mit 16,1 Stunden.",
+		"lesehilfe": "Im Jahr 2016 wendete eine Person im Kanton Basel-Stadt durchschnittlich 21,1 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 25,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 16,1 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 600 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -31917,14 +31950,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:15.1515",
+		"aktualisierungsdatum": "2020-04-07T11:39:25.2525",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Kinderbetreuung (17,7% «sehr» und 21,8% «eher zufrieden») und die Einrichtungen für Jugendliche (12,1% «sehr» und 29,5% «eher zufrieden») erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jender Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -31932,7 +31965,10 @@ var indikatoren = [
 		"orderKey": "03_01_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"8877"
+			"8877",
+			"8878",
+			"8965",
+			"8971"
 		],
 		"renderLink": [],
 		"quellenangabe": [

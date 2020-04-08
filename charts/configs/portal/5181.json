@@ -455,7 +455,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019 \u003Cbr\u003E «Wie fühlen Sie sich zurzeit gesundheitlich?»"
+    "text": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019, Basel-Stadt\u003Cbr\u003E«Wie fühlen Sie sich zurzeit gesundheitlich?»"
   },
   "navigation": {
     "menuItemStyle": {
@@ -515,7 +515,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "legend": {
     "layout": "vertical",
