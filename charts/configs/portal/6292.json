@@ -6,47 +6,47 @@
       "legendIndex": 0,
       "data": [
         [
-          "Weiblich",
-          95
+          "Männer",
+          12906.234614
         ],
         [
-          "Männlich",
-          44
+          "Frauen",
+          16876.219904
         ],
         [
-          "Schweiz",
-          114
+          "Schweizer",
+          14705.296228
         ],
         [
-          "Ausland",
-          25
+          "Ausländer",
+          15077.158291
         ],
         [
           "18-29 J.",
-          14
+          3412.8860181
         ],
         [
           "30-39 J.",
-          5
+          3317.5633333
         ],
         [
           "40-49 J.",
-          14
+          4164.2255564
         ],
         [
           "50-59 J.",
-          17
+          4587.3192803
         ],
         [
           "60 J. u.m.",
-          89
+          10894.642111
         ],
         [
           "Total",
-          139
+          29782.454518
         ]
       ],
-      "name": "Oblig. Schule",
+      "name": "Keine oder obligatorische Schule",
       "turboThreshold": 0
     },
     {
@@ -55,47 +55,47 @@
       "legendIndex": 1,
       "data": [
         [
-          "Weiblich",
-          10
+          "Männer",
+          2872.1636849
         ],
         [
-          "Männlich",
-          4
+          "Frauen",
+          4833.4147468
         ],
         [
-          "Schweiz",
-          13
+          "Schweizer",
+          4956.4023131
         ],
         [
-          "Ausland",
-          1
+          "Ausländer",
+          2749.1761185
         ],
         [
           "18-29 J.",
-          3
+          2257.9670949
         ],
         [
           "30-39 J.",
-          1
+          955.29064971
         ],
         [
           "40-49 J.",
-          2
+          840.11919937
         ],
         [
           "50-59 J.",
-          0
+          736.63775944
         ],
         [
           "60 J. u.m.",
-          8
+          2311.6267603
         ],
         [
           "Total",
-          14
+          7705.5784317
         ]
       ],
-      "name": "Berufsvorb. Schule",
+      "name": "Berufsvorbereitende Schule",
       "turboThreshold": 0
     },
     {
@@ -104,47 +104,47 @@
       "legendIndex": 2,
       "data": [
         [
-          "Weiblich",
-          327
+          "Männer",
+          1754.5436032
         ],
         [
-          "Männlich",
-          250
+          "Frauen",
+          3483.678168
         ],
         [
-          "Schweiz",
-          527
+          "Schweizer",
+          3995.9756419
         ],
         [
-          "Ausland",
-          50
+          "Ausländer",
+          1242.2461293
         ],
         [
           "18-29 J.",
-          22
+          918.98451832
         ],
         [
           "30-39 J.",
-          35
+          762.29331537
         ],
         [
           "40-49 J.",
-          46
+          585.55768622
         ],
         [
           "50-59 J.",
-          85
+          711.49605633
         ],
         [
           "60 J. u.m.",
-          389
+          2198.0728981
         ],
         [
           "Total",
-          577
+          5238.2217712
         ]
       ],
-      "name": "Berufslehre",
+      "name": "DMS, FMS, o.ä.",
       "turboThreshold": 0
     },
     {
@@ -153,47 +153,47 @@
       "legendIndex": 3,
       "data": [
         [
-          "Weiblich",
-          9
+          "Männer",
+          21270.888403
         ],
         [
-          "Männlich",
-          12
+          "Frauen",
+          20648.043538
         ],
         [
-          "Schweiz",
-          18
+          "Schweizer",
+          34139.921136
         ],
         [
-          "Ausland",
-          3
+          "Ausländer",
+          7779.010805
         ],
         [
           "18-29 J.",
-          1
+          5934.171253
         ],
         [
           "30-39 J.",
-          4
+          5110.5268898
         ],
         [
           "40-49 J.",
-          3
+          6026.2673088
         ],
         [
           "50-59 J.",
-          5
+          7494.4672249
         ],
         [
           "60 J. u.m.",
-          8
+          17280.450083
         ],
         [
           "Total",
-          21
+          41918.931941
         ]
       ],
-      "name": "DMS",
+      "name": "Berufslehre",
       "turboThreshold": 0
     },
     {
@@ -202,44 +202,44 @@
       "legendIndex": 4,
       "data": [
         [
-          "Weiblich",
-          53
+          "Männer",
+          7022.1421376
         ],
         [
-          "Männlich",
-          49
+          "Frauen",
+          7914.330048
         ],
         [
-          "Schweiz",
-          89
+          "Schweizer",
+          10844.573492
         ],
         [
-          "Ausland",
-          13
+          "Ausländer",
+          4091.8986933
         ],
         [
           "18-29 J.",
-          36
+          5899.7564718
         ],
         [
           "30-39 J.",
-          9
+          2312.5707484
         ],
         [
           "40-49 J.",
-          10
+          1664.0564406
         ],
         [
           "50-59 J.",
-          12
+          1868.8491148
         ],
         [
           "60 J. u.m.",
-          35
+          3126.4436602
         ],
         [
           "Total",
-          102
+          14936.472186
         ]
       ],
       "name": "Matura",
@@ -251,47 +251,47 @@
       "legendIndex": 5,
       "data": [
         [
-          "Weiblich",
-          28
+          "Männer",
+          8116.4709535
         ],
         [
-          "Männlich",
-          5
+          "Frauen",
+          8121.1050103
         ],
         [
-          "Schweiz",
-          32
+          "Schweizer",
+          12554.072184
         ],
         [
-          "Ausland",
-          1
+          "Ausländer",
+          3683.5037798
         ],
         [
           "18-29 J.",
-          0
+          1415.3725202
         ],
         [
           "30-39 J.",
-          0
+          3326.432399
         ],
         [
           "40-49 J.",
-          2
+          3061.159928
         ],
         [
           "50-59 J.",
-          11
+          3756.4081009
         ],
         [
           "60 J. u.m.",
-          20
+          4678.2030158
         ],
         [
           "Total",
-          33
+          16237.575964
         ]
       ],
-      "name": "Lehrkräfte-Seminar",
+      "name": "Höhere Fachschule",
       "turboThreshold": 0
     },
     {
@@ -300,195 +300,63 @@
       "legendIndex": 6,
       "data": [
         [
-          "Weiblich",
-          146
+          "Männer",
+          23620.956604
         ],
         [
-          "Männlich",
-          133
+          "Frauen",
+          22298.208584
         ],
         [
-          "Schweiz",
-          255
+          "Schweizer",
+          24574.959004
         ],
         [
-          "Ausland",
-          24
-        ],
-        [
-          "18-29 J.",
-          9
-        ],
-        [
-          "30-39 J.",
-          23
-        ],
-        [
-          "40-49 J.",
-          43
-        ],
-        [
-          "50-59 J.",
-          66
-        ],
-        [
-          "60 J. u.m.",
-          138
-        ],
-        [
-          "Total",
-          279
-        ]
-      ],
-      "name": "Höhere Fachschule",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ff8028",
-      "index": 7,
-      "legendIndex": 7,
-      "data": [
-        [
-          "Weiblich",
-          146
-        ],
-        [
-          "Männlich",
-          186
-        ],
-        [
-          "Schweiz",
-          276
-        ],
-        [
-          "Ausland",
-          56
+          "Ausländer",
+          21344.206184
         ],
         [
           "18-29 J.",
-          12
+          7604.3749356
         ],
         [
           "30-39 J.",
-          42
+          15150.77309
         ],
         [
           "40-49 J.",
-          53
+          9474.9208506
         ],
         [
           "50-59 J.",
-          76
+          7051.8488737
         ],
         [
           "60 J. u.m.",
-          149
+          6637.2474377
         ],
         [
           "Total",
-          332
+          45919.165188
         ]
       ],
       "name": "Universität",
       "turboThreshold": 0
     },
     {
+      "color": "#ff8028",
+      "index": 7,
+      "legendIndex": 7
+    },
+    {
       "color": "#dc440e",
       "index": 8,
-      "legendIndex": 8,
-      "data": [
-        [
-          "Weiblich",
-          3
-        ],
-        [
-          "Männlich",
-          4
-        ],
-        [
-          "Schweiz",
-          7
-        ],
-        [
-          "Ausland",
-          0
-        ],
-        [
-          "18-29 J.",
-          0
-        ],
-        [
-          "30-39 J.",
-          1
-        ],
-        [
-          "40-49 J.",
-          1
-        ],
-        [
-          "50-59 J.",
-          1
-        ],
-        [
-          "60 J. u.m.",
-          4
-        ],
-        [
-          "Total",
-          7
-        ]
-      ],
-      "name": "Andere Ausbildung",
-      "turboThreshold": 0
+      "legendIndex": 8
     },
     {
       "color": "#b00000",
       "index": 9,
-      "legendIndex": 9,
-      "data": [
-        [
-          "Weiblich",
-          1
-        ],
-        [
-          "Männlich",
-          1
-        ],
-        [
-          "Schweiz",
-          2
-        ],
-        [
-          "Ausland",
-          0
-        ],
-        [
-          "18-29 J.",
-          0
-        ],
-        [
-          "30-39 J.",
-          0
-        ],
-        [
-          "40-49 J.",
-          0
-        ],
-        [
-          "50-59 J.",
-          0
-        ],
-        [
-          "60 J. u.m.",
-          2
-        ],
-        [
-          "Total",
-          2
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
+      "legendIndex": 9
     }
   ],
   "xAxis": {
@@ -636,7 +504,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "navigation": {
     "buttonOptions": {

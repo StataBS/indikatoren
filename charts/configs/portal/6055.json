@@ -258,19 +258,19 @@
       "data": [
         [
           2005,
-          null
+          undefined
         ],
         [
           2006,
-          null
+          undefined
         ],
         [
           2007,
-          null
+          undefined
         ],
         [
           2008,
-          null
+          undefined
         ],
         [
           2009,
@@ -411,7 +411,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "legend": {
     "enabled": true,
