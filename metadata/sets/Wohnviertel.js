@@ -2357,7 +2357,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Altstadt Grossbasel, 2018",
+		"subtitle": "Wohnviertel Altstadt Grossbasel, 2019",
 		"kuerzel": "I.01.1.06893",
 		"kuerzelKunde": "GS-01.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2367,7 +2367,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2396,7 +2396,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Vorstädte, 2018",
+		"subtitle": "Wohnviertel Vorstädte, 2019",
 		"kuerzel": "I.01.1.06894",
 		"kuerzelKunde": "GS-02.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2406,7 +2406,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2435,7 +2435,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Am Ring, 2018",
+		"subtitle": "Wohnviertel Am Ring, 2019",
 		"kuerzel": "I.01.1.06895",
 		"kuerzelKunde": "GS-03.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2445,13 +2445,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im  Wohnviertel am Ring mehr jüngere Männer. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel am Ring mehr jüngere Männer. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2474,7 +2474,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Breite, 2018",
+		"subtitle": "Wohnviertel Breite, 2019",
 		"kuerzel": "I.01.1.06915",
 		"kuerzelKunde": "GS-04.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2484,13 +2484,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Breite der Anteil der 65-Jährigen und Älteren etwas höher.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Breite vor allem die weibliche Bevölkerung etwas älter.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2513,7 +2513,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "St. Alban, 2018",
+		"subtitle": "Wohnviertel St. Alban, 2019",
 		"kuerzel": "I.01.1.06916",
 		"kuerzelKunde": "GS-05.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2523,7 +2523,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2552,7 +2552,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Gundeldingen, 2018",
+		"subtitle": "Wohnviertel Gundeldingen, 2019",
 		"kuerzel": "I.01.1.06917",
 		"kuerzelKunde": "GS-06.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2562,13 +2562,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 44-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer, das bedeutet, dass es weniger ältere Personen gibt.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 39-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2591,7 +2591,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bruderholz, 2018",
+		"subtitle": "Wohnviertel Bruderholz, 2019",
 		"kuerzel": "I.01.1.06918",
 		"kuerzelKunde": "GS-07.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2601,13 +2601,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe zwischen 40 und 54 Jahren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien im Wohnviertel wider.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe der 40-Jährigen und Älteren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien und von Senioren im Wohnviertel wider.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2630,7 +2630,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bachletten, 2018",
+		"subtitle": "Wohnviertel Bachletten, 2019",
 		"kuerzel": "I.01.1.06919",
 		"kuerzelKunde": "GS-08.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2640,13 +2640,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 55- bis 69-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 55- bis 64-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2669,7 +2669,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Gotthelf, 2018",
+		"subtitle": "Wohnviertel Gotthelf, 2019",
 		"kuerzel": "I.01.1.06920",
 		"kuerzelKunde": "GS-09.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2679,13 +2679,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gotthelf die Bevölkerung zwischen 20 und 24 Jahren sowie zwischen 35 und 39 Jahren weniger stark vertreten. Ansonsten ist die Altersverteilung ähnlich wie diejenige des Gesamtkantons.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Gotthelf die Bevölkerungsgruppen der unter 25-Jährigen und der 30- bis 44-Jährigen weniger stark vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2708,7 +2708,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Iselin, 2018",
+		"subtitle": "Wohnviertel Iselin, 2019",
 		"kuerzel": "I.01.1.06921",
 		"kuerzelKunde": "GS-10.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2718,13 +2718,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grösste Gruppe ist die Bevölkerung zwischen 25 und 29 Jahren. Nach oben nimmt die Pyramide bei den Männern stärker ab als bei den Frauen.",
+		"lesehilfe": "Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grössten Gruppen bilden die Personen zwischen 25 und 29 Jahren sowie zwischen 30 und 34 Jahren. Nach oben nimmt die Pyramide bei den Männern stärker ab als bei den Frauen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2747,7 +2747,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "St. Johann, 2018",
+		"subtitle": "Wohnviertel St. Johann, 2019",
 		"kuerzel": "I.01.1.06922",
 		"kuerzelKunde": "GS-11.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2757,13 +2757,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist  somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene für das Wohnviertel St. Johann  nach oben spitzer zu. Die Bevölkerung ist somit insgesamt etwas jünger. Der Ausländeranteil ist höher als im Gesamtkanton.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2786,7 +2786,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Altstadt Kleinbasel, 2018",
+		"subtitle": "Wohnviertel Altstadt Kleinbasel, 2019",
 		"kuerzel": "I.01.1.06923",
 		"kuerzelKunde": "GS-12.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2796,7 +2796,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:40:01.011",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2825,7 +2825,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Clara, 2018",
+		"subtitle": "Wohnviertel Clara, 2019",
 		"kuerzel": "I.01.1.06924",
 		"kuerzelKunde": "GS-13.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2835,13 +2835,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 75 Jahren ist der Anteil der Frauen höher als jener der Männer.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 70 Jahren ist der Anteil der Frauen höher als jener der Männer.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -2864,7 +2864,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wettstein, 2018",
+		"subtitle": "Wohnviertel Wettstein, 2019",
 		"kuerzel": "I.01.1.06925",
 		"kuerzelKunde": "GS-14.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2874,7 +2874,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:40:34.3434",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2903,7 +2903,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Hirzbrunnen, 2018",
+		"subtitle": "Wohnviertel Hirzbrunnen, 2019",
 		"kuerzel": "I.01.1.06926",
 		"kuerzelKunde": "GS-15.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2913,7 +2913,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2942,7 +2942,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Rosental, 2018",
+		"subtitle": "Wohnviertel Rosental, 2019",
 		"kuerzel": "I.01.1.06927",
 		"kuerzelKunde": "GS-16.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2952,7 +2952,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -2981,7 +2981,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Matthäus, 2018",
+		"subtitle": "Wohnviertel Matthäus, 2019",
 		"kuerzel": "I.01.1.06928",
 		"kuerzelKunde": "GS-17.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -2991,13 +2991,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus etwas spitzer nach oben zu, und die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 34 Jahren ist insbesondere bei den Frauen sehr stark vertreten.",
+		"lesehilfe": "Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Matthäus etwas spitzer nach oben zu, die Bevölkerung ist somit etwas jünger. Die Bevölkerungsgruppe zwischen 25 und 34 Jahren ist bei Frauen und Männern sehr stark vertreten.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -3020,7 +3020,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Klybeck, 2018",
+		"subtitle": "Wohnviertel Klybeck, 2019",
 		"kuerzel": "I.01.1.06929",
 		"kuerzelKunde": "GS-18.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3030,7 +3030,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
@@ -3059,7 +3059,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Kleinhüningen, 2018",
+		"subtitle": "Wohnviertel Kleinhüningen, 2019",
 		"kuerzel": "I.01.1.06930",
 		"kuerzelKunde": "GS-19.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3069,13 +3069,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-15T11:03:25.2525",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Kleinhüningen bei den Frauen die 20- bis 24-Jährigen und bei den Männern die 55- bis 59-Jährigen stärker vertreten. Kleiner als im Gesamtkanton sind hingegen die Altersgruppen der 30- bis 34-Jährigen bei den Frauen und der 35- bis 39-Jährigen bei den Männern.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind die Altersstrukturen der weiblichen und der männlichen Bevölkerung im Wohnviertel Kleinhüningen sehr unterschiedlich. Bei den Frauen sind die Fünfjahresgruppen zwischen 30 und 59 Jahren jeweils ähnlich gross. Bei den Männern zeigen sich hingegen deutliche Unterschiede. Die 30- bis 34-Jährigen und die 55- bis 59-Jährigen sind wesentlich zahlreicher als die 45- bis 49-Jährigen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -3098,7 +3098,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Riehen, 2018",
+		"subtitle": "Gemeinde Riehen, 2019",
 		"kuerzel": "I.01.1.06931",
 		"kuerzelKunde": "GS-20.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3109,13 +3109,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-05-15T11:04:02.022",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche stärker vertreten. Auch die Gruppe der Personen ab 45 Jahren wohnt anteilsmässig häufiger in Riehen als im Gesamtkanton.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons sind in der Gemeinde Riehen Kinder und Jugendliche stärker vertreten. Auch die Gruppe der Personen zwischen 45 und 59 Jahren wohnt anteilsmässig häufiger in Riehen als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien in der Gemeinde wider.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -3138,7 +3138,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Bettingen, 2018",
+		"subtitle": "Gemeinde Bettingen, 2019",
 		"kuerzel": "I.01.1.06932",
 		"kuerzelKunde": "GS-21.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
@@ -3149,7 +3149,7 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-05-10T15:41:22.2222",
+		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",

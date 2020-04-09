@@ -369,13 +369,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-06T16:46:18.1818",
+		"aktualisierungsdatum": "2020-04-08T16:55:47.4747",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit» . Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
 		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1080,7 +1080,7 @@ var indikatorensetData = [
 		"title": "Grünfläche pro Kopf",
 		"subtitle": "nach Wohnviertel, in m<sup>2</sup>, Basel-Stadt, 2019",
 		"kuerzel": "I.02.1.5198",
-		"kuerzelKunde": "GW20",
+		"kuerzelKunde": "GW19",
 		"description": "Grünfläche pro Kopf",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
@@ -1088,20 +1088,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-04T15:07:17.1717",
+		"aktualisierungsdatum": "2020-04-08T16:46:29.2929",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dichtbewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Bruderholz (197 m<sup>2</sup>), Hirzbrunnen (199 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 702 m<sup>2</sup>).",
+		"lesehilfe": "Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dichtbewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Bruderholz (197 m<sup>2</sup>), Hirzbrunnen (199 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 702 m<sup>2</sup>).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_06_00_00_00_320",
+		"orderKey": "03_07_00_00_00_320",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8912"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1207,13 +1209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:01:30.3030",
+		"aktualisierungsdatum": "2020-04-08T16:14:48.4848",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 GWh abgenommen. Der Rückgang verteilt sich annähernd gleichmässig auf die Energienutzer Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte bspw. 8,1% weniger Heizgradtage als das Jahr 2010.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2016 um 15,6% auf 4 668 GWh abgenommen. Der Rückgang verteilt sich annähernd gleichmässig auf die Energienutzer Wohnen und Nichtwohnen und ist primär der milden Witterung geschuldet. Das Jahr 2016 hatte bspw. 8,1% weniger Heizgradtage als das Jahr 2010.",
 		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übrig gebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1403,9 +1405,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:15:24.2424",
+		"aktualisierungsdatum": "2020-04-08T11:23:47.4747",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Infrastruktur",
+		"stufe2": "Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2837,9 +2839,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T12:00:40.4040",
+		"aktualisierungsdatum": "2020-04-08T11:23:24.2424",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Infrastruktur",
+		"stufe2": "Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
