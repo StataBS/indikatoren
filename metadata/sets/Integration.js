@@ -583,24 +583,24 @@ var indikatorensetData = [
 		"id": 6070
 	},
 	{
-		"title": "Anzahl Ausländer nach Art der Bewilligung",
+		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.6071",
 		"kuerzelKunde": "A3-1",
-		"description": "Anzahl Ausländer nach Art der Bewilligung",
+		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-21T13:06:39.3939",
+		"aktualisierungsdatum": "2020-04-09T10:47:20.2020",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Einwohner (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Ausländer besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendentiell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
+		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -609,9 +609,10 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"6656",
-			"7797",
 			"8255",
-			"8377"
+			"8377",
+			"8526",
+			"8952"
 		],
 		"renderLink": [],
 		"quellenangabe": [
