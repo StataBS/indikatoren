@@ -1,0 +1,1751 @@
+{
+  "series": [
+    {
+      "color": "#B375AB",
+      "visible": false,
+      "data": [
+        [
+          "01. Jan",
+          3850
+        ],
+        [
+          "02. Jan",
+          4982
+        ],
+        [
+          "03. Jan",
+          4964
+        ],
+        [
+          "04. Jan",
+          2503
+        ],
+        [
+          "05. Jan",
+          2398
+        ],
+        [
+          "06. Jan",
+          7700
+        ],
+        [
+          "07. Jan",
+          8158
+        ],
+        [
+          "08. Jan",
+          7188
+        ],
+        [
+          "09. Jan",
+          7504
+        ],
+        [
+          "10. Jan",
+          6887
+        ],
+        [
+          "11. Jan",
+          3177
+        ],
+        [
+          "12. Jan",
+          1953
+        ],
+        [
+          "13. Jan",
+          7577
+        ],
+        [
+          "14. Jan",
+          8576
+        ],
+        [
+          "15. Jan",
+          8349
+        ],
+        [
+          "16. Jan",
+          8223
+        ],
+        [
+          "17. Jan",
+          7834
+        ],
+        [
+          "18. Jan",
+          3721
+        ],
+        [
+          "19. Jan",
+          2451
+        ],
+        [
+          "20. Jan",
+          7650
+        ],
+        [
+          "21. Jan",
+          8106
+        ],
+        [
+          "22. Jan",
+          6947
+        ],
+        [
+          "23. Jan",
+          7602
+        ],
+        [
+          "24. Jan",
+          6887
+        ],
+        [
+          "25. Jan",
+          3522
+        ],
+        [
+          "26. Jan",
+          2451
+        ],
+        [
+          "27. Jan",
+          7430
+        ],
+        [
+          "28. Jan",
+          8349
+        ],
+        [
+          "29. Jan",
+          7971
+        ],
+        [
+          "30. Jan",
+          6830
+        ],
+        [
+          "31. Jan",
+          5710
+        ],
+        [
+          "01. Feb",
+          3628
+        ],
+        [
+          "02. Feb",
+          2176
+        ],
+        [
+          "03. Feb",
+          7530
+        ],
+        [
+          "04. Feb",
+          8106
+        ],
+        [
+          "05. Feb",
+          7896
+        ],
+        [
+          "06. Feb",
+          6952
+        ],
+        [
+          "07. Feb",
+          7249
+        ],
+        [
+          "08. Feb",
+          3879
+        ],
+        [
+          "09. Feb",
+          2214
+        ],
+        [
+          "10. Feb",
+          7169
+        ],
+        [
+          "11. Feb",
+          8223
+        ],
+        [
+          "12. Feb",
+          8494
+        ],
+        [
+          "13. Feb",
+          8838
+        ],
+        [
+          "14. Feb",
+          7930
+        ],
+        [
+          "15. Feb",
+          4715
+        ],
+        [
+          "16. Feb",
+          4133
+        ],
+        [
+          "17. Feb",
+          9039
+        ],
+        [
+          "18. Feb",
+          9578
+        ],
+        [
+          "19. Feb",
+          9472
+        ],
+        [
+          "20. Feb",
+          9727
+        ],
+        [
+          "21. Feb",
+          8580
+        ],
+        [
+          "22. Feb",
+          4908
+        ],
+        [
+          "23. Feb",
+          3972
+        ],
+        [
+          "24. Feb",
+          9183
+        ],
+        [
+          "25. Feb",
+          9918
+        ],
+        [
+          "26. Feb",
+          10172
+        ],
+        [
+          "27. Feb",
+          10155
+        ],
+        [
+          "28. Feb",
+          null
+        ],
+        [
+          "29. Feb",
+          6218
+        ],
+        [
+          "01. Mrz",
+          3838
+        ],
+        [
+          "02. Mrz",
+          3245
+        ],
+        [
+          "03. Mrz",
+          5834
+        ],
+        [
+          "04. Mrz",
+          7340
+        ],
+        [
+          "05. Mrz",
+          7600
+        ],
+        [
+          "06. Mrz",
+          6837
+        ],
+        [
+          "07. Mrz",
+          6792
+        ],
+        [
+          "08. Mrz",
+          3151
+        ],
+        [
+          "09. Mrz",
+          2282
+        ],
+        [
+          "10. Mrz",
+          2495
+        ],
+        [
+          "11. Mrz",
+          5485
+        ],
+        [
+          "12. Mrz",
+          2825
+        ],
+        [
+          "13. Mrz",
+          5009
+        ],
+        [
+          "14. Mrz",
+          4648
+        ],
+        [
+          "15. Mrz",
+          4123
+        ],
+        [
+          "16. Mrz",
+          2675
+        ],
+        [
+          "17. Mrz",
+          8535
+        ],
+        [
+          "18. Mrz",
+          9340
+        ],
+        [
+          "19. Mrz",
+          9718
+        ],
+        [
+          "20. Mrz",
+          9719
+        ],
+        [
+          "21. Mrz",
+          9324
+        ],
+        [
+          "22. Mrz",
+          5636
+        ],
+        [
+          "23. Mrz",
+          4670
+        ],
+        [
+          "24. Mrz",
+          9314
+        ],
+        [
+          "25. Mrz",
+          10142
+        ],
+        [
+          "26. Mrz",
+          9512
+        ],
+        [
+          "27. Mrz",
+          10380
+        ],
+        [
+          "28. Mrz",
+          10273
+        ],
+        [
+          "29. Mrz",
+          10273
+        ],
+        [
+          "30. Mrz",
+          6182
+        ],
+        [
+          "31. Mrz",
+          5090
+        ],
+        [
+          "01. Apr",
+          10496
+        ],
+        [
+          "02. Apr",
+          11128
+        ],
+        [
+          "03. Apr",
+          7451
+        ],
+        [
+          "04. Apr",
+          5809
+        ],
+        [
+          "05. Apr",
+          8962
+        ],
+        [
+          "06. Apr",
+          5489
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71A3B5",
+      "visible": false,
+      "data": [
+        [
+          "01. Jan",
+          3586
+        ],
+        [
+          "02. Jan",
+          4310
+        ],
+        [
+          "03. Jan",
+          2956
+        ],
+        [
+          "04. Jan",
+          2848
+        ],
+        [
+          "05. Jan",
+          8002
+        ],
+        [
+          "06. Jan",
+          8669
+        ],
+        [
+          "07. Jan",
+          9002
+        ],
+        [
+          "08. Jan",
+          9450
+        ],
+        [
+          "09. Jan",
+          8574
+        ],
+        [
+          "10. Jan",
+          4390
+        ],
+        [
+          "11. Jan",
+          3173
+        ],
+        [
+          "12. Jan",
+          9172
+        ],
+        [
+          "13. Jan",
+          9579
+        ],
+        [
+          "14. Jan",
+          9776
+        ],
+        [
+          "15. Jan",
+          9987
+        ],
+        [
+          "16. Jan",
+          7995
+        ],
+        [
+          "17. Jan",
+          4518
+        ],
+        [
+          "18. Jan",
+          2960
+        ],
+        [
+          "19. Jan",
+          8701
+        ],
+        [
+          "20. Jan",
+          9289
+        ],
+        [
+          "21. Jan",
+          8792
+        ],
+        [
+          "22. Jan",
+          8951
+        ],
+        [
+          "23. Jan",
+          7933
+        ],
+        [
+          "24. Jan",
+          4267
+        ],
+        [
+          "25. Jan",
+          2910
+        ],
+        [
+          "26. Jan",
+          8408
+        ],
+        [
+          "27. Jan",
+          7305
+        ],
+        [
+          "28. Jan",
+          7451
+        ],
+        [
+          "29. Jan",
+          8677
+        ],
+        [
+          "30. Jan",
+          8291
+        ],
+        [
+          "31. Jan",
+          3971
+        ],
+        [
+          "01. Feb",
+          2589
+        ],
+        [
+          "02. Feb",
+          7282
+        ],
+        [
+          "03. Feb",
+          7162
+        ],
+        [
+          "04. Feb",
+          8786
+        ],
+        [
+          "05. Feb",
+          9137
+        ],
+        [
+          "06. Feb",
+          7923
+        ],
+        [
+          "07. Feb",
+          4107
+        ],
+        [
+          "08. Feb",
+          3170
+        ],
+        [
+          "09. Feb",
+          5169
+        ],
+        [
+          "10. Feb",
+          6969
+        ],
+        [
+          "11. Feb",
+          8667
+        ],
+        [
+          "12. Feb",
+          7778
+        ],
+        [
+          "13. Feb",
+          7662
+        ],
+        [
+          "14. Feb",
+          4752
+        ],
+        [
+          "15. Feb",
+          3812
+        ],
+        [
+          "16. Feb",
+          7828
+        ],
+        [
+          "17. Feb",
+          9656
+        ],
+        [
+          "18. Feb",
+          8661
+        ],
+        [
+          "19. Feb",
+          10405
+        ],
+        [
+          "20. Feb",
+          8685
+        ],
+        [
+          "21. Feb",
+          4294
+        ],
+        [
+          "22. Feb",
+          2990
+        ],
+        [
+          "23. Feb",
+          7837
+        ],
+        [
+          "24. Feb",
+          7281
+        ],
+        [
+          "25. Feb",
+          6317
+        ],
+        [
+          "26. Feb",
+          6132
+        ],
+        [
+          "27. Feb",
+          6710
+        ],
+        [
+          "28. Feb",
+          undefined
+        ],
+        [
+          "29. Feb",
+          2769
+        ],
+        [
+          "01. Mrz",
+          3823
+        ],
+        [
+          "02. Mrz",
+          6345
+        ],
+        [
+          "03. Mrz",
+          6510
+        ],
+        [
+          "04. Mrz",
+          4870
+        ],
+        [
+          "05. Mrz",
+          5483
+        ],
+        [
+          "06. Mrz",
+          3539
+        ],
+        [
+          "07. Mrz",
+          3188
+        ],
+        [
+          "08. Mrz",
+          8065
+        ],
+        [
+          "09. Mrz",
+          7066
+        ],
+        [
+          "10. Mrz",
+          9588
+        ],
+        [
+          "11. Mrz",
+          9175
+        ],
+        [
+          "12. Mrz",
+          8386
+        ],
+        [
+          "13. Mrz",
+          4001
+        ],
+        [
+          "14. Mrz",
+          3747
+        ],
+        [
+          "15. Mrz",
+          7751
+        ],
+        [
+          "16. Mrz",
+          6049
+        ],
+        [
+          "17. Mrz",
+          5935
+        ],
+        [
+          "18. Mrz",
+          5638
+        ],
+        [
+          "19. Mrz",
+          5030
+        ],
+        [
+          "20. Mrz",
+          1981
+        ],
+        [
+          "21. Mrz",
+          2006
+        ],
+        [
+          "22. Mrz",
+          4217
+        ],
+        [
+          "23. Mrz",
+          4342
+        ],
+        [
+          "24. Mrz",
+          4331
+        ],
+        [
+          "25. Mrz",
+          4353
+        ],
+        [
+          "26. Mrz",
+          4590
+        ],
+        [
+          "27. Mrz",
+          3296
+        ],
+        [
+          "28. Mrz",
+          1325
+        ],
+        [
+          "29. Mrz",
+          1325
+        ],
+        [
+          "30. Mrz",
+          3719
+        ],
+        [
+          "31. Mrz",
+          4521
+        ],
+        [
+          "01. Apr",
+          4831
+        ],
+        [
+          "02. Apr",
+          5011
+        ],
+        [
+          "03. Apr",
+          4920
+        ],
+        [
+          "04. Apr",
+          3330
+        ],
+        [
+          "05. Apr",
+          3365
+        ],
+        [
+          "06. Apr",
+          5063
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "01. Jan",
+          null
+        ],
+        [
+          "02. Jan",
+          null
+        ],
+        [
+          "03. Jan",
+          null
+        ],
+        [
+          "04. Jan",
+          4044
+        ],
+        [
+          "05. Jan",
+          4936
+        ],
+        [
+          "06. Jan",
+          5413
+        ],
+        [
+          "07. Jan",
+          5774
+        ],
+        [
+          "08. Jan",
+          6048
+        ],
+        [
+          "09. Jan",
+          6145
+        ],
+        [
+          "10. Jan",
+          6081
+        ],
+        [
+          "11. Jan",
+          6063
+        ],
+        [
+          "12. Jan",
+          6123
+        ],
+        [
+          "13. Jan",
+          6289
+        ],
+        [
+          "14. Jan",
+          6392
+        ],
+        [
+          "15. Jan",
+          6527
+        ],
+        [
+          "16. Jan",
+          6605
+        ],
+        [
+          "17. Jan",
+          6676
+        ],
+        [
+          "18. Jan",
+          6686
+        ],
+        [
+          "19. Jan",
+          6619
+        ],
+        [
+          "20. Jan",
+          6419
+        ],
+        [
+          "21. Jan",
+          6330
+        ],
+        [
+          "22. Jan",
+          6195
+        ],
+        [
+          "23. Jan",
+          6166
+        ],
+        [
+          "24. Jan",
+          6166
+        ],
+        [
+          "25. Jan",
+          6135
+        ],
+        [
+          "26. Jan",
+          6170
+        ],
+        [
+          "27. Jan",
+          6316
+        ],
+        [
+          "28. Jan",
+          6206
+        ],
+        [
+          "29. Jan",
+          6038
+        ],
+        [
+          "30. Jan",
+          6053
+        ],
+        [
+          "31. Jan",
+          6013
+        ],
+        [
+          "01. Feb",
+          6028
+        ],
+        [
+          "02. Feb",
+          5993
+        ],
+        [
+          "03. Feb",
+          5982
+        ],
+        [
+          "04. Feb",
+          6000
+        ],
+        [
+          "05. Feb",
+          6220
+        ],
+        [
+          "06. Feb",
+          6255
+        ],
+        [
+          "07. Feb",
+          6261
+        ],
+        [
+          "08. Feb",
+          6209
+        ],
+        [
+          "09. Feb",
+          6226
+        ],
+        [
+          "10. Feb",
+          6311
+        ],
+        [
+          "11. Feb",
+          6581
+        ],
+        [
+          "12. Feb",
+          6678
+        ],
+        [
+          "13. Feb",
+          6798
+        ],
+        [
+          "14. Feb",
+          7072
+        ],
+        [
+          "15. Feb",
+          7339
+        ],
+        [
+          "16. Feb",
+          7532
+        ],
+        [
+          "17. Feb",
+          7672
+        ],
+        [
+          "18. Feb",
+          7799
+        ],
+        [
+          "19. Feb",
+          7892
+        ],
+        [
+          "20. Feb",
+          7920
+        ],
+        [
+          "21. Feb",
+          7897
+        ],
+        [
+          "22. Feb",
+          7917
+        ],
+        [
+          "23. Feb",
+          7966
+        ],
+        [
+          "24. Feb",
+          8066
+        ],
+        [
+          "25. Feb",
+          8127
+        ],
+        [
+          "26. Feb",
+          7789
+        ],
+        [
+          "27. Feb",
+          7637
+        ],
+        [
+          "28. Feb",
+          undefined
+        ],
+        [
+          "29. Feb",
+          null
+        ],
+        [
+          "01. Mrz",
+          7054
+        ],
+        [
+          "02. Mrz",
+          6686
+        ],
+        [
+          "03. Mrz",
+          6319
+        ],
+        [
+          "04. Mrz",
+          5845
+        ],
+        [
+          "05. Mrz",
+          5927
+        ],
+        [
+          "06. Mrz",
+          5828
+        ],
+        [
+          "07. Mrz",
+          5691
+        ],
+        [
+          "08. Mrz",
+          5214
+        ],
+        [
+          "09. Mrz",
+          4949
+        ],
+        [
+          "10. Mrz",
+          4267
+        ],
+        [
+          "11. Mrz",
+          4006
+        ],
+        [
+          "12. Mrz",
+          3699
+        ],
+        [
+          "13. Mrz",
+          3838
+        ],
+        [
+          "14. Mrz",
+          3894
+        ],
+        [
+          "15. Mrz",
+          4757
+        ],
+        [
+          "16. Mrz",
+          5308
+        ],
+        [
+          "17. Mrz",
+          6293
+        ],
+        [
+          "18. Mrz",
+          6965
+        ],
+        [
+          "19. Mrz",
+          7633
+        ],
+        [
+          "20. Mrz",
+          7850
+        ],
+        [
+          "21. Mrz",
+          8135
+        ],
+        [
+          "22. Mrz",
+          8246
+        ],
+        [
+          "23. Mrz",
+          8360
+        ],
+        [
+          "24. Mrz",
+          8331
+        ],
+        [
+          "25. Mrz",
+          8425
+        ],
+        [
+          "26. Mrz",
+          8561
+        ],
+        [
+          "27. Mrz",
+          8639
+        ],
+        [
+          "28. Mrz",
+          8699
+        ],
+        [
+          "29. Mrz",
+          8868
+        ],
+        [
+          "30. Mrz",
+          9009
+        ],
+        [
+          "31. Mrz",
+          8714
+        ],
+        [
+          "01. Apr",
+          8061
+        ],
+        [
+          "02. Apr",
+          7874
+        ],
+        [
+          "03. Apr",
+          7775
+        ],
+        [
+          "04. Apr",
+          null
+        ],
+        [
+          "05. Apr",
+          null
+        ],
+        [
+          "06. Apr",
+          null
+        ]
+      ],
+      "name": "gleitender Durchschnitt 2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "01. Jan",
+          undefined
+        ],
+        [
+          "02. Jan",
+          undefined
+        ],
+        [
+          "03. Jan",
+          undefined
+        ],
+        [
+          "04. Jan",
+          4614
+        ],
+        [
+          "05. Jan",
+          5625
+        ],
+        [
+          "06. Jan",
+          6462
+        ],
+        [
+          "07. Jan",
+          7072
+        ],
+        [
+          "08. Jan",
+          7276
+        ],
+        [
+          "09. Jan",
+          7323
+        ],
+        [
+          "10. Jan",
+          7490
+        ],
+        [
+          "11. Jan",
+          7620
+        ],
+        [
+          "12. Jan",
+          7731
+        ],
+        [
+          "13. Jan",
+          7807
+        ],
+        [
+          "14. Jan",
+          7725
+        ],
+        [
+          "15. Jan",
+          7743
+        ],
+        [
+          "16. Jan",
+          7712
+        ],
+        [
+          "17. Jan",
+          7645
+        ],
+        [
+          "18. Jan",
+          7604
+        ],
+        [
+          "19. Jan",
+          7463
+        ],
+        [
+          "20. Jan",
+          7315
+        ],
+        [
+          "21. Jan",
+          7306
+        ],
+        [
+          "22. Jan",
+          7270
+        ],
+        [
+          "23. Jan",
+          7263
+        ],
+        [
+          "24. Jan",
+          7221
+        ],
+        [
+          "25. Jan",
+          6938
+        ],
+        [
+          "26. Jan",
+          6746
+        ],
+        [
+          "27. Jan",
+          6707
+        ],
+        [
+          "28. Jan",
+          6758
+        ],
+        [
+          "29. Jan",
+          6716
+        ],
+        [
+          "30. Jan",
+          6670
+        ],
+        [
+          "31. Jan",
+          6509
+        ],
+        [
+          "01. Feb",
+          6489
+        ],
+        [
+          "02. Feb",
+          6680
+        ],
+        [
+          "03. Feb",
+          6745
+        ],
+        [
+          "04. Feb",
+          6693
+        ],
+        [
+          "05. Feb",
+          6712
+        ],
+        [
+          "06. Feb",
+          6795
+        ],
+        [
+          "07. Feb",
+          6493
+        ],
+        [
+          "08. Feb",
+          6466
+        ],
+        [
+          "09. Feb",
+          6449
+        ],
+        [
+          "10. Feb",
+          6255
+        ],
+        [
+          "11. Feb",
+          6217
+        ],
+        [
+          "12. Feb",
+          6310
+        ],
+        [
+          "13. Feb",
+          6401
+        ],
+        [
+          "14. Feb",
+          6781
+        ],
+        [
+          "15. Feb",
+          7165
+        ],
+        [
+          "16. Feb",
+          7164
+        ],
+        [
+          "17. Feb",
+          7539
+        ],
+        [
+          "18. Feb",
+          7686
+        ],
+        [
+          "19. Feb",
+          7620
+        ],
+        [
+          "20. Feb",
+          7503
+        ],
+        [
+          "21. Feb",
+          7504
+        ],
+        [
+          "22. Feb",
+          7165
+        ],
+        [
+          "23. Feb",
+          6830
+        ],
+        [
+          "24. Feb",
+          6219
+        ],
+        [
+          "25. Feb",
+          5937
+        ],
+        [
+          "26. Feb",
+          5722
+        ],
+        [
+          "27. Feb",
+          5691
+        ],
+        [
+          "28. Feb",
+          undefined
+        ],
+        [
+          "29. Feb",
+          undefined
+        ],
+        [
+          "01. Mrz",
+          5011
+        ],
+        [
+          "02. Mrz",
+          4831
+        ],
+        [
+          "03. Mrz",
+          4655
+        ],
+        [
+          "04. Mrz",
+          4763
+        ],
+        [
+          "05. Mrz",
+          4823
+        ],
+        [
+          "06. Mrz",
+          5429
+        ],
+        [
+          "07. Mrz",
+          5532
+        ],
+        [
+          "08. Mrz",
+          5971
+        ],
+        [
+          "09. Mrz",
+          6586
+        ],
+        [
+          "10. Mrz",
+          7001
+        ],
+        [
+          "11. Mrz",
+          7067
+        ],
+        [
+          "12. Mrz",
+          7147
+        ],
+        [
+          "13. Mrz",
+          7102
+        ],
+        [
+          "14. Mrz",
+          6957
+        ],
+        [
+          "15. Mrz",
+          6435
+        ],
+        [
+          "16. Mrz",
+          5930
+        ],
+        [
+          "17. Mrz",
+          5450
+        ],
+        [
+          "18. Mrz",
+          5162
+        ],
+        [
+          "19. Mrz",
+          4913
+        ],
+        [
+          "20. Mrz",
+          4408
+        ],
+        [
+          "21. Mrz",
+          4164
+        ],
+        [
+          "22. Mrz",
+          3935
+        ],
+        [
+          "23. Mrz",
+          3751
+        ],
+        [
+          "24. Mrz",
+          3689
+        ],
+        [
+          "25. Mrz",
+          3876
+        ],
+        [
+          "26. Mrz",
+          3779
+        ],
+        [
+          "27. Mrz",
+          3708
+        ],
+        [
+          "28. Mrz",
+          3734
+        ],
+        [
+          "29. Mrz",
+          3805
+        ],
+        [
+          "30. Mrz",
+          3899
+        ],
+        [
+          "31. Mrz",
+          3946
+        ],
+        [
+          "01. Apr",
+          3951
+        ],
+        [
+          "02. Apr",
+          4242
+        ],
+        [
+          "03. Apr",
+          4434
+        ],
+        [
+          "04. Apr",
+          undefined
+        ],
+        [
+          "05. Apr",
+          undefined
+        ],
+        [
+          "06. Apr",
+          undefined
+        ]
+      ],
+      "name": "gleitender Durchschnitt 2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 5
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8983"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Veloverkehr"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Zählstelle Wettsteinbrücke",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 2000
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-15"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8983
+  }
+}

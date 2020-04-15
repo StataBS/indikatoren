@@ -160,6 +160,10 @@
         [
           1514764800000,
           10567
+        ],
+        [
+          1546300800000,
+          10493
         ]
       ],
       "name": "Schweiz",
@@ -324,6 +328,10 @@
         [
           1514764800000,
           1473
+        ],
+        [
+          1546300800000,
+          1507
         ]
       ],
       "name": "Deutschland",
@@ -488,6 +496,10 @@
         [
           1514764800000,
           915
+        ],
+        [
+          1546300800000,
+          901
         ]
       ],
       "name": "Italien",
@@ -652,6 +664,10 @@
         [
           1514764800000,
           893
+        ],
+        [
+          1546300800000,
+          828
         ]
       ],
       "name": "Türkei",
@@ -816,6 +832,10 @@
         [
           1514764800000,
           519
+        ],
+        [
+          1546300800000,
+          500
         ]
       ],
       "name": "Spanien",
@@ -980,6 +1000,10 @@
         [
           1514764800000,
           685
+        ],
+        [
+          1546300800000,
+          652
         ]
       ],
       "name": "Portugal",
@@ -1144,6 +1168,10 @@
         [
           1514764800000,
           245
+        ],
+        [
+          1546300800000,
+          227
         ]
       ],
       "name": "Nordmazedonien",
@@ -1307,6 +1335,10 @@
         ],
         [
           1514764800000,
+          0
+        ],
+        [
+          1546300800000,
           0
         ]
       ],
@@ -1472,6 +1504,10 @@
         [
           1514764800000,
           528
+        ],
+        [
+          1546300800000,
+          518
         ]
       ],
       "name": "Serbien, Montenegro, Kosovo",
@@ -1635,6 +1671,10 @@
         ],
         [
           1514764800000,
+          96
+        ],
+        [
+          1546300800000,
           96
         ]
       ],
@@ -1800,6 +1840,10 @@
         [
           1514764800000,
           25
+        ],
+        [
+          1546300800000,
+          28
         ]
       ],
       "name": "Slowenien",
@@ -1964,6 +2008,10 @@
         [
           1514764800000,
           112
+        ],
+        [
+          1546300800000,
+          111
         ]
       ],
       "name": "Kroatien",
@@ -2128,6 +2176,10 @@
         [
           1514764800000,
           180
+        ],
+        [
+          1546300800000,
+          164
         ]
       ],
       "name": "UK",
@@ -2292,6 +2344,10 @@
         [
           1514764800000,
           191
+        ],
+        [
+          1546300800000,
+          197
         ]
       ],
       "name": "Frankreich",
@@ -2456,6 +2512,10 @@
         [
           1514764800000,
           168
+        ],
+        [
+          1546300800000,
+          159
         ]
       ],
       "name": "Indien",
@@ -2620,6 +2680,10 @@
         [
           1514764800000,
           127
+        ],
+        [
+          1546300800000,
+          118
         ]
       ],
       "name": "USA",
@@ -2784,6 +2848,10 @@
         [
           1514764800000,
           115
+        ],
+        [
+          1546300800000,
+          110
         ]
       ],
       "name": "Österreich",
@@ -2948,6 +3016,10 @@
         [
           1514764800000,
           118
+        ],
+        [
+          1546300800000,
+          120
         ]
       ],
       "name": "Polen",
@@ -3112,6 +3184,10 @@
         [
           1514764800000,
           80
+        ],
+        [
+          1546300800000,
+          88
         ]
       ],
       "name": "Ungarn",
@@ -3276,6 +3352,10 @@
         [
           1514764800000,
           1647
+        ],
+        [
+          1546300800000,
+          1685
         ]
       ],
       "name": "Übrige Länder",
@@ -3440,6 +3520,10 @@
         [
           1514764800000,
           1514764800000
+        ],
+        [
+          1546300800000,
+          1546300800000
         ]
       ],
       "turboThreshold": 0
@@ -3577,7 +3661,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-15"
   },
   "legend": {
     "symbolRadius": 0,
@@ -3592,11 +3676,11 @@
     "margin": 5,
     "padding": 5,
     "itemMarginBottom": 0,
-    "labelFormatter": function(){
-          return this.name
-            .replace("Bosnien-", "Bosnien-<br/>")
-            .replace("Montenegro", "Monte-<br/>negro");
-        }
+    "labelFormatter": function () {
+        return this.name
+          .replace("Bosnien-", "Bosnien-<br/>")
+          .replace("Montenegro", "Monte-<br/>negro");
+      }
   },
   "rangeSelector": {
     "verticalAlign": "bottom",
@@ -3624,7 +3708,7 @@
     ],
     "buttonSpacing": 15,
     "inputEnabled": false,
-    "selected": 1,
+    "selected": 0,
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
   },
@@ -3644,18 +3728,18 @@
     "shared": true,
     "split": false,
     "reversed": false,
-    "pointFormatter": function(){
-           //console.log(this);
-           return (this.y > 0 ? '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b><br/>': "");
-         },
+    "pointFormatter": function () {
+        //console.log(this);
+        return (this.y > 0 ? '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b><br/>' : "");
+      },
     "_formatter": function () {
-            var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
-            //suppress tooltip if value equals 0
-            console.log(this.y);
-            console.log(this);
-            return s;
-            //return (this.y > 0 ? s : false);
-         }
+        var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
+        //suppress tooltip if value equals 0
+        console.log(this.y);
+        console.log(this);
+        return s;
+        //return (this.y > 0 ? s : false);
+      }
   },
   "exporting": {
     "csv": {
