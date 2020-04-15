@@ -910,7 +910,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
+		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
