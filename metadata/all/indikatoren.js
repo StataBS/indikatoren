@@ -7084,7 +7084,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
@@ -7094,14 +7094,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-10T11:54:22.2222",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
-		"erlaeuterungen": "Der Altersquotient ergibt sich aus dem Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -7174,7 +7174,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
@@ -7184,14 +7184,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:08:37.3737",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -9664,7 +9664,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.05116",
 		"kuerzelKunde": "GS-8.B",
 		"description": "Jugendquotient",
@@ -9674,14 +9674,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-25T15:41:34.3434",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -13178,7 +13178,7 @@ var indikatoren = [
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
 		"kuerzel": "I.02.12.06033",
-		"kuerzelKunde": "NL12",
+		"kuerzelKunde": "NL11",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
@@ -13186,14 +13186,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T17:03:31.3131",
+		"aktualisierungsdatum": "2020-04-15T14:09:52.5252",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 31 Hitzetage verzeichnet. Das Maximum innerhalb des dargestellten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
+		"lesehilfe": "Im Jahr 2019 wurden 25 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14412,9 +14412,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 1999",
+		"subtitle": "Basel-Stadt, 2000",
 		"kuerzel": "I.01.1.6064",
-		"kuerzelKunde": "A2-2",
+		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14422,23 +14422,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:30:16.1616",
+		"aktualisierungsdatum": "2020-04-15T14:07:50.5050",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 1999 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
+		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 2000 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_012",
+		"orderKey": "01_00_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"6649",
-			"7790"
+			"6649"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14455,9 +14454,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 1999",
+		"subtitle": "Basel-Stadt, 2000",
 		"kuerzel": "I.01.1.6065",
-		"kuerzelKunde": "A2-4",
+		"kuerzelKunde": "A2-6",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14465,23 +14464,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:31:17.1717",
+		"aktualisierungsdatum": "2020-04-15T14:08:02.022",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grössten Altersgruppen sind 1999 diejenigen der 30- bis 34-jährigen Männer und Frauen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"lesehilfe": "Die grössten Altersgruppen sind 2000 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen der 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_014",
+		"orderKey": "01_00_00_00_00_206",
 		"parentId": null,
 		"children": [
-			"6650",
-			"7791"
+			"6650"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14498,9 +14496,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6066",
-		"kuerzelKunde": "A2-3",
+		"kuerzelKunde": "A2-5",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14508,23 +14506,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:32:59.5959",
+		"aktualisierungsdatum": "2020-04-15T14:08:12.1212",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 1999 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und 55- bis 59-Jährigen.",
+		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2000 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_013",
+		"orderKey": "01_00_00_00_00_205",
 		"parentId": null,
 		"children": [
-			"6651",
-			"7792"
+			"6651"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14541,9 +14538,9 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.6067",
-		"kuerzelKunde": "A2-5",
+		"kuerzelKunde": "A2-7",
 		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
@@ -14551,23 +14548,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T09:35:11.1111",
+		"aktualisierungsdatum": "2020-04-15T14:08:20.2020",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei den ausländischen Männern ist die Altersgruppe der 35- bis 39-Jährigen am grössten. Bei den Ausländerinnen bilden die 30- bis 34-Jährigen die grösste Gruppe.",
+		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei Männern und Frauen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_015",
+		"orderKey": "01_00_00_00_00_207",
 		"parentId": null,
 		"children": [
-			"6652",
-			"7793"
+			"6652"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14594,14 +14590,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:10:14.1414",
+		"aktualisierungsdatum": "2020-04-15T14:09:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 liegt der Jugendquotient der Schweizer bei 28,4. Deutlich höhere Jugendquotienten ergeben sich 2018 für Personen aus arabischen (43,0) und afrikanischen Ländern (42,5) sowie für Personen aus dem Balkan (31,3). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland  sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 1999 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "2019 liegt der Jugendquotient der Schweizer bei 28,3. Deutlich höhere Jugendquotienten ergeben sich 2019 für Personen aus arabischen (42,5) und afrikanischen Ländern (42,4) sowie für Personen aus dem Balkan (31,1). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2000 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14609,8 +14605,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"6653",
-			"7794"
+			"6653"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -14637,14 +14632,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:07:35.3535",
+		"aktualisierungsdatum": "2020-04-15T14:09:22.2222",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 weisen Schweizer (45,3) und Italiener (32,2) die weitaus höchsten Altersquotienten auf. Am wenigsten 65-Jährige und Ältere pro 100 Personen zwischen 20 und 64 Jahren gibt es bei den Afrikanern (1,4). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit 1999.",
-		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "2019 weisen Schweizer (45,2) und Italiener (32,3) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanern (1,8). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit dem Jahr 2000.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14652,8 +14647,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_203",
 		"parentId": null,
 		"children": [
-			"6654",
-			"7795"
+			"6654"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16731,14 +16725,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:57:40.4040",
+		"aktualisierungsdatum": "2020-04-15T14:09:37.3737",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeits&shy;stufen&shy;plan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Einwohner, an deren Wohnort die nächtliche Lärmbelastung über dem Grenzwert liegt, betrug 2010 18,5%. Bei 10,0% wurden die entsprechenden Tagesgrenzwerte überschritten.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.&nbsp;B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16748,7 +16742,8 @@ var indikatoren = [
 		"children": [
 			"4269",
 			"5197",
-			"6311"
+			"6311",
+			"8911"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18126,7 +18121,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3a",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
@@ -18136,7 +18131,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:38:41.4141",
+		"aktualisierungsdatum": "2020-04-14T12:47:15.1515",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -19101,8 +19096,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Stand: 2017",
-		"kuerzel": "I.01.9.6260",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"kuerzel": "I.01.9.06260",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"thema": "01 Bevölkerung",
@@ -19111,29 +19106,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "",
+		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href=\"http://www.statistik.bs.ch/zahlen/analysen/bevoelkerungsszenarien.html\" target=\"_blank\">Internetseite des Statistischen Amtes</a>.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001_print",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "02_04_00_00_00_004",
 		"parentId": 6215,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
 		],
-		"id": 6260,
-		"darstellungsart": "Grafik"
+		"data-id": 6260,
+		"chart-id": 6260,
+		"filter": "",
+		"id": 6260
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten und Angeboten am Wohnort",
@@ -36391,14 +36390,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-26T09:10:31.3131",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner. Letztere haben in keinem anderen Wohnviertel einen so hohen Anteil. Personen aus den Balkanländern und aus Indien sind weniger vertreten als im kantonalen Durchschnitt.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.<br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Grossbasel mehr Franzosen, Briten und US-Amerikaner. Letztere haben in keinem anderen Wohnviertel einen so hohen Anteil. Alle anderen Nationen sind weniger vertreten als im kantonalen Durchschnitt.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.<br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36431,14 +36430,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:33:34.3434",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Vorstädte weniger Türken und Personen aus den Balkanländern. US-Amerikaner, Briten und Franzosen sind stärker vertreten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Vorstädte weniger Türken, Portugiesen und Personen aus den Balkanländern. US-Amerikaner, Briten und Franzosen sind stärker vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36471,14 +36470,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Am Ring weniger Türken. Wie im Gesamtkanton stellen  Deutsche die grösste Bevölkerungsgruppe dar.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Am Ring weniger Türken, Portugiesen und Personen aus den Balkanländern. US-Amerikaner, Briten und Franzosen sind stärker vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36511,14 +36510,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Personen mit polnischer Staatsbürgerschaft ist im Wohnviertel Breite höher als im  kantonalen Durchschnitt. Kleiner fallen hingegen die Anteile bei den US-Amerikanern, Briten, Franzosen und Deutschen aus. Letztere bilden - wie im gesamten Kanton - die grösste ausländische Bevölkerungsgruppe im Wohnviertel.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Der Anteil Personen mit polnischer Staatsbürgerschaft ist im Wohnviertel Breite höher als im  kantonalen Durchschnitt. Kleiner fallen hingegen die Anteile bei den US-Amerikanern, Briten, Franzosen, Indern und Deutschen aus. Letztere bilden dennoch - wie im gesamten Kanton - die grösste ausländische Bevölkerungsgruppe im Wohnviertel.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36551,14 +36550,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im  Wohnviertel St. Alban mehr Franzosen, Briten und US-Amerikaner. Personen aus den Balkanländern sind hingegen vergleichsweise weniger vertreten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im  Wohnviertel St. Alban mehr Franzosen, Briten und US-Amerikaner. Personen aus den Balkanländern sind hingegen vergleichsweise weniger vertreten, genauso wie Deutsche, Türken und Italiener.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36591,14 +36590,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Gundeldingen wohnen im Vergleich zum kantonalen Durchschnitt mehr Türken und Personen aus den Balkanländern. Unterdurchschnittlich vertreten sind hingegen US-Amerikaner.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Wohnviertel Gundeldingen wohnen im Vergleich zum kantonalen Durchschnitt mehr Türken und Personen aus den Balkanländern. Unterdurchschnittlich vertreten sind hingegen Portugiesen und US-Amerikaner.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36631,14 +36630,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum gesamten Kanton wohnen im Wohnviertel Bruderholz überdurchschnittlich viele Schweizer, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus. Die Deutschen bilden die grösste ausländische Bevölkerungsgruppe, gefolgt von den Italienern, US-Amerikanern und Franzosen.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum gesamten Kanton wohnen im Wohnviertel Bruderholz überdurchschnittlich viele Schweizer, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus. Die Deutschen bilden die grösste ausländische Bevölkerungsgruppe, gefolgt von den Italienern, Briten und  US-Amerikanern.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36671,14 +36670,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Schweizer ist im Wohnviertel Bachletten innerhalb des Kantons am grössten, die Anteile anderer Staatsangehörigkeiten fallen vergleichsweise kleiner aus. Die grösste ausländische Bevölkerungsgruppe bilden die Deutschen, gefolgt von den Italienern, Spaniern und Franzosen.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36711,14 +36710,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Gotthelf weniger Türken und  Personen aus den Balkanländern. Wie im Gesamtkanton stellen die Deutschen die grösste ausländische Bevölkerungsgruppe dar.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36751,14 +36750,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Deutscher ist im Wohnviertel Iselin geringer als im kantonalen Durchschnitt. Überdurchschnittlich vertreten sind hingegen Italiener, Türken, Spanier und Portugiesen.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Der Anteil Deutscher ist im Wohnviertel Iselin geringer als im kantonalen Durchschnitt. Das Gleiche gilt auch für die Briten, US-Amerikaner und Inder. Überdurchschnittlich vertreten sind hingegen Italiener, Türken, Spanier und Portugiesen.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36791,14 +36790,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel St. Johann wohnen mehr Portugiesen, Spanier, Türken und Sri Lanker und etwas weniger Deutsche, Franzosen und Briten als im kantonalen Durchschnitt.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Wohnviertel St. Johann wohnen mehr Portugiesen, Spanier, Türken und Italiener und etwas weniger Schweizer, Briten und US-Amerikaner als im kantonalen Durchschnitt.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36831,14 +36830,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Kleinbasel weniger Türken und Portugiesen. Der Anteil Österreicher ist innerhalb des Kantons am grössten. Zu berücksichtigen ist, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr tiefe Einwohnerzahl hat.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Altstadt Kleinbasel weniger Türken und Portugiesen. Leicht höher sind die Anteile bei den Deutschen, Italienern und Ungarn. Zu berücksichtigen ist, dass das Wohnviertel insgesamt eine im kantonalen Vergleich sehr tiefe Einwohnerzahl hat.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36871,14 +36870,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum kantonalen Durschnitt wohnen im Wohnviertel Clara mehr Inder, Italiener, Spanier und Personen aus den Balkanländern. Unterdurschnittlich vertreten sind Deutsche und Briten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36911,14 +36910,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Wettstein weniger Türken und Personen aus den Balkanländern. Wie auch im Kanton stellen im Wohnviertel Deutsche die grösste ausländische Bevölkerungsgruppe dar.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen im Wohnviertel Wettstein weniger Türken und Personen aus den Balkanländern. Überdurchschnittlich stark vertreten sind Deutsche und Personen aus den Vereinigten Staaten.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36951,14 +36950,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Hirzbrunnen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, die Anteile anderer Staatsangehörigkeiten liegen unter dem Kantonsdurchschnitt. Die grösste ausländische Bevölkerungsgruppe bilden wie im Gesamtkanton Deutsche, wobei der Wert auch hier unter dem kantonalen Durchschnitt liegt.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -36991,14 +36990,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental wohnen deutlich mehr Türken, Portugiesen, Personen aus den Balkanländern und Inder als im kantonalen Durchschnitt. Der Anteil an Personen mit indischer Staatsangehörigkeit ist innerhalb des Kantons im Wohnviertel Rosental am grössten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Wohnviertel Rosental wohnen deutlich mehr Türken, Portugiesen, Personen aus den Balkanländern und Inder als im kantonalen Durchschnitt. Der Anteil an Personen mit indischer Staatsangehörigkeit ist innerhalb des Kantons im Wohnviertel Rosental am grössten, der Anteil der Schweizer am kleinsten.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37031,14 +37030,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt auf, dass der Ausländeranteil im Wohnviertel Matthäus in den letzten 20 Jahren kaum gestiegen ist, in den letzten fünf Jahren sogar etwas zurückgegangen ist.  Insgesamt ist der Ausländeranteil einer der höchsten im gesamten Kanton.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durschnitt wohnen im Wohnviertel Matthäus mehr Türken, Italiener, Portugiesen, Spanier und Personen aus den Balkanländern. Unterdurchschnittlich vertreten sind Briten und US-Amerikaner.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37071,14 +37070,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt auf, dass der Ausländeranteil im Wohnviertel Klybeck in den letzten 20 Jahren nicht stark gestiegen ist. Insgesamt ist der Ausländeranteil einer der höchsten im gesamten Kanton. Türken, Italiener und Personen aus den Balkanländern stellen die grössten Gruppen dar. Portugiesen sind im kantonalen Vergleich stärker vertreten, Deutsche weniger stark.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Türken, Italiener und Portugiesen stellen die grössten Gruppen im Wohnviertel Klybeck dar. Die Anteile der drei Staatsangehörigkeiten sind in keinem anderen Wohnviertel grösser. Das gilt auch für die Spanier. Das Wohnviertel Klybeck ist eines von zwei Wohnvierteln im Kanton, in welchem die Deutschen nicht die grösste ausländische Bevölkerungsgruppe bilden.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37111,14 +37110,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur kantonalen Entwicklung fällt auf, dass der Ausländeranteil im Wohnviertel Kleinhüningen in den letzten 20 Jahren nicht stark gestiegen ist. Insgesamt ist der Ausländeranteil einer der höchsten im gesamten Kanton. Der Anteil Italiener ist deutlich zurückgegangen. Im kantonalen Vergleich wohnen mehr Portugiesen und weniger Deutsche im Wohnviertel.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Das Wohnviertel Kleinhüningen ist eines von zwei Wohnvierteln im Kanton, in welchem die Deutschen nicht die grösste ausländische Bevölkerungsgruppe bilden. Die grösste ausländische Bevölkerungsgruppe sind die Italiener. Im Vergleich zum kantonalen Durschnitt sind die Türken und Personen aus den Balkanländern stärker vertreten. Kleiner als im kantonalen Vergleich fallen die Anteile der Deutschen, Franzosen, Briten und US-Amerikaner aus.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37152,14 +37151,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gemeinde Riehen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern, die Anteile der meisten anderen Staatsangehörigkeiten liegen unter dem Kantonsdurchschnitt. Eine Ausnahme bilden Deutsche, welche im Vergleich zum kantonalen Durchschnitt in Riehen deutlich stärker vertreten sind.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Die Gemeinde Riehen hat innerhalb des Kantons einen der höchsten Anteile an Schweizern. Die Anteile der meisten anderen Staatsangehörigkeiten liegen unter dem Kantonsdurchschnitt. Eine Ausnahme bilden Deutsche, welche im Vergleich zum kantonalen Durchschnitt in Riehen deutlich stärker vertreten sind.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37193,14 +37192,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:39:19.1919",
+		"aktualisierungsdatum": "2020-04-15T14:13:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Staatsangehörigkeit",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen in der Gemeinde Bettingen deutlich mehr Deutsche. Andere Nationalitäten sind kaum vertreten.",
-		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2018 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawiens; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
+		"lesehilfe": "Im Vergleich zum kantonalen Durchschnitt wohnen in der Gemeinde Bettingen deutlich mehr Deutsche, Briten und Österreicher. Andere ausländische Nationalitäten sind kaum vertreten.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 15 grössten Ausländergruppen am Jahresende 2019 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien; alle anderen Staaten sind unter Übrige Länder zusammengefasst.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -46370,7 +46369,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
+		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -51595,7 +51594,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:28:23.2323",
+		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -51607,7 +51606,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_113",
+		"orderKey": "01_01_00_00_00_111",
 		"parentId": 6215,
 		"children": [],
 		"renderLink": [],
@@ -54956,7 +54955,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019",
 		"kuerzel": "I.50.1.08877",
 		"kuerzelKunde": "ST 5-3b",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
@@ -54966,7 +54965,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:39:25.2525",
+		"aktualisierungsdatum": "2020-04-14T12:50:14.1414",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -54993,6 +54992,46 @@ var indikatoren = [
 		"chart-id": 8877,
 		"filter": "",
 		"id": 8877
+	},
+	{
+		"title": "Motorisierter Individualverkehr",
+		"subtitle": "Zählstelle Nauenstrasse 73",
+		"kuerzel": "I.11.1.08976",
+		"kuerzelKunde": "",
+		"description": "Motorisierter Individualverkehr",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:49:57.5757",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8976,
+		"chart-id": 8976,
+		"filter": "",
+		"id": 8976
 	},
 	{
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
@@ -55073,6 +55112,286 @@ var indikatoren = [
 		"chart-id": 8981,
 		"filter": "",
 		"id": 8981
+	},
+	{
+		"title": "Veloverkehr",
+		"subtitle": "Zählstelle Wettsteinbrücke",
+		"kuerzel": "I.11.1.08983",
+		"kuerzelKunde": "",
+		"description": "Veloverkehr",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:51:21.2121",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8983,
+		"chart-id": 8983,
+		"filter": "",
+		"id": 8983
+	},
+	{
+		"title": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73",
+		"subtitle": "Werktage, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08984",
+		"kuerzelKunde": "",
+		"description": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:52:15.1515",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8984,
+		"chart-id": 8984,
+		"filter": "",
+		"id": 8984
+	},
+	{
+		"title": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73",
+		"subtitle": "Wochenende, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08985",
+		"kuerzelKunde": "",
+		"description": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:52:58.5858",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8985,
+		"chart-id": 8985,
+		"filter": "",
+		"id": 8985
+	},
+	{
+		"title": "Durchschnittlicher Tagesverkehr Velo Wettsteinbrücke",
+		"subtitle": "Werktage, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08986",
+		"kuerzelKunde": "",
+		"description": "Durchschnittlicher Tagesverkehr Velo Wettsteinbrücke",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:53:41.4141",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8986,
+		"chart-id": 8986,
+		"filter": "",
+		"id": 8986
+	},
+	{
+		"title": "Durchschnittlicher Tagesverkehr Velo Wettsteinbrücke",
+		"subtitle": "Wochenende, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+		"kuerzel": "I.11.1.08988",
+		"kuerzelKunde": "",
+		"description": "Durchschnittlicher Tagesverkehr Velo Wettsteinbrücke",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:54:23.2323",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8988,
+		"chart-id": 8988,
+		"filter": "",
+		"id": 8988
+	},
+	{
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
+		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
+		"kuerzel": "I.11.1.08990",
+		"kuerzelKunde": "",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:55:04.044",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8990,
+		"chart-id": 8990,
+		"filter": "",
+		"id": 8990
+	},
+	{
+		"title": "Rückgang beim durchschnittlichen Tagesverkehr Velo",
+		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
+		"kuerzel": "I.11.1.08991",
+		"kuerzelKunde": "",
+		"description": "Rückgang beim durchschnittlichen Tagesverkehr Velo",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-15T15:55:40.4040",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8991,
+		"chart-id": 8991,
+		"filter": "",
+		"id": 8991
 	},
 	{
 		"title": "Test Daten",

@@ -1,0 +1,395 @@
+{
+  "series": [
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "00:00",
+          779
+        ],
+        [
+          "01:00",
+          536
+        ],
+        [
+          "02:00",
+          318
+        ],
+        [
+          "03:00",
+          414
+        ],
+        [
+          "04:00",
+          387
+        ],
+        [
+          "05:00",
+          370
+        ],
+        [
+          "06:00",
+          478
+        ],
+        [
+          "07:00",
+          615
+        ],
+        [
+          "08:00",
+          932
+        ],
+        [
+          "09:00",
+          1388
+        ],
+        [
+          "10:00",
+          1604
+        ],
+        [
+          "11:00",
+          1757
+        ],
+        [
+          "12:00",
+          1952
+        ],
+        [
+          "13:00",
+          2085
+        ],
+        [
+          "14:00",
+          2174
+        ],
+        [
+          "15:00",
+          2260
+        ],
+        [
+          "16:00",
+          1851
+        ],
+        [
+          "17:00",
+          2324
+        ],
+        [
+          "18:00",
+          1989
+        ],
+        [
+          "19:00",
+          1541
+        ],
+        [
+          "20:00",
+          1265
+        ],
+        [
+          "21:00",
+          952
+        ],
+        [
+          "22:00",
+          1063
+        ],
+        [
+          "23:00",
+          748
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "00:00",
+          165
+        ],
+        [
+          "01:00",
+          107
+        ],
+        [
+          "02:00",
+          62
+        ],
+        [
+          "03:00",
+          91
+        ],
+        [
+          "04:00",
+          107
+        ],
+        [
+          "05:00",
+          134
+        ],
+        [
+          "06:00",
+          271
+        ],
+        [
+          "07:00",
+          296
+        ],
+        [
+          "08:00",
+          320
+        ],
+        [
+          "09:00",
+          480
+        ],
+        [
+          "10:00",
+          628
+        ],
+        [
+          "11:00",
+          806
+        ],
+        [
+          "12:00",
+          886
+        ],
+        [
+          "13:00",
+          955
+        ],
+        [
+          "14:00",
+          1073
+        ],
+        [
+          "15:00",
+          1025
+        ],
+        [
+          "16:00",
+          1002
+        ],
+        [
+          "17:00",
+          911
+        ],
+        [
+          "18:00",
+          763
+        ],
+        [
+          "19:00",
+          578
+        ],
+        [
+          "20:00",
+          462
+        ],
+        [
+          "21:00",
+          364
+        ],
+        [
+          "22:00",
+          280
+        ],
+        [
+          "23:00",
+          223
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "alignTicks": false,
+    "renderTo": "container-8985"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Durchschnittlicher Tagesverkehr MIV Nauenstrasse 73"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Wochenende, Wochen 1 und 2 des Lockdown gegenüber Vorjahreswochen",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": [
+    {
+      "min": 0,
+      "title": {
+        "text": null,
+        "color": "#000000",
+        "fontSize": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      }
+    },
+    {
+      "min": -0.75,
+      "max": 0.75,
+      "tickInterval": 0.25,
+      "tickAmount": 7,
+      "title": {
+        "text": null,
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        }
+      },
+      "labels": {
+        "formatter": function(){
+      return Highcharts.numberFormat((this.value*100),0)+'%'; 
+    },
+        "style": {
+          "color": "black"
+        }
+      },
+      "opposite": true,
+      "visible": false
+    }
+  ],
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-15"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8985
+  }
+}
