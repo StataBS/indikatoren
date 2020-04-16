@@ -521,7 +521,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
@@ -531,7 +531,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-02-25T13:00:46.4646",
+		"aktualisierungsdatum": "2020-04-16T10:49:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -546,7 +546,9 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			"5121",
-			"5903"
+			"5903",
+			"8283",
+			"8554"
 		],
 		"renderLink": [
 			"5121"
@@ -1280,7 +1282,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.09.1.05121",
 		"kuerzelKunde": "RU-5.B",
 		"description": "Wohnfläche pro Kopf",
@@ -1290,7 +1292,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:53:20.2020",
+		"aktualisierungsdatum": "2020-04-16T10:49:46.4646",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
