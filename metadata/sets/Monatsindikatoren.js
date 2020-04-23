@@ -209,13 +209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-13T08:50:13.1313",
+		"aktualisierungsdatum": "2020-04-23T07:29:47.4747",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der Übernachtungsgäste in baselstädtischen Hotels kommt aus dem Ausland. Die Monate Januar und Februar zählen zu den besucherschwächsten Monaten.",
+		"lesehilfe": "Der Grossteil der Übernachtungsgäste in baselstädtischen Hotels kommt aus dem Ausland. Im März 2020 wurden in den Basler Hotelbetrieben 37 144 Übernachtungen gebucht, 83 104 Übernachtungen bzw. 69,1% weniger als im März 2019. Der Rückgang ist sowohl den Gästen aus der Schweiz als auch aus dem Ausland zuzuschreiben. Die inländischen Gäste buchten 17 994 Logiernächte (-57,0%), die Gäste aus dem Ausland 19 150 Übernachtungen (-75,6%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Februar",
+		"subtitle": "Basel-Stadt, März",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-13T08:51:16.1616",
+		"aktualisierungsdatum": "2020-04-23T07:42:31.3131",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt in allen Kategorien über 40%.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 20% und gegenüber dem Vorjahresmonat um rund 40 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
