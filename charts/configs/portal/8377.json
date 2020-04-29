@@ -611,7 +611,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anzahl Ausländer nach Art der Bewilligung"
+    "text": "Ausländische Bevölkerung nach Art der Bewilligung"
   },
   "subtitle": {
     "style": {
@@ -661,7 +661,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-28"
   },
   "legend": {
     "symbolRadius": 0,
