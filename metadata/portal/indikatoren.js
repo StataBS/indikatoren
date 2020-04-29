@@ -6191,15 +6191,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-03T17:30:24.2424",
+		"aktualisierungsdatum": "2020-04-24T17:11:52.5252",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Es ist ein leichter Anstieg der Ausfuhren aus Basel-Stadt seit 2015 zu beobachten. Die Ausfuhren sind 2017 mit rund 24 Mrd. Franken mehr als doppelt so hoch wie die Einfuhren.",
+		"lesehilfe": "Es ist ein leichter Anstieg der Ausfuhren aus Basel-Stadt seit 2015 zu beobachten. Die Ausfuhren sind 2018 mit 23,6 Mrd. Franken fast dreimal so hoch wie die Einfuhren.",
 		"erlaeuterungen": "Für die Jahre 2012 bis 2015 handelt es sich um nachgerechnete Ausfuhrzahlen der Eidgenössischen Zollverwaltung. Seit 2016 sind exakte Werte verfügbar. Sowohl Einfuhren wie auch Ausfuhren sind einschliesslich Gold in Barren und anderen Edelmetallen, Münzen, Edel- und Schmucksteinen sowie Kunstgegenständen und Antiquitäten berechnet.",
 		"template": "line001",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -6207,13 +6208,16 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4913,
-		"darstellungsart": "Grafik"
+		"data-id": 4913,
+		"chart-id": 4913,
+		"filter": "",
+		"id": 4913
 	},
 	{
 		"title": "Landwirtschaft: Nutzfläche und Betriebe",
@@ -10995,19 +10999,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:12.1212",
+		"aktualisierungsdatum": "2020-04-27T14:41:50.5050",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 (gepoolte Daten) verfügen 18,6% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 31,9% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 (gepoolte Daten) verfügen 18,2% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 30,8% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_007",
+		"orderKey": "02_00_00_00_00_401",
 		"parentId": null,
 		"children": [
 			"6671"
@@ -11028,7 +11032,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2013 bis 2017",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2014 bis 2018",
 		"kuerzel": "I.15.7.6090",
 		"kuerzelKunde": "B4-2",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -11038,19 +11042,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:42:19.1919",
+		"aktualisierungsdatum": "2020-04-27T14:41:50.5050",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei Personen aus Deutschland (71%), EU-Ost (60%), EU-17 + EFTA (50%) sowie Mittel- und Südamerika (41%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (35%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität.",
+		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-Ost (58%), EU-17 + EFTA (52%) sowie Mittel- und Südamerika (42%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (36%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (14%) und dem Balkan (13%) auf.",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe:  Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_008",
+		"orderKey": "02_00_00_00_00_402",
 		"parentId": null,
 		"children": [
 			"6672"
@@ -11070,7 +11074,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018",
 		"kuerzel": "I.15.7.6091",
 		"kuerzelKunde": "B4-3",
 		"description": "Bevölkerung nach höchster abgeschlossener Ausbildung",
@@ -11080,23 +11084,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T12:04:10.1010",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den Ausländischen Staatsangehörigen am höchsten (32%).",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität.",
+		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den ausländischen Staatsangehörigen am höchsten (31%).",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_009",
+		"orderKey": "02_00_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"6673",
-			"7814"
+			"6673"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11971,22 +11974,22 @@ var indikatoren = [
 	{
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.5.6152",
+		"kuerzel": "I.01.1.06152",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:37:58.5858",
+		"aktualisierungsdatum": "2020-04-28T12:04:58.5858",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wiesen Personen aus dem Balkan (31,6), der Türkei (29,2), afrikanischen (25,2) und arabischen Ländern (21,7) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2018 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2018 bei 17,0.",
+		"lesehilfe": "2019 wiesen Personen aus dem Balkan (30,6), der Türkei (28,8), afrikanischen (25,6) und arabischen Ländern (21,8) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2019 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2019 bei 16,4.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -15198,7 +15201,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6402",
 		"kuerzelKunde": "A6-1",
 		"description": "Anteil Personen mit Hauptsprache Deutsch",
@@ -15208,19 +15211,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (45,7%), der Türkei (38,9%) und Italien (37,3%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (29,5%) und der Kategorie «Übrige Länder» (22,5%) zu beobachten sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (45,0%), der Türkei (40,8%) und arabischen Ländern (35,7%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (27,0%) und der Kategorie «Übrige Länder» (21,8%) zu beobachten sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_029",
+		"orderKey": "01_00_00_00_00_601",
 		"parentId": null,
 		"children": [
 			"6678"
@@ -15240,7 +15243,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6403",
 		"kuerzelKunde": "A6-2",
 		"description": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter",
@@ -15250,19 +15253,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (68,5%) am grössten, während er bei den 40- bis 64-Jährigen (47,3%) und den über 65-Jährigen (37,2%) geringer ist.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (66,8%) am grössten, während er bei den 40- bis 64-Jährigen (47,0%) und den über 65-Jährigen (36,7%) geringer ist.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_030",
+		"orderKey": "01_00_00_00_00_602",
 		"parentId": null,
 		"children": [
 			"6679"
@@ -15282,7 +15285,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6404",
 		"kuerzelKunde": "A6-3",
 		"description": "Gesprochene Hauptsprachen nach Migrationsstatus",
@@ -15292,19 +15295,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:09.099",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2013 bis 2017 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 50,3% waren.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2014 bis 2018 zu 79,7% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 49,2% waren.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_031",
+		"orderKey": "01_00_00_00_00_603",
 		"parentId": null,
 		"children": [
 			"6680"
@@ -15324,7 +15327,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.8.6405",
 		"kuerzelKunde": "A6-4",
 		"description": "Bei der Arbeit gesprochene Sprachen",
@@ -15334,23 +15337,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T11:20:10.1010",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Arbeit sprechen 97,9% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 80,8% sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst.",
+		"lesehilfe": "Bei der Arbeit sprechen 97,4% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern lediglich 79,0% sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_032",
+		"orderKey": "01_00_00_00_00_604",
 		"parentId": null,
 		"children": [
-			"6681",
-			"7822"
+			"6681"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17793,7 +17795,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018",
 		"kuerzel": "I.01.1.6481",
 		"kuerzelKunde": "D3-3",
 		"description": "Anteil Personen mit und ohne Migrationshintergrund",
@@ -17803,23 +17805,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:31:17.1717",
+		"aktualisierungsdatum": "2020-04-27T14:41:51.5151",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 sind in Basel-Stadt rund 48% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 32% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.",
+		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 sind in Basel-Stadt rund 48% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 32% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_009",
+		"orderKey": "04_00_00_00_00_303",
 		"parentId": null,
 		"children": [
-			"6722",
-			"7863"
+			"6722"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -31987,46 +31988,6 @@ var indikatoren = [
 		"id": 8852
 	},
 	{
-		"title": "Motorisierter Individualverkehr",
-		"subtitle": "Zählstelle Nauenstrasse 73",
-		"kuerzel": "I.11.1.08976",
-		"kuerzelKunde": "",
-		"description": "Motorisierter Individualverkehr",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-16T12:22:37.3737",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8976,
-		"chart-id": 8976,
-		"filter": "",
-		"id": 8976
-	},
-	{
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.4.08980",
@@ -32107,46 +32068,6 @@ var indikatoren = [
 		"id": 8981
 	},
 	{
-		"title": "Veloverkehr",
-		"subtitle": "Zählstelle Wettsteinbrücke",
-		"kuerzel": "I.11.1.08983",
-		"kuerzelKunde": "",
-		"description": "Veloverkehr",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-15T15:51:21.2121",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Grafik",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8983,
-		"chart-id": 8983,
-		"filter": "",
-		"id": 8983
-	},
-	{
 		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
 		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
 		"kuerzel": "I.11.1.08990",
@@ -32225,5 +32146,45 @@ var indikatoren = [
 		"chart-id": 8991,
 		"filter": "",
 		"id": 8991
+	},
+	{
+		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.08992",
+		"kuerzelKunde": "",
+		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-28T14:06:07.077",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit Verschärfung der Massnahmen zur Bekämpfung des Coronavirus (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für mehr als 75 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 31 Anmeldungen gewesen waren. Für April 2020 ist bereits Kurzarbeit für 82 000 Angestellte beantragt worden (Stand 20.04.2020). Die für März und April genehmigte Kurzarbeit erreicht fast 100% der beantragten Kurzarbeit. Wie viel der genehmigten Kurzarbeit auch in Anspruch genommen wird, d.h. auch abgerechnet wird, wird erst mit drei Monaten Verzögerung bekannt sein.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. In normalen Zeiten wird Kurzarbeit für weniger als 100 Angestellte pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Angestellte pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit (um die Zahlen für die Jahre vor 2020 besser zu sehen, kann der Regler unter der Grafik verschoben werden).",
+		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmern für ihre Angestellte beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der Corona-Krise wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d.h. es wird berechnet, wie viel effektiv weniger gearbeitet werden konnte. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen ab Februar 2020 sind provisorisch.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8992,
+		"chart-id": 8992,
+		"filter": "",
+		"id": 8992
 	}
 ];

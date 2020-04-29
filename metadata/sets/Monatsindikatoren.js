@@ -392,5 +392,44 @@ var indikatorensetData = [
 		"chart-id": 8981,
 		"filter": "",
 		"id": 8981
+	},
+	{
+		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.03.4.08992",
+		"kuerzelKunde": "",
+		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kennzahlenset": "Monatsindikatoren",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-04-28T14:06:07.077",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Mit Verschärfung der Massnahmen zur Bekämpfung des Coronavirus (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für mehr als 75 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 31 Anmeldungen gewesen waren. Für April 2020 ist bereits Kurzarbeit für 82 000 Angestellte beantragt worden (Stand 20.04.2020). Die für März und April genehmigte Kurzarbeit erreicht fast 100% der beantragten Kurzarbeit. Wie viel der genehmigten Kurzarbeit auch in Anspruch genommen wird, d.h. auch abgerechnet wird, wird erst mit drei Monaten Verzögerung bekannt sein.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. In normalen Zeiten wird Kurzarbeit für weniger als 100 Angestellte pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Angestellte pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit (um die Zahlen für die Jahre vor 2020 besser zu sehen, kann der Regler unter der Grafik verschoben werden).",
+		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmern für ihre Angestellte beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der Corona-Krise wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d.h. es wird berechnet, wie viel effektiv weniger gearbeitet werden konnte. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen ab Februar 2020 sind provisorisch.",
+		"template": "stock001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8992,
+		"chart-id": 8992,
+		"filter": "",
+		"id": 8992
 	}
 ];

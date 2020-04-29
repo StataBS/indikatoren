@@ -29,6 +29,10 @@
         [
           2017,
           8072208
+        ],
+        [
+          2018,
+          8857882
         ]
       ],
       "name": "Einfuhren"
@@ -62,6 +66,10 @@
         [
           2017,
           24004638
+        ],
+        [
+          2018,
+          23602226
         ]
       ],
       "name": "Ausfuhren"
@@ -120,6 +128,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -162,7 +171,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung EZV.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-3"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-24"
   },
   "legend": {
     "enabled": true,
