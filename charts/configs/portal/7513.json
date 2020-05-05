@@ -237,7 +237,7 @@
         ],
         [
           "Apr",
-          undefined
+          102
         ],
         [
           "Mai",
@@ -374,7 +374,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-5"
   },
   "legend": {
     "enabled": true,
