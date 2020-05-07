@@ -133,7 +133,7 @@
         ],
         [
           "Apr",
-          null
+          123
         ],
         [
           "Mai",
@@ -190,7 +190,7 @@
         ],
         [
           "Apr",
-          null
+          541
         ],
         [
           "Mai",
@@ -326,7 +326,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-7"
   },
   "legend": {
     "enabled": true,

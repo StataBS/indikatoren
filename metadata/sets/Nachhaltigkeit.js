@@ -2239,13 +2239,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-26T16:42:58.5858",
+		"aktualisierungsdatum": "2020-05-06T09:45:35.3535",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2017 insgesamt bei 74,8%. Bei den Männern lag sie mit 76,7% über derjenigen der Frauen (73,0%). Seit 1970 glichen sich die Werte für Männer und Frauen stark an.",
+		"lesehilfe": "Im Kanton Basel-Stadt lag die Nettoerwerbstätigenquote 2018 insgesamt bei 72,1%. Bei den Männern lag sie mit 74,4% über derjenigen der Frauen (69,8%). Seit 1970 haben sich die Werte für Männer und Frauen stark angeglichen.",
 		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Nettoerwerbstätigenquote bezeichnet den Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre). Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2393,7 +2393,7 @@ var indikatorensetData = [
 		"title": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.03.1.6056",
-		"kuerzelKunde": "WE12",
+		"kuerzelKunde": "WE15",
 		"description": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
@@ -2401,20 +2401,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:47:43.4343",
+		"aktualisierungsdatum": "2020-05-06T09:46:14.1414",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "21,9% der erwerbstätigen Männer gingen 2017 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2017 bei 50,9%.",
+		"lesehilfe": "20,8% der erwerbstätigen Männer gingen 2018 einer Teilzeitbeschäftigung nach; 1970 waren es noch 4,5%. Bei den Frauen lag der Anteil an Erwerbstätigen mit Teilzeitpensum 2018 bei 47,0%.",
 		"erlaeuterungen": "Hochrechnungen aufgrund eines Stichprobenumfangs für Basel-Stadt von rund 5 000 Personen. Die Grundgesamtheit umfasst alle Personen der ständigen Wohnbevölkerung am Hauptwohnsitz ab vollendetem 15. Altersjahr, die in Privathaushalten leben, ohne Diplomaten, internationale Funktionäre und deren Angehörige. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "06_02_00_00_00_612",
+		"orderKey": "06_02_00_00_00_615",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8945"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
