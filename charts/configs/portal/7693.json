@@ -2,7 +2,7 @@
   "series": [
     {
       "index": 0,
-      "color": "#dc440e",
+      "color": "#DC440E",
       "tooltip": {
         "pointFormatter": function () {
             return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
@@ -18,11 +18,11 @@
           0.72466
         ],
         [
-          "2013-2017",
-          0.7514
+          "2014-2018",
+          0.71813
         ]
       ],
-      "name": "Nettoerwerbsquote Frauen",
+      "name": "Rosental",
       "turboThreshold": 0
     },
     {
@@ -45,12 +45,65 @@
           "high": "."
         },
         {
-          "name": "2013-2017",
-          "low": 0.7011,
-          "high": 0.8017
+          "name": "2014-2018",
+          "low": 0.6663,
+          "high": 0.76997
         }
       ],
-      "name": "95% Konfidenzintervall Untergrenze",
+      "name": "Rosental 95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#8A8A8A",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "1990",
+          0.6313
+        ],
+        [
+          "2000",
+          0.72436
+        ],
+        [
+          "2014-2018",
+          0.7561
+        ]
+      ],
+      "name": "Basel",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "1990",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2000",
+          "low": ".",
+          "high": "."
+        },
+        {
+          "name": "2014-2018",
+          "low": 0.74702,
+          "high": 0.76517
+        }
+      ],
+      "name": "Basel 95% Konfidenzintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -94,8 +147,6 @@
       "fontFamily": "Arial"
     },
     "type": "column",
-    "marginBottom": 75,
-    "marginTop": 65,
     "renderTo": "container-7693"
   },
   "title": {
@@ -154,10 +205,10 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-6"
   },
   "legend": {
-    "enabled": false,
+    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
@@ -172,7 +223,7 @@
       "marker": {
         "enabled": false
       },
-      "pointWidth": 50,
+      "pointPadding": 0.05,
       "borderWidth": 0
     }
   },
