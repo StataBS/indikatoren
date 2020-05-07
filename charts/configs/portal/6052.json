@@ -24,8 +24,8 @@
           76
         ],
         [
-          "2017",
-          76.7
+          "2018",
+          74.4
         ]
       ],
       "name": "Männer",
@@ -55,8 +55,8 @@
           68.7
         ],
         [
-          "2017",
-          73
+          "2018",
+          69.8
         ]
       ],
       "name": "Frauen",
@@ -86,8 +86,8 @@
           72.8
         ],
         [
-          "2017",
-          76
+          "2018",
+          72.6
         ]
       ],
       "name": "Schweiz",
@@ -117,8 +117,8 @@
           71.5
         ],
         [
-          "2017",
-          73.2
+          "2018",
+          71.4
         ]
       ],
       "name": "Ausland",
@@ -148,8 +148,8 @@
           72.3
         ],
         [
-          "2017",
-          74.8
+          "2018",
+          72.1
         ]
       ],
       "name": "Total",
@@ -278,7 +278,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-6"
   },
   "legend": {
     "symbolRadius": 0,

@@ -350,6 +350,10 @@
         [
           "2020-03",
           336
+        ],
+        [
+          "2020-04",
+          818
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -479,7 +483,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-7"
   },
   "legend": {
     "symbolRadius": 0,

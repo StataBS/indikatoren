@@ -1,5 +1,5 @@
-﻿"Jahr"	"Nettoerwerbsquote Frauen"	"95% Konfidenzintervall Untergrenze"	"95% Konfidenzintervall Obergrenze"
-1990	0.66879	"."	"."
-2000	0.72466	"."	"."
-"2013-2017"	0.75140	0.7011	0.8017
+﻿"Jahr"	"Rosental"	"Rosental 95% Konfidenzintervall Untergrenze"	"Rosental 95% Konfidenzintervall Obergrenze"	"Basel"	"Basel 95% Konfidenzintervall Untergrenze"	"Basel 95% Konfidenzintervall Obergrenze"
+1990	0.66879	"."	"."	0.63130	"."	"."
+2000	0.72466	"."	"."	0.72436	"."	"."
+"2014-2018"	0.71813	0.66630	0.76997	0.75610	0.74702	0.76517
 
