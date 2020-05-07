@@ -24840,14 +24840,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-07T07:46:21.2121",
+		"aktualisierungsdatum": "2020-05-07T10:58:56.5656",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie noch knapp über 1 000. Ende April waren 664 Stellen offen und damit 36% weniger als im Vormonat. Die Anzahl der meldepflichtigen offenen Stellen ist im April 2020 auf 123 eingebrochen.",
-		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie noch knapp über 1 000. Ende April waren 664 Stellen offen und damit 36% weniger als im Vormonat. Die Anzahl der meldepflichtigen offenen Stellen ist im April 2020 auf 123 gesunken.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen des Coronavirus und seiner Folgen hat der Bundesrat die Stellenmeldepflicht ab dem 26. März 2020 für sechs Monate aufgehoben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
