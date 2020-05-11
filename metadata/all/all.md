@@ -1452,6 +1452,8 @@ id | visible | visibleInPortal | indikatorenset
 8990 | true | true | 
 8991 | true | true | 
 8992 | true | true | Monatsindikatoren
+8998 | true | false | 
+8999 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
