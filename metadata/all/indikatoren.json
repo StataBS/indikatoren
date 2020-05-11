@@ -55438,6 +55438,88 @@
 		"id": 8992
 	},
 	{
+		"title": "Stickoxid-Immissionen und Anzahl Fahrzeuge",
+		"subtitle": "Region Basel",
+		"kuerzel": "I.02.5.08998",
+		"kuerzelKunde": "",
+		"description": "Stickoxid-Immissionen und Anzahl Fahrzeuge",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-05-11T09:38:03.033",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt",
+			"Lufthygieneamt beider Basel",
+			"Bundesamt für Meteorologie und Klimatologie MeteoSchweiz"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8998,
+		"chart-id": 8998,
+		"filter": "",
+		"id": 8998
+	},
+	{
+		"title": "Feinstaub-Immissionen und meteorologische Parameter",
+		"subtitle": "Region Basel",
+		"kuerzel": "I.02.5.08999",
+		"kuerzelKunde": "",
+		"description": "Feinstaub-Immissionen und meteorologische Parameter",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-05-11T09:38:03.033",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "",
+		"erlaeuterungen": "",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Lufthygieneamt beider Basel"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8999,
+		"chart-id": 8999,
+		"filter": "",
+		"id": 8999
+	},
+	{
 		"title": "Test Daten",
 		"subtitle": "Test",
 		"kuerzel": "",
