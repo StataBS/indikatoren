@@ -1,0 +1,392 @@
+{
+  "series": [
+    {
+      "color": "#A0BEC8",
+      "data": [
+        [
+          "AR",
+          6.5655439
+        ],
+        [
+          "JU",
+          7.3100779
+        ],
+        [
+          "BL",
+          7.4782644
+        ],
+        [
+          "ZG",
+          7.8217436
+        ],
+        [
+          "TG",
+          7.9494341
+        ],
+        [
+          "SO",
+          8.5896854
+        ],
+        [
+          "NE",
+          8.7180558
+        ],
+        [
+          "AI",
+          9.1113106
+        ],
+        [
+          "AG",
+          9.1367749
+        ],
+        [
+          "OW",
+          9.5047095
+        ],
+        [
+          "GL",
+          9.6130291
+        ],
+        [
+          "SG",
+          9.6644416
+        ],
+        [
+          "FR",
+          9.839605
+        ],
+        [
+          "SH",
+          9.8649826
+        ],
+        [
+          "NW",
+          10.1242289
+        ],
+        [
+          "BE",
+          10.1746471
+        ],
+        [
+          "LU",
+          10.2108675
+        ],
+        [
+          "VD",
+          10.3488609
+        ],
+        [
+          "ZH",
+          10.4050215
+        ],
+        [
+          "GE",
+          10.4683564
+        ],
+        [
+          "UR",
+          10.5907859
+        ],
+        [
+          "TI",
+          10.8770211
+        ],
+        [
+          "BS",
+          11.164291
+        ],
+        [
+          "SZ",
+          12.4551172
+        ],
+        [
+          "GR",
+          13.9211552
+        ],
+        [
+          "VS",
+          14.9833041
+        ]
+      ],
+      "name": "17. März",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          "AR",
+          1.6990111
+        ],
+        [
+          "JU",
+          1.6042531
+        ],
+        [
+          "BL",
+          1.2970995
+        ],
+        [
+          "ZG",
+          1.5595664
+        ],
+        [
+          "TG",
+          1.6860209
+        ],
+        [
+          "SO",
+          1.8506233
+        ],
+        [
+          "NE",
+          1.1681644
+        ],
+        [
+          "AI",
+          2.6256732
+        ],
+        [
+          "AG",
+          1.6058095
+        ],
+        [
+          "OW",
+          2.987967
+        ],
+        [
+          "GL",
+          2.3499524
+        ],
+        [
+          "SG",
+          2.0517229
+        ],
+        [
+          "FR",
+          1.9157388
+        ],
+        [
+          "SH",
+          1.7574042
+        ],
+        [
+          "NW",
+          2.5859883
+        ],
+        [
+          "BE",
+          2.0214697
+        ],
+        [
+          "LU",
+          2.0568453
+        ],
+        [
+          "VD",
+          1.742627
+        ],
+        [
+          "ZH",
+          2.0117244
+        ],
+        [
+          "GE",
+          1.6027956
+        ],
+        [
+          "UR",
+          2.4552846
+        ],
+        [
+          "TI",
+          1.3370639
+        ],
+        [
+          "BS",
+          2.6994334
+        ],
+        [
+          "SZ",
+          2.5544015
+        ],
+        [
+          "GR",
+          3.3462744
+        ],
+        [
+          "VS",
+          2.7969891
+        ]
+      ],
+      "name": "11. Mai",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": -90,
+      "formatter": function () {
+                    return this.value.replace("BS", "<b>BS<br/>");
+                }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 50,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-9013"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in % der Gesamtwirtschaft",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default",
+      "width": 470
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "x": 35
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    },
+    "column": {}
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 9013
+  }
+}
