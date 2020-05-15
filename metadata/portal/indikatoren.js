@@ -32187,5 +32187,46 @@ var indikatoren = [
 		"chart-id": 8992,
 		"filter": "",
 		"id": 8992
+	},
+	{
+		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
+		"subtitle": "",
+		"kuerzel": "I.14.3.08995",
+		"kuerzelKunde": "",
+		"description": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-05-14T13:55:30.3030",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Für die Kalenderwoche 14 des Jahres 2020 (30.03. - 05.04.) sind im Kanton Basel-Stadt insgesamt 68 Todesfälle gemeldet worden. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
+		"erlaeuterungen": "Die Todesfälle stammen aus der Bevölkerungsstatistik des Kantons Basel-Stadt. Da diese oftmals verzögert gemeldet werden, dürften die tatsächlichen Todesfälle der unmittelbar zurückliegenden Kalenderwochen höher liegen. Die Schätzung der Bandbreite pro Kalenderwoche erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methodik, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten. Zunächst werden die erwarteten Todesfälle nach Jahr und Altersklassen geschätzt, um diese für mögliche zeitliche und demographische Trends zu bereinigen. Anschliessend wird der Median der Todesfälle nach Kalenderwoche berechnet, um die saisonale Schwankung der Todesfälle abzubilden. Die so errechneten Wochenwerte werden um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor adjustiert, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten. Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit 99% Wahrscheinlichkeit erwarten würde.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			"<a href = 'https://www.experimental.bfs.admin.ch/de/momo.html' target = '_blank'>Mortalitätsmonitoring nach Grossregionen (MOMO)</a>",
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitszustand/sterblichkeit-todesursachen.html' target = '_blank'>Wöchentliche Todesfälle der Schweiz (BFS)</a>"
+		],
+		"data-id": 8995,
+		"chart-id": 8995,
+		"filter": "",
+		"id": 8995
 	}
 ];
