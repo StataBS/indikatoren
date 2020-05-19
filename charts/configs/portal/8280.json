@@ -1,0 +1,312 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2010,
+          11543
+        ],
+        [
+          2011,
+          11604
+        ],
+        [
+          2012,
+          11737
+        ],
+        [
+          2013,
+          11836
+        ],
+        [
+          2014,
+          12093
+        ],
+        [
+          2015,
+          12470
+        ],
+        [
+          2016,
+          12776
+        ],
+        [
+          2017,
+          13049
+        ],
+        [
+          2018,
+          13357
+        ],
+        [
+          2019,
+          13585
+        ]
+      ],
+      "name": "5-12 J."
+    },
+    {
+      "color": "#B00000",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2010,
+          7655
+        ],
+        [
+          2011,
+          7637
+        ],
+        [
+          2012,
+          7540
+        ],
+        [
+          2013,
+          7604
+        ],
+        [
+          2014,
+          7481
+        ],
+        [
+          2015,
+          7510
+        ],
+        [
+          2016,
+          7483
+        ],
+        [
+          2017,
+          7475
+        ],
+        [
+          2018,
+          7501
+        ],
+        [
+          2019,
+          7558
+        ]
+      ],
+      "name": "13-17 J."
+    },
+    {
+      "color": "#CD9C00",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2010,
+          18680
+        ],
+        [
+          2011,
+          18587
+        ],
+        [
+          2012,
+          18607
+        ],
+        [
+          2013,
+          18632
+        ],
+        [
+          2014,
+          18355
+        ],
+        [
+          2015,
+          18049
+        ],
+        [
+          2016,
+          17838
+        ],
+        [
+          2017,
+          17541
+        ],
+        [
+          2018,
+          17435
+        ],
+        [
+          2019,
+          17016
+        ]
+      ],
+      "name": "18-25 J."
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8280"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: {format: value:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8280
+  }
+}

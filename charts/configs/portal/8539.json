@@ -1,0 +1,249 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Wohnung\u002FHaus zu klein",
+          377
+        ],
+        [
+          "Erwerb von Wohneigentum",
+          136
+        ],
+        [
+          "Miete zu hoch",
+          128
+        ],
+        [
+          "Lärmbelastung Strassenverk.",
+          125
+        ],
+        [
+          "Nicht kindger. Wohnumfeld",
+          101
+        ],
+        [
+          "And. private\u002Ffamiliäre Gründe",
+          93
+        ],
+        [
+          "Ausstattung ungenügend",
+          82
+        ],
+        [
+          "Laute Nachbarn",
+          73
+        ],
+        [
+          "Schlechter Ruf der Gegend",
+          39
+        ],
+        [
+          "Weg zur Arbeit zu weit",
+          33
+        ],
+        [
+          "Lärmbelastung öff. Raum",
+          33
+        ],
+        [
+          "Lärmbelastung Bahnverkehr",
+          29
+        ],
+        [
+          "Wohnung\u002FHaus zu gross",
+          17
+        ],
+        [
+          "Lärmbelastung Flugverkehr",
+          10
+        ],
+        [
+          "Weg zum Einkaufen zu weit",
+          8
+        ],
+        [
+          "Kündigung durch Vermieter",
+          6
+        ],
+        [
+          "Andere Gründe",
+          188
+        ]
+      ],
+      "name": "Anzahl Nennungen",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "8px",
+        "color": "#000000"
+      },
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -15
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function() {
+                    this.credits.element.onclick = function() {};
+                    
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
+                    
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                      this.update(
+                        {
+                          legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                          }
+                        }
+                      );
+                    }              
+                    
+                }
+    },
+    "marginRight": 30,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-8539",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0,
+      "pointWidth": 5
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Umzugswunsch"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 10,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "headerFormat": " ",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {point.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8539
+  }
+}

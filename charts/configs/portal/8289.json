@@ -1,0 +1,1006 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          61.8
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          65.5
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          63.9
+        ],
+        [
+          "2 Kinder (n=750)",
+          64.3
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          67.4
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          65.7
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          63.2
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          63.2
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          66.3
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          73.3
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          67.8
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          61.7
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          62.5
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          68
+        ],
+        [
+          "nur andere (n=246)",
+          67.9
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          74.8
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          69.1
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          62.1
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          63.4
+        ],
+        [
+          "Grossbasel West (n=585)",
+          62.2
+        ],
+        [
+          "Kleinbasel (n=376)",
+          72.9
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          60.1
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          null
+        ],
+        [
+          "2013 (N=2 231)",
+          63.6
+        ],
+        [
+          "2017 (N=1 665)",
+          64.8
+        ]
+      ],
+      "name": "Unter 5 Minuten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B ",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          27.2
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          25.5
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          27
+        ],
+        [
+          "2 Kinder (n=750)",
+          25.5
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          24.1
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          25.7
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          28
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          24.9
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          24.4
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          17.1
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          24.8
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          27.7
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          28
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          22.5
+        ],
+        [
+          "nur andere (n=246)",
+          23.6
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          18.9
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          23.3
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          27.1
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          25.8
+        ],
+        [
+          "Grossbasel West (n=585)",
+          29.2
+        ],
+        [
+          "Kleinbasel (n=376)",
+          20.5
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          25.7
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          80.6
+        ],
+        [
+          "2013 (N=2 231)",
+          25
+        ],
+        [
+          "2017 (N=1 665)",
+          25.7
+        ]
+      ],
+      "name": "5 bis 9 Minuten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          7
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          6.9
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          6.4
+        ],
+        [
+          "2 Kinder (n=750)",
+          7.9
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          5.7
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          6.7
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          7.4
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          9.7
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          4.4
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          4.8
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          4.5
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          8.5
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          7.6
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          6
+        ],
+        [
+          "nur andere (n=246)",
+          6.5
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          4.5
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          4.5
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          8.9
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          7.2
+        ],
+        [
+          "Grossbasel West (n=585)",
+          6.7
+        ],
+        [
+          "Kleinbasel (n=376)",
+          4.3
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          11.5
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          14.9
+        ],
+        [
+          "2013 (N=2 231)",
+          7.8
+        ],
+        [
+          "2017 (N=1 665)",
+          6.9
+        ]
+      ],
+      "name": "10  bis 20 Minuten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#661200",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          0
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          0.6
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          0.5
+        ],
+        [
+          "2 Kinder (n=750)",
+          0.4
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          0.6
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          0.7
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          0.5
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          0
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          0.3
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          0
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          0.4
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          0.6
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          0.5
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          0.8
+        ],
+        [
+          "nur andere (n=246)",
+          0
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          0
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          0.3
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          0.6
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          1.2
+        ],
+        [
+          "Grossbasel West (n=585)",
+          0
+        ],
+        [
+          "Kleinbasel (n=376)",
+          0
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          1.2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          2
+        ],
+        [
+          "2013 (N=2 231)",
+          0.8
+        ],
+        [
+          "2017 (N=1 665)",
+          0.5
+        ]
+      ],
+      "name": "Über 20 Minuten",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          2.9
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          0.4
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          1.1
+        ],
+        [
+          "2 Kinder (n=750)",
+          0.8
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          0.6
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          0.2
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          0
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          0.7
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          2.8
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          1
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          0.7
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          0.8
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          0.8
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          0.6
+        ],
+        [
+          "nur andere (n=246)",
+          1.6
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          0.9
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          0.5
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          0.8
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          1.4
+        ],
+        [
+          "Grossbasel West (n=585)",
+          0.7
+        ],
+        [
+          "Kleinbasel (n=376)",
+          0.8
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          0.4
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          1.4
+        ],
+        [
+          "2013 (N=2 231)",
+          0.9
+        ],
+        [
+          "2017 (N=1 665)",
+          0.8
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "*Familienform",
+          null
+        ],
+        [
+          "Einelternfamilie (n=272)",
+          1.1
+        ],
+        [
+          "Zweielternfamilie (n=1 372)",
+          1.1
+        ],
+        [
+          "*Anzahl Kinder",
+          null
+        ],
+        [
+          "1 Kind (n=562)",
+          1.1
+        ],
+        [
+          "2 Kinder (n=750)",
+          1.2
+        ],
+        [
+          "3 Kinder u.m. (n=353)",
+          1.7
+        ],
+        [
+          "*Alter jüngstes Kind",
+          null
+        ],
+        [
+          "0-4 Jahre (n=610)",
+          1
+        ],
+        [
+          "5-8 Jahre (n=364)",
+          0.8
+        ],
+        [
+          "9-12 Jahre (n=277)",
+          1.4
+        ],
+        [
+          "13-17 Jahre (n=389)",
+          1.8
+        ],
+        [
+          "*Bildungsniveau Eltern",
+          null
+        ],
+        [
+          "Obligat. Schule (n=105)",
+          3.8
+        ],
+        [
+          "Sekundarstufe II (n=553)",
+          1.8
+        ],
+        [
+          "Tertiärstufe (n=983)",
+          0.6
+        ],
+        [
+          "*Haushaltssprache",
+          null
+        ],
+        [
+          "ch\u002Fdt (n=870)",
+          0.6
+        ],
+        [
+          "ch\u002Fdt und andere (n=516)",
+          2.1
+        ],
+        [
+          "nur andere (n=246)",
+          0.4
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C3 000 Fr. (n=111)",
+          0.9
+        ],
+        [
+          "3 000-7 499 Fr. (n=580)",
+          2.2
+        ],
+        [
+          "\u003E7 499 Fr. (n=855)",
+          0.5
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=415)",
+          1
+        ],
+        [
+          "Grossbasel West (n=585)",
+          1.2
+        ],
+        [
+          "Kleinbasel (n=376)",
+          1.6
+        ],
+        [
+          "Riehen, Bettingen (n=253)",
+          1.2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2009 (N=3 119)",
+          1.1
+        ],
+        [
+          "2013 (N=2 231)",
+          1.8
+        ],
+        [
+          "2017 (N=1 665)",
+          1.3
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "align": "left",
+      "x": -160,
+      "useHTML": true,
+      "style": {
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    //indentation of labels, except category-titles
+                    var tmp = "&nbsp;&nbsp;&nbsp;" + this.value;
+                    return tmp.replace("&nbsp;&nbsp;&nbsp;*", "");
+                }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "inverted": true,
+    "width": 485,
+    "height": 713,
+    "marginLeft": 170,
+    "marginRight": 25,
+    "spacingBottom": 40,
+    "zoomType": "xy",
+    "type": "column",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "renderTo": "container-8289"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000"
+        }
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Distanz zum nächsten Spielplatz"
+  },
+  "subtitle": {
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "text": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?» Stand: 2017"
+  },
+  "yAxis": {
+    "max": 100,
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "rotation": 0,
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "legend": {
+    "enabled": true,
+    "reversed": true,
+    "useHTML": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "margin": 0,
+    "padding": 5,
+    "itemDistance": 10,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "color": "#000000",
+      "width": 115,
+      "textOverflow": "none"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "exporting": {
+    "filename": 8289
+  }
+}

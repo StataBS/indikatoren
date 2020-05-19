@@ -1,0 +1,283 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#A8C3CA",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
+      "data": [
+        [
+          "Total",
+          36.3
+        ],
+        [
+          "Männer",
+          29.3
+        ],
+        [
+          "Frauen",
+          42.8
+        ],
+        [
+          "15-34 Jahre",
+          39.7
+        ],
+        [
+          "35-49 Jahre",
+          40.1
+        ],
+        [
+          "50-64 Jahre",
+          34.5
+        ],
+        [
+          "\u003E64 Jahre",
+          29.9
+        ],
+        [
+          "Obligat. Schule",
+          47
+        ],
+        [
+          "Sekundarstufe II",
+          36.9
+        ],
+        [
+          "Tertiärstufe",
+          30.6
+        ],
+        [
+          "o. Migrationsh.",
+          33
+        ],
+        [
+          "m. Migrationsh.",
+          41.8
+        ]
+      ],
+      "name": "Anteil in %",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)<br/>';
+      }
+      },
+      "data": [
+        {
+          "name": "Total",
+          "low": 34.1,
+          "high": 38.5
+        },
+        {
+          "name": "Männer",
+          "low": 26.2,
+          "high": 32.4
+        },
+        {
+          "name": "Frauen",
+          "low": 39.8,
+          "high": 45.8
+        },
+        {
+          "name": "15-34 Jahre",
+          "low": 35.2,
+          "high": 44.2
+        },
+        {
+          "name": "35-49 Jahre",
+          "low": 35.5,
+          "high": 44.7
+        },
+        {
+          "name": "50-64 Jahre",
+          "low": 30.4,
+          "high": 38.6
+        },
+        {
+          "name": "\u003E64 Jahre",
+          "low": 25.9,
+          "high": 33.9
+        },
+        {
+          "name": "Obligat. Schule",
+          "low": 41.6,
+          "high": 52.4
+        },
+        {
+          "name": "Sekundarstufe II",
+          "low": 33.8,
+          "high": 39.9
+        },
+        {
+          "name": "Tertiärstufe",
+          "low": 26.8,
+          "high": 34.5
+        },
+        {
+          "name": "o. Migrationsh.",
+          "low": 30.4,
+          "high": 35.6
+        },
+        {
+          "name": "m. Migrationsh.",
+          "low": 38,
+          "high": 45.6
+        }
+      ],
+      "name": "95% Vertrauensintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "marginBottom": 65,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-8265",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Personen mit Einsamkeitsgefühlen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in %, Grossregion Nordwestschweiz, 2017",
+    "align": "left",
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function(){
+          return Highcharts.numberFormat((this.value),0)+'%';                
+      }
+    },
+    "tickInterval": 10
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Schweizerische Gesundheitsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": 8265
+  }
+}
