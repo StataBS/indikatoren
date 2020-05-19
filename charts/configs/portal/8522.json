@@ -1,0 +1,482 @@
+{
+  "series": [
+    {
+      "color": "#73B97C",
+      "index": 1,
+      "data": [
+        [
+          2010,
+          0.06224
+        ],
+        [
+          2011,
+          0.051462
+        ],
+        [
+          2012,
+          0.045042
+        ],
+        [
+          2013,
+          0.046156
+        ],
+        [
+          2014,
+          0.044461
+        ],
+        [
+          2015,
+          0.045338
+        ],
+        [
+          2016,
+          0.044922
+        ],
+        [
+          2017,
+          0.044949
+        ],
+        [
+          2018,
+          0.038518
+        ],
+        [
+          2019,
+          0.032398
+        ]
+      ],
+      "name": "15-24 Jahre"
+    },
+    {
+      "color": "#007A2F ",
+      "index": 2,
+      "data": [
+        [
+          2010,
+          0.050114
+        ],
+        [
+          2011,
+          0.041419
+        ],
+        [
+          2012,
+          0.039872
+        ],
+        [
+          2013,
+          0.039761
+        ],
+        [
+          2014,
+          0.036305
+        ],
+        [
+          2015,
+          0.042168
+        ],
+        [
+          2016,
+          0.044967
+        ],
+        [
+          2017,
+          0.040184
+        ],
+        [
+          2018,
+          0.033864
+        ],
+        [
+          2019,
+          0.030225
+        ]
+      ],
+      "name": "25-29 Jahre"
+    },
+    {
+      "color": "#FFBB58",
+      "index": 3,
+      "data": [
+        [
+          2010,
+          0.045536
+        ],
+        [
+          2011,
+          0.040027
+        ],
+        [
+          2012,
+          0.042719
+        ],
+        [
+          2013,
+          0.045094
+        ],
+        [
+          2014,
+          0.038068
+        ],
+        [
+          2015,
+          0.040771
+        ],
+        [
+          2016,
+          0.043794
+        ],
+        [
+          2017,
+          0.040843
+        ],
+        [
+          2018,
+          0.037322
+        ],
+        [
+          2019,
+          0.033051
+        ]
+      ],
+      "name": "30-39 Jahre"
+    },
+    {
+      "color": "#689199",
+      "index": 4,
+      "data": [
+        [
+          2010,
+          0.037972
+        ],
+        [
+          2011,
+          0.033656
+        ],
+        [
+          2012,
+          0.034581
+        ],
+        [
+          2013,
+          0.033573
+        ],
+        [
+          2014,
+          0.030941
+        ],
+        [
+          2015,
+          0.034004
+        ],
+        [
+          2016,
+          0.035952
+        ],
+        [
+          2017,
+          0.035419
+        ],
+        [
+          2018,
+          0.033563
+        ],
+        [
+          2019,
+          0.030793
+        ]
+      ],
+      "name": "40-49 Jahre"
+    },
+    {
+      "color": "#246370",
+      "index": 5,
+      "data": [
+        [
+          2010,
+          0.030867
+        ],
+        [
+          2011,
+          0.028443
+        ],
+        [
+          2012,
+          0.028661
+        ],
+        [
+          2013,
+          0.030258
+        ],
+        [
+          2014,
+          0.029941
+        ],
+        [
+          2015,
+          0.032448
+        ],
+        [
+          2016,
+          0.034066
+        ],
+        [
+          2017,
+          0.029665
+        ],
+        [
+          2018,
+          0.026597
+        ],
+        [
+          2019,
+          0.02662
+        ]
+      ],
+      "name": "50-59 Jahre"
+    },
+    {
+      "color": "#B375AB",
+      "index": 6,
+      "data": [
+        [
+          2010,
+          0.030278
+        ],
+        [
+          2011,
+          0.028444
+        ],
+        [
+          2012,
+          0.027456
+        ],
+        [
+          2013,
+          0.02708
+        ],
+        [
+          2014,
+          0.023072
+        ],
+        [
+          2015,
+          0.021098
+        ],
+        [
+          2016,
+          0.024193
+        ],
+        [
+          2017,
+          0.023516
+        ],
+        [
+          2018,
+          0.021491
+        ],
+        [
+          2019,
+          0.021537
+        ]
+      ],
+      "name": "60 Jahre u.m."
+    },
+    {
+      "color": "#3C3C3C",
+      "index": 7,
+      "data": [
+        [
+          2010,
+          0.041761
+        ],
+        [
+          2011,
+          0.036521
+        ],
+        [
+          2012,
+          0.036525
+        ],
+        [
+          2013,
+          0.037258
+        ],
+        [
+          2014,
+          0.033927
+        ],
+        [
+          2015,
+          0.036527
+        ],
+        [
+          2016,
+          0.038668
+        ],
+        [
+          2017,
+          0.036038
+        ],
+        [
+          2018,
+          0.032516
+        ],
+        [
+          2019,
+          0.029783
+        ]
+      ],
+      "name": "Total"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginTop": 10,
+    "renderTo": "container-8522",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitslosenquote nach Alter"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      },
+      "x": -5
+    },
+    "max": 0.069,
+    "tickInterval": 0.01
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8522
+  }
+}

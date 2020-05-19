@@ -1,0 +1,330 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Klybeck",
+          31.766005032
+        ],
+        [
+          "Kleinhüningen",
+          32.244484629
+        ],
+        [
+          "Rosental",
+          33.602657907
+        ],
+        [
+          "Matthäus",
+          34.932337722
+        ],
+        [
+          "Clara",
+          36.286571056
+        ],
+        [
+          "St. Johann",
+          36.361505244
+        ],
+        [
+          "Iselin",
+          36.415617577
+        ],
+        [
+          "Gundeldingen",
+          38.334746684
+        ],
+        [
+          "Breite",
+          38.580147476
+        ],
+        [
+          "Hirzbrunnen",
+          38.913104491
+        ],
+        [
+          "Gotthelf",
+          40.865903756
+        ],
+        [
+          "Altstadt Kleinbasel",
+          42.766153846
+        ],
+        [
+          "Wettstein",
+          45.328020756
+        ],
+        [
+          "Am Ring",
+          45.35195972
+        ],
+        [
+          "Bachletten",
+          46.271230827
+        ],
+        [
+          "Riehen",
+          47.529964691
+        ],
+        [
+          "St. Alban",
+          48.422274199
+        ],
+        [
+          "Bruderholz",
+          48.463106267
+        ],
+        [
+          "Vorstädte",
+          49.837307449
+        ],
+        [
+          "Bettingen",
+          52.784728611
+        ],
+        [
+          "Altstadt Grossbasel",
+          53.158121706
+        ]
+      ],
+      "name": "Wohnfläche pro Kopf",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
+          1
+        ],
+        [
+          "Kleinhüningen",
+          2
+        ],
+        [
+          "Rosental",
+          3
+        ],
+        [
+          "Matthäus",
+          4
+        ],
+        [
+          "Clara",
+          5
+        ],
+        [
+          "St. Johann",
+          6
+        ],
+        [
+          "Iselin",
+          7
+        ],
+        [
+          "Gundeldingen",
+          8
+        ],
+        [
+          "Breite",
+          9
+        ],
+        [
+          "Hirzbrunnen",
+          10
+        ],
+        [
+          "Gotthelf",
+          11
+        ],
+        [
+          "Altstadt Kleinbasel",
+          12
+        ],
+        [
+          "Wettstein",
+          13
+        ],
+        [
+          "Am Ring",
+          14
+        ],
+        [
+          "Bachletten",
+          15
+        ],
+        [
+          "Riehen",
+          16
+        ],
+        [
+          "St. Alban",
+          17
+        ],
+        [
+          "Bruderholz",
+          18
+        ],
+        [
+          "Vorstädte",
+          19
+        ],
+        [
+          "Bettingen",
+          20
+        ],
+        [
+          "Altstadt Grossbasel",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "9px"
+      },
+      "padding": 1,
+      "step": 1,
+      "y": 3,
+      "x": -10
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function() {                
+                    this.credits.element.onclick = function() {}
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "width": 641,
+    "height": 428,
+    "spacingBottom": 65,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "inverted": true,
+    "marginRight": 15,
+    "renderTo": "container-8554"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wohnfläche pro Kopf"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2018",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function(){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "formatter": function () {
+					return Highcharts.numberFormat((this.value), 0, ".", "");
+				},
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "min": 0,
+    "tickInterval": 10
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 2
+  },
+  "tooltip": {
+    "formatter": function(args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": true
+  },
+  "exporting": {
+    "filename": 8554
+  }
+}
