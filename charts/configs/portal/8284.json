@@ -1,0 +1,326 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          0.0666591589
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.0809475552
+        ],
+        [
+          "Klybeck",
+          0.123419748
+        ],
+        [
+          "Rosental",
+          0.145365968
+        ],
+        [
+          "Clara",
+          0.159184092
+        ],
+        [
+          "Matthäus",
+          0.1653368754
+        ],
+        [
+          "Gundeldingen",
+          0.1774198731
+        ],
+        [
+          "Vorstädte",
+          0.1947799544
+        ],
+        [
+          "Kleinhüningen",
+          0.2240506642
+        ],
+        [
+          "Am Ring",
+          0.2412124253
+        ],
+        [
+          "Wettstein",
+          0.278453652
+        ],
+        [
+          "St. Johann",
+          0.282953173
+        ],
+        [
+          "Gotthelf",
+          0.3197877716
+        ],
+        [
+          "St. Alban",
+          0.3233511533
+        ],
+        [
+          "Breite",
+          0.3593640802
+        ],
+        [
+          "Iselin",
+          0.370621891
+        ],
+        [
+          "Bachletten",
+          0.4131432106
+        ],
+        [
+          "Hirzbrunnen",
+          0.5975573457
+        ],
+        [
+          "Bruderholz",
+          0.7130501471
+        ],
+        [
+          "Riehen",
+          0.7962399194
+        ],
+        [
+          "Bettingen",
+          0.9019785762
+        ]
+      ],
+      "name": "Anteil Grünflächen",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Altstadt Grossbasel",
+          1
+        ],
+        [
+          "Altstadt Kleinbasel",
+          2
+        ],
+        [
+          "Klybeck",
+          3
+        ],
+        [
+          "Rosental",
+          4
+        ],
+        [
+          "Clara",
+          5
+        ],
+        [
+          "Matthäus",
+          6
+        ],
+        [
+          "Gundeldingen",
+          7
+        ],
+        [
+          "Vorstädte",
+          8
+        ],
+        [
+          "Kleinhüningen",
+          9
+        ],
+        [
+          "Am Ring",
+          10
+        ],
+        [
+          "Wettstein",
+          11
+        ],
+        [
+          "St. Johann",
+          12
+        ],
+        [
+          "Gotthelf",
+          13
+        ],
+        [
+          "St. Alban",
+          14
+        ],
+        [
+          "Breite",
+          15
+        ],
+        [
+          "Iselin",
+          16
+        ],
+        [
+          "Bachletten",
+          17
+        ],
+        [
+          "Hirzbrunnen",
+          18
+        ],
+        [
+          "Bruderholz",
+          19
+        ],
+        [
+          "Riehen",
+          20
+        ],
+        [
+          "Bettingen",
+          21
+        ]
+      ],
+      "name": "Rang",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+                  //for top-left legends with no x defined: move legend to x position of first yAxis
+                  if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                    this.update(
+                      {
+                        legend: {
+                          x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                        }
+                      }
+                    );
+                  }              
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 45,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "scatter",
+    "inverted": true,
+    "renderTo": "container-8284"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Grünflächen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
+    "align": "left"
+  },
+  "plotOptions": {
+    "series": {
+      "dataLabels": {
+        "x": 5,
+        "align": "left",
+        "verticalAlign": "middle",
+        "enabled": false,
+        "style": {
+          "fontSize": "10px"
+        },
+        "formatter": function(){
+                        return Highcharts.numberFormat((this.y*100),1)+'%';                
+                    }
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "formatter": function(){
+                    return Highcharts.numberFormat((this.value*100),0)+'%';                
+                },
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "min": 0
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0
+  },
+  "tooltip": {
+    "formatter": function(args){
+                var this_point_index = this.series.data.indexOf(this.point);
+                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+                var other_series = args.chart.series[other_series_index];
+                var other_point = other_series.data[this_point_index];
+                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
+                    'Rang <b>' + other_point.y + '</b>';
+            },
+    "shared": true
+  },
+  "exporting": {
+    "filename": 8284
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2009,
+          6921
+        ],
+        [
+          2010,
+          6955
+        ],
+        [
+          2011,
+          7075
+        ],
+        [
+          2012,
+          7197
+        ],
+        [
+          2013,
+          7306
+        ],
+        [
+          2014,
+          7169
+        ],
+        [
+          2015,
+          7073
+        ],
+        [
+          2016,
+          7047
+        ],
+        [
+          2017,
+          6895
+        ],
+        [
+          2018,
+          6879
+        ]
+      ],
+      "name": "EL zur IV"
+    },
+    {
+      "color": "#FFDA80",
+      "index": 2,
+      "data": [
+        [
+          2009,
+          5067
+        ],
+        [
+          2010,
+          5167
+        ],
+        [
+          2011,
+          5323
+        ],
+        [
+          2012,
+          5351
+        ],
+        [
+          2013,
+          5469
+        ],
+        [
+          2014,
+          5397
+        ],
+        [
+          2015,
+          5317
+        ],
+        [
+          2016,
+          5390
+        ],
+        [
+          2017,
+          5254
+        ],
+        [
+          2018,
+          5241
+        ]
+      ],
+      "name": "Beihilfen zur IV"
+    },
+    {
+      "color": "#923F8D",
+      "index": 3,
+      "data": [
+        [
+          2009,
+          6538
+        ],
+        [
+          2010,
+          6684
+        ],
+        [
+          2011,
+          6675
+        ],
+        [
+          2012,
+          6960
+        ],
+        [
+          2013,
+          7200
+        ],
+        [
+          2014,
+          7398
+        ],
+        [
+          2015,
+          7623
+        ],
+        [
+          2016,
+          7834
+        ],
+        [
+          2017,
+          7984
+        ],
+        [
+          2018,
+          8262
+        ]
+      ],
+      "name": "EL zur AHV"
+    },
+    {
+      "color": "#CD9C00",
+      "index": 4,
+      "data": [
+        [
+          2009,
+          4252
+        ],
+        [
+          2010,
+          4389
+        ],
+        [
+          2011,
+          4567
+        ],
+        [
+          2012,
+          4706
+        ],
+        [
+          2013,
+          4857
+        ],
+        [
+          2014,
+          5013
+        ],
+        [
+          2015,
+          5154
+        ],
+        [
+          2016,
+          5373
+        ],
+        [
+          2017,
+          5536
+        ],
+        [
+          2018,
+          5802
+        ]
+      ],
+      "name": "Beihilfen zur AHV"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                //square legends must be placed 3 pixels more to the left that lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8521",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beziehende von Ergänzungsleistungen und Beihilfen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": 10,
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "x": -5
+    },
+    "tickInterval": 2500
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": null,
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "x": 45
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8521
+  }
+}

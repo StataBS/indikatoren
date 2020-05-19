@@ -1,0 +1,770 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          49.2
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          49.7
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          45.8
+        ],
+        [
+          "Weiblich (n=793)",
+          52.5
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          50.3
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          52
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          46.7
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          50.4
+        ],
+        [
+          "Ausland (n=107)",
+          41.1
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          52.3
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          48.9
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          50.8
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          49.3
+        ],
+        [
+          "Grossbasel West (n=438)",
+          53.4
+        ],
+        [
+          "Kleinbasel (n=288)",
+          49.7
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          44.8
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          47.4
+        ],
+        [
+          "2015 (N=1 427)",
+          49.5
+        ]
+      ],
+      "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          35
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          34.2
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          37.2
+        ],
+        [
+          "Weiblich (n=793)",
+          32.3
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          33.5
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          33.3
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          36.5
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          33.8
+        ],
+        [
+          "Ausland (n=107)",
+          40.2
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          33.1
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          37.9
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          32.5
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          34.2
+        ],
+        [
+          "Grossbasel West (n=438)",
+          33.6
+        ],
+        [
+          "Kleinbasel (n=288)",
+          34.4
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          35.3
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          37.5
+        ],
+        [
+          "2015 (N=1 427)",
+          34.5
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          5.1
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          3.9
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          4.6
+        ],
+        [
+          "Weiblich (n=793)",
+          4.2
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          6.9
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          3.6
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          2.4
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          4.3
+        ],
+        [
+          "Ausland (n=107)",
+          4.7
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          5.8
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          6.1
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          2.7
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          4.5
+        ],
+        [
+          "Grossbasel West (n=438)",
+          3.4
+        ],
+        [
+          "Kleinbasel (n=288)",
+          4.9
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          5.2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          5.4
+        ],
+        [
+          "2015 (N=1 427)",
+          4.3
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          1.8
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          1.1
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          1.3
+        ],
+        [
+          "Weiblich (n=793)",
+          1.4
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          1.9
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          0.8
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          1.3
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          1.4
+        ],
+        [
+          "Ausland (n=107)",
+          0.9
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          1.8
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          0.6
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          1.6
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          1.7
+        ],
+        [
+          "Grossbasel West (n=438)",
+          1.1
+        ],
+        [
+          "Kleinbasel (n=288)",
+          0.7
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          2
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          0.8
+        ],
+        [
+          "2015 (N=1 427)",
+          1.3
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          3.2
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          4.6
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          5.9
+        ],
+        [
+          "Weiblich (n=793)",
+          2.6
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          4.2
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          3.8
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          4.1
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          3.7
+        ],
+        [
+          "Ausland (n=107)",
+          8.4
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          1.3
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          2.1
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          6.5
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          4.5
+        ],
+        [
+          "Grossbasel West (n=438)",
+          3.9
+        ],
+        [
+          "Kleinbasel (n=288)",
+          3.8
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          4.8
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          2.2
+        ],
+        [
+          "2015 (N=1 427)",
+          4.1
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "*Haushaltsform",
+          null
+        ],
+        [
+          "Einpersonen-HH (n=506)",
+          5.7
+        ],
+        [
+          "Mehrpersonen-HH (n=921)",
+          6.5
+        ],
+        [
+          "*Geschlecht",
+          null
+        ],
+        [
+          "Männlich (n=627)",
+          5.3
+        ],
+        [
+          "Weiblich (n=793)",
+          7.1
+        ],
+        [
+          "*Alter",
+          null
+        ],
+        [
+          "55-64 Jahre (n=477)",
+          3.1
+        ],
+        [
+          "65-74 Jahre (n=475)",
+          6.5
+        ],
+        [
+          "\u003E74 Jahre (n=463)",
+          9.1
+        ],
+        [
+          "*Staatsangehörigkeit",
+          null
+        ],
+        [
+          "Schweiz (n=1 309)",
+          6.4
+        ],
+        [
+          "Ausland (n=107)",
+          4.7
+        ],
+        [
+          "*Haushaltseinkommen",
+          null
+        ],
+        [
+          "\u003C5 000 Fr. (n=447)",
+          5.6
+        ],
+        [
+          "5 000-7 499 Fr. (n=327)",
+          4.3
+        ],
+        [
+          "\u003E7 499 Fr. (n=449)",
+          6
+        ],
+        [
+          "*Wahlkreis",
+          null
+        ],
+        [
+          "Grossbasel Ost (n=404)",
+          5.9
+        ],
+        [
+          "Grossbasel West (n=438)",
+          4.6
+        ],
+        [
+          "Kleinbasel (n=288)",
+          6.6
+        ],
+        [
+          "Riehen, Bettingen (n=252)",
+          7.9
+        ],
+        [
+          "*Befragungsjahr",
+          null
+        ],
+        [
+          "2011 (N=1 689)",
+          6.7
+        ],
+        [
+          "2015 (N=1 427)",
+          6.2
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "rotation": -45,
+      "align": "right",
+      "reserveSpace": true,
+      "useHTML": true,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                    return this.value.replace("*", "<b>"); //used for indentation in web-charts
+                }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 283,
+    "spacingBottom": 15,
+    "type": "column",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "renderTo": "container-8540"
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "text": "Zufriedenheit mit Mietzins"
+  },
+  "subtitle": {
+    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?» Stand: 2015"
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "max": 100,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "labels": {
+      "format": "{value}%",
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "title": {
+      "text": null
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": false,
+    "reversed": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemDistance": 2,
+    "itemMarginBottom": 5,
+    "itemMarginTop": -7,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px",
+      "color": "#000000",
+      "textOverflow": "none"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+  },
+  "exporting": {
+    "filename": 8540
+  }
+}

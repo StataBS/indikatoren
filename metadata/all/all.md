@@ -1353,6 +1353,85 @@ id | visible | visibleInPortal | indikatorenset
 8092 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8093 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8094 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8240 | true | true | CMS Kennzahlen Soziales
+8241 | true | false | CMS Kennzahlen Soziales
+8242 | true | true | CMS Kennzahlen Soziales
+8243 | true | true | CMS Kennzahlen Soziales
+8244 | true | true | CMS Kennzahlen Soziales
+8245 | true | true | CMS Kennzahlen Soziales
+8246 | true | true | CMS Kennzahlen Soziales
+8247 | true | true | CMS Kennzahlen Soziales
+8248 | true | true | CMS Kennzahlen Soziales
+8249 | true | true | CMS Kennzahlen Soziales
+8250 | true | true | CMS Kennzahlen Soziales
+8251 | true | true | CMS Kennzahlen Soziales
+8252 | true | false | CMS Kennzahlen Soziales
+8253 | true | true | CMS Kennzahlen Soziales
+8254 | true | true | CMS Kennzahlen Soziales
+8255 | true | false | CMS Kennzahlen Soziales
+8256 | true | true | CMS Kennzahlen Soziales
+8258 | true | true | CMS Kennzahlen Soziales
+8260 | true | true | CMS Kennzahlen Soziales
+8261 | true | true | CMS Kennzahlen Soziales
+8262 | true | true | CMS Kennzahlen Soziales
+8263 | true | true | CMS Kennzahlen Soziales
+8264 | true | true | CMS Kennzahlen Soziales
+8265 | true | true | CMS Kennzahlen Soziales
+8266 | true | true | CMS Kennzahlen Soziales
+8267 | true | true | CMS Kennzahlen Soziales
+8268 | true | true | CMS Kennzahlen Soziales
+8269 | true | true | CMS Kennzahlen Soziales
+8270 | true | true | CMS Kennzahlen Soziales
+8271 | true | true | CMS Kennzahlen Soziales
+8272 | true | true | CMS Kennzahlen Soziales
+8273 | true | true | CMS Kennzahlen Soziales
+8274 | true | true | CMS Kennzahlen Soziales
+8275 | true | true | CMS Kennzahlen Soziales
+8276 | true | false | CMS Kennzahlen Soziales
+8277 | true | true | CMS Kennzahlen Soziales
+8278 | true | true | CMS Kennzahlen Soziales
+8279 | true | true | CMS Kennzahlen Soziales
+8280 | true | true | CMS Kennzahlen Soziales
+8281 | true | true | CMS Kennzahlen Soziales
+8282 | true | true | CMS Kennzahlen Soziales
+8283 | true | false | CMS Kennzahlen Soziales
+8284 | true | false | CMS Kennzahlen Soziales
+8285 | true | true | CMS Kennzahlen Soziales
+8286 | true | true | CMS Kennzahlen Soziales
+8287 | true | true | CMS Kennzahlen Soziales
+8288 | true | true | CMS Kennzahlen Soziales
+8289 | true | true | CMS Kennzahlen Soziales
+8290 | true | true | CMS Kennzahlen Soziales
+8291 | true | true | CMS Kennzahlen Soziales
+8292 | true | true | CMS Kennzahlen Soziales
+8293 | true | true | CMS Kennzahlen Soziales
+8294 | true | true | CMS Kennzahlen Soziales
+8314 | true | true | CMS Kennzahlen Soziales
+8315 | true | true | CMS Kennzahlen Soziales
+8316 | true | true | CMS Kennzahlen Soziales
+8317 | true | true | CMS Kennzahlen Soziales
+8318 | true | false | CMS Kennzahlen Soziales
+8320 | true | true | CMS Kennzahlen Soziales
+8322 | true | true | CMS Kennzahlen Soziales
+8323 | true | true | CMS Kennzahlen Soziales
+8324 | true | true | CMS Kennzahlen Soziales
+8325 | true | true | CMS Kennzahlen Soziales
+8326 | true | true | CMS Kennzahlen Soziales
+8327 | true | true | CMS Kennzahlen Soziales
+8328 | true | true | CMS Kennzahlen Soziales
+8329 | true | true | CMS Kennzahlen Soziales
+8330 | true | true | CMS Kennzahlen Soziales
+8331 | true | true | CMS Kennzahlen Soziales
+8332 | true | true | CMS Kennzahlen Soziales
+8333 | true | true | CMS Kennzahlen Soziales
+8334 | true | true | CMS Kennzahlen Soziales
+8335 | true | true | CMS Kennzahlen Soziales
+8336 | true | true | CMS Kennzahlen Soziales
+8337 | true | true | CMS Kennzahlen Soziales
+8338 | true | true | CMS Kennzahlen Soziales
+8339 | true | false | CMS Kennzahlen Soziales
+8340 | true | true | CMS Kennzahlen Soziales
+8341 | true | true | CMS Kennzahlen Soziales
 8348 | true | true | 
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | false | Nachhaltigkeit
@@ -1360,6 +1439,7 @@ id | visible | visibleInPortal | indikatorenset
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
 8451 | true | true | 
+8452 | true | true | CMS Kennzahlen Soziales
 8453 | true | true | Nachhaltigkeit
 8454 | true | false | Nachhaltigkeit
 8455 | true | false | Nachhaltigkeit
@@ -1368,6 +1448,86 @@ id | visible | visibleInPortal | indikatorenset
 8458 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
 8461 | true | true | Nachhaltigkeit
+8511 | true | false | CMS Kennzahlen Soziales (Print)
+8512 | true | false | CMS Kennzahlen Soziales (Print)
+8513 | true | false | CMS Kennzahlen Soziales (Print)
+8514 | true | false | CMS Kennzahlen Soziales (Print)
+8515 | true | false | CMS Kennzahlen Soziales (Print)
+8516 | true | false | CMS Kennzahlen Soziales (Print)
+8517 | true | false | CMS Kennzahlen Soziales (Print)
+8518 | true | false | CMS Kennzahlen Soziales (Print)
+8519 | true | false | CMS Kennzahlen Soziales (Print)
+8520 | true | false | CMS Kennzahlen Soziales (Print)
+8521 | true | false | CMS Kennzahlen Soziales (Print)
+8522 | true | false | CMS Kennzahlen Soziales (Print)
+8523 | true | false | CMS Kennzahlen Soziales (Print)
+8524 | true | false | CMS Kennzahlen Soziales (Print)
+8525 | true | false | CMS Kennzahlen Soziales (Print)
+8526 | true | false | CMS Kennzahlen Soziales (Print)
+8527 | true | false | CMS Kennzahlen Soziales (Print)
+8529 | true | false | CMS Kennzahlen Soziales (Print)
+8531 | true | false | CMS Kennzahlen Soziales (Print)
+8532 | true | false | CMS Kennzahlen Soziales (Print)
+8533 | true | false | CMS Kennzahlen Soziales (Print)
+8534 | true | false | CMS Kennzahlen Soziales (Print)
+8535 | true | false | CMS Kennzahlen Soziales (Print)
+8536 | true | false | CMS Kennzahlen Soziales (Print)
+8537 | true | false | CMS Kennzahlen Soziales (Print)
+8538 | true | false | CMS Kennzahlen Soziales (Print)
+8539 | true | false | CMS Kennzahlen Soziales (Print)
+8540 | true | false | CMS Kennzahlen Soziales (Print)
+8541 | true | false | CMS Kennzahlen Soziales (Print)
+8542 | true | false | CMS Kennzahlen Soziales (Print)
+8543 | true | false | CMS Kennzahlen Soziales (Print)
+8544 | true | false | CMS Kennzahlen Soziales (Print)
+8545 | true | false | CMS Kennzahlen Soziales (Print)
+8546 | true | false | CMS Kennzahlen Soziales (Print)
+8547 | true | false | CMS Kennzahlen Soziales (Print)
+8548 | true | false | CMS Kennzahlen Soziales (Print)
+8549 | true | false | CMS Kennzahlen Soziales (Print)
+8550 | true | false | CMS Kennzahlen Soziales (Print)
+8551 | true | false | CMS Kennzahlen Soziales (Print)
+8552 | true | false | CMS Kennzahlen Soziales (Print)
+8553 | true | false | CMS Kennzahlen Soziales (Print)
+8554 | true | false | CMS Kennzahlen Soziales (Print)
+8555 | true | false | CMS Kennzahlen Soziales (Print)
+8556 | true | false | CMS Kennzahlen Soziales (Print)
+8557 | true | false | CMS Kennzahlen Soziales (Print)
+8558 | true | false | CMS Kennzahlen Soziales (Print)
+8559 | true | false | CMS Kennzahlen Soziales (Print)
+8560 | true | false | CMS Kennzahlen Soziales (Print)
+8561 | true | false | CMS Kennzahlen Soziales (Print)
+8562 | true | false | CMS Kennzahlen Soziales (Print)
+8563 | true | false | CMS Kennzahlen Soziales (Print)
+8564 | true | false | CMS Kennzahlen Soziales (Print)
+8565 | true | false | CMS Kennzahlen Soziales (Print)
+8585 | true | false | CMS Kennzahlen Soziales (Print)
+8586 | true | false | CMS Kennzahlen Soziales (Print)
+8587 | true | false | CMS Kennzahlen Soziales (Print)
+8588 | true | false | CMS Kennzahlen Soziales (Print)
+8589 | true | false | CMS Kennzahlen Soziales (Print)
+8591 | true | false | CMS Kennzahlen Soziales (Print)
+8593 | true | false | CMS Kennzahlen Soziales (Print)
+8594 | true | false | CMS Kennzahlen Soziales (Print)
+8595 | true | false | CMS Kennzahlen Soziales (Print)
+8596 | true | false | CMS Kennzahlen Soziales (Print)
+8597 | true | false | CMS Kennzahlen Soziales (Print)
+8598 | true | false | CMS Kennzahlen Soziales (Print)
+8599 | true | false | CMS Kennzahlen Soziales (Print)
+8600 | true | false | CMS Kennzahlen Soziales (Print)
+8601 | true | false | CMS Kennzahlen Soziales (Print)
+8602 | true | false | CMS Kennzahlen Soziales (Print)
+8603 | true | false | CMS Kennzahlen Soziales (Print)
+8604 | true | false | CMS Kennzahlen Soziales (Print)
+8605 | true | false | CMS Kennzahlen Soziales (Print)
+8606 | true | false | CMS Kennzahlen Soziales (Print)
+8607 | true | false | CMS Kennzahlen Soziales (Print)
+8608 | true | false | CMS Kennzahlen Soziales (Print)
+8609 | true | false | CMS Kennzahlen Soziales (Print)
+8610 | true | false | CMS Kennzahlen Soziales (Print)
+8611 | true | false | CMS Kennzahlen Soziales (Print)
+8612 | true | false | CMS Kennzahlen Soziales (Print)
+8613 | true | false | CMS Kennzahlen Soziales (Print)
 8614 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8615 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8616 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
@@ -1438,10 +1598,13 @@ id | visible | visibleInPortal | indikatorenset
 8705 | true | false | Arbeitsmarkt (Print)
 8706 | true | false | Arbeitsmarkt (Print)
 8707 | true | false | Arbeitsmarkt (Print)
+8812 | true | false | CMS Kennzahlen Soziales (Print)
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
 8877 | true | false | Richtplan
 8976 | true | false | 
+8977 | true | false | CMS Kennzahlen Soziales
+8978 | true | false | CMS Kennzahlen Soziales (Print)
 8980 | true | true | Monatsindikatoren
 8981 | true | true | Monatsindikatoren
 8983 | true | false | 
