@@ -147,6 +147,9 @@
                 verticalAlign: "bottom",
                 x: 10
             }
+        },
+        exporting: {
+            allowHTML: true
         }
     };
 }());
