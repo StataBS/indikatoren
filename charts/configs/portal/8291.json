@@ -1001,6 +1001,7 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
   },
   "exporting": {
+    "allowHTML": true,
     "filename": 8291
   }
 }

@@ -24963,7 +24963,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-22T07:45:57.5757",
+		"aktualisierungsdatum": "2020-05-27T07:21:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -28188,7 +28188,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März 2020",
+		"subtitle": "Basel-Stadt, April 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -28199,13 +28199,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-04-22T07:47:47.4747",
+		"aktualisierungsdatum": "2020-05-27T07:14:23.2323",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im März 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 13  Wohnvierteln sowie in Riehen und Bettingen. Bevölkerungsrückgänge wurden in den Wohnvierteln St. Alban, Bruderholz, Gotthelf, Altstadt Kleinbasel und Hirzbrunnen verzeichnet. Im Klybeck bleib die Einwohnerzahl unverändert.",
+		"lesehilfe": "Im April 2020 sank die Einwohnerzahl gegenüber dem Vormonat in zehn  Wohnvierteln sowie in Riehen. In neun Wohnvierteln sowie in Bettingen stieg sie. Im Wohnviertel Altstadt Grossbasel bleib die Einwohnerzahl unverändert.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
