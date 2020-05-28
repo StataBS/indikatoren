@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          0.6170225
-        ],
-        [
-          13,
-          0.6489529
+          0.6299572
         ],
         [
           19,
-          0.6527738
+          0.6440538
+        ],
+        [
+          13,
+          0.6679854
         ],
         [
           12,
-          0.6859847
+          0.7018931
         ],
         [
           17,
-          0.6943841
-        ],
-        [
-          11,
-          0.705878
+          0.7027
         ],
         [
           15,
-          0.7095694
+          0.7065011
         ],
         [
-          10,
-          0.7160829
+          11,
+          0.708345
         ],
         [
           16,
-          0.7276595
+          0.710111
         ],
         [
-          5,
-          0.740654
-        ],
-        [
-          2,
-          0.7473388
-        ],
-        [
-          7,
-          0.7498575
-        ],
-        [
-          20,
-          0.7528096
-        ],
-        [
-          30,
-          0.7528096
-        ],
-        [
-          4,
-          0.7616084
-        ],
-        [
-          6,
-          0.7650346
-        ],
-        [
-          8,
-          0.7746465
+          10,
+          0.7167553
         ],
         [
           9,
-          0.775001
+          0.7341246
+        ],
+        [
+          7,
+          0.7388214
+        ],
+        [
+          5,
+          0.7434271
+        ],
+        [
+          20,
+          0.7503934
+        ],
+        [
+          30,
+          0.7503934
+        ],
+        [
+          4,
+          0.7658882
+        ],
+        [
+          6,
+          0.7659613
+        ],
+        [
+          8,
+          0.7690934
+        ],
+        [
+          2,
+          0.7693459
         ],
         [
           3,
-          0.795711
+          0.7868671
         ],
         [
           14,
-          0.7957958
+          0.803164
         ],
         [
           1,
-          0.854485
+          0.837441
         ]
       ]
     },
@@ -3333,11 +3333,11 @@
         ],
         [
           2,
-          "Clara"
+          "Kleinhüningen"
         ],
         [
           3,
-          "Kleinhüningen"
+          "Clara"
         ],
         [
           4,
@@ -3349,31 +3349,31 @@
         ],
         [
           6,
-          "St. Johann"
-        ],
-        [
-          7,
           "Hirzbrunnen"
         ],
         [
-          8,
-          "Iselin"
+          7,
+          "St. Johann"
         ],
         [
-          9,
+          8,
           "Rosental"
         ],
         [
+          9,
+          "Iselin"
+        ],
+        [
           10,
-          "St. Alban"
+          "Gotthelf"
         ],
         [
           11,
-          "Vorstädte"
+          "Bruderholz"
         ],
         [
           12,
-          "Bruderholz"
+          "St. Alban"
         ],
         [
           13,
@@ -3397,7 +3397,7 @@
         ],
         [
           18,
-          "Gotthelf"
+          "Vorstädte"
         ],
         [
           19,
@@ -3552,6 +3552,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3591,6 +3592,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3660,7 +3662,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2014 bis 2018",
     "align": "left"
   },
   "credits": {
@@ -3676,9 +3678,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-27"
   },
   "colorAxis": {
+    "min": undefined,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
