@@ -32,12 +32,12 @@
                 name:  "<span style='color: rgba(0,0,0,0)'>0,0</span> < 2,6"
             }, {
                 from: 2.6,
-                to: 3.9,
+                to: 3.999,
                 color: '#A8C3CA',
                 name: "2,6 − 3,9"
             }, {
                 from: 4.0,
-                to: 5.9,
+                to: 5.999,
                  color: '#689199',
                  name: "4,0 − 5,9"
             },{
@@ -155,8 +155,8 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  bezüger", 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 355, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');

@@ -68,6 +68,10 @@
         [
           "2018",
           3893
+        ],
+        [
+          "2019",
+          3973
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -141,6 +145,10 @@
         [
           "2018",
           69
+        ],
+        [
+          "2019",
+          70
         ]
       ],
       "name": "Unteres Fachkader",
@@ -214,6 +222,10 @@
         [
           "2018",
           174
+        ],
+        [
+          "2019",
+          164
         ]
       ],
       "name": "Unteres Kader",
@@ -287,6 +299,10 @@
         [
           "2018",
           102
+        ],
+        [
+          "2019",
+          104
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -360,6 +376,10 @@
         [
           "2018",
           201
+        ],
+        [
+          "2019",
+          207
         ]
       ],
       "name": "Mittleres Kader",
@@ -433,6 +453,10 @@
         [
           "2018",
           118
+        ],
+        [
+          "2019",
+          115
         ]
       ],
       "name": "Oberes Kader",
@@ -514,7 +538,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Angestellte Schweizer in der Verwaltung Basel-Stadt"
+    "text": "Schweizer Angestellte in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -543,7 +567,8 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 7
+    "tickAmount": 7,
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {
@@ -564,7 +589,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "symbolRadius": 0,

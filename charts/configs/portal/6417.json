@@ -11,23 +11,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.454
+          0.433
         ],
         [
           "25-34 Jahre",
-          0.861
+          0.852
         ],
         [
           "35-44 Jahre",
-          0.864
+          0.865
         ],
         [
           "45-54 Jahre",
-          0.846
+          0.849
         ],
         [
           "55-64 Jahre",
-          0.703
+          0.702
         ]
       ],
       "name": "Schweizer",
@@ -44,28 +44,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.421,
-          "high": 0.488
+          "low": 0.4,
+          "high": 0.467
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.84,
-          "high": 0.881
+          "low": 0.831,
+          "high": 0.872
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.843,
-          "high": 0.886
+          "low": 0.844,
+          "high": 0.887
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.827,
-          "high": 0.866
+          "low": 0.829,
+          "high": 0.869
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.679,
-          "high": 0.728
+          "low": 0.678,
+          "high": 0.727
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -82,23 +82,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.509
+          0.493
         ],
         [
           "25-34 Jahre",
-          0.837
+          0.838
         ],
         [
           "35-44 Jahre",
-          0.846
+          0.851
         ],
         [
           "45-54 Jahre",
-          0.821
+          0.81
         ],
         [
           "55-64 Jahre",
-          0.627
+          0.635
         ]
       ],
       "name": "Schweizerinnen",
@@ -115,28 +115,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.476,
-          "high": 0.542
+          "low": 0.46,
+          "high": 0.526
         },
         {
           "name": "25-34 Jahre",
           "low": 0.818,
-          "high": 0.857
+          "high": 0.858
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.825,
-          "high": 0.867
+          "low": 0.83,
+          "high": 0.872
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.801,
-          "high": 0.84
+          "low": 0.789,
+          "high": 0.83
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.603,
-          "high": 0.651
+          "low": 0.611,
+          "high": 0.659
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -153,23 +153,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.473
+          0.447
         ],
         [
           "25-34 Jahre",
-          0.848
+          0.837
         ],
         [
           "35-44 Jahre",
-          0.853
+          0.861
         ],
         [
           "45-54 Jahre",
-          0.815
+          0.811
         ],
         [
           "55-64 Jahre",
-          0.569
+          0.595
         ]
       ],
       "name": "Ausländer",
@@ -186,28 +186,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.418,
-          "high": 0.528
+          "low": 0.391,
+          "high": 0.503
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.825,
-          "high": 0.871
+          "low": 0.813,
+          "high": 0.861
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.831,
-          "high": 0.874
+          "low": 0.839,
+          "high": 0.882
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.789,
-          "high": 0.842
+          "low": 0.785,
+          "high": 0.838
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.528,
-          "high": 0.611
+          "low": 0.553,
+          "high": 0.637
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -224,23 +224,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.413
+          0.405
         ],
         [
           "25-34 Jahre",
-          0.748
+          0.753
         ],
         [
           "35-44 Jahre",
-          0.743
+          0.757
         ],
         [
           "45-54 Jahre",
-          0.694
+          0.695
         ],
         [
           "55-64 Jahre",
-          0.493
+          0.495
         ]
       ],
       "name": "Ausländerinnen",
@@ -257,28 +257,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.36,
-          "high": 0.467
+          "low": 0.351,
+          "high": 0.459
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.722,
-          "high": 0.774
+          "low": 0.727,
+          "high": 0.778
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.716,
-          "high": 0.769
+          "low": 0.731,
+          "high": 0.783
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.66,
-          "high": 0.728
+          "low": 0.661,
+          "high": 0.729
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.444,
-          "high": 0.541
+          "low": 0.446,
+          "high": 0.543
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -366,7 +366,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2013 bis 2017",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018",
     "align": "left",
     "useHTML": true
   },
@@ -409,7 +409,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "symbolRadius": 0,
