@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          1.1542901116
+          1.2147335423
         ],
         [
           2,
-          3.570716138
+          3.12811317
         ],
         [
           3,
-          3.2258064516
+          3.2908895265
         ],
         [
           4,
-          5.6952169077
+          5.4138007544
         ],
         [
           5,
-          3.8234784117
+          3.9594606201
         ],
         [
           6,
-          7.3859097929
+          6.8329602388
         ],
         [
           7,
-          1.8916319333
+          1.9146899266
         ],
         [
           8,
-          2.5913621262
+          2.5408215567
         ],
         [
           9,
-          4.4261822376
+          4.4447640967
         ],
         [
           10,
-          9.5602519574
+          9.1355831853
         ],
         [
           11,
-          8.6651680582
+          8.6693330451
         ],
         [
           12,
-          6.7893660532
+          6.7247820672
         ],
         [
           13,
-          8.770210681
+          8.7637698898
         ],
         [
           14,
-          3.309352518
+          3.221719457
         ],
         [
           15,
-          4.969606484
+          4.7619047619
         ],
         [
           16,
-          10.307017544
+          8.9101034208
         ],
         [
           17,
-          11.571510407
+          10.972584856
         ],
         [
           18,
-          13.739201974
+          13.582976371
         ],
         [
           19,
-          12.631210637
+          11.436740529
         ],
         [
           20,
-          3.7019768743
+          3.4463461269
         ],
         [
           30,
-          1.483924155
+          1.9491525424
         ]
       ]
     },
@@ -6658,51 +6658,51 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          30
+          31
         ],
         [
           "Vorstädte",
-          179
+          157
         ],
         [
           "Am Ring",
-          355
+          367
         ],
         [
           "Breite",
-          512
+          488
         ],
         [
           "St. Alban",
-          441
+          461
         ],
         [
           "Gundeldingen",
-          1387
+          1282
         ],
         [
           "Bruderholz",
-          177
+          180
         ],
         [
           "Bachletten",
-          351
+          347
         ],
         [
           "Gotthelf",
-          307
+          309
         ],
         [
           "Iselin",
-          1624
+          1543
         ],
         [
           "St. Johann",
-          1619
+          1604
         ],
         [
           "Altstadt Kleinbasel",
-          166
+          162
         ],
         [
           "Clara",
@@ -6710,38 +6710,38 @@
         ],
         [
           "Wettstein",
-          184
+          178
         ],
         [
           "Hirzbrunnen",
-          466
+          444
         ],
         [
           "Rosental",
-          705
+          672
         ],
         [
           "Matthäus",
-          1818
+          1681
         ],
         [
           "Klybeck",
-          1002
+          983
         ],
         [
           "Kleinhüningen",
-          361
+          320
         ],
         [
           "Riehen",
-          794
+          739
         ],
         [
           "Bettingen",
-          18
+          23
         ]
       ],
-      "name": "Anzahl Sozialhilfebezüger"
+      "name": "Anzahl Sozialhilfebeziehender"
     },
     {
       "name": "Rhein",
@@ -7040,8 +7040,8 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 120, 125, '#fbfbfb');	                
-	        		fn.addLegendTitle(chart, "Sozialhilfequote <br/>  in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl Sozialhilfe- <br/>  bezüger", 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ", "<br/>"), 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("lfe", "lfe-<br/>"), 355, 210);
 	                
 	              	fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#7F5F1A');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 450, 255, undefined, false, 'right');
@@ -7070,7 +7070,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfequote und Sozialhilfebezüger"
+    "text": "Sozialhilfequote und Sozialhilfebeziehende"
   },
   "subtitle": {
     "style": {
@@ -7079,7 +7079,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7095,7 +7095,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "colorAxis": {
     "min": 0,
@@ -7122,13 +7122,13 @@
       },
       {
         "from": 2.6,
-        "to": 3.9,
+        "to": 3.999,
         "color": "#A8C3CA",
         "name": "2,6 − 3,9"
       },
       {
         "from": 4,
-        "to": 5.9,
+        "to": 5.999,
         "color": "#689199",
         "name": "4,0 − 5,9"
       },

@@ -28,11 +28,12 @@
       //"max": undefined
     },
     "legend": {
-      enabled: true,
+      "enabled": true,
       "layout": "horizontal",
+      itemDistance: 1,
       "verticalAlign": "top",
-      "itemMarginBottom": 5, // space between legend boxes
-      "align": "right",
+      "itemMarginBottom": 1,
+      "align": "left",
       "itemStyle": {
         "fontWeight": "normal"
       }

@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweiz",
-          19.7
+          19.1
         ],
         [
           "Deutschland",
-          11.8
+          11.6
         ],
         [
           "Italien",
@@ -27,7 +27,7 @@
         ],
         [
           "EU-Ost",
-          1.9
+          1.7
         ],
         [
           "Balkan",
@@ -35,19 +35,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          2.5
+          2.9
         ],
         [
           "Arabische Länder",
-          0.1
+          0.2
         ],
         [
           "Afrikanische Länder",
-          3.7
+          3.6
         ],
         [
           "Übrige Länder",
-          0.8
+          0.9
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          14.9
+          14.2
         ],
         [
           "Deutschland",
-          14.9
+          14
         ],
         [
           "Italien",
-          19.6
+          18.1
         ],
         [
           "Türkei",
-          0
+          0.1
         ],
         [
           "EU-17 + EFTA",
-          8.9
+          8.2
         ],
         [
           "EU-Ost",
-          13.7
+          12.4
         ],
         [
           "Balkan",
-          5.6
+          5.5
         ],
         [
           "Mittel- und Südamerika",
-          17.2
+          16.1
         ],
         [
           "Arabische Länder",
-          0.6
+          0.5
         ],
         [
           "Afrikanische Länder",
-          10.3
+          9.4
         ],
         [
           "Übrige Länder",
-          4.2
+          4.1
         ]
       ],
       "name": "Römisch-katholisch",
@@ -121,7 +121,7 @@
         ],
         [
           "Italien",
-          0.5
+          1
         ],
         [
           "Türkei",
@@ -129,11 +129,11 @@
         ],
         [
           "EU-17 + EFTA",
-          0.3
+          0.6
         ],
         [
           "EU-Ost",
-          0.8
+          1.1
         ],
         [
           "Balkan",
@@ -141,19 +141,19 @@
         ],
         [
           "Mittel- und Südamerika",
-          0.4
+          1.1
         ],
         [
           "Arabische Länder",
-          0.1
+          0.2
         ],
         [
           "Afrikanische Länder",
-          0.5
+          0.7
         ],
         [
           "Übrige Länder",
-          0.1
+          0.2
         ]
       ],
       "name": "Christkatholisch",
@@ -182,7 +182,7 @@
         ],
         [
           "EU-17 + EFTA",
-          0.2
+          0.3
         ],
         [
           "EU-Ost",
@@ -202,11 +202,11 @@
         ],
         [
           "Afrikanische Länder",
-          0.1
+          0
         ],
         [
           "Übrige Länder",
-          0.8
+          0.6
         ]
       ],
       "name": "Israelitisch",
@@ -219,156 +219,50 @@
       "data": [
         [
           "Schweiz",
-          12.2
+          65.8
         ],
         [
           "Deutschland",
-          10.3
+          73.9
         ],
         [
           "Italien",
-          6.1
+          80.4
         ],
         [
           "Türkei",
-          90
+          99.8
         ],
         [
           "EU-17 + EFTA",
-          9.1
+          89.8
         ],
         [
           "EU-Ost",
-          19.1
+          84.5
         ],
         [
           "Balkan",
-          76
+          94.3
         ],
         [
           "Mittel- und Südamerika",
-          7.5
+          79.8
         ],
         [
           "Arabische Länder",
-          84.2
+          99.1
         ],
         [
           "Afrikanische Länder",
-          58.1
+          86.3
         ],
         [
           "Übrige Länder",
-          49.8
+          94.3
         ]
       ],
-      "name": "Andere",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#fabd24",
-      "index": 1,
-      "legendIndex": 5,
-      "data": [
-        [
-          "Schweiz",
-          47.2
-        ],
-        [
-          "Deutschland",
-          60.5
-        ],
-        [
-          "Italien",
-          67.2
-        ],
-        [
-          "Türkei",
-          7.7
-        ],
-        [
-          "EU-17 + EFTA",
-          75.3
-        ],
-        [
-          "EU-Ost",
-          60.4
-        ],
-        [
-          "Balkan",
-          12.7
-        ],
-        [
-          "Mittel- und Südamerika",
-          67.5
-        ],
-        [
-          "Arabische Länder",
-          8
-        ],
-        [
-          "Afrikanische Länder",
-          19.1
-        ],
-        [
-          "Übrige Länder",
-          41.7
-        ]
-      ],
-      "name": "Keine Zugehörigkeit",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 6,
-      "data": [
-        [
-          "Schweiz",
-          5.1
-        ],
-        [
-          "Deutschland",
-          2.1
-        ],
-        [
-          "Italien",
-          6.1
-        ],
-        [
-          "Türkei",
-          2.1
-        ],
-        [
-          "EU-17 + EFTA",
-          5.1
-        ],
-        [
-          "EU-Ost",
-          3.9
-        ],
-        [
-          "Balkan",
-          5.4
-        ],
-        [
-          "Mittel- und Südamerika",
-          4.9
-        ],
-        [
-          "Arabische Länder",
-          7
-        ],
-        [
-          "Afrikanische Länder",
-          8.2
-        ],
-        [
-          "Übrige Länder",
-          2.7
-        ]
-      ],
-      "name": "Unbekannt",
+      "name": "Andere\u002Fohne\u002Funbekannt",
       "turboThreshold": 0
     }
   ],
@@ -457,7 +351,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -498,7 +392,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "symbolRadius": 0,

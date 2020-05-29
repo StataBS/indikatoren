@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          181
+          177
         ],
         [
           "Mittleres Kader",
-          410
+          224
         ],
         [
           "Mittleres Fachkader",
-          234
+          145
         ],
         [
           "Unteres Kader",
-          595
+          400
         ],
         [
           "Unteres Fachkader",
-          132
+          124
         ]
       ],
       "name": "Schweiz",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Oberes Kader",
-          11
+          9
         ],
         [
           "Mittleres Kader",
-          40
+          20
         ],
         [
           "Mittleres Fachkader",
-          21
+          12
         ],
         [
           "Unteres Kader",
-          78
+          40
         ],
         [
           "Unteres Fachkader",
-          13
+          10
         ]
       ],
       "name": "Deutschland",
@@ -69,7 +69,7 @@
         ],
         [
           "Mittleres Kader",
-          1
+          0
         ],
         [
           "Mittleres Fachkader",
@@ -77,11 +77,11 @@
         ],
         [
           "Unteres Kader",
-          5
+          2
         ],
         [
           "Unteres Fachkader",
-          2
+          1
         ]
       ],
       "name": "Italien",
@@ -106,7 +106,7 @@
         ],
         [
           "Unteres Kader",
-          1
+          0
         ],
         [
           "Unteres Fachkader",
@@ -131,15 +131,15 @@
         ],
         [
           "Mittleres Fachkader",
-          4
+          2
         ],
         [
           "Unteres Kader",
-          9
+          10
         ],
         [
           "Unteres Fachkader",
-          0
+          4
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -160,7 +160,7 @@
         ],
         [
           "Mittleres Fachkader",
-          0
+          1
         ],
         [
           "Unteres Kader",
@@ -193,11 +193,11 @@
         ],
         [
           "Unteres Kader",
-          2
+          0
         ],
         [
           "Unteres Fachkader",
-          0
+          1
         ]
       ],
       "name": "Balkan",
@@ -214,7 +214,7 @@
         ],
         [
           "Mittleres Kader",
-          1
+          0
         ],
         [
           "Mittleres Fachkader",
@@ -226,7 +226,7 @@
         ],
         [
           "Unteres Fachkader",
-          1
+          0
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -276,7 +276,7 @@
         ],
         [
           "Mittleres Fachkader",
-          1
+          0
         ],
         [
           "Unteres Kader",
@@ -309,7 +309,7 @@
         ],
         [
           "Unteres Kader",
-          1
+          0
         ],
         [
           "Unteres Fachkader",
@@ -447,7 +447,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "symbolRadius": 0,
@@ -456,9 +456,10 @@
     },
     "enabled": true,
     "layout": "horizontal",
+    "itemDistance": 1,
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "itemMarginBottom": 1,
+    "align": "left"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
