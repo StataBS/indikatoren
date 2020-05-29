@@ -1,15 +1,16 @@
-﻿"Jahr"	"Genossenschaften"	"Ohne Genossenschaften"	"Genossenschaften gewichtet"	"Ohne Genossenschaften gew."
-"2006"	727	1104
-"2007"	741	1113
-"2008"	770	1129
-"2009"	782	1159
-"2010"	788	1177
-"2011"	800	1200
-"2012"	809	1213
-"2013"	815	1221
-"2014"	824	1227
-"2015"	834	1246
+﻿"Jahr"	"Genossenschaftswohnungen"	"Ohne Genossenschaftswohnungen"	"Genossenschaftswohnungen gewichtet"	"Ohne Genossenschaftswohnungen gewichtet"
+"2006"	727	1104	""	""
+"2007"	741	1113	""	""
+"2008"	770	1129	""	""
+"2009"	782	1159	""	""
+"2010"	788	1177	""	""
+"2011"	800	1200	""	""
+"2012"	809	1213	""	""
+"2013"	815	1221	""	""
+"2014"	824	1227	""	""
+"2015"	834	1246	""	""
 "2016"	849	1263	849	1199
-"2017"	857	1281	859	1212
-"2018"	886	1288	875	1224
+"2017"	857	1281	857	1212
+"2018"	886	1288	875	1223
+"2019"	936	1303	885	1236
 

@@ -4,10 +4,6 @@
       "color": "#b00000",
       "data": [
         [
-          2009,
-          5.8
-        ],
-        [
           2010,
           5.6
         ],
@@ -42,6 +38,10 @@
         [
           2018,
           5.8
+        ],
+        [
+          2019,
+          5.9
         ]
       ],
       "name": "Schweiz"
@@ -49,10 +49,6 @@
     {
       "color": "#672773",
       "data": [
-        [
-          2009,
-          2
-        ],
         [
           2010,
           2.1
@@ -88,6 +84,10 @@
         [
           2018,
           2.5
+        ],
+        [
+          2019,
+          2.5
         ]
       ],
       "name": "Deutschland"
@@ -95,10 +95,6 @@
     {
       "color": "#007a2f",
       "data": [
-        [
-          2009,
-          3
-        ],
         [
           2010,
           2.9
@@ -134,6 +130,10 @@
         [
           2018,
           2.2
+        ],
+        [
+          2019,
+          2.2
         ]
       ],
       "name": "Italien"
@@ -141,10 +141,6 @@
     {
       "color": "#fabd24",
       "data": [
-        [
-          2009,
-          0.9
-        ],
         [
           2010,
           0.9
@@ -180,6 +176,10 @@
         [
           2018,
           1.1
+        ],
+        [
+          2019,
+          1.2
         ]
       ],
       "name": "Türkei"
@@ -187,10 +187,6 @@
     {
       "color": "#b475ab",
       "data": [
-        [
-          2009,
-          1.3
-        ],
         [
           2010,
           1.3
@@ -226,6 +222,10 @@
         [
           2018,
           0.8
+        ],
+        [
+          2019,
+          0.8
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -233,10 +233,6 @@
     {
       "color": "#71a3b5",
       "data": [
-        [
-          2009,
-          0.2
-        ],
         [
           2010,
           0.4
@@ -272,6 +268,10 @@
         [
           2018,
           0.5
+        ],
+        [
+          2019,
+          0.5
         ]
       ],
       "name": "EU-Ost"
@@ -279,10 +279,6 @@
     {
       "color": "#b9cfd7",
       "data": [
-        [
-          2009,
-          0.7
-        ],
         [
           2010,
           0.7
@@ -318,6 +314,10 @@
         [
           2018,
           1
+        ],
+        [
+          2019,
+          1.2
         ]
       ],
       "name": "Balkan"
@@ -325,10 +325,6 @@
     {
       "color": "#ff8028",
       "data": [
-        [
-          2009,
-          0.8
-        ],
         [
           2010,
           0.8
@@ -364,17 +360,17 @@
         [
           2018,
           1.3
+        ],
+        [
+          2019,
+          1
         ]
       ],
-      "name": "Mittel- u. Südamerika"
+      "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
       "data": [
-        [
-          2009,
-          0.4
-        ],
         [
           2010,
           0.3
@@ -410,6 +406,10 @@
         [
           2018,
           0.6
+        ],
+        [
+          2019,
+          0.7
         ]
       ],
       "name": "Arab. Länder"
@@ -417,10 +417,6 @@
     {
       "color": "#9f7c5a",
       "data": [
-        [
-          2009,
-          0.7
-        ],
         [
           2010,
           0.7
@@ -456,6 +452,10 @@
         [
           2018,
           1.8
+        ],
+        [
+          2019,
+          2.1
         ]
       ],
       "name": "Afrikan. Länder"
@@ -463,10 +463,6 @@
     {
       "color": "#999999",
       "data": [
-        [
-          2009,
-          0.3
-        ],
         [
           2010,
           0.3
@@ -501,6 +497,10 @@
         ],
         [
           2018,
+          0.2
+        ],
+        [
+          2019,
           0.2
         ]
       ],
@@ -575,7 +575,8 @@
         "color": "#000000"
       },
       "format": "{value}%"
-    }
+    },
+    "tickInterval": 1
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -603,19 +604,21 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 5,
-    "itemMarginBottom": 5
+    "itemMarginBottom": 3,
+    "labelFormatter": function () {
+        return this.name.replace('und', 'und<br>');
+      }
   },
   "plotOptions": {
     "series": {
@@ -625,7 +628,6 @@
     },
     "line": {
       "marker": {
-        "enabled": false,
         "symbol": "circle"
       }
     }

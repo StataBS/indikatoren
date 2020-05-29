@@ -51,14 +51,14 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    itemMarginBottom: 7,
+    itemMarginBottom: 5,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     },
-     itemDistance: 6,
-     itemWidth: 205, 
-     padding: 1,
+    // itemDistance: 6,
+     //itemWidth: 205, 
+     //padding: 1,
   },
     "tooltip": {
       "shared": false

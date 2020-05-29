@@ -68,6 +68,10 @@
         [
           "2018",
           689
+        ],
+        [
+          "2019",
+          705
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -141,6 +145,10 @@
         [
           "2018",
           8
+        ],
+        [
+          "2019",
+          7
         ]
       ],
       "name": "Unteres Fachkader",
@@ -213,6 +221,10 @@
         ],
         [
           "2018",
+          27
+        ],
+        [
+          "2019",
           27
         ]
       ],
@@ -287,6 +299,10 @@
         [
           "2018",
           11
+        ],
+        [
+          "2019",
+          12
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -360,6 +376,10 @@
         [
           "2018",
           15
+        ],
+        [
+          "2019",
+          13
         ]
       ],
       "name": "Mittleres Kader",
@@ -432,6 +452,10 @@
         ],
         [
           "2018",
+          7
+        ],
+        [
+          "2019",
           7
         ]
       ],
@@ -514,7 +538,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Angestellte Ausländer in der Verwaltung Basel-Stadt"
+    "text": "Ausländische Angestellte in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -564,7 +588,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
   },
   "legend": {
     "symbolRadius": 0,
