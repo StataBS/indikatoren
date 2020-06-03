@@ -2172,14 +2172,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:45:42.4242",
+		"aktualisierungsdatum": "2020-05-29T10:17:33.3333",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote ist zwischen 2010 und 2019 bei den Angestellten mit Schweizer Pass mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
-		"erlaeuterungen": "Die Angestelltenquote zeigt den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"lesehilfe": "Im Jahr 2019 sind 5,9% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist zwischen 2010 und 2019 mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
