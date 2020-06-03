@@ -4,10 +4,6 @@
       "color": "#45381D",
       "data": [
         [
-          2007,
-          37295268
-        ],
-        [
           2008,
           34631359
         ],
@@ -42,6 +38,10 @@
         [
           2016,
           44875396
+        ],
+        [
+          2017,
+          44506179
         ]
       ],
       "name": "Zugezogene"
@@ -49,10 +49,6 @@
     {
       "color": "#CD9C00",
       "data": [
-        [
-          2007,
-          38408552
-        ],
         [
           2008,
           37110600
@@ -88,6 +84,10 @@
         [
           2016,
           38451551
+        ],
+        [
+          2017,
+          38588787
         ]
       ],
       "name": "Weggezogene (Steuerertrag im Vorjahr)"
@@ -154,6 +154,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -171,6 +172,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -201,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
   },
   "legend": {
     "enabled": true,
