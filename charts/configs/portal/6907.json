@@ -7,11 +7,11 @@
       "data": [
         [
           "Veranlagungen",
-          29037
+          29184
         ],
         [
           "Summe Einkommenssteuer",
-          298550
+          256847
         ]
       ],
       "name": "0",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          28906
+          28517
         ],
         [
           "Summe Einkommenssteuer",
-          78665791
+          77406119
         ]
       ],
       "name": "1 bis 24 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          26350
+          26034
         ],
         [
           "Summe Einkommenssteuer",
-          210015019
+          206388618
         ]
       ],
       "name": "25 000 bis 49 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          13089
+          13205
         ],
         [
           "Summe Einkommenssteuer",
-          172910654
+          173025300
         ]
       ],
       "name": "50 000 bis 74 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          6566
+          6751
         ],
         [
           "Summe Einkommenssteuer",
-          121887489
+          124184314
         ]
       ],
       "name": "75 000 bis 99 999",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          8431
+          8543
         ],
         [
           "Summe Einkommenssteuer",
-          238207153
+          239323585
         ]
       ],
       "name": "100 000 bis 199 999",
@@ -109,11 +109,11 @@
       "data": [
         [
           "Veranlagungen",
-          3363
+          3471
         ],
         [
           "Summe Einkommenssteuer",
-          333691061
+          308067750
         ]
       ],
       "name": "200 000 und mehr",
@@ -206,7 +206,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2016"
+    "text": "in Franken, Basel-Stadt, 2017"
   },
   "navigation": {
     "menuItemStyle": {
@@ -267,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
   },
   "legend": {
     "layout": "vertical",

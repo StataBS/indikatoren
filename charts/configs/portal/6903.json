@@ -4,10 +4,6 @@
       "color": "#B375AB",
       "data": [
         [
-          2007,
-          390927
-        ],
-        [
           2008,
           359455
         ],
@@ -42,6 +38,10 @@
         [
           2016,
           488775
+        ],
+        [
+          2017,
+          448363
         ]
       ],
       "name": "Mittelwert Reinvermögen"
@@ -49,10 +49,6 @@
     {
       "color": "#923F8D",
       "data": [
-        [
-          2007,
-          11398
-        ],
         [
           2008,
           12253
@@ -88,6 +84,10 @@
         [
           2016,
           18772
+        ],
+        [
+          2017,
+          20000
         ]
       ],
       "name": "Median Reinvermögen"
@@ -96,10 +96,6 @@
       "color": "#2E1435",
       "yAxis": 1,
       "data": [
-        [
-          2007,
-          209167422
-        ],
         [
           2008,
           224932947
@@ -135,6 +131,10 @@
         [
           2016,
           300833840
+        ],
+        [
+          2017,
+          260492057
         ]
       ],
       "name": "Ertrag aus Vermögenssteuer (rechte Skala)"
@@ -201,6 +201,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -249,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-3"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
   },
   "legend": {
     "enabled": true,
