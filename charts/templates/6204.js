@@ -50,7 +50,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
 				}
 			}, 
@@ -79,7 +79,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#007A2F' : '#990300';
 	                };					
 					
 					//define chart-specific details
@@ -93,7 +93,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 1) + ' Prozentpunkte</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -107,16 +107,16 @@
 	                var maxValueInLegend = 3.0; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
+	                fn.addLegendTitle(chart, pieSizeSeries.name + ' (pp)', 265, 240);
 	                
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 380, 265, 'pieLegendHideOnZoom');
 	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -303,7 +303,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [

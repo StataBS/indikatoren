@@ -15,7 +15,10 @@
 	    	columns.push(columns[2]);
 	    	columns.splice(0,5);
     	}
-	},
+    },
+    subtitle:{
+        useHTML: true
+    },
 	"yAxis": {
 		"labels": {
             "formatter": function(){

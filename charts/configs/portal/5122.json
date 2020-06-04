@@ -3238,87 +3238,87 @@
       "data": [
         [
           18,
-          182.96207936
+          204
         ],
         [
           19,
-          195.16423589
+          221
         ],
         [
           16,
-          318.34641689
+          276
         ],
         [
           10,
-          430.87557936
+          496
         ],
         [
           13,
-          534.14120083
-        ],
-        [
-          6,
-          561.93371932
-        ],
-        [
-          4,
-          563.2334935
+          535
         ],
         [
           17,
-          568.75968476
+          585
+        ],
+        [
+          4,
+          591
         ],
         [
           11,
-          575.16967243
+          597
+        ],
+        [
+          6,
+          618
         ],
         [
           15,
-          771.02751952
+          718
         ],
         [
           12,
-          1406.173482
+          1439
         ],
         [
           14,
-          1568.4051447
+          1695
         ],
         [
           3,
-          2158.1149239
+          2280
         ],
         [
           8,
-          2190.337709
+          2311
         ],
         [
           20,
-          3716.3038432
+          4072
         ],
         [
           9,
-          3957.3872421
+          4564
         ],
         [
           1,
-          5639.5632458
+          5759
         ],
         [
           5,
-          5697.8093081
+          5914
         ],
         [
           2,
-          6521.1233466
-        ],
-        [
-          30,
-          14657.565978
+          6755
         ],
         [
           7,
-          18285.117337
+          7840
+        ],
+        [
+          30,
+          14716
         ]
       ]
     },
@@ -3347,7 +3347,7 @@
         ],
         [
           6,
-          "Gundeldingen"
+          "Matthäus"
         ],
         [
           7,
@@ -3355,11 +3355,11 @@
         ],
         [
           8,
-          "Matthäus"
+          "St. Johann"
         ],
         [
           9,
-          "St. Johann"
+          "Gundeldingen"
         ],
         [
           10,
@@ -3403,11 +3403,11 @@
         ],
         [
           20,
-          "Bettingen"
+          "Bruderholz"
         ],
         [
           21,
-          "Bruderholz"
+          "Bettingen"
         ]
       ],
       "name": "Wohnviertel"
@@ -3550,6 +3550,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3589,6 +3590,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3658,7 +3660,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Steuerjahr 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
     "align": "left"
   },
   "credits": {
@@ -3674,7 +3676,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "colorAxis": {
     "min": 0,
@@ -3694,8 +3696,8 @@
     "marker": {
       "color": "black"
     },
-    "max": 80000,
-    "tickInterval": 20000,
+    "max": 20000,
+    "tickInterval": 5000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"
   },

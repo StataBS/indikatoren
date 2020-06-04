@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          4335.4490206
+          4304
         ],
         [
           "Kleinhüningen",
-          5027.181357
-        ],
-        [
-          "Iselin",
-          6251.5611288
+          5009
         ],
         [
           "Clara",
-          6362.7900621
+          6317
+        ],
+        [
+          "Iselin",
+          6361
         ],
         [
           "Matthäus",
-          6536.4357864
+          6540
         ],
         [
           "St. Johann",
-          6657.9447
+          6774
         ],
         [
           "Rosental",
-          6933.7445733
-        ],
-        [
-          "Gundeldingen",
-          7375.8589699
+          7020
         ],
         [
           "Breite",
-          7393.6547428
+          7474
+        ],
+        [
+          "Gundeldingen",
+          7493
         ],
         [
           "Hirzbrunnen",
-          7795.1969134
+          7832
         ],
         [
           "Gotthelf",
-          8627.8316339
+          9091
         ],
         [
           "Altstadt Kleinbasel",
-          9082.149938
+          9272
         ],
         [
           "Wettstein",
-          11237.065478
+          11345
         ],
         [
           "Am Ring",
-          11445.527517
+          11862
         ],
         [
           "Bachletten",
-          11819.752941
+          12189
         ],
         [
           "Riehen",
-          13499.917164
+          12932
         ],
         [
           "St. Alban",
-          16688.864751
+          16152
         ],
         [
           "Altstadt Grossbasel",
-          16990.146778
-        ],
-        [
-          "Vorstädte",
-          17096.20668
+          16423
         ],
         [
           "Bruderholz",
-          22172.442991
+          16868
+        ],
+        [
+          "Vorstädte",
+          16910
         ],
         [
           "Bettingen",
-          22686.809221
+          21092
         ]
       ],
       "name": "Einkommenssteuer pro Veranlagung",
@@ -103,11 +103,11 @@
           2
         ],
         [
-          "Iselin",
+          "Clara",
           3
         ],
         [
-          "Clara",
+          "Iselin",
           4
         ],
         [
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Gundeldingen",
+          "Breite",
           8
         ],
         [
-          "Breite",
+          "Gundeldingen",
           9
         ],
         [
@@ -167,11 +167,11 @@
           18
         ],
         [
-          "Vorstädte",
+          "Bruderholz",
           19
         ],
         [
-          "Bruderholz",
+          "Vorstädte",
           20
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Steuerjahr 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "legend": {
     "enabled": false,

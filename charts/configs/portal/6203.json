@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2018",
+      "name": "2019",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          0
+          0.0867302689
         ],
         [
           2,
-          0.3283473185
+          0.3566333809
         ],
         [
           3,
-          1.1180351906
+          1.1930585683
         ],
         [
           4,
-          2.3868825239
+          2.3524556335
         ],
         [
           5,
-          1.4077071969
+          1.4492753623
         ],
         [
           6,
-          2.5063163214
+          2.45215311
         ],
         [
           7,
-          1.4161490683
+          1.4622057001
         ],
         [
           8,
-          1.3838199513
+          1.4307228916
         ],
         [
           9,
-          1.5217391304
+          1.7600866504
         ],
         [
           10,
-          3.1076957848
+          3.2764659361
         ],
         [
           11,
-          3.4913841649
+          3.4867975626
         ],
         [
           12,
-          1.1329305136
+          1.1337868481
         ],
         [
           13,
-          2.2637795276
+          2.4865919064
         ],
         [
           14,
-          1.1454356126
+          1.0970174837
         ],
         [
           15,
-          3.02135393
+          3.0970406056
         ],
         [
           16,
-          3.301152289
+          3.3230076035
         ],
         [
           17,
-          2.9825908858
+          3.0361507783
         ],
         [
           18,
-          4.8495471808
+          4.3490866918
         ],
         [
           19,
-          5.1424050633
+          4.552715655
         ],
         [
           20,
-          1.5864786396
+          1.5051546392
         ],
         [
           30,
-          1.5021459227
+          1.7057569296
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0
+          0.0867302689
         ],
         [
           "Vorstädte",
-          -0.036483035
+          0.1034688239
         ],
         [
           "Am Ring",
-          0.4609809836
+          0.4725708536
         ],
         [
           "Breite",
-          0.4903663416
+          0.287619788
         ],
         [
           "St. Alban",
-          0.5028101068
+          0.5135186591
         ],
         [
           "Gundeldingen",
-          0.3254758513
+          0.0515155964
         ],
         [
           "Bruderholz",
-          0.7491530209
+          0.5939347996
         ],
         [
           "Bachletten",
-          0.2208558839
+          0.2634077165
         ],
         [
           "Gotthelf",
-          0.4894469123
+          0.4285287277
         ],
         [
           "Iselin",
-          0.9012340039
+          0.8628682023
         ],
         [
           "St. Johann",
-          0.7784161779
+          0.3836507095
         ],
         [
           "Altstadt Kleinbasel",
-          -0.177786526
+          -0.133923816
         ],
         [
           "Clara",
-          0.5875343168
+          0.6293094039
         ],
         [
           "Wettstein",
-          0.2809819474
+          0.0855542335
         ],
         [
           "Hirzbrunnen",
-          0.9261158348
+          0.8371536
         ],
         [
           "Rosental",
-          -0.01507353
+          -0.309726927
         ],
         [
           "Matthäus",
-          0.6126270589
+          0.5010102161
         ],
         [
           "Klybeck",
-          0.9923220801
+          0.2327942335
         ],
         [
           "Kleinhüningen",
-          1.3468977047
+          0.4933870055
         ],
         [
           "Riehen",
-          0.5970049554
+          0.5153683909
         ],
         [
           "Bettingen",
-          1.2784322762
+          1.2728564967
         ]
       ],
-      "name": "Differenz 2018 zu 2013"
+      "name": "Differenz 2019 zu 2014"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6992,7 +6994,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#007A2F' : '#990300';
 	                };					
 					
 					//define chart-specific details
@@ -7006,7 +7008,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 1) + ' Prozentpunkte</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7020,16 +7022,16 @@
 	                var maxValueInLegend = 2; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
+	                fn.addLegendTitle(chart, pieSizeSeries.name + ' (pp)', 265, 240);
 	                
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 380, 265, 'pieLegendHideOnZoom');
 	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -7046,7 +7048,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit FAMI"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
     "style": {
@@ -7055,7 +7057,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7071,7 +7073,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "colorAxis": {
     "min": 0,
