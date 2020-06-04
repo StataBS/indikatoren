@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          182.96207936
+          204
         ],
         [
           "Kleinhüningen",
-          195.16423589
+          221
         ],
         [
           "Rosental",
-          318.34641689
+          276
         ],
         [
           "Iselin",
-          430.87557936
+          496
         ],
         [
           "Clara",
-          534.14120083
-        ],
-        [
-          "Gundeldingen",
-          561.93371932
-        ],
-        [
-          "Breite",
-          563.2334935
+          535
         ],
         [
           "Matthäus",
-          568.75968476
+          585
+        ],
+        [
+          "Breite",
+          591
         ],
         [
           "St. Johann",
-          575.16967243
+          597
+        ],
+        [
+          "Gundeldingen",
+          618
         ],
         [
           "Hirzbrunnen",
-          771.02751952
+          718
         ],
         [
           "Altstadt Kleinbasel",
-          1406.173482
+          1439
         ],
         [
           "Wettstein",
-          1568.4051447
+          1695
         ],
         [
           "Am Ring",
-          2158.1149239
+          2280
         ],
         [
           "Bachletten",
-          2190.337709
+          2311
         ],
         [
           "Riehen",
-          3716.3038432
+          4072
         ],
         [
           "Gotthelf",
-          3957.3872421
+          4564
         ],
         [
           "Altstadt Grossbasel",
-          5639.5632458
+          5759
         ],
         [
           "St. Alban",
-          5697.8093081
+          5914
         ],
         [
           "Vorstädte",
-          6521.1233466
-        ],
-        [
-          "Bettingen",
-          14657.565978
+          6755
         ],
         [
           "Bruderholz",
-          18285.117337
+          7840
+        ],
+        [
+          "Bettingen",
+          14716
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -115,7 +115,7 @@
           5
         ],
         [
-          "Gundeldingen",
+          "Matthäus",
           6
         ],
         [
@@ -123,11 +123,11 @@
           7
         ],
         [
-          "Matthäus",
+          "St. Johann",
           8
         ],
         [
-          "St. Johann",
+          "Gundeldingen",
           9
         ],
         [
@@ -171,11 +171,11 @@
           19
         ],
         [
-          "Bettingen",
+          "Bruderholz",
           20
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           21
         ]
       ],
@@ -229,6 +229,7 @@
     "zoomType": "xy",
     "type": "scatter",
     "inverted": true,
+    "marginRight": 30,
     "renderTo": "container-4835"
   },
   "title": {
@@ -248,7 +249,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Steuerjahr 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
     "align": "left"
   },
   "plotOptions": {
@@ -279,9 +280,9 @@
       "text": null
     },
     "labels": {
-      "formatter": function(){
-                return Highcharts.numberFormat((this.value), 0, ".", " ");                
-            },
+      "formatter": function () {
+					return Highcharts.numberFormat((this.value), 0, ".", " ");
+				},
       "style": {
         "color": "#000000",
         "textOverflow": "none"
@@ -302,22 +303,22 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "legend": {
     "enabled": false,
     "symbolRadius": 0
   },
   "tooltip": {
-    "formatter": function(args){
-            var this_point_index = this.series.data.indexOf(this.point);
-            var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-            var other_series = args.chart.series[other_series_index];
-            var other_point = other_series.data[this_point_index];
-            return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                this.point.name +': <b>' + Highcharts.numberFormat(this.y, 0, "," ," ") + ' Fr.</b><br/>' + 
-                'Rang <b>' + other_point.y + '</b>';
-        },
+    "formatter": function (args) {
+				var this_point_index = this.series.data.indexOf(this.point);
+				var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
+				var other_series = args.chart.series[other_series_index];
+				var other_point = other_series.data[this_point_index];
+				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
+					this.point.name + ': <b>' + Highcharts.numberFormat(this.y, 0, ",", " ") + ' Fr.</b><br/>' +
+					'Rang <b>' + other_point.y + '</b>';
+			},
     "shared": true
   },
   "exporting": {

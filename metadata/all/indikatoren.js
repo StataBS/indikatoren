@@ -1726,14 +1726,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-04T14:38:39.3939",
+		"aktualisierungsdatum": "2020-06-04T08:24:18.1818",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Jahr 2006 im Durchschnitt 2 017 Franken, im Jahr 2019 betrug der Durchschnittspreis 2 224 Franken.",
-		"erlaeuterungen": "Es handelt sich in der Abbildung um Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
+		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2020 betrug der Durchschnittspreis 2 243 Franken.",
+		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1806,14 +1806,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T18:48:39.3939",
+		"aktualisierungsdatum": "2020-06-04T08:24:18.1818",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Nettomietpreise der Genossenschaftswohnungen waren in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
-		"erlaeuterungen": "Die Linien zeigen jeweils den ungewichteten Durchschnitt der Wohnungspreise. Die Punkte zeigen gewichtete Durchschnittsmietpreise, die anhand der im Gebäude- und Wohnungsregister auftretenden Häufigkeit von Wohnungen (Stand November 2015) berechnet werden. Es handelt sich in der Abbildung um Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres.",
+		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Linien zeigen jeweils den ungewichteten Durchschnitt der Wohnungsmieten. Die Punkte zeigen gewichtete Durchschnittsmietpreise, die anhand der im Gebäude- und Wohnungsregister auftretenden Häufigkeit von Wohnungen (Stand November 2015) berechnet werden. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -6907,18 +6907,18 @@ var indikatoren = [
 		"id": 4822
 	},
 	{
-		"title": "Anteil Ausländer nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Anteil Ausländer",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.4823",
 		"kuerzelKunde": "GS-2.A",
-		"description": "Anteil Ausländer nach Gemeinde und Wohnviertel",
+		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:21:55.5555",
+		"aktualisierungsdatum": "2020-06-03T08:57:50.5050",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7396,7 +7396,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
 		"description": "Wohnfläche pro Kopf",
@@ -7406,7 +7406,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-16T10:49:46.4646",
+		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -7444,7 +7444,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.4835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -7454,13 +7454,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T14:39:56.5656",
+		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
@@ -7488,7 +7488,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.4836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
@@ -7498,7 +7498,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-05-10T13:25:16.1616",
+		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -9414,18 +9414,18 @@ var indikatoren = [
 		"id": 5109
 	},
 	{
-		"title": "Anteil Ausländer nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"title": "Anteil Ausländer",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.1.05110",
 		"kuerzelKunde": "GS-2.B",
-		"description": "Anteil Ausländer nach Gemeinde und Wohnviertel",
+		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:48:40.4040",
+		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -9926,7 +9926,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.05122",
 		"kuerzelKunde": "WA-1.B",
 		"description": "Vermögenssteuer pro Veranlagung",
@@ -9936,13 +9936,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:53:41.4141",
+		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Bruderholz wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -13346,7 +13346,7 @@ var indikatoren = [
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
 		"kuerzel": "I.03.3.6037",
-		"kuerzelKunde": "GZ4",
+		"kuerzelKunde": "GZ5",
 		"description": "Verhältnis der Löhne von Frauen und Männern",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
@@ -13354,23 +13354,24 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T16:10:14.1414",
+		"aktualisierungsdatum": "2020-06-03T09:11:26.2626",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Chancengerechtigkeit",
+		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als 10 Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_504",
+		"orderKey": "05_02_00_00_00_505",
 		"parentId": null,
 		"children": [
 			"6147",
-			"6300"
+			"6300",
+			"8928"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17706,33 +17707,39 @@ var indikatoren = [
 		"id": 6202
 	},
 	{
-		"title": "Anteil Haushalte mit FAMI",
-		"subtitle": "nach Wohnviertel, 2018",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.2.6203",
 		"kuerzelKunde": "",
-		"description": "Anteil Haushalte mit FAMI",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-27T11:26:45.4545",
+		"aktualisierungsdatum": "2020-06-03T10:00:21.2121",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten bei 2,3%. 2013 lag die FAMI-Quote noch bei 1,7%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel wohnt keine beziehende Familie. Gegenüber 2013 ist einzig in den Wohnvierteln Altstadt Kleinbasel, Vorstädte sowie Rosental ein Rückgang zu beobachten.",
-		"erlaeuterungen": "FAMI = Familienmietzinsbeiträge. Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"lesehilfe": "Ende 2019 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2014 lag die FAMI-Quote noch bei 1,9%. Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,1%. Gegenüber 2014 ist einzig in den Wohnvierteln Altstadt Kleinbasel sowie Rosental ein Rückgang zu beobachten.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"8338",
+			"8609"
+		],
+		"renderLink": [
+			"8338",
+			"8609"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -17747,7 +17754,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Haushalte mit Prämienverbilligung",
-		"subtitle": "nach Wohnviertel, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.2.6204",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Prämienverbilligung",
@@ -17757,22 +17764,28 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-27T11:29:03.033",
+		"aktualisierungsdatum": "2020-06-03T11:18:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt liegt Ende 2018 der Anteil der Haushalte mit reiner PV an allen Haushalten bei 15,0%. Das Wohnviertel Klybeck weist mit 25,0% die höchste, das Wohnviertel Vorstädte mit 8,3% die tiefste PV-Quote auf. Den höchsten Anstieg der PV-Quote im Vergleich zu 2013 ist mit 4,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum um 1,9 Prozentpunkte gesunken.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Haushalte mit reiner PV an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligung an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reiner Prämienverbilligung erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
 		"parentId": null,
-		"children": [],
-		"renderLink": [],
+		"children": [
+			"8335",
+			"8606"
+		],
+		"renderLink": [
+			"8335",
+			"8606"
+		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -38055,24 +38068,24 @@ var indikatoren = [
 		"id": 6976
 	},
 	{
-		"title": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
-		"subtitle": "in Franken, Basel-Stadt, 2016",
+		"title": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"subtitle": "in Franken, Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06980",
 		"kuerzelKunde": "2-13",
-		"description": "Mittelwert des Gesamtsteuerertrag sowie Anteil von Einkommens- und Vermögenssteuerertrag",
+		"description": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
 		"kennzahlenset": "Steuern",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-06-04T11:05:08.088",
+		"aktualisierungsdatum": "2020-06-03T18:34:04.044",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2016 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Die grösste Summe des Gesamtertrags tragen Bruderholz und Riehen bei, was durch die Grösse der Kreise symbolisiert wird. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus.",
+		"lesehilfe": "Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2017 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Bruderholz und Riehen tragen die höchsten Summen zum Gesamtertrag des Kantons bei. Die Grösse der Kreise symbolisiert jeweils die Höhe des Steuerertrags. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -42843,14 +42856,14 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-05-05T08:33:54.5454",
+		"aktualisierungsdatum": "2020-06-04T08:36:04.044",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Seit November 2019 ist eine Angleichung der beiden Jahresteuerungsraten zu beobachten.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen März 2020 und März 2019.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Mai 2020 und Mai 2019.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -42884,7 +42897,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-05T08:30:24.2424",
+		"aktualisierungsdatum": "2020-06-04T07:53:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -50659,14 +50672,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2020-06-03T11:20:22.2222",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2013 bis 2017 bei 66,9%, im Wohnviertel Kleinhüningen bei 72,0%. Zum Vergleich: Die Quote für die Stadt Basel betrug 75,4%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren.  Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2014 bis 2018 bei 68,5%, im Wohnviertel Kleinhüningen bei 68,2%. Zum Vergleich: Die Quote für die Stadt Basel betrug 75,6%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren.  Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -62123,7 +62136,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-27T08:39:25.2525",
+		"aktualisierungsdatum": "2020-06-03T14:27:36.3636",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

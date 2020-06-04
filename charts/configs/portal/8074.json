@@ -18,8 +18,8 @@
           0.70618
         ],
         [
-          "2013-2017",
-          0.66932
+          "2014-2018",
+          0.685
         ]
       ],
       "name": "Klybeck",
@@ -45,9 +45,9 @@
           "high": "."
         },
         {
-          "name": "2013-2017",
-          "low": 0.62093,
-          "high": 0.71772
+          "name": "2014-2018",
+          "low": 0.63651,
+          "high": 0.73349
         }
       ],
       "name": "Klybeck 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.70472
         ],
         [
-          "2013-2017",
-          0.72045
+          "2014-2018",
+          0.68166
         ]
       ],
       "name": "Kleinhüningen",
@@ -98,9 +98,9 @@
           "high": "."
         },
         {
-          "name": "2013-2017",
-          "low": 0.64334,
-          "high": 0.79756
+          "name": "2014-2018",
+          "low": 0.59774,
+          "high": 0.76558
         }
       ],
       "name": "Kleinhüningen 95% Konfidenzintervall Untergrenze",
@@ -124,8 +124,8 @@
           0.72436
         ],
         [
-          "2013-2017",
-          0.75394
+          "2014-2018",
+          0.7561
         ]
       ],
       "name": "Basel",
@@ -151,9 +151,9 @@
           "high": "."
         },
         {
-          "name": "2013-2017",
-          "low": 0.7449,
-          "high": 0.76297
+          "name": "2014-2018",
+          "low": 0.74702,
+          "high": 0.76517
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "legend": {
     "enabled": true,

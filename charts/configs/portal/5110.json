@@ -3238,87 +3238,87 @@
       "data": [
         [
           8,
-          0.2174234035
-        ],
-        [
-          30,
-          0.2464962902
+          0.2240609211
         ],
         [
           7,
-          0.2469808699
+          0.250930752
         ],
         [
           15,
-          0.2492268316
+          0.2522522523
+        ],
+        [
+          30,
+          0.2525423729
         ],
         [
           20,
-          0.2661786647
+          0.2711374341
         ],
         [
           1,
-          0.2808772605
+          0.2821316614
         ],
         [
           9,
-          0.283160323
+          0.2859608746
         ],
         [
           14,
-          0.3188848921
+          0.3216289593
         ],
         [
           4,
-          0.3380422692
+          0.3437985356
         ],
         [
           5,
-          0.344980059
+          0.349566263
         ],
         [
           3,
-          0.3687414811
-        ],
-        [
-          12,
-          0.3762781186
-        ],
-        [
-          2,
-          0.3810093756
+          0.3734756098
         ],
         [
           10,
-          0.3839995291
+          0.3785671995
+        ],
+        [
+          12,
+          0.3835616438
+        ],
+        [
+          2,
+          0.3851364814
         ],
         [
           6,
-          0.3955482188
+          0.3970792026
         ],
         [
           11,
-          0.434435881
+          0.4328721219
         ],
         [
           13,
-          0.4706026458
+          0.4695226438
         ],
         [
           19,
-          0.4797060882
+          0.4699785561
         ],
         [
           17,
-          0.5079880339
+          0.5026109661
         ],
         [
           18,
-          0.5220074044
+          0.5185850491
         ],
         [
           16,
-          0.556871345
+          0.5591355078
         ]
       ]
     },
@@ -3333,15 +3333,15 @@
         ],
         [
           2,
-          "Bettingen"
-        ],
-        [
-          3,
           "Bruderholz"
         ],
         [
-          4,
+          3,
           "Hirzbrunnen"
+        ],
+        [
+          4,
+          "Bettingen"
         ],
         [
           5,
@@ -3373,15 +3373,15 @@
         ],
         [
           12,
-          "Altstadt Kleinbasel"
+          "Iselin"
         ],
         [
           13,
-          "Vorstädte"
+          "Altstadt Kleinbasel"
         ],
         [
           14,
-          "Iselin"
+          "Vorstädte"
         ],
         [
           15,
@@ -3552,6 +3552,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3591,6 +3592,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -3651,7 +3653,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Ausländer nach Gemeinde und Wohnviertel"
+    "text": "Anteil Ausländer"
   },
   "subtitle": {
     "style": {
@@ -3660,7 +3662,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -3676,7 +3678,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "colorAxis": {
     "min": 0,

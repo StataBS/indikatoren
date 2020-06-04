@@ -63,6 +63,10 @@
         [
           "2019",
           936
+        ],
+        [
+          "2020",
+          955
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -131,6 +135,10 @@
         [
           "2019",
           1303
+        ],
+        [
+          "2020",
+          1316
         ]
       ],
       "name": "Ohne Genossenschaftswohnungen",
@@ -201,6 +209,10 @@
         [
           "2019",
           885
+        ],
+        [
+          "2020",
+          898
         ]
       ],
       "name": "Genossenschaftswohnungen gewichtet",
@@ -271,6 +283,10 @@
         [
           "2019",
           1236
+        ],
+        [
+          "2020",
+          1249
         ]
       ],
       "name": "Ohne Genossenschaftswohnungen gewichtet",
@@ -373,7 +389,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
   },
   "legend": {
     "enabled": true,
