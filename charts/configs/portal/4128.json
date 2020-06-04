@@ -63,6 +63,10 @@
         [
           "2019",
           675
+        ],
+        [
+          "2020",
+          688
         ]
       ],
       "name": "1 Zimmer",
@@ -131,6 +135,10 @@
         [
           "2019",
           986
+        ],
+        [
+          "2020",
+          1003
         ]
       ],
       "name": "2 Zimmer",
@@ -199,6 +207,10 @@
         [
           "2019",
           1210
+        ],
+        [
+          "2020",
+          1223
         ]
       ],
       "name": "3 Zimmer",
@@ -267,6 +279,10 @@
         [
           "2019",
           1628
+        ],
+        [
+          "2020",
+          1646
         ]
       ],
       "name": "4 Zimmer",
@@ -335,6 +351,10 @@
         [
           "2019",
           2224
+        ],
+        [
+          "2020",
+          2243
         ]
       ],
       "name": "5 Zimmer",
@@ -439,7 +459,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
   },
   "legend": {
     "enabled": true,

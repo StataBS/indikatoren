@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "2018",
+      "name": "2019",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '%</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '%</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          9.4594594595
+          9.1934084996
         ],
         [
           2,
-          8.2816490332
+          9.1654778887
         ],
         [
           3,
-          10.630498534
+          11.334056399
         ],
         [
           4,
-          15.566625156
+          17.705323979
         ],
         [
           5,
-          9.4492345592
+          10.494150515
         ],
         [
           6,
-          15.64426478
+          16.836124402
         ],
         [
           7,
-          9.9378881988
+          11.177199504
         ],
         [
           8,
-          11.222627737
+          12.379518072
         ],
         [
           9,
-          12.690217391
+          14.24316274
         ],
         [
           10,
-          17.900327721
+          19.229465597
         ],
         [
           11,
-          18.571911251
+          19.984202212
         ],
         [
           12,
-          12.990936556
+          15.117157974
         ],
         [
           13,
-          16.633858268
+          18.283764018
         ],
         [
           14,
-          12.148559528
+          13.404182379
         ],
         [
           15,
-          15.924579736
+          17.481073641
         ],
         [
           16,
-          17.408906883
+          19.262179668
         ],
         [
           17,
-          19.418842806
+          21.548951499
         ],
         [
           18,
-          25.007303535
+          26.877355755
         ],
         [
           19,
-          23.338607595
+          25
         ],
         [
           20,
-          9.9647449191
+          11.257731959
         ],
         [
           30,
-          10.515021459
+          12.579957356
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1.8993220024
+          1.7475210537
         ],
         [
           "Vorstädte",
-          -0.766143743
+          0.1238865687
         ],
         [
           "Am Ring",
-          0.7381824176
+          1.7090794917
         ],
         [
           "Breite",
-          -0.986662826
+          1.2898790064
         ],
         [
           "St. Alban",
-          0.1163743747
+          1.4065133008
         ],
         [
           "Gundeldingen",
-          -0.428230739
+          1.1174273205
         ],
         [
           "Bruderholz",
-          1.6869000565
+          3.1891072195
         ],
         [
           "Bachletten",
-          -0.049177839
+          1.6342322297
         ],
         [
           "Gotthelf",
-          0.752684305
+          1.7797805832
         ],
         [
           "Iselin",
-          1.6333008153
+          2.6062361354
         ],
         [
           "St. Johann",
-          0.5469519458
+          1.933502911
         ],
         [
           "Altstadt Kleinbasel",
-          -0.347536844
+          1.8434816134
         ],
         [
           "Clara",
-          1.0208314478
+          2.6923661681
         ],
         [
           "Wettstein",
-          1.0143963191
+          2.210655744
         ],
         [
           "Hirzbrunnen",
-          -0.05161074
+          2.0620529251
         ],
         [
           "Rosental",
-          -1.935743729
+          0.0206627016
         ],
         [
           "Matthäus",
-          0.8832309811
+          2.6232486875
         ],
         [
           "Klybeck",
-          2.0366645021
+          3.3885820075
         ],
         [
           "Kleinhüningen",
-          4.0512334664
+          5.093676815
         ],
         [
           "Riehen",
-          0.6805343928
+          2.0969443416
         ],
         [
           "Bettingen",
-          -1.11808816
+          1.5409963171
         ]
       ],
-      "name": "Differenz 2018 zu 2013"
+      "name": "Differenz 2019 zu 2014"
     },
     {
       "name": "Rhein",
@@ -6881,6 +6881,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6925,6 +6926,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6992,7 +6994,7 @@
 					
 					//define different colors for positive and negative values
 	                var color = function(value){
-	                	return (value >= 0) ? 'grey' : 'salmon';
+	                	return (value >= 0) ? '#007A2F' : '#990300';
 	                };					
 					
 					//define chart-specific details
@@ -7006,7 +7008,7 @@
 	                        },
 	                        tooltip: {
 	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 2) + ' Prozentpunkte</b><br/>';
+	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + ((Math.sign(this.v) == 1) ? '+' : '') + Highcharts.numberFormat((this.v), 1) + ' Prozentpunkte</b><br/>';
 	                            }
 	                        }
 	                    };
@@ -7020,16 +7022,16 @@
 	                var maxValueInLegend = 3.0; 
 	                
                 	//Add manually drawn legend	
-	                fn.addLegendTitle(chart, pieSizeSeries.name, 265, 240);
+	                fn.addLegendTitle(chart, pieSizeSeries.name + ' (pp)', 265, 240);
 	                
 	                fn.addLegendCircle(chart, 365, 275, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," ") + ' Prozentpunkte', 380, 265, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend),1,","," "), 380, 265, 'pieLegendHideOnZoom');
 	                fn.addLegendCircle(chart, 365, 300, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), 'grey', 'pieLegendHideOnZoom');
-	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," ") + ' Prozentpunkte', 380, 290, 'pieLegendHideOnZoom');
+	                fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend),1,","," "), 380, 290, 'pieLegendHideOnZoom');
 
-					fn.addLegendSquare(chart, 270, 270, 10, 'grey');
+					fn.addLegendSquare(chart, 270, 270, 10, '#007A2F');
 					fn.addLegendLabel(chart, 'Zunahme', 290, 265);
-					fn.addLegendSquare(chart, 270, 295, 10, 'salmon');
+					fn.addLegendSquare(chart, 270, 295, 10, '#990300');
 					fn.addLegendLabel(chart, 'Abnahme', 290, 290);
 					
 					//make sure pies are hidden upon click onto pie legend
@@ -7216,7 +7218,7 @@
 	                        tooltip: {
 	                        	headerFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {series.name} </span><br/>',
 	                            pointFormatter: function () {
-	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),2) + '</b><br/>';
+	                            	return wohnviertelSeries.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),1) + '</b><br/>';
 	                            }
 	                        },
 	                        data: [
@@ -7409,7 +7411,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7425,7 +7427,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
   },
   "colorAxis": {
     "min": 0,
