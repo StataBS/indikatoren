@@ -112,6 +112,7 @@
     ],
   plotOptions: {
     series: {
+      minPointLength: 2,
         stacking: null,
         pointPadding: 0,
         borderWidth: 0,

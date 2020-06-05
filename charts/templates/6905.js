@@ -58,6 +58,7 @@
         },
         legendIndex: 2,
   	  "tooltip": {
+        "headerFormat": '',
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
       },
@@ -80,6 +81,7 @@
         "type": "line",
         "legendIndex": 3,
         "tooltip": {
+          "headerFormat": '',
     		"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
   	   },
         "marker": {
