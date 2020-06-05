@@ -21273,7 +21273,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:19.1919",
+		"aktualisierungsdatum": "2020-06-04T09:35:17.1717",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21353,7 +21353,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:19.1919",
+		"aktualisierungsdatum": "2020-06-04T12:59:26.2626",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21393,7 +21393,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2020-06-04T13:01:11.1111",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21473,7 +21473,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2020-06-04T13:03:07.077",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21513,7 +21513,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-11T10:27:05.055",
+		"aktualisierungsdatum": "2020-06-04T13:04:39.3939",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21676,7 +21676,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2020-06-04T13:07:30.3030",
 		"stufe1": "Ordentliche Veranlagung natürlicher Personen",
 		"stufe2": "",
 		"stufe3": "",
@@ -21796,7 +21796,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2020-06-04T09:35:17.1717",
 		"stufe1": "Quellensteuer",
 		"stufe2": "",
 		"stufe3": "",

@@ -2245,7 +2245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-06-04T13:04:39.3939",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",

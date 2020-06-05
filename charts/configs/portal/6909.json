@@ -110,6 +110,7 @@
       },
       "legendIndex": 2,
       "tooltip": {
+        "headerFormat": "",
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
@@ -198,7 +199,7 @@
           1266389525
         ]
       ],
-      "name": "Ertrag 2017",
+      "name": "Ertrag Kt. BS 2008 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -298,7 +299,7 @@
           22416274
         ]
       ],
-      "name": "Ertrag Kt. BS 2008 (rechte Skala)",
+      "name": "Ertrag 2017",
       "turboThreshold": 0
     },
     {
@@ -308,6 +309,7 @@
       "yAxis": 1,
       "legendIndex": 3,
       "tooltip": {
+        "headerFormat": "",
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "marker": {
@@ -520,7 +522,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
   },
   "legend": {
     "enabled": true,
