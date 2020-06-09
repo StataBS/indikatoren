@@ -22981,7 +22981,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:15:40.4040",
+		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -23509,7 +23509,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:15:40.4040",
+		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -42775,13 +42775,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-07T07:45:21.2121",
+		"aktualisierungsdatum": "2020-06-09T08:03:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Gesamtbevölkerung sowie diejenige der Jugendlichen verlaufen seit Februar ähnlich und sind Ende April 2020 auf 3,8% gestiegen. Die Arbeitslosenquote der Personen ab 50 Jahren liegt Ende April bei 3,1%.",
+		"lesehilfe": "Die Jugendarbeitslosenquote ist Ende Mai 2020 auf 4,3% gestiegen und liegt damit über der Quote der Gesamtbevölkerung (4,1%).  Die Arbeitslosenquote der Personen ab 50 Jahren liegt seit April 2020 unverändert bei 3,1%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -42815,14 +42815,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-07T10:58:56.5656",
+		"aktualisierungsdatum": "2020-06-09T08:04:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie noch knapp über 1 000. Ende April waren 664 Stellen offen und damit 36% weniger als im Vormonat. Die Anzahl der meldepflichtigen offenen Stellen ist im April 2020 auf 123 gesunken.",
-		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen des Coronavirus und seiner Folgen hat der Bundesrat die Stellenmeldepflicht ab dem 26. März 2020 für sechs Monate aufgehoben.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie noch knapp über 1 000. Ende Mai sind 613 Stellen offen. Gerade 3 davon sind meldepflichtig.",
+		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen des Coronavirus und seiner Folgen hat der Bundesrat die Stellenmeldepflicht vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -51479,7 +51479,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:51.5151",
+		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -55434,7 +55434,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:20.2020",
+		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -61736,13 +61736,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-07T07:47:11.1111",
+		"aktualisierungsdatum": "2020-06-09T08:04:54.5454",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende April 2020 sind 3 974 Personen bei den RAV in Basel-Stadt als arbeitslos registriert, 682 Personen mehr als Ende Februar 2020. Die Arbeitslosigkeit ist damit so hoch wie zuletzt im März 2017. Die Zahl der Langzeitarbeitslosen ist zwischen Februar und April 2020 um 109 auf 572 Personen gestiegen. Damit sind Ende April 14,4% der Arbeitslosen langzeitarbeitslos.",
+		"lesehilfe": "Ende Mai 2020 sind 4 114  Personen bei den RAV in Basel-Stadt als arbeitslos registriert, 822 Personen mehr als Ende Februar 2020. Die Arbeitslosigkeit ist damit so hoch wie zuletzt im Januar 2017. Die Zahl der Langzeitarbeitslosen ist zwischen Februar und April 2020 um 164 auf 627 Personen gestiegen. Damit sind Ende April 15,2% der Arbeitslosen langzeitarbeitslos.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslosen sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -61776,13 +61776,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-07T07:48:01.011",
+		"aktualisierungsdatum": "2020-06-09T08:05:31.3131",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der jüngsten Vergangenheit ist die Arbeitslosenzahl in Basel-Stadt von April 2017 bis Februar 2020 stets gesunken, nachdem sie zwischen Januar 2015 und März 2017 gestiegen war. Mit dem Ausbruch des Coronavirus im März 2020 hat sich der Trend klar verändert: Ende März 2020 waren 336 Personen mehr arbeitslos als ein Jahr zuvor. Noch deutlicher zeigt sich dies in den Zahlen vom April 2020 mit einer Zunahme um 818 Arbeitslose gegenüber April 2019.",
+		"lesehilfe": "In der jüngsten Vergangenheit ist die Arbeitslosenzahl in Basel-Stadt von April 2017 bis Februar 2020 stets gesunken, nachdem sie zwischen Januar 2015 und März 2017 gestiegen war. Mit der COVID-19-Pandemie hat sich der Trend klar verändert: Ende März 2020 waren 336 Personen mehr arbeitslos als ein Jahr zuvor, Ende April 2020 waren es 818 mehr als ein Jahr zuvor. Diese Entwicklung ist im Mai 2020 noch stärker, mit einem Anstieg der Anzahl registrierter Arbeitsloser um 1 101 Personen gegenüber Mai 2019 (+37%).",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
