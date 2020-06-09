@@ -6741,7 +6741,7 @@
           23
         ]
       ],
-      "name": "Anzahl Sozialhilfebeziehender"
+      "name": "Anzahl Sozialhilfebeziehende"
     },
     {
       "name": "Rhein",
@@ -7095,7 +7095,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-5"
   },
   "colorAxis": {
     "min": 0,
