@@ -742,7 +742,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06133",
 		"kuerzelKunde": "2.13",
 		"description": "Beurteilung der kantonalen Steuern",
@@ -752,14 +752,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-05T11:57:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-		"erlaeuterungen": "",
+		"lesehilfe": "49,7% der 2019 Befragten sprechen sich für eine Senkung der Steuern aus und 37,0% möchten diese auf dem aktuellen Niveau beibehalten. Gegenüber dem Befragungsjahr 2015 hat sich der Anteil Befragter, die sich für eine Senkung aussprechen deutlich erhöht.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -768,11 +768,15 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6133,
+		"chart-id": 6133,
+		"filter": "",
 		"id": 6133
 	},
 	{
@@ -1039,13 +1043,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-07T09:30:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Zehnjahresspanne von 2009 bis 2018 nahm die Bevölkerung in Basel-Stadt von 190 815 auf 200 256 Personen zu. Dies entspricht einem Wachstum von 4,9%.",
+		"lesehilfe": "Zwischen dem 31.12.2009 und dem 31.12.2019 nahm die Bevölkerung im Kanton Basel-Stadt von 190 815 auf 200 407 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
@@ -1802,13 +1806,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T09:25:20.2020",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2019 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1818,7 +1822,8 @@ var indikatorensetData = [
 		"children": [
 			"4231",
 			"6030",
-			"6315"
+			"6315",
+			"8922"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1845,14 +1850,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:36:47.4747",
+		"aktualisierungsdatum": "2020-06-09T11:19:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910&nbsp;740 Tonnen auf 741&nbsp;614 Tonnen ab. Das entspricht einer Reduktion um 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. &nbsp;Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910&nbsp;740 Tonnen auf 694&nbsp;507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1861,7 +1866,8 @@ var indikatorensetData = [
 		"children": [
 			"4299",
 			"6031",
-			"6316"
+			"6316",
+			"8923"
 		],
 		"renderLink": [],
 		"quellenangabe": [
