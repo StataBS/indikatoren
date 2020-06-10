@@ -15824,7 +15824,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06133",
 		"kuerzelKunde": "2.13",
 		"description": "Beurteilung der kantonalen Steuern",
@@ -15834,14 +15834,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-05T11:57:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-		"erlaeuterungen": "",
+		"lesehilfe": "49,7% der 2019 Befragten sprechen sich für eine Senkung der Steuern aus und 37,0% möchten diese auf dem aktuellen Niveau beibehalten. Gegenüber dem Befragungsjahr 2015 hat sich der Anteil Befragter, die sich für eine Senkung aussprechen deutlich erhöht.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15851,11 +15851,15 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6133,
+		"chart-id": 6133,
+		"filter": "",
 		"id": 6133
 	},
 	{
@@ -16128,13 +16132,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-07T09:30:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Zehnjahresspanne von 2009 bis 2018 nahm die Bevölkerung in Basel-Stadt von 190 815 auf 200 256 Personen zu. Dies entspricht einem Wachstum von 4,9%.",
+		"lesehilfe": "Zwischen dem 31.12.2009 und dem 31.12.2019 nahm die Bevölkerung im Kanton Basel-Stadt von 190 815 auf 200 407 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
@@ -16909,13 +16913,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T09:25:20.2020",
+		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2019 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -16926,7 +16930,8 @@ var indikatoren = [
 		"children": [
 			"4231",
 			"6030",
-			"6315"
+			"6315",
+			"8922"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -16953,14 +16958,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:36:47.4747",
+		"aktualisierungsdatum": "2020-06-09T11:19:51.5151",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2016 von 910&nbsp;740 Tonnen auf 741&nbsp;614 Tonnen ab. Das entspricht einer Reduktion um 19%. Dies entspricht einem Rückgang von 4,7 Tonnen auf 3,7 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. &nbsp;Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910&nbsp;740 Tonnen auf 694&nbsp;507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -16970,7 +16975,8 @@ var indikatoren = [
 		"children": [
 			"4299",
 			"6031",
-			"6316"
+			"6316",
+			"8923"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17753,25 +17759,25 @@ var indikatoren = [
 		"id": 6203
 	},
 	{
-		"title": "Anteil Haushalte mit Prämienverbilligung",
+		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.2.6204",
 		"kuerzelKunde": "",
-		"description": "Anteil Haushalte mit Prämienverbilligung",
+		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-03T11:18:07.077",
+		"aktualisierungsdatum": "2020-06-09T11:18:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Haushalte mit reiner PV an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligung an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reiner Prämienverbilligung erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -54441,25 +54447,25 @@ var indikatoren = [
 		"id": 8334
 	},
 	{
-		"title": "Anteil Haushalte mit Prämienverbilligung",
+		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.2.08335",
 		"kuerzelKunde": "1-13",
-		"description": "Anteil Haushalte mit Prämienverbilligung",
+		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-09T11:18:26.2626",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Haushalte mit reiner PV an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligung an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reiner Prämienverbilligung erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -54483,25 +54489,25 @@ var indikatoren = [
 		"id": 8335
 	},
 	{
-		"title": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
+		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08336",
 		"kuerzelKunde": "1-14",
-		"description": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
+		"description": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-09T11:23:01.011",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den 14 699 Haushalten, die Ende 2018 reine Prämienverbilligungen beziehen, handelt es sich um 8 102 rein schweizerische und 5 397 rein ausländische Haushalte. 1 200 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -54525,25 +54531,25 @@ var indikatoren = [
 		"id": 8336
 	},
 	{
-		"title": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08337",
 		"kuerzelKunde": "1-15",
-		"description": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"description": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-09T11:20:52.5252",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ende 2018 beziehen 14 699 Haushalte reine Prämienverbilligungen. Mit 56% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 20% die zweitgrösste Gruppe.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -58276,25 +58282,25 @@ var indikatoren = [
 		"id": 8605
 	},
 	{
-		"title": "Anteil Haushalte mit Prämienverbilligung",
+		"title": "Anteil Haushalte mit Prämienverbilligungen",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.2.08606",
 		"kuerzelKunde": "1-13",
-		"description": "Anteil Haushalte mit Prämienverbilligung",
+		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:18:26.2626",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Haushalte mit reiner PV an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligung an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reiner Prämienverbilligung erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"template": "mappie001_print",
 		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
@@ -58318,25 +58324,25 @@ var indikatoren = [
 		"id": 8606
 	},
 	{
-		"title": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
+		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08607",
 		"kuerzelKunde": "1-14",
-		"description": "Haushalte mit reiner Prämienverbilligung nach Staatsangehörigkeit",
+		"description": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:23:01.011",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Von den 14 699 Haushalten, die Ende 2018 reine Prämienverbilligungen beziehen, handelt es sich um 8 102 rein schweizerische und 5 397 rein ausländische Haushalte. 1 200 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -58358,25 +58364,25 @@ var indikatoren = [
 		"id": 8607
 	},
 	{
-		"title": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.08608",
 		"kuerzelKunde": "1-15",
-		"description": "Haushalte mit reiner Prämienverbilligung nach Haushaltstyp",
+		"description": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "CMS Kennzahlen Soziales (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:19.1919",
+		"aktualisierungsdatum": "2020-06-09T11:20:52.5252",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Ende 2018 beziehen 14 699 Haushalte reine Prämienverbilligungen. Mit 56% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 20% die zweitgrösste Gruppe.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -62136,7 +62142,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-03T14:27:36.3636",
+		"aktualisierungsdatum": "2020-06-10T11:13:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

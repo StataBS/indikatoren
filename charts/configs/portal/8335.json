@@ -7065,7 +7065,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil Haushalte mit Prämienverbilligung"
+    "text": "Anteil Haushalte mit Prämienverbilligungen"
   },
   "subtitle": {
     "style": {
@@ -7090,7 +7090,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-9"
   },
   "colorAxis": {
     "min": 0,

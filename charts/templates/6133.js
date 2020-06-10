@@ -1,18 +1,29 @@
 (function(){
     return {
-    "series": [
-        {"color": "#256370", index: 3, legendIndex: 3}, // 
-        {"color": "#71A3B5", index: 2, legendIndex: 2}, // 
-        {"color": "#FFBB58", index: 1, legendIndex: 1}, // 
-        {"color": "#8A8A8A", index: 0, legendIndex: 0}, //
-],
-  "xAxis": {
-      "type": "category",
-  },
-  "legend": {
-      "reversed": false
-  }
-	}
+    series: [
+      { "color": "#083038"}, // dunkelblau
+      { "color": "#FABD24"}, // grün
+      { "color": "#A8C3CA"}, // orange
+      { "color": "#C8C8C8"}, // hellgrau
+      { "color": "#6F6F6F"}, // grau
+    ],
+    xAxis: {
+        type: "category"
+    },
+    yAxis: {
+        reversedStacks: false,
+    },
+    legend: {
+        reversed: false,
+        "layout": "horizontal",
+        "verticalAlign": "top",
+        "itemMarginBottom": 4,
+        "align": "left",
+        labelFormatter: function(){
+            return this.name.replace("/", " /<br/>");
+        }
+    }
+	};
 }());
 
  

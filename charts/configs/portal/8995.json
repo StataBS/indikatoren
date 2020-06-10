@@ -1288,7 +1288,7 @@
         ],
         [
           1581897600000,
-          5
+          6
         ],
         [
           1582502400000,
@@ -1320,7 +1320,7 @@
         ],
         [
           1586736000000,
-          6
+          7
         ],
         [
           1587340800000,
@@ -1336,7 +1336,7 @@
         ],
         [
           1589155200000,
-          null
+          5
         ],
         [
           1589760000000,
@@ -4586,7 +4586,7 @@
         ],
         [
           1579478400000,
-          36
+          37
         ],
         [
           1580083200000,
@@ -4650,7 +4650,7 @@
         ],
         [
           1589155200000,
-          null
+          17
         ],
         [
           1589760000000,
@@ -6639,8 +6639,8 @@
       }
     },
     "tickLength": 0,
-    "min": 1573108779170,
-    "max": 1594276779170,
+    "min": 1573657506074,
+    "max": 1594825506074,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -6772,7 +6772,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-10"
   },
   "legend": {
     "enabled": true,
