@@ -24,9 +24,13 @@
         [
           "2015",
           355
+        ],
+        [
+          "2019",
+          1053
         ]
       ],
-      "name": "Sehr grosse",
+      "name": "Stimme sehr zu",
       "turboThreshold": 0
     },
     {
@@ -53,9 +57,13 @@
         [
           "2015",
           788
+        ],
+        [
+          "2019",
+          709
         ]
       ],
-      "name": "Eher grosse",
+      "name": "Stimme eher zu",
       "turboThreshold": 0
     },
     {
@@ -82,9 +90,13 @@
         [
           "2015",
           258
+        ],
+        [
+          "2019",
+          161
         ]
       ],
-      "name": "Eher nicht so grosse",
+      "name": "Stimme eher nicht zu",
       "turboThreshold": 0
     },
     {
@@ -111,9 +123,13 @@
         [
           "2015",
           54
+        ],
+        [
+          "2019",
+          27
         ]
       ],
-      "name": "Gar keine",
+      "name": "Stimme überhaupt nicht zu",
       "turboThreshold": 0
     },
     {
@@ -135,14 +151,18 @@
         ],
         [
           "2011",
-          39
+          36
         ],
         [
           "2015",
-          51
+          50
+        ],
+        [
+          "2019",
+          83
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
       "turboThreshold": 0
     }
   ],
@@ -240,7 +260,7 @@
     "text": "Beurteilung von gesellschaftlicher Vielfalt"
   },
   "subtitle": {
-    "text": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt, 2019"
   },
   "yAxis": {
     "type": "category",
@@ -294,7 +314,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-12"
   },
   "navigation": {
     "buttonOptions": {
