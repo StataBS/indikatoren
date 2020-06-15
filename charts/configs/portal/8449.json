@@ -24,7 +24,7 @@
           25
         ]
       ],
-      "name": "Erhöhern",
+      "name": "Erhöhen",
       "turboThreshold": 0
     },
     {
@@ -220,7 +220,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?»"
+    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -278,7 +278,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-12"
   },
   "legend": {
     "layout": "vertical",

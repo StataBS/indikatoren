@@ -40,7 +40,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.05138",
 		"kuerzelKunde": "SH5",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
@@ -50,7 +50,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:34:31.3131",
+		"aktualisierungsdatum": "2020-06-12T16:47:25.2525",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -437,7 +437,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2015",
 		"kuerzel": "I.50.1.05165",
 		"kuerzelKunde": "GW1",
 		"description": "Bewertung der Lebensqualität",
@@ -447,7 +447,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-19T09:11:26.2626",
+		"aktualisierungsdatum": "2020-06-12T16:08:11.1111",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -476,7 +476,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.5178",
 		"kuerzelKunde": "GW2.1",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
@@ -486,7 +486,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:38:41.4141",
+		"aktualisierungsdatum": "2020-06-12T16:55:00.000",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -559,7 +559,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Empfundene gesundheitliche Verfassung",
-		"subtitle": "nach Altersgruppe 2019 sowie im Vergleich 2003 bis 2019, Basel-Stadt<br>«Wie fühlen Sie sich zurzeit gesundheitlich?»",
+		"subtitle": "«Wie fühlen Sie sich zurzeit gesundheitlich?», nach Altersgruppe und Befragungsjahr, Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.5181",
 		"kuerzelKunde": "GW4",
 		"description": "Empfundene gesundheitliche Verfassung",
@@ -569,7 +569,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:44:20.2020",
+		"aktualisierungsdatum": "2020-06-12T16:09:43.4343",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
@@ -1595,7 +1595,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06034",
 		"kuerzelKunde": "GZ1",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1605,7 +1605,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:14.1414",
+		"aktualisierungsdatum": "2020-06-12T16:04:52.5252",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1634,7 +1634,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
-		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?»",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06035",
 		"kuerzelKunde": "GZ3",
 		"description": "Sicherheitsgefühl im Alltag",
@@ -1644,7 +1644,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-19T09:10:51.5151",
+		"aktualisierungsdatum": "2020-06-12T16:47:48.4848",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -1796,7 +1796,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06040",
 		"kuerzelKunde": "GZ8.1",
 		"description": "Freiwillige Tätigkeit",
@@ -1806,7 +1806,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-12T10:05:36.3636",
+		"aktualisierungsdatum": "2020-06-12T16:53:34.3434",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
@@ -2752,7 +2752,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Höhe der Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?»",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08449",
 		"kuerzelKunde": "SH4",
 		"description": "Zufriedenheit mit Höhe der Steuern",
@@ -2762,7 +2762,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:36:41.4141",
+		"aktualisierungsdatum": "2020-06-12T16:21:45.4545",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -2775,7 +2775,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_204",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8955"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2791,7 +2793,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08453",
 		"kuerzelKunde": "GW15",
 		"description": "Zufriedenheit mit dem Kulturangebot",
@@ -2801,7 +2803,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T12:23:23.2323",
+		"aktualisierungsdatum": "2020-06-12T16:25:45.4545",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Kultur",
 		"stufe3": "",
@@ -2812,7 +2814,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_01_00_00_00_316",
+		"orderKey": "03_06_00_00_00_316",
 		"parentId": null,
 		"children": [
 			"8956"
@@ -2910,7 +2912,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
-		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?»",
+		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08456",
 		"kuerzelKunde": "GZ2",
 		"description": "Sicherheitsgefühl nachts im Quartier",
@@ -2920,7 +2922,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:26:02.022",
+		"aktualisierungsdatum": "2020-06-12T16:53:09.099",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -3031,7 +3033,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
-		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?»",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08460",
 		"kuerzelKunde": "WE12",
 		"description": "Selbsteinschätzung der wirtschaftlichen Stellung",
@@ -3041,7 +3043,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-12T10:01:13.1313",
+		"aktualisierungsdatum": "2020-06-12T16:31:24.2424",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -3054,7 +3056,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_612",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8963"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -3070,7 +3074,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08461",
 		"kuerzelKunde": "WE14",
 		"description": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
@@ -3080,7 +3084,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:16:15.1515",
+		"aktualisierungsdatum": "2020-06-12T16:32:02.022",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -3093,7 +3097,9 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_614",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8964"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

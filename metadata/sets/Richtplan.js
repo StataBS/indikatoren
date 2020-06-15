@@ -373,7 +373,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.05819",
 		"kuerzelKunde": "ST 5-1",
 		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
@@ -383,7 +383,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T15:26:18.1818",
+		"aktualisierungsdatum": "2020-06-12T16:47:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -412,7 +412,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2015",
 		"kuerzel": "I.50.1.5821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
@@ -422,7 +422,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-19T09:11:09.099",
+		"aktualisierungsdatum": "2020-06-12T16:08:11.1111",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -788,7 +788,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06216",
 		"kuerzelKunde": "ST 5-3a",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 1",
@@ -798,7 +798,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-14T12:47:15.1515",
+		"aktualisierungsdatum": "2020-06-12T16:55:00.000",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",

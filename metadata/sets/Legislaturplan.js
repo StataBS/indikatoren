@@ -1113,7 +1113,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6146",
 		"kuerzelKunde": "4.5",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -1123,7 +1123,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:15:31.3131",
+		"aktualisierungsdatum": "2020-06-12T16:04:52.5252",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1140,7 +1140,8 @@ var indikatorensetData = [
 			"4719",
 			"6034",
 			"6299",
-			"8382"
+			"8382",
+			"8925"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2428,7 +2429,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?»",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.06185",
 		"kuerzelKunde": "12.1",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
@@ -2438,7 +2439,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:34:31.3131",
+		"aktualisierungsdatum": "2020-06-12T16:47:25.2525",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
