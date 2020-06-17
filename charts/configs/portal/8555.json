@@ -188,7 +188,10 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "tickInterval": 1,
     "title": {
+      "text": null,
       "style": {
         "color": "#000000"
       }
@@ -202,95 +205,87 @@
       "step": 1,
       "y": 3,
       "x": -10
-    },
-    "tickLength": 0,
-    "tickInterval": 1
+    }
   },
   "chart": {
-    "events": {
-      "load": function() {                
-                    this.credits.element.onclick = function() {}
-                }
-    },
+    "type": "column",
+    "inverted": true,
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
     "spacing": [
       2,
       2,
       2,
       2
     ],
-    "width": 641,
-    "height": 428,
-    "spacingBottom": 55,
+    "zoomType": "xy",
     "style": {
       "fontFamily": "Arial"
     },
-    "zoomType": "xy",
-    "type": "column",
-    "inverted": true,
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { }
+                }
+    },
     "marginRight": 15,
-    "renderTo": "container-8555"
+    "renderTo": "container-8555",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0
+    }
   },
   "title": {
+    "text": "Anteil Grünflächen",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "align": "left",
-    "text": "Anteil Grünflächen"
+    }
   },
   "subtitle": {
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "nach Wohnviertel, Basel-Stadt, 2019",
-    "align": "left"
-  },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "x": 5,
-        "align": "left",
-        "verticalAlign": "middle",
-        "enabled": false,
-        "style": {
-          "fontSize": "10px"
-        },
-        "formatter": function(){
-                        return Highcharts.numberFormat((this.y*100),1)+'%';                
-                    }
-      }
     }
   },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
+      "text": null,
       "style": {
         "color": "#000000",
-        "fontSize": 10
-      },
-      "text": ""
+        "fontSize": "10px"
+      }
     },
     "labels": {
-      "y": 3,
-      "formatter": function(){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
+      "y": 12,
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px"
       },
+      "formatter": function () {
+                    return Highcharts.numberFormat((this.value * 100), 0) + '%';
+                },
       "format": "{value:,.0f}%"
     },
-    "min": 0,
     "tickInterval": 0.2
+  },
+  "legend": {
+    "enabled": false,
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 2
   },
   "credits": {
     "enabled": true,
@@ -306,24 +301,6 @@
       "y": -25
     },
     "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
-  },
-  "legend": {
-    "enabled": false,
-    "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 2
-  },
-  "tooltip": {
-    "formatter": function(args){
-                var this_point_index = this.series.data.indexOf(this.point);
-                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                var other_series = args.chart.series[other_series_index];
-                var other_point = other_series.data[this_point_index];
-                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                    'Rang <b>' + other_point.y + '</b>';
-            },
-    "shared": true
   },
   "exporting": {
     "filename": 8555

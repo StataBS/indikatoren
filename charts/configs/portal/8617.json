@@ -244,7 +244,8 @@
   },
   "plotOptions": {
     "bar": {
-      "grouping": false
+      "grouping": false,
+      "minPointLength": 2
     },
     "series": {
       "stacking": null,
@@ -347,14 +348,16 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
   },
   "customFunctions": {
-    "createSymmetricAxis": function(axis){
+    "createSymmetricAxis": function (axis) {
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                //console.log(axis);
+                if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
                 axis.setExtremes(-absMax, absMax);
-        	}
+            }
   },
   "exporting": {
     "filename": 8617
