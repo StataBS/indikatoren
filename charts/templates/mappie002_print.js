@@ -389,7 +389,7 @@
     	        addLegendTitle: function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '10px',
+    	                    fontSize: '15px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -412,7 +412,7 @@
 			addLegendText: function(chart, x, y, text, color, cssClass, useHtml){
 							return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 								.css({
-				                    fontSize: '10px',
+				                    fontSize: '15px',
 				                })
 								.attr({
 									zIndex: 6,

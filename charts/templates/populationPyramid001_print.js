@@ -2,50 +2,60 @@
     global Highcharts
 */
 
-(function(){
+(function () {
     return {
         chart: {
-        	marginRight: 11,
-            type: 'bar', 
-            borderColor: "#fbfbfb", 
+            marginRight: 11,
+            type: 'bar',
+            borderColor: "#fbfbfb",
             backgroundColor: "#fbfbfb",
             width: 320,
-            height: 208,        
-    		spacing: [2,2,2,2], /*top, right, bottom and left */
+            height: 208,
+            spacing: [2, 2, 2, 2], /*top, right, bottom and left */
             style: {
                 fontFamily: "Arial"
             },
             zoomType: "xy",
             events: {
-                load: function(){
-                    this.credits.element.onclick = function() {};
-                    
+                load: function () {
+                    this.credits.element.onclick = function () { };
+
                     //create symmetric xAxes
                     var fn = this.options.customFunctions;
                     fn.createSymmetricAxis(this.yAxis[0]);
-                    
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top'){ // && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                          }
-                        }
-                      );
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') { // && this['legend']['options']['x'] == 0){
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
                     }
                 },
             }
-        },    
+        },
         plotOptions: {
-        	bar: {
-        		grouping: false
-        	},
+            bar: {
+                grouping: false,
+                minPointLength: 2
+            },
             series: {
-            	stacking: null,
-	            pointPadding: 0,
-	            borderWidth: 0,
-	            groupPadding: 0,            	
+                stacking: null,
+                pointPadding: 0,
+                borderWidth: 0,
+                groupPadding: 0,
                 dataLabels: {
                     style: {
                         fontSize: "10px"
@@ -70,14 +80,17 @@
             },
             text: "",
             align: "left"
-        },        
+        },
         xAxis: {
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
+            title: {
+                enabled: false
+            },
             labels: {
                 style: {
-                	color: "#000000",
-                    textOverflow: 'none', 
+                    color: "#000000",
+                    textOverflow: 'none',
                     fontSize: '10px'
                 }
             }
@@ -86,31 +99,27 @@
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             title: {
-                style: {
-                    color: "#000000",
-                    fontSize: null
-                },
-                text: null
+                enabled: false
             },
             labels: {
                 style: {
-                	color: "#000000",
-                    textOverflow: 'none', 
+                    color: "#000000",
+                    textOverflow: 'none',
                     fontSize: '10px'
-                }, 
-                distance: -50, 
+                },
+                distance: -50,
                 //Display absolute value
                 formatter: function () {
                     return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
                 },
             },
-        },   
-    	navigation: {
-    		menuItemStyle: {
-    			fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-    			padding: '2px 10px'
-    		}
-    	},
+        },
+        navigation: {
+            menuItemStyle: {
+                fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+                padding: '2px 10px'
+            }
+        },
         credits: {
             enabled: true,
             style: {
@@ -125,24 +134,26 @@
             }
         },
         legend: {
-        	symbolRadius: 0, 
-	        padding: 0,
+            symbolRadius: 0,
+            padding: 0,
             itemMarginBottom: 2,
-        	itemStyle: {
-                fontWeight: "normal", 
+            itemStyle: {
+                fontWeight: "normal",
                 fontSize: '10px'
             }
         },
         tooltip: {
             pointFormatter: function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
         },
         customFunctions: {
-        	createSymmetricAxis: function(axis){
+            createSymmetricAxis: function (axis) {
                 var absMax = Math.max(Math.abs(axis.dataMin), Math.abs(axis.dataMax));
+                //console.log(axis);
+                if (axis.userOptions.max) absMax = axis.userOptions.max; //if max is explicitly defined, use this
                 axis.setExtremes(-absMax, absMax);
-        	}
+            }
         }
-	};
+    };
 }());
