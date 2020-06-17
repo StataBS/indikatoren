@@ -16,11 +16,16 @@
             reversedStacks: false,
         },
         legend: {
-            reversed: true,
-            labelFormatter: function () {
-                return this.name.replace("mich", " mich<br/>");
-            }
-        }
+            reversed: false,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "itemMarginBottom": 4,
+            "align": "left",
+            labelFormatter: function(){
+                return this.name.replace("/", " /<br/>");
+        
+              }
+          }
     };
 }());
 

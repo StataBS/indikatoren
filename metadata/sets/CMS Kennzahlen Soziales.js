@@ -91,7 +91,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:51.5151",
+		"aktualisierungsdatum": "2020-06-16T11:36:50.5050",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -733,7 +733,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesundheitliche Verfassung",
-		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?» Stand: 2019",
+		"subtitle": "«Wie geht es Ihnen zurzeit gesundheitlich?», Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-29",
 		"description": "Gesundheitliche Verfassung",
@@ -743,7 +743,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-16T11:20:50.5050",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -1307,7 +1307,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?» Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "1-36",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
@@ -1317,7 +1317,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-06-16T11:23:57.5757",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1510,7 +1510,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Angeboten für Jugendliche",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für Jugendliche?» Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für Jugendliche?», Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "2-11",
 		"description": "Zufriedenheit mit Angeboten für Jugendliche",
@@ -1520,7 +1520,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-06-16T11:24:34.3434",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -2207,7 +2207,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Wohnquartier",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?» Stand: 2019",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-06",
 		"description": "Zufriedenheit mit Wohnquartier",
@@ -2217,7 +2217,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-06-16T11:26:01.011",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
@@ -2248,7 +2248,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Parks und Grünanlagen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?» Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?», Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-07",
 		"description": "Zufriedenheit mit Parks und Grünanlagen",
@@ -2258,7 +2258,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-06-16T11:26:43.4343",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",

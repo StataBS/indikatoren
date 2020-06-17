@@ -209,13 +209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-15T07:51:10.1010",
+		"aktualisierungsdatum": "2020-06-17T08:44:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im April 2020 wurden in den Basler Hotelbetrieben 12 860 Übernachtungen gebucht, 94 034 Übernachtungen bzw. 88,0% weniger als im April 2019. Der Rückgang ist sowohl den Gästen aus der Schweiz als auch aus dem Ausland zuzuschreiben. Die inländischen Gäste buchten 8 317 Logiernächte (-76,9%), die Gäste aus dem Ausland 4 543 Übernachtungen (-93,7%).",
+		"lesehilfe": "Im Mai 2020 wurden in den Basler Hotelbetrieben 16 363 Übernachtungen gebucht, 130 073 Übernachtungen bzw. 88,8% weniger als im Mai 2019. Die inländischen Gäste buchten 11 786 Logiernächte (-74,3%), die Gäste aus dem Ausland 4 577 Übernachtungen (-95,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
+		"subtitle": "Basel-Stadt, Mai",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-15T07:59:17.1717",
+		"aktualisierungsdatum": "2020-06-17T08:45:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 25% und gegenüber dem Vorjahresmonat um rund 40 Prozentpunkte tiefer.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 25% und gegenüber dem Vorjahresmonat um rund 60 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

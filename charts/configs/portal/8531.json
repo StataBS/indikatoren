@@ -909,7 +909,7 @@
     "text": "Gesundheitliche Verfassung"
   },
   "subtitle": {
-    "text": "«Wie geht es Ihnen zurzeit gesundheitlich?» Stand: 2019"
+    "text": "«Wie geht es Ihnen zurzeit gesundheitlich?», Basel-Stadt, 2019"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -954,7 +954,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-16"
   },
   "exporting": {
     "filename": 8531

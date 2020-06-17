@@ -909,7 +909,7 @@
     "text": "Zufriedenheit mit Parks und Grünanlagen"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?» Stand: 2019"
+    "text": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?», Basel-Stadt, 2019"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -954,7 +954,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-16"
   },
   "exporting": {
     "filename": 8587

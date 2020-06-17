@@ -34,6 +34,10 @@
         [
           2018,
           26.6
+        ],
+        [
+          2019,
+          25.9
         ]
       ],
       "name": "Schweiz"
@@ -72,6 +76,10 @@
         [
           2018,
           18.5
+        ],
+        [
+          2019,
+          20.6
         ]
       ],
       "name": "Deutschland"
@@ -110,6 +118,10 @@
         [
           2018,
           30.5
+        ],
+        [
+          2019,
+          34.9
         ]
       ],
       "name": "Italien"
@@ -148,6 +160,10 @@
         [
           2018,
           36
+        ],
+        [
+          2019,
+          43.3
         ]
       ],
       "name": "Türkei"
@@ -186,6 +202,10 @@
         [
           2018,
           25.2
+        ],
+        [
+          2019,
+          27
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -224,6 +244,10 @@
         [
           2018,
           20.4
+        ],
+        [
+          2019,
+          21.3
         ]
       ],
       "name": "EU-Ost"
@@ -262,6 +286,10 @@
         [
           2018,
           46.9
+        ],
+        [
+          2019,
+          49.4
         ]
       ],
       "name": "Balkan"
@@ -300,6 +328,10 @@
         [
           2018,
           41.4
+        ],
+        [
+          2019,
+          42.9
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -338,6 +370,10 @@
         [
           2018,
           35
+        ],
+        [
+          2019,
+          52
         ]
       ],
       "name": "Arab. Länder"
@@ -376,6 +412,10 @@
         [
           2018,
           34.9
+        ],
+        [
+          2019,
+          38.4
         ]
       ],
       "name": "Afrikan. Länder"
@@ -414,6 +454,10 @@
         [
           2018,
           30.4
+        ],
+        [
+          2019,
+          30.5
         ]
       ],
       "name": "Übrige Länder"
@@ -469,7 +513,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -515,7 +559,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "legend": {
     "enabled": true,

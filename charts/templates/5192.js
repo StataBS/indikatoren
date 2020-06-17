@@ -10,21 +10,17 @@
   "xAxis": {
       "type": "category",
   },
-    "legend": {
-        "layout": "vertical",
-        "verticalAlign": "middle",
-        "itemMarginBottom": 5,     
-        "align": "right",
-        "useHTML": false,
-        "itemStyle": {
-            "fontWeight": "normal"
-        },
-        "symbolRadius": 0,
-        "labelFormatter": function () {
-            return this.name.replace('/', '/<br/>');
-        },
-        "reversed": false
-    }
+  legend: {
+    reversed: true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
+    labelFormatter: function(){
+        return this.name.replace("/", " /<br/>");
+
+      }
+  }
 	}
 }());
 
