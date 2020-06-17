@@ -15,9 +15,14 @@
         reversedStacks: false,
     },
     legend: {
-        reversed: true,
-        labelFormatter: function(){
-            return this.name.replace("/", " /<br/>");
+      reversed: false,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "itemMarginBottom": 4,
+      "align": "left",
+      labelFormatter: function(){
+          return this.name.replace("/", " /<br/>");
+  
         }
     }
   

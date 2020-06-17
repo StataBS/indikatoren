@@ -58,6 +58,10 @@
         [
           2018,
           50986
+        ],
+        [
+          2019,
+          53088
         ]
       ],
       "name": "Anzahl Beziehende von Prämienverbilligung"
@@ -99,7 +103,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bezügerinnen und Bezüger von Prämienverbilligung"
+    "text": "Bezügerinnen und Bezüger von Prämienverbilligungen"
   },
   "subtitle": {
     "style": {
@@ -159,7 +163,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-23"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "legend": {
     "enabled": false,

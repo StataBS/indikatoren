@@ -9,7 +9,7 @@
         ],
         [
           "3-Sterne",
-          1679
+          1678
         ],
         [
           "4- und 5-Sterne",
@@ -28,19 +28,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          505
+          511
         ],
         [
           "3-Sterne",
-          870
+          945
         ],
         [
           "4- und 5-Sterne",
-          1006
+          1239
         ],
         [
           "Nicht klassiert",
-          363
+          349
         ]
       ],
       "name": "Verfügbare Zimmer 2020",
@@ -58,19 +58,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.51178356
+          0.6337413
         ],
         [
           "3-Sterne",
-          0.570805015
+          0.736373599
         ],
         [
           "4- und 5-Sterne",
-          0.590755814
+          0.811702926
         ],
         [
           "Nicht klassiert",
-          0.580196078
+          0.702422803
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2019",
@@ -88,19 +88,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          0.102508251
+          0.128124211
         ],
         [
           "3-Sterne",
-          0.220815022
+          0.237911488
         ],
         [
           "4- und 5-Sterne",
-          0.096875114
+          0.083932105
         ],
         [
           "Nicht klassiert",
-          0.17943067
+          0.105972491
         ]
       ],
       "name": "Nettozimmerauslastung (rechte Skala) 2020",
@@ -199,7 +199,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, April",
+    "text": "Basel-Stadt, Mai",
     "align": "left"
   },
   "yAxis": [
@@ -263,7 +263,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-17"
   },
   "legend": {
     "symbolRadius": 0,
