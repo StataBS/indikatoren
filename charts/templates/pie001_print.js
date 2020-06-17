@@ -83,7 +83,8 @@
         "useHTML": true,
         "itemStyle": {
             "fontWeight": "normal",
-            "fontSize": "10px"
+            "fontSize": "10px",
+			"color": "#000000"
         },
         "symbolRadius": 0,
       }
