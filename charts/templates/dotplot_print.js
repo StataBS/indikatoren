@@ -1,85 +1,55 @@
-(function(){ 
+(function () {
     return {
-        "chart": {		
-            events:{
-                load: function() {                
-                    this.credits.element.onclick = function() {}
-                }
+        chart: {
+            type: "scatter",
+            inverted: true,
+            borderColor: "#fbfbfb",
+            backgroundColor: "#fbfbfb",
+            width: 320,
+            height: 208,
+            spacing: [2, 2, 2, 2], /*top, right, bottom and left */
+            zoomType: "xy",
+            style: {
+                fontFamily: "Arial"
             },
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
-            spacing: [2,2,2,2], /*top, right, bottom and left */
-            "width": 641,
-    		"height": 415,
-            "spacingBottom": 45,
-            "style": {
-                "fontFamily": "Arial"
-            },
-            "zoomType": "xy",
-            "type": "scatter",
-    		"inverted": true
-        },
-        "title": {
-            "style": {
-            "fontSize": "14px",
-            "fontWeight": "bold",
-            "fontFamily": "Arial",
-            "color": "#000000"
-            },        
-            "align": "left"
-        },
-        "subtitle": {
-            "style": {
-            "fontSize": "12px",
-            "fontWeight": "normal",
-            "fontFamily": "Arial",
-            "color": "#000000"
-            },
-            "text": "",
-            "align": "left"
-        },
-        "plotOptions": {
-            "series": {
-                "dataLabels": {
-                    "x": 5,
-                    "align": "left",
-                    "verticalAlign": "middle",
-                    "enabled": false,
-                    "style": {
-                        "fontSize": "10px"
-                    },
-                    "formatter": function(){
-                        return Highcharts.numberFormat((this.y*100),1)+'%';                
-                    },
+            events: {
+                load: function () {
+                    this.credits.element.onclick = function () { }
                 }
             }
         },
-        "yAxis": {
-            gridLineColor: '#B9CFD7', 
-            gridLineWidth: 0.5, 
-            lineColor: '#B9CFD7',
-            "title": {
-                "style": {
-                    "color": "#000000",
-                    "fontSize": 10
-                },
-                "text": ''
-            },
-            "labels": {
-                y: 3, 
-                "formatter": function(){
-                    return Highcharts.numberFormat((this.value*100),0)+'%';                
-                },
-                "style": {
-                    "color": "#000000"
-                }
-            }, 
-            "min": 0
+        plotOptions: {
+            series: {
+                borderWidth: 0
+            }
         },
-        "xAxis": {
+        title: {
+            text: null,
+            style: {
+                fontSize: "14px",
+                fontWeight: "bold",
+                fontFamily: "Arial",
+                color: "#000000"
+            }
+        },
+        subtitle: {
+            text: null,
+            style: {
+                fontSize: "12px",
+                fontWeight: "normal",
+                fontFamily: "Arial",
+                color: "#000000"
+            },
+        },
+        xAxis: {
+            type: "category",
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
-            "title": {
+            tickLength: 0,
+            tickInterval: 1,
+            uniqueNames: true,
+            title: {
+                text: null,
                 "style": {
                     "color": "#000000"
                 }
@@ -90,10 +60,35 @@
                     "fontSize": "10px"
                 }
             },
-            "tickLength": 0,
-            "tickInterval": 1,
-            "type": "category",
-            "uniqueNames": true        
+        },
+        yAxis: {
+            min: 0,
+            gridLineColor: '#B9CFD7',
+            gridLineWidth: 0.5,
+            lineColor: '#B9CFD7',
+            "title": {
+                text: null,
+                style: {
+                    "color": "#000000",
+                    "fontSize": "10px"
+                },
+            },
+            labels: {
+                y: 12,
+                "style": {
+                    "color": "#000000",
+                    "fontSize": "10px"
+                },
+                formatter: function () {
+                    return Highcharts.numberFormat((this.value * 100), 0) + '%';
+                },
+            },
+        },
+        legend: {
+            enabled: false,
+            symbolRadius: 0,
+            padding: 0,
+            itemMarginBottom: 2,
         },
         "credits": {
             "enabled": true,
@@ -107,26 +102,6 @@
                 "verticalAlign": "bottom",
                 "x": 10
             }
-        },
-        "legend": {
-    		enabled: false,
-            symbolRadius: 0, 
-            padding: 0,
-            itemMarginBottom: 2,
-    	},
-        "tooltip": {
-            "formatter": function(args){
-                var this_point_index = this.series.data.indexOf(this.point);
-                var other_series_index = this.series.index == 0 ? 1 : 0; // assuming 2 series
-                var other_series = args.chart.series[other_series_index];
-                var other_point = other_series.data[this_point_index];
-                return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-                    this.point.name +': <b>' + Highcharts.numberFormat((this.y*100),1) + '%</b><br/>' + 
-                    'Rang <b>' + other_point.y + '</b>';
-            },        
-            shared: true
         }
     };
 }());
-
-//Colors of StatA Bereiche: violett3 #923F8D, gruen3 #68AB2B, blau3 #689199

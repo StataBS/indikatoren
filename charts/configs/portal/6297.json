@@ -526,17 +526,12 @@
     "type": "datetime",
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "uniqueNames": true,
-    "ordinal": false,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
     "labels": {
       "style": {
+        "fontSize": "10px",
         "color": "#000000",
-        "fontSize": "10px"
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
       },
       "rotation": -45
     },
@@ -545,10 +540,89 @@
     "min": -60652800000,
     "showLastLabel": true
   },
-  "isStock": true,
   "chart": {
+    "events": {
+      "load": function () {
+            this.credits.element.onclick = function () { };
+  
+            //add rigt-margin if legend is top to allow space for axis-labels
+            if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+              this.update({
+                chart: {
+                  marginRight: 15
+                }
+              });
+            }
+  
+            if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+              this.update({
+                chart: {
+                  marginTop: 7
+                }
+              });
+            }
+  
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+              //square legends must be placed 3 pixels more to the left that lines, don't know why
+              var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                  }
+                }
+              );
+            }
+  
+            if (this.yAxis[1]) {
+              this.update({
+                  yAxis: [{
+                      gridLineColor: '#B9CFD7',
+                      gridLineWidth: 0.5,
+                      lineColor: '#B9CFD7',
+                      "title": {
+                          "style": {
+                              "color": "#000000",
+                              "fontSize": 10
+                          },
+                          "text": ''
+                      },
+                      "labels": {
+                          y: 3,
+                          "style": {
+                              fontSize: '10px',
+                              color: "#000000"
+                          }
+                      }
+                  },
+                  {
+                      gridLineColor: '#B9CFD7',
+                      gridLineWidth: 0.5,
+                      lineColor: '#B9CFD7',
+                      "title": {
+                          "style": {
+                              "color": "#000000",
+                              "fontSize": 10
+                          },
+                          "text": ''
+                      },
+                      "labels": {
+                          y: 3,
+                          "style": {
+                              fontSize: '10px',
+                              color: "#000000"
+                          }
+                      }
+                  }]
+              });
+          }
+  
+          }
+    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "width": 320,
     "height": 221,
     "spacing": [
@@ -560,31 +634,13 @@
     "style": {
       "fontFamily": "Arial"
     },
-    "events": {
-      "load": function() {
-                        this.credits.element.onclick = function() {};
-                    }
-    },
     "type": "area",
     "renderTo": "container-6297",
     "spacingBottom": 13
   },
-  "plotOptions": {
-    "series": {
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "marker": {
-        "enabled": false,
-        "radius": 4
-      }
-    }
-  },
   "title": {
     "style": {
-      "fontSize": "14px",
+      "fontSize": "10px",
       "fontWeight": "bold",
       "color": "#000000"
     },
@@ -593,7 +649,7 @@
   },
   "subtitle": {
     "style": {
-      "fontSize": "12px",
+      "fontSize": "10px",
       "fontWeight": "normal",
       "fontFamily": "Arial",
       "color": "#000000"
@@ -601,10 +657,13 @@
     "text": "Basel-Stadt",
     "align": "left"
   },
+  "tooltip": {
+    "shared": false
+  },
   "yAxis": {
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
     "title": {
       "style": {
         "color": "#000000",
@@ -615,8 +674,8 @@
     "labels": {
       "y": 3,
       "style": {
-        "color": "#000000",
-        "fontSize": "10px"
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "format": "{value:,.0f}"
     },
@@ -626,13 +685,8 @@
     "endOnTick": true,
     "opposite": false
   },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
   "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -648,15 +702,37 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
   },
   "legend": {
+    "enabled": false,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
     "symbolRadius": 0,
-    "padding": 0,
-    "itemMarginBottom": 2
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false,
+        "radius": 4
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 6297
+  },
+  "navigator": {
+    "enabled": false
+  },
+  "scrollbar": {
+    "enabled": false
   },
   "rangeSelector": {
-    "verticalAlign": "bottom",
-    "buttonPosition": {
-      "x": 10
-    },
     "enabled": false,
     "buttons": [
       {
@@ -689,29 +765,5 @@
     "selected": 2,
     "inputDateFormat": "%Y",
     "inputEditDateFormat": "%Y"
-  },
-  "navigator": {
-    "margin": 10,
-    "height": 20,
-    "series": {
-      "includeInCSVExport": false
-    },
-    "outlineColor": "#B9CFD7",
-    "enabled": false
-  },
-  "tooltip": {
-    "dateTimeLabelFormats": {
-      "day": "%A, %e. %b, %Y"
-    }
-  },
-  "exporting": {
-    "enabled": false,
-    "csv": {
-      "dateFormat": "%d.%m.%Y"
-    },
-    "filename": 6297
-  },
-  "scrollbar": {
-    "enabled": false
   }
 }

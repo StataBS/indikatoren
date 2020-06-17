@@ -1,15 +1,29 @@
 (function(){
     return {
     "chart": {		
-        "events":{
-            "load": function() {
-                this.credits.element.onclick = function() {
-                    /*
-                    window.open(
-                    "http://www.statistik.bs.ch",
-                    '_blank' // http://stackoverflow.com/questions/16810556/how-to-open-credits-url-of-highcharts-in-new-tab
-                    );
-                    */
+        events: {
+            load: function () {
+                this.credits.element.onclick = function () { };
+
+                //add top-margin if legend is right to allow space for axis-labels
+                if (this['legend']['options']['layout'] == 'vertical') {
+                    this.update({
+                        chart: {
+                            marginTop: 6
+                        }
+                    });
+                }
+
+                //square legends must be placed 3 pixels more to the left than lines, don't know why
+                var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                //for top-left legends with no x defined: move legend to x position of first yAxis
+                if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                    this.update({
+                        legend: {
+                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                        }
+                    });
                 }
             }
         },

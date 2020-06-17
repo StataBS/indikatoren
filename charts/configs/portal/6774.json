@@ -3742,6 +3742,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -3786,6 +3787,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -4263,7 +4265,7 @@
     "addLegendTitle": function(chart, title, x, y){
             		return chart.renderer.label(title, x, y)
          				.css({
-    	                    fontSize: '10px',
+    	                    fontSize: '15px',
     	                    fontWeight: 'bold'
     	                })
     	                .attr({
@@ -4283,7 +4285,7 @@
     "addLegendText": function(chart, x, y, text, color, cssClass, useHtml){
 							return chart.renderer.text(text, x, y, undefined, undefined, undefined, useHtml)
 								.css({
-				                    fontSize: '10px',
+				                    fontSize: '15px',
 				                })
 								.attr({
 									zIndex: 6,

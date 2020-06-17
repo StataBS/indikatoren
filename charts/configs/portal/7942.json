@@ -18,7 +18,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2014: Messe",
@@ -30,7 +30,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2015: Messe",
@@ -42,7 +42,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2016: Messe",
@@ -54,7 +54,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2017: Messe",
@@ -66,7 +66,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2018: Messe",
@@ -98,7 +98,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2014: Messe",
@@ -110,7 +110,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2015: Messe",
@@ -122,7 +122,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2016: Messe",
@@ -134,7 +134,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2017: Messe",
@@ -146,7 +146,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2018: Messe",
@@ -178,7 +178,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2014: Messe",
@@ -190,7 +190,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2015: Messe",
@@ -202,7 +202,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2016: Messe",
@@ -214,7 +214,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2017: Messe",
@@ -226,7 +226,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2018: Messe",
@@ -258,7 +258,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2014: Messe",
@@ -270,7 +270,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2015: Messe",
@@ -282,7 +282,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2016: Messe",
@@ -294,7 +294,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2017: Messe",
@@ -306,7 +306,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2018: Messe",
@@ -338,7 +338,7 @@
         ],
         [
           " ",
-          null
+          undefined
         ],
         [
           "2014: Messe",
@@ -350,7 +350,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2015: Messe",
@@ -362,7 +362,7 @@
         ],
         [
           "   ",
-          null
+          undefined
         ],
         [
           "2016: Messe",
@@ -374,7 +374,7 @@
         ],
         [
           "    ",
-          null
+          undefined
         ],
         [
           "2017: Messe",
@@ -386,7 +386,7 @@
         ],
         [
           "     ",
-          null
+          undefined
         ],
         [
           "2018: Messe",
@@ -414,7 +414,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "step": 1,
       "rotation": -90,
@@ -439,27 +440,86 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
                 }
     },
     "type": "column",
@@ -548,6 +608,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "fontWeight": "normal",
       "width": 70,
       "textOverflow": null
     },
