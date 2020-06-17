@@ -360,23 +360,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-                return this.name.replace("mich", " mich<br/>");
-            },
-    "reversed": true
+    "labelFormatter": function(){
+                return this.name.replace("/", " /<br/>");
+        
+              },
+    "reversed": false
   },
   "exporting": {
     "filename": 4852

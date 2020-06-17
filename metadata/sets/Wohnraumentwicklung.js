@@ -920,7 +920,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:47:00.000",
+		"aktualisierungsdatum": "2020-06-15T15:19:37.3737",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",

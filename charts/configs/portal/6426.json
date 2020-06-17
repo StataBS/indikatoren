@@ -80,6 +80,10 @@
         [
           "2018",
           6023
+        ],
+        [
+          "2019",
+          5790
         ]
       ],
       "name": "Schweiz",
@@ -165,6 +169,10 @@
         [
           "2018",
           451
+        ],
+        [
+          "2019",
+          438
         ]
       ],
       "name": "Deutschland",
@@ -250,6 +258,10 @@
         [
           "2018",
           490
+        ],
+        [
+          "2019",
+          488
         ]
       ],
       "name": "Italien",
@@ -335,6 +347,10 @@
         [
           "2018",
           1241
+        ],
+        [
+          "2019",
+          1137
         ]
       ],
       "name": "Türkei",
@@ -420,6 +436,10 @@
         [
           "2018",
           688
+        ],
+        [
+          "2019",
+          664
         ]
       ],
       "name": "EU-17 + EFTA",
@@ -505,6 +525,10 @@
         [
           "2018",
           364
+        ],
+        [
+          "2019",
+          351
         ]
       ],
       "name": "EU-Ost",
@@ -590,6 +614,10 @@
         [
           "2018",
           969
+        ],
+        [
+          "2019",
+          867
         ]
       ],
       "name": "Balkan",
@@ -675,6 +703,10 @@
         [
           "2018",
           293
+        ],
+        [
+          "2019",
+          283
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -760,6 +792,10 @@
         [
           "2018",
           964
+        ],
+        [
+          "2019",
+          957
         ]
       ],
       "name": "Arabische Länder",
@@ -845,6 +881,10 @@
         [
           "2018",
           987
+        ],
+        [
+          "2019",
+          962
         ]
       ],
       "name": "Afrikanische Länder",
@@ -930,6 +970,10 @@
         [
           "2018",
           888
+        ],
+        [
+          "2019",
+          904
         ]
       ],
       "name": "Übrige Länder",
@@ -1038,7 +1082,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "max": undefined
   },
   "navigation": {
     "menuItemStyle": {
@@ -1059,7 +1104,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
   },
   "legend": {
     "symbolRadius": 0,

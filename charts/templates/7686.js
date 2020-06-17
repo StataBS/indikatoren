@@ -22,8 +22,15 @@
         zIndex: 0,
       }]
     },
-    "xAxis": {
-      "tickInterval": 2,
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
     },
     "legend": {
       "enabled": true,
@@ -31,7 +38,7 @@
       "verticalAlign": "top",
       "align": "left",
       //"y": 40,
-      "x": 40,
+      //"x": 40,
       "itemMarginBottom": 5
     },
     "series": [

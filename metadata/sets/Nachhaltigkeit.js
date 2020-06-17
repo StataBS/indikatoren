@@ -1,24 +1,24 @@
 var indikatorensetData = [
 	{
-		"title": "Bezügerinnen und Bezüger von Prämienverbilligung",
+		"title": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.13.2.02917",
 		"kuerzelKunde": "GW6",
-		"description": "Bezügerinnen und Bezüger von Prämienverbilligung",
+		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T12:25:58.5858",
+		"aktualisierungsdatum": "2020-06-15T18:46:25.2525",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 erhält mit 50 986 Bezügerinnen und Bezügern etwas mehr als ein Viertel der in Basel-Stadt wohnhaften Personen Prämienverbilligung.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst die Beziehenden von Sozialhilfe und Ergänzungleistungen ein.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -50,7 +50,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:47:25.2525",
+		"aktualisierungsdatum": "2020-06-15T16:05:00.000",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -437,7 +437,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2015",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.05165",
 		"kuerzelKunde": "GW1",
 		"description": "Bewertung der Lebensqualität",
@@ -447,7 +447,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:08:11.1111",
+		"aktualisierungsdatum": "2020-06-15T16:27:31.3131",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -1644,7 +1644,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:47:48.4848",
+		"aktualisierungsdatum": "2020-06-15T16:11:53.5353",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -2360,14 +2360,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:42:26.2626",
+		"aktualisierungsdatum": "2020-06-15T18:48:44.4444",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2018 liegt die Platzzahl bei 4 087. Auch die Tagesstrukturen wurden stetig ausgebaut. 2018 bieten die Frühhorte Platz für 416 Kinder, die Mittagsmodule 2 911 und die Nachmittagsmodule 2 551 Plätze. Die Tagesferien können von 211 Kindern gleichzeitig genutzt werden.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseit von privaten Trägerschaften in den Quartieren («Mittagstische») angeboten. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da in den Sekundarschulen keine Anmeldepflicht besteht, gibt es auch keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2019 liegt die Platzzahl bei 4 269. Auch die Tagesstrukturen wurden stetig ausgebaut. 2019 bieten die Frühhorte Platz für 512 Kinder, die Mittagsmodule  3 183 und die Nachmittagsmodule  2 815 Plätze. Die Tagesferien können von 222 Kindern gleichzeitig genutzt werden.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseit von privaten Trägerschaften in den Quartieren («Mittagstische») angeboten. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da in den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2762,7 +2762,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:21:45.4545",
+		"aktualisierungsdatum": "2020-06-15T16:01:46.4646",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -2922,7 +2922,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:53:09.099",
+		"aktualisierungsdatum": "2020-06-15T15:49:10.1010",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -3043,7 +3043,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:31:24.2424",
+		"aktualisierungsdatum": "2020-06-15T16:16:35.3535",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -3084,7 +3084,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:32:02.022",
+		"aktualisierungsdatum": "2020-06-15T16:18:53.5353",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
