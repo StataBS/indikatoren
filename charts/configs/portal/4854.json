@@ -274,7 +274,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt, 2019"
+    "text": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -332,7 +332,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9d.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
   },
   "legend": {
     "layout": "horizontal",

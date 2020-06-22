@@ -49,6 +49,9 @@ Highcharts.dateFormats = {
                     crosshairs: true,
                     shared: true
                 },
+            },
+            series:{
+                turboThreshold: 0
             }
         },
 

@@ -1,0 +1,523 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          1995,
+          3965
+        ],
+        [
+          1996,
+          3933
+        ],
+        [
+          1997,
+          3905
+        ],
+        [
+          1998,
+          2906
+        ],
+        [
+          1999,
+          2919
+        ],
+        [
+          2000,
+          2340
+        ],
+        [
+          2001,
+          2221
+        ],
+        [
+          2002,
+          2026
+        ],
+        [
+          2003,
+          2010
+        ],
+        [
+          2004,
+          1812
+        ],
+        [
+          2005,
+          1864
+        ],
+        [
+          2006,
+          1836
+        ],
+        [
+          2007,
+          1746
+        ],
+        [
+          2008,
+          1464
+        ],
+        [
+          2009,
+          1350
+        ],
+        [
+          2010,
+          1153
+        ],
+        [
+          2011,
+          948
+        ],
+        [
+          2012,
+          898
+        ],
+        [
+          2013,
+          1029
+        ],
+        [
+          2014,
+          1106
+        ],
+        [
+          2015,
+          1126
+        ],
+        [
+          2016,
+          1140
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ]
+      ],
+      "name": "Anzahl Unfälle"
+    },
+    {
+      "color": "#B00000",
+      "linkedTo": ":previous",
+      "data": [
+        [
+          1995,
+          null
+        ],
+        [
+          1996,
+          null
+        ],
+        [
+          1997,
+          null
+        ],
+        [
+          1998,
+          null
+        ],
+        [
+          1999,
+          null
+        ],
+        [
+          2000,
+          null
+        ],
+        [
+          2001,
+          null
+        ],
+        [
+          2002,
+          null
+        ],
+        [
+          2003,
+          null
+        ],
+        [
+          2004,
+          null
+        ],
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          835
+        ],
+        [
+          2018,
+          777
+        ]
+      ],
+      "name": "Anzahl Unfälle"
+    },
+    {
+      "color": "#4f81bd",
+      "data": [
+        [
+          1995,
+          980
+        ],
+        [
+          1996,
+          852
+        ],
+        [
+          1997,
+          935
+        ],
+        [
+          1998,
+          862
+        ],
+        [
+          1999,
+          859
+        ],
+        [
+          2000,
+          760
+        ],
+        [
+          2001,
+          708
+        ],
+        [
+          2002,
+          659
+        ],
+        [
+          2003,
+          666
+        ],
+        [
+          2004,
+          603
+        ],
+        [
+          2005,
+          694
+        ],
+        [
+          2006,
+          659
+        ],
+        [
+          2007,
+          603
+        ],
+        [
+          2008,
+          589
+        ],
+        [
+          2009,
+          567
+        ],
+        [
+          2010,
+          462
+        ],
+        [
+          2011,
+          391
+        ],
+        [
+          2012,
+          307
+        ],
+        [
+          2013,
+          399
+        ],
+        [
+          2014,
+          437
+        ],
+        [
+          2015,
+          473
+        ],
+        [
+          2016,
+          490
+        ],
+        [
+          2017,
+          446
+        ],
+        [
+          2018,
+          473
+        ]
+      ],
+      "name": "Verunfallte Personen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8903",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Strassenverkehrsunfälle und verunfallte Personen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 500
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "tickPositioner": function () {
+        var interval = 3,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8903
+  }
+}
