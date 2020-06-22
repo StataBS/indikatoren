@@ -1,0 +1,367 @@
+{
+  "series": [
+    {
+      "color": "#D3E2E4",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2009",
+          516
+        ],
+        [
+          "2010",
+          474
+        ],
+        [
+          "2011",
+          501
+        ],
+        [
+          "2012",
+          485
+        ],
+        [
+          "2013",
+          534
+        ],
+        [
+          "2014",
+          462
+        ],
+        [
+          "2015",
+          527
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016",
+          526
+        ],
+        [
+          "2017",
+          491
+        ],
+        [
+          "2018",
+          431
+        ]
+      ],
+      "name": "Bis 3 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2009",
+          943
+        ],
+        [
+          "2010",
+          913
+        ],
+        [
+          "2011",
+          1088
+        ],
+        [
+          "2012",
+          1020
+        ],
+        [
+          "2013",
+          948
+        ],
+        [
+          "2014",
+          884
+        ],
+        [
+          "2015",
+          1001
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016",
+          1066
+        ],
+        [
+          "2017",
+          1051
+        ],
+        [
+          "2018",
+          927
+        ]
+      ],
+      "name": "4 bis 12 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2F656B",
+      "index": 2,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2009",
+          1235
+        ],
+        [
+          "2010",
+          1399
+        ],
+        [
+          "2011",
+          1479
+        ],
+        [
+          "2012",
+          1597
+        ],
+        [
+          "2013",
+          1573
+        ],
+        [
+          "2014",
+          1521
+        ],
+        [
+          "2015",
+          1477
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016",
+          1662
+        ],
+        [
+          "2017",
+          1661
+        ],
+        [
+          "2018",
+          1571
+        ]
+      ],
+      "name": "13 bis 36 Monate",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#083038",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2009",
+          2078
+        ],
+        [
+          "2010",
+          2052
+        ],
+        [
+          "2011",
+          2059
+        ],
+        [
+          "2012",
+          2164
+        ],
+        [
+          "2013",
+          2279
+        ],
+        [
+          "2014",
+          2381
+        ],
+        [
+          "2015",
+          2509
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2016",
+          2785
+        ],
+        [
+          "2017",
+          2828
+        ],
+        [
+          "2018",
+          2901
+        ]
+      ],
+      "name": "Über 36 Monate",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": -45,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+                  	 return this.value;
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //add top-margin if legend is right to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 6
+                            }
+                        });
+                    }
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "inverted": false,
+    "renderTo": "container-8902",
+    "spacingBottom": 32
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt (bis 2015 Stadt Basel)"
+  },
+  "yAxis": {
+    "type": "category",
+    "tickInterval": 20,
+    "lineColor": "#B9CFD7",
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "valueDecimals": 0
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -45
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": 8902
+  }
+}

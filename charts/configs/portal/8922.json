@@ -1,0 +1,348 @@
+{
+  "series": [
+    {
+      "color": "#CD9C00",
+      "data": [
+        [
+          2004,
+          0.092
+        ],
+        [
+          2005,
+          0.064
+        ],
+        [
+          2006,
+          0.056
+        ],
+        [
+          2007,
+          0.048
+        ],
+        [
+          2008,
+          0.041
+        ],
+        [
+          2009,
+          0.056
+        ],
+        [
+          2010,
+          0.05
+        ],
+        [
+          2011,
+          0.057
+        ],
+        [
+          2012,
+          0.042
+        ],
+        [
+          2013,
+          0.043
+        ],
+        [
+          2014,
+          0.05
+        ],
+        [
+          2015,
+          0.042
+        ],
+        [
+          2016,
+          0.046
+        ],
+        [
+          2017,
+          0.035
+        ],
+        [
+          2018,
+          0.033
+        ]
+      ],
+      "name": "AOX-Konzentration"
+    },
+    {
+      "color": "#3C3C3C",
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "data": [
+        [
+          2004,
+          0.08
+        ],
+        [
+          2005,
+          0.08
+        ],
+        [
+          2006,
+          0.08
+        ],
+        [
+          2007,
+          0.08
+        ],
+        [
+          2008,
+          0.08
+        ],
+        [
+          2009,
+          0.08
+        ],
+        [
+          2010,
+          0.08
+        ],
+        [
+          2011,
+          0.08
+        ],
+        [
+          2012,
+          0.08
+        ],
+        [
+          2013,
+          0.08
+        ],
+        [
+          2014,
+          0.08
+        ],
+        [
+          2015,
+          0.08
+        ],
+        [
+          2016,
+          0.08
+        ],
+        [
+          2017,
+          0.08
+        ],
+        [
+          2018,
+          0.08
+        ]
+      ],
+      "name": "Grenzwert"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8922",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Wasserqualität: AOX-Konzentration"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.3f}"
+    },
+    "tickAmount": 6
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 2
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8922
+  }
+}

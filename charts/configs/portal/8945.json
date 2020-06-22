@@ -1,0 +1,418 @@
+{
+  "series": [
+    {
+      "color": "#008AC3",
+      "stack": "m",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1970",
+          67396
+        ],
+        [
+          "1980",
+          54683
+        ],
+        [
+          "1990",
+          51149
+        ],
+        [
+          "2000",
+          38602
+        ],
+        [
+          "2010",
+          37690
+        ],
+        [
+          "2017",
+          38981
+        ]
+      ],
+      "name": "Vollzeit Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#00bAf3",
+      "stack": "m",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1970",
+          3171
+        ],
+        [
+          "1980",
+          2972
+        ],
+        [
+          "1990",
+          4367
+        ],
+        [
+          "2000",
+          6235
+        ],
+        [
+          "2010",
+          7849
+        ],
+        [
+          "2017",
+          10945
+        ]
+      ],
+      "name": "Teilzeit Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "stack": "w",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1970",
+          31316
+        ],
+        [
+          "1980",
+          26817
+        ],
+        [
+          "1990",
+          22780
+        ],
+        [
+          "2000",
+          19585
+        ],
+        [
+          "2010",
+          21125
+        ],
+        [
+          "2017",
+          23494
+        ]
+      ],
+      "name": "Vollzeit Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d00000",
+      "stack": "w",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1970",
+          12983
+        ],
+        [
+          "1980",
+          12499
+        ],
+        [
+          "1990",
+          17192
+        ],
+        [
+          "2000",
+          18767
+        ],
+        [
+          "2010",
+          20593
+        ],
+        [
+          "2017",
+          24379
+        ]
+      ],
+      "name": "Teilzeit Frauen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#474747",
+      "stack": "t",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1970",
+          98712
+        ],
+        [
+          "1980",
+          81500
+        ],
+        [
+          "1990",
+          73929
+        ],
+        [
+          "2000",
+          58187
+        ],
+        [
+          "2010",
+          58814
+        ],
+        [
+          "2017",
+          62475
+        ]
+      ],
+      "name": "Vollzeit Total",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "stack": "t",
+      "legendIndex": 5,
+      "data": [
+        [
+          "1970",
+          16154
+        ],
+        [
+          "1980",
+          15471
+        ],
+        [
+          "1990",
+          21559
+        ],
+        [
+          "2000",
+          25002
+        ],
+        [
+          "2010",
+          28442
+        ],
+        [
+          "2017",
+          35323
+        ]
+      ],
+      "name": "Teilzeit Total",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-8945",
+    "spacingBottom": 22
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "stacking": "percent",
+      "pointPadding": 0.1,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "reversedStacks": false
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "exporting": {
+    "filename": 8945
+  }
+}

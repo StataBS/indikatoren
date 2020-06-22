@@ -1,0 +1,477 @@
+{
+  "series": [
+    {
+      "color": "#007a2f",
+      "index": 9,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          120
+        ],
+        [
+          "2005 (Ø 7.3)",
+          102
+        ],
+        [
+          "2007 (Ø 7.4)",
+          105
+        ],
+        [
+          "2011 (Ø 7.7)",
+          203
+        ],
+        [
+          "2015 (Ø 7.8)",
+          173
+        ],
+        [
+          "2019 (Ø 8.0)",
+          315
+        ]
+      ],
+      "name": "Note 10",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#44ab2b",
+      "index": 8,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          104
+        ],
+        [
+          "2005 (Ø 7.3)",
+          150
+        ],
+        [
+          "2007 (Ø 7.4)",
+          160
+        ],
+        [
+          "2011 (Ø 7.7)",
+          168
+        ],
+        [
+          "2015 (Ø 7.8)",
+          223
+        ],
+        [
+          "2019 (Ø 8.0)",
+          437
+        ]
+      ],
+      "name": "Note 9",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73ba7c",
+      "index": 7,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          576
+        ],
+        [
+          "2005 (Ø 7.3)",
+          546
+        ],
+        [
+          "2007 (Ø 7.4)",
+          571
+        ],
+        [
+          "2011 (Ø 7.7)",
+          582
+        ],
+        [
+          "2015 (Ø 7.8)",
+          590
+        ],
+        [
+          "2019 (Ø 8.0)",
+          723
+        ]
+      ],
+      "name": "Note 8",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#d7e9d2",
+      "index": 6,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          351
+        ],
+        [
+          "2005 (Ø 7.3)",
+          363
+        ],
+        [
+          "2007 (Ø 7.4)",
+          372
+        ],
+        [
+          "2011 (Ø 7.7)",
+          327
+        ],
+        [
+          "2015 (Ø 7.8)",
+          281
+        ],
+        [
+          "2019 (Ø 8.0)",
+          320
+        ]
+      ],
+      "name": "Note 7",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b9cfd7",
+      "index": 5,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          144
+        ],
+        [
+          "2005 (Ø 7.3)",
+          143
+        ],
+        [
+          "2007 (Ø 7.4)",
+          130
+        ],
+        [
+          "2011 (Ø 7.7)",
+          93
+        ],
+        [
+          "2015 (Ø 7.8)",
+          93
+        ],
+        [
+          "2019 (Ø 8.0)",
+          97
+        ]
+      ],
+      "name": "Note 6",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#71a3b5",
+      "index": 4,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          137
+        ],
+        [
+          "2005 (Ø 7.3)",
+          140
+        ],
+        [
+          "2007 (Ø 7.4)",
+          114
+        ],
+        [
+          "2011 (Ø 7.7)",
+          96
+        ],
+        [
+          "2015 (Ø 7.8)",
+          93
+        ],
+        [
+          "2019 (Ø 8.0)",
+          85
+        ]
+      ],
+      "name": "Note 5",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "index": 3,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          23
+        ],
+        [
+          "2005 (Ø 7.3)",
+          30
+        ],
+        [
+          "2007 (Ø 7.4)",
+          26
+        ],
+        [
+          "2011 (Ø 7.7)",
+          20
+        ],
+        [
+          "2015 (Ø 7.8)",
+          16
+        ],
+        [
+          "2019 (Ø 8.0)",
+          29
+        ]
+      ],
+      "name": "Note 4",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "index": 2,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          14
+        ],
+        [
+          "2005 (Ø 7.3)",
+          17
+        ],
+        [
+          "2007 (Ø 7.4)",
+          13
+        ],
+        [
+          "2011 (Ø 7.7)",
+          13
+        ],
+        [
+          "2015 (Ø 7.8)",
+          14
+        ],
+        [
+          "2019 (Ø 8.0)",
+          24
+        ]
+      ],
+      "name": "Note 3",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 1,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          3
+        ],
+        [
+          "2005 (Ø 7.3)",
+          4
+        ],
+        [
+          "2007 (Ø 7.4)",
+          4
+        ],
+        [
+          "2011 (Ø 7.7)",
+          4
+        ],
+        [
+          "2015 (Ø 7.8)",
+          2
+        ],
+        [
+          "2019 (Ø 8.0)",
+          11
+        ]
+      ],
+      "name": "Note 2",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "index": 0,
+      "data": [
+        [
+          "2003 (Ø 7.4)",
+          5
+        ],
+        [
+          "2005 (Ø 7.3)",
+          5
+        ],
+        [
+          "2007 (Ø 7.4)",
+          5
+        ],
+        [
+          "2011 (Ø 7.7)",
+          7
+        ],
+        [
+          "2015 (Ø 7.8)",
+          4
+        ],
+        [
+          "2019 (Ø 8.0)",
+          7
+        ]
+      ],
+      "name": "Note 1",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+          return this.value.replace('(', '<br>(').replace('.', ',');
+        }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //add top-margin if legend is right to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 6
+                            }
+                        });
+                    }
+
+                    //square legends must be placed 3 pixels more to the left than lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px"
+    },
+    "marginTop": 5,
+    "renderTo": "container-8893",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Bewertung der Lebensqualität"
+  },
+  "subtitle": {
+    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019"
+  },
+  "yAxis": {
+    "type": "category",
+    "tickInterval": 10,
+    "lineColor": "#B9CFD7",
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 3,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "x": -5
+    },
+    "reversedStacks": true
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+                return this.name.replace('/ ', '/<br/>');
+            },
+    "y": 10
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": 8893
+  }
+}

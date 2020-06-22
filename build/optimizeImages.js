@@ -49,6 +49,7 @@ filePaths.forEach(filePath => {
         })
         .catch(function(error){
             console.log(error);
+            console.log('File: ' + filePath);
         });
     });
 });

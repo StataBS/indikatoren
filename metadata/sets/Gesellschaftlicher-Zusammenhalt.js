@@ -74,7 +74,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
-		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt, 2019",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
 		"kuerzel": "I.50.1.04719",
 		"kuerzelKunde": "1.3.01",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -84,7 +84,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:04:52.5252",
+		"aktualisierungsdatum": "2020-06-19T16:55:10.1010",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -224,7 +224,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
-		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt, 2019",
+		"subtitle": "«Wie gut vertreten Ihrer Meinung nach die Behörden, also der Regierungsrat und der Grosse Rat, die Anliegen der Bevölkerung?», Basel-Stadt",
 		"kuerzel": "I.50.1.4724",
 		"kuerzelKunde": "2.2.01",
 		"description": "Vertretung der Anliegen der Bevölkerung durch Parlament und Regierung",
@@ -234,7 +234,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:05:00.000",
+		"aktualisierungsdatum": "2020-06-19T16:57:40.4040",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -347,7 +347,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zusammensetzung des Freundeskreises",
-		"subtitle": "«Wie sieht Dein Freundeskreis aus?»",
+		"subtitle": "«Wie sieht Dein Freundeskreis aus?», Basel-Stadt",
 		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
@@ -357,8 +357,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T10:54:55.5555",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-19T16:58:02.022",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
@@ -368,16 +368,22 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_015",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8389"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4850,
+		"chart-id": 4850,
+		"filter": "",
 		"id": 4850
 	},
 	{
@@ -416,7 +422,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
-		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt, 2019",
+		"subtitle": "«Wie sicher fühlen Sie sich ganz allgemein im Alltag?», Basel-Stadt",
 		"kuerzel": "I.50.1.4852",
 		"kuerzelKunde": "1.2.01",
 		"description": "Sicherheitsgefühl im Alltag",
@@ -426,7 +432,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:11:53.5353",
+		"aktualisierungsdatum": "2020-06-19T16:58:26.2626",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -493,7 +499,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
-		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt, 2019",
+		"subtitle": "«Wenn Sie in der Nacht alleine draussen sind in Ihrem Quartier oder Ihrer Gemeinde, wie sicher fühlen Sie sich dann?», Basel-Stadt",
 		"kuerzel": "I.50.1.4854",
 		"kuerzelKunde": "1.2.03",
 		"description": "Sicherheitsgefühl nachts im Quartier",
@@ -503,7 +509,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T15:49:10.1010",
+		"aktualisierungsdatum": "2020-06-19T16:56:00.000",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -861,7 +867,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Freiwillige Tätigkeit",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt, 2019",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
 		"kuerzel": "I.50.1.4864",
 		"kuerzelKunde": "3.1.02",
 		"description": "Freiwillige Tätigkeit",
@@ -871,7 +877,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:53:34.3434",
+		"aktualisierungsdatum": "2020-06-19T16:56:22.2222",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -1101,7 +1107,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Engagement in Organisationen und Vereinen",
-		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?»",
+		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?», Basel-Stadt",
 		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
@@ -1111,8 +1117,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-08T09:26:48.4848",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-19T16:56:40.4040",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
@@ -1122,16 +1128,22 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_000",
+		"orderKey": "03_03_00_00_00_031",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8409"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4870,
+		"chart-id": 4870,
+		"filter": "",
 		"id": 4870
 	},
 	{

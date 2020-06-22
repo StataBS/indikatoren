@@ -1,0 +1,522 @@
+{
+  "series": [
+    {
+      "color": "#083038",
+      "index": 5,
+      "legendIndex": 0,
+      "data": [
+        [
+          "Alle",
+          37.1900826446281
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          32.6676176890157
+        ],
+        [
+          "Weibl.",
+          42.2222222222222
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          50.2297090352221
+        ],
+        [
+          "Fremdsp.",
+          24.6312684365782
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          43.8292964244521
+        ],
+        [
+          "Ausland",
+          24.7844827586207
+        ]
+      ],
+      "name": "Gymnasium",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "index": 4,
+      "legendIndex": 1,
+      "data": [
+        [
+          "Alle",
+          12.5469571750563
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          9.55777460770328
+        ],
+        [
+          "Weibl.",
+          15.8730158730159
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          12.4042879019908
+        ],
+        [
+          "Fremdsp.",
+          12.6843657817109
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          12.6874279123414
+        ],
+        [
+          "Ausland",
+          12.2844827586207
+        ]
+      ],
+      "name": "Andere weiterführende Schulen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "index": 3,
+      "legendIndex": 2,
+      "data": [
+        [
+          "Alle",
+          25.3944402704733
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          27.9600570613409
+        ],
+        [
+          "Weibl.",
+          22.5396825396825
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          14.7013782542113
+        ],
+        [
+          "Fremdsp.",
+          35.693215339233
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          20.2998846597463
+        ],
+        [
+          "Ausland",
+          34.9137931034483
+        ]
+      ],
+      "name": "Brückenangebote\u002F12. Schuljahr",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "index": 2,
+      "legendIndex": 3,
+      "data": [
+        [
+          "Alle",
+          17.0548459804658
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          22.3965763195435
+        ],
+        [
+          "Weibl.",
+          11.1111111111111
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          15.1607963246554
+        ],
+        [
+          "Fremdsp.",
+          18.8790560471976
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          16.0322952710496
+        ],
+        [
+          "Ausland",
+          18.9655172413793
+        ]
+      ],
+      "name": "Berufliche Grundbildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "index": 1,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Alle",
+          7.13749060856499
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          7.13266761768902
+        ],
+        [
+          "Weibl.",
+          7.14285714285714
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          7.04441041347626
+        ],
+        [
+          "Fremdsp.",
+          7.22713864306785
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          6.57439446366782
+        ],
+        [
+          "Ausland",
+          8.18965517241379
+        ]
+      ],
+      "name": "Andere Lösung\u002FUnbekannt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "Alle",
+          0.67618332081142
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "Männl.",
+          0.285306704707561
+        ],
+        [
+          "Weibl.",
+          1.11111111111111
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "Deutsch",
+          0.459418070444104
+        ],
+        [
+          "Fremdsp.",
+          0.884955752212389
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "Schweiz",
+          0.576701268742791
+        ],
+        [
+          "Ausland",
+          0.862068965517241
+        ]
+      ],
+      "name": "Keine Lösung",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "y": 10
+    },
+    "tickLength": 0,
+    "max": 6,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-8929",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointWidth": 15,
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Übertritte nach der obligatorischen Schulzeit"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "im Schuljahr 2018\u002F19, Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "max": 100,
+    "tickInterval": 20
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "reversed": true,
+    "y": -15,
+    "labelFormatter": function () {
+        return this.name.replace('/', '/<br>').replace('weiter', 'weiter-<br>').replace(' Grund', '<br>Grund');
+     }
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "exporting": {
+    "filename": 8929
+  }
+}
