@@ -1,0 +1,784 @@
+{
+  "series": [
+    {
+      "color": "#256370",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 9,
+      "data": [
+        [
+          2008,
+          4205.699417
+        ],
+        [
+          2009,
+          1021.103994
+        ],
+        [
+          2010,
+          2018.835368
+        ],
+        [
+          2011,
+          1909.375911
+        ],
+        [
+          2012,
+          1118.210275
+        ],
+        [
+          2013,
+          1264.239182
+        ],
+        [
+          2014,
+          1445.741072
+        ],
+        [
+          2015,
+          1796.773885
+        ],
+        [
+          2016,
+          3821.571277
+        ],
+        [
+          2017,
+          2265.773396
+        ]
+      ],
+      "name": "Allg. Verwaltung"
+    },
+    {
+      "color": "#a8c4cb",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 7,
+      "data": [
+        [
+          2008,
+          1863.961058
+        ],
+        [
+          2009,
+          1760.571214
+        ],
+        [
+          2010,
+          1816.730172
+        ],
+        [
+          2011,
+          1896.090739
+        ],
+        [
+          2012,
+          1990.863394
+        ],
+        [
+          2013,
+          2144.166971
+        ],
+        [
+          2014,
+          2169.993698
+        ],
+        [
+          2015,
+          2178.658678
+        ],
+        [
+          2016,
+          2202.985801
+        ],
+        [
+          2017,
+          2284.882408
+        ]
+      ],
+      "name": "Öff. Sicherheit"
+    },
+    {
+      "color": "#ffbb58",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 1,
+      "data": [
+        [
+          2008,
+          5857.340537
+        ],
+        [
+          2009,
+          6051.627608
+        ],
+        [
+          2010,
+          6206.387291
+        ],
+        [
+          2011,
+          6336.174386
+        ],
+        [
+          2012,
+          6822.05075
+        ],
+        [
+          2013,
+          7038.572279
+        ],
+        [
+          2014,
+          7422.802309
+        ],
+        [
+          2015,
+          7795.048186
+        ],
+        [
+          2016,
+          8075.635124
+        ],
+        [
+          2017,
+          7704.457852
+        ]
+      ],
+      "name": "Bildung"
+    },
+    {
+      "color": "#b475ab",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 4,
+      "data": [
+        [
+          2008,
+          1300.1383
+        ],
+        [
+          2009,
+          1169.577723
+        ],
+        [
+          2010,
+          1211.537605
+        ],
+        [
+          2011,
+          1259.604887
+        ],
+        [
+          2012,
+          1369.331054
+        ],
+        [
+          2013,
+          1287.754282
+        ],
+        [
+          2014,
+          1455.013254
+        ],
+        [
+          2015,
+          1678.061294
+        ],
+        [
+          2016,
+          1552.937855
+        ],
+        [
+          2017,
+          1531.92158
+        ]
+      ],
+      "name": "Kultur und Sport"
+    },
+    {
+      "color": "#44ab2b",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 5,
+      "data": [
+        [
+          2008,
+          3111.399159
+        ],
+        [
+          2009,
+          3396.057522
+        ],
+        [
+          2010,
+          3319.729685
+        ],
+        [
+          2011,
+          3380.791902
+        ],
+        [
+          2012,
+          4574.892564
+        ],
+        [
+          2013,
+          3096.107241
+        ],
+        [
+          2014,
+          3091.600955
+        ],
+        [
+          2015,
+          3091.311342
+        ],
+        [
+          2016,
+          3128.022392
+        ],
+        [
+          2017,
+          2965.825328
+        ]
+      ],
+      "name": "Gesundheit"
+    },
+    {
+      "color": "#007a2f",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 3,
+      "data": [
+        [
+          2008,
+          3782.791747
+        ],
+        [
+          2009,
+          4031.890179
+        ],
+        [
+          2010,
+          4157.63016
+        ],
+        [
+          2011,
+          4334.5996
+        ],
+        [
+          2012,
+          4582.066768
+        ],
+        [
+          2013,
+          4592.455198
+        ],
+        [
+          2014,
+          4910.280955
+        ],
+        [
+          2015,
+          4560.603126
+        ],
+        [
+          2016,
+          4654.028642
+        ],
+        [
+          2017,
+          4715.632685
+        ]
+      ],
+      "name": "Soziale Sicherheit"
+    },
+    {
+      "color": "#672773",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 6,
+      "data": [
+        [
+          2008,
+          797.670361
+        ],
+        [
+          2009,
+          669.656896
+        ],
+        [
+          2010,
+          655.995123
+        ],
+        [
+          2011,
+          657.831731
+        ],
+        [
+          2012,
+          919.889619
+        ],
+        [
+          2013,
+          1589.669176
+        ],
+        [
+          2014,
+          1284.652896
+        ],
+        [
+          2015,
+          1438.726659
+        ],
+        [
+          2016,
+          1365.814403
+        ],
+        [
+          2017,
+          1356.13724
+        ]
+      ],
+      "name": "Verkehr"
+    },
+    {
+      "color": "#b00000",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 8,
+      "data": [
+        [
+          2008,
+          614.044096
+        ],
+        [
+          2009,
+          479.062144
+        ],
+        [
+          2010,
+          497.668315
+        ],
+        [
+          2011,
+          501.561306
+        ],
+        [
+          2012,
+          451.759675
+        ],
+        [
+          2013,
+          438.151785
+        ],
+        [
+          2014,
+          418.72881
+        ],
+        [
+          2015,
+          463.167099
+        ],
+        [
+          2016,
+          577.531111
+        ],
+        [
+          2017,
+          482.702611
+        ]
+      ],
+      "name": "Umweltschutz"
+    },
+    {
+      "color": "#ff8028",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 10,
+      "data": [
+        [
+          2008,
+          239.444096
+        ],
+        [
+          2009,
+          446.827275
+        ],
+        [
+          2010,
+          734.426347
+        ],
+        [
+          2011,
+          180.070585
+        ],
+        [
+          2012,
+          88.124485
+        ],
+        [
+          2013,
+          85.141904
+        ],
+        [
+          2014,
+          120.080839
+        ],
+        [
+          2015,
+          597.569932
+        ],
+        [
+          2016,
+          93.334031
+        ],
+        [
+          2017,
+          80.4428
+        ]
+      ],
+      "name": "Volkswirtschaft"
+    },
+    {
+      "color": "#cd9c00",
+      "yAxis": 0,
+      "visible": true,
+      "legendIndex": 2,
+      "data": [
+        [
+          2008,
+          1393.660194
+        ],
+        [
+          2009,
+          1415.794494
+        ],
+        [
+          2010,
+          1342.395513
+        ],
+        [
+          2011,
+          1415.237508
+        ],
+        [
+          2012,
+          1390.988186
+        ],
+        [
+          2013,
+          1731.115855
+        ],
+        [
+          2014,
+          1645.474915
+        ],
+        [
+          2015,
+          1521.461927
+        ],
+        [
+          2016,
+          1495.64495
+        ],
+        [
+          2017,
+          1553.325903
+        ]
+      ],
+      "name": "Finanzen, Steuern"
+    },
+    {
+      "color": "#E6E6E6",
+      "index": -1,
+      "legendIndex": 12,
+      "type": "column",
+      "borderWidth": 0,
+      "yAxis": 1,
+      "states": {
+        "hover": {
+          "brightness": -0.05
+        }
+      },
+      "data": [
+        [
+          2008,
+          23166.148969
+        ],
+        [
+          2009,
+          20442.169054
+        ],
+        [
+          2010,
+          21961.335582
+        ],
+        [
+          2011,
+          21871.33856
+        ],
+        [
+          2012,
+          23308.176774
+        ],
+        [
+          2013,
+          23267.373878
+        ],
+        [
+          2014,
+          23964.369708
+        ],
+        [
+          2015,
+          25121.382133
+        ],
+        [
+          2016,
+          26967.505591
+        ],
+        [
+          2017,
+          24941.101808
+        ]
+      ],
+      "name": "Total (rechte Skala)"
+    }
+  ],
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "renderTo": "container-8891",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung der Staatsausgaben nach Funktion"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "pro Kopf in Franken, Basel-Stadt",
+    "align": "left"
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 8891
+  }
+}

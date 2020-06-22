@@ -1,0 +1,299 @@
+{
+  "series": [
+    {
+      "color": "#008AC3 ",
+      "data": [
+        [
+          2008,
+          44.2
+        ],
+        [
+          2009,
+          42.5
+        ],
+        [
+          2010,
+          37.2
+        ],
+        [
+          2011,
+          34.4
+        ],
+        [
+          2012,
+          38.6
+        ],
+        [
+          2013,
+          38
+        ],
+        [
+          2014,
+          36.8
+        ],
+        [
+          2015,
+          37.1
+        ],
+        [
+          2016,
+          37.7
+        ],
+        [
+          2017,
+          33.5
+        ],
+        [
+          2018,
+          35.9
+        ]
+      ],
+      "name": "Männer"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2008,
+          29.2
+        ],
+        [
+          2009,
+          28.8
+        ],
+        [
+          2010,
+          23.4
+        ],
+        [
+          2011,
+          22.7
+        ],
+        [
+          2012,
+          20.6
+        ],
+        [
+          2013,
+          28.4
+        ],
+        [
+          2014,
+          23.7
+        ],
+        [
+          2015,
+          26.4
+        ],
+        [
+          2016,
+          26.6
+        ],
+        [
+          2017,
+          21.4
+        ],
+        [
+          2018,
+          28.4
+        ]
+      ],
+      "name": "Frauen"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8947",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Arbeitnehmende in Leitungsfunktionen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "nach Geschlecht, Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 10
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8947
+  }
+}

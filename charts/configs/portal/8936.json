@@ -1,0 +1,378 @@
+{
+  "series": [
+    {
+      "color": "#661200",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences",
+          23.22733977
+        ],
+        [
+          "Chemische Industrie",
+          2.806498356
+        ],
+        [
+          "Baugewerbe",
+          2.989515168
+        ],
+        [
+          "Handel und Reparatur",
+          8.578085415
+        ],
+        [
+          "Verkehr und Lagerei",
+          5.755377716
+        ],
+        [
+          "Gastgewerbe",
+          1.591353174
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          15.67160423
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          6.245774346
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.496608035
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.559878768
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          5.97794453
+        ],
+        [
+          "Übrige Branchen",
+          11.10002049
+        ]
+      ],
+      "name": "2000",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences",
+          38.97666396
+        ],
+        [
+          "Chemische Industrie",
+          1.401433941
+        ],
+        [
+          "Baugewerbe",
+          1.697099787
+        ],
+        [
+          "Handel und Reparatur",
+          7.532695824
+        ],
+        [
+          "Verkehr und Lagerei",
+          4.273916098
+        ],
+        [
+          "Gastgewerbe",
+          1.176358867
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          10.06013296
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          5.195977153
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          9.766632361
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.214821241
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          5.688722742
+        ],
+        [
+          "Übrige Branchen",
+          8.015545063
+        ]
+      ],
+      "name": "2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ff8028",
+      "visible": true,
+      "data": [
+        [
+          "Life Sciences",
+          43.9768263
+        ],
+        [
+          "Chemische Industrie",
+          0.965794056
+        ],
+        [
+          "Baugewerbe",
+          1.859716086
+        ],
+        [
+          "Handel und Reparatur",
+          6.194464256
+        ],
+        [
+          "Verkehr und Lagerei",
+          3.321310324
+        ],
+        [
+          "Gastgewerbe",
+          1.181892399
+        ],
+        [
+          "Finanz- und Versicherungsdienstl.",
+          8.794577539
+        ],
+        [
+          "Grundstücks- und Wohnungswesen",
+          4.301702859
+        ],
+        [
+          "Unternehmens- und freiberufl. Dienstl.",
+          10.89912364
+        ],
+        [
+          "Öffentliche Verwaltung",
+          6.105424731
+        ],
+        [
+          "Gesundheits- und Sozialwesen",
+          5.986358233
+        ],
+        [
+          "Übrige Branchen",
+          6.412809574
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 190,
+    "marginRight": 10,
+    "renderTo": "container-8936",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Branchenanteile an der nominalen Wertschöpfung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 13,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "max": 45,
+    "tickInterval": 5
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0,
+    "itemDistance": 5,
+    "symbolPadding": 1
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1,
+      "borderWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8936
+  }
+}

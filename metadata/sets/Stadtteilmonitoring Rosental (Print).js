@@ -1842,5 +1842,42 @@ var indikatorensetData = [
 		"chart-id": 7951,
 		"filter": "",
 		"id": 7951
+	},
+	{
+		"title": "Übersichtskarte Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.01",
+		"description": "Übersichtskarte Wohnviertel",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-17T15:51:43.4343",
+		"stufe1": "1 Übersicht",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"template": "mappie001_print",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8844,
+		"chart-id": 8844,
+		"filter": "",
+		"id": 8844
 	}
 ];
