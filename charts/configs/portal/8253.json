@@ -44,6 +44,10 @@
         [
           "2018 (N=407)",
           64
+        ],
+        [
+          "2019 (N=417)",
+          69
         ]
       ],
       "name": "18 bis 25 Jahre",
@@ -93,6 +97,10 @@
         [
           "2018 (N=407)",
           38
+        ],
+        [
+          "2019 (N=417)",
+          45
         ]
       ],
       "name": "26 bis 30 Jahre",
@@ -142,6 +150,10 @@
         [
           "2018 (N=407)",
           94
+        ],
+        [
+          "2019 (N=417)",
+          86
         ]
       ],
       "name": "31 bis 40 Jahre",
@@ -191,6 +203,10 @@
         [
           "2018 (N=407)",
           96
+        ],
+        [
+          "2019 (N=417)",
+          112
         ]
       ],
       "name": "41 bis 50 Jahre",
@@ -240,6 +256,10 @@
         [
           "2018 (N=407)",
           69
+        ],
+        [
+          "2019 (N=417)",
+          54
         ]
       ],
       "name": "51 bis 60 Jahre",
@@ -289,6 +309,10 @@
         [
           "2018 (N=407)",
           33
+        ],
+        [
+          "2019 (N=417)",
+          38
         ]
       ],
       "name": "61 bis 70 Jahre",
@@ -416,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

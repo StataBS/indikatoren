@@ -36,6 +36,10 @@
         [
           "2018",
           1419
+        ],
+        [
+          "2019",
+          1421
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -77,6 +81,10 @@
         [
           "2018",
           736
+        ],
+        [
+          "2019",
+          740
         ]
       ],
       "name": "Einelternfamilien",
@@ -118,6 +126,10 @@
         [
           "2018",
           108
+        ],
+        [
+          "2019",
+          126
         ]
       ],
       "name": "Konkubinatspaare mit Kindern",
@@ -248,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "reversed": true,

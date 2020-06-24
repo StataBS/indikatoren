@@ -90,6 +90,10 @@
         [
           2016,
           2485
+        ],
+        [
+          2017,
+          2463
         ]
       ],
       "name": "Frauen"
@@ -184,6 +188,10 @@
         [
           2016,
           4309
+        ],
+        [
+          2017,
+          3967
         ]
       ],
       "name": "Männer"
@@ -285,7 +293,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": true,

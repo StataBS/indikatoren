@@ -1,116 +1,93 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#246370",
       "data": [
         [
-          "2003 (N=1497)",
-          8.5
+          "2003",
+          127
         ],
         [
-          "2005 (N=1510)",
-          7.4
+          "2005",
+          111
         ],
         [
-          "2007 (N=1509)",
-          5.9
+          "2007",
+          89
         ],
         [
-          "2011 (N=1516)",
-          16.9
+          "2011",
+          256
         ],
         [
-          "2015 (N=1506)",
-          9
+          "2015",
+          136
+        ],
+        [
+          "2019",
+          180
         ]
       ],
       "name": "Sehr einverstanden",
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#689199",
       "data": [
         [
-          "2003 (N=1497)",
-          25.4
+          "2003",
+          380
         ],
         [
-          "2005 (N=1510)",
-          24.4
+          "2005",
+          368
         ],
         [
-          "2007 (N=1509)",
-          26.8
+          "2007",
+          404
         ],
         [
-          "2011 (N=1516)",
-          31.1
+          "2011",
+          471
         ],
         [
-          "2015 (N=1506)",
-          34.6
+          "2015",
+          521
+        ],
+        [
+          "2019",
+          642
         ]
       ],
       "name": "Eher einverstanden",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#FABD24",
       "data": [
         [
-          "2003 (N=1497)",
-          20.4
+          "2003",
+          426
         ],
         [
-          "2005 (N=1510)",
-          30.8
+          "2005",
+          465
         ],
         [
-          "2007 (N=1509)",
-          22.6
+          "2007",
+          476
         ],
         [
-          "2011 (N=1516)",
-          16.4
+          "2011",
+          386
         ],
         [
-          "2015 (N=1506)",
-          23.2
-        ]
-      ],
-      "name": "Weiss nicht \u002F keine Antwort",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003 (N=1497)",
-          28.5
+          "2015",
+          384
         ],
         [
-          "2005 (N=1510)",
-          15.4
-        ],
-        [
-          "2007 (N=1509)",
-          31.5
-        ],
-        [
-          "2011 (N=1516)",
-          25.5
-        ],
-        [
-          "2015 (N=1506)",
-          25.5
+          "2019",
+          286
         ]
       ],
       "name": "Eher nicht einverstanden",
@@ -118,31 +95,95 @@
     },
     {
       "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
-          "2003 (N=1497)",
-          17.2
+          "2003",
+          258
         ],
         [
-          "2005 (N=1510)",
-          22.1
+          "2005",
+          232
         ],
         [
-          "2007 (N=1509)",
-          13.2
+          "2007",
+          199
         ],
         [
-          "2011 (N=1516)",
-          10.2
+          "2011",
+          155
         ],
         [
-          "2015 (N=1506)",
-          7.6
+          "2015",
+          115
+        ],
+        [
+          "2019",
+          59
         ]
       ],
       "name": "Überhaupt nicht einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          306
+        ],
+        [
+          "2005",
+          334
+        ],
+        [
+          "2007",
+          341
+        ],
+        [
+          "2011",
+          243
+        ],
+        [
+          "2015",
+          350
+        ],
+        [
+          "2019",
+          805
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          5
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          136
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -162,10 +203,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -189,13 +242,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4857"
+    "renderTo": "container-4857",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -212,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,7 +292,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -247,12 +305,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -268,24 +329,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false,
+    "itemDistance": 0
   },
   "exporting": {
     "filename": 4857

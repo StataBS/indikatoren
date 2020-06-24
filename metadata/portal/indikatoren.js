@@ -1141,7 +1141,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.», Anteil sehr oder eher Zustimmende, Basel-Stadt",
 		"kuerzel": "I.50.1.2952",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -1151,14 +1151,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T12:06:46.4646",
+		"aktualisierungsdatum": "2020-06-22T17:56:43.4343",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Zustimmung zu dieser Aussage kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
-		"erlaeuterungen": "Antwortkategorien «Sehr einverstanden» und «Eher einverstanden» werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "44,5% der im Jahr 2019 Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 48,8% häufiger zu als Frauen mit 41,4%. Seit 2011 ist die Zustimmung zu dieser Aussage konstant bei rund 45% geblieben.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1170,7 +1170,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1183,8 +1183,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.02953",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
+		"kuerzel": "I.50.1.2953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -1193,15 +1193,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
+		"aktualisierungsdatum": "2020-06-22T17:56:43.4343",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "91,4% der im Jahr 2019 Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Die Zufriedenheit mit dem Kulturangebot nimmt mit steigendem Alter zu. Frauen zeigen sich zufriedener mit dem Kulturangebot als Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
@@ -1210,17 +1212,20 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2953,
-		"darstellungsart": "Grafik"
+		"data-id": 2953,
+		"chart-id": 2953,
+		"filter": "",
+		"id": 2953
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -1230,14 +1235,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T12:18:26.2626",
+		"aktualisierungsdatum": "2020-06-22T17:56:44.4444",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen ab 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1249,7 +1254,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -1641,8 +1646,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.04127",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
+		"kuerzel": "I.50.1.4127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"thema": "50 Befragungen",
@@ -1651,28 +1656,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T14:07:53.5353",
+		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder angestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4127,
-		"darstellungsart": "Grafik"
+		"data-id": 4127,
+		"chart-id": 4127,
+		"filter": "",
+		"id": 4127
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -2223,13 +2233,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:39:58.5858",
+		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2018 46% aus, 41% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2019 47% aus, 41% sind Familienhaushalte und 12% werden Anderen Haushalten zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2263,7 +2273,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T15:45:30.3030",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -2333,7 +2343,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit von Familien mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
 		"kuerzel": "I.50.1.4144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit von Familien mit dem Wohnungsangebot",
@@ -2343,14 +2353,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:43:22.2222",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Etwas mehr als die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit 2019 wieder gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2360,7 +2370,7 @@ var indikatoren = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2383,7 +2393,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -2616,8 +2626,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
-		"kuerzel": "I.50.1.04151",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?», Basel-Stadt",
+		"kuerzel": "I.50.1.4151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"thema": "50 Befragungen",
@@ -2626,28 +2636,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T13:52:21.2121",
+		"aktualisierungsdatum": "2020-06-22T18:08:23.2323",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
-		"erlaeuterungen": "",
+		"lesehilfe": "23,6% der im Jahr 2019 Befragten zeigen sich mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild sehr zufrieden und 52,9% eher zufrieden. Insgesamt 15,5% sind damit eher nicht oder sehr unzufrieden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4151,
-		"darstellungsart": "Grafik"
+		"data-id": 4151,
+		"chart-id": 4151,
+		"filter": "",
+		"id": 4151
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -2661,13 +2676,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-08T17:47:33.3333",
+		"aktualisierungsdatum": "2020-06-22T18:08:23.2323",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen. Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum gestiegen. Zuletzt mit abgeflachter Kurve. Ende 2019 beziehen 2 289 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2701,13 +2716,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:44:15.1515",
+		"aktualisierungsdatum": "2020-06-22T18:08:24.2424",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2018 rund 11,2 Mio. Franken.",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 kontinuierlich gestiegen und betragen 2019 rund 11,7 Mio. Franken.",
 		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2771,8 +2786,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
-		"kuerzel": "I.50.1.04155",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt",
+		"kuerzel": "I.50.1.4155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"thema": "50 Befragungen",
@@ -2781,28 +2796,33 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:35:33.3333",
+		"aktualisierungsdatum": "2020-06-22T18:08:24.2424",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "14,0% der im Jahr 2019 Befragten zeigen sich mit den Einrichtungen und Angeboten für behinderte Menschen sehr zufrieden und 27,9% eher zufrieden. Insgesamt 8,7% der Befragten sind damit eher oder sehr unzufrieden. Aufgrund der Änderungen der Befragungsmethodik hat der Anteil der Kategorie «Weiss nicht» deutlich zugenommen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4155,
-		"darstellungsart": "Grafik"
+		"data-id": 4155,
+		"chart-id": 4155,
+		"filter": "",
+		"id": 4155
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",
@@ -3985,8 +4005,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Erhaltene materielle Hilfeleistungen",
-		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
-		"kuerzel": "I.50.4.04718",
+		"subtitle": "«Wie häufig erhalten Sie oder ein anderes Mitglied Ihres Haushaltes materielle Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
+		"kuerzel": "I.50.4.4718",
 		"kuerzelKunde": "1.1.02",
 		"description": "Erhaltene materielle Hilfeleistungen",
 		"thema": "50 Befragungen",
@@ -3995,33 +4015,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T16:46:55.5555",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Befragten erhielten 2015 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn (2011: jeweils rund 16%). Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 5,2% der Befragten materielle Hilfeleistungen (2011: 2,8%). Jeweils rund 20% der Befragten machten 2015 keine Angaben zu diesen Fragen. Auf die Frage nach Hilfeleistungen durch Arbeitskollegen konnten weitere rund 21% nicht antworten, weil sie nicht mehr erwerbstätig sind.",
-		"erlaeuterungen": "2015: N=1427; 2011: N=1689<br/>Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
+		"lesehilfe": "Von den Befragten erhielten 2019 rund ein Viertel materielle Hilfeleistungen von Freunden und Bekannten oder von Nachbarn. Tiefer liegt der Wert bei den Arbeitskollegen: von diesen bekamen 4,1% der Befragten materielle Hilfeleistungen. 22% der Befragten gaben an, dass materielle Unterstützungen durch Arbeitskolleginnen oder -kollegen nicht möglich sind.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. Materielle Hilfeleistungen: Garten- und Reinigungsarbeiten, Einkaufshilfe, Füttern von Tieren, Hüte- und Pflegeeinsätze etc.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8381"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F54e"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4718,
-		"darstellungsart": "Grafik"
+		"data-id": 4718,
+		"chart-id": 4718,
+		"filter": "",
+		"id": 4718
 	},
 	{
 		"title": "Beurteilung des Wohnorts",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
-		"kuerzel": "I.50.1.04720",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt",
+		"kuerzel": "I.50.1.4720",
 		"kuerzelKunde": "2.1.01",
 		"description": "Beurteilung des Wohnorts",
 		"thema": "50 Befragungen",
@@ -4030,33 +4057,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-03-08T11:43:28.2828",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:34.3434",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "71,7% der befragten Personen lebten 2015 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 96,9% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die insgesamte Zufriedenheit (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "74,4% der befragten Personen leben 2019 sehr gerne an ihrem Wohnort, ein Viertel eher gerne. Insgesamt sind 95,7% der Befragten mit ihrem gegenwärtigen Wohnort zufrieden. Die Zufriedenheit insgesamt (eher und sehr gerne) mit dem Wohnort liegt seit 2003 stets bei über 95%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8383"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4720,
-		"darstellungsart": "Grafik"
+		"data-id": 4720,
+		"chart-id": 4720,
+		"filter": "",
+		"id": 4720
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
-		"kuerzel": "I.50.1.04721",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt",
+		"kuerzel": "I.50.1.4721",
 		"kuerzelKunde": "2.1.02",
 		"description": "Beurteilung des Wohnquartiers",
 		"thema": "50 Befragungen",
@@ -4065,28 +4099,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 96,9% wohnten 2015 mehr Leute sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Am tiefsten lag die insgesamte Zustimmung (eher und sehr gerne) 2005 mit 91%.",
-		"erlaeuterungen": "Gefragt wurden nur Personen, die in der Stadt Basel wohnen.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "93,8% der im Jahr 2019 befragten Personen mit Wohnort in der Stadt Basel leben sehr oder eher gerne in ihrem Wohnquartier. Am tiefsten lag dieser Anteil 2005 mit 91,0%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: nur Personen, die in der Stadt Basel wohnen.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
+		"orderKey": "02_01_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8384"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4721,
-		"darstellungsart": "Grafik"
+		"data-id": 4721,
+		"chart-id": 4721,
+		"filter": "",
+		"id": 4721
 	},
 	{
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
@@ -4180,7 +4221,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -4190,14 +4231,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:50:48.4848",
+		"aktualisierungsdatum": "2020-06-22T18:12:54.5454",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -5103,8 +5144,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"kuerzel": "I.50.4.04851",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?», Basel-Stadt",
+		"kuerzel": "I.50.4.4851",
 		"kuerzelKunde": "1.1.06",
 		"description": "Zufriedenheit mit dem Austausch mit der Nachbarschaft",
 		"thema": "50 Befragungen",
@@ -5113,28 +5154,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T16:46:55.5555",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um 2,5 Prozentpunkte.",
-		"erlaeuterungen": "Gefragt wurde: «Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?»",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2019 waren 87,9% der Befragten zufrieden mit dem Austausch mit den Nachbarn, wobei der Anteil sehr zufriedener Personen bei 43,8% lag. Im Vergleich zu 2015 liegt der Anteil zufriedener Personen gleich hoch.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_016",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8390"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10f"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4851,
-		"darstellungsart": "Grafik"
+		"data-id": 4851,
+		"chart-id": 4851,
+		"filter": "",
+		"id": 4851
 	},
 	{
 		"title": "Sicherheitsgefühl im Alltag",
@@ -5182,8 +5230,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bedrohungen und Angriffe",
-		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?»",
-		"kuerzel": "I.50.1.04853",
+		"subtitle": "«Sind Sie im letzten Jahr bedroht oder angegriffen worden?», Basel-Stadt",
+		"kuerzel": "I.50.1.4853",
 		"kuerzelKunde": "1.2.02",
 		"description": "Bedrohungen und Angriffe",
 		"thema": "50 Befragungen",
@@ -5192,28 +5240,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-02-17T17:16:52.5252",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
-		"stufe2": "1.2 Vertrauen in Mitmenschen",
+		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 6,2% der Befragten an, im letzten Jahr bedroht oder angegriffen worden zu sein. Dieser Anteil ist im Vergleich mit den Vorjahren um zwischen 1,4 (2011) bis 2,8 (2005) Prozentpunkte geringer.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2019 geben 5,4% der Befragten an, im Verlaufe des vergangenen Jahres bedroht oder angegriffen worden zu sein. 2015 waren es deren 6,2%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_000",
+		"orderKey": "01_02_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8392"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F9b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4853,
-		"darstellungsart": "Grafik"
+		"data-id": 4853,
+		"chart-id": 4853,
+		"filter": "",
+		"id": 4853
 	},
 	{
 		"title": "Sicherheitsgefühl nachts im Quartier",
@@ -5261,8 +5316,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Ausländeranteils",
-		"subtitle": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»",
-		"kuerzel": "I.50.1.04855",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.», Basel-Stadt",
+		"kuerzel": "I.50.1.4855",
 		"kuerzelKunde": "1.3.02",
 		"description": "Beurteilung des Ausländeranteils",
 		"thema": "50 Befragungen",
@@ -5271,33 +5326,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 53,1% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2015 auf 46,7% reduziert.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2015 waren 46,7% der Befragten der Meinung, es gäbe grundsätzlich zu viele Menschen aus dem Ausland im Kanton Basel-Stadt. Dieser Wert hat sich 2019 auf 37,6% reduziert.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_000",
+		"orderKey": "01_03_00_00_00_032",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8394"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4855,
-		"darstellungsart": "Grafik"
+		"data-id": 4855,
+		"chart-id": 4855,
+		"filter": "",
+		"id": 4855
 	},
 	{
 		"title": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
-		"subtitle": "«Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.»",
-		"kuerzel": "I.50.1.04856",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt",
+		"kuerzel": "I.50.1.4856",
 		"kuerzelKunde": "1.3.03",
 		"description": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität",
 		"thema": "50 Befragungen",
@@ -5306,33 +5368,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Behauptung, ohne Menschen aus dem Ausland würden wir nicht so gut leben, stimmten 2015 76,4% der Befragten sehr oder eher zu, mehr als in den Vorjahren (2011: 72,4%; 2007: 61,9%; 2005: 66,9%).",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Der Aussage, dass wir ohne die Menschen aus dem Ausland nicht so gut leben würden, stimmen 28,4% der im Jahr 2019 Befragten sehr und 38,5% eher zu. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_000",
+		"orderKey": "01_03_00_00_00_033",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8395"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18c"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4856,
-		"darstellungsart": "Grafik"
+		"data-id": 4856,
+		"chart-id": 4856,
+		"filter": "",
+		"id": 4856
 	},
 	{
 		"title": "Beurteilung der Schulen in Basel-Stadt",
-		"subtitle": "«Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.»",
-		"kuerzel": "I.50.1.04857",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt",
+		"kuerzel": "I.50.1.4857",
 		"kuerzelKunde": "2.2.02",
 		"description": "Beurteilung der Schulen in Basel-Stadt",
 		"thema": "50 Befragungen",
@@ -5341,33 +5410,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:37.3737",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Dass die Schulen im Kanton Basel-Stadt eine gute Vorbereitung fürs Leben im Allgemeinen sind, bejahten 2015 rund 43,6% der Befragten. Im Vergleich zum Jahr 2011 bedeutet dies einen Rückgang um 4,4 Prozentpunkte. Insbesondere bei der starken Zustimmung zu dieser Aussage gab es eine deutliche Abnahme von 2011 auf 2015.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "8,5% der im Jahr 2019 Befragten sind sehr und 30,5% eher mit der Aussage einverstanden, dass die Schulen des Kantons Basel-Stadt die Jugendlichen gut fürs Leben vorbereiten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8396"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_1"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4857,
-		"darstellungsart": "Grafik"
+		"data-id": 4857,
+		"chart-id": 4857,
+		"filter": "",
+		"id": 4857
 	},
 	{
 		"title": "Beurteilung der Chancengleichheit",
-		"subtitle": "«Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.»",
-		"kuerzel": "I.50.1.04858",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt",
+		"kuerzel": "I.50.1.4858",
 		"kuerzelKunde": "2.2.03",
 		"description": "Beurteilung der Chancengleichheit",
 		"thema": "50 Befragungen",
@@ -5376,32 +5452,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T16:41:53.5353",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 zeigten sich 51,9% der Befragten mit der Aussage, dass die kantonalen Behörden die Chancengleichheit von Männern und Frauen zielstrebig vorantreiben, eher oder sehr einverstanden. Somit ist die Zustimmung seit 2007 (44,5% eher oder sehr Einverstandene) beständig gestiegen.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Mit der Aussage, dass die kantonalen Behörden die Chancengleichheit für Frauen und Männer zielstrebig vorantreiben würden, sind 9,7% der im Jahr 2019 Befragten sehr und 30,7% eher einverstanden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_023",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8397"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_7"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4858,
-		"darstellungsart": "Grafik"
+		"data-id": 4858,
+		"chart-id": 4858,
+		"filter": "",
+		"id": 4858
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»",
+		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
 		"kuerzel": "I.50.1.4859",
 		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der kantonalen Verwaltung",
@@ -5411,27 +5494,28 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T12:07:34.3434",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:37.3737",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "73,7% der befragten Personen schätzten 2015 ihren letzten Kontakt, den sie mit der Verwaltung des Kantons Basel-Stadt hatten, als positiv ein. Das sind 3,8 Prozentpunkte weniger als 2011, aber mehr als in der Befragung von 2007 (64,4%).",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1&nbsp;500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
+		"orderKey": "02_02_00_00_00_024",
 		"parentId": null,
 		"children": [
 			"6186",
-			"6332"
+			"6332",
+			"8398"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -5444,7 +5528,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt",
 		"kuerzel": "I.50.1.4860",
 		"kuerzelKunde": "2.3.01",
 		"description": "Beurteilung der kantonalen Steuern",
@@ -5454,37 +5538,42 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-05T11:57:19.1919",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben mit 56,4% mehr als die Hälfte der Befragten an, dass die kantonalen Steuern und Gebühren beibehalten werden sollten. Dieser Anteil fällt im Vergleich zu den Vorjahren deutlich höher aus (2011: 45,6%, 2007: 30,0%).",
-		"erlaeuterungen": "",
+		"lesehilfe": "49,7% der 2019 Befragten sprechen sich für eine Senkung der Steuern aus und 37,0% möchten diese auf dem aktuellen Niveau beibehalten. Gegenüber dem Befragungsjahr 2015 hat sich der Anteil Befragter, die sich für eine Senkung aussprechen deutlich erhöht.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_000",
+		"orderKey": "02_03_00_00_00_031",
 		"parentId": null,
 		"children": [
 			"6133",
-			"6290"
+			"6290",
+			"8399"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4860,
+		"chart-id": 4860,
+		"filter": "",
 		"id": 4860
 	},
 	{
 		"title": "Beurteilung der eigenen wirtschaftlichen Situation",
-		"subtitle": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»",
-		"kuerzel": "I.50.1.04861",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
+		"kuerzel": "I.50.1.4861",
 		"kuerzelKunde": "2.3.02",
 		"description": "Beurteilung der eigenen wirtschaftlichen Situation",
 		"thema": "50 Befragungen",
@@ -5493,33 +5582,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "89,7% der befragten Personen ging es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. Für diese Frage wurde die Stichprobe der Bevölkerungsbefragung zugunsten der Vergleichbarkeit für den Städtevergleich ab 2005 gesplittet bzw. reduziert, weshalb ab 2005 weniger Antworten vorliegen.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "17,8% der im Jahr 2019 Befragten geht es wirtschaftlich sehr gut und 59,0% eher gut. 17,0% geht es wirtschaftlich eher nicht oder gar nicht gut.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_000",
+		"orderKey": "02_03_00_00_00_032",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8400"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4861,
-		"darstellungsart": "Grafik"
+		"data-id": 4861,
+		"chart-id": 4861,
+		"filter": "",
+		"id": 4861
 	},
 	{
 		"title": "Beurteilung der Bildungschancen",
-		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
-		"kuerzel": "I.50.1.04862",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
+		"kuerzel": "I.50.1.4862",
 		"kuerzelKunde": "2.3.03",
 		"description": "Beurteilung der Bildungschancen",
 		"thema": "50 Befragungen",
@@ -5528,32 +5624,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 2: Verbundenheit",
+		"aktualisierungsdatum": "2020-06-22T16:41:53.5353",
+		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit der Aussage, dass alle Kinder dieselben Bildungschancen erhalten würden, zeigten sich im Jahr 2015 46,9% der Befragten einverstanden, während 42,6% nicht dieser Meinung waren. Seit 2005 hat ich der Anteil der eher oder sehr mit dieser Aussage einverstandenen Befragten stetig vergrössert.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "10,1% der im Jahr 2019 Befragten sind sehr und 23,5% eher mit der Aussage einverstanden, dass alle Kinder die gleichen Bildungschancen erhalten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_000",
+		"orderKey": "02_03_00_00_00_033",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8401"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4862,
-		"darstellungsart": "Grafik"
+		"data-id": 4862,
+		"chart-id": 4862,
+		"filter": "",
+		"id": 4862
 	},
 	{
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"subtitle": "",
+		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.18.2.4863",
 		"kuerzelKunde": "3.1.01",
 		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
@@ -5563,13 +5666,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T09:09:58.5858",
+		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "20,1% der Steuerveranlagungen im Jahr 2016 enthielten Zuwendungen. Seit 2007 ist dieser Anteil tendenziell steigend.",
+		"lesehilfe": "19,9% der Steuerveranlagungen im Jahr 2017 enthielten Zuwendungen, ein leichter Rückgang gegenüber dem Vorjahr. Seit 2008 ist der Anteil tendenziell steigend.",
 		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -5639,8 +5742,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
-		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?»",
-		"kuerzel": "I.50.4.04865",
+		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
+		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
 		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
 		"thema": "50 Befragungen",
@@ -5649,28 +5752,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 27,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2011 waren es 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 auf 8,1% im Jahr 2015 ab.",
-		"erlaeuterungen": "Die Fragestellung hat sich leicht verändert von «Sind Sie in Ihrer Freizeit ehrenamtlich tätig?» im Jahr 2011 zu «Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?» im Jahr 2015",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2019 gaben 29,5% der Befragten an, sich in ihrer Freizeit ehrenamtlich zu betätigen, 2015 waren es 27,5%, 2011 21,7%. Der Anteil Befragter, welche keine Angabe zu dieser Frage machten, nahm von 18,1% im Jahr 2011 um rund 10 Prozentpunkte auf 8,3% im Jahr 2019 ab.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_000",
+		"orderKey": "03_01_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8404"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F29"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4865,
-		"darstellungsart": "Grafik"
+		"data-id": 4865,
+		"chart-id": 4865,
+		"filter": "",
+		"id": 4865
 	},
 	{
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
@@ -5684,23 +5794,26 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:53:23.2323",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 103,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 106,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_021",
 		"parentId": null,
 		"children": [
+			"5188",
 			"6176",
-			"6323"
+			"6323",
+			"8405",
+			"8904"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -5927,8 +6040,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
-		"kuerzel": "I.50.1.04872",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
+		"kuerzel": "I.50.1.4872",
 		"kuerzelKunde": "3.3.03.A",
 		"description": "Interesse an der Politik in Basel-Stadt",
 		"thema": "50 Befragungen",
@@ -5937,33 +6050,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "15,0% der im Jahr 2019 Befragten interessieren sich sehr und 37,2% eher für die Politik im Kanton Basel-Stadt. 32,9% interessieren sich dafür eher nicht und 12,0% überhaupt nicht.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_000",
+		"orderKey": "03_03_00_00_00_033",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8411"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4872,
-		"darstellungsart": "Grafik"
+		"data-id": 4872,
+		"chart-id": 4872,
+		"filter": "",
+		"id": 4872
 	},
 	{
 		"title": "Politikinteresse der über 54-Jährigen",
-		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?»",
-		"kuerzel": "I.50.4.04874",
+		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
+		"kuerzel": "I.50.4.4874",
 		"kuerzelKunde": "3.3.04",
 		"description": "Politikinteresse der über 54-Jährigen",
 		"thema": "50 Befragungen",
@@ -5972,33 +6092,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T16:46:56.5656",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 gaben 69,7% und 2015 76,7% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Der Anteil Befragter, welche keine Angabe zu dieser Frage machen konnten, ging von 8,8% im Jahr 2011 auf 3,9% im Jahr 2015 zurück.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2019 gaben 77,3% der Befragten an, das Thema Politik beschäftige sie eher oder sehr stark. Das sind fast gleich viele wie 2015.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_000",
+		"orderKey": "03_03_00_00_00_035",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8412"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F57a"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4874,
-		"darstellungsart": "Grafik"
+		"data-id": 4874,
+		"chart-id": 4874,
+		"filter": "",
+		"id": 4874
 	},
 	{
 		"title": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?»",
-		"kuerzel": "I.50.4.04875",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Sozialkontakten im Wohnumfeld/Quartier?», Basel-Stadt",
+		"kuerzel": "I.50.4.4875",
 		"kuerzelKunde": "1.1.07",
 		"description": "Zufriedenheit mit Sozialkontakten im Wohnumfeld",
 		"thema": "50 Befragungen",
@@ -6007,28 +6134,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2011 waren 78% sehr oder eher zufrieden. Gleichzeitig reduzierte sich der Anteil derjenigen Personen, die keine Antwort geben konnten oder wollten, von 2011 auf 2015 um fast 3 Prozentpunkte.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "2019 gaben 80,0% der Befragten an, mit den Sozialkontakten im Wohnumfeld/Quartier zufrieden zu sein. 2015 betrug die Zufriedenheit auch 80,0%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2015 um 3,6 Prozentpunkte höher lag.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_017",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8413"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus: F10g"
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4875,
-		"darstellungsart": "Grafik"
+		"data-id": 4875,
+		"chart-id": 4875,
+		"filter": "",
+		"id": 4875
 	},
 	{
 		"title": "Bruttowertschöpfung nach Branchengruppe",
@@ -6396,8 +6530,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Gedanken über die Arbeitsstelle",
-		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.04931",
+		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
+		"kuerzel": "I.50.1.4931",
 		"kuerzelKunde": "1.1.08.A",
 		"description": "Gedanken über die Arbeitsstelle",
 		"thema": "50 Befragungen",
@@ -6406,33 +6540,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 machten sich zwei Drittel der befragten erwerbstätigen Personen Gedanken über ihre Arbeitsstelle. Seit 2007 ist der Anteil von 58,2% auf 67,8% angestiegen.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "66,9% der im Jahr 2019 erwerbstätigen Befragten machen sich manchmal Gedanken über ihre Arbeitsstelle. 30,1% machen sich darüber keine Gedanken.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur erwerbstätige Personen.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_018",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8414"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14e"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4931,
-		"darstellungsart": "Grafik"
+		"data-id": 4931,
+		"chart-id": 4931,
+		"filter": "",
+		"id": 4931
 	},
 	{
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
-		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»",
-		"kuerzel": "I.50.1.04932",
+		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
+		"kuerzel": "I.50.1.4932",
 		"kuerzelKunde": "1.1.08.B",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"thema": "50 Befragungen",
@@ -6441,33 +6582,40 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wenn sich die 2015 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (63,0%). Die Beschäftigung mit dem Betriebsklima erfuhr von 2011 auf 2015 einen Anstieg von 26,1% auf 47,2%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Wenn sich die im Jahr 2019 befragten Personen Gedanken zu ihrer Arbeitsstelle machen, dann am häufigsten wegen ihren persönlichen Entwicklungsperspektiven (58,3%). An zweiter Stelle steht das Thema Lohn (50,0%).",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Filterfrage: Nur erwerbstätige Personen, die sich Gedanken über ihre Arbeitsstelle machen.",
 		"template": "befragungenProzent001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8415"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4932,
-		"darstellungsart": "Grafik"
+		"data-id": 4932,
+		"chart-id": 4932,
+		"filter": "",
+		"id": 4932
 	},
 	{
 		"title": "Politikinteresse der unter 30-Jährigen",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren",
-		"kuerzel": "I.50.1.04933",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
+		"kuerzel": "I.50.1.4933",
 		"kuerzelKunde": "3.3.03.B",
 		"description": "Politikinteresse der unter 30-Jährigen",
 		"thema": "50 Befragungen",
@@ -6476,28 +6624,35 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-09-21T00:00:00.000",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Befragten im Alter von 18 bis 29 Jahren interessierten sich 2015 61,9% eher oder sehr stark für die Politik im Kanton Basel-Stadt. Gegenüber 2007 entspricht dies einer Zunahme um 17,1 Prozentpunkte. Auch die Ergebnisse der Jugendbefragungen von 2009 und 2013 (nicht abgebildet) zeigen auf, dass sich jüngere Befragte weniger für Politik interessieren als ältere: 2013 gaben 14,1% der 11-14-Jährigen (N=482), 18,8% der 15-17-Jährigen (N=448) und 27,1% der über 18-Jährigen (N=92) an, sich eher oder sehr für Politik zu interessieren.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Von den im Jahr 2019 Befragten im Alter von 18 bis 29 Jahren interessierten sich 34,2% eher oder sehr stark für die Politik im Kanton Basel-Stadt (2015: 61,9%). 60,6% interessieren sich eher oder gar nicht für Politik. Zum Vergleich: Der Anteil an allen Befragten, der sich eher oder sehr stark für die Politik im Kanton Basel-Stadt interessiert liegt bei 52,2%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_000",
+		"orderKey": "03_03_00_00_00_034",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8416"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4933,
-		"darstellungsart": "Grafik"
+		"data-id": 4933,
+		"chart-id": 4933,
+		"filter": "",
+		"id": 4933
 	},
 	{
 		"title": "Hospitalisierungen in baselstädtischen Spitälern",
@@ -6658,24 +6813,24 @@ var indikatoren = [
 		"id": 5041
 	},
 	{
-		"title": "Bezüger von Prämienverbilligungen",
-		"subtitle": "inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+		"title": "Beziehende von Prämienverbilligungen",
+		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
 		"kuerzel": "I.13.2.5066",
 		"kuerzelKunde": "11.1",
-		"description": "Bezüger von Prämienverbilligungen",
+		"description": "Beziehende von Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:37.3737",
+		"aktualisierungsdatum": "2020-06-22T17:56:44.4444",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 50 986 Beziehenden erhalten 2018 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -6689,7 +6844,7 @@ var indikatoren = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -6702,7 +6857,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
@@ -6712,14 +6867,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:48:01.011",
+		"aktualisierungsdatum": "2020-06-22T18:12:54.5454",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -8809,13 +8964,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-12T14:04:38.3838",
+		"aktualisierungsdatum": "2020-06-22T11:48:14.1414",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 zogen 14 069 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 381 Personen verliessen den Kanton im Jahr 2018. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2009 und 2018 stets positiv aus.",
+		"lesehilfe": "2019 zogen 14 013 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 12 799 Personen verliessen den Kanton im Jahr 2019. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2010 und 2019 stets positiv aus.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -8826,7 +8981,7 @@ var indikatoren = [
 		"children": [
 			"5155",
 			"6760",
-			"7748"
+			"8887"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -8843,7 +8998,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6012",
 		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -8853,13 +9008,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:14.1414",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 212).",
+		"lesehilfe": "2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1214 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 168).",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -8885,7 +9040,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6013",
 		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -8895,13 +9050,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2018. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 011 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (532) und Italien (486). Aus Frankreich kommen 474 Personen, aus dem Vereinigten Königreich 438. Die übrigen 3 815 Zuzüger verteilen sich auf 125 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2019. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 125 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (496) und Frankreich (489). Aus dem Vereinigten Königreich kommen 455 Personen, aus Italien 428. Die übrigen 3 980 Zuzüger verteilen sich auf 130 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"template": "pie001",
 		"darstellungsart": "Grafik",
@@ -8937,13 +9092,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 56% der Personen, die 2018 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 57%.",
+		"lesehilfe": "Bei 56% der Personen, die 2019 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 52%. Von den 2019 aus Frankreich zugewanderten Personen, besitzen 49% die französische Staatsbürgerschaft.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -8969,7 +9124,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6017",
 		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -8979,13 +9134,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte (49,6%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus den Vereinigten Staaten (53,9%) und der Schweiz (51,2%) auf, niedrigere jene aus dem Vereinigten Königreich (49,4%), Deutschland (47,5%), Frankreich (46,8%) und Italien (44,9%).",
+		"lesehilfe": "Knapp die Hälfte (49,5%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (50,9%) auf. Bei den aus Italien zugegezogen Personen sind Männer klar in der Überzahl (60,1%).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9011,7 +9166,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
 		"kuerzel": "I.01.5.6018",
 		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -9021,13 +9176,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:16.1616",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2009 und 2018 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen sowie den 20- bis 24-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2010 und 2019 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen, den 20- bis 24-Jährigen sowie (knapp) bei den 75- bis 79-Jährigen positiv.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -9053,7 +9208,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
 		"kuerzel": "I.01.5.6019",
 		"kuerzelKunde": "2-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -9063,7 +9218,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:16.1616",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -9095,7 +9250,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6021",
 		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -9106,13 +9261,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-26T14:56:46.4646",
+		"aktualisierungsdatum": "2020-06-22T11:48:17.1717",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 kamen 26% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 70% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Altstadt Grossbasel, Bruderholz und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Breite sowie in den Wohnvierteln Gotthelf, Clara und Hirzbrunnen lassen sich Neuzuzüger aus Italien im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt, in den Vorstädten und in den Quartieren Wettstein und Kleinhüningen Personen aus Frankreich. Die Wohnviertel Vorstädte, Wettstein und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus dem Vereinigten Königreich.",
+		"lesehilfe": "Im Jahr 2019 kamen 27% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In den Gemeinde Bettingen ist deren Anteil mit 46% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen (38%) sowie in der Gemeinde Riehen (39%). Die Quartiere Altstadt Grossbasel, Bruderholz, St. Johann und Wettstein sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Kleinbasler Altstadt, im Iselin-Quartier und in Kleinhüningen lassen sich Personen aus Frankreich im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt sowie in den Wohnvierteln Bruderholz und Wettstein Neuzuzüger aus dem Vereinigten Königreich. Die Altstadt Grossbasel sowie die Wohnviertel Iselin und Klybeck verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus Italien.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9138,7 +9293,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6022",
 		"kuerzelKunde": "2-12",
 		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
@@ -9149,13 +9304,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:50:39.3939",
+		"aktualisierungsdatum": "2020-06-22T11:48:17.1717",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2018 verbuchten die Wohnviertel Am Ring, St. Alban und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Bruderholz, Altstadt Kleinbasel, Hirzbrunnen und Kleinhüningen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Hirzbrunnenquartier sowie die Gemeinde Riehen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Wohnvierteln Vorstädte, Wettstein und Matthäus zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban und Rosental sowie die Gemeinde Bettingen auf.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2019 verbuchten die Wohnviertel Vorstädte, Am Ring, Clara, Wettstein und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für Kleinhüningen und die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Rosentalquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Altstädten Gross- und Kleinbasel sowie in den Wohnvierteln Vorstädte, Wettstein, Matthäus und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban, Clara und Rosental sowie die Gemeinde Riehen auf.",
 		"erlaeuterungen": "",
 		"template": "mapcolumn002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -9164,8 +9319,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_012",
 		"parentId": null,
 		"children": [
-			"6771",
-			"7759"
+			"6771"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -9182,7 +9336,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2018",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6023",
 		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -9192,13 +9346,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-26T10:52:40.4040",
+		"aktualisierungsdatum": "2020-06-22T11:48:18.1818",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2018 den grössten Zuzugsüberschuss gegenüber Deutschland (+727). Den zweiten Rang belegte Italien (+274), den dritten belegten die Vereinigten Staaten (+163). Danach folgten das Vereinigte Königreich (+140) und Frankreich (+62).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2019 den grössten Zuzugsüberschuss gegenüber Deutschland (+851). Den zweiten Rang belegte Italien (+222), den dritten belegte das Vereinigte Königreich (+213). Danach folgten die Vereinigten Staaten  (+119) und Frankreich (+52).",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9207,8 +9361,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6772",
-			"7760"
+			"6772"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -9225,7 +9378,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2009 = 100)",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2010 = 100)",
 		"kuerzel": "I.01.5.6024",
 		"kuerzelKunde": "2-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
@@ -9235,13 +9388,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-26T10:54:45.4545",
+		"aktualisierungsdatum": "2020-06-22T11:48:18.1818",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Italien ist 2018 gegenüber 2009 um 71% auf 171 Punkte stark gestiegen. Auch der Zuzug aus Frankreich hat um 31% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Zwischen 2009 und 2018 ist die Zuwanderung aus den Vereinigten Staaten um 5% gestiegen. Aus Deutschland kamen weniger Personen als noch 2009 (-14%), ebenso aus dem Vereinigten Königreich (-10%).",
+		"lesehilfe": "Die Zuwanderung aus Frankreich ist 2019 gegenüber 2010 um 39% auf 139 Punkte gestiegen. Auch der Zuzug aus Italien hat um 36% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2010 (-7%), ebenso aus dem Vereinigten Königreich (-7%) und den Vereinigten Staaten (-13%). Die Zuwanderung aus übrigen Ländern hat gegenüber 2010 um 14% zugenommen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9250,8 +9403,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6773",
-			"7761"
+			"6773"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -9268,7 +9420,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6025",
 		"kuerzelKunde": "2-10",
 		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -9279,13 +9431,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T13:01:54.5454",
+		"aktualisierungsdatum": "2020-06-22T11:48:18.1818",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "45% der Neuzuzüger kommen aus der Schweiz, 55% ziehen aus dem Ausland zu. Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (54%) als aus dem Ausland (46%) nieder. In den Quartieren Gundeldingen, Bruderholz, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils über 60%",
+		"lesehilfe": "42% der Neuzuzüger kommen aus der Schweiz, 58% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz lassen sich mehr Neuzuzüger aus der Schweiz (56%) als aus dem Ausland (44%) nieder. In den Wohnvierteln Breite, Gundeldingen, Bachletten, Gotthelf, Iselin und Hirzbrunnen und auch in der Gemeinde Riehen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, St.Johann, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils über 60%.",
 		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
 		"template": "mappie002",
 		"darstellungsart": "Karte kontinuierlich",
@@ -9294,8 +9446,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_010",
 		"parentId": null,
 		"children": [
-			"6774",
-			"7762"
+			"6774"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -11947,7 +12098,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6151",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
@@ -11957,14 +12108,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:21:03.033",
+		"aktualisierungsdatum": "2020-06-22T17:56:45.4545",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. Frauen vergeben in allen Jahren häufiger die Note 10 als Männer dies tun.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "2019 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 8,0 von 10 möglichen Punkten. Frauen vergeben in allen Jahren höhere Noten als die Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11976,7 +12127,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -13428,7 +13579,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6213",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
@@ -13438,14 +13589,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:53:06.066",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In beiden dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben. Die Altersgruppe der 30- bis 39-Jährigen vergibt der Lebensqualität 2019 mit einem Schnitt von 8,2 die besten Noten. 2019 vergeben die Befragten der Lebensqualität im Kanton Basel-Stadt im Durchschnitt 8,0 von 10 möglichen Punkten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13457,7 +13608,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -13480,13 +13631,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-23T08:15:06.066",
+		"aktualisierungsdatum": "2020-06-23T11:06:42.4242",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 400 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Die Bevölkerungszahl lag 1970 bei einem Höchststand von 236 219 Personen und sank bis 2006 auf 187 792. Seither kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13685,7 +13836,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6228",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -13695,14 +13846,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:53:22.2222",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben. 2019 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Kanton Basel-Stadt im Durchschnitt 8,0 von 10 möglichen Punkten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13714,7 +13865,7 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -13857,8 +14008,8 @@ var indikatoren = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06266",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.6266",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
 		"thema": "50 Befragungen",
@@ -13867,15 +14018,17 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren zeigt sich, dass ausländische Befragte häufiger eine Note über 7 für die Lebensqualität vergeben als Schweizerinnen und Schweizer dies tun.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren zeigt sich, dass ausländische Befragte die Lebensqualität höher bewerten als Schweizerinnen und Schweizer. Die befragten Personen konnten auf einer 10er-Skala die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben sie 2019 der Lebensqualität im Stadtkanton 8,0 Punkte.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
@@ -13884,13 +14037,16 @@ var indikatoren = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6266,
-		"darstellungsart": "Grafik"
+		"data-id": 6266,
+		"chart-id": 6266,
+		"filter": "",
+		"id": 6266
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",
@@ -14171,7 +14327,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06374",
 		"kuerzelKunde": "C18-2",
 		"description": "Reinvermögen nach Wohnviertel",
@@ -14181,14 +14337,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-09T09:36:16.1616",
+		"aktualisierungsdatum": "2020-06-22T12:46:32.3232",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reinvermögens pro Veranlagung liegt in der Einwohnergemeinde Bettingen vor und beträgt fast 100 000 Franken. Klybeck verzeichnet mit rund 2 000 Franken den kleinsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2017 wird mit rund 109 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt 20 000 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -17192,13 +17348,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-02-20T11:04:52.5252",
+		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Medianlöhne auf dem Arbeitsmarkt der Nordwestschweiz werden mit einem Bruttolohn von rund 10 850 Franken im Jahr 2016 in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 510 Franken brutto bezahlt. Er beträgt damit etwa zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 700 Franken. Über diesem Wert liegt der Medianlohn bei den Finanz- und Versicherungsdienstleistungen (8 580 Franken), im Bereich Information und Kommunikation (8 340), Beratung, Planung, Forschung (7 920) und in der Branche Öffentliche Verwaltung und Sozialversicherungen (7 740). Die Ergebnisse für die Branche Erziehung und Unterricht im Jahr 2014 sind statistisch unsicher.",
+		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2018 mit einem monatlichen Bruttolohn von 11 133 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 285 Franken brutto bezahlt. Er beträgt damit weniger als zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 714 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -17438,7 +17594,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Arbeitsplatzangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Arbeitsplätzen?», Basel-Stadt",
 		"kuerzel": "I.50.1.6472",
 		"kuerzelKunde": "C7-1",
 		"description": "Zufriedenheit mit dem Arbeitsplatzangebot",
@@ -17448,35 +17604,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:03.033",
+		"aktualisierungsdatum": "2020-06-22T17:18:27.2727",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei der Zufriedenheit mit dem Angebot an Arbeitsplätzen im Kanton Basel-Stadt ist eine Veränderung über die Jahre auszumachen: 2015 sind 11,3% der befragten Personen sehr zufrieden mit dem Angebot an Arbeitsplätzen. In der letzten Befragung betrug dieser Anteil 17,6%. Jedoch sind weniger Befragte eher oder ganz unzufrieden als 2011. Die Einschätzung des Angebots an Arbeitsplätzen unterscheidet sich nach Staatsangehörigkeit signifikant. 65,0% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Angebot an Arbeitsplätzen, bei den Schweizerinnen und Schweizern sind 56,8% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "13,6% der im Jahr 2019 Befragten sind mit dem Angebot an Arbeitsplätzen sehr zufrieden und 35,0% eher zufrieden. Insgesamt 15,4% sind damit eher oder sehr unzufrieden. Der Anteil an sehr Zufriedenen liegt bei den ausländischen Befragten höher als bei jenen mit Schweizer Pass. Der Anteil der Kategorie «Weiss nicht» hat aufgrund des Methodenwechsels zugenommen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_032",
+		"orderKey": "03_00_00_00_00_701",
 		"parentId": null,
 		"children": [
 			"6713"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_17"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6472,
+		"chart-id": 6472,
+		"filter": "",
 		"id": 6472
 	},
 	{
 		"title": "Einschätzung der wirtschaftlichen Lage",
-		"subtitle": "«Darf ich Sie fragen, wie es Ihnen wirtschaftlich gesehen im Moment geht?»",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
 		"kuerzel": "I.50.1.6473",
 		"kuerzelKunde": "C7-2",
 		"description": "Einschätzung der wirtschaftlichen Lage",
@@ -17486,30 +17646,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:50.5050",
+		"aktualisierungsdatum": "2020-06-22T17:18:27.2727",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "89,7% der befragten Personen geht es 2015 wirtschaftlich gesehen sehr gut oder eher gut. Im Vergleich zu 2011 entspricht dies einem Anstieg um 2,5 Prozentpunkte. 85,5% der Befragten mit ausländischer Staatsbürgerschaft geht es wirtschaftlich gesehen sehr oder eher gut, bei den Schweizerinnen und Schweizern sind es 90,3%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.Die Stichprobe wurde 2005, 2007 und 2015 gesplittet und aus Gründen der Vergleichbarkeit mit Bevölkerungsbefragungen aus anderen Schweizer Städten (Städtevergleich) in zwei verschiedenen Skalen abgefragt. Aus diesem Grund ist für diese Jahre nur eine Teilmenge an Antworten auf diese Frage vorhanden.",
+		"lesehilfe": "17,8% der im Jahr 2019 befragten Personen geht es wirtschaftlich gesehen sehr gut und 59,0% eher gut. 2015 lag der Anteil an Befragten, denen es wirtschaftlich sehr gut ging bei 31,3%. 21,1% der Befragten mit ausländischer Staatsbürgerschaft geht es wirtschaftlich gesehen eher nicht oder gar nicht gut, bei den Schweizerinnen und Schweizern sind es 15,9%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Die Stichprobe wurde 2005, 2007 und 2015 gesplittet und aus Gründen der Vergleichbarkeit mit Bevölkerungsbefragungen aus anderen Schweizer Städten (Städtevergleich) in zwei verschiedenen Skalen abgefragt. Aus diesem Grund ist für diese Jahre nur eine Teilmenge an Antworten auf diese Frage vorhanden.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_033",
+		"orderKey": "03_00_00_00_00_702",
 		"parentId": null,
 		"children": [
 			"6714"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6473,
+		"chart-id": 6473,
+		"filter": "",
 		"id": 6473
 	},
 	{
@@ -17524,22 +17688,24 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:30:33.3333",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"aktualisierungsdatum": "2020-06-22T17:18:28.2828",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2018 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
+		"lesehilfe": "Die Familienmietzinsbeitragsquote hat sich über den gesamten Beobachtungszeitraum kontinuierlich erhöht. 2019 beträgt sie 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst ab dem Jahr 2012 zur Verfügung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_001",
+		"orderKey": "_101",
 		"parentId": null,
 		"children": [
-			"6715"
+			"6715",
+			"8339",
+			"8610"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17869,23 +18035,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:32:22.2222",
+		"aktualisierungsdatum": "2020-06-22T17:18:28.2828",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden von 1&nbsp;000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 8,9 Personen mindestens einer Straftat beschuldigt. Im Jahr 2017 waren es 8,8 Personen gewesen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2017: 6,5; 2018: 6,9) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2019 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 Personen mindestens einer Straftat beschuldigt. Im Jahr 2018 waren es 8,9 Personen gewesen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2018: 6,9; 2019: 6,6) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_010",
+		"orderKey": "04_00_00_00_00_401",
 		"parentId": null,
 		"children": [
-			"6723",
-			"7864"
+			"6723"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17903,7 +18068,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2019",
 		"kuerzel": "I.19.1.6484",
 		"kuerzelKunde": "D4-3",
 		"description": "Beschuldigte Erwachsene",
@@ -17913,23 +18078,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:34:09.099",
+		"aktualisierungsdatum": "2020-06-22T17:18:29.2929",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 ergab sich die höchste Beschuldigtenrate mit 67,7 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 37,5.",
-		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl Beschuldigter ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2019 ergab sich die höchste Beschuldigtenrate mit 61,3 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 39,7.",
+		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_012",
+		"orderKey": "04_00_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"6725",
-			"7866"
+			"6725"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17957,23 +18121,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:49:09.099",
+		"aktualisierungsdatum": "2020-06-22T17:18:29.2929",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 stieg die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2017 von 494 auf 537. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg von 277 auf 289 Personen.",
+		"lesehilfe": "Im Jahr 2019 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2018 von 536 auf 475. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung sank von 289 auf 267 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_013",
+		"orderKey": "04_00_00_00_00_404",
 		"parentId": null,
 		"children": [
-			"6726",
-			"7867"
+			"6726"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18001,23 +18164,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:34:40.4040",
+		"aktualisierungsdatum": "2020-06-22T17:18:29.2929",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden von 1&nbsp;000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,4 einer Straftat beschuldigt. Weniger Beschuldigte wurden mit 11,1 im Jahr 2017 und mit 14,9 im Jahr 2018 bei Jugendlichen aus den «EU-17 + EFTA»-Ländern registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
+		"lesehilfe": "Im Jahr 2019 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,3 einer Straftat beschuldigt. Mehr Beschuldigte wurden im Jahr 2019 bei Jugendlichen aus den EU-17 + EFTA-Ländern (16,8), aus der Türkei (17,2), aus dem Balkan (20,4), aus Italien (23,2) und aus den übrigen Ländern (27,5) registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_014",
+		"orderKey": "04_00_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"6727",
-			"7868"
+			"6727"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18035,7 +18197,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2018",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2019",
 		"kuerzel": "I.19.1.6489",
 		"kuerzelKunde": "D5-3",
 		"description": "Beschuldigte Jugendliche",
@@ -18045,23 +18207,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:51:38.3838",
+		"aktualisierungsdatum": "2020-06-22T17:18:30.3030",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
+		"lesehilfe": "Im Jahr 2019 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkraftretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_016",
+		"orderKey": "04_00_00_00_00_503",
 		"parentId": null,
 		"children": [
-			"6729",
-			"7870"
+			"6729"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18123,7 +18284,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
 		"kuerzel": "I.19.1.6491",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
@@ -18133,23 +18294,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:54:03.033",
+		"aktualisierungsdatum": "2020-06-22T17:18:30.3030",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 23,3% der beschuldigten Schweizer Jugendlichen der Konsums eines Betäubungsmittels vorgeworfen. Bei den ausländischen Jugendlichen war hingegen Diebstahl mit 39,8% das häufigste Delikt.",
+		"lesehilfe": "Im Jahr 2019 ist sowohl bei den Schweizer Jugendlichen wie auch bei den ausländischen Jugendlichen Diebstahl mit 23,0% resp 35,2% das häufigste Delikt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_018",
+		"orderKey": "04_00_00_00_00_505",
 		"parentId": null,
 		"children": [
-			"6731",
-			"7872"
+			"6731"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18250,7 +18410,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Interesse an der Politik in Basel-Stadt",
-		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?»",
+		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kuerzel": "I.50.1.6495",
 		"kuerzelKunde": "D8-1",
 		"description": "Interesse an der Politik in Basel-Stadt",
@@ -18260,35 +18420,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:30.3030",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "29,6% der befragten Personen interessierten sich 2015 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 1,4 Prozentpunkte mehr als 2011 und auch mehr als in den vergangenen Befragungen seit 2003.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "15,0% der befragten Personen interessierten sich 2019 sehr stark für die Politik im Kanton Basel-Stadt. Das sind 14,6 Prozentpunkte weniger als 2015. 32,2% der Befragten mit ausländischer Staatsangehörigkeit interessieren sich sehr oder eher für die Politik im Kanton, während es bei den Schweizerinnen und Schweizern 57,0% sind.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_022",
+		"orderKey": "04_00_00_00_00_801",
 		"parentId": null,
 		"children": [
 			"6735"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6495,
+		"chart-id": 6495,
+		"filter": "",
 		"id": 6495
 	},
 	{
 		"title": "Beurteilung von gesellschaftlicher Vielfalt",
-		"subtitle": "«Im Kanton Basel-Stadt gibt es Menschen aus den verschiedensten Ländern. Bitte geben Sie mir an, ob das eine sehr grosse, eher grosse, eher nicht so grosse oder gar keine Bereicherung für den Kanton Basel-Stadt ist.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die kulturelle Vielfalt im Kanton Basel-Stadt erlebe ich als grosse Bereicherung.», Basel-Stadt",
 		"kuerzel": "I.50.1.6496",
 		"kuerzelKunde": "D8-2",
 		"description": "Beurteilung von gesellschaftlicher Vielfalt",
@@ -18298,35 +18462,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:31.3131",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Drei Viertel der Befragten empfinden den multikulturellen Charakter Basels als eine sehr oder eher grosse Bereicherung für die Stadt. 91,3% der Befragten mit ausländischer Staatsbürgerschaft empfinden Menschen aus den verschiedensten Ländern als eine sehr oder eher grosse Bereicherung für den Kanton. Bei den Schweizerinnen und Schweizern sind es 73,9%, die Menschen aus den verschiedensten Ländern als eine sehr oder eher grosse Bereicherung empfinden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "83,6% der im Jahr 2019 Befragten empfinden die kulturelle Vielfalt im Kanton Basel-Stadt als eine sehr oder eher grosse Bereicherung für die Stadt. Während 59,5% der Befragten mit ausländischer Staatsbürgerschaft diese als sehr grosse Bereicherung empfinden sind es bei den Befragten mit Schweizer Pass 47,9%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_023",
+		"orderKey": "04_00_00_00_00_802",
 		"parentId": null,
 		"children": [
 			"6736"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6496,
+		"chart-id": 6496,
+		"filter": "",
 		"id": 6496
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt",
 		"kuerzel": "I.50.1.6499",
 		"kuerzelKunde": "D8-3",
 		"description": "Zufriedenheit mit dem Kulturangebot",
@@ -18336,30 +18504,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:31.3131",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit dem Kulturangebot in Basel-Stadt sind 89,9% sehr oder eher zufrieden. Die Einschätzung des Kulturangebots unterscheidet sich nach Staatsangehörigkeit. 91,2% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Kulturangebot, bei den Schweizerinnen und Schweizern sind 89,7% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "39,6% der im Jahr 2019 Befragten sind mit dem Kulturangebot sehr zufrieden und 40,8% eher zufrieden. Insgesamt 7,6% sind damit eher oder sehr unzufrieden. Nach Staatsangehörigkeit lässt sich 2019 kein signifikanter Unterschied in der Beurteilung beobachten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_024",
+		"orderKey": "04_00_00_00_00_803",
 		"parentId": null,
 		"children": [
 			"6737"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6499,
+		"chart-id": 6499,
+		"filter": "",
 		"id": 6499
 	},
 	{
@@ -18405,7 +18577,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
 		"kuerzel": "I.50.1.6504",
 		"kuerzelKunde": "D8-4",
 		"description": "Zufriedenheit mit dem Wohnungsangebot nach Heimat",
@@ -18415,30 +18587,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Die Einschätzung des Wohnungsangebots unterscheidet sich nach Staatsangehörigkeit signifikant. 61,3% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit dem Wohnungsangebot, bei den Schweizerinnen und Schweizern sind 49,3% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Mehr als die Hälfte der Befragten ist mit dem Wohnungsangebot eher zufrieden oder sehr zufrieden. Seit der ersten Bevölkerungbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Befragte mit ausländischer Staatsbürgerschaft weisen gegenüber den Befragten mit Schweizer Pass in sämtlichen Befragungsjahren einen höhren Anteil Zufriedener auf.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_025",
+		"orderKey": "04_00_00_00_00_804",
 		"parentId": null,
 		"children": [
 			"6738"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6504,
+		"chart-id": 6504,
+		"filter": "",
 		"id": 6504
 	},
 	{
@@ -18527,7 +18703,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Beurteilung des Wohnorts nach Heimat",
-		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»",
+		"subtitle": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt",
 		"kuerzel": "I.50.1.6507",
 		"kuerzelKunde": "D9-1",
 		"description": "Beurteilung des Wohnorts nach Heimat",
@@ -18537,35 +18713,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "71,1% der befragten Personen leben sehr gerne an ihrem Wohnort und ein Viertel eher gerne. Im Vergleich zu 2011 ist der Anteil Personen, die sehr oder eher gerne im Kanton Basel-Stadt leben, um 1,1 Prozentpunkte gesunken. Die Einschätzung des Wohnorts unterscheidet sich nach Staatsangehörigkeit nicht signifikant. 96,0% der Befragten mit ausländischer Staatsbürgerschaft leben sehr oder eher gerne an ihrem Wohnort, bei den Schweizerinnen und Schweizern leben 97,0% sehr oder eher gerne an ihrem Wohnort.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "75,7% der im Jahr 2019 befragten Personen leben sehr gerne an ihrem Wohnort und 21,6% eher gerne. 73,2% der Befragten mit ausländischer Staatsbürgerschaft leben sehr gerne an ihrem Wohnort, bei den Schweizerinnen und Schweizern sind es 76,4%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_026",
+		"orderKey": "04_00_00_00_00_901",
 		"parentId": null,
 		"children": [
 			"6739"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6507,
+		"chart-id": 6507,
+		"filter": "",
 		"id": 6507
 	},
 	{
 		"title": "Beurteilung des Wohnquartiers nach Heimat",
-		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?»",
+		"subtitle": "«Wie gerne leben Sie in Ihrem Wohnquartier?», Basel-Stadt",
 		"kuerzel": "I.50.1.6508",
 		"kuerzelKunde": "D9-2",
 		"description": "Beurteilung des Wohnquartiers nach Heimat",
@@ -18575,35 +18755,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit einem Anteil von 96,9% wohnen mehr Personen sehr oder eher gerne in ihrem Wohnquartier als 2011 (94,8%). Die Einschätzung des Wohnorts unterscheidet sich nach Staatsangehörigkeit nicht signifikant. 96,0% der Befragten mit ausländischer Staatsbürgerschaft leben sehr oder eher gerne an ihrem Wohnort, bei den Schweizerinnen und Schweizern leben 97,1% sehr oder eher gerne an ihrem Wohnort.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "93,8% der im Jahr 2019 Befragten wohnen sehr oder eher gerne in ihrem Wohnquartier. 57,7% der Befragten mit ausländischer Staatsbürgerschaft leben sehr gerne in ihrem Quartier, bei den Schweizerinnen und Schweizern sind dies 69,7%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_027",
+		"orderKey": "04_00_00_00_00_902",
 		"parentId": null,
 		"children": [
 			"6740"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F2b"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6508,
+		"chart-id": 6508,
+		"filter": "",
 		"id": 6508
 	},
 	{
 		"title": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
-		"subtitle": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartierbevölkerung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartierbevölkerung?», Basel-Stadt",
 		"kuerzel": "I.50.1.6509",
 		"kuerzelKunde": "D9-3",
 		"description": "Beurteilung der Zusammensetzung der Quartierbevölkerung nach Heimat",
@@ -18613,35 +18797,39 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T11:07:51.5151",
+		"aktualisierungsdatum": "2020-06-22T17:18:33.3333",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2015 sind 21,6% der Befragten mit der Zusammensetzung der Quartierbevölkerung sehr zufrieden, 60,7% sind eher zufrieden. Die Einschätzung der Zusammensetzung der Quartierbevölkerung unterscheidet sich nicht nach Staatsangehörigkeit. 83,9% der Befragten mit ausländischer Staatsbürgerschaft sind sehr oder eher zufrieden mit der Zusammensetzung der Quartierbevölkerung, bei den Schweizerinnen und Schweizern sind 82,1% sehr oder eher zufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden im Februar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "22,1% der im Jahr 2019 Befragten sind mit der Zusammensetzung der Quartierbevölkerung sehr zufrieden, 51,0% sind eher zufrieden. Die Einschätzung der Zusammensetzung der Quartierbevölkerung unterscheidet sich nicht signifikant nach Staatsangehörigkeit.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_028",
+		"orderKey": "04_00_00_00_00_903",
 		"parentId": null,
 		"children": [
 			"6741"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_21"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6509,
+		"chart-id": 6509,
+		"filter": "",
 		"id": 6509
 	},
 	{
 		"title": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
-		"subtitle": "«Haben Sie Bekannte, die im Kanton Basel-Stadt leben aber nicht in der Schweiz geboren oder aufgewachsen sind?»",
+		"subtitle": "«Haben Sie Bekannte, die im Kanton Basel-Stadt leben aber nicht in der Schweiz geboren oder aufgewachsen sind?», Basel-Stadt",
 		"kuerzel": "I.50.1.6510",
 		"kuerzelKunde": "D10-1",
 		"description": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
@@ -18651,30 +18839,34 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-06-22T17:18:33.3333",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Befragter, die Bekannte haben, welche im Kanton Basel-Stadt leben, aber nicht hier geboren oder aufgewachsen sind, ist seit 2003 von 61,0% auf 71,4% gestiegen. Im Vergleich zu 2011 ist der Anteil jedoch um 1,2 Prozentpunkte gesunken. Ausländische Befragte (85,5%) sind häufiger mit Personen aus dem Ausland befreundet, als Personen mit einem Schweizer Pass (69,5%).",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Während jeweils rund sechs Wochen werden zwischen Januar und März 1 500 zufällig ausgewählte Einwohnerinnen und Einwohner im Kanton Basel-Stadt telefonisch zu einem breiten Spektrum von Themen befragt, welche die staatliche Tätigkeit abbilden.",
+		"lesehilfe": "Der Anteil Befragter, die mehrere Bekannte haben, welche im Kanton Basel-Stadt leben, aber nicht hier geboren oder aufgewachsen sind, ist seit 2003 von 33,4% auf 57,1% gestiegen. 2015 lag dieser Anteil noch bei 47,0%. Ausländische Befragte (91,7%) sind häufiger mit  Personen aus dem Ausland befreundet, als Personen mit einem Schweizer Pass (77,5%).",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_029",
+		"orderKey": "04_00_00_00_00_001",
 		"parentId": null,
 		"children": [
 			"6742"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F17a"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6510,
+		"chart-id": 6510,
+		"filter": "",
 		"id": 6510
 	},
 	{
@@ -19055,24 +19247,24 @@ var indikatoren = [
 		"id": 6521
 	},
 	{
-		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
+		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"subtitle": "in Franken",
 		"kuerzel": "I.03.3.6522",
 		"kuerzelKunde": "3.5-01",
-		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich",
+		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T16:54:55.5555",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) hat der Bruttomedianlohn in der Nordwestschweiz von 6 578 Franken im Jahr 2014 auf 6 700 Franken im Jahr 2016 zugenommen (+1,9%). Damit liegt er weiterhin höher als für die gesamte Schweiz, aber tiefer als im Kanton Zürich. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 3,9%, in der Gesamtschweiz um 4,6%.",
+		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2018 bei 6 714 Franken pro Monat und hat sich damit im Vergleich zu 2016 kaum verändert (+0,2%). Er liegt  weiterhin höher als im Landesdurchschnitt, aber tiefer als im Kanton Zürich. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 4,1%, in der Gesamtschweiz um 5,1%.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19108,13 +19300,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2016 bei 7 034 Franken brutto pro Monat. Die Frauen verdienen 2016 mit einem Medianlohn von 6 220 Franken 12% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,88 im Jahr 2016 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
+		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2018 bei 7 038 Franken brutto pro Monat. Die Frauen verdienen 2018 mit einem Medianlohn von 6 251 Franken 11,2% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,89 im Jahr 2018 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19150,13 +19342,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T12:45:50.5050",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bruttolöhne nach Altersgruppe zeigen, dass jüngere Angestellte weniger verdienen als ältere Angestellte. Der Medianlohn in der Altersgruppe bis 29 Jahre liegt 2016 bei 5 163 Franken pro Monat, während der Lohn in der Altersgruppe zwischen 30 und 49 Jahren 6 938 Franken erreicht. Angestellte über 50 Jahre verdienen 7 529 Franken (Median).",
+		"lesehilfe": "Die Bruttolöhne nach Altersgruppe zeigen, dass jüngere Angestellte weniger verdienen als ältere Angestellte. Der Medianlohn in der Altersgruppe bis 29 Jahre liegt 2018 bei 5 124 Franken pro Monat, während der Lohn in der Altersgruppe zwischen 30 und 49 Jahren 6 981 Franken erreicht. Angestellte über 50 Jahre verdienen 7 529 Franken (Median).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19182,7 +19374,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"subtitle": "in Franken, Nordwestschweiz, 2016",
+		"subtitle": "in Franken, Nordwestschweiz, 2018",
 		"kuerzel": "I.03.3.6525",
 		"kuerzelKunde": "3.5-04",
 		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
@@ -19192,13 +19384,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-04-01T16:53:50.5050",
+		"aktualisierungsdatum": "2020-06-22T16:54:56.5656",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn bei 6 498 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 655 Franken) und die Schweizer (6 644 Franken), während die Niedergelassenen und die Aufenthalter knapp über 6 000 Franken verdienen. Der Medianlohn der Kurzaufenthalter ist am tiefsten (5 582 Franken).",
+		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn 2018 bei 6 492 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 934 Franken) und die Schweizer (6 664 Franken), während die Niedergelassenen  knapp über 6 000 Franken verdienen. Der Medianlohn der Aufenthalter liegt 2018 bei 5 865 Franken und derjenige der Kurzaufenthalter ist am tiefsten (dieser Wert ist allerdings statistisch unsicher und sehr volatil).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -19234,13 +19426,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T12:45:51.5151",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2016 bei 7 430 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (10 851 Franken). In der Bauwirtschaft liegt der Medianlohn knapp über 6 000 Franken.",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2018 bei 7 383 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 133 Franken). In der Bauwirtschaft ist der Medianlohn 2018 auf 6 366 Franken gestiegen.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19276,13 +19468,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T12:45:51.5151",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn 2016 liegt in der Branche Handel und Reparatur sowie im Bereich Verkehr und Lagerei bei weniger als 6 000 Franken (5 811 bzw. 5 848 Franken). Die tiefsten Löhne werden im Gastgewerbe bezahlt (4 513 Franken). In der Branche Information und Kommunikation verdient man hingegen 8 341 Franken monatlich (Median).",
+		"lesehilfe": "Der Bruttomedianlohn in den dargestellten Branchen hat sich 2018 gegenüber 2016 verringert. Er liegt in der Branche Handel und Reparatur bei 5 752 Franken (-1,0%) und im Bereich Verkehr und Lagerei bei 5 549 Franken (-5,1%). Auch der ohnehin vergleichsweise tiefe Medianlohn im Gastgewerbe ist um 5,1% auf 4 285 Franken zurückgegangen. In der Branche Information und Kommunikation beträgt der Medianwert 8 323 Franken (-0,2%) monatlich.",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19318,13 +19510,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2019-03-25T17:52:16.1616",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Löhne",
+		"aktualisierungsdatum": "2020-06-22T16:54:56.5656",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn 2016 beträgt 8 579 Franken in den Finanz- und Versicherungsdienstleistungen und 7 916 Franken im Bereich Beratung, Planung und Forschung. Tiefer sind die Löhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung (5 251 Franken bzw. 5 899 Franken).",
+		"lesehilfe": "Der Bruttomedianlohn 2018 ist in den Finanz- und Versicherungsdienstleistungen auf 9 039 Franken gestiegen. Im Bereich Beratung, Planung und Forschung beträgt er 7 945 Franken. Unterhalb von 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen (5 349 Franken) sowie in der Personalvermittlung und -überlassung (5 868 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19360,13 +19552,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2020-02-20T11:04:06.066",
+		"aktualisierungsdatum": "2020-06-22T12:45:52.5252",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 6 000 Franken (Median) brutto verdient man in der Nordwestschweiz 2016 im Gesundheits- und Sozialwesen (6 402 Franken) sowie im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 125 Franken). In der öffentlichen Verwaltung liegt der Bruttomedianlohn 2016 bei 7 740 Franken. Der Medianlohn im Bereich Erziehung und Unterricht im Jahr 2014 ist statistisch unsicher.",
+		"lesehilfe": "Der Bruttomedianlohn liegt 2018 bei 7 866 Franken in der öffentlichen Verwaltung und bei 9 020 Franken im Bereich Erziehung und Unterricht. 6 377 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt derjenige im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 263 Franken).",
 		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -25313,13 +25505,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-21T09:31:06.066",
+		"aktualisierungsdatum": "2020-06-22T18:23:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Prämienverbilligungen stellen 2018 mit 178,5 Mio. Franken die höchsten kantonalen Ausgaben bei den bedarfsabhängigen Sozialleistungen dar. Ebenfalls im dreistelligen Millionenbereich befinden sich die Ausgaben für die Sozialhilfe (143,4 Mio.), für die Ergänzungsleistungen zur AHV (135,6 Mio.) bzw. zur IV (101,7 Mio.) sowie für die Behindertenhilfe (102,8 Mio.). Für die Subventionierung der Tagesbetreuungsplätze fallen Kosten von 40,1 Mio. Franken an. Die ausserfamiliäre Unterbringung von Jugendlichen schlägt mit 38,5 Mio. Franken zu Buche. Die Gesamtausgaben 2018 der abgebildeten bedarfsabhängigen Leistungen belaufen sich auf 778,5 Mio. Franken. Gegenüber 2017 (754,7 Mio.) entspricht dies einer Zunahme von 3,2%.",
+		"lesehilfe": "Im Jahr 2019 verursachen die Prämienverbilligungen mit 182,9 Mio. Franken die höchsten kantonalen Ausgaben bei den bedarfsabhängigen Sozialleistungen. Ebenfalls im dreistelligen Millionenbereich befinden sich die Ausgaben für die Sozialhilfe mit 136,4 Mio. Franken, für die Ergänzungsleistungen zur AHV 135,8 Mio. Franken bzw. zur IV 104,1 Mio. Franken sowie für die Behindertenhilfe mit 103,1 Mio. Franken. Die ausserfamiliäre Unterbringung von Jugendlichen schlägt mit 40,3 Mio. Franken zu Buche. Für die Subventionierung der Tagesbetreuungsplätze fallen Kosten von 39,6&nbsp.Mio. Franken an. Es werden Stipendien im Umfang von 12,0 Mio. Franken vergeben. 11,7 Mio. Franken werden für Familienmietzinsbeiträge zur Verfügung gestellt. Für die Beihilfen zur AHV und IV werden 5,5 Mio. Franken respektive 4,5 Mio. Franken aufgewendet. Alimente werden mit einem Betrag von 3,3 Mio. Franken (netto, nach Abzug des Alimenteninkassos) bevorschusst, für die Arbeitslosenhilfe werden 2019 insgesamt 1,1 Mio. Franken benötigt. Somit ergeben sich 2019 für die erwähnten Leistungen Gesamtausgaben in der Höhe von 780,2 Mio. Franken. 2018 lagen die Ausgaben noch bei 778,5 Mio. Franken, was einer Zunahme um 0,2% entsprich.",
 		"erlaeuterungen": "Die abgebildeten Leistungen stellen eine Auflistung der kantonalen Ausgaben für die wichtigsten bedarfsabhängigen Sozialleistungen dar. Der Kanton richtet weitere bedarfsabhängige Leistungen aus, die hier nicht aufgelistet sind. Angaben zur Behindertenhilfe liegen erst seit 2010 vor.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -27170,7 +27362,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-09T17:58:13.1313",
+		"aktualisierungsdatum": "2020-06-22T18:23:09.099",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -27182,7 +27374,7 @@ var indikatoren = [
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_006",
+		"orderKey": "05_00_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"7948"
@@ -31520,13 +31712,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von EL und Beihilfen zur AHV hat in fast allen Jahren zugenommen. 2018 liegt die Anzahl Personen mit EL zur IV bei 6 879 und EL zur AHV bei 8 262. Beihilfen werden an 5 241 (IV) respektive 5 802 (AHV) Personen ausbezahlt.",
+		"lesehilfe": "Der Bezug von EL und Beihilfen zur AHV hat in fast allen Jahren zugenommen. 2019 liegt die Anzahl Personen mit EL zur IV bei 6 929 und EL zur AHV bei 8 606. Beihilfen werden an 5 264 (IV) respektive 6 070 (AHV) Personen ausbezahlt.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -31604,13 +31796,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2018 insgesamt 16% aller Übernachtenden aus (2017: 11%). Die Gruppen der 31- bis 40-Jährigen sowie der 41- bis 50-Jährigen sind mit jeweils 24% aller Nutzer die grössten. 8% sind älter als 60 Jahre.",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2019 insgesamt 17% aller Übernachtenden aus (2018: 16%). Die Gruppe der 41- bis 50-Jährigen ist mit 28% aller Nutzer die grösste. 9% sind älter als 60 Jahre.",
 		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal die Notschlafstelle genutzt haben.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -31646,13 +31838,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Notschlafstellen wurden 2018 von insgesamt 339 unterschiedlichen Männern und 68 Frauen genutzt. Davon hat jeweils rund die Hälfte weniger als 8 Nächte in der Notschlafstelle verbracht. 20,6% aller Frauen und 16,8% aller Männer haben mehr als 60 Nächte in der Notschlafstelle verbracht.",
+		"lesehilfe": "Die Notschlafstellen wurden 2019 von insgesamt 323 unterschiedlichen Männern und 94 Frauen genutzt. Von den Männern haben 63% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 49%. 20% aller Frauen und 22% aller Männer haben im Verlaufe des Jahres 2019 mehr als 60 Nächte in der Notschlafstelle verbracht.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -32014,7 +32206,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Durch die IG Wohnen vermittelte Wohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.08266",
 		"kuerzelKunde": "1-37",
 		"description": "Durch die IG Wohnen vermittelte Wohnungen",
@@ -32024,13 +32216,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 hat die IG-Wohnen 105 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel Gundeldingen konnten mit insgesamt 16 am meisten Wohnungen vermittelt werden.",
+		"lesehilfe": "2019 hat die IG Wohnen 82 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel St. Johann konnten mit insgesamt 15 am meisten Wohnungen vermittelt werden.",
 		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -32434,7 +32626,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.08277",
 		"kuerzelKunde": "2-02",
 		"description": "Anteil Familienhaushalte",
@@ -32444,19 +32636,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
-		"stufe1": "Kinderfreundliche Lebensräume",
-		"stufe2": "2.1 Allgemein",
+		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2019 mit 61% am höchsten, gefolgt von der Gemeinde Riehen und dem Wohnviertel Bruderholz (je 57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
 		"template": "mappie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_202",
+		"orderKey": "01_05_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"8548"
@@ -32602,7 +32794,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sozialhilfequote der Minderjährigen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.08281",
 		"kuerzelKunde": "2-03",
 		"description": "Sozialhilfequote der Minderjährigen",
@@ -32612,14 +32804,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 25% ist im Klybeck jedes vierte Kind von Sozialhilfe abhängig. In Riehen und der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 2%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebezüger an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebezüger sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"lesehilfe": "Mit 25,2% ist im Klybeck jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebeziehender an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -32780,13 +32972,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 703 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2019 wurden 746 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
 		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -33918,14 +34110,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:23:01.011",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 14 699 Haushalten, die Ende 2018 reine Prämienverbilligungen beziehen, handelt es sich um 8 102 rein schweizerische und 5 397 rein ausländische Haushalte. 1 200 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "Von den 16&nbsp249 Haushalten, die Ende 2019 reine Prämienverbilligungen beziehen, handelt es sich um 9&nbsp034 rein schweizerische und 5&nbsp895 rein ausländische Haushalte. 1&nbsp320 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d.&nbsph. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -33960,13 +34152,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:20:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 beziehen 14 699 Haushalte reine Prämienverbilligungen. Mit 56% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 20% die zweitgrösste Gruppe.",
+		"lesehilfe": "Ende 2019 beziehen 16&nbsp249 Haushalte reine Prämienverbilligungen. Mit 57% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 19% die zweitgrösste Gruppe.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
@@ -34044,13 +34236,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Bei 63% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 5% sind Konkubinatspaare mit Kindern.",
+		"lesehilfe": "Ende 2019 beziehen 2&nbsp287 Haushalte Familienmietzinsbeiträge. Bei 62% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 6% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
@@ -34999,7 +35191,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
-		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» <br> Stand: 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit den folgenden Aspekten an Ihrem Wohnort?» Stand: 2019",
 		"kuerzel": "I.50.1.08852",
 		"kuerzelKunde": "GW2.2",
 		"description": "Zufriedenheit mit verschiedenen Aspekten am Wohnort, Teil 2",
@@ -35009,13 +35201,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:39:25.2525",
+		"aktualisierungsdatum": "2020-06-23T11:13:01.011",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Kinderbetreuung (17,7% «sehr» und 21,8% «eher zufrieden») und die Einrichtungen für Jugendliche (12,1% «sehr» und 29,5% «eher zufrieden») erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%.",
+		"lesehilfe": "Die befragten Personen konnten 22 Punkte, die für den Wohnort wichtig sind, bewerten (siehe auch Teil 1 des Indikators). Die tiefsten Zufriedenheitswerte haben die Kinderbetreuung (17,7% «sehr» und 21,8% «eher zufrieden») und die Einrichtungen für Jugendliche (12,1% «sehr» und 29,5% «eher zufrieden») erhalten. Bei diesen Faktoren liegt der Anteil «Weiss nicht» allerdings bei über 40%. Beim Wohnungsangebot ist der Anteil der Zufriedenen («sehr» und «eher zufrieden») 2019 etwas höher als 2015.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -35025,7 +35217,6 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"8877",
-			"8878",
 			"8965",
 			"8971"
 		],
@@ -35254,7 +35445,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-19T08:20:30.3030",
+		"aktualisierungsdatum": "2020-06-24T08:02:41.4141",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -35282,5 +35473,131 @@ var indikatoren = [
 		"chart-id": 8995,
 		"filter": "",
 		"id": 8995
+	},
+	{
+		"title": "Ältere Menschen sind eine Last für die Gesellschaft",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ältere Menschen sind eine Last für die Gesellschaft.», Basel-Stadt",
+		"kuerzel": "I.50.4.09027",
+		"kuerzelKunde": "1.3.04",
+		"description": "Ältere Menschen sind eine Last für die Gesellschaft",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "17,4% der 2019 Befragten sind der Meinung, dass ältere Menschen eine Last für die Gesellschaft darstellen. Der Anteil Personen, der mit «Stimmt gar nicht» geantwortet hat, liegt bei 43,3%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9033"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9027,
+		"chart-id": 9027,
+		"filter": "",
+		"id": 9027
+	},
+	{
+		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
+		"kuerzel": "I.50.4.09029",
+		"kuerzelKunde": "1.3.05",
+		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-22T18:11:36.3636",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "51,1% der 2019 befragten Personen stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,6% stimmen dieser Aussage nicht zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [
+			"9034"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9029,
+		"chart-id": 9029,
+		"filter": "",
+		"id": 9029
+	},
+	{
+		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
+		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt",
+		"kuerzel": "I.50.1.09032",
+		"kuerzelKunde": "1.2.04",
+		"description": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-06-23T08:35:55.5555",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.2 Vertrauen in die Mitmenschen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "33,8% der im Jahr 2019 Befragten sind mit der Sicherheit im öffentlichen Raum sehr zufrieden (2015: 21,1%) und 47,4% eher zufrieden. 10,5% sind eher unzufrieden und 3,2% sehr unzufrieden mit der  Sicherheit im öffentlichen Raum.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_02_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"9036"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9032,
+		"chart-id": 9032,
+		"filter": "",
+		"id": 9032
 	}
 ];

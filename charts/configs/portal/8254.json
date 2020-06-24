@@ -60,6 +60,18 @@
         [
           "2018: F (N=68)",
           34
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          157
+        ],
+        [
+          "2019: F (N=94)",
+          59
         ]
       ],
       "name": "1 bis 7 Nächte",
@@ -124,6 +136,18 @@
         ],
         [
           "2018: F (N=68)",
+          3
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          31
+        ],
+        [
+          "2019: F (N=94)",
           3
         ]
       ],
@@ -190,6 +214,18 @@
         [
           "2018: F (N=68)",
           8
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          36
+        ],
+        [
+          "2019: F (N=94)",
+          6
         ]
       ],
       "name": "15 bis 30 Nächte",
@@ -255,6 +291,18 @@
         [
           "2018: F (N=68)",
           9
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          28
+        ],
+        [
+          "2019: F (N=94)",
+          7
         ]
       ],
       "name": "31 bis 60 Nächte",
@@ -320,6 +368,18 @@
         [
           "2018: F (N=68)",
           6
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          50
+        ],
+        [
+          "2019: F (N=94)",
+          9
         ]
       ],
       "name": "61 bis 150 Nächte",
@@ -385,6 +445,18 @@
         [
           "2018: F (N=68)",
           8
+        ],
+        [
+          "     ",
+          undefined
+        ],
+        [
+          "2019: M (N=323)",
+          21
+        ],
+        [
+          "2019: F (N=94)",
+          10
         ]
       ],
       "name": "\u003E150 Nächte",
@@ -512,7 +584,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

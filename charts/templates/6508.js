@@ -36,26 +36,27 @@
   	}
   },
   "series": [
-    { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
-    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
-    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
-    { "color": "#999999", index: 0, legendIndex: 4}, // grau
+    { "color": "#007a2f", index: 5, legendIndex: 0}, // dunkelgrün
+    { "color": "#73B97C", index: 4, legendIndex: 1}, // grün
+    { "color": "#FFDA80", index: 3, legendIndex: 2}, // orange
+    { "color": "#B00000", index: 2, legendIndex: 3}, // rot
+    { "color": "#C8C8C8", index: 1, legendIndex: 4}, // grau
+    { "color": "#6F6F6F", index: 0, legendIndex: 5}, // grau
   ],
   "legend": { 
-     //y: 45,
+     //y: 55,
     "enabled": true,
+    itemWidth: 150,
     "layout": "horizontal",
-    "itemWidth": 140,
     "verticalAlign": "top",
     "align": "left",
      "labelFormatter": function () {
             return this.name;
         },
-    itemStyle: {
-        fontWeight: "normal", 
-        textOverflow: null, 
-        whiteSpace: 'nowrap'
+    "itemStyle": {
+        fontWeight: "normal",
+        textOverflow: null,
+        whiteSpace: "nowrap",
     }
   },
 
@@ -63,7 +64,7 @@
 	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
-      "height": 500,
+      "height": 550,
   },
 }
 }());

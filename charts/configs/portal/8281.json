@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          1.2875536481
+          0.4310344828
         ],
         [
           2,
-          9.5890410959
+          5.5214723926
         ],
         [
           3,
-          4.9226441632
+          5.5858310627
         ],
         [
           4,
-          12.378426172
+          11.861471861
         ],
         [
           5,
-          7.0767555797
+          7.7374599787
         ],
         [
           6,
-          14.226804124
+          12.912541254
         ],
         [
           7,
-          2.4311183144
+          2.4880889359
         ],
         [
           8,
-          4.369825207
+          4.4782803403
         ],
         [
           9,
-          7.3929961089
+          8.4548104956
         ],
         [
           10,
-          20.084162204
+          17.93499044
         ],
         [
           11,
-          14.275717285
+          15.39543058
         ],
         [
           12,
-          11.440677966
+          12.18487395
         ],
         [
           13,
-          20.042643923
+          19.375
         ],
         [
           14,
-          7.917888563
+          6.6666666667
         ],
         [
           15,
-          8.7315634218
+          7.7501445922
         ],
         [
           16,
-          18.263718264
+          15.320121951
         ],
         [
           17,
-          20.913242009
+          19.867549669
         ],
         [
           18,
-          25.139220366
+          25.165562914
         ],
         [
           19,
-          23.300970874
+          19.315895372
         ],
         [
           20,
-          6.421319797
+          5.8928571429
         ],
         [
           30,
-          2.4154589372
+          3.7735849057
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          3
+          1
         ],
         [
           "Vorstädte",
-          49
-        ],
-        [
-          "Am Ring",
-          70
-        ],
-        [
-          "Breite",
-          140
-        ],
-        [
-          "St. Alban",
-          130
-        ],
-        [
-          "Gundeldingen",
-          345
-        ],
-        [
-          "Bruderholz",
-          45
-        ],
-        [
-          "Bachletten",
-          95
-        ],
-        [
-          "Gotthelf",
-          76
-        ],
-        [
-          "Iselin",
-          525
-        ],
-        [
-          "St. Johann",
-          408
-        ],
-        [
-          "Altstadt Kleinbasel",
           27
         ],
         [
+          "Am Ring",
+          82
+        ],
+        [
+          "Breite",
+          137
+        ],
+        [
+          "St. Alban",
+          145
+        ],
+        [
+          "Gundeldingen",
+          313
+        ],
+        [
+          "Bruderholz",
+          47
+        ],
+        [
+          "Bachletten",
+          100
+        ],
+        [
+          "Gotthelf",
+          87
+        ],
+        [
+          "Iselin",
+          469
+        ],
+        [
+          "St. Johann",
+          438
+        ],
+        [
+          "Altstadt Kleinbasel",
+          29
+        ],
+        [
           "Clara",
-          94
+          93
         ],
         [
           "Wettstein",
-          54
+          44
         ],
         [
           "Hirzbrunnen",
-          148
+          134
         ],
         [
           "Rosental",
-          223
+          201
         ],
         [
           "Matthäus",
-          458
+          420
         ],
         [
           "Klybeck",
-          316
+          304
         ],
         [
           "Kleinhüningen",
-          120
+          96
         ],
         [
           "Riehen",
-          253
+          231
         ],
         [
           "Bettingen",
-          5
+          8
         ]
       ],
       "name": "Anzahl Sozialhilfebeziehender"
@@ -7079,7 +7079,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7095,7 +7095,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "colorAxis": {
     "min": 0,
@@ -7118,30 +7118,30 @@
         "from": 0,
         "to": 4.999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E...\u003C\u002Fspan\u003E5,0"
       },
       {
         "from": 5,
-        "to": 8.999,
+        "to": 6.999,
         "color": "#A8C3CA",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E 8,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E5,0 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E 6,9"
       },
       {
-        "from": 9,
-        "to": 13.999,
+        "from": 7,
+        "to": 9.999,
         "color": "#689199",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0\u003C\u002Fspan\u003E9,0 − 13,9"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E7,0 − \u003Cspan style='color: rgba(0,0,0,0)'\u003E.\u003C\u002Fspan\u003E 9,9"
       },
       {
-        "from": 14,
-        "to": 19.999,
+        "from": 10,
+        "to": 16.999,
         "color": "#246370",
-        "name": "14,0 − 19,9"
+        "name": "10,0 − 16,9"
       },
       {
-        "from": 20,
+        "from": 17,
         "color": "#083038",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0\u003C\u002Fspan\u003E ≥ 20,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0\u003C\u002Fspan\u003E ≥ 17,0"
       }
     ]
   },

@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.0115429011
-        ],
-        [
-          "Bettingen",
-          0.0148392415
+          0.0121473354
         ],
         [
           "Bruderholz",
-          0.0189163193
+          0.0191468993
+        ],
+        [
+          "Bettingen",
+          0.0194915254
         ],
         [
           "Bachletten",
-          0.0259136213
-        ],
-        [
-          "Am Ring",
-          0.0322580645
-        ],
-        [
-          "Wettstein",
-          0.0330935252
+          0.0254082156
         ],
         [
           "Vorstädte",
-          0.0357071614
+          0.0312811317
+        ],
+        [
+          "Wettstein",
+          0.0322171946
+        ],
+        [
+          "Am Ring",
+          0.0329088953
         ],
         [
           "Riehen",
-          0.0370197687
+          0.0344634613
         ],
         [
           "St. Alban",
-          0.0382347841
+          0.0395946062
         ],
         [
           "Gotthelf",
-          0.0442618224
+          0.044447641
         ],
         [
           "Hirzbrunnen",
-          0.0496960648
+          0.0476190476
         ],
         [
           "Breite",
-          0.0569521691
+          0.0541380075
         ],
         [
           "Altstadt Kleinbasel",
-          0.0678936605
+          0.0672478207
         ],
         [
           "Gundeldingen",
-          0.0738590979
+          0.0683296024
         ],
         [
           "St. Johann",
-          0.0866516806
+          0.0866933305
         ],
         [
           "Clara",
-          0.0877021068
-        ],
-        [
-          "Iselin",
-          0.0956025196
+          0.0876376989
         ],
         [
           "Rosental",
-          0.1030701754
+          0.0891010342
+        ],
+        [
+          "Iselin",
+          0.0913558319
         ],
         [
           "Matthäus",
-          0.1157151041
+          0.1097258486
         ],
         [
           "Kleinhüningen",
-          0.1263121064
+          0.1143674053
         ],
         [
           "Klybeck",
-          0.1373920197
+          0.1358297637
         ]
       ],
       "name": "Sozialhilfequote",
@@ -99,11 +99,11 @@
           1
         ],
         [
-          "Bettingen",
+          "Bruderholz",
           2
         ],
         [
-          "Bruderholz",
+          "Bettingen",
           3
         ],
         [
@@ -111,7 +111,7 @@
           4
         ],
         [
-          "Am Ring",
+          "Vorstädte",
           5
         ],
         [
@@ -119,7 +119,7 @@
           6
         ],
         [
-          "Vorstädte",
+          "Am Ring",
           7
         ],
         [
@@ -159,11 +159,11 @@
           16
         ],
         [
-          "Iselin",
+          "Rosental",
           17
         ],
         [
-          "Rosental",
+          "Iselin",
           18
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": false,

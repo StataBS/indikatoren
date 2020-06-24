@@ -18,6 +18,10 @@
         [
           "2016",
           7430
+        ],
+        [
+          "2018",
+          7383
         ]
       ],
       "name": "Industrie (inkl. Chemie\u002FPharma, ohne Energie\u002FWasser)",
@@ -41,6 +45,10 @@
         [
           "2016",
           10851
+        ],
+        [
+          "2018",
+          11133
         ]
       ],
       "name": "Pharma",
@@ -64,6 +72,10 @@
         [
           "2016",
           6011
+        ],
+        [
+          "2018",
+          6366
         ]
       ],
       "name": "Baugewerbe",
@@ -190,7 +202,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

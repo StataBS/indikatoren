@@ -42,7 +42,11 @@
         ],
         [
           "2016",
-          0.864193925233645
+          0.864194
+        ],
+        [
+          "2018",
+          0.863516
         ]
       ],
       "name": "Verhältnis der Löhne von Frauen und Männern (rechte Achse)",
@@ -90,6 +94,10 @@
         [
           "2016",
           5918
+        ],
+        [
+          "2018",
+          5884
         ]
       ],
       "name": "Bruttolohn der Frauen",
@@ -137,6 +145,10 @@
         [
           "2016",
           6848
+        ],
+        [
+          "2018",
+          6814
         ]
       ],
       "name": "Bruttolohn der Männer",
@@ -275,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": true,

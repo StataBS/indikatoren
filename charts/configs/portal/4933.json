@@ -2,115 +2,123 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
-          "2003 (N=208)",
-          9.1
+          "2003",
+          19
         ],
         [
-          "2005 (N=223)",
-          14.3
+          "2005",
+          32
         ],
         [
-          "2007 (N=212)",
-          10.4
+          "2007",
+          22
         ],
         [
-          "2011 (N=179)",
-          12.8
+          "2011",
+          23
         ],
         [
-          "2015 (N=97)",
-          18.6
+          "2015",
+          18
+        ],
+        [
+          "2019",
+          14
         ]
       ],
-      "name": "Sehr stark",
+      "name": "Sehr",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#73B97C",
       "data": [
         [
-          "2003 (N=208)",
-          30.8
+          "2003",
+          64
         ],
         [
-          "2005 (N=223)",
-          34.1
+          "2005",
+          76
         ],
         [
-          "2007 (N=212)",
-          34.4
+          "2007",
+          73
         ],
         [
-          "2011 (N=179)",
-          39.7
+          "2011",
+          71
         ],
         [
-          "2015 (N=97)",
-          43.3
+          "2015",
+          42
+        ],
+        [
+          "2019",
+          39
         ]
       ],
-      "name": "Eher stark",
+      "name": "Eher",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#FABD24",
       "data": [
         [
-          "2003 (N=208)",
-          34.6
+          "2003",
+          72
         ],
         [
-          "2005 (N=223)",
-          31.8
+          "2005",
+          71
         ],
         [
-          "2007 (N=212)",
-          33.5
+          "2007",
+          71
         ],
         [
-          "2011 (N=179)",
-          33.5
+          "2011",
+          60
         ],
         [
-          "2015 (N=97)",
-          29.9
+          "2015",
+          29
+        ],
+        [
+          "2019",
+          67
         ]
       ],
       "name": "Eher nicht",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#B00000",
       "data": [
         [
-          "2003 (N=208)",
-          25.5
+          "2003",
+          53
         ],
         [
-          "2005 (N=223)",
-          19.7
+          "2005",
+          44
         ],
         [
-          "2007 (N=212)",
-          21.7
+          "2007",
+          46
         ],
         [
-          "2011 (N=179)",
-          14
+          "2011",
+          25
         ],
         [
-          "2015 (N=97)",
-          7.2
+          "2015",
+          7
+        ],
+        [
+          "2019",
+          27
         ]
       ],
       "name": "Gar nicht",
@@ -118,31 +126,64 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
-          "2003 (N=208)",
+          "2003",
           0
         ],
         [
-          "2005 (N=223)",
+          "2005",
           0
         ],
         [
-          "2007 (N=212)",
+          "2007",
           0
         ],
         [
-          "2011 (N=179)",
-          0.3
+          "2011",
+          0
         ],
         [
-          "2015 (N=97)",
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          7
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
           1
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -162,10 +203,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -189,13 +242,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4933"
+    "renderTo": "container-4933",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -212,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?» – nur Befragte im Alter zwischen 18 und 29 Jahren"
+    "text": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,7 +292,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -247,12 +305,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -268,24 +329,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F20.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 4933

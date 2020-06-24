@@ -4,10 +4,6 @@
       "color": "#FF8028",
       "data": [
         [
-          2007,
-          17.327752912017
-        ],
-        [
           2008,
           17.617796556611
         ],
@@ -42,6 +38,10 @@
         [
           2016,
           20.11370116
+        ],
+        [
+          2017,
+          19.9369085173502
         ]
       ],
       "name": "Anteil Veranlagungen mit Zuwendungen"
@@ -110,7 +110,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -169,7 +169,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

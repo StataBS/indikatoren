@@ -1,44 +1,34 @@
-{
- "title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
- "subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
- "kuerzel": "I.50.1.02953",
- "kuerzelKunde": "8.1",
- "description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
- "id": 2953,
- "thema": "50 Befragungen",
- "unterthema": "Bevölkerungsbefragung",
- "kennzahlenset": "Legislaturplan",
- "raeumlicheGliederung": [
-  "Kanton"
- ],
- "aktualisierungsdatum": "2016-12-14T12:12:59.5959",
- "schlagwort": [
-  "Zufriedenheit",
-  "Museum",
-  "Kunst",
-  "Quartier",
-  "Standort"
- ],
- "stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
- "stufe2": "",
- "stufe3": "",
- "stufe4": "",
- "stufe5": "",
- "lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
- "erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
- "template": "template001",
- "visible": true,
- "visibleInPortal": true,
- "orderKey": "08_00_00_00_00_001",
- "parentId": null,
- "children": [
-  "6275"
- ],
- "renderLink": [],
- "quellenangabe": [
-  "Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
- ],
- "externalLinks": [
-  ""
- ]
+{"title":"Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
+"subtitle":"«Wie zufrieden sind Sie mit dem Kulturangebot?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
+"kuerzel":"I.50.1.2953",
+"kuerzelKunde":"8.1",
+"description":"Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
+"id":2953,
+"thema":"50 Befragungen",
+"unterthema":"Bevölkerungsbefragung",
+"kennzahlenset":"Legislaturplan",
+"raeumlicheGliederung":["Kanton"],
+"aktualisierungsdatum":"2020-06-22T17:56:43.4343",
+"stufe1":"Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
+"stufe2":"",
+"stufe3":"",
+"stufe4":"",
+"stufe5":"", 
+"lesehilfe":"91,4% der im Jahr 2019 Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Die Zufriedenheit mit dem Kulturangebot nimmt mit steigendem Alter zu. Frauen zeigen sich zufriedener mit dem Kulturangebot als Männer.",
+"erlaeuterungen":"Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+"template":"template001",
+"darstellungsart":"Grafik",
+"printformat":"", 
+"visible":true,
+"visibleInPortal":true,
+"orderKey":"08_00_00_00_00_001",
+"parentId":null,
+"children":["6275"],
+"renderLink":[],
+"quellenangabe":["Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"],
+"datenInChartIntegriert":false,
+"externalLinks":[""],
+"data-id":2953, 
+"chart-id":2953, 
+"filter":""
 }

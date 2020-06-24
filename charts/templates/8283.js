@@ -1,5 +1,8 @@
 (function(){
     return {
+        subtitle:{
+            useHTML: true
+        },
 	"series": [{
 		"color": "#68AB2B"
 	},

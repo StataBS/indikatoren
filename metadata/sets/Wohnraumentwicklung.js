@@ -1,8 +1,8 @@
 var indikatorensetData = [
 	{
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
-		"kuerzel": "I.50.1.04127",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
+		"kuerzel": "I.50.1.4127",
 		"kuerzelKunde": "0.1.A",
 		"description": "Zufriedenheit mit dem Wohnungsangebot",
 		"thema": "50 Befragungen",
@@ -11,27 +11,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T14:07:53.5353",
+		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hälfte der Befragten ist mit dem Wohnungsangebot «eher zufrieden» oder «sehr zufrieden». Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder angestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4127,
-		"darstellungsart": "Grafik"
+		"data-id": 4127,
+		"chart-id": 4127,
+		"filter": "",
+		"id": 4127
 	},
 	{
 		"title": "Mietpreisentwicklung",
@@ -569,13 +574,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:39:58.5858",
+		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2018 46% aus, 41% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2019 47% aus, 41% sind Familienhaushalte und 12% werden Anderen Haushalten zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -608,7 +613,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T15:45:30.3030",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
@@ -676,7 +681,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit von Familien mit dem Wohnungsangebot",
-		"subtitle": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
 		"kuerzel": "I.50.1.4144",
 		"kuerzelKunde": "1.4.C",
 		"description": "Zufriedenheit von Familien mit dem Wohnungsangebot",
@@ -686,14 +691,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:43:22.2222",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Etwas mehr als die Hälfte der befragten Familien ist mit dem Wohnungsangebot im Kanton Basel-Stadt sehr oder eher zufrieden. Seit der ersten Bevölkerungsbefragung im Jahr 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit 2019 wieder gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -702,7 +707,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -725,7 +730,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
+		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -952,8 +957,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?»",
-		"kuerzel": "I.50.1.04151",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild?», Basel-Stadt",
+		"kuerzel": "I.50.1.4151",
 		"kuerzelKunde": "3.3.A",
 		"description": "Zufriedenheit mit Gestaltung und Erhaltung von Gebäuden und Strassenbild",
 		"thema": "50 Befragungen",
@@ -962,27 +967,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-19T13:52:21.2121",
+		"aktualisierungsdatum": "2020-06-22T18:08:23.2323",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.3 Städtebauliche Qualität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzufriedenheit (eher und sehr zufrieden) der Bevölkerung mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild erreicht 2015 mit 84% den höchsten Wert seit Befragungsbeginn 2003.",
-		"erlaeuterungen": "",
+		"lesehilfe": "23,6% der im Jahr 2019 Befragten zeigen sich mit der Gestaltung und Erhaltung von Gebäuden und Strassenbild sehr zufrieden und 52,9% eher zufrieden. Insgesamt 15,5% sind damit eher nicht oder sehr unzufrieden.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_03_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_13"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4151,
-		"darstellungsart": "Grafik"
+		"data-id": 4151,
+		"chart-id": 4151,
+		"filter": "",
+		"id": 4151
 	},
 	{
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
@@ -996,13 +1006,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-08T17:47:33.3333",
+		"aktualisierungsdatum": "2020-06-22T18:08:23.2323",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum stark angestiegen. Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum gestiegen. Zuletzt mit abgeflachter Kurve. Ende 2019 beziehen 2 289 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
 		"erlaeuterungen": "Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -1035,13 +1045,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:44:15.1515",
+		"aktualisierungsdatum": "2020-06-22T18:08:24.2424",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 stark gestiegen und betragen 2018 rund 11,2 Mio. Franken.",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 kontinuierlich gestiegen und betragen 2019 rund 11,7 Mio. Franken.",
 		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1103,8 +1113,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?»",
-		"kuerzel": "I.50.1.04155",
+		"subtitle": "«Wie zufrieden sind Sie mit den Einrichtungen und Angeboten für behinderte Menschen?», Basel-Stadt",
+		"kuerzel": "I.50.1.4155",
 		"kuerzelKunde": "4.2.A",
 		"description": "Zufriedenheit mit Einrichtungen und Angeboten für behinderte Menschen",
 		"thema": "50 Befragungen",
@@ -1113,27 +1123,32 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-01-24T15:35:33.3333",
+		"aktualisierungsdatum": "2020-06-22T18:08:24.2424",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.2 Wohnraum für Betagte und Behinderte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 60% der Befragten sind 2015 mit den Einrichtungen und dem Angebot für Behinderte eher bis sehr zufrieden. Dieser Wert lag 2007 noch bei 40%.",
-		"erlaeuterungen": "",
+		"lesehilfe": "14,0% der im Jahr 2019 Befragten zeigen sich mit den Einrichtungen und Angeboten für behinderte Menschen sehr zufrieden und 27,9% eher zufrieden. Insgesamt 8,7% der Befragten sind damit eher oder sehr unzufrieden. Aufgrund der Änderungen der Befragungsmethodik hat der Anteil der Kategorie «Weiss nicht» deutlich zugenommen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "05_02_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_19"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 4155,
-		"darstellungsart": "Grafik"
+		"data-id": 4155,
+		"chart-id": 4155,
+		"filter": "",
+		"id": 4155
 	},
 	{
 		"title": "Zufriedenheit mit altersangepasster Einrichtung des Wohngebäudes",

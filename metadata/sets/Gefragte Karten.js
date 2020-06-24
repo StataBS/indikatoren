@@ -44,7 +44,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Reinvermögen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2016",
+		"subtitle": "Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06374",
 		"kuerzelKunde": "C18-2",
 		"description": "Reinvermögen nach Wohnviertel",
@@ -54,14 +54,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-09T09:36:16.1616",
+		"aktualisierungsdatum": "2020-06-22T12:46:32.3232",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reinvermögens pro Veranlagung liegt in der Einwohnergemeinde Bettingen vor und beträgt fast 100 000 Franken. Klybeck verzeichnet mit rund 2 000 Franken den kleinsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2017 wird mit rund 109 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt 20 000 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
 		"template": "map002",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",

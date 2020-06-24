@@ -1,6 +1,7 @@
-Jahr,Sehr einverstanden,Eher einverstanden,Weiss nicht / keine Antwort,Eher nicht einverstanden,Überhaupt nicht einverstanden
-2003 (N=1497),8.5,25.4,20.4,28.5,17.2
-2005 (N=1510),7.4,24.4,30.8,15.4,22.1
-2007 (N=1509),5.9,26.8,22.6,31.5,13.2
-2011 (N=1516),16.9,31.1,16.4,25.5,10.2
-2015 (N=1506),9,34.6,23.2,25.5,7.6
+	Sehr einverstanden	Eher einverstanden	Eher nicht einverstanden	Überhaupt nicht einverstanden	Weiss nicht	Keine Angabe
+2003	127	380	426	258	306	0
+2005	111	368	465	232	334	0
+2007	89	404	476	199	341	0
+2011	256	471	386	155	243	5
+2015	136	521	384	115	350	0
+2019	180	642	286	59	805	136

@@ -2,115 +2,123 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
-          "2003 (N=1497)",
-          64.6
+          "2003",
+          967
         ],
         [
-          "2005 (N=1510)",
-          62.4
+          "2005",
+          942
         ],
         [
-          "2007 (N=1509)",
-          63.6
+          "2007",
+          959
         ],
         [
-          "2011 (N=1516)",
-          75.5
+          "2011",
+          1145
         ],
         [
-          "2015 (N=1506)",
-          71.7
+          "2015",
+          1080
+        ],
+        [
+          "2019",
+          1569
         ]
       ],
-      "name": "Sehr gerne",
+      "name": "Sehr gern",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#73B97C",
       "data": [
         [
-          "2003 (N=1497)",
-          31.2
+          "2003",
+          467
         ],
         [
-          "2005 (N=1510)",
-          33.6
+          "2005",
+          508
         ],
         [
-          "2007 (N=1509)",
-          32.1
+          "2007",
+          485
         ],
         [
-          "2011 (N=1516)",
-          22.5
+          "2011",
+          341
         ],
         [
-          "2015 (N=1506)",
-          25.2
+          "2015",
+          379
+        ],
+        [
+          "2019",
+          448
         ]
       ],
-      "name": "Eher gerne",
+      "name": "Eher gern",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#FFDA80",
       "data": [
         [
-          "2003 (N=1497)",
-          3.4
+          "2003",
+          51
         ],
         [
-          "2005 (N=1510)",
-          3.2
+          "2005",
+          48
         ],
         [
-          "2007 (N=1509)",
-          3.5
+          "2007",
+          53
         ],
         [
-          "2011 (N=1516)",
-          1.3
+          "2011",
+          19
         ],
         [
-          "2015 (N=1506)",
-          2
+          "2015",
+          30
+        ],
+        [
+          "2019",
+          38
         ]
       ],
       "name": "Eher ungern",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#B00000",
       "data": [
         [
-          "2003 (N=1497)",
-          0.6
+          "2003",
+          9
         ],
         [
-          "2005 (N=1510)",
-          0.7
+          "2005",
+          11
         ],
         [
-          "2007 (N=1509)",
-          0.5
+          "2007",
+          7
         ],
         [
-          "2011 (N=1516)",
-          0.6
+          "2011",
+          9
         ],
         [
-          "2015 (N=1506)",
-          0.7
+          "2015",
+          11
+        ],
+        [
+          "2019",
+          12
         ]
       ],
       "name": "Ganz ungern",
@@ -118,31 +126,64 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
-          "2003 (N=1497)",
-          0.2
+          "2003",
+          3
         ],
         [
-          "2005 (N=1510)",
-          0.1
+          "2005",
+          1
         ],
         [
-          "2007 (N=1509)",
-          0.3
+          "2007",
+          5
         ],
         [
-          "2011 (N=1516)",
-          0.1
+          "2011",
+          2
         ],
         [
-          "2015 (N=1506)",
-          0.4
+          "2015",
+          6
+        ],
+        [
+          "2019",
+          7
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          34
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -162,10 +203,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -189,13 +242,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4720"
+    "renderTo": "container-4720",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -212,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»"
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,7 +292,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -247,12 +305,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -268,24 +329,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c.\u003Cbr\u002F\u003EZuletzt geändert: 2017-3-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 4720

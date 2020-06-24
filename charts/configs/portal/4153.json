@@ -63,6 +63,10 @@
         [
           "2018",
           11184592
+        ],
+        [
+          "2019",
+          11664203
         ]
       ],
       "name": "Familienmietzinsbeiträge in Franken",
@@ -166,7 +170,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": false,

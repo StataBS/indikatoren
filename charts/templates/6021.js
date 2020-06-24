@@ -23,6 +23,7 @@
   },
  "legend": {
     "enabled": true,
+    "reversed": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",

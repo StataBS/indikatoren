@@ -6,8 +6,8 @@ global geojson_wohnviertelEPSG2056
     return {
 		"colorAxis": {
 			min: 0,
-			max: 100000,
-			tickInterval: 25000,
+			max: 120000,
+			tickInterval: 30000,
 			"minColor": "#E7CEE2",
 			"maxColor": "#2E1435",
 			"labels": {
@@ -18,7 +18,7 @@ global geojson_wohnviertelEPSG2056
 		},
 		"legend": {
 			"title": {
-				"text": "Median pro Veranlagung <br/> in 1 000 Fr.",
+				"text": "Median pro Veranlagung <br/> in 1000 Fr.",
 					style: {'fontWeight':' bold'} 
 			}
 		},
