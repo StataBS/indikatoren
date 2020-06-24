@@ -37,9 +37,11 @@
         "align": "left",
         //"x": 145,
         //"y": 70,
-        "itemWidth": 150,
+        "itemWidth": 126,
         "itemStyle": {
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            textOverflow: "none",
+    whiteSpace: "nowrap"
         }
     },      
     "chart":

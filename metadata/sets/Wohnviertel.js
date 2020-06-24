@@ -1,7 +1,7 @@
 var indikatorensetData = [
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
@@ -11,14 +11,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:50:48.4848",
+		"aktualisierungsdatum": "2020-06-22T18:12:54.5454",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "dotplot",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -784,7 +784,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.05109",
 		"kuerzelKunde": "GS-1.B",
 		"description": "Sozialhilfequote",
@@ -794,14 +794,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T10:48:01.011",
+		"aktualisierungsdatum": "2020-06-22T18:12:54.5454",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfeempfänger ist mit 13,7% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
+		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "map001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",

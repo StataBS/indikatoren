@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2003",
@@ -24,15 +22,17 @@
         [
           "2015",
           469
+        ],
+        [
+          "2019",
+          437
         ]
       ],
       "name": "Sehr positiv",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#68AB2B",
       "data": [
         [
           "2003",
@@ -53,15 +53,17 @@
         [
           "2015",
           642
+        ],
+        [
+          "2019",
+          942
         ]
       ],
       "name": "Eher positiv",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#FABD24",
       "data": [
         [
           "2003",
@@ -82,15 +84,17 @@
         [
           "2015",
           133
+        ],
+        [
+          "2019",
+          193
         ]
       ],
       "name": "Eher negativ",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#DC440E",
       "data": [
         [
           "2003",
@@ -111,6 +115,10 @@
         [
           "2015",
           47
+        ],
+        [
+          "2019",
+          66
         ]
       ],
       "name": "Sehr negativ",
@@ -118,8 +126,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -135,14 +141,49 @@
         ],
         [
           "2011",
-          174
+          165
         ],
         [
           "2015",
-          215
+          214
+        ],
+        [
+          "2019",
+          364
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          9
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          106
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -230,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
+    "text": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -268,7 +309,8 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -287,23 +329,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
         },
-    "reversed": true
+    "reversed": false
   },
   "exporting": {
     "filename": 4859

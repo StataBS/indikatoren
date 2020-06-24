@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    //"tickInterval": 5,
+    "tickInterval": 1,
   },
   "yAxis": {
     "min": 0, 
@@ -12,7 +12,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>%<br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b>%<br/>'
   },
  "series": [
   {"color": "#b00000"}, /**/

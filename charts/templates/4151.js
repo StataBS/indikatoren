@@ -1,29 +1,29 @@
 (function(){
-    return {
-  "xAxis": {
-    "type": "category"
+  return {
+  series: [
+    { "color": "#007a2f"}, // dunkelgrün
+    { "color": "#68ab2b"}, // grün
+    { "color": "#ffbb58"}, // orange
+    { "color": "#dc440e"}, // rot
+    { "color": "#C8C8C8"}, // grau
+    { "color": "#6F6F6F"}, // grau
+  ],
+  xAxis: {
+      type: "category"
   },
-  "series": [
-    {
-      "color": "#999999",
-      "index": 2
-    },
-    {
-      "color": "#dc440e",
-      "index": 0
-    },
-    {
-      "color": "#ffbb58",
-      "index": 1
-    },
-    {
-      "color": "#68ab2b",
-      "index": 3
-    },
-    {
-      "color": "#007a2f",
-      "index": 4
-    }
-  ]
-	}
+  yAxis: {
+      reversedStacks: false,
+  },
+  legend: {
+    reversed: false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
+    labelFormatter: function(){
+        return this.name.replace("/", " /<br/>");
+
+      }
+  }
+};
 }());

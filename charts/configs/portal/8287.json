@@ -45,6 +45,10 @@
         [
           2018,
           703
+        ],
+        [
+          2019,
+          746
         ]
       ],
       "name": "Anzahl Straftaten"
@@ -147,7 +151,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": false,

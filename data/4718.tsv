@@ -1,9 +1,12 @@
-Antwort	 Regelmässig	 Hin und wieder	 Selten	 Nie	 Nicht möglich	 Keine Angabe
-Arbeitskollegen 2015	0.1	1.7	3.4	50.4	20.8	23.6
-Arbeitskollegen 2011		0.5	2.4	51.2	18.1	27.8
-.
-Nachbarn 2015	1.6	12.4	11.4	50.0	6.0	18.5
-Nachbarn 2011	0.9	6.7	8.6	54.2	0.1	29.5
-..
-Freunde und Bekannte 2015	2.0	10.3	12.1	50.5	6.7	18.4
-Freunde und Bekannte 2011	1.5	6.7	7.5	53.1	8.1	23.1
+Jahr	Regelmässig	Hin und wieder	Selten	Nie	Nicht möglich	Keine Angabe
+2019: Arbeitskollegen	2	15	41	725	312	315
+2019: Nachbarn	26	166	185	700	92	241
+2019: Freunde und Bekannte	24	150	169	734	90	243
+.						
+2015: Arbeitskollegen	2	24	48	719	297	337
+2015: Nachbarn	23	177	163	714	86	264
+2015: Freunde und Bekannte	29	147	172	720	96	263
+..						
+2011: Arbeitskollegen	0	8	40	865	306	470
+2011: Nachbarn	16	113	146	915	1	498
+2011: Freund und Bekannte	25	113	127	897	136	391

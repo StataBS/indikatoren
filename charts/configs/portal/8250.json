@@ -5,10 +5,6 @@
       "index": 1,
       "data": [
         [
-          2009,
-          6921
-        ],
-        [
           2010,
           6955
         ],
@@ -43,6 +39,10 @@
         [
           2018,
           6879
+        ],
+        [
+          2019,
+          6929
         ]
       ],
       "name": "EL zur IV"
@@ -51,10 +51,6 @@
       "color": "#FFDA80",
       "index": 2,
       "data": [
-        [
-          2009,
-          5067
-        ],
         [
           2010,
           5167
@@ -90,6 +86,10 @@
         [
           2018,
           5241
+        ],
+        [
+          2019,
+          5264
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -98,10 +98,6 @@
       "color": "#923F8D",
       "index": 3,
       "data": [
-        [
-          2009,
-          6538
-        ],
         [
           2010,
           6684
@@ -137,6 +133,10 @@
         [
           2018,
           8262
+        ],
+        [
+          2019,
+          8606
         ]
       ],
       "name": "EL zur AHV"
@@ -145,10 +145,6 @@
       "color": "#CD9C00",
       "index": 4,
       "data": [
-        [
-          2009,
-          4252
-        ],
         [
           2010,
           4389
@@ -184,6 +180,10 @@
         [
           2018,
           5802
+        ],
+        [
+          2019,
+          6070
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -269,7 +269,7 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -285,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "enabled": true,

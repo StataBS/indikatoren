@@ -2,115 +2,123 @@
   "series": [
     {
       "color": "#007A2F",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
-          "2003 (N=1497)",
-          21
+          "2003",
+          314
         ],
         [
-          "2005 (N=782)",
-          18.5
+          "2005",
+          145
         ],
         [
-          "2007 (N=762)",
-          19.8
+          "2007",
+          151
         ],
         [
-          "2011 (N=1009)",
-          31.5
+          "2011",
+          318
         ],
         [
-          "2015 (N=1001)",
-          31.3
+          "2015",
+          313
+        ],
+        [
+          "2019",
+          376
         ]
       ],
       "name": "Sehr gut",
       "turboThreshold": 0
     },
     {
-      "color": "#73BA7C",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#73B97C",
       "data": [
         [
-          "2003 (N=1497)",
-          61.9
+          "2003",
+          926
         ],
         [
-          "2005 (N=782)",
-          65.6
+          "2005",
+          513
         ],
         [
-          "2007 (N=762)",
-          65.5
+          "2007",
+          499
         ],
         [
-          "2011 (N=1009)",
-          55.7
+          "2011",
+          562
         ],
         [
-          "2015 (N=1001)",
-          58.4
+          "2015",
+          585
+        ],
+        [
+          "2019",
+          1243
         ]
       ],
       "name": "Eher gut",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#FABD24",
       "data": [
         [
-          "2003 (N=1497)",
-          14.2
+          "2003",
+          212
         ],
         [
-          "2005 (N=782)",
-          12.8
+          "2005",
+          100
         ],
         [
-          "2007 (N=762)",
-          12.9
+          "2007",
+          98
         ],
         [
-          "2011 (N=1009)",
-          9.6
+          "2011",
+          97
         ],
         [
-          "2015 (N=1001)",
-          8.7
+          "2015",
+          87
+        ],
+        [
+          "2019",
+          293
         ]
       ],
-      "name": "Eher nicht so gut",
+      "name": "Eher nicht gut",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#B00000",
       "data": [
         [
-          "2003 (N=1497)",
-          2.1
+          "2003",
+          31
         ],
         [
-          "2005 (N=782)",
-          2.7
+          "2005",
+          21
         ],
         [
-          "2007 (N=762)",
-          1.6
+          "2007",
+          12
         ],
         [
-          "2011 (N=1009)",
-          2.9
+          "2011",
+          29
         ],
         [
-          "2015 (N=1001)",
-          1.1
+          "2015",
+          11
+        ],
+        [
+          "2019",
+          66
         ]
       ],
       "name": "Gar nicht gut",
@@ -118,31 +126,64 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
-          "2003 (N=1497)",
-          0.9
+          "2003",
+          14
         ],
         [
-          "2005 (N=782)",
-          0.4
+          "2005",
+          3
         ],
         [
-          "2007 (N=762)",
-          0.3
+          "2007",
+          2
         ],
         [
-          "2011 (N=1009)",
-          0.3
+          "2011",
+          2
         ],
         [
-          "2015 (N=1001)",
-          0.5
+          "2015",
+          5
+        ],
+        [
+          "2019",
+          45
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          1
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          85
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -162,10 +203,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -189,13 +242,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4861"
+    "renderTo": "container-4861",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -212,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie geht es Ihnen wirtschaftlich gesehen im Moment?»"
+    "text": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,7 +292,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -247,12 +305,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -268,24 +329,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14b.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 4861

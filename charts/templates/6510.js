@@ -39,7 +39,8 @@
     { "color": "#246370", index: 4, legendIndex: 4}, // 
     { "color": "#A8C3CA", index: 3, legendIndex: 3}, // 
     { "color": "#FABD24", index: 2, legendIndex: 2}, // 
-    { "color": "#999999", index: 0, legendIndex: 0}, // 
+    { "color": "#C8C8C8", index: 1, legendIndex: 1}, // grau
+    { "color": "#6F6F6F", index: 0, legendIndex: 0}, // grau
   ],
   "legend": { 
     "enabled": true,
@@ -62,7 +63,7 @@
 	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
-      "height": 500,
+      "height": 550,
   },
 }
 }());

@@ -18,6 +18,10 @@
         [
           "2016",
           6502
+        ],
+        [
+          "2018",
+          6538
         ]
       ],
       "name": "Schweiz",
@@ -41,6 +45,10 @@
         [
           "2016",
           6700
+        ],
+        [
+          "2018",
+          6714
         ]
       ],
       "name": "Nordwestschweiz",
@@ -64,6 +72,10 @@
         [
           "2016",
           6869
+        ],
+        [
+          "2018",
+          6965
         ]
       ],
       "name": "Zürich",
@@ -141,7 +153,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Medianlohn in der Schweiz, der Nordwestschweiz und Zürich"
+    "text": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich"
   },
   "subtitle": {
     "style": {
@@ -190,7 +202,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

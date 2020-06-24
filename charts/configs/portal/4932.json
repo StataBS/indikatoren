@@ -22,6 +22,10 @@
         [
           "2015 (N=468)",
           56.4
+        ],
+        [
+          "2019 (N=1237)",
+          46.9
         ]
       ],
       "name": "Sicherheit der Arbeitsstelle",
@@ -49,6 +53,10 @@
         [
           "2015 (N=468)",
           47.2
+        ],
+        [
+          "2019 (N=1237)",
+          47.7
         ]
       ],
       "name": "Betriebsklima",
@@ -76,6 +84,10 @@
         [
           "2015 (N=468)",
           63
+        ],
+        [
+          "2019 (N=1237)",
+          58.3
         ]
       ],
       "name": "Entwicklungsperspektiven",
@@ -103,6 +115,10 @@
         [
           "2015 (N=468)",
           36.8
+        ],
+        [
+          "2019 (N=1237)",
+          24.5
         ]
       ],
       "name": "Arbeitsumfeld",
@@ -130,6 +146,10 @@
         [
           "2015 (N=468)",
           52.6
+        ],
+        [
+          "2019 (N=1237)",
+          50
         ]
       ],
       "name": "Lohn",
@@ -202,7 +222,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?»"
+    "text": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -242,7 +262,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E",
     "shared": false
   },
   "credits": {
@@ -258,7 +278,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F14f.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "reversed": false,
@@ -269,6 +289,7 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
+      "width": undefined,
       "textOverflow": null
     },
     "symbolRadius": 0,
