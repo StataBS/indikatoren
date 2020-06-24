@@ -18,6 +18,10 @@
         [
           "2016",
           7740
+        ],
+        [
+          "2018",
+          7866
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -41,6 +45,10 @@
         [
           "2016",
           9266
+        ],
+        [
+          "2018",
+          9020
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -64,6 +72,10 @@
         [
           "2016",
           6402
+        ],
+        [
+          "2018",
+          6377
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -87,6 +99,10 @@
         [
           "2016",
           6125
+        ],
+        [
+          "2018",
+          6263
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -213,7 +229,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-20"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

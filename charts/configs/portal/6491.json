@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweizer",
-          16.67
+          22.95
         ],
         [
           "Ausländer",
-          39.76
+          35.23
         ]
       ],
       "name": "Diebstahl",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Schweizer",
-          8.33
+          2.46
         ],
         [
           "Ausländer",
-          6.02
+          5.68
         ]
       ],
       "name": "Sachbeschädigung",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Schweizer",
-          0
+          6.56
         ],
         [
           "Ausländer",
-          2.41
+          1.14
         ]
       ],
       "name": "Körperverletzung",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Schweizer",
-          23.33
+          9.84
         ],
         [
           "Ausländer",
-          10.84
+          5.68
         ]
       ],
       "name": "Betäubungsmittelkonsum",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Schweizer",
-          9.17
+          5.74
         ],
         [
           "Ausländer",
-          3.61
+          7.95
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          42.5
+          52.46
         ],
         [
           "Ausländer",
-          37.35
+          44.32
         ]
       ],
       "name": "Übrige",
@@ -187,7 +187,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-20"
+    "text": "Quelle: Polizeiliche Kriminalitätsstatistk (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

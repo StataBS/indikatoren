@@ -1,116 +1,93 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#246370",
       "data": [
         [
-          "2003 (N=1497)",
-          15.6
+          "2003",
+          234
         ],
         [
-          "2005 (N=1510)",
-          11.9
+          "2005",
+          180
         ],
         [
-          "2007 (N=1509)",
-          10.5
+          "2007",
+          159
         ],
         [
-          "2011 (N=1516)",
-          20.5
+          "2011",
+          311
         ],
         [
-          "2015 (N=1506)",
-          14.5
+          "2015",
+          219
+        ],
+        [
+          "2019",
+          212
         ]
       ],
       "name": "Sehr einverstanden",
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#689199",
       "data": [
         [
-          "2003 (N=1497)",
-          22.8
+          "2003",
+          341
         ],
         [
-          "2005 (N=1510)",
-          23.6
+          "2005",
+          357
         ],
         [
-          "2007 (N=1509)",
-          25.5
+          "2007",
+          385
         ],
         [
-          "2011 (N=1516)",
-          24.2
+          "2011",
+          367
         ],
         [
-          "2015 (N=1506)",
-          32.4
+          "2015",
+          488
+        ],
+        [
+          "2019",
+          495
         ]
       ],
       "name": "Eher einverstanden",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#FABD24",
       "data": [
         [
-          "2003 (N=1497)",
-          10.6
+          "2003",
+          443
         ],
         [
-          "2005 (N=1510)",
-          9.7
+          "2005",
+          481
         ],
         [
-          "2007 (N=1509)",
-          11.1
+          "2007",
+          496
         ],
         [
-          "2011 (N=1516)",
-          6.3
+          "2011",
+          431
         ],
         [
-          "2015 (N=1506)",
-          10.5
-        ]
-      ],
-      "name": "Weiss nicht \u002F keine Angabe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FFBB58",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003 (N=1497)",
-          29.6
+          "2015",
+          470
         ],
         [
-          "2005 (N=1510)",
-          31.9
-        ],
-        [
-          "2007 (N=1509)",
-          32.9
-        ],
-        [
-          "2011 (N=1516)",
-          28.4
-        ],
-        [
-          "2015 (N=1506)",
-          31.2
+          "2019",
+          450
         ]
       ],
       "name": "Eher nicht einverstanden",
@@ -118,31 +95,95 @@
     },
     {
       "color": "#FF8028",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
-          "2003 (N=1497)",
-          21.4
+          "2003",
+          321
         ],
         [
-          "2005 (N=1510)",
-          22.8
+          "2005",
+          345
         ],
         [
-          "2007 (N=1509)",
-          19.9
+          "2007",
+          301
         ],
         [
-          "2011 (N=1516)",
-          20.6
+          "2011",
+          312
         ],
         [
-          "2015 (N=1506)",
-          11.4
+          "2015",
+          171
+        ],
+        [
+          "2019",
+          136
         ]
       ],
       "name": "Überhaupt nicht einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          158
+        ],
+        [
+          "2005",
+          147
+        ],
+        [
+          "2007",
+          168
+        ],
+        [
+          "2011",
+          92
+        ],
+        [
+          "2015",
+          158
+        ],
+        [
+          "2019",
+          662
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          3
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          153
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -162,10 +203,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -189,13 +242,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4862"
+    "renderTo": "container-4862",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -212,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Alle Kinder erhalten die gleichen Bildungschancen.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -233,7 +292,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -247,12 +305,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -268,24 +329,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_3.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false,
+    "itemDistance": 0
   },
   "exporting": {
     "filename": 4862

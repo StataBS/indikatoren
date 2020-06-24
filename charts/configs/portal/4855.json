@@ -1,100 +1,108 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#007A2F",
       "data": [
         [
-          "2005 (N=1510)",
-          25.4
+          "2005",
+          384
         ],
         [
-          "2007 (N=1509)",
-          21.7
+          "2007",
+          328
         ],
         [
-          "2011 (N=1516)",
-          23.5
+          "2011",
+          357
         ],
         [
-          "2015 (N=1506)",
-          15.4
+          "2015",
+          232
+        ],
+        [
+          "2019",
+          308
         ]
       ],
       "name": "Stimme sehr zu",
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#68AB2B",
       "data": [
         [
-          "2005 (N=1510)",
-          32.2
+          "2005",
+          486
         ],
         [
-          "2007 (N=1509)",
-          35.9
+          "2007",
+          542
         ],
         [
-          "2011 (N=1516)",
-          29.6
+          "2011",
+          448
         ],
         [
-          "2015 (N=1506)",
-          31.3
+          "2015",
+          472
+        ],
+        [
+          "2019",
+          484
         ]
       ],
       "name": "Stimme eher zu",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 4,
-      "legendIndex": 4,
+      "color": "#FABD24",
       "data": [
         [
-          "2005 (N=1510)",
-          24.4
+          "2005",
+          369
         ],
         [
-          "2007 (N=1509)",
-          25.5
+          "2007",
+          385
         ],
         [
-          "2011 (N=1516)",
-          23.8
+          "2011",
+          361
         ],
         [
-          "2015 (N=1506)",
-          29
+          "2015",
+          436
+        ],
+        [
+          "2019",
+          561
         ]
       ],
       "name": "Stimme eher nicht zu",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#DC440E",
       "data": [
         [
-          "2005 (N=1510)",
-          15.6
+          "2005",
+          235
         ],
         [
-          "2007 (N=1509)",
-          12.9
+          "2007",
+          194
         ],
         [
-          "2011 (N=1516)",
-          21.4
+          "2011",
+          325
         ],
         [
-          "2015 (N=1506)",
-          19.7
+          "2015",
+          297
+        ],
+        [
+          "2019",
+          559
         ]
       ],
       "name": "Stimme überhaupt nicht zu",
@@ -102,27 +110,56 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
-          "2005 (N=1510)",
-          2.4
+          "2005",
+          36
         ],
         [
-          "2007 (N=1509)",
-          4
+          "2007",
+          60
         ],
         [
-          "2011 (N=1516)",
-          1.6
+          "2011",
+          25
         ],
         [
-          "2015 (N=1506)",
-          4.6
+          "2015",
+          66
+        ],
+        [
+          "2019",
+          121
         ]
       ],
-      "name": "Weiss nicht \u002F keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2019",
+          75
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -142,10 +179,22 @@
       "style": {
         "color": "#000000",
         "width": 1,
+        "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
       "formatter": function() {
-            	return this.value.replace(" ", "<br/>");
+                //add sum of observations of visible series to the axis label
+                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
+                    return val.visible;
+                });
+                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
+                    return accumulator + series.yData[indexOfCurrentValue];
+                }, 0);
+                //use N if all series are visible, otherwise use n
+                var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n='; 
+                var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+            	return this.value.replace(" ", "<br/>") + '<br/>(' + nString + sum + ')';
             }
     }
   },
@@ -169,13 +218,19 @@
     "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
-    "spacingBottom": 40,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
     "type": "column",
-    "renderTo": "container-4855"
+    "renderTo": "container-4855",
+    "spacingBottom": 40
   },
   "title": {
     "style": {
@@ -192,7 +247,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.»"
+    "text": "«Wie stehen Sie zu folgender Aussage: Grundsätzlich gibt es einfach zu viele Menschen aus dem Ausland bei uns.», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -213,7 +268,6 @@
   },
   "yAxis": {
     "tickInterval": 10,
-    "reversedStacks": false,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -227,12 +281,15 @@
     "labels": {
       "format": "{value}%",
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -248,24 +305,23 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F18b.\u003Cbr\u002F\u003EZuletzt geändert: 2016-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "width": 115,
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false
   },
   "exporting": {
     "filename": 4855

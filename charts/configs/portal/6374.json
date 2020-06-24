@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          31236
+          31391
         ],
         [
           2,
-          48880.5
+          48690
         ],
         [
           3,
-          38772
+          41941
         ],
         [
           4,
-          14148
+          14799
         ],
         [
           5,
-          59000
+          65590
         ],
         [
           6,
-          12708.5
+          13491
         ],
         [
           7,
-          74863
+          78356.5
         ],
         [
           8,
-          45676
+          50438
         ],
         [
           9,
-          27817
+          30156
         ],
         [
           10,
-          9631
+          10000
         ],
         [
           11,
-          8176
+          8508
         ],
         [
           12,
-          10020
+          9590.5
         ],
         [
           13,
-          8111
+          8430
         ],
         [
           14,
-          31499
+          33876
         ],
         [
           15,
-          18500.5
+          18864
         ],
         [
           16,
-          3833
+          3866
         ],
         [
           17,
-          5302
+          5867
         ],
         [
           18,
-          1964.5
+          2241.5
         ],
         [
           19,
-          3763
+          3415
         ],
         [
           20,
-          60135
+          60515
         ],
         [
           30,
-          99999
+          108794
         ]
       ]
     },
@@ -6785,6 +6785,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6824,6 +6825,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6897,7 +6899,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2016",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {
@@ -6913,7 +6915,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "colorAxis": {
     "min": 0,
@@ -6933,8 +6935,8 @@
     "marker": {
       "color": "black"
     },
-    "max": 100000,
-    "tickInterval": 25000,
+    "max": 120000,
+    "tickInterval": 30000,
     "minColor": "#E7CEE2",
     "maxColor": "#2E1435"
   },
@@ -6958,7 +6960,7 @@
         "fontWeight": " bold",
         "fontSize": "12px"
       },
-      "text": "Median pro Veranlagung \u003Cbr\u002F\u003E in 1 000 Fr."
+      "text": "Median pro Veranlagung \u003Cbr\u002F\u003E in 1000 Fr."
     }
   },
   "tooltip": {

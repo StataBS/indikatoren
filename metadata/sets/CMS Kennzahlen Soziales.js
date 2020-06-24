@@ -419,13 +419,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von EL und Beihilfen zur AHV hat in fast allen Jahren zugenommen. 2018 liegt die Anzahl Personen mit EL zur IV bei 6 879 und EL zur AHV bei 8 262. Beihilfen werden an 5 241 (IV) respektive 5 802 (AHV) Personen ausbezahlt.",
+		"lesehilfe": "Der Bezug von EL und Beihilfen zur AHV hat in fast allen Jahren zugenommen. 2019 liegt die Anzahl Personen mit EL zur IV bei 6 929 und EL zur AHV bei 8 606. Beihilfen werden an 5 264 (IV) respektive 6 070 (AHV) Personen ausbezahlt.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -540,13 +540,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2018 insgesamt 16% aller Übernachtenden aus (2017: 11%). Die Gruppen der 31- bis 40-Jährigen sowie der 41- bis 50-Jährigen sind mit jeweils 24% aller Nutzer die grössten. 8% sind älter als 60 Jahre.",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2019 insgesamt 17% aller Übernachtenden aus (2018: 16%). Die Gruppe der 41- bis 50-Jährigen ist mit 28% aller Nutzer die grösste. 9% sind älter als 60 Jahre.",
 		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal die Notschlafstelle genutzt haben.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -581,13 +581,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Notschlafstellen wurden 2018 von insgesamt 339 unterschiedlichen Männern und 68 Frauen genutzt. Davon hat jeweils rund die Hälfte weniger als 8 Nächte in der Notschlafstelle verbracht. 20,6% aller Frauen und 16,8% aller Männer haben mehr als 60 Nächte in der Notschlafstelle verbracht.",
+		"lesehilfe": "Die Notschlafstellen wurden 2019 von insgesamt 323 unterschiedlichen Männern und 94 Frauen genutzt. Von den Männern haben 63% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 49%. 20% aller Frauen und 22% aller Männer haben im Verlaufe des Jahres 2019 mehr als 60 Nächte in der Notschlafstelle verbracht.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -979,7 +979,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Durch die IG Wohnen vermittelte Wohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.08266",
 		"kuerzelKunde": "1-37",
 		"description": "Durch die IG Wohnen vermittelte Wohnungen",
@@ -989,13 +989,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 hat die IG-Wohnen 105 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel Gundeldingen konnten mit insgesamt 16 am meisten Wohnungen vermittelt werden.",
+		"lesehilfe": "2019 hat die IG Wohnen 82 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel St. Johann konnten mit insgesamt 15 am meisten Wohnungen vermittelt werden.",
 		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -1428,7 +1428,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.08277",
 		"kuerzelKunde": "2-02",
 		"description": "Anteil Familienhaushalte",
@@ -1438,18 +1438,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
-		"stufe1": "Kinderfreundliche Lebensräume",
-		"stufe2": "2.1 Allgemein",
+		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2018 mit 60% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2019 mit 61% am höchsten, gefolgt von der Gemeinde Riehen und dem Wohnviertel Bruderholz (je 57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
 		"template": "mappie001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_202",
+		"orderKey": "01_05_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"8548"
@@ -1592,7 +1592,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Sozialhilfequote der Minderjährigen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.08281",
 		"kuerzelKunde": "2-03",
 		"description": "Sozialhilfequote der Minderjährigen",
@@ -1602,14 +1602,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 25% ist im Klybeck jedes vierte Kind von Sozialhilfe abhängig. In Riehen und der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 2%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebezüger an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebezüger sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"lesehilfe": "Mit 25,2% ist im Klybeck jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebeziehender an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -1674,7 +1674,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2018",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.08283",
 		"kuerzelKunde": "2-08",
 		"description": "Wohnfläche pro Kopf",
@@ -1684,7 +1684,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1845,13 +1845,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 703 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2019 wurden 746 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
 		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2995,14 +2995,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:23:01.011",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 14 699 Haushalten, die Ende 2018 reine Prämienverbilligungen beziehen, handelt es sich um 8 102 rein schweizerische und 5 397 rein ausländische Haushalte. 1 200 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "Von den 16&nbsp249 Haushalten, die Ende 2019 reine Prämienverbilligungen beziehen, handelt es sich um 9&nbsp034 rein schweizerische und 5&nbsp895 rein ausländische Haushalte. 1&nbsp320 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d.&nbsph. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3036,13 +3036,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:20:52.5252",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 beziehen 14 699 Haushalte reine Prämienverbilligungen. Mit 56% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 20% die zweitgrösste Gruppe.",
+		"lesehilfe": "Ende 2019 beziehen 16&nbsp249 Haushalte reine Prämienverbilligungen. Mit 57% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 19% die zweitgrösste Gruppe.",
 		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",
@@ -3157,13 +3157,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 beziehen 2 263 Haushalte Familienmietzinsbeiträge. Bei 63% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 5% sind Konkubinatspaare mit Kindern.",
+		"lesehilfe": "Ende 2019 beziehen 2&nbsp287 Haushalte Familienmietzinsbeiträge. Bei 62% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 6% sind Konkubinatspaare mit Kindern.",
 		"erlaeuterungen": "",
 		"template": "befragungenProzent001",
 		"darstellungsart": "Grafik",

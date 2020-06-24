@@ -18,6 +18,10 @@
         [
           "2016",
           5811
+        ],
+        [
+          "2018",
+          5752
         ]
       ],
       "name": "Handel, Reparatur",
@@ -41,6 +45,10 @@
         [
           "2016",
           5848
+        ],
+        [
+          "2018",
+          5549
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -64,6 +72,10 @@
         [
           "2016",
           4513
+        ],
+        [
+          "2018",
+          4285
         ]
       ],
       "name": "Gastgewerbe",
@@ -87,6 +99,10 @@
         [
           "2016",
           8341
+        ],
+        [
+          "2018",
+          8323
         ]
       ],
       "name": "Information, Kommunikation",
@@ -213,7 +229,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

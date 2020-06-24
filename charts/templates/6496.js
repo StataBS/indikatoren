@@ -4,8 +4,7 @@
         "type": "category",
         "labels": {
            align: "left",
-            x: -130,
-            y: 2,
+            x: -140,
             "formatter": function() {
                 //add sum of observations of visible series to the axis label
                 var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
@@ -26,7 +25,7 @@
   	tickInterval: 20,
   	max: 100,
   	labels:{
-  		type: "category",
+  		"type": "category",
   		rotation: 0,
   	}
   },
@@ -37,37 +36,35 @@
   	}
   },
   "series": [
-    { "color": "#007a2f", index: 4, legendIndex: 0}, // dunkelgrün
-    { "color": "#68ab2b", index: 3, legendIndex: 1}, // grün
-    { "color": "#ffbb58", index: 2, legendIndex: 2}, // orange
-    { "color": "#dc440e", index: 1, legendIndex: 3}, // rot
-    { "color": "#999999", index: 0, legendIndex: 4}, // grau
+    { "color": "#007a2f", index: 5, legendIndex: 0}, // dunkelgrün
+    { "color": "#68AB2B", index: 4, legendIndex: 1}, // grün
+    { "color": "#ffbb58", index: 3, legendIndex: 2}, // orange
+    { "color": "#B00000", index: 2, legendIndex: 3}, // rot
+    { "color": "#C8C8C8", index: 1, legendIndex: 4}, // grau
+    { "color": "#6F6F6F", index: 0, legendIndex: 5}, // grau
   ],
   "legend": { 
+     //y: 55,
     "enabled": true,
+    itemWidth: 150,
     "layout": "horizontal",
-    itemDistance: 5,
-    padding: 0,
-    symbolPadding: 3,
-    itemWidth: 140, 
-    //alignColumns: false, 
     "verticalAlign": "top",
     "align": "left",
-    labelFormatter: function () {
+     "labelFormatter": function () {
             return this.name;
         },
-    itemStyle: {
-        fontWeight: "normal", 
-        textOverflow: null, 
-        whiteSpace: 'nowrap'
+    "itemStyle": {
+        fontWeight: "normal",
+        textOverflow: null,
+        whiteSpace: "nowrap",
     }
   },
 
 "chart": {     
-	 marginLeft: 140, 
+	 marginLeft: 150, 
 	 //marginBottom: 100,
      "inverted": true,
-      "height": 520,
+      "height": 550,
   },
 }
 }());

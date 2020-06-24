@@ -1,120 +1,7 @@
 {
   "series": [
     {
-      "color": "#999999",
-      "index": 2,
-      "data": [
-        [
-          "2003",
-          274
-        ],
-        [
-          "2005",
-          213
-        ],
-        [
-          "2007",
-          259
-        ],
-        [
-          "2011",
-          159
-        ],
-        [
-          "2015",
-          202
-        ]
-      ],
-      "name": "Weiss nicht \u002F Keine Angabe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "index": 0,
-      "data": [
-        [
-          "2003",
-          49
-        ],
-        [
-          "2005",
-          42
-        ],
-        [
-          "2007",
-          23
-        ],
-        [
-          "2011",
-          29
-        ],
-        [
-          "2015",
-          80
-        ]
-      ],
-      "name": "Sehr unzufrieden",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#ffbb58",
-      "index": 1,
-      "data": [
-        [
-          "2003",
-          342
-        ],
-        [
-          "2005",
-          375
-        ],
-        [
-          "2007",
-          278
-        ],
-        [
-          "2011",
-          330
-        ],
-        [
-          "2015",
-          401
-        ]
-      ],
-      "name": "Eher unzufrieden",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68ab2b",
-      "index": 3,
-      "data": [
-        [
-          "2003",
-          601
-        ],
-        [
-          "2005",
-          676
-        ],
-        [
-          "2007",
-          744
-        ],
-        [
-          "2011",
-          694
-        ],
-        [
-          "2015",
-          551
-        ]
-      ],
-      "name": "Eher zufrieden",
-      "turboThreshold": 0
-    },
-    {
       "color": "#007a2f",
-      "index": 4,
       "data": [
         [
           "2003",
@@ -135,9 +22,168 @@
         [
           "2015",
           152
+        ],
+        [
+          "2019",
+          347
         ]
       ],
       "name": "Sehr zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68ab2b",
+      "data": [
+        [
+          "2003",
+          601
+        ],
+        [
+          "2005",
+          676
+        ],
+        [
+          "2007",
+          744
+        ],
+        [
+          "2011",
+          694
+        ],
+        [
+          "2015",
+          551
+        ],
+        [
+          "2019",
+          676
+        ]
+      ],
+      "name": "Eher zufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#ffbb58",
+      "data": [
+        [
+          "2003",
+          342
+        ],
+        [
+          "2005",
+          375
+        ],
+        [
+          "2007",
+          278
+        ],
+        [
+          "2011",
+          330
+        ],
+        [
+          "2015",
+          401
+        ],
+        [
+          "2019",
+          417
+        ]
+      ],
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "data": [
+        [
+          "2003",
+          49
+        ],
+        [
+          "2005",
+          42
+        ],
+        [
+          "2007",
+          23
+        ],
+        [
+          "2011",
+          29
+        ],
+        [
+          "2015",
+          80
+        ],
+        [
+          "2019",
+          123
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          274
+        ],
+        [
+          "2005",
+          213
+        ],
+        [
+          "2007",
+          259
+        ],
+        [
+          "2011",
+          157
+        ],
+        [
+          "2015",
+          202
+        ],
+        [
+          "2019",
+          290
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          2
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          87
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -225,7 +271,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind sie mit dem Wohnungsangebot?»"
+    "text": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -263,7 +309,8 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    }
+    },
+    "reversedStacks": false
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -282,22 +329,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_9.\u003Cbr\u002F\u003EZuletzt geändert: 2017-1-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function () {
-            return this.name.replace('/ ', '/<br/>');
-        }
+    "labelFormatter": function(){
+        return this.name.replace("/", " /<br/>");
+
+      },
+    "reversed": false
   },
   "exporting": {
     "filename": 4127

@@ -9,38 +9,38 @@
       "data": [
         [
           "Schweiz",
-          48.8
+          50.87
         ],
         [
           "Deutschland",
-          52.5
+          48.42
         ],
         [
           "USA",
-          46.1
-        ],
-        [
-          "Italien",
-          55.1
+          47.58
         ],
         [
           "Frankreich",
-          53.2
+          48.26
         ],
         [
           "UK",
-          54.6
+          48.35
+        ],
+        [
+          "Italien",
+          39.95
         ],
         [
           "Übriges Ausland",
-          50.6
+          49.52
         ],
         [
           "Total",
-          50.4
+          49.48
         ]
       ],
-      "name": "Männer",
+      "name": "Frauen",
       "turboThreshold": 0
     },
     {
@@ -52,38 +52,38 @@
       "data": [
         [
           "Schweiz",
-          51.2
+          49.13
         ],
         [
           "Deutschland",
-          47.5
+          51.58
         ],
         [
           "USA",
-          53.9
-        ],
-        [
-          "Italien",
-          44.9
+          52.42
         ],
         [
           "Frankreich",
-          46.8
+          51.74
         ],
         [
           "UK",
-          45.4
+          51.65
+        ],
+        [
+          "Italien",
+          60.05
         ],
         [
           "Übriges Ausland",
-          49.4
+          50.48
         ],
         [
           "Total",
-          49.6
+          50.52
         ]
       ],
-      "name": "Frauen",
+      "name": "Männer",
       "turboThreshold": 0
     }
   ],
@@ -167,7 +167,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -208,7 +208,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

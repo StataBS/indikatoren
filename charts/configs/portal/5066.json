@@ -61,6 +61,10 @@
         [
           2018,
           50986
+        ],
+        [
+          2019,
+          53088
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -132,6 +136,10 @@
         [
           2018,
           25.4604106743368
+        ],
+        [
+          2019,
+          26.49009266
         ]
       ],
       "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
@@ -190,7 +198,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bezüger von Prämienverbilligungen"
+    "text": "Beziehende von Prämienverbilligungen"
   },
   "subtitle": {
     "style": {
@@ -199,7 +207,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+    "text": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
     "align": "left"
   },
   "xAxis": {
@@ -228,6 +236,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "title": ""
     },
     {
@@ -245,6 +254,7 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "gridLineWidth": 0,
       "opposite": true
     }
@@ -268,7 +278,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

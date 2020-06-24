@@ -35,9 +35,13 @@
         [
           "2018",
           15128
+        ],
+        [
+          "2019",
+          15028
         ]
       ],
-      "name": "Verheiratete \u002F registrierte Paare ohne Kinder",
+      "name": "Verheiratete\u002Fregistrierte Paare ohne Kinder",
       "turboThreshold": 0
     },
     {
@@ -75,6 +79,10 @@
         [
           "2018",
           14036
+        ],
+        [
+          "2019",
+          14306
         ]
       ],
       "name": "Paare mit minderjährigen Kindern",
@@ -115,6 +123,10 @@
         [
           "2018",
           4145
+        ],
+        [
+          "2019",
+          4118
         ]
       ],
       "name": "Einelternhaushalte mit minderjährigen Kindern",
@@ -155,6 +167,10 @@
         [
           "2018",
           7063
+        ],
+        [
+          "2019",
+          7039
         ]
       ],
       "name": "Eltern(-teil) mit nur volljährigen Kindern",
@@ -281,7 +297,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,

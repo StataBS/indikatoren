@@ -43,7 +43,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Es gibt in Basel gute Teilzeitstellen, so dass Väter und Mütter Beruf und Familie unter einen Hut bringen können.», Anteil sehr oder eher Zustimmende, Basel-Stadt",
 		"kuerzel": "I.50.1.2952",
 		"kuerzelKunde": "4.3",
 		"description": "Beurteilung der Vereinbarkeit von Familie und Beruf nach Geschlecht, Herkunft und Altersgruppe",
@@ -53,14 +53,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-31T12:06:46.4646",
+		"aktualisierungsdatum": "2020-06-22T17:56:43.4343",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "45,4% der Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 49,5% häufiger zu als Frauen mit 41,9%. Seit 2003 ist die Zustimmung zu dieser Aussage kontinuierlich gestiegen: 2003 waren 36,8% sehr oder eher einverstanden mit der Aussage, 2015 liegt die Zustimmung bei 45,4%.",
-		"erlaeuterungen": "Antwortkategorien «Sehr einverstanden» und «Eher einverstanden» werden zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "44,5% der im Jahr 2019 Befragten sind der Meinung, dass es in Basel gute Teilzeitstellen gibt, sodass Väter und Mütter Beruf und Familie vereinbaren können. Männer stimmen dieser Aussage mit 48,8% häufiger zu als Frauen mit 41,4%. Seit 2011 ist die Zustimmung zu dieser Aussage konstant bei rund 45% geblieben.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -71,7 +71,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F16a_9"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -84,8 +84,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?»",
-		"kuerzel": "I.50.1.02953",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
+		"kuerzel": "I.50.1.2953",
 		"kuerzelKunde": "8.1",
 		"description": "Zufriedenheit mit dem Kulturangebot nach Geschlecht, Herkunft und Altersgruppe",
 		"thema": "50 Befragungen",
@@ -94,15 +94,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2016-12-14T12:12:59.5959",
+		"aktualisierungsdatum": "2020-06-22T17:56:43.4343",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast 95% der Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Seit 2007 hat die Zufriedenheit mit dem Kulturangebot zugenommen. Die Zufriedenheit mit dem Kulturangebot unterscheidet sich nach Alter. Während bei den 18- bis 29-Jährigen die Zufriedenheit bei 88,0% liegt, sind die Befragten, die älter als 69 Jahre sind, mit 97,4% zufriedener.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "91,4% der im Jahr 2019 Befragten sind zufrieden mit dem Kulturangebot in Basel-Stadt. Die Zufriedenheit mit dem Kulturangebot nimmt mit steigendem Alter zu. Frauen zeigen sich zufriedener mit dem Kulturangebot als Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "08_00_00_00_00_001",
 		"parentId": null,
 		"children": [
@@ -110,17 +112,20 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_12"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 2953,
-		"darstellungsart": "Grafik"
+		"data-id": 2953,
+		"chart-id": 2953,
+		"filter": "",
+		"id": 2953
 	},
 	{
 		"title": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
-		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?»",
+		"subtitle": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
 		"kuerzel": "I.50.1.2956",
 		"kuerzelKunde": "9.4",
 		"description": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe",
@@ -130,14 +135,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-23T12:18:26.2626",
+		"aktualisierungsdatum": "2020-06-22T17:56:44.4444",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "96,6% der Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Die Zufriedenheit mit der Gesundheitsversorgung unterscheidet sich nach Geschlecht und Herkunft nicht. Ein Unterschied besteht bei den Altersgruppen. Bei den 30- bis 39-Jährigen ist die Zufriedenheit mit 91,3% am tiefsten.",
-		"erlaeuterungen": "Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "93,2% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit der Gesundheitsversorgung. Befragte mit Schweizer Pass bewerten die Gesundheitsversorgung mit 93,9% höher als ausländische Befragte (90,7%). Bei den Altersgruppen ab 60 Jahren liegt die Zufriedenheit bei über 95%. Zwischen den Geschlechtern ist 2019 kein signifikanter Unterschied feststellbar.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Für die Zufriedenheit werden die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden» zusammengefasst. Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -148,7 +153,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_8"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -366,24 +371,24 @@ var indikatorensetData = [
 		"id": 5041
 	},
 	{
-		"title": "Bezüger von Prämienverbilligungen",
-		"subtitle": "inkl. Bezügern von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
+		"title": "Beziehende von Prämienverbilligungen",
+		"subtitle": "inkl. Beziehende von Sozialhilfe und Ergänzungsleistungen, Basel-Stadt",
 		"kuerzel": "I.13.2.5066",
 		"kuerzelKunde": "11.1",
-		"description": "Bezüger von Prämienverbilligungen",
+		"description": "Beziehende von Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-17T09:31:37.3737",
+		"aktualisierungsdatum": "2020-06-22T17:56:44.4444",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 50 986 Beziehenden erhalten 2018 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "PV: Prämienverbilligungen, SH: Sozialhilfe, EL: Ergänzungsleistungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -396,7 +401,7 @@ var indikatorensetData = [
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Amt für Sozialbeiträge, Abteilung Prämienverbilligungen"
+			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -742,7 +747,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt, 2019",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt",
 		"kuerzel": "I.50.1.06133",
 		"kuerzelKunde": "2.13",
 		"description": "Beurteilung der kantonalen Steuern",
@@ -752,7 +757,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:19:50.5050",
+		"aktualisierungsdatum": "2020-06-22T17:56:44.4444",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1168,13 +1173,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T16:10:14.1414",
+		"aktualisierungsdatum": "2020-06-22T18:36:12.1212",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Nordwestschweiz erreicht der Medianlohn der Frauen im Jahr 2016 rund 5 920 Franken. Dies entspricht 86% des Medianlohns der Männer (6 850 Fr.). Der Lohnunterschied hat sich gegenüber 2014 kaum verändert, ist jedoch geringer als vor 10 Jahren (2006 betrug das Lohnverhältnis rund 81%).",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als 10 Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
 		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1323,7 +1328,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6151",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1333,14 +1338,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-08T09:21:03.033",
+		"aktualisierungsdatum": "2020-06-22T17:56:45.4545",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. Frauen vergeben in allen Jahren häufiger die Note 10 als Männer dies tun.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "2019 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 8,0 von 10 möglichen Punkten. Frauen vergeben in allen Jahren höhere Noten als die Männer.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1351,7 +1356,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2146,13 +2151,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-02T19:11:11.1111",
+		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 103,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 106,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -2470,7 +2475,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der kantonalen Verwaltung",
-		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt, 2019",
+		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
 		"kuerzel": "I.50.1.06186",
 		"kuerzelKunde": "12.2",
 		"description": "Beurteilung der kantonalen Verwaltung",
@@ -2480,7 +2485,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:07:32.3232",
+		"aktualisierungsdatum": "2020-06-22T17:56:45.4545",
 		"stufe1": "Ziel 12:  Der Service public ist modern und kundenfreundlich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2798,7 +2803,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6213",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
@@ -2808,14 +2813,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:53:06.066",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In beiden dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren zeigt sich: Je jünger die Befragten sind, desto seltener wird eine Note unter 7 vergeben. Die Altersgruppe der 30- bis 39-Jährigen vergibt der Lebensqualität 2019 mit einem Schnitt von 8,2 die besten Noten. 2019 vergeben die Befragten der Lebensqualität im Kanton Basel-Stadt im Durchschnitt 8,0 von 10 möglichen Punkten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2826,7 +2831,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2839,7 +2844,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.6228",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2849,14 +2854,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:53:22.2222",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2015 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton im Durchschnitt 7,7 von 10 möglichen Punkten. In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren fällt auf: Je höher das Einkommen der Befragten ist, desto häufiger wird eine Note über 6 vergeben. 2019 vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Kanton Basel-Stadt im Durchschnitt 8,0 von 10 möglichen Punkten.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2867,7 +2872,7 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -2962,8 +2967,8 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?»",
-		"kuerzel": "I.50.1.06266",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"kuerzel": "I.50.1.6266",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
 		"thema": "50 Befragungen",
@@ -2972,15 +2977,17 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2017-11-29T00:00:00.000",
+		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben die Bewohnerinnen und Bewohner der Lebensqualität im Stadtkanton eine 7,7. In allen dargestellten Jahren zeigt sich, dass ausländische Befragte häufiger eine Note über 7 für die Lebensqualität vergeben als Schweizerinnen und Schweizer dies tun.",
-		"erlaeuterungen": "Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, die die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
+		"lesehilfe": "In allen dargestellten Jahren zeigt sich, dass ausländische Befragte die Lebensqualität höher bewerten als Schweizerinnen und Schweizer. Die befragten Personen konnten auf einer 10er-Skala die Lebensqualität im Kanton Basel-Stadt bewerten. Im Durchschnitt vergeben sie 2019 der Lebensqualität im Stadtkanton 8,0 Punkte.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
 		"orderKey": "04_00_00_00_00_013",
 		"parentId": null,
 		"children": [
@@ -2988,13 +2995,16 @@ var indikatorensetData = [
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F4"
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
-		"id": 6266,
-		"darstellungsart": "Grafik"
+		"data-id": 6266,
+		"chart-id": 6266,
+		"filter": "",
+		"id": 6266
 	},
 	{
 		"title": "Medianprämie pro Prämienregion",

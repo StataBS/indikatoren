@@ -1,6 +1,8 @@
-﻿Jahr	Weiss nicht / Keine Angabe	Sehr unzufrieden	Eher unzufrieden	Eher zufrieden	Sehr zufrieden	Total
-2003	28	28	233	929	274	1492
-2005	32	29	260	948	234	1503
-2007	33	17	294	962	196	1502
-2011	23	23	203	846	413	1508
-2015	36	22	181	904	346	1489
+﻿Jahr	Sehr zufrieden	Eher zufrieden	Eher unzufrieden	Sehr unzufrieden	Weiss nicht	Keine Angabe
+2003	274	929	233	28	28	0
+2005	234	948	260	29	32	0
+2007	196	962	294	17	33	0
+2011	413	846	203	23	22	1
+2015	346	904	181	22	36	0
+2019	482	1080	273	43	74	90
+

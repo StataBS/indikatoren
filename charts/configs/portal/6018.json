@@ -5,15 +5,15 @@
       "data": [
         [
           "0-4",
-          -4255
+          -4320
         ],
         [
           "5-9",
-          -2125
+          -2159
         ],
         [
           "10-14",
-          -1262
+          -1285
         ],
         [
           "15-19",
@@ -21,55 +21,55 @@
         ],
         [
           "20-24",
-          -7678
+          -7493
         ],
         [
           "25-29",
-          -14746
+          -14697
         ],
         [
           "30-34",
-          -12135
+          -12329
         ],
         [
           "35-39",
-          -8130
+          -8264
         ],
         [
           "40-44",
-          -5271
+          -5349
         ],
         [
           "45-49",
-          -4006
+          -3976
         ],
         [
           "50-54",
-          -2996
+          -3012
         ],
         [
           "55-59",
-          -2050
+          -2121
         ],
         [
           "60-64",
-          -1605
+          -1581
         ],
         [
           "65-69",
-          -1003
+          -995
         ],
         [
           "70-74",
-          -551
+          -564
         ],
         [
           "75-79",
-          -325
+          -316
         ],
         [
           "\u003E79",
-          -558
+          -538
         ]
       ],
       "name": "Weggezogene",
@@ -80,71 +80,71 @@
       "data": [
         [
           "0-4",
-          1928
+          1916
         ],
         [
           "5-9",
-          970
+          974
         ],
         [
           "10-14",
-          661
+          660
         ],
         [
           "15-19",
-          2593
+          2522
         ],
         [
           "20-24",
-          13333
+          13122
         ],
         [
           "25-29",
-          14504
+          14500
         ],
         [
           "30-34",
-          8792
+          8950
         ],
         [
           "35-39",
-          5000
+          5060
         ],
         [
           "40-44",
-          3319
+          3244
         ],
         [
           "45-49",
-          2794
+          2789
         ],
         [
           "50-54",
-          2309
+          2372
         ],
         [
           "55-59",
-          1519
+          1586
         ],
         [
           "60-64",
-          1020
+          1023
         ],
         [
           "65-69",
-          696
+          713
         ],
         [
           "70-74",
-          401
+          434
         ],
         [
           "75-79",
-          321
+          350
         ],
         [
           "\u003E79",
-          517
+          536
         ]
       ],
       "name": "Zugezogene",
@@ -155,71 +155,71 @@
       "data": [
         [
           "0-4",
-          -2327
+          -2404
         ],
         [
           "5-9",
-          -1155
+          -1185
         ],
         [
           "10-14",
-          -601
+          -625
         ],
         [
           "15-19",
-          1003
+          932
         ],
         [
           "20-24",
-          5655
+          5629
         ],
         [
           "25-29",
-          -242
+          -197
         ],
         [
           "30-34",
-          -3343
+          -3379
         ],
         [
           "35-39",
-          -3130
+          -3204
         ],
         [
           "40-44",
-          -1952
+          -2105
         ],
         [
           "45-49",
-          -1212
+          -1187
         ],
         [
           "50-54",
-          -687
+          -640
         ],
         [
           "55-59",
-          -531
+          -535
         ],
         [
           "60-64",
-          -585
+          -558
         ],
         [
           "65-69",
-          -307
+          -282
         ],
         [
           "70-74",
-          -150
+          -130
         ],
         [
           "75-79",
-          -4
+          34
         ],
         [
           "\u003E79",
-          -41
+          -2
         ]
       ],
       "name": "Saldo",
@@ -318,7 +318,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2009 - 2018 zusammengefasst",
+    "text": "Basel-Stadt, 2010 - 2019 zusammengefasst",
     "align": "left"
   },
   "yAxis": [
@@ -331,8 +331,8 @@
       },
       "labels": {
         "formatter": function () {
-                	return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
-            	},
+                    return Highcharts.numberFormat(Math.abs(this.value), 0, ",", "\u00a0");
+                },
         "style": {
           "color": "#000000",
           "textOverflow": "none"
@@ -347,8 +347,8 @@
         }
       ],
       "events": {
-        "afterSetExtremes": function(args){
-            	    this.chart.options.customFunctions.createSymmetricAxis(this);
+        "afterSetExtremes": function (args) {
+                    this.chart.options.customFunctions.createSymmetricAxis(this);
                 }
       }
     }
@@ -372,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-6-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "symbolRadius": 0,
@@ -386,7 +386,7 @@
   },
   "tooltip": {
     "pointFormatter": function () {
-                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( Math.abs(this.y), 0, ",", " ") + '</b><br/>';
+                return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>'+ Highcharts.numberFormat( this.series.name == 'Saldo' ? this.y : Math.abs(this.y), 0, ",", " ") + '</b><br/>';
             }
   },
   "customFunctions": {

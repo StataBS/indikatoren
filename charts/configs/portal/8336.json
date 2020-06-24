@@ -36,6 +36,10 @@
         [
           "2018",
           8102
+        ],
+        [
+          "2019",
+          9034
         ]
       ],
       "name": "Schweiz",
@@ -77,6 +81,10 @@
         [
           "2018",
           5397
+        ],
+        [
+          "2019",
+          5895
         ]
       ],
       "name": "Ausland",
@@ -118,6 +126,10 @@
         [
           "2018",
           1200
+        ],
+        [
+          "2019",
+          1320
         ]
       ],
       "name": "Gemischt",
@@ -247,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-9"
+    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "reversed": true,

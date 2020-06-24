@@ -27,13 +27,15 @@
   {"color": "#ff8028", visible: false}, /* ... */
   {"color": "#b00000", visible: false}, /* ...*/
   {"color": "#661200", visible: false}, /* ... */
-  {"color": "#953735", visible: true}, /* dunkelrot*/
+  {"color": "#953735", visible: false}, /* dunkelrot*/
+  {"color": "#B375AB", visible: true}, /* violet*/
   ],
   "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    itemWidth: 120,
     //"x": 40,
 	//"y": 65,    
     "itemStyle": {

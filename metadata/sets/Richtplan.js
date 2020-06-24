@@ -714,13 +714,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-23T08:15:06.066",
+		"aktualisierungsdatum": "2020-06-23T11:06:42.4242",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 000 Personen tiefer als noch 1960 (228 000 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Der Höchststand der Bevölkerungszahl innerhalb des Beobachtungszeitraums lag 1970 bei knapp 235 000 Personen. Seit 2006 kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 400 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Die Bevölkerungszahl lag 1970 bei einem Höchststand von 236 219 Personen und sank bis 2006 auf 187 792. Seither kann eine kontinuierliche Zunahme registriert werden.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "template001",
 		"darstellungsart": "Grafik",

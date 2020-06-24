@@ -2,83 +2,99 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
+      "index": 5,
       "legendIndex": 0,
       "data": [
         [
-          "2015 Total",
-          315
+          "2019: Total",
+          435
         ],
         [
-          "2015 Schweiz",
-          277
+          "2019: Schweiz",
+          334
         ],
         [
-          "2015 Ausland",
-          38
+          "2019: Ausland",
+          98
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          465
+          "2015: Total",
+          315
         ],
         [
-          "2011 Schweiz",
-          399
+          "2015: Schweiz",
+          277
         ],
         [
-          "2011 Ausland",
-          66
+          "2015: Ausland",
+          38
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          211
+          "2011: Total",
+          465
         ],
         [
-          "2007 Schweiz",
-          190
+          "2011: Schweiz",
+          399
         ],
         [
-          "2007 Ausland",
-          21
+          "2011: Ausland",
+          66
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          276
+          "2007: Total",
+          211
         ],
         [
-          "2005 Schweiz",
-          238
+          "2007: Schweiz",
+          190
         ],
         [
-          "2005 Ausland",
-          38
+          "2007: Ausland",
+          21
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          276
+        ],
+        [
+          "2005: Schweiz",
+          238
+        ],
+        [
+          "2005: Ausland",
+          38
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           301
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           258
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           43
         ]
       ],
@@ -86,84 +102,100 @@
       "turboThreshold": 0
     },
     {
-      "color": "#68ab2b",
-      "index": 3,
+      "color": "#73B97C",
+      "index": 4,
       "legendIndex": 1,
       "data": [
         [
-          "2015 Total",
-          885
+          "2019: Total",
+          1005
         ],
         [
-          "2015 Schweiz",
-          782
+          "2019: Schweiz",
+          781
         ],
         [
-          "2015 Ausland",
-          103
+          "2019: Ausland",
+          210
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          751
+          "2015: Total",
+          885
         ],
         [
-          "2011 Schweiz",
-          637
+          "2015: Schweiz",
+          782
         ],
         [
-          "2011 Ausland",
-          114
+          "2015: Ausland",
+          103
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          971
+          "2011: Total",
+          751
         ],
         [
-          "2007 Schweiz",
-          858
+          "2011: Schweiz",
+          637
         ],
         [
-          "2007 Ausland",
-          113
+          "2011: Ausland",
+          114
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          831
+          "2007: Total",
+          971
         ],
         [
-          "2005 Schweiz",
-          711
+          "2007: Schweiz",
+          858
         ],
         [
-          "2005 Ausland",
-          120
+          "2007: Ausland",
+          113
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          831
+        ],
+        [
+          "2005: Schweiz",
+          711
+        ],
+        [
+          "2005: Ausland",
+          120
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           842
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           721
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           121
         ]
       ],
@@ -172,83 +204,99 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
+      "index": 3,
       "legendIndex": 2,
       "data": [
         [
-          "2015 Total",
-          156
+          "2019: Total",
+          191
         ],
         [
-          "2015 Schweiz",
-          139
+          "2019: Schweiz",
+          154
         ],
         [
-          "2015 Ausland",
-          17
+          "2019: Ausland",
+          37
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          164
+          "2015: Total",
+          156
         ],
         [
-          "2011 Schweiz",
-          145
+          "2015: Schweiz",
+          139
         ],
         [
-          "2011 Ausland",
-          19
+          "2015: Ausland",
+          17
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          185
+          "2011: Total",
+          164
         ],
         [
-          "2007 Schweiz",
-          165
+          "2011: Schweiz",
+          145
         ],
         [
-          "2007 Ausland",
-          20
+          "2011: Ausland",
+          19
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          245
+          "2007: Total",
+          185
         ],
         [
-          "2005 Schweiz",
-          218
+          "2007: Schweiz",
+          165
         ],
         [
-          "2005 Ausland",
-          27
+          "2007: Ausland",
+          20
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          245
+        ],
+        [
+          "2005: Schweiz",
+          218
+        ],
+        [
+          "2005: Ausland",
+          27
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           214
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           198
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           16
         ]
       ],
@@ -256,84 +304,100 @@
       "turboThreshold": 0
     },
     {
-      "color": "#dc440e",
-      "index": 1,
+      "color": "#B00000",
+      "index": 2,
       "legendIndex": 3,
       "data": [
         [
-          "2015 Total",
-          20
+          "2019: Total",
+          50
         ],
         [
-          "2015 Schweiz",
-          19
+          "2019: Schweiz",
+          38
         ],
         [
-          "2015 Ausland",
-          1
+          "2019: Ausland",
+          10
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          33
+          "2015: Total",
+          20
         ],
         [
-          "2011 Schweiz",
-          26
+          "2015: Schweiz",
+          19
         ],
         [
-          "2011 Ausland",
-          7
+          "2015: Ausland",
+          1
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          31
+          "2011: Total",
+          33
         ],
         [
-          "2007 Schweiz",
-          28
+          "2011: Schweiz",
+          26
         ],
         [
-          "2007 Ausland",
-          3
+          "2011: Ausland",
+          7
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          55
+          "2007: Total",
+          31
         ],
         [
-          "2005 Schweiz",
-          49
+          "2007: Schweiz",
+          28
         ],
         [
-          "2005 Ausland",
-          6
+          "2007: Ausland",
+          3
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          55
+        ],
+        [
+          "2005: Schweiz",
+          49
+        ],
+        [
+          "2005: Ausland",
+          6
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           39
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           35
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           4
         ]
       ],
@@ -341,88 +405,205 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 4,
       "data": [
         [
-          "2015 Total",
-          82
+          "2019: Total",
+          209
         ],
         [
-          "2015 Schweiz",
-          73
+          "2019: Schweiz",
+          155
         ],
         [
-          "2015 Ausland",
-          9
+          "2019: Ausland",
+          51
         ],
         [
           " ",
           null
         ],
         [
-          "2011 Total",
-          64
+          "2015: Total",
+          82
         ],
         [
-          "2011 Schweiz",
-          59
+          "2015: Schweiz",
+          73
         ],
         [
-          "2011 Ausland",
-          5
+          "2015: Ausland",
+          9
         ],
         [
           "  ",
           null
         ],
         [
-          "2007 Total",
-          86
+          "2011: Total",
+          62
         ],
         [
-          "2007 Schweiz",
-          70
+          "2011: Schweiz",
+          58
         ],
         [
-          "2007 Ausland",
-          16
+          "2011: Ausland",
+          4
         ],
         [
           "   ",
           null
         ],
         [
-          "2005 Total",
-          73
+          "2007: Total",
+          86
         ],
         [
-          "2005 Schweiz",
-          60
+          "2007: Schweiz",
+          70
         ],
         [
-          "2005 Ausland",
-          13
+          "2007: Ausland",
+          16
         ],
         [
           "    ",
           null
         ],
         [
-          "2003 Total",
+          "2005: Total",
+          73
+        ],
+        [
+          "2005: Schweiz",
+          60
+        ],
+        [
+          "2005: Ausland",
+          13
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
           76
         ],
         [
-          "2003 Schweiz",
+          "2003: Schweiz",
           57
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           19
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2019: Total",
+          81
+        ],
+        [
+          "2019: Schweiz",
+          62
+        ],
+        [
+          "2019: Ausland",
+          16
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2015: Total",
+          0
+        ],
+        [
+          "2015: Schweiz",
+          0
+        ],
+        [
+          "2015: Ausland",
+          0
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
+          "2011: Total",
+          2
+        ],
+        [
+          "2011: Schweiz",
+          1
+        ],
+        [
+          "2011: Ausland",
+          1
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
+          "2007: Total",
+          0
+        ],
+        [
+          "2007: Schweiz",
+          0
+        ],
+        [
+          "2007: Ausland",
+          0
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2005: Total",
+          0
+        ],
+        [
+          "2005: Schweiz",
+          0
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "     ",
+          null
+        ],
+        [
+          "2003: Total",
+          0
+        ],
+        [
+          "2003: Schweiz",
+          0
+        ],
+        [
+          "2003: Ausland",
+          0
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -482,7 +663,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 513,
+    "height": 563,
     "spacing": [
       10,
       10,
@@ -514,7 +695,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartierbevölkerung?»"
+    "text": "«Wie zufrieden sind Sie mit der Zusammensetzung der Quartierbevölkerung?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -577,7 +758,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_21.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
   },
   "legend": {
     "layout": "horizontal",
@@ -595,7 +776,7 @@
             return this.name;
         },
     "enabled": true,
-    "itemWidth": 140
+    "itemWidth": 150
   },
   "exporting": {
     "filename": 6509
