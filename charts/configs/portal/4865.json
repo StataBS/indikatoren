@@ -134,7 +134,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ehrenamtliche Tätigkeit \u002F Freiwilligenarbeit im Alter"
+    "text": "Ehrenamtliche Tätigkeit\u002FFreiwilligenarbeit im Alter"
   },
   "subtitle": {
     "style": {
@@ -200,7 +200,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-25"
   },
   "legend": {
     "layout": "horizontal",

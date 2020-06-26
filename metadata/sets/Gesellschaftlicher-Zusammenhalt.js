@@ -992,18 +992,18 @@ var indikatorensetData = [
 		"id": 4864
 	},
 	{
-		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"title": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
 		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
-		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"description": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"aktualisierungsdatum": "2020-06-25T16:32:54.5454",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -1090,20 +1090,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:53:31.3131",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 5,8 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 6,6 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8406"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1130,20 +1132,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T11:56:37.3737",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 32,4 Anzeigen wegen Diebstahl erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 34,5 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_023",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8407"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1170,20 +1174,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:53:39.3939",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:03.033",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_024",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8408"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
