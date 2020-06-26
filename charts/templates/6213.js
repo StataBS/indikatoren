@@ -24,6 +24,24 @@
             }
         } 
       },  
+      tooltip: {
+        //"pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:,.1f}%)<br/>',
+        //"footerFormat": '<br/>Notenschnitt: <b>{point[2].y:,.1f}</b><br/>',
+        shared: true,
+        useHTML: true,
+        followPointer: true,
+        formatter: function () {
+            var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+            $.each(this.points, function (i, point) {
+                s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+                    + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
+                    + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+                sum += point.y * (i + 1);
+            });
+            s += '</table><br/>Mittelwert: <b>' + Highcharts.numberFormat(sum / this.points[0].total, 1) + '</b>'
+            return s;
+        },
+    },
       plotOptions: {
       	column: {
       		groupPadding: 0,
