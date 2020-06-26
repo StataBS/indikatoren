@@ -1024,7 +1024,20 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "formatter": function () {
+            var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+            $.each(this.points, function (i, point) {
+                s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+                    + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
+                    + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+                sum += point.y * (i + 1);
+            });
+            s += '</table><br/>Mittelwert: <b>' + Highcharts.numberFormat(sum / this.points[0].total, 1) + '</b>'
+            return s;
+        }
   },
   "credits": {
     "enabled": true,
@@ -1039,7 +1052,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-25"
   },
   "legend": {
     "layout": "vertical",

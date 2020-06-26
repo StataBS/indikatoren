@@ -8425,18 +8425,18 @@
 		"id": 4864
 	},
 	{
-		"title": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"title": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
 		"subtitle": "«Leisten Sie in Ihrer Freizeit Freiwilligenarbeit?», Basel-Stadt",
 		"kuerzel": "I.50.4.4865",
 		"kuerzelKunde": "3.1.03",
-		"description": "Ehrenamtliche Tätigkeit / Freiwilligenarbeit im Alter",
+		"description": "Ehrenamtliche Tätigkeit/Freiwilligenarbeit im Alter",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"aktualisierungsdatum": "2020-06-25T16:32:54.5454",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8525,21 +8525,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:53:31.3131",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 5,8 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 6,6 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8406"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -8566,21 +8568,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T11:56:37.3737",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 32,4 Anzeigen wegen Diebstahl erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 34,5 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_023",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8407"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -8607,21 +8611,23 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T16:53:39.3939",
-		"stufe1": "Kernbereich 3: Gemeinwohlorientierung",
+		"aktualisierungsdatum": "2020-06-25T17:30:03.033",
+		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_000",
+		"orderKey": "03_02_00_00_00_024",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8408"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -15271,23 +15277,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T11:25:15.1515",
+		"aktualisierungsdatum": "2020-06-25T17:37:54.5454",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (66%), gefolgt von den Schweizerinnen und Schweizern (49,5%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus der Türkei (8,8%) und dem Balkan (11,9%) auf.",
+		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (62,4%), gefolgt von den Schweizerinnen und Schweizern (47,0%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus der Türkei (10,2%) und dem Balkan (10,5%) auf.",
 		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_001",
+		"orderKey": "02_00_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"6665",
-			"7806"
+			"6665"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18195,7 +18200,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
+		"aktualisierungsdatum": "2020-06-25T17:00:38.3838",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -18492,7 +18497,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
+		"aktualisierungsdatum": "2020-06-25T17:07:53.5353",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -19514,7 +19519,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:56:46.4646",
+		"aktualisierungsdatum": "2020-06-25T17:08:17.1717",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -25182,23 +25187,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:44:32.3232",
+		"aktualisierungsdatum": "2020-06-25T17:37:55.5555",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste IV-Quote weist 2018 mit 11,6% die Türkei auf, gefolgt von den Balkanländern (9,6%) und Italien sowie der Schweiz (je 7,9%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 7,9 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder sind deutlich unter dem Durchschnitt. Sie haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2018 kontinuierlich von 8,9% auf 6,2%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
+		"lesehilfe": "Die höchste IV-Quote weist 2019 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,6%), der Schweiz (7,9%) sowie Italien (7,8%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,0 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2019 kontinuierlich von 8,9% auf 6,2%.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_024",
+		"orderKey": "03_00_00_00_00_501",
 		"parentId": null,
 		"children": [
-			"6705",
-			"7846"
+			"6705"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25259,7 +25263,7 @@
 	},
 	{
 		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.13.1.6432",
 		"kuerzelKunde": "C5-3",
 		"description": "IV-Quote nach Staatsangehörigkeit und Alter",
@@ -25269,19 +25273,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:09:29.2929",
+		"aktualisierungsdatum": "2020-06-25T17:37:55.5555",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 21,1% bei den Ausländern respektive 15,6% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 20,6% bei den Ausländern respektive 15,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
 		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_026",
+		"orderKey": "03_00_00_00_00_503",
 		"parentId": null,
 		"children": [
 			"6707"
