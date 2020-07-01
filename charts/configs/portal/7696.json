@@ -22,6 +22,10 @@
         [
           2018,
           19.590643275
+        ],
+        [
+          2019,
+          18.770226537
         ]
       ],
       "name": "Messe"
@@ -49,6 +53,10 @@
         [
           2018,
           32.653061224
+        ],
+        [
+          2019,
+          31.067961165
         ]
       ],
       "name": "Erlenmatt"
@@ -150,7 +158,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "legend": {
     "enabled": true,

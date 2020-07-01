@@ -27,19 +27,21 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "itemWidth": 205,
     "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
+    itemWidth: 210,
+    width: 420,
+    itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  }
   },
   "series": [
-    {"color": "#71a3b5", index: 6, legendIndex: 1}, 
-    {"color": "#672773", index: 5, legendIndex: 2}, 
-    {"color": "#ff8028", index: 4, legendIndex: 3}, 
-    {"color": "#73ba7c", index: 3, legendIndex: 4}, 
-    {"color": "#E7CEE2", index: 2, legendIndex: 5},
-    {"color": "#999999", index: 1, legendIndex: 6}, 
+    { "color": "#71a3b5", index: 6, legendIndex: 1 },
+    { "color": "#672773", index: 5, legendIndex: 2 },
+    { "color": "#ff8028", index: 4, legendIndex: 3 },
+    { "color": "#73ba7c", index: 3, legendIndex: 4 },
+    { "color": "#E7CEE2", index: 2, legendIndex: 5 },
+    /*{"color": "#999999", index: 1, legendIndex: 6}, */
   
 ],
   "chart": {

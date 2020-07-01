@@ -3950,7 +3950,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner"
+    "text": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -3975,7 +3975,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "colorAxis": {
     "min": -1,

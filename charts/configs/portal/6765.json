@@ -6,38 +6,38 @@
       "data": [
         [
           "Schweiz",
-          57.6995
+          57.71
         ],
         [
           "Deutschland",
-          85.5986
+          84.26
         ],
         [
           "USA",
-          51.1811
-        ],
-        [
-          "Italien",
-          77.4648
+          59.75
         ],
         [
           "Frankreich",
-          49.3075
+          53.69
         ],
         [
           "UK",
-          62.9098
+          64.48
+        ],
+        [
+          "Italien",
+          76.51
         ],
         [
           "Übriges Ausland",
-          75.4936
+          75.95
         ],
         [
           "Total",
-          66.4341
+          66.73
         ]
       ],
-      "name": "2009",
+      "name": "2010",
       "turboThreshold": 0
     },
     {
@@ -46,38 +46,38 @@
       "data": [
         [
           "Schweiz",
-          56.2811
+          56.43
         ],
         [
           "Deutschland",
-          75.2859
+          74.45
         ],
         [
           "USA",
-          56.5789
-        ],
-        [
-          "Italien",
-          87.037
+          51.61
         ],
         [
           "Frankreich",
-          47.8903
+          49.08
         ],
         [
           "UK",
-          48.4018
+          48.13
+        ],
+        [
+          "Italien",
+          87.62
         ],
         [
           "Übriges Ausland",
-          72.6868
+          69.05
         ],
         [
           "Total",
-          63.6719
+          62.53
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "legend": {
     "padding": 0,

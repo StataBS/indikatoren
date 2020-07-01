@@ -6,18 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2014: Messe",
-          379
-        ],
-        [
-          "2014: Erlenmatt",
-          31
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Messe",
           374
         ],
@@ -26,7 +14,7 @@
           84
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -38,7 +26,7 @@
           101
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -50,7 +38,7 @@
           111
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,6 +48,18 @@
         [
           "2018: Erlenmatt",
           124
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Messe",
+          296
+        ],
+        [
+          "2019: Erlenmatt",
+          164
         ]
       ],
       "name": "Evangelisch-reformiert",
@@ -71,18 +71,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2014: Messe",
-          560
-        ],
-        [
-          "2014: Erlenmatt",
-          60
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Messe",
           542
         ],
@@ -91,7 +79,7 @@
           148
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -103,7 +91,7 @@
           170
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -115,7 +103,7 @@
           169
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -125,6 +113,18 @@
         [
           "2018: Erlenmatt",
           176
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Messe",
+          481
+        ],
+        [
+          "2019: Erlenmatt",
+          246
         ]
       ],
       "name": "Römisch-katholisch",
@@ -136,18 +136,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2014: Messe",
-          23
-        ],
-        [
-          "2014: Erlenmatt",
-          1
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Messe",
           29
         ],
@@ -156,7 +144,7 @@
           6
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -168,7 +156,7 @@
           6
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -180,7 +168,7 @@
           8
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -190,6 +178,18 @@
         [
           "2018: Erlenmatt",
           5
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Messe",
+          22
+        ],
+        [
+          "2019: Erlenmatt",
+          16
         ]
       ],
       "name": "Christkatholisch",
@@ -201,18 +201,6 @@
       "legendIndex": 4,
       "data": [
         [
-          "2014: Messe",
-          1
-        ],
-        [
-          "2014: Erlenmatt",
-          null
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2015: Messe",
           3
         ],
@@ -221,7 +209,7 @@
           null
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -233,7 +221,7 @@
           null
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -245,7 +233,7 @@
           null
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -255,6 +243,18 @@
         [
           "2018: Erlenmatt",
           2
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Messe",
+          2
+        ],
+        [
+          "2019: Erlenmatt",
+          1
         ]
       ],
       "name": "Israelitisch",
@@ -266,128 +266,63 @@
       "legendIndex": 5,
       "data": [
         [
-          "2014: Messe",
-          1773
+          "2015: Messe",
+          3762
         ],
         [
-          "2014: Erlenmatt",
-          214
+          "2015: Erlenmatt",
+          1225
         ],
         [
           " ",
           null
         ],
         [
-          "2015: Messe",
-          1742
+          "2016: Messe",
+          3895
         ],
         [
-          "2015: Erlenmatt",
-          417
+          "2016: Erlenmatt",
+          1473
         ],
         [
           "  ",
           null
         ],
         [
-          "2016: Messe",
-          1792
+          "2017: Messe",
+          3867
         ],
         [
-          "2016: Erlenmatt",
-          502
+          "2017: Erlenmatt",
+          1589
         ],
         [
           "   ",
           null
         ],
         [
-          "2017: Messe",
-          1820
+          "2018: Messe",
+          3928
         ],
         [
-          "2017: Erlenmatt",
-          588
+          "2018: Erlenmatt",
+          1803
         ],
         [
           "    ",
           null
         ],
         [
-          "2018: Messe",
-          1752
+          "2019: Messe",
+          3957
         ],
         [
-          "2018: Erlenmatt",
-          679
+          "2019: Erlenmatt",
+          2357
         ]
       ],
-      "name": "Nicht öffentlich-rechtlich",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#999999",
-      "index": 1,
-      "legendIndex": 6,
-      "data": [
-        [
-          "2014: Messe",
-          1993
-        ],
-        [
-          "2014: Erlenmatt",
-          302
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Messe",
-          2020
-        ],
-        [
-          "2015: Erlenmatt",
-          808
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2016: Messe",
-          2103
-        ],
-        [
-          "2016: Erlenmatt",
-          971
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2017: Messe",
-          2047
-        ],
-        [
-          "2017: Erlenmatt",
-          1001
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2018: Messe",
-          2176
-        ],
-        [
-          "2018: Erlenmatt",
-          1124
-        ]
-      ],
-      "name": "Keine Zugehörigkeit\u002FK. A.",
+      "name": "Andere, ohne oder unbek. Zugeh.",
       "turboThreshold": 0
     }
   ],
@@ -514,19 +449,22 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "itemWidth": 205,
-    "align": "left"
+    "align": "left",
+    "itemWidth": 210,
+    "width": 420
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
