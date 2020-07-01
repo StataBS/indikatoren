@@ -39,6 +39,10 @@
         [
           2018,
           49.47
+        ],
+        [
+          2019,
+          46.98
         ]
       ],
       "name": "Schweiz"
@@ -83,6 +87,10 @@
         [
           2018,
           44.16
+        ],
+        [
+          2019,
+          42.3
         ]
       ],
       "name": "Schweizer"
@@ -127,6 +135,10 @@
         [
           2018,
           55.3
+        ],
+        [
+          2019,
+          51.84
         ]
       ],
       "name": "Schweizerinnen"
@@ -170,6 +182,10 @@
         [
           2018,
           25.52
+        ],
+        [
+          2019,
+          28.03
         ]
       ],
       "name": "Ausland"
@@ -214,6 +230,10 @@
         [
           2018,
           22.92
+        ],
+        [
+          2019,
+          24.24
         ]
       ],
       "name": "Ausländer"
@@ -258,6 +278,10 @@
         [
           2018,
           28.17
+        ],
+        [
+          2019,
+          32.27
         ]
       ],
       "name": "Ausländerinnen"
@@ -313,7 +337,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
   },
   "yAxis": {
     "min": 0,
@@ -359,7 +383,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-5-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
   },
   "legend": {
     "enabled": true,

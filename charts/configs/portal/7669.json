@@ -78,6 +78,10 @@
         [
           2018,
           55.6025
+        ],
+        [
+          2019,
+          55.7587
         ]
       ],
       "name": "Messe"
@@ -160,6 +164,10 @@
         [
           2018,
           55.8768
+        ],
+        [
+          2019,
+          56.1782
         ]
       ],
       "name": "Erlenmatt"
@@ -245,7 +253,14 @@
       }
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -261,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "legend": {
     "enabled": true,

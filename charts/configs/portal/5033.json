@@ -5,15 +5,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.180692975339755
+          0.1565
         ],
         [
           "Basel-Landschaft",
-          0.031734116712234
+          0.034
         ],
         [
           "Zürich",
-          0.051026630011517
+          0.059
         ]
       ],
       "name": "Chemische Industrie",
@@ -24,15 +24,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.145802400513393
+          0.1694
         ],
         [
           "Basel-Landschaft",
-          0.144146855126489
+          0.1597
         ],
         [
           "Zürich",
-          0.31815194512014
+          0.3293
         ]
       ],
       "name": "Elektronik, Optik und Maschinenbau",
@@ -43,15 +43,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.0794592955552733
+          0.0785
         ],
         [
           "Basel-Landschaft",
-          0.104271368840597
+          0.0903
         ],
         [
           "Zürich",
-          0.0482803337466384
+          0.0515
         ]
       ],
       "name": "Medizinaltechnik",
@@ -62,15 +62,15 @@
       "data": [
         [
           "Basel-Stadt",
-          0.41476682211066
+          0.4569
         ],
         [
           "Basel-Landschaft",
-          0.164027800810348
+          0.1634
         ],
         [
           "Zürich",
-          0.0272584317351114
+          0.0328
         ]
       ],
       "name": "Pharmazeutische Industrie",
@@ -157,7 +157,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
+    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015",
     "align": "left"
   },
   "yAxis": {
@@ -199,7 +199,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-24"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
   },
   "legend": {
     "symbolRadius": 0,

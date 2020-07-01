@@ -6,54 +6,54 @@
       "data": [
         [
           "Oberstes Management",
-          3241
+          3680
         ],
         [
           "Freie und gleichgestellte Berufe",
-          2540
+          2658
         ],
         [
           "Andere Selbstständige",
-          6148
+          5563
         ],
         [
           "Akademische Berufe und oberes Kader",
-          25940
+          28141
         ],
         [
           "Intermediäre Berufe",
-          24190
+          23435
         ],
         [
           "Qualifizierte nichtmanuelle Berufe",
-          15786
+          14886
         ],
         [
           "Qualifizierte manuelle Berufe",
-          4572
+          3528
         ],
         [
           "Ungelernte Angestellte und Arbeiter",
-          6906
+          6580
         ],
         [
           "Lernende in dualer berufl. Grundbildung",
-          2520
+          1652
         ],
         [
           "Nicht zuteilbare Erwerbstätige",
-          5957
+          4313
         ],
         [
           "Erwerbslose",
-          5826
+          6662
         ],
         [
           "Nichterwerbspersonen",
-          59389
+          61951
         ]
       ],
-      "name": "2017",
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -109,6 +109,7 @@
     },
     "type": "column",
     "inverted": true,
+    "marginRight": 25,
     "renderTo": "container-6144",
     "spacingBottom": 40
   },
@@ -140,7 +141,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "Basel-Stadt, 2018",
     "align": "left"
   },
   "yAxis": {
@@ -156,12 +157,12 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "format": "{value:,.0f}"
     },
-    "tickInterval": 20000,
-    "max": 60000
+    "tickInterval": 15000
   },
   "navigation": {
     "menuItemStyle": {
@@ -182,7 +183,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
   },
   "legend": {
     "symbolRadius": 0,

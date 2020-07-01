@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Saldo",
+      "name": "Wanderungs-\u002FUmzugssaldo",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3257,87 +3257,87 @@
       "data": [
         [
           1,
-          -0.1539
+          -0.5094
         ],
         [
           2,
-          0.4189
+          1.1357
         ],
         [
           3,
-          2.0082
+          1.7217
         ],
         [
           4,
-          0.8788
-        ],
-        [
-          5,
-          3.7281
-        ],
-        [
-          6,
-          -0.852
-        ],
-        [
-          7,
-          1.026
-        ],
-        [
-          8,
-          0.1477
-        ],
-        [
-          9,
           0.2884
         ],
         [
+          5,
+          1.5803
+        ],
+        [
+          6,
+          0.1652
+        ],
+        [
+          7,
+          0.7127
+        ],
+        [
+          8,
+          0.7762
+        ],
+        [
+          9,
+          0.9206
+        ],
+        [
           10,
-          -0.0765
+          -0.3375
         ],
         [
           11,
-          -0.3586
+          -0.173
         ],
         [
           12,
-          -0.4499
+          -1.6604
         ],
         [
           13,
-          -0.441
+          2.1053
         ],
         [
           14,
-          -0.3417
+          0.0181
         ],
         [
           15,
-          0.3733
+          -0.1073
         ],
         [
           16,
-          2.0029
+          8.8438
         ],
         [
           17,
-          -1.5912
+          -1.893
         ],
         [
           18,
-          -0.0274
+          -0.8429
         ],
         [
           19,
-          0.2099
+          -1.3939
         ],
         [
           20,
-          0.6434
+          1.3431
         ],
         [
           30,
-          2.3908
+          -1.1017
         ]
       ]
     },
@@ -3346,87 +3346,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.6156
+          1.6458
         ],
         [
           "Vorstädte",
-          1.9749
+          2.7296
         ],
         [
           "Am Ring",
-          2.4262
+          2.1162
         ],
         [
           "Breite",
-          0.2336
+          0.1109
         ],
         [
           "St. Alban",
-          2.0721
+          0.4896
         ],
         [
           "Gundeldingen",
-          0.0426
+          0.8101
         ],
         [
           "Bruderholz",
-          -0.4702
+          -0.2766
         ],
         [
           "Bachletten",
-          -0.4282
+          0.2782
         ],
         [
           "Gotthelf",
-          0.3172
+          0.8343
         ],
         [
           "Iselin",
-          -0.1648
+          -0.2368
         ],
         [
           "St. Johann",
-          -0.1659
+          0.2486
         ],
         [
           "Altstadt Kleinbasel",
-          -0.7362
+          0.2076
         ],
         [
           "Clara",
-          0.6124
+          1.4933
         ],
         [
           "Wettstein",
-          1.295
+          2.8054
         ],
         [
           "Hirzbrunnen",
-          -0.5439
+          -0.3968
         ],
         [
           "Rosental",
-          2.383
+          4.349
         ],
         [
           "Matthäus",
-          0.1209
+          0.124
         ],
         [
           "Klybeck",
-          0.6856
+          0.1382
         ],
         [
           "Kleinhüningen",
-          -0.5248
+          -1.5368
         ],
         [
           "Riehen",
-          -0.401
+          0.1352
         ],
         [
           "Bettingen",
-          1.4839
+          -1.9492
         ]
       ],
       "name": "Wanderung"
@@ -3439,87 +3439,87 @@
       "data": [
         [
           1,
-          0.6156
+          1.6458
         ],
         [
           2,
-          1.9749
+          2.7296
         ],
         [
           3,
-          2.4262
+          2.1162
         ],
         [
           4,
-          0.2336
+          0.1109
         ],
         [
           5,
-          2.0721
+          0.4896
         ],
         [
           6,
-          0.0426
+          0.8101
         ],
         [
           7,
-          -0.4702
+          -0.2766
         ],
         [
           8,
-          -0.4282
+          0.2782
         ],
         [
           9,
-          0.3172
+          0.8343
         ],
         [
           10,
-          -0.1648
+          -0.2368
         ],
         [
           11,
-          -0.1659
+          0.2486
         ],
         [
           12,
-          -0.7362
+          0.2076
         ],
         [
           13,
-          0.6124
+          1.4933
         ],
         [
           14,
-          1.295
+          2.8054
         ],
         [
           15,
-          -0.5439
+          -0.3968
         ],
         [
           16,
-          2.383
+          4.349
         ],
         [
           17,
-          0.1209
+          0.124
         ],
         [
           18,
-          0.6856
+          0.1382
         ],
         [
           19,
-          -0.5248
+          -1.5368
         ],
         [
           20,
-          -0.401
+          0.1352
         ],
         [
           30,
-          1.4839
+          -1.9492
         ]
       ],
       "name": "Wanderung"
@@ -3532,87 +3532,87 @@
       "data": [
         [
           1,
-          -0.7695
+          -2.1552
         ],
         [
           2,
-          -1.556
+          -1.5939
         ],
         [
           3,
-          -0.418
+          -0.3945
         ],
         [
           4,
-          0.6452
+          0.1775
         ],
         [
           5,
-          1.656
+          1.0908
         ],
         [
           6,
-          -0.8946
+          -0.6449
         ],
         [
           7,
-          1.4962
+          0.9893
         ],
         [
           8,
-          0.5759
+          0.4979
         ],
         [
           9,
-          -0.0288
+          0.0863
         ],
         [
           10,
-          0.0883
+          -0.1007
         ],
         [
           11,
-          -0.1927
+          -0.4216
         ],
         [
           12,
-          0.2863
+          -1.868
         ],
         [
           13,
-          -1.0534
+          0.612
         ],
         [
           14,
-          -1.6367
+          -2.7873
         ],
         [
           15,
-          0.9171
+          0.2896
         ],
         [
           16,
-          -0.3801
+          4.4948
         ],
         [
           17,
-          -1.7122
+          -2.017
         ],
         [
           18,
-          -0.713
+          -0.9811
         ],
         [
           19,
-          0.7348
+          0.143
         ],
         [
           20,
-          1.0444
+          1.2079
         ],
         [
           30,
-          0.9068
+          0.8475
         ]
       ],
       "name": "Umzug"
@@ -3925,7 +3925,7 @@
 
 	                
 					//column values in legend
-				//	var legendColumnValues = [3, 1.5]; 
+					var legendColumnValues = [3, 1.5]; 
 
                 	//Add manually drawn legend	
                     var legendTop = 190;
@@ -3933,24 +3933,26 @@
                 	
                 	//var legendTop = 280; //220
                 	//var legendLeft = 520; //365
-	                fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+					//fn.addLegendText(chart, legendLeft+0,  legendTop+0, 'Wanderungs-/Umzugssaldo'); //Reihenfolge bei 6022.js falsch xy und dann Titel...
+					fn.addLegendTitle(chart,  'Bevölkerungssaldo', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);	
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("er ", "er<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 	                	                // fn.addLegendTitle(chart, 'Wanderung/Umzug', 500, 280); //Reihenfolge bei 6022.js falsch xy und dann Titel...
-	                fn.addLegendColumnChart(chart, legendLeft+0,  legendTop+35,  /*legendColumnValues*0.466*/  [1.44, 0.72], color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
-	                
-	                fn.addLegendText(chart,        legendLeft+15, legendTop+35,  Highcharts.numberFormat(3, 0,","," "), color(3, 0), 'columnLegendHideOnZoom');
-	                //fn.addLegendText(chart,        legendLeft+71, legendTop+45,  ',', undefined, 'columnLegendHideOnZoom');
-	                fn.addLegendText(chart,        legendLeft+25, legendTop+35,  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
+	                fn.addLegendColumnChart(chart, legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+15,  legendColumnValues.map(function(x) { return x * 0.8; }), color, 'columnLegendHideOnZoom'); //Hemdsärmlige Lösung MB
+	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 10, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(3.0, 1,","," "), color(3, 0), 'columnLegendHideOnZoom');
+	                fn.addLegendText(chart, legendPosition.blockSymbol.numbers.x + 35, legendPosition.blockSymbol.numbers.y4S[0],  Highcharts.numberFormat(1.5, 1,","," "), color(1.5, 1), 'columnLegendHideOnZoom');
 
-					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+45,  10, color(1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+53,  'Wanderung positiv');
-					fn.addLegendSquare(chart,      legendLeft-0,  legendTop+59,  10, color(-1, 0));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+68,  'Wanderung negativ');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0]+21+5,  15, color(1, 0));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0]+21+5,  'Wanderung positiv');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1]+14+5,  15, color(-1, 0));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1]+14+5,  'Wanderung negativ');
 					
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+73,  10, color(1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+82,  'Umzug positiv');
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+87, 10, color(-1, 1));
-					fn.addLegendText(chart,        legendLeft+15, legendTop+96 , 'Umzug negativ');
-					fn.addLegendText(chart,  legendLeft+133, legendTop+0, 'Bevölkerungssaldo'  );	
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[2]+7,  15, color(1, 1));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[2]+7,  'Umzug positiv');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[3],  15, color(-1, 1));
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[3], 'Umzug negativ');
+					
+					//fn.addLegendTitle(chart,  pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+105 , 'Bewegung pro 100 Einwohner');
 					//fn.addLegendTextbold(chart,    legendLeft-98, legendTop+108 , '(Saldo total)');
 					
@@ -3969,7 +3971,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner"
+    "text": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -3978,7 +3980,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -3994,7 +3996,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "colorAxis": {
     "min": 0,
@@ -4016,30 +4018,30 @@
       {
         "to": -1,
         "color": "#662673",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-0,99 \u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-1,00"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 -0,99\u003C\u002Fspan\u003E \u003C\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-1,00"
       },
       {
         "from": -0.99999,
         "to": -0.5,
         "color": "#B375AB",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,99 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,50"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 \u003C\u002Fspan\u003E-0,99 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,50"
       },
       {
         "from": -0.499999,
         "to": -0.000001,
         "color": "#E7CEE2",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E\u003C\u002Fspan\u003E-0,49 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,01"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E0 \u003C\u002Fspan\u003E-0,49 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1\u003C\u002Fspan\u003E-0,01"
       },
       {
         "from": 0,
         "to": 0.79999,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E-\u003C\u002Fspan\u003E0,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,79"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)' \u003E-0 \u003C\u002Fspan\u003E0,00 −\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,79"
       },
       {
         "from": 0.8,
         "color": "#71A3B5",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E-0,99 \u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,80"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E0 -0,99\u003C\u002Fspan\u003E ≥\u003Cspan style='color: rgba(0,0,0,0)'\u003E1-\u003C\u002Fspan\u003E0,80"
       }
     ]
   },
@@ -4052,23 +4054,23 @@
   },
   "legend": {
     "enabled": true,
-    "align": "right",
+    "align": "left",
     "floating": true,
     "itemStyle": {
-      "fontSize": "10px",
+      "fontSize": "15px",
       "fontWeight": "normal"
     },
     "title": {
       "style": {
-        "fontWeight": " normal",
-        "fontSize": "10px"
+        "fontWeight": "normal",
+        "fontSize": "15px"
       },
       "text": null
     },
     "useHTML": true,
     "layout": "vertical",
-    "x": -85,
-    "y": -25,
+    "x": 518,
+    "y": -15,
     "itemMarginBottom": 2,
     "symbolRadius": 0
   },
