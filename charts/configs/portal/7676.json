@@ -50,6 +50,10 @@
         [
           2016,
           45548.09
+        ],
+        [
+          2017,
+          44739.17
         ]
       ],
       "name": "Mittelwert Messe"
@@ -104,6 +108,10 @@
         [
           2016,
           39503
+        ],
+        [
+          2017,
+          37846
         ]
       ],
       "name": "Median Messe"
@@ -158,6 +166,10 @@
         [
           2016,
           79502.63
+        ],
+        [
+          2017,
+          78638.15
         ]
       ],
       "name": "Mittelwert Erlenmatt"
@@ -212,6 +224,10 @@
         [
           2016,
           60862.5
+        ],
+        [
+          2017,
+          62026.5
         ]
       ],
       "name": "Median Erlenmatt"
@@ -314,7 +330,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
   },
   "legend": {
     "enabled": true,

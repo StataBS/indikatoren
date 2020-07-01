@@ -6736,7 +6736,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen, 2010 bis 2013",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015",
 		"kuerzel": "I.04.1.5033",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
@@ -6746,13 +6746,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-24T11:15:31.3131",
+		"aktualisierungsdatum": "2020-06-29T10:26:14.1414",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt werden am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich werden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"lesehilfe": "In Basel-Stadt wurden in der Zeit zwischen 2010 und 2015 am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
 		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9098,13 +9098,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
+		"aktualisierungsdatum": "2020-06-30T15:01:36.3636",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 56% der Personen, die 2019 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 52%. Von den 2019 aus Frankreich zugewanderten Personen, besitzen 49% die französische Staatsbürgerschaft.",
+		"lesehilfe": "Bei 56% der Personen, die 2019 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 52%. Von den im Jahr 2019 aus Frankreich zugewanderten Personen, besitzen 49% die französische Staatsbürgerschaft.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9298,11 +9298,11 @@ var indikatoren = [
 		"id": 6021
 	},
 	{
-		"title": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.6022",
 		"kuerzelKunde": "2-12",
-		"description": "Bevölkerungssaldo infolge räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen",
@@ -9310,14 +9310,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:17.1717",
+		"aktualisierungsdatum": "2020-07-01T15:17:05.055",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2019 verbuchten die Wohnviertel Vorstädte, Am Ring, Clara, Wettstein und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für Kleinhüningen und die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Rosentalquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Altstädten Gross- und Kleinbasel sowie in den Wohnvierteln Vorstädte, Wettstein, Matthäus und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban, Clara und Rosental sowie die Gemeinde Riehen auf.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo ist die Differenz zwischen den von innerhalb des Kantons eingezogenen und in den Kanton Basel-Stadt ausgezogenen Personen.",
 		"template": "mapcolumn002",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
@@ -9394,13 +9394,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:18.1818",
+		"aktualisierungsdatum": "2020-06-30T15:01:58.5858",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zuwanderung aus Frankreich ist 2019 gegenüber 2010 um 39% auf 139 Punkte gestiegen. Auch der Zuzug aus Italien hat um 36% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2010 (-7%), ebenso aus dem Vereinigten Königreich (-7%) und den Vereinigten Staaten (-13%). Die Zuwanderung aus übrigen Ländern hat gegenüber 2010 um 14% zugenommen.",
+		"lesehilfe": "Der Index der Zuwanderung aus Frankreich ist 2019 gegenüber 2010 um 39% auf 139 Punkte gestiegen. Auch der Zuzug aus Italien hat um 36% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2010 (-7%), ebenso aus dem Vereinigten Königreich (-7%) und den Vereinigten Staaten (-13%). Die Zuwanderung aus übrigen Ländern hat gegenüber 2010 um 14% zugenommen.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -10912,14 +10912,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:37:54.5454",
+		"aktualisierungsdatum": "2020-06-30T14:53:58.5858",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (62,4%), gefolgt von den Schweizerinnen und Schweizern (47,0%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus der Türkei (10,2%) und dem Balkan (10,5%) auf.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2019 in der Grafik entspricht Schuljahr 2019/20.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -10954,19 +10954,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:02:53.5353",
+		"aktualisierungsdatum": "2020-06-29T11:07:35.3535",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gymnasial- bzw. Sek P-Quote der Schweizerinnen und Schweizer liegt in allen Jahren über derjenigen der Ausländerinnen und Ausländer. Die Quote der Gymnasiastinnen bzw. Sek P-Schülerinnen – ob mit oder ohne Schweizer Pass – ist durchwegs höher als diejenige ihrer männlichen Kollegen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"lesehilfe": "Die Gymnasial- bzw. Sek P-Quote der Schweizerinnen und Schweizer liegt in allen Jahren über derjenigen der Ausländerinnen und Ausländer. Die Quote der Gymnasiastinnen bzw. Sek P-Schülerinnen – ob mit oder ohne Schweizer Pass – ist durchwegs höher als diejenige ihrer jeweiligen männlichen Kollegen.",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2019 in der Grafik entspricht Schuljahr 2019/20.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_002",
+		"orderKey": "02_00_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"6666"
@@ -11886,7 +11886,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6144",
 		"kuerzelKunde": "4.2",
 		"description": "Bevölkerung nach sozioprofessioneller Kategorie",
@@ -11896,14 +11896,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-04-12T10:43:33.3333",
+		"aktualisierungsdatum": "2020-06-29T10:26:14.1414",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2017 rund 3 200 Personen im obersten Management.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren. Bei der Interpretation der Ergebnisse muss die Unsicherheit von Stichprobenerhebungen berücksichtigt werden.",
+		"lesehilfe": "Von der baselstädtischen Wohnbevölkerung arbeiteten im Jahr 2018 rund 3 700 Personen im obersten Management.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12199,14 +12199,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T12:00:40.4040",
+		"aktualisierungsdatum": "2020-06-29T10:26:15.1515",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2018 um 1% tiefer, diejenige des Veloverkehrs um 28,7% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Prozentpunkte, sank dann aber wieder und liegt 2018 bei einem Indexwert von 102,4.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Die Veränderung gegenüber dem Referenzjahr 2010 wird in Prozent dargestellt (indexiert, 2010 = 100). <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2019 um 1,5% tiefer, diejenige des Veloverkehrs um 45% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Indexpunkte, sank dann aber wieder und liegt 2019 bei einem Indexwert von 98,4 und damit tiefer als im Jahr 2013.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamts für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12289,13 +12289,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-01T11:23:28.2828",
+		"aktualisierungsdatum": "2020-06-29T10:26:15.1515",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2018 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2019 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
 		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -12304,7 +12304,9 @@ var indikatoren = [
 		"orderKey": "05_00_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6308"
+			"6308",
+			"7777",
+			"8420"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12903,13 +12905,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:45.4545",
+		"aktualisierungsdatum": "2020-06-29T10:26:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden mehr ausserkantonale Patienten (42&nbsp;766) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38&nbsp;351). Von den insgesamt 38&nbsp;351 Fällen aus dem Stadtkanton können knapp 79% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
+		"lesehilfe": "Im Jahr 2019 wurden mehr ausserkantonale Patienten (43&nbsp;680) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38&nbsp;304). Von den insgesamt 38&nbsp;304 Fällen aus dem Stadtkanton können über 78% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
 		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr. Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -13509,14 +13511,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:50:51.5151",
+		"aktualisierungsdatum": "2020-06-29T10:26:16.1616",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Seit 2016 stagniert die Anzahl angebotener Plätze bei rund 4 100. 2018 stehen insgesamt 4 087 Plätze zur Verfügung, davon befinden sich 85 Plätze in Tagesfamilien.",
-		"erlaeuterungen": "Die Daten werden jeweils in einer Stichwoche im Oktober erhoben.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Zwischen 2016 und 2018 stagnierte die Anzahl angebotener Plätze bei rund 4&nbsp100. Im Jahr 2019 stehen insgesamt 4&nbsp269 Plätze zur Verfügung, davon befinden sich 84 Plätze in Tagesfamilien.",
+		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14065,7 +14067,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T13:00:11.1111",
+		"aktualisierungsdatum": "2020-06-29T10:26:16.1616",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -25549,13 +25551,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:35:29.2929",
+		"aktualisierungsdatum": "2020-06-29T11:54:31.3131",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2018 4 730 Einwohner. Dies sind 13,0% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2018 weniger stark zugenommen (+6,2%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Erst mit der Fertigstellung der ersten Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen die Einwohnerzahlen auch dort markant. Ende 2018 wurden in diesem neuen Stadtteil 2 110 Einwohner registriert.",
+		"lesehilfe": "Im Bezirk Messe lebten Ende 2019 4 758 Einwohner. Dies sind 13,7% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2019 weniger stark zugenommen (+6,3%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Mit der Fertigstellung der Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen in der Folge die Einwohnerzahlen. Ende 2019 wurden in diesem neuen Stadtteil 2 687 Einwohner registriert.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25581,7 +25583,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2018",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2019",
 		"kuerzel": "I.01.1.07666",
 		"kuerzelKunde": "2.02",
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
@@ -25591,13 +25593,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:35.3535",
+		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2018 waren im Bezirk Messe 35% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 41% der Männer und 42% der Frauen. Im Kanton Basel-Stadt gehörten 25% der Männer und 25% der Frauen dieser Altersgruppe an.",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2019 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -25634,14 +25636,14 @@ var indikatoren = [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:09:22.2222",
+		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2000 und 2018 von 28,7 auf 24,3 gesunken. Im Bezirk Erlenmatt hat der Jugendquotient hingegen zugenommen, von 26,0 im Jahr 2000 auf 33,8 im Jahr 2018. Im Kanton Basel-Stadt lag der Jugendquotient im Jahr 2000 bei 27,8, im Jahr 2018 bei 26,5.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2000 und 2019 von 28,7 auf 23,6 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,8 auf 26,5. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und lag 2019 bei 30,7.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -25719,13 +25721,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist der Ausländeranteil seit 2000 von 49,5% auf 55,6% gestiegen. Ein anderes Bild zeigt der Bezirk Erlenmatt. Bis ca. 2008 schwankte der Anteil Ausländer von Jahr zu Jahr relativ stark, was auf die geringe Einwohnerzahl zurückzuführen ist. Danach stieg der Ausländeranteil bis 2012 auf den Höchstwert von 68,5% und sank seither wieder jährlich auf 55,9% per Ende 2018.",
+		"lesehilfe": "Im Bezirk Messe ist der Ausländeranteil seit 2000 von 49,6% auf 55,8% gestiegen. Ein anderes Bild zeigt der Bezirk Erlenmatt. Bis ca. 2008 schwankte der Anteil Ausländer von Jahr zu Jahr relativ stark, was auf die geringe Einwohnerzahl zurückzuführen ist. Danach stieg der Ausländeranteil bis 2012 auf den Höchstwert von 68,5% und sank seither wieder auf 56,2% per Ende 2019.",
 		"erlaeuterungen": "Während die Bevölkerungszahl im Bezirk Messe seit 2000 kontinuierlich von 4&nbsp;185 auf 4&nbsp;730 anstieg, veränderte sich die Anzahl Einwohner im Bezirk Erlenmatt sehr sprunghaft. Dies ist auf die starke Bautätigkeit, insbesondere in den Jahren 2009 (+233 Wohnungen) und 2015 (+574 Wohnungen), aber auch in den Jahren 2014 (+63 Wohnungen), 2017 (+80 Wohnungen) und 2018 (+43 Wohnungen) zurückzuführen. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dies zu berücksichtigen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25761,13 +25763,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-07-01T12:19:03.033",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt bildeten in den letzten fünf Jahren jeweils Personen aus der Kategorie \"Übrige Länder\" die grösste ausländische Bevölkerungsgruppe, gefolgt von den Deutschen. Die grösste ausländische Bevölkerungsgruppe im Bezirk Messe waren von 2014 bis 2015 Personen aus dem Balkan und seit 2016 Personen aus den EU-17 + EFTA-Staaten.",
+		"lesehilfe": "Im Bezirk Erlenmatt bildeten in den letzten fünf Jahren jeweils Personen aus der Kategorie \"Übrige Länder\" die grösste ausländische Bevölkerungsgruppe, gefolgt von den Deutschen. Die grösste ausländische Bevölkerungsgruppe im Bezirk Messe waren 2015 Personen aus dem Balkan und seit 2016 Personen aus den EU-17 + EFTA-Staaten.",
 		"erlaeuterungen": "Die Bevölkerungszahl entwickelte sich im Wohnviertel Rosental in den letzten Jahren sehr sprunghaft. Dies ist durch die starke Bautätigkeit im Bezirk Erlenmatt, insbesondere in den Jahren 2009 (+233 Wohnungen) und 2015 (+574 Wohnungen), aber auch den Jahren 2014 (+63 Wohnungen), 2017 (+80 Wohnungen) und 2018 (+43 Wohnungen) begründet. Bei der Interpretation der bevölkerungsbezogenen Indikatoren ist dieser Hintergrund zu berücksichtigen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -25930,13 +25932,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-07-01T12:19:03.033",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wiesen Personen aus der Türkei weitaus den höchsten Segregationsindex auf (33,4). Der hohe Wert bedeutet, dass die Wohnorte dieser Bevölkerungsgruppe am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert waren. Mit deutlichem Abstand folgten Personen aus dem Balkan (17,9) und der Länderguppe EU-Ost (18,4). Die niedrigsten Indices ergaben sich 2018 für die Personen aus der Gruppe EU-17 + EFTA (14,6) sowie für die Schweizer (13,4). Im Vergleich zu 1999 haben die Segregationsindices aller Ländergruppen mit Ausnahme desjenigen der Türken abgenommen.",
+		"lesehilfe": "2019 wiesen Personen aus afrikanischen Ländern und aus der Türkei die weitaus höchsten Segregationsindices auf (32,4 und 31,4). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert waren. Ebenfalls relativ hohe Segregationsindices wiesen Personen aus Mittel- und Südamerika (24,7) sowie aus arabischen Ländern (23,6) auf. Die niedrigsten Indices ergaben sich 2019 für Schweizer (11,4) und für Personen aus der Gruppe EU-17 + EFTA (11,0). Im Vergleich zu 1999 haben die Segregationsindices aller Ländergruppen mit Ausnahme desjenigen der Türken und der Personen aus afrikanischen Ländern abgenommen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Wohnviertel Rosental von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen Block umziehen müsste, um gleich über das Wohnviertel Rosental verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25972,13 +25974,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2014 bis 2018 die Einwohner, die keiner Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die einer nicht öffentlich-rechtlich anerkannten Religionsgemeinschaft angehörten.",
+		"lesehilfe": "In beiden Bezirken des Wohnviertels Rosental bildeten in den Jahren 2015 bis 2019 die Einwohner, die keiner oder einer nicht öffentliche-rechtlichen Religionsgemeinschaft angehören oder deren Zugehörigkeit unbekannt ist, die grösste Gruppe. Die zweitgrösste Gruppe bildeten Personen, die der Römisch-katholischen Kirche angehörten.",
 		"erlaeuterungen": "Im Kanton Basel-Stadt sind folgende Religionsgemeinschaften öffentlich-rechtlich anerkannt: Evangelisch-reformiert, Römisch-katholisch, Christkatholisch, Israelitisch.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -26014,13 +26016,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2016 bei rund 79 500 Franken, der Median bei 60 900 Franken. Es liegen dort aktuell 886 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 45 500 Franken, der Median 39 500 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2016 insgesamt 2 477 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2017 bei rund 78 600 Franken, der Median bei 62 000 Franken. Es liegen dort aktuell 968 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 44 700 Franken, der Median 37 800 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2017 insgesamt 2 379 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26056,13 +26058,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2016 bei rund 159 400 Franken, der Median bei 16 800 Franken. Es liegen dort akutell 886 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 69 100 Franken, der Median 2 000 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2016 insgesamt 2 477 (2005: 2 443).",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2017 bei rund 132 800 Franken, der Median bei 23 600 Franken. Es liegen dort akutell 968 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 68 900 Franken, der Median 1 530 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2017 insgesamt 2 379 (2005: 2 443).",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -26856,7 +26858,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-07-01T12:19:05.055",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
@@ -35449,7 +35451,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-24T08:02:41.4141",
+		"aktualisierungsdatum": "2020-07-01T11:42:58.5858",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

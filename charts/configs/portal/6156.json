@@ -47,6 +47,10 @@
         [
           2018,
           26
+        ],
+        [
+          2019,
+          26
         ]
       ],
       "name": "Basel"
@@ -97,6 +101,10 @@
         ],
         [
           2018,
+          33
+        ],
+        [
+          2019,
           33
         ]
       ],
@@ -149,6 +157,10 @@
         [
           2018,
           31
+        ],
+        [
+          2019,
+          32
         ]
       ],
       "name": "Zürich"
@@ -199,6 +211,10 @@
         ],
         [
           2018,
+          20
+        ],
+        [
+          2019,
           20
         ]
       ],
@@ -301,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-1"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
   },
   "legend": {
     "enabled": true,
