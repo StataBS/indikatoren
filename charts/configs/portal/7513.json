@@ -245,7 +245,7 @@
         ],
         [
           "Jun",
-          undefined
+          102.2
         ],
         [
           "Jul",
@@ -374,7 +374,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-2"
   },
   "legend": {
     "enabled": true,
