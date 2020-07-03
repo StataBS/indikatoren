@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Wanderungs-\u002FUmzugssaldo",
+      "name": "Saldo",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -3996,7 +3996,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-2"
   },
   "colorAxis": {
     "min": 0,
