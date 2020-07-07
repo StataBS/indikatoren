@@ -1433,9 +1433,50 @@ id | visible | visibleInPortal | indikatorenset
 8340 | true | true | CMS Kennzahlen Soziales
 8341 | true | true | CMS Kennzahlen Soziales
 8348 | true | true | 
+8350 | true | true | Wirtschaftsbericht BS_BL_JU
+8351 | true | true | Wirtschaftsbericht BS_BL_JU
+8352 | true | true | Wirtschaftsbericht BS_BL_JU
+8353 | true | true | Wirtschaftsbericht BS_BL_JU
+8354 | true | true | Wirtschaftsbericht BS_BL_JU
+8355 | true | true | Wirtschaftsbericht BS_BL_JU
+8356 | true | true | Wirtschaftsbericht BS_BL_JU
+8357 | true | true | Wirtschaftsbericht BS_BL_JU
+8358 | true | true | Wirtschaftsbericht BS_BL_JU
+8359 | true | true | Wirtschaftsbericht BS_BL_JU
+8360 | true | true | Wirtschaftsbericht BS_BL_JU
+8361 | true | true | Wirtschaftsbericht BS_BL_JU
+8362 | true | true | Wirtschaftsbericht BS_BL_JU
+8363 | true | true | Wirtschaftsbericht BS_BL_JU
+8364 | true | true | Wirtschaftsbericht BS_BL_JU
+8365 | true | true | Wirtschaftsbericht BS_BL_JU
+8366 | true | true | Wirtschaftsbericht BS_BL_JU
+8367 | true | true | Wirtschaftsbericht BS_BL_JU
+8368 | true | true | Wirtschaftsbericht BS_BL_JU
+8369 | true | true | Wirtschaftsbericht BS_BL_JU
+8370 | true | true | Wirtschaftsbericht BS_BL_JU
+8371 | true | true | Wirtschaftsbericht BS_BL_JU
+8372 | true | true | Wirtschaftsbericht BS_BL_JU
+8373 | true | true | Wirtschaftsbericht BS_BL_JU
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
+8431 | true | true | Wirtschaftsbericht BS_BL_JU
+8432 | true | true | Wirtschaftsbericht BS_BL_JU
+8433 | true | true | Wirtschaftsbericht BS_BL_JU
+8434 | true | true | Wirtschaftsbericht BS_BL_JU
+8435 | true | true | Wirtschaftsbericht BS_BL_JU
+8436 | true | true | Wirtschaftsbericht BS_BL_JU
+8437 | true | true | Wirtschaftsbericht BS_BL_JU
+8438 | true | true | Wirtschaftsbericht BS_BL_JU
+8439 | true | true | Wirtschaftsbericht BS_BL_JU
+8440 | true | true | Wirtschaftsbericht BS_BL_JU
+8441 | true | true | Wirtschaftsbericht BS_BL_JU
+8442 | true | true | Wirtschaftsbericht BS_BL_JU
+8443 | true | true | Wirtschaftsbericht BS_BL_JU
+8444 | true | true | Wirtschaftsbericht BS_BL_JU
+8445 | true | true | Wirtschaftsbericht BS_BL_JU
+8446 | true | true | Wirtschaftsbericht BS_BL_JU
+8447 | true | true | Wirtschaftsbericht BS_BL_JU
 8448 | true | false | Nachhaltigkeit
 8449 | true | true | Nachhaltigkeit
 8451 | true | true | 
@@ -1448,6 +1489,7 @@ id | visible | visibleInPortal | indikatorenset
 8458 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
 8461 | true | true | Nachhaltigkeit
+8462 | true | true | Wirtschaftsbericht BS_BL_JU
 8511 | true | false | CMS Kennzahlen Soziales (Print)
 8512 | true | false | CMS Kennzahlen Soziales (Print)
 8513 | true | false | CMS Kennzahlen Soziales (Print)
@@ -1602,6 +1644,9 @@ id | visible | visibleInPortal | indikatorenset
 8844 | true | false | Stadtteilmonitoring Rosental (Print)
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
+8863 | true | true | Wirtschaftsbericht BS_BL_JU
+8868 | true | true | Wirtschaftsbericht BS_BL_JU
+8873 | true | true | Wirtschaftsbericht BS_BL_JU
 8877 | true | false | Richtplan
 8879 | true | false | Nachhaltigkeit (Print)
 8880 | true | false | Nachhaltigkeit (Print)
@@ -1680,6 +1725,8 @@ id | visible | visibleInPortal | indikatorenset
 8963 | true | false | Nachhaltigkeit (Print)
 8964 | true | false | Nachhaltigkeit (Print)
 8965 | true | false | Nachhaltigkeit (Print)
+8969 | true | true | Wirtschaftsbericht BS_BL_JU
+8970 | true | true | Wirtschaftsbericht BS_BL_JU
 8976 | true | false | 
 8977 | true | false | CMS Kennzahlen Soziales
 8978 | true | false | CMS Kennzahlen Soziales (Print)
