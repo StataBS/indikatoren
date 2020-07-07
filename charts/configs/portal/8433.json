@@ -1,0 +1,287 @@
+{
+  "series": [
+    {
+      "color": "#474747",
+      "data": [
+        [
+          "15-19",
+          3.883121284
+        ],
+        [
+          "20-24",
+          4.780608525
+        ],
+        [
+          "25-29",
+          7.571136646
+        ],
+        [
+          "30-34",
+          8.685807584
+        ],
+        [
+          "35-39",
+          8.19650247
+        ],
+        [
+          "40-44",
+          7.122906462
+        ],
+        [
+          "45-49",
+          6.607416079
+        ],
+        [
+          "50-54",
+          7.347791709
+        ],
+        [
+          "55-59",
+          6.855405974
+        ],
+        [
+          "60-64",
+          5.710955711
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "15-19",
+          4.870337207
+        ],
+        [
+          "20-24",
+          5.228159316
+        ],
+        [
+          "25-29",
+          5.437438396
+        ],
+        [
+          "30-34",
+          5.974345092
+        ],
+        [
+          "35-39",
+          6.330778949
+        ],
+        [
+          "40-44",
+          6.419974179
+        ],
+        [
+          "45-49",
+          7.300126331
+        ],
+        [
+          "50-54",
+          8.229561451
+        ],
+        [
+          "55-59",
+          7.556606
+        ],
+        [
+          "60-64",
+          6.383879611
+        ]
+      ],
+      "name": "Basel-Landschaft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "15-19",
+          5.844536155
+        ],
+        [
+          "20-24",
+          6.326700173
+        ],
+        [
+          "25-29",
+          6.185047467
+        ],
+        [
+          "30-34",
+          5.862242744
+        ],
+        [
+          "35-39",
+          5.741020717
+        ],
+        [
+          "40-44",
+          5.900380011
+        ],
+        [
+          "45-49",
+          6.891948951
+        ],
+        [
+          "50-54",
+          7.544368624
+        ],
+        [
+          "55-59",
+          7.289666163
+        ],
+        [
+          "60-64",
+          6.407060843
+        ]
+      ],
+      "name": "Jura",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "renderTo": "container-8433",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Altersklassen von 15 bis 64 Jahren; BS, BL und JU"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Anteil an der Gesamtbevölkerung, 2018",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 1
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key} Jahre\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8433
+  }
+}

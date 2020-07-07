@@ -1,0 +1,238 @@
+{
+  "series": [
+    {
+      "index": 1,
+      "data": [
+        [
+          "Basel-Stadt",
+          33932
+        ],
+        [
+          "Basel-Landschaft",
+          22318
+        ],
+        [
+          "Jura",
+          8641
+        ],
+        [
+          "BS\u002FBL\u002FJU (rechte Skala)",
+          null
+        ],
+        [
+          "Schweiz (rechte Skala)",
+          null
+        ]
+      ],
+      "name": "2019Q4",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "yAxis": 1,
+      "data": [
+        [
+          "Basel-Stadt",
+          null
+        ],
+        [
+          "Basel-Landschaft",
+          null
+        ],
+        [
+          "Jura",
+          null
+        ],
+        [
+          "BS\u002FBL\u002FJU (rechte Skala)",
+          64892
+        ],
+        [
+          "Schweiz (rechte Skala)",
+          328850
+        ]
+      ],
+      "name": "2019Q4",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "x": -12,
+      "rotation": 0,
+      "formatter": function () {
+          return this.value.replace("BS/BL/JU (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>BS/BL/JU <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
+            .replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Abstand</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abstand</span>(rechte  Skala)")
+            .replace("Basel-Landschaft", "Basel-<br/>Landschaft");
+        }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "margin": [
+      60,
+      60,
+      80,
+      60
+    ],
+    "type": "column",
+    "renderTo": "container-8362",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": -0.5
+    },
+    "column": {
+      "colorByPoint": true
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Grenzgänger"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2019, 4. Quartal",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "labels": {
+        "format": "{value:,.f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "title": ""
+    },
+    {
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.f}",
+        "style": {
+          "color": "#000000",
+          "textOverflow": "none",
+          "whiteSpace": "nowrap"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "gridLineWidth": 0,
+      "opposite": true
+    }
+  ],
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "colors": [
+    "#474747",
+    "#FF8028",
+    "#FABD24",
+    "#B375AB",
+    "#990300"
+  ],
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": 8362
+  }
+}

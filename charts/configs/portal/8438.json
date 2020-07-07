@@ -1,0 +1,512 @@
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 14,
+      "data": [
+        [
+          "BS",
+          58
+        ],
+        [
+          "BL",
+          3202
+        ],
+        [
+          "JU",
+          3059
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          6319
+        ],
+        [
+          "CH",
+          162905
+        ]
+      ],
+      "name": "Primärer Sektor",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 13,
+      "data": [
+        [
+          "BS",
+          19615
+        ],
+        [
+          "BL",
+          5318
+        ],
+        [
+          "JU",
+          90
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          25023
+        ],
+        [
+          "CH",
+          74672
+        ]
+      ],
+      "name": "Chemie, Pharma",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          "BS",
+          1470
+        ],
+        [
+          "BL",
+          11644
+        ],
+        [
+          "JU",
+          10072
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          23186
+        ],
+        [
+          "CH",
+          327264
+        ]
+      ],
+      "name": "Investitionsgüter",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          "BS",
+          8080
+        ],
+        [
+          "BL",
+          12237
+        ],
+        [
+          "JU",
+          2607
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          22924
+        ],
+        [
+          "CH",
+          357096
+        ]
+      ],
+      "name": "Baugewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
+      "data": [
+        [
+          "BS",
+          7280
+        ],
+        [
+          "BL",
+          9982
+        ],
+        [
+          "JU",
+          2753
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          20015
+        ],
+        [
+          "CH",
+          319672
+        ]
+      ],
+      "name": "Sonstige Industrie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          "BS",
+          15009
+        ],
+        [
+          "BL",
+          20243
+        ],
+        [
+          "JU",
+          4242
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          39494
+        ],
+        [
+          "CH",
+          625374
+        ]
+      ],
+      "name": "Handel, Reparatur",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 8,
+      "data": [
+        [
+          "BS",
+          10979
+        ],
+        [
+          "BL",
+          8195
+        ],
+        [
+          "JU",
+          1021
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          20195
+        ],
+        [
+          "CH",
+          243762
+        ]
+      ],
+      "name": "Verkehr, Lagerei",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          "BS",
+          10432
+        ],
+        [
+          "BL",
+          3996
+        ],
+        [
+          "JU",
+          1491
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          15919
+        ],
+        [
+          "CH",
+          254394
+        ]
+      ],
+      "name": "Gastgewerbe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          "BS",
+          10705
+        ],
+        [
+          "BL",
+          3588
+        ],
+        [
+          "JU",
+          1024
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          15317
+        ],
+        [
+          "CH",
+          244711
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "index": 5,
+      "data": [
+        [
+          "BS",
+          21586
+        ],
+        [
+          "BL",
+          12715
+        ],
+        [
+          "JU",
+          1698
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          35999
+        ],
+        [
+          "CH",
+          437223
+        ]
+      ],
+      "name": "Freib., wiss., tech. DL",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 4,
+      "data": [
+        [
+          "BS",
+          18976
+        ],
+        [
+          "BL",
+          15764
+        ],
+        [
+          "JU",
+          3868
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          38608
+        ],
+        [
+          "CH",
+          562359
+        ]
+      ],
+      "name": "Öff. Verwaltung, Bildung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#672773",
+      "index": 3,
+      "data": [
+        [
+          "BS",
+          31449
+        ],
+        [
+          "BL",
+          21865
+        ],
+        [
+          "JU",
+          5946
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          59260
+        ],
+        [
+          "CH",
+          717502
+        ]
+      ],
+      "name": "Gesundheit-, Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 2,
+      "data": [
+        [
+          "BS",
+          35327
+        ],
+        [
+          "BL",
+          20430
+        ],
+        [
+          "JU",
+          5015
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          60772
+        ],
+        [
+          "CH",
+          853236
+        ]
+      ],
+      "name": "Sonstige DL",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "step": 1
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+          }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-8438",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent",
+      "pointPadding": 0.1,
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beschäftigte nach Branche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "2017",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickInterval": 20
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 8438
+  }
+}

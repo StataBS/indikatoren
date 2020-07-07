@@ -1,0 +1,543 @@
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 14,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          84.44
+        ],
+        [
+          2016,
+          87.55
+        ],
+        [
+          2017,
+          85.02
+        ],
+        [
+          2018,
+          87.05
+        ]
+      ],
+      "name": "Fahrzeugbau"
+    },
+    {
+      "color": "#DC440E",
+      "index": 13,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          89.98
+        ],
+        [
+          2016,
+          92.78
+        ],
+        [
+          2017,
+          94.57
+        ],
+        [
+          2018,
+          94.98
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL"
+    },
+    {
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.04
+        ],
+        [
+          2016,
+          98.25
+        ],
+        [
+          2017,
+          95.42
+        ],
+        [
+          2018,
+          95.33
+        ]
+      ],
+      "name": "Handel, Reparatur"
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          93.29
+        ],
+        [
+          2016,
+          93.37
+        ],
+        [
+          2017,
+          92.79
+        ],
+        [
+          2018,
+          95.64
+        ]
+      ],
+      "name": "Gastgewerbe"
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          98.07
+        ],
+        [
+          2016,
+          96.04
+        ],
+        [
+          2017,
+          96.01
+        ],
+        [
+          2018,
+          99.2
+        ]
+      ],
+      "name": "Verkehr, Lagerei"
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          92.45
+        ],
+        [
+          2016,
+          88.83
+        ],
+        [
+          2017,
+          89.14
+        ],
+        [
+          2018,
+          101.9
+        ]
+      ],
+      "name": "Primärer Sektor"
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 8,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.18
+        ],
+        [
+          2016,
+          102.21
+        ],
+        [
+          2017,
+          102.37
+        ],
+        [
+          2018,
+          102.39
+        ]
+      ],
+      "name": "Öff. Verwaltung, Bildung"
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          98.23
+        ],
+        [
+          2016,
+          98.15
+        ],
+        [
+          2017,
+          101.97
+        ],
+        [
+          2018,
+          107.39
+        ]
+      ],
+      "name": "Elektro\u002FOptik\u002FMaschinen"
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          95.45
+        ],
+        [
+          2016,
+          98.15
+        ],
+        [
+          2017,
+          104.46
+        ],
+        [
+          2018,
+          110.79
+        ]
+      ],
+      "name": "Metallindustrie"
+    },
+    {
+      "color": "#008AC3",
+      "index": 5,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          96.58
+        ],
+        [
+          2016,
+          99.58
+        ],
+        [
+          2017,
+          102.08
+        ],
+        [
+          2018,
+          112.12
+        ]
+      ],
+      "name": "Baugewerbe"
+    },
+    {
+      "color": "#246370",
+      "index": 4,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          103.72
+        ],
+        [
+          2016,
+          107.1
+        ],
+        [
+          2017,
+          111.6
+        ],
+        [
+          2018,
+          114.68
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 3,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          103.28
+        ],
+        [
+          2016,
+          111.38
+        ],
+        [
+          2017,
+          109.38
+        ],
+        [
+          2018,
+          114.75
+        ]
+      ],
+      "name": "Freib., wiss., tech. DL"
+    },
+    {
+      "color": "#672773",
+      "index": 2,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.99
+        ],
+        [
+          2016,
+          118.87
+        ],
+        [
+          2017,
+          117.45
+        ],
+        [
+          2018,
+          122.82
+        ]
+      ],
+      "name": "Chemische Industrie"
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          116.59
+        ],
+        [
+          2016,
+          138.95
+        ],
+        [
+          2017,
+          149.42
+        ],
+        [
+          2018,
+          161.86
+        ]
+      ],
+      "name": "Pharma"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8356"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung Wertschöpfung nach Branche, Basel-Landschaft"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "real, indexiert (2014 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 80,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 8356
+  }
+}
