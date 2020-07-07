@@ -25,6 +25,7 @@ var indikatorensetNames = [
 	"City-Statistics",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen",
 	"CMS Kennzahlen Soziales",
+	"Wirtschaftsbericht BS_BL_JU",
 	"CMS Kennzahlen Soziales (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 	"Nachhaltigkeit (Print)",
