@@ -36017,7 +36017,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:37.3737",
+		"aktualisierungsdatum": "2020-07-08T14:38:02.022",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.2 Bildung",
 		"stufe3": "",
@@ -36040,7 +36040,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
+			"Weiterführende Informationen zum Thema finden Sie auf der <a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/abschlussquote-sekii.html' target = '_blank'>Homepage des Bundesamtes für Statistik</a>"
 		],
 		"data-id": 8445,
 		"chart-id": 8445,
@@ -37441,7 +37441,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-01T11:42:58.5858",
+		"aktualisierungsdatum": "2020-07-08T10:04:31.3131",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
