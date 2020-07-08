@@ -746,6 +746,10 @@
         [
           "2020-05",
           4114
+        ],
+        [
+          "2020-06",
+          4162
         ]
       ],
       "name": "Arbeitslose",
@@ -1497,6 +1501,10 @@
         [
           "2020-05",
           627
+        ],
+        [
+          "2020-06",
+          683
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2251,6 +2259,10 @@
         [
           "2020-05",
           0.15241
+        ],
+        [
+          "2020-06",
+          0.1641
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -2376,7 +2388,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-9"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-8"
   },
   "legend": {
     "enabled": true,
