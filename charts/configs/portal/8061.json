@@ -70,6 +70,22 @@
         [
           "2018: Kleinhüningen",
           894
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          2915
+        ],
+        [
+          "2019: Kleinhüningen",
+          899
+        ],
+        [
+          "       ",
+          null
         ]
       ],
       "name": "Mietwohnungen",
@@ -145,6 +161,22 @@
         [
           "2018: Kleinhüningen",
           303
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          470
+        ],
+        [
+          "2019: Kleinhüningen",
+          294
+        ],
+        [
+          "       ",
+          null
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -220,6 +252,22 @@
         [
           "2018: Kleinhüningen",
           36
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          80
+        ],
+        [
+          "2019: Kleinhüningen",
+          37
+        ],
+        [
+          "       ",
+          null
         ]
       ],
       "name": "Selbstbewohnte Eigentümerwohnungen",
@@ -295,6 +343,22 @@
         [
           "2018: Kleinhüningen",
           31
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2019: Klybeck",
+          24
+        ],
+        [
+          "2019: Kleinhüningen",
+          30
+        ],
+        [
+          "       ",
+          undefined
         ]
       ],
       "name": "Sonstige Wohnungen",
@@ -433,7 +497,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
   },
   "legend": {
     "symbolRadius": 0,

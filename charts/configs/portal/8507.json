@@ -1,0 +1,595 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "#246370",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          70.2323
+        ],
+        [
+          "Basel-Landschaft",
+          71.1421
+        ],
+        [
+          "Jura",
+          67.7174
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          70.3723
+        ],
+        [
+          "Schweiz",
+          72.276
+        ]
+      ],
+      "name": "2014",
+      "turboThreshold": 0
+    },
+    {
+      "index": 1,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 68.1361,
+          "high": 72.3286
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 69.4557,
+          "high": 72.8285
+        },
+        {
+          "name": "Jura",
+          "low": 65.3788,
+          "high": 70.0561
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 69.189,
+          "high": 71.5556
+        },
+        {
+          "name": "Schweiz",
+          "low": 72.0068,
+          "high": 72.5452
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#0F7399",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          71.3121
+        ],
+        [
+          "Basel-Landschaft",
+          71.7832
+        ],
+        [
+          "Jura",
+          70.1936
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.4085
+        ],
+        [
+          "Schweiz",
+          72.2969
+        ]
+      ],
+      "name": "2015",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 69.1964,
+          "high": 73.4278
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 70.1312,
+          "high": 73.4352
+        },
+        {
+          "name": "Jura",
+          "low": 66.8224,
+          "high": 73.5648
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 70.1916,
+          "high": 72.6253
+        },
+        {
+          "name": "Schweiz",
+          "low": 72.0193,
+          "high": 72.5745
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#689199",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          71.6175
+        ],
+        [
+          "Basel-Landschaft",
+          72.1033
+        ],
+        [
+          "Jura",
+          64.4632
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          70.9365
+        ],
+        [
+          "Schweiz",
+          71.987
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 69.5034,
+          "high": 73.7316
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 70.4,
+          "high": 73.8066
+        },
+        {
+          "name": "Jura",
+          "low": 60.8668,
+          "high": 68.0597
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 69.6898,
+          "high": 72.1831
+        },
+        {
+          "name": "Schweiz",
+          "low": 71.7083,
+          "high": 72.2656
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#A8C3CA",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          72.9519
+        ],
+        [
+          "Basel-Landschaft",
+          71.1579
+        ],
+        [
+          "Jura",
+          67.7616
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.3605
+        ],
+        [
+          "Schweiz",
+          72.9277
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 70.9174,
+          "high": 74.9865
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 69.4753,
+          "high": 72.8406
+        },
+        {
+          "name": "Jura",
+          "low": 64.2987,
+          "high": 71.2245
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 70.1457,
+          "high": 72.5752
+        },
+        {
+          "name": "Schweiz",
+          "low": 72.6522,
+          "high": 73.2033
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
+      "index": 8,
+      "color": "#D3E2E4",
+      "borderColor": null,
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 1) + '%</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          69.8454
+        ],
+        [
+          "Basel-Landschaft",
+          71.9717
+        ],
+        [
+          "Jura",
+          72.2519
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          71.246
+        ],
+        [
+          "Schweiz",
+          71.2619
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "index": 9,
+      "type": "errorbar",
+      "lineWidth": 0.5,
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((this.high), 1) + '%</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 67.6837,
+          "high": 72.0071
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 70.2579,
+          "high": 73.6855
+        },
+        {
+          "name": "Jura",
+          "low": 68.9018,
+          "high": 75.602
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 69.9973,
+          "high": 72.4946
+        },
+        {
+          "name": "Schweiz",
+          "low": 70.9762,
+          "high": 71.5475
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add rigt-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                "title": {
+                                    "style": {
+                                        "color": "#000000",
+                                        "fontSize": 10
+                                    },
+                                    "text": ''
+                                },
+                                "labels": {
+                                    y: 3,
+                                    "style": {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "marginBottom": 35,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-8507",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "black"
+        }
+      },
+      "pointPadding": 0.1
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung Nettoerwerbstätigenquote der Frauen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "",
+    "align": "left",
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '%';
+        }
+    },
+    "tickAmount": 5,
+    "max": 100
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px"
+    }
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "allowHTML": true,
+    "filename": 8507
+  }
+}

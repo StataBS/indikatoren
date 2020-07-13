@@ -1,0 +1,586 @@
+{
+  "series": [
+    {
+      "color": "#8B2223",
+      "index": 14,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          78.97
+        ],
+        [
+          2016,
+          68.28
+        ],
+        [
+          2017,
+          66.95
+        ],
+        [
+          2018,
+          68.79
+        ]
+      ],
+      "name": "Fahrzeugbau"
+    },
+    {
+      "color": "#DC440E",
+      "index": 13,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          93.76
+        ],
+        [
+          2016,
+          91.02
+        ],
+        [
+          2017,
+          89.95
+        ],
+        [
+          2018,
+          92.67
+        ]
+      ],
+      "name": "Verkehr, Lagerei"
+    },
+    {
+      "color": "#FF8028",
+      "index": 12,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          93.92
+        ],
+        [
+          2016,
+          88.79
+        ],
+        [
+          2017,
+          89.84
+        ],
+        [
+          2018,
+          94.71
+        ]
+      ],
+      "name": "Elektro\u002FOptik\u002FMaschinen"
+    },
+    {
+      "color": "#FFBB58",
+      "index": 11,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          93.34
+        ],
+        [
+          2016,
+          90.01
+        ],
+        [
+          2017,
+          90
+        ],
+        [
+          2018,
+          94.88
+        ]
+      ],
+      "name": "Primärer Sektor"
+    },
+    {
+      "color": "#FFDA80",
+      "index": 10,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.36
+        ],
+        [
+          2016,
+          100.96
+        ],
+        [
+          2017,
+          98.85
+        ],
+        [
+          2018,
+          98.41
+        ]
+      ],
+      "name": "Handel, Reparatur"
+    },
+    {
+      "color": "#007A2F",
+      "index": 9,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          96.63
+        ],
+        [
+          2016,
+          94.02
+        ],
+        [
+          2017,
+          95.94
+        ],
+        [
+          2018,
+          99.85
+        ]
+      ],
+      "name": "Gastgewerbe"
+    },
+    {
+      "color": "#D7E8D2",
+      "index": 8,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          97.03
+        ],
+        [
+          2016,
+          98.65
+        ],
+        [
+          2017,
+          101.41
+        ],
+        [
+          2018,
+          101.56
+        ]
+      ],
+      "name": "Finanz-, Versicherungs-DL"
+    },
+    {
+      "color": "#73BA7C",
+      "index": 7,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          101.23
+        ],
+        [
+          2016,
+          101.62
+        ],
+        [
+          2017,
+          102.27
+        ],
+        [
+          2018,
+          102.38
+        ]
+      ],
+      "name": "Öff. Verwaltung, Bildung"
+    },
+    {
+      "color": "#2B0099",
+      "index": 6,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          100.09
+        ],
+        [
+          2016,
+          105.18
+        ],
+        [
+          2017,
+          101.03
+        ],
+        [
+          2018,
+          106.03
+        ]
+      ],
+      "name": "Freib., wiss., tech. DL"
+    },
+    {
+      "color": "#008AC3",
+      "index": 5,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          98.46
+        ],
+        [
+          2016,
+          100.66
+        ],
+        [
+          2017,
+          102.19
+        ],
+        [
+          2018,
+          106.88
+        ]
+      ],
+      "name": "Baugewerbe"
+    },
+    {
+      "color": "#246370",
+      "index": 4,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          96.84
+        ],
+        [
+          2016,
+          96.47
+        ],
+        [
+          2017,
+          103.2
+        ],
+        [
+          2018,
+          108.13
+        ]
+      ],
+      "name": "Metallindustrie"
+    },
+    {
+      "color": "#B9CFD7",
+      "index": 3,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          100.87
+        ],
+        [
+          2016,
+          107.23
+        ],
+        [
+          2017,
+          108.79
+        ],
+        [
+          2018,
+          110.98
+        ]
+      ],
+      "name": "Chemische Industrie"
+    },
+    {
+      "color": "#672773",
+      "index": 2,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          102.39
+        ],
+        [
+          2016,
+          106.58
+        ],
+        [
+          2017,
+          111.25
+        ],
+        [
+          2018,
+          114.06
+        ]
+      ],
+      "name": "Gesundheits-, Sozialwesen"
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 1,
+      "data": [
+        [
+          2014,
+          100
+        ],
+        [
+          2015,
+          119.36
+        ],
+        [
+          2016,
+          144.8
+        ],
+        [
+          2017,
+          159.43
+        ],
+        [
+          2018,
+          170.14
+        ]
+      ],
+      "name": "Pharma"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginTop": 8,
+    "renderTo": "container-8475",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung Wertschöpfung nach Branche, BS\u002FBL\u002FJU"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "real, indexiert (2014 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 60,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemMarginBottom": 1,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8475
+  }
+}

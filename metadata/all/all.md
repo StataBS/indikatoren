@@ -1490,6 +1490,46 @@ id | visible | visibleInPortal | indikatorenset
 8460 | true | true | Nachhaltigkeit
 8461 | true | true | Nachhaltigkeit
 8462 | true | true | Wirtschaftsbericht BS_BL_JU
+8467 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8468 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8469 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8470 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8471 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8472 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8473 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8474 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8475 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8476 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8477 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8478 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8479 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8480 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8481 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8482 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8483 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8484 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8485 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8486 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8487 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8488 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8489 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8490 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8491 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8492 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8493 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8494 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8495 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8496 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8497 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8498 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8499 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8500 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8501 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8503 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8504 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8506 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8507 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8508 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8511 | true | false | CMS Kennzahlen Soziales (Print)
 8512 | true | false | CMS Kennzahlen Soziales (Print)
 8513 | true | false | CMS Kennzahlen Soziales (Print)
@@ -1645,8 +1685,11 @@ id | visible | visibleInPortal | indikatorenset
 8848 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8852 | true | true | Nachhaltigkeit
 8863 | true | true | Wirtschaftsbericht BS_BL_JU
+8864 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8868 | true | true | Wirtschaftsbericht BS_BL_JU
 8873 | true | true | Wirtschaftsbericht BS_BL_JU
+8874 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8876 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8877 | true | false | Richtplan
 8879 | true | false | Nachhaltigkeit (Print)
 8880 | true | false | Nachhaltigkeit (Print)
@@ -1727,6 +1770,8 @@ id | visible | visibleInPortal | indikatorenset
 8965 | true | false | Nachhaltigkeit (Print)
 8969 | true | true | Wirtschaftsbericht BS_BL_JU
 8970 | true | true | Wirtschaftsbericht BS_BL_JU
+8972 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8973 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8976 | true | false | 
 8977 | true | false | CMS Kennzahlen Soziales
 8978 | true | false | CMS Kennzahlen Soziales (Print)
