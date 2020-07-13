@@ -2593,13 +2593,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T15:19:37.3737",
+		"aktualisierungsdatum": "2020-07-09T11:52:36.3636",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Über 85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
+		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -6304,13 +6304,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-04T10:46:02.022",
+		"aktualisierungsdatum": "2020-07-09T17:35:41.4141",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell 67 000.",
+		"lesehilfe": "Die Anzahl der Betreibungen im Kanton Basel-Stadt hat sich in den vergangenen Jahrzehnten erhöht und beträgt aktuell rund 68 200.",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -10996,19 +10996,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
-		"stufe1": "Kapitel B Schule und Bildung",
+		"aktualisierungsdatum": "2020-07-09T16:54:57.5757",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 im Vergleich zum Vorjahr leicht gesunken. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer hat sich seit vier Jahren um 25% eingependelt. Im gleichen Zeitraum haben sich die Quoten der Studierenden aus Italien, dem Balkan sowie aus Mittel- und Südamerika sukzessive erhöht. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "_201",
 		"parentId": null,
 		"children": [
 			"6667"
@@ -11040,19 +11040,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-07-10T18:15:47.4747",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 leicht gesunken, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung ist 2018 ebenfalls - und erstmals seit 2011 - ein Rückgang der Hochschulquote zu beobachten. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass 2018 etwas auseinanderentwickelt (Rückgang bei den Ausländern, Stabilität bei den Ausländerinnen).",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach zweijährigem, leichtem Rückgang 2019 wieder gestiegen, wobei dieser Effekt einzig auf die Zunahme der Studentinnen mit Schweizer Pass zurückzuführen ist. Bei der ausländischen Wohnbevölkerung ist 2019 nach einer mehrjährigen Periode mit steigenden Zahlen zum zweiten Mal in Folge ein - allerdings nur sehr geringfügiger - Rückgang der Hochschulquote zu beobachten.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "02_00_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"6668"
@@ -12070,14 +12070,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T16:50:25.2525",
+		"aktualisierungsdatum": "2020-07-09T16:56:28.2828",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12086,7 +12086,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"6054",
-			"6303"
+			"6303",
+			"8943"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12733,14 +12734,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T17:08:54.5454",
+		"aktualisierungsdatum": "2020-07-10T18:14:47.4747",
 		"stufe1": "Ziel 8: Das Kulturangebot ist vielfältig und erstklassig.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vor allem die Kinobesuche haben im Lauf der Zeit abgenommen: von fast 1,2 Mio. im Jahr 2002 auf 534 000 im Jahr 2018. Bei den Kleintheatern und Museen blieben die Zahlen vergleichsweise konstant.",
-		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2018 der Saison 2017/18.",
+		"lesehilfe": "Die Kinobesuche haben im Lauf der Zeit deutlich abgenommen: von fast 1,1 Mio. im Jahr 2003 auf rund 594 000 im Jahr 2019. Bei den übrigen Institutionen blieben die Zahlen vergleichsweise konstant.",
+		"erlaeuterungen": "In den Kategorien «Theater» und «Kleintheater» entsprechen die Zahlen jeweils der Saison von Mitte des Vorjahres bis Mitte des Datenjahres, also bspw. 2019 der Saison 2018/19.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12749,7 +12750,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5194",
-			"6318"
+			"6318",
+			"8908"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -13671,7 +13673,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.6215",
 		"kuerzelKunde": "ST 4-4",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -13681,23 +13683,26 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:40.4040",
+		"aktualisierungsdatum": "2020-07-10T17:59:27.2727",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_004",
+		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6260",
-			"7747"
+			"7747",
+			"8448",
+			"8954",
+			"9061"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -13895,14 +13900,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:31:48.4848",
+		"aktualisierungsdatum": "2020-07-09T11:55:48.4848",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt 190 966 Personen beschäftigt. Das sind 285 Personen mehr als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Branchengruppe Finanz- und Versicherungsdienstleistungen mit einer Abnahme um 476 Personen, während bei den Unternehmensdienstleistungen und Freiberufen mit 937 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches  die STATENT-Methode für die entsprechenden Jahre simuliert.",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -17514,7 +17519,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.6470",
 		"kuerzelKunde": "C6-4",
 		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung",
@@ -17524,23 +17529,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:14:53.5353",
+		"aktualisierungsdatum": "2020-07-10T18:14:27.2727",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2016 Personen aus den USA auf, der Wert beträgt rund 290&nbsp;000&nbsp;Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (209&nbsp;000&nbsp;Franken, 62 Veranlagungen) und Belgien (173&nbsp;000&nbsp;Franken, 114 Veranlagungen).",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2017 Personen aus den USA auf, der Wert beträgt rund 257 000 Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (221 000 Franken, 64 Veranlagungen) und Kanada (193 000 Franken, 122 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_030",
+		"orderKey": "03_00_00_00_00_604",
 		"parentId": null,
 		"children": [
-			"6711",
-			"7852"
+			"6711"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17567,23 +17571,22 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:15:44.4444",
+		"aktualisierungsdatum": "2020-07-10T18:11:49.4949",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2007 wie auch 2016 für die Gruppe der Schweizer vor. 2007 beträgt er rund 480&nbsp;000&nbsp;Franken, im Jahr 2016 ca. 610&nbsp;000&nbsp;Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6&nbsp;000&nbsp;Franken im Jahr 2007 resp. gut 13&nbsp;400&nbsp;Franken pro Veranlagung im Jahr 2016. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2008 wie auch 2017 für die Gruppe der Schweizer vor. 2008 beträgt er rund 440 000 Franken, im Jahr 2017 etwa 550 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 7 400 Franken im Jahr 2008 resp. gut 14 800 Franken pro Veranlagung im Jahr 2017. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_031",
+		"orderKey": "03_00_00_00_00_605",
 		"parentId": null,
 		"children": [
-			"6712",
-			"7853"
+			"6712"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -17945,34 +17948,33 @@ var indikatoren = [
 		"id": 6479
 	},
 	{
-		"title": "Anzahl ordentlich Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2008 bis 2018",
+		"title": "Anzahl Eingebürgerte",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2009 bis 2019",
 		"kuerzel": "I.01.6.6480",
 		"kuerzelKunde": "D3-2",
-		"description": "Anzahl ordentlich Eingebürgerte",
+		"description": "Anzahl Eingebürgerte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:30:52.5252",
+		"aktualisierungsdatum": "2020-07-10T18:09:47.4747",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2008 bis 2018 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen, den 25- bis 29-Jährigen und den 30- bis 34-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen (52%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (63%) und die 25- bis 29-Jährigen (61%) auf.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu  diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
+		"lesehilfe": "In dieser Abbildung sind die eingebürgerten Ausländer der Jahre 2009 bis 2019 zusammengefasst dargestellt. Am höchsten sind die Einbürgerungszahlen in den Altersgruppen der 10- bis 14-Jährigen, der 15- bis 19-Jährigen, der 35- bis 39-Jährigen, der 40- bis 44-Jährigen und der 45-bis 49-Jährigen. Ab der Altersgruppe 50 bis 54 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen (53%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (61%) und die 25- bis 29-Jährigen (62%) auf.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_008",
+		"orderKey": "04_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"6721",
-			"7862"
+			"6721"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26098,15 +26100,15 @@ var indikatoren = [
 		"unterthema": "Steuern",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
-			"Wohnviertel"
+			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-07-09T17:33:15.1515",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verlorenging. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
+		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verloren ging. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
 		"erlaeuterungen": "Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -30028,13 +30030,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-07-09T17:30:07.077",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2018: Klybeck 83,3%, Kleinhüningen 70,7%). Der Anteil an Genossenschaftswohnungen betrug 2018 13,8% (Klybeck) und 24,0% (Kleinh.), was über dem Wert für die Stadt Basel (10,5%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
+		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2019: Klybeck 83,5%, Kleinhüningen 71,3%). Der Anteil an Genossenschaftswohnungen betrug 2019 13,5% (Klybeck) und 23,3% (Kleinh.), was über dem Wert für die Stadt Basel (10,4%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -30070,7 +30072,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-07-09T17:30:08.088",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -30322,7 +30324,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-07-09T17:30:09.099",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
@@ -32852,16 +32854,16 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2020-07-10T14:56:44.4444",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Anteile der ausländischen Wohnbevölkerung der 16- bis 25-Jährigen waren 2019 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Rosental zu finden. Seit 2010 sank dieser Anteil im Wohnviertel Kleinhüningen um 8,9 Prozenpunkte und stieg im Wohnviertel Rosental im selben Zeitraum um 8,1 Prozentpunkte.",
+		"lesehilfe": "Die höchsten Anteile der ausländischen Wohnbevölkerung der 16- bis 25-Jährigen waren 2019 mit jeweils über 40% in den Wohnvierteln Clara, Matthäus, Kleinhüningen, Klybeck und Rosental zu finden. Seit 2010 sank dieser Anteil im Wohnviertel Kleinhüningen um 8,9 Prozenpunkte und stieg im Wohnviertel Rosental um 8,1 Prozentpunkte.",
 		"erlaeuterungen": "Bevölkerungsbestand zum Jahresende.",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte kategoriell",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_204",

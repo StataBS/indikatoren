@@ -1043,18 +1043,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
-		"stufe1": "Kapitel B Schule und Bildung",
+		"aktualisierungsdatum": "2020-07-09T16:54:57.5757",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 im Vergleich zum Vorjahr leicht gesunken. Bei den verschiedenen Ländergruppen verläuft die Entwicklung uneinheitlich. Hier lässt sich insbesondere seit 2009 insgesamt eine leichte Zunahme der Hochschulquote feststellen. Positiv ist der Trend beispielsweise bei Jugendlichen aus dem Balkan sowie jenen mit türkischem Pass. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer hat sich seit vier Jahren um 25% eingependelt. Im gleichen Zeitraum haben sich die Quoten der Studierenden aus Italien, dem Balkan sowie aus Mittel- und Südamerika sukzessive erhöht. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_003",
+		"orderKey": "_201",
 		"parentId": null,
 		"children": [
 			"6667"
@@ -1086,18 +1086,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-11T16:27:39.3939",
+		"aktualisierungsdatum": "2020-07-10T18:15:47.4747",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach jahrelangem, kontinuierlichem Anstieg 2018 leicht gesunken, die anfängliche Diskrepanz zwischen den Geschlechtern seit 2008 weitestgehend verschwunden. Bei der ausländischen Wohnbevölkerung ist 2018 ebenfalls - und erstmals seit 2011 - ein Rückgang der Hochschulquote zu beobachten. Die Quoten der Geschlechter haben sich bei Studierenden ohne Schweizer Pass 2018 etwas auseinanderentwickelt (Rückgang bei den Ausländern, Stabilität bei den Ausländerinnen).",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach zweijährigem, leichtem Rückgang 2019 wieder gestiegen, wobei dieser Effekt einzig auf die Zunahme der Studentinnen mit Schweizer Pass zurückzuführen ist. Bei der ausländischen Wohnbevölkerung ist 2019 nach einer mehrjährigen Periode mit steigenden Zahlen zum zweiten Mal in Folge ein - allerdings nur sehr geringfügiger - Rückgang der Hochschulquote zu beobachten.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt im Alter von 20 bis 24 Jahren.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_004",
+		"orderKey": "02_00_00_00_00_202",
 		"parentId": null,
 		"children": [
 			"6668"
@@ -2866,7 +2866,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Mittelwert und Median des Reineinkommens pro Veranlagung",
-		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
+		"subtitle": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2017",
 		"kuerzel": "I.18.2.6470",
 		"kuerzelKunde": "C6-4",
 		"description": "Mittelwert und Median des Reineinkommens pro Veranlagung",
@@ -2876,22 +2876,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:14:53.5353",
+		"aktualisierungsdatum": "2020-07-10T18:14:27.2727",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2016 Personen aus den USA auf, der Wert beträgt rund 290&nbsp;000&nbsp;Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (209&nbsp;000&nbsp;Franken, 62 Veranlagungen) und Belgien (173&nbsp;000&nbsp;Franken, 114 Veranlagungen).",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Den höchsten Mittelwert des Reineinkommens pro Veranlagung weisen im Steuerjahr 2017 Personen aus den USA auf, der Wert beträgt rund 257 000 Franken. Von ihnen liegen für dieses Steuerjahr ca. 550 Veranlagungen vor. Es folgen Australien (221 000 Franken, 64 Veranlagungen) und Kanada (193 000 Franken, 122 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_030",
+		"orderKey": "03_00_00_00_00_604",
 		"parentId": null,
 		"children": [
-			"6711",
-			"7852"
+			"6711"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2918,22 +2917,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:15:44.4444",
+		"aktualisierungsdatum": "2020-07-10T18:11:49.4949",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2007 wie auch 2016 für die Gruppe der Schweizer vor. 2007 beträgt er rund 480&nbsp;000&nbsp;Franken, im Jahr 2016 ca. 610&nbsp;000&nbsp;Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 6&nbsp;000&nbsp;Franken im Jahr 2007 resp. gut 13&nbsp;400&nbsp;Franken pro Veranlagung im Jahr 2016. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Mittelwert des Reinvermögens liegt sowohl 2008 wie auch 2017 für die Gruppe der Schweizer vor. 2008 beträgt er rund 440 000 Franken, im Jahr 2017 etwa 550 000 Franken pro Veranlagung. Den kleinsten Wert verzeichnen in beiden verglichenen Jahren Personen aus der Türkei mit rund 7 400 Franken im Jahr 2008 resp. gut 14 800 Franken pro Veranlagung im Jahr 2017. Die Ländergruppe «EU-Ost» verzeichnet den höchsten relativen Anstieg innerhalb der beobachteten Zeitspanne.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120&nbsp;000&nbsp;Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_031",
+		"orderKey": "03_00_00_00_00_605",
 		"parentId": null,
 		"children": [
-			"6712",
-			"7853"
+			"6712"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -3287,33 +3285,32 @@ var indikatorensetData = [
 		"id": 6479
 	},
 	{
-		"title": "Anzahl ordentlich Eingebürgerte",
-		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2008 bis 2018",
+		"title": "Anzahl Eingebürgerte",
+		"subtitle": "nach Geschlecht und Alter, Basel-Stadt, kumulierte Werte 2009 bis 2019",
 		"kuerzel": "I.01.6.6480",
 		"kuerzelKunde": "D3-2",
-		"description": "Anzahl ordentlich Eingebürgerte",
+		"description": "Anzahl Eingebürgerte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:30:52.5252",
+		"aktualisierungsdatum": "2020-07-10T18:09:47.4747",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In dieser Abbildung sind die ordentlich eingebürgerten Ausländer der Jahre 2008 bis 2018 zusammengefasst dargestellt. Bis zur Altersgruppe der 15- bis 19-Jährigen nimmt die Zahl der ordentlich eingebürgerten Ausländer kontinuierlich zu. Bei den 20- bis 24-Jährigen, den 25- bis 29-Jährigen und den 30- bis 34-Jährigen lassen sich deutlich weniger Ausländer einbürgern. Danach steigt die Zahl der Eingebürgerten nochmals bis zur Gruppe der 40- bis 44-Jährigen. Ab der Altersgruppe 45 bis 49 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen (52%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (63%) und die 25- bis 29-Jährigen (61%) auf.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu  diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
+		"lesehilfe": "In dieser Abbildung sind die eingebürgerten Ausländer der Jahre 2009 bis 2019 zusammengefasst dargestellt. Am höchsten sind die Einbürgerungszahlen in den Altersgruppen der 10- bis 14-Jährigen, der 15- bis 19-Jährigen, der 35- bis 39-Jährigen, der 40- bis 44-Jährigen und der 45-bis 49-Jährigen. Ab der Altersgruppe 50 bis 54 Jahre gehen die Einbürgerungen mit jeder Altersgruppe zurück. Insgesamt sind etwas mehr als die Hälfte der Eingebürgerten Frauen (53%). Die höchsten Frauenanteile weisen die 20- bis 24-Jährigen (61%) und die 25- bis 29-Jährigen (62%) auf.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_008",
+		"orderKey": "04_00_00_00_00_302",
 		"parentId": null,
 		"children": [
-			"6721",
-			"7862"
+			"6721"
 		],
 		"renderLink": [],
 		"quellenangabe": [

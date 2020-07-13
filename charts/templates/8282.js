@@ -60,28 +60,28 @@ for (i = 0; i < 3; i++) {
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
-                to:24.9999,
+                to:22.9999,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 25,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> < 23,0"
             }, {
-                from: 25.0,
-                to: 30.999,
+                from: 23.0,
+                to: 29.999,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>25,0 − 30,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>23,0 − 29,9"
             }, {
-                from: 31.0,
-                to: 34.99999,
+                from: 30.0,
+                to: 32.99999,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>31,0 − 34,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>30,0 − 32,9"
             },{
-                from: 35.0,
-                to: 42.999,
+                from: 33.0,
+                to: 38.999,
                  color: '#246370',
-                 name: "<span style='color: rgba(0,0,0,0)'>0</span>45,0 − 42,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>0</span>33,0 − 38,9"
             },{
-                from: 43,
+                from: 39,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 43,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>000,0</span> ≥ 39,0"
             }], 
         },
         "data": {

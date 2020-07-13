@@ -110,6 +110,10 @@
         [
           2016,
           69822.5406
+        ],
+        [
+          2017,
+          69373.35438
         ]
       ],
       "name": "Mittelwert"
@@ -224,6 +228,10 @@
         [
           2016,
           49334.5
+        ],
+        [
+          2017,
+          49558
         ]
       ],
       "name": "Median"
@@ -338,6 +346,10 @@
         [
           2016,
           190403.8791
+        ],
+        [
+          2017,
+          187432.2216
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -452,6 +464,10 @@
         [
           2016,
           6419.441661
+        ],
+        [
+          2017,
+          6338.701871
         ]
       ],
       "name": "Mittelwert unterstes Quintil"
@@ -510,6 +526,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
+    "min": undefined,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -552,7 +569,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
   },
   "legend": {
     "enabled": true,
