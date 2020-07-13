@@ -53,6 +53,10 @@
         [
           2016,
           693953
+        ],
+        [
+          2017,
+          658295
         ]
       ],
       "name": "Zugezogene Messe"
@@ -110,6 +114,10 @@
         [
           2016,
           -525292
+        ],
+        [
+          2017,
+          -593526
         ]
       ],
       "name": "Weggezogene Messe"
@@ -167,6 +175,10 @@
         [
           2016,
           668510
+        ],
+        [
+          2017,
+          986398
         ]
       ],
       "name": "Zugezogene Erlenmatt"
@@ -224,6 +236,10 @@
         [
           2016,
           -397977
+        ],
+        [
+          2017,
+          -675138
         ]
       ],
       "name": "Weggezogene Erlenmatt"
@@ -290,6 +306,10 @@
         [
           2016,
           168661
+        ],
+        [
+          2017,
+          64769
         ]
       ],
       "name": "Saldo Messe"
@@ -360,6 +380,10 @@
         [
           2016,
           270533
+        ],
+        [
+          2017,
+          311260
         ]
       ],
       "name": "Saldo Erlenmatt"
@@ -470,7 +494,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
   },
   "legend": {
     "enabled": true,

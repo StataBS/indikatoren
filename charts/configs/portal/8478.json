@@ -1,0 +1,728 @@
+{
+  "series": [
+    {
+      "color": "rgb(71,71,71)",
+      "data": [
+        [
+          "2014-1",
+          100
+        ],
+        [
+          "2014-2",
+          101.7
+        ],
+        [
+          "2014-3",
+          103
+        ],
+        [
+          "2014-4",
+          102.5
+        ],
+        [
+          "2015-1",
+          102.8
+        ],
+        [
+          "2015-2",
+          104.1
+        ],
+        [
+          "2015-3",
+          104.8
+        ],
+        [
+          "2015-4",
+          103.8
+        ],
+        [
+          "2016-1",
+          104.8
+        ],
+        [
+          "2016-2",
+          106.1
+        ],
+        [
+          "2016-3",
+          106.7
+        ],
+        [
+          "2016-4",
+          106.1
+        ],
+        [
+          "2017-1",
+          104.9
+        ],
+        [
+          "2017-2",
+          106.1
+        ],
+        [
+          "2017-3",
+          106.8
+        ],
+        [
+          "2017-4",
+          105.9
+        ],
+        [
+          "2018-1",
+          103.4
+        ],
+        [
+          "2018-2",
+          102.6
+        ],
+        [
+          "2018-3",
+          101.5
+        ],
+        [
+          "2018-4",
+          100.7
+        ],
+        [
+          "2019-1",
+          100.1
+        ],
+        [
+          "2019-2",
+          99.9
+        ],
+        [
+          "2019-3",
+          100.3
+        ],
+        [
+          "2019-4",
+          100.8
+        ]
+      ],
+      "name": "Basel-Stadt",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(255,128,40)",
+      "data": [
+        [
+          "2014-1",
+          100
+        ],
+        [
+          "2014-2",
+          101.5
+        ],
+        [
+          "2014-3",
+          103.1
+        ],
+        [
+          "2014-4",
+          102.9
+        ],
+        [
+          "2015-1",
+          103.4
+        ],
+        [
+          "2015-2",
+          105.2
+        ],
+        [
+          "2015-3",
+          106.4
+        ],
+        [
+          "2015-4",
+          106.4
+        ],
+        [
+          "2016-1",
+          106.1
+        ],
+        [
+          "2016-2",
+          107.2
+        ],
+        [
+          "2016-3",
+          108.2
+        ],
+        [
+          "2016-4",
+          107.5
+        ],
+        [
+          "2017-1",
+          107.5
+        ],
+        [
+          "2017-2",
+          108.7
+        ],
+        [
+          "2017-3",
+          111
+        ],
+        [
+          "2017-4",
+          111
+        ],
+        [
+          "2018-1",
+          110.9
+        ],
+        [
+          "2018-2",
+          111.8
+        ],
+        [
+          "2018-3",
+          112.3
+        ],
+        [
+          "2018-4",
+          112.2
+        ],
+        [
+          "2019-1",
+          112.8
+        ],
+        [
+          "2019-2",
+          113.4
+        ],
+        [
+          "2019-3",
+          115.1
+        ],
+        [
+          "2019-4",
+          116
+        ]
+      ],
+      "name": "Basel-Landschaft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(250,189,36)",
+      "data": [
+        [
+          "2014-1",
+          100
+        ],
+        [
+          "2014-2",
+          103.8
+        ],
+        [
+          "2014-3",
+          104.9
+        ],
+        [
+          "2014-4",
+          104.2
+        ],
+        [
+          "2015-1",
+          103.1
+        ],
+        [
+          "2015-2",
+          105.3
+        ],
+        [
+          "2015-3",
+          106.1
+        ],
+        [
+          "2015-4",
+          105.5
+        ],
+        [
+          "2016-1",
+          104.4
+        ],
+        [
+          "2016-2",
+          107.4
+        ],
+        [
+          "2016-3",
+          108
+        ],
+        [
+          "2016-4",
+          107.2
+        ],
+        [
+          "2017-1",
+          106.7
+        ],
+        [
+          "2017-2",
+          110.2
+        ],
+        [
+          "2017-3",
+          112.1
+        ],
+        [
+          "2017-4",
+          113.6
+        ],
+        [
+          "2018-1",
+          113.5
+        ],
+        [
+          "2018-2",
+          115.3
+        ],
+        [
+          "2018-3",
+          116.9
+        ],
+        [
+          "2018-4",
+          119.3
+        ],
+        [
+          "2019-1",
+          121
+        ],
+        [
+          "2019-2",
+          122.7
+        ],
+        [
+          "2019-3",
+          122.7
+        ],
+        [
+          "2019-4",
+          125
+        ]
+      ],
+      "name": "Jura",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "data": [
+        [
+          "2014-1",
+          100
+        ],
+        [
+          "2014-2",
+          101.9
+        ],
+        [
+          "2014-3",
+          103.2
+        ],
+        [
+          "2014-4",
+          102.8
+        ],
+        [
+          "2015-1",
+          103
+        ],
+        [
+          "2015-2",
+          104.6
+        ],
+        [
+          "2015-3",
+          105.4
+        ],
+        [
+          "2015-4",
+          104.8
+        ],
+        [
+          "2016-1",
+          105.2
+        ],
+        [
+          "2016-2",
+          106.6
+        ],
+        [
+          "2016-3",
+          107.3
+        ],
+        [
+          "2016-4",
+          106.7
+        ],
+        [
+          "2017-1",
+          105.9
+        ],
+        [
+          "2017-2",
+          107.4
+        ],
+        [
+          "2017-3",
+          108.8
+        ],
+        [
+          "2017-4",
+          108.4
+        ],
+        [
+          "2018-1",
+          107
+        ],
+        [
+          "2018-2",
+          107
+        ],
+        [
+          "2018-3",
+          106.8
+        ],
+        [
+          "2018-4",
+          106.5
+        ],
+        [
+          "2019-1",
+          106.6
+        ],
+        [
+          "2019-2",
+          106.9
+        ],
+        [
+          "2019-3",
+          107.7
+        ],
+        [
+          "2019-4",
+          108.5
+        ]
+      ],
+      "name": "BS\u002FBL\u002FJU",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(153,3,0)",
+      "data": [
+        [
+          "2014-1",
+          100
+        ],
+        [
+          "2014-2",
+          102.2
+        ],
+        [
+          "2014-3",
+          103.2
+        ],
+        [
+          "2014-4",
+          103.2
+        ],
+        [
+          "2015-1",
+          103.1
+        ],
+        [
+          "2015-2",
+          105.2
+        ],
+        [
+          "2015-3",
+          105.8
+        ],
+        [
+          "2015-4",
+          105.7
+        ],
+        [
+          "2016-1",
+          106.1
+        ],
+        [
+          "2016-2",
+          107.8
+        ],
+        [
+          "2016-3",
+          108.5
+        ],
+        [
+          "2016-4",
+          109.4
+        ],
+        [
+          "2017-1",
+          108.7
+        ],
+        [
+          "2017-2",
+          111.1
+        ],
+        [
+          "2017-3",
+          111.8
+        ],
+        [
+          "2017-4",
+          111.6
+        ],
+        [
+          "2018-1",
+          110.8
+        ],
+        [
+          "2018-2",
+          111.3
+        ],
+        [
+          "2018-3",
+          110.3
+        ],
+        [
+          "2018-4",
+          110.8
+        ],
+        [
+          "2019-1",
+          111.9
+        ],
+        [
+          "2019-2",
+          114
+        ],
+        [
+          "2019-3",
+          114.9
+        ],
+        [
+          "2019-4",
+          116.2
+        ]
+      ],
+      "name": "Schweiz",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "formatter": function () {
+          return this.value.split("-").slice(0, -1);
+        }
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8478",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Entwicklung Grenzgänger"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "indexiert (1. Quartal 2014 = 100)",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 90,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 10
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8478
+  }
+}
