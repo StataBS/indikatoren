@@ -45583,7 +45583,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zusätzliche Wohnfläche nach Prognosezeitraum",
-		"subtitle": "in m². Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "in m². Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07722",
 		"kuerzelKunde": "2-1",
 		"description": "Zusätzliche Wohnfläche nach Prognosezeitraum",
@@ -45593,21 +45593,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:39.3939",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario rund 285 000 m².",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
+		"lesehilfe": "Die zusätzliche erstellte Wohnfläche im Zeitraum 2026 bis 2030 beträgt im Mittleren Szenario rund 330 000 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Wohnfläche in m² basierend auf Schätzungen des Planungsamtes Basel-Stadt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_001",
+		"orderKey": "99_00_00_00_00_001",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9038"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45623,7 +45625,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnflächenverbrauch pro Person",
-		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "in m² pro Kopf. Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07723",
 		"kuerzelKunde": "2-2",
 		"description": "Wohnflächenverbrauch pro Person",
@@ -45633,21 +45635,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:40.4040",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wohnflächenverbrauch pro Kopf steigt im Mittleren Szenario von 41,0 auf 41,7 m².",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständige Bevölkerung Basel-Stadts.",
+		"lesehilfe": "Der Wohnflächenverbrauch pro Kopf steigt im Mittleren Szenario von 41,4 auf 42,1 m².",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Der Wohnflächenverbrauch pro Person in m² berechnet sich als die gesamte Wohnfläche in Basel-Stadt dividiert durch die Anzahl Bewohner der ständigen und nichtständige Bevölkerung Basel-Stadts.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_002",
+		"orderKey": "99_00_00_00_00_002",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9039"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45663,7 +45667,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Leerwohnungsquote",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07724",
 		"kuerzelKunde": "2-3",
 		"description": "Leerwohnungsquote",
@@ -45673,21 +45677,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:40.4040",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leehrwohnungsquote entwickelt sich von 0,7% im Jahr 2018 je nach Szenario zu 0,2%, 0,9% oder 1,6%.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Leerwohnungsquote berechnet sich als Leerwohnungsbestand dividiert durch den Gesamtwohnungsbestand.",
+		"lesehilfe": "Die Leehrwohnungsquote entwickelt sich von 1,0% im Jahr 2019 je nach Szenario zu 0,2%, 0,9% oder 1,7%.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Die Leerwohnungsquote berechnet sich als Leerwohnungsbestand dividiert durch den Gesamtwohnungsbestand.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_003",
+		"orderKey": "99_00_00_00_00_003",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9040"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45702,32 +45708,34 @@ var indikatoren = [
 		"id": 7724
 	},
 	{
-		"title": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"title": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07725",
 		"kuerzelKunde": "2-4a",
-		"description": "Lebenserwartung bei Geburt Schweizerinnen und Schweizer",
+		"description": "Lebenserwartung bei Geburt: Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:41.4141",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 83,5 auf 86,4 Jahre im Jahr 2040. Die Lebenserwartung von Schweizern (M) steigt von 79,8 auf 82,8 Jahre im Jahr 2040.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Schweizerinnen (W) steigt im Mittleren Szenario von derzeit 83,3 auf 85,8 Jahre im Jahr 2040. Die Lebenserwartung von Schweizern (M) steigt von 80,1 auf 83,0 Jahre im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben. Um die Unterschiede zwischen den Szenarien sichtbar zu machen startet die y-Achse bei einer Lebenserwartung von 70 Jahren.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_004",
+		"orderKey": "99_00_00_00_00_004",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9041"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45742,32 +45750,34 @@ var indikatoren = [
 		"id": 7725
 	},
 	{
-		"title": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"title": "Lebenserwartung bei Geburt: Ausländerinnen und Ausländer",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07726",
 		"kuerzelKunde": "2-4b",
-		"description": "Lebenserwartung bei Geburt Ausländerinnen und Ausländer",
+		"description": "Lebenserwartung bei Geburt: Ausländerinnen und Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:41.4141",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Ausländerinnen (W) steigt im Mittleren Szenario auf 86,4 Jahre im Jahr 2040.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"lesehilfe": "Die Lebenserwartung bei Geburt von in Basel-Stadt wohnhaften Ausländern (M) steigt im Mittleren Szenario auf 82,8 Jahre im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_005",
+		"orderKey": "99_00_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9042"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45783,7 +45793,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zusammengefasste Geburtenziffer nach Herkunft",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07727",
 		"kuerzelKunde": "2-5",
 		"description": "Zusammengefasste Geburtenziffer nach Herkunft",
@@ -45793,21 +45803,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:41.4141",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) steigt im Mittleren Szenario auf 1,22 im Jahr 2040. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) sinkt auf 1,54 im Jahr 2040.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
+		"lesehilfe": "Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Schweizerinnen (CH) steigt im Mittleren Szenario auf 1,22 im Jahr 2040. Die zusammengefasste Geburtenziffer der in Basel-Stadt wohnhaften Ausländerinnen (AU) steigt im selben Szenario auf 1,63 im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Verlauf ihres Lebens zur Welt bringen würde, wenn für deren ganzes Leben die altersspezifischen Geburtenziffern (Zahl der Geburten der Frauen eines bestimmten Alters dividiert durch die Zahl aller Frauen dieses Alters) eines bestimmten Kalenderjahres konstant blieben.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_006",
+		"orderKey": "99_00_00_00_00_006",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9043"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45823,7 +45835,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Einbürgerungsquoten nach Geschlecht",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07728",
 		"kuerzelKunde": "2-6",
 		"description": "Einbürgerungsquoten nach Geschlecht",
@@ -45833,21 +45845,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:42.4242",
+		"stufe1": "2 Hypothesen der Szenarienrechnung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittleren Szenario sinken die Einbürgerungsquoten von in Basel-Stadt wohnhaften Frauen (W) von 1,7% im Jahr 2018 auf 1,6% im Jahr 2040.",
-		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2019. Die Einbürgerungsquote berechet sich als Quotient der Anzahl der Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
+		"lesehilfe": "Im Mittleren Szenario sinkt die Einbürgerungsquote von in Basel-Stadt wohnhaften Frauen (W) von 2,0% im Jahr 2019 auf 1,6% im Jahr 2040.",
+		"erlaeuterungen": "Hypothese der Bevölkerungsszenarien 2020. Die Einbürgerungsquote berechnet sich als Quotient der Anzahl Einbürgerungen eines Jahres dividiert durch die ausländische Wohnbevölkerung am Jahresende.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_007",
+		"orderKey": "99_00_00_00_00_007",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9044"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45862,32 +45876,34 @@ var indikatoren = [
 		"id": 7728
 	},
 	{
-		"title": "Bevölkerung Grossbasel Ost",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"title": "Bevölkerung Grossbasel-Ost",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07729",
 		"kuerzelKunde": "3-2",
-		"description": "Bevölkerung Grossbasel Ost",
+		"description": "Bevölkerung Grossbasel-Ost",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:42.4242",
+		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerung von Grossbasel Ost wächst gemäss Mittlerem Szenario von unter 55 000 auf knapp 60 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die Bevölkerung von Grossbasel-Ost wächst gemäss Mittlerem Szenario von unter 55 000 im Jahr 2019 auf 60 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_009",
+		"orderKey": "99_00_00_00_00_009",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9045"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45902,32 +45918,34 @@ var indikatoren = [
 		"id": 7729
 	},
 	{
-		"title": "Bevölkerung Grossbasel West",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"title": "Bevölkerung Grossbasel-West",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07730",
 		"kuerzelKunde": "3-3",
-		"description": "Bevölkerung Grossbasel West",
+		"description": "Bevölkerung Grossbasel-West",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:42.4242",
+		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerung von Grossbasel West wächst gemäss Mittlerem Szenario von 69 000 auf über 71 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die Bevölkerung von Grossbasel-West wächst gemäss Mittlerem Szenario von 69 000 im Jahr 2019 auf 72 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_010",
+		"orderKey": "99_00_00_00_00_010",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9046"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45943,7 +45961,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung Kleinbasel",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07731",
 		"kuerzelKunde": "3-4",
 		"description": "Bevölkerung Kleinbasel",
@@ -45953,21 +45971,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:43.4343",
+		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 54 000 auf 65 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die Bevölkerung von Kleinbasel wächst gemäss Mittlerem Szenario von 54 000 auf knapp 66 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_011",
+		"orderKey": "99_00_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9047"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -45983,7 +46003,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung Riehen und Bettingen",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07732",
 		"kuerzelKunde": "3-5",
 		"description": "Bevölkerung Riehen und Bettingen",
@@ -45993,21 +46013,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:43.4343",
+		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von knapp 23 000 auf fast 25 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die Bevölkerung von Riehen und Bettingen wächst gemäss Mittlerem Szenario von knapp 23 000 Einwohner Ende 2019 um rund 2 000 Einwohner bis im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden die ausländischen Wochenaufenthalter Stand Ende Januar 2020 hinzugerechnet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_012",
+		"orderKey": "99_00_00_00_00_012",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9048"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46023,7 +46045,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung zwischen 0 und 19 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07733",
 		"kuerzelKunde": "4-1",
 		"description": "Bevölkerung zwischen 0 und 19 Jahren",
@@ -46033,21 +46055,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:44.4444",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 0 und 19 Jahren wächst gemäss Mittlerem Szenario von unter 34 000 auf 39 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 0 und 19 Jahren wächst gemäss Mittlerem Szenario von unter 34 000 auf knapp 40 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_013",
+		"orderKey": "99_00_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9049"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46063,7 +46087,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung ab 65 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07734",
 		"kuerzelKunde": "4-2",
 		"description": "Bevölkerung ab 65 Jahren",
@@ -46073,21 +46097,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:44.4444",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 65 Jahren wächst gemäss Mittlerem Szenario von rund 39 000 auf 46 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_014",
+		"orderKey": "99_00_00_00_00_014",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9050"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46103,7 +46129,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung ab 80 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07735",
 		"kuerzelKunde": "4-3",
 		"description": "Bevölkerung ab 80 Jahren",
@@ -46113,21 +46139,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:44.4444",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von über 13 000 auf knapp 18 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung ab 80 Jahren wächst gemäss Mittlerem Szenario von über 13 000 auf 17 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_015",
+		"orderKey": "99_00_00_00_00_015",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9051"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46143,7 +46171,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung zwischen 20 und 64 Jahren",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07736",
 		"kuerzelKunde": "4-4",
 		"description": "Bevölkerung zwischen 20 und 64 Jahren",
@@ -46153,21 +46181,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:45.4545",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 20 und 64 Jahren wächst gemäss Mittlerem Szenario von unter 128 000 auf 136 000 Einwohner im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Die in Basel-Stadt wohnhafte Bevölkerung zwischen 20 und 64 Jahren wächst gemäss Mittlerem Szenario von unter 128 000 im Jahr 2019 auf 137 000 Einwohner im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_016",
+		"orderKey": "99_00_00_00_00_016",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9052"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46183,7 +46213,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Jugendquotient",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07737",
 		"kuerzelKunde": "4-5",
 		"description": "Jugendquotient",
@@ -46191,30 +46221,34 @@ var indikatoren = [
 		"unterthema": "Szenarien",
 		"kennzahlenset": "Bevoelkerungsszenarien",
 		"raeumlicheGliederung": [
-			"Kanton"
+			"Kanton",
+			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:45.4545",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Jugendquotient wächst gemäss Mittlerem Szenario von 26,5% im Jahr 2018 auf 28,7% im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Jugendquotient berechnet sich als Verhältnis der 0- bis 19-jährigen Personen an den 20- bis 64-jährigen Personen.",
+		"lesehilfe": "Der Jugendquotient wächst gemäss Mittlerem Szenario von 26,4 im Jahr 2019 auf 28,9 im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_017",
+		"orderKey": "99_00_00_00_00_017",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9053"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>"
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>",
+			""
 		],
 		"data-id": 7737,
 		"chart-id": 7737,
@@ -46223,7 +46257,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Altersquotient",
-		"subtitle": "",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07738",
 		"kuerzelKunde": "4-6",
 		"description": "Altersquotient",
@@ -46234,21 +46268,23 @@ var indikatoren = [
 			"Kanton",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2019-10-30T16:18:41.4141",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:46.4646",
+		"stufe1": "4 Altersstruktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4 im Jahr 2018 auf 33,9 im Jahr 2040.",
-		"erlaeuterungen": "",
+		"lesehilfe": "Der Altersquotient wächst gemäss Mittlerem Szenario von 30,4 im Jahr 2019 auf 33,7 im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 ausgewiesen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_018",
+		"orderKey": "99_00_00_00_00_018",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9054"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46265,7 +46301,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geburten",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07739",
 		"kuerzelKunde": "5-1",
 		"description": "Geburten",
@@ -46275,21 +46311,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:46.4646",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung stagniert im Mittleren Szenario und beträgt im Jahr 2040 rund 2 200, etwas über dem Wert des Jahres 2016.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Anzahl Lebendgeburten.",
+		"lesehilfe": "Die Anzahl Geburten der im Kanton Basel-Stadt wohnhaften Bevölkerung steigt im Mittleren Szenario leicht an und beträgt im Jahr 2040 rund 2 300.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Anzahl Lebendgeburten.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_019",
+		"orderKey": "99_00_00_00_00_019",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9055"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46305,7 +46343,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Sterbefälle",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07740",
 		"kuerzelKunde": "5-2",
 		"description": "Sterbefälle",
@@ -46315,21 +46353,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:46.4646",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Sterbefälle unter der Wohnbevölkerung von Basel-Stadt sinkt in allen drei Szenarien auf zwischen 1 800 und 1 900 im Jahr 2040.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019.",
+		"lesehilfe": "Die Anzahl Sterbefälle unter der Wohnbevölkerung von Basel-Stadt sinkt im Mittleren Szenario auf rund 1 900 im Jahr 2040.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_020",
+		"orderKey": "99_00_00_00_00_020",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9056"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46345,7 +46385,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Geburtenüberschuss",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07741",
 		"kuerzelKunde": "5-3",
 		"description": "Geburtenüberschuss",
@@ -46355,21 +46395,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario im gesamten Prognosezeitraum positiv und beträgt am Ende des Prognoshorizonts 347.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
+		"lesehilfe": "Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario im gesamten Prognosezeitraum positiv und beträgt am Ende des Prognosehorizonts 357.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_021",
+		"orderKey": "99_00_00_00_00_021",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9057"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46385,7 +46427,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo international",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07742",
 		"kuerzelKunde": "5-4",
 		"description": "Wanderungssaldo international",
@@ -46395,21 +46437,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der internationale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 fast 1 400 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der internationale Wanderungssaldo errechnet sich als Differenz der aus dem Ausland eingewanderten Personen abzüglich der ins Ausland ausgewanderten Personen in einem bestimmten Jahr.",
+		"lesehilfe": "Der internationale Wanderungssaldo ist in allen drei Szenarien im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 knapp 1 500 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der internationale Wanderungssaldo errechnet sich als Differenz der aus dem Ausland eingewanderten Personen abzüglich der ins Ausland ausgewanderten Personen in einem bestimmten Jahr.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_022",
+		"orderKey": "99_00_00_00_00_022",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9058"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46425,7 +46469,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo interkantonal",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07743",
 		"kuerzelKunde": "5-5",
 		"description": "Wanderungssaldo interkantonal",
@@ -46435,21 +46479,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:47.4747",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der interkantonale Wanderunggsaldo ist in allen drei Szenarien im gesamten Prognosezeitraum negativ. Der interkantonale Wanderungsverlust beträgt im Mittleren Szenario im Jahr 2040 rund 1 100 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_023",
+		"orderKey": "99_00_00_00_00_023",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9059"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46465,7 +46511,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wanderungssaldo total",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07744",
 		"kuerzelKunde": "5-6",
 		"description": "Wanderungssaldo total",
@@ -46475,21 +46521,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-15T11:23:33.3333",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:48.4848",
+		"stufe1": "5 Weitere demografische Komponenten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 noch knapp 300 Personen.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo errechnet sich als Differenz der eingewanderten Personen abzüglich der ausgewanderten Personen in einem bestimmten Jahr. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogene Personen in einem bestimmten Jahr.",
+		"lesehilfe": "Der totale, also internationale und interkantonale Wanderunggsaldo, ist im Mittleren Szenario im gesamten Prognosezeitraum positiv. Der Wanderungsgewinn beträgt im Mittleren Szenario im Jahr 2040 noch 360 Personen.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Der totale Wanderungssaldo ist die Summe des internationalen und des interkantonalen Wanderungssaldos. Der internationale Wanderungssaldo errechnet sich als Differenz der eingewanderten Personen abzüglich der ausgewanderten Personen in einem bestimmten Jahr. Der interkantonale Wanderungssaldo errechnet sich als Differenz der aus anderen Kantonen zugezogenen Personen abzüglich der in andere Kantone weggezogenen Personen in einem bestimmten Jahr.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_024",
+		"orderKey": "99_00_00_00_00_024",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"9060"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -46585,7 +46633,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.07747",
 		"kuerzelKunde": "3-1",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -46595,19 +46643,19 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-07-14T08:40:48.4848",
+		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "_008",
+		"orderKey": "99_00_00_00_00_008",
 		"parentId": 6215,
 		"children": [],
 		"renderLink": [],

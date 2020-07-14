@@ -4,24 +4,24 @@
       "color": "#923F8D",
       "data": [
         [
-          "2019-2020",
-          118571
+          "2020",
+          66488
         ],
         [
           "2021-2025",
-          496589
+          405774
         ],
         [
           "2026-2030",
-          498124
+          622041
         ],
         [
           "2031-2035",
-          300404
+          380620
         ],
         [
           "2036-2040",
-          291642
+          365463
         ]
       ],
       "name": "Hohes Szenario",
@@ -31,24 +31,24 @@
       "color": "#DC440E",
       "data": [
         [
-          "2019-2020",
-          89990
+          "2020",
+          48909
         ],
         [
           "2021-2025",
-          324124
+          284737
         ],
         [
           "2026-2030",
-          284572
+          329996
         ],
         [
           "2031-2035",
-          174509
+          211570
         ],
         [
           "2036-2040",
-          161183
+          178917
         ]
       ],
       "name": "Mittleres Szenario",
@@ -58,20 +58,20 @@
       "color": "#FFDA80",
       "data": [
         [
-          "2019-2020",
-          49026
+          "2020",
+          22921
         ],
         [
           "2021-2025",
-          121497
+          143023
         ],
         [
           "2026-2030",
-          91963
+          119369
         ],
         [
           "2031-2035",
-          63633
+          66611
         ],
         [
           "2036-2040",
@@ -162,7 +162,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": " in m². Bevölkerungsszenarien Basel-Stadt, 2019",
+    "text": " in m². Bevölkerungsszenarien Basel-Stadt, 2020",
     "align": "left"
   },
   "yAxis": {
@@ -202,7 +202,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsszenarien.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-14"
   },
   "legend": {
     "symbolRadius": 0,
