@@ -1,15 +1,17 @@
 (function () {
     return {
         chart: {
-            borderColor: "#fbfbfb",
-            backgroundColor: "#fbfbfb",
             width: 485,
             height: 415,
             spacing: [10, 10, 30, 10],
+            borderColor: "#fbfbfb",
+            backgroundColor: "#fbfbfb",
             style: {
                 fontFamily: "Arial"
             },
             zoomType: "xy",
+            panning: true,
+            panKey: 'shift',
             events: {
                 load: function () {
                     this.credits.element.onclick = function () { };
@@ -38,26 +40,26 @@
             }
         },
         title: {
+            align: "left",
             style: {
                 fontSize: "14px",
                 fontWeight: "bold",
                 color: "#000000"
-            },
-            align: "left"
+            }
         },
         subtitle: {
+            text: "",
+            align: "left",
             style: {
                 fontSize: "12px",
                 fontWeight: "normal",
-                fontFamily: "Arial",
                 color: "#000000"
-            },
-            text: "",
-            align: "left"
+            }
         },
         xAxis: {
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
+            tickLength: 0,
             uniqueNames: true,
             title: {
                 style: {
@@ -68,12 +70,11 @@
                 style: {
                     color: "#000000"
                 }
-            },
-            tickLength: 0
+            }
         },
         yAxis: {
-            gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
+            gridLineColor: '#B9CFD7',
             lineColor: '#B9CFD7',
             title: {
                 style: {
@@ -86,6 +87,12 @@
                 style: {
                     color: "#000000"
                 }
+            }
+        },
+        legend: {
+            symbolRadius: 0,
+            itemStyle: {
+                fontWeight: "normal"
             }
         },
         navigation: {
@@ -106,13 +113,6 @@
                 verticalAlign: "bottom",
                 x: 10
             }
-        },
-        legend: {
-            symbolRadius: 0,
-            itemStyle: {
-                fontWeight: "normal"
-            }
-        },
-
+        }
     };
 }());
