@@ -2473,14 +2473,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:14:01.011",
+		"aktualisierungsdatum": "2020-07-14T18:16:23.2323",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Bei den Weggezogenen wurden die Steuerdaten des jeweiligen Vorjahres verwendet. Zugezogene Ausländer wurden ab Vorliegen einer Niederlassungsbewilligung mitberücksichtigt.",
-		"erlaeuterungen": "Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt.",
+		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Zuletzt betrug der Wert 5,9 Mio. Franken.",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3964,35 +3964,37 @@
 		"id": 4463
 	},
 	{
-		"title": "Erhaltenene Hilfeleistungen",
-		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?»",
+		"title": "Erhaltene Hilfeleistungen",
+		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
 		"kuerzel": "I.50.2.4716",
 		"kuerzelKunde": "1.1.01",
-		"description": "Erhaltenene Hilfeleistungen",
+		"description": "Erhaltene Hilfeleistungen",
 		"thema": "50 Befragungen",
 		"unterthema": "Familienbefragung",
 		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-16T08:56:44.4444",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-07-14T16:17:18.1818",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 erhielten 42,4% der Befragten von Freunden oder Bekannten Hilfeleistungen (2013: 39,7%; 2009: 46,2%), 30,5% von den Nachbarn (2013: 28,5%; 2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2017 11,6% der Befragten, 2013 waren es 12,1%, 2009 13,3%.",
-		"erlaeuterungen": "2017: N=1665; 2013: N=3119; 2009: N=2231",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_011",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8380"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F76c-e"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -4015,7 +4017,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:46:55.5555",
+		"aktualisierungsdatum": "2020-07-14T16:38:03.033",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -5022,7 +5024,7 @@
 	},
 	{
 		"title": "Unterstützung von Freunden oder Nachbarn",
-		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?»",
+		"subtitle": "«Jeder Mensch braucht in seinem Leben einmal Unterstützung oder Hilfe. Wenn Sie zurückdenken, haben Sie sich in nachfolgenden Situationen auch an Freunde/Nachbarn gewendet?», Basel-Stadt",
 		"kuerzel": "I.50.2.4848",
 		"kuerzelKunde": "1.1.03",
 		"description": "Unterstützung von Freunden oder Nachbarn",
@@ -5032,24 +5034,26 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-16T16:13:02.022",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-07-14T16:18:06.066",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Mehr als die Hälfte der Befragten haben 2017 angegeben, sich bei Erziehungsfragen schon einmal an Freunde oder Nachbarn gewendet zu haben, 2009 und 2013 waren es jeweils knapp die Hälfte. Im Vergleich zu den anderen Lebenssituationen, in welchen die Befragten Hilfe in Anspruch nehmen, ist dies in allen Befragungsjahren der deutlich grösste Anteil.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_013",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8387"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F74a-g"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -5062,7 +5066,7 @@
 	},
 	{
 		"title": "Beurteilung des Verhältnisses zur Nachbarschaft",
-		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.»",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt",
 		"kuerzel": "I.50.2.4849",
 		"kuerzelKunde": "1.1.04",
 		"description": "Beurteilung des Verhältnisses zur Nachbarschaft",
@@ -5072,24 +5076,26 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-28T16:38:28.2828",
-		"stufe1": "Kernbereich 1: Soziale Beziehungen",
+		"aktualisierungsdatum": "2020-07-14T16:20:01.011",
+		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2009 gaben 90,4%, 2013 89,6% und 2017 91,4% der Familien an, ein gutes Verhältnis zu ihren Nachbarinnen und Nachbarn zu pflegen.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_000",
+		"orderKey": "01_01_00_00_00_014",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8388"
+		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F19c"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -5112,14 +5118,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-19T16:58:02.022",
+		"aktualisierungsdatum": "2020-07-14T16:30:56.5656",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 gaben 78,8% an, Mädchen und Jungen im Freundeskreis zu haben, 2009 lag der entsprechende Anteil bei 80,6%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -5131,7 +5137,7 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F34"
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -5970,14 +5976,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-19T16:56:40.4040",
+		"aktualisierungsdatum": "2020-07-14T16:31:33.3333",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
-		"erlaeuterungen": "",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -5989,7 +5995,7 @@
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F28"
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -9224,7 +9230,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:16.1616",
+		"aktualisierungsdatum": "2020-07-14T11:13:28.2828",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -12028,14 +12034,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-04T17:27:33.3333",
+		"aktualisierungsdatum": "2020-07-14T18:18:12.1212",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer (EZ) ist während der vergangenen 10 Jahre höher als diejenige der Männer. Die Höchstwerte wurden 2008 erreicht, danach ging sie zurück und lag 2011 noch bei 11,0 (Männer) und 15,3 (Frauen). Seither ist sie tendenziell wieder gestiegen, mit einem kurzzeitigen Unterbruch 2016 (Männer: 9,8; Frauen: 11,5). 2018 lag die EZ bei 13,2 (Männer) und 16,8 (Frauen). Der Ausländeranteil stieg zwischen 2008 und 2018 kontinuierlich um 4,7 Prozentpunkte.",
-		"erlaeuterungen": "Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 ausländische Männer respektive Frauen am Jahresende berechnet. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen.",
+		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer ist während der vergangenen zehn Jahre höher als diejenige der Männer. Die höchsten Werte wurden bei Frauen und Männern 2009 und 2019 erreicht, am niedrigsten waren die Einbürgerungsziffern 2016. Der Ausländeranteil ist zwischen 2009 und 2019 kontinuierlich gestiegen, um insgesamt 4,1 Prozentpunkte.",
+		"erlaeuterungen": "Die Einbürgerungsziffer nach Geschlecht wird als Anzahl Einbürgerungen pro 1000 ausländische Männer respektive Frauen am Jahresende berechnet. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -18879,7 +18885,7 @@
 	},
 	{
 		"title": "Sprachen im Freundeskreis",
-		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?»",
+		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
 		"kuerzel": "I.50.3.6511",
 		"kuerzelKunde": "D11-1",
 		"description": "Sprachen im Freundeskreis",
@@ -18889,30 +18895,34 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-03T09:50:04.044",
+		"aktualisierungsdatum": "2020-07-14T16:32:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
-		"erlaeuterungen": "Die Jugendbefragung gehört in die Reihe der regelmässig durchgeführten kantonalen Befragungen von spezifischen Bevölkerungsgruppen, welche das Statistikgesetz vorsieht. Die Befragten sind zwischen 12 und 17 Jahre alt.",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_030",
+		"orderKey": "04_00_00_00_00_101",
 		"parentId": null,
 		"children": [
 			"6743"
 		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung: F37"
+			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6511,
+		"chart-id": 6511,
+		"filter": "",
 		"id": 6511
 	},
 	{
@@ -25020,7 +25030,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-08T08:01:22.2222",
+		"aktualisierungsdatum": "2020-07-14T18:19:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -26102,14 +26112,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-07-09T17:33:15.1515",
+		"aktualisierungsdatum": "2020-07-14T18:16:57.5757",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verloren ging. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
-		"erlaeuterungen": "Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -37491,7 +37501,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-08T10:04:31.3131",
+		"aktualisierungsdatum": "2020-07-15T08:16:23.2323",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -37616,14 +37626,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-23T08:35:55.5555",
+		"aktualisierungsdatum": "2020-07-14T11:32:18.1818",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "33,8% der im Jahr 2019 Befragten sind mit der Sicherheit im öffentlichen Raum sehr zufrieden (2015: 21,1%) und 47,4% eher zufrieden. 10,5% sind eher unzufrieden und 3,2% sehr unzufrieden mit der  Sicherheit im öffentlichen Raum.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben",
+		"lesehilfe": "33,8% der im Jahr 2019 Befragten sind mit der Sicherheit im öffentlichen Raum sehr zufrieden (2015: 21,1%) und 47,4% eher zufrieden. 10,5% sind eher unzufrieden und 3,2% sehr unzufrieden mit der Sicherheit im öffentlichen Raum.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
