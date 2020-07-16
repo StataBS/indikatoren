@@ -17,11 +17,31 @@
 				load: function () {
 					this.credits.element.onclick = function () { };
 
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
 					//add top-margin if legend is right to allow space for axis-labels
 					if (this['legend']['options']['layout'] == 'vertical') {
 						this.update({
 							chart: {
 								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
 							}
 						});
 					}
@@ -69,11 +89,11 @@
 				text: null
 			},
 			labels: {
-				y: 3,
+				y: 12,
 				format: "{value}%",
 				style: {
-					//fontSize: "10px",
-					//color: "#000000",
+					fontSize: "10px",
+					color: "#000000",
 					textOverflow: "none"
 				}
 			}
@@ -95,10 +115,35 @@
 				style: {
 					fontSize: "10px",
 					color: "#000000",
-					width: 1,
 					whiteSpace: 'nowrap',
-					textOverflow: "none"
+					textOverflow: "none",
+					width: 1
 				},
+
+                formatter: function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                }
+/*
 				formatter: function () {
 					//add sum of observations of visible series to the axis label
 					var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
@@ -116,12 +161,15 @@
 					var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
 
 					//var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+					if (typeof this.value == 'string') {
+						this.value = this.value.replace("und weitere", "u.a."); 
 
-					this.value = this.value.replace("und weitere", "u.a.");
-
-					//check for value that contains only spaces
-					return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+					}
+					//check for value that contains only spaces, return
+					if (typeof this.value == 'string' && this.value.replace(/\s/g, "") == "") return this.value;
+					else return this.value + doBr + '(' + nString + sum + ')';
 				}
+				*/
 			}
 		},
 		legend: {

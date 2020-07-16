@@ -60,23 +60,6 @@ Highcharts.setOptions({
 			fontSize: "10px",
 			color: "#000000"
         }
-	},
-	title: {
-		align: "left",
-		style: {
-			fontSize: "14px",
-			fontWeight: "bold",
-			color: "#000000"
-		}
-	},
-	subtitle: {
-		text: "",
-		align: "left",
-		style: {
-			fontSize: "12px",
-			fontWeight: "normal",
-			color: "#000000"
-		}
 	}
 });
 
