@@ -180,7 +180,7 @@
 					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
 						d = 2; break;
 					case (this.point.name.match(/anteil|quote/i) || {}).input:
-						d = 1; e = '%'; f = 100; t = ' '; break;
+						d = 1; e = '%'; f = 100; break;
 				}
 				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
 
