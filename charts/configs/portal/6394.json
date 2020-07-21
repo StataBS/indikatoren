@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          51000
+          53595.5
         ],
         [
           2,
-          58511
+          59216
         ],
         [
           3,
-          52788
+          54487
         ],
         [
           4,
-          47242
+          47393
         ],
         [
           5,
-          61125
+          62163
         ],
         [
           6,
-          47248
+          47463
         ],
         [
           7,
-          65113.5
+          65811.5
         ],
         [
           8,
-          57698
+          59357.5
         ],
         [
           9,
-          50790
+          50910
         ],
         [
           10,
-          44777
+          44173
         ],
         [
           11,
-          41996.5
+          42027
         ],
         [
           12,
-          42122
+          41961.5
         ],
         [
           13,
-          40433
+          40137
         ],
         [
           14,
-          54256
+          55521
         ],
         [
           15,
-          51368
+          52717
         ],
         [
           16,
-          42854
+          44634
         ],
         [
           17,
-          38545
+          38565
         ],
         [
           18,
-          37400
+          36178
         ],
         [
           19,
-          41403
+          40315
         ],
         [
           20,
-          63689
+          63726
         ],
         [
           30,
-          68593.5
+          67289
         ]
       ]
     },
@@ -6785,6 +6785,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6824,6 +6825,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6888,7 +6890,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Reineinkommen nach Wohnviertel"
+    "text": "Reineinkommen"
   },
   "subtitle": {
     "style": {
@@ -6897,7 +6899,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2015",
+    "text": "nach Wohnviertel, Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {
@@ -6913,7 +6915,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
   },
   "colorAxis": {
     "min": 0,

@@ -1012,8 +1012,12 @@ id | visible | visibleInPortal | indikatorenset
 6991 | true | true | 
 6992 | true | true | 
 6993 | true | true | 
+6994 | true | true | 
 6995 | true | true | 
 6996 | true | true | 
+6997 | true | true | 
+6998 | true | true | 
+6999 | true | true | 
 7000 | true | true | 
 7003 | true | false | Arbeitsmarkt (Print)
 7004 | true | false | Arbeitsmarkt (Print)

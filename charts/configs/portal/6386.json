@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          34167
+          31391
         ],
         [
           2,
-          44249
+          48690
         ],
         [
           3,
-          35245
+          41941
         ],
         [
           4,
-          13462
+          14799
         ],
         [
           5,
-          56238
+          65590
         ],
         [
           6,
-          11338
+          13491
         ],
         [
           7,
-          62151.5
+          78356.5
         ],
         [
           8,
-          35927.5
+          50438
         ],
         [
           9,
-          29072
+          30156
         ],
         [
           10,
-          8713
+          10000
         ],
         [
           11,
-          7123.5
+          8508
         ],
         [
           12,
-          8870.5
+          9590.5
         ],
         [
           13,
-          8303
+          8430
         ],
         [
           14,
-          28136
+          33876
         ],
         [
           15,
-          16113
+          18864
         ],
         [
           16,
-          2999.5
+          3866
         ],
         [
           17,
-          4561
+          5867
         ],
         [
           18,
-          1500
+          2241.5
         ],
         [
           19,
-          2678
+          3415
         ],
         [
           20,
-          46951.5
+          60515
         ],
         [
           30,
-          78648.5
+          108794
         ]
       ]
     },
@@ -6785,6 +6785,7 @@
             -1267399.905,
             "Z"
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 22,
             "OBJID": null,
@@ -6824,6 +6825,7 @@
             2610400,
             -1264600
           ],
+          "name": undefined,
           "properties": {
             "OBJECTID_1": 99,
             "OBJID": 99,
@@ -6897,7 +6899,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2015",
+    "text": "Basel-Stadt, 2017",
     "align": "left"
   },
   "credits": {
@@ -6913,7 +6915,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
   },
   "colorAxis": {
     "min": 0,
