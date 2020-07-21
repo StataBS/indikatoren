@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          4304
+          4303.5488173
         ],
         [
           "Kleinhüningen",
-          5009
+          5008.7700706
         ],
         [
           "Clara",
-          6317
+          6316.6652961
         ],
         [
           "Iselin",
-          6361
+          6361.3300306
         ],
         [
           "Matthäus",
-          6540
+          6539.7952651
         ],
         [
           "St. Johann",
-          6774
+          6774.0039745
         ],
         [
           "Rosental",
-          7020
+          7020.280251
         ],
         [
           "Breite",
-          7474
+          7473.7566459
         ],
         [
           "Gundeldingen",
-          7493
+          7492.6236362
         ],
         [
           "Hirzbrunnen",
-          7832
+          7831.7899982
         ],
         [
           "Gotthelf",
-          9091
+          9091.0904773
         ],
         [
           "Altstadt Kleinbasel",
-          9272
+          9272.3190416
         ],
         [
           "Wettstein",
-          11345
+          11344.566364
         ],
         [
           "Am Ring",
-          11862
+          11861.725433
         ],
         [
           "Bachletten",
-          12189
+          12188.763138
         ],
         [
           "Riehen",
-          12932
+          12931.639783
         ],
         [
           "St. Alban",
-          16152
+          16151.844027
         ],
         [
           "Altstadt Grossbasel",
-          16423
+          16423.081464
         ],
         [
           "Bruderholz",
-          16868
+          16867.689036
         ],
         [
           "Vorstädte",
-          16910
+          16909.705491
         ],
         [
           "Bettingen",
-          21092
+          21092.429712
         ]
       ],
       "name": "Einkommenssteuer pro Veranlagung",
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
   },
   "legend": {
     "enabled": false,

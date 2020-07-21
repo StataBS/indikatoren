@@ -73,17 +73,6 @@
 },
   "series": [
     {
-      "color": "#FABD24",
-      "type": "column", 
-      tooltip: {
-        valueDecimals: 0
-      }, 
-      marker: {
-        enabled: false
-      },
-      "legendIndex": 1
-    },
-    {
       "color": "#008AC3",
       "type": "column", 
       tooltip: {
@@ -97,6 +86,7 @@
     {
       "color": "#9F7C5A",
       "type": "line",
+      Index: 3,
       tooltip: {
         valueDecimals: 1
       }, 
@@ -105,7 +95,7 @@
       },
       "yAxis": 1,
       "stacking": null, 
-      "legendIndex": 0
+      "legendIndex": 0,
     }    
   ],
   "chart": {

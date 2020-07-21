@@ -1,0 +1,308 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "legendIndex": 1,
+      "data": [
+        [
+          "0 bis 9 J.",
+          7533
+        ],
+        [
+          "10 bis 19 J.",
+          2206
+        ],
+        [
+          "20 bis 29 J.",
+          3769
+        ],
+        [
+          "30 bis 39 J.",
+          5918
+        ],
+        [
+          "40 bis 49 J.",
+          4520
+        ],
+        [
+          "50 bis 59 J.",
+          6070
+        ],
+        [
+          "60 bis 69 J.",
+          6452
+        ],
+        [
+          "70 bis 79 J.",
+          7463
+        ],
+        [
+          "80 bis 89 J.",
+          6573
+        ],
+        [
+          "90 Jahre u.m.",
+          1835
+        ]
+      ],
+      "name": "Allgemein",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "legendIndex": 2,
+      "data": [
+        [
+          "0 bis 9 J.",
+          480
+        ],
+        [
+          "10 bis 19 J.",
+          175
+        ],
+        [
+          "20 bis 29 J.",
+          226
+        ],
+        [
+          "30 bis 39 J.",
+          563
+        ],
+        [
+          "40 bis 49 J.",
+          462
+        ],
+        [
+          "50 bis 59 J.",
+          943
+        ],
+        [
+          "60 bis 69 J.",
+          1511
+        ],
+        [
+          "70 bis 79 J.",
+          2327
+        ],
+        [
+          "80 bis 89 J.",
+          2028
+        ],
+        [
+          "90 Jahre u.m.",
+          497
+        ]
+      ],
+      "name": "Halbprivat",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 3,
+      "data": [
+        [
+          "0 bis 9 J.",
+          412
+        ],
+        [
+          "10 bis 19 J.",
+          171
+        ],
+        [
+          "20 bis 29 J.",
+          208
+        ],
+        [
+          "30 bis 39 J.",
+          467
+        ],
+        [
+          "40 bis 49 J.",
+          412
+        ],
+        [
+          "50 bis 59 J.",
+          783
+        ],
+        [
+          "60 bis 69 J.",
+          1112
+        ],
+        [
+          "70 bis 79 J.",
+          1594
+        ],
+        [
+          "80 bis 89 J.",
+          1378
+        ],
+        [
+          "90 Jahre u.m.",
+          400
+        ]
+      ],
+      "name": "Privat",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 65,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-6999"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Patienten nach Liege- und Altersklasse"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in baselstädtischen Spitälern, 2018",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickAmount": 5,
+    "reversedStacks": false
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointWidth": 15,
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6999
+  }
+}

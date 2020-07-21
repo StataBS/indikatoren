@@ -1,0 +1,988 @@
+{
+  "series": [
+    {
+      "color": "#DC4403",
+      "data": [
+        [
+          0,
+          705
+        ],
+        [
+          1,
+          192
+        ],
+        [
+          2,
+          115
+        ],
+        [
+          3,
+          106
+        ],
+        [
+          4,
+          102
+        ],
+        [
+          5,
+          97
+        ],
+        [
+          6,
+          83
+        ],
+        [
+          7,
+          80
+        ],
+        [
+          8,
+          72
+        ],
+        [
+          9,
+          76
+        ],
+        [
+          10,
+          78
+        ],
+        [
+          11,
+          76
+        ],
+        [
+          12,
+          88
+        ],
+        [
+          13,
+          116
+        ],
+        [
+          14,
+          130
+        ],
+        [
+          15,
+          154
+        ],
+        [
+          16,
+          167
+        ],
+        [
+          17,
+          151
+        ],
+        [
+          18,
+          174
+        ],
+        [
+          19,
+          154
+        ],
+        [
+          20,
+          156
+        ],
+        [
+          21,
+          186
+        ],
+        [
+          22,
+          176
+        ],
+        [
+          23,
+          213
+        ],
+        [
+          24,
+          232
+        ],
+        [
+          25,
+          272
+        ],
+        [
+          26,
+          306
+        ],
+        [
+          27,
+          376
+        ],
+        [
+          28,
+          446
+        ],
+        [
+          29,
+          468
+        ],
+        [
+          30,
+          524
+        ],
+        [
+          31,
+          536
+        ],
+        [
+          32,
+          519
+        ],
+        [
+          33,
+          549
+        ],
+        [
+          34,
+          559
+        ],
+        [
+          35,
+          576
+        ],
+        [
+          36,
+          511
+        ],
+        [
+          37,
+          488
+        ],
+        [
+          38,
+          415
+        ],
+        [
+          39,
+          374
+        ],
+        [
+          40,
+          332
+        ],
+        [
+          41,
+          303
+        ],
+        [
+          42,
+          277
+        ],
+        [
+          43,
+          246
+        ],
+        [
+          44,
+          284
+        ],
+        [
+          45,
+          277
+        ],
+        [
+          46,
+          274
+        ],
+        [
+          47,
+          294
+        ],
+        [
+          48,
+          287
+        ],
+        [
+          49,
+          336
+        ],
+        [
+          50,
+          353
+        ],
+        [
+          51,
+          350
+        ],
+        [
+          52,
+          347
+        ],
+        [
+          53,
+          403
+        ],
+        [
+          54,
+          374
+        ],
+        [
+          55,
+          357
+        ],
+        [
+          56,
+          383
+        ],
+        [
+          57,
+          398
+        ],
+        [
+          58,
+          365
+        ],
+        [
+          59,
+          384
+        ],
+        [
+          60,
+          385
+        ],
+        [
+          61,
+          383
+        ],
+        [
+          62,
+          400
+        ],
+        [
+          63,
+          364
+        ],
+        [
+          64,
+          380
+        ],
+        [
+          65,
+          415
+        ],
+        [
+          66,
+          434
+        ],
+        [
+          67,
+          445
+        ],
+        [
+          68,
+          455
+        ],
+        [
+          69,
+          497
+        ],
+        [
+          70,
+          525
+        ],
+        [
+          71,
+          538
+        ],
+        [
+          72,
+          552
+        ],
+        [
+          73,
+          551
+        ],
+        [
+          74,
+          572
+        ],
+        [
+          75,
+          611
+        ],
+        [
+          76,
+          594
+        ],
+        [
+          77,
+          610
+        ],
+        [
+          78,
+          646
+        ],
+        [
+          79,
+          578
+        ],
+        [
+          80,
+          573
+        ],
+        [
+          81,
+          629
+        ],
+        [
+          82,
+          679
+        ],
+        [
+          83,
+          593
+        ],
+        [
+          84,
+          580
+        ],
+        [
+          85,
+          578
+        ],
+        [
+          86,
+          608
+        ],
+        [
+          87,
+          563
+        ],
+        [
+          88,
+          476
+        ],
+        [
+          89,
+          417
+        ],
+        [
+          90,
+          409
+        ],
+        [
+          91,
+          302
+        ],
+        [
+          92,
+          285
+        ],
+        [
+          93,
+          218
+        ],
+        [
+          94,
+          201
+        ],
+        [
+          95,
+          143
+        ],
+        [
+          96,
+          96
+        ],
+        [
+          97,
+          63
+        ],
+        [
+          98,
+          32
+        ],
+        [
+          99,
+          19
+        ],
+        [
+          100,
+          17
+        ]
+      ],
+      "name": "Frauen"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          0,
+          844
+        ],
+        [
+          1,
+          241
+        ],
+        [
+          2,
+          172
+        ],
+        [
+          3,
+          158
+        ],
+        [
+          4,
+          137
+        ],
+        [
+          5,
+          148
+        ],
+        [
+          6,
+          127
+        ],
+        [
+          7,
+          120
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          9,
+          95
+        ],
+        [
+          10,
+          107
+        ],
+        [
+          11,
+          103
+        ],
+        [
+          12,
+          114
+        ],
+        [
+          13,
+          126
+        ],
+        [
+          14,
+          127
+        ],
+        [
+          15,
+          147
+        ],
+        [
+          16,
+          127
+        ],
+        [
+          17,
+          142
+        ],
+        [
+          18,
+          122
+        ],
+        [
+          19,
+          137
+        ],
+        [
+          20,
+          138
+        ],
+        [
+          21,
+          122
+        ],
+        [
+          22,
+          130
+        ],
+        [
+          23,
+          128
+        ],
+        [
+          24,
+          119
+        ],
+        [
+          25,
+          136
+        ],
+        [
+          26,
+          148
+        ],
+        [
+          27,
+          139
+        ],
+        [
+          28,
+          158
+        ],
+        [
+          29,
+          150
+        ],
+        [
+          30,
+          169
+        ],
+        [
+          31,
+          175
+        ],
+        [
+          32,
+          165
+        ],
+        [
+          33,
+          173
+        ],
+        [
+          34,
+          217
+        ],
+        [
+          35,
+          173
+        ],
+        [
+          36,
+          201
+        ],
+        [
+          37,
+          204
+        ],
+        [
+          38,
+          197
+        ],
+        [
+          39,
+          210
+        ],
+        [
+          40,
+          215
+        ],
+        [
+          41,
+          195
+        ],
+        [
+          42,
+          224
+        ],
+        [
+          43,
+          224
+        ],
+        [
+          44,
+          222
+        ],
+        [
+          45,
+          223
+        ],
+        [
+          46,
+          269
+        ],
+        [
+          47,
+          294
+        ],
+        [
+          48,
+          304
+        ],
+        [
+          49,
+          298
+        ],
+        [
+          50,
+          339
+        ],
+        [
+          51,
+          326
+        ],
+        [
+          52,
+          399
+        ],
+        [
+          53,
+          411
+        ],
+        [
+          54,
+          406
+        ],
+        [
+          55,
+          388
+        ],
+        [
+          56,
+          452
+        ],
+        [
+          57,
+          454
+        ],
+        [
+          58,
+          441
+        ],
+        [
+          59,
+          436
+        ],
+        [
+          60,
+          462
+        ],
+        [
+          61,
+          456
+        ],
+        [
+          62,
+          446
+        ],
+        [
+          63,
+          454
+        ],
+        [
+          64,
+          494
+        ],
+        [
+          65,
+          510
+        ],
+        [
+          66,
+          487
+        ],
+        [
+          67,
+          476
+        ],
+        [
+          68,
+          525
+        ],
+        [
+          69,
+          558
+        ],
+        [
+          70,
+          542
+        ],
+        [
+          71,
+          566
+        ],
+        [
+          72,
+          556
+        ],
+        [
+          73,
+          624
+        ],
+        [
+          74,
+          575
+        ],
+        [
+          75,
+          563
+        ],
+        [
+          76,
+          602
+        ],
+        [
+          77,
+          488
+        ],
+        [
+          78,
+          518
+        ],
+        [
+          79,
+          522
+        ],
+        [
+          80,
+          495
+        ],
+        [
+          81,
+          534
+        ],
+        [
+          82,
+          499
+        ],
+        [
+          83,
+          470
+        ],
+        [
+          84,
+          472
+        ],
+        [
+          85,
+          395
+        ],
+        [
+          86,
+          391
+        ],
+        [
+          87,
+          355
+        ],
+        [
+          88,
+          310
+        ],
+        [
+          89,
+          274
+        ],
+        [
+          90,
+          217
+        ],
+        [
+          91,
+          184
+        ],
+        [
+          92,
+          139
+        ],
+        [
+          93,
+          120
+        ],
+        [
+          94,
+          84
+        ],
+        [
+          95,
+          56
+        ],
+        [
+          96,
+          37
+        ],
+        [
+          97,
+          32
+        ],
+        [
+          98,
+          26
+        ],
+        [
+          99,
+          15
+        ],
+        [
+          100,
+          13
+        ]
+      ],
+      "name": "Männer"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+          }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-6997"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Stationär behandelte Patienten"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2018",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0,
+      "step": 5
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "min": 0
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemDistance": 18,
+    "itemMarginBottom": 5
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function(axis, formatString){
+          
+          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+        	//function checks how many decimal places has a number
+          var countDecimals = function(value) {
+            if ((value % 1) != 0)
+              return value.toString().split(".")[1].length;
+            return 0;
+          };
+          
+          var ticks = axis.tickPositions;
+          var howManyDecimals = 0;
+					
+          //loop looks for the the largest number of decimal places
+          ticks.forEach(function(tick) {
+            if (countDecimals(tick) > howManyDecimals) {
+              howManyDecimals = countDecimals(tick);
+            }
+          });
+					
+					
+          //update labels so they have the same number of decimal places
+          axis.chart.update({
+            yAxis: [{
+              labels: {
+                //format: '{value:,.' + howManyDecimals + 'f}',
+                format: formatString.replace('howManyDecimals', howManyDecimals),
+              }
+            }, {
+            	//second yAxis, if present
+            }]
+          }, true, true);
+    }
+  },
+  "exporting": {
+    "filename": 6997
+  }
+}
