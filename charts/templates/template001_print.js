@@ -114,7 +114,7 @@
         subtitle: {
             style: {
                 fontSize: '10px',
-                color: "#000000"
+                color: "#000000",
                 fontWeight: "normal",
                 fontFamily: "Arial",
             },
@@ -133,8 +133,8 @@
             labels: {
                 style: {
                     fontSize: '10px',
-                    color: "#000000"
-                    textOverflow: 'none'
+                    color: "#000000",
+                    textOverflow: 'none',
                 }
             },
             tickLength: 0,
@@ -146,15 +146,15 @@
             title: {
                 style: {
                     fontSize: '10px',
-                    color: "#000000"
+                    color: "#000000",
                 },
-                text: ''
+                text: '',
             },
             labels: {
                 y: 3,
                 style: {
                     fontSize: '10px',
-                    color: "#000000"
+                    color: "#000000",
                 }
             }
         },
@@ -179,7 +179,7 @@
             style: {
                 fontSize: "10px",
                 color: "#000000",
-                cursor: "default"
+                cursor: "default",
             },
             position: {
                 align: "left",

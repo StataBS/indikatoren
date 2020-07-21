@@ -71,23 +71,23 @@
 				}
 			}
 		},
-        yAxis: {
+		yAxis: {
 			min: 0,
-            gridLineWidth: 0.5,
-            gridLineColor: '#B9CFD7',
-            lineColor: '#B9CFD7',
-            title: {
-                style: {
-                    color: "#000000",
-                    fontSize: null
-                },
-                text: null
-            },
-            labels: {
-                style: {
-                    color: "#000000"
-                }
-            }
+			gridLineWidth: 0.5,
+			gridLineColor: '#B9CFD7',
+			lineColor: '#B9CFD7',
+			title: {
+				style: {
+					color: "#000000",
+					fontSize: null
+				},
+				text: null
+			},
+			labels: {
+				style: {
+					color: "#000000"
+				}
+			}
 		},
 		legend: {
 			enabled: false,
@@ -99,19 +99,19 @@
 				fontWeight: "normal"
 			}
 		},
-        credits: {
-            enabled: true,
-            style: {
-                color: "#000000",
-                fontSize: "10px",
-                cursor: "default"
-            },
-            position: {
-                align: "left",
-                verticalAlign: "bottom",
-                x: 10
-            }
-        }
+		credits: {
+			enabled: true,
+			style: {
+				color: "#000000",
+				fontSize: "10px",
+				cursor: "default"
+			},
+			position: {
+				align: "left",
+				verticalAlign: "bottom",
+				x: 10
+			}
+		},
 		customFunctions: {
 			//usage example: 
 			//yAxis.events.afterSetExtremes: function(){ 
