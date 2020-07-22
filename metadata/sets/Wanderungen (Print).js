@@ -128,7 +128,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-01T15:40:58.5858",
+		"aktualisierungsdatum": "2020-07-22T11:50:11.1111",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",

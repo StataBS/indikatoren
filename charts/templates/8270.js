@@ -13,9 +13,12 @@
             type: "category",
         },
         "legend": {
-            
-             "itemStyle": {
-                "width": 150,},
+            itemWidth: 150,
+        width: 350,
+        itemStyle: {
+          textOverflow: "none",
+          whiteSpace: "nowrap",
+        }
             }
     }
 }());

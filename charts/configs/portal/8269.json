@@ -10,88 +10,88 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          49.2
+          "Einpersonen-HH (n=499)",
+          46.9
         ],
         [
-          "Mehrpersonen-HH (n=921)",
-          49.7
+          "Mehrpersonen-HH (n=871)",
+          44.5
         ],
         [
           "*Geschlecht",
           null
         ],
         [
-          "Männlich (n=627)",
-          45.8
+          "Männlich (n=637)",
+          40.3
         ],
         [
-          "Weiblich (n=793)",
-          52.5
+          "Weiblich (n=760)",
+          49.7
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          50.3
+          "55-64 Jahre (n=518)",
+          42.7
         ],
         [
-          "65-74 Jahre (n=475)",
-          52
+          "65-74 Jahre (n=434)",
+          44.9
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          46.7
+          "\u003E74 Jahre (n=441)",
+          49.2
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          50.4
+          "Schweiz (n=1 280)",
+          46.2
         ],
         [
-          "Ausland (n=107)",
-          41.1
+          "Ausland (n=120)",
+          36.7
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          52.3
+          "\u003C5 000 Fr. (n=428)",
+          49.5
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
-          48.9
+          "5 000-7 499 Fr. (n=325)",
+          46.2
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          50.8
+          "\u003E7 499 Fr. (n=440)",
+          42.7
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
-          49.3
+          "Grossbasel Ost (n=357)",
+          42.6
         ],
         [
-          "Grossbasel West (n=438)",
-          53.4
+          "Grossbasel West (n=474)",
+          47.5
         ],
         [
-          "Kleinbasel (n=288)",
-          49.7
+          "Kleinbasel (n=306)",
+          50
         ],
         [
-          "Riehen, Bettingen (n=252)",
-          44.8
+          "Riehen, Bettingen (n=240)",
+          38.3
         ],
         [
           "*Befragungsjahr",
@@ -104,6 +104,10 @@
         [
           "2015 (N=1 427)",
           49.5
+        ],
+        [
+          "2019 (N=1 410)",
+          45.4
         ]
       ],
       "name": "Sehr zufrieden",
@@ -119,88 +123,88 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          35
+          "Einpersonen-HH (n=499)",
+          37.9
         ],
         [
-          "Mehrpersonen-HH (n=921)",
-          34.2
+          "Mehrpersonen-HH (n=871)",
+          36.3
         ],
         [
           "*Geschlecht",
           null
         ],
         [
-          "Männlich (n=627)",
-          37.2
+          "Männlich (n=637)",
+          41
         ],
         [
-          "Weiblich (n=793)",
-          32.3
+          "Weiblich (n=760)",
+          33.7
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          33.5
+          "55-64 Jahre (n=518)",
+          37.8
         ],
         [
-          "65-74 Jahre (n=475)",
-          33.3
+          "65-74 Jahre (n=434)",
+          38.2
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          36.5
+          "\u003E74 Jahre (n=441)",
+          34.2
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          33.8
+          "Schweiz (n=1 280)",
+          36.7
         ],
         [
-          "Ausland (n=107)",
-          40.2
+          "Ausland (n=120)",
+          40.8
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          33.1
+          "\u003C5 000 Fr. (n=428)",
+          35
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
-          37.9
+          "5 000-7 499 Fr. (n=325)",
+          41.2
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          32.5
+          "\u003E7 499 Fr. (n=440)",
+          38.2
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
-          34.2
+          "Grossbasel Ost (n=357)",
+          40.6
         ],
         [
-          "Grossbasel West (n=438)",
-          33.6
+          "Grossbasel West (n=474)",
+          33.1
         ],
         [
-          "Kleinbasel (n=288)",
-          34.4
+          "Kleinbasel (n=306)",
+          35.6
         ],
         [
-          "Riehen, Bettingen (n=252)",
-          35.3
+          "Riehen, Bettingen (n=240)",
+          41.7
         ],
         [
           "*Befragungsjahr",
@@ -213,6 +217,10 @@
         [
           "2015 (N=1 427)",
           34.5
+        ],
+        [
+          "2019 (N=1 410)",
+          36.9
         ]
       ],
       "name": "Eher zufrieden",
@@ -228,88 +236,88 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          5.1
+          "Einpersonen-HH (n=499)",
+          6.4
         ],
         [
-          "Mehrpersonen-HH (n=921)",
-          3.9
+          "Mehrpersonen-HH (n=871)",
+          6.1
         ],
         [
           "*Geschlecht",
           null
         ],
         [
-          "Männlich (n=627)",
-          4.6
+          "Männlich (n=637)",
+          7.1
         ],
         [
-          "Weiblich (n=793)",
-          4.2
+          "Weiblich (n=760)",
+          5.7
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          6.9
+          "55-64 Jahre (n=518)",
+          7.7
         ],
         [
-          "65-74 Jahre (n=475)",
-          3.6
+          "65-74 Jahre (n=434)",
+          6
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          2.4
+          "\u003E74 Jahre (n=441)",
+          4.8
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          4.3
+          "Schweiz (n=1 280)",
+          6.1
         ],
         [
-          "Ausland (n=107)",
-          4.7
+          "Ausland (n=120)",
+          8.3
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          5.8
+          "\u003C5 000 Fr. (n=428)",
+          6.5
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
-          6.1
+          "5 000-7 499 Fr. (n=325)",
+          4
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          2.7
+          "\u003E7 499 Fr. (n=440)",
+          7
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
-          4.5
+          "Grossbasel Ost (n=357)",
+          8.1
         ],
         [
-          "Grossbasel West (n=438)",
-          3.4
+          "Grossbasel West (n=474)",
+          6.1
         ],
         [
-          "Kleinbasel (n=288)",
+          "Kleinbasel (n=306)",
           4.9
         ],
         [
-          "Riehen, Bettingen (n=252)",
-          5.2
+          "Riehen, Bettingen (n=240)",
+          6.3
         ],
         [
           "*Befragungsjahr",
@@ -322,6 +330,10 @@
         [
           "2015 (N=1 427)",
           4.3
+        ],
+        [
+          "2019 (N=1 410)",
+          6.2
         ]
       ],
       "name": "Eher unzufrieden",
@@ -337,88 +349,88 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          1.8
+          "Einpersonen-HH (n=499)",
+          1.2
         ],
         [
-          "Mehrpersonen-HH (n=921)",
-          1.1
+          "Mehrpersonen-HH (n=871)",
+          1
         ],
         [
           "*Geschlecht",
           null
         ],
         [
-          "Männlich (n=627)",
-          1.3
+          "Männlich (n=637)",
+          1.6
         ],
         [
-          "Weiblich (n=793)",
-          1.4
+          "Weiblich (n=760)",
+          0.8
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          1.9
+          "55-64 Jahre (n=518)",
+          1.5
         ],
         [
-          "65-74 Jahre (n=475)",
-          0.8
+          "65-74 Jahre (n=434)",
+          0.7
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          1.3
+          "\u003E74 Jahre (n=441)",
+          1.1
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          1.4
+          "Schweiz (n=1 280)",
+          0.9
         ],
         [
-          "Ausland (n=107)",
-          0.9
+          "Ausland (n=120)",
+          3.3
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          1.8
+          "\u003C5 000 Fr. (n=428)",
+          1.2
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
+          "5 000-7 499 Fr. (n=325)",
           0.6
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          1.6
+          "\u003E7 499 Fr. (n=440)",
+          1.1
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
-          1.7
+          "Grossbasel Ost (n=357)",
+          1.4
         ],
         [
-          "Grossbasel West (n=438)",
-          1.1
+          "Grossbasel West (n=474)",
+          1.3
         ],
         [
-          "Kleinbasel (n=288)",
+          "Kleinbasel (n=306)",
           0.7
         ],
         [
-          "Riehen, Bettingen (n=252)",
-          2
+          "Riehen, Bettingen (n=240)",
+          1.3
         ],
         [
           "*Befragungsjahr",
@@ -431,6 +443,10 @@
         [
           "2015 (N=1 427)",
           1.3
+        ],
+        [
+          "2019 (N=1 410)",
+          1.1
         ]
       ],
       "name": "Sehr unzufrieden",
@@ -446,11 +462,11 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          3.2
+          "Einpersonen-HH (n=499)",
+          3.4
         ],
         [
-          "Mehrpersonen-HH (n=921)",
+          "Mehrpersonen-HH (n=871)",
           4.6
         ],
         [
@@ -458,76 +474,76 @@
           null
         ],
         [
-          "Männlich (n=627)",
-          5.9
+          "Männlich (n=637)",
+          4.6
         ],
         [
-          "Weiblich (n=793)",
-          2.6
+          "Weiblich (n=760)",
+          3.7
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          4.2
+          "55-64 Jahre (n=518)",
+          6
         ],
         [
-          "65-74 Jahre (n=475)",
-          3.8
+          "65-74 Jahre (n=434)",
+          3.7
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          4.1
+          "\u003E74 Jahre (n=441)",
+          2.3
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          3.7
+          "Schweiz (n=1 280)",
+          3.8
         ],
         [
-          "Ausland (n=107)",
-          8.4
+          "Ausland (n=120)",
+          7.5
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          1.3
+          "\u003C5 000 Fr. (n=428)",
+          1.4
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
-          2.1
+          "5 000-7 499 Fr. (n=325)",
+          5.2
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          6.5
+          "\u003E7 499 Fr. (n=440)",
+          5.5
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
-          4.5
-        ],
-        [
-          "Grossbasel West (n=438)",
+          "Grossbasel Ost (n=357)",
           3.9
         ],
         [
-          "Kleinbasel (n=288)",
-          3.8
+          "Grossbasel West (n=474)",
+          4.9
         ],
         [
-          "Riehen, Bettingen (n=252)",
-          4.8
+          "Kleinbasel (n=306)",
+          2.9
+        ],
+        [
+          "Riehen, Bettingen (n=240)",
+          4.2
         ],
         [
           "*Befragungsjahr",
@@ -540,6 +556,10 @@
         [
           "2015 (N=1 427)",
           4.1
+        ],
+        [
+          "2019 (N=1 410)",
+          4
         ]
       ],
       "name": "Weiss nicht",
@@ -555,88 +575,88 @@
           null
         ],
         [
-          "Einpersonen-HH (n=506)",
-          5.7
+          "Einpersonen-HH (n=499)",
+          4.2
         ],
         [
-          "Mehrpersonen-HH (n=921)",
-          6.5
+          "Mehrpersonen-HH (n=871)",
+          7.5
         ],
         [
           "*Geschlecht",
           null
         ],
         [
-          "Männlich (n=627)",
-          5.3
+          "Männlich (n=637)",
+          5.5
         ],
         [
-          "Weiblich (n=793)",
-          7.1
+          "Weiblich (n=760)",
+          6.4
         ],
         [
           "*Alter",
           null
         ],
         [
-          "55-64 Jahre (n=477)",
-          3.1
+          "55-64 Jahre (n=518)",
+          4.2
         ],
         [
-          "65-74 Jahre (n=475)",
+          "65-74 Jahre (n=434)",
           6.5
         ],
         [
-          "\u003E74 Jahre (n=463)",
-          9.1
+          "\u003E74 Jahre (n=441)",
+          8.4
         ],
         [
           "*Staatsangehörigkeit",
           null
         ],
         [
-          "Schweiz (n=1 309)",
-          6.4
+          "Schweiz (n=1 280)",
+          6.3
         ],
         [
-          "Ausland (n=107)",
-          4.7
+          "Ausland (n=120)",
+          3.3
         ],
         [
           "*Haushaltseinkommen",
           null
         ],
         [
-          "\u003C5 000 Fr. (n=447)",
-          5.6
+          "\u003C5 000 Fr. (n=428)",
+          6.3
         ],
         [
-          "5 000-7 499 Fr. (n=327)",
-          4.3
+          "5 000-7 499 Fr. (n=325)",
+          2.8
         ],
         [
-          "\u003E7 499 Fr. (n=449)",
-          6
+          "\u003E7 499 Fr. (n=440)",
+          5.5
         ],
         [
           "*Wahlkreis",
           null
         ],
         [
-          "Grossbasel Ost (n=404)",
+          "Grossbasel Ost (n=357)",
+          3.4
+        ],
+        [
+          "Grossbasel West (n=474)",
+          7.2
+        ],
+        [
+          "Kleinbasel (n=306)",
           5.9
         ],
         [
-          "Grossbasel West (n=438)",
-          4.6
-        ],
-        [
-          "Kleinbasel (n=288)",
-          6.6
-        ],
-        [
-          "Riehen, Bettingen (n=252)",
-          7.9
+          "Riehen, Bettingen (n=240)",
+          8.3
         ],
         [
           "*Befragungsjahr",
@@ -649,6 +669,10 @@
         [
           "2015 (N=1 427)",
           6.2
+        ],
+        [
+          "2019 (N=1 410)",
+          6.3
         ]
       ],
       "name": "Keine Angabe",
@@ -747,7 +771,7 @@
       "fontSize": "12px",
       "color": "#000000"
     },
-    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?» Stand: 2015"
+    "text": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Mietzins bzw. dem Mietpreis?» Basel-Stadt, 2019"
   },
   "yAxis": {
     "max": 100,
@@ -806,7 +830,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "exporting": {
     "allowHTML": true,
