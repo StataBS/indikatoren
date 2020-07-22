@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:15.1515",
+		"aktualisierungsdatum": "2020-07-21T17:08:18.1818",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -284,7 +284,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:15.1515",
+		"aktualisierungsdatum": "2020-07-21T17:08:32.3232",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -713,7 +713,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:20:50.5050",
+		"aktualisierungsdatum": "2020-07-21T17:08:46.4646",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -752,7 +752,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:16.1616",
+		"aktualisierungsdatum": "2020-07-21T17:08:59.5959",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -791,7 +791,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:16.1616",
+		"aktualisierungsdatum": "2020-07-21T17:09:29.2929",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -986,7 +986,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:16.1616",
+		"aktualisierungsdatum": "2020-07-21T17:09:41.4141",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1259,7 +1259,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:23:57.5757",
+		"aktualisierungsdatum": "2020-07-21T17:12:10.1010",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1458,7 +1458,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:24:34.3434",
+		"aktualisierungsdatum": "2020-07-21T17:12:23.2323",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1732,7 +1732,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:17.1717",
+		"aktualisierungsdatum": "2020-07-21T17:12:41.4141",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1849,7 +1849,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:12:53.5353",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1888,7 +1888,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:13:05.055",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1927,7 +1927,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:13:18.1818",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1966,7 +1966,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:13:31.3131",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2005,7 +2005,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:13:44.4444",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2127,7 +2127,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:26:01.011",
+		"aktualisierungsdatum": "2020-07-21T17:13:56.5656",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
@@ -2166,7 +2166,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:26:43.4343",
+		"aktualisierungsdatum": "2020-07-21T17:14:09.099",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.2 Quartierarbeit",
 		"stufe3": "",
@@ -2325,7 +2325,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:18.1818",
+		"aktualisierungsdatum": "2020-07-21T17:14:21.2121",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
@@ -3070,7 +3070,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:06:20.2020",
+		"aktualisierungsdatum": "2020-07-21T17:14:34.3434",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
