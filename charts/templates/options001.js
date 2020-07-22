@@ -57,7 +57,7 @@ Highcharts.setOptions({
 		zoomType: "xy",
 		style: {
 			fontFamily: 'Arial',
-			fontSize: "10px",
+			fontSize: "12px",
 			color: "#000000"
         }
 	}
