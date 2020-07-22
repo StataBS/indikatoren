@@ -52,10 +52,15 @@ Highcharts.setOptions({
         }
     }, 
     chart: {
-        style: {
-            fontFamily: 'Arial'
+		borderColor: "#fbfbfb",
+		backgroundColor: "#fbfbfb",
+		zoomType: "xy",
+		style: {
+			fontFamily: 'Arial',
+			fontSize: "12px",
+			color: "#000000"
         }
-    }
+	}
 });
 
 //Add "Einbetten" menu item

@@ -1,25 +1,25 @@
 (function () {
     return {
-        "chart": {
-            "borderColor": "#fbfbfb",
-            "backgroundColor": "#fbfbfb",
-            "width": 320,
-            "height": 208,
+        chart: {
+            borderColor: "#fbfbfb",
+            backgroundColor: "#fbfbfb",
+            width: 320,
+            height: 208,
             spacing: [2, 2, 2, 2], /*top, right, bottom and left */
-            "style": {
-                "fontFamily": "Arial",
+            style: {
+                fontFamily: "Arial",
                 fontSize: '10px',
-                color: '#000000'
+                color: "#000000"
             },
-            "zoomType": "xy",
-            "events": {
-                "load": function () {
+            zoomType: "xy",
+            events: {
+                load: function () {
                     this.credits.element.onclick = function () { };
 
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
                     var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
 
-                    //add rigt-margin if legend is top to allow space for axis-labels
+                    //add right-margin if legend is top to allow space for axis-labels
                     if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
                         this.update({
                             chart: {
@@ -27,7 +27,6 @@
                             }
                         });
                     }
-
                     if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
                         this.update({
                             chart: {
@@ -45,22 +44,23 @@
                         });
                     }
 
+                    // format second y-Axis (if exists)
                     if (this.yAxis[1]) {
                         this.update({
                             yAxis: [{
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -70,16 +70,16 @@
                                 gridLineColor: '#B9CFD7',
                                 gridLineWidth: 0.5,
                                 lineColor: '#B9CFD7',
-                                "title": {
-                                    "style": {
-                                        "color": "#000000",
-                                        "fontSize": 10
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
                                     },
-                                    "text": ''
+                                    text: ''
                                 },
-                                "labels": {
+                                labels: {
                                     y: 3,
-                                    "style": {
+                                    style: {
                                         fontSize: '10px',
                                         color: "#000000"
                                     }
@@ -90,106 +90,108 @@
                 }
             }
         },
-        "plotOptions": {
-            "series": {
+        plotOptions: {
+            series: {
                 borderWidth: 0,
-                "dataLabels": {
-                    "style": {
-                        "fontSize": "10px",
+                dataLabels: {
+                    style: {
+                        fontSize: "10px",
+                        color: "#000000",
                         fontFamily: "Arial",
-                        "fontWeight": "normal",
-                        color: 'black',
+                        fontWeight: "normal",
                     }
                 }
             }
         },
-        "title": {
-            "style": {
-                "fontSize": "10px",
-                "fontWeight": "bold",
-                "color": "#000000"
+        title: {
+            style: {
+                fontSize: "10px",
+                color: "#000000",
+                fontWeight: "bold",
             },
-            "align": "left"
+            align: "left"
         },
-        "subtitle": {
-            "style": {
-                "fontSize": "10px",
-                "fontWeight": "normal",
-                "fontFamily": "Arial",
-                "color": "#000000"
+        subtitle: {
+            style: {
+                fontSize: '10px',
+                color: "#000000",
+                fontWeight: "normal",
+                fontFamily: "Arial",
             },
-            "text": "",
-            "align": "left"
+            text: "",
+            align: "left"
         },
-        "xAxis": {
+        xAxis: {
             lineColor: '#B9CFD7',
             lineWidth: 0.5,
-            "uniqueNames": true,
-            "title": {
-                "style": {
-                    "color": "#000000"
+            uniqueNames: true,
+            title: {
+                style: {
+                    color: "#000000"
                 }
             },
-            "labels": {
-                "style": {
+            labels: {
+                style: {
                     fontSize: '10px',
                     color: "#000000",
-                    textOverflow: 'none'
+                    textOverflow: 'none',
                 }
             },
-            "tickLength": 0,
+            tickLength: 0,
         },
-        "yAxis": {
+        yAxis: {
             gridLineColor: '#B9CFD7',
             gridLineWidth: 0.5,
             lineColor: '#B9CFD7',
-            "title": {
-                "style": {
-                    "color": "#000000",
-                    "fontSize": 10
-                },
-                "text": ''
-            },
-            "labels": {
-                y: 3,
-                "style": {
+            title: {
+                style: {
                     fontSize: '10px',
-                    color: "#000000"
+                    color: "#000000",
+                },
+                text: '',
+            },
+            labels: {
+                y: 3,
+                style: {
+                    fontSize: '10px',
+                    color: "#000000",
                 }
             }
         },
-        "navigation": {
-            "menuItemStyle": {
-                "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
-                "padding": '2px 10px'
-            }
-        },
-        "credits": {
-            "enabled": true,
-            "style": {
-                "color": "#000000",
-                "fontSize": "10",
-                "cursor": "default"
-            },
-            "position": {
-                "align": "left",
-                "verticalAlign": "bottom",
-                "x": 10
-            }
-        },
-        "legend": {
+        legend: {
             padding: 0,
             symbolRadius: 0,
             itemMarginBottom: 2,
             itemStyle: {
                 fontSize: "10px",
-                "fontWeight": "normal"
+                color: "#000000",
+                fontWeight: "normal",
+            }
+        },
+        navigation: {
+            menuItemStyle: {
+                fontFamily: Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
+                padding: '2px 10px'
+            }
+        },
+        credits: {
+            enabled: true,
+            style: {
+                fontSize: "10px",
+                color: "#000000",
+                cursor: "default",
+            },
+            position: {
+                align: "left",
+                verticalAlign: "bottom",
+                x: 10
             }
         },
         dataLabels: {
             enabled: false,
             style: {
-                fontSize: '10px',
+                fontSize: "10px",
+                color: "#000000",
             }
         }
     };
