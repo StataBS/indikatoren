@@ -706,6 +706,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -718,12 +719,9 @@
       "step": 1,
       "rotation": -90
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -732,25 +730,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "renderTo": "container-7700",
@@ -770,28 +772,27 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Grünflächen nach Kategorie"
   },
   "subtitle": {
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel Rosental, nach Bezirk",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Wohnviertel Rosental, nach Bezirk",
-    "align": "left",
     "useHTML": true
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -808,6 +809,17 @@
     },
     "tickAmount": 7,
     "max": 60000
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemMarginBottom": 2
   },
   "navigation": {
     "menuItemStyle": {
@@ -829,17 +841,6 @@
       "y": -25
     },
     "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemMarginBottom": 2
   },
   "tooltip": {
     "useHTML": true,

@@ -141,6 +141,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -150,12 +151,9 @@
       "style": {
         "color": "#000000"
       }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -164,10 +162,14 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function (event) {
           if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
@@ -204,27 +206,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
+    "text": "Beschäftigte pro Einwohner, 2017",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Beschäftigte pro Einwohner, 2017",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -240,6 +241,17 @@
       "format": "{value:,.1f}"
     },
     "tickAmount": 6
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -261,17 +273,6 @@
       "y": -25
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

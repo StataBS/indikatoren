@@ -613,6 +613,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -626,12 +627,9 @@
           return this.value.replace('-', '/'); //workaround for Chrome which automatically replaces e.g. 2000/01 by 2000-01 (interprets it as year/month)
         }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -640,25 +638,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "line",
     "inverted": false,
@@ -667,7 +669,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -688,27 +690,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Übergewichtige Kinder"
   },
   "subtitle": {
+    "text": "11. Schulstufe, nach Nationalität und Geschlecht, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "11. Schulstufe, nach Nationalität und Geschlecht, Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -725,27 +726,6 @@
     },
     "max": 50,
     "tickInterval": 10
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
-  },
-  "credits": {
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "legend": {
     "symbolRadius": 0,
@@ -773,6 +753,27 @@
         .replace('Knaben', '<b>Knaben</b>')
         .replace('Mädchen', '<b>Mädchen</b>');
       }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

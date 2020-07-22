@@ -34,9 +34,15 @@
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
@@ -49,62 +55,68 @@
             //return this.value.replace("Schweiz (rechte Skala)", "<span style='color: rgba(0,0,0,0)'>Absd</span>Schweiz <br/><span style='color: rgba(0,0,0,0)'>Abs</span>(rechte Skala)")
             return this.value.replace("Basel-Landschaft", "Basel-<br/>Landschaft");
           }
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "events": {
-      "load": function() {
-              this.credits.element.onclick = function() {};
-              
-              //for top-left legends with no x defined: move legend to x position of first yAxis
-              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                this.update(
-                  {
-                    legend: {
-                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                    }
-                  }
-                );
-              }              
-          }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "column",
     "width": 485,
     "height": 428,
     "spacingBottom": 65,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "column",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
     "renderTo": "container-8863"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "pointPadding": -0.5,
+      "borderWidth": 0
+    },
+    "column": {
+      "colorByPoint": true
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Anteil Grenzgänger an der Beschäftigung"
   },
   "subtitle": {
+    "text": "2019, 4. Quartal",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "2019, 4. Quartal",
-    "align": "left"
-  },
-  "tooltip": {
-    "shared": false,
-    "pointFormatter": function(){
-            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-          }
+    }
   },
   "yAxis": [
     {
@@ -140,8 +152,17 @@
       "opposite": true
     }
   ],
+  "legend": {
+    "enabled": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
       "color": "#000000",
@@ -156,62 +177,39 @@
     },
     "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
   },
-  "legend": {
-    "enabled": false,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "pointPadding": -0.5,
-      "borderWidth": 0
-    },
-    "column": {
-      "colorByPoint": true
-    }
-  },
   "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "colors": [
     "#474747",
@@ -220,6 +218,12 @@
     "#B375AB",
     "#990300"
   ],
+  "tooltip": {
+    "pointFormatter": function(){
+            return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+          },
+    "shared": false
+  },
   "exporting": {
     "filename": 8863
   }
