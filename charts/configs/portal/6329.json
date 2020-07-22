@@ -229,9 +229,9 @@
       "style": {
         "fontSize": "10px",
         "color": "#000000",
-        "width": 1,
         "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "width": 1
       },
       "formatter": function() {
               	 return this.value;
@@ -240,32 +240,6 @@
     "tickInterval": 1
   },
   "chart": {
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //add top-margin if legend is right to allow space for axis-labels
-                    if (this['legend']['options']['layout'] == 'vertical') {
-                        this.update({
-                            chart: {
-                                marginTop: 6
-                            }
-                        });
-                    }
-
-                    //square legends must be placed 3 pixels more to the left than lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update({
-                            legend: {
-                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                            }
-                        });
-                    }
-                }
-    },
     "type": "column",
     "width": 320,
     "height": 221,
@@ -279,8 +253,54 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "style": {
-      "fontFamily": "Arial",
+      "color": "#000000",
       "fontSize": "10px"
+    },
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
     },
     "renderTo": "container-6329",
     "inverted": false,
@@ -309,16 +329,15 @@
     "text": "Basel-Stadt (bis 2015 Stadt Basel)"
   },
   "yAxis": {
-    "type": "category",
     "tickInterval": 2500,
-    "lineColor": "#B9CFD7",
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
     "title": {
       "text": null
     },
     "labels": {
-      "y": 3,
+      "y": 12,
       "format": "{value:,.0f}",
       "style": {
         "fontSize": "10px",
@@ -337,15 +356,15 @@
     "padding": 0,
     "itemMarginBottom": 4,
     "itemStyle": {
-      "fontFamily": "Arial",
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": null,
       "whitespace": "nowrap"
     },
     "labelFormatter": function () {
-                return this.name.replace('/ ', '/<br/>');
-            },
+				return this.name.replace('/ ', '/<br/>');
+			},
     "itemWidth": 120
   },
   "tooltip": {

@@ -21644,15 +21644,21 @@
     "type": "datetime",
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
     "labels": {
       "style": {
         "color": "#000000",
         "textOverflow": "none"
       }
     },
-    "tickLength": 0,
-    "min": 1576650616974,
-    "max": 1597818616974,
+    "min": 1577277145964,
+    "max": 1598445145964,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -21662,6 +21668,18 @@
     }
   },
   "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
       "load": function () {
                     //move legend title
@@ -21670,39 +21688,154 @@
                     //title.translate(-155, 37);
                 }
     },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
-    "width": 485,
-    "height": 428,
-    "spacingBottom": 55,
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "type": "line",
     "renderTo": "container-8995"
   },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "turboThreshold": 0
+    },
+    "arearange": {
+      "lineWidth": 0.5,
+      "fillOpacity": 0.2,
+      "zIndex": -1,
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      },
+      "marker": {
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      }
+    },
+    "line": {
+      "tooltip": {
+        "crosshairs": true,
+        "shared": true
+      }
+    }
+  },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt"
   },
   "subtitle": {
+    "text": "",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
     },
-    "text": "",
-    "align": "left"
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": undefined,
+      "whiteSpace": "nowrap"
+    },
+    "x": -38,
+    "y": -35,
+    "alignColumns": true,
+    "width": 240,
+    "itemWidth": 110,
+    "labelFormatter": function () {
+                return this.name
+                    //.replace('65+ Jahre', '')
+                    //.replace('0 - 64 Jahre', '')
+                    .replace('Gemeldete Todesfälle ', '');
+                //.replace('Hochgerechnete Todesfälle', 'hochgerechnete');
+            },
+    "title": {
+      "text": "Gemeldete Todesfälle: ",
+      "style": {
+        "fontWeight": "normal"
+      }
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-15"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
   },
   "tooltip": {
-    "shared": false,
     "xDateFormat": "Woche vom %A, %d.%m.%Y (KW %V %G)",
     "formatter": function (e) {
                 //use shared tooltip for group of series only (instead of for all)
@@ -21752,134 +21885,6 @@
                         arearangePoint.series.name.replace('Untere Grenze', '') + ": <b>" + arearangePoint.low + "</b> bis <b>" + arearangePoint.high + "</b> Todesfälle";
                 }
             }
-  },
-  "yAxis": {
-    "min": 0,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
-    },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-15"
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "right",
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": undefined,
-      "whiteSpace": "nowrap"
-    },
-    "x": -38,
-    "y": -35,
-    "alignColumns": true,
-    "width": 240,
-    "itemWidth": 110,
-    "labelFormatter": function () {
-                return this.name
-                    //.replace('65+ Jahre', '')
-                    //.replace('0 - 64 Jahre', '')
-                    .replace('Gemeldete Todesfälle ', '');
-                //.replace('Hochgerechnete Todesfälle', 'hochgerechnete');
-            },
-    "title": {
-      "text": "Gemeldete Todesfälle: ",
-      "style": {
-        "fontWeight": "normal"
-      }
-    }
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "turboThreshold": 0
-    },
-    "arearange": {
-      "lineWidth": 0.5,
-      "fillOpacity": 0.2,
-      "zIndex": -1,
-      "tooltip": {
-        "crosshairs": true,
-        "shared": true
-      },
-      "marker": {
-        "states": {
-          "hover": {
-            "enabled": false
-          }
-        }
-      }
-    },
-    "line": {
-      "tooltip": {
-        "crosshairs": true,
-        "shared": true
-      }
-    }
-  },
-  "customFunctions": {
-    "optimalAxisLabelDecimals": function(axis, formatString){
-          
-          //see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
-        	//function checks how many decimal places has a number
-          var countDecimals = function(value) {
-            if ((value % 1) != 0)
-              return value.toString().split(".")[1].length;
-            return 0;
-          };
-          
-          var ticks = axis.tickPositions;
-          var howManyDecimals = 0;
-					
-          //loop looks for the the largest number of decimal places
-          ticks.forEach(function(tick) {
-            if (countDecimals(tick) > howManyDecimals) {
-              howManyDecimals = countDecimals(tick);
-            }
-          });
-					
-					
-          //update labels so they have the same number of decimal places
-          axis.chart.update({
-            yAxis: [{
-              labels: {
-                //format: '{value:,.' + howManyDecimals + 'f}',
-                format: formatString.replace('howManyDecimals', howManyDecimals),
-              }
-            }, {
-            	//second yAxis, if present
-            }]
-          }, true, true);
-    }
   },
   "navigator": {
     "enabled": true
