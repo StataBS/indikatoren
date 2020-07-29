@@ -43,6 +43,14 @@
         [
           "2017",
           68411
+        ],
+        [
+          "2018",
+          69173
+        ],
+        [
+          "2019",
+          69899
         ]
       ],
       "name": "Akutsomatik",
@@ -91,6 +99,14 @@
         [
           "2017",
           5079
+        ],
+        [
+          "2018",
+          4640
+        ],
+        [
+          "2019",
+          3435
         ]
       ],
       "name": "Geriatrie",
@@ -139,6 +155,14 @@
         [
           "2017",
           3729
+        ],
+        [
+          "2018",
+          3572
+        ],
+        [
+          "2019",
+          3784
         ]
       ],
       "name": "Psychiatrie",
@@ -187,6 +211,14 @@
         [
           "2017",
           3561
+        ],
+        [
+          "2018",
+          3732
+        ],
+        [
+          "2019",
+          4866
         ]
       ],
       "name": "Rehabilitation",
@@ -301,10 +333,11 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "itemDistance": 18,
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right"
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -325,7 +358,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2018-10-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

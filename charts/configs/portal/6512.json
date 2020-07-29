@@ -43,7 +43,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2017 Total",
@@ -108,7 +108,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2017 Total",
@@ -173,7 +173,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2017 Total",
@@ -238,7 +238,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2017 Total",
@@ -303,7 +303,7 @@
         ],
         [
           "  ",
-          null
+          undefined
         ],
         [
           "2017 Total",
@@ -414,7 +414,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?»"
+    "text": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -477,7 +477,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60.\u003Cbr\u002F\u003EZuletzt geändert: 2019-1-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "legend": {
     "layout": "horizontal",

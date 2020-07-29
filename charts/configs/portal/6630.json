@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.0115429011
+          "Wert": 0.0121473354
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 6,
-          "Wert": 0.2808772605
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Altstadt Grossbasel",
-          "y": 18,
-          "Wert": 0.5225086572
+          "Wert": 0.2821316614
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 19,
-          "Wert": 0.2977608385
+          "Wert": 0.2974408498
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 18,
-          "Wert": 0.6153846154
+          "y": 12,
+          "Wert": 0.4117647059
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.2898389783
+          "Wert": 0.2968838527
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 6,
-          "Wert": 0.3150434385
+          "Wert": 0.3154706431
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.1532481954
+          "Wert": 0.1490084986
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 1823.16
+          "Wert": 1822.7614314
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 8,
-          "Wert": 0.102
+          "Wert": 0.1033797217
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 1,
-          "Wert": 0.067259476
+          "Wert": 0.0666591589
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 16,
-          "Wert": 89.764261168
+          "Wert": 89.593644354
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
-          "y": 21,
-          "Wert": 53.158121706
+          "y": 20,
+          "Wert": 52.648478996
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 17,
-          "Wert": 5639.5632458
+          "Wert": 5758.9651712
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 18,
-          "Wert": 16990.146778
+          "Wert": 16423.081464
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 21,
-          "Wert": 0.8563773753
+          "Wert": 0.8374409571
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Grossbasel",
           "y": 20,
-          "Wert": 4.1077454555
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Altstadt Grossbasel",
-          "y": 6,
-          "Wert": 0.0257474605
+          "Wert": 3.9983520273
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

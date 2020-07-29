@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Riehen",
           "y": 8,
-          "Wert": 0.0370197687
+          "Wert": 0.0344634613
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Riehen",
           "y": 5,
-          "Wert": 0.2661786647
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Riehen",
-          "y": 10,
-          "Wert": 0.4874114137
+          "Wert": 0.2711374341
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1649818806
+          "Wert": 0.1654124663
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Riehen",
           "y": 17,
-          "Wert": 0.5482233503
+          "Wert": 0.5315533981
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.4799064611
+          "Wert": 0.4781593288
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Riehen",
-          "y": 21,
-          "Wert": 0.4254942186
+          "y": 20,
+          "Wert": 0.4244741874
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.377706565
+          "Wert": 0.3766110198
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 1957.7917973
+          "Wert": 1958.197789
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Riehen",
           "y": 18,
-          "Wert": 0.656212304
+          "Wert": 0.655371305
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.7962272279
+          "Wert": 0.7962399194
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Riehen",
           "y": 19,
-          "Wert": 102.7498071
+          "Wert": 102.65163386
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 47.529964691
+          "Wert": 47.486109139
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Riehen",
           "y": 15,
-          "Wert": 3716.3038432
+          "Wert": 4071.7150021
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 13499.917164
+          "Wert": 12931.639783
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Riehen",
           "y": 13,
-          "Wert": 0.74117237
+          "Wert": 0.7503934401
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 4,
-          "Wert": 0.1670433402
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Riehen",
-          "y": 1,
-          "Wert": 0.0193855888
+          "Wert": 0.1588472385
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

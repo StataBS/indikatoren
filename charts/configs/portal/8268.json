@@ -155,7 +155,7 @@
     "text": "Umzugswunsch"
   },
   "subtitle": {
-    "text": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
+    "text": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?», Basel-Stadt, 2017",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -211,7 +211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "tooltip": {
     "headerFormat": " ",

@@ -5,110 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 2,
-          "Wert": 0.0148392415
+          "y": 3,
+          "Wert": 0.0194915254
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
-          "y": 2,
-          "Wert": 0.2464962902
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Bettingen",
           "y": 4,
-          "Wert": 0.4460016488
+          "Wert": 0.2525423729
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bettingen",
           "y": 1,
-          "Wert": 0.1357798165
+          "Wert": 0.1364468864
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bettingen",
           "y": 16,
-          "Wert": 0.5416666667
+          "Wert": 0.5238095238
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
           "y": 19,
-          "Wert": 0.4244186047
+          "Wert": 0.4292168675
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
-          "y": 18,
-          "Wert": 0.4089035449
+          "y": 19,
+          "Wert": 0.4177966102
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
           "y": 18,
-          "Wert": 0.3386627907
+          "Wert": 0.3478915663
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 1962.1282051
+          "Wert": 1962.4483871
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.7916666667
+          "Wert": 0.7870967742
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.9017231209
+          "Wert": 0.9019785762
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 121.21188119
+          "Wert": 120.9047619
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
-          "y": 20,
-          "Wert": 52.784728611
+          "y": 21,
+          "Wert": 52.936813187
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bettingen",
-          "y": 20,
-          "Wert": 14657.565978
+          "y": 21,
+          "Wert": 14716.314696
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 22686.809221
+          "Wert": 21092.429712
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
           "y": 13,
-          "Wert": 0.74117237
+          "Wert": 0.7503934401
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 8,
-          "Wert": 0.2992305528
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Bettingen",
-          "y": 1,
-          "Wert": 0.0193855888
+          "Wert": 0.2880605517
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

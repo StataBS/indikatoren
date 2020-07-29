@@ -122,7 +122,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht»",
+		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht», Basel-Stadt",
 		"kuerzel": "I.50.2.08243",
 		"kuerzelKunde": "1-08",
 		"description": "Finanzielle Lage",
@@ -132,7 +132,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T09:47:56.5656",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -163,7 +163,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht»",
+		"subtitle": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht nicht», Basel-Stadt",
 		"kuerzel": "I.50.2.08244",
 		"kuerzelKunde": "1-09",
 		"description": "Finanzielle Lage",
@@ -173,7 +173,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T10:06:36.3636",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -204,7 +204,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung",
-		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?»",
+		"subtitle": "«Welche finanziellen Unterstützungen erhält Ihr Haushalt aktuell?», Basel-Stadt",
 		"kuerzel": "I.50.2.08245",
 		"kuerzelKunde": "1-10",
 		"description": "Finanzielle Unterstützung",
@@ -214,7 +214,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2020-07-27T12:08:10.1010",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -245,7 +245,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.» Stand: 2017",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verschlechtert.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08246",
 		"kuerzelKunde": "1-11",
 		"description": "Finanzielle Lage",
@@ -255,7 +255,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:08:18.1818",
+		"aktualisierungsdatum": "2020-07-27T11:46:08.088",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -286,7 +286,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.» Stand: 2017",
+		"subtitle": "«In den letzten 12 Monaten sind wir in finanzielle Engpässe gekommen.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08247",
 		"kuerzelKunde": "1-12",
 		"description": "Finanzielle Lage",
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:08:32.3232",
+		"aktualisierungsdatum": "2020-07-27T12:02:48.4848",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
@@ -774,7 +774,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesundheitliche Probleme",
-		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?» Stand: 2017",
+		"subtitle": "«Wie häufig gab es in Ihrer Familie in den vergangenen 12 Monaten gesundheitliche Probleme eines Erwachsenen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08261",
 		"kuerzelKunde": "1-30",
 		"description": "Gesundheitliche Probleme",
@@ -784,7 +784,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:08:59.5959",
+		"aktualisierungsdatum": "2020-07-27T12:03:31.3131",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -815,7 +815,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Gesundheitliche Unterstützung",
-		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?» Stand: 2017",
+		"subtitle": "«Haben Sie aufgrund von gesundheitlichen Problemen schon einmal Hilfe oder Unterstützung gebraucht?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08262",
 		"kuerzelKunde": "1-31",
 		"description": "Gesundheitliche Unterstützung",
@@ -825,7 +825,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:09:29.2929",
+		"aktualisierungsdatum": "2020-07-27T09:54:40.4040",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.3 Gesundheit",
 		"stufe3": "",
@@ -1020,7 +1020,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Umzugswunsch",
-		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?» Stand: 2017",
+		"subtitle": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung/Ihrem Haus auszuziehen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08267",
 		"kuerzelKunde": "1-43",
 		"description": "Umzugswunsch",
@@ -1030,7 +1030,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:09:41.4141",
+		"aktualisierungsdatum": "2020-07-27T12:07:15.1515",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1061,7 +1061,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Umzugswunsch",
-		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?»",
+		"subtitle": "«Weshalb kommt für Sie ein Wohnungswechsel in Frage?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08268",
 		"kuerzelKunde": "1-44",
 		"description": "Umzugswunsch",
@@ -1071,7 +1071,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-07-27T10:04:06.066",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
@@ -1794,7 +1794,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
-		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit den familienspezifischen Beratungs- oder Bildungsangeboten im Kanton Basel-Stadt?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08286",
 		"kuerzelKunde": "2-10",
 		"description": "Zufriedenheit mit familienspezifischen Beratungs- und Bildungsangeboten",
@@ -1804,7 +1804,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:12:41.4141",
+		"aktualisierungsdatum": "2020-07-27T12:06:30.3030",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1917,7 +1917,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Distanz zum nächsten Spielplatz",
-		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?» Stand: 2017",
+		"subtitle": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08289",
 		"kuerzelKunde": "2-16",
 		"description": "Distanz zum nächsten Spielplatz",
@@ -1927,7 +1927,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:12:53.5353",
+		"aktualisierungsdatum": "2020-07-27T12:02:04.044",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1958,7 +1958,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Grünflächen",
-		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit den Parks und Grünanlagen an Ihrem Wohnort?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08290",
 		"kuerzelKunde": "2-18",
 		"description": "Zufriedenheit mit Grünflächen",
@@ -1968,7 +1968,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:13:05.055",
+		"aktualisierungsdatum": "2020-07-27T10:08:28.2828",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -1999,7 +1999,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Spielplätzen",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot an Kinderspielplätzen an Ihrem Wohnort?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08291",
 		"kuerzelKunde": "2-17",
 		"description": "Zufriedenheit mit Spielplätzen",
@@ -2009,7 +2009,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:13:18.1818",
+		"aktualisierungsdatum": "2020-07-27T09:53:26.2626",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2040,7 +2040,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Verkehrssicherheit",
-		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie mit der Verkehrssituation bezüglich der Sicherheit der Kinder?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08292",
 		"kuerzelKunde": "2-19",
 		"description": "Zufriedenheit mit Verkehrssicherheit",
@@ -2050,7 +2050,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:13:31.3131",
+		"aktualisierungsdatum": "2020-07-27T10:07:25.2525",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2081,7 +2081,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Wohnumfeld",
-		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?» Stand: 2017",
+		"subtitle": "«Wie zufrieden sind Sie insgesamt mit Ihrem Wohnumfeld?», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08293",
 		"kuerzelKunde": "2-15",
 		"description": "Zufriedenheit mit Wohnumfeld",
@@ -2091,7 +2091,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:13:44.4444",
+		"aktualisierungsdatum": "2020-07-27T12:05:48.4848",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.4 Partizipation",
 		"stufe3": "",
@@ -2411,7 +2411,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Nachbarschaftliches Verhältnis",
-		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.» Stand: 2017",
+		"subtitle": "«Ich habe ein gutes Verhältnis mit der Mehrheit meiner Nachbarinnen und Nachbarn.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08322",
 		"kuerzelKunde": "3-09",
 		"description": "Nachbarschaftliches Verhältnis",
@@ -2421,7 +2421,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:14:21.2121",
+		"aktualisierungsdatum": "2020-07-27T12:00:47.4747",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
@@ -2452,7 +2452,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit nachbarschaftlichem Austausch",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit dem Austausch mit den Nachbarn?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-10",
 		"description": "Zufriedenheit mit nachbarschaftlichem Austausch",
@@ -2462,14 +2462,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:39.3939",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2011 waren 85,3% der Befragten zufrieden mit dem Austausch mit den Nachbarn, 2015 betrug die Zufriedenheit 87,8%, wobei der Anteil sehr zufriedener Personen im Vergleich zu 2011 um 4,2 Prozentpunkte höher lag.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "88% der im Jahr 2019 Befragten sind sehr oder eher zufrieden mit dem Austausch mit den Nachbarn. Im Vergleich zu 2011 liegt der Anteil sehr zufriedener Personen um 4 Prozentpunkte höher.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2534,7 +2534,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zufriedenheit mit Angeboten für ältere Menschen",
-		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?» Stand: 2015",
+		"subtitle": "«Wie zufrieden sind Sie am aktuellen Wohnort mit den Angeboten und Einrichtungen für ältere Menschen?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-19",
 		"description": "Zufriedenheit mit Angeboten für ältere Menschen",
@@ -2544,14 +2544,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:41.4141",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.4 Altersarbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 60% der Befragten sind 2015 mit en Angeboten für ältere Menschen zufrieden, 2011 waren es mit 56% weniger.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "58% der Befragten sind 2019 mit den Angeboten und Einrichtungen für ältere Menschen sehr oder eher zufrieden, 2011 waren es mit 56% etwas weniger.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2616,7 +2616,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung von Nachbarn",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Nachbarn finanziell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-13",
 		"description": "Finanzielle Unterstützung von Nachbarn",
@@ -2626,14 +2626,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T13:59:58.5858",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nachbarn erhalten von 7% der Befragten finanzielle Unterstützung. Dieser Wert liegt um 2 Prozentpunkte höher als bei der letzten Befragung.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Nachbarn erhalten 2019 von gut 7% der Befragten finanzielle Unterstützung. Dieser Wert ist gleich hoch wie bei der letzten Befragung.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2657,7 +2657,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Unterstützung von Arbeitskollegen",
-		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?» Stand: 2015",
+		"subtitle": "«Wie häufig unterstützen Sie oder ein anderes Mitglied Ihres Haushalts Arbeitskolleginnen/-kollegen finanziell?» Basel-Stadt, 2019",
 		"kuerzel": "",
 		"kuerzelKunde": "3-14",
 		"description": "Finanzielle Unterstützung von Arbeitskollegen",
@@ -2667,14 +2667,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:55.5555",
+		"aktualisierungsdatum": "2020-07-24T14:08:42.4242",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.3 Generationenbeziehungen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,5% der Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
-		"erlaeuterungen": "Die Befragung 55plus wurde 2011 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Personen im Alter von 55 Jahren und mehr haben 2015 insgesamt 1 427 Personen an der schriftlichen Befragung teilgenommen.",
+		"lesehilfe": "Rund 4% der im Jahr 2019 Befragten unterstützen ihre Arbeitskolleginnen oder Arbeitskollegen finanziell. 2011 lag dieser Anteil bei 2%.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
 		"template": "befragungenGrundauswertung001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -2862,7 +2862,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
+		"subtitle": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?», Basel-Stadt",
 		"kuerzel": "I.50.2.08333",
 		"kuerzelKunde": "1-24",
 		"description": "Finanzielle Lage",
@@ -2872,14 +2872,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-07-27T11:59:37.3737",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Das grösste Sparpotential sehen die Familien darin, auf Luxusartikel zu verzichten und insgesamt preisbewusst einzukaufen. Alte Sachen länger zu nutzen und Reparaturen selber zu erledigen, gehört bei über 50% der befragten Familien zur Praxis. Gaben 2009 57,4% an, bei den Ferien zu sparen, sind es 2017 noch 45,7%.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>Es sind nur die zehn am häufigsten genannten Möglichkeiten dargestellt",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.<br>Es sind nur die zehn am häufigsten genannten Möglichkeiten dargestellt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -3188,7 +3188,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Finanzielle Lage",
-		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.» Stand: 2017",
+		"subtitle": "«Unsere finanzielle Lage hat sich in den vergangenen fünf Jahren verbessert.», Basel-Stadt, 2017",
 		"kuerzel": "I.50.2.08341",
 		"kuerzelKunde": "1-23",
 		"description": "Finanzielle Lage",
@@ -3198,7 +3198,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-21T17:14:34.3434",
+		"aktualisierungsdatum": "2020-07-27T10:11:17.1717",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",

@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Hirzbrunnen",
           "y": 11,
-          "Wert": 0.0496960648
+          "Wert": 0.0476190476
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 4,
-          "Wert": 0.2492268316
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 14,
-          "Wert": 0.4995201024
+          "y": 3,
+          "Wert": 0.2522522523
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Hirzbrunnen",
           "y": 4,
-          "Wert": 0.1870076616
+          "Wert": 0.1854786195
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 12,
-          "Wert": 0.3656716418
+          "y": 9,
+          "Wert": 0.32
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.4215000945
+          "Wert": 0.4170001906
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Hirzbrunnen",
           "y": 17,
-          "Wert": 0.4000213288
+          "Wert": 0.4001501502
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.3500850179
+          "Wert": 0.3600152468
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Hirzbrunnen",
           "y": 16,
-          "Wert": 1942.1621622
+          "Wert": 1942.2852645
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.69327467
+          "Wert": 0.6945843829
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.5926365548
+          "Wert": 0.5975573457
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Hirzbrunnen",
           "y": 12,
-          "Wert": 81.079755892
+          "Wert": 81.300210526
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 10,
-          "Wert": 38.913104491
+          "y": 9,
+          "Wert": 38.983937486
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 771.02751952
+          "Wert": 718.25484407
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 7795.1969134
+          "Wert": 7831.7899982
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 8,
-          "Wert": 0.7095861405
+          "y": 6,
+          "Wert": 0.7065011149
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 9,
-          "Wert": 0.3260985038
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Hirzbrunnen",
-          "y": 11,
-          "Wert": 0.0404742079
+          "Wert": 0.3135640475
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,
