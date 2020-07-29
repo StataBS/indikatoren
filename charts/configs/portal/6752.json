@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Wettstein",
           "y": 6,
-          "Wert": 0.0330935252
+          "Wert": 0.0322171946
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Wettstein",
           "y": 8,
-          "Wert": 0.3188848921
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Wettstein",
-          "y": 20,
-          "Wert": 0.554676259
+          "Wert": 0.3216289593
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Wettstein",
-          "y": 12,
-          "Wert": 0.2585888437
+          "y": 13,
+          "Wert": 0.276009678
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Wettstein",
-          "y": 21,
-          "Wert": 0.6612903226
+          "y": 19,
+          "Wert": 0.5740740741
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Wettstein",
-          "y": 9,
-          "Wert": 0.2913961039
+          "y": 10,
+          "Wert": 0.2992620935
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Wettstein",
-          "y": 16,
-          "Wert": 0.3606115108
+          "y": 14,
+          "Wert": 0.3648868778
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Wettstein",
           "y": 6,
-          "Wert": 0.2129329004
+          "Wert": 0.2107133096
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Wettstein",
-          "y": 10,
-          "Wert": 1933.3366337
+          "y": 9,
+          "Wert": 1933.2810734
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Wettstein",
           "y": 14,
-          "Wert": 0.3338048091
+          "Wert": 0.3347457627
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Wettstein",
           "y": 11,
-          "Wert": 0.2792035016
+          "Wert": 0.278453652
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Wettstein",
           "y": 15,
-          "Wert": 83.103856666
+          "Wert": 83.041527736
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Wettstein",
-          "y": 13,
-          "Wert": 45.328020756
+          "y": 14,
+          "Wert": 45.977107761
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Wettstein",
           "y": 12,
-          "Wert": 1568.4051447
+          "Wert": 1695.2402578
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Wettstein",
           "y": 13,
-          "Wert": 11237.065478
+          "Wert": 11344.566364
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Wettstein",
-          "y": 19,
-          "Wert": 0.8001764749
+          "y": 20,
+          "Wert": 0.8031640176
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Wettstein",
           "y": 17,
-          "Wert": 1.9410736405
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Wettstein",
-          "y": 10,
-          "Wert": 0.038280833
+          "Wert": 2.0461142256
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

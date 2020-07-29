@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          32.264901599886734
+          32.20917147278098
         ],
         [
           "Kleinhüningen",
-          32.69
+          32.6070110701107
         ],
         [
           "Rosental",
-          34.59343365253078
+          34.51346572361262
         ],
         [
           "Matthäus",
-          35.82688404816669
+          35.749175361831036
         ],
         [
           "Clara",
-          36.65934065934066
+          36.610416666666666
         ],
         [
           "Iselin",
-          36.72023453392366
+          36.682021600334146
         ],
         [
           "St. Johann",
-          36.762402682275386
+          36.73291010089559
         ],
         [
           "Breite",
-          38.856169826313995
+          38.852427404718696
         ],
         [
           "Hirzbrunnen",
-          38.97925040738729
+          38.98393748643369
         ],
         [
           "Gundeldingen",
-          39.043906956474366
+          39.012817031445174
         ],
         [
           "Gotthelf",
-          41.47321033210332
+          41.42121524201854
         ],
         [
           "Altstadt Kleinbasel",
-          43.391752577319586
+          43.25678682688029
         ],
         [
           "Am Ring",
-          45.56212032137958
+          45.404458288718
         ],
         [
           "Wettstein",
-          46.11344065892924
+          45.97710776102736
         ],
         [
           "Bachletten",
-          46.23795381988269
+          46.15430135365042
         ],
         [
           "Riehen",
-          47.50106599706258
-        ],
-        [
-          "Bruderholz",
-          48.39978354978355
+          47.48610913909792
         ],
         [
           "St. Alban",
-          48.50627015406664
+          48.31641285956007
+        ],
+        [
+          "Bruderholz",
+          48.37687898777982
         ],
         [
           "Vorstädte",
-          50.563448566610454
+          50.3673640167364
         ],
         [
           "Altstadt Grossbasel",
-          52.887750122010736
+          52.64847899565427
         ],
         [
           "Bettingen",
-          53.011926605504584
+          52.93681318681318
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -159,11 +159,11 @@
           16
         ],
         [
-          "Bruderholz",
+          "St. Alban",
           17
         ],
         [
-          "St. Alban",
+          "Bruderholz",
           18
         ],
         [
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
   },
   "legend": {
     "enabled": false,

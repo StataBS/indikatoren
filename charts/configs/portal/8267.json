@@ -657,7 +657,7 @@
       "fontSize": "12px",
       "color": "#000000"
     },
-    "text": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung\u002FIhrem Haus auszuziehen?» Stand: 2017"
+    "text": "«Haben Sie den Wunsch, in den nächsten zwei Jahren aus Ihrer Wohnung\u002FIhrem Haus auszuziehen?», Basel-Stadt, 2017"
   },
   "yAxis": {
     "max": 100,
@@ -716,7 +716,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "exporting": {
     "allowHTML": true,

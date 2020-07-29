@@ -5,110 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.0357071614
+          "y": 5,
+          "Wert": 0.0312811317
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.3810093756
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 0.5487731897
+          "y": 14,
+          "Wert": 0.3851364814
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Vorstädte",
           "y": 20,
-          "Wert": 0.3196893367
+          "Wert": 0.3347280335
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Vorstädte",
-          "y": 7,
-          "Wert": 0.2916666667
+          "y": 13,
+          "Wert": 0.4583333333
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
           "y": 16,
-          "Wert": 0.3728395062
+          "Wert": 0.3668295663
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Vorstädte",
           "y": 2,
-          "Wert": 0.2802712946
+          "Wert": 0.2823271568
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 0.174382716
+          "Wert": 0.1661576054
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 1899.0847145
+          "Wert": 1899.1376147
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Vorstädte",
           "y": 6,
-          "Wert": 0.0773480663
+          "Wert": 0.0770642202
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Vorstädte",
           "y": 8,
-          "Wert": 0.1947071744
+          "Wert": 0.1947799544
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Vorstädte",
           "y": 14,
-          "Wert": 82.107153371
+          "Wert": 82.28032739
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 49.837307449
+          "Wert": 50.367364017
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 6521.1233466
+          "Wert": 6754.7690516
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Vorstädte",
-          "y": 19,
-          "Wert": 17096.20668
+          "y": 20,
+          "Wert": 16909.705491
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Vorstädte",
-          "y": 17,
-          "Wert": 0.7730196667
+          "y": 18,
+          "Wert": 0.7693459123
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 4.3439132243
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Vorstädte",
-          "y": 4,
-          "Wert": 0.0242808282
+          "Wert": 4.442984752
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

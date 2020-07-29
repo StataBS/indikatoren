@@ -939,7 +939,7 @@
       "fontSize": "12px",
       "color": "#000000"
     },
-    "text": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?» Stand: 2017"
+    "text": "«Wie lange brauchen Sie ungefähr, um zu Fuss einen Kinderspielplatz zu erreichen?», Basel-Stadt, 2017"
   },
   "yAxis": {
     "max": 100,
@@ -998,7 +998,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "exporting": {
     "allowHTML": true,

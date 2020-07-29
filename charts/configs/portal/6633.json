@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Breite",
           "y": 12,
-          "Wert": 0.0569521691
+          "Wert": 0.0541380075
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Breite",
           "y": 9,
-          "Wert": 0.3380422692
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.4952169077
+          "Wert": 0.3437985356
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Breite",
-          "y": 17,
-          "Wert": 0.2770660923
+          "y": 16,
+          "Wert": 0.2818738657
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Breite",
-          "y": 4,
-          "Wert": 0.2631578947
+          "y": 5,
+          "Wert": 0.2641509434
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Breite",
           "y": 12,
-          "Wert": 0.3336211362
+          "Wert": 0.3313284069
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.346051168
+          "y": 12,
+          "Wert": 0.3392500555
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Breite",
           "y": 8,
-          "Wert": 0.2187877741
+          "Wert": 0.217735006
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 1941.2268657
+          "Wert": 1941.2750374
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Breite",
           "y": 9,
-          "Wert": 0.1343283582
+          "Wert": 0.130044843
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 0.3599290089
+          "Wert": 0.3593640802
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Breite",
-          "y": 6,
-          "Wert": 70.169032499
+          "y": 5,
+          "Wert": 70.15234375
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Breite",
-          "y": 9,
-          "Wert": 38.580147476
+          "y": 8,
+          "Wert": 38.852427405
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Breite",
           "y": 7,
-          "Wert": 563.2334935
+          "Wert": 591.47707404
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Breite",
-          "y": 9,
-          "Wert": 7393.6547428
+          "y": 8,
+          "Wert": 7473.7566459
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Breite",
-          "y": 12,
-          "Wert": 0.7402545444
+          "y": 15,
+          "Wert": 0.7658882059
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Breite",
           "y": 1,
-          "Wert": 0.1306987677
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Breite",
-          "y": 13,
-          "Wert": 0.0492950163
+          "Wert": 0.1323363859
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,
