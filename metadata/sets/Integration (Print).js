@@ -4012,7 +4012,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
-		"subtitle": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?»",
+		"subtitle": "«Kennen oder nutzen Sie die Mütter- und Väterberatung bzw. würden Sie diese nutzen?», Basel-Stadt",
 		"kuerzel": "I.50.2.06744",
 		"kuerzelKunde": "D12-1",
 		"description": "Bekanntheit und Nutzung der Mütter- und Väterberatung nach gesprochener Sprache",
@@ -4022,14 +4022,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:23.2323",
+		"aktualisierungsdatum": "2020-07-27T09:50:45.4545",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 haben 93,1% der befragten nur deutschsprechenden Familien angegeben, dass sie die Mütter- und Väterberatung kennen. Bei Familien, welche nur andere Sprachen als Deutsch sprechen, lag dieser Anteil mit 62,6% deutlich tiefer. Bei Familien, welche Deutsch und eine andere Sprache sprechen, liegt der Anteil bei 81,2%. 56% der nur deutschsprechenden Familien haben diese Beratung auch genutzt. Bei Familien, welche nur eine andere Sprache als Deutsch sprechen, nutzten lediglich 30% dieses Angebot. Seit 2009 ist das Angebot stetig bekannter geworden. Bei der Nutzung liegen die Werte von 2009 und 2017 sehr nahe beeinander (46,0% bzw. 46,6%), während 2013 weniger Familien eine Nutzung angaben (40,6%).",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -4038,7 +4038,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -4051,7 +4051,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
-		"subtitle": "«Kennen oder nutzen Sie die Elternbildungsangebote bzw. würden Sie diese nutzen?»",
+		"subtitle": "«Kennen oder nutzen Sie die Elternbildungsangebote bzw. würden Sie diese nutzen?», Basel-Stadt",
 		"kuerzel": "I.50.2.06745",
 		"kuerzelKunde": "D12-2",
 		"description": "Bekanntheit und Nutzung von Elternbildungsangeboten nach gesprochener Sprache",
@@ -4061,14 +4061,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:23.2323",
+		"aktualisierungsdatum": "2020-07-27T09:55:43.4343",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 haben 79,9% der befragten nur deutschsprechenden Familien angegeben, dass sie die Elternbildungsangebote kennen. Bei Familien, welche nur andere Sprachen als Deutsch sprechen, lag dieser Anteil mit 44,3% deutlich tiefer. Bei Familien, welche Deutsch und eine andere Sprache sprechen, liegt der Anteil bei 64,1%. 21,5% der nur deutschsprechenden Familien haben diese Beratung auch genutzt. Bei Familien, welche nur eine andere Sprache als Deutsch sprechen, nutzten 11,8% dieses Angebot. Über die Jahre hat das Angebot an Bekanntheit eingebüsst und wird auch weniger genutzt.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "large",
@@ -4077,7 +4077,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F60"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -4169,7 +4169,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der Bildungschancen nach gesprochener Sprache",
-		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.»",
+		"subtitle": "«Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
 		"kuerzel": "I.50.2.06748",
 		"kuerzelKunde": "B7-1",
 		"description": "Beurteilung der Bildungschancen nach gesprochener Sprache",
@@ -4179,14 +4179,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:24.2424",
+		"aktualisierungsdatum": "2020-07-27T09:43:12.1212",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 stimmten 45,9% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% häufiger zu als Familien, welche nur Deutsch (42%) bzw. Deutsch sowie eine andere Sprache (49,2%) sprechen. Die Unterschiede zwischen diesen Gruppen sind seit 2009 deutlich schwächer geworden.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4195,7 +4195,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F16a_3"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -4208,7 +4208,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beurteilung der individuellen Förderung der Kinder nach gesprochener Sprache",
-		"subtitle": "«Das baselstädtische Schulsystem fördert alle Kinder und Jugendlichen so individuell wie möglich, ohne dabei die Gemeinschaftsbildung zu vernachlässigen.»",
+		"subtitle": "«Das baselstädtische Schulsystem fördert alle Kinder und Jugendlichen so individuell wie möglich, ohne dabei die Gemeinschaftsbildung zu vernachlässigen.», Basel-Stadt",
 		"kuerzel": "I.50.2.06749",
 		"kuerzelKunde": "B7-2",
 		"description": "Beurteilung der individuellen Förderung der Kinder nach gesprochener Sprache",
@@ -4218,14 +4218,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-16T14:34:24.2424",
+		"aktualisierungsdatum": "2020-07-27T09:57:20.2020",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2017 stimmten 45,6% der befragten Familien der im Titel formulierten Aussage eher oder genau zu. Familien, welche nur eine andere Sprache als Deutsch sprechen, stimmen mit 51,6% deutlich häufiger zu als Familien, welche nur Deutsch (41,4%) bzw. Deutsch und eine andere Sprache (48,8%) sprechen. Seit 2009 wird diese Frage zunehmend positiver beurteilt.",
-		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Mittlerweile liegen die Ergebnisse aus den Jahren 2009, 2013 und 2017 vor. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen.",
+		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -4234,7 +4234,7 @@ var indikatorensetData = [
 		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung: F49d"
+			"Statistisches Amt Basel-Stadt, kantonale Familienbefragung"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

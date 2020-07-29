@@ -6,61 +6,55 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 13,
-          "Wert": 0.0678936605
+          "Wert": 0.0672478207
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 12,
-          "Wert": 0.3762781186
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 21,
-          "Wert": 0.5713701431
+          "y": 13,
+          "Wert": 0.3835616438
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 21,
-          "Wert": 0.3347845015
+          "Wert": 0.3457943925
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 9,
-          "Wert": 0.3333333333
+          "y": 4,
+          "Wert": 0.2173913043
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.2828520919
+          "Wert": 0.2820512821
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 3,
-          "Wert": 0.2862985685
+          "Wert": 0.2860107929
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.1579257513
+          "Wert": 0.1544424568
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 1880.7092199
+          "Wert": 1881.2535211
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.0992907801
+          "Wert": 0.0985915493
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -72,43 +66,37 @@
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 9,
-          "Wert": 71.346925972
+          "Wert": 71.24
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 42.766153846
+          "Wert": 43.256786827
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 11,
-          "Wert": 1406.173482
+          "Wert": 1438.9218159
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 9082.149938
+          "Wert": 9272.3190416
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 6,
-          "Wert": 0.7043903035
+          "y": 4,
+          "Wert": 0.7018931452
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 16,
-          "Wert": 1.6002980016
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 17,
-          "Wert": 0.0542989532
+          "Wert": 1.5534310401
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

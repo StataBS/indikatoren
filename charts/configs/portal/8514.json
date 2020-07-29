@@ -376,7 +376,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht»",
+    "text": "«Wie schätzen Sie die finanzielle Situation Ihres Haushalts ein?» – Dargestellte Kategorie: «Das Geld reicht», Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -434,7 +434,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "dataLabels": {
     "enabled": false,

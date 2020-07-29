@@ -297,7 +297,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?»",
+    "text": "«Welche Möglichkeiten zur Schonung resp. Aufbesserung des Haushaltsbudgets werden genutzt?», Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
   },
   "dataLabels": {
     "enabled": false,

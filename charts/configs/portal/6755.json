@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.1157151041
+          "Wert": 0.1097258486
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.5079880339
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "Matthäus",
-          "y": 7,
-          "Wert": 0.4695436319
+          "Wert": 0.5026109661
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Matthäus",
           "y": 11,
-          "Wert": 0.2474408294
+          "Wert": 0.2633456749
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Matthäus",
-          "y": 5,
-          "Wert": 0.2648648649
+          "y": 7,
+          "Wert": 0.2880434783
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Matthäus",
           "y": 2,
-          "Wert": 0.181429716
+          "Wert": 0.1888482633
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 0.3063362289
+          "Wert": 0.3087397709
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Matthäus",
           "y": 7,
-          "Wert": 0.2172171281
+          "Wert": 0.2115173675
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 1925.2362205
+          "Wert": 1925.1996513
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 0.0708661417
+          "Wert": 0.0697471665
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.1653432841
+          "Wert": 0.1653368754
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Matthäus",
           "y": 3,
-          "Wert": 67.260189147
+          "Wert": 67.2267683
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 34.932337722
+          "Wert": 35.749175362
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Matthäus",
-          "y": 8,
-          "Wert": 568.75968476
+          "y": 6,
+          "Wert": 584.74269201
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 6536.4357864
+          "Wert": 6539.7952651
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Matthäus",
-          "y": 4,
-          "Wert": 0.6812807264
+          "y": 5,
+          "Wert": 0.7026999861
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 0.1872287699
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "Matthäus",
-          "y": 18,
-          "Wert": 0.0555946177
+          "Wert": 0.1847064587
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,

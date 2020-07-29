@@ -6,109 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Alban",
           "y": 9,
-          "Wert": 0.0382347841
+          "Wert": 0.0395946062
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Alban",
           "y": 10,
-          "Wert": 0.344980059
-        },
-        {
-          "name": "Anteil&nbsp;Personen&nbsp;ohne Religionszugehörigkeit",
-          "Wohnviertel": "St. Alban",
-          "y": 16,
-          "Wert": 0.5086700191
+          "Wert": 0.349566263
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Alban",
-          "y": 10,
-          "Wert": 0.2372775244
+          "y": 9,
+          "Wert": 0.2374254429
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Alban",
-          "y": 13,
-          "Wert": 0.4888888889
+          "y": 14,
+          "Wert": 0.4841269841
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Alban",
           "y": 20,
-          "Wert": 0.438564752
+          "Wert": 0.437537358
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Alban",
           "y": 10,
-          "Wert": 0.3256459164
+          "Wert": 0.3245727046
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Alban",
           "y": 16,
-          "Wert": 0.3003165988
+          "Wert": 0.3023012552
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 1939.0912898
+          "Wert": 1939.0907563
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Alban",
           "y": 15,
-          "Wert": 0.3358458961
+          "Wert": 0.3369747899
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Alban",
           "y": 14,
-          "Wert": 0.3251612185
+          "Wert": 0.3233511533
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Alban",
           "y": 18,
-          "Wert": 93.409726538
+          "Wert": 93.094584169
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 48.422274199
+          "Wert": 48.31641286
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 18,
-          "Wert": 5697.8093081
+          "Wert": 5913.7621563
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Alban",
           "y": 17,
-          "Wert": 16688.864751
+          "Wert": 16151.844027
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Alban",
-          "y": 10,
-          "Wert": 0.7285669841
+          "y": 12,
+          "Wert": 0.7434271384
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Alban",
           "y": 19,
-          "Wert": 2.2766626224
-        },
-        {
-          "name": "Arbeitslosenquote",
-          "Wohnviertel": "St. Alban",
-          "y": 7,
-          "Wert": 0.0295674895
+          "Wert": 2.312158591
         }
       ],
       "name": "Wert",
@@ -225,7 +213,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2019",
+    "text": "Ausgabe 2020",
     "align": "left"
   },
   "yAxis": {
@@ -269,7 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
   },
   "legend": {
     "enabled": false,
@@ -278,13 +266,37 @@
   "tooltip": {
     "padding": 0,
     "useHTML": true,
-    "formatter": function() {
-              return "" + 
-              '<div class="tev" style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">'+ 
-                '<span style="font-size: 10px">' + this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + '</span><br/>'+
-                '<span style="color:' + this.point.color + '">\u25CF</span> ' + this.point.Wohnviertel + ': Rang' + ' <b>' + this.point.y + '</b><br/>' + 
-              '</div>';
-          }
+    "formatter": function () {
+
+				//individual units and numberFormat in tooltips, depending on series name
+				var w, d = undefined, e = '', f = 1, t = ' ';
+				switch (this.point.name) {
+					case 'Altersquotient':
+					case 'Jugendquotient':
+						d = 1; f = 100; break;
+					case 'Baujahr&nbsp;Wohngebäude':
+						d = 0; t = ''; break;
+					case 'Fläche&nbsp;pro&nbsp;Wohnung':
+					case 'Wohnfläche&nbsp;pro&nbsp;Kopf':
+						d = 1; e = ' m²'; break;
+					case 'Vermögenssteuer':
+					case 'Einkommenssteuer':
+						d = 0; e = ' Fr.'; break;
+					case 'Arbeitsplätze&nbsp;pro&nbsp;Kopf':
+						d = 2; break;
+					case (this.point.name.match(/anteil|quote/i) || {}).input:
+						d = 1; e = '%'; f = 100; break;
+				}
+				w = Highcharts.numberFormat((this.point.Wert * f), d, ',', t) + e;
+
+				//fix html xAxis labels rendered above tooltip, see http://jsfiddle.net/g2j344z4/19/ 
+				//replace "&nbsp;" by "\u00A0" to control line breaks in SVG without using html
+				return "" +
+					'<div style= "display: block; background-color: #fff; padding:9px; margin-left: 1px; margin-top: 1px;">' +
+					'<span style="font-size: 10px">' + this.point.Wohnviertel + '</span><br/>' +
+					this.key.replace(/&nbsp;/g, "\u00A0").replace(/-/g, "") + ': <b>' + w + ' </b> (Rang <b>' + this.point.y + '</b>)<br/>' +
+					'</div>';
+			}
   },
   "exporting": {
     "allowHTML": false,
