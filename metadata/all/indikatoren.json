@@ -43378,13 +43378,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-16T08:34:22.2222",
+		"aktualisierungsdatum": "2020-08-21T08:37:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "30 190 Übernachtungen wurden im Juni 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 78,2% bzw. 108 358 Logiernächte. Die inländischen Gäste buchten 18 860 Logiernächte (-50,7%), die Gäste aus dem Ausland 11 330 Übernachtungen (-88,7%).",
+		"lesehilfe": "55 522 Übernachtungen wurden im Juli 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 61,6% bzw. 89 084 Logiernächte. Gleichzeitig ist dies jedoch der höchste Wert seit März. Die inländischen Gäste buchten 28 443 Logiernächte (-38,6%), die Gäste aus dem Ausland 27 079 Übernachtungen (-72,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -43408,7 +43408,7 @@
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juni",
+		"subtitle": "Basel-Stadt, Juli",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -43418,13 +43418,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-16T08:48:03.033",
+		"aktualisierungsdatum": "2020-08-21T08:39:44.4444",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 30% und gegenüber dem Vorjahresmonat um rund 55 Prozentpunkte tiefer.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35% und gegenüber dem Vorjahresmonat um rund 44 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -46822,14 +46822,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T08:40:48.4848",
+		"aktualisierungsdatum": "2020-08-20T16:30:24.2424",
 		"stufe1": "3 Bevölkerungsbestand",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten, wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
