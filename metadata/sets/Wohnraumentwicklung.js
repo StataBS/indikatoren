@@ -450,13 +450,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:58:41.4141",
+		"aktualisierungsdatum": "2020-08-27T10:12:00.000",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ stetig gestiegen und liegt 2019 bei 1,0%.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2019 stetig auf 1,0% gestiegen. 2020 ist sie leicht gesunken, beträgt aber gerundet immer noch 1,0%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -464,7 +464,8 @@ var indikatorensetData = [
 		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
-			"5195"
+			"5195",
+			"8909"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -530,13 +531,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
+		"aktualisierungsdatum": "2020-08-27T10:13:23.2323",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -546,7 +547,8 @@ var indikatorensetData = [
 		"children": [
 			"5815",
 			"6027",
-			"6247"
+			"6247",
+			"8919"
 		],
 		"renderLink": [],
 		"quellenangabe": [
