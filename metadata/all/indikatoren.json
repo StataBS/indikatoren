@@ -53975,7 +53975,7 @@
 	},
 	{
 		"title": "Leerwohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
 		"kuerzel": "I.09.2.08275",
 		"kuerzelKunde": "1-35",
 		"description": "Leerwohnungen",
@@ -53985,13 +53985,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-08-27T11:40:17.1717",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 in den Wohnvierteln Rosental und Vorstädte verzeichnet.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2020 im Wohnviertel Vorstädte (2,0%) beobachtet, die tiefste im Hirzbrunnen (0,3%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
