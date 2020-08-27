@@ -1159,6 +1159,23 @@ id | visible | visibleInPortal | indikatorenset
 7523 | true | true | Tourismus
 7551 | true | true | 
 7563 | true | false | 
+7573 | true | true | Leerstand
+7574 | true | true | Leerstand
+7576 | true | true | Leerstand
+7577 | true | true | Leerstand
+7578 | true | true | Leerstand
+7579 | true | true | Leerstand
+7580 | true | true | Leerstand
+7581 | true | true | Leerstand
+7582 | true | true | Leerstand
+7583 | true | true | Leerstand
+7584 | true | true | Leerstand
+7585 | true | true | Leerstand
+7586 | true | true | Leerstand
+7587 | true | true | Leerstand
+7588 | true | true | Leerstand
+7589 | true | true | Leerstand
+7590 | true | true | Leerstand
 7603 | true | true | 
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
@@ -1799,6 +1816,8 @@ id | visible | visibleInPortal | indikatorenset
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9064 | true | true | Leerstand
+9137 | true | true | Leerstand
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
