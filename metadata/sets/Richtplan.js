@@ -137,20 +137,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:52:46.4646",
+		"aktualisierungsdatum": "2020-08-27T10:08:40.4040",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an. In den letzten zwei Jahren verstärkte sich dieser Anstieg.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an. Zwischen 2019 und 2020 sank die Quote leicht, beträgt gerundet aber immer noch 1,0%.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Anteil des Leerwohnungsbestandes am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_005",
+		"orderKey": "02_04_00_00_00_005",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"6245"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -166,7 +168,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
 		"kuerzel": "I.09.2.05814",
 		"kuerzelKunde": "ST 4-6",
 		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
@@ -176,13 +178,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-16T08:52:56.5656",
+		"aktualisierungsdatum": "2020-08-27T10:10:06.066",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2019 im Wohnviertel Rosental verzeichnet. Die Zunahme gegenüber der Quote vor 20 Jahren war im Wohnviertel Vorstädte am grössten. Die grösste Abnahme wies das Wohnviertel Matthäus auf.",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2020 im Wohnviertel Vorstädte verzeichnet. Die Zunahme gegenüber der Quote vor 10 Jahren war im Wohnviertel Altstadt am grössten (von 0,5% auf 1,7%).",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -840,21 +842,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T09:09:04.044",
+		"aktualisierungsdatum": "2020-08-27T10:07:05.055",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
-		"stufe2": "Strategie 7: Raum für die Entwicklung der Wirtschaft",
+		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit rund 61 000 m² über die Hälfte aller leeren Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen errreichte 2011 mit total knapp 170 000 m² den Höchststand in den letzten 20 Jahren.",
+		"lesehilfe": "Die Büroflächen machen mit rund 76 000 m² weit über die Hälfte aller leerstehenden Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen erreichte 2011 mit total 169 000 m² den Höchststand in den letzten 20 Jahren. Im Jahr 2020 beträgt die leerstehende Fläche insgesamt rund 121 000 m².",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_004",
+		"orderKey": "03_07_00_00_00_004",
 		"parentId": null,
 		"children": [
-			"6245",
 			"6262"
 		],
 		"renderLink": [],

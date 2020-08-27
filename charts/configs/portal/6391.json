@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Leerwohnungsquote in %",
+      "name": "Leerwohnungsquote (%)",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,79 +6569,79 @@
       "data": [
         [
           1,
-          1.42
+          1.67
         ],
         [
           2,
-          2.66
+          1.96
         ],
         [
           3,
-          0.91
+          1.06
         ],
         [
           4,
-          1.03
+          0.97
         ],
         [
           5,
-          1.31
-        ],
-        [
-          6,
-          0.94
-        ],
-        [
-          7,
-          0.7
-        ],
-        [
-          8,
-          0.51
-        ],
-        [
-          9,
-          0.65
-        ],
-        [
-          10,
-          0.89
-        ],
-        [
-          11,
-          0.84
-        ],
-        [
-          12,
           1
         ],
         [
+          6,
+          1.14
+        ],
+        [
+          7,
+          0.79
+        ],
+        [
+          8,
+          0.49
+        ],
+        [
+          9,
+          1.08
+        ],
+        [
+          10,
+          0.91
+        ],
+        [
+          11,
+          0.91
+        ],
+        [
+          12,
+          1.12
+        ],
+        [
           13,
-          1.3
+          0.91
         ],
         [
           14,
-          0.58
+          1.02
         ],
         [
           15,
-          0.76
+          0.25
         ],
         [
           16,
-          3.55
+          1.23
         ],
         [
           17,
-          0.62
+          0.78
         ],
         [
           18,
-          0.58
+          0.78
         ],
         [
           19,
-          0.66
+          1.62
         ],
         [
           20,
@@ -6649,7 +6649,7 @@
         ],
         [
           30,
-          0.59
+          0.8
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          21
+          25
         ],
         [
           "Vorstädte",
-          91
+          67
         ],
         [
           "Am Ring",
-          58
+          68
         ],
         [
           "Breite",
-          55
+          52
         ],
         [
           "St. Alban",
-          85
+          65
         ],
         [
           "Gundeldingen",
-          107
+          130
         ],
         [
           "Bruderholz",
-          31
+          35
         ],
         [
           "Bachletten",
-          37
-        ],
-        [
-          "Gotthelf",
-          27
-        ],
-        [
-          "Iselin",
-          87
-        ],
-        [
-          "St. Johann",
-          85
-        ],
-        [
-          "Altstadt Kleinbasel",
-          16
-        ],
-        [
-          "Clara",
-          30
-        ],
-        [
-          "Wettstein",
-          19
-        ],
-        [
-          "Hirzbrunnen",
           36
         ],
         [
+          "Gotthelf",
+          45
+        ],
+        [
+          "Iselin",
+          89
+        ],
+        [
+          "St. Johann",
+          92
+        ],
+        [
+          "Altstadt Kleinbasel",
+          18
+        ],
+        [
+          "Clara",
+          21
+        ],
+        [
+          "Wettstein",
+          34
+        ],
+        [
+          "Hirzbrunnen",
+          12
+        ],
+        [
           "Rosental",
-          143
+          50
         ],
         [
           "Matthäus",
-          55
+          70
         ],
         [
           "Klybeck",
-          22
+          30
         ],
         [
           "Kleinhüningen",
-          9
+          22
         ],
         [
           "Riehen",
-          107
+          108
         ],
         [
           "Bettingen",
-          3
+          4
         ]
       ],
       "name": "Anzahl leerstehende Wohnungen"
@@ -7079,7 +7079,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7095,7 +7095,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
   },
   "colorAxis": {
     "min": 0,
