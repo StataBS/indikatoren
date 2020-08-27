@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:20:56.5656",
+		"aktualisierungsdatum": "2020-08-27T09:12:10.1010",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -52,7 +52,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:20:57.5757",
+		"aktualisierungsdatum": "2020-08-27T09:12:11.1111",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -95,7 +95,7 @@ var indikatorensetData = [
 			"Gemeinde",
 			"Wahlkreis"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:00.000",
+		"aktualisierungsdatum": "2020-08-27T09:12:12.1212",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -136,7 +136,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:01.011",
+		"aktualisierungsdatum": "2020-08-27T09:12:14.1414",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -177,7 +177,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:02.022",
+		"aktualisierungsdatum": "2020-08-27T09:12:15.1515",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:04.044",
+		"aktualisierungsdatum": "2020-08-27T09:12:17.1717",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -259,7 +259,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:05.055",
+		"aktualisierungsdatum": "2020-08-27T09:12:19.1919",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Stadt",
 		"stufe2": "",
 		"stufe3": "",
@@ -300,7 +300,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:06.066",
+		"aktualisierungsdatum": "2020-08-27T09:12:20.2020",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -341,7 +341,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:07.077",
+		"aktualisierungsdatum": "2020-08-27T09:12:22.2222",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -382,7 +382,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:09.099",
+		"aktualisierungsdatum": "2020-08-27T09:12:23.2323",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -423,7 +423,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:10.1010",
+		"aktualisierungsdatum": "2020-08-27T09:12:24.2424",
 		"stufe1": "Wohnungsleerstand im Kanton Basel-Landschaft",
 		"stufe2": "",
 		"stufe3": "",
@@ -464,7 +464,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:11.1111",
+		"aktualisierungsdatum": "2020-08-27T09:12:26.2626",
 		"stufe1": "Wohnungsleerstand im nationalen Kontext",
 		"stufe2": "",
 		"stufe3": "",
@@ -506,7 +506,7 @@ var indikatorensetData = [
 			"Gemeinde",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:12.1212",
+		"aktualisierungsdatum": "2020-08-27T09:12:27.2727",
 		"stufe1": "Wohnungsleerstand im nationalen Kontext",
 		"stufe2": "",
 		"stufe3": "",
@@ -547,7 +547,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:13.1313",
+		"aktualisierungsdatum": "2020-08-27T09:12:28.2828",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -588,7 +588,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:15.1515",
+		"aktualisierungsdatum": "2020-08-27T09:12:30.3030",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -629,7 +629,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:16.1616",
+		"aktualisierungsdatum": "2020-08-27T09:12:31.3131",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -670,7 +670,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:17.1717",
+		"aktualisierungsdatum": "2020-08-27T09:12:32.3232",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -711,7 +711,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:21:18.1818",
+		"aktualisierungsdatum": "2020-08-27T09:12:34.3434",
 		"stufe1": "Geschäftsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",
@@ -752,7 +752,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-26T18:20:59.5959",
+		"aktualisierungsdatum": "2020-08-27T09:12:35.3535",
 		"stufe1": "Wohnungsleerstand in den beiden Basel",
 		"stufe2": "",
 		"stufe3": "",

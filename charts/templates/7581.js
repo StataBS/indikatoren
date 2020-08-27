@@ -42,16 +42,18 @@
 			dataLabels: {
 				enabled: true,
 				formatter: function () {
-					return this.point.name.replace(".", ",");
+					return this.point.name.replace(".", ",").replace("4 Zimmer (", "4 Zimmer<br>(");
 
 				},
 				distance: 15,
 				connectorWidth: 1,
+				overflow: "allow",
+				crop: false,
 				style: {
 					color: 'black',
 					textOutline: "0px black",
 					fontWeight: "normal",
-					fontSize: "12px"
+					fontSize: "12px",
 				}
 			}
 		}],
