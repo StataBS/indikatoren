@@ -1,0 +1,164 @@
+{
+  "series": [
+    {
+      "type": "pie",
+      "innerSize": "40%",
+      "borderWidth": 0,
+      "colors": [
+        "#661200",
+        "#B00000",
+        "#DC440E",
+        "#A8C3CA",
+        "#689199",
+        "#246370"
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+					return this.point.name.replace(".", ",");
+
+				},
+        "distance": 15,
+        "connectorWidth": 1,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "12px"
+        }
+      },
+      "data": [
+        [
+          "1 Zimmer (1.6%)",
+          188
+        ],
+        [
+          "2 Zimmer (1.2%)",
+          313
+        ],
+        [
+          "3 Zimmer (0.9%)",
+          392
+        ],
+        [
+          "4 Zimmer (0.7%)",
+          129
+        ],
+        [
+          "5 Zimmer (0.4%)",
+          28
+        ],
+        [
+          "6 Zimmer (0.4%)",
+          23
+        ]
+      ],
+      "name": "Leerwohnungen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-7577"
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      },
+      "size": 250
+    },
+    "series": {
+      "allowPointSelect": false,
+      "point": {
+        "events": {
+          "legendItemClick": function (event) {
+							event.preventDefault();
+
+						}
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Leerwohnungen nach Zimmerzahl"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt, 2020",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+  },
+  "legend": {
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "symbolRadius": 0,
+    "enabled": false
+  },
+  "exporting": {
+    "filename": 7577
+  }
+}

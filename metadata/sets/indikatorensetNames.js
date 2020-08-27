@@ -18,6 +18,7 @@ var indikatorensetNames = [
 	"Steuern",
 	"Arbeitsmarkt (Print)",
 	"Monatsindikatoren",
+	"Leerstand",
 	"Stadtteilmonitoring Rosental",
 	"Testset",
 	"Bevoelkerungsszenarien",
