@@ -663,7 +663,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

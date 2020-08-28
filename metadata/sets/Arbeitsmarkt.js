@@ -3385,7 +3385,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-08-27T14:00:30.3030",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -3426,7 +3426,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-08-27T14:01:19.1919",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -3468,7 +3468,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-08-27T14:04:32.3232",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -3550,7 +3550,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-27T14:03:28.2828",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
@@ -3592,7 +3592,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-27T14:08:45.4545",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
@@ -3633,7 +3633,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-27T13:59:40.4040",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
@@ -3674,7 +3674,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-27T14:02:03.033",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
@@ -3716,7 +3716,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-27T14:06:16.1616",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.7 Lagerei und Zustelldienste",
 		"stufe3": "",
