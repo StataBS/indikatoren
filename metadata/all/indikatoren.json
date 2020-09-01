@@ -1611,13 +1611,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T13:00:22.2222",
+		"aktualisierungsdatum": "2020-08-31T12:32:20.2020",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland nahm von 21 im Jahr 2017 auf 27 Ansiedlungen im Jahr 2018 zu. Ein Drittel davon war aus Deutschland. Die Mehrheit der neu angesiedelten Firmen sind im Bereich Life Sciences oder in der Chemiebranche tätig.",
+		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland war im Jahr 2019 mit 26 Firmen ähnlich hoch wie im Jahr 2018 (27 Ansiedlungen). Dazu gab es im Jahr 2019 vier Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2018 waren es 7).",
 		"erlaeuterungen": "Durch BaselArea unterstützte Ansiedlungen von Unternehmen aus dem Ausland in den Kantonen Basel-Stadt, Basel-Landschaft und Jura. BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -9405,13 +9405,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-10-09T09:55:13.1313",
+		"aktualisierungsdatum": "2020-08-31T17:31:04.044",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2017 um 35% auf 89 900 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+30%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2017 rund 767 800 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
+		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2019 um 64% auf 49 294 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+59%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2019 rund 779 708 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
 		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -9425,9 +9425,13 @@
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 4948,
+		"chart-id": 4948,
+		"filter": "",
 		"id": 4948
 	},
 	{
@@ -10574,19 +10578,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:10:16.1616",
+		"aktualisierungsdatum": "2020-08-31T15:41:50.5050",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 zogen 14 069 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 381 Personen verliessen den Kanton im Jahr 2018. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2009 und 2018 stets positiv aus.",
+		"lesehilfe": "2019 zogen 14 013 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 12 799 Personen verliessen den Kanton im Jahr 2019. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2010 und 2019 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_110",
+		"orderKey": "01_01_00_00_00_108",
 		"parentId": 6011,
 		"children": [],
 		"renderLink": [],
@@ -10698,13 +10702,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:53:35.3535",
+		"aktualisierungsdatum": "2020-08-31T15:41:53.5353",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2018 beträgt die Quote 2,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 8 636 Franken pro Kopf.",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
 		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -13174,13 +13178,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-01-30T09:14:58.5858",
+		"aktualisierungsdatum": "2020-08-31T15:41:56.5656",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -13198,7 +13202,7 @@
 		"externalLinks": [
 			""
 		],
-		"data-id": 4140,
+		"data-id": 6027,
 		"chart-id": 4140,
 		"filter": "",
 		"id": 6027
@@ -13298,13 +13302,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
+		"aktualisierungsdatum": "2020-08-31T15:41:58.5858",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2018 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2019 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,08 mg/l.",
 		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -13460,7 +13464,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:17:25.2525",
+		"aktualisierungsdatum": "2020-08-31T15:42:01.011",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Friedliches Zusammenleben",
 		"stufe3": "",
@@ -13492,7 +13496,7 @@
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.18.2.6036",
-		"kuerzelKunde": "GZ3",
+		"kuerzelKunde": "GZ4",
 		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
@@ -13500,9 +13504,9 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T14:54:08.088",
+		"aktualisierungsdatum": "2020-08-31T15:42:03.033",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
-		"stufe2": "Chancengerechtigkeit",
+		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -13512,9 +13516,11 @@
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_503",
+		"orderKey": "05_02_00_00_00_504",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8927"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -14194,14 +14200,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T16:50:25.2525",
+		"aktualisierungsdatum": "2020-08-31T15:42:06.066",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
-		"stufe2": "Erwerbsarbeit",
+		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -15721,13 +15727,13 @@
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:44.4444",
+		"aktualisierungsdatum": "2020-08-31T12:32:21.2121",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator der UBS mit einem Wert von 90,6 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9.",
+		"lesehilfe": "Im Jahr 2019 liegt Basel-Stadt beim Kantonalen Wettbewerbsindikator (KWI) der UBS mit einem Wert von 90,6 auf Rang 2 aller Schweizer Kantone. Der Nachbarkanton Basel-Landschaft belegt Rang 9. Die nächste Aktualisierung des KWI durch die UBS wird voraussichtlich 2021 stattfinden.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -15736,7 +15742,6 @@
 		"orderKey": "01_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6050",
 			"6283"
 		],
 		"renderLink": [],
@@ -15764,13 +15769,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:46:26.2626",
+		"aktualisierungsdatum": "2020-08-31T12:32:23.2323",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt im Jahr 2019 in den Bereichen Innovation, Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule.",
+		"lesehilfe": "Basel-Stadt liegt im Jahr 2019 in den Bereichen Innovation, Humankapital und Erreichbarkeit an der Spitze aller Kantone. Die Werte des hier dargestellten Mediankantons entsprechen dem Medianwert aller Kantone der jeweiligen Säule. Der KWI wird voraussichtlich 2021 wieder aktualisiert.",
 		"erlaeuterungen": "Der Kantonale Wettbewerbsindikator (KWI) gibt Aufschluss über das relative längerfristige Wachstumspotenzial eines Kantons. Die Wettbewerbsfähigkeit eines Kantons beschreibt sein Potenzial für eine nachhaltige Steigerung seiner Wirtschaftsleistung. Kantone mit einer hohen relativen Wettbewerbsfähigkeit dürften längerfristig stärker wachsen als die Schweizer Gesamtwirtschaft. Hingegen ist in Kantonen mit einer tiefen relativen Wettbewerbsfähigkeit mit einem unterdurchschnittlichen Wachstum zu rechnen. Der KWI basiert auf der vergleichenden Analyse von acht Säulen mit insgesamt über 50 Variablen. Die Variablen werden gewichtet, aggregiert und normiert, sodass jeder Kanton für jede Säule eine Punktzahl zwischen 0 und 100 erhält. Zur Ermittlung des KWI wird für jeden Kanton der Durchschnitt aus den Punktzahlen der acht Säulen errechnet und so normiert, dass der höchste kantonale Durchschnittswert 100 beträgt. Der Mediankanton ist ein Referenzkanton, der aus den Medianwerten der jeweiligen Wettbewerbssäulen zusammengesetzt ist. Der Medianwert der jeweiligen Säule unterteilt die Rangliste der Kantone in eine obere und eine untere Hälfte mit je 13 Kantonen. Für die Interpretation der kantonalen Wettbewerbsprofile gilt: Je höher der Wert für einen Kanton in einer Säule ist, desto besser ist seine relative Bewertung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -15779,7 +15784,9 @@
 		"orderKey": "01_00_00_00_00_003",
 		"parentId": null,
 		"children": [
-			"6284"
+			"6050",
+			"6284",
+			"8939"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -15890,13 +15897,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:44.4444",
+		"aktualisierungsdatum": "2020-08-31T12:32:24.2424",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
+		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich niedriger und beträgt 6 407 Franken.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -16049,7 +16056,7 @@
 	},
 	{
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
 		"kuerzel": "I.18.2.6134",
 		"kuerzelKunde": "2.12a",
 		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
@@ -16059,14 +16066,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:44.4444",
+		"aktualisierungsdatum": "2020-08-31T12:32:25.2525",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 6 309 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2018.",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2019 im ausgewählten Modellfall 5 808 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeindesteuern) in Franken für verheiratete Doppelverdiener (50/50) mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2019.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -17622,23 +17629,24 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-11T10:24:22.2222",
-		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
+		"aktualisierungsdatum": "2020-08-31T12:32:26.2626",
+		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Minderjährige weisen mit 11,9% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,9%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Jahr 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige angestiegen. Bei den  jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
+		"lesehilfe": "Minderjährige weisen mit 11,9% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,9%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Jahr 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige gestiegen. Bei den jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Unter Sozialhilfebeziehenden sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nach Alter nur die Zahlen der Stadt Basel  ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "11_00_00_00_00_003",
+		"orderKey": "_003",
 		"parentId": null,
 		"children": [
 			"5184",
-			"6328"
+			"6328",
+			"8901"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -18093,13 +18101,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T10:47:06.066",
+		"aktualisierungsdatum": "2020-08-31T12:32:27.2727",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit einigen Jahren rückläufig. Der Rückgang ist dabei mit Ausnahme von 2018 einzig auf die abnehmende Zahl der Schweizerinnen und Schweizer zurückzuführen.",
+		"lesehilfe": "Die Gesamtzahl der Lernenden ist seit einigen Jahren rückläufig. Der Rückgang ist dabei mit Ausnahme von 2018 auf die abnehmende Zahl der Schweizerinnen und Schweizer zurückzuführen.",
 		"erlaeuterungen": "Dargestellt werden die Lernenden der Ausbildungsgänge EFZ (Eidgenössisches Fähigkeitszeugnis) und EBA (Eidgenössisches Berufsattest) der vier grossen Basler Berufsfachschulen Allgemeine Gewerbeschule (AGS), Berufsfachschule (BFS), Schule für Gestaltung (SfG) sowie Handelsschule KV (HKV).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -18177,13 +18185,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-08T09:25:45.4545",
+		"aktualisierungsdatum": "2020-08-31T12:32:29.2929",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2018 beträgt die Quote 2,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 8 636 Franken pro Kopf.",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
 		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -18193,7 +18201,8 @@
 		"parentId": null,
 		"children": [
 			"5160",
-			"6339"
+			"6339",
+			"8890"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25117,7 +25126,7 @@
 	},
 	{
 		"title": "Sozialhilfequote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2019",
 		"kuerzel": "I.13.3.6428",
 		"kuerzelKunde": "C4-3",
 		"description": "Sozialhilfequote der Ausländer",
@@ -25127,23 +25136,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T17:35:06.066",
+		"aktualisierungsdatum": "2020-08-31T16:08:44.4444",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 23,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Auch bei den ausländischen Frauen liegt die Sozialhilfequote in dieser Altersgruppe mit 18,0% am höchsten.",
-		"erlaeuterungen": "Unter Sozialhilfebezügern sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 20,6% das höchste Sozialhilferisiko aller dargestellten Gruppen. Bei den ausländischen Frauen liegt die Sozialhilfequote bei den unter 5-Jährigen mit 17,9% am höchsten.",
+		"erlaeuterungen": "Unter Sozialhilfebeziehenden sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten. Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Seit 2017 können kantonale Werte ausgewiesen werden.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_022",
+		"orderKey": "03_00_00_00_00_403",
 		"parentId": null,
 		"children": [
-			"6703",
-			"7844"
+			"6703"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -25255,19 +25263,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:54:01.011",
+		"aktualisierungsdatum": "2020-08-31T16:08:46.4646",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 11,6% weist die Türkei 2018 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,5% und Italien sowie der Schweiz mit jeweils 7,9%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurden 2009 zahlreiche Personen neu als Schweizer geführt, deren Einbürgerung bereits in den Vorjahren vollzogen wurde.",
+		"lesehilfe": "Zwischen 2009 und 2018 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 11,7% weist die Türkei 2019 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,5% sowie der Schweiz mit 7,9%. Gegenüber dem Vorjahr ist die IV-Quote der Personen mit türkischer und portugiesischer Staatsbürgerschaft um 0,1 resp. 0,2 Prozentpunkte gestiegen, während sie bei den übrigen vier Ländern gesunken oder stabil geblieben ist.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, seit 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_025",
+		"orderKey": "03_00_00_00_00_502",
 		"parentId": null,
 		"children": [
 			"6706"
@@ -26692,23 +26700,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:29:23.2323",
+		"aktualisierungsdatum": "2020-08-31T16:08:49.4949",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Pro 1000 Personen liessen sich 2018 30,8  Personen aus Mittel- und Südamerika ordentlich oder erleichtert einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2018 auch Personen aus arabischen Ländern (30,4), aus dem Balkan (21,8), aus der Türkei (19,2) und aus Deutschland (17,7). Auffällig sind die sehr hohen Einbürgerungsziffern der Personen aus dem Balkan im Jahr 2008. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten und den Schweizer Pass beantragten.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Die Einbürgerungsziffer wird als Anzahl Einbürgerungen (ordentliche und erleichterte) pro 1000 Ausländer am Jahresende berechnet.",
+		"lesehilfe": "Pro 1000 Personen liessen sich 2019 34,8  Personen aus der Türkei einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2019 auch Personen aus dem Balkan (29,3), aus Mittel- und Südamerika (25,7) und aus Deutschland (21,9). Auffällig ist die sehr hohe Einbürgerungsziffer der Personen aus dem Balkan im Jahr 2009. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten, und den Schweizer Pass beantragten.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_007",
+		"orderKey": "04_00_00_00_00_301",
 		"parentId": null,
 		"children": [
-			"6720",
-			"7861"
+			"6720"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27122,23 +27129,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T17:09:54.5454",
+		"aktualisierungsdatum": "2020-08-31T16:08:51.5151",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2011 bis 2018 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 52. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung sank ebenfalls von 16 auf 6 Personen.",
+		"lesehilfe": "Von 2011 bis 2019 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten ausländischen Jugendlichen zwischen 10 und 17 Jahren mit einer C-Bewilligung von 57 auf 49. Die Anzahl beschuldigter ausländischer Jugendlicher mit einer B-Bewilligung stieg dagegen von 16 auf 21 Personen.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (zwischen 10 und 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_017",
+		"orderKey": "04_00_00_00_00_504",
 		"parentId": null,
 		"children": [
-			"6730",
-			"7871"
+			"6730"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27911,7 +27917,7 @@
 	},
 	{
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
 		"kuerzel": "I.15.6.6514",
 		"kuerzelKunde": "B5-1",
 		"description": "Anzahl Gutscheine für Gratis-Deutschkurse",
@@ -27921,19 +27927,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T11:12:54.5454",
+		"aktualisierungsdatum": "2020-08-31T16:08:54.5454",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden 3 051 Gutscheine ausgestellt und 1 566 eingelöst. Am meisten Gutscheine (890) wurden für Personen aus den EU-17- und EFTA-Ländern ausgestellt. Mit 79,6% erreichten Personen vom Balkan die höchste Einlösequote. Am tiefsten war diese Quote 2018 bei Personen aus den übrigen Ländern (43,0%).",
+		"lesehilfe": "Im Jahr 2019 wurden 3 115 Gutscheine ausgestellt und 1 552 eingelöst. Am meisten Gutscheine (890) wurden für Personen aus den EU-17- und EFTA-Ländern ausgestellt. Mit 86,5% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2019 bei Personen aus den EU-Oststaaten (36,6%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
+		"orderKey": "02_00_00_00_00_501",
 		"parentId": null,
 		"children": [
 			"6746"
@@ -27954,7 +27960,7 @@
 	},
 	{
 		"title": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
-		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Stadt Basel, 2019",
 		"kuerzel": "I.15.6.06515",
 		"kuerzelKunde": "B6-1",
 		"description": "Anteil Kinder mit Verpflichtung zur Frühdeutschförderung",
@@ -27964,23 +27970,22 @@
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2019-09-27T13:01:49.4949",
+		"aktualisierungsdatum": "2020-08-31T16:08:57.5757",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den Kindern, die vom Alter her im August 2019 den Kindergarten starten, sind 40% zu einer frühen Deutschförderung verpflichtet worden. 96% der Kinder aus arabischen Ländern und 90% der Kinder aus dem Balkan fallen ins Obligatorium. Bei Kindern mit türkischer Staatsangehörigkeit sind es 85%. Während der Anteil verpflichteter Kinder mit deutscher Staatsangehörigkeit bei 14% liegt, beträgt er bei jenen mit Schweizer Pass 24%.",
-		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, in dem sie deren Deutschkenntnisse einschätzen sollen. Der Zu- bzw. Wegzug von Familien nach dem ersten Versand im Januar 2018 ist in den Daten ebenfalls berücksichtigt. Stichtag ist der 7.5.2019.",
+		"lesehilfe": "Von den Kindern, die vom Alter her im August 2020 den Kindergarten starten, sind 41% zu einer frühen Deutschförderung verpflichtet worden. 91% der in der Stadt Basel wohnhaften Kinder aus dem Balkan und 85% der Kinder aus arabischen Ländern fallen ins Obligatorium. Bei Kindern mit türkischer Staatsangehörigkeit sind es 75%. Während der Anteil verpflichteter Kinder mit deutscher Staatsangehörigkeit bei 14% liegt, beträgt er bei jenen mit Schweizer Pass 26%.",
+		"erlaeuterungen": "Seit 2013 werden Kinder in Basel-Stadt vor dem Kindergarteneintritt zum Besuch von Spielgruppen oder Tagesheimen verpflichtet, falls sie über keine oder ungenügende Deutschkenntnisse verfügen. Familien erhalten dafür eineinhalb Jahre vor dem Eintritt in die obligatorische Schulzeit ihrer Kinder einen Fragebogen, in dem sie deren Deutschkenntnisse einschätzen sollen. Stichtag ist der 9.6.2020.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
+		"orderKey": "02_00_00_00_00_601",
 		"parentId": null,
 		"children": [
-			"6747",
-			"7888"
+			"6747"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -38680,14 +38685,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-06-03T10:38:59.5959",
+		"aktualisierungsdatum": "2020-08-31T17:31:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer in Basler Spitälern beträgt 2018 rund 9,5 Tage und damit über 1 Tag weniger als 5 Jahre zuvor. Über den gesamten Beobachtungszeitraum weisen psychiatrische Fälle im Schnitt die längste stationäre Aufenthaltsdauer auf (2018: 37,4 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen kann (2018: 6,6 Tage). Der deutlichste Rückgang von 2012 bis 2018 betrifft den Hauptbereich Geriatrie, wo der durchschnittliche Spitalaufenthalt 2018 16,6 Tage beträgt, nachdem dieser Wert 2012 noch bei 22,1 Tagen lag.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien).",
+		"lesehilfe": "Über den gesamten Beobachtungszeitraum wiesen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2019: 38,7 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen konnte (2019: 6,5 Tage). Den deutlichsten Rückgang zwischen 2012 und 2019 verzeichnet der Hauptbereich Geriatrie. Hier lag der durchschnittliche Spitalaufenthalt 2019 bei 14,4 Tagen; 2012 betrug er noch 22,1 Tage.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -38831,7 +38836,7 @@
 	},
 	{
 		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2018",
+		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2019",
 		"kuerzel": "I.14.1.06997",
 		"kuerzelKunde": "",
 		"description": "Stationär behandelte Patienten",
@@ -38841,13 +38846,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:34.3434",
+		"aktualisierungsdatum": "2020-08-31T17:30:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt werden im Jahr 2018 in Basler Spitälern mit gut 34&nbsp;838 Personen mehr Patientinnen als Patienten (28&nbsp;686) stationär behandelt. Nach Alter aufgeschlüsselt ergeben sich für die beiden Geschlechter unterschiedliche Verteilungen: Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden  in den Altersjahren zwischen 52 und 74 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
+		"lesehilfe": "Insgesamt wurden im Jahr 2019 in Basler Spitälern mit gut 35&nbsp;019 Personen mehr Patientinnen als Patienten (28&nbsp;978) stationär behandelt. Nach Alter aufgeschlüsselt ergeben sich für die beiden Geschlechter unterschiedliche Verteilungen: Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 52 und 74 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -38871,7 +38876,7 @@
 	},
 	{
 		"title": "Neugeborene nach Alter der Mutter",
-		"subtitle": "in baselstädtischen Spitälern, nach Alter der Mutter, 2018",
+		"subtitle": "in baselstädtischen Spitälern, nach Alter der Mutter, 2019",
 		"kuerzel": "I.14.1.06998",
 		"kuerzelKunde": "",
 		"description": "Neugeborene nach Alter der Mutter",
@@ -38881,13 +38886,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:34.3434",
+		"aktualisierungsdatum": "2020-08-31T17:30:56.5656",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 haben die 32-jährigen Mütter die meisten Babys zur Welt gebracht (365), gefolgt von den 34-jährigen Müttern (360). Der Altersdurchschnitt lag bei 32,3 Jahren.",
+		"lesehilfe": "Im Jahr 2019 haben die 33-jährigen Mütter die meisten Babys zur Welt gebracht (387), gefolgt von den 34-jährigen Müttern (372). Der Altersdurchschnitt lag bei 32,6 Jahren.",
 		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -44637,14 +44642,14 @@
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-01-28T16:07:09.099",
+		"aktualisierungsdatum": "2020-08-31T17:17:35.3535",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2018 bei 12,8, im Bezirk Erlenmatt bei 11,3. Während der Altersquotient im Messe-Bezirk im Vergleich zum Jahr 2000 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient seit dem Jahr 2000 (33,9) gesunken, 2018 lag er bei 30,4.",
-		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2019 bei 13,4, im Bezirk Erlenmatt bei 9,3. Während der Altersquotient im Messe-Bezirk im Vergleich zum Jahr 2000 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient seit dem Jahr 2000 (33,9) gesunken, 2019 lag er bei 30,5.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -44763,13 +44768,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-08-31T17:17:38.3838",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2018 bei 20,4 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2019 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -44806,13 +44811,13 @@
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-08-31T17:17:41.4141",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2018 machen Einpersonenhaushalte 46% aus, 38% sind Familienhaushalte. 16% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur, beispielsweise war der Anteil Einpersonenhaushalte 2010 mit 50% besonders hoch.",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2019 machen Einpersonenhaushalte 46% aus, 38% sind Familienhaushalte. 16% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur, beispielsweise war der Anteil Einpersonenhaushalte 2010 mit 50% besonders hoch.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -44848,13 +44853,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-08-31T17:17:43.4343",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2014 bis 2018 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste (Jahre 2014, 2017, 2018) mit leichten Gewinnen ab (Jahre 2016 und 2017).",
+		"lesehilfe": "In den Jahren 2014 bis 2019 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste (Jahre 2014, 2017, 2018) mit leichten Gewinnen ab (Jahre 2015, 2016, 2019).",
 		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -45100,13 +45105,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-08-31T17:17:46.4646",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Durch die Überbauungen auf dem Entwicklungsareal Erlenmatt konnte das Wohnviertel Rosental 2015 und 2018 einen grossen Zuwachs an Wohnungen verzeichnen.",
+		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Der gesamtkantonale Anteil von ihnen beträgt 24%.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -45142,13 +45147,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-09T16:43:52.5252",
+		"aktualisierungsdatum": "2020-08-31T17:17:48.4848",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental sind 2018 2 905 Mietwohnungen, 165 selbstbewohnte Eigentümerwonungen und 110 Genossensschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"lesehilfe": "2019 sind im Wohnviertel Rosental 3 248 Mietwohnungen, 165 selbstbewohnte Eigentümerwohnungen und 116 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -45425,24 +45430,24 @@
 		"id": 7686
 	},
 	{
-		"title": "Anteil Genossenschaften an Neubauten",
+		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel Rosental",
 		"kuerzel": "I.09.1.07687",
 		"kuerzelKunde": "4.10",
-		"description": "Anteil Genossenschaften an Neubauten",
+		"description": "Genossenschaftswohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-08-31T17:17:51.5151",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen gut 10,0% beträgt, sind es im Wohnviertel Rosental zwischen 2,0 und 3,4%.",
+		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen gut 10% beträgt, sind es im Wohnviertel Rosental zwischen 2,0 und 3,4%.",
 		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -45467,24 +45472,24 @@
 		"id": 7687
 	},
 	{
-		"title": "Anteil an der Gesamtbeschäftigung Basel-Stadt",
+		"title": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
 		"kuerzel": "I.03.2.07688",
 		"kuerzelKunde": "3.01",
-		"description": "Anteil an der Gesamtbeschäftigung Basel-Stadt",
+		"description": "Anteil an der Gesamtbeschäftigung der Stadt Basel",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-08-31T17:17:53.5353",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 sind im Kanton Basel-Stadt 190 966 Beschäftigte tätig. Davon arbeiten 3 930 im Bezirk Messe und 1 309 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,7%. Insgesamt entfallen somit 2,8% der Beschäftigung des Kantons Basel-Stadt auf das Wohnviertel Rosental.",
+		"lesehilfe": "Im Jahr 2017 sind in der Stadt Basel 185 605 Beschäftigte tätig. Davon arbeiten 3 930 im Bezirk Messe und 1 309 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,7%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -45774,13 +45779,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-08-31T17:17:56.5656",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
+		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 und 2019 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass, rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -45848,7 +45853,7 @@
 	},
 	{
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2013-2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2018",
 		"kuerzel": "I.15.6.07697",
 		"kuerzelKunde": "5.03",
 		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
@@ -45858,14 +45863,14 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-08-31T17:17:59.5959",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2013 bis 2017 im Mittel 33,7 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2014 bis 2018 im Mittel 33,7 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -45889,25 +45894,25 @@
 		"id": 7697
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Rosental",
 		"kuerzel": "I.13.2.07698",
 		"kuerzelKunde": "5.05",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T13:36:19.1919",
+		"aktualisierungsdatum": "2020-08-31T17:18:01.011",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2018 Familienmietzinsbeiträge (Kanton: 2,3%). In 17,4% der Haushalte bezieht mindestens eine Person reine Prämienverbilligung (Kanton: 15,0%).",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2019 Familienmietzinsbeiträge (Kanton: 2,3%). In 19,3% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 16,4%).",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -45932,25 +45937,25 @@
 		"id": 7698
 	},
 	{
-		"title": "Bodenbedeckung nach Nutzungsarten",
+		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
 		"kuerzel": "I.02.1.07699",
 		"kuerzelKunde": "7.01",
-		"description": "Bodenbedeckung nach Nutzungsarten",
+		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-08-31T17:18:04.044",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2018: 45,8%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: die «übrigen befestigen Flächen» haben sich verringert (2008: 59,3%; 2018: 34,2%) und die Grünflächen zugenommen (2008: 2,8%; 2018: 21,6%).",
-		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2019: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: die «übrigen befestigen Flächen» haben sich verringert (2008: 59,3%; 2019: 29,2%) und die Grünflächen zugenommen (2008: 2,8%; 2019: 22,9%).",
+		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -45985,13 +45990,13 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
+		"aktualisierungsdatum": "2020-08-31T17:18:06.066",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2018 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2019 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -46274,7 +46279,7 @@
 	},
 	{
 		"title": "Freiraumfläche",
-		"subtitle": "in m<sup>2</sup> und Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
 		"kuerzel": "I.02.1.07709",
 		"kuerzelKunde": "7.03",
 		"description": "Freiraumfläche",
@@ -46284,14 +46289,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
+		"aktualisierungsdatum": "2020-08-31T17:18:09.099",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2018 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6%.",
-		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2019 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6%.",
+		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -46368,14 +46373,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-08-31T17:18:11.1111",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 19 auf 51 gestiegen. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 6 Delikte pro Jahr). Seit 2015 werden dort zwischen 4 und 13 Delikte registriert.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle in Wohngebieten (Raumeinheiten mit Wohnungen) sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 19 auf 51 gestiegen. Seither ist die Deliktzahl wieder zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 6 Delikte pro Jahr). Seit 2015 werden dort zwischen 4 und 37 Delikte registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -46410,14 +46415,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-08-31T17:18:14.1414",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2017 insgesamt 46 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 13.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle in Wohngebieten (Raumeinheiten mit Wohnungen).",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2019 insgesamt 23 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -47623,13 +47628,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
+		"aktualisierungsdatum": "2020-08-31T17:18:16.1616",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2018 für jedes Jahr negative Umzugssaldi auf; d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt sind die Umzugssaldi seit 2015 positiv. Besonders hoch ist der Umzugsgewinn im Jahr 2015 (+496). Dies ist auf die Fertigstellung diverser Wohngebäude zurückzuführen.",
+		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2019 für jedes Jahr negative Umzugssaldi auf; d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt sind die Umzugssaldi seit 2015 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies ist auf die Fertigstellung neuer Wohngebäude zurückzuführen.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -50957,14 +50962,14 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2020-08-31T17:22:40.4040",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2018: 46% gegenüber 41%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2018: 50% gegenüber 42%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2018 bei 48%, Familienhaushalte machen 39% aus. Andere Haushaltsformen sind mit 13% vertreten.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2019: 47% gegenüber 42%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2018: 49% gegenüber 42%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2019 bei 48%, Familienhaushalte machen 39% aus. Andere Haushaltsformen sind mit 13% vertreten.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -51209,13 +51214,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-20T11:28:52.5252",
+		"aktualisierungsdatum": "2020-08-31T17:22:37.3737",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2016 ergab sich für Klybeck rechnerisch ein Verlust von rund 74 000 Franken (bei 156 Weg- und 137 Zuzügern), in Kleinhüningen von ca. 140 000 Franken (bei 64 Weg- und 49 Zuzügern).",
+		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2017 ergab sich für Klybeck rechnerisch ein Gewinn von rund 8 600 Franken (bei 158 Weg- und 145 Zuzügern), in Kleinhüningen ein Verlust von ca. 8 200 Franken (bei 59 Weg- und 53 Zuzügern).",
 		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -52040,25 +52045,25 @@
 		"id": 8078
 	},
 	{
-		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
+		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kuerzel": "I.13.2.07698",
 		"kuerzelKunde": "5.05",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2020-08-31T17:22:35.3535",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "25,0% der Haushalte in Klybeck und 23,3% der Haushalte in Kleinhüningen beziehen Ende 2018 reine Prämienverbilligungen (PV) und 4,8% resp. 5,1% Familienmietzinsbeiträge (FAMI; 2011: 21,5% resp. 2,4%). Die PV-Quote der Stadt Basel liegt bei 15,2%, die FAMI-Quote bei 2,4%.",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligung: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"lesehilfe": "26,9% der Haushalte in Klybeck und 25,0% der Haushalte in Kleinhüningen beziehen Ende 2019 reine Prämienverbilligungen (PV) und 4,3% resp. 4,6% Familienmietzinsbeiträge. Die PV-Quote des Kantons Basel-Stadt liegt bei 16,4%, die FAMI-Quote bei 2,3%.",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -52479,14 +52484,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2020-08-31T17:22:32.3232",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck schwankte die Zahl der Delikte in den Jahren 2009 bis 2017 zwischen 42 (2015) und 61 (2010). In Kleinhüningen bewegte sich die Zahl der Delikte im untersuchten Zeitraum zwischen 16 (2009) und 38 (2017). In der Stadt Basel war die Zahl der Delikte im Jahr 2010 (1 179) am niedrigsten und im Jahr 2012 (2 011) am höchsten.",
-		"erlaeuterungen": "Berücksichtigt sind folgende Deliktkategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle in Wohngebieten (Raumeinheiten mit Wohnungen) sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
+		"lesehilfe": "Im Wohnviertel Klybeck schwankte die Zahl der Delikte in den Jahren 2009 bis 2019 zwischen 39 (2018) und 61 (2010). In Kleinhüningen bewegte sich die Zahl der Delikte im untersuchten Zeitraum zwischen 16 (2009) und 43 (2018). In der Stadt Basel war die Zahl der Delikte im Jahr 2010 (1 179) am niedrigsten und im Jahr 2012 (2 011) am höchsten.",
+		"erlaeuterungen": "Berücksichtigt sind folgende Deliktkategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -52521,14 +52526,14 @@
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2020-08-31T17:22:30.3030",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es im Jahr 2017 insgesamt 54 Einbruch- oder Einschleichdiebstähle, in Kleinhüningen 36. In der Stadt Basel waren es 2017 insgesamt 1 582 Einbruch- oder Einschleichdiebstähle.",
-		"erlaeuterungen": "Anzahl Einbruch- und Einschleichdiebstähle in Wohngebieten (Raumeinheiten mit Wohnungen).",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es im Jahr 2019 insgesamt 52 Einbruch- oder Einschleichdiebstähle, in Kleinhüningen 12. In der Stadt Basel waren es 2019 insgesamt 1 144 Einbruch- oder Einschleichdiebstähle.",
+		"erlaeuterungen": "Anzahl Einbruch- und Einschleichdiebstähle.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -57041,14 +57046,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:23:56.5656",
+		"aktualisierungsdatum": "2020-08-31T15:42:08.088",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Abhängigkeitsquotient liegt 2018 bei 56,9. Dies bedeutet, dass 100 Personen im erwerbsfähigen Alter rund 57 Rentner und Kinder zu finanzieren haben. Er hat seit 2009 leicht abgenommen, da die Zahl der 20- bis 64-jährigen stärker zugenommen hat als das Total der unter 20-jährigen und der über 64-jährigen.",
-		"erlaeuterungen": "Der Abhängigkeitsquotient ergibt sich aus der Anzahl unter 20-jähriger plus der Anzahl über 64-jähriger pro 100 20- bis 64-jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "Der Abhängigkeitsquotient liegt 2019 bei 56,9. Er hat seit 2010 leicht abgenommen, da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -57801,7 +57806,7 @@
 	},
 	{
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2019",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
 		"kuerzel": "I.01.9.08448",
 		"kuerzelKunde": "BE9",
 		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
@@ -57811,14 +57816,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-14T12:34:05.055",
+		"aktualisierungsdatum": "2020-08-31T15:42:11.1111",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 200 000 am Ende des Jahres 2018 um 10% auf rund 221 000 Einwohner",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2019. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz.",
+		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten, wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -65191,7 +65196,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-08-31T13:26:18.1818",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -65202,7 +65207,7 @@
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "03_05_00_00_00_501",
 		"parentId": null,
 		"children": [
@@ -65360,7 +65365,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-31T13:26:51.5151",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
@@ -65371,7 +65376,7 @@
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "03_06_00_00_00_601",
 		"parentId": null,
 		"children": [
@@ -65654,7 +65659,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-25T08:23:46.4646",
+		"aktualisierungsdatum": "2020-08-31T13:26:18.1818",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -65815,7 +65820,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-25T08:23:47.4747",
+		"aktualisierungsdatum": "2020-08-31T13:26:51.5151",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
@@ -70512,6 +70517,86 @@
 		"chart-id": 9013,
 		"filter": "",
 		"id": 9013
+	},
+	{
+		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
+		"kuerzel": "I.14.3.09022",
+		"kuerzelKunde": "",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-31T17:30:54.5454",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 14 des Jahres 2020 insgesamt 27 Personen ab 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 19 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9022,
+		"chart-id": 9022,
+		"filter": "",
+		"id": 9022
+	},
+	{
+		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"subtitle": "Personen unter 65 Jahre, Basel-Stadt, nach Kalenderwoche",
+		"kuerzel": "I.14.3.09023",
+		"kuerzelKunde": "",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-08-31T17:30:51.5151",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 10 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9023,
+		"chart-id": 9023,
+		"filter": "",
+		"id": 9023
 	},
 	{
 		"title": "Ältere Menschen sind eine Last für die Gesellschaft",

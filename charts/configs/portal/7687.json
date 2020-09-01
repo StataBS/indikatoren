@@ -34,6 +34,10 @@
         [
           2018,
           110
+        ],
+        [
+          2019,
+          116
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen"
@@ -78,6 +82,10 @@
         [
           2018,
           3.425724073497
+        ],
+        [
+          2019,
+          3.2366071428571
         ]
       ],
       "name": "Anteil am Bestand (rechte Skala)"
@@ -137,7 +145,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Genossenschaften an Neubauten"
+    "text": "Genossenschaftswohnungen"
   },
   "subtitle": {
     "text": "Wohnviertel Rosental",
@@ -227,7 +235,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "exporting": {
     "filename": 7687

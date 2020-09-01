@@ -5,100 +5,104 @@
       "visible": true,
       "data": [
         [
+          16,
+          1
+        ],
+        [
           17,
-          3
+          2
         ],
         [
           18,
-          5
+          7
         ],
         [
           19,
-          16
+          7
         ],
         [
           20,
-          19
+          23
         ],
         [
           21,
-          42
+          28
         ],
         [
           22,
-          47
+          40
         ],
         [
           23,
-          70
+          48
         ],
         [
           24,
-          91
+          95
         ],
         [
           25,
-          130
+          108
         ],
         [
           26,
-          166
+          158
         ],
         [
           27,
-          215
+          176
         ],
         [
           28,
-          237
+          230
         ],
         [
           29,
-          283
+          276
         ],
         [
           30,
-          328
+          317
         ],
         [
           31,
-          347
+          368
         ],
         [
           32,
-          365
+          370
         ],
         [
           33,
-          344
+          387
         ],
         [
           34,
-          360
+          372
         ],
         [
           35,
-          355
+          368
         ],
         [
           36,
-          303
+          301
         ],
         [
           37,
-          280
+          262
         ],
         [
           38,
-          194
+          210
         ],
         [
           39,
-          162
+          161
         ],
         [
           40,
-          114
+          119
         ],
         [
           41,
@@ -106,35 +110,43 @@
         ],
         [
           42,
-          33
+          56
         ],
         [
           43,
-          32
+          28
         ],
         [
           44,
-          18
+          23
         ],
         [
           45,
-          13
+          7
         ],
         [
           46,
-          2
+          9
         ],
         [
           47,
-          6
+          3
         ],
         [
           48,
-          3
+          2
         ],
         [
           49,
           1
+        ],
+        [
+          50,
+          1
+        ],
+        [
+          53,
+          2
         ]
       ],
       "name": "Anzahl Kinder"
@@ -193,7 +205,7 @@
     "text": "Neugeborene nach Alter der Mutter"
   },
   "subtitle": {
-    "text": "in baselstädtischen Spitälern, nach Alter der Mutter, 2018",
+    "text": "in baselstädtischen Spitälern, nach Alter der Mutter, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -264,7 +276,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

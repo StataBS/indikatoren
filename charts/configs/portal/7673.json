@@ -139,6 +139,34 @@
       ],
       "name": "2018",
       "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -63
+        ],
+        [
+          "Übrige Schweiz",
+          16
+        ],
+        [
+          "Ausland",
+          421
+        ],
+        [
+          "Unbekannt",
+          -46
+        ],
+        [
+          "Total",
+          328
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -273,7 +301,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

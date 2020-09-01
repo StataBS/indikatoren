@@ -25,10 +25,11 @@
     "shared": false
   },  
   "legend": {
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    itemDistance: 15,
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }
