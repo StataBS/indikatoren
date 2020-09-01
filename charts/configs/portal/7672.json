@@ -107,6 +107,18 @@
         [
           "2018: Erlenmatt",
           389
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2019: Messe",
+          1085
+        ],
+        [
+          "2019: Erlenmatt",
+          549
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -219,6 +231,18 @@
         [
           "2018: Erlenmatt",
           411
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2019: Messe",
+          888
+        ],
+        [
+          "2019: Erlenmatt",
+          515
         ]
       ],
       "name": "Familienhaushalte",
@@ -331,6 +355,18 @@
         [
           "2018: Erlenmatt",
           139
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2019: Messe",
+          365
+        ],
+        [
+          "2019: Erlenmatt",
+          182
         ]
       ],
       "name": "Andere Haushalte",
@@ -474,7 +510,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

@@ -5,35 +5,39 @@
       "data": [
         [
           2011,
-          2.394691
+          2.3946912868
         ],
         [
           2012,
-          3.245436
+          3.2454361055
         ],
         [
           2013,
-          3.9
+          3.8572251007
         ],
         [
           2014,
-          4.029937
+          4.1162924583
         ],
         [
           2015,
-          4.434072
+          4.4340723454
         ],
         [
           2016,
-          4.827789226
+          4.8277892258
         ],
         [
           2017,
-          4.686584651
+          4.6865846514
         ],
         [
           2018,
-          4.84954718
+          4.8495471808
+        ],
+        [
+          2019,
+          4.3490866918
         ]
       ],
       "name": "FAMI-Quote Klybeck"
@@ -43,73 +47,81 @@
       "data": [
         [
           2011,
-          2.564103
+          2.5641025641
         ],
         [
           2012,
-          3.325599
+          3.3255993813
         ],
         [
           2013,
-          3.7
+          3.7955073586
         ],
         [
           2014,
-          4.137393
+          4.0593286495
         ],
         [
           2015,
-          4.538341
+          4.5383411581
         ],
         [
           2016,
-          5.246671887
+          5.2466718872
         ],
         [
           2017,
-          5.031446541
+          5.0314465409
         ],
         [
           2018,
-          5.14240506
+          5.1424050633
+        ],
+        [
+          2019,
+          4.552715655
         ]
       ],
-      "name": "FAMI-Quote  Kleinhüningen"
+      "name": "FAMI-Quote Kleinhüningen"
     },
     {
       "color": "#7f5f1a",
       "data": [
         [
           2011,
-          22.01384882
+          22.013848817
         ],
         [
           2012,
-          22.63112141
+          22.631121414
         ],
         [
           2013,
-          22.97063903
+          22.970639033
         ],
         [
           2014,
-          23.48877375
+          23.488773748
         ],
         [
           2015,
-          23.01633606
+          23.016336056
         ],
         [
           2016,
-          23.93288195
+          23.932881955
         ],
         [
           2017,
-          23.49150557
+          23.491505565
         ],
         [
           2018,
-          25.00730353
+          25.007303535
+        ],
+        [
+          2019,
+          26.877355755
         ]
       ],
       "name": "PV-Quote Klybeck"
@@ -119,35 +131,39 @@
       "data": [
         [
           2011,
-          20.0165426
+          20.016542597
         ],
         [
           2012,
-          19.18020108
+          19.180201083
         ],
         [
           2013,
-          19.28737413
+          19.287374129
         ],
         [
           2014,
-          19.90632319
+          19.906323185
         ],
         [
           2015,
-          20.97026604
+          20.970266041
         ],
         [
           2016,
-          22.47454973
+          22.474549726
         ],
         [
           2017,
-          23.27044025
+          23.270440252
         ],
         [
           2018,
-          23.33860759
+          23.338607595
+        ],
+        [
+          2019,
+          25
         ]
       ],
       "name": "PV-Quote Kleinhüningen"
@@ -205,7 +221,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen"
   },
   "subtitle": {
     "text": "Wohnviertel Klybeck und Kleinhüningen",
@@ -277,7 +293,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

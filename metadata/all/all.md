@@ -1681,11 +1681,11 @@ id | visible | visibleInPortal | indikatorenset
 8663 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8664 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
 8665 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen (Print)
-8683 | true | true | Arbeitsmarkt
+8683 | true | false | Arbeitsmarkt
 8684 | true | false | Arbeitsmarkt
 8685 | true | false | Arbeitsmarkt
 8687 | true | false | Arbeitsmarkt
-8689 | true | true | Arbeitsmarkt
+8689 | true | false | Arbeitsmarkt
 8690 | true | false | Arbeitsmarkt
 8692 | true | true | 
 8693 | true | false | Arbeitsmarkt
@@ -1813,6 +1813,8 @@ id | visible | visibleInPortal | indikatorenset
 9011 | true | false | 
 9012 | true | false | 
 9013 | true | false | 
+9022 | true | true | 
+9023 | true | true | 
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt

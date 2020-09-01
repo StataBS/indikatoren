@@ -38,6 +38,14 @@
         [
           2017,
           54
+        ],
+        [
+          2018,
+          36
+        ],
+        [
+          2019,
+          52
         ]
       ],
       "name": "Klybeck"
@@ -80,6 +88,14 @@
         [
           2017,
           36
+        ],
+        [
+          2018,
+          42
+        ],
+        [
+          2019,
+          12
         ]
       ],
       "name": "Kleinhüningen"
@@ -209,7 +225,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

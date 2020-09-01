@@ -35,6 +35,10 @@
         [
           "2018",
           3711
+        ],
+        [
+          "2019",
+          3621
         ]
       ],
       "name": "Schweiz",
@@ -75,6 +79,10 @@
         [
           "2018",
           1375
+        ],
+        [
+          "2019",
+          1442
         ]
       ],
       "name": "Ausland",
@@ -209,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

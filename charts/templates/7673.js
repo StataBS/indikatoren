@@ -25,14 +25,14 @@
       { "color": "#DC440E", "visible": true }, /* blau*/
       { "color": "#A8C3CA", "visible": true }, /* blau*/
       { "color": "#246370", "visible": true }, /* blau*/
-      { "color": "#083038", "visible": true } /* schwarz */
+      { "color": "#083038", "visible": true }, /* schwarz */
+      { "color": "#C4AB91", "visible": true } /* braun */
     ],
     "legend": {
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      //itemWidth: 300,
       //"x": 40,
       //"y": 55,    
       "itemStyle": {

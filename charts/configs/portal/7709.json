@@ -51,9 +51,13 @@
         [
           2018,
           2315
+        ],
+        [
+          2019,
+          2315
         ]
       ],
-      "name": "Fläche Messe"
+      "name": "Freiraumfläche Messe"
     },
     {
       "color": "#7f5f1a",
@@ -107,9 +111,13 @@
         [
           2018,
           0.62
+        ],
+        [
+          2019,
+          0.62
         ]
       ],
-      "name": "Anteil Messe (rechte Skala)"
+      "name": "Anteil Freiraumfläche Messe (rechte Skala)"
     },
     {
       "color": "#b375ab",
@@ -162,9 +170,13 @@
         [
           2018,
           29789
+        ],
+        [
+          2019,
+          29789
         ]
       ],
-      "name": "Fläche Erlenmatt"
+      "name": "Freiraumfläche Erlenmatt"
     },
     {
       "color": "#923f8d",
@@ -218,9 +230,13 @@
         [
           2018,
           11.34
+        ],
+        [
+          2019,
+          11.34
         ]
       ],
-      "name": "Anteil Erlenmatt (rechte Skala)"
+      "name": "Anteil Freiraumfläche Erlenmatt (rechte Skala)"
     }
   ],
   "chart": {
@@ -272,7 +288,7 @@
     "text": "Freiraumfläche"
   },
   "subtitle": {
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E und Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+    "text": "Wohnviertel Rosental, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -356,7 +372,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

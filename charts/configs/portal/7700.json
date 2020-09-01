@@ -135,6 +135,18 @@
         [
           "2018: Erlenmatt",
           18604.35
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          2315.12
+        ],
+        [
+          "2019: Erlenmatt",
+          18604.35
         ]
       ],
       "name": "Parkanlage\u002FSpielplatz",
@@ -275,6 +287,18 @@
         [
           "2018: Erlenmatt",
           10697.57
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          25815.19
+        ],
+        [
+          "2019: Erlenmatt",
+          12187.5
         ]
       ],
       "name": "Gartenanlage",
@@ -414,6 +438,18 @@
         ],
         [
           "2018: Erlenmatt",
+          11184.99
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          null
+        ],
+        [
+          "2019: Erlenmatt",
           11184.99
         ]
       ],
@@ -555,6 +591,18 @@
         [
           "2018: Erlenmatt",
           88.174
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          null
+        ],
+        [
+          "2019: Erlenmatt",
+          88.174
         ]
       ],
       "name": "Gewässervorland humusiert",
@@ -695,6 +743,18 @@
         [
           "2018: Erlenmatt",
           16234.29
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          3796.57
+        ],
+        [
+          "2019: Erlenmatt",
+          18119.25
         ]
       ],
       "name": "Übrige humusierte",
@@ -840,7 +900,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "tooltip": {
     "useHTML": true,
