@@ -34,6 +34,10 @@
         [
           2018,
           3.301152289
+        ],
+        [
+          2019,
+          3.3230076035
         ]
       ],
       "name": "Familienmietzinsbeiträge"
@@ -73,6 +77,10 @@
         [
           2018,
           17.408906883
+        ],
+        [
+          2019,
+          19.262179668
         ]
       ],
       "name": "Prämienverbilligung"
@@ -130,7 +138,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reiner Prämienverbilligung"
+    "text": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen"
   },
   "subtitle": {
     "text": "Wohnviertel Rosental",
@@ -202,7 +210,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

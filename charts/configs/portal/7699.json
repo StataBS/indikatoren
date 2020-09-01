@@ -130,6 +130,18 @@
         [
           "2018: Erlenmatt",
           5.68094
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          3.19269
+        ],
+        [
+          "2019: Erlenmatt",
+          6.01843
         ]
       ],
       "name": "Grünfläche",
@@ -265,6 +277,18 @@
         [
           "2018: Erlenmatt",
           0.22829
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          null
+        ],
+        [
+          "2019: Erlenmatt",
+          0.24255
         ]
       ],
       "name": "Gewässer",
@@ -400,6 +424,18 @@
         [
           "2018: Erlenmatt",
           3.6822
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          17.2277
+        ],
+        [
+          "2019: Erlenmatt",
+          4.4404
         ]
       ],
       "name": "Gebäude",
@@ -535,6 +571,18 @@
         [
           "2018: Erlenmatt",
           7.68864
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          9.2699
+        ],
+        [
+          "2019: Erlenmatt",
+          7.90971
         ]
       ],
       "name": "Verkehrsfläche",
@@ -670,6 +718,18 @@
         [
           "2018: Erlenmatt",
           8.9884
+        ],
+        [
+          "           ",
+          null
+        ],
+        [
+          "2019: Messe",
+          7.4063
+        ],
+        [
+          "2019: Erlenmatt",
+          7.6574
         ]
       ],
       "name": "Übrige befestigte Flächen",
@@ -752,7 +812,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Bodenbedeckung nach Nutzungsarten"
+    "text": "Bodenbedeckung nach Nutzungsart"
   },
   "subtitle": {
     "text": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
@@ -812,7 +872,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
   },
   "tooltip": {
     "shared": false,

@@ -3344,7 +3344,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:44.4444",
+		"aktualisierungsdatum": "2020-08-31T13:26:18.1818",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.5 Immobilienwesen",
 		"stufe3": "",
@@ -3509,7 +3509,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:45.4545",
+		"aktualisierungsdatum": "2020-08-31T13:26:51.5151",
 		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
 		"stufe2": "4.6 Private Haushaltsdienstleistungen",
 		"stufe3": "",
