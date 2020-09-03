@@ -1,22 +1,13 @@
-Wohnviertel Id	Wohnviertel	Durchschnittliche Abweichung vom Referenzwohnviertel Iselin
-1	Altstadt Grossbasel	20.48252964
-2	Vorstädte	10.00230865
-3	Am Ring	6.746491515
-4	Breite	0.330141546
-5	St. Alban	6.929496678
-6	Gundeldingen	3.349932328
-7	Bruderholz	10.88789242
-8	Bachletten	8.029675304
-9	Gotthelf	4.756196434
-10	Iselin	0
-11	St. Johann	-0.564562257
-12	Altstadt Kleinbasel	3.34056791
-13	Clara	0.282235575
-14	Wettstein	-0.22970632
-15	Hirzbrunnen	-4.086278133
-16	Rosental	-4.60006287
-17	Matthäus	-1.589130606
-18	Klybeck	-7.393068052
-19	Kleinhüningen	-6.402670944
-20	Riehen und Bettingen	2.932921769
-30	Riehen und Bettingen	2.932921769
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div></body></html>
