@@ -1002,6 +1002,7 @@ id | visible | visibleInPortal | indikatorenset
 6974 | true | true | Wohnviertel
 6975 | true | true | Wohnviertel
 6976 | true | true | Wohnviertel
+6979 | true | true | 
 6980 | true | true | Steuern
 6981 | true | true | Steuern
 6982 | true | true | Steuern
@@ -1481,6 +1482,13 @@ id | visible | visibleInPortal | indikatorenset
 8375 | true | false | Stadtteilmonitoring Klybeck-Kleinhüningen
 8377 | true | false | Nachhaltigkeit
 8379 | true | true | Nachhaltigkeit
+8417 | true | false | Richtplan (Print)
+8418 | true | false | Richtplan (Print)
+8419 | true | false | Richtplan (Print)
+8420 | true | false | Richtplan (Print)
+8421 | true | false | Richtplan (Print)
+8422 | true | false | Richtplan (Print)
+8423 | true | false | Richtplan (Print)
 8431 | true | true | Wirtschaftsbericht BS_BL_JU
 8432 | true | true | Wirtschaftsbericht BS_BL_JU
 8433 | true | true | Wirtschaftsbericht BS_BL_JU
@@ -1792,6 +1800,7 @@ id | visible | visibleInPortal | indikatorenset
 8965 | true | false | Nachhaltigkeit (Print)
 8969 | true | true | Wirtschaftsbericht BS_BL_JU
 8970 | true | true | Wirtschaftsbericht BS_BL_JU
+8971 | true | false | Richtplan (Print)
 8972 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8973 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8976 | true | false | 

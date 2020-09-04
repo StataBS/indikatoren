@@ -15,6 +15,10 @@
           -17150
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2010",
           -22450
         ],
@@ -37,6 +41,14 @@
         [
           "2015",
           -24073
+        ],
+        [
+          "2016",
+          -24080
+        ],
+        [
+          "2017",
+          -26396
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -55,6 +67,10 @@
         [
           "2000",
           -235
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -79,6 +95,14 @@
         [
           "2015",
           -338
+        ],
+        [
+          "2016",
+          -453
+        ],
+        [
+          "2017",
+          -573
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -97,6 +121,10 @@
         [
           "2000",
           54525
+        ],
+        [
+          " ",
+          null
         ],
         [
           "2010",
@@ -121,6 +149,14 @@
         [
           "2015",
           64289
+        ],
+        [
+          "2016",
+          65931
+        ],
+        [
+          "2017",
+          66252
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -141,6 +177,10 @@
           29785
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2010",
           31090
         ],
@@ -158,11 +198,19 @@
         ],
         [
           "2014",
-          35143
+          34535
         ],
         [
           "2015",
-          36272
+          34948
+        ],
+        [
+          "2016",
+          35739
+        ],
+        [
+          "2017",
+          35877
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -185,6 +233,10 @@
           66925
         ],
         [
+          " ",
+          null
+        ],
+        [
           "2010",
           69183
         ],
@@ -202,11 +254,19 @@
         ],
         [
           "2014",
-          74662
+          74054
         ],
         [
           "2015",
-          76150
+          74826
+        ],
+        [
+          "2016",
+          77137
+        ],
+        [
+          "2017",
+          75160
         ]
       ],
       "name": "Saldo",
@@ -328,7 +388,7 @@
                 }
     },
     "renderTo": "container-6244",
-    "spacingBottom": 18
+    "spacingBottom": 28
   },
   "plotOptions": {
     "series": {
@@ -362,7 +422,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -390,9 +450,9 @@
     "plotLines": [
       {
         "value": 0,
-        "color": "white",
+        "color": "#B9CFD7",
         "width": 2,
-        "zIndex": 10
+        "zIndex": 0
       }
     ]
   },
@@ -427,9 +487,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "dataLabels": {
     "enabled": false,

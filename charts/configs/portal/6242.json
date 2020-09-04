@@ -1,26 +1,7 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
-      },
       "data": [
         [
           1997,
@@ -36,7 +17,7 @@
         ],
         [
           2000,
-          51.0313481590068
+          50.8955034197393
         ],
         [
           2001,
@@ -80,7 +61,7 @@
         ],
         [
           2011,
-          51.9771197999236
+          52.0388182073998
         ],
         [
           2012,
@@ -101,6 +82,14 @@
         [
           2016,
           53.6359410184701
+        ],
+        [
+          2017,
+          53.8475557318312
+        ],
+        [
+          2018,
+          54.1906854716544
         ]
       ],
       "name": "Einwohner pro ha"
@@ -192,17 +181,17 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
     "renderTo": "container-6242",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -220,12 +209,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Einwohner pro Hektar",
+    "text": "Einwohner pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -247,7 +235,7 @@
       "format": "{value:,.0f}"
     },
     "max": 60,
-    "tickInterval": 20
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -260,7 +248,32 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickPositioner": function () {
+        var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min) + 1;
+        var xMin_even = Math.round(ext.min);
+
+        if (xMax % 2 == 1) {
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0) {
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -276,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "legend": {
     "enabled": false,

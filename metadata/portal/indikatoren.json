@@ -1025,13 +1025,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:37.3737",
+		"aktualisierungsdatum": "2020-09-03T17:11:34.3434",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2017 in Vollzeitäquivalente (VZÄ) umgerechnet 18 872 Beschäftigte tätig, was einem Rückgang um 0,8% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 3,2% und im Baugewerbe um 3,0% reduziert.",
+		"lesehilfe": "In der Chemischen und Pharmazeutischen Industrie sind 2018 in Vollzeitäquivalente (VZÄ) umgerechnet 18 235 Beschäftigte tätig, was einem Rückgang um 3,4% gegenüber dem Vorjahr entspricht. In der Industrie (exkl. Chemie, Pharma) hat sich die Beschäftigung in VZÄ im gleichen Zeitraum um 0,4% und im Baugewerbe um 2,7% reduziert.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1067,13 +1067,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:37.3737",
+		"aktualisierungsdatum": "2020-09-03T17:11:36.3636",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2016 und 2017 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 1,1%. Ebenfalls rückläufig ist die Beschäftigung in VZÄ in den Branchen Verkehr und Lagerei mit 3,2% sowie Information und Kommunikation mit 1,5%. Das Gastgewerbe verzeichnet einen Anstieg um 0,9%.",
+		"lesehilfe": "Die Branche Handel und Reparatur verzeichnet zwischen 2017 und 2018 einen Rückgang der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 2,3%. Das Gastgewerbe (+1,9%) und die Branchen Verkehr und Lagerei (+0,8%) sowie Information und Kommunikation (+0,4%) verzeichnen einen Anstieg.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1109,13 +1109,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:38.3838",
+		"aktualisierungsdatum": "2020-09-03T17:11:37.3737",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt sind 2017 190 966 Beschäftigte tätig, was 151 198 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert (-0,1%). Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 0,7%, die Kantone Zürich und Aargau um 1,2% bzw. 0,8%.",
+		"lesehilfe": "Im Kanton Basel-Stadt sind 2018 190 756 Beschäftigte tätig, was 150 931 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert (-0,2%). Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 1,0%, die Kantone Zürich und Aargau um 1,7% bzw. 0,4%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -12361,14 +12361,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-24T17:57:12.1212",
+		"aktualisierungsdatum": "2020-09-03T12:00:22.2222",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2018 mit 27,8 resp. 26,9 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"lesehilfe": "Die Feinstaubkonzentration PM10 lag 2019 mit 17,2 Mikrogramm pro Kubikmeter unter dem Grenzwert. Die Werte für Stickstoffdioxid und PM2,5 überschritten mit 30,33 resp. 12,29  μg/m<sup>3</sup> die jeweilige Grenzwerte leicht.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2.5, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2.5) versteht man Partikel, die kleiner sind als 10 respektive 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2.5 10 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -12377,7 +12377,8 @@
 		"parentId": null,
 		"children": [
 			"6029",
-			"6309"
+			"6309",
+			"8921"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -12385,7 +12386,7 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://luftqualitaet.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
 		"data-id": 6157,
@@ -14776,7 +14777,7 @@
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06383",
 		"kuerzelKunde": "C3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -14786,13 +14787,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:53:51.5151",
+		"aktualisierungsdatum": "2020-09-03T17:15:54.5454",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -14822,7 +14823,7 @@
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06384",
 		"kuerzelKunde": "C3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -14832,13 +14833,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:54:29.2929",
+		"aktualisierungsdatum": "2020-09-03T17:15:55.5555",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -15253,7 +15254,7 @@
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06395",
 		"kuerzelKunde": "K3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -15263,13 +15264,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:55:37.3737",
+		"aktualisierungsdatum": "2020-09-03T17:15:56.5656",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -15297,7 +15298,7 @@
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06396",
 		"kuerzelKunde": "K3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -15307,13 +15308,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:56:05.055",
+		"aktualisierungsdatum": "2020-09-03T17:15:58.5858",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -17005,13 +17006,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T12:54:48.4848",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"aktualisierungsdatum": "2020-09-03T17:11:39.3939",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 beträgt die Beschäftigung bei den Frauen 64 168 Vollzeitäquivalente (VZÄ) bzw. 90 848 Beschäftigte, was einem Zuwachs um 291 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 454 VZÄ auf 87 030 VZÄ (100 118 Beschäftigte) gesunken.",
+		"lesehilfe": "Im Jahr 2018 beträgt die Beschäftigung bei den Frauen 64 204 Vollzeitäquivalente (VZÄ) bzw. 90 963 Beschäftigte, was einem Zuwachs um 136 VZÄ gegenüber dem Vorjahr entspricht. Bei den Männern ist die Beschäftigung im gleichen Zeitraum um 404 VZÄ auf 86 626 VZÄ (99 793 Beschäftigte) gesunken.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -17047,13 +17048,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T12:55:17.1717",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"aktualisierungsdatum": "2020-09-03T17:11:40.4040",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die 190 966 Beschäftigten aus dem Jahr 2017 entsprechen umgerechnet 151 198  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
+		"lesehilfe": "Die 190 756 Beschäftigten aus dem Jahr 2018 entsprechen umgerechnet 150 931  Vollzeitäquivalenten (VZÄ). Daraus resultiert für den Kanton Basel-Stadt ein durchschnittlicher Beschäftigungsgrad von 79%. Bei den Männern liegt er bei 87%, bei den Frauen bei 71%.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17089,13 +17090,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:39.3939",
+		"aktualisierungsdatum": "2020-09-03T17:11:41.4141",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie Personalvermittlung und -überlassung verzeichnen zwischen 2016 und 2017 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 3,1% bzw. 2,7%. Auch die Branche Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen legt mit 0,3% leicht zu. Die Finanz- und Versicherungsdienstleistungen weisen einen Rückgang um 4,7% auf.",
+		"lesehilfe": "Die Branchen Beratung, Planung, Forschung und Immobilien sowie die Finanz- und Versicherungsdienstleistungen verzeichnen zwischen 2017 und 2018 einen Anstieg der Beschäftigung in Vollzeitäquivalenten (VZÄ) um 1,2% bzw. 1,0%. Die Branchen Personalvermittlung und -überlassung sowie Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen weisen einen Rückgang um 4,6% bzw. 3,4% auf.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17131,13 +17132,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:39.3939",
+		"aktualisierungsdatum": "2020-09-03T17:11:42.4242",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2017 bei 22 780 Vollzeitäquivalenten (VZÄ), und damit 2,9% über dem Vorjahreswert. In der Branche Kultur, Unterhaltung und persönliche Dienstleistungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 0,9% zugenommen, in der Branche Öffentliche Verwaltung und Sozialversicherungen um 1,6% abgenommen. Die Beschäftigung in der Branche Erziehung und Unterricht blieb nahezu unverändert.",
+		"lesehilfe": "Im Gesundheits- und Sozialwesen liegt die Beschäftigung im Jahr 2018 bei 23 166 Vollzeitäquivalenten (VZÄ), und damit 1,7% über dem Vorjahreswert. In den Branchen Erziehung und Unterricht sowie Öffentliche Verwaltung und Sozialversicherungen hat die Beschäftigung in VZÄ im gleichen Zeitraum um 5,5% bzw. 1,7% zugenommen, in der Branche Kultur, Unterhaltung und persönliche Dienstleistungen um 1,4% abgenommen.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -17173,13 +17174,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:40.4040",
+		"aktualisierungsdatum": "2020-09-03T17:11:44.4444",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 23 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2017 im Gesundheits- und Sozialwesen tätig. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 2,9%. Fast 20 000 VZÄ sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen tätig und somit 3,1% mehr als im Vorjahr. In der Chemischen und Pharmazeutischen Industrie sind es rund 19 000, was einer Abnahme um 0,8% im Vergleich zum Vorjahr entspricht. Mehr als 1,0% Wachstum verzeichnete die Branche Personalvermittlung und -überlassung (+2,7%). Am stärksten abgenommen hat die Beschäftigung in den Branchen Finanz- und Versicherungsdienstleistungen (-4,7%), Verkehr und Lagerei (-3,2%), Industrie (ohne Chemie und Pharma, -3,2%) und Baugewerbe (-3,0%). Im gesamten Kanton Basel-Stadt sind im Jahr 2017 rund 151 200 Beschäftigte in Vollzeitäquivalenten tätig.",
+		"lesehilfe": "Rund 23 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2018 im Gesundheits- und Sozialwesen tätig. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 1,7%. Fast 20 000 VZÄ sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen tätig und somit 1,2% mehr als im Vorjahr. In der Chemischen und Pharmazeutischen Industrie sind es rund 18 000, was einer Abnahme um 3,4% im Vergleich zum Vorjahr entspricht. Mehr als 1,0% Wachstum verzeichnete die Branche Erziehung und Unterricht (+5,5%), das Gastgewerbe (+1,9%) sowie die Branche Öffentliche Verwaltung und Sozialversicherungen (+1,7%). Am stärksten abgenommen hat die Beschäftigung in den Branchen Personalvermittlung und -überlassung (-4,6%), Gebäudebetreuung, Sicherheit, sonst. Wirtsch. DL (-3,4%) und Baugewerbe (-2,7%). Im gesamten Kanton Basel-Stadt sind im Jahr 2018 rund 150 900 Beschäftigte in Vollzeitäquivalenten tätig.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -19618,7 +19619,7 @@
 	},
 	{
 		"title": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
-		"subtitle": "Anteil der Vollzeitäquivalente, 2017",
+		"subtitle": "Anteil der Vollzeitäquivalente, 2018",
 		"kuerzel": "I.03.2.6531",
 		"kuerzelKunde": "3.2-02",
 		"description": "Beschäftigung nach Grösse der Arbeitsstätte und Kanton",
@@ -19628,13 +19629,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T12:57:03.033",
-		"stufe1": "Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "Beschäftigung",
+		"aktualisierungsdatum": "2020-09-03T17:11:45.4545",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.2 Beschäftigung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 sind in Basel-Stadt von den 151 198 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 36% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 13%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 23% ebenfalls tiefer aus als in Basel-Stadt.",
+		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt von den 150 931 Beschäftigten in Vollzeitäquivalenten (VZÄ) rund 37% in grossen Arbeitsstätten (250 VZÄ und mehr) tätig. Im Kanton Basel-Landschaft liegt dieser Anteil bei 14%, in den Kantonen Aargau und Zürich fällt er mit 18% bzw. 24% ebenfalls tiefer aus als in Basel-Stadt.",
 		"erlaeuterungen": "Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -24473,6 +24474,46 @@
 		"id": 6976
 	},
 	{
+		"title": "Einbruchdiebstähle",
+		"subtitle": "pro 1 000 Einwohner, Basel-Stadt",
+		"kuerzel": "I.19.3.06979",
+		"kuerzelKunde": "",
+		"description": "Einbruchdiebstähle",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Strafvollzug",
+		"kennzahlenset": "",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-03T16:04:59.5959",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 wurden auf 1 000 Einwohner im Kanton Basel-Stadt 4,8 Einbruchdiebstähle polizeilich registriert.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "_000",
+		"parentId": null,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 6979,
+		"chart-id": 6979,
+		"filter": "",
+		"id": 6979
+	},
+	{
 		"title": "Mittelwert des Gesamtsteuerertrags sowie Anteil von Einkommens- und Vermögenssteuerertrag",
 		"subtitle": "in Franken, Basel-Stadt, 2017",
 		"kuerzel": "I.18.2.06980",
@@ -24925,13 +24966,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-27T09:07:11.1111",
+		"aktualisierungsdatum": "2020-09-03T16:05:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden insgesamt 65&nbsp;104 Patienten in baselstädtischen Spitälern stationär behandelt. Der Anteil baselstädtischer Patienten betrug mit 46% rund 10 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2018 wurden knapp 29&nbsp;850 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen hat hingegen der Anteil an Patienten aus dem Kanton Basel-Landschaft: Sie machten 2018 über 32% aller Behandelten aus.",
+		"lesehilfe": "Im Jahr 2019 wurden insgesamt 65&nbsp;613 Patienten in baselstädtischen Spitälern stationär behandelt. Der Anteil baselstädtischer Patienten betrug mit 45% rund 8 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2019 wurden 29&nbsp;820 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen hat hingegen der Anteil an Patienten aus dem Kanton Basel-Landschaft: Sie machten 2019 fast 33% aller Behandelten aus.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -25127,14 +25168,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:14:47.4747",
+		"aktualisierungsdatum": "2020-09-03T16:05:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gibt es im Kanton Basel-Stadt 275 Arztpraxen von Grundversorgern, 561 Spezialarztpraxen und 122 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 181 zugenommen, während die Zahl der Arztpraxen von Grundversorgern und der Zahnarztpraxen etwas tiefer ausfällt als sechs Jahre zuvor.",
-		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
+		"lesehilfe": "Im Jahr 2018 gibt es im Kanton Basel-Stadt 268 Arztpraxen von Grundversorgern, 561 Spezialarztpraxen und 123 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 181 zugenommen, während die Zahl der Praxen von Grundversorgern und von Zahnärzten etwas tiefer ausfällt als sieben Jahre zuvor.",
+		"erlaeuterungen": "In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -38053,7 +38094,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:30:54.5454",
+		"aktualisierungsdatum": "2020-09-03T16:28:26.2626",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -38093,7 +38134,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:30:51.5151",
+		"aktualisierungsdatum": "2020-09-03T16:31:22.2222",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

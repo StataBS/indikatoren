@@ -1,0 +1,477 @@
+{
+  "series": [
+    {
+      "color": "#FABD24",
+      "legendIndex": 0,
+      "data": [
+        [
+          2007,
+          10266928
+        ],
+        [
+          2008,
+          10595548
+        ],
+        [
+          2009,
+          9413118
+        ],
+        [
+          2010,
+          10465771
+        ],
+        [
+          2011,
+          11624047
+        ],
+        [
+          2012,
+          11540113
+        ],
+        [
+          2013,
+          12946838
+        ],
+        [
+          2014,
+          13297398
+        ],
+        [
+          2015,
+          14561328
+        ],
+        [
+          2016,
+          14161516
+        ],
+        [
+          2017,
+          13781296
+        ],
+        [
+          2018,
+          14125256
+        ]
+      ],
+      "name": "Schiene Ausgang"
+    },
+    {
+      "color": "#7F5F1A",
+      "legendIndex": 2,
+      "data": [
+        [
+          2007,
+          16549175
+        ],
+        [
+          2008,
+          17035277
+        ],
+        [
+          2009,
+          14759973
+        ],
+        [
+          2010,
+          15584382
+        ],
+        [
+          2011,
+          15811409
+        ],
+        [
+          2012,
+          14734179
+        ],
+        [
+          2013,
+          16160138
+        ],
+        [
+          2014,
+          16263522
+        ],
+        [
+          2015,
+          18664332
+        ],
+        [
+          2016,
+          18121077
+        ],
+        [
+          2017,
+          16865292
+        ],
+        [
+          2018,
+          17734194
+        ]
+      ],
+      "name": "Schiene Eingang"
+    },
+    {
+      "color": "#008AC3",
+      "legendIndex": 1,
+      "data": [
+        [
+          2007,
+          3214875
+        ],
+        [
+          2008,
+          3250575
+        ],
+        [
+          2009,
+          3028413
+        ],
+        [
+          2010,
+          3455426
+        ],
+        [
+          2011,
+          3211924
+        ],
+        [
+          2012,
+          2842508
+        ],
+        [
+          2013,
+          2617927
+        ],
+        [
+          2014,
+          2550360
+        ],
+        [
+          2015,
+          2307428
+        ],
+        [
+          2016,
+          2184931
+        ],
+        [
+          2017,
+          2150476
+        ],
+        [
+          2018,
+          1945180
+        ]
+      ],
+      "name": "Strasse Ausgang"
+    },
+    {
+      "color": "#2B0099",
+      "legendIndex": 3,
+      "data": [
+        [
+          2007,
+          3124646
+        ],
+        [
+          2008,
+          3128538
+        ],
+        [
+          2009,
+          2897373
+        ],
+        [
+          2010,
+          3087929
+        ],
+        [
+          2011,
+          2713411
+        ],
+        [
+          2012,
+          2353192
+        ],
+        [
+          2013,
+          2147810
+        ],
+        [
+          2014,
+          2087055
+        ],
+        [
+          2015,
+          1960269
+        ],
+        [
+          2016,
+          1747475
+        ],
+        [
+          2017,
+          1777024
+        ],
+        [
+          2018,
+          1611071
+        ]
+      ],
+      "name": "Strasse Eingang"
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 5,
+      "data": [
+        [
+          2007,
+          4393165
+        ],
+        [
+          2008,
+          4112209
+        ],
+        [
+          2009,
+          3211597
+        ],
+        [
+          2010,
+          2316394
+        ],
+        [
+          2011,
+          3046603
+        ],
+        [
+          2012,
+          1862414
+        ],
+        [
+          2013,
+          622155
+        ],
+        [
+          2014,
+          1769525
+        ],
+        [
+          2015,
+          1900627
+        ],
+        [
+          2016,
+          510261
+        ],
+        [
+          2017,
+          1506172
+        ],
+        [
+          2018,
+          2112040
+        ]
+      ],
+      "name": "Pipeline Eingang"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-8421",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Warentransit durch die Schweiz"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 5000000
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": 8421
+  }
+}

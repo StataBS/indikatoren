@@ -1,2 +1,7 @@
-﻿Jahr	Güteklasse A	Güteklasse B	Güteklasse C	Güteklasse D	Güteklasse E
-2016	128051	61401	7195	603	168
+﻿Jahr	2016	2017	2018
+Güteklasse A	128051	127410	128139
+Güteklasse B	61401	62854	63371
+Güteklasse C	7195	7118	7158
+Güteklasse D	603	642	624
+Güteklasse E	168	166	158
+keine Güteklasse	0	0	5

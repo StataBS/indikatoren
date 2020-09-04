@@ -1,148 +1,195 @@
 {
   "series": [
     {
-      "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#007a2f",
+      "index": 6,
       "data": [
         [
           "2003",
-          0.66889632107
+          616
         ],
         [
           "2005",
-          0.662690523525
+          564
         ],
         [
           "2007",
-          0.332225913621
+          536
         ],
         [
           "2011",
-          0.395778364116
+          742
         ],
         [
           "2015",
-          0.465425531914
+          747
+        ],
+        [
+          "2019",
+          987
         ]
       ],
-      "name": "Weiss nicht\u002F Keine Angabe",
+      "name": "Sehr zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#CD9C00",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#68ab2b",
+      "index": 5,
       "data": [
         [
           "2003",
-          2.742474916387
+          620
         ],
         [
           "2005",
-          3.114645460569
+          672
         ],
         [
           "2007",
-          2.059800664451
+          720
         ],
         [
           "2011",
-          1.451187335092
+          603
         ],
         [
           "2015",
-          0.930851063829
-        ]
-      ],
-      "name": "Sehr unzufrieden",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FABD24",
-      "index": 3,
-      "legendIndex": 3,
-      "data": [
-        [
-          "2003",
-          13.91304347826
+          626
         ],
         [
-          "2005",
-          14.314115308151
-        ],
-        [
-          "2007",
-          14.152823920265
-        ],
-        [
-          "2011",
-          9.4327176781
-        ],
-        [
-          "2015",
-          7.313829787234
-        ]
-      ],
-      "name": "Eher unzufrieden",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#73B97C",
-      "index": 4,
-      "legendIndex": 4,
-      "data": [
-        [
-          "2003",
-          41.471571906354
-        ],
-        [
-          "2005",
-          44.532803180914
-        ],
-        [
-          "2007",
-          47.840531561461
-        ],
-        [
-          "2011",
-          39.775725593667
-        ],
-        [
-          "2015",
-          41.622340425531
+          "2019",
+          775
         ]
       ],
       "name": "Eher zufrieden",
       "turboThreshold": 0
     },
     {
-      "color": "#007A2F",
-      "index": 5,
-      "legendIndex": 5,
+      "color": "#ffbb58",
+      "index": 4,
       "data": [
         [
           "2003",
-          41.204013377926
+          208
         ],
         [
           "2005",
-          37.375745526838
+          216
         ],
         [
           "2007",
-          35.614617940199
+          213
         ],
         [
           "2011",
-          48.944591029023
+          143
         ],
         [
           "2015",
-          49.667553191489
+          110
+        ],
+        [
+          "2019",
+          171
         ]
       ],
-      "name": "Sehr zufrieden",
+      "name": "Eher unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#dc440e",
+      "index": 3,
+      "data": [
+        [
+          "2003",
+          41
+        ],
+        [
+          "2005",
+          47
+        ],
+        [
+          "2007",
+          31
+        ],
+        [
+          "2011",
+          22
+        ],
+        [
+          "2015",
+          14
+        ],
+        [
+          "2019",
+          26
+        ]
+      ],
+      "name": "Sehr unzufrieden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "index": 2,
+      "data": [
+        [
+          "2003",
+          10
+        ],
+        [
+          "2005",
+          10
+        ],
+        [
+          "2007",
+          5
+        ],
+        [
+          "2011",
+          6
+        ],
+        [
+          "2015",
+          7
+        ],
+        [
+          "2019",
+          9
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 1,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          84
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -194,12 +241,12 @@
   "chart": {
     "type": "column",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
@@ -254,8 +301,9 @@
 					}
 				}
     },
+    "inverted": true,
     "renderTo": "container-6251",
-    "spacingBottom": 8
+    "spacingBottom": 12
   },
   "plotOptions": {
     "series": {
@@ -275,7 +323,7 @@
     "text": "Zufriedenheit mit Grünanlagen und Parks am Wohnort"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?»"
+    "text": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?», Basel-Stadt, 2019"
   },
   "yAxis": {
     "tickInterval": 10,
@@ -286,7 +334,7 @@
       "text": null
     },
     "labels": {
-      "y": 12,
+      "y": 8,
       "format": "{value}%",
       "style": {
         "fontSize": "10px",
@@ -298,9 +346,9 @@
   "legend": {
     "enabled": true,
     "useHTML": true,
-    "layout": "vertical",
-    "align": "right",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -313,19 +361,20 @@
     },
     "labelFormatter": function () {
 				return this.name.replace('/ ', '/<br/>');
-			}
+			},
+    "reversed": true,
+    "itemDistance": 15
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
-    "shared": false,
-    "valueDecimals": 1
+    "shared": false
   },
   "credits": {
     "enabled": true,
     "position": {
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F6_7."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "navigation": {
     "buttonOptions": {
