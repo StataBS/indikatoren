@@ -11,6 +11,13 @@
         "format": "{value:,.0f}"
       }
     },
+    xAxis: {
+      tickInterval: 1,
+      labels: {
+        step: 2
+      }
+
+    },
     "tooltip": {
       useHTML: true,
       "shared": false,
@@ -22,7 +29,7 @@
         "marker": {
           "enabled": false
         },
-        legendIndex: 2
+        legendIndex: 3
       }, /* duneklblau */
       {
         "color": "#68AB2B",
@@ -31,7 +38,7 @@
           "enabled": false
         },
         dashStyle: 'ShortDash',
-        legendIndex: 3
+        legendIndex: 2
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
@@ -49,6 +56,24 @@
         },
         legendIndex: 1
       }, /* dunkelgrün */
+
+
+      {
+        "color": "#FF8028",
+        "marker": {
+          "enabled": true
+        },
+        legendIndex: 5
+      }, /* orange */
+      {
+        "color": "#FFBB58",
+        visible: true,
+        "marker": {
+          "enabled": false
+        },
+        dashStyle: 'ShortDash',
+        legendIndex: 6
+      }, /* orange */
     ],
     "legend": {
       useHTML: true,

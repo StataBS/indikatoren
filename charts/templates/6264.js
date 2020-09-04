@@ -1,53 +1,30 @@
-(function(){
-    return {
-  "xAxis": {
-    "tickInterval": 1
-  },
-  "yAxis": {
-    "min": undefined, 
-	"labels": {
-		"format": "{value:,.0f}"
-	}
-  },	
-  "tooltip": {
-    "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
-  },
-  "series": [
-    {"color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      }    
-    
-    }, /* rot */
-	{"color": "#672773",
-      "marker": {
-        "enabled": true
-      }    
-    },/* blau  */
-  ],
-  "legend": {
-    "enabled": true,
-    "x": 25,
-    //"y": 25,
-    "itemWidth": 200,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
-  "plotOptions": {
-    "line": {
-	  "connectNulls": true,
-      "marker":{
-        "enabled": false,
-        "symbol": "circle",
-      }
-    }
+(function () {
+  return {
+    "xAxis": {
+      "tickInterval": 1
+    },
+    "yAxis": {
+      "min": undefined,
+      tickInterval: 2,
+      "labels": {
+        "format": "{value:,.0f}"
+      },
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 100,
+        width: 2
+      }]
+    },
+    "series": [
+      { "color": "#b00000" }, /* rot */
+      { "color": "#672773" },/* blau  */
+    ],
+    "legend": {
+      enabled: true,
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemMarginBottom": 5,
+    },
   }
-}
 }());
- 

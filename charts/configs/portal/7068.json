@@ -31,6 +31,10 @@
         [
           2017,
           275
+        ],
+        [
+          2018,
+          268
         ]
       ],
       "name": "Arztpraxen Grundversorger"
@@ -65,6 +69,10 @@
         ],
         [
           2017,
+          561
+        ],
+        [
+          2018,
           561
         ]
       ],
@@ -101,6 +109,10 @@
         [
           2017,
           122
+        ],
+        [
+          2018,
+          123
         ]
       ],
       "name": "Zahnarztpraxen"
@@ -231,7 +243,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

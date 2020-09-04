@@ -7,23 +7,23 @@
       "data": [
         [
           "BS",
-          27548
+          27129
         ],
         [
           "BL",
-          33022
+          33021
         ],
         [
           "AG",
-          78259
+          76967
         ],
         [
           "ZH",
-          194647
+          197634
         ],
         [
           "CH",
-          1173582
+          1186677
         ]
       ],
       "name": "\u003C10 VZÄ",
@@ -36,23 +36,23 @@
       "data": [
         [
           "BS",
-          31167
+          30333
         ],
         [
           "BL",
-          33574
+          32868
         ],
         [
           "AG",
-          71136
+          72965
         ],
         [
           "ZH",
-          204057
+          209548
         ],
         [
           "CH",
-          1101462
+          1128145
         ]
       ],
       "name": "10-49,9 VZÄ",
@@ -65,23 +65,23 @@
       "data": [
         [
           "BS",
-          38595
+          37918
         ],
         [
           "BL",
-          35741
+          37077
         ],
         [
           "AG",
-          68077
+          69264
         ],
         [
           "ZH",
-          204509
+          209778
         ],
         [
           "CH",
-          1021947
+          1060543
         ]
       ],
       "name": "50-249,9 VZÄ",
@@ -94,23 +94,23 @@
       "data": [
         [
           "BS",
-          54052
+          55551
         ],
         [
           "BL",
-          14999
+          16314
         ],
         [
           "AG",
-          47780
+          49392
         ],
         [
           "ZH",
-          184061
+          193472
         ],
         [
           "CH",
-          704101
+          737855
         ]
       ],
       "name": "250 VZÄ u.m.",
@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der Vollzeitäquivalente, 2017"
+    "text": "Anteil der Vollzeitäquivalente, 2018"
   },
   "navigation": {
     "menuItemStyle": {
@@ -251,7 +251,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "legend": {
     "layout": "horizontal",

@@ -30,6 +30,10 @@
         [
           2017,
           0.8692753
+        ],
+        [
+          2018,
+          0.868059
         ]
       ],
       "name": "Männer"
@@ -64,6 +68,10 @@
         [
           2017,
           0.7063241
+        ],
+        [
+          2018,
+          0.7069301
         ]
       ],
       "name": "Frauen"
@@ -98,6 +106,10 @@
         [
           2017,
           0.7917547
+        ],
+        [
+          2018,
+          0.7912239
         ]
       ],
       "name": "Total"
@@ -230,7 +242,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

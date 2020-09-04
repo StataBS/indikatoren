@@ -219,22 +219,20 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T16:07:14.1414",
+		"aktualisierungsdatum": "2020-08-27T10:13:23.2323",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Raum für Einwohnerinnen und Einwohner",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
 		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_007",
 		"parentId": 4140,
-		"children": [
-			"6247"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",

@@ -1,50 +1,159 @@
 {
   "series": [
     {
+      "color": "#672773",
+      "index": 14,
+      "legendIndex": 0,
       "data": [
         [
-          "Güteklasse A",
+          "2016",
           128051
         ],
         [
-          "Güteklasse B",
+          "2017",
+          127410
+        ],
+        [
+          "2018",
+          128139
+        ]
+      ],
+      "name": "Güteklasse A",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#E7CEE2",
+      "index": 13,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2016",
           61401
         ],
         [
-          "Güteklasse C",
+          "2017",
+          62854
+        ],
+        [
+          "2018",
+          63371
+        ]
+      ],
+      "name": "Güteklasse B",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "index": 12,
+      "legendIndex": 2,
+      "data": [
+        [
+          "2016",
           7195
         ],
         [
-          "Güteklasse D",
+          "2017",
+          7118
+        ],
+        [
+          "2018",
+          7158
+        ]
+      ],
+      "name": "Güteklasse C",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73BA7C",
+      "index": 11,
+      "legendIndex": 3,
+      "data": [
+        [
+          "2016",
           603
         ],
         [
-          "Güteklasse E",
-          168
+          "2017",
+          642
+        ],
+        [
+          "2018",
+          624
         ]
       ],
-      "name": "2016",
+      "name": "Güteklasse D",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "index": 10,
+      "legendIndex": 4,
+      "data": [
+        [
+          "2016",
+          168
+        ],
+        [
+          "2017",
+          166
+        ],
+        [
+          "2018",
+          158
+        ]
+      ],
+      "name": "Güteklasse E",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "index": 9,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2016",
+          0
+        ],
+        [
+          "2017",
+          0
+        ],
+        [
+          "2018",
+          5
+        ]
+      ],
+      "name": "keine Güteklasse",
       "turboThreshold": 0
     }
   ],
   "xAxis": {
     "type": "category",
-    "uniqueNames": false,
-    "labels": {
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
       "style": {
         "color": "#000000"
       }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "width": 1
+      },
+      "formatter": function () {
+                    return this.value;
+                }
     }
   },
   "chart": {
-    "events": {
-      "load": function() {
-                  this.credits.element.onclick = function() {};
-              }
-    },
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
+    "type": "column",
     "width": 320,
     "height": 221,
     "spacing": [
@@ -53,94 +162,138 @@
       2,
       2
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
     "style": {
-      "fontFamily": "Arial"
+      "color": "#000000",
+      "fontSize": "10px"
     },
-    "type": "pie",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
+    },
+    "inverted": false,
+    "marginTop": 10,
     "renderTo": "container-6253",
     "spacingBottom": 12
   },
   "plotOptions": {
-    "pie": {
+    "series": {
+      "stacking": "percent",
       "borderWidth": 0,
-      "allowPointSelect": true,
-      "cursor": true,
-      "showInLegend": true,
       "dataLabels": {
-        "enabled": true,
-        "softConnector": false,
-        "format": "{point.percentage:.1f}%",
-        "distance": 20,
         "style": {
-          "color": "black",
-          "fontSize": "10px",
-          "fontWeight": "normal"
+          "fontSize": "10px"
         }
-      },
-      "colors": [
-        "#B00000",
-        "#FF8028",
-        "#E6E600",
-        "#68AB2B ",
-        "#008AC3"
-      ],
-      "size": "100%"
+      }
+    },
+    "column": {
+      "groupPadding": 0
     }
   },
   "title": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
     "text": "Anteil Einwohner pro ÖV-Güteklasse"
   },
   "subtitle": {
-    "style": {
-      "fontSize": "10px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "",
-    "align": "left"
+    "text": "Basel-Stadt"
   },
-  "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-  },
-  "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
-    "enabled": true,
-    "style": {
-      "color": "#000000",
-      "fontSize": "10px",
-      "cursor": "default"
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
     },
-    "position": {
-      "align": "left",
-      "verticalAlign": "bottom",
-      "x": 10,
-      "y": -25
-    },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "labels": {
+      "y": 12,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
   },
   "legend": {
-    "padding": 0,
-    "margin": 0,
-    "itemMarginBottom": 2,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "center",
+    "enabled": true,
     "useHTML": true,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "fontSize": "10px",
-      "color": "#000000"
-    },
+    "layout": "vertical",
+    "align": "right",
+    "verticalAlign": "middle",
     "symbolRadius": 0,
-    "enabled": true
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+				return this.name.replace('/ ', '/<br/>');
+			},
+    "reversed": true
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
   },
   "exporting": {
     "filename": 6253

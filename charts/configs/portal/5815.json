@@ -1,10 +1,6 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#008AC3",
       "data": [
         [
@@ -66,6 +62,10 @@
         [
           2018,
           41.047173024523
+        ],
+        [
+          2019,
+          41.35700144497524
         ]
       ],
       "name": "Wohnfläche in m² pro Person"
@@ -107,20 +107,10 @@
     "series": {
       "marker": {
         "enabled": false
-      },
-      "dataLabels": {
-        "enabled": false,
-        "allowOverlap": true,
-        "y": 30,
-        "formatter": function() {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ") + ' m²';
-            }
-            return "";
-          }
       }
+    },
+    "column": {
+      "borderWidth": 0
     }
   },
   "title": {
@@ -201,7 +191,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

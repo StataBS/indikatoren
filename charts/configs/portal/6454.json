@@ -31,6 +31,10 @@
         [
           2017,
           100118
+        ],
+        [
+          2018,
+          99793
         ]
       ],
       "name": "Männer (Beschäftigte)"
@@ -66,6 +70,10 @@
         [
           2017,
           90848
+        ],
+        [
+          2018,
+          90963
         ]
       ],
       "name": "Frauen (Beschäftigte)"
@@ -101,6 +109,10 @@
         [
           2017,
           87030
+        ],
+        [
+          2018,
+          86626
         ]
       ],
       "name": "Männer (VZÄ)"
@@ -136,6 +148,10 @@
         [
           2017,
           64168
+        ],
+        [
+          2018,
+          64304
         ]
       ],
       "name": "Frauen (VZÄ)"
@@ -224,7 +240,8 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -243,7 +260,8 @@
       }
     },
     "reversedStacks": false,
-    "tickAmount": 7
+    "tickAmount": 6,
+    "max": 200000
   },
   "legend": {
     "symbolRadius": 0,
@@ -276,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-30"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

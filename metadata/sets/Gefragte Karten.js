@@ -444,7 +444,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06383",
 		"kuerzelKunde": "C3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -454,13 +454,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:53:51.5151",
+		"aktualisierungsdatum": "2020-09-03T17:15:54.5454",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -489,7 +489,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06384",
 		"kuerzelKunde": "C3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -499,13 +499,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:54:29.2929",
+		"aktualisierungsdatum": "2020-09-03T17:15:55.5555",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -910,7 +910,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06395",
 		"kuerzelKunde": "K3-2",
 		"description": "Arbeitsstätten nach Wohnviertel",
@@ -920,13 +920,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:55:37.3737",
+		"aktualisierungsdatum": "2020-09-03T17:15:56.5656",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 58 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",
@@ -953,7 +953,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.06396",
 		"kuerzelKunde": "K3-1",
 		"description": "Beschäftigte nach Wohnviertel",
@@ -963,13 +963,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T17:56:05.055",
+		"aktualisierungsdatum": "2020-09-03T17:15:58.5858",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 575 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 18 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
 		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte kategoriell",

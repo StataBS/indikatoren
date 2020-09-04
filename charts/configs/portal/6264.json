@@ -1,10 +1,7 @@
 {
   "series": [
     {
-      "color": "#b00000 ",
-      "marker": {
-        "enabled": true
-      },
+      "color": "#b00000",
       "data": [
         [
           2011,
@@ -29,15 +26,20 @@
         [
           2016,
           102.4756852
+        ],
+        [
+          2017,
+          108.394975
+        ],
+        [
+          2018,
+          112.097943
         ]
       ],
       "name": "Haushalte in Begegnungszonen"
     },
     {
       "color": "#672773",
-      "marker": {
-        "enabled": true
-      },
       "data": [
         [
           2011,
@@ -62,6 +64,14 @@
         [
           2016,
           101.3305242
+        ],
+        [
+          2017,
+          101.0855252
+        ],
+        [
+          2018,
+          101.4336261
         ]
       ],
       "name": "Haushalte in der Stadt Basel"
@@ -151,7 +161,7 @@
     "backgroundColor": "#fbfbfb",
     "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -163,7 +173,7 @@
     },
     "type": "line",
     "renderTo": "container-6264",
-    "spacingBottom": 12
+    "spacingBottom": 22
   },
   "title": {
     "style": {
@@ -172,7 +182,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Indexierter Verlauf der Haushalte in Begegnungszonen"
+    "text": "Haushalte in Begegnungszonen"
   },
   "subtitle": {
     "style": {
@@ -181,12 +191,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "",
+    "text": "indexiert (2011 = 100), Basel",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": undefined,
@@ -206,7 +215,15 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 2,
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 100,
+        "width": 2
+      }
+    ]
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -234,9 +251,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -25
+      "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EPlanungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "legend": {
     "enabled": true,
@@ -249,21 +266,12 @@
       "fontSize": "10px",
       "fontWeight": "normal"
     },
-    "padding": 0,
-    "x": 25,
-    "itemWidth": 200
+    "padding": 0
   },
   "plotOptions": {
     "series": {
       "marker": {
         "enabled": false
-      }
-    },
-    "line": {
-      "connectNulls": true,
-      "marker": {
-        "enabled": false,
-        "symbol": "circle"
       }
     }
   },
