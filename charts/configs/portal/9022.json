@@ -4867,91 +4867,91 @@
         ],
         [
           11,
-          -18
+          -17
         ],
         [
           12,
-          -5
+          -3
         ],
         [
           13,
-          21
+          23
         ],
         [
           14,
-          48
+          50
         ],
         [
           15,
-          46
-        ],
-        [
-          16,
-          56
-        ],
-        [
-          17,
           48
         ],
         [
+          16,
+          59
+        ],
+        [
+          17,
+          51
+        ],
+        [
           18,
-          42
+          45
         ],
         [
           19,
-          36
+          39
         ],
         [
           20,
-          21
+          24
         ],
         [
           21,
-          14
+          17
         ],
         [
           22,
-          9
+          12
         ],
         [
           23,
-          7
+          10
         ],
         [
           24,
-          -2
+          1
         ],
         [
           25,
-          -12
+          -9
         ],
         [
           26,
-          -15
+          -12
         ],
         [
           27,
-          -13
+          -10
         ],
         [
           28,
-          null
+          -5
         ],
         [
           29,
-          null
+          -5
         ],
         [
           30,
-          null
+          -4
         ],
         [
           31,
-          null
+          -10
         ],
         [
           32,
-          null
+          -9
         ],
         [
           33,
@@ -5087,11 +5087,11 @@
         ],
         [
           11,
-          7
+          8
         ],
         [
           12,
-          13
+          14
         ],
         [
           13,
@@ -5107,7 +5107,7 @@
         ],
         [
           16,
-          10
+          11
         ],
         [
           17,
@@ -5155,23 +5155,23 @@
         ],
         [
           28,
-          null
+          5
         ],
         [
           29,
-          null
+          0
         ],
         [
           30,
-          null
+          1
         ],
         [
           31,
-          null
+          -6
         ],
         [
           32,
-          null
+          1
         ],
         [
           33,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

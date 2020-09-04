@@ -1,42 +1,35 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": true
-      },
       "color": "#8b2223",
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px",
-          "fontWeight": "normal"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var first = this.series.data[0];
-            var last  = this.series.data[this.series.data.length - 1];
-            if (this.point.y === first.y || this.point.y === last.y ) {
-              return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-            }
-            return "";
-          }
-      },
       "data": [
         [
           2011,
-          39.973265
+          39.973266
         ],
         [
           2012,
-          40.21803
+          40.218031
         ],
         [
           2013,
-          40.798944
+          40.798945
         ],
         [
           2014,
-          41.085212
+          41.21395
+        ],
+        [
+          2015,
+          40.972121
+        ],
+        [
+          2016,
+          42.167556
+        ],
+        [
+          2017,
+          42.122014
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -128,17 +121,19 @@
     "width": 320,
     "height": 221,
     "spacing": [
-      15,
-      3,
-      8,
-      3
+      2,
+      2,
+      2,
+      2
     ],
     "style": {
       "fontFamily": "Arial"
     },
     "type": "line",
+    "marginTop": 7,
+    "marginRight": 10,
     "renderTo": "container-6254",
-    "spacingBottom": 18
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -156,12 +151,11 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Anzahl Beschäftigte pro Hektar",
+    "text": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -181,7 +175,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 10
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -194,7 +189,8 @@
         "whiteSpace": "nowrap"
       }
     },
-    "tickLength": 0
+    "tickLength": 0,
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -210,7 +206,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2017-6-26"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "legend": {
     "enabled": false,

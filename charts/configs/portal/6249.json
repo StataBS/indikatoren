@@ -6,90 +6,90 @@
       "data": [
         [
           "Altstadt GB",
-          22
+          52
         ],
         [
           "Vorstädte",
-          131
+          113
         ],
         [
           "Am Ring",
-          55
+          121
         ],
         [
           "Breite",
-          131
+          183
         ],
         [
           "St. Alban",
-          116
+          406
         ],
         [
           "Gundeldingen",
-          306
+          450
         ],
         [
           "Bruderholz",
-          84
+          89
         ],
         [
           "Bachletten",
-          57
+          81
         ],
         [
           "Gotthelf",
-          -28
+          51
         ],
         [
           "Iselin",
-          60
+          233
         ],
         [
           "St. Johann",
-          291
+          274
         ],
         [
           "Altstadt KB",
-          1
+          28
         ],
         [
           "Clara",
-          18
+          -32
         ],
         [
           "Wettstein",
-          112
+          145
         ],
         [
           "Hirzbrunnen",
-          187
+          252
         ],
         [
           "Rosental",
-          863
+          1241
         ],
         [
           "Matthäus",
-          76
+          148
         ],
         [
           "Klybeck",
-          4
+          103
         ],
         [
           "Kleinhüningen",
-          92
+          88
         ],
         [
           "Riehen",
-          228
+          458
         ],
         [
           "Bettingen",
-          15
+          11
         ]
       ],
-      "name": "Nettoproduktion  2007 bis  2016",
+      "name": "Nettoproduktion 2010 bis 2019",
       "turboThreshold": 0
     }
   ],
@@ -208,7 +208,6 @@
                 }
     },
     "type": "column",
-    "inverted": false,
     "renderTo": "container-6249",
     "spacingBottom": 18
   },
@@ -241,7 +240,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "nach Wohnviertel von 2007 bis 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2010-2019",
     "align": "left"
   },
   "yAxis": {
@@ -262,7 +261,16 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 200,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B9CFD7",
+        "width": 2,
+        "zIndex": 0
+      }
+    ]
   },
   "legend": {
     "padding": 0,
@@ -298,7 +306,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2017-7-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
   "dataLabels": {
     "enabled": false,

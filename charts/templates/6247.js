@@ -1,61 +1,42 @@
-(function(){
-    return {
-   chart:{
-   	spacing: [15,3,8,3], /*top, right, bottom and left */ /*[3,3,3,3]*/
-   	//marginRight: 100,
-   },
-   "yAxis": {
-      "labels": {
-      "format": "{value:,.0f} m²",
-    }
-  },
-  "xAxis": {
-  	tickInterval: 2
-  },
-  "series": [
-    {
-      marker: {
-        "symbol": "circle",
-        "enabled": true
-      },     
-      "color": "#83522E",
-      "dataLabels": {
-        style: {"fontSize": "10px", "fontWeight": "normal"}, 
-        "enabled": true,
-        allowOverlap: true,
-        //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-        formatter: function() {
-          var first = this.series.data[0];
-          var last  = this.series.data[this.series.data.length - 1];
-          if (this.point.y === first.y || this.point.y === last.y ) {
-            return this.point.x + ":<br/>" + Highcharts.numberFormat(this.point.y, 1, ",", " ") + "";
-          }
-          return "";
-        }
-      },
-    }
-  ],
-  "tooltip": {
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.1f} m²</b><br/>',
-    "shared": false
-  },
-  "plotOptions": {
-    /*"series": {
-      "dataLabels": {
-        "enabled": true,
-        "allowOverlap": true,
-          y: 30,
-          //display label at first or last point: https://gist.github.com/jeremywrowe/3506869
-          formatter: function() {
-            var last = this.series.data[this.series.data.length - 1];
-            var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
-              return Highcharts.numberFormat(this.point.y, 1, ",", " ");
+(function () {
+  return {
+    chart: {
+      marginRight: 10
+    },
+    "yAxis": {
+      tickInterval: 10,
+    },
+    "xAxis": {
+      tickInterval: 2,
+      tickPositioner: function () {
+        var positions = [],
+          ext = this.getExtremes(),
+          xMax = Math.round(ext.max),
+          xMin = Math.round(ext.min) + 1;
+        var xMin_even = Math.round(ext.min);
+
+        if (xMax % 2 == 1) {
+          for (var i = xMin; i < xMax; i++) {
+            if (i % 2 == 1) {
+              positions.push(i);
             }
-            return "";
           }
+          positions.push(xMax);
+          return positions;
+        } else if (xMax % 2 == 0) {
+          for (var i = xMin_even; i < xMax; i++) {
+            if (i % 2 == 0) {
+              positions.push(i);
+            }
+          }
+          positions.push(xMax);
+          return positions;
+        }
       }
-    }*/
+    },
+    "series": [
+      {
+        "color": "#83522E",
+      }]
   }
-}
 }());

@@ -4,9 +4,16 @@
       "color": "#b475ab",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
       "legendIndex": 0,
       "data": [
+        [
+          2005,
+          301
+        ],
+        [
+          2006,
+          353
+        ],
         [
           2007,
           120
@@ -46,6 +53,18 @@
         [
           2016,
           412
+        ],
+        [
+          2017,
+          369
+        ],
+        [
+          2018,
+          807
+        ],
+        [
+          2019,
+          865
         ]
       ],
       "name": "Neubau"
@@ -54,9 +73,16 @@
       "color": "#a8c4cb",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
       "legendIndex": 1,
       "data": [
+        [
+          2005,
+          -14
+        ],
+        [
+          2006,
+          -134
+        ],
         [
           2007,
           -107
@@ -96,6 +122,18 @@
         [
           2016,
           -75
+        ],
+        [
+          2017,
+          -59
+        ],
+        [
+          2018,
+          -114
+        ],
+        [
+          2019,
+          -186
         ]
       ],
       "name": "Abbruch"
@@ -104,9 +142,16 @@
       "color": "#fabd24",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
       "legendIndex": 2,
       "data": [
+        [
+          2005,
+          -72
+        ],
+        [
+          2006,
+          -56
+        ],
         [
           2007,
           -74
@@ -146,6 +191,18 @@
         [
           2016,
           106
+        ],
+        [
+          2017,
+          54
+        ],
+        [
+          2018,
+          67
+        ],
+        [
+          2019,
+          158
         ]
       ],
       "name": "Umbausaldo"
@@ -158,10 +215,15 @@
         "enabled": false
       },
       "legendIndex": 3,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
       "data": [
+        [
+          2005,
+          215
+        ],
+        [
+          2006,
+          163
+        ],
         [
           2007,
           -61
@@ -201,96 +263,28 @@
         [
           2016,
           443
+        ],
+        [
+          2017,
+          364
+        ],
+        [
+          2018,
+          760
+        ],
+        [
+          2019,
+          837
         ]
       ],
       "name": "Nettowohnungsproduktion"
     }
   ],
   "chart": {
-    "events": {
-      "load": function () {
-          this.credits.element.onclick = function () { };
-
-          //add rigt-margin if legend is top to allow space for axis-labels
-          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
-            this.update({
-              chart: {
-                marginRight: 15
-              }
-            });
-          }
-
-          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
-            this.update({
-              chart: {
-                marginTop: 7
-              }
-            });
-          }
-
-          //for top-left legends with no x defined: move legend to x position of first yAxis
-          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-            //square legends must be placed 3 pixels more to the left that lines, don't know why
-            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
-            this.update(
-              {
-                legend: {
-                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                }
-              }
-            );
-          }
-
-          if (this.yAxis[1]) {
-            this.update({
-                yAxis: [{
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                },
-                {
-                    gridLineColor: '#B9CFD7',
-                    gridLineWidth: 0.5,
-                    lineColor: '#B9CFD7',
-                    "title": {
-                        "style": {
-                            "color": "#000000",
-                            "fontSize": 10
-                        },
-                        "text": ''
-                    },
-                    "labels": {
-                        y: 3,
-                        "style": {
-                            fontSize: '10px',
-                            color: "#000000"
-                        }
-                    }
-                }]
-            });
-        }
-
-        }
-    },
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
-    "zoomType": "xy",
     "width": 320,
-    "height": 208,
+    "height": 221,
     "spacing": [
       2,
       2,
@@ -298,17 +292,112 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
     },
-    "type": "line",
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "marginTop": 5,
     "renderTo": "container-6248",
-    "spacingBottom": 2
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
+        }
+      },
+      "stacking": "normal",
+      "borderColor": 0
+    }
   },
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Nettowohnungsproduktion"
@@ -316,24 +405,42 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
-    "text": "",
+    "text": "Basel-Stadt",
     "align": "left"
   },
-  "tooltip": {
-    "shared": true
-  },
-  "yAxis": {
-    "min": -100,
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "uniqueNames": true,
     "title": {
       "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
         "color": "#000000",
-        "fontSize": 10
+        "textOverflow": "none"
+      },
+      "rotation": -45,
+      "step": 2
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -343,76 +450,67 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.0f}"
+      "format": "{value:,.0f}",
+      "x": -5
     },
-    "max": 900,
-    "tickInterval": 450,
+    "max": 1050,
+    "tickInterval": 150,
+    "min": -300,
     "plotLines": [
       {
         "value": 0,
-        "color": "white",
+        "color": "#B9CFD7",
         "width": 2,
-        "zIndex": 10
+        "zIndex": 0
       }
     ]
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": "none",
-        "whiteSpace": "nowrap"
-      }
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
     },
-    "tickLength": 0,
-    "tickInterval": 1
+    "enabled": true,
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "labelFormatter": function () {
+        return this.name.replace('Nettowohnungs', 'Netto-<br>wohnungs-<br>');
+      }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "credits": {
-    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
     "enabled": true,
     "style": {
-      "color": "#000000",
       "fontSize": "10px",
+      "color": "#000000",
       "cursor": "default"
     },
     "position": {
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -15
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik."
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
   },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "symbolRadius": 0,
-    "itemMarginBottom": 2,
-    "itemStyle": {
+  "dataLabels": {
+    "enabled": false,
+    "style": {
       "fontSize": "10px",
-      "fontWeight": "normal"
-    },
-    "padding": 0,
-    "itemDistance": 0
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "enabled": false
-      },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5,
-      "borderColor": 0
+      "color": "#000000"
     }
   },
   "exporting": {
-    "enabled": false,
     "filename": 6248
   }
 }
