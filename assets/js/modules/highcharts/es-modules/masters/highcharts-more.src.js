@@ -1,20 +1,24 @@
 /**
- * @license @product.name@ JS v@product.version@ (@product.date@)
+ * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @module highcharts/highcharts-more
+ * @requires highcharts
  *
- * (c) 2009-2016 Torstein Honsi
+ * (c) 2009-2018 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../parts-more/Pane.js';
-import '../parts-more/RadialAxis.js';
-import '../parts-more/AreaRangeSeries.js';
-import '../parts-more/AreaSplineRangeSeries.js';
-import '../parts-more/ColumnRangeSeries.js';
-import '../parts-more/GaugeSeries.js';
-import '../parts-more/BoxPlotSeries.js';
-import '../parts-more/ErrorBarSeries.js';
-import '../parts-more/WaterfallSeries.js';
-import '../parts-more/PolygonSeries.js';
-import '../parts-more/BubbleSeries.js';
-import '../parts-more/Polar.js';
+import '../Extensions/Pane.js';
+import '../Core/Axis/RadialAxis.js';
+import '../Series/AreaRangeSeries.js';
+import '../Series/AreaSplineRangeSeries.js';
+import '../Series/ColumnRangeSeries.js';
+import '../Series/ColumnPyramidSeries.js';
+import '../Series/GaugeSeries.js';
+import '../Series/BoxPlotSeries.js';
+import '../Series/ErrorBarSeries.js';
+import '../Series/WaterfallSeries.js';
+import '../Series/PolygonSeries.js';
+import '../Series/Bubble/BubbleSeries.js';
+import '../Series/PackedBubbleSeries.js';
+import '../Extensions/Polar.js';

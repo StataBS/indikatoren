@@ -1,13 +1,15 @@
 /**
- * @license @product.name@ JS v@product.version@ (@product.date@)
+ * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @module highcharts/modules/accessibility
+ * @requires highcharts
+ *
  * Accessibility module
  *
- * (c) 2010-2017 Highsoft AS
+ * (c) 2010-2019 Highsoft AS
  * Author: Oystein Moseng
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../modules/a11y-i18n.src.js';
-import '../../modules/screen-reader.src.js';
-import '../../modules/keyboard-navigation.src.js';
+
+import '../../Accessibility/Accessibility.js';
