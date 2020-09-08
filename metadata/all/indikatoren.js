@@ -27860,24 +27860,24 @@ var indikatoren = [
 		"id": 6509
 	},
 	{
-		"title": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
+		"title": "Nicht in der Schweiz geborenen Bekannte",
 		"subtitle": "«Haben Sie Bekannte, die im Kanton Basel-Stadt leben aber nicht in der Schweiz geboren oder aufgewachsen sind?», Basel-Stadt",
 		"kuerzel": "I.50.1.6510",
 		"kuerzelKunde": "D10-1",
-		"description": "Nachfrage nach nicht in der Schweiz geborenen Bekannten",
+		"description": "Nicht in der Schweiz geborenen Bekannte",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:18:33.3333",
+		"aktualisierungsdatum": "2020-09-07T16:48:19.1919",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Befragter, die mehrere Bekannte haben, welche im Kanton Basel-Stadt leben, aber nicht hier geboren oder aufgewachsen sind, ist seit 2003 von 33,4% auf 57,1% gestiegen. 2015 lag dieser Anteil noch bei 47,0%. Ausländische Befragte (91,7%) sind häufiger mit  Personen aus dem Ausland befreundet, als Personen mit einem Schweizer Pass (77,5%).",
+		"lesehilfe": "Der Anteil Befragter, die mehrere Bekannte haben, welche im Kanton Basel-Stadt leben, aber nicht in der Schweiz geboren oder aufgewachsen sind, ist seit 2003 von 33,4% auf 57,1% gestiegen. 2015 lag dieser Anteil noch bei 47,0%. Ausländische Befragte (91,7%) sind häufiger mit nicht in der Schweiz geborenen Personen befreundet, als Personen mit einem Schweizer Pass (77,5%).",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
