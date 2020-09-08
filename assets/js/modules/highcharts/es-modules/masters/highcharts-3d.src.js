@@ -1,17 +1,21 @@
 /**
- * @license @product.name@ JS v@product.version@ (@product.date@)
+ * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @module highcharts/highcharts-3d
+ * @requires highcharts
  *
  * 3D features for Highcharts JS
  *
- * @license: www.highcharts.com/license
+ * License: www.highcharts.com/license
  */
 'use strict';
-import '../parts-3d/Math.js';
-import '../parts-3d/SVGRenderer.js';
-import '../parts-3d/Chart.js';
-import '../parts-3d/Axis.js';
-import '../parts-3d/Series.js';
-import '../parts-3d/Column.js';
-import '../parts-3d/Pie.js';
-import '../parts-3d/Scatter.js';
-import '../parts-3d/VMLRenderer.js';
+import '../Extensions/Math3D.js';
+import '../Core/Renderer/SVG/SVGRenderer3D.js';
+import '../Core/Chart/Chart3D.js';
+import '../Core/Axis/ZAxis.js';
+import '../Core/Axis/Axis3D.js';
+import '../Core/Axis/Tick3D.js';
+import '../Core/Series/Series3D.js';
+import '../Series/Column3DSeries.js';
+import '../Series/Pie3DSeries.js';
+import '../Series/Scatter3DSeries.js';
+import '../Core/Renderer/VML/VMLRenderer3D.js';

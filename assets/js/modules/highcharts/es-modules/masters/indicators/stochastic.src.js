@@ -1,11 +1,14 @@
 /**
- * @license  @product.name@ JS v@product.version@ (@product.date@)
+ * @license Highstock JS v8.2.0 (2020-08-20)
+ * @module highcharts/indicators/stochastic
+ * @requires highcharts
+ * @requires highcharts/modules/stock
  *
  * Indicator series type for Highstock
  *
- * (c) 2010-2017 Paweł Fus
+ * (c) 2010-2019 Paweł Fus
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../indicators/stochastic.src.js';
+import '../../Stock/Indicators/StochasticIndicator.js';
