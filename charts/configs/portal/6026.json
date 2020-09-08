@@ -284,9 +284,6 @@
         }
       },
       "stacking": "percent"
-    },
-    "column": {
-      "stacking": "normal"
     }
   },
   "title": {

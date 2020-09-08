@@ -1,6 +1,6 @@
 Highcharts is a JavaScript charting library based on SVG, with fallbacks to VML and canvas for old browsers. This package also contains Highstock, the financial charting package, and Highmaps for geo maps.
 
-_For NPM users, please note that this module replaces the previous [Highcharts Server](https://www.npmjs.com/package/highcharts-server) module._
+This package is intended for supporting client-side JavaScript charting through bundlers like Parcel or Webpack and environments like Babel or TypeScript. If you indend to generate static charts on the server side, use the [Highcharts node.js Export Server](https://www.npmjs.com/package/highcharts-export-server) instead.
 
 * Official website: [www.highcharts.com](http://www.highcharts.com)
 * Download page: [www.highcharts.com/download](http://www.highcharts.com/download)
@@ -13,13 +13,23 @@ Please note that there are several ways to use Highcharts. For general installat
 ### Use our CDN
 Instead of downloading, you can use our CDN to access files directly. See [code.highcharts.com](https://code.highcharts.com) for details.
 ```
-<script src="https://code.highcharts.com/highcharts.src.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
 ```
 ### Install from npm
 See [npm documentation](https://docs.npmjs.com/) on how to get started with npm.
 ```
 npm install --save highcharts
 ```
+
+#### Install nightly build
+See [highcharts documentation](https://www.highcharts.com/docs/getting-started/install-from-npm) for installing the nightly build.
+
+Note that we do not recommend the use of the nightly build in production environments as it **may contain bugs and is not considered stable.**
+
+```
+npm install --save highcharts/highcharts-dist#nightly
+```
+
 
 ### Install from Bower
 See [Bower documentation](https://bower.io/) on how to get started with Bower.
@@ -80,13 +90,4 @@ Highcharts.chart('container', {
   // options - see https://api.highcharts.com/highcharts
 });
 ```
-
-## Styled mode vs classic 
-* The files for _classic_ mode are available on root. This is the regular mode
-where presentational attributes and styling is set in the options structure.
-* The JavaScript files for _styled mode_ are available under the `/js/` folder.
-In these files, most presentational code including options are removed, so
-without styling it will draw an ugly black-and-white chart if anything.
-* The default CSS file for _styled mode_ is available as `/css/highcharts.css`.
-This CSS is in turn based on a SCSS file, `/css/highcharts.scss`.
 

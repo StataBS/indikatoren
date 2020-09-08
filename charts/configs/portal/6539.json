@@ -53,7 +53,7 @@
         "symbol": "diamond",
         "radius": 8
       },
-      "pointPlacement": -0.15,
+      "pointPlacement": -10,
       "data": [
         [
           "1- und 2-Sterne",
@@ -82,7 +82,7 @@
         "symbol": "diamond",
         "radius": 8
       },
-      "pointPlacement": 0.15,
+      "pointPlacement": 0.5,
       "data": [
         [
           "1- und 2-Sterne",
@@ -140,23 +140,23 @@
     "panning": true,
     "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-            //move legend title
-            var title = this.legend.title;
-            title.translate(-215, 40);
-          }
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+					//move legend title
+					var title = this.legend.title;
+					title.translate(-235, 45);
+				}
     },
     "type": "column",
     "renderTo": "container-6539",
@@ -177,9 +177,9 @@
       "yAxis": 1,
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-        "pointFormatter": function(){ 
-              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
-          }
+        "pointFormatter": function () {
+						return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+					}
       }
     }
   },
@@ -239,9 +239,9 @@
         "style": {
           "color": "#000000"
         },
-        "formatter": function() {
-               return 100 * this.value + "%";
-            }
+        "formatter": function () {
+						return 100 * this.value + "%";
+					}
       }
     }
   ],
@@ -252,22 +252,25 @@
       "width": 40
     },
     "useHTML": true,
-    "y": -40,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
     "align": "right",
-    "width": 200,
+    "y": -50,
+    "itemMarginBottom": 5,
+    "width": 180,
     "itemWidth": 70,
-    "labelFormatter": function(){
-        //remove text before year on each item with odd index
-        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
-        return this.name.slice(-4);
-    },
+    "labelFormatter": function () {
+				//remove text before year on each item with odd index
+				//return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+				return this.name.slice(-4);
+			},
     "title": {
-      "text": "Verfügbare Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung (rechte Skala):",
+      "text": "Verfügbare Zimmer:\u003Cbr\u002F\u003ENettozimmerauslastung&nbsp;(rechte&nbsp;Skala):",
       "style": {
-        "fontWeight": "normal"
+        "fontWeight": "normal",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap",
+        "lineHeight": 1.5
       }
     }
   },

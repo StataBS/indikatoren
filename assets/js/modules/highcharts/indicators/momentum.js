@@ -1,11 +1,13 @@
 /*
-  Highcharts JS v6.1.1 (2018-06-27)
+ Highstock JS v8.2.0 (2020-08-20)
 
  Indicator series type for Highstock
 
- (c) 2010-2017 Sebastian Bochan
+ (c) 2010-2019 Sebastian Bochan
 
  License: www.highcharts.com/license
 */
-(function(a){"object"===typeof module&&module.exports?module.exports=a:a(Highcharts)})(function(a){(function(a){function m(n,b,a,e,c){a=a[e-1][3]-a[e-c-1][3];b=b[e-1];n.shift();return[b,a]}var p=a.isArray;a=a.seriesType;a("momentum","sma",{params:{period:14}},{nameBase:"Momentum",getValues:function(a,b){b=b.period;var f=a.xData,e=(a=a.yData)?a.length:0,c=f[0],g=[],h=[],k=[],l,d;if(f.length<=b||!p(a[0]))return!1;l=[[c,a[0][3]]];for(c=b+1;c<e;c++)d=m(l,f,a,c,b,void 0),g.push(d),h.push(d[0]),k.push(d[1]);
-d=m(l,f,a,c,b,void 0);g.push(d);h.push(d[0]);k.push(d[1]);return{values:g,xData:h,yData:k}}})})(a)});
+(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/momentum",["highcharts","highcharts/modules/stock"],function(b){a(b);a.Highcharts=b;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function b(a,b,k,p){a.hasOwnProperty(b)||(a[b]=p.apply(null,k))}a=a?a._modules:{};b(a,"Stock/Indicators/MomentumIndicator.js",[a["Core/Utilities.js"]],function(a){function b(a,b,c,g,
+d){c=c[g-1][3]-c[g-d-1][3];b=b[g-1];a.shift();return[b,c]}var k=a.isArray;a=a.seriesType;a("momentum","sma",{params:{period:14}},{nameBase:"Momentum",getValues:function(a,f){f=f.period;var c=a.xData,g=(a=a.yData)?a.length:0,d=c[0],l=[],m=[],n=[];if(!(c.length<=f)&&k(a[0])){var h=a[0][3];h=[[d,h]];for(d=f+1;d<g;d++){var e=b(h,c,a,d,f,void 0);l.push(e);m.push(e[0]);n.push(e[1])}e=b(h,c,a,d,f,void 0);l.push(e);m.push(e[0]);n.push(e[1]);return{values:l,xData:m,yData:n}}}});""});b(a,"masters/indicators/momentum.src.js",
+[],function(){})});
+//# sourceMappingURL=momentum.js.map

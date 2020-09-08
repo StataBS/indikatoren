@@ -235,7 +235,7 @@ return {
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
-                    var chartHeight = 72;
+                    var chartHeight = 60//72;
                     var columnWidth = 5;
 					
 					//put the columns on the map

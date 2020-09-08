@@ -1,11 +1,12 @@
 /*
-  Highcharts JS v6.1.1 (2018-06-27)
+ Highstock JS v8.2.0 (2020-08-20)
 
  Indicator series type for Highstock
 
- (c) 2010-2017 Kacper Madej
+ (c) 2010-2019 Kacper Madej
 
  License: www.highcharts.com/license
 */
-(function(b){"object"===typeof module&&module.exports?module.exports=b:b(Highcharts)})(function(b){(function(b){var f=b.seriesType,m=b.isArray;f("roc","sma",{params:{index:3,period:9}},{nameBase:"Rate of Change",getValues:function(d,c){var b=c.period,g=d.xData,f=(d=d.yData)?d.length:0,h=[],k=[],l=[],e=-1,a;if(g.length<=b)return!1;m(d[0])&&(e=c.index);for(c=b;c<f;c++)a=0>e?(a=d[c-b])?(d[c]-a)/a*100:null:(a=d[c-b][e])?(d[c][e]-a)/a*100:null,a=[g[c],a],h.push(a),k.push(a[0]),l.push(a[1]);return{values:h,
-xData:k,yData:l}}})})(b)});
+(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/roc",["highcharts","highcharts/modules/stock"],function(d){a(d);a.Highcharts=d;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function d(a,d,g,b){a.hasOwnProperty(d)||(a[d]=b.apply(null,g))}a=a?a._modules:{};d(a,"Stock/Indicators/ROCIndicator.js",[a["Core/Utilities.js"]],function(a){var d=a.isArray;a=a.seriesType;
+a("roc","sma",{params:{index:3,period:9}},{nameBase:"Rate of Change",getValues:function(a,b){var e=b.period,h=a.xData,g=(a=a.yData)?a.length:0,k=[],l=[],m=[],f=-1;if(!(h.length<=e)){d(a[0])&&(f=b.index);for(b=e;b<g;b++){var c=0>f?(c=a[b-e])?(a[b]-c)/c*100:null:(c=a[b-e][f])?(a[b][f]-c)/c*100:null;c=[h[b],c];k.push(c);l.push(c[0]);m.push(c[1])}return{values:k,xData:l,yData:m}}}});""});d(a,"masters/indicators/roc.src.js",[],function(){})});
+//# sourceMappingURL=roc.js.map

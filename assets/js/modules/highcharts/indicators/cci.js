@@ -1,11 +1,13 @@
 /*
-  Highcharts JS v6.1.1 (2018-06-27)
+ Highstock JS v8.2.0 (2020-08-20)
 
  Indicator series type for Highstock
 
- (c) 2010-2017 Sebastian Bochan
+ (c) 2010-2019 Sebastian Bochan
 
  License: www.highcharts.com/license
 */
-(function(a){"object"===typeof module&&module.exports?module.exports=a:a(Highcharts)})(function(a){(function(a){function r(c){return a.reduce(c,function(c,a){return c+a},0)}var t=a.isArray,k=a.seriesType;k("cci","sma",{params:{period:14}},{getValues:function(c,a){a=a.period;var h=c.xData,k=(c=c.yData)?c.length:0,l=[],e,d=1,m=[],n=[],p=[],b,f;if(h.length<=a||!t(c[0])||4!==c[0].length)return!1;for(;d<a;)b=c[d-1],l.push((b[1]+b[2]+b[3])/3),d++;for(d=a;d<=k;d++){b=c[d-1];b=(b[1]+b[2]+b[3])/3;f=l.push(b);
-e=l.slice(f-a);f=r(e)/a;var u=e.length,q=0,g;for(g=0;g<u;g++)q+=Math.abs(f-e[g]);e=q/a;b=(b-f)/(.015*e);m.push([h[d-1],b]);n.push(h[d-1]);p.push(b)}return{values:m,xData:n,yData:p}}})})(a)});
+(function(a){"object"===typeof module&&module.exports?(a["default"]=a,module.exports=a):"function"===typeof define&&define.amd?define("highcharts/indicators/cci",["highcharts","highcharts/modules/stock"],function(c){a(c);a.Highcharts=c;return a}):a("undefined"!==typeof Highcharts?Highcharts:void 0)})(function(a){function c(a,c,k,l){a.hasOwnProperty(c)||(a[c]=l.apply(null,k))}a=a?a._modules:{};c(a,"Stock/Indicators/CCIIndicator.js",[a["Core/Utilities.js"]],function(a){function c(a){return a.reduce(function(a,
+c){return a+c},0)}var k=a.isArray;a=a.seriesType;a("cci","sma",{params:{period:14}},{getValues:function(a,e){e=e.period;var m=a.xData,l=(a=a.yData)?a.length:0,n=[],d=1,p=[],q=[],r=[];if(!(m.length<=e)&&k(a[0])&&4===a[0].length){for(;d<e;){var b=a[d-1];n.push((b[1]+b[2]+b[3])/3);d++}for(d=e;d<=l;d++){b=a[d-1];b=(b[1]+b[2]+b[3])/3;var g=n.push(b);var f=n.slice(g-e);g=c(f)/e;var h,u=f.length,t=0;for(h=0;h<u;h++)t+=Math.abs(g-f[h]);f=t/e;b=(b-g)/(.015*f);p.push([m[d-1],b]);q.push(m[d-1]);r.push(b)}return{values:p,
+xData:q,yData:r}}}});""});c(a,"masters/indicators/cci.src.js",[],function(){})});
+//# sourceMappingURL=cci.js.map
