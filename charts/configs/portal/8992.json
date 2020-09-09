@@ -688,23 +688,27 @@
         ],
         [
           1583024400000,
-          77730
+          77847
         ],
         [
           1585706400000,
-          88200
+          88894
         ],
         [
           1588298400000,
-          87595
+          88298
         ],
         [
           1590976800000,
-          85215
+          85881
         ],
         [
           1593568800000,
-          68260
+          69729
+        ],
+        [
+          1596247200000,
+          69764
         ]
       ],
       "name": "Kurzarbeit, beantragt"
@@ -1397,23 +1401,27 @@
         ],
         [
           1583024400000,
-          77630
+          77736
         ],
         [
           1585706400000,
-          87635
+          88323
         ],
         [
           1588298400000,
-          87026
+          87716
         ],
         [
           1590976800000,
-          84672
+          85330
         ],
         [
           1593568800000,
-          67730
+          69191
+        ],
+        [
+          1596247200000,
+          69222
         ]
       ],
       "name": "Kurzarbeit, genehmigt"
@@ -2123,6 +2131,10 @@
         [
           1593568800000,
           undefined
+        ],
+        [
+          1596247200000,
+          undefined
         ]
       ],
       "name": "Kurzarbeit, abgerechnet"
@@ -2244,7 +2256,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-10"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-9"
   },
   "legend": {
     "symbolRadius": 0,
