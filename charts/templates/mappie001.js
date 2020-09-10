@@ -122,7 +122,7 @@
                 //Outline Wohnviertel if all choropleth shapes have been deselected through classed colorAxis, see https://forum.highcharts.com/highmaps-usage-f14/outline-shapes-hidden-by-click-onto-classed-coloraxis-t40837/
 				name: "WohnviertelOutline",
               	enableMouseTracking: false,
-                color: '#ededed',
+				color: '#ededed',
                 borderWidth: 1,
                 borderColor: '#fbfbfb',
 				"animation": true,
@@ -505,7 +505,8 @@
 		                        ],
 		                        dataLabels: {
 							        enabled: false
-							    }    	                        
+								},
+								colorAxis: false
 	                        };
 	                        //create the config handed in from the chart
 	                        var pieTemplate = config(data, correspondingMapSeriesItem, color);
