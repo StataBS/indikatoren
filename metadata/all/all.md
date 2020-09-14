@@ -1819,6 +1819,9 @@ id | visible | visibleInPortal | indikatorenset
 8995 | true | true | 
 8998 | true | false | 
 8999 | true | false | 
+9001 | true | true | Energiestatistik
+9005 | true | true | Energiestatistik
+9007 | true | true | Energiestatistik
 9011 | true | false | 
 9012 | true | false | 
 9013 | true | false | 

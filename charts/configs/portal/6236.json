@@ -48,6 +48,10 @@
         [
           "2017",
           18785
+        ],
+        [
+          "2018",
+          18211
         ]
       ],
       "name": "Pharmaindustrie",
@@ -101,6 +105,10 @@
         [
           "2017",
           8359
+        ],
+        [
+          "2018",
+          8208
         ]
       ],
       "name": "Übriges verarbeit. Gewerbe",
@@ -154,6 +162,10 @@
         [
           "2017",
           9286
+        ],
+        [
+          "2018",
+          9059
         ]
       ],
       "name": "Bau, Energie, Wasser",
@@ -207,6 +219,10 @@
         [
           "2017",
           25988
+        ],
+        [
+          "2018",
+          25902
         ]
       ],
       "name": "Handel und Verkehr",
@@ -260,6 +276,10 @@
         [
           "2017",
           10705
+        ],
+        [
+          "2018",
+          10861
         ]
       ],
       "name": "Finanzen, Versicherung",
@@ -313,6 +333,10 @@
         [
           "2017",
           37896
+        ],
+        [
+          "2018",
+          37429
         ]
       ],
       "name": "Unternehmens-DL, Freiberufe",
@@ -366,6 +390,10 @@
         [
           "2017",
           18976
+        ],
+        [
+          "2018",
+          19686
         ]
       ],
       "name": "Öff. Verwaltung und Bildung",
@@ -419,6 +447,10 @@
         [
           "2017",
           31449
+        ],
+        [
+          "2018",
+          31737
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -472,6 +504,10 @@
         [
           "2017",
           29522
+        ],
+        [
+          "2018",
+          29663
         ]
       ],
       "name": "Übrige Branchen",
@@ -615,7 +651,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

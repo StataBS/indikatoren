@@ -107,6 +107,10 @@
         [
           2016,
           69822.5406
+        ],
+        [
+          2017,
+          69373.35438
         ]
       ],
       "name": "Mittelwert"
@@ -218,6 +222,10 @@
         [
           2016,
           49334.5
+        ],
+        [
+          2017,
+          49558
         ]
       ],
       "name": "Median"
@@ -329,6 +337,10 @@
         [
           2016,
           190403.8791
+        ],
+        [
+          2017,
+          187432.2216
         ]
       ],
       "name": "Mittelwert oberstes Quintil"
@@ -440,6 +452,10 @@
         [
           2016,
           6419.441661
+        ],
+        [
+          2017,
+          6338.701871
         ]
       ],
       "name": "Mittelwert unterstes Quintil"
@@ -614,7 +630,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
   },
   "legend": {
     "enabled": true,
