@@ -4,10 +4,6 @@
       "color": "#8b2223",
       "data": [
         [
-          2009,
-          57.7
-        ],
-        [
           2010,
           57.6
         ],
@@ -41,6 +37,10 @@
         ],
         [
           2018,
+          56.9
+        ],
+        [
+          2019,
           56.9
         ]
       ],
@@ -217,7 +217,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
   },
   "legend": {
     "enabled": false,

@@ -31,5 +31,6 @@ var indikatorensetNames = [
 	"CMS Kennzahlen Soziales (Print)",
 	"Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 	"Nachhaltigkeit (Print)",
+	"Energiestatistik",
 	"Test"
 ];
