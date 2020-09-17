@@ -4104,7 +4104,7 @@
         ],
         [
           1597622400000,
-          null
+          3
         ],
         [
           1598227200000,
@@ -13520,7 +13520,7 @@
         ],
         [
           1597622400000,
-          null
+          27
         ],
         [
           1598227200000,
@@ -18849,8 +18849,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1581577383749,
-    "max": 1602745383749,
+    "min": 1582178859707,
+    "max": 1603346859707,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -18991,7 +18991,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
