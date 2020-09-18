@@ -209,13 +209,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-21T08:37:40.4040",
+		"aktualisierungsdatum": "2020-09-18T07:52:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "55 522 Übernachtungen wurden im Juli 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 61,6% bzw. 89 084 Logiernächte. Gleichzeitig ist dies jedoch der höchste Wert seit März. Die inländischen Gäste buchten 28 443 Logiernächte (-38,6%), die Gäste aus dem Ausland 27 079 Übernachtungen (-72,4%).",
+		"lesehilfe": "62 515 Übernachtungen wurden im August 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 50,8% bzw. 64 547 Logiernächte. Gleichzeitig ist dies jedoch der höchste Wert seit März. Die inländischen Gäste buchten 31 995 Logiernächte (-17,9%), die Gäste aus dem Ausland 30 520 Übernachtungen (-65,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -238,7 +238,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
+		"subtitle": "Basel-Stadt, August",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -248,13 +248,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-21T08:39:44.4444",
+		"aktualisierungsdatum": "2020-09-18T07:52:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35% und gegenüber dem Vorjahresmonat um rund 44 Prozentpunkte tiefer.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35% und gegenüber dem Vorjahresmonat um rund 30 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
