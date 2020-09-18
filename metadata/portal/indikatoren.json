@@ -14288,7 +14288,7 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2017",
+		"subtitle": "nach Alter und Geschlecht in m², Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.6366",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -14298,14 +14298,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-20T11:27:19.1919",
+		"aktualisierungsdatum": "2020-09-17T17:42:30.3030",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 4 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
-		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person nimmt mit zunehmendem Alter zu. Frauen ab 55 Jahren haben einen 3,5 bis fast 10&nbsp;m² grösseren Wohnflächenverbrauch pro Kopf als Männer derselben Altersgruppe.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die Summe der Wohnungsflächen durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Als Wohnungsfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z.B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -14318,9 +14318,13 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6366,
+		"chart-id": 6366,
+		"filter": "",
 		"id": 6366
 	},
 	{
@@ -25452,13 +25456,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-21T08:37:40.4040",
+		"aktualisierungsdatum": "2020-09-18T07:52:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "55 522 Übernachtungen wurden im Juli 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 61,6% bzw. 89 084 Logiernächte. Gleichzeitig ist dies jedoch der höchste Wert seit März. Die inländischen Gäste buchten 28 443 Logiernächte (-38,6%), die Gäste aus dem Ausland 27 079 Übernachtungen (-72,4%).",
+		"lesehilfe": "62 515 Übernachtungen wurden im August 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 50,8% bzw. 64 547 Logiernächte. Gleichzeitig ist dies jedoch der höchste Wert seit März. Die inländischen Gäste buchten 31 995 Logiernächte (-17,9%), die Gäste aus dem Ausland 30 520 Übernachtungen (-65,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -25482,7 +25486,7 @@
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juli",
+		"subtitle": "Basel-Stadt, August",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -25492,13 +25496,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-21T08:39:44.4444",
+		"aktualisierungsdatum": "2020-09-18T07:52:40.4040",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35% und gegenüber dem Vorjahresmonat um rund 44 Prozentpunkte tiefer.",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35% und gegenüber dem Vorjahresmonat um rund 30 Prozentpunkte tiefer.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -38223,7 +38227,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-09T16:34:06.066",
+		"aktualisierungsdatum": "2020-09-17T10:52:21.2121",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -38263,7 +38267,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-09T17:17:58.5858",
+		"aktualisierungsdatum": "2020-09-17T10:53:44.4444",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
