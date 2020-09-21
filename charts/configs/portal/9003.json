@@ -4,39 +4,27 @@
       "color": "#FF8028",
       "data": [
         [
-          1995,
-          7.4
-        ],
-        [
-          2000,
-          7.6
-        ],
-        [
-          2004,
-          8.3
-        ],
-        [
           2010,
-          8.6
+          373.6
         ],
         [
           2012,
-          8
+          423.7
         ],
         [
           2014,
-          7.4
+          466.5
         ],
         [
           2016,
-          7.4
+          491
         ],
         [
           2018,
-          6.7
+          431.4
         ]
       ],
-      "name": "Elektrizitätsverbrauch pro Einwohner"
+      "name": "Eigenproduktion Elektrizität"
     }
   ],
   "chart": {
@@ -75,7 +63,7 @@
     "type": "line",
     "animation": false,
     "inverted": false,
-    "renderTo": "container-9005",
+    "renderTo": "container-9003",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -87,7 +75,7 @@
         }
       },
       "pointPadding": 0,
-      "pointWidth": 14
+      "pointWidth": 50
     }
   },
   "title": {
@@ -97,10 +85,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Elektrizitätsverbrauch pro Einwohner"
+    "text": "Eigenproduktion Elektrizität"
   },
   "subtitle": {
-    "text": "in MWh, Basel-Stadt",
+    "text": "in GWh, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -121,17 +109,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "rotation": -45
-    },
-    "tickPositioner": function () {
-        var interval = 2,
-        ext = this.getExtremes(),
-        i = ext.dataMax,
-        pos = [i];
-        while (i >= ext.dataMin) pos.unshift(i = i - interval);
-        return pos;
       }
+    }
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -148,7 +127,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.1f}"
+      "format": "{value:,.0f}"
     },
     "min": 0
   },
@@ -185,9 +164,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} MWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh \u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9005
+    "filename": 9003
   }
 }

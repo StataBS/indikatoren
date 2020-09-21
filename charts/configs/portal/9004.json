@@ -5,38 +5,38 @@
       "data": [
         [
           1995,
-          7.4
+          86.5
         ],
         [
           2000,
-          7.6
+          86
         ],
         [
           2004,
-          8.3
+          87.2
         ],
         [
           2010,
-          8.6
+          82
         ],
         [
           2012,
-          8
+          78.9
         ],
         [
           2014,
-          7.4
+          76
         ],
         [
           2016,
-          7.4
+          75.8
         ],
         [
           2018,
-          6.7
+          75
         ]
       ],
-      "name": "Elektrizitätsverbrauch pro Einwohner"
+      "name": "Energieimportabhängigkeit"
     }
   ],
   "chart": {
@@ -75,7 +75,7 @@
     "type": "line",
     "animation": false,
     "inverted": false,
-    "renderTo": "container-9005",
+    "renderTo": "container-9004",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -97,10 +97,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Elektrizitätsverbrauch pro Einwohner"
+    "text": "Energieimportabhängigkeit"
   },
   "subtitle": {
-    "text": "in MWh, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -148,7 +148,7 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value:,.1f}"
+      "format": "{value:,.0f}%"
     },
     "min": 0
   },
@@ -185,9 +185,9 @@
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} MWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9005
+    "filename": 9004
   }
 }
