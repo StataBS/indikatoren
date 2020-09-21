@@ -1,0 +1,367 @@
+{
+  "series": [
+    {
+      "color": "#DC440E",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1995",
+          1470
+        ],
+        [
+          "2000",
+          1445
+        ],
+        [
+          "2004",
+          1572
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2012",
+          0
+        ],
+        [
+          "2014",
+          0
+        ],
+        [
+          "2016",
+          0
+        ],
+        [
+          "2018",
+          0
+        ]
+      ],
+      "name": "Total (bis 2004)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1995",
+          0
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          1254.7
+        ],
+        [
+          "2012",
+          1121.7
+        ],
+        [
+          "2014",
+          978.4
+        ],
+        [
+          "2016",
+          974.6
+        ],
+        [
+          "2018",
+          912
+        ]
+      ],
+      "name": "Bezug ausserkantonal",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1995",
+          0
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          3.4
+        ],
+        [
+          "2012",
+          6
+        ],
+        [
+          "2014",
+          13.1
+        ],
+        [
+          "2016",
+          20.9
+        ],
+        [
+          "2018",
+          22.7
+        ]
+      ],
+      "name": "Fotovoltaik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1995",
+          0
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          160
+        ],
+        [
+          "2012",
+          157.4
+        ],
+        [
+          "2014",
+          170.9
+        ],
+        [
+          "2016",
+          191
+        ],
+        [
+          "2018",
+          157.6
+        ]
+      ],
+      "name": "Thermische Erzeugung",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1995",
+          0
+        ],
+        [
+          "2000",
+          0
+        ],
+        [
+          "2004",
+          0
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          210.2
+        ],
+        [
+          "2012",
+          260.3
+        ],
+        [
+          "2014",
+          282.6
+        ],
+        [
+          "2016",
+          279.1
+        ],
+        [
+          "2018",
+          251.2
+        ]
+      ],
+      "name": "Wasserkarft",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9006",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Elektrizitätsverbrauch nach Produktionsart"
+  },
+  "subtitle": {
+    "text": "in GWh, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 7,
+    "min": 0,
+    "reversedStacks": true
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 10
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": 9006
+  }
+}
