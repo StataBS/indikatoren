@@ -6,38 +6,6 @@
       "data": [
         [
           "bis 29 m²",
-          24
-        ],
-        [
-          "30-49 m²",
-          72
-        ],
-        [
-          "50-69 m²",
-          157
-        ],
-        [
-          "70-99 m²",
-          178
-        ],
-        [
-          "100-149 m²",
-          92
-        ],
-        [
-          "150+ m²",
-          23
-        ]
-      ],
-      "name": "2017",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#68ab2b",
-      "visible": false,
-      "data": [
-        [
-          "bis 29 m²",
           40
         ],
         [
@@ -65,7 +33,8 @@
       "turboThreshold": 0
     },
     {
-      "color": "#0a3b19",
+      "color": "#68ab2b",
+      "visible": false,
       "data": [
         [
           "bis 29 m²",
@@ -96,47 +65,38 @@
       "turboThreshold": 0
     },
     {
-      "color": "#ff8028",
-      "marker": {
-        "enabled": false
-      },
-      "yAxis": 1,
-      "type": "line",
-      "visible": false,
-      "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
-      },
+      "color": "#0a3b19",
       "data": [
         [
           "bis 29 m²",
-          0.786885245901
+          73
         ],
         [
           "30-49 m²",
-          0.52283784765
+          167
         ],
         [
           "50-69 m²",
-          0.4945193398
+          310
         ],
         [
           "70-99 m²",
-          0.470725128259
+          333
         ],
         [
           "100-149 m²",
-          0.55622732769
+          154
         ],
         [
           "150+ m²",
-          0.371147329352
+          33
         ]
       ],
-      "name": "LWQ 2017",
+      "name": "2020",
       "turboThreshold": 0
     },
     {
-      "color": "#923f8d",
+      "color": "#ff8028",
       "marker": {
         "enabled": false
       },
@@ -176,12 +136,13 @@
       "turboThreshold": 0
     },
     {
-      "color": "#b00000",
+      "color": "#923f8d",
       "marker": {
         "enabled": false
       },
       "yAxis": 1,
       "type": "line",
+      "visible": false,
       "tooltip": {
         "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
@@ -212,6 +173,45 @@
         ]
       ],
       "name": "LWQ 2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "marker": {
+        "enabled": false
+      },
+      "yAxis": 1,
+      "type": "line",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "bis 29 m²",
+          2.318932655654
+        ],
+        [
+          "30-49 m²",
+          1.191155492154
+        ],
+        [
+          "50-69 m²",
+          0.955963981744
+        ],
+        [
+          "70-99 m²",
+          0.860954547805
+        ],
+        [
+          "100-149 m²",
+          0.901006318746
+        ],
+        [
+          "150+ m²",
+          0.525561395127
+        ]
+      ],
+      "name": "LWQ 2020",
       "turboThreshold": 0
     }
   ],
@@ -368,7 +368,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

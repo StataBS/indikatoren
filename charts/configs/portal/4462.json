@@ -35,6 +35,10 @@
         [
           "2017",
           77479
+        ],
+        [
+          "2018",
+          74928
         ]
       ],
       "name": "Schweizer ohne Migrationshintergrund",
@@ -75,6 +79,10 @@
         [
           "2017",
           26437
+        ],
+        [
+          "2018",
+          28547
         ]
       ],
       "name": "Schweizer mit Migrationshintergrund",
@@ -115,6 +123,10 @@
         [
           "2017",
           53018
+        ],
+        [
+          "2018",
+          53793
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (1. Generation)",
@@ -155,6 +167,10 @@
         [
           "2017",
           4695
+        ],
+        [
+          "2018",
+          4537
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (2. Generation)",
@@ -195,6 +211,10 @@
         [
           "2017",
           111
+        ],
+        [
+          "2018",
+          78
         ]
       ],
       "name": "Ausländer ohne Migrationshintergrund (3. Generation)",
@@ -265,6 +285,7 @@
           "fontSize": "10px"
         }
       },
+      "minPointLength": 3,
       "stacking": "normal"
     }
   },
@@ -335,11 +356,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-2"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true
   },
   "exporting": {
     "filename": 4462

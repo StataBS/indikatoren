@@ -5,10 +5,6 @@
       "legendIndex": 2,
       "data": [
         [
-          2010,
-          1.2
-        ],
-        [
           2011,
           1
         ],
@@ -43,6 +39,10 @@
         [
           2019,
           0.7
+        ],
+        [
+          2020,
+          0.4
         ]
       ],
       "name": "Weiterbildungsschule\u002FSek"
@@ -51,10 +51,6 @@
       "color": "#662673",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          0
-        ],
         [
           2011,
           0
@@ -90,6 +86,10 @@
         [
           2019,
           6.7
+        ],
+        [
+          2020,
+          5.6
         ]
       ],
       "name": "Spezialangebote WBS\u002FSek"
@@ -98,10 +98,6 @@
       "color": "#008AC3",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          6.3
-        ],
         [
           2011,
           4.1
@@ -137,6 +133,10 @@
         [
           2019,
           10.1
+        ],
+        [
+          2020,
+          15
         ]
       ],
       "name": "Zentrum für Brückenangebote"
@@ -145,10 +145,6 @@
       "color": "#007A2F",
       "legendIndex": 0,
       "data": [
-        [
-          2010,
-          4.9
-        ],
         [
           2011,
           11
@@ -184,6 +180,10 @@
         [
           2019,
           9.6
+        ],
+        [
+          2020,
+          18.5
         ]
       ],
       "name": "Allg. Gewerbeschule"
@@ -195,10 +195,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2010,
-          12.2
-        ],
         [
           2011,
           5.9
@@ -234,6 +230,10 @@
         [
           2019,
           14.3
+        ],
+        [
+          2020,
+          0
         ]
       ],
       "name": "Berufsfachschule"
@@ -362,7 +362,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-3"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

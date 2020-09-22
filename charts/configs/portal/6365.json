@@ -6,11 +6,11 @@
       "data": [
         [
           "Ausland",
-          33.78
+          34.51
         ],
         [
           "Schweiz",
-          42.96
+          43.15
         ]
       ],
       "name": "Männlich",
@@ -22,11 +22,11 @@
       "data": [
         [
           "Ausland",
-          34.33
+          35.02
         ],
         [
           "Schweiz",
-          46.87
+          47.03
         ]
       ],
       "name": "Weiblich",
@@ -38,11 +38,11 @@
       "data": [
         [
           "Ausland",
-          34.05
+          34.76
         ],
         [
           "Schweiz",
-          45.05
+          45.21
         ]
       ],
       "name": "Total",
@@ -126,7 +126,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2017",
+    "text": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -183,7 +183,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-9-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
