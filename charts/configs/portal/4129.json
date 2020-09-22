@@ -47,6 +47,10 @@
         [
           "2019",
           1058
+        ],
+        [
+          "2020",
+          847
         ]
       ],
       "name": "1 Zimmer",
@@ -99,6 +103,10 @@
         [
           "2019",
           1286
+        ],
+        [
+          "2020",
+          1283
         ]
       ],
       "name": "2 Zimmer",
@@ -151,6 +159,10 @@
         [
           "2019",
           1648
+        ],
+        [
+          "2020",
+          1614
         ]
       ],
       "name": "3 Zimmer",
@@ -203,6 +215,10 @@
         [
           "2019",
           2242
+        ],
+        [
+          "2020",
+          2256
         ]
       ],
       "name": "4 Zimmer",
@@ -255,6 +271,10 @@
         [
           "2019",
           2921
+        ],
+        [
+          "2020",
+          3446
         ]
       ],
       "name": "5 Zimmer",
@@ -390,7 +410,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-8-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

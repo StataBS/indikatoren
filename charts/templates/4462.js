@@ -2,6 +2,7 @@
     return {
   "plotOptions": {
     "series": {
+      "minPointLength": 3,
       //"pointWidth": 50,
       "dataLabels": {
         "style": {
@@ -22,7 +23,7 @@
   },
   "tooltip": {
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
-    "shared": false
+    "shared": true
   },  
   "legend": {
     "layout": "horizontal",

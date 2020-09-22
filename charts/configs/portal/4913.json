@@ -7,32 +7,20 @@
       },
       "data": [
         [
-          2012,
-          6353156
-        ],
-        [
-          2013,
-          5253612
-        ],
-        [
-          2014,
-          5081241
-        ],
-        [
-          2015,
-          4982710
-        ],
-        [
           2016,
-          8513332
+          26612775
         ],
         [
           2017,
-          8072208
+          28895286
         ],
         [
           2018,
-          8857882
+          30340850
+        ],
+        [
+          2019,
+          34160303
         ]
       ],
       "name": "Einfuhren"
@@ -44,32 +32,20 @@
       },
       "data": [
         [
-          2012,
-          21503000
-        ],
-        [
-          2013,
-          22041000
-        ],
-        [
-          2014,
-          22038000
-        ],
-        [
-          2015,
-          20865000
-        ],
-        [
           2016,
-          22634644
+          52753612
         ],
         [
           2017,
-          24004638
+          55927644
         ],
         [
           2018,
-          23602226
+          56815220
+        ],
+        [
+          2019,
+          63761256
         ]
       ],
       "name": "Ausfuhren"
@@ -157,7 +133,7 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -199,7 +175,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-24"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
