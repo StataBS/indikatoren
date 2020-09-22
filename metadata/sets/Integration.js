@@ -2792,22 +2792,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:13:59.5959",
+		"aktualisierungsdatum": "2020-09-21T09:45:54.5454",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2&nbsp;400 Veranlagungen) im Steuerjahr 2016 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 130&nbsp;000&nbsp;Franken. Den kleinsten Mittelwert weisen die Veranlagungen aus afrikanischen Ländern auf, mit rund 32&nbsp;400&nbsp;Franken (ca. 700 Veranlagungen).",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 500 Veranlagungen) im Steuerjahr 2017 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 126 400 Franken. Den kleinsten Mittelwert weisen die Veranlagungen von Personen aus afrikanischen Ländern auf, mit rund 33 100 Franken (ca. 700 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_028",
+		"orderKey": "03_00_00_00_00_602",
 		"parentId": null,
 		"children": [
-			"6709",
-			"7850"
+			"6709"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -2834,18 +2833,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:05.055",
+		"aktualisierungsdatum": "2020-09-21T09:47:56.5656",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2016 liegt wie bereits 2007 bei Veranlagungen von Personen aus Deutschland vor. 2016 beträgt er ca. 72&nbsp;000 Franken. Den kleinsten Median verzeichnet 2016 die Gruppe «Afrikanische Länder» mit rund 24&nbsp;000 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2017 liegt wie bereits 2008 bei Veranlagungen von Personen aus Deutschland vor. 2017 beträgt er ca. 72 700 Franken. Den kleinsten Median verzeichnet 2017 die Gruppe «Afrikanische Länder» mit rund 24 000 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_029",
+		"orderKey": "03_00_00_00_00_603",
 		"parentId": null,
 		"children": [
 			"6710"
@@ -3082,18 +3081,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:22:23.2323",
+		"aktualisierungsdatum": "2020-09-21T09:48:56.5656",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2018 für Schweizer 44,9 m², für Ausländer 34,1 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
-		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2019 für Schweizerinnen und Schweizer 45,2 m², für Ausländerinnen und Ausländer 34,8 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizerische Staatsangehörige verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als ausländische Staatsangehörige.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die Summe der Wohnungsflächen durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Als Wohnungsfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z.B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "04_00_00_00_00_201",
 		"parentId": null,
 		"children": [
 			"6716"

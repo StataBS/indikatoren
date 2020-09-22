@@ -749,13 +749,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2020-09-21T15:27:58.5858",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. In der Dekade 2010 bis 2019 lag sie fast immer darunter.",
+		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 lag sie dagegen fast immer darunter.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -2015,5 +2015,44 @@ var indikatorensetData = [
 		"chart-id": 8614,
 		"filter": "",
 		"id": 8614
+	},
+	{
+		"title": "Übersichtskarte Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.01",
+		"description": "Übersichtskarte Wohnviertel",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-21T18:16:19.1919",
+		"stufe1": "1 Übersicht",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 8842,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8845,
+		"chart-id": 8845,
+		"filter": "",
+		"id": 8845
 	}
 ];

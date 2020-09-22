@@ -5,7 +5,7 @@
       "marker": {
         "enabled": false
       },
-      "legendIndex": 2,
+      "legendIndex": 3,
       "data": [
         [
           1991,
@@ -118,6 +118,10 @@
         [
           2018,
           17.8
+        ],
+        [
+          2019,
+          17.16
         ]
       ],
       "name": "Feinstaub (PM10)"
@@ -129,7 +133,7 @@
         "enabled": false
       },
       "dashStyle": "ShortDash",
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
           1991,
@@ -241,6 +245,10 @@
         ],
         [
           2018,
+          30
+        ],
+        [
+          2019,
           30
         ]
       ],
@@ -365,6 +373,10 @@
         [
           2018,
           20
+        ],
+        [
+          2019,
+          20
         ]
       ],
       "name": "Langzeitgrenzwert PM10"
@@ -488,9 +500,267 @@
         [
           2018,
           26.92
+        ],
+        [
+          2019,
+          30.33
         ]
       ],
       "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
+    },
+    {
+      "color": "#FF8028",
+      "marker": {
+        "enabled": true
+      },
+      "legendIndex": 5,
+      "data": [
+        [
+          1991,
+          undefined
+        ],
+        [
+          1992,
+          undefined
+        ],
+        [
+          1993,
+          undefined
+        ],
+        [
+          1994,
+          undefined
+        ],
+        [
+          1995,
+          undefined
+        ],
+        [
+          1996,
+          undefined
+        ],
+        [
+          1997,
+          undefined
+        ],
+        [
+          1998,
+          undefined
+        ],
+        [
+          1999,
+          undefined
+        ],
+        [
+          2000,
+          undefined
+        ],
+        [
+          2001,
+          undefined
+        ],
+        [
+          2002,
+          undefined
+        ],
+        [
+          2003,
+          undefined
+        ],
+        [
+          2004,
+          undefined
+        ],
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          undefined
+        ],
+        [
+          2010,
+          undefined
+        ],
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          12.29
+        ]
+      ],
+      "name": "Feinstaub (PM2,5)"
+    },
+    {
+      "color": "#FFBB58",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "dashStyle": "ShortDash",
+      "legendIndex": 6,
+      "data": [
+        [
+          1991,
+          undefined
+        ],
+        [
+          1992,
+          undefined
+        ],
+        [
+          1993,
+          undefined
+        ],
+        [
+          1994,
+          undefined
+        ],
+        [
+          1995,
+          undefined
+        ],
+        [
+          1996,
+          undefined
+        ],
+        [
+          1997,
+          undefined
+        ],
+        [
+          1998,
+          undefined
+        ],
+        [
+          1999,
+          undefined
+        ],
+        [
+          2000,
+          undefined
+        ],
+        [
+          2001,
+          undefined
+        ],
+        [
+          2002,
+          undefined
+        ],
+        [
+          2003,
+          undefined
+        ],
+        [
+          2004,
+          undefined
+        ],
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          undefined
+        ],
+        [
+          2010,
+          undefined
+        ],
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          10
+        ],
+        [
+          2019,
+          10
+        ]
+      ],
+      "name": "Langzeitgrenzwert PM2,5"
     }
   ],
   "chart": {
@@ -572,8 +842,10 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
-    }
+      },
+      "step": 2
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -619,7 +891,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-3"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

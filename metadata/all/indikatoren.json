@@ -1569,14 +1569,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T15:22:04.044",
+		"aktualisierungsdatum": "2020-09-21T09:20:03.033",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knaben haben in den letzten 10 Jahren mit Ausnahme von 2012 mehr Mühe, eine Anschlusslösung zu finden, als Mädchen.",
-		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule. In die Auswertung fliessen ausserdem Zahlen der Allgemeinen Gewerbeschule, der Berufsfachschule und des Zentrums für Brückenangebote.",
+		"lesehilfe": "Knaben hatten in den letzten 10 Jahren mit Ausnahme von 2012 mehr Mühe, eine Anschlusslösung zu finden, als Mädchen.",
+		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule. In die Auswertung fliessen ausserdem Zahlen der Allgemeinen Gewerbeschule, der Berufsfachschule und des Zentrums für Brückenangebote ein.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1776,7 +1776,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:51:27.2727",
+		"aktualisierungsdatum": "2020-09-21T10:03:40.4040",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -2189,13 +2189,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-22T08:51:05.055",
+		"aktualisierungsdatum": "2020-09-21T09:54:14.1414",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit knapp 0,5% bei Wohnungen ab 150 m² gemessen.",
+		"lesehilfe": "Im Jahr 2020 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit gut 0,5% bei Wohnungen ab 150 m² gemessen.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -6541,19 +6541,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-02T19:09:05.055",
+		"aktualisierungsdatum": "2020-09-21T15:20:08.088",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 sind in Basel-Stadt rund 77 000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 26 000 Personen sind Schweizer mit Migrationshintergrund, und insgesamt 58 000 Personen sind ausländischer Herkunft. Rund 53 000 Personen sind Ausländer der ersten Generation, knapp 5 000 sind Personen der zweiten Generation und etwa 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
-		"erlaeuterungen": "Migrationshintergrund: gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: in der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"lesehilfe": "2018 sind in Basel-Stadt rund 75 000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 29 000 Personen sind Schweizer mit Migrationshintergrund und insgesamt 58 000 Personen sind ausländischer Herkunft. Rund 54 000 Personen sind Ausländer der ersten Generation, knapp 5 000 sind Personen der zweiten Generation und etwa 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_090",
+		"orderKey": "01_00_00_00_00_000",
 		"parentId": null,
 		"children": [],
 		"renderLink": [],
@@ -9036,14 +9036,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-24T17:11:52.5252",
+		"aktualisierungsdatum": "2020-09-21T15:04:34.3434",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Es ist ein leichter Anstieg der Ausfuhren aus Basel-Stadt seit 2015 zu beobachten. Die Ausfuhren sind 2018 mit 23,6 Mrd. Franken fast dreimal so hoch wie die Einfuhren.",
-		"erlaeuterungen": "Für die Jahre 2012 bis 2015 handelt es sich um nachgerechnete Ausfuhrzahlen der Eidgenössischen Zollverwaltung. Seit 2016 sind exakte Werte verfügbar. Sowohl Einfuhren wie auch Ausfuhren sind einschliesslich Gold in Barren und anderen Edelmetallen, Münzen, Edel- und Schmucksteinen sowie Kunstgegenständen und Antiquitäten berechnet.",
+		"lesehilfe": "In Basel-Stadt ist seit 2016 sowohl bei den Ausfuhren wie bei den Einfuhren eine stetige Zunahme zu beobachten. Die Ausfuhren sind 2019 mit 63,8 Mrd. Franken fast doppelt so hoch wie die Einfuhren.",
+		"erlaeuterungen": "2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -11389,7 +11389,7 @@
 		"title": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.09.2.05195",
-		"kuerzelKunde": "GW17",
+		"kuerzelKunde": "GW16",
 		"description": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
@@ -11397,19 +11397,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-14T15:13:33.3333",
+		"aktualisierungsdatum": "2020-09-21T09:52:27.2727",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ stetig gestiegen und liegt 2019 bei 1,0%.",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2019 stetig auf 1,0% gestiegen. 2020 ist sie leicht gesunken, beträgt aber gerundet immer noch 1,0%.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_06_00_00_00_317",
+		"orderKey": "03_07_00_00_00_317",
 		"parentId": 4138,
 		"children": [],
 		"renderLink": [],
@@ -13259,14 +13259,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
+		"aktualisierungsdatum": "2020-09-21T18:40:54.5454",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl die Stickstoffdioxid- als auch die Feinstaubkonzentrationen lagen 2018 mit 27,8 resp. 26,9 Mikrogramm pro Kubikmeter unter dem jeweiligen Grenzwert.",
-		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10) versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub (PM10) ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von Feinstaub (PM10) 20 μg/m<sup>3</sup>.",
+		"lesehilfe": "Die Feinstaubkonzentration PM10 lag 2019 mit 17,2 Mikrogramm pro Kubikmeter unter dem Grenzwert. Die Werte für Stickstoffdioxid und PM2,5 überschritten mit 30,33 resp. 12,29  μg/m<sup>3</sup> die jeweilige Grenzwerte leicht.",
+		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2.5, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2.5) versteht man Partikel, die kleiner sind als 10 respektive 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2.5 10 μg/m<sup>3</sup>.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -13280,11 +13280,11 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"<a href = 'https://luft-bs-so.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
+			"<a href = 'https://luftqualitaet.ch/messdaten' target = '_blank'>Luftqualität in der Nordwestschweiz</a>",
 			"<a href = 'https://www.admin.ch/opc/de/classified-compilation/19850321/index.html' target = '_blank'>Luftreinhalte-Verordnung (LRV)</a>"
 		],
 		"data-id": 6029,
-		"chart-id": 6029,
+		"chart-id": 6157,
 		"filter": "",
 		"id": 6029
 	},
@@ -16096,24 +16096,24 @@
 	},
 	{
 		"title": "Höchste abgeschlossene Ausbildung",
-		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017",
-		"kuerzel": "I.50.1.6136",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2014-2018",
+		"kuerzel": "I.15.7.06136",
 		"kuerzelKunde": "3.3",
 		"description": "Höchste abgeschlossene Ausbildung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
 		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:54:57.5757",
+		"aktualisierungsdatum": "2020-09-21T09:20:04.044",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Altersgruppe der der 30- bis 39-Jährigen haben 49,0% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 28,4%.",
-		"erlaeuterungen": "Keine oder obligatorische Schule: keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. 1 Jahr), Sozialjahr, Brückenangebote. DMS, FMS o. ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"lesehilfe": "In der Altersgruppe der 30- bis 39-Jährigen haben 49,9% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 29,2%.",
+		"erlaeuterungen": "Keine oder obligatorische Schule: Keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. 1 Jahr), Sozialjahr, Brückenangebote. DMS, FMS o. ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -18059,7 +18059,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-03T15:22:14.1414",
+		"aktualisierungsdatum": "2020-09-21T09:20:05.055",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
@@ -22675,7 +22675,7 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2017",
+		"subtitle": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.6364",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -22685,14 +22685,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-20T11:12:40.4040",
+		"aktualisierungsdatum": "2020-09-21T15:02:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 66,8&nbsp;m². In einem Familienhaushalt mit 5 und mehr Personen beträgt die Wohnfläche pro Kopf  20,0&nbsp;m².",
-		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"lesehilfe": "Je mehr Personen in einem Haushalt wohnen, desto kleiner ist die mittlere Wohnfläche pro Kopf. In einem Einpersonenhaushalt beträgt diese 66,2&nbsp;m². In einem Familienhaushalt mit 5 und mehr Personen beträgt die Wohnfläche pro Kopf  20,5&nbsp;m².",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die Summe der Wohnungsflächen durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Als Wohnungsfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z.B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -22705,14 +22705,18 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			"Informationen zu den Haushaltstypen sind hier zu finden: <a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Häufig gefragt: Einwohner</a>."
 		],
+		"data-id": 6364,
+		"chart-id": 6364,
+		"filter": "",
 		"id": 6364
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2017",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht in m², Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.6365",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -22722,14 +22726,14 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2018-09-20T11:18:02.022",
+		"aktualisierungsdatum": "2020-09-21T10:13:25.2525",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um 11&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,0&nbsp;m², Frauen: 46,9&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
-		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"lesehilfe": "Schweizer weisen im Durchschnitt pro Kopf einen um gut 10&nbsp;m² höheren Wohnflächenverbrauch auf als Ausländer. Ein geschlechtsspezifischer Unterschied des mittleren Wohnflächenverbrauchs pro Person wie bei den Schweizern (Männer: 43,2&nbsp;m², Frauen: 47,0&nbsp;m²) ist bei den ausländischen Staatsangehörigen nicht zu finden.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die Summe der Wohnungsflächen durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Als Wohnungsfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z.B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -22742,9 +22746,13 @@
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
+		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
+		"data-id": 6365,
+		"chart-id": 6365,
+		"filter": "",
 		"id": 6365
 	},
 	{
@@ -26345,23 +26353,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:13:59.5959",
+		"aktualisierungsdatum": "2020-09-21T09:45:54.5454",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2&nbsp;400 Veranlagungen) im Steuerjahr 2016 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 130&nbsp;000&nbsp;Franken. Den kleinsten Mittelwert weisen die Veranlagungen aus afrikanischen Ländern auf, mit rund 32&nbsp;400&nbsp;Franken (ca. 700 Veranlagungen).",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Von den verschiedenen dargestellten Gruppen zeigen die Veranlagungen von Personen aus den übrigen Ländern (insgesamt rund 2 500 Veranlagungen) im Steuerjahr 2017 den höchsten Mittelwert des Reineinkommens. Er liegt bei ca. 126 400 Franken. Den kleinsten Mittelwert weisen die Veranlagungen von Personen aus afrikanischen Ländern auf, mit rund 33 100 Franken (ca. 700 Veranlagungen).",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_028",
+		"orderKey": "03_00_00_00_00_602",
 		"parentId": null,
 		"children": [
-			"6709",
-			"7850"
+			"6709"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -26388,19 +26395,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-05-10T16:06:05.055",
+		"aktualisierungsdatum": "2020-09-21T09:47:56.5656",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2016 liegt wie bereits 2007 bei Veranlagungen von Personen aus Deutschland vor. 2016 beträgt er ca. 72&nbsp;000 Franken. Den kleinsten Median verzeichnet 2016 die Gruppe «Afrikanische Länder» mit rund 24&nbsp;000 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahre 2007 und 2016; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
+		"lesehilfe": "Der höchste Median des Reineinkommens im Jahr 2017 liegt wie bereits 2008 bei Veranlagungen von Personen aus Deutschland vor. 2017 beträgt er ca. 72 700 Franken. Den kleinsten Median verzeichnet 2017 die Gruppe «Afrikanische Länder» mit rund 24 000 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. Für die Staatsangehörigkeit ist bei Verheirateten die in der Steuererklärung erstgenannte Person massgeblich. Beim Vergleich verschiedener Steuerjahre sind bei der Interpretation auch die Änderungen in der Steuergesetzgebung zu berücksichtigen; Beispiel Steuerpaket ab 1.1.2008. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind i. d. R. in den Auswertungen nicht erfasst.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_029",
+		"orderKey": "03_00_00_00_00_603",
 		"parentId": null,
 		"children": [
 			"6710"
@@ -26642,19 +26649,19 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-24T14:22:23.2323",
+		"aktualisierungsdatum": "2020-09-21T09:48:56.5656",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2018 für Schweizer 44,9 m², für Ausländer 34,1 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizer verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als Ausländer.",
-		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2019 für Schweizerinnen und Schweizer 45,2 m², für Ausländerinnen und Ausländer 34,8 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und die der Ausländer zugenommen. Schweizerische Staatsangehörige verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als ausländische Staatsangehörige.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Person wird berechnet, indem die Summe der Wohnungsflächen durch die Anzahl Personen, die in einem Haushalt wohnhaft sind, geteilt wird. Als Wohnungsfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z.B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_002",
+		"orderKey": "04_00_00_00_00_201",
 		"parentId": null,
 		"children": [
 			"6716"
@@ -45352,13 +45359,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-09-21T15:23:27.2727",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote und anschliessend stieg sie wieder. Die hohe Quote 2019 ist durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
+		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote. In den letzten Jahren stieg sie wieder. Die hohe Quote im Jahr 2019 war durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -51503,13 +51510,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2020-09-21T15:27:58.5858",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. In der Dekade 2010 bis 2019 lag sie fast immer darunter.",
+		"lesehilfe": "In der Dekade von 2000 bis 2009 bewegte sich die Leerwohnungsquote der beiden Wohnviertel stets über der 1%-Marke. Seit 2010 lag sie dagegen fast immer darunter.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -66505,6 +66512,49 @@
 		"description": "Übersichtskarte Wohnviertel",
 		"thema": "50 Befragungen",
 		"unterthema": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-21T18:16:15.1515",
+		"stufe1": "1 Übersicht",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"8845",
+			"8848"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8842,
+		"chart-id": 8842,
+		"filter": "",
+		"id": 8842
+	},
+	{
+		"title": "Übersichtskarte Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.01",
+		"description": "Übersichtskarte Wohnviertel",
+		"thema": "50 Befragungen",
+		"unterthema": "",
 		"kennzahlenset": "Stadtteilmonitoring Rosental (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -66534,6 +66584,46 @@
 		"chart-id": 8844,
 		"filter": "",
 		"id": 8844
+	},
+	{
+		"title": "Übersichtskarte Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.01",
+		"description": "Übersichtskarte Wohnviertel",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-21T18:16:19.1919",
+		"stufe1": "1 Übersicht",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"darstellungsart": "Karte kontinuierlich",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": 8842,
+		"children": [],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8845,
+		"chart-id": 8845,
+		"filter": "",
+		"id": 8845
 	},
 	{
 		"title": "Übersichtskarte Wohnviertel",

@@ -750,13 +750,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2020-09-21T15:23:27.2727",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote und anschliessend stieg sie wieder. Die hohe Quote 2019 ist durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
+		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote. In den letzten Jahren stieg sie wieder. Die hohe Quote im Jahr 2019 war durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
 		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1934,5 +1934,47 @@ var indikatorensetData = [
 		"chart-id": 7764,
 		"filter": "",
 		"id": 7764
+	},
+	{
+		"title": "Übersichtskarte Wohnviertel",
+		"subtitle": "",
+		"kuerzel": "",
+		"kuerzelKunde": "1.01",
+		"description": "Übersichtskarte Wohnviertel",
+		"thema": "50 Befragungen",
+		"unterthema": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-09-21T18:16:15.1515",
+		"stufe1": "1 Übersicht",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
+		"erlaeuterungen": "",
+		"template": "mappie001",
+		"darstellungsart": "Karte kategoriell",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_000",
+		"parentId": null,
+		"children": [
+			"8845",
+			"8848"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8842,
+		"chart-id": 8842,
+		"filter": "",
+		"id": 8842
 	}
 ];
