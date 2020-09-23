@@ -19,6 +19,10 @@
         [
           "2016",
           1554.9
+        ],
+        [
+          "2018",
+          1294.5
         ]
       ],
       "name": "Wohnen",
@@ -42,10 +46,14 @@
         ],
         [
           "2016",
-          2044.9
+          2045.3
+        ],
+        [
+          "2018",
+          1933.5
         ]
       ],
-      "name": "Nichtwohnen",
+      "name": "Nichtwohnen (ohne Verkehr)",
       "turboThreshold": 0
     },
     {
@@ -54,19 +62,23 @@
       "data": [
         [
           "2010",
-          898.5
+          898.4
         ],
         [
           "2012",
-          835.6
+          835.7
         ],
         [
           "2014",
-          807.9
+          841.2
         ],
         [
           "2016",
           853.3
+        ],
+        [
+          "2018",
+          830.9
         ]
       ],
       "name": "Verkehr",
@@ -78,7 +90,7 @@
       "data": [
         [
           "2010",
-          191.6
+          197.6
         ],
         [
           "2012",
@@ -91,9 +103,13 @@
         [
           "2016",
           214.9
+        ],
+        [
+          "2018",
+          213.9
         ]
       ],
-      "name": "Verlust",
+      "name": "Verluste, statistische Differenzen",
       "turboThreshold": 0
     }
   ],
@@ -305,7 +321,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-22"
   },
   "dataLabels": {
     "enabled": false,
