@@ -1,8 +1,7 @@
 {
   "series": [
     {
-      "color": "#990300",
-      "visible": true,
+      "color": "#FF8028",
       "data": [
         [
           "2010",
@@ -18,7 +17,11 @@
         ],
         [
           "2016",
-          38.8
+          38.9
+        ],
+        [
+          "2018",
+          39.9
         ]
       ],
       "name": "Anteil erneuerbare Energie",
@@ -76,19 +79,21 @@
                 }
     },
     "type": "column",
+    "animation": false,
     "inverted": false,
-    "spacingBottom": 50,
-    "renderTo": "container-5795"
+    "renderTo": "container-5795",
+    "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 1e-7,
+      "borderWidth": 0,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
-      "pointWidth": 30
+      "pointPadding": 0,
+      "pointWidth": 50
     }
   },
   "title": {
@@ -125,7 +130,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}%"
-    }
+    },
+    "min": 0
   },
   "legend": {
     "symbolRadius": 0,
@@ -136,7 +142,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    "x": 35
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -157,11 +163,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-23"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": 5795
