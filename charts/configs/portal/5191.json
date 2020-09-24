@@ -418,7 +418,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017"
+    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2014-2018"
   },
   "navigation": {
     "menuItemStyle": {
@@ -476,7 +476,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-23"
   },
   "legend": {
     "layout": "vertical",
