@@ -798,18 +798,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-28T14:19:07.077",
+		"aktualisierungsdatum": "2020-09-25T09:20:41.4141",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2018 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geborenen ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
+		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2019 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geborenen ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
 		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_025",
+		"orderKey": "01_00_00_00_00_402",
 		"parentId": null,
 		"children": [
 			"6661"

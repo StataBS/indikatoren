@@ -76,116 +76,116 @@ id | visible | visibleInPortal | indikatorenset
 4218 | false |  | Integration-kompakt
 4219 | false |  | Integration-kompakt
 4220 | false |  | Integration-kompakt
-4221 | true | true | Umwelt
-4222 | true | false | Umwelt
+4221 | true | false | Umwelt
+4222 | true | true | Umwelt
 4223 | true | true | Umwelt
-4224 | true | true | Umwelt
-4225 | true | true | Umwelt
-4226 | true | false | Umwelt
-4227 | true | false | Umwelt
-4228 | true | false | Umwelt
-4229 | true | true | Umwelt
-4230 | true | true | Umwelt
+4224 | true | false | Umwelt
+4225 | true | false | Umwelt
+4226 | true | true | Umwelt
+4227 | true | true | Umwelt
+4228 | true | true | Umwelt
+4229 | true | false | Umwelt
+4230 | true | false | Umwelt
 4231 | true | false | Umwelt
-4232 | true | false | Umwelt
+4232 | true | true | Umwelt
 4233 | true | true | Umwelt
 4234 | true | true | Umwelt
 4235 | false |  | Umwelt
-4236 | true | false | Umwelt
+4236 | true | true | Umwelt
 4237 | true | false | Umwelt
-4238 | true | false | Umwelt
-4239 | true | false | Umwelt
-4240 | true | false | Umwelt
-4241 | true | false | Umwelt
+4238 | true | true | Umwelt
+4239 | true | true | Umwelt
+4240 | true | true | Umwelt
+4241 | true | true | Umwelt
 4242 | false |  | Umwelt
-4243 | true | false | Umwelt
-4244 | true | false | Umwelt
-4245 | true | false | Umwelt
-4246 | true | false | Umwelt
-4247 | true | false | Umwelt
+4243 | true | true | Umwelt
+4244 | true | true | Umwelt
+4245 | true | true | Umwelt
+4246 | true | true | Umwelt
+4247 | true | true | Umwelt
 4248 | false |  | Umwelt
 4249 | true | true | Umwelt
-4250 | true | false | Umwelt
+4250 | true | true | Umwelt
 4251 | false |  | Umwelt
-4252 | true | false | Umwelt
+4252 | true | true | Umwelt
 4253 | true | true | Umwelt
 4254 | true | true | Umwelt
 4255 | true | true | Umwelt
 4256 | false |  | Umwelt
-4257 | true | false | Umwelt
-4258 | true | false | Umwelt
-4259 | true | false | Umwelt
-4260 | true | false | Umwelt
-4261 | true | false | Umwelt
-4262 | true | false | Umwelt
-4263 | true | false | Umwelt
-4264 | true | false | Umwelt
-4265 | true | false | Umwelt
-4266 | true | false | Umwelt
-4267 | true | false | Umwelt
+4257 | true | true | Umwelt
+4258 | true | true | Umwelt
+4259 | true | true | Umwelt
+4260 | true | true | Umwelt
+4261 | true | true | Umwelt
+4262 | true | true | Umwelt
+4263 | true | true | Umwelt
+4264 | true | true | Umwelt
+4265 | true | true | Umwelt
+4266 | true | true | Umwelt
+4267 | true | true | Umwelt
 4268 | true | true | Umwelt
 4269 | true | false | Umwelt
-4270 | true | false | Umwelt
-4272 | true | false | Umwelt
-4273 | true | false | Umwelt
-4274 | true | false | Umwelt
+4270 | true | true | Umwelt
+4272 | true | true | Umwelt
+4273 | true | true | Umwelt
+4274 | true | true | Umwelt
 4275 | true | true | Umwelt
 4276 | true | true | Umwelt
-4277 | true | false | Umwelt
+4277 | true | true | Umwelt
 4278 | true | true | Umwelt
 4279 | true | true | Umwelt
-4280 | true | false | Umwelt
+4280 | true | true | Umwelt
 4281 | true | true | Umwelt
-4283 | true | false | Umwelt
-4284 | true | false | Umwelt
-4285 | true | false | Umwelt
-4287 | true | false | Umwelt
-4288 | true | false | Umwelt
-4290 | true | false | Umwelt
-4291 | true | false | Umwelt
-4292 | true | false | Umwelt
-4293 | true | false | Umwelt
-4294 | true | false | Umwelt
+4283 | true | true | Umwelt
+4284 | true | true | Umwelt
+4285 | true | true | Umwelt
+4287 | true | true | Umwelt
+4288 | true | true | Umwelt
+4290 | true | true | Umwelt
+4291 | true | true | Umwelt
+4292 | true | true | Umwelt
+4293 | true | true | Umwelt
+4294 | true | true | Umwelt
 4295 | false |  | Umwelt
 4296 | false |  | Umwelt
 4297 | false |  | Umwelt
-4298 | true | false | Umwelt
+4298 | true | true | Umwelt
 4299 | true | false | Umwelt
 4300 | true | false | Umwelt
 4301 | true | true | Umwelt
-4302 | true | false | Umwelt
-4303 | true | false | Umwelt
+4302 | true | true | Umwelt
+4303 | true | true | Umwelt
 4304 | false |  | Umwelt
-4305 | true | false | Umwelt
-4306 | true | false | Umwelt
-4307 | true | false | Umwelt
-4308 | true | false | Umwelt
-4309 | true | false | Umwelt
-4310 | true | false | Umwelt
+4305 | true | true | Umwelt
+4306 | true | true | Umwelt
+4307 | true | true | Umwelt
+4308 | true | true | Umwelt
+4309 | true | true | Umwelt
+4310 | true | true | Umwelt
 4311 | false |  | Umwelt
-4312 | true | false | Umwelt
-4314 | true | false | Umwelt
-4315 | true | false | Umwelt
-4316 | true | false | Umwelt
+4312 | true | true | Umwelt
+4314 | true | true | Umwelt
+4315 | true | true | Umwelt
+4316 | true | true | Umwelt
 4317 | false |  | Umwelt
 4318 | true | true | Umwelt
 4319 | true | false | Umwelt
 4320 | true | false | Umwelt
-4321 | true | true | Umwelt
-4322 | true | true | Umwelt
+4321 | true | false | Umwelt
+4322 | true | false | Umwelt
 4323 | true | true | Umwelt
 4325 | true | true | Umwelt
 4328 | false |  | Umwelt
-4329 | true | false | Umwelt
-4330 | true | false | Umwelt
+4329 | true | true | Umwelt
+4330 | true | true | Umwelt
 4331 | true | true | Umwelt
-4332 | true | false | Umwelt
-4333 | true | false | Umwelt
-4334 | true | false | Umwelt
-4335 | true | false | Umwelt
-4336 | true | false | Umwelt
+4332 | true | true | Umwelt
+4333 | true | true | Umwelt
+4334 | true | true | Umwelt
+4335 | true | true | Umwelt
+4336 | true | true | Umwelt
 4337 | true | true | Umwelt
-4338 | true | false | Umwelt
+4338 | true | true | Umwelt
 4339 | false |  | 
 4340 | false |  | Integration-kompakt
 4342 | false |  | Integration-kompakt
@@ -347,10 +347,10 @@ id | visible | visibleInPortal | indikatorenset
 5794 | true | false | Nachhaltigkeit
 5795 | true | false | Nachhaltigkeit
 5796 | true | false | Nachhaltigkeit
-5797 | true | false | Umwelt
+5797 | true | true | Umwelt
 5798 | true | true | Umwelt
-5799 | true | false | Umwelt
-5800 | true | false | Umwelt
+5799 | true | true | Umwelt
+5800 | true | true | Umwelt
 5813 | true | true | Richtplan
 5814 | true | true | Richtplan
 5815 | true | false | Richtplan
@@ -403,7 +403,7 @@ id | visible | visibleInPortal | indikatorenset
 6045 | true | true | Nachhaltigkeit
 6046 | true | false | Nachhaltigkeit
 6047 | true | true | Nachhaltigkeit
-6048 | true | false | Nachhaltigkeit
+6048 | false |  | Nachhaltigkeit
 6049 | true | false | Nachhaltigkeit
 6050 | true | false | Nachhaltigkeit
 6051 | true | true | Nachhaltigkeit
