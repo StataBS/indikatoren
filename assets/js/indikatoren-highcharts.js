@@ -140,7 +140,7 @@ function injectMetadataToChartConfig(options, data, view, suppressNumberInTitle)
 
   //make sure node exists before deferencing it
   options['exporting'] = (options['exporting'] || {});
-  options['exporting']['filename'] = data.id;
+  options['exporting']['filename'] = data.id.toString();
   
   //for print, remove, title, subtitle, and credits, and set the scale
   if (view == "print"){
@@ -309,6 +309,7 @@ function deserialize(serializedJavascript){
 function exportThumbnail(id, exportType, offline, exportServer, filename){
   //define default filename
   filename = filename || id;
+  filename = filename.toString();
   var chart = $(escapeCssChars('#container-' + id)).highcharts();
   //remove callback - otherwise end up in infinite loop
   delete chart.callback;
