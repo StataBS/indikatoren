@@ -162,10 +162,11 @@
     "categories": [
       2016,
       2017,
-      2018
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 2,
+    "ceiling": 3,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -245,7 +246,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -338,7 +340,8 @@
       "data": [
         165,
         188,
-        190
+        190,
+        187
       ],
       "visible": true
     },
@@ -355,6 +358,7 @@
       "data": [
         153,
         153,
+        152,
         152
       ],
       "visible": true
@@ -372,7 +376,8 @@
       "data": [
         36,
         13,
-        9
+        9,
+        5
       ],
       "visible": true
     },
@@ -389,7 +394,8 @@
       "data": [
         12,
         12,
-        12
+        12,
+        11
       ],
       "visible": true
     },
@@ -405,6 +411,7 @@
       "valueSuffix": "Anzahl Standorte",
       "data": [
         5,
+        4,
         4,
         4
       ],

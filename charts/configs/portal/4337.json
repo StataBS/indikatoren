@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Kilogramm pro Einwohner, Basel-Stadt",
+    "text": "Kilogramm pro Einwohner; Tonnen, Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E kg\u002FEw.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003ETonnen\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -174,10 +174,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 14,
+    "ceiling": 15,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -222,7 +223,7 @@
       "min": 0,
       "title": {
         "enabled": true,
-        "text": "",
+        "text": " ",
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
@@ -247,7 +248,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -257,7 +258,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -327,7 +329,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -338,15 +340,17 @@
   },
   "series": [
     {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E kg\u002FEw.\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
       "includeInCSVExport": true,
       "stacking": null,
-      "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
-      "name": "Siedlungsabfälle",
+      "name": "pro Kopf",
       "color": "#FF8028",
       "id": "BS0101_1",
-      "valueSuffix": "Kilogramm pro Einwohner",
+      "valueSuffix": "Kilogramm pro Einwohner; Tonnen",
       "data": [
         308.5,
         311.1,
@@ -362,9 +366,43 @@
         292.7,
         292.7,
         282.5,
-        274.8
+        274.8,
+        272.6
       ],
       "visible": true
+    },
+    {
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      },
+      "includeInCSVExport": true,
+      "type": "line",
+      "showInNavigator": true,
+      "name": "in Tonnen (rechte Skala)",
+      "color": "#DC440E",
+      "id": "BS0101_3",
+      "valueSuffix": "Kilogramm pro Einwohner; Tonnen",
+      "data": [
+        58167.2,
+        58737.5,
+        58870,
+        58553.5,
+        58170.9,
+        59252,
+        61228.9,
+        59474.3,
+        56427.4,
+        58753.8,
+        56838.1,
+        57393.4,
+        57667.9,
+        55909.8,
+        54566.1,
+        54482.8
+      ],
+      "visible": true,
+      "yAxis": 1,
+      "_symbolIndex": 0
     }
   ]
 }

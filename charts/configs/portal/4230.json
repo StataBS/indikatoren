@@ -166,10 +166,11 @@
       2010,
       2012,
       2014,
-      2016
+      2016,
+      2018
     ],
     "floor": 1995,
-    "ceiling": 2016,
+    "ceiling": 2018,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -249,7 +250,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -367,6 +369,10 @@
         [
           2016,
           302.8
+        ],
+        [
+          2018,
+          273.02
         ]
       ],
       "visible": true
@@ -409,6 +415,10 @@
         [
           2016,
           767.87
+        ],
+        [
+          2018,
+          757.82
         ]
       ],
       "visible": true
@@ -438,19 +448,23 @@
         ],
         [
           2010,
-          1960.63
+          1960.6
         ],
         [
           2012,
-          1716.89
+          1716.9
         ],
         [
           2014,
-          1419.63
+          1419.6
         ],
         [
           2016,
-          1475.34
+          1475.3
+        ],
+        [
+          2018,
+          1302.4
         ]
       ],
       "visible": true
@@ -493,6 +507,10 @@
         [
           2016,
           974.61
+        ],
+        [
+          2018,
+          912.03
         ]
       ],
       "visible": true
@@ -534,7 +552,11 @@
         ],
         [
           2016,
-          839.09
+          839.02
+        ],
+        [
+          2018,
+          832.66
         ]
       ],
       "visible": true
@@ -572,11 +594,15 @@
         ],
         [
           2014,
-          510.67
+          510.21
         ],
         [
           2016,
-          558.82
+          562.27
+        ],
+        [
+          2018,
+          562.72
         ]
       ],
       "visible": true
@@ -585,13 +611,9 @@
       "includeInCSVExport": true,
       "stacking": "normal",
       "stack": "BS",
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "type": "column",
       "showInNavigator": true,
-      "name": "Fernwärme",
+      "name": "Fernwärme (Bezug von ausserhalb BS)",
       "color": "#689199",
       "id": "BS0602_7",
       "valueSuffix": "Gigawattstunden",
@@ -623,6 +645,10 @@
         [
           2016,
           5.37
+        ],
+        [
+          2018,
+          4.35
         ]
       ],
       "visible": true

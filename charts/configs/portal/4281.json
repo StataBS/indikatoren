@@ -186,10 +186,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 26,
+    "ceiling": 27,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -269,7 +270,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -384,7 +386,8 @@
         48.44,
         49.06,
         44.54,
-        44.14
+        44.14,
+        44.69
       ],
       "visible": true,
       "_symbolIndex": 0
@@ -424,7 +427,8 @@
         31.88,
         31.47,
         27.82,
-        27.71
+        27.71,
+        26.92
       ],
       "visible": true,
       "_symbolIndex": 1
@@ -464,7 +468,8 @@
         18.31,
         18.28,
         16.74,
-        16.62
+        16.62,
+        16.04
       ],
       "visible": true,
       "_symbolIndex": 2
@@ -504,6 +509,7 @@
         7.82,
         10.85,
         null,
+        null,
         null
       ],
       "visible": true,
@@ -530,6 +536,7 @@
       "id": "BS&BL1111_5",
       "valueSuffix": "Mikrogramm pro Kubikmeter",
       "data": [
+        30,
         30,
         30,
         30,

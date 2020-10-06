@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
-<title> 404 Not Found
-</title></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div></body></html>
+"Jahr"	"Anlieferung aus Basel-Stadt"	"Anlieferung aus Basel-Landschaft"
+2003	77175	80602
+2004	73078	69431
+2005	71073	69870
+2006	71125	74184.6
+2007	72046	78070
+2008	72920	83030
+2009	72724	84125
+2010	68187	85544
+2011	69003	84915
+2012	67806	83392
+2013	68089	81742
+2014	69224	84430
+2015	67808	81113
+2016	65711	84495
+2017	64232	84322
+2018	64686	81446.9

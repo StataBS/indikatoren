@@ -174,10 +174,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 14,
+    "ceiling": 15,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -257,7 +258,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -362,6 +364,7 @@
         96396,
         93905,
         95265,
+        93080,
         null
       ],
       "visible": true
@@ -382,7 +385,7 @@
       },
       "type": "line",
       "showInNavigator": true,
-      "name": "Zielpfad (2036: 15% von 2016)",
+      "name": "Zielpfad (2036: 15% von 2017)",
       "color": "#444444",
       "id": "BS1301_3",
       "valueSuffix": "Kilogramm",
@@ -398,10 +401,11 @@
         null,
         null,
         null,
-        96396,
-        92299.2,
-        88202.3,
-        84105.5
+        null,
+        93905,
+        89704,
+        85503,
+        81302
       ],
       "visible": true,
       "_symbolIndex": 0

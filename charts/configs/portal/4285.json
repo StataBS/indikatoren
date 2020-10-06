@@ -244,7 +244,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -330,70 +331,13 @@
       "stack": "BS&BL",
       "type": "column",
       "showInNavigator": true,
-      "name": "\u003E 20 kg N\u002Fha\u002FJahr über Critical Load",
+      "name": "Critical Load nicht überschritten",
       "color": "#73B97C",
       "id": "BS&BL1505_1",
       "valueSuffix": "Hektaren",
       "data": [
-        616,
-        254
-      ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BS&BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "15 - 20 kg N\u002Fha\u002FJahr über Critical Load",
-      "color": "#68AB2B",
-      "id": "BS&BL1505_2",
-      "valueSuffix": "Hektaren",
-      "data": [
-        5140,
-        604
-      ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BS&BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "10 - 15 kg N\u002Fha\u002FJahr über Critical Load",
-      "color": "#007A2F",
-      "id": "BS&BL1505_3",
-      "valueSuffix": "Hektaren",
-      "data": [
-        1269,
-        3845
-      ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BS&BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "5 - 10 kg N\u002Fha\u002FJahr über Critical Load",
-      "color": "#0A3B19",
-      "id": "BS&BL1505_4",
-      "valueSuffix": "Hektaren",
-      "data": [
-        10219,
-        10686
+        438,
+        98
       ],
       "visible": true,
       "tooltip": {
@@ -407,8 +351,8 @@
       "type": "column",
       "showInNavigator": true,
       "name": "0 - 5 kg N\u002Fha\u002FJahr über Critical Load",
-      "color": "#FFDA80",
-      "id": "BS&BL1505_5",
+      "color": "#68AB2B",
+      "id": "BS&BL1505_2",
       "valueSuffix": "Hektaren",
       "data": [
         6473,
@@ -425,13 +369,70 @@
       "stack": "BS&BL",
       "type": "column",
       "showInNavigator": true,
-      "name": "Critical Load nicht überschritten",
+      "name": "5 - 10 kg N\u002Fha\u002FJahr über Critical Load",
+      "color": "#007A2F",
+      "id": "BS&BL1505_3",
+      "valueSuffix": "Hektaren",
+      "data": [
+        10219,
+        10686
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "10 - 15 kg N\u002Fha\u002FJahr über Critical Load",
+      "color": "#0A3B19",
+      "id": "BS&BL1505_4",
+      "valueSuffix": "Hektaren",
+      "data": [
+        1269,
+        3845
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "15 - 20 kg N\u002Fha\u002FJahr über Critical Load",
+      "color": "#FFDA80",
+      "id": "BS&BL1505_5",
+      "valueSuffix": "Hektaren",
+      "data": [
+        5140,
+        604
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "\u003E 20 kg N\u002Fha\u002FJahr über Critical Load",
       "color": "#FABD24",
       "id": "BS&BL1505_6",
       "valueSuffix": "Hektaren",
       "data": [
-        438,
-        98
+        616,
+        254
       ],
       "visible": true,
       "tooltip": {
