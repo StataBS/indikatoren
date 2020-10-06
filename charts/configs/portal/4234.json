@@ -1,7 +1,7 @@
 {
   "chart": {
     "renderTo": "container_1606",
-    "type": "line",
+    "type": "column",
     "width": "485",
     "height": "415",
     "spacingBottom": 50,
@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Mio. m\u003Csup\u003E3\u003C\u002Fsup\u003E (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -261,7 +261,7 @@
       }
     },
     "series": {
-      "stacking": false,
+      "stacking": "normal",
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -271,7 +271,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -340,8 +341,8 @@
   "navigator": {
     "enabled": false,
     "series": {
-      "type": "line",
-      "stacking": false
+      "type": "column",
+      "stacking": "normal"
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -353,46 +354,89 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "showInLegend": false,
-      "type": "line",
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
       "showInNavigator": true,
-      "name": "Wasserverbrauch Gewerbe und Industrie",
+      "name": "Trinkwasserbezug öffentliches Netz",
       "color": "#FF8028",
       "id": "BS1606_1",
       "valueSuffix": "Millionen Kubikmeter",
       "data": [
-        22,
-        21.9,
-        19.8,
-        20.3,
-        19.9,
-        19.7,
-        19.8,
-        18,
-        17,
-        14.9,
-        16.7,
-        16,
-        14.7,
-        15.4,
-        14.8,
-        13.9,
-        12.9,
-        15.2,
-        14.6,
-        13.9,
-        15.8,
-        14.7,
-        15.1,
-        14.3,
-        15,
-        14.3,
-        15.2,
-        15.8,
-        15.9
+        8.43,
+        8.01,
+        7.28,
+        7.46,
+        7.25,
+        6.62,
+        6.42,
+        6,
+        6.24,
+        6.22,
+        5.94,
+        5.52,
+        5.45,
+        5.72,
+        5.34,
+        5.21,
+        4.21,
+        4.38,
+        4.29,
+        4.79,
+        5.26,
+        5.81,
+        5.47,
+        5.45,
+        5.2,
+        4.89,
+        5.35,
+        4.88,
+        4.88
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Private Grundwasserförderungen",
+      "color": "#DC440E",
+      "id": "BS1606_2",
+      "valueSuffix": "Millionen Kubikmeter",
+      "data": [
+        13.55,
+        13.88,
+        12.54,
+        12.87,
+        12.7,
+        13.04,
+        13.33,
+        11.99,
+        10.76,
+        8.7,
+        10.78,
+        10.45,
+        9.28,
+        9.72,
+        9.43,
+        8.74,
+        8.72,
+        10.82,
+        10.31,
+        9.08,
+        10.55,
+        8.93,
+        9.64,
+        8.81,
+        9.81,
+        9.41,
+        9.86,
+        10.91,
+        11.06
+      ],
+      "visible": true
     }
   ]
 }

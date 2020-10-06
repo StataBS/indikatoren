@@ -1,7 +1,7 @@
 {
   "chart": {
     "renderTo": "container_0403",
-    "type": "column",
+    "type": "line",
     "width": "485",
     "height": "415",
     "spacingBottom": 50,
@@ -166,10 +166,11 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 6,
+    "ceiling": 7,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -249,7 +250,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -318,7 +320,7 @@
   "navigator": {
     "enabled": false,
     "series": {
-      "type": "column",
+      "type": "line",
       "stacking": false
     },
     "xAxis": {
@@ -331,8 +333,7 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "stacking": null,
-      "type": "column",
+      "type": "line",
       "showInNavigator": true,
       "name": "Hafen Kleinhünigen und Bahnhof St. Johann",
       "color": "#FF8028",
@@ -345,9 +346,11 @@
         8,
         25,
         59,
-        29
+        29,
+        24
       ],
-      "visible": true
+      "visible": true,
+      "_symbolIndex": 0
     },
     {
       "includeInCSVExport": true,
@@ -376,10 +379,11 @@
         0,
         0,
         0,
-        0
+        0,
+        null
       ],
       "visible": true,
-      "_symbolIndex": 0
+      "_symbolIndex": 1
     }
   ]
 }

@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Indexwert (Basis 1995 = 100), Basel-Stadt",
+    "text": "Indexwert (Basis 2000 = 100), Basel-Stadt",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -166,10 +166,11 @@
       2010,
       2012,
       2014,
-      2016
+      2016,
+      2018
     ],
     "floor": 1995,
-    "ceiling": 2016,
+    "ceiling": 2018,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -249,7 +250,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -336,35 +338,39 @@
       "name": "Energieeffizienz (BIP\u002FBruttoenergieverbrauch)",
       "color": "#FF8028",
       "id": "BS0612_1",
-      "valueSuffix": "Indexwert (Basis 1995 = 100)",
+      "valueSuffix": "Indexwert (Basis 2000 = 100)",
       "data": [
         [
           1995,
-          100
+          88.9
         ],
         [
           2000,
-          112.5
+          100
         ],
         [
           2004,
-          138.6
+          123.2
         ],
         [
           2010,
-          186.7
+          166
         ],
         [
           2012,
-          209.6
+          186.3
         ],
         [
           2014,
-          230.3
+          204.8
         ],
         [
           2016,
-          237.6
+          214.9
+        ],
+        [
+          2018,
+          null
         ]
       ],
       "visible": true,
@@ -377,35 +383,39 @@
       "name": "Energieverbrauch pro Einwohner",
       "color": "#DC440E",
       "id": "BS0612_2",
-      "valueSuffix": "Indexwert (Basis 1995 = 100)",
+      "valueSuffix": "Indexwert (Basis 2000 = 100)",
       "data": [
         [
           1995,
-          100
+          96.7
         ],
         [
           2000,
-          103.5
+          100
         ],
         [
           2004,
-          103.4
+          100
         ],
         [
           2010,
-          91.9
+          88.9
         ],
         [
           2012,
-          85
+          82.2
         ],
         [
           2014,
-          76.8
+          74.2
         ],
         [
           2016,
-          76.2
+          73.7
+        ],
+        [
+          2018,
+          68.8
         ]
       ],
       "visible": true,

@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Tonnen, Basel-Stadt",
+    "text": "Tonnen, Basel-Stadt und Basel-Landschaft",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,7 +153,7 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E t (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "footerFormat": "",
     "useHTML": true,
     "outside": false
@@ -174,10 +174,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 14,
+    "ceiling": 15,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -247,7 +248,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": "normal",
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -257,7 +258,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -327,7 +329,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": "normal"
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -339,13 +341,13 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "stacking": null,
-      "showInLegend": false,
+      "stacking": "normal",
+      "stack": "BS&BL",
       "type": "column",
       "showInNavigator": true,
-      "name": "Abfallverbrennung",
-      "color": "#FF8028",
-      "id": "BS0104_1",
+      "name": "Anlieferung aus Basel-Stadt",
+      "color": "#73B97C",
+      "id": "BS&BL0104_1",
       "valueSuffix": "Tonnen",
       "data": [
         77175,
@@ -362,7 +364,38 @@
         69224,
         67808,
         65711,
-        64232
+        64232,
+        64686
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "normal",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Anlieferung aus Basel-Landschaft",
+      "color": "#68AB2B",
+      "id": "BS&BL0104_2",
+      "valueSuffix": "Tonnen",
+      "data": [
+        80602,
+        69431,
+        69870,
+        74184.6,
+        78070,
+        83030,
+        84125,
+        85544,
+        84915,
+        83392,
+        81742,
+        84430,
+        81113,
+        84495,
+        84322,
+        81446.9
       ],
       "visible": true
     }

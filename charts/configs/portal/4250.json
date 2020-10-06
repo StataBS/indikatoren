@@ -181,10 +181,12 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 21,
+    "ceiling": 23,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -264,7 +266,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -376,7 +379,9 @@
         88.3,
         112.4,
         97,
-        71.1
+        71.1,
+        88.7,
+        83.4
       ],
       "visible": true,
       "tooltip": {
@@ -415,7 +420,9 @@
         19.3,
         16.8,
         19.2,
-        15.9
+        15.9,
+        7.5,
+        9.8
       ],
       "visible": true,
       "tooltip": {
@@ -454,7 +461,9 @@
         14.9,
         6,
         6,
-        4.8
+        4.8,
+        10.7,
+        5.9
       ],
       "visible": true,
       "tooltip": {
@@ -493,7 +502,9 @@
         0,
         0,
         0,
-        0
+        0,
+        0.2,
+        0.5
       ],
       "visible": true,
       "tooltip": {
@@ -532,7 +543,9 @@
         16.3,
         7.9,
         14.3,
-        34
+        34,
+        24.1,
+        16
       ],
       "visible": true,
       "tooltip": {
@@ -571,7 +584,9 @@
         264.9,
         269.2,
         279.2,
-        288
+        288,
+        278.4,
+        293.9
       ],
       "visible": true,
       "tooltip": {
@@ -610,7 +625,9 @@
         10.8,
         10,
         11.1,
-        11.2
+        11.2,
+        11.1,
+        10
       ],
       "visible": true,
       "tooltip": {
@@ -649,7 +666,9 @@
         5,
         5.5,
         3.6,
-        3.7
+        3.7,
+        3.7,
+        2.8
       ],
       "visible": true,
       "tooltip": {

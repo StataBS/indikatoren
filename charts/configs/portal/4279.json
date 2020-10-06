@@ -186,10 +186,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 26,
+    "ceiling": 27,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -269,7 +270,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -384,7 +386,8 @@
         286.33,
         685,
         338.33,
-        307.67
+        307.67,
+        847.33
       ],
       "visible": true,
       "_symbolIndex": 0
@@ -424,7 +427,8 @@
         169,
         348,
         191,
-        189.5
+        189.5,
+        461.5
       ],
       "visible": true,
       "_symbolIndex": 1
@@ -464,7 +468,8 @@
         108,
         215,
         81,
-        98
+        98,
+        293
       ],
       "visible": true,
       "_symbolIndex": 2
@@ -490,6 +495,7 @@
       "id": "BS&BL1110_4",
       "valueSuffix": "Anzahl Grenzwertüberschreitungen",
       "data": [
+        1,
         1,
         1,
         1,
