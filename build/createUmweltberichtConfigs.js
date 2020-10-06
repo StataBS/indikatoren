@@ -2,14 +2,18 @@
 // node node_modules/casperjs/bin/casperjs.js build/createUmweltberichtConfigs.js
 
 var serialize = require('serialize-javascript');
-var envVars = require('system').env;
-var proxyBS = envVars.http_proxy;
+
+//#proxy not necessary any more , AD-credentials used now. /BL20200924
+//var envVars = require('system').env;
+//var proxyBS = envVars.http_proxy;
 
 //var casper = require('casper').create();
 var casper = require('casper').create({
-    pageSettings: {
-        proxy: proxyBS
-     }
+    //verbose: true,
+    //logLevel: "debug",
+    /*pageSettings: {
+        proxy: proxyBS 
+     }*/
 });
 
 
@@ -35,6 +39,7 @@ casper.options.onWaitTimeout = function(){
 };
 */
 
+casper.echo("Starting to loop through all IDs to find UB-IDs...");
 
 // Open dummy web site in order to call start()
 casper.start('https://google.ch');
@@ -53,18 +58,17 @@ while (ubFileList.length > 0) {
             var url = urlbase + currentConfig.kuerzelKunde; 
             //close current page to release memory, https://stackoverflow.com/a/18156020
             casper.then(function() {
-                casper.echo('Closing page to free RAM...');
+                //casper.echo('Closing page to free RAM...');
                 casper.page.close();
                 casper.page = require('webpage').create();
             });
             
         
-            
             casper.thenOpen(url, function() {
-                casper.echo('Opening UB chart '+ id + ' located at ' + url);
+                //casper.echo(id+ ': Opening URL ' + url);
                 // Wait for the page to be loaded, i.e. svg node is present
                 //this.waitForSelector('svg');
-                this.waitForSelector('#serialized_highcharts', function(){
+                this.waitForSelector('#serialized_highcharts', function _then(){
                     //get Highcharts.charts array
                     //charts = this.evaluate(getCharts);
                     //save options of first chart into file
@@ -72,18 +76,29 @@ while (ubFileList.length > 0) {
                     var jsContent = casper.fetchText('#serialized_highcharts');
                     
                     var path = 'charts/configs/portal/' + id + '.json';
-                    casper.echo('Saving contents to ' + path + '...');
                     fs.write(path, jsContent, 'w');
+                    //casper.echo(id+ ': Wrote JSON ' + path + '...');
 
+                    var tsvPath = '-------------';
                     //get tsv from umweltbericht if necessary
-                    if (currentConfig.datenInChartIntegriert || currentConfig.datenInChartIntegriert === undefined){
+/*
+                    28.9.2020/BL: if wurde auskommentiert weil mutter-indikatoren aus portal tw. (z.B. Energie) nicht 
+                    die gleiche TSV-Struktur aufweisen wie die UB-Indikatoren. Die TSVs müssen identisch sein, damit die übernahme der
+                    Daten funktioniert...
+*/
+                    //if (currentConfig.datenInChartIntegriert || currentConfig.datenInChartIntegriert === undefined){
                         var tsvContent = casper.fetchText('#data-tsv');                        
-                        var tsvPath = 'data/' + id + '.tsv';
-                        casper.echo('Saving tsv contents to ' + tsvPath + '...');
+                        tsvPath = 'data/' + id + '.tsv';
                         fs.write(tsvPath, tsvContent, 'w');
-                    }
+                        //casper.echo(id+ ': Wrote tsv ' + tsvPath + '...');
+                    //}
 
+                    casper.echo(id + ' done: ' + path + ' ' + tsvPath + ' ' + url);
                     //casper.capture('screenshots/' + id + '.png');
+                }, function _onTimeout(){
+                    casper.echo('-------------------------------------------------------');
+                    casper.echo('ERROR for ID '+ id + ': URL not found: ' +url, "WARNING");
+                    casper.echo('-------------------------------------------------------');
                 });
             });
             /*
@@ -112,11 +127,12 @@ while (ubFileList.length > 0) {
             */
         }
         else {
-            casper.echo('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
+           //casper.echo('Chart ' + id + ' is either not visible (visible: ' + currentConfig["visible"] + '), or belongs to kennzahlenset ' + currentConfig.kennzahlenset +', which is not "Umwelt", thus ignoring here. ');
+           //casper.echo(id + ' ignored');
         }
         
     })(idText);
-}        
+}
 
 //https://stackoverflow.com/a/5367656
 function padLeft(nr, n, str){
