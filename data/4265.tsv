@@ -1,20 +1,13 @@
-"Jahr"	"Klasse 1: Kein oder vernachlässigbar kleines Risiko"	"Klasse 2: Geringes Risiko"	"Klasse 3: Mässiges Risiko"	"Tätigkeiten insgesamt"
-2001				74
-2002				190
-2003				264
-2004				287
-2005				318
-2006				327
-2007				356
-2008				380
-2009				421
-2010	224	214	9	
-2011	233	241	8	
-2012	200	249	10	
-2013	68	278	10	
-2014	68	311	10	
-2015	72	325	12	
-2016	68	340	13	
-2017	59	353	13	
-2018	60	385	16	
-2019	67	418	18	
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div></body></html>

@@ -1,37 +1,13 @@
-"Jahr"	"Schadenfälle"	"Schadensumme (rechte Skala)"	"DateTime"
-1984	21	23.44	" "
-1985	0	0	" "
-1986	21	23.63	" "
-1987	12	155.7	" "
-1988	3	11.91	" "
-1989	1	3.66	" "
-1990	2	2.11	" "
-1991	131	516.28	" "
-1992	16	72.93	" "
-1993	2	2.86	" "
-1994	22	119.49	" "
-1995	18	85.55	" "
-1996	7	23.47	" "
-1997	4	3.62	" "
-1998	2	3.56	" "
-1999	156	1351.23	" "
-2000	15	30.21	" "
-2001	3	5.75	" "
-2002	27	672.5	" "
-2003	0	0	" "
-2004	36	94.2	" "
-2005	3	14.42	" "
-2006	19	67.14	" "
-2007	80	172.79	" "
-2008	6	12.99	" "
-2009	7	20.73	" "
-2010	4	16.83	" "
-2011	3	0.98	" "
-2012	9	0	" "
-2013	13	1.25	" "
-2014	97	898.61	" "
-2015	19	42.99	" "
-2016	131	894.08	" "
-2017	30	135.34	" "
-2018	16	39.06	" "
-2019	34	121.91	" "
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div></body></html>

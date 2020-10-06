@@ -1,29 +1,13 @@
-"Jahr"	"Höhenlagen"	"Agglomeration"	"Stadt Basel"	"Zielwert"
-1991	660	237	128	1
-1992	750.5	317	83	1
-1993	688.5	209	66	1
-1994	925	327	142	1
-1995	853.5	328	176	1
-1996	815.5	299.5	109	1
-1997	859.5	341	107	1
-1998	888.5	376.5	193	1
-1999	684.5	237.5	84	1
-2000	736	273.5	109	1
-2001	775.5	223.5	190	1
-2002	716	260	133	1
-2003	1660.33	766	504	1
-2004	697.33	300.5	167	1
-2005	645.67	285	145	1
-2006	712.67	353.5	271	1
-2007	506.33	238	99	1
-2008	335.67	174	78	1
-2009	389.33	195.5	62	1
-2010	602.67	307	215	1
-2011	559.67	256	135	1
-2012	292	134.5	85	1
-2013	529	260.5	164	1
-2014	286.33	169	108	1
-2015	685	348	215	1
-2016	338.33	191	81	1
-2017	307.67	189.5	98	1
-2018	847.33	461.5	293	1
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div></body></html>

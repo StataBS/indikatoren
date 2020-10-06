@@ -1,39 +1,13 @@
-"Jahr"	"Bruttoinlandprodukt"	"DateTime"
-1980	8219.2	" "
-1981	8754.3	" "
-1982	9459.6	" "
-1983	9879.3	" "
-1984	10619.4	" "
-1985	11380.8	" "
-1986	12410	" "
-1987	12691.6	" "
-1988	13522.6	" "
-1989	14709.8	" "
-1990	15764	" "
-1991	16620.6	" "
-1992	17136.9	" "
-1993	17797.8	" "
-1994	18379.3	" "
-1995	18521.8	" "
-1996	18233.9	" "
-1997	18056.4	" "
-1998	18615.2	" "
-1999	18996	" "
-2000	20505.1	" "
-2001	21986.8	" "
-2002	22928.5	" "
-2003	23895.1	" "
-2004	25172.3	" "
-2005	26267.4	" "
-2006	28023.9	" "
-2007	29854.1	" "
-2008	30588.9	" "
-2009	30213.9	" "
-2010	30636.7	" "
-2011	31361.9	" "
-2012	31957.7	" "
-2013	31800.9	" "
-2014	32254	" "
-2015	32855.4	" "
-2016	33901	" "
-2017	35955.3	" "
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+<title> 404 Not Found
+</title></head>
+<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
+<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
+        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
+<h2 style="margin-top:20px;font-size: 30px;">Not Found
+</h2>
+<p>The resource requested could not be found on this server!</p>
+</div></div></body></html>
