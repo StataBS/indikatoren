@@ -170,10 +170,12 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 10,
+    "ceiling": 12,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -253,7 +255,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -354,7 +357,9 @@
         44589,
         59133,
         91198,
-        116637
+        116637,
+        165152,
+        197194
       ],
       "visible": true
     },
@@ -369,15 +374,17 @@
       "id": "BS0609_2",
       "valueSuffix": "Quadratmeter (kumuliert)",
       "data": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        775,
+        775,
         775,
         775
       ],

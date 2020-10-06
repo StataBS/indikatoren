@@ -170,10 +170,11 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018
     ],
     "floor": 0,
-    "ceiling": 10,
+    "ceiling": 11,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -253,7 +254,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -354,6 +356,7 @@
         9,
         8,
         9,
+        10,
         10
       ],
       "visible": true
@@ -379,6 +382,7 @@
       "id": "BS&BL1607_3",
       "valueSuffix": "Milligramm pro Liter",
       "data": [
+        10,
         10,
         10,
         10,

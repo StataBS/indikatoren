@@ -76,23 +76,23 @@ id | visible | visibleInPortal | indikatorenset
 4218 | false |  | Integration-kompakt
 4219 | false |  | Integration-kompakt
 4220 | false |  | Integration-kompakt
-4221 | true | false | Umwelt
+4221 | true | true | Umwelt
 4222 | true | true | Umwelt
 4223 | true | true | Umwelt
-4224 | true | false | Umwelt
-4225 | true | false | Umwelt
+4224 | true | true | Umwelt
+4225 | true | true | Umwelt
 4226 | true | true | Umwelt
 4227 | true | true | Umwelt
 4228 | true | true | Umwelt
-4229 | true | false | Umwelt
-4230 | true | false | Umwelt
-4231 | true | false | Umwelt
+4229 | true | true | Umwelt
+4230 | true | true | Umwelt
+4231 | true | true | Umwelt
 4232 | true | true | Umwelt
 4233 | true | true | Umwelt
 4234 | true | true | Umwelt
 4235 | false |  | Umwelt
 4236 | true | true | Umwelt
-4237 | true | false | Umwelt
+4237 | true | true | Umwelt
 4238 | true | true | Umwelt
 4239 | true | true | Umwelt
 4240 | true | true | Umwelt
@@ -124,7 +124,7 @@ id | visible | visibleInPortal | indikatorenset
 4266 | true | true | Umwelt
 4267 | true | true | Umwelt
 4268 | true | true | Umwelt
-4269 | true | false | Umwelt
+4269 | true | true | Umwelt
 4270 | true | true | Umwelt
 4272 | true | true | Umwelt
 4273 | true | true | Umwelt
@@ -150,7 +150,7 @@ id | visible | visibleInPortal | indikatorenset
 4296 | false |  | Umwelt
 4297 | false |  | Umwelt
 4298 | true | true | Umwelt
-4299 | true | false | Umwelt
+4299 | true | true | Umwelt
 4300 | true | false | Umwelt
 4301 | true | true | Umwelt
 4302 | true | true | Umwelt
@@ -169,10 +169,10 @@ id | visible | visibleInPortal | indikatorenset
 4316 | true | true | Umwelt
 4317 | false |  | Umwelt
 4318 | true | true | Umwelt
-4319 | true | false | Umwelt
+4319 | true | true | Umwelt
 4320 | true | false | Umwelt
-4321 | true | false | Umwelt
-4322 | true | false | Umwelt
+4321 | true | true | Umwelt
+4322 | true | true | Umwelt
 4323 | true | true | Umwelt
 4325 | true | true | Umwelt
 4328 | false |  | Umwelt

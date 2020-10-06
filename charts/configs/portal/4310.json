@@ -160,10 +160,11 @@
   },
   "xAxis": {
     "categories": [
-      2015
+      2015,
+      2017
     ],
     "floor": 0,
-    "ceiling": 0,
+    "ceiling": 1,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -243,7 +244,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -326,10 +328,6 @@
     {
       "includeInCSVExport": true,
       "stacking": null,
-      "marker": {
-        "enabled": true,
-        "radius": 5
-      },
       "showInLegend": false,
       "type": "column",
       "showInNavigator": true,
@@ -338,6 +336,7 @@
       "id": "BS0903_1",
       "valueSuffix": "Anzahl Zellen der Klasse \u003E500 Meter",
       "data": [
+        16,
         16
       ],
       "visible": true

@@ -161,7 +161,7 @@
   "xAxis": {
     "categories": [
       2012,
-      2014
+      2017
     ],
     "floor": 0,
     "ceiling": 1,
@@ -244,7 +244,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -335,8 +336,8 @@
       "id": "BS0902_1",
       "valueSuffix": "Quadratmeter pro Einwohner und Beschäftigten",
       "data": [
-        44,
-        43
+        45.3,
+        40.5
       ],
       "visible": true
     }

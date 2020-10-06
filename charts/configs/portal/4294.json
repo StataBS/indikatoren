@@ -174,10 +174,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 14,
+    "ceiling": 15,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -257,7 +258,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -281,7 +283,7 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Carbotech AG",
+    "text": "Quelle: Bundesamt für Umwelt (BAFU)",
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -362,6 +364,7 @@
         6351,
         6351,
         5900,
+        5900,
         null
       ],
       "visible": true
@@ -382,26 +385,27 @@
       },
       "type": "line",
       "showInNavigator": true,
-      "name": "Zielpfad (2029: 0)",
+      "name": "Zielpfad (2024: 0)",
       "color": "#444444",
       "id": "BS1304_3",
       "valueSuffix": "Kilogramm",
       "data": [
-        null,
-        14282.7,
-        13661.7,
-        13040.7,
-        12419.7,
-        11798.7,
-        11177.7,
-        10556.8,
-        9935.8,
-        9314.8,
-        8693.8,
-        8072.8,
-        7451.8,
-        6830.8,
-        6209.9
+        15075,
+        14281.6,
+        13488.2,
+        12694.7,
+        11901.3,
+        11107.9,
+        10314.5,
+        9521.1,
+        8727.6,
+        7934.2,
+        7140.8,
+        6347.4,
+        5553.9,
+        4760.5,
+        3967.1,
+        3173.7
       ],
       "visible": true,
       "_symbolIndex": 0

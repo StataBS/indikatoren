@@ -238,7 +238,7 @@
       }
     },
     "series": {
-      "stacking": null,
+      "stacking": false,
       "connectNulls": true,
       "stickyTracking": false,
       "borderWidth": 0,
@@ -248,7 +248,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -318,7 +319,7 @@
     "enabled": false,
     "series": {
       "type": "column",
-      "stacking": null
+      "stacking": false
     },
     "xAxis": {
       "gridLineWidth": 0,
@@ -346,6 +347,37 @@
         3610
       ],
       "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "tooltip": {
+        "headerFormat": "\u003Cspan class='user-tooltip'\u003E\u003Cspan style='color:{point.color}; width: 10px; font-size: 1.8em;'\u003E■\u003C\u002Fspan\u003E\u003Cspan style='font-size: 1em;'\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class='user-tooltip-indent'\u003E"
+      },
+      "dashStyle": "ShortDash",
+      "marker": {
+        "enabled": false,
+        "states": {
+          "hover": {
+            "enabled": false
+          }
+        }
+      },
+      "type": "line",
+      "showInNavigator": true,
+      "name": "Zielwert",
+      "color": "#444444",
+      "id": "BS&BL1102_2",
+      "valueSuffix": "Tonnen",
+      "data": [
+        3100,
+        3100,
+        3100,
+        3100,
+        3100,
+        3100
+      ],
+      "visible": true,
+      "_symbolIndex": 0
     }
   ]
 }

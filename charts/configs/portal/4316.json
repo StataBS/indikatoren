@@ -194,10 +194,12 @@
       2014,
       2015,
       2016,
-      2017
+      2017,
+      2018,
+      2019
     ],
     "floor": 0,
-    "ceiling": 33,
+    "ceiling": 35,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -277,7 +279,8 @@
       }
     },
     "column": {
-      "pointPlacement": null
+      "pointPlacement": null,
+      "minPointLength": 2
     },
     "arearange": {
       "lineWidth": 0,
@@ -402,8 +405,10 @@
         13,
         97,
         19,
-        130,
-        42
+        131,
+        30,
+        16,
+        34
       ],
       "visible": true
     },
@@ -451,9 +456,11 @@
         0,
         1.25,
         898.61,
-        26.64,
-        764.17,
-        146.89
+        42.99,
+        894.08,
+        135.34,
+        39.06,
+        121.91
       ],
       "visible": false,
       "yAxis": 1
