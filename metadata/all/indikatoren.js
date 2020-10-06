@@ -2932,7 +2932,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0603' target = '_blank'>Umweltbericht beider Basel</a>"
 		],
@@ -3013,7 +3013,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3054,7 +3054,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0605' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3095,7 +3095,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik-bs.ch/tabellen/t08' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0606' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3259,7 +3259,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='https://www.bfs.admin.ch/bfs/de/home/statistiken/raum-umwelt/ressourcen/umweltindikatorensystem/nutzung-natuerliche-ressourcen/energieeffizienz.html' target='_blank'>Energieeffizienz Schweiz (BFS)</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0612' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -3299,7 +3299,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0602' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -3340,7 +3340,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='https://www.admin.ch/opc/de/classified-compilation/19983281/index.html#app4' target='_blank'>Gewässerschutzverordnung, Anhang 3.1</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1604' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -3542,7 +3542,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'' target = '_blank'>Umweltbericht beider Basel</a>."
 		],
@@ -4688,7 +4688,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='http://www.stadtplan.bs.ch/geoviewer/index.php?theme=19&cps=2612411.74,1267773.51,25000&nodefault&layers=stadtplan_grau_osm_25000,strlaermtag' target='_blank'>Strassenlärmkataster BS</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-10-1002' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -5642,7 +5642,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='http://www.bafu.admin.ch/klima/index.html?lang=de' target='_blank'>Bundesamt für Umwelt</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target='_blank'>Umweltbericht beider Basel</a></li></ul>"
 		],
@@ -6255,7 +6255,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/1-bevoelkerung.html' target = '_blank'>Bevölkerungsstatistik BS</a>",
 			"<a href = 'http://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner: Zentrale Begriffe BS</a>",
@@ -6297,7 +6297,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			""
 		],
@@ -6378,7 +6378,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0607' target = '_blank'>Umweltbericht beider Basel</a>"
@@ -6419,7 +6419,7 @@ var indikatoren = [
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
-		"datenInChartIntegriert": false,
+		"datenInChartIntegriert": true,
 		"externalLinks": [
 			"<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>",
 			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0613' target = '_blank'>Umweltbericht beider Basel</a>"

@@ -26,7 +26,7 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt; Statistisches Amt Basel-Stadt"],
-"datenInChartIntegriert":false,
+"datenInChartIntegriert":true,
 "externalLinks":["<a href = 'http://www.statistik.bs.ch/zahlen/tabellen/8-energie.html' target = '_blank'>Energiestatistik Kanton Basel-Stadt</a>","Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-06-0604' target = '_blank'>Umweltbericht beider Basel</a>"],
 "data-id":4223, 
 "chart-id":4223, 

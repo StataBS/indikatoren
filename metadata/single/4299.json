@@ -26,7 +26,7 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Energiestatistik"],
-"datenInChartIntegriert":false,
+"datenInChartIntegriert":true,
 "externalLinks":["Weiterführende Informationen zum Indikator:<br><ul><br><li><a href='http://www.bafu.admin.ch/klima/index.html?lang=de' target='_blank'>Bundesamt für Umwelt</a></li><br><li><a href='http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0808' target='_blank'>Umweltbericht beider Basel</a></li></ul>"],
 "data-id":4299, 
 "chart-id":4299, 

@@ -26,7 +26,7 @@
 "children":[],
 "renderLink":[],
 "quellenangabe":["Amt für Umwelt und Energie Basel-Stadt"],
-"datenInChartIntegriert":false,
+"datenInChartIntegriert":true,
 "externalLinks":["Eine detaillierte Beschreibung des Indikators (Definition und Methodik) findet sich im <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-16-1610' target='_blank'' target = '_blank'>Umweltbericht beider Basel</a>."],
 "data-id":4237, 
 "chart-id":4237, 
