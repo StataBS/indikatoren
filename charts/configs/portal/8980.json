@@ -758,6 +758,10 @@
         [
           "2020-08",
           4142
+        ],
+        [
+          "2020-09",
+          4053
         ]
       ],
       "name": "Arbeitslose",
@@ -1521,6 +1525,10 @@
         [
           "2020-08",
           806
+        ],
+        [
+          "2020-09",
+          858
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2287,6 +2295,10 @@
         [
           "2020-08",
           0.19459
+        ],
+        [
+          "2020-09",
+          0.2117
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -2432,7 +2444,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-9"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -2469,6 +2481,6 @@
 			}
   },
   "exporting": {
-    "filename": 8980
+    "filename": "8980"
   }
 }

@@ -1331,7 +1331,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Geschlecht",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.6151",
 		"kuerzelKunde": "4.10a",
 		"description": "Bewertung der Lebensqualität nach Geschlecht",
@@ -1341,7 +1341,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:56:45.4545",
+		"aktualisierungsdatum": "2020-10-07T13:55:46.4646",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2811,7 +2811,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Alter",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.6213",
 		"kuerzelKunde": "4.10b",
 		"description": "Bewertung der Lebensqualität nach Alter",
@@ -2821,7 +2821,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:00:38.3838",
+		"aktualisierungsdatum": "2020-10-07T13:56:33.3333",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2852,7 +2852,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Einkommensklasse",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.6228",
 		"kuerzelKunde": "4.10c",
 		"description": "Bewertung der Lebensqualität nach Einkommensklasse",
@@ -2862,7 +2862,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:07:53.5353",
+		"aktualisierungsdatum": "2020-10-07T13:57:02.022",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -2975,7 +2975,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Bewertung der Lebensqualität nach Herkunft",
-		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019",
+		"subtitle": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt",
 		"kuerzel": "I.50.1.6266",
 		"kuerzelKunde": "4.10d",
 		"description": "Bewertung der Lebensqualität nach Herkunft",
@@ -2985,7 +2985,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:08:17.1717",
+		"aktualisierungsdatum": "2020-10-07T13:57:32.3232",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -3148,7 +3148,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-15T17:27:37.3737",
+		"aktualisierungsdatum": "2020-10-07T13:53:59.5959",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
