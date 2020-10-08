@@ -550,23 +550,24 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+                    //use N if all series are visible, otherwise use n
+                    var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' :*/ 'n=';
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                },
       "align": "left",
       "x": -155
-    }
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
@@ -619,7 +620,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt, 2019"
+    "text": "«Wie bewerten Sie die Lebensqualität im Kanton Basel-Stadt insgesamt?», Basel-Stadt"
   },
   "navigation": {
     "menuItemStyle": {
@@ -668,16 +669,16 @@
     "useHTML": true,
     "followPointer": true,
     "formatter": function () {
-        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
-        $.each(this.points, function (i, point) {
-            s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
-                + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
-                + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
-            sum += point.y * (i + 1);
-        });
-        s += '</table><br/>Mittelwert: <b>' + Highcharts.numberFormat(sum / this.points[0].total, 1) + '</b>'
-        return s;
-    }
+                var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+                $.each(this.points, function (i, point) {
+                    s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+                        + '<td style="text-align:right">&nbsp;<b>' + point.y + '</b></td>'
+                        + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+                    sum += point.y * (i + 1);
+                });
+                s += '</table><br/>Mittelwert: <b>' + Highcharts.numberFormat(sum / this.points[0].total, 1) + '</b>'
+                return s;
+            }
   },
   "credits": {
     "enabled": true,
@@ -692,7 +693,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
   },
   "legend": {
     "layout": "vertical",
@@ -710,6 +711,6 @@
         }
   },
   "exporting": {
-    "filename": 6228
+    "filename": "6228"
   }
 }
