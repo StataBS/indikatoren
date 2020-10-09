@@ -139,6 +139,14 @@
         [
           "2017",
           398
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          426
         ]
       ],
       "name": "Fällungen",
@@ -283,6 +291,14 @@
         [
           "2017",
           392
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          442
         ]
       ],
       "name": "Pflanzungen",
@@ -432,9 +448,17 @@
         [
           "2017",
           2294
+        ],
+        [
+          "2018",
+          undefined
+        ],
+        [
+          "2019",
+          undefined
         ]
       ],
-      "name": "Kumulierter Saldo",
+      "name": "Kumulierter Saldo (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -517,7 +541,7 @@
     "text": "Saldo aus Anzahl Baumpflanzungen und -fällungen"
   },
   "subtitle": {
-    "text": "",
+    "text": "Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -586,13 +610,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-3"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6574
+    "filename": "6574"
   }
 }

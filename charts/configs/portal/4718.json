@@ -44,7 +44,7 @@
           29
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           25
         ]
       ],
@@ -95,7 +95,7 @@
           147
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           113
         ]
       ],
@@ -146,7 +146,7 @@
           172
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           127
         ]
       ],
@@ -197,7 +197,7 @@
           720
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           897
         ]
       ],
@@ -248,7 +248,7 @@
           96
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           136
         ]
       ],
@@ -299,7 +299,7 @@
           263
         ],
         [
-          "2011: Freund und Bekannte",
+          "2011: Freunde und Bekannte",
           391
         ]
       ],
@@ -437,7 +437,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
   },
   "legend": {
     "layout": "horizontal",
@@ -457,6 +457,6 @@
     "itemWidth": 126
   },
   "exporting": {
-    "filename": 4718
+    "filename": "4718"
   }
 }
