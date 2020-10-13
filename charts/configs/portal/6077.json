@@ -1,19 +1,19 @@
 {
   "series": [
     {
-      "name": "Arithmetisches Mittel der Jahre 2009-2018",
+      "name": "Arithmetisches Mittel der Jahre 2010-2019",
       "data": [
         [
           "Schweiz",
-          1.17
-        ],
-        [
-          "Deutschland",
           1.16
         ],
         [
+          "Deutschland",
+          1.18
+        ],
+        [
           "Italien",
-          1.1
+          1.12
         ],
         [
           "Türkei",
@@ -25,27 +25,27 @@
         ],
         [
           "EU-Ost",
-          1.05
+          1.13
         ],
         [
           "Balkan",
-          2.17
+          2.13
         ],
         [
           "Mittel- und Südamerika",
-          1.63
+          1.62
         ],
         [
           "Arabische Länder",
-          3.54
+          3.5
         ],
         [
           "Afrikanische Länder",
-          2.77
+          2.76
         ],
         [
           "Übrige Länder",
-          1.58
+          1.59
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Zusammengefasste Geburtenziffer"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2009 bis 2018",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, arithmetisches Mittel 2010 bis 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-12"
   },
   "colors": [
     "#b00000",
@@ -208,6 +208,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6077
+    "filename": "6077"
   }
 }
