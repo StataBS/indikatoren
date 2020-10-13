@@ -6,26 +6,26 @@
       "data": [
         [
           "Basel",
-          9780
+          10622
         ],
         [
           "Bern",
-          11380
+          12454
         ],
         [
           "Genf",
-          6631
+          9881
         ],
         [
           "Liestal",
-          8677
+          9786
         ],
         [
           "Zürich",
-          6824
+          7804
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -107,7 +107,7 @@
     "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten"
   },
   "subtitle": {
-    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,13 +162,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-15"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-12"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6239
+    "filename": "6239"
   }
 }
