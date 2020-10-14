@@ -10926,13 +10926,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:21:57.5757",
+		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -39108,13 +39108,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:21:57.5757",
+		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
@@ -67584,13 +67584,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-19T14:52:20.2020",
+		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass es in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"template": "populationPyramid001_print",
 		"darstellungsart": "Grafik",
