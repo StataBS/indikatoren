@@ -1667,22 +1667,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T13:40:48.4848",
+		"aktualisierungsdatum": "2020-10-14T17:49:13.1313",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2018 bei 2,5%. Bei den Ausländergruppen weisen Personen aus der Türkei und aus den afrikanischen Ländern mit 7,3% die höchsten Arbeitslosenquoten des Jahres 2018 auf. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 4,9%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2,8%).",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2019 bei 2,2%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (6,7%) und aus dem Balkan (6,4%) die höchsten Arbeitslosenquoten des Jahres 2019 auf. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 5,3%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2,6%).",
 		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_001",
+		"orderKey": "03_00_00_00_00_101",
 		"parentId": null,
 		"children": [
-			"6682",
-			"7823"
+			"6682"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1742,9 +1741,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 1999",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"kuerzel": "I.03.4.6408",
-		"kuerzelKunde": "C1-3",
+		"kuerzelKunde": "C1-6",
 		"description": "Arbeitslosenquote der Schweizer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1752,22 +1751,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-19T14:42:09.099",
+		"aktualisierungsdatum": "2020-10-14T17:50:03.033",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren 1999 die Frauen in allen Altersgruppen ausser bei den 20-24-Jährigen stärker von Arbeitslosigkeit betroffen als die Männer. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 1999 wird mit den Erwerbspersonen aus der Volkszählung von 1990 berechnet.",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den  unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_003",
+		"orderKey": "03_00_00_00_00_106",
 		"parentId": null,
 		"children": [
-			"6684",
-			"7825"
+			"6684"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1785,9 +1783,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitslosenquote der Ausländer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2019",
 		"kuerzel": "I.03.4.6409",
-		"kuerzelKunde": "C1-4",
+		"kuerzelKunde": "C1-7",
 		"description": "Arbeitslosenquote der Ausländer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1795,18 +1793,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:29:10.1010",
+		"aktualisierungsdatum": "2020-10-14T17:51:02.022",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von den 20-24-Jährigen.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"lesehilfe": "Im Jahr 2019 ist die Arbeitslosenquote bei den ausländischen Männern in allen Altersgruppen deutlich höher als bei den ausländischen Frauen. Am höchsten ist die Quote bei den ausländischen Männern über 60 Jahren, gefolgt von jener der 20- bis 24-Jährigen.",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2019 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2014-2018 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_004",
+		"orderKey": "03_00_00_00_00_107",
 		"parentId": null,
 		"children": [
 			"6685"
@@ -1827,9 +1825,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitslosenquote der Schweizer",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2018",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2019",
 		"kuerzel": "I.03.4.6410",
-		"kuerzelKunde": "C1-5",
+		"kuerzelKunde": "C1-8",
 		"description": "Arbeitslosenquote der Schweizer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1837,18 +1835,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:29:43.4343",
+		"aktualisierungsdatum": "2020-10-14T17:51:42.4242",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizerinnen und Schweizern sind im Jahr 2018 die Männer zwischen 20 und 24 Jahren am stärksten von Arbeitslosigkeit betroffen. Die Arbeitslosenquote ist jedoch in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen registriert die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote.",
-		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2018 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2013-2017 (aktuellstes 5-Jahres-Pooling) berechnet.",
+		"lesehilfe": "Bei den Schweizern sind im Jahr 2019 Männer zwischen 20 und 24 Jahren am stärksten von Arbeitslosigkeit betroffen (Quote: 4,0%). Die Arbeitslosenquote ist in allen Altersgruppen tiefer als bei den ausländischen Männern. Bei den Schweizerinnen ergibt sich für die Altersgruppe zwischen 30 und 34 Jahren die höchste Quote (2,9%).",
+		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2019 wird mit den Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen 2014-2018 (aktuellstes 5-Jahres-Pooling) berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_005",
+		"orderKey": "03_00_00_00_00_108",
 		"parentId": null,
 		"children": [
 			"6686"
@@ -1869,9 +1867,9 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
 		"kuerzel": "I.03.4.6411",
-		"kuerzelKunde": "C1-6",
+		"kuerzelKunde": "C1-2",
 		"description": "Anteil Arbeitslose in ausgewählten Berufsgruppen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1879,18 +1877,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-19T14:30:16.1616",
+		"aktualisierungsdatum": "2020-10-14T17:52:44.4444",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 80% der Arbeitslosen im Bereich Baugewerbe sind ausländische Staatsangehörige. Für die Berufe im Bereich Gastgewerbe und persönliche Dienstleistungen liegt der Anteil der ausländischen Arbeitslosen bei 71%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (40,3%) sowie im Bereich Gesundheit, Lehre, Kultur (40,5%) auf.",
+		"lesehilfe": "Rund 81% der Arbeitslosen im Baugewerbe sind im Jahr 2019 ausländische Staatsangehörige. Für die Berufe im Bereich Gastgewerbe und persönliche Dienstleistungen liegt der Anteil der ausländischen Arbeitslosen bei 73%. Den tiefsten Ausländeranteil weisen die Arbeitslosen mit einem Beruf im Bereich Banken und Versicherungen (41%) sowie im Bereich Gesundheit, Lehre, Kultur (40%) auf.",
 		"erlaeuterungen": "Die Berufsgruppen wurden nach der Berufsnomenklatur SBN 2000 gebildet.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_006",
+		"orderKey": "03_00_00_00_00_102",
 		"parentId": null,
 		"children": [
 			"6687"
@@ -1912,7 +1910,7 @@ var indikatorensetData = [
 		"title": "Anzahl monatlich ausgesteuerte Schweizer",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.4.6412",
-		"kuerzelKunde": "C1-7",
+		"kuerzelKunde": "C1-3",
 		"description": "Anzahl monatlich ausgesteuerte Schweizer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1920,22 +1918,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T16:35:18.1818",
+		"aktualisierungsdatum": "2020-10-14T17:53:19.1919",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden insgesamt 293 Schweizer Frauen und 295 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat 49 Schweizer Staatsangehörige (von Total 106 Personen).",
+		"lesehilfe": "Im Jahr 2019 wurden insgesamt 227 Schweizer Frauen und 270 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat 41 Schweizer Staatsangehörige.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_007",
+		"orderKey": "03_00_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"6688",
-			"7829"
+			"6688"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -1954,7 +1951,7 @@ var indikatorensetData = [
 		"title": "Anzahl monatlich ausgesteuerte Ausländer",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
 		"kuerzel": "I.03.4.6413",
-		"kuerzelKunde": "C1-8",
+		"kuerzelKunde": "C1-4",
 		"description": "Anzahl monatlich ausgesteuerte Ausländer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1962,22 +1959,21 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T16:36:43.4343",
+		"aktualisierungsdatum": "2020-10-14T17:54:04.044",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden insgesamt 277 ausländische Frauen und 408 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat rund 57 ausländische Staatsangehörige (von Total 106 Personen).",
+		"lesehilfe": "Im Jahr 2019 wurden insgesamt 276 ausländische Frauen und 381 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat rund 55 ausländische Staatsangehörige.",
 		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_008",
+		"orderKey": "03_00_00_00_00_104",
 		"parentId": null,
 		"children": [
-			"6689",
-			"7830"
+			"6689"
 		],
 		"renderLink": [],
 		"quellenangabe": [

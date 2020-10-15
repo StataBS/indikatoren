@@ -4931,51 +4931,51 @@
         ],
         [
           27,
-          -9
+          -8
         ],
         [
           28,
-          -3
+          -2
         ],
         [
           29,
-          -2
-        ],
-        [
-          30,
-          0
-        ],
-        [
-          31,
-          -5
-        ],
-        [
-          32,
           -1
         ],
         [
+          30,
+          1
+        ],
+        [
+          31,
+          -4
+        ],
+        [
+          32,
+          0
+        ],
+        [
           33,
-          -2
+          0
         ],
         [
           34,
-          -7
+          -5
         ],
         [
           35,
-          -9
+          -7
         ],
         [
           36,
-          -20
+          -18
         ],
         [
           37,
-          null
+          -22
         ],
         [
           38,
-          null
+          -27
         ],
         [
           39,
@@ -5151,7 +5151,7 @@
         ],
         [
           27,
-          2
+          3
         ],
         [
           28,
@@ -5175,7 +5175,7 @@
         ],
         [
           33,
-          -1
+          0
         ],
         [
           34,
@@ -5191,11 +5191,11 @@
         ],
         [
           37,
-          null
+          -4
         ],
         [
           38,
-          null
+          -5
         ],
         [
           39,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-14"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -5466,6 +5466,6 @@
 			}
   },
   "exporting": {
-    "filename": 9022
+    "filename": "9022"
   }
 }
