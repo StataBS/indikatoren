@@ -1,4 +1,4 @@
-﻿jahr	Feinstaub (PM10)	Langzeitgrenzwert NO<sub>2</sub>	Langzeitgrenzwert PM10	Stickstoffdioxid (NO<sub>2</sub>)
+﻿jahr	Feinstaub (PM10)	Langzeitgrenzwert NO<sub>2</sub>	Langzeitgrenzwert PM10	Stickstoffdioxid (NO<sub>2</sub>)	Feinstaub (PM2,5)	Langzeitgrenzwert PM2,5
 1991		30		52.78
 1992		30		49.89
 1993		30		47.23
@@ -26,4 +26,5 @@
 2015	18.3	30	20	31.47
 2016	16.1	30	20	27.82
 2017	16.22	30	20	27.71
-2018	17.80	30	20	26.92
+2018	17.80	30	20	26.92		10
+2019	17.16	30	20	30.33	12.29	10

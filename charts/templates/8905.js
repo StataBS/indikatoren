@@ -15,7 +15,7 @@
       tickInterval: 1,
       labels: {
         rotation: -45,
-//        step: 2,
+        step: 2,
       }
     },
     "legend": {

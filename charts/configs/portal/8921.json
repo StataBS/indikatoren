@@ -2,7 +2,10 @@
   "series": [
     {
       "color": "#2B0099",
-      "legendIndex": 2,
+      "marker": {
+        "enabled": false
+      },
+      "legendIndex": 3,
       "data": [
         [
           1991,
@@ -115,6 +118,10 @@
         [
           2018,
           17.8
+        ],
+        [
+          2019,
+          17.16
         ]
       ],
       "name": "Feinstaub (PM10)"
@@ -122,8 +129,11 @@
     {
       "color": "#68AB2B",
       "visible": true,
+      "marker": {
+        "enabled": false
+      },
       "dashStyle": "ShortDash",
-      "legendIndex": 3,
+      "legendIndex": 2,
       "data": [
         [
           1991,
@@ -236,12 +246,19 @@
         [
           2018,
           30
+        ],
+        [
+          2019,
+          30
         ]
       ],
       "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
     },
     {
       "color": "#008AC3",
+      "marker": {
+        "enabled": false
+      },
       "dashStyle": "ShortDash",
       "legendIndex": 4,
       "data": [
@@ -356,6 +373,10 @@
         [
           2018,
           20
+        ],
+        [
+          2019,
+          20
         ]
       ],
       "name": "Langzeitgrenzwert PM10"
@@ -363,6 +384,9 @@
     {
       "color": "#007A2F",
       "visible": true,
+      "marker": {
+        "enabled": false
+      },
       "legendIndex": 1,
       "data": [
         [
@@ -476,9 +500,269 @@
         [
           2018,
           26.92
+        ],
+        [
+          2019,
+          30.33
         ]
       ],
       "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
+    },
+    {
+      "type": "scatter",
+      "color": "#FF8028",
+      "marker": {
+        "enabled": true,
+        "symbol": "circle"
+      },
+      "legendIndex": 5,
+      "data": [
+        [
+          1991,
+          undefined
+        ],
+        [
+          1992,
+          undefined
+        ],
+        [
+          1993,
+          undefined
+        ],
+        [
+          1994,
+          undefined
+        ],
+        [
+          1995,
+          undefined
+        ],
+        [
+          1996,
+          undefined
+        ],
+        [
+          1997,
+          undefined
+        ],
+        [
+          1998,
+          undefined
+        ],
+        [
+          1999,
+          undefined
+        ],
+        [
+          2000,
+          undefined
+        ],
+        [
+          2001,
+          undefined
+        ],
+        [
+          2002,
+          undefined
+        ],
+        [
+          2003,
+          undefined
+        ],
+        [
+          2004,
+          undefined
+        ],
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          undefined
+        ],
+        [
+          2010,
+          undefined
+        ],
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          12.29
+        ]
+      ],
+      "name": "Feinstaub (PM2,5)"
+    },
+    {
+      "color": "#FFBB58",
+      "visible": true,
+      "marker": {
+        "enabled": false
+      },
+      "dashStyle": "ShortDash",
+      "legendIndex": 6,
+      "data": [
+        [
+          1991,
+          undefined
+        ],
+        [
+          1992,
+          undefined
+        ],
+        [
+          1993,
+          undefined
+        ],
+        [
+          1994,
+          undefined
+        ],
+        [
+          1995,
+          undefined
+        ],
+        [
+          1996,
+          undefined
+        ],
+        [
+          1997,
+          undefined
+        ],
+        [
+          1998,
+          undefined
+        ],
+        [
+          1999,
+          undefined
+        ],
+        [
+          2000,
+          undefined
+        ],
+        [
+          2001,
+          undefined
+        ],
+        [
+          2002,
+          undefined
+        ],
+        [
+          2003,
+          undefined
+        ],
+        [
+          2004,
+          undefined
+        ],
+        [
+          2005,
+          undefined
+        ],
+        [
+          2006,
+          undefined
+        ],
+        [
+          2007,
+          undefined
+        ],
+        [
+          2008,
+          undefined
+        ],
+        [
+          2009,
+          undefined
+        ],
+        [
+          2010,
+          undefined
+        ],
+        [
+          2011,
+          undefined
+        ],
+        [
+          2012,
+          undefined
+        ],
+        [
+          2013,
+          undefined
+        ],
+        [
+          2014,
+          undefined
+        ],
+        [
+          2015,
+          undefined
+        ],
+        [
+          2016,
+          undefined
+        ],
+        [
+          2017,
+          undefined
+        ],
+        [
+          2018,
+          10
+        ],
+        [
+          2019,
+          10
+        ]
+      ],
+      "name": "Langzeitgrenzwert PM2,5"
     }
   ],
   "chart": {
@@ -633,10 +917,12 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "step": 2,
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 2
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -652,7 +938,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "legend": {
     "enabled": true,
@@ -681,6 +967,6 @@
   "exporting": {
     "enabled": false,
     "allowHTML": true,
-    "filename": 8921
+    "filename": "8921"
   }
 }

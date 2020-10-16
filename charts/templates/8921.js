@@ -6,8 +6,12 @@
         "format": "{value:,.0f}"
       }
     },
-    "xAxis": {
-      tickInterval: 2
+    xAxis: {
+      tickInterval: 1,
+      labels: {
+        step: 2,
+        rotation: -45
+      }
     },
     "tooltip": {
       useHTML: true,
@@ -17,24 +21,56 @@
     "series": [
       {
         "color": "#2B0099",
-        legendIndex: 2
+        "marker": {
+          "enabled": false
+        },
+        legendIndex: 3
       }, /* duneklblau */
       {
         "color": "#68AB2B",
         visible: true,
+        "marker": {
+          "enabled": false
+        },
         dashStyle: 'ShortDash',
-        legendIndex: 3
+        legendIndex: 2
       }, /* dunkelgrün */
       {
         "color": "#008AC3",
+        "marker": {
+          "enabled": false
+        },
         dashStyle: 'ShortDash',
         legendIndex: 4
       }, /* duneklblau */
       {
         "color": "#007A2F",
         visible: true,
+        "marker": {
+          "enabled": false
+        },
         legendIndex: 1
       }, /* dunkelgrün */
+
+
+      {
+        type: 'scatter',
+        "color": "#FF8028",
+        "marker": {
+          "enabled": true,
+          symbol: "circle"
+        },
+        legendIndex: 5
+      }, /* orange */
+      {
+        "color": "#FFBB58",
+        visible: true,
+        "marker": {
+          "enabled": false
+        },
+        dashStyle: 'ShortDash',
+        legendIndex: 6
+      }, /* orange */
     ],
     "legend": {
       useHTML: true,

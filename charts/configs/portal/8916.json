@@ -18,7 +18,11 @@
         ],
         [
           "2016",
-          38.8
+          38.9
+        ],
+        [
+          "2018",
+          39.9
         ]
       ],
       "name": "Anteil erneuerbare Energie",
@@ -232,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -246,6 +250,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8916
+    "filename": "8916"
   }
 }
