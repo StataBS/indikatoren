@@ -435,7 +435,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -446,6 +446,6 @@
   },
   "tooltip": {},
   "exporting": {
-    "filename": 8913
+    "filename": "8913"
   }
 }

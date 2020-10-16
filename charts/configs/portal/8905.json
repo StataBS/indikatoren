@@ -115,6 +115,10 @@
         [
           2018,
           12
+        ],
+        [
+          2019,
+          16
         ]
       ],
       "name": "Anzahl Störfälle und Ereignisse"
@@ -269,7 +273,8 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45
+      "rotation": -45,
+      "step": 2
     },
     "tickLength": 0,
     "type": "linear",
@@ -289,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "legend": {
     "enabled": false,
@@ -316,6 +321,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8905
+    "filename": "8905"
   }
 }

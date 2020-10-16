@@ -685,7 +685,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -695,6 +695,6 @@
     }
   },
   "exporting": {
-    "filename": 8887
+    "filename": "8887"
   }
 }

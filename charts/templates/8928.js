@@ -110,7 +110,7 @@
         width: 300
       },
       labelFormatter: function () {
-        return this.name.replace("Verhältnis der Löhne von Frauen und Männern", "Verhältnis Frauen / Männer");
+        return this.name.replace("Verhältnis der Löhne von Frauen und Männern", "Verhältnis Frauen/Männer");
       }
     },
     "plotOptions": {

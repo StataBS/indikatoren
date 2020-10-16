@@ -434,7 +434,7 @@
           2294
         ]
       ],
-      "name": "Kumulierter Saldo",
+      "name": "Kumulierter Saldo (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -597,7 +597,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "",
+    "text": "Stadt Basel",
     "align": "left"
   },
   "yAxis": [
@@ -646,7 +646,8 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "alignColumns": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -667,7 +668,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Stadtgärtnerei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -681,6 +682,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8948
+    "filename": "8948"
   }
 }
