@@ -320,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "legend": {
     "enabled": true,
@@ -351,6 +351,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8922
+    "filename": "8922"
   }
 }

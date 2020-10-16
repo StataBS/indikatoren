@@ -66,6 +66,7 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
+      alignColumns: false,
       //"x": 25,
       //"y": 25,    
       "itemStyle": {

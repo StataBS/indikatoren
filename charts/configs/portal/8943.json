@@ -611,10 +611,12 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "step": 2,
+      "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 3
+    "tickInterval": 1
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -630,7 +632,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-11"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "legend": {
     "enabled": true,
@@ -658,6 +660,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8943
+    "filename": "8943"
   }
 }

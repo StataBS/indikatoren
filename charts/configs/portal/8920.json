@@ -372,7 +372,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "navigation": {
     "buttonOptions": {
@@ -381,6 +381,6 @@
   },
   "exporting": {
     "allowHTML": false,
-    "filename": 8920
+    "filename": "8920"
   }
 }

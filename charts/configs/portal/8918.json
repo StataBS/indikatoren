@@ -448,7 +448,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -458,6 +458,6 @@
     }
   },
   "exporting": {
-    "filename": 8918
+    "filename": "8918"
   }
 }

@@ -1,7 +1,11 @@
 (function () {
   return {
     "xAxis": {
-      "tickInterval": 3
+      "tickInterval": 1,
+      labels: {
+        step: 2,
+        rotation: -45
+      }
     },
     "yAxis": {
       "min": undefined,

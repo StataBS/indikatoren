@@ -454,7 +454,7 @@
     "text": "Höchste abgeschlossene Ausbildung"
   },
   "subtitle": {
-    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2013-2017"
+    "text": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2014-2018"
   },
   "yAxis": {
     "tickInterval": null,
@@ -506,7 +506,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-19"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
   },
   "navigation": {
     "buttonOptions": {
@@ -514,6 +514,6 @@
     }
   },
   "exporting": {
-    "filename": 8906
+    "filename": "8906"
   }
 }
