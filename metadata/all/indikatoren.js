@@ -10960,30 +10960,32 @@ var indikatoren = [
 	{
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.05148",
+		"kuerzel": "I.01.1.05148",
 		"kuerzelKunde": "BE6",
 		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:45:02.022",
+		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2008 bis 2018 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2018 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-28). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2008 und 2018 stets positiv aus. 2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen.",
+		"lesehilfe": "In den Jahren 2010 bis 2019 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2019 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-25). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2010 und 2019 stets positiv aus. 2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen.",
 		"erlaeuterungen": "Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister, aufgrund dessen ergibt sich ein Bereinigungssaldo. Dieser ist im Allgemeinen auf verspätet gemeldete Ereignisse zurückzuführen.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_107",
+		"orderKey": "01_01_00_00_00_106",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8885"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -23057,13 +23059,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:16:13.1313",
+		"aktualisierungsdatum": "2020-10-21T09:38:14.1414",
 		"stufe1": "Ziel 1: Der Kanton Basel-Stadt ist als starkes Zentrum anerkannt.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt liegt mit einem Wert von 2,07 vor Zug, Zürich und Aargau auf dem ersten Rang aller Kantone. 2018 lag Basel-Stadt noch auf Rang vier. Der Sprung auf den ersten Rang 2019 wird mit der markanten Senkung der Unternehmenssteuer begründet.",
+		"lesehilfe": "Basel-Stadt liegt 2020 mit einem Wert von 2,06 hinter Zug auf dem zweiten Rang aller Kantone. Es folgen Zürich, Genf und Aargau. 2019 lag Basel-Stadt auf Rang eins. Dass Zug den Spitzenplatz wieder erobert hat, wird mit der dortigen Senkung der Unternehmenssteuern begründet.",
 		"erlaeuterungen": "Der Standortqualitätsindikator drückt die Attraktivität der Schweizer Kantone und Regionen im Vergleich zum Schweizer Durchschnitt von null aus. Werte zwischen -0,3 und +0,3 können als Mittelfeld bezeichnet werden, höhere Werte bedeuten  eine überdurchschnittliche Attraktivität, tiefere Werte eine geringere. Die Komponenten der Standortqualität sind steuerliche Attraktivität für natürliche und juristische Personen, Verfügbarkeit von Fachkräften und hochqualifizierten Personen sowie die Erreichbarkeit als Summe aller Beschäftigungs- oder Bevölkerungspotenziale im in- und ausländischen Einzugsgebiet bzw. des Passagieraufkommens am jeweiligen Flughafen.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -67620,7 +67622,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:06.066",
+		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -71356,7 +71358,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-14T08:34:04.044",
+		"aktualisierungsdatum": "2020-10-21T08:45:52.5252",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

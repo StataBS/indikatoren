@@ -195,6 +195,10 @@
         [
           2018,
           -28
+        ],
+        [
+          2019,
+          -25
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -394,6 +398,10 @@
         [
           2018,
           688
+        ],
+        [
+          2019,
+          1214
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -593,6 +601,10 @@
         [
           2018,
           608
+        ],
+        [
+          2019,
+          -1038
         ]
       ],
       "name": "Bereinigungen"
@@ -793,6 +805,10 @@
         [
           2018,
           1268
+        ],
+        [
+          2019,
+          151
         ]
       ],
       "name": "Gesamtveränderung"
@@ -976,7 +992,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-21"
   },
   "legend": {
     "enabled": true,
