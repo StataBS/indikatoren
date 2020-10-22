@@ -195,6 +195,10 @@
         [
           1514764800000,
           -28
+        ],
+        [
+          1546300800000,
+          -25
         ]
       ],
       "name": "Saldo Geburten-Todesfälle",
@@ -395,6 +399,10 @@
         [
           1514764800000,
           688
+        ],
+        [
+          1546300800000,
+          1214
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge",
@@ -595,6 +603,10 @@
         [
           1514764800000,
           608
+        ],
+        [
+          1546300800000,
+          -1038
         ]
       ],
       "name": "Bereinigungen",
@@ -796,6 +808,10 @@
         [
           1514764800000,
           1268
+        ],
+        [
+          1546300800000,
+          151
         ]
       ],
       "name": "Gesamtveränderung",
@@ -823,6 +839,7 @@
     "startOnTick": true,
     "showFirstLabel": true,
     "showLastLabel": true,
+    "tickInterval": 31536000000,
     "crosshair": {
       "width": 0
     }
@@ -936,7 +953,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-21"
   },
   "legend": {
     "symbolRadius": 0,
@@ -1000,6 +1017,6 @@
     "csv": {
       "dateFormat": "%d.%m.%Y"
     },
-    "filename": 5148
+    "filename": "5148"
   }
 }
