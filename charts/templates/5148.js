@@ -59,12 +59,13 @@
       }
     },
     xAxis: {
+    
       endOnTick: true,
       startOnTick: true,
       showFirstLabel: true,
       showLastLabel: true,
-      //tickInterval: 365 * 24 * 3600 * 1000,
-      //minTickInterval: 365 * 24 * 3600 * 1000,
+      tickInterval: 365 * 24 * 3600 * 1000,
+     // minTickInterval: 365 * 24 * 3600 * 1000,
       ordinal: false,
       crosshair: {
         width: 0

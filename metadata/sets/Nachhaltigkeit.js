@@ -122,29 +122,31 @@ var indikatorensetData = [
 	{
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.05148",
+		"kuerzel": "I.01.1.05148",
 		"kuerzelKunde": "BE6",
 		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
+		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:45:02.022",
+		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2008 bis 2018 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2018 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-28). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2008 und 2018 stets positiv aus. 2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen.",
+		"lesehilfe": "In den Jahren 2010 bis 2019 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2019 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-25). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2010 und 2019 stets positiv aus. 2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen.",
 		"erlaeuterungen": "Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister, aufgrund dessen ergibt sich ein Bereinigungssaldo. Dieser ist im Allgemeinen auf verspätet gemeldete Ereignisse zurückzuführen.",
 		"template": "stock001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_107",
+		"orderKey": "01_01_00_00_00_106",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8885"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
