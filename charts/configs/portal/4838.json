@@ -5,87 +5,87 @@
       "data": [
         [
           "Breite",
-          0.1323364
+          0.1254493051
         ],
         [
           "Bruderholz",
-          0.1398243
+          0.1358121034
         ],
         [
           "Iselin",
-          0.1583872
+          0.1559287137
         ],
         [
           "Riehen",
-          0.1588472
+          0.1604026597
         ],
         [
           "Matthäus",
-          0.1847065
+          0.1833720331
         ],
         [
           "Bachletten",
-          0.2013719
-        ],
-        [
-          "Gotthelf",
-          0.2847148
+          0.1989834229
         ],
         [
           "Bettingen",
-          0.2880606
+          0.2618170378
+        ],
+        [
+          "Gotthelf",
+          0.291090078
         ],
         [
           "Hirzbrunnen",
-          0.313564
+          0.3237955868
         ],
         [
           "Klybeck",
-          0.448508
+          0.4690369439
         ],
         [
           "Gundeldingen",
-          0.570626
+          0.5766547817
         ],
         [
           "Clara",
-          0.6108446
+          0.5891255128
         ],
         [
           "Rosental",
-          0.6933704
+          0.6525225757
         ],
         [
           "Am Ring",
-          0.9990474
+          1.0114517055
         ],
         [
           "St. Johann",
-          1.0923027
+          1.0875585544
         ],
         [
           "Altstadt Kleinbasel",
-          1.553431
+          1.5276966556
         ],
         [
           "Wettstein",
-          2.0461142
+          1.8792207119
         ],
         [
           "Kleinhüningen",
-          2.0877175
+          2.1355715324
         ],
         [
           "St. Alban",
-          2.3121586
+          2.2642005383
         ],
         [
           "Altstadt Grossbasel",
-          3.998352
+          4.024306915
         ],
         [
           "Vorstädte",
-          4.4429848
+          4.4012966738
         ]
       ],
       "name": "Arbeitsplätze pro Kopf",
@@ -119,11 +119,11 @@
           6
         ],
         [
-          "Gotthelf",
+          "Bettingen",
           7
         ],
         [
-          "Bettingen",
+          "Gotthelf",
           8
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-22"
   },
   "legend": {
     "enabled": false,
@@ -322,6 +322,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 4838
+    "filename": "4838"
   }
 }

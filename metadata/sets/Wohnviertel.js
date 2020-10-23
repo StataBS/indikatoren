@@ -697,7 +697,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
@@ -707,7 +707,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:11:37.3737",
+		"aktualisierungsdatum": "2020-10-22T18:34:25.2525",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -1447,7 +1447,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "Basel-Stadt, 2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"kuerzel": "I.03.2.05125",
 		"kuerzelKunde": "WA-4.B",
 		"description": "Arbeitsplätze pro Kopf",
@@ -1457,7 +1457,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-10-21T15:12:15.1515",
+		"aktualisierungsdatum": "2020-10-22T18:36:16.1616",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
