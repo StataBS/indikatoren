@@ -996,13 +996,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:53.5353",
+		"aktualisierungsdatum": "2020-10-23T18:46:09.099",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 sind in der Stadt Basel 185 605 Beschäftigte tätig. Davon arbeiten 3 930 im Bezirk Messe und 1 309 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,7%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
+		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 3 725 im Bezirk Messe und 1 421 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,0% bzw. 0,8%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -1037,13 +1037,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-10-23T18:48:02.022",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 608 Beschäftigten im Jahr 2017, gefolgt von den Sonstigen wirtschaftlichen Dienstleistungen (599) und der Branche Erziehung und Unterricht (492). Personalvermittlung und -überlassung (437), Baugewerbe (376) sowie Beherbergung und Gastronomie (284) sind weitere Branchen mit substantiellen Beschäftigtenzahlen.",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 496 Beschäftigten im Jahr 2018, gefolgt von den Sonstigen wirtschaftlichen Dienstleistungen (591) und der Branche Erziehung und Unterricht (517). Personalvermittlung und -überlassung (488), Baunebengewerbe (326) sowie die Pharmazeutische Industrie (212) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

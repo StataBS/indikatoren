@@ -56,6 +56,10 @@
         [
           "2016",
           31
+        ],
+        [
+          "2020",
+          42
         ]
       ],
       "name": "Gewählte Frauen",
@@ -117,6 +121,10 @@
         [
           "2016",
           69
+        ],
+        [
+          "2020",
+          58
         ]
       ],
       "name": "Gewählte Männer",
@@ -178,6 +186,10 @@
         [
           "2016",
           268
+        ],
+        [
+          "2020",
+          282
         ]
       ],
       "name": "Kandidatinnen",
@@ -239,6 +251,10 @@
         [
           "2016",
           495
+        ],
+        [
+          "2020",
+          510
         ]
       ],
       "name": "Kandidaten",
@@ -368,7 +384,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-25"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -409,6 +425,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8457
+    "filename": "8457"
   }
 }
