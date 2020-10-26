@@ -12919,13 +12919,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-19T16:02:55.5555",
+		"aktualisierungsdatum": "2020-10-25T23:38:24.2424",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im basel-städtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
@@ -14444,13 +14444,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-10-30T13:00:01.011",
+		"aktualisierungsdatum": "2020-10-23T16:28:26.2626",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Basel-Stadt, Genf und Zürich relativ konstant.",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit den 1990er-Jahren stark gestiegen. Seit 2007 blieben die Werte in den Kantonen Genf und Zürich relativ konstant.",
 		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -14459,7 +14459,6 @@ var indikatoren = [
 		"orderKey": "02_00_00_00_00_001",
 		"parentId": null,
 		"children": [
-			"6045",
 			"6282"
 		],
 		"renderLink": [],
@@ -28501,7 +28500,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-24T08:35:49.4949",
+		"aktualisierungsdatum": "2020-10-26T13:17:21.2121",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -30557,13 +30556,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:53.5353",
+		"aktualisierungsdatum": "2020-10-23T18:46:09.099",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 sind in der Stadt Basel 185 605 Beschäftigte tätig. Davon arbeiten 3 930 im Bezirk Messe und 1 309 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,1% bzw. 0,7%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
+		"lesehilfe": "Im Jahr 2018 sind in der Stadt Basel 185 432 Beschäftigte tätig. Davon arbeiten 3 725 im Bezirk Messe und 1 421 im Bezirk Erlenmatt. Anteilsmässig sind dies 2,0% bzw. 0,8%. Insgesamt entfallen somit 2,8% der Beschäftigung der Stadt Basel auf das Wohnviertel Rosental.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -30599,13 +30598,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2020-10-23T18:48:02.022",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 608 Beschäftigten im Jahr 2017, gefolgt von den Sonstigen wirtschaftlichen Dienstleistungen (599) und der Branche Erziehung und Unterricht (492). Personalvermittlung und -überlassung (437), Baugewerbe (376) sowie Beherbergung und Gastronomie (284) sind weitere Branchen mit substantiellen Beschäftigtenzahlen.",
+		"lesehilfe": "Die wichtigste Branche im Wohnviertel Rosental ist die Forschung und Entwicklung mit 1 496 Beschäftigten im Jahr 2018, gefolgt von den Sonstigen wirtschaftlichen Dienstleistungen (591) und der Branche Erziehung und Unterricht (517). Personalvermittlung und -überlassung (488), Baunebengewerbe (326) sowie die Pharmazeutische Industrie (212) sind weitere Branchen mit substanziellen Beschäftigtenzahlen.",
 		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben, und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -32491,7 +32490,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August 2020",
+		"subtitle": "Basel-Stadt, September 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -32502,13 +32501,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-09-24T08:37:59.5959",
+		"aktualisierungsdatum": "2020-10-26T13:18:52.5252",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im August 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln ging sie zurück.",
+		"lesehilfe": "Im September 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 16 Wohnvierteln sowie in Bettingen. In drei Wohnvierteln ging sie zurück. In Riehen blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
@@ -40396,13 +40395,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:26:43.4343",
+		"aktualisierungsdatum": "2020-10-25T23:35:43.4343",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase erstmals wieder rückläufig und verharrt auch 2016 bei 31%.",
+		"lesehilfe": "Seit Einführung des Frauenstimmrechts 1966 hat sich der Frauenanteil unter den Kandidierenden von anfangs einem Fünftel bis im Jahr 1996 verdoppelt und ging danach bis 2012 kontinuierlich zurück. Die Entwicklung der Frauenvertretung im baselstädtischen Kantonsparlament war 2012 nach einer längeren Wachstumsphase rückläufig. 2020 hat sich der Frauenanteil von 31% im Jahr 2016 auf 42% deutlich erhöht.",
 		"erlaeuterungen": "Der Grosse Rat umfasst seit den Gesamterneuerungswahlen 2008 gemäss der neuen, 2005 vom Basler Stimmvolk verabschiedeten Kantonsverfassung nur noch 100 Grossratssitze. Die in der Grafik dargestellten Anteile beziehen sich auf das am Wahlsonntag erzielte Ergebnis. Der tatsächliche Frauenanteil kann sich infolge personeller Wechsel während einer Legislaturperiode mehrmals ändern.",
 		"template": "line001",
 		"darstellungsart": "Grafik",

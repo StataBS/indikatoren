@@ -5,49 +5,6 @@
       "data": [
         [
           "Forschung und Entwicklung",
-          1789
-        ],
-        [
-          "Sonst. wirtsch. DL",
-          679
-        ],
-        [
-          "Erziehung und Unterricht",
-          514
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          379
-        ],
-        [
-          "Baugewerbe",
-          293
-        ],
-        [
-          "Beherbergung und Gastronomie",
-          614
-        ],
-        [
-          "Chemie, Pharma",
-          917
-        ],
-        [
-          "Gesundheits- und Sozialwesen",
-          225
-        ],
-        [
-          "Gross- und Detailhandel",
-          59
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Forschung und Entwicklung",
           1673
         ],
         [
@@ -55,7 +12,7 @@
           593
         ],
         [
-          "Erziehung und Unterricht",
+          "Erziehung, Unterricht",
           528
         ],
         [
@@ -63,31 +20,35 @@
           391
         ],
         [
-          "Baugewerbe",
-          385
+          "Baunebengewerbe",
+          361
         ],
         [
-          "Beherbergung und Gastronomie",
-          319
+          "Pharmazeutische Industrie",
+          297
         ],
         [
-          "Chemie, Pharma",
-          344
+          "Grosshandel",
+          230
         ],
         [
-          "Gesundheits- und Sozialwesen",
-          203
+          "Gastronomie",
+          195
         ],
         [
-          "Gross- und Detailhandel",
-          249
+          "Unternehmensverwaltung, -führung, -beratung",
+          287
+        ],
+        [
+          "Heime",
+          62
         ]
       ],
       "name": "2016",
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Forschung und Entwicklung",
@@ -98,7 +59,7 @@
           599
         ],
         [
-          "Erziehung und Unterricht",
+          "Erziehung, Unterricht",
           492
         ],
         [
@@ -106,27 +67,78 @@
           437
         ],
         [
-          "Baugewerbe",
-          376
+          "Baunebengewerbe",
+          355
         ],
         [
-          "Beherbergung und Gastronomie",
-          284
+          "Pharmazeutische Industrie",
+          224
         ],
         [
-          "Chemie, Pharma",
-          274
+          "Grosshandel",
+          202
         ],
         [
-          "Gesundheits- und Sozialwesen",
-          270
+          "Gastronomie",
+          180
         ],
         [
-          "Gross- und Detailhandel",
-          222
+          "Unternehmensverwaltung, -führung, -beratung",
+          159
+        ],
+        [
+          "Heime",
+          118
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Forschung und Entwicklung",
+          1496
+        ],
+        [
+          "Sonst. wirtsch. DL",
+          591
+        ],
+        [
+          "Erziehung, Unterricht",
+          517
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          488
+        ],
+        [
+          "Baunebengewerbe",
+          326
+        ],
+        [
+          "Pharmazeutische Industrie",
+          212
+        ],
+        [
+          "Grosshandel",
+          202
+        ],
+        [
+          "Gastronomie",
+          160
+        ],
+        [
+          "Unternehmensverwaltung, -führung, -beratung",
+          139
+        ],
+        [
+          "Heime",
+          127
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -258,7 +270,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -299,6 +311,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7689
+    "filename": "7689"
   }
 }

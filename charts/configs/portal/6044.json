@@ -57,7 +57,7 @@
         ],
         [
           2020,
-          null
+          0.42
         ]
       ],
       "name": "Gewählte"
@@ -260,7 +260,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-19"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-25"
   },
   "tooltip": {
     "pointFormatter": function(){
@@ -269,6 +269,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6044
+    "filename": "6044"
   }
 }
