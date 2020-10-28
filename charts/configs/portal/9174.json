@@ -1,0 +1,267 @@
+{
+  "series": [
+    {
+      "color": "#3C3C3C",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          78.6
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          88.8
+        ],
+        [
+          "Kulturangebot",
+          91.4
+        ],
+        [
+          "Wohnungsangebot",
+          64.8
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          96
+        ]
+      ],
+      "name": "Basel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          85.9
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          94.8
+        ],
+        [
+          "Kulturangebot",
+          90.4
+        ],
+        [
+          "Wohnungsangebot",
+          54.9
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          97.7
+        ]
+      ],
+      "name": "Bern",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A0BEC8",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          63.2
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          null
+        ],
+        [
+          "Kulturangebot",
+          91.6
+        ],
+        [
+          "Wohnungsangebot",
+          null
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          87.3
+        ]
+      ],
+      "name": "Luzern",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "visible": true,
+      "data": [
+        [
+          "Kinderbetreuungsangebot",
+          67.9
+        ],
+        [
+          "Angebot an Grünanlagen und Parks",
+          82.2
+        ],
+        [
+          "Kulturangebot",
+          90.7
+        ],
+        [
+          "Wohnungsangebot",
+          30.1
+        ],
+        [
+          "Öffentliche Verkehrsmittel",
+          91.6
+        ]
+      ],
+      "name": "Zürich",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": true,
+    "marginLeft": 210,
+    "marginBottom": 55,
+    "marginRight": 15,
+    "renderTo": "container-9174",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0,
+      "groupPadding": 0.1
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zufriedenheit mit…"
+  },
+  "subtitle": {
+    "text": "«Wie zufrieden sind Sie mit folgenden Aspekten an Ihrem Wohnort?», Anteil Zufriedene, 2019",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "min": null,
+    "max": 100
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitspace": "nowrap"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 5,
+    "symbolPadding": 1,
+    "padding": 0
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-27"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9174"
+  }
+}

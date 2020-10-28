@@ -1847,6 +1847,18 @@ id | visible | visibleInPortal | indikatorenset
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
 9064 | true | true | Leerstand
 9137 | true | true | Leerstand
+9157 | true | true | Staedtevergleich
+9158 | true | true | Staedtevergleich
+9159 | true | true | Staedtevergleich
+9160 | true | true | Staedtevergleich
+9161 | true | true | Staedtevergleich
+9162 | true | true | Staedtevergleich
+9163 | true | true | Staedtevergleich
+9164 | true | true | Staedtevergleich
+9165 | true | true | Staedtevergleich
+9166 | true | true | Staedtevergleich
+9167 | true | true | Staedtevergleich
+9174 | true | true | Staedtevergleich
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 
