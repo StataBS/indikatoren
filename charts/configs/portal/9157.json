@@ -1,0 +1,266 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "Basel",
+          74.6
+        ],
+        [
+          "Bern",
+          72.2
+        ],
+        [
+          "Luzern*",
+          73.5
+        ],
+        [
+          "Zürich",
+          75.7
+        ]
+      ],
+      "name": "Sehr gerne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel",
+          22.4
+        ],
+        [
+          "Bern",
+          24.7
+        ],
+        [
+          "Luzern*",
+          23.1
+        ],
+        [
+          "Zürich",
+          21.9
+        ]
+      ],
+      "name": "Eher gerne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "data": [
+        [
+          "Basel",
+          1.9
+        ],
+        [
+          "Bern",
+          2.7
+        ],
+        [
+          "Luzern*",
+          3.4
+        ],
+        [
+          "Zürich",
+          1.9
+        ]
+      ],
+      "name": "Eher ungerne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          "Basel",
+          0.6
+        ],
+        [
+          "Bern",
+          0.2
+        ],
+        [
+          "Luzern*",
+          null
+        ],
+        [
+          "Zürich",
+          0.3
+        ]
+      ],
+      "name": "Sehr ungerne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "Basel",
+          0.6
+        ],
+        [
+          "Bern",
+          0.2
+        ],
+        [
+          "Luzern*",
+          null
+        ],
+        [
+          "Zürich",
+          0.3
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "color": "#000000",
+        "width": 1,
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+            	return this.value.replace(" ", "<br/>");
+            }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 40,
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "type": "column",
+    "renderTo": "container-9157"
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Beurteilung des Wohnorts"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "«Wie gerne leben\u002Fwohnen Sie in der Stadt…», 2019"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "yAxis": {
+    "tickInterval": 20,
+    "reversedStacks": false,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "format": "{value}%",
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bevölkerungsbefragungen der Kantone Basel-Stadt, Luzern und der Städte Bern und Zürich.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-27"
+  },
+  "legend": {
+    "reversed": false,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 4,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "width": 115,
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemWidth": 150,
+    "width": 420
+  },
+  "exporting": {
+    "filename": "9157"
+  }
+}
