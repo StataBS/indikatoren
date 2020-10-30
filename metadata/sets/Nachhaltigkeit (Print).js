@@ -167,7 +167,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
+		"aktualisierungsdatum": "2020-10-29T14:20:44.4444",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -1187,7 +1187,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:08.088",
+		"aktualisierungsdatum": "2020-10-29T14:23:11.1111",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -1540,7 +1540,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:09.099",
+		"aktualisierungsdatum": "2020-10-29T14:48:49.4949",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -2948,7 +2948,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:08:04.044",
+		"aktualisierungsdatum": "2020-10-29T14:27:08.088",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",

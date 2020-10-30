@@ -22,7 +22,7 @@
       labels: {
         format: "{value:,.0f}",
       },
-      min: -500,
+      min: -1500,
       tickInterval: 500,
       plotLines: [{
         color: '#B9CFD7',
