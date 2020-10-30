@@ -11011,13 +11011,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:27:46.4646",
+		"aktualisierungsdatum": "2020-10-29T14:43:16.1616",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren von 9,3 auf 10,4 zugenommen.",
+		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren leicht von 10,0 auf 10,3 zugenommen.",
 		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
@@ -59081,6 +59081,48 @@ var indikatoren = [
 		"id": 8458
 	},
 	{
+		"title": "Mittelwert und Median des Reinvermögens",
+		"subtitle": "in Franken, Basel-Stadt",
+		"kuerzel": "I.18.2.08459",
+		"kuerzelKunde": "WE11",
+		"description": "Mittelwert und Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kennzahlenset": "Nachhaltigkeit",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-10-29T14:27:08.088",
+		"stufe1": "Bereich Wirtschaftliche Entfaltung",
+		"stufe2": "Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Median des Reinvermögens ist seit 2008 überwiegend gestiegen, insgesamt um 63,2% von rund 12 300 auf 20 000 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "06_02_00_00_00_611",
+		"parentId": null,
+		"children": [
+			"8962"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 8459,
+		"chart-id": 8459,
+		"filter": "",
+		"id": 8459
+	},
+	{
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
 		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019",
 		"kuerzel": "I.50.1.08460",
@@ -67621,7 +67663,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
+		"aktualisierungsdatum": "2020-10-29T14:20:44.4444",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -68667,7 +68709,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:08.088",
+		"aktualisierungsdatum": "2020-10-29T14:23:11.1111",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
@@ -69029,7 +69071,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:09.099",
+		"aktualisierungsdatum": "2020-10-29T14:48:49.4949",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
@@ -70473,7 +70515,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:08:04.044",
+		"aktualisierungsdatum": "2020-10-29T14:27:08.088",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",

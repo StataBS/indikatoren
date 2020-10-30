@@ -1,59 +1,104 @@
 {
   "series": [
     {
-      "color": "#3C3C3C",
-      "legendIndex": 2,
+      "color": "#B375AB",
       "data": [
         [
+          2007,
+          390927
+        ],
+        [
           2008,
-          8.96
+          359455
         ],
         [
           2009,
-          9.31
+          388974
         ],
         [
           2010,
-          9.95
+          373331
         ],
         [
           2011,
-          9.72
+          360298
         ],
         [
           2012,
-          10.01
+          397663
         ],
         [
           2013,
-          10.08
+          449487
         ],
         [
           2014,
-          9.98
+          489728
         ],
         [
           2015,
-          10.48
+          440302
         ],
         [
           2016,
-          10.97
+          488775
         ],
         [
           2017,
-          10.49
-        ],
-        [
-          2018,
-          10.4
-        ],
-        [
-          2019,
-          10.32
+          448363
         ]
       ],
-      "name": "Total"
+      "name": "Mittelwert Reinvermögen"
+    },
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          2007,
+          11398
+        ],
+        [
+          2008,
+          12253
+        ],
+        [
+          2009,
+          12472
+        ],
+        [
+          2010,
+          13067
+        ],
+        [
+          2011,
+          14488
+        ],
+        [
+          2012,
+          16200
+        ],
+        [
+          2013,
+          15057
+        ],
+        [
+          2014,
+          16264
+        ],
+        [
+          2015,
+          16281
+        ],
+        [
+          2016,
+          18772
+        ],
+        [
+          2017,
+          20000
+        ]
+      ],
+      "name": "Median Reinvermögen"
     }
   ],
   "chart": {
@@ -85,7 +130,7 @@
 					}
 				}
     },
-    "renderTo": "container-5149"
+    "renderTo": "container-8459"
   },
   "plotOptions": {
     "series": {
@@ -101,10 +146,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Geburtenziffer"
+    "text": "Mittelwert und Median des Reinvermögens"
   },
   "subtitle": {
-    "text": "Basel-Stadt",
+    "text": "in Franken, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -126,8 +171,7 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "rotation": 0
+      }
     },
     "tickInterval": 1
   },
@@ -146,19 +190,24 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "format": "{value:,.0f}"
     },
-    "tickInterval": 2
+    "max": undefined,
+    "tickInterval": 100000
   },
   "legend": {
-    "enabled": false,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
+    "labelFormatter": function () {
+				return this.name.replace(' Reinvermögen', '');
+			 }
   },
   "credits": {
     "enabled": true,
@@ -173,7 +222,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-29"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -209,10 +258,7 @@
 				}, true, true);
 			}
   },
-  "tooltip": {
-    "valueDecimals": 1
-  },
   "exporting": {
-    "filename": "5149"
+    "filename": "8459"
   }
 }
