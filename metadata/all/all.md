@@ -1516,6 +1516,7 @@ id | visible | visibleInPortal | indikatorenset
 8456 | true | false | Nachhaltigkeit
 8457 | true | true | Nachhaltigkeit
 8458 | true | true | Nachhaltigkeit
+8459 | true | true | Nachhaltigkeit
 8460 | true | true | Nachhaltigkeit
 8461 | true | true | Nachhaltigkeit
 8462 | true | true | Wirtschaftsbericht BS_BL_JU
