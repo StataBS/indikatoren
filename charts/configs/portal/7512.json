@@ -4,10 +4,6 @@
       "color": "rgb(111,111,111)",
       "data": [
         [
-          1567303200000,
-          0.3
-        ],
-        [
           1569895200000,
           -0.1
         ],
@@ -54,6 +50,10 @@
         [
           1598925600000,
           -0.7
+        ],
+        [
+          1601517600000,
+          -0.4
         ]
       ],
       "name": "Basler Index"
@@ -61,10 +61,6 @@
     {
       "color": "rgb(176,0,0)",
       "data": [
-        [
-          1567303200000,
-          0.1
-        ],
         [
           1569895200000,
           -0.3
@@ -112,6 +108,10 @@
         [
           1598925600000,
           -0.8
+        ],
+        [
+          1601517600000,
+          -0.6
         ]
       ],
       "name": "Landesindex"
@@ -133,6 +133,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "rotation": -45,
       "formatter": function() {
               if (this.isFirst || this.isLast) {
                 return Highcharts.dateFormat('%b %y', this.value);
@@ -250,7 +251,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -292,6 +293,6 @@
     "xDateFormat": "%Y-%m"
   },
   "exporting": {
-    "filename": 7512
+    "filename": "7512"
   }
 }

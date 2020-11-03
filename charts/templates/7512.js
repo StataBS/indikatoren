@@ -15,6 +15,7 @@
           type: 'datetime',
           tickInterval: 1000 * 60 * 60 * 24 * 30,
           labels: { 
+            rotation: -45,
             formatter: function() {
               if (this.isFirst || this.isLast) {
                 return Highcharts.dateFormat('%b %y', this.value);

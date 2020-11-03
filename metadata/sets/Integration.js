@@ -84,32 +84,31 @@ var indikatorensetData = [
 		"id": 6058
 	},
 	{
-		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.1.06059",
 		"kuerzelKunde": "A1-4",
-		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-08-12T09:42:17.1717",
+		"aktualisierungsdatum": "2020-11-02T11:03:30.3030",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 bildeten die Deutschen mit 16 459 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen. Diesem Anstieg steht ein Rückgang der Anzahl Italiener, Türken und Personen aus dem Balkan gegenüber, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"lesehilfe": "Ende 2019 bildeten die Deutschen mit 16 380 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen, nun gegenüber 2018 jedoch geringfügig gesunken. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2000 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
 		"erlaeuterungen": "",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_004",
-		"parentId": null,
+		"orderKey": "01_00_00_00_00_104",
+		"parentId": 6599,
 		"children": [
-			"6599",
 			"6644"
 		],
 		"renderLink": [],
@@ -1326,7 +1325,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Ausländeranteil nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, Stand 2018 und Veränderung seit 1999",
+		"subtitle": "Basel-Stadt, Stand 2019 und Veränderung seit 2000",
 		"kuerzel": "I.01.1.6398",
 		"kuerzelKunde": "A1-3",
 		"description": "Ausländeranteil nach Gemeinde und Wohnviertel",
@@ -1336,26 +1335,23 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-09-24T11:26:18.1818",
+		"aktualisierungsdatum": "2020-11-02T11:00:07.077",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2018 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥47%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<25%). Seit 1999 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Altstadt Grossbasel und Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
+		"lesehilfe": "Ende 2019 wiesen die Wohnviertel Rosental, Matthäus, Klybeck, Kleinhüningen und Clara die höchsten Ausländeranteile auf (≥45%). Die tiefsten Ausländeranteile wurden in den Wohnvierteln Bachletten, Bruderholz, Hirzbrunnen und in der Gemeinde Bettingen verzeichnet (<26%). Seit 2000 haben die Ausländeranteile in den Wohnvierteln Vorstädte, St. Alban, Am Ring, Bruderholz, Wettstein und Altstadt Kleinbasel sowie in der Gemeinde Riehen am stärksten zugenommen.",
 		"erlaeuterungen": "",
 		"template": "mappie001",
 		"darstellungsart": "Karte kontinuierlich",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_003",
+		"orderKey": "01_00_00_00_00_103",
 		"parentId": null,
 		"children": [
-			"6674",
-			"7815"
+			"6674"
 		],
-		"renderLink": [
-			"7815"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
