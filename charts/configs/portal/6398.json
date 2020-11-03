@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Ausländeranteil 2018 in %",
+      "name": "Ausländeranteil 2019 in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          28.0877
+          28.2132
         ],
         [
           2,
-          38.1009
+          38.5136
         ],
         [
           3,
-          36.8741
+          37.3476
         ],
         [
           4,
-          33.8042
+          34.3799
         ],
         [
           5,
-          34.498
+          34.9566
         ],
         [
           6,
-          39.5548
+          39.7079
         ],
         [
           7,
-          24.6981
+          25.0931
         ],
         [
           8,
-          21.7423
+          22.4061
         ],
         [
           9,
-          28.316
+          28.5961
         ],
         [
           10,
-          38.4
+          37.8567
         ],
         [
           11,
-          43.4436
+          43.2872
         ],
         [
           12,
-          37.6278
+          38.3562
         ],
         [
           13,
-          47.0603
+          46.9523
         ],
         [
           14,
-          31.8885
+          32.1629
         ],
         [
           15,
-          24.9227
+          25.2252
         ],
         [
           16,
-          55.6871
+          55.9136
         ],
         [
           17,
-          50.7988
+          50.2611
         ],
         [
           18,
-          52.2007
+          51.8585
         ],
         [
           19,
-          47.9706
+          46.9979
         ],
         [
           20,
-          26.6179
+          27.1137
         ],
         [
           30,
-          24.6496
+          25.2542
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt GB",
-          12.212
+          11.012
         ],
         [
           "Vorstädte",
-          16.904
+          18.349
         ],
         [
           "Am Ring",
-          14.256
+          14.338
         ],
         [
           "Breite",
-          10.998
+          11.008
         ],
         [
           "St. Alban",
-          17.32
+          16.969
         ],
         [
           "Gundeldingen",
-          1.441
+          1.93
         ],
         [
           "Bruderholz",
-          13.162
+          12.846
         ],
         [
           "Bachletten",
-          9.037
+          9.482
         ],
         [
           "Gotthelf",
-          9.921
+          9.742
         ],
         [
           "Iselin",
-          10.829
+          10.044
         ],
         [
           "St. Johann",
-          2.474
+          2.695
         ],
         [
           "Altstadt KB",
-          13.411
+          13.665
         ],
         [
           "Clara",
-          5.534
+          4.876
         ],
         [
           "Wettstein",
-          12.552
+          12.521
         ],
         [
           "Hirzbrunnen",
-          8.057
+          7.869
         ],
         [
           "Rosental",
-          5.699
+          6.287
         ],
         [
           "Matthäus",
-          0.635
+          1.379
         ],
         [
           "Klybeck",
-          3.33
+          2.791
         ],
         [
           "Kleinhüningen",
-          8.771
+          7.074
         ],
         [
           "Riehen",
-          13.963
+          14.011
         ],
         [
           "Bettingen",
-          8.373
+          8.742
         ]
       ],
-      "name": "Zunahme seit 1999 in Prozentpunkten"
+      "name": "Zunahme seit 2000 in Prozentpunkten"
     },
     {
       "name": "Rhein",
@@ -7241,7 +7241,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Ausländeranteil 2018 in % ', 265, 300);
+					fn.addLegendTitle(chart, 'Ausländeranteil 2019 in % ', 265, 300);
 				
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -7266,7 +7266,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Stand 2018 und Veränderung seit 1999",
+    "text": "Basel-Stadt, Stand 2019 und Veränderung seit 2000",
     "align": "left"
   },
   "credits": {
@@ -7282,7 +7282,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-9-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-2"
   },
   "colorAxis": {
     "min": 0,
@@ -7371,7 +7371,7 @@
 			            }
       }
     },
-    "filename": 6398
+    "filename": "6398"
   },
   "customFunctions": {
     "hideOnZoom": function(e, selector){

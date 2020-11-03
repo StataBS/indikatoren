@@ -414,7 +414,7 @@ id | visible | visibleInPortal | indikatorenset
 6056 | true | true | Nachhaltigkeit
 6057 | true | true | Integration
 6058 | true | true | Integration
-6059 | true | true | Integration
+6059 | true | false | Integration
 6060 | true | true | Integration
 6061 | true | false | Integration
 6062 | true | true | Integration
