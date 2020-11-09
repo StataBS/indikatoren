@@ -324,10 +324,15 @@
         "color": "#000000",
         "width": 1,
         "whiteSpace": "nowrap",
-        "textOverflow": "none"
+        "textOverflow": "none",
+        "fontSize": "10px"
       },
-      "formatter": undefined
-    }
+      "formatter": undefined,
+      "align": "left",
+      "reserveSpace": true,
+      "x": -12
+    },
+    "reversed": false
   },
   "chart": {
     "events": {
@@ -399,7 +404,7 @@
     }
   },
   "yAxis": {
-    "tickInterval": null,
+    "tickInterval": 20,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
@@ -416,7 +421,9 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
+      },
+      "y": 10,
+      "rotation": 0
     },
     "reversedStacks": false
   },
@@ -437,13 +444,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
   },
   "legend": {
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left",
+    "align": "right",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
@@ -454,7 +461,9 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "itemWidth": 126
+    "x": -25,
+    "itemWidth": 142,
+    "width": 300
   },
   "exporting": {
     "filename": "4718"

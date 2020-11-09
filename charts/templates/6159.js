@@ -23,7 +23,7 @@
   "series": [
   {"color": "#b00000"},
   {"color": "#923f8d"}, 
-  {"color": "#b375ab"}, 
+  //{"color": "#b375ab"}, 
   //{"color": "#9bbb59"},  
   ],
   "legend": {

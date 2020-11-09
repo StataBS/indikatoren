@@ -1845,6 +1845,7 @@ id | visible | visibleInPortal | indikatorenset
 9023 | true | true | 
 9027 | true | true | Gesellschaftlicher-Zusammenhalt
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
+9030 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
 9064 | true | true | Leerstand
 9137 | true | true | Leerstand
@@ -1859,6 +1860,8 @@ id | visible | visibleInPortal | indikatorenset
 9165 | true | true | Staedtevergleich
 9166 | true | true | Staedtevergleich
 9167 | true | true | Staedtevergleich
+9170 | true | true | Gesellschaftlicher-Zusammenhalt
+9172 | true | true | Gesellschaftlicher-Zusammenhalt
 9174 | true | true | Staedtevergleich
 9995 | true | false | 
 9996 | true | false | 

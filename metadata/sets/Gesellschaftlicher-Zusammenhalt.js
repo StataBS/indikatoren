@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T16:17:18.1818",
+		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 erhielten 42,4% der Befragten von Freunden oder Bekannten Hilfeleistungen (2013: 39,7%; 2009: 46,2%), 30,5% von den Nachbarn (2013: 28,5%; 2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2017 11,6% der Befragten, 2013 waren es 12,1%, 2009 13,3%.",
+		"lesehilfe": "2017 erhielten 42,4% der befragten Familien von Freunden oder Bekannten Hilfeleistungen (2013: 39,7%; 2009: 46,2%), 30,5% von den Nachbarn (2013: 28,5%; 2009: 34,1%). Von den Arbeitskollegen Hilfeleistungen zu bekommen, bejahten 2017 11,6% der Befragten, 2013 waren es 12,1%, 2009 13,3%. Als Hilfeleistungen zählen finanzielle Zuwendungen wie auch Arbeiten (Reinigung, Haus- oder Gartenarbeit, Pflege etc.).",
 		"erlaeuterungen": "Die Familienbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Von insgesamt 5 000 zufällig ermittelten und angeschriebenen Familien haben 2017 1 665 Familien an der schriftlichen Befragung teilgenommen. Als Familie wird ein Haushalt definiert, in welchem mindestens ein Elternteil mit mindestens einem Kind unter 18 Jahren gemeinsam lebt. Ausgewählt werden zudem nur Familien, die seit mindestens einem Jahr im Kanton Basel-Stadt wohnen.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
@@ -52,7 +52,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-08T17:04:49.4949",
+		"aktualisierungsdatum": "2020-11-06T16:15:13.1313",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -302,7 +302,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T10:09:51.5151",
+		"aktualisierungsdatum": "2020-11-06T16:20:12.1212",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -343,7 +343,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T16:20:01.011",
+		"aktualisierungsdatum": "2020-11-06T16:24:32.3232",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -357,7 +357,7 @@ var indikatorensetData = [
 		"orderKey": "01_01_00_00_00_014",
 		"parentId": null,
 		"children": [
-			"8388"
+			"9179"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -509,14 +509,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-25T16:19:16.1616",
+		"aktualisierungsdatum": "2020-11-06T09:05:29.2929",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2019 geben 113 der Befragten (5,4%) an, im Verlaufe des vergangenen Jahres bedroht oder angegriffen worden zu sein. 2015 waren es deren 94 (6,2%).",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel­Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
@@ -1624,6 +1624,47 @@ var indikatorensetData = [
 		"id": 9029
 	},
 	{
+		"title": "Ordnungsbussen",
+		"subtitle": "Basel-Stadt",
+		"kuerzel": "I.19.1.09030",
+		"kuerzelKunde": "3.2.05",
+		"description": "Ordnungsbussen",
+		"thema": "19 Rechtspflege",
+		"unterthema": "Polizei",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 233 598 Ordnungsbussen bezahlt. Dies sind 11/% mehr als ein Jahr zuvor.",
+		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
+		"template": "line001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_059",
+		"parentId": null,
+		"children": [
+			"9035"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9030,
+		"chart-id": 9030,
+		"filter": "",
+		"id": 9030
+	},
+	{
 		"title": "Zufriedenheit mit der Sicherheit im öffentlichen Raum",
 		"subtitle": "«Wie zufrieden sind Sie mit der Sicherheit im öffentlichen Raum?», Basel-Stadt",
 		"kuerzel": "I.50.1.09032",
@@ -1663,5 +1704,87 @@ var indikatorensetData = [
 		"chart-id": 9032,
 		"filter": "",
 		"id": 9032
+	},
+	{
+		"title": "Beurteilung der Schulen in Basel-Stadt durch Haushalte mit Kindern",
+		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt",
+		"kuerzel": "I.50.1.09170",
+		"kuerzelKunde": "2.2.03",
+		"description": "Beurteilung der Schulen in Basel-Stadt durch Haushalte mit Kindern",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.2 Vertrauen in Institutionen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "11,3% der im Jahr 2019 Befragten aus Haushalten mit Kindern sind sehr und 40,2% eher mit der Aussage einverstanden, dass die Schulen des Kantons Basel-Stadt die Jugendlichen gut fürs Leben vorbereiten würden. Der Anteil Befragter, welche diese Aussage nicht beurteilt haben, ist im Vergleich zu den Vorjahren gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Beim vorliegenden Indikator sind nur Haushalte mit Kindern berücksichtigt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_02_00_00_00_044",
+		"parentId": null,
+		"children": [
+			"9176"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9170,
+		"chart-id": 9170,
+		"filter": "",
+		"id": 9170
+	},
+	{
+		"title": "Beurteilung der eigenen wirtschaftlichen Situation nach Einkommen",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
+		"kuerzel": "I.50.1.09172",
+		"kuerzelKunde": "2.3.03",
+		"description": "Beurteilung der eigenen wirtschaftlichen Situation nach Einkommen",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"stufe1": "2 Verbundenheit",
+		"stufe2": "2.3 Gerechtigkeitsempfinden",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Während 33,1% der im Jahr 2019 Befragten mit einem Haushaltseinkommen von über 7 499 Fr. angeben, dass es ihnen wirtschaftlich sehr gut geht, sind es bei jenen mit einem Einkommen von unter 3 000 Fr. 2,8%. 15,5% dieser Haushalte geht es gar nicht gut. Bei den Haushalten mit mittlerem Einkommen liegt dieser Anteil bei 2,1%.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
+		"template": "befragungen001",
+		"darstellungsart": "Grafik",
+		"printformat": "",
+		"orderKey": "02_03_00_00_00_049",
+		"parentId": null,
+		"children": [
+			"9178"
+		],
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9172,
+		"chart-id": 9172,
+		"filter": "",
+		"id": 9172
 	}
 ];
