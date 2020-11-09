@@ -374,6 +374,10 @@
         [
           "2020-09",
           1283
+        ],
+        [
+          "2020-10",
+          1211
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -511,7 +515,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-8"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-9"
   },
   "tooltip": {
     "valueDecimals": 0,
