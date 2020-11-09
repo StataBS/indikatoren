@@ -2,8 +2,6 @@
   "series": [
     {
       "color": "#256370",
-      "index": 0,
-      "legendIndex": 0,
       "data": [
         [
           "2009",
@@ -23,8 +21,6 @@
     },
     {
       "color": "#71A3B5",
-      "index": 1,
-      "legendIndex": 1,
       "data": [
         [
           "2009",
@@ -44,8 +40,6 @@
     },
     {
       "color": "#FFBB58",
-      "index": 4,
-      "legendIndex": 4,
       "data": [
         [
           "2009",
@@ -65,8 +59,6 @@
     },
     {
       "color": "#FF8028",
-      "index": 5,
-      "legendIndex": 5,
       "data": [
         [
           "2009",
@@ -86,8 +78,6 @@
     },
     {
       "color": "#C8C8C8",
-      "index": 2,
-      "legendIndex": 2,
       "data": [
         [
           "2009",
@@ -107,8 +97,6 @@
     },
     {
       "color": "#8A8A8A",
-      "index": 3,
-      "legendIndex": 3,
       "data": [
         [
           "2009",
@@ -257,6 +245,7 @@
       "type": "category",
       "rotation": 0
     },
+    "reversedStacks": false,
     "max": 100
   },
   "tooltip": {
@@ -276,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
   },
   "legend": {
     "layout": "vertical",
@@ -292,9 +281,10 @@
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
-    "enabled": true
+    "enabled": true,
+    "reversed": true
   },
   "exporting": {
-    "filename": 4849
+    "filename": "4849"
   }
 }

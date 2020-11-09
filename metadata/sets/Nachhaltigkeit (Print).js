@@ -1422,13 +1422,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:19.1919",
+		"aktualisierungsdatum": "2020-11-06T13:27:33.3333",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Feinstaubkonzentration PM10 lag 2019 mit 17,2 Mikrogramm pro Kubikmeter unter dem Grenzwert. Die Werte für Stickstoffdioxid und PM2,5 überschritten mit 30,33 resp. 12,29  μg/m<sup>3</sup> die jeweilige Grenzwerte leicht.",
+		"lesehilfe": "Die Feinstaubkonzentration PM10 lag 2019 mit 17,2 Mikrogramm pro Kubikmeter unter dem Grenzwert. Die Werte für Stickstoffdioxid und PM2,5 überschritten mit 30,33 resp. 12,29 μg/m<sup>3</sup> die jeweilige Grenzwerte leicht.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2.5, NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2.5) versteht man Partikel, die kleiner sind als 10 respektive 2.5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2.5 10 μg/m<sup>3</sup>.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
@@ -1696,14 +1696,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:35.3535",
+		"aktualisierungsdatum": "2020-11-06T11:06:32.3232",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als 10 Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u.&nbsp;a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als 10 Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
 		"template": "line001_print",
 		"darstellungsart": "Grafik",
 		"printformat": "",

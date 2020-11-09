@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#FABD24",
-      "index": 2,
+      "index": 0,
       "data": [
         [
           "Berufliche Probleme",
@@ -74,7 +74,7 @@
     },
     {
       "color": "#73B97C",
-      "index": 0,
+      "index": 2,
       "data": [
         [
           "Berufliche Probleme",
@@ -122,10 +122,14 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "10px",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
       },
-      "formatter": function() {
-            return this.value.replace("Erziehungsfragen oder -probleme", "Erziehungsfragen oder<br/>-probleme")}
+      "x": -5,
+      "formatter": undefined
     }
   },
   "chart": {
@@ -210,8 +214,10 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
-    }
+      "format": "{value}%",
+      "y": 10
+    },
+    "tickInterval": 20
   },
   "legend": {
     "symbolRadius": 0,
@@ -221,8 +227,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "x": 143
+    "itemDistance": 10
   },
   "navigation": {
     "menuItemStyle": {
@@ -243,13 +248,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 4848
+    "filename": "4848"
   }
 }
