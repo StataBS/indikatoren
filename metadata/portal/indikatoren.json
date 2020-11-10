@@ -20844,7 +20844,7 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2018",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2019",
 		"kuerzel": "I.09.1.6476",
 		"kuerzelKunde": "D2-2",
 		"description": "Mittlere Wohnfläche pro Person",
@@ -20854,23 +20854,22 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-20T18:24:04.044",
+		"aktualisierungsdatum": "2020-11-09T10:48:56.5656",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 44,9 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
+		"lesehilfe": "Differenziert nach Ländergruppen zeigt sich, dass die Schweizer mit 45,2 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person besitzen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_003",
+		"orderKey": "04_00_00_00_00_202",
 		"parentId": null,
 		"children": [
-			"6717",
-			"7858"
+			"6717"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -20931,33 +20930,32 @@
 	},
 	{
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2018",
-		"kuerzel": "I.01.2.6478",
+		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2019",
+		"kuerzel": "I.09.1.06478",
 		"kuerzelKunde": "D2-4",
 		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-22T10:11:17.1717",
+		"aktualisierungsdatum": "2020-11-09T10:50:45.4545",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,8 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,3 m² an erster Stelle.",
+		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,7 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,8 m² an erster Stelle.",
 		"erlaeuterungen": "Die Wohnfläche berechnet sich aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung.",
 		"template": "template001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_006",
+		"orderKey": "04_00_00_00_00_204",
 		"parentId": null,
 		"children": [
-			"6719",
-			"7860"
+			"6719"
 		],
 		"renderLink": [],
 		"quellenangabe": [
