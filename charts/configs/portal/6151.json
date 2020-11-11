@@ -6,39 +6,31 @@
       "legendIndex": 0,
       "data": [
         [
-          "2019: männlich",
-          116
-        ],
-        [
-          "2019: weiblich",
-          194
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
+          "2003: männlich",
+          43
+        ],
+        [
+          "2003: weiblich",
+          77
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: männlich",
+          38
+        ],
+        [
+          "2005: weiblich",
           64
         ],
         [
-          "2015: weiblich",
-          109
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          66
-        ],
-        [
-          "2011: weiblich",
-          137
-        ],
-        [
-          "   ",
+          "2007",
           null
         ],
         [
@@ -50,28 +42,40 @@
           73
         ],
         [
-          "    ",
+          "2011",
           null
         ],
         [
-          "2005: männlich",
-          38
+          "2011: männlich",
+          66
         ],
         [
-          "2005: weiblich",
+          "2011: weiblich",
+          137
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
           64
         ],
         [
-          "     ",
+          "2015: weiblich",
+          109
+        ],
+        [
+          "2019",
           null
         ],
         [
-          "2003: männlich",
-          43
+          "2019: männlich",
+          116
         ],
         [
-          "2003: weiblich",
-          77
+          "2019: weiblich",
+          194
         ]
       ],
       "name": "Note 10",
@@ -83,51 +87,19 @@
       "legendIndex": 1,
       "data": [
         [
-          "2019: männlich",
-          205
-        ],
-        [
-          "2019: weiblich",
-          223
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          108
+          "2003: männlich",
+          48
         ],
         [
-          "2015: weiblich",
-          115
+          "2003: weiblich",
+          56
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          78
-        ],
-        [
-          "2011: weiblich",
-          90
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          64
-        ],
-        [
-          "2007: weiblich",
-          96
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -139,16 +111,52 @@
           84
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          48
+          "2007: männlich",
+          64
         ],
         [
-          "2003: weiblich",
-          56
+          "2007: weiblich",
+          96
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          78
+        ],
+        [
+          "2011: weiblich",
+          90
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          108
+        ],
+        [
+          "2015: weiblich",
+          115
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          205
+        ],
+        [
+          "2019: weiblich",
+          223
         ]
       ],
       "name": "Note 9",
@@ -160,51 +168,19 @@
       "legendIndex": 2,
       "data": [
         [
-          "2019: männlich",
-          304
-        ],
-        [
-          "2019: weiblich",
-          406
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          270
+          "2003: männlich",
+          281
         ],
         [
-          "2015: weiblich",
-          320
+          "2003: weiblich",
+          295
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          284
-        ],
-        [
-          "2011: weiblich",
-          298
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          266
-        ],
-        [
-          "2007: weiblich",
-          305
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -216,16 +192,52 @@
           285
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          281
+          "2007: männlich",
+          266
         ],
         [
-          "2003: weiblich",
-          295
+          "2007: weiblich",
+          305
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          284
+        ],
+        [
+          "2011: weiblich",
+          298
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          270
+        ],
+        [
+          "2015: weiblich",
+          320
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          304
+        ],
+        [
+          "2019: weiblich",
+          406
         ]
       ],
       "name": "Note 8",
@@ -237,51 +249,19 @@
       "legendIndex": 3,
       "data": [
         [
-          "2019: männlich",
-          154
-        ],
-        [
-          "2019: weiblich",
-          160
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          130
+          "2003: männlich",
+          164
         ],
         [
-          "2015: weiblich",
-          151
+          "2003: weiblich",
+          187
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          154
-        ],
-        [
-          "2011: weiblich",
-          173
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          194
-        ],
-        [
-          "2007: weiblich",
-          178
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -293,16 +273,52 @@
           186
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          164
+          "2007: männlich",
+          194
         ],
         [
-          "2003: weiblich",
-          187
+          "2007: weiblich",
+          178
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          154
+        ],
+        [
+          "2011: weiblich",
+          173
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          130
+        ],
+        [
+          "2015: weiblich",
+          151
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          154
+        ],
+        [
+          "2019: weiblich",
+          160
         ]
       ],
       "name": "Note 7",
@@ -314,51 +330,19 @@
       "legendIndex": 4,
       "data": [
         [
-          "2019: männlich",
-          38
-        ],
-        [
-          "2019: weiblich",
-          57
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          45
+          "2003: männlich",
+          74
         ],
         [
-          "2015: weiblich",
-          48
+          "2003: weiblich",
+          70
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          41
-        ],
-        [
-          "2011: weiblich",
-          52
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          64
-        ],
-        [
-          "2007: weiblich",
-          66
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -370,16 +354,52 @@
           79
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          74
+          "2007: männlich",
+          64
         ],
         [
-          "2003: weiblich",
-          70
+          "2007: weiblich",
+          66
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          41
+        ],
+        [
+          "2011: weiblich",
+          52
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          45
+        ],
+        [
+          "2015: weiblich",
+          48
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          38
+        ],
+        [
+          "2019: weiblich",
+          57
         ]
       ],
       "name": "Note 6",
@@ -391,51 +411,19 @@
       "legendIndex": 5,
       "data": [
         [
-          "2019: männlich",
-          37
-        ],
-        [
-          "2019: weiblich",
-          45
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          43
+          "2003: männlich",
+          46
         ],
         [
-          "2015: weiblich",
-          50
+          "2003: weiblich",
+          91
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          34
-        ],
-        [
-          "2011: weiblich",
-          62
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          45
-        ],
-        [
-          "2007: weiblich",
-          69
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -447,16 +435,52 @@
           76
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          46
+          "2007: männlich",
+          45
         ],
         [
-          "2003: weiblich",
-          91
+          "2007: weiblich",
+          69
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          34
+        ],
+        [
+          "2011: weiblich",
+          62
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          43
+        ],
+        [
+          "2015: weiblich",
+          50
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          37
+        ],
+        [
+          "2019: weiblich",
+          45
         ]
       ],
       "name": "Note 5",
@@ -468,51 +492,19 @@
       "legendIndex": 6,
       "data": [
         [
-          "2019: männlich",
-          15
-        ],
-        [
-          "2019: weiblich",
-          14
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          8
+          "2003: männlich",
+          11
         ],
         [
-          "2015: weiblich",
-          8
+          "2003: weiblich",
+          12
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          6
-        ],
-        [
-          "2011: weiblich",
-          14
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          13
-        ],
-        [
-          "2007: weiblich",
-          13
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -524,16 +516,52 @@
           11
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          11
+          "2007: männlich",
+          13
         ],
         [
-          "2003: weiblich",
-          12
+          "2007: weiblich",
+          13
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          6
+        ],
+        [
+          "2011: weiblich",
+          14
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          8
+        ],
+        [
+          "2015: weiblich",
+          8
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          15
+        ],
+        [
+          "2019: weiblich",
+          14
         ]
       ],
       "name": "Note 4",
@@ -545,51 +573,19 @@
       "legendIndex": 7,
       "data": [
         [
-          "2019: männlich",
-          11
-        ],
-        [
-          "2019: weiblich",
-          11
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
+          "2003: männlich",
+          5
+        ],
+        [
+          "2003: weiblich",
           9
         ],
         [
-          "2015: weiblich",
-          5
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          8
-        ],
-        [
-          "2011: weiblich",
-          5
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          10
-        ],
-        [
-          "2007: weiblich",
-          3
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -601,16 +597,52 @@
           10
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
+          "2007: männlich",
+          10
+        ],
+        [
+          "2007: weiblich",
+          3
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          8
+        ],
+        [
+          "2011: weiblich",
           5
         ],
         [
-          "2003: weiblich",
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
           9
+        ],
+        [
+          "2015: weiblich",
+          5
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          11
+        ],
+        [
+          "2019: weiblich",
+          11
         ]
       ],
       "name": "Note 3",
@@ -622,51 +654,19 @@
       "legendIndex": 8,
       "data": [
         [
-          "2019: männlich",
-          5
-        ],
-        [
-          "2019: weiblich",
-          5
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: männlich",
-          1
+          "2003: männlich",
+          0
         ],
         [
-          "2015: weiblich",
-          1
+          "2003: weiblich",
+          3
         ],
         [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
-          2
-        ],
-        [
-          "2011: weiblich",
-          2
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          2
-        ],
-        [
-          "2007: weiblich",
-          2
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -678,16 +678,52 @@
           1
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
-          0
+          "2007: männlich",
+          2
         ],
         [
-          "2003: weiblich",
-          3
+          "2007: weiblich",
+          2
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
+          2
+        ],
+        [
+          "2011: weiblich",
+          2
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          1
+        ],
+        [
+          "2015: weiblich",
+          1
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          5
+        ],
+        [
+          "2019: weiblich",
+          5
         ]
       ],
       "name": "Note 2",
@@ -699,51 +735,19 @@
       "legendIndex": 9,
       "data": [
         [
-          "2019: männlich",
+          "2003",
+          null
+        ],
+        [
+          "2003: männlich",
           4
         ],
         [
-          "2019: weiblich",
-          3
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: männlich",
-          2
-        ],
-        [
-          "2015: weiblich",
-          2
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: männlich",
+          "2003: weiblich",
           1
         ],
         [
-          "2011: weiblich",
-          6
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: männlich",
-          1
-        ],
-        [
-          "2007: weiblich",
-          4
-        ],
-        [
-          "    ",
+          "2005",
           null
         ],
         [
@@ -755,16 +759,52 @@
           3
         ],
         [
-          "     ",
+          "2007",
           null
         ],
         [
-          "2003: männlich",
+          "2007: männlich",
+          1
+        ],
+        [
+          "2007: weiblich",
           4
         ],
         [
-          "2003: weiblich",
+          "2011",
+          null
+        ],
+        [
+          "2011: männlich",
           1
+        ],
+        [
+          "2011: weiblich",
+          6
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: männlich",
+          2
+        ],
+        [
+          "2015: weiblich",
+          2
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: männlich",
+          4
+        ],
+        [
+          "2019: weiblich",
+          3
         ]
       ],
       "name": "Note 1",
@@ -791,7 +831,6 @@
         "textOverflow": "none"
       },
       "formatter": function () {
-
                     //add sum of observations of visible series to the axis label
                     var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
                         return val.visible;
@@ -801,14 +840,17 @@
                         return accumulator + series.yData[indexOfCurrentValue];
                     }, 0);
                     //use N if all series are visible, otherwise use n
-                    var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n=';
+                    var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */'n=';
+
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+
                     //check for value that contains only spaces
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-                },
-      "align": "left",
-      "x": -125
-    },
-    "reversed": false
+                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                }
+    }
   },
   "chart": {
     "events": {
@@ -841,7 +883,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 140,
     "inverted": true,
     "renderTo": "container-6151",
     "spacingBottom": 40
@@ -934,7 +975,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-10"
   },
   "legend": {
     "layout": "vertical",
