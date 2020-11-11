@@ -6,72 +6,76 @@
       "legendIndex": 0,
       "data": [
         [
-          "2019: Schweiz",
-          224
-        ],
-        [
-          "2019: Ausland",
-          85
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          147
-        ],
-        [
-          "2015: Ausland",
-          26
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          171
-        ],
-        [
-          "2011: Ausland",
-          32
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          87
-        ],
-        [
-          "2007: Ausland",
-          18
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          86
-        ],
-        [
-          "2005: Ausland",
-          16
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          20
         ],
         [
           "2003: Schweiz",
           100
         ],
         [
-          "2003: Ausland",
-          20
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          16
+        ],
+        [
+          "2005: Schweiz",
+          86
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          18
+        ],
+        [
+          "2007: Schweiz",
+          87
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          32
+        ],
+        [
+          "2011: Schweiz",
+          171
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          26
+        ],
+        [
+          "2015: Schweiz",
+          147
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          85
+        ],
+        [
+          "2019: Schweiz",
+          224
         ]
       ],
       "name": "Note 10",
@@ -83,72 +87,76 @@
       "legendIndex": 1,
       "data": [
         [
-          "2019: Schweiz",
-          335
-        ],
-        [
-          "2019: Ausland",
-          97
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          190
-        ],
-        [
-          "2015: Ausland",
-          33
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          138
-        ],
-        [
-          "2011: Ausland",
-          30
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          141
-        ],
-        [
-          "2007: Ausland",
-          19
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          115
-        ],
-        [
-          "2005: Ausland",
-          35
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          17
         ],
         [
           "2003: Schweiz",
           87
         ],
         [
-          "2003: Ausland",
-          17
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          35
+        ],
+        [
+          "2005: Schweiz",
+          115
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          19
+        ],
+        [
+          "2007: Schweiz",
+          141
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          30
+        ],
+        [
+          "2011: Schweiz",
+          138
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          33
+        ],
+        [
+          "2015: Schweiz",
+          190
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          97
+        ],
+        [
+          "2019: Schweiz",
+          335
         ]
       ],
       "name": "Note 9",
@@ -160,72 +168,76 @@
       "legendIndex": 2,
       "data": [
         [
-          "2019: Schweiz",
-          562
-        ],
-        [
-          "2019: Ausland",
-          154
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          524
-        ],
-        [
-          "2015: Ausland",
-          66
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          496
-        ],
-        [
-          "2011: Ausland",
-          86
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          500
-        ],
-        [
-          "2007: Ausland",
-          71
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          477
-        ],
-        [
-          "2005: Ausland",
-          69
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          78
         ],
         [
           "2003: Schweiz",
           498
         ],
         [
-          "2003: Ausland",
-          78
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          69
+        ],
+        [
+          "2005: Schweiz",
+          477
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          71
+        ],
+        [
+          "2007: Schweiz",
+          500
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          86
+        ],
+        [
+          "2011: Schweiz",
+          496
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          66
+        ],
+        [
+          "2015: Schweiz",
+          524
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          154
+        ],
+        [
+          "2019: Schweiz",
+          562
         ]
       ],
       "name": "Note 8",
@@ -237,72 +249,76 @@
       "legendIndex": 3,
       "data": [
         [
-          "2019: Schweiz",
-          253
-        ],
-        [
-          "2019: Ausland",
-          64
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          251
-        ],
-        [
-          "2015: Ausland",
-          30
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          281
-        ],
-        [
-          "2011: Ausland",
-          46
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          334
-        ],
-        [
-          "2007: Ausland",
-          38
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          313
-        ],
-        [
-          "2005: Ausland",
-          50
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          48
         ],
         [
           "2003: Schweiz",
           303
         ],
         [
-          "2003: Ausland",
-          48
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          50
+        ],
+        [
+          "2005: Schweiz",
+          313
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          38
+        ],
+        [
+          "2007: Schweiz",
+          334
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          46
+        ],
+        [
+          "2011: Schweiz",
+          281
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          30
+        ],
+        [
+          "2015: Schweiz",
+          251
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          64
+        ],
+        [
+          "2019: Schweiz",
+          253
         ]
       ],
       "name": "Note 7",
@@ -314,72 +330,76 @@
       "legendIndex": 4,
       "data": [
         [
-          "2019: Schweiz",
-          81
-        ],
-        [
-          "2019: Ausland",
-          15
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          86
-        ],
-        [
-          "2015: Ausland",
-          7
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          84
-        ],
-        [
-          "2011: Ausland",
-          9
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          118
-        ],
-        [
-          "2007: Ausland",
-          12
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          135
-        ],
-        [
-          "2005: Ausland",
-          8
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          21
         ],
         [
           "2003: Schweiz",
           123
         ],
         [
-          "2003: Ausland",
-          21
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          8
+        ],
+        [
+          "2005: Schweiz",
+          135
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          12
+        ],
+        [
+          "2007: Schweiz",
+          118
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          9
+        ],
+        [
+          "2011: Schweiz",
+          84
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          7
+        ],
+        [
+          "2015: Schweiz",
+          86
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          15
+        ],
+        [
+          "2019: Schweiz",
+          81
         ]
       ],
       "name": "Note 6",
@@ -391,72 +411,76 @@
       "legendIndex": 5,
       "data": [
         [
-          "2019: Schweiz",
-          68
-        ],
-        [
-          "2019: Ausland",
-          17
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          84
-        ],
-        [
-          "2015: Ausland",
-          9
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          88
-        ],
-        [
-          "2011: Ausland",
-          8
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          102
-        ],
-        [
-          "2007: Ausland",
-          12
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          117
-        ],
-        [
-          "2005: Ausland",
-          23
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          15
         ],
         [
           "2003: Schweiz",
           122
         ],
         [
-          "2003: Ausland",
-          15
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          23
+        ],
+        [
+          "2005: Schweiz",
+          117
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          12
+        ],
+        [
+          "2007: Schweiz",
+          102
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          8
+        ],
+        [
+          "2011: Schweiz",
+          88
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          9
+        ],
+        [
+          "2015: Schweiz",
+          84
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          17
+        ],
+        [
+          "2019: Schweiz",
+          68
         ]
       ],
       "name": "Note 5",
@@ -468,72 +492,76 @@
       "legendIndex": 6,
       "data": [
         [
-          "2019: Schweiz",
-          26
-        ],
-        [
-          "2019: Ausland",
-          2
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          15
-        ],
-        [
-          "2015: Ausland",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          17
-        ],
-        [
-          "2011: Ausland",
+          "2003: Ausland",
           3
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          23
-        ],
-        [
-          "2007: Ausland",
-          3
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          27
-        ],
-        [
-          "2005: Ausland",
-          3
-        ],
-        [
-          "     ",
-          null
         ],
         [
           "2003: Schweiz",
           20
         ],
         [
-          "2003: Ausland",
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
           3
+        ],
+        [
+          "2005: Schweiz",
+          27
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          3
+        ],
+        [
+          "2007: Schweiz",
+          23
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          3
+        ],
+        [
+          "2011: Schweiz",
+          17
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          1
+        ],
+        [
+          "2015: Schweiz",
+          15
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          2
+        ],
+        [
+          "2019: Schweiz",
+          26
         ]
       ],
       "name": "Note 4",
@@ -545,72 +573,76 @@
       "legendIndex": 7,
       "data": [
         [
-          "2019: Schweiz",
-          21
-        ],
-        [
-          "2019: Ausland",
-          3
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          14
-        ],
-        [
-          "2015: Ausland",
-          0
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          13
-        ],
-        [
-          "2011: Ausland",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          10
-        ],
-        [
-          "2007: Ausland",
-          3
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          16
-        ],
-        [
-          "2005: Ausland",
-          1
-        ],
-        [
-          "     ",
-          null
+          "2003: Ausland",
+          2
         ],
         [
           "2003: Schweiz",
           12
         ],
         [
-          "2003: Ausland",
-          2
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          1
+        ],
+        [
+          "2005: Schweiz",
+          16
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
+          3
+        ],
+        [
+          "2007: Schweiz",
+          10
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Schweiz",
+          13
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          0
+        ],
+        [
+          "2015: Schweiz",
+          14
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          3
+        ],
+        [
+          "2019: Schweiz",
+          21
         ]
       ],
       "name": "Note 3",
@@ -622,72 +654,76 @@
       "legendIndex": 8,
       "data": [
         [
-          "2019: Schweiz",
-          8
-        ],
-        [
-          "2019: Ausland",
-          2
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2015: Schweiz",
-          2
-        ],
-        [
-          "2015: Ausland",
+          "2003: Ausland",
           0
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          4
-        ],
-        [
-          "2011: Ausland",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          4
-        ],
-        [
-          "2007: Ausland",
-          0
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          3
-        ],
-        [
-          "2005: Ausland",
-          1
-        ],
-        [
-          "     ",
-          null
         ],
         [
           "2003: Schweiz",
           3
         ],
         [
-          "2003: Ausland",
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          1
+        ],
+        [
+          "2005: Schweiz",
+          3
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
           0
+        ],
+        [
+          "2007: Schweiz",
+          4
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Schweiz",
+          4
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          0
+        ],
+        [
+          "2015: Schweiz",
+          2
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          2
+        ],
+        [
+          "2019: Schweiz",
+          8
         ]
       ],
       "name": "Note 2",
@@ -699,72 +735,76 @@
       "legendIndex": 9,
       "data": [
         [
-          "2019: Schweiz",
-          7
+          "2003",
+          null
         ],
         [
-          "2019: Ausland",
+          "2003: Ausland",
           0
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: Schweiz",
-          3
-        ],
-        [
-          "2015: Ausland",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2011: Schweiz",
-          7
-        ],
-        [
-          "2011: Ausland",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2007: Schweiz",
-          5
-        ],
-        [
-          "2007: Ausland",
-          0
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2005: Schweiz",
-          4
-        ],
-        [
-          "2005: Ausland",
-          1
-        ],
-        [
-          "     ",
-          null
         ],
         [
           "2003: Schweiz",
           5
         ],
         [
-          "2003: Ausland",
+          "2005",
+          null
+        ],
+        [
+          "2005: Ausland",
+          1
+        ],
+        [
+          "2005: Schweiz",
+          4
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Ausland",
           0
+        ],
+        [
+          "2007: Schweiz",
+          5
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Schweiz",
+          7
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Ausland",
+          1
+        ],
+        [
+          "2015: Schweiz",
+          3
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Ausland",
+          0
+        ],
+        [
+          "2019: Schweiz",
+          7
         ]
       ],
       "name": "Note 1",
@@ -801,13 +841,16 @@
                     }, 0);
                     //use N if all series are visible, otherwise use n
                     var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */'n=';
+
+                    //delete everything before ":", including ":"
+                    this.value = this.value.replace(/[^:]*:/, "");
+
                     //check for value that contains only spaces
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-                },
-      "align": "left",
-      "x": -125
-    },
-    "reversed": false
+                    if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                    //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                    return "<b>" + this.value + "</b>";
+                }
+    }
   },
   "chart": {
     "events": {
@@ -840,7 +883,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 140,
     "inverted": true,
     "renderTo": "container-6266",
     "spacingBottom": 40
@@ -933,7 +975,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-10"
   },
   "legend": {
     "layout": "vertical",
