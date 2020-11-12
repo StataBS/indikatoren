@@ -1,38 +1,43 @@
 (function () {
   return {
     chart: {
-      inverted: true,
-      marginLeft: 140,
-      marginRight: 5
-    },
-    xAxis: {
-      labels: {
-        style: {
-          fontSize: "9px"
-        },
-        align: "left",
-        x: -135,
-        y: 3,
-        step: 1
-      }
+      width: 665,
     },
     yAxis: {
-      tickInterval: 50,
-      max: 100,
+      tickInterval: 20,
+    },
+    xAxis: {
+      type: "category",
+      //reversed: true,
       labels: {
-        y: 15,
-        rotation: 0
-      }
+        rotation: -45,
+        formatter: function () {
+          //add sum of observations of visible series to the axis label
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          //var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n=';
+
+          //delete everything before ":", including ":"
+          this.value = this.value.replace(/[^:]*:/, "");
+          var nString = (this.value.match(/Total/)) ? 'N=' : 'n=';
+
+          //check for value that contains only spaces
+          if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+          //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+          return "<b>" + this.value + "</b>";
+        }
+      },
     },
     legend: {
-      layout: "horizontal",
-      align: "left",
       verticalAlign: "top",
-      x: -1,
-      margin: 10,
-      itemDistance: 1,
-      itemMarginBottom: 2,
-      symbolPadding: 1
+      y:6,
+      reversed: true,
     },
     series: [
       { color: "#007a2f", index: 6, legendIndex: 0 }, // dunkelgrün

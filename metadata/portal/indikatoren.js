@@ -20682,7 +20682,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:18:27.2727",
+		"aktualisierungsdatum": "2020-11-11T17:11:34.3434",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -22165,7 +22165,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:43:12.1212",
+		"aktualisierungsdatum": "2020-11-11T14:50:06.066",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -22207,7 +22207,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-27T09:57:20.2020",
+		"aktualisierungsdatum": "2020-11-11T16:26:55.5555",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -41135,7 +41135,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-05T10:05:40.4040",
+		"aktualisierungsdatum": "2020-11-11T09:18:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41562,7 +41562,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T17:12:17.1717",
+		"aktualisierungsdatum": "2020-11-11T10:46:43.4343",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41602,7 +41602,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T17:21:44.4444",
+		"aktualisierungsdatum": "2020-11-11T10:34:36.3636",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
