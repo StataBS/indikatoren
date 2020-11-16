@@ -6,60 +6,64 @@
       "legendIndex": 0,
       "data": [
         [
-          "2009 Total",
-          1435
-        ],
-        [
-          "2009 Kein Deutsch",
-          113
-        ],
-        [
-          "2009 Deutsch und weitere",
-          352
-        ],
-        [
-          "2009 Nur Deutsch",
-          970
-        ],
-        [
-          " ",
+          "2009",
           null
         ],
         [
-          "2013 Total",
-          906
+          "2009: Nur Deutsch",
+          970
         ],
         [
-          "2013 Kein Deutsch",
-          77
+          "2009: Deutsch und weitere",
+          352
         ],
         [
-          "2013 Deutsch und weitere",
-          246
+          "2009: Kein Deutsch",
+          113
         ],
         [
-          "2013 Nur Deutsch",
+          "2009: Total",
+          1435
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2013: Nur Deutsch",
           575
         ],
         [
-          "  ",
-          undefined
+          "2013: Deutsch und weitere",
+          246
         ],
         [
-          "2017 Total",
-          776
+          "2013: Kein Deutsch",
+          77
         ],
         [
-          "2017 Kein Deutsch",
-          74
+          "2013: Total",
+          906
         ],
         [
-          "2017 Deutsch und weitere",
+          "2017",
+          null
+        ],
+        [
+          "2017: Nur Deutsch",
+          487
+        ],
+        [
+          "2017: Deutsch und weitere",
           205
         ],
         [
-          "2017 Nur Deutsch",
-          487
+          "2017: Kein Deutsch",
+          74
+        ],
+        [
+          "2017: Total",
+          776
         ]
       ],
       "name": "Ja, genutzt",
@@ -71,60 +75,64 @@
       "legendIndex": 1,
       "data": [
         [
-          "2009 Total",
-          1152
-        ],
-        [
-          "2009 Kein Deutsch",
-          196
-        ],
-        [
-          "2009 Deutsch und weitere",
-          402
-        ],
-        [
-          "2009 Nur Deutsch",
-          554
-        ],
-        [
-          " ",
+          "2009",
           null
         ],
         [
-          "2013 Total",
-          913
+          "2009: Nur Deutsch",
+          554
         ],
         [
-          "2013 Kein Deutsch",
-          122
+          "2009: Deutsch und weitere",
+          402
         ],
         [
-          "2013 Deutsch und weitere",
-          283
+          "2009: Kein Deutsch",
+          196
         ],
         [
-          "2013 Nur Deutsch",
+          "2009: Total",
+          1152
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2013: Nur Deutsch",
           498
         ],
         [
-          "  ",
-          undefined
+          "2013: Deutsch und weitere",
+          283
         ],
         [
-          "2017 Total",
-          633
+          "2013: Kein Deutsch",
+          122
         ],
         [
-          "2017 Kein Deutsch",
-          80
+          "2013: Total",
+          913
         ],
         [
-          "2017 Deutsch und weitere",
+          "2017",
+          null
+        ],
+        [
+          "2017: Nur Deutsch",
+          323
+        ],
+        [
+          "2017: Deutsch und weitere",
           214
         ],
         [
-          "2017 Nur Deutsch",
-          323
+          "2017: Kein Deutsch",
+          80
+        ],
+        [
+          "2017: Total",
+          633
         ]
       ],
       "name": "Ja, nicht genutzt",
@@ -136,60 +144,64 @@
       "legendIndex": 2,
       "data": [
         [
-          "2009 Total",
-          124
-        ],
-        [
-          "2009 Kein Deutsch",
-          37
-        ],
-        [
-          "2009 Deutsch und weitere",
-          44
-        ],
-        [
-          "2009 Nur Deutsch",
-          43
-        ],
-        [
-          " ",
+          "2009",
           null
         ],
         [
-          "2013 Total",
-          69
+          "2009: Nur Deutsch",
+          43
         ],
         [
-          "2013 Kein Deutsch",
-          17
+          "2009: Deutsch und weitere",
+          44
         ],
         [
-          "2013 Deutsch und weitere",
+          "2009: Kein Deutsch",
+          37
+        ],
+        [
+          "2009: Total",
+          124
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2013: Nur Deutsch",
+          24
+        ],
+        [
+          "2013: Deutsch und weitere",
           28
         ],
         [
-          "2013 Nur Deutsch",
-          24
+          "2013: Kein Deutsch",
+          17
         ],
         [
-          "  ",
-          undefined
+          "2013: Total",
+          69
         ],
         [
-          "2017 Total",
-          62
+          "2017",
+          null
         ],
         [
-          "2017 Kein Deutsch",
-          24
+          "2017: Nur Deutsch",
+          15
         ],
         [
-          "2017 Deutsch und weitere",
+          "2017: Deutsch und weitere",
           21
         ],
         [
-          "2017 Nur Deutsch",
-          15
+          "2017: Kein Deutsch",
+          24
+        ],
+        [
+          "2017: Total",
+          62
         ]
       ],
       "name": "Nein, würde genutzt",
@@ -201,125 +213,133 @@
       "legendIndex": 3,
       "data": [
         [
-          "2009 Total",
-          179
-        ],
-        [
-          "2009 Kein Deutsch",
-          59
-        ],
-        [
-          "2009 Deutsch und weitere",
-          75
-        ],
-        [
-          "2009 Nur Deutsch",
-          45
-        ],
-        [
-          " ",
+          "2009",
           null
         ],
         [
-          "2013 Total",
-          158
+          "2009: Nur Deutsch",
+          45
         ],
         [
-          "2013 Kein Deutsch",
-          65
+          "2009: Deutsch und weitere",
+          75
         ],
         [
-          "2013 Deutsch und weitere",
+          "2009: Kein Deutsch",
+          59
+        ],
+        [
+          "2009: Total",
+          179
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2013: Nur Deutsch",
+          37
+        ],
+        [
+          "2013: Deutsch und weitere",
           55
         ],
         [
-          "2013 Nur Deutsch",
-          37
+          "2013: Kein Deutsch",
+          65
         ],
         [
-          "  ",
-          undefined
+          "2013: Total",
+          158
         ],
         [
-          "2017 Total",
-          80
+          "2017",
+          null
         ],
         [
-          "2017 Kein Deutsch",
-          37
+          "2017: Nur Deutsch",
+          21
         ],
         [
-          "2017 Deutsch und weitere",
+          "2017: Deutsch und weitere",
           20
         ],
         [
-          "2017 Nur Deutsch",
-          21
+          "2017: Kein Deutsch",
+          37
+        ],
+        [
+          "2017: Total",
+          80
         ]
       ],
       "name": "Nein, würde nicht genutzt",
       "turboThreshold": 0
     },
     {
-      "color": "#C8C8C8",
-      "index": 1,
-      "legendIndex": 5,
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 6,
       "data": [
         [
-          "2009 Total",
-          229
-        ],
-        [
-          "2009 Kein Deutsch",
-          62
-        ],
-        [
-          "2009 Deutsch und weitere",
-          112
-        ],
-        [
-          "2009 Nur Deutsch",
-          55
-        ],
-        [
-          " ",
+          "2009",
           null
         ],
         [
-          "2013 Total",
-          185
+          "2009: Nur Deutsch",
+          55
         ],
         [
-          "2013 Kein Deutsch",
-          48
+          "2009: Deutsch und weitere",
+          112
         ],
         [
-          "2013 Deutsch und weitere",
+          "2009: Kein Deutsch",
+          62
+        ],
+        [
+          "2009: Total",
+          229
+        ],
+        [
+          "2013",
+          null
+        ],
+        [
+          "2013: Nur Deutsch",
+          56
+        ],
+        [
+          "2013: Deutsch und weitere",
           81
         ],
         [
-          "2013 Nur Deutsch",
+          "2013: Kein Deutsch",
+          48
+        ],
+        [
+          "2013: Total",
+          185
+        ],
+        [
+          "2017",
+          null
+        ],
+        [
+          "2017: Nur Deutsch",
+          24
+        ],
+        [
+          "2017: Deutsch und weitere",
           56
         ],
         [
-          "  ",
-          undefined
-        ],
-        [
-          "2017 Total",
-          114
-        ],
-        [
-          "2017 Kein Deutsch",
+          "2017: Kein Deutsch",
           31
         ],
         [
-          "2017 Deutsch und weitere",
-          56
-        ],
-        [
-          "2017 Nur Deutsch",
-          24
+          "2017: Total",
+          114
         ]
       ],
       "name": "Keine Angabe",
@@ -345,22 +365,27 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       },
-      "formatter": function() {
-                //add sum of observations of visible series to the axis label
-                var allVisibleSeries = this.chart.series.filter(function(val, i, arr){
-                    return val.visible;
-                });
-                var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                var sum = allVisibleSeries.reduce(function(accumulator, series, index, arr){
-                    return accumulator + series.yData[indexOfCurrentValue];
-                }, 0);
-                //use N if all series are visible, otherwise use n
-                var nString = (this.chart.series.length == allVisibleSeries.length && this.value.indexOf('Total') != -1) ? 'N=' : 'n='; 
-                //check for value that contains only spaces
-            	return (this.value.replace(/\s/g,"") == "") ? this.value : this.value + ' (' + nString + sum + ')';
-            },
-      "align": "left",
-      "x": -180
+      "formatter": function () {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                      return accumulator + series.yData[indexOfCurrentValue];
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString =  'n=';
+                    if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                  //delete everything before ":", including ":"
+                  this.value = this.value.replace(/[^:]*:/, "");
+
+                  //check for value that contains only spaces
+                  if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+                  //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                  return "<b>" + this.value + "</b>";
+              }
     }
   },
   "chart": {
@@ -382,7 +407,7 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 485,
-    "height": 428,
+    "height": 493,
     "spacing": [
       10,
       10,
@@ -394,7 +419,6 @@
     },
     "zoomType": "xy",
     "type": "column",
-    "marginLeft": 195,
     "inverted": true,
     "renderTo": "container-6512",
     "spacingBottom": 40
@@ -454,11 +478,8 @@
         "color": "#000000",
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      },
-      "type": "category",
-      "rotation": 0
-    },
-    "max": 100
+      }
+    }
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
@@ -477,7 +498,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Familienbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-16"
   },
   "legend": {
     "layout": "horizontal",
@@ -487,18 +508,18 @@
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
         },
     "enabled": true,
-    "alignColumns": false,
-    "itemDistance": 5,
-    "padding": 0
+    "itemWidth": 140,
+    "width": 280
   },
   "exporting": {
-    "filename": 6512
+    "filename": "6512"
   }
 }

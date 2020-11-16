@@ -801,18 +801,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
+		"aktualisierungsdatum": "2020-11-13T12:03:58.5858",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "49,7% der 2019 Befragten sprechen sich für eine Senkung der Steuern aus und 37,0% möchten diese auf dem aktuellen Niveau beibehalten. Gegenüber dem Befragungsjahr 2015 hat sich der Anteil Befragter, die sich für eine Senkung aussprechen deutlich erhöht.",
+		"lesehilfe": "49,7% der 2019 Befragten sprechen sich für eine Senkung der Steuern aus und 37,0% möchten diese auf dem aktuellen Niveau beibehalten. Gegenüber dem Befragungsjahr 2015 hat sich der Anteil Befragter, die sich für eine Senkung aussprechen, deutlich erhöht.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
 		"template": "befragungen001",
 		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_031",
+		"orderKey": "02_03_00_00_00_047",
 		"parentId": null,
 		"children": [
 			"6133",
@@ -1635,13 +1635,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"aktualisierungsdatum": "2020-11-13T12:07:06.066",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 233 598 Ordnungsbussen bezahlt. Dies sind 11/% mehr als ein Jahr zuvor.",
+		"lesehilfe": "Im Jahr 2019 wurden im Kanton Basel-Stadt insgesamt 233 598 Ordnungsbussen bezahlt. Dies sind 11% mehr als ein Jahr zuvor.",
 		"erlaeuterungen": "Es werden nur bezahlte Ordnungsbussen berücksichtigt. Ordnungsbussen werden am Übertretungsort gezählt.",
 		"template": "line001",
 		"darstellungsart": "Grafik",
