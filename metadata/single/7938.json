@@ -17,7 +17,7 @@
 "lesehilfe":"Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2018 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
 "erlaeuterungen":"Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
 "template":"template001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

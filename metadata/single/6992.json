@@ -17,7 +17,7 @@
 "lesehilfe":"Die mittlere Aufenthaltsdauer von im Hauptbereich Akutsomatik in Basler Spitälern behandelten Frauen lag 2019 mit 6,7 Tagen leicht unter derjenigen der Männer (6,4 Tage). Der Kurvenverlauf der mittleren Aufenthaltsdauer von Frauen und Männern verläuft ähnlich. Im Alter zwischen 20 und 60 Jahren liegen Männer durchschnittlich etwas länger in Basler Spitälern als Frauen. Die Höchstwerte werden von beiden Geschlechtern im jugendlichen Alter von 16 Jahren (Frauen) resp. 14 Jahren (Männer) sowie im Alter zwischen 70 und 90 Jahren erreicht.",
 "erlaeuterungen":"Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

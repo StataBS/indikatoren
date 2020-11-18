@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerung des Gesamtkantons sind die Altersstrukturen der weiblichen und der männlichen Bevölkerung im Wohnviertel Kleinhüningen sehr unterschiedlich. Bei den Frauen sind die Fünfjahresgruppen zwischen 30 und 59 Jahren jeweils ähnlich gross. Bei den Männern zeigen sich hingegen deutliche Unterschiede. Die 30- bis 34-Jährigen und die 55- bis 59-Jährigen sind wesentlich zahlreicher als die 45- bis 49-Jährigen.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

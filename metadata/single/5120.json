@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 "erlaeuterungen":"Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 "template":"map001",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

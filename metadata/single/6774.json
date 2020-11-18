@@ -17,7 +17,7 @@
 "lesehilfe":"45% der Neuzuzüger kommen aus der Schweiz, 55% ziehen aus dem Ausland zu. Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (54%) als aus dem Ausland (46%) nieder. In den Quartieren Gundeldingen, Bruderholz, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils über 60%",
 "erlaeuterungen":"Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
 "template":"mappie002_print",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

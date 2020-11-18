@@ -17,7 +17,7 @@
 "lesehilfe":"Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
 "erlaeuterungen":"Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
 "template":"befragungen001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

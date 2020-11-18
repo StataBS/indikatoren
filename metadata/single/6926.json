@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerungspyramide des Gesamtkantons läuft jene des Wohnviertels Hirzbrunnen nach oben weniger spitz zu. Die Bevölkerung ist daher älter. Der Anteil der Kinder ist höher als im Gesamtkanton.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
 "erlaeuterungen":"Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
 "template":"template001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

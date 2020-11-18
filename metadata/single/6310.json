@@ -17,7 +17,7 @@
 "lesehilfe":"Sowohl die Produktion von CO<sub>2</sub> aus fossilen Brennstoffen wie auch der Pro-Kopf-Verbrauch von CO<sub>2</sub> haben sich seit 2010 stetig verringert.",
 "erlaeuterungen":"Die CO<sub>2</sub> -Produktion des Verkehrs berechnet sich aus der Summe der Verbräuche von Benzin und Diesel multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Ausstoss durch die mittlere Bevölkerung dividiert. Die Verbräuche von Benzin und Diesel werden im Gesamtverkehrsmodell modelliert.",
 "template":"template001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

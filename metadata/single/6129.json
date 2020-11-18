@@ -17,7 +17,7 @@
 "lesehilfe":"Der Ressourcenindex bezeichnet die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons. Er liegt im Bemessungsjahr 2021, welches auf Daten der Jahre 2015 bis 2017 beruht, im Kanton Basel-Stadt um rund 43% über dem schweizerischen Durchschnitt.",
 "erlaeuterungen":"Die Werte für das abgebildete Jahr sind provisorisch. Der Ressourcenindex bildet die Grundlage für den horizontalen und vertikalen Ressourcenausgleich des Neuen Finanzausgleichs (NFA). Er soll das Ressourcenpotenzial der Kantone – d. h. die fiskalisch ausschöpfbaren finanziellen Ressourcen eines Kantons – im Vergleich zum Schweizer Durchschnitt abbilden. Zur Bemessung der fiskalisch ausschöpfbaren Ressourcen stützt sich der neue Ressourcenindex auf die Aggregierte Steuerbemessungsgrundlage (ASG). Die ASG fasst die Summe der steuerbaren Einkommen und Vermögen der natürlichen Personen sowie die Summe der Gewinne der juristischen Personen zu einer Masszahl zusammen. Die ASG pro Einwohner eines Kantons im Verhältnis zur gesamtschweizerischen ASG pro Einwohner ergibt sodann den Ressourcenindex des Kantons.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

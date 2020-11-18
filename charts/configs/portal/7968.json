@@ -304,7 +304,8 @@
         "width": 1,
         "whiteSpace": "nowrap",
         "textOverflow": "none"
-      }
+      },
+      "formatter": undefined
     }
   },
   "chart": {
@@ -437,6 +438,6 @@
     "itemWidth": 250
   },
   "exporting": {
-    "filename": 7968
+    "filename": "7968"
   }
 }

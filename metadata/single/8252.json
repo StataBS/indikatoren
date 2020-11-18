@@ -17,7 +17,7 @@
 "lesehilfe":"Ausländerinnen und Ausländer sind stärker von Arbeitslosigkeit betroffen als Schweizerinnen und Schweizer. Die Arbeitslosigkeit der ausländischen Männer ist ausserdem stark von saisonalen Schwankungen geprägt. Ende Dezember 2019 beträgt die Arbeitslosenquote der ausländischen Männer 5,3% (im September lag sie bei 3,9%). Gegenüber Dezember 2018 sind die Arbeitslosenquoten sowohl bei den Männern als auch bei den Frauen rückläufig.",
 "erlaeuterungen":"Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl der Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind Monatswerte abgebildet.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

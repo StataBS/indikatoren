@@ -17,7 +17,7 @@
 "lesehilfe":"Der Anteil an Grünfläche pro Person variiert stark zwischen den einzelnen Wohnvierteln resp. Landgemeinden. Erwartungsgemäss ist er im dichtbewohnten Matthäusquartier (rund 6 m<sup>2</sup>) und in der Basler Innenstadt (Altstadt Kleinbasel: 8 m<sup>2</sup>, Clara: 9 m<sup>2</sup>) am kleinsten. Überdurchschnittlich hoch dagegen ist der Anteil in den Wohnvierteln Bruderholz (197 m<sup>2</sup>), Hirzbrunnen (199 m<sup>2</sup>) und in den Landgemeinden Riehen (403 m<sup>2</sup>) und Bettingen (1 702 m<sup>2</sup>).",
 "erlaeuterungen":"Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

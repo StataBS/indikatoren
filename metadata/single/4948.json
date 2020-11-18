@@ -17,7 +17,7 @@
 "lesehilfe":"Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2019 um 64% auf 49 294 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+59%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2019 rund 779 708 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
 "erlaeuterungen":"Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

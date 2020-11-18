@@ -17,7 +17,7 @@
 "lesehilfe":"In den Jahren 2010 bis 2019 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2019 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-25). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2010 und 2019 stets positiv aus. 2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen.",
 "erlaeuterungen":"Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister, aufgrund dessen ergibt sich ein Bereinigungssaldo. Dieser ist im Allgemeinen auf verspätet gemeldete Ereignisse zurückzuführen.",
 "template":"stock001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

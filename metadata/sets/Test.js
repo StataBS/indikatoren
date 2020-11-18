@@ -31,7 +31,7 @@ var indikatorensetData = [
 		],
 		"orderKey": "ST 2-1",
 		"id": 9998,
-		"darstellungsart": "Grafik"
+		"darstellungsart": "Diagramm"
 	},
 	{
 		"title": "Test Daten",
@@ -70,6 +70,6 @@ var indikatorensetData = [
 			""
 		],
 		"id": 9999,
-		"darstellungsart": "Karte kontinuierlich"
+		"darstellungsart": "Karte"
 	}
 ];

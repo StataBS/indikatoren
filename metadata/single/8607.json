@@ -17,7 +17,7 @@
 "lesehilfe":"Von den 14 699 Haushalten, die Ende 2018 reine Prämienverbilligungen beziehen, handelt es sich um 8 102 rein schweizerische und 5 397 rein ausländische Haushalte. 1 200 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
 "erlaeuterungen":"Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
 "template":"befragungenProzent001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

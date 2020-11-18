@@ -17,7 +17,7 @@
 "lesehilfe":"Das Jahresmittel des Basler Index der Konsumentenpreise ist 2019 weniger stark gestiegen als im Vorjahr.",
 "erlaeuterungen":"Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

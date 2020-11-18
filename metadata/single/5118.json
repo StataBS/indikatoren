@@ -17,7 +17,7 @@
 "lesehilfe":"Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 "erlaeuterungen":"Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
 "template":"map001",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

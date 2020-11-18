@@ -17,7 +17,7 @@
 "lesehilfe":"Während der Energieverbrauch pro Einwohner gegenüber dem Referenzjahr 2000 (100%) auf 68,8% abgenommen hat, hat die Energieeffizienz seither kontinuierlich auf 249,6% zugenommen.",
 "erlaeuterungen":"Der Indikator stellt die Entwicklung des Energieverbrauchs in den Kontext der wirtschaftlichen Produktion sowie der Bevölkerungsentwicklung. Dadurch kann die Energieabhängigkeit von Wirtschaft und Gesellschaft beurteilt werden.<br><br>Skalierung des Bruttoenergieverbrauchs über das Bruttoinlandprodukt sowie die Bevölkerung. Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

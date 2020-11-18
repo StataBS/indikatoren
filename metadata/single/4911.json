@@ -17,7 +17,7 @@
 "lesehilfe":"Auch 2019 lag die mittlere Jahresteuerung des Basler Index leicht über derjenigen des Landesindex. Dies ist namentlich auf die Entwicklung der Basler Mietpreise zurückzuführen.",
 "erlaeuterungen":"Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2019 entspricht der Veränderungsrate zwischen dem Jahresmittel 2019 und dem Jahresmittel 2018.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

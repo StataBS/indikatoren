@@ -17,7 +17,7 @@
 "lesehilfe":"In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2019 mit 61% am höchsten, gefolgt von der Gemeinde Riehen und dem Wohnviertel Bruderholz (je 57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
 "erlaeuterungen":"Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
 "template":"mappie001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

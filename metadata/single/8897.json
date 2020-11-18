@@ -17,7 +17,7 @@
 "lesehilfe":"Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2018 liegen bei 84,2 Jahren (Frauen) und 80,9 Jahren (Männer).",
 "erlaeuterungen":"Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

@@ -17,7 +17,7 @@
 "lesehilfe":"Die Bevölkerung zwischen 25 und 64 Jahren weist in der Agglomeration Basel 2017 den höchsten Anteil an Sekundarstufe II als höchste abgeschlossene Ausbildung (46,4%) auf. Am höchsten ist der Anteil der Sekundarstufe II  in den Agglomerationsgemeinden in Deutschland (53,9%) und Frankreich (49,4%). Der Anteil der Bevölkerung mit tertiärer Ausbildung ist in Basel (38,0%) tiefer als in den Vergleichsagglomerationen. Allerdings ist die tertiäre Ausbildung in der Kernstadt Basel mit 50,7% fast so hoch wie in den anderen Kernstädten.",
 "erlaeuterungen":"Bevölkerung (25- bis 64-jährig) ohne nachobligatorische Ausbildung (ISCED Stufen 1 oder 2), mit Sekundarstufe II (ISCED Stufen 3 oder 4) oder mit tertiärer Ausbildung (ISCED Stufen 5 bis 8) als höchstem Bildungsabschluss.",
 "template":"befragungen001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"large", 
 "visible":true,
 "visibleInPortal":true,

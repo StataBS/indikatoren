@@ -17,7 +17,7 @@
 "lesehilfe":"Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass meistens über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden höhere Quoten auf als ihre Kolleginnen.",
 "erlaeuterungen":"Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

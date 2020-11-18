@@ -17,7 +17,7 @@
 "lesehilfe":"Über den gesamten Beobachtungszeitraum wiesen psychiatrische Fälle im Schnitt die längste mittlere Aufenthaltsdauer auf (2019: 38,7 Tage), während ein akutsomatischer Patient das Spital deutlich schneller wieder verlassen konnte (2019: 6,5 Tage). Den deutlichsten Rückgang zwischen 2012 und 2019 verzeichnet der Hauptbereich Geriatrie. Hier lag der durchschnittliche Spitalaufenthalt 2019 bei 14,4 Tagen; 2012 betrug er noch 22,1 Tage.",
 "erlaeuterungen":"Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien).",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist im gesamten Beobachtungszeitraum gestiegen. Zuletzt mit abgeflachter Kurve. Ende 2019 beziehen 2 289 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
 "erlaeuterungen":"Die Familienmietzinsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

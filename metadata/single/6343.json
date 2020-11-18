@@ -17,7 +17,7 @@
 "lesehilfe":"In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 15&nbsp;547&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Liestal am höchsten, in Zürich am tiefsten.",
 "erlaeuterungen":"Die Werte zeigen die Steuerbelastung (Kantons-, Gmeinde- und Kirchensteuern) in Franken für Ledige mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 "template":"template001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

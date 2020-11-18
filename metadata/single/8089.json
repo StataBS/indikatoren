@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Kleinhüningen waren 2015 im Jahresmittel mit 1 490 Personen 51,4% der dortigen Wohnbevölkerung an ihrem Wohnort Stickoxid-Immissionen von über 30 µg/m<sup>3</sup> ausgesetzt. Im Wohnviertel Klybeck waren es 590 Personen (8,1%).",
 "erlaeuterungen":"Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Stickstoffdioxid-Belastungen (NO<sub>2</sub>) von über 30 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionen modelliert auf Basis eines 10 x 10 m-Rasters). Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Stickoxide sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.",
 "template":"mappie001",
-"darstellungsart":"Karte kategoriell",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Der Mietpreisindex zeigt insgesamt eine steigende Entwicklung von 80,4 Punkten im Jahr 1995 auf den aktuellen Wert von 105,4 im November 2019.",
 "erlaeuterungen":"Mietpreisindex: Geschichtete Zufallsstichprobe, die 5% der Miet- und Genossenschaftswohnungen mit 1 bis 6 Zimmern umfasst, welche dauerhaft zu Wohnzwecken vermietet werden. Es wird der Wert im November des jeweiligen Jahres ausgewiesen.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

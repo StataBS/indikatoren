@@ -17,7 +17,7 @@
 "lesehilfe":"Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
 "erlaeuterungen":"Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
 "template":"dotplot",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

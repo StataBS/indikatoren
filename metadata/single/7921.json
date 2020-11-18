@@ -17,7 +17,7 @@
 "lesehilfe":"Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,5 Franken.",
 "erlaeuterungen":"Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4- Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

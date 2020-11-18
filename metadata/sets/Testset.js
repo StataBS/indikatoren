@@ -20,7 +20,7 @@ var indikatorensetData = [
 		"lesehilfe": "Die ist ein Testindikator…",
 		"erlaeuterungen": "",
 		"template": "line001",
-		"darstellungsart": "Grafik",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,

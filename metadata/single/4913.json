@@ -17,7 +17,7 @@
 "lesehilfe":"In Basel-Stadt ist seit 2016 sowohl bei den Ausfuhren wie bei den Einfuhren eine stetige Zunahme zu beobachten. Die Ausfuhren sind 2019 mit 63,8 Mrd. Franken fast doppelt so hoch wie die Einfuhren.",
 "erlaeuterungen":"2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

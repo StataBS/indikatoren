@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerungs des Gesamtkantons leben im Wohnviertel Clara mehr Männer als Frauen im erwerbsfähigen Alter. Ab 70 Jahren ist der Anteil der Frauen höher als jener der Männer.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

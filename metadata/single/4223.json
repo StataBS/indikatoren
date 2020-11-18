@@ -17,7 +17,7 @@
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die hier berücksichtigten Energieträger werden entweder direkt bei den Anlagebetreibern erhoben (Windenergie, Deponie-/Klär-/Biogas etc.) oder geschätzt (z.B. Umweltwärme).  Die Zahlen basieren auf der kantonalen Energiestatistik.<br><br>Anmerkung Kanton Basel-Stadt: Die Zahlen vor 2010 sind der Statistik der erneuerbaren Energien des Amtes für Umwelt und Energie entnommen. Aufgrund methodischer Änderungen sind sie nur bedingt mit den Daten ab 2010 vergleichbar.<br><br>Der Indikator zeigt die jährliche Produktion von neuen erneuerbaren Energien im Kantonsgebiet. Darunter fallen Sonnenenergie, Umweltwärme, Biomasse, Windenergie sowie erneuerbare Anteile der Energiegewinnung in Kehrichtverbrennungs- und Abwasserreinigungsanlagen.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

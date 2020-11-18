@@ -17,7 +17,7 @@
 "lesehilfe":"Die Gesamteinnahmen des Kantons betragen über die Jahre gesehen zwischen knapp 4 Mrd. und 5 Mrd. Franken. Seit dem Jahr 2012 sind die Werte nach dem neuen Rechnungslegungsmodell HRM2 dargestellt. Dies erschwert einen Vergleich. 2017 beträgt der Ertrag aus Einkommens- und Vermögenssteuern rund 1,7 Mrd. Franken (-3,3% gegenüber dem Vorjahr), der Anteil am Gesamtertrag beträgt 39,8%. Die Gewinn- und Kapitalsteuern betragen 2017 rund 817  Mio. Franken (-2,4% gegenüber 2016), der Anteil liegt bei 19,4%. Zusammen beträgt der Anteil der aufgeführten Steuerarten im Jahr 2017 59,1% des gesamten Ertrags. Der Ertrag aus Quellensteuer ist zum Teil in der Kategorie Übriges und zum Teil in der Kategorie Einkommens- und Vermögenssteuern enthalten.",
 "erlaeuterungen":"Der Jahresbericht des Kantons Basel-Stadt weist Erträge aus, die während eines Kalenderjahres verbucht wurden. Dies unterscheidet sich somit von der Steuerstatistik Basel-Stadt, der Veranlagungsdaten zugrunde liegen, die auf ein bestimmtes Steuerjahr bezogen sind – in welchem Jahr die Steuer verbucht oder bezahlt worden ist. NP = Natürliche Personen; JP = Juristische Personen.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

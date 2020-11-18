@@ -17,7 +17,7 @@
 "lesehilfe":"Im Jahr 2018 gibt es im Kanton Basel-Stadt 268 Arztpraxen von Grundversorgern, 561 Spezialarztpraxen und 123 Zahnarztpraxen. Die Zahl der Spezialarztpraxen hat im Vergleich zum Jahr 2011 um 181 zugenommen, während die Zahl der Praxen von Grundversorgern und von Zahnärzten etwas tiefer ausfällt als sieben Jahre zuvor.",
 "erlaeuterungen":"In der Statistik der Unternehmensstruktur (STATENT) werden alle Arbeitsstätten berücksichtigt, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Arzt- und Zahnarztpraxen (NOGA 862): Tätigkeiten in privaten Praxen, Gemeinschaftspraxen, Krankenhausambulatorien oder vergleichbaren Institutionen. Es sind sowohl private als auch öffentlich-rechtliche Betriebe enthalten. Arztpraxen von Grundversorgern (Allgmeine Innere Medizin, Pädiatrie): Mindestens einer der Ärzte muss eine allgemeinmedizinische Tätigkeit ausüben. Spezialarztpraxen: Keiner der Ärzte darf eine allgemeinmedizinische Tätigkeit ausüben.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

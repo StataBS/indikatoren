@@ -17,7 +17,7 @@
 "lesehilfe":"Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
 "erlaeuterungen":"Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 "template":"map002",
-"darstellungsart":"Karte kategoriell",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

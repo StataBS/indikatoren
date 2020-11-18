@@ -17,7 +17,7 @@
 "lesehilfe":"Knapp 80% aller Patienten, die sich im Jahr 2018 einer stationären Behandlung in einem baselstädtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 51% am tiefsten. Gut 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
 "erlaeuterungen":"Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

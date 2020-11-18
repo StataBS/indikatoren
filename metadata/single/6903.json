@@ -17,7 +17,7 @@
 "lesehilfe":"Der Median des Reinvermögens ist seit 2008 insgesamt um 63,2% gestiegen, von rund 12 300 auf 20 000 Franken. Der Mittelwert und der Ertrag aus Vermögenssteuern zeigen grössere Schwankungen. Seit 2008 ist der Mittelwert um 24,7% auf rund 450 000 Franken gestiegen, der Ertrag um 15,8% auf rund 260 Mio. Franken. Im Vergleich zum Vorjahr sind beide Werte zurückgegangen, der Mittelwert um 8,3%, der Ertrag um 15,8%. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen allgemein insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Ende 2019 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2014 lag die FAMI-Quote noch bei 1,9%. Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,1%. Gegenüber 2014 ist einzig in den Wohnvierteln Altstadt Kleinbasel sowie Rosental ein Rückgang zu beobachten.",
 "erlaeuterungen":"Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 "template":"mappie001_print",
-"darstellungsart":"Karte kategoriell",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

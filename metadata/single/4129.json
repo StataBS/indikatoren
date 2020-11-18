@@ -17,7 +17,7 @@
 "lesehilfe":"Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmer-Wohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
 "erlaeuterungen":"Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

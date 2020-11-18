@@ -17,7 +17,7 @@
 "lesehilfe":"In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 "erlaeuterungen":"Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
 "template":"dotplot",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
