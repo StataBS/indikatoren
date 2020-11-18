@@ -17,7 +17,7 @@
 "lesehilfe":"Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
 "erlaeuterungen":"Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
 "template":"dotplot",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

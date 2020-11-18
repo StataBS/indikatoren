@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerungspyramide des Gesamtkantons verjüngt sich jene des Wohnviertels St. Alban nach oben weniger, somit ist die Bevölkerung älter.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"<Bitte neue Lesehilfe erfassen>",
 "erlaeuterungen":"Die ausgewiesenen Abweichungen zwischen den Wohnvierteln basieren auf dem Mietpreisraster Basel-Stadt. Mittels Regressionsmodell wird dabei insbesondere der Einfluss von Wohnviertel, Zimmerzahl und Gebäudealter auf den Nettomietpreis pro Quadratmeter berechnet. Der Mietpreisraster basiert auf Nettomieten der Mietpreiserhebung Basel-Stadt vom November 2017 sowie den Nettomieten der Strukturerhebung für Basel-Stadt aus den Jahren 2010 bis 2015, die auf November 2017 indexiert wurden.",
 "template":"map002",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":false,
 "visibleInPortal":false,

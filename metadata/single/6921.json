@@ -17,7 +17,7 @@
 "lesehilfe":"Die Bevölkerungspyramide des Wohnviertels Iselin weicht kaum von jener des Gesamtkantons ab. Die grössten Gruppen bilden die Personen zwischen 25 und 29 Jahren sowie zwischen 30 und 34 Jahren. Nach oben nimmt die Pyramide bei den Männern stärker ab als bei den Frauen.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Der Mittelwert des Gesamtsteuerertrags pro Veranlagung im Jahr 2017 fällt in den hell gefärbten Wohnvierteln eher niedrig aus, in den dunkleren eher hoch. Bruderholz und Riehen tragen die höchsten Summen zum Gesamtertrag des Kantons bei. Die Grösse der Kreise symbolisiert jeweils die Höhe des Steuerertrags. Eher klein fällt der Gesamtertrag in den Wohnvierteln Kleinhüningen, Clara oder Altstadt Kleinbasel aus. Der Anteil an Vermögenssteuer ist zum Beispiel im Wohnviertel Bruderholz besonders ausgeprägt.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen, ohne Auswärtige, ohne Wochenaufenthalter.",
 "template":"mappie002",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"map", 
 "visible":true,
 "visibleInPortal":true,

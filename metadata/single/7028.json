@@ -17,7 +17,7 @@
 "lesehilfe":"Im Kanton Basel-Stadt sind 2017 190 966 Beschäftigte tätig, was 151 198 Vollzeitäquivalenten (VZÄ) entspricht. Die Zahl der VZÄ ist verglichen mit dem Vorjahr nahezu unverändert (-0,1%). Der Kanton Basel-Landschaft verzeichnet einen Anstieg der VZÄ um 0,7%, die Kantone Zürich und Aargau um 1,2% bzw. 0,8%.",
 "erlaeuterungen":"Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert. Die Werte 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode simuliert.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

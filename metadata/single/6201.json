@@ -17,7 +17,7 @@
 "lesehilfe":"Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel-Stadt 2019 deutlich niedriger als in den Vorjahren. Er beträgt 24 497 Franken und ist der tiefste Wert der abgebildeten Kantone. Der höchste Wert wird mit 72 225 Franken in Genf verzeichnet.",
 "erlaeuterungen":"Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

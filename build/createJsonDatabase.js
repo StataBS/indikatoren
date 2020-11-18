@@ -52,7 +52,7 @@ files.forEach(function(filepath){
         indikator.id = parseInt(idFromFileName, 10);
         
         //handle missing darstellungsart
-        indikator.darstellungsart = (indikator.darstellungsart || (indikator.template.includes("map") ? "Karte kontinuierlich" : "Grafik"));
+        indikator.darstellungsart = (indikator.darstellungsart || (indikator.template.includes("map") ? "Karte" : "Diagramm"));
         
         visibleIndikatoren.push(indikator);
 

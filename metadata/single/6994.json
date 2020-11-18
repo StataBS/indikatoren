@@ -17,7 +17,7 @@
 "lesehilfe":"Die Hospitalisierungsrate der baselstädtischen Bevölkerung lag im Jahr 2018 bei über 200 Fällen pro 1000 Einwohner. Für Kinder und Jugendliche im Alter zwischen 10 und 19 Jahren betrug die Rate 64 Fälle pro 1000 Einwohner. Dies ist der tiefste Wert aller ausgewiesenen Altersklassen.<br>Mit zunehmendem Alter steigt die Kurve an und erreicht für Personen im Alter von mindestens 90 Jahren mit über 900 Fällen pro 1000 Einwohner den Höchstwert.",
 "erlaeuterungen":"Die Hospitalisierungsrate wird berechnet als Verhältnis von stationären Austritten pro 1000 Personen der kantonalen Wohnbevölkerung. Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Schweizer Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt) und im Kanton Basel-Stadt wohnhaft sind.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Mittelwert und Median des Reineinkommens pro Veranlagung bewegen sich relativ konstant. Im Jahr 2017 beträgt der Mittelwert rund 69 300 Franken (+6,9% seit 2008, -0,6% gegenüber 2016), der Median ca. 49 600 Franken (+4,5% seit 2008, +0,5% gegenüber 2016). Der Ertrag aus Einkommenssteuer 2017 beträgt 1,128 Mrd. Franken (-1,9% gegenüber dem Vorjahr und +8,4% gegenüber dem Jahr 2008).",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -285,6 +285,6 @@
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
-    "filename": 7680
+    "filename": "7680"
   }
 }

@@ -17,7 +17,7 @@
 "lesehilfe":"Im Jahr 2017 lebten in der Nordwestschweiz 5,4% der Bevölkerung in einem Haushalt, in dem mindestens eine Person mindestens eine Betreibung in den letzten 12 Monaten hatte.",
 "erlaeuterungen":"Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sinkt er bis 2018 kontinuierlich auf 6,7 MWh pro Einwohner.",
 "erlaeuterungen":"Jährlicher Elektrizitätsverbrauch pro Einwohner. Skalierung des Elektrizitätsverbrauch über die mittlere Wohnbevölkerung.",
 "template":"map_gemeinden",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

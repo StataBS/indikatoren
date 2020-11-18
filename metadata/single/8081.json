@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Kleinhüningen entfiel im Jahr 2019 ein Grossteil (rund 230 500 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 885 m<sup>2</sup> auf die Kategorie «Gartenanlage». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (74 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
 "erlaeuterungen":"Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

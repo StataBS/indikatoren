@@ -409,6 +409,6 @@
     "footerFormat": "\u003Cspan style=\"color:black\"\u003E●\u003C\u002Fspan\u003ETotal: \u003Cb\u003E{point.total:,.0f}  m\u003Csup\u003E2\u003C\u002Fsup\u003E\u003C\u002Fb\u003E"
   },
   "exporting": {
-    "filename": 7589
+    "filename": "7589"
   }
 }

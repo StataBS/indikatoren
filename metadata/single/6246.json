@@ -17,7 +17,7 @@
 "lesehilfe":"Die höchste Leerwohnungsquote aller Wohnviertel wurde 2020 im Wohnviertel Vorstädte verzeichnet. Die Zunahme gegenüber der Quote vor 10 Jahren war im Wohnviertel Altstadt am grössten (von 0,5% auf 1,7%).",
 "erlaeuterungen":"Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 "template":"mappie001_print",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

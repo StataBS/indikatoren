@@ -17,7 +17,7 @@
 "lesehilfe":"Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an. Zwischen 2019 und 2020 sank die Quote leicht, beträgt gerundet aber immer noch 1,0%.",
 "erlaeuterungen":"Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Anteil des Leerwohnungsbestandes am Gesamtwohnungsbestand.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,
