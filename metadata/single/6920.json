@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerung des Gesamtkantons sind im Wohnviertel Gotthelf die Bevölkerungsgruppen der unter 25-Jährigen und der 30- bis 44-Jährigen weniger stark vertreten.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

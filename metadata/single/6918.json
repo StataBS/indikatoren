@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Bruderholz viele Kinder und Jugendliche. Auch die Gruppe der 40-Jährigen und Älteren ist grösser als im Gesamtkanton. Diese Struktur spiegelt den hohen Anteil von Familien und von Senioren im Wohnviertel wider.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

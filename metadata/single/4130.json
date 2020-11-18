@@ -17,7 +17,7 @@
 "lesehilfe":"Die Nettomietpreise der Genossenschaftswohnungen waren in den letzten 10 Jahren im Durchschnitt ein Drittel günstiger als die Mietpreise der übrigen Mietwohnungen.",
 "erlaeuterungen":"Abgebildet sind Bestandsmieten. Die Linien zeigen jeweils den ungewichteten Durchschnitt der Wohnungsmieten. Die Punkte zeigen gewichtete Durchschnittsmietpreise, die anhand der im Gebäude- und Wohnungsregister auftretenden Häufigkeit von Wohnungen (Stand November 2015) berechnet werden. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

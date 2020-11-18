@@ -17,7 +17,7 @@
 "lesehilfe":"Die Werte für Basel sind in den letzten Jahren relativ konstant. Seit 2009 liegt die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten.",
 "erlaeuterungen":"Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 80&nbsp;000&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

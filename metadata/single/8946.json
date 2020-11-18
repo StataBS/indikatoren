@@ -17,7 +17,7 @@
 "lesehilfe":"Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2019 11,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
 "erlaeuterungen":"Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N / 7°35' E).",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

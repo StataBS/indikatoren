@@ -17,7 +17,7 @@
 "lesehilfe":"42% der Neuzuzüger kommen aus der Schweiz, 58% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz lassen sich mehr Neuzuzüger aus der Schweiz (56%) als aus dem Ausland (44%) nieder. In den Wohnvierteln Breite, Gundeldingen, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, St. Johann, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende auf 100 Einwohner hat das Wohnviertel Rosental mit 13 Personen, am wenigsten die Gemeinde Riehen mit 3 Personen.",
 "erlaeuterungen":"Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
 "template":"mappie002",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"map", 
 "visible":true,
 "visibleInPortal":true,

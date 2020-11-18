@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Rosental waren 2015 im Jahresmittel mit 1 407 Personen rund 23% der dortigen Wohnbevölkerung an ihrem Wohnort Feinstaub-Immissionen von über 20 µg/m<sup>3</sup> ausgesetzt.",
 "erlaeuterungen":"Anzahl und Anteil Personen, an deren Wohnort im Jahresmittel Feinstaub-Belastungen (PM10) von über 20 µg/m<sup>3</sup> (Jahresgrenzwert gemäss Luftreinhalteverordnung) auftreten. Berechnet basierend auf Daten des Lufthygieneamtes beider Basel (Immissionskarten 10 x 10 m für 2015). Unter PM10 versteht man Partikel, die kleiner sind als 10 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). PM10 ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. Feinstaub führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate.",
 "template":"mappie001",
-"darstellungsart":"Karte kategoriell",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

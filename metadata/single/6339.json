@@ -17,7 +17,7 @@
 "lesehilfe":"Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2018 beträgt die Quote 2,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 8 636 Franken pro Kopf.",
 "erlaeuterungen":"Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

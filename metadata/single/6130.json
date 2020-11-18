@@ -17,7 +17,7 @@
 "lesehilfe":"Die Werte für Basel sind in den letzten Jahren relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich niedriger und beträgt 6 407 Franken.",
 "erlaeuterungen":"Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

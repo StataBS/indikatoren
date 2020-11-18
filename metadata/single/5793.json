@@ -17,7 +17,7 @@
 "lesehilfe":"Der ökologische Fussabdruck der Schweiz mass 2016 4,6 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1 globale Hektare betrug.",
 "erlaeuterungen":"Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

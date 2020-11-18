@@ -17,7 +17,7 @@
 "lesehilfe":"Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Gundeldingen die Gruppe der 20- bis 39-Jährigen stärker vertreten. Nach oben verläuft die Pyramide spitzer.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

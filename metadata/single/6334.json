@@ -17,7 +17,7 @@
 "lesehilfe":"Die Werte für Basel sind in den letzten Jahren konstant, nachdem ein Rückgang der Steuerbelastung stattgefunden hat. Die Steuerbelastung durch Reingewinn- und Kapitalsteuern ist in Basel 2018 nach Genf am zweithöchsten unter den verglichenen Kantonshauptorten.",
 "erlaeuterungen":"Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 1&nbsp;Mio.&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 "template":"line001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

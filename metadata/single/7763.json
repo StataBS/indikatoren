@@ -17,7 +17,7 @@
 "lesehilfe":"Im September 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 16 Wohnvierteln sowie in Bettingen. In drei Wohnvierteln ging sie zurück. In Riehen blieb sie gleich.",
 "erlaeuterungen":"Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 "template":"mappie001",
-"darstellungsart":"Karte kontinuierlich",
+"darstellungsart":"Karte",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

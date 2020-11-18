@@ -17,7 +17,7 @@
 "lesehilfe":"Im Kanton Basel-Stadt arbeiteten 2017 in Vollzeitäquivalente (VZÄ) umgerechnet rund 151 200 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
 "erlaeuterungen":"Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

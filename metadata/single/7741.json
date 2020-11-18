@@ -17,7 +17,7 @@
 "lesehilfe":"Der Saldo aus Geburten und Todesfällen ist im Mittleren Szenario im gesamten Prognosezeitraum positiv und beträgt am Ende des Prognosehorizonts 357.",
 "erlaeuterungen":"Resultat der Bevölkerungsszenarien 2020. Der Geburtenüberschuss ergibt sich als Differenz der Geburten abzüglich der Sterbefälle in einem bestimmten Jahr.",
 "template":"stock001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -17,7 +17,7 @@
 "lesehilfe":"In Basel beträgt die Steuerbelastung 2018 im ausgewählten Modellfall 9&nbsp;780&nbsp;Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Zürich am tiefsten.",
 "erlaeuterungen":"Die Werte zeigen die Steuerbelastung (Kantons-, Gemeinde- und Kirchensteuern) in Franken für Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100&nbsp;000&nbsp;Franken im Jahr 2018.",
 "template":"template001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"small", 
 "visible":true,
 "visibleInPortal":false,

@@ -253,6 +253,6 @@
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.1f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 9008
+    "filename": "9008"
   }
 }

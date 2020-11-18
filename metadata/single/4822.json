@@ -17,7 +17,7 @@
 "lesehilfe":"Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
 "erlaeuterungen":"Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 "template":"dotplot",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

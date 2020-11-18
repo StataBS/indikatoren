@@ -17,7 +17,7 @@
 "lesehilfe":"Der Saldo der Geburten und Sterbefälle pro 1000 Einwohner liegt 2017 in Basel bei 0,2, während dieser in Genf (5,6), Lausanne (4,4) und auch in Zürich (4,1) deutlich im Plus steht. Für den tiefen Wert in der Agglomeration Basel sind die Kernstadt (0,5) und insbesondere die Gemeinden in Deutschland (-1,1) verantwortlich. Abgesehen von Basel ist der Saldo in allen Kernstädten grösser als in den übrigen Schweizer Gemeinden. Mit Abstand am grössten ist er aber im französischen Teil der Agglomeration Genf (7,7).",
 "erlaeuterungen":"Rohe Geburtenziffer pro 1000 Einwohner minus rohe Sterbeziffer pro 1000 Einwohner.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

@@ -7415,7 +7415,7 @@
 			            }
       }
     },
-    "filename": 6378
+    "filename": "6378"
   },
   "customFunctions": {
     "hideOnZoom": function(e, selector){

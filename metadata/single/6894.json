@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Vorstädte ist der Anteil der über 70-Jährigen im Vergleich zur Bevölkerung des Gesamtkantons relativ hoch.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

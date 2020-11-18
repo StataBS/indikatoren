@@ -17,7 +17,7 @@
 "lesehilfe":"Im Wohnviertel Kleinhüningen zählen neben den 25- bis 29-Jährigen und den 30- bis 34-Jährigen noch die 40- bis 44-Jährigen und die 55- bis 59-Jährigen zu den grössten Gruppen.",
 "erlaeuterungen":"Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 "template":"populationPyramid001_print",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":false,

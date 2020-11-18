@@ -17,7 +17,7 @@
 "lesehilfe":"Bei der Vermögenssteuer sind die Anteile der Vermögensklassen weniger gleichmässig verteilt als bei der Einkommenssteuer. Bei 69,2% aller Veranlagungen (ca. 80 000) betrug das steuerbare Vermögen 0 Franken, somit musste keine Vermögenssteuer bezahlt werden. Bei rund 3 300 Veranlagungen (2,8%) mit einem steuerbaren Vermögen von 2 Mio. Franken und mehr betrug die Vermögenssteuer insgesamt rund 200 Mio. Franken (76,9% des gesamten Vermögenssteuerertrags). Von knapp 90% aller Veranlagungen (Vermögenssklassen von 0 bis 499 999 Franken) stammen insgesamt 5,9% des Vermögenssteuerertrags des Steuerjahres 2017. Aus ca. 11% der Veranlagungen stammen insgesamt 94% der Vermögenssteuer.",
 "erlaeuterungen":"Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 "template":"befragungen001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
