@@ -14077,7 +14077,7 @@
 	},
 	{
 		"title": "Übertritte nach der obligatorischen Schulzeit",
-		"subtitle": "im Schuljahr 2018/19, Basel-Stadt",
+		"subtitle": "im Schuljahr 2019/20, Basel-Stadt",
 		"kuerzel": "I.15.1.6039",
 		"kuerzelKunde": "GW14",
 		"description": "Übertritte nach der obligatorischen Schulzeit",
@@ -14087,7 +14087,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T17:30:00.000",
+		"aktualisierungsdatum": "2020-11-19T09:10:09.099",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -14096,7 +14096,7 @@
 		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache).",
 		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_05_00_00_00_315",
@@ -15331,13 +15331,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:36:37.3737",
+		"aktualisierungsdatum": "2020-11-19T09:07:35.3535",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2000 war der Anteil der Ausländer am Total der Altersgruppe bei unter 7-jährigen Kindern und jungen Erwachsenen zwischen 25 und 29 Jahren am höchsten. In diesen Altersgrupppen waren jeweils mehr als 40% der Personen ausländische Staatsangehörige. 2009 wurden die höchsten Ausländeranteile später, nämlich bei den 28- bis 37-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2019 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 32- bis 45-Jährigen (>50% Ausländer am Total der Altersgruppe).",
+		"lesehilfe": "1999 war der Anteil der Ausländer am Total der Altersgruppe bei unter 6-jährigen Kindern sowie den 19-jährigen, den 25-jährigen und den 28-jährigen jungen Erwachsenen am höchsten. In diesen Altersgrupppen waren jeweils mehr als 40% der Personen ausländische Staatsangehörige. 2009 wurden die höchsten Ausländeranteile später, nämlich bei den 28- bis 37-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2019 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 32- bis 45-Jährigen (>50% Ausländer am Total der Altersgruppe).",
 		"erlaeuterungen": "",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -17521,13 +17521,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-09-09T09:29:57.5757",
+		"aktualisierungsdatum": "2020-11-19T08:59:37.3737",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2018 von ca. 194 auf 163 kg pro Kopf. Die Recyclingquote liegt aktuell bei ca. 40,1%.",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2018 von ca. 194 auf 163 kg pro Kopf. Die Recyclingquote liegt aktuell bei 40,6%.",
 		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -17537,7 +17537,8 @@
 		"parentId": null,
 		"children": [
 			"5796",
-			"6314"
+			"6314",
+			"8917"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -71392,7 +71393,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-11T09:18:00.000",
+		"aktualisierungsdatum": "2020-11-18T08:52:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -71401,7 +71402,7 @@
 		"lesehilfe": "Für die Kalenderwoche 14 des Jahres 2020 (30.03. - 05.04.) sind im Kanton Basel-Stadt insgesamt 68 Todesfälle gemeldet worden, davon 63 Todesfälle von Personen ab 65 Jahren und 5 Todesfälle von Personen unter 65 Jahren. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit einer Wahrscheinlichkeit von 99% erwarten würde. Die Schätzung des Vertrauensintervalls pro Kalenderwoche erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
@@ -72021,7 +72022,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-11T10:46:43.4343",
+		"aktualisierungsdatum": "2020-11-18T22:20:31.3131",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -72061,7 +72062,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-11T10:34:36.3636",
+		"aktualisierungsdatum": "2020-11-18T21:58:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
