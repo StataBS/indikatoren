@@ -474,7 +474,7 @@ id | visible | visibleInPortal | indikatorenset
 6157 | true | true | Legislaturplan
 6158 | true | true | Legislaturplan
 6159 | true | true | Legislaturplan
-6160 | true | true | Legislaturplan
+6160 | true | false | Legislaturplan
 6161 | true | false | Legislaturplan
 6163 | true | true | Legislaturplan
 6164 | true | true | Legislaturplan
