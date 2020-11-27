@@ -5,47 +5,47 @@
       "data": [
         [
           "Life Sciences",
-          7.00865
+          11.40621
         ],
         [
           "Herst. von chem. Erzeugn.",
-          2.60925
+          -0.93242
         ],
         [
           "Baugewerbe",
-          1.92081
+          0.19164
         ],
         [
           "Handel und Garagengewerbe",
-          -0.13862
+          -1.20891
         ],
         [
           "Verkehr und Lagerei",
-          2.98745
+          1.19196
         ],
         [
           "Gastgewerbe",
-          4.24457
+          1.40974
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          0.90893
+          1.88157
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          3.87577
+          1.73693
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          5.05684
+          1.53225
         ],
         [
           "Öffentliche Verwaltung",
-          0.21118
+          1.08635
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          3.18537
+          3.2117
         ]
       ],
       "name": "Schweiz",
@@ -56,47 +56,47 @@
       "data": [
         [
           "Life Sciences",
-          6.52637
+          11.31293
         ],
         [
           "Herst. von chem. Erzeugn.",
-          -0.7311
+          -3.91847
         ],
         [
           "Baugewerbe",
-          7.36951
+          -0.37157
         ],
         [
           "Handel und Garagengewerbe",
-          -0.78384
+          -1.62007
         ],
         [
           "Verkehr und Lagerei",
-          2.79018
+          2.87949
         ],
         [
           "Gastgewerbe",
-          4.71368
+          1.33658
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          0.10177
+          1.95727
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          5.02639
+          4.72839
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          5.94799
+          4.55449
         ],
         [
           "Öffentliche Verwaltung",
-          -0.06228
+          0.56734
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          2.35362
+          2.43328
         ]
       ],
       "name": "Basel-Stadt",
@@ -108,47 +108,47 @@
       "data": [
         [
           "Life Sciences",
-          9.52453
+          17.27801
         ],
         [
           "Herst. von chem. Erzeugn.",
-          0.73717
+          0.87663
         ],
         [
           "Baugewerbe",
-          2.37505
+          2.18723
         ],
         [
           "Handel und Garagengewerbe",
-          1.94126
+          -3.15873
         ],
         [
           "Verkehr und Lagerei",
-          3.01822
+          0.86002
         ],
         [
           "Gastgewerbe",
-          5.56773
+          -0.50355
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          0.51697
+          1.86204
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          3.98455
+          1.71304
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          5.56168
+          1.57736
         ],
         [
           "Öffentliche Verwaltung",
-          0.56735
+          1.08323
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          2.95558
+          2.83034
         ]
       ],
       "name": "Genf",
@@ -160,47 +160,47 @@
       "data": [
         [
           "Life Sciences",
-          6.98899
+          6.05545
         ],
         [
           "Herst. von chem. Erzeugn.",
-          -0.40408
+          -0.68918
         ],
         [
           "Baugewerbe",
-          1.74292
+          3.26775
         ],
         [
           "Handel und Garagengewerbe",
-          -0.23193
+          -0.63385
         ],
         [
           "Verkehr und Lagerei",
-          2.91311
+          -0.75216
         ],
         [
           "Gastgewerbe",
-          5.74243
+          2.59334
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          1.77709
+          1.71688
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          3.45161
+          0.93211
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          3.8011
+          0.71341
         ],
         [
           "Öffentliche Verwaltung",
-          0.67849
+          1.27994
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          3.1825
+          3.15279
         ]
       ],
       "name": "Zürich",
@@ -277,7 +277,7 @@
     "text": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen"
   },
   "subtitle": {
-    "text": "Basel-Stadt im Vergleich mit der Schweiz, 2018",
+    "text": "Basel-Stadt im Vergleich mit der Schweiz, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-11-1"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
