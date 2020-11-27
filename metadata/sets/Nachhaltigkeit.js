@@ -1126,7 +1126,7 @@ var indikatorensetData = [
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
 		"kuerzel": "I.09.1.5199",
-		"kuerzelKunde": "GW21",
+		"kuerzelKunde": "GW22",
 		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
@@ -1134,20 +1134,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-11-12T09:14:09.099",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2020-11-26T13:00:28.2828",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben ist leicht zurückgegangen, ebenso die Ausgaben für Umbau und Unterhalt. Deren Anteil am Total der Bauausgaben lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63% an den totalen Bauausgaben.",
-		"erlaeuterungen": "Wegen Anpassungen bei der Methodik gab es rückwirkende Änderungen für die Werte von 2005 bis 2013. Weil die Bauausgaben des Bundes beziehungsweise der Bundesbetriebe nicht mehr nach Neubau-, Umbau- oder Unterhaltsarbeiten unterschieden werden können, wurden die Bundesdaten sowohl bei den gesamten Bauausgaben als auch bei den Ausgaben für Umbau- und Unterhaltsarbeiten weggerechnet. Des weiteren sind bei den Ausgaben für Umbau- und Unterhaltsarbeiten auch nicht-projektbezogene Daten für die ganze Zeitreihe berücksichtigt. Insgesamt erhöhten sich durch die Anpassungen die Anteile der Umbau- und Unterhaltsarbeiten.<br><br>Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
+		"lesehilfe": "Das Total der Bauausgaben ist 2019 leicht gestiegen, die Ausgaben für Umbau und Unterhalt hingegen sind leicht gesunken. Der Anteil am Total der Bauausgaben lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63,0%.",
+		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
-		"orderKey": "_321",
+		"orderKey": "03_09_00_00_00_323",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8913"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Baustatistik"
@@ -1173,20 +1175,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:42:52.5252",
+		"aktualisierungsdatum": "2020-11-26T12:16:49.4949",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2016 4,6 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1 globale Hektare betrug.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
+		"darstellungsart": "Grafik",
 		"printformat": "",
 		"orderKey": "04_01_00_00_00_401",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8914"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Global Footprint Network"
@@ -2171,20 +2175,22 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T16:44:47.4747",
+		"aktualisierungsdatum": "2020-11-26T12:17:56.5656",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Verglichen mit 1995 lag der ökologische Fussabdruck der Schweiz 2016 um 19,3% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2018 um 112,0% höher.",
+		"lesehilfe": "Verglichen mit 1995 lag der ökologische Fussabdruck der Schweiz 2017 um 22,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2019 um 125,8% höher.",
 		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> zum «Anzug Mirjam Ballmer und Konsorten betreffend ökologischer Fussabdruck in Basel-Stadt messen» kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_01_00_00_00_606",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8940"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",

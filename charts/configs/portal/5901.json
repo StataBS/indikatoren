@@ -66,6 +66,10 @@
         [
           2018,
           200256
+        ],
+        [
+          2019,
+          200407
         ]
       ],
       "name": "Bevölkerung"
@@ -138,6 +142,10 @@
         [
           2018,
           106.82428
+        ],
+        [
+          2019,
+          106.90483
         ]
       ],
       "name": "Bevölkerung indexiert (rechte Skala)"
@@ -207,6 +215,10 @@
         ],
         [
           2018,
+          190756
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -280,6 +292,10 @@
         ],
         [
           2018,
+          111.07061
+        ],
+        [
+          2019,
           null
         ]
       ],
@@ -426,7 +442,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
