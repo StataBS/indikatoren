@@ -18,6 +18,10 @@
         [
           "2016",
           96.921504
+        ],
+        [
+          "2018",
+          87.1821750000001
         ]
       ],
       "name": "Stromverbrauch Klybeck",
@@ -41,6 +45,10 @@
         [
           "2016",
           48.391548
+        ],
+        [
+          "2018",
+          46.315824
         ]
       ],
       "name": "Stromverbrauch Kleinhüningen",
@@ -65,6 +73,10 @@
         [
           "2016",
           1180.640203
+        ],
+        [
+          "2018",
+          1090.794383
         ]
       ],
       "name": "Stromverbrauch Basel",
@@ -191,7 +203,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-30"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -231,6 +243,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.1f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8086
+    "filename": "8086"
   }
 }

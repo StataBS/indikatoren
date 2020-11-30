@@ -274,7 +274,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Entwicklung von Wachstum und Umweltverbrauch"
+    "text": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch"
   },
   "subtitle": {
     "text": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
@@ -352,7 +352,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EGlobal Footprint Network.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
