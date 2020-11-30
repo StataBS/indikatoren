@@ -2164,18 +2164,18 @@ var indikatorensetData = [
 		"id": 6050
 	},
 	{
-		"title": "Entwicklung von Wachstum und Umweltverbrauch",
+		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
 		"kuerzel": "I.04.2.6051",
 		"kuerzelKunde": "WE6",
-		"description": "Entwicklung von Wachstum und Umweltverbrauch",
+		"description": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Konjunktur",
 		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-26T12:17:56.5656",
+		"aktualisierungsdatum": "2020-11-27T10:46:42.4242",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
