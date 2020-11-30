@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"An verschiedenen Messstellen wird ein- bis viermal pro Jahr eine Grundwasserprobe entnommen und deren Nitrat- bzw. Stickstoffgehalt gemessen. Der Indikator zeigt den Anteil der Stationen, an denen der Mittelwert der Messwerte über dem Anforderungswert für Nitrat (25 mg/L) liegt. Rückwirkende Anpassungen der Daten sind Aufgrund von nachträglichen Datenbereinigungen möglich.<br><br>Der Anforderungswert von Nitrat im Grundwasser ist 25 Milligramm pro Liter. Der Indikator zeigt den Anteil der Messstellen, an denen der Mittelwert der Messwerte über dem Anforderungswert für Nitrat im Grundwasser liegt. ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

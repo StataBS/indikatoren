@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die zuständige Stelle im Kanton Basel-Stadt ist das Kantonale Laboratorium (KL).<br><br>Die zuständigen kantonalen Stellen sorgen für den Vollzug der Einschliessungsverordnung und der Störfallverordnung. Dabei beaufsichtigen sie biotechnologische Anlagen, führen Inspektionen und Begehungen durch und ordnen die notwendigen Sicherheitsmassnahmen an. Dieser Indikator zeigt die Anzahl der durchgeführten Inspektionen und die Anzahl der bei diesen Inspektionen ausgesprochenen Beanstandungen.<br><br>Anzahl der durchgeführten Inspektionen und der dabei ausgesprochenen Beanstandungen in Betrieben, die unter die Einschliessungsverordnung oder die Störfallverordnung fallen.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

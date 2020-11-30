@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Summe aller Elektrofahrzeuge (Personenwagen), deren Fahrzeugausweis im entsprechenden Jahr ausgestellt wurde (Neueinlösung, Fahrzeugwechsel, Einlösung auf Wechselschild). In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin/Elektrisch, Diesel/Elektrisch, Elektrisch mit Reichweitenverlängerer, Wasserstoff/Elektrisch.<br><br>Benzin/Elektrisch, Diesel/Elektrisch: Hybridantrieb ist eine Kombination (von verschiedenen Techniken) eines Verbrennungs- und Elektromotors für den Fahrzeugbetrieb. Die Motoren können einzeln oder in Kombination Antriebsleistung abgeben. <br>Elektrisch mit Reichweitenverlängerer: Antrieb rein elektrisch - der Verbrennungsmotor dient nur als Antrieb für den Generator.<br><br>Anzahl der pro Jahr neu zugelassenen Fahrzeuge mit elektrischem Antrieb.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

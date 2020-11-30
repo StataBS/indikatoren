@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Daten zu Gebäuden mit Minergie-P und A-Zertifizierung werden von Minergie<sup>®</sup> im Rahmen der Zertifizierung erhoben und veröffentlicht. <br>Die Energiebezugsfläche ist die Summe aller ober- und unterirdischen Geschossflächen, für deren Nutzung ein Beheizen oder Klimatisieren notwendig ist. Sie wird berechnet nach der SIA-Norm 416.<br><br>Entwicklung der im Minergie-P und -A-Standard gebauten oder sanierten und über die Jahre kumulierten Energiebezugsfläche.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

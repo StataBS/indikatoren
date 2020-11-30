@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Im Kanton Basel-Stadt werden die Standorte Hafen Kleinhüningen und Bahnhof St. Johann untersucht.<br><br>Pflanzenproben werden vor Ort erhoben und im Labor genetisch untersucht. Die Anzahl der GV-Pflanzen werden dargestellt.<br><br>Der Anbau von gentechnisch veränderten Organismen (GVO) ist in der Schweiz generell verboten. Das entsprechende Gentech-Moratorium wurde bis 2021 verlängert. Für Forschungszwecke gibt es Ausnahmebewilligungen vom Bund. In Häfen und an Bahnhöfen umgeschlagenes Getreide kann vereinzelt gentechnisch veränderte Samen von anderen Pflanzen (z. B. Raps) enthalten, welche unbeabsichtigt freigesetzt werden können. Der Indikator zeigt die Anzahl daraus resultierender, wild gewachsener Rapspflanzen, welche positiv auf gentechnische Veränderung getestet wurden (GV-Rapspflanzen). ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

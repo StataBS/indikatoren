@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Summe der deponierten Abfallmenge sämtlicher Deponietypen (Typ A bis E gemäss Verordnung über die Vermeidung und die Entsorgung von Abfällen (VVEA), exkl. Aushub-Exporte). Beinhaltet u.a. auch Verbrennungsrückstände der Kehrichtverbrennung, Klärschlammasche aus der Abwasserreinigung sowie Bauabfälle.<br><br>Menge an Abfällen, welche auf Deponien abgelagert werden (inklusive unverschmutztem Aushubmaterial).",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

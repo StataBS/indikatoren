@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die jeweiligen Forstbetriebe erfassen für ihr Revier, auf welcher Fläche Jungwaldpflege durchgeführt wird und melden dies dem Amt für Wald beider Basel. Für den Indikator wird die Summe aller Forstreviere gebildet.<br><br>Erläuterung Zielwert: Der kantonale Zielwert wird aufgrund der mehrjährigen Waldpflegeplanung der Forstbetriebe und des Jungwaldflächenanteils festgelegt. Er ist Bestandteil der Programmvereinbarungen zwischen Bund und Kantonen im Waldbereich.<br><br>Der Indikator umfasst nur gefplegte Jungwaldflächen gemäss Programmvereinbarung zwischen Bund und Kanton. Zusätzlich geleistete Jungwaldpflege durch die Forstbetriebe wird nicht abgebildet.<br><br>Der Indikator zeigt die Fläche, auf welcher Jungwald gefplegt wird. Unter Jungwaldpflege sind gezielte waldbauliche Eingriffe zu verstehen, welche die Durchmischung der Baumarten fördern, die Stammqualität verbessern und die Resistenz der Bäume gegenüber mechanischen Belastungen (z. B. Schneelast) erhöhen.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

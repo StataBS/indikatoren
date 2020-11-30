@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die CO&2&-Emissionen basieren auf den Werten, die in der jeweiligen Typenbescheinigung neu zugelassener Motorfahrzeuge aufgeführt sind. Der Jahreswert bildet sich aus dem Mittelwert der Emissionen aller innerhalb eines Jahres bei der Motorfahrzeugkontrolle neu immatrikulierten und in Verkehr gesetzten Motorfahrzeuge.<br><br>Durchschnittliche CO&2&-Emissionen der innerhalb eines Jahres neu immatrikulierten und in Verkehr gesetzten Motorfahrzeuge im jeweiligen Kanton.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

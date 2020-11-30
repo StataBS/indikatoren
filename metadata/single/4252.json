@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Daten beruhen auf einer Stichtagsauswertung (30.September) des automatisierten Fahrzeug- und Fahrzeughalterregisters (MOFIS). Der Kanton wird dabei nach der Adresse des Halters oder der Halterin und nicht nach dem Nummernschild bestimmt. Der Indikator berücksichtigt folgende Fahrzeugarten:<br><br>- Landwirtschaftliche Traktoren<br>- Landwirtschaftliche Arbeitskarren<br>- Landwirtschaftliche Motorkarren<br>- Landwirtschaftliche Motoreinachser<br>- Landwirtschaftliche Kombinationsfahrzeuge<br><br>Somit umfasst die Statistik alle Landwirtschaftsfahrzeuge vom leichten Traktor bis zum schweren Vollernter mit gefülltem Ladebunker. <br><br>Entwicklung der Anzahl Landwirtschaftsmaschinen nach Gewichtsklasse.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

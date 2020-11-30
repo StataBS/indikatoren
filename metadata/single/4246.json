@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"Die Anzahl Betriebseinheiten, welche in den Geltungebereich der Störfallverordnung fallen, ist zwischen 2007 und 2017 von 111 auf 64 zurück gegangen.",
 "erlaeuterungen":"Aufsummierung der Betriebseinheiten, welche in den Geltungsbereich der StFV fallen (anhand von Angaben der Betriebe). <br><br>Anzahl Betriebseinheiten, welche in den Geltungsbereich der Störfallverdordnung (StFV) fallen. Betriebseinheiten sind Teile eines Grossbetriebs. Ein Betrieb kann aber auch aus nur einer Betriebseinheit bestehen. In den Geltungsbereich der StFV (Art. 1, Abs. 2) fallen jene Betriebe, welche die Mengenschwelle für Stoffe, Zubereitungen oder Sonderabfälle überschreiten. Des Weiteren fallen Betriebe, in denen Tätigkeiten mit gentechnisch veränderten, pathogenen oder einschliessungspflichtigen gebietsfremden Organismen der Klasse 3 oder 4 (mässiges bzw. hohes Risiko) durchgeführt werden, ebenfalls in den Geltungsbereich der StFV.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

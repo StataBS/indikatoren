@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Daten werden im Rahmen des Baugesuchsverfahrens erhoben. Der Heizwärmebedarf ist die auf die Energiebezugsfläche bezogene Wärmemenge, die pro Jahr erforderlich ist, um die Gebäudewärme auf einer gewünschten Temperatur zu halten.<br><br>Durchschnittlicher spezifischer Heizwärmebedarf aller in einem Jahr bewilligten Neubauten.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

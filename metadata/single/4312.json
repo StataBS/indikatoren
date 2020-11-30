@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Fläche der Bauzonen gemäss dem minimalen Geodatenmodell Bauzonen (Hauptnutzung 11 - 19, ohne Strassenareale).<br><br>Fläche der Bauzone in Hektaren. Es werden sämtliche überbauten wie auch nicht überbauten Bauzonen ausgewiesen. ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

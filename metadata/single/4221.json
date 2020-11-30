@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"Der Anteil erneuerbarer Energien (ohne Mobilität) am Bruttoverbrauch ist von 40,9% im Jahr 2010 auf 48,6% im Jahr 2018 gestiegen.",
 "erlaeuterungen":"Summe der Verbräuche erneuerbarer Energien dividiert durch den gesamten Energieverbrauch.<br>Folgende Energieträger werden als erneuerbar berücksichtigt:<br>Sonnenenergie, Windenergie, Wasserkraft, Deponie-/Klär-/Biogas, Holzenergie und Umweltenergie. Im Kanton Basel-Stadt werden zudem 50% der Energieproduktion aus der Kehrichtverbrennung als erneuerbar berücksichtigt.<br><br>Anteil erneuerbarer Energien am Bruttoenergieverbrauch. Als erneuerbare Energien werden Energieträger bezeichnet, welche kontinuierlich oder in Zyklen auf natürliche Weise anfallen. Zu den erneuerbaren Energien gehören einerseits die klassischen Energieträger Wasserkraft und Holz, andererseits die neuen erneuerbaren Energieträger Wind, Sonne, Biotreibstoffe, Biogas und Umweltwärme.",
-"template":"",
+"template":"template001",
 "darstellungsart":"Grafik",
 "printformat":"", 
 "visible":true,

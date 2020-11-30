@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Summe der jährlich auf Deponien vom Typ B (bis 2015 Inertstoffdeponien) abgelagerten Inertstoffe. Unverschmutztes Aushubmaterial, welches auf Deponien vom Typ B abgelagert wird, wird dabei nicht berücksichtigt. Die Inerstoffmengen umfassen einen Anteil von rund 20 % an Abfällen von ausserhalb der Kantone Basel-Landschaft und Basel-Stadt. Datengrundlage bildet die Deponiestatistik Kanton Basel-Landschaft.<br><br>Jährliche Menge an Inertstoffen (ohne unverschmutzen Aushub), welche auf Deponien vom Typ B entsorgt werden. <br><br>Unter Inertstoffen subsumiert man nicht verwertbare, mineralische Bauabfälle wie beispielsweise Mauerabbruch und schwach belastetes Aushubmaterial sowie mengenmässig untergeordnet gewisse betriebliche Abfälle.<br>Als chemisch inert (lat. für untätig, unbeteiligt, träge) bezeichnet man Substanzen, die mit potenziellen Reaktionspartnern (Luft, Wasser) nicht oder nur in verschwindend geringem Masse reagieren. Inertstoffe lösen sich nicht auf, sind nicht brennbar und bauen sich nicht biologisch ab. Sie beeinträchtigen andere Materialien, mit denen sie in Berührung kommen nicht in einer Weise, die zu Umweltverschmutzung führt oder sich negativ auf die menschliche Gesundheit auswirken könnte.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

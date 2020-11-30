@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die ARA Basel (Kanton Basel-Stadt) verfügt über eine mechanisch-biologische Stufe und eine Phosphorelimination (Ausbaugrad von 60%). Filtration, Nitrifikation, Stickstoffelimination und Mikroverunreinigungs-Stufe sind Bestandteil der geplanten Erweiterung der ARA Basel (Ausbaustufe 100%), welche im Jahr 2025 in Betrieb gehen soll. Auf eine Abbildung in der Grafik wird entsprechend verzichtet.<br><br>Der Indikatorwert entspricht dem Mittelwert des Ausbaugrades aller Anlagen eines Kantons.<br><br>Je nach Ausbaugrad einer Anlage sind die nachfolgenden sechs Behandlungsstufen nach VSA (Verband Schweizer Abwasser- und Gewässerschutzfachleute) vorhanden. Der Ausbaugrad berechnet sich aus der Summe der in Klammern angeführten Werte: <br>- Mechanisch-Biologisch (50%), <br>- Phosphorelimination (10%), <br>- Filtration (10%), <br>- Nitrifikation (10%), <br>- Weitergehende Stickstoffelimination (10%) und <br>- Mikroverunreinigungs-Stufe (10%).<br><br>Sind in einer ARA alle Behandlungsstufen vorhanden beträgt deren Ausbaugrad 100%. Fehlt beispielsweise die Mikroverunreinigungstufe, so beträgt der Ausbaugrad nur 90%. <br><br>Der Indikator bezieht sich auf die Anzahl der ARAs, nicht auf die behandelte Abwassermenge oder die angeschlossenen Einwohnergleichwerte.<br><br>Der mittlere Ausbaugrad der Abwasserreinigungsanlagen (ARAs) zeigt das Potential der ARA-Infrastrukturen für die Reinigung der zugeführten Abwässer.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

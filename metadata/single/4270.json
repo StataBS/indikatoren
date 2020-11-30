@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Alle bis zum Erhebungsjahr mit Subventionen des Bundes eingebauten lärmmindernden Strassenbeläge werden zur Gesamtlänge im Erhebungsjahr summiert.<br><br>Strassenbeläge, welche gegenüber dem Standardbelag zu geringeren Lärmemissionen führen, gelten als lärmmindernd. Der Indikator zeigt, auf wie vielen Kilometern der Kantonsstrassen lärmmindernde Strassenbeläge eingebaut sind.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

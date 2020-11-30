@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Im Kanton Basel-Landschaft werden zudem auch Abfälle berücksichtigt, welche über regionale Abfall-Zweckverbände entsorgt werden (Bezirk Laufen und Randgemeinden, basierend auf kommunaler Siedlungsabfallstatistik). <br><br>Die KVA Basel erfasst die angelieferte Abfallmenge und den Standortkanton der Anlieferer. Abfälle aus Basel-Stadt, welche indirekt über basellandschaftliche Abfall-Sortieranlagen an die KVA Basel angeliefert werden, werden dabei unter Basel-Landschaft aufgeführt.<br><br>Menge der in der Kehrichtverbrennungsanlage (KVA Basel) verbrannten Abfälle, nach Anlieferungskanton.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

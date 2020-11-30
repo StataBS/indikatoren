@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Für die Kantone besteht die Möglichkeit, die Stichprobe in ihrem Kanton aufzustocken, der Kanton Basel-Stadt hat seine Stichprobe für die Jahre 1992, 2002 und 2012 erweitert (Stichprobengrösse Basel-Stadt 2012: 1011 Personen). <br><br>Die dem Indikator zugrunde liegende Frage in der Schweizerische Gesundheitsbefragung (SGB) lautet: «Haben Sie in den letzten 7 Tagen irgendein Medikament genommen?». Die SGB wird seit 1992 alle 5 Jahre im Auftrag des Bundesrates vom Bundesamt für Statistik durchgeführt. Bislang wurden fünf Befragungen realisiert (1992, 1997, 2002, 2007 und 2012). Zur Grundgesamtheit gehören alle Personen ab 15 Jahren, die in privaten Haushalten leben, einschliesslich ausländischer Staatsangehöriger. <br><br>Die Netto-Stichprobe der Schweizerischen Gesundheitsbefragung 2012 umfasst 21 597 realisierte telefonische Interviews. Im Anschluss an die telefonische Befragung wurde an die Teilnehmerinnen und Teilnehmer zusätzlich ein schriftlicher Fragebogen versandt, der von 18 357 Personen retourniert wurde.<br><br>Anteil Personen, welche laut Schweizerischer Gesundheitsbefragung (SGB) in der Woche vor der Befragung irgendein Medikament zu sich genommen haben.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

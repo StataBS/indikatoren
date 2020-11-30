@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Seit 2009 müssen alle Neubauten die Anforderungen der aktuellen Erdbebennormen (SIA 261ff) einhalten. Lifeline-Bauwerke müssen die erhöhten Anforderungen der Bauwerksklasse III (BWK III gemäss SIA 261) erfüllen. Neubauten und deren Erdbebenertüchtigung werden durch das Bau- und Gastgewerbeinspektorat Basel-Stadt erfasst und kontrolliert, ebenso die Ertüchtigung von Lifeline-Gebäuden. <br><br>Der Indikator zeigt die Entwicklung der jährlich erstellten erdbebengerechten Neubauten (öffentliche und private Bauten und Anlagen) sowie die Anzahl (kumulativ) der erdbebenertüchtigten Bauwerke mit Lifeline-Funktion (lebenswichtige Infrastrukturfunktionen wie Feuerwehrgebäude, Ambulanzgaragen, Akutspitäler, Wasserreservoire oder auch einzelne Unterwerke der Stromversorgung). ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

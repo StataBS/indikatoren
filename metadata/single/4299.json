@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910&nbsp;740 Tonnen auf 694&nbsp;507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
 "erlaeuterungen":"Die CO&2&-Emissionen werden ausgehend vom Bruttoenergieverbrauch gemäss den kantonalen Energiestatistiken ermittelt. Zur Berechnung der Emissionen wird pro Energieträger der jährliche Bruttoenergieverbrauch mit dem entsprechenden CO&2&-Emissionsfaktor (gemäss Schweizerischem Treibhausgasinventar) multipliziert.<br><br>Es sind zur Hauptsache CO&2&-Emissionen berücksichtigt, welche bei der Verbrennung von fossilen Energieträgern (Brenn- und Treibstoffe) entstehen. Die Emissionen aus der energetischen Nutzung von Holz werden nicht ausgewiesen, da Holz als CO&2&-neutral gilt. Die Verbrennung von biogenem Material wird ebenso als CO&2&-neutral betrachtet, weshalb nur 50% des in der Kehrichtverwertungsanlage verbrannten Abfalls berücksichtigt wird. Auch der Klärschlamm wird als biogen taxiert; demzufolge bleiben die entsprechenden CO&2&-Emissionen ebenfalls unberücksichtigt. <br><br>Der Indikator zeigt die Summe der aus den kantonalen Energieverbräuchen resultierenden CO&2&-Emissionen in die Atmosphäre. ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

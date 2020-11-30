@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Der Biotopwert wird im Rahmen des Schweizerischen Landesforstinventars (LFI) im Rhythmus von ca. zehn Jahren berechnet. Der LFI erhebt mittels Feldaufnahmen und Luftbildern in der gesamten Schweiz den Zustand und Veränderungen des Waldes (Stichprobenerhebung). Die dargestellten Daten beziehen sich jedoch nur auf die Kantone Basel-Stadt und Basel-Landschaft.<br>Der hier verwendete Biotopwert (Biotopwert LFI1) basiert auf vergleichbaren terrestrischen Einzelbaum-, Bestandes- und Flächenmerkmalen aller bisherigen Inventare (LFI 1-4). Damit kann die Vergleichbarkeit zwischen den Zeitständen gewährleistet werden.<br>Detaillierte Angaben zur Methodik sind auf der Website des LFI zu finden (siehe weiterführende Informationen).<br><br>Der Biotopwert umschreibt die ökologische Bedeutung eines Baumbestandes anhand der drei Hauptkriterien Strukturvielfalt, Artenvielfalt und Naturnähe. Er ist somit eine ökologische Masszahl zur Beurteilung von Wäldern als Lebensraum für Tiere und Pflanzen. Der Biotopwert wird in die drei Klassen «Hoch», «Mittel» und «Gering» eingeteilt.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

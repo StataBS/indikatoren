@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Die Anzahl Hochsicherheitslaboratorien entspricht der Anzahl Laboratorien der Sicherheitsstufe 3 in den Kantonen Basel-Stadt und Basel-Landschaft.<br><br>Betriebe, in denen Tätigkeiten mit gentechnisch veränderten, pathogenen oder einschliessungspflichtigen gebietsfremden Organismen der Klasse 3 oder 4 (mässiges oder hohes Risiko) nach Einschliessungsverordnung (ESV, Verordnung über den Umgang mit Organismen in geschlossenen Systemen) durchgeführt werden, müssen dafür Hochsicherheitsbiologielaboratorien der Stufe 3 oder 4 betreiben. ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

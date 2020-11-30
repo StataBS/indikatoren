@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"In Basel-Stadt werden pro Jahr 1-2 Messungen an 26 Messstellen vorgenommen.<br><br>Die Grundwasserqualität wird an verschiedenen Standorten in Brunnen und Quellen gemessen. Die Häufigkeit der Messungen pro Standort variiert dabei. Der Indikator zeigt den Anteil der berücksichtigten Messstellen, an denen der Anforderungswert eines Pflanzenschutzmittels im Grundwasser (0,1 µg/L) mindestens einmal pro Jahr überschritten wurde.<br><br>Anteil der Grundwasser-Messstellen, an welchen pro Jahr mindestens eine Überschreitung des Anforderungswertes für Pflanzenschutzmittel (PSM) festgestellt wurde. Gemäss Gewässerschutzverordnung soll im Grundwasser eine Pflanzenschutzmittel-Konzentration von 0.1 µg/L nicht überschritten werden. ",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

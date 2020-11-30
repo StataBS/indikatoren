@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<bitte Kommentar erfassen>",
 "erlaeuterungen":"Skalierung des Bruttoenergieverbrauchs über das @06-1701 (BIP) sowie die @06-1702 (mittlere Wohnbevölkerung). Sämtliche Werte werden mit dem Basisjahr 2000 indexiert.<br><br>Entwicklung des Energieverbrauchs im Verhältnis zum Bruttoinlandprodukt (BIP) und zur Bevölkerung.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,

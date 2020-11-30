@@ -16,7 +16,7 @@
 "stufe5":"", 
 "lesehilfe":"<Bitte Kommentar erfassen>",
 "erlaeuterungen":"Dieser Wert wird für die jährlich abgebrochenen Gebäude basierend auf den kantonalen Gebäude- und Wohnungsregistern berechnet. Unterirdische Gebäudeteile werden nicht berücksichtigt.<br><br>Die Bruttogeschossfläche entspricht der Grundfläche multipliziert mit der Anzahl Stockwerken eines Gebäudes. Die abgebrochene Bruttogeschossfläche dient als Indikator für die anfallende Menge an Bauabfällen.",
-"template":"",
+"template":"template001",
 "darstellungsart":"",
 "printformat":"", 
 "visible":true,
