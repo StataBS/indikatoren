@@ -34445,7 +34445,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2020-12-01T09:21:48.4848",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
@@ -41524,7 +41524,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-26T16:48:14.1414",
+		"aktualisierungsdatum": "2020-11-30T15:49:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41564,7 +41564,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-26T16:47:25.2525",
+		"aktualisierungsdatum": "2020-11-30T15:49:25.2525",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
