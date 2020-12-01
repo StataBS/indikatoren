@@ -5285,7 +5285,7 @@
                 + this.series[13].name.split(" ").slice(-1).toString()
                 + ' (rechte Skala):'
             })
-            .translate(-140, 8);
+            .translate(-140, 60);
         }
     },
     "alignThresholds": true,
@@ -5399,7 +5399,7 @@
       "textOverflow": undefined,
       "whiteSpace": "nowrap"
     },
-    "y": -15,
+    "y": -70,
     "width": 325,
     "itemWidth": 54,
     "itemMarginBottom": 5,
@@ -5409,7 +5409,7 @@
         return this.name.split(" ").slice(0, 1).toString();
       },
     "title": {
-      "text": " ",
+      "text": "-\u003Cbr\u003E-",
       "style": {
         "fontWeight": "normal",
         "lineHeight": 40
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-30"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
