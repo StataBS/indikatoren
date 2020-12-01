@@ -75,7 +75,7 @@
                 + this.series[13].name.split(" ").slice(-1).toString()
                 + ' (rechte Skala):'
             })
-            .translate(-145, 8);
+            .translate(-140, 60);
         }
       }
     },
@@ -138,7 +138,7 @@
       layout: "horizontal",
       verticalAlign: "top",
       align: "right",
-      y: -15,
+      y: -70,
       width: 325,
       itemWidth: 54,
       itemMarginBottom: 5,
@@ -152,7 +152,7 @@
         return this.name.split(" ").slice(0, 1).toString();
       },
       title: {
-        text: ' ', //wird via chart.events.load bearbeitet
+        text: '-<br>-', //wird via chart.events.load bearbeitet
         style: {
           fontWeight: 'normal',
           lineHeight: 40
