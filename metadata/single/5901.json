@@ -17,7 +17,7 @@
 "lesehilfe":"Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2019 von 187&nbsp;463 auf 200&nbsp;407 gestiegen, was einem Anstieg um etwa 6,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten zwischen 2005 und 2018 um 11,1% von 171&nbsp;743 auf 190&nbsp;756.",
 "erlaeuterungen":"Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
 "template":"line001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,

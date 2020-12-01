@@ -17,7 +17,7 @@
 "lesehilfe":"Der Elektrizitätsverbrauch pro Einwohner hat von 1995 bis 2010 von 7,4 auf 8,6 MWh pro Einwohner zugenommen; danach sinkt er bis 2018 kontinuierlich auf 6,7 MWh pro Einwohner.",
 "erlaeuterungen":"Skalierung des Stromverbrauchs über die mittlere Wohnbevölkerung. Die Daten zum Stromverbrauch werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen erhoben.<br><br>Jährlicher Stromverbrauch pro Einwohner.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
