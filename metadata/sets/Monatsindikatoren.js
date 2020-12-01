@@ -297,7 +297,7 @@ var indikatorensetData = [
 		"lesehilfe": "Im Oktober 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
-		"darstellungsart": "Karte kontinuierlich",
+		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "_000",
 		"parentId": null,

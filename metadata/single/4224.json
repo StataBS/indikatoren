@@ -17,7 +17,7 @@
 "lesehilfe":"Die Eigenproduktion von Elektrizität hat von 2010 bis 2018 von 374 auf 431 GWh zugenommen, dies trotz des Rückganges von 12% zwischen 2016 und 2018.",
 "erlaeuterungen":"Die Daten werden im Rahmen der kantonalen Energiestatistik bei den Energieversorgungsunternehmen sowie bei Betreibern von grossen oder speziellen Anlagen (z.B. Elektrizitätsproduktion mittels Wärmekraftkoppelungsanlagen) erhoben. Die Elektrizitätsproduktion durch Photovoltaik wird basierend auf den Panelflächen abgeschätzt.<br><br>Menge an Strom, welche innerhalb des Kantonsgebiets produziert wird.",
 "template":"template001",
-"darstellungsart":"Grafik",
+"darstellungsart":"Diagramm",
 "printformat":"", 
 "visible":true,
 "visibleInPortal":true,
