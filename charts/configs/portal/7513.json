@@ -265,7 +265,7 @@
         ],
         [
           "Nov",
-          undefined
+          101.9
         ],
         [
           "Dez",
@@ -402,7 +402,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-2"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
