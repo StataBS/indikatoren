@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:56.5656",
+		"aktualisierungsdatum": "2020-12-02T08:51:43.4343",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst die Beziehenden von Sozialhilfe und Ergänzungleistungen ein.",
 		"template": "line001_print",
 		"darstellungsart": "Diagramm",
@@ -2402,14 +2402,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:33.3333",
+		"aktualisierungsdatum": "2020-12-02T09:36:48.4848",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2019 bei den Männern etwa 40%, bei den Frauen rund 32%.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
 		"template": "line001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
