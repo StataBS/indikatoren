@@ -632,13 +632,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T10:06:40.4040",
+		"aktualisierungsdatum": "2020-12-04T10:27:18.1818",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (72,2%), der Türkei (83,0%) und dem Balkan (81,1%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,3% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewillungen mit 70,0% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (21,5%) und afrikanischen (12,1%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
+		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (72,2%), der Türkei (83,0%) und dem Balkan (81,1%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,3% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewilligungen mit 70,0% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (21,5%) und afrikanischen (12,1%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -838,18 +838,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-12T10:51:42.4242",
-		"stufe1": "",
+		"aktualisierungsdatum": "2020-12-04T11:53:51.5151",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Frauen aus arabischen und afrikanischen Ländern sowie dem Balkan wiesen im Mittel der Jahre 2010 bis 2019 die höchsten zusammengefassten Geburtenziffern auf. Eher niedrig sind diese bei Schweizerinnen, Deutschen, Italienerinnen und bei Frauen aus der Ländergruppe EU-Ost.",
-		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters).",
+		"erlaeuterungen": "Die zusammengefasste Geburtenziffer bezeichnet die Anzahl Kinder, die eine Frau im Laufe ihres Lebens zur Welt bringen würde, wenn im Laufe dieses Lebens die altersspezifischen Geburtenziffern des betrachteten Kalenderjahres konstant blieben. (Die altersspezifische Geburtenziffer ist die Anzahl der Geburten der Frauen eines bestimmten Alters, dividiert durch die Anzahl der Frauen dieses Alters.)",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "_403",
+		"orderKey": "01_00_00_00_00_403",
 		"parentId": null,
 		"children": [
 			"6662"
@@ -1127,14 +1127,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T14:38:49.4949",
+		"aktualisierungsdatum": "2020-12-04T12:18:42.4242",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote und weisen 2019 erstmals eine höhere Quote auf als jene vom Balkan.",
-		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
+		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -1663,14 +1663,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-14T17:49:13.1313",
+		"aktualisierungsdatum": "2020-12-04T15:38:46.4646",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2019 bei 2,2%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (6,7%) und aus dem Balkan (6,4%) die höchsten Arbeitslosenquoten des Jahres 2019 auf. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 5,3%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2,6%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Sturkturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -1697,7 +1697,7 @@ var indikatorensetData = [
 		"title": "Arbeitslosenquote der Ausländer",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"kuerzel": "I.03.4.6407",
-		"kuerzelKunde": "C1-5",
+		"kuerzelKunde": "C1-7",
 		"description": "Arbeitslosenquote der Ausländer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1705,18 +1705,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-22T18:29:15.1515",
+		"aktualisierungsdatum": "2020-12-04T16:11:09.099",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen sind im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
+		"lesehilfe": "Im Jahr 2000 war die Arbeitslosenquote der ausländischen Frauen über 35 Jahren im Durchschnitt tiefer als diejenige der ausländischen Männer in den gleichen Altersgruppen. Bei den jüngeren Arbeitslosen (unter 25 Jahren) hingegen waren im Jahr 2000 die Frauen stärker von Arbeitslosigkeit betroffen als die Männer.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_105",
+		"orderKey": "03_00_00_00_00_107",
 		"parentId": null,
 		"children": [
 			"6683"
@@ -1739,7 +1739,7 @@ var indikatorensetData = [
 		"title": "Arbeitslosenquote der Schweizer",
 		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2000",
 		"kuerzel": "I.03.4.6408",
-		"kuerzelKunde": "C1-6",
+		"kuerzelKunde": "C1-5",
 		"description": "Arbeitslosenquote der Schweizer",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
@@ -1747,18 +1747,18 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-14T17:50:03.033",
+		"aktualisierungsdatum": "2020-12-04T16:00:55.5555",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den  unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
+		"lesehilfe": "Bei den Schweizer Erwerbspersonen waren im Jahr 2000 die Männer in allen Altersgruppen ausser bei den unter 20-Jährigen und den 40-44-Jährigen stärker von Arbeitslosigkeit betroffen als die Frauen. Allgemein war die Arbeitslosenquote der Schweizerinnen und Schweizer deutlich tiefer als diejenige der ausländischen Erwerbspersonen.",
 		"erlaeuterungen": "Die Arbeitslosenquote im Jahr 2000 wird mit den Erwerbspersonen aus der Volkszählung von 2000 berechnet.",
 		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_106",
+		"orderKey": "03_00_00_00_00_105",
 		"parentId": null,
 		"children": [
 			"6684"
@@ -1914,7 +1914,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-14T17:53:19.1919",
+		"aktualisierungsdatum": "2020-12-04T16:04:39.3939",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -1996,14 +1996,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:39:13.1313",
+		"aktualisierungsdatum": "2020-12-04T16:37:19.1919",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Bei den Schweizerinnen und Ausländerinnen ist der Unterschied etwas grösser. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese 5 Jahre interpretiert werden.",
+		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -2151,18 +2151,18 @@ var indikatorensetData = [
 		"id": 6418
 	},
 	{
-		"title": "Anteil der Staatsangestellten Basel-Stadt nach Staatsangehörigkeit",
+		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
 		"subtitle": "",
 		"kuerzel": "I.18.3.6419",
 		"kuerzelKunde": "C3-1",
-		"description": "Anteil der Staatsangestellten Basel-Stadt nach Staatsangehörigkeit",
+		"description": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-29T10:17:33.3333",
+		"aktualisierungsdatum": "2020-12-04T17:11:30.3030",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2327,13 +2327,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T18:37:46.4646",
+		"aktualisierungsdatum": "2020-12-04T17:28:42.4242",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede 2. Stelle in der Kantonsverwaltung – wird nur der Wohnkanton Basel-Stadt berücksichtigt – mit einer Schweizerin besetzt. 2019 sind dies bei einem Personalbestand von 5&nbsp;404 Personen 2&nbsp;760 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
+		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede zweite Stelle in der Kantonsverwaltung – wird nur der Wohnkanton Basel-Stadt berücksichtigt – mit einer Schweizerin besetzt. 2019 sind dies bei einem Personalbestand von 5&nbsp;404 Personen 2&nbsp;760 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -2368,7 +2368,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T18:40:36.3636",
+		"aktualisierungsdatum": "2020-12-04T17:32:19.1919",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
@@ -2410,7 +2410,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T18:47:00.000",
+		"aktualisierungsdatum": "2020-12-04T17:35:37.3737",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
