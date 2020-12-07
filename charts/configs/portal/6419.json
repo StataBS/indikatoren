@@ -557,7 +557,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil der Staatsangestellten Basel-Stadt nach Staatsangehörigkeit"
+    "text": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit"
   },
   "subtitle": {
     "text": "",
@@ -633,7 +633,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EFinanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-4"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
