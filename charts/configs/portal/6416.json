@@ -201,7 +201,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Erwerbstätigenquote der 15-64-Jährigen"
+    "text": "Erwerbstätigenquote der 15-64-Jährigen nach Staatsangehörigkeit"
   },
   "subtitle": {
     "text": "Basel-Stadt, gepoolte Daten 2014 bis 2018",
@@ -258,12 +258,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-7"
   },
   "tooltip": {
     "shared": true
   },
   "exporting": {
-    "filename": 6416
+    "filename": "6416"
   }
 }
