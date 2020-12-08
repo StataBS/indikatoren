@@ -3983,14 +3983,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-07T11:48:46.4646",
+		"aktualisierungsdatum": "2020-12-07T10:53:06.066",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
-		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
+		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
 		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

@@ -161,7 +161,7 @@
         ],
         [
           "Nov",
-          null
+          578
         ],
         [
           "Dez",
@@ -218,7 +218,7 @@
         ],
         [
           "Nov",
-          null
+          379
         ],
         [
           "Dez",
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-9"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-8"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
