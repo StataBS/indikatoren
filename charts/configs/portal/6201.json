@@ -370,7 +370,7 @@
     "text": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern"
   },
   "subtitle": {
-    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
+    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -439,7 +439,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

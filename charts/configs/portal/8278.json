@@ -53,6 +53,10 @@
         [
           2018,
           10.4
+        ],
+        [
+          2019,
+          11.6
         ]
       ],
       "name": "Schweizer"
@@ -110,6 +114,10 @@
         [
           2018,
           10
+        ],
+        [
+          2019,
+          10.2
         ]
       ],
       "name": "Schweizerinnen"
@@ -167,6 +175,10 @@
         [
           2018,
           13.2
+        ],
+        [
+          2019,
+          13.1
         ]
       ],
       "name": "Ausländer"
@@ -224,6 +236,10 @@
         [
           2018,
           10.3
+        ],
+        [
+          2019,
+          11.3
         ]
       ],
       "name": "Ausländerinnen"
@@ -281,6 +297,10 @@
         [
           2018,
           10.7
+        ],
+        [
+          2019,
+          11.4
         ]
       ],
       "name": "Total"
@@ -412,7 +432,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
