@@ -176,13 +176,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T09:20:03.033",
+		"aktualisierungsdatum": "2020-12-09T10:59:20.2020",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knaben hatten in den letzten 10 Jahren mit Ausnahme von 2012 mehr Mühe, eine Anschlusslösung zu finden, als Mädchen.",
+		"lesehilfe": "Knaben hatten in den letzten zehn Jahren mit Ausnahme von 2012 mehr Mühe, eine Anschlusslösung zu finden, als Mädchen.",
 		"erlaeuterungen": "Datengrundlage bildet die jährliche Befragung der Schulabgängerinnen und Schulabgänger durch die Bildungsstatistikstelle des Bereichs Mittelschulen und Berufsbildung im Basler Erziehungsdepartement. Seit 2018 ersetzen die Werte der Sekundarschule diejenigen der Weiterbildungsschule. In die Auswertung fliessen ausserdem Zahlen der Allgemeinen Gewerbeschule, der Berufsfachschule und des Zentrums für Brückenangebote ein.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -217,13 +217,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:20.2020",
+		"aktualisierungsdatum": "2020-12-09T12:43:52.5252",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland war im Jahr 2019 mit 26 Firmen ähnlich hoch wie im Jahr 2018 (27 Ansiedlungen). Dazu gab es im Jahr 2019 vier Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2018 waren es 7).",
+		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland war im Jahr 2019 mit 26 Firmen ähnlich hoch wie im Jahr 2018 (27 Ansiedlungen). Dazu gab es im Jahr 2019 vier Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2018 waren es sieben).",
 		"erlaeuterungen": "Durch BaselArea unterstützte Ansiedlungen von Unternehmen aus dem Ausland in den Kantonen Basel-Stadt, Basel-Landschaft und Jura. BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -1257,14 +1257,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-20T10:45:42.4242",
+		"aktualisierungsdatum": "2020-12-09T12:53:10.1010",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Frauen lassen sich häufiger einbürgern als Männer: Ihre Einbürgerungsziffer ist während der vergangenen zehn Jahre höher als diejenige der Männer. Die höchsten Werte wurden bei Frauen und Männern 2009 und 2019 erreicht, am niedrigsten waren die Einbürgerungsziffern 2016. Der Ausländeranteil ist zwischen 2009 und 2019 kontinuierlich gestiegen, um insgesamt 4,1 Prozentpunkte.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende.",
+		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -1415,7 +1415,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kuerzel": "I.11.6.6154",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
@@ -1425,7 +1425,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T10:26:15.1515",
+		"aktualisierungsdatum": "2020-12-09T11:08:46.4646",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -1439,7 +1439,6 @@ var indikatorensetData = [
 		"orderKey": "05_00_00_00_00_002",
 		"parentId": null,
 		"children": [
-			"4319",
 			"6007",
 			"6258",
 			"6306",
@@ -1689,14 +1688,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-02T08:24:02.022",
+		"aktualisierungsdatum": "2020-12-09T11:10:57.5757",
 		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übrig gebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -2517,7 +2516,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
+		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 400 000 Fr.",
 		"kuerzel": "I.18.2.6201",
 		"kuerzelKunde": "2.11b",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2527,13 +2526,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T09:19:05.055",
+		"aktualisierungsdatum": "2020-12-09T11:50:56.5656",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel-Stadt 2019 deutlich niedriger als in den Vorjahren. Er beträgt 24 497 Franken und ist der tiefste Wert der abgebildeten Kantone. Der höchste Wert wird mit 72 225 Franken in Genf verzeichnet.",
+		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel 2019 deutlich niedriger als in den Vorjahren. Er beträgt 24 497 Franken und ist der tiefste Wert der abgebildeten Kantonshauptorte. Der höchste Wert wird mit 72 225 Franken in Genf verzeichnet.",
 		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 400 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -2558,7 +2557,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
+		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
 		"kuerzel": "I.18.2.6202",
 		"kuerzelKunde": "2.11c",
 		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
@@ -2568,14 +2567,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-12T10:33:01.011",
+		"aktualisierungsdatum": "2020-12-09T11:51:50.5050",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel-Stadt 2019 deutlich niedriger als in den Vorjahren. Er beträgt 58 407 Franken und ist der tiefste Wert der abgebildeten Kantone. Der höchste  Wert wird mit 178 555 Franken in Genf verzeichnet.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen) mit einem Kapital und Reserven von 2&nbsp;Mio.&nbsp;Franken und einem Reingewinn von 1&nbsp;Mio.&nbsp;Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"lesehilfe": "Aufgrund einer Änderung des Steuergesetzes ist der Wert für Basel 2019 deutlich niedriger als in den Vorjahren. Er beträgt 58 407 Franken und ist der tiefste Wert der abgebildeten Kantonshauptorte. Der höchste Wert wird mit 178 555 Franken in Genf verzeichnet.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen) mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 1 Mio. Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -2774,14 +2773,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:29.2929",
+		"aktualisierungsdatum": "2020-12-09T10:13:21.2121",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
-		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

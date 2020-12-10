@@ -1479,7 +1479,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2020-12-09T09:58:40.4040",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -2903,7 +2903,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Fremdsprachenquote bei Kindergarteneintritt",
-		"subtitle": "nach Wohnviertel, Stadt Basel, 2018",
+		"subtitle": "nach Wohnviertel, Stadt Basel, 2019",
 		"kuerzel": "I.15.1.08334",
 		"kuerzelKunde": "2-05",
 		"description": "Fremdsprachenquote bei Kindergarteneintritt",
@@ -2913,13 +2913,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2020-12-09T14:58:29.2929",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchsten Fremdsprachenanteile wurden im Schuljahr 2018/19 in den Wohnvierteln Kleinhüningen (81,5%), Klybeck (78,6%) und Rosental (72,5%) erreicht, die tiefsten in den Wohnvierteln Bachletten (24,0%), Bruderholz (26,2%) sowie Altstadt Grossbasel und Altstadt Kleinbasel (beide je 27,3%).",
+		"lesehilfe": "Die höchsten Fremdsprachenanteile wurden im Schuljahr 2019/20 in den Wohnvierteln Clara (96,4%) Kleinhüningen (80,0%), Klybeck (73,5%) und Rosental (72,5%) erreicht, die tiefsten in den Wohnvierteln  Bruderholz (22,6%), Bachletten (27,0%), Altstadt Grossbasel (33,3%) sowie Hirzbrunnen (34,4%).",
 		"erlaeuterungen": "Anteil nicht deutschsprachiger Kinder im 1. Kindergartenjahr der öffentlichen Kindergärten der Stadt Basel nach Wohnviertel; ohne Kinder in Spezialangeboten.",
 		"template": "mappie001",
 		"darstellungsart": "Karte",

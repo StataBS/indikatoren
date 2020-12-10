@@ -286,14 +286,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-27T14:49:41.4141",
+		"aktualisierungsdatum": "2020-12-09T15:00:30.3030",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich zwischen Basel und Bern nicht gross: In Basel liegt der Anteil Zufriedener bei 82%, in Bern bei 83%.",
-		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878), Luzern (1&nbsp091) und Zürich (5&nbsp117).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 und Zürich die Werte 5 und 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Luzern sind es die Werte 6 bis 10 sowie die Hälfte der Antworten mit Wert 5 auf einer Skala von 0 bis 10, für Basel die Antwortkategorien «Sehr zufrieden» und «Eher Zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
+		"lesehilfe": "Die Zufriedenheit mit der Verkehrssicherheit unterscheidet sich zwischen Basel und Bern nicht wesentlich: In Basel liegt der Anteil Zufriedener bei 82%, in Bern bei 83%.",
+		"erlaeuterungen": "Alle vier Jahre findet in den Kantonen Basel-Stadt und Luzern sowie den Städten Bern und Zürich (hier alle zwei Jahre) eine Bevölkerungsbefragung statt. Mit ausgewählten Fragen, die in mehreren Befragungen vorkommen, lässt sich ein Vergleich zwischen den Antworten vornehmen. Es werden nur die Resultate der jeweiligen Städte verglichen. Die Ergebnisse der Stadt Basel sind nicht gewichtet.<br>Anzahl Befragungsteilnehmer: Basel (1&nbsp781), Bern (2&nbsp878).<br>Für die Berechnung des Anteils Zufriedener werden für Bern die Werte 4 bis 6 auf einer Skala von 0 bis 6 als zufrieden interpretiert. Für Basel sind es die Antwortkategorien «Sehr zufrieden» und «Eher zufrieden». Befragte, die keine Angabe gemacht haben oder mit «Weiss nicht» geantwortet haben, bleiben bei der Berechnung unberücksichtigt.<br>In Luzern und Zürich wurde diese Frage nicht gestellt.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

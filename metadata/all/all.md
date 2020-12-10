@@ -1555,8 +1555,10 @@ id | visible | visibleInPortal | indikatorenset
 8499 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8500 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8501 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8502 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8503 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8504 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
+8505 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8506 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8507 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
 8508 | true | false | Wirtschaftsbericht BS_BL_JU (Print)
@@ -1847,6 +1849,30 @@ id | visible | visibleInPortal | indikatorenset
 9029 | true | true | Gesellschaftlicher-Zusammenhalt
 9030 | true | true | Gesellschaftlicher-Zusammenhalt
 9032 | true | true | Gesellschaftlicher-Zusammenhalt
+9038 | true | false | Bevoelkerungsszenarien (Print)
+9039 | true | false | Bevoelkerungsszenarien (Print)
+9040 | true | false | Bevoelkerungsszenarien (Print)
+9041 | true | false | Bevoelkerungsszenarien (Print)
+9042 | true | false | Bevoelkerungsszenarien (Print)
+9043 | true | false | Bevoelkerungsszenarien (Print)
+9044 | true | false | Bevoelkerungsszenarien (Print)
+9045 | true | false | Bevoelkerungsszenarien (Print)
+9046 | true | false | Bevoelkerungsszenarien (Print)
+9047 | true | false | Bevoelkerungsszenarien (Print)
+9048 | true | false | Bevoelkerungsszenarien (Print)
+9049 | true | false | Bevoelkerungsszenarien (Print)
+9050 | true | false | Bevoelkerungsszenarien (Print)
+9051 | true | false | Bevoelkerungsszenarien (Print)
+9052 | true | false | Bevoelkerungsszenarien (Print)
+9053 | true | false | Bevoelkerungsszenarien (Print)
+9054 | true | false | Bevoelkerungsszenarien (Print)
+9055 | true | false | Bevoelkerungsszenarien (Print)
+9056 | true | false | Bevoelkerungsszenarien (Print)
+9057 | true | false | Bevoelkerungsszenarien (Print)
+9058 | true | false | Bevoelkerungsszenarien (Print)
+9059 | true | false | Bevoelkerungsszenarien (Print)
+9060 | true | false | Bevoelkerungsszenarien (Print)
+9061 | true | false | Bevoelkerungsszenarien (Print)
 9064 | true | true | Leerstand
 9137 | true | true | Leerstand
 9157 | true | true | Staedtevergleich

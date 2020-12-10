@@ -334,14 +334,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-01T17:52:07.077",
+		"aktualisierungsdatum": "2020-12-09T10:13:21.2121",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
-		"erlaeuterungen": "Die Nettoschuldenquote wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -895,7 +895,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-23T18:38:06.066",
+		"aktualisierungsdatum": "2020-12-09T11:01:11.1111",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
@@ -1217,14 +1217,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-02T08:24:02.022",
+		"aktualisierungsdatum": "2020-12-09T11:10:57.5757",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übrig gebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -2809,7 +2809,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kuerzel": "I.11.6.08454",
 		"kuerzelKunde": "GW20",
 		"description": "Verkehrsleistungsindex",
@@ -2819,7 +2819,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T11:29:38.3838",
+		"aktualisierungsdatum": "2020-12-09T11:08:46.4646",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Mobilität",
 		"stufe3": "",

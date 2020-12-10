@@ -630,7 +630,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Verkehrsleistungsindex",
-		"subtitle": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kuerzel": "I.11.6.06258",
 		"kuerzelKunde": "ST 11-1",
 		"description": "Verkehrsleistungsindex",
@@ -640,7 +640,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T14:23:01.011",
+		"aktualisierungsdatum": "2020-12-09T11:08:46.4646",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
