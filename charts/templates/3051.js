@@ -29,10 +29,9 @@
   ],
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }

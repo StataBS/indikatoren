@@ -176,7 +176,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: BaselArea.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -218,6 +218,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 3086
+    "filename": "3086"
   }
 }

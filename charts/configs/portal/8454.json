@@ -287,7 +287,7 @@
     "text": "Verkehrsleistungsindex"
   },
   "subtitle": {
-    "text": "Indexwert (Basis 2010 = 100), Basel-Stadt",
+    "text": "indexiert (Basis 2010 = 100), Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
