@@ -1,0 +1,476 @@
+{
+  "series": [
+    {
+      "color": "rgb(191, 215, 236)",
+      "dataLabels": {
+        "enabled": false,
+        "y": 20,
+        "style": {
+          "inside": true,
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal",
+          "textOutline": undefined
+        }
+      },
+      "data": [
+        [
+          "Schweiz",
+          303631
+        ],
+        [
+          "Deutschland",
+          202343
+        ],
+        [
+          "Vereinigte Staaten",
+          103871
+        ],
+        [
+          "Vereinigtes Königreich",
+          79124
+        ],
+        [
+          "Frankreich",
+          48297
+        ],
+        [
+          "Italien",
+          45183
+        ],
+        [
+          "Spanien",
+          24543
+        ],
+        [
+          "Niederlande",
+          32733
+        ],
+        [
+          "Indien",
+          9782
+        ],
+        [
+          "VR China",
+          13059
+        ],
+        [
+          "Übrige Länder",
+          208515
+        ]
+      ],
+      "name": "Logiernächte 2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(159, 196, 227)",
+      "dataLabels": {
+        "enabled": false,
+        "y": 20,
+        "style": {
+          "fontSize": "9px",
+          "color": "black",
+          "fontWeight": "normal",
+          "textOutline": undefined
+        }
+      },
+      "data": [
+        [
+          "Schweiz",
+          476777
+        ],
+        [
+          "Deutschland",
+          205433
+        ],
+        [
+          "Vereinigte Staaten",
+          142448
+        ],
+        [
+          "Vereinigtes Königreich",
+          89254
+        ],
+        [
+          "Frankreich",
+          57187
+        ],
+        [
+          "Italien",
+          44035
+        ],
+        [
+          "Spanien",
+          34040
+        ],
+        [
+          "Niederlande",
+          32692
+        ],
+        [
+          "Indien",
+          21913
+        ],
+        [
+          "VR China",
+          37920
+        ],
+        [
+          "Übrige Länder",
+          281787
+        ]
+      ],
+      "name": "Logiernächte 2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(255, 102, 0)",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "diamond",
+        "radius": 4.8
+      },
+      "pointPlacement": -0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.283480895
+        ],
+        [
+          "Deutschland",
+          0.188914751
+        ],
+        [
+          "Vereinigte Staaten",
+          0.096977726
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.073873031
+        ],
+        [
+          "Frankreich",
+          0.045091828
+        ],
+        [
+          "Italien",
+          0.042184485
+        ],
+        [
+          "Spanien",
+          0.022914233
+        ],
+        [
+          "Niederlande",
+          0.030560714
+        ],
+        [
+          "Indien",
+          0.009132829
+        ],
+        [
+          "VR China",
+          0.012192355
+        ],
+        [
+          "Übrige Länder",
+          0.194677153
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2010",
+      "turboThreshold": 0
+    },
+    {
+      "color": "rgb(201, 62, 13)",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "symbol": "diamond",
+        "radius": 4.8
+      },
+      "pointPlacement": 0.15,
+      "data": [
+        [
+          "Schweiz",
+          0.334936206
+        ],
+        [
+          "Deutschland",
+          0.144316839
+        ],
+        [
+          "Vereinigte Staaten",
+          0.100069829
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.062701003
+        ],
+        [
+          "Frankreich",
+          0.040173911
+        ],
+        [
+          "Italien",
+          0.030934621
+        ],
+        [
+          "Spanien",
+          0.023913126
+        ],
+        [
+          "Niederlande",
+          0.022966155
+        ],
+        [
+          "Indien",
+          0.015393899
+        ],
+        [
+          "VR China",
+          0.026638829
+        ],
+        [
+          "Übrige Länder",
+          0.197955582
+        ]
+      ],
+      "name": "Marktanteile (rechte Skala) 2019",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "9px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "formatter": function() {
+            return this.value.replace("Vereinigte Staaten", "Vereinigte<br/>Staaten")
+                            .replace("Vereinigtes Königreich", "Vereinigtes<br/>Königreich")
+                            .replace("China, Hongkong","China,<br/>Hongkong")
+                            .replace("Übrige Länder","Übrige<br/>Länder")
+        },
+      "rotation": 0
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 220,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function(){
+            this.credits.element.onclick = function() {};
+              
+            //for top-left legends with no x defined: move legend to x position of first yAxis
+            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+              this.update(
+                {
+                  legend: {
+                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                  }
+                }
+              );
+            }
+            //move legend title
+            var title = this.legend.title;
+            title.translate(-188, 25);
+
+          }
+    },
+    "type": "column",
+    "spacingTop": 30,
+    "spacingBottom": 16,
+    "renderTo": "container-7986"
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
+        }
+      },
+      "stacking": null,
+      "pointPadding": 0
+    },
+    "scatter": {
+      "yAxis": 1,
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormatter": function(){ 
+              return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "bold"
+    },
+    "align": "left",
+    "text": "Logiernächte und Marktanteile am Übernachtungsvolumen"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "fontFamily": "Arial"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "tickAmount": 7,
+      "max": 600000,
+      "tickInterval": 100000,
+      "gridLineColor": "#B6CFD7",
+      "gridLineWidth": 0.35,
+      "lineColor": "#B6CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "y": 2.5,
+        "x": -8,
+        "format": "{value:,.0f}",
+        "style": {
+          "fontSize": "9px",
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "tickAmount": 7,
+      "allowDecimals": false,
+      "max": 0.36,
+      "tickInterval": 0.06,
+      "opposite": true,
+      "min": 0,
+      "gridLineColor": "#B6CFD7",
+      "gridLineWidth": 0.35,
+      "lineColor": "#B6CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "y": 2.5,
+        "x": 8,
+        "style": {
+          "fontSize": "9px",
+          "color": "#000000"
+        },
+        "formatter": function() {
+               
+              return Highcharts.numberFormat((this.value*100), 0)+'%';
+            }
+      }
+    }
+  ],
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 0,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "width": 40
+    },
+    "useHTML": true,
+    "y": -50,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "margin": 20,
+    "align": "center",
+    "width": 200,
+    "itemWidth": 70,
+    "labelFormatter": function(){
+        //remove text before year on each item with odd index
+        //return (this.index % 2 != 0) ? this.name.slice(-4) : this.name;
+        return this.name.slice(-4);
+    },
+    "title": {
+      "text": " \u003Cbr\u003ELogiernächte:\u003Cbr\u003EMarktanteile (rechte Skala):\u003C\u002Fdiv\u003E",
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "10px"
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "7986"
+  }
+}

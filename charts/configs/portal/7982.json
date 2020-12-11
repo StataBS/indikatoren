@@ -1,0 +1,300 @@
+{
+  "series": [
+    {
+      "color": "rgb(176, 0, 0)",
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          100.9376513
+        ],
+        [
+          2012,
+          103.221015
+        ],
+        [
+          2013,
+          106.3040335
+        ],
+        [
+          2014,
+          119.8019965
+        ],
+        [
+          2015,
+          131.1391129
+        ],
+        [
+          2016,
+          133.7794889
+        ],
+        [
+          2017,
+          139.7268395
+        ],
+        [
+          2018,
+          150.841976
+        ],
+        [
+          2019,
+          157.0251391
+        ]
+      ],
+      "name": "Inland"
+    },
+    {
+      "color": "rgb(105, 146, 155)",
+      "data": [
+        [
+          2010,
+          100
+        ],
+        [
+          2011,
+          100.7003714
+        ],
+        [
+          2012,
+          100.1362955
+        ],
+        [
+          2013,
+          102.0379178
+        ],
+        [
+          2014,
+          104.1347319
+        ],
+        [
+          2015,
+          104.7126197
+        ],
+        [
+          2016,
+          105.7373119
+        ],
+        [
+          2017,
+          117.7657176
+        ],
+        [
+          2018,
+          120.9845593
+        ],
+        [
+          2019,
+          123.3577432
+        ]
+      ],
+      "name": "Ausland"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "marginRight": 15,
+    "renderTo": "container-7982",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Logiernächte nach Herkunft der Gäste"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "indexiert (2010 = 100), Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 90,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "max": 160,
+    "tickAmount": 8
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      },
+      "rotation": 0
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": "7982"
+  }
+}

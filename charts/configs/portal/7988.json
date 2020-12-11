@@ -1,0 +1,426 @@
+{
+  "series": [
+    {
+      "color": "#68AB2B",
+      "index": 3,
+      "legendIndex": 0,
+      "data": [
+        [
+          "VR China",
+          3410
+        ],
+        [
+          "Indien",
+          3352
+        ],
+        [
+          "Niederlande",
+          6128
+        ],
+        [
+          "Spanien",
+          7229
+        ],
+        [
+          "Italien",
+          9412
+        ],
+        [
+          "Frankreich",
+          9023
+        ],
+        [
+          "UK",
+          10258
+        ],
+        [
+          "USA",
+          9898
+        ],
+        [
+          "Deutschland",
+          30176
+        ],
+        [
+          "Schweiz",
+          73283
+        ]
+      ],
+      "name": "1- und 2-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 2,
+      "legendIndex": 1,
+      "data": [
+        [
+          "VR China",
+          12067
+        ],
+        [
+          "Indien",
+          9156
+        ],
+        [
+          "Niederlande",
+          14047
+        ],
+        [
+          "Spanien",
+          12725
+        ],
+        [
+          "Italien",
+          18201
+        ],
+        [
+          "Frankreich",
+          20282
+        ],
+        [
+          "UK",
+          30202
+        ],
+        [
+          "USA",
+          29254
+        ],
+        [
+          "Deutschland",
+          80324
+        ],
+        [
+          "Schweiz",
+          205128
+        ]
+      ],
+      "name": "3-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "index": 1,
+      "legendIndex": 2,
+      "data": [
+        [
+          "VR China",
+          21292
+        ],
+        [
+          "Indien",
+          8637
+        ],
+        [
+          "Niederlande",
+          10575
+        ],
+        [
+          "Spanien",
+          12318
+        ],
+        [
+          "Italien",
+          13883
+        ],
+        [
+          "Frankreich",
+          23430
+        ],
+        [
+          "UK",
+          45107
+        ],
+        [
+          "USA",
+          98739
+        ],
+        [
+          "Deutschland",
+          67849
+        ],
+        [
+          "Schweiz",
+          140333
+        ]
+      ],
+      "name": "4- und 5-Sterne",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8A8A8A",
+      "index": 0,
+      "legendIndex": 3,
+      "data": [
+        [
+          "VR China",
+          1151
+        ],
+        [
+          "Indien",
+          768
+        ],
+        [
+          "Niederlande",
+          1942
+        ],
+        [
+          "Spanien",
+          1768
+        ],
+        [
+          "Italien",
+          2539
+        ],
+        [
+          "Frankreich",
+          4452
+        ],
+        [
+          "UK",
+          3687
+        ],
+        [
+          "USA",
+          4557
+        ],
+        [
+          "Deutschland",
+          27084
+        ],
+        [
+          "Schweiz",
+          58033
+        ]
+      ],
+      "name": "Nicht klassiert",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0,
+    "reversed": false
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "inverted": true,
+    "type": "column",
+    "marginRight": 15,
+    "renderTo": "container-7988",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
+        }
+      },
+      "pointPadding": 0,
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "bold"
+    },
+    "align": "left",
+    "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "fontFamily": "Arial"
+    },
+    "text": "Basel-Stadt, 2019",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 15,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value}%"
+    },
+    "tickInterval": 20
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "itemDistance": 20,
+    "symbolPadding": 2,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    }
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "7988"
+  }
+}
