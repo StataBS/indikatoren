@@ -160,7 +160,7 @@ Highcharts.dateFormats = {
 
         ],
         "xAxis": {
-            min: Date.now() - 30 * 7 * 24 * 3600 * 1000,//Date.parse('2019-01-01'),
+            min: Date.now() - 100 * 7 * 24 * 3600 * 1000,//Date.parse('2019-01-01'),
             max: Date.now() + 5 * 7 * 24 * 3600 * 1000,//Date.parse('2020-07-01'),
             type: 'datetime',
             //startOnTick: true,
