@@ -879,7 +879,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
+    "text": "Jahresmittelwerte für Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m\u003Csup\u003E3\u003C\u002Fsup\u003E, Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -938,7 +938,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-14"
   },
   "legend": {
     "enabled": true,
