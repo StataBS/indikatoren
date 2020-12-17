@@ -35,6 +35,10 @@
         [
           2018,
           26.6
+        ],
+        [
+          2019,
+          25.9
         ]
       ],
       "name": "Schweiz"
@@ -75,6 +79,10 @@
         [
           2018,
           30.7
+        ],
+        [
+          2019,
+          29.5
         ]
       ],
       "name": "Schweizer"
@@ -115,6 +123,10 @@
         [
           2018,
           22.4
+        ],
+        [
+          2019,
+          22.2
         ]
       ],
       "name": "Schweizerinnen"
@@ -154,6 +166,10 @@
         [
           2018,
           31
+        ],
+        [
+          2019,
+          34.1
         ]
       ],
       "name": "Ausland"
@@ -194,6 +210,10 @@
         [
           2018,
           32.8
+        ],
+        [
+          2019,
+          36.2
         ]
       ],
       "name": "Ausländer"
@@ -234,6 +254,10 @@
         [
           2018,
           29.3
+        ],
+        [
+          2019,
+          32
         ]
       ],
       "name": "Ausländerinnen"
@@ -408,7 +432,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,
@@ -432,6 +456,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6670
+    "filename": "6670"
   }
 }

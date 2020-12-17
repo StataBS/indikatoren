@@ -18,8 +18,8 @@
           0.831
         ],
         [
-          "2013-2017",
-          0.799
+          "2014-2018",
+          0.794
         ]
       ],
       "name": "Schweizer",
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2013-2017",
-          "low": 0.788,
-          "high": 0.809
+          "name": "2014-2018",
+          "low": 0.783,
+          "high": 0.804
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -71,7 +71,7 @@
           0.709
         ],
         [
-          "2013-2017",
+          "2014-2018",
           0.766
         ]
       ],
@@ -98,9 +98,9 @@
           "high": null
         },
         {
-          "name": "2013-2017",
-          "low": 0.756,
-          "high": 0.777
+          "name": "2014-2018",
+          "low": 0.755,
+          "high": 0.776
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -124,7 +124,7 @@
           0.837
         ],
         [
-          "2013-2017",
+          "2014-2018",
           0.85
         ]
       ],
@@ -151,8 +151,8 @@
           "high": null
         },
         {
-          "name": "2013-2017",
-          "low": 0.839,
+          "name": "2014-2018",
+          "low": 0.838,
           "high": 0.862
         }
       ],
@@ -177,8 +177,8 @@
           0.729
         ],
         [
-          "2013-2017",
-          0.735
+          "2014-2018",
+          0.737
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2013-2017",
-          "low": 0.721,
-          "high": 0.75
+          "name": "2014-2018",
+          "low": 0.723,
+          "high": 0.752
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -352,7 +352,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Erwerbsquote der 15-64-Jährigen"
+    "text": "Erwerbsquote der 15- bis 64-Jährigen"
   },
   "subtitle": {
     "style": {
@@ -421,7 +421,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -431,6 +431,6 @@
     }
   },
   "exporting": {
-    "filename": 6693
+    "filename": "6693"
   }
 }

@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          98860.113602
+          98328.836465
         ],
         [
           "Deutschland",
-          13545.709912
+          13569.85726
         ],
         [
           "Italien",
-          2618.366548
+          2460.330491
         ],
         [
           "Türkei",
-          2009.958631
+          2108.551491
         ],
         [
           "EU-17 + EFTA",
-          3642.018837
+          3583.86128
         ],
         [
           "EU-Ost",
-          830.42836
+          974.562389
         ],
         [
           "Balkan",
-          3101.069889
+          3019.383249
         ],
         [
           "Mittel- und Südamerika",
-          410.128959
+          362.636451
         ],
         [
           "Arabische Länder",
-          298.198885
+          335.414839
         ],
         [
           "Afrikanische Länder",
-          384.176331
+          383.627886
         ],
         [
           "Übrige Länder",
-          1291.794185
+          1265.136156
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          6911.086398
+          7077.763535
         ],
         [
           "Deutschland",
-          102.71713
+          102.326157
         ],
         [
           "Italien",
-          4403.601262
+          4671.36951
         ],
         [
           "Türkei",
-          3161.720667
+          3056.864059
         ],
         [
           "EU-17 + EFTA",
-          7905.800902
+          8430.453219
         ],
         [
           "EU-Ost",
-          1821.1212
+          1980.735427
         ],
         [
           "Balkan",
-          3687.921858
+          3695.153533
         ],
         [
           "Mittel- und Südamerika",
-          980.492534
+          982.581368
         ],
         [
           "Arabische Länder",
-          546.649604
+          604.239079
         ],
         [
           "Afrikanische Länder",
-          785.782932
+          824.569013
         ],
         [
           "Übrige Länder",
-          4439.541373
+          4535.947144
         ]
       ],
       "name": "Kein Deutsch",
@@ -220,7 +220,7 @@
     "text": "Anteil Personen mit Hauptsprache Deutsch"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2013 bis 2017"
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -272,7 +272,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "navigation": {
     "buttonOptions": {

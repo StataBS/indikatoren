@@ -1,20 +1,28 @@
 (function(){
     return {
 "plotOptions": {
-    "series": {
-      //borderWidth: 0,
-      //pointWidth: 5,
-      "stacking": "normal"
+
+      area: {
+        stacking: 'normal',
+        //lineColor: '#666666',
+        lineWidth: 0,
+
+    
     }
   },
-  "xAxis": {
-  	min: 0,
-    "type": "category",
+  xAxis: {
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }, 
     labels:{
-    	step:1,
-    	rotation: -45, 
-    }
-  },  
+	  	rotation: 0
+	  }
+  },
   "yAxis": {
      tickInterval: 15000,
      max: 75000,
@@ -33,16 +41,17 @@
     }
   },
  "series": [
-  {"color": "#246370", index: 9, legendIndex: 0}, /**/
-  {"color": "#923F8D", index: 8, legendIndex: 1}, /**/
-  {"color": "#7F5F1A", index: 7, legendIndex: 2}, /**/
-  {"color": "#CD9C00", index: 6, legendIndex: 3}, /**/
-  {"color": "#007A2F", index: 5, legendIndex: 4}, /* */
-  {"color": "#DC440E", index: 4, legendIndex: 5}, /**/
+  {"color": "#246370", index: 9, "marker": {"enabled": false}, legendIndex: 0}, /**/
+  {"color": "#923F8D", index: 8, "marker": {"enabled": false}, legendIndex: 1}, /**/
+  {"color": "#7F5F1A", index: 7, "marker": {"enabled": false}, legendIndex: 2}, /**/
+  {"color": "#CD9C00", index: 6, "marker": {"enabled": false}, legendIndex: 3}, /**/
+  {"color": "#007A2F", index: 5, "marker": {"enabled": false}, legendIndex: 4}, /* */
+  {"color": "#DC440E", index: 4, "marker": {"enabled": false}, legendIndex: 5}, /**/
 ],
   "chart": {
     "type": "column",
-    "inverted": false
+    "inverted": false,
+    "type": "area",
   },
   "tooltip": {
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',

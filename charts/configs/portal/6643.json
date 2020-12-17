@@ -9,10 +9,6 @@
       "legendIndex": 1,
       "data": [
         [
-          1999,
-          52281
-        ],
-        [
           2000,
           51847
         ],
@@ -87,6 +83,10 @@
         [
           2018,
           72931
+        ],
+        [
+          2019,
+          73315
         ]
       ],
       "name": "Ausländer"
@@ -99,10 +99,6 @@
       },
       "legendIndex": 0,
       "data": [
-        [
-          1999,
-          137966
-        ],
         [
           2000,
           136304
@@ -178,6 +174,10 @@
         [
           2018,
           127325
+        ],
+        [
+          2019,
+          127092
         ]
       ],
       "name": "Schweizer"
@@ -336,11 +336,17 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "step": 1,
-      "rotation": -45
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositioner": function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -356,7 +362,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,
@@ -384,6 +390,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6643
+    "filename": "6643"
   }
 }

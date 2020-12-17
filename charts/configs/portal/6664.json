@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          -12.6
+          -12.3
         ],
         [
           "Deutschland",
-          -1.9
+          -2.8
         ],
         [
           "Italien",
-          -13.7
+          -12.5
         ],
         [
           "Türkei",
-          -4.8
+          -5
         ],
         [
           "EU-17 + EFTA",
-          -3.7
+          -3.5
         ],
         [
           "EU-Ost",
-          -1.7
+          -1.5
         ],
         [
           "Balkan",
-          -7.5
+          "-8,3"
         ],
         [
           "Mittel- und Südamerika",
-          -3.1
+          -3
         ],
         [
           "Arabische Länder",
-          0
+          -2.4
         ],
         [
           "Afrikanische Länder",
-          1.6
+          -2.6
         ],
         [
           "Übrige Länder",
-          0.8
+          0
         ]
       ],
       "turboThreshold": 0
@@ -206,7 +206,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018 gegenüber 1999",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019 gegenüber 2000",
     "align": "left"
   },
   "yAxis": {
@@ -228,6 +228,7 @@
       },
       "format": "{value:,.0f}"
     },
+    "type": "linear",
     "max": 15,
     "min": -15,
     "tickAmount": 7
@@ -266,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -294,6 +295,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6664
+    "filename": "6664"
   }
 }

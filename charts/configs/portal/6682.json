@@ -38,6 +38,10 @@
         [
           2018,
           2.5
+        ],
+        [
+          2019,
+          2.2
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2018,
           2.8
+        ],
+        [
+          2019,
+          2.6
         ]
       ],
       "name": "Deutschland"
@@ -121,6 +129,10 @@
         ],
         [
           2018,
+          4.8
+        ],
+        [
+          2019,
           4.8
         ]
       ],
@@ -164,6 +176,10 @@
         [
           2018,
           7.3
+        ],
+        [
+          2019,
+          5.9
         ]
       ],
       "name": "Türkei"
@@ -206,6 +222,10 @@
         [
           2018,
           4.3
+        ],
+        [
+          2019,
+          4.2
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -248,6 +268,10 @@
         [
           2018,
           4.9
+        ],
+        [
+          2019,
+          5.3
         ]
       ],
       "name": "EU-Ost"
@@ -290,6 +314,10 @@
         [
           2018,
           6.6
+        ],
+        [
+          2019,
+          6.4
         ]
       ],
       "name": "Balkan"
@@ -332,6 +360,10 @@
         [
           2018,
           5.7
+        ],
+        [
+          2019,
+          4.7
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -374,6 +406,10 @@
         [
           2018,
           6.6
+        ],
+        [
+          2019,
+          5.9
         ]
       ],
       "name": "Arabische Länder"
@@ -416,6 +452,10 @@
         [
           2018,
           7.3
+        ],
+        [
+          2019,
+          6.7
         ]
       ],
       "name": "Afrikanische Länder"
@@ -458,6 +498,10 @@
         [
           2018,
           2.8
+        ],
+        [
+          2019,
+          2.7
         ]
       ],
       "name": "Übrige Länder"
@@ -615,7 +659,8 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -634,7 +679,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,
@@ -667,6 +712,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6682
+    "filename": "6682"
   }
 }

@@ -24,13 +24,18 @@
     }, 
     tickAmount: 6
   },
-  "xAxis": {
-  	//"type": "category",
-  	tickInterval: 1,
-  	labels: {
-  	    step: 1,
-  	    rotation: -45,
-  	},
+  xAxis: {
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }, 
+    labels:{
+	  	rotation: 0
+	  }
   },
   "legend": {
     "enabled": true,

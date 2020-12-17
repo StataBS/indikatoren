@@ -5,7 +5,7 @@
       "data": [
         [
           "Deutschland",
-          16459
+          16380
         ],
         [
           "Italien",
@@ -13,35 +13,35 @@
         ],
         [
           "Türkei",
-          6194
+          6056
         ],
         [
           "EU-17 + EFTA",
-          15844
+          15983
         ],
         [
           "EU-Ost",
-          4153
+          4462
         ],
         [
           "Balkan",
-          8131
+          7962
         ],
         [
           "Mittel- und Südamerika",
-          1755
+          1831
         ],
         [
           "Arabische Länder",
-          1579
+          1625
         ],
         [
           "Afrikanische Länder",
-          1849
+          1889
         ],
         [
           "Übrige Länder",
-          8316
+          8476
         ]
       ],
       "turboThreshold": 0
@@ -118,7 +118,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Ausländer nach Staatsangehörigkeit"
+    "text": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen"
   },
   "subtitle": {
     "style": {
@@ -127,7 +127,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "tooltip": {
@@ -148,7 +148,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "padding": 0,
@@ -172,6 +172,6 @@
 		}
   },
   "exporting": {
-    "filename": 6645
+    "filename": "6645"
   }
 }

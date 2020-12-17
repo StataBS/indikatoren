@@ -16,11 +16,18 @@
         "format": "{value:,.0f}",
       }
     },
-    "xAxis": {
-      //tickInterval: 2,
-      //tickPositions: [2007, 2010, 2013, 2017],
-      //tickPositions: [2007, 2009, 2011, 2013, 2015, 2017],
-      tickPositions: [2007, 2009, 2011, 2013, 2015,2018]
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }, 
+      labels:{
+        rotation: 0
+      }
     },
     "legend": {
       "enabled": true,
