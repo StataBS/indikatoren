@@ -26,7 +26,7 @@
   {"color": "#ffda80"}, 
   ],
   "legend": {
-  	 itemWidth: 100,
+  	 itemWidth: 110,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",

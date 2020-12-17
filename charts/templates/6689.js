@@ -1,20 +1,24 @@
 (function(){
     return {
-"xAxis": {
-  	type: 'category',
-    labels: { 
-      //rotation: 0,
-      formatter: function(){
-        //return the month 06 so that the label is centered over the year
-        return (this.value.includes('-06') ? this.value.split("-")[0] : '');
+      "xAxis": {
+        type: 'category',
+        tickPositioner: function () {
+          var interval = 24,
+            ext = this.getExtremes(),
+            i = ext.dataMax-6,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }, 
+        labels: { 
+          rotation: 0,
+          formatter: function(){
+            //return the month 06 so that the label is centered over the year
+            return (this.value.includes('-06') ? this.value.split("-")[0] : '');
+          },
+      
+        } 
       },
-      step: 1,
-      rotation: -45,
-  		style: { 
-  		//textOverflow: 'none' 
-  		} 
-  	} 
-  },
   "yAxis": {
     "min": 0, 
     tickInterval: 25,

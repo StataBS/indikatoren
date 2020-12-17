@@ -10981,21 +10981,23 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-05T08:14:21.2121",
+		"aktualisierungsdatum": "2020-12-16T10:57:43.4343",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2018 liegen bei 84,2 Jahren (Frauen) und 80,9 Jahren (Männer).",
+		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2019 liegen bei 84,5 Jahren (Frauen) und 80,9 Jahren (Männer).",
 		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_303",
+		"orderKey": "03_02_00_00_00_304",
 		"parentId": null,
-		"children": [],
+		"children": [
+			"8897"
+		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)"
@@ -28075,7 +28077,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Patienten nach Liege- und Altersklasse",
-		"subtitle": "in baselstädtischen Spitälern, 2018",
+		"subtitle": "in baselstädtischen Spitälern, 2019",
 		"kuerzel": "I.14.1.06999",
 		"kuerzelKunde": "",
 		"description": "Patienten nach Liege- und Altersklasse",
@@ -28085,13 +28087,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:35.3535",
+		"aktualisierungsdatum": "2020-12-16T14:42:32.3232",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 wurden insgesamt 11 384 Personen im Alter zwischen 70 und 79 Jahren in einem Basler Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
+		"lesehilfe": "Im Jahr 2019 wurden insgesamt 11 495 Personen im Alter zwischen 70 und 79 Jahren in einem Basler Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -41522,7 +41524,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T17:00:56.5656",
+		"aktualisierungsdatum": "2020-12-16T17:48:35.3535",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41562,7 +41564,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T16:49:17.1717",
+		"aktualisierungsdatum": "2020-12-16T17:26:30.3030",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

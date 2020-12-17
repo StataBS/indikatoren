@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          1999,
-          14.9
-        ],
-        [
           2000,
           14.9
         ],
@@ -78,11 +74,15 @@
         ],
         [
           2017,
-          25
+          24.9
         ],
         [
           2018,
           24.8
+        ],
+        [
+          2019,
+          25.2
         ]
       ],
       "name": "Schweiz"
@@ -92,10 +92,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          1999,
-          17.3
-        ],
         [
           2000,
           17.5
@@ -170,7 +166,11 @@
         ],
         [
           2018,
-          24.5
+          24.4
+        ],
+        [
+          2019,
+          24.2
         ]
       ],
       "name": "Schweizer"
@@ -180,10 +180,6 @@
       "legendIndex": 4,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          1999,
-          12.7
-        ],
         [
           2000,
           12.4
@@ -210,7 +206,7 @@
         ],
         [
           2006,
-          18.3
+          18.4
         ],
         [
           2007,
@@ -246,11 +242,11 @@
         ],
         [
           2015,
-          24.1
+          24
         ],
         [
           2016,
-          25.2
+          25.1
         ],
         [
           2017,
@@ -259,6 +255,10 @@
         [
           2018,
           25.1
+        ],
+        [
+          2019,
+          26
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          1999,
-          3.9
-        ],
         [
           2000,
           3.6
@@ -346,6 +342,10 @@
         [
           2018,
           7.2
+        ],
+        [
+          2019,
+          7.1
         ]
       ],
       "name": "Ausland"
@@ -355,10 +355,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          1999,
-          4.6
-        ],
         [
           2000,
           4.2
@@ -434,6 +430,10 @@
         [
           2018,
           6.7
+        ],
+        [
+          2019,
+          6.8
         ]
       ],
       "name": "Ausländer"
@@ -443,10 +443,6 @@
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          1999,
-          3.3
-        ],
         [
           2000,
           3.1
@@ -522,6 +518,10 @@
         [
           2018,
           7.6
+        ],
+        [
+          2019,
+          7.3
         ]
       ],
       "name": "Ausländerinnen"
@@ -699,7 +699,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,
@@ -723,6 +723,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6668
+    "filename": "6668"
   }
 }

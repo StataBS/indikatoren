@@ -6,11 +6,11 @@
     "xAxis": {
       type: 'category',
       //endOnTick: false,
-      tickInterval: 10,
+      tickInterval: 5,
       labels: {
         overflow: "justify",
         step: 1,
-        //rotation: -45,
+        rotation: -45,
       }
     },
     "yAxis": {

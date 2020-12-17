@@ -1,16 +1,8 @@
 {
   "series": [
     {
-      "marker": {
-        "symbol": "circle",
-        "enabled": false
-      },
       "color": "#cd9c00",
       "data": [
-        [
-          1999,
-          27.48059102115
-        ],
         [
           2000,
           27.55605869754
@@ -86,6 +78,10 @@
         [
           2018,
           36.4188838287
+        ],
+        [
+          2019,
+          36.58305348616
         ]
       ],
       "name": "Ausländeranteil"
@@ -186,7 +182,7 @@
       "fontFamily": "Arial"
     },
     "type": "line",
-    "spacingTop": 7,
+    "marginRight": 15,
     "renderTo": "container-6642",
     "spacingBottom": 12
   },
@@ -210,8 +206,7 @@
     "align": "left"
   },
   "tooltip": {
-    "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "shared": false
   },
   "yAxis": {
     "min": 0,
@@ -244,11 +239,17 @@
         "textOverflow": "none",
         "whiteSpace": "nowrap"
       },
-      "rotation": -45,
-      "step": 1
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -264,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": false,
@@ -283,6 +284,13 @@
     "series": {
       "marker": {
         "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
       }
     }
   },

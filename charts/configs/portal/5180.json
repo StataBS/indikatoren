@@ -58,6 +58,10 @@
         [
           2018,
           84.2
+        ],
+        [
+          2019,
+          84.5
         ]
       ],
       "name": "Frauen"
@@ -119,6 +123,10 @@
         ],
         [
           2018,
+          80.9
+        ],
+        [
+          2019,
           80.9
         ]
       ],
@@ -250,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-5"
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

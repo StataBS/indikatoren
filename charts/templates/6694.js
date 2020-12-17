@@ -4,7 +4,7 @@
     "tickInterval": 1,
     //tickPositions: [2008, 2010, 2012, 2014, 2017],
     labels: {
-      rotation: -45, 
+      rotation: 0, 
     },
   },
   "yAxis": {
@@ -32,15 +32,19 @@
   {"color": "#9f7c5a"}, /*Afrikanische Länder*/
   {"color": "#999999"}, /*Übrige Länder*/
   ],
-   "legend": {
+  "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
+    padding: 1,
     "align": "left",
-    "itemStyle": {
-      "fontWeight": "normal"
-    }, 
-    labelFormatter: function(){
+    itemWidth: 120,
+  width: 250,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  },
+     labelFormatter: function(){
       return this.name.replace("&", "u.");
     },
   },

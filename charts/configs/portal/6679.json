@@ -7,19 +7,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          1867.943001
+          1890.119662
         ],
         [
           "40-64 Jahre",
-          10836.078572
+          11075.05694
         ],
         [
           "25-39 Jahre",
-          11886.812582
+          11655.650788
         ],
         [
           "15-24 Jahre",
-          3541.016382
+          3442.534101
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -32,19 +32,19 @@
       "data": [
         [
           "65 Jahre u.m.",
-          3158.656999
+          3257.080338
         ],
         [
           "40-64 Jahre",
-          12082.450424
+          12485.917587
         ],
         [
           "25-39 Jahre",
-          10962.258422
+          11430.374685
         ],
         [
           "15-24 Jahre",
-          1631.983618
+          1710.865899
         ]
       ],
       "name": "Kein Deutsch",
@@ -162,7 +162,7 @@
     "text": "Anteil Ausländer mit Hauptsprache Deutsch nach Alter"
   },
   "subtitle": {
-    "text": "Basel-Stadt, gepoolte Daten 2013 bis 2017"
+    "text": "Basel-Stadt, gepoolte Daten 2014 bis 2018"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -214,7 +214,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "navigation": {
     "buttonOptions": {

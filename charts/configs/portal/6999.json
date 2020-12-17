@@ -6,43 +6,43 @@
       "data": [
         [
           "0 bis 9 J.",
-          7533
+          7626
         ],
         [
           "10 bis 19 J.",
-          2206
+          2083
         ],
         [
           "20 bis 29 J.",
-          3769
+          3709
         ],
         [
           "30 bis 39 J.",
-          5918
+          6085
         ],
         [
           "40 bis 49 J.",
-          4520
+          4507
         ],
         [
           "50 bis 59 J.",
-          6070
+          6333
         ],
         [
           "60 bis 69 J.",
-          6452
+          6604
         ],
         [
           "70 bis 79 J.",
-          7463
+          7506
         ],
         [
           "80 bis 89 J.",
-          6573
+          6494
         ],
         [
           "90 Jahre u.m.",
-          1835
+          1830
         ]
       ],
       "name": "Allgemein",
@@ -54,43 +54,43 @@
       "data": [
         [
           "0 bis 9 J.",
-          480
+          496
         ],
         [
           "10 bis 19 J.",
-          175
+          202
         ],
         [
           "20 bis 29 J.",
-          226
+          213
         ],
         [
           "30 bis 39 J.",
-          563
+          525
         ],
         [
           "40 bis 49 J.",
-          462
+          433
         ],
         [
           "50 bis 59 J.",
-          943
+          963
         ],
         [
           "60 bis 69 J.",
-          1511
+          1446
         ],
         [
           "70 bis 79 J.",
-          2327
+          2354
         ],
         [
           "80 bis 89 J.",
-          2028
+          2088
         ],
         [
           "90 Jahre u.m.",
-          497
+          573
         ]
       ],
       "name": "Halbprivat",
@@ -102,43 +102,43 @@
       "data": [
         [
           "0 bis 9 J.",
-          412
+          460
         ],
         [
           "10 bis 19 J.",
-          171
+          192
         ],
         [
           "20 bis 29 J.",
-          208
+          193
         ],
         [
           "30 bis 39 J.",
-          467
+          429
         ],
         [
           "40 bis 49 J.",
-          412
+          390
         ],
         [
           "50 bis 59 J.",
-          783
+          759
         ],
         [
           "60 bis 69 J.",
-          1112
+          1022
         ],
         [
           "70 bis 79 J.",
-          1594
+          1635
         ],
         [
           "80 bis 89 J.",
-          1378
+          1386
         ],
         [
           "90 Jahre u.m.",
-          400
+          366
         ]
       ],
       "name": "Privat",
@@ -192,6 +192,7 @@
 					}
 				}
     },
+    "marginRight": 30,
     "inverted": true,
     "renderTo": "container-6999"
   },
@@ -215,7 +216,7 @@
     "text": "Patienten nach Liege- und Altersklasse"
   },
   "subtitle": {
-    "text": "in baselstädtischen Spitälern, 2018",
+    "text": "in baselstädtischen Spitälern, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -237,10 +238,11 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
-      }
+        "color": "black"
+      },
+      "format": "{value:,.0f}"
     },
-    "tickAmount": 5,
+    "tickAmount": 6,
     "reversedStacks": false
   },
   "legend": {
@@ -267,7 +269,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -305,6 +307,7 @@
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {

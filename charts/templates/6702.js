@@ -6,7 +6,7 @@
       /*marginBottom: 63*/
     },
     "xAxis": {
-      //type: 'category',
+      type: 'category',
       //"tickInterval": 4,
       //tickPositions: [2001, 2005, 2009, 2013, 2018]
     },

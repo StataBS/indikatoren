@@ -20,6 +20,7 @@
     } 
   },
   "yAxis": {
+    "type": "linear",
   	max: 15,
   	min: -15,
   	tickAmount: 7,

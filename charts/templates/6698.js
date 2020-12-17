@@ -9,7 +9,9 @@
     },
     "xAxis": {
       "type": "category",
+      reversed: false,
       "labels": {
+
         step: 1,
         x: -5,
         y: 1,
@@ -19,6 +21,7 @@
     "yAxis": {
       max: 4000,
       "labels": {
+       
         y: 18,
         "format": "{value:,.0f}"
       }
