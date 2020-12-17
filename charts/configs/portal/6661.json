@@ -55,6 +55,10 @@
         [
           2018,
           1188
+        ],
+        [
+          2019,
+          1162
         ]
       ],
       "name": "Schweiz"
@@ -114,6 +118,10 @@
         [
           2018,
           214
+        ],
+        [
+          2019,
+          197
         ]
       ],
       "name": "Deutschland"
@@ -173,6 +181,10 @@
         [
           2018,
           75
+        ],
+        [
+          2019,
+          73
         ]
       ],
       "name": "Italien"
@@ -232,6 +244,10 @@
         [
           2018,
           47
+        ],
+        [
+          2019,
+          51
         ]
       ],
       "name": "Türkei"
@@ -291,6 +307,10 @@
         [
           2018,
           190
+        ],
+        [
+          2019,
+          228
         ]
       ],
       "name": "EU-17 + EFTA"
@@ -350,6 +370,10 @@
         [
           2018,
           68
+        ],
+        [
+          2019,
+          78
         ]
       ],
       "name": "EU-Ost"
@@ -409,6 +433,10 @@
         [
           2018,
           99
+        ],
+        [
+          2019,
+          95
         ]
       ],
       "name": "Balkan"
@@ -468,6 +496,10 @@
         [
           2018,
           17
+        ],
+        [
+          2019,
+          16
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -527,6 +559,10 @@
         [
           2018,
           33
+        ],
+        [
+          2019,
+          39
         ]
       ],
       "name": "Arabische Länder"
@@ -586,6 +622,10 @@
         [
           2018,
           45
+        ],
+        [
+          2019,
+          39
         ]
       ],
       "name": "Afrikanische Länder"
@@ -645,6 +685,10 @@
         [
           2018,
           103
+        ],
+        [
+          2019,
+          89
         ]
       ],
       "name": "Übrige Länder"
@@ -800,17 +844,18 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      }
+      },
+      "rotation": 0
     },
     "tickLength": 0,
-    "tickPositions": [
-      2007,
-      2009,
-      2011,
-      2013,
-      2015,
-      2018
-    ]
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -826,7 +871,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,
@@ -855,6 +900,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 6661
+    "filename": "6661"
   }
 }

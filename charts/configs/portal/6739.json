@@ -2,84 +2,104 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
+      "index": 5,
       "legendIndex": 0,
       "data": [
         [
-          "2015 Total",
-          1080
-        ],
-        [
-          "2015 Schweiz",
-          968
-        ],
-        [
-          "2015 Ausland",
-          112
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2011 Total",
-          1145
-        ],
-        [
-          "2011 Schweiz",
-          982
-        ],
-        [
-          "2011 Ausland",
-          163
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Total",
-          959
-        ],
-        [
-          "2007 Schweiz",
-          850
-        ],
-        [
-          "2007 Ausland",
-          109
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2005 Total",
-          942
-        ],
-        [
-          "2005 Schweiz",
-          807
-        ],
-        [
-          "2005 Ausland",
-          135
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2003 Total",
-          967
-        ],
-        [
-          "2003 Schweiz",
+          "2003: Schweiz",
           849
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           118
+        ],
+        [
+          "2003: Total",
+          967
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
+          807
+        ],
+        [
+          "2005: Ausland",
+          135
+        ],
+        [
+          "2005: Total",
+          942
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          850
+        ],
+        [
+          "2007: Ausland",
+          109
+        ],
+        [
+          "2007: Total",
+          959
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          982
+        ],
+        [
+          "2011: Ausland",
+          163
+        ],
+        [
+          "2011: Total",
+          1145
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
+          968
+        ],
+        [
+          "2015: Ausland",
+          112
+        ],
+        [
+          "2015: Total",
+          1080
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Schweiz",
+          1233
+        ],
+        [
+          "2019: Ausland",
+          320
+        ],
+        [
+          "2019: Total",
+          1569
         ]
       ],
       "name": "Sehr gerne",
@@ -87,84 +107,104 @@
     },
     {
       "color": "#68ab2b",
-      "index": 3,
+      "index": 4,
       "legendIndex": 1,
       "data": [
         [
-          "2015 Total",
-          379
-        ],
-        [
-          "2015 Schweiz",
-          325
-        ],
-        [
-          "2015 Ausland",
-          54
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2011 Total",
-          341
-        ],
-        [
-          "2011 Schweiz",
-          291
-        ],
-        [
-          "2011 Ausland",
-          50
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Total",
-          485
-        ],
-        [
-          "2007 Schweiz",
-          424
-        ],
-        [
-          "2007 Ausland",
-          61
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2005 Total",
-          508
-        ],
-        [
-          "2005 Schweiz",
-          440
-        ],
-        [
-          "2005 Ausland",
-          68
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2003 Total",
-          467
-        ],
-        [
-          "2003 Schweiz",
+          "2003: Schweiz",
           392
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           75
+        ],
+        [
+          "2003: Total",
+          467
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
+          440
+        ],
+        [
+          "2005: Ausland",
+          68
+        ],
+        [
+          "2005: Total",
+          508
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          424
+        ],
+        [
+          "2007: Ausland",
+          61
+        ],
+        [
+          "2007: Total",
+          485
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          291
+        ],
+        [
+          "2011: Ausland",
+          50
+        ],
+        [
+          "2011: Total",
+          341
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
+          325
+        ],
+        [
+          "2015: Ausland",
+          54
+        ],
+        [
+          "2015: Total",
+          379
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Schweiz",
+          331
+        ],
+        [
+          "2019: Ausland",
+          111
+        ],
+        [
+          "2019: Total",
+          448
         ]
       ],
       "name": "Eher gerne",
@@ -172,257 +212,422 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
+      "index": 3,
       "legendIndex": 2,
       "data": [
         [
-          "2015 Total",
-          30
-        ],
-        [
-          "2015 Schweiz",
-          25
-        ],
-        [
-          "2015 Ausland",
-          5
-        ],
-        [
-          " ",
+          "2003",
           null
         ],
         [
-          "2011 Total",
-          19
-        ],
-        [
-          "2011 Schweiz",
-          18
-        ],
-        [
-          "2011 Ausland",
-          1
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Total",
-          53
-        ],
-        [
-          "2007 Schweiz",
-          45
-        ],
-        [
-          "2007 Ausland",
-          8
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2005 Total",
-          48
-        ],
-        [
-          "2005 Schweiz",
-          41
-        ],
-        [
-          "2005 Ausland",
-          7
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2003 Total",
-          51
-        ],
-        [
-          "2003 Schweiz",
+          "2003: Schweiz",
           40
         ],
         [
-          "2003 Ausland",
+          "2003: Ausland",
           11
+        ],
+        [
+          "2003: Total",
+          51
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
+          41
+        ],
+        [
+          "2005: Ausland",
+          7
+        ],
+        [
+          "2005: Total",
+          48
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          45
+        ],
+        [
+          "2007: Ausland",
+          8
+        ],
+        [
+          "2007: Total",
+          53
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          18
+        ],
+        [
+          "2011: Ausland",
+          1
+        ],
+        [
+          "2011: Total",
+          19
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
+          25
+        ],
+        [
+          "2015: Ausland",
+          5
+        ],
+        [
+          "2015: Total",
+          30
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Schweiz",
+          34
+        ],
+        [
+          "2019: Ausland",
+          4
+        ],
+        [
+          "2019: Total",
+          38
         ]
       ],
-      "name": "Eher ungern",
+      "name": "Eher ungerne",
       "turboThreshold": 0
     },
     {
       "color": "#dc440e",
-      "index": 1,
+      "index": 2,
       "legendIndex": 3,
       "data": [
         [
-          "2015 Total",
+          "2003",
+          null
+        ],
+        [
+          "2003: Schweiz",
+          7
+        ],
+        [
+          "2003: Ausland",
+          2
+        ],
+        [
+          "2003: Total",
+          9
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
           11
         ],
         [
-          "2015 Schweiz",
+          "2005: Ausland",
+          0
+        ],
+        [
+          "2005: Total",
+          11
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          7
+        ],
+        [
+          "2007: Ausland",
+          0
+        ],
+        [
+          "2007: Total",
+          7
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          9
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Total",
+          9
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
           10
         ],
         [
-          "2015 Ausland",
+          "2015: Ausland",
           1
         ],
         [
-          " ",
-          null
-        ],
-        [
-          "2011 Total",
-          9
-        ],
-        [
-          "2011 Schweiz",
-          9
-        ],
-        [
-          "2011 Ausland",
-          0
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Total",
-          7
-        ],
-        [
-          "2007 Schweiz",
-          7
-        ],
-        [
-          "2007 Ausland",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2005 Total",
+          "2015: Total",
           11
         ],
         [
-          "2005 Schweiz",
-          11
-        ],
-        [
-          "2005 Ausland",
-          0
-        ],
-        [
-          "    ",
+          "2019",
           null
         ],
         [
-          "2003 Total",
-          9
+          "2019: Schweiz",
+          10
         ],
         [
-          "2003 Schweiz",
-          7
+          "2019: Ausland",
+          1
         ],
         [
-          "2003 Ausland",
-          2
+          "2019: Total",
+          12
         ]
       ],
-      "name": "Ganz ungern",
+      "name": "Ganz ungerne",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
+      "color": "#C8C8C8",
+      "index": 1,
       "legendIndex": 4,
       "data": [
         [
-          "2015 Total",
+          "2003",
+          null
+        ],
+        [
+          "2003: Schweiz",
+          3
+        ],
+        [
+          "2003: Ausland",
+          0
+        ],
+        [
+          "2003: Total",
+          3
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
+          1
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "2005: Total",
+          1
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          5
+        ],
+        [
+          "2007: Ausland",
+          0
+        ],
+        [
+          "2007: Total",
+          5
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          2
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Total",
+          2
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
+          5
+        ],
+        [
+          "2015: Ausland",
+          1
+        ],
+        [
+          "2015: Total",
           6
         ],
         [
-          "2015 Schweiz",
-          5
+          "2019",
+          null
         ],
         [
-          "2015 Ausland",
+          "2019: Schweiz",
+          6
+        ],
+        [
+          "2019: Ausland",
           1
         ],
         [
-          " ",
-          null
-        ],
-        [
-          "2011 Total",
-          2
-        ],
-        [
-          "2011 Schweiz",
-          2
-        ],
-        [
-          "2011 Ausland",
-          0
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
-          "2007 Total",
-          5
-        ],
-        [
-          "2007 Schweiz",
-          5
-        ],
-        [
-          "2007 Ausland",
-          0
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
-          "2005 Total",
-          1
-        ],
-        [
-          "2005 Schweiz",
-          1
-        ],
-        [
-          "2005 Ausland",
-          0
-        ],
-        [
-          "    ",
-          null
-        ],
-        [
-          "2003 Total",
-          3
-        ],
-        [
-          "2003 Schweiz",
-          3
-        ],
-        [
-          "2003 Ausland",
-          0
+          "2019: Total",
+          7
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "index": 0,
+      "legendIndex": 5,
+      "data": [
+        [
+          "2003",
+          null
+        ],
+        [
+          "2003: Schweiz",
+          0
+        ],
+        [
+          "2003: Ausland",
+          0
+        ],
+        [
+          "2003: Total",
+          0
+        ],
+        [
+          "2005",
+          null
+        ],
+        [
+          "2005: Schweiz",
+          0
+        ],
+        [
+          "2005: Ausland",
+          0
+        ],
+        [
+          "2005: Total",
+          0
+        ],
+        [
+          "2007",
+          null
+        ],
+        [
+          "2007: Schweiz",
+          0
+        ],
+        [
+          "2007: Ausland",
+          0
+        ],
+        [
+          "2007: Total",
+          0
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2011: Schweiz",
+          0
+        ],
+        [
+          "2011: Ausland",
+          0
+        ],
+        [
+          "2011: Total",
+          0
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2015: Schweiz",
+          0
+        ],
+        [
+          "2015: Ausland",
+          0
+        ],
+        [
+          "2015: Total",
+          0
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2019: Schweiz",
+          21
+        ],
+        [
+          "2019: Ausland",
+          10
+        ],
+        [
+          "2019: Total",
+          34
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -438,7 +643,7 @@
       }
     },
     "labels": {
-      "rotation": -90,
+      "rotation": -45,
       "style": {
         "fontSize": "10px",
         "color": "#000000",
@@ -447,30 +652,26 @@
         "width": 1
       },
       "formatter": function () {
-                    //add sum of observations of visible series to the axis label
-                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
-                        return val.visible;
-                    });
-                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
-                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
-                        return accumulator + series.yData[indexOfCurrentValue];
-                    }, 0);
+          //add sum of observations of visible series to the axis label
+          var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+            return val.visible;
+          });
+          var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+          var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+            return accumulator + series.yData[indexOfCurrentValue];
+          }, 0);
+          //use N if all series are visible, otherwise use n
+          //var nString = /*(this.chart.series.length == allVisibleSeries.length) ? 'N=' : */ 'n=';
 
-                    //use N if all series are visible, otherwise use n
-                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+          //delete everything before ":", including ":"
+          this.value = this.value.replace(/[^:]*:/, "");
+          var nString = (this.value.match(/Total/)) ? 'N=' : 'n=';
 
-                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
-                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
-
-                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
-
-                    this.value = this.value.replace("und weitere", "u.a.");
-
-                    //check for value that contains only spaces
-                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
-                },
-      "x": -6,
-      "y": 10
+          //check for value that contains only spaces
+          if (sum != 0) return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + ' (' + nString + sum + ')';
+          //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+          return "<b>" + this.value + "</b>";
+        }
     }
   },
   "chart": {
@@ -536,8 +737,6 @@
 					}
 				}
     },
-    "marginBottom": 75,
-    "spacingTop": 5,
     "renderTo": "container-6739",
     "spacingBottom": 12
   },
@@ -559,10 +758,10 @@
     "text": "Beurteilung des Wohnorts nach Heimat"
   },
   "subtitle": {
-    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?»"
+    "text": "«Wie gerne leben Sie insgesamt an Ihrem Wohnort?», Basel-Stadt"
   },
   "yAxis": {
-    "tickInterval": 25,
+    "tickInterval": 20,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -577,15 +776,14 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    },
-    "max": 100
+    }
   },
   "legend": {
     "enabled": true,
     "useHTML": true,
     "layout": "vertical",
     "align": "right",
-    "verticalAlign": "middle",
+    "verticalAlign": "top",
     "symbolRadius": 0,
     "padding": 0,
     "itemMarginBottom": 4,
@@ -599,8 +797,8 @@
     "labelFormatter": function () {
 				return this.name.replace('/ ', '/<br/>');
 			},
-    "reversed": true,
-    "y": -13
+    "y": 6,
+    "reversed": true
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
@@ -611,7 +809,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F1c.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "navigation": {
     "buttonOptions": {

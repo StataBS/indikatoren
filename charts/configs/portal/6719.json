@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          69.77
+          69.66
         ],
         [
           "Deutschland",
-          62.39
+          61.95
         ],
         [
           "Italien",
-          57.92
+          57.41
         ],
         [
           "Türkei",
-          52.05
+          50.98
         ],
         [
           "EU-17 und EFTA",
-          60.6
+          60.44
         ],
         [
           "EU-Ost",
-          52.99
+          52.44
         ],
         [
           "Balkan",
-          49.49
+          49.08
         ],
         [
           "Mittel- und Südamerika",
-          58.19
+          57.03
         ],
         [
           "Arabische Länder",
-          49.02
+          47.52
         ],
         [
           "Afrikanische Länder",
-          45.97
+          45.35
         ],
         [
           "Übrige Länder",
-          59.42
+          57.86
         ]
       ],
       "name": "Einpersonenhaushalt",
@@ -58,47 +58,47 @@
       "data": [
         [
           "Schweiz",
-          27.65
+          27.84
         ],
         [
           "Deutschland",
-          28.33
+          28.76
         ],
         [
           "Italien",
-          23.1
+          22.91
         ],
         [
           "Türkei",
-          19.67
+          19.68
         ],
         [
           "EU-17 und EFTA",
-          25.91
+          26.59
         ],
         [
           "EU-Ost",
-          21.7
+          21.6
         ],
         [
           "Balkan",
-          19.5
+          19.57
         ],
         [
           "Mittel- und Südamerika",
-          24.12
+          23.96
         ],
         [
           "Arabische Länder",
-          19.9
+          19.57
         ],
         [
           "Afrikanische Länder",
-          19.44
+          19.08
         ],
         [
           "Übrige Länder",
-          25.56
+          26.2
         ]
       ],
       "name": "Vierpersonenhaushalt",
@@ -262,7 +262,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2018",
+    "text": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -321,7 +321,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -335,6 +335,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6719
+    "filename": "6719"
   }
 }

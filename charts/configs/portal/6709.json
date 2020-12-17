@@ -6,50 +6,50 @@
       "data": [
         [
           "Schweiz",
-          65671
+          65368
         ],
         [
           "Deutschland",
-          86643
+          86955
         ],
         [
           "Italien",
-          53160
+          51809
         ],
         [
           "Türkei",
-          40245
+          37084
         ],
         [
           "EU-17 + EFTA",
-          82397
+          82175
         ],
         [
           "EU-Ost",
-          46655
+          46560
         ],
         [
           "Balkan",
-          46426
+          42221
         ],
         [
           "Mittel- und Südamerika",
-          49174
+          47473
         ],
         [
           "Arabische Länder",
-          42407
+          40069
         ],
         [
           "Afrikanische Länder",
-          43710
+          38280
         ],
         [
           "Übrige Länder",
-          93604
+          93863
         ]
       ],
-      "name": "Mittelwert 2007",
+      "name": "Mittelwert 2008",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          66582
+          65555
         ],
         [
           "Deutschland",
-          96730
+          96894
         ],
         [
           "Italien",
-          60057
+          61349
         ],
         [
           "Türkei",
-          36139
+          35381
         ],
         [
           "EU-17 + EFTA",
-          103409
+          106456
         ],
         [
           "EU-Ost",
-          81250
+          84714
         ],
         [
           "Balkan",
-          44237
+          44309
         ],
         [
           "Mittel- und Südamerika",
-          55767
+          58235
         ],
         [
           "Arabische Länder",
-          40108
+          42325
         ],
         [
           "Afrikanische Länder",
-          32419
+          33137
         ],
         [
           "Übrige Länder",
-          130007
+          126410
         ]
       ],
-      "name": "Mittelwert 2016",
+      "name": "Mittelwert 2017",
       "turboThreshold": 0
     }
   ],
@@ -321,7 +321,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -335,6 +335,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6709
+    "filename": "6709"
   }
 }

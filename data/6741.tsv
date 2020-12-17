@@ -1,20 +1,26 @@
-﻿ 	Sehr zufrieden	Eher zufrieden	Eher unzufrieden	Ganz unzufrieden	Weiss nicht / Keine Angabe	Total
-2015 Total	315	885	156	20	82	1458
-2015 Schweiz	277	782	139	19	73	1458
-2015 Ausland	38	103	17	1	9	1458
-.						
-2011 Total	465	751	164	33	64	1477
-2011 Schweiz	399	637	145	26	59	1477
-2011 Ausland	66	114	19	7	5	1477
-..						
-2007 Total	211	971	185	31	86	1484
-2007 Schweiz	190	858	165	28	70	1484
-2007 Ausland	21	113	20	3	16	1484
-...						
-2005 Total	276	831	245	55	73	1480
-2005 Schweiz	238	711	218	49	60	1480
-2005 Ausland	38	120	27	6	13	1480
-....						
-2003 Total	301	842	214	39	76	1472
-2003 Schweiz	258	721	198	35	57	1472
-2003 Ausland	43	121	16	4	19	1472
+﻿Jahr	Sehr zufrieden	Eher zufrieden	Eher unzufrieden	Ganz unzufrieden	Weiss nicht	Keine Angabe
+2003						
+2003: Schweiz	258	721	198	35	57	0
+2003: Ausland	43	121	16	4	19	0
+2003: Total	301	842	214	39	76	0
+2005						
+2005: Schweiz	238	711	218	49	60	0
+2005: Ausland	38	120	27	6	13	0
+2005: Total	276	831	245	55	73	0
+2007						
+2007: Schweiz	190	858	165	28	70	0
+2007: Ausland	21	113	20	3	16	0
+2007: Total	211	971	185	31	86	0
+2011						
+2011: Schweiz	399	637	145	26	58	1
+2011: Ausland	66	114	19	7	4	1
+2011: Total	465	751	164	33	62	2
+2015						
+2015: Schweiz	277	782	139	19	73	0
+2015: Ausland	38	103	17	1	9	0
+2015: Total	315	885	156	20	82	0
+2019						
+2019: Schweiz	334	781	154	38	155	62
+2019: Ausland	98	210	37	10	51	16
+2019: Total	435	1005	191	50	209	81
+

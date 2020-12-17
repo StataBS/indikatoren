@@ -1,17 +1,17 @@
 (function () {
   return {
     chart: {
-      marginTop: 5
+    //  marginTop: 5
     },
     "xAxis": {
-      "tickInterval": 2,
+      "tickInterval": 1,
       labels: {
-        rotation: -45
+        rotation: 0
       }
     },
     "yAxis": {
       "min": 0,
-      max: 80,
+      max: 60,
       tickInterval: 20,
     },
     "series": [
@@ -28,13 +28,20 @@
     ],
     "legend": {
       "enabled": true,
-      //"layout": "vertical",
-      //"verticalAlign": "top",
-      //"align": "left",
-      itemMarginBottom: 4,
-      labelFormatter: function () {
-        return this.name.replace(" ", "<br>").replace("<br>und", " u.<br>").replace("<br>+", " +").replace("Übrige<br>", "Übrige ");
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      padding: 1,
+      "align": "left",
+      itemWidth: 130,
+    width: 299,
+    itemStyle: {
+      textOverflow: "none",
+      whiteSpace: "nowrap"
+    },
+       labelFormatter: function(){
+        return this.name.replace("&", "u.");
       },
+        
     }
   }
 }());

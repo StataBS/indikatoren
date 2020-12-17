@@ -12,10 +12,18 @@
         }
       }
     },
-    "xAxis": {
-      //"tickInterval": 3,
-      //tickPositions: [1998, 2001, 2004, 2007, 2010, 2013, 2017]
-      tickPositions: [1999, 2002, 2005, 2008, 2011, 2014, 2018]
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }, 
+      labels:{
+        rotation: -45
+      }
     },
     "yAxis": {
       "min": 0,

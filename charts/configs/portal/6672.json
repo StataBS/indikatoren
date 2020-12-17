@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          19661.698541
+          19202.750757
         ],
         [
           "Deutschland",
-          722.91997379
+          743.8507834
         ],
         [
           "Italien",
-          3096.6738658
+          3024.7293105
         ],
         [
           "Türkei",
-          3578.3128795
+          3493.0139283
         ],
         [
           "EU-17 + EFTA",
-          3556.7580705
+          3525.4665771
         ],
         [
           "EU-Ost",
-          287.12684947
+          346.20317154
         ],
         [
           "Balkan",
-          3682.3731098
+          3470.7682394
         ],
         [
           "Mittel- und Südamerika",
-          491.17109121
+          430.16013845
         ],
         [
           "Arabische Länder",
-          333.61016838
+          392.83376375
         ],
         [
           "Afrikanische Länder",
-          666.01857189
+          703.15075611
         ],
         [
           "Übrige Länder",
-          1411.3698286
+          1425.0801472
         ]
       ],
       "name": "Sekundarstufe I",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          48980.47027
+          48058.731863
         ],
         [
           "Deutschland",
-          3220.1615937
+          3292.2746548
         ],
         [
           "Italien",
-          2155.5873673
+          2185.3874594
         ],
         [
           "Türkei",
-          901.17578793
+          952.41296008
         ],
         [
           "EU-17 + EFTA",
-          2176.7736304
+          2215.4138841
         ],
         [
           "EU-Ost",
-          775.6578545
+          894.03592789
         ],
         [
           "Balkan",
-          2285.985349
+          2362.0783483
         ],
         [
           "Mittel- und Südamerika",
-          329.07992203
+          349.39228069
         ],
         [
           "Arabische Länder",
-          224.81860435
+          248.38642521
         ],
         [
           "Afrikanische Länder",
-          263.83167291
+          256.55565826
         ],
         [
           "Übrige Länder",
-          780.0838456
+          792.64930604
         ]
       ],
       "name": "Sekundarstufe II",
@@ -113,47 +113,47 @@
       "data": [
         [
           "Schweiz",
-          37129.031188
+          38145.11738
         ],
         [
           "Deutschland",
-          9705.3454754
+          9636.0579784
         ],
         [
           "Italien",
-          1769.7065775
+          1921.5832309
         ],
         [
           "Türkei",
-          692.19063023
+          719.98866156
         ],
         [
           "EU-17 + EFTA",
-          5814.2880384
+          6273.4340371
         ],
         [
           "EU-Ost",
-          1588.7648566
+          1715.0587168
         ],
         [
           "Balkan",
-          820.63328811
+          881.69019433
         ],
         [
           "Mittel- und Südamerika",
-          570.37047919
+          565.66540058
         ],
         [
           "Arabische Länder",
-          286.41971636
+          298.43372863
         ],
         [
           "Afrikanische Länder",
-          240.10901851
+          248.49048472
         ],
         [
           "Übrige Länder",
-          3539.8818831
+          3583.3538465
         ]
       ],
       "name": "Tertiärstufe",
@@ -275,7 +275,7 @@
     "text": "Bevölkerung nach höchster abgeschlossener Ausbildung"
   },
   "subtitle": {
-    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2013 bis 2017"
+    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2014 bis 2018"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -327,7 +327,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "navigation": {
     "buttonOptions": {

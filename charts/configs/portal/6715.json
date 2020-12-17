@@ -30,6 +30,10 @@
         [
           2018,
           1.27
+        ],
+        [
+          2019,
+          1.3
         ]
       ],
       "name": "Schweiz"
@@ -64,6 +68,10 @@
         [
           2018,
           4.26
+        ],
+        [
+          2019,
+          4.38
         ]
       ],
       "name": "Gemischte Haushalte"
@@ -98,6 +106,10 @@
         [
           2018,
           3.69
+        ],
+        [
+          2019,
+          3.59
         ]
       ],
       "name": "Ausland"
@@ -132,6 +144,10 @@
         [
           2018,
           2.3
+        ],
+        [
+          2019,
+          2.31
         ]
       ],
       "name": "Total"
@@ -307,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,

@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          23.66
+          26.14
         ],
         [
           "Deutschland",
-          14.06
+          13.79
         ],
         [
           "Italien",
-          64.71
+          55.32
         ],
         [
           "Türkei",
-          85.48
+          74.51
         ],
         [
           "EU-17 + EFTA",
-          57.79
+          61.45
         ],
         [
           "EU-Ost",
-          65
+          73.08
         ],
         [
           "Balkan",
-          90.48
+          90.7
         ],
         [
           "Mittel- und Südamerika",
-          41.18
+          60
         ],
         [
           "Arabische Länder",
-          95.65
+          85.19
         ],
         [
           "Afrikanische Länder",
-          68.75
+          72.73
         ],
         [
           "Übrige Länder",
-          79.63
+          76.36
         ]
       ],
       "turboThreshold": 0
@@ -209,7 +209,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": " nach Staatsangehörigkeit, Stadt Basel, 2018",
+    "text": " nach Staatsangehörigkeit, Stadt Basel, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -231,7 +231,8 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100
+    "max": 100,
+    "tickInterval": 20
   },
   "legend": {
     "padding": 0,
@@ -263,7 +264,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachbereich Frühe Deutschförderung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -286,6 +287,6 @@
     "#999999"
   ],
   "exporting": {
-    "filename": 6747
+    "filename": "6747"
   }
 }

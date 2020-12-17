@@ -68,6 +68,10 @@
         [
           "2018",
           3893
+        ],
+        [
+          "2019",
+          3973
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -141,6 +145,10 @@
         [
           "2018",
           69
+        ],
+        [
+          "2019",
+          70
         ]
       ],
       "name": "Unteres Fachkader",
@@ -214,6 +222,10 @@
         [
           "2018",
           174
+        ],
+        [
+          "2019",
+          164
         ]
       ],
       "name": "Unteres Kader",
@@ -287,6 +299,10 @@
         [
           "2018",
           102
+        ],
+        [
+          "2019",
+          104
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -360,6 +376,10 @@
         [
           "2018",
           201
+        ],
+        [
+          "2019",
+          207
         ]
       ],
       "name": "Mittleres Kader",
@@ -433,6 +453,10 @@
         [
           "2018",
           118
+        ],
+        [
+          "2019",
+          115
         ]
       ],
       "name": "Oberes Kader",
@@ -583,7 +607,7 @@
       "fontWeight": "bold"
     },
     "align": "left",
-    "text": "Angestellte Schweizer in der Verwaltung Basel-Stadt"
+    "text": "Schweizer Angestellte in der Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "style": {
@@ -650,7 +674,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -663,6 +687,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6696
+    "filename": "6696"
   }
 }

@@ -6,11 +6,11 @@
       "data": [
         [
           "Italien",
-          412
+          358
         ],
         [
           "Türkei",
-          93
+          99
         ],
         [
           "EU-17 und EFTA",
@@ -18,11 +18,11 @@
         ],
         [
           "EU-Ost",
-          396
+          470
         ],
         [
           "Balkan",
-          152
+          144
         ],
         [
           "Mittel- und Südamerika",
@@ -30,15 +30,15 @@
         ],
         [
           "Arabische Länder",
-          62
+          71
         ],
         [
           "Afrikanische Länder",
-          80
+          52
         ],
         [
           "Übrige Länder",
-          798
+          863
         ]
       ],
       "name": "Ausgestellte Gutscheine",
@@ -54,35 +54,35 @@
         ],
         [
           "Türkei",
-          68
+          83
         ],
         [
           "EU-17 und EFTA",
-          431
+          364
         ],
         [
           "EU-Ost",
-          204
+          172
         ],
         [
           "Balkan",
-          121
+          86
         ],
         [
           "Mittel- und Südamerika",
-          102
+          113
         ],
         [
           "Arabische Länder",
-          46
+          35
         ],
         [
           "Afrikanische Länder",
-          53
+          45
         ],
         [
           "Übrige Länder",
-          343
+          456
         ]
       ],
       "name": "Eingelöste Gutscheine",
@@ -245,7 +245,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2018",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
     "align": "left"
   },
   "yAxis": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -317,6 +317,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6746
+    "filename": "6746"
   }
 }

@@ -11,7 +11,7 @@
   },
   "yAxis": {
     tickInterval: 10,
-    max: 50,
+    //max: 50,
     "labels": {
       "format": "{value}" 
     }    

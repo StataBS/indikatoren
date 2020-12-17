@@ -16,7 +16,7 @@
     "yAxis": [{
       tickAmount: 5,
       "labels": {
-        "format": "{value:,.0f} Fr.",
+        "format": "{value:,.0f}",
         x: -5,
         "style": {
           "color": "#000000",

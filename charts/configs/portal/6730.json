@@ -38,7 +38,11 @@
         ],
         [
           2018,
-          52
+          53
+        ],
+        [
+          2019,
+          49
         ]
       ],
       "name": "C-Bew."
@@ -82,6 +86,10 @@
         [
           2018,
           6
+        ],
+        [
+          2019,
+          21
         ]
       ],
       "name": "B-Bew."
@@ -125,6 +133,10 @@
         [
           2018,
           25
+        ],
+        [
+          2019,
+          19
         ]
       ],
       "name": "Übrige"
@@ -226,7 +238,7 @@
     },
     "type": "area",
     "renderTo": "container-6730",
-    "spacingBottom": 22
+    "spacingBottom": 12
   },
   "title": {
     "style": {
@@ -299,9 +311,9 @@
       "align": "left",
       "verticalAlign": "bottom",
       "x": 10,
-      "y": -35
+      "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "legend": {
     "enabled": true,

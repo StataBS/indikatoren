@@ -25,9 +25,18 @@
       "format": "{value:,.0f}",
     }
   },
-  "xAxis": {
-  	type: "linear",
-  	tickInterval: 1,
+  xAxis: {
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }, 
+    labels:{
+      rotation: 0
+    }
   },
   "legend": {
     "enabled": true,

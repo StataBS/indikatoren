@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          291417
+          256846
         ],
         [
           "Australien",
-          208745
-        ],
-        [
-          "Belgien",
-          172540
-        ],
-        [
-          "Grossbritannien",
-          167629
-        ],
-        [
-          "Irland",
-          165113
+          221013
         ],
         [
           "Kanada",
-          155465
+          193220
+        ],
+        [
+          "Irland",
+          177085
         ],
         [
           "Dänemark",
-          146914
+          171929
         ],
         [
-          "Niederlande",
-          140198
+          "Belgien",
+          171234
+        ],
+        [
+          "Grossbritannien",
+          165668
         ],
         [
           "Indien",
-          138063
+          144901
+        ],
+        [
+          "Niederlande",
+          139889
         ],
         [
           "Schweden",
-          134400
+          133463
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          168806
+          165355
         ],
         [
           "Australien",
-          190359
-        ],
-        [
-          "Belgien",
-          100286
-        ],
-        [
-          "Grossbritannien",
-          131021
-        ],
-        [
-          "Irland",
-          143280
+          195612
         ],
         [
           "Kanada",
-          135658
+          151195
+        ],
+        [
+          "Irland",
+          149700
         ],
         [
           "Dänemark",
-          99308
+          108666
         ],
         [
-          "Niederlande",
-          94277
+          "Belgien",
+          101388
+        ],
+        [
+          "Grossbritannien",
+          128399
         ],
         [
           "Indien",
-          120407
+          126507
+        ],
+        [
+          "Niederlande",
+          94535
         ],
         [
           "Schweden",
-          100250
+          108533
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          547
+          548
         ],
         [
           "Australien",
-          62
-        ],
-        [
-          "Belgien",
-          114
-        ],
-        [
-          "Grossbritannien",
-          1062
-        ],
-        [
-          "Irland",
-          118
+          64
         ],
         [
           "Kanada",
-          117
+          122
+        ],
+        [
+          "Irland",
+          129
         ],
         [
           "Dänemark",
-          96
+          101
         ],
         [
-          "Niederlande",
-          354
+          "Belgien",
+          112
+        ],
+        [
+          "Grossbritannien",
+          1042
         ],
         [
           "Indien",
-          329
+          339
+        ],
+        [
+          "Niederlande",
+          368
         ],
         [
           "Schweden",
-          138
+          136
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -302,14 +302,14 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2016",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2017",
     "align": "left"
   },
   "yAxis": [
     {
       "tickAmount": 5,
       "labels": {
-        "format": "{value:,.0f} Fr.",
+        "format": "{value:,.0f}",
         "x": -5,
         "style": {
           "color": "#000000",
@@ -374,7 +374,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
   },
   "dataLabels": {
     "enabled": false,
@@ -388,6 +388,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6711
+    "filename": "6711"
   }
 }

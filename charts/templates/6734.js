@@ -36,8 +36,6 @@
   {"color": "#ff8028", index: 4, legendIndex: 2}, 
   {"color": "#73ba7c", index: 3, legendIndex: 3}, 
   {"color": "#E7CEE2", index: 2, legendIndex: 4},
-  {"color": "#fabd24", index: 1, legendIndex: 5}, 
-  {"color": "#999999", index: 0, legendIndex: 6}, 
 ],
   "chart": {
   	spacing: [6,2,2,2],
@@ -57,7 +55,7 @@
     "align": "right",
     reversed: true,
     labelFormatter: function(){
-      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
+      return this.name.replace(" ", "<br/>").replace("-", "-<br/>").replace("unbek", "<br/>unbek").replace("istka", "ist-<br/>ka");
     },
     "itemStyle": {
       "fontWeight": "normal",
