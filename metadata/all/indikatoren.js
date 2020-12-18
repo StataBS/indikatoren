@@ -43956,13 +43956,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-18T08:03:33.3333",
+		"aktualisierungsdatum": "2020-12-18T08:19:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "48 887 Übernachtungen wurden im Oktober 2020 in den Basler Hotelbetrieben gezählt. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 62,4% bzw. 81 200 Logiernächte. Die inländischen Gäste buchten 32 593 Logiernächte (-32,6%), die Gäste aus dem Ausland 16 294 Übernachtungen (-80,1%).",
+		"lesehilfe": "25 369 Logiernächte wurden im November 2020 in den Basler Hotelbetrieben gebucht, 23 518 bzw. 48,1% weniger als im Oktober. Im Vergleich zum Vorjahresmonat entspricht dies einem Rückgang um 78,6% bzw. 92 972 Übernachtungen. Die inländischen Gäste buchten 16 564 Logiernächte (-66,9%), die Gäste aus dem Ausland 8 805 Übernachtungen (-87,1%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -43986,7 +43986,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
+		"subtitle": "Basel-Stadt, November",
 		"kuerzel": "I.10.1.07517",
 		"kuerzelKunde": "",
 		"description": "Auslastung der Hotels nach Kategorie",
@@ -43996,7 +43996,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-18T08:11:39.3939",
+		"aktualisierungsdatum": "2020-12-18T08:20:08.088",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
