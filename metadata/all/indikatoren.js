@@ -43916,7 +43916,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-23T10:28:38.3838",
+		"aktualisierungsdatum": "2020-12-21T12:58:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -48147,7 +48147,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Oktober 2020",
+		"subtitle": "Basel-Stadt, November 2020",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
@@ -48158,13 +48158,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-11-23T10:27:07.077",
+		"aktualisierungsdatum": "2020-12-21T13:00:25.2525",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Oktober 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in 13 Wohnvierteln sowie in Riehen und Bettingen. In sechs Wohnvierteln ging sie zurück.",
+		"lesehilfe": "Im November 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Riehen. In elf Wohnvierteln und in Betingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"template": "mappie001",
 		"darstellungsart": "Karte",
