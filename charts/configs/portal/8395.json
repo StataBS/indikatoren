@@ -1,0 +1,359 @@
+{
+  "series": [
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "2005",
+          420
+        ],
+        [
+          "2007",
+          310
+        ],
+        [
+          "2011",
+          532
+        ],
+        [
+          "2015",
+          491
+        ],
+        [
+          "2019",
+          599
+        ]
+      ],
+      "name": "Stimme sehr zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "2005",
+          590
+        ],
+        [
+          "2007",
+          624
+        ],
+        [
+          "2011",
+          566
+        ],
+        [
+          "2015",
+          659
+        ],
+        [
+          "2019",
+          811
+        ]
+      ],
+      "name": "Stimme eher zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "2005",
+          283
+        ],
+        [
+          "2007",
+          340
+        ],
+        [
+          "2011",
+          242
+        ],
+        [
+          "2015",
+          204
+        ],
+        [
+          "2019",
+          292
+        ]
+      ],
+      "name": "Stimme eher nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "2005",
+          139
+        ],
+        [
+          "2007",
+          143
+        ],
+        [
+          "2011",
+          123
+        ],
+        [
+          "2015",
+          81
+        ],
+        [
+          "2019",
+          109
+        ]
+      ],
+      "name": "Stimme überhaupt nicht zu",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2005",
+          78
+        ],
+        [
+          "2007",
+          92
+        ],
+        [
+          "2011",
+          51
+        ],
+        [
+          "2015",
+          68
+        ],
+        [
+          "2019",
+          217
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          2
+        ],
+        [
+          "2015",
+          3
+        ],
+        [
+          "2019",
+          80
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "width": 1
+      },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px"
+    },
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
+    },
+    "renderTo": "container-8395",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Beurteilung des Beitrags der ausländischen Bevölkerung zur Lebensqualität"
+  },
+  "subtitle": {
+    "text": "«Wie stehen Sie zu folgender Aussage: Ohne die Menschen aus dem Ausland würden wir nicht so gut leben.», Basel-Stadt"
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 12,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whitespace": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "labelFormatter": function(){
+            return this.name.replace("/", " /<br/>");
+        },
+    "reversed": false,
+    "itemWidth": 130,
+    "width": 280
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-18"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": "8395"
+  }
+}

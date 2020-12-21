@@ -1,0 +1,384 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "2003",
+          18
+        ],
+        [
+          "2005",
+          30
+        ],
+        [
+          "2007",
+          21
+        ],
+        [
+          "2011",
+          53
+        ],
+        [
+          "2015",
+          27
+        ],
+        [
+          "2019",
+          42
+        ]
+      ],
+      "name": "Sehr einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2003",
+          96
+        ],
+        [
+          "2005",
+          85
+        ],
+        [
+          "2007",
+          94
+        ],
+        [
+          "2011",
+          111
+        ],
+        [
+          "2015",
+          92
+        ],
+        [
+          "2019",
+          149
+        ]
+      ],
+      "name": "Eher einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          "2003",
+          116
+        ],
+        [
+          "2005",
+          134
+        ],
+        [
+          "2007",
+          96
+        ],
+        [
+          "2011",
+          100
+        ],
+        [
+          "2015",
+          71
+        ],
+        [
+          "2019",
+          57
+        ]
+      ],
+      "name": "Eher nicht einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "2003",
+          82
+        ],
+        [
+          "2005",
+          82
+        ],
+        [
+          "2007",
+          48
+        ],
+        [
+          "2011",
+          44
+        ],
+        [
+          "2015",
+          20
+        ],
+        [
+          "2019",
+          14
+        ]
+      ],
+      "name": "Überhaupt nicht einverstanden",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C8C8C8",
+      "data": [
+        [
+          "2003",
+          40
+        ],
+        [
+          "2005",
+          34
+        ],
+        [
+          "2007",
+          25
+        ],
+        [
+          "2011",
+          22
+        ],
+        [
+          "2015",
+          33
+        ],
+        [
+          "2019",
+          102
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          1
+        ],
+        [
+          "2015",
+          0
+        ],
+        [
+          "2019",
+          7
+        ]
+      ],
+      "name": "Keine Angabe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "width": 1
+      },
+      "formatter": function () {
+                    //add sum of observations of visible series to the axis label
+                    var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                        return val.visible;
+                    });
+                    var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                    var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                        return accumulator + series.yData[indexOfCurrentValue];
+                    }, 0);
+
+                    //use N if all series are visible, otherwise use n
+                    var nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                    //if chart is inverted then add linebreak in xAxis labels before (N=XY), else space
+                    var doBr = (this.chart.inverted == true) ? ' ' : '<br/>';
+
+                    //var formattedSum = Highcharts.numberFormat(sum, 0, ",", " ")
+
+                    this.value = this.value.replace("und weitere", "u.a.");
+
+                    //check for value that contains only spaces
+                    return (this.value.replace(/\s/g, "") == "") ? this.value : this.value + doBr + '(' + nString + sum + ')';
+                }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px"
+    },
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
+    },
+    "renderTo": "container-9176",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Beurteilung der Schulen in Basel-Stadt durch Haushalte mit Kindern"
+  },
+  "subtitle": {
+    "text": "«Wie stehen Sie zu folgender Aussage: Die Schulen des Kantons Basel-Stadt bereiten die Jugendlichen gut fürs Leben vor.», Basel-Stadt"
+  },
+  "yAxis": {
+    "tickInterval": 10,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 12,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "reversedStacks": false
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 4,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whitespace": "nowrap",
+      "whiteSpace": "nowrap"
+    },
+    "labelFormatter": function(){
+          return this.name.replace("/", " /<br/>");
+      },
+    "reversed": false,
+    "itemDistance": 0,
+    "itemWidth": 140,
+    "width": 280
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-18"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": "9176"
+  }
+}
