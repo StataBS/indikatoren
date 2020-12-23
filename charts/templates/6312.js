@@ -26,10 +26,14 @@
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    itemWidth: 180,
+    width: 360,
     "itemStyle": {
+      textOverflow: "none",
+      whiteSpace: "nowrap",
       "fontWeight": "normal"
     }
   },

@@ -33,15 +33,21 @@
     }
   },
   
-  series: [{
-    
-    "color":'#008AC3'
-  },
-  {
-    
-    "color":'#A0BEC8'
-  }    
-    ],
+  series: [
+    {
+
+      "color": '#A0BEC8'
+    },
+    {
+
+      "color": '#008AC3'
+    },
+    {
+
+      "color": '#2B0099'
+    },
+  ],
+
   "legend": {
     "enabled": true,
     "layout": "horizontal",

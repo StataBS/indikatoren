@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2003",
@@ -35,8 +35,8 @@
     },
     {
       "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -68,8 +68,8 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -101,8 +101,8 @@
     },
     {
       "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -133,9 +133,9 @@
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#6F6F6F",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -163,6 +163,39 @@
         ]
       ],
       "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          46
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -340,7 +373,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "navigation": {
     "buttonOptions": {

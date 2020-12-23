@@ -13,7 +13,7 @@
   "yAxis": {
     "min": 0, 
 	  "labels": {
-		  "format": "{value:,.1f}%",
+		  "format": "{value:,.0f}%",
 		  y: 3
 	  }
   },	
@@ -37,9 +37,9 @@
   ],
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
     }

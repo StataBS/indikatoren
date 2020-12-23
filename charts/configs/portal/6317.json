@@ -102,6 +102,10 @@
         [
           2018,
           14.93
+        ],
+        [
+          2019,
+          15.06
         ]
       ],
       "name": "Mittlere Grundwassertemperatur"
@@ -304,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": false,

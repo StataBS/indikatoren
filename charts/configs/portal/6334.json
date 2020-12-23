@@ -54,6 +54,10 @@
         [
           2018,
           164520
+        ],
+        [
+          2019,
+          58407
         ]
       ],
       "name": "Basel"
@@ -112,6 +116,10 @@
         [
           2018,
           146744
+        ],
+        [
+          2019,
+          146659
         ]
       ],
       "name": "Bern"
@@ -170,6 +178,10 @@
         [
           2018,
           178506
+        ],
+        [
+          2019,
+          178555
         ]
       ],
       "name": "Genf"
@@ -228,6 +240,10 @@
         [
           2018,
           138891
+        ],
+        [
+          2019,
+          138891
         ]
       ],
       "name": "Liestal"
@@ -285,6 +301,10 @@
         ],
         [
           2018,
+          147400
+        ],
+        [
+          2019,
           147400
         ]
       ],
@@ -405,7 +425,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
+    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 1 000 000 Fr.",
     "align": "left"
   },
   "tooltip": {
@@ -462,7 +482,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,

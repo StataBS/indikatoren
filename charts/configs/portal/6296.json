@@ -31,6 +31,10 @@
         [
           "2017",
           14.715058
+        ],
+        [
+          "2018",
+          14.395589
         ]
       ],
       "name": "Industrie",
@@ -67,6 +71,10 @@
         [
           "2017",
           1.721363
+        ],
+        [
+          "2018",
+          1.6786005
         ]
       ],
       "name": "Dienstleistungen",
@@ -280,7 +288,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

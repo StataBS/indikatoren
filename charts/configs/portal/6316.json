@@ -10,19 +10,23 @@
       "data": [
         [
           "2010",
-          910740.057886314
+          910740.05789
         ],
         [
           "2012",
-          833179.516664555
+          833179.51666
         ],
         [
           "2014",
-          764522.468207413
+          764522.46821
         ],
         [
           "2016",
-          741614.435790437
+          741614.43579
+        ],
+        [
+          "2018",
+          694507.47658
         ]
       ],
       "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen",
@@ -41,19 +45,23 @@
       "data": [
         [
           "2010",
-          4.74477226869179
+          4.7447722687
         ],
         [
           "2012",
-          4.3192302574627
+          4.3192302575
         ],
         [
           "2014",
-          3.89891408977394
+          3.8989140898
         ],
         [
           "2016",
-          3.74692782045025
+          3.7469278205
+        ],
+        [
+          "2018",
+          3.4747946095
         ]
       ],
       "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen pro Kopf (rechte Skala)",
@@ -277,7 +285,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

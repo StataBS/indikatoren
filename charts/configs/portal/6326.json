@@ -307,7 +307,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickAmount": 6
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -323,7 +324,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": false,
