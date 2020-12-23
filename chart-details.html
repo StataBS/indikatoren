@@ -2,7 +2,7 @@
 <html lang="de">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
 
     <title>Indikator</title>
@@ -147,7 +147,7 @@
   
       <div style='clear: both;'></div>
   
-      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px;'>
+      <div id='bs-nav' style='background-color: rgb(29, 78, 44); height: 45px; padding: 15px 0px 10px 50px; margin-bottom: 30px; min-width: 555px;'>
         <a style='color: white; font-size: 13px; font-weight: 700; text-shadow: rgb(23, 62, 35) 0px -1px 0px; text-decoration: none;' href='http://www.statistik.bs.ch/zahlen/indikatoren/portal.html'>
           Indikatorenportal
         </a>
@@ -157,7 +157,7 @@
     <!-- template for chart plus details -->
     <script id="indikator-template-modal-portal" type="text/html">
       <div class="item">
-        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper"></div>
+        <div id="container-<%= id %>" indikator-id-data="<%= id %>" indikator-kuerzel-data="<%= kuerzel %>" class="highcharts-wrapper" style="width: 555px; height: 428px;"></div>
         <h1 id='title' class=<%= (hideTitle ? "'hidden'": "''" ) %>><%= 'Indikator ' + ((isIndikatorensetView(indikatorensetView)) ? kuerzelKunde : kuerzel) %></h1>
         <div id='lesehilfe' class=<%= ((hideLesehilfe || lesehilfe==="") ? "'hidden'": "''" ) %>>
           <h1 id='lesehilfeTitle' class=<%= ((hideLesehilfeTitle) ? "'hidden'": "''" ) %>>Lesehilfe</h1>
