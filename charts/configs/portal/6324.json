@@ -85,6 +85,14 @@
         [
           2017,
           null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
         ]
       ],
       "name": "Unfälle"
@@ -92,7 +100,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true,
+        "enabled": false,
         "radius": 2
       },
       "color": "#8b2223",
@@ -176,9 +184,17 @@
         [
           2017,
           835
+        ],
+        [
+          2018,
+          777
+        ],
+        [
+          2019,
+          747
         ]
       ],
-      "name": "Unfälle ab 2017"
+      "name": "Unfälle"
     }
   ],
   "chart": {
@@ -339,7 +355,7 @@
       "rotation": -45
     },
     "tickLength": 0,
-    "tickInterval": 1
+    "tickInterval": 2
   },
   "credits": {
     "href": "http:\u002F\u002Fwww.statistik.bs.ch",
@@ -355,7 +371,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": false,

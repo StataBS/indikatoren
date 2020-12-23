@@ -9,8 +9,11 @@
     }*/ 
   },
   "yAxis": {
-    min: null,
+    min: -4,
+    max: 12,
+    tickInterval: 1,
     "labels": {
+      rotation: 0,
       y: 12,
       "format": "{value}%"
     }    
@@ -25,12 +28,11 @@
   ],
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    //"x": 155,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
 	  //"y": 60,   
-	  "itemWidth": 75,
+	 // "itemWidth": 75,
     "itemStyle": {
       "fontWeight": "normal"
     }

@@ -2,8 +2,8 @@
   "series": [
     {
       "color": "#007a2f",
-      "index": 4,
-      "legendIndex": 4,
+      "index": 5,
+      "legendIndex": 5,
       "data": [
         [
           "2003",
@@ -24,6 +24,10 @@
         [
           "2015",
           469
+        ],
+        [
+          "2019",
+          437
         ]
       ],
       "name": "Sehr positiv",
@@ -31,8 +35,8 @@
     },
     {
       "color": "#68ab2b",
-      "index": 3,
-      "legendIndex": 3,
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -53,6 +57,10 @@
         [
           "2015",
           642
+        ],
+        [
+          "2019",
+          942
         ]
       ],
       "name": "Eher positiv",
@@ -60,8 +68,8 @@
     },
     {
       "color": "#ffbb58",
-      "index": 2,
-      "legendIndex": 2,
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -82,6 +90,10 @@
         [
           "2015",
           133
+        ],
+        [
+          "2019",
+          193
         ]
       ],
       "name": "Eher negativ",
@@ -89,8 +101,8 @@
     },
     {
       "color": "#dc440e",
-      "index": 1,
-      "legendIndex": 1,
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -111,15 +123,19 @@
         [
           "2015",
           47
+        ],
+        [
+          "2019",
+          66
         ]
       ],
       "name": "Sehr negativ",
       "turboThreshold": 0
     },
     {
-      "color": "#999999",
-      "index": 0,
-      "legendIndex": 0,
+      "color": "#6F6F6F",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
           "2003",
@@ -135,14 +151,51 @@
         ],
         [
           "2011",
-          174
+          165
         ],
         [
           "2015",
-          215
+          214
+        ],
+        [
+          "2019",
+          364
         ]
       ],
-      "name": "Weiss nicht\u002FKeine Angabe",
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#999999",
+      "index": 0,
+      "legendIndex": 0,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          9
+        ],
+        [
+          "2015",
+          1
+        ],
+        [
+          "2019",
+          106
+        ]
+      ],
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -267,7 +320,7 @@
     "text": "Beurteilung der kantonalen Verwaltung"
   },
   "subtitle": {
-    "text": "«Denken Sie einmal an den letzten Kontakt, den Sie mit der kantonalen Verwaltung gehabt haben. Wie ist dieser Kontakt verlaufen?»"
+    "text": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -320,7 +373,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F19a.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "navigation": {
     "buttonOptions": {

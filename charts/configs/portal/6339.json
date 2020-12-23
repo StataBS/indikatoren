@@ -78,6 +78,10 @@
         [
           2018,
           2.5
+        ],
+        [
+          2019,
+          1.5
         ]
       ],
       "name": "Nettoschuldenquote"
@@ -161,6 +165,10 @@
         [
           2018,
           8636
+        ],
+        [
+          2019,
+          5249
         ]
       ],
       "name": "Nettoschulden pro Kopf (rechte Skala)"
@@ -335,6 +343,14 @@
       }
     },
     "tickLength": 0,
+    "tickPositioner": function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    },
     "tickInterval": 2
   },
   "credits": {
@@ -351,7 +367,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,

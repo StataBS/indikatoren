@@ -1,7 +1,7 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval": 1,
+    "tickInterval": 2,
     labels: {
       step: 1,
       rotation: -45,
@@ -28,7 +28,7 @@
     {
       "marker": {
         "symbol": "circle",
-        "enabled": true, 
+        "enabled": false, 
         radius: 2
       },
       "color": "#8b2223"

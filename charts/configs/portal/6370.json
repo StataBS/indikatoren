@@ -43,6 +43,10 @@
         [
           "2019",
           620.9
+        ],
+        [
+          "2020",
+          624
         ]
       ],
       "name": "Basel-Stadt",
@@ -91,6 +95,10 @@
         [
           "2019",
           539.5
+        ],
+        [
+          "2020",
+          543.5
         ]
       ],
       "name": "Basel-Landschaft",
@@ -139,6 +147,10 @@
         [
           "2019",
           529
+        ],
+        [
+          "2020",
+          532.5
         ]
       ],
       "name": "Zürich",
@@ -187,6 +199,10 @@
         [
           "2019",
           630.9
+        ],
+        [
+          "2020",
+          629.6
         ]
       ],
       "name": "Genf",
@@ -235,6 +251,10 @@
         [
           "2019",
           555.4
+        ],
+        [
+          "2020",
+          552.4
         ]
       ],
       "name": "Bern",
@@ -252,8 +272,7 @@
         "color": "#000000",
         "textOverflow": "none",
         "whiteSpace": "nowrap"
-      },
-      "rotation": 0
+      }
     },
     "tickLength": 0,
     "tickInterval": 1
@@ -416,7 +435,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,

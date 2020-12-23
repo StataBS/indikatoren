@@ -17,8 +17,8 @@
     } 
   },
   "yAxis": {
-    tickAmount: 7,
-  	max: 60000, 
+    tickAmount: 8,
+  //	max: 60000, 
     "labels": {
       y: 12,
       "format": "{value:,.0f}",

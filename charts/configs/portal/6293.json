@@ -465,9 +465,9 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>';
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>';
+      }
   },
   "yAxis": {
     "min": 0,
@@ -486,9 +486,9 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "formatter": function(){
-  		  return Highcharts.numberFormat((this.value*100),1)+'%'; 
-  	  }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 1) + '%';
+        }
     }
   },
   "xAxis": {
@@ -504,6 +504,14 @@
       "rotation": -45
     },
     "tickLength": 0,
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      },
     "tickInterval": 2,
     "showLastLabel": true
   },
@@ -521,7 +529,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,

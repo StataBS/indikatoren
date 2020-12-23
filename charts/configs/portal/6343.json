@@ -6,26 +6,26 @@
       "data": [
         [
           "Basel",
-          15547
+          17449
         ],
         [
           "Bern",
-          15507
+          17657
         ],
         [
           "Genf",
-          14837
+          19339
         ],
         [
           "Liestal",
-          15674
+          17877
         ],
         [
           "Zürich",
-          11041
+          13157
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -179,7 +179,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+    "text": "Ledige mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
     "align": "left"
   },
   "yAxis": {
@@ -200,7 +200,8 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 5000
   },
   "legend": {
     "padding": 0,
@@ -235,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

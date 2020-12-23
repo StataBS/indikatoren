@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2007,
-          10266928
-        ],
-        [
           2008,
           10595548
         ],
@@ -51,6 +47,10 @@
         [
           2018,
           14125256
+        ],
+        [
+          2019,
+          13533883
         ]
       ],
       "name": "Schiene Ausgang"
@@ -59,10 +59,6 @@
       "color": "#7F5F1A",
       "legendIndex": 2,
       "data": [
-        [
-          2007,
-          16549175
-        ],
         [
           2008,
           17035277
@@ -106,6 +102,10 @@
         [
           2018,
           17734194
+        ],
+        [
+          2019,
+          16879010
         ]
       ],
       "name": "Schiene Eingang"
@@ -114,10 +114,6 @@
       "color": "#008AC3",
       "legendIndex": 1,
       "data": [
-        [
-          2007,
-          3214875
-        ],
         [
           2008,
           3250575
@@ -161,6 +157,10 @@
         [
           2018,
           1945180
+        ],
+        [
+          2019,
+          1810214
         ]
       ],
       "name": "Strasse Ausgang"
@@ -169,10 +169,6 @@
       "color": "#2B0099",
       "legendIndex": 3,
       "data": [
-        [
-          2007,
-          3124646
-        ],
         [
           2008,
           3128538
@@ -216,6 +212,10 @@
         [
           2018,
           1611071
+        ],
+        [
+          2019,
+          1378337
         ]
       ],
       "name": "Strasse Eingang"
@@ -224,10 +224,6 @@
       "color": "#68AB2B",
       "legendIndex": 5,
       "data": [
-        [
-          2007,
-          4393165
-        ],
         [
           2008,
           4112209
@@ -271,6 +267,10 @@
         [
           2018,
           2112040
+        ],
+        [
+          2019,
+          3983277
         ]
       ],
       "name": "Pipeline Eingang"
@@ -446,7 +446,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,

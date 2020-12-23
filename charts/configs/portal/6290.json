@@ -1,9 +1,9 @@
 {
   "series": [
     {
-      "color": "#256370",
-      "index": 3,
-      "legendIndex": 3,
+      "color": "#083038",
+      "index": 4,
+      "legendIndex": 4,
       "data": [
         [
           "2003",
@@ -24,15 +24,19 @@
         [
           "2015",
           19
+        ],
+        [
+          "2019",
+          25
         ]
       ],
       "name": "Erhöhen",
       "turboThreshold": 0
     },
     {
-      "color": "#71A3B5",
-      "index": 2,
-      "legendIndex": 2,
+      "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
           "2003",
@@ -53,15 +57,19 @@
         [
           "2015",
           850
+        ],
+        [
+          "2019",
+          779
         ]
       ],
       "name": "Beibehalten",
       "turboThreshold": 0
     },
     {
-      "color": "#FFBB58",
-      "index": 1,
-      "legendIndex": 1,
+      "color": "#A8C3CA",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
           "2003",
@@ -82,13 +90,50 @@
         [
           "2015",
           558
+        ],
+        [
+          "2019",
+          1047
         ]
       ],
       "name": "Senken",
       "turboThreshold": 0
     },
     {
-      "color": "#8A8A8A",
+      "color": "#C8C8C8",
+      "index": 1,
+      "legendIndex": 1,
+      "data": [
+        [
+          "2003",
+          0
+        ],
+        [
+          "2005",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2011",
+          45
+        ],
+        [
+          "2015",
+          77
+        ],
+        [
+          "2019",
+          172
+        ]
+      ],
+      "name": "Weiss nicht",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#6F6F6F",
       "index": 0,
       "legendIndex": 0,
       "data": [
@@ -106,14 +151,18 @@
         ],
         [
           "2011",
-          47
+          2
         ],
         [
           "2015",
-          79
+          2
+        ],
+        [
+          "2019",
+          85
         ]
       ],
-      "name": "Weiss nicht \u002F Keine Angabe",
+      "name": "Keine Angabe",
       "turboThreshold": 0
     }
   ],
@@ -239,7 +288,7 @@
     "text": "Beurteilung der kantonalen Steuern"
   },
   "subtitle": {
-    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?»"
+    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen, wie sie heute sind?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -292,7 +341,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung: F8.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "navigation": {
     "buttonOptions": {

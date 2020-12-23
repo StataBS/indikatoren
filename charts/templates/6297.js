@@ -5,15 +5,17 @@
         	spacing: [6,0,3,2],
         },
         xAxis: {
-            //endOnTick: true,    
-            //startOnTick: true,
-            //showFirstLabel: true,
-            
-            tickInterval: 5 * 12 * 30 * 24 * 3600 * 1000,
-            min: Date.UTC(1967, 12, 30),
+            type: 'category',
+            tickInterval: 1,
+           //type: 'datetime',
+           // tickInterval: 5 * 12 * 30 * 24 * 3600 * 1000,
+           // min: Date.UTC(1967, 12, 30),
             showLastLabel: true,
             labels: {
-                rotation: -45, 
+                rotation: -45,    
+              "formatter": function() {
+                 return this.value.split("-",1);
+            },           
                 style: {
                     fontSize: '10px',
                 },
@@ -33,6 +35,15 @@
             }, 
             opposite: false
         },
+        data: {
+            parsed: function(columns){
+              var pointsToKeep=49;
+              //keep only the last n elements in the arrays but keep the column title
+              Highcharts.each(columns, function(v, i, a){
+                v.splice(1, v.length-pointsToKeep-1);
+              });
+            }
+          },
         plotOptions: {
             series: {
                 marker: {
@@ -41,47 +52,6 @@
                 }
             }
         },
-        navigator: {
-            enabled: false
-        },
-        scrollbar: {
-            enabled: false
-        },
-    	rangeSelector: {
-    	    enabled: false,
-    		buttons: 
-    			[
-        			{
-                      count: 10,
-                      type: 'year',
-                      text: '10 J'
-    	            }, 
-        			{
-                      count: 20,
-                      type: 'year',
-                      text: '20 J'
-    	            }, 
-    	            {
-                      count: 50,
-                      type: 'year',
-                      text: '50 J'
-    	            }, 
-    	            {
-                      count: 100,
-                      type: 'year',
-                      text: '100 J'
-    	            },
-    	            {
-                      type: 'all',
-                      text: 'Alle J'
-    	            }
-                ],
-            buttonSpacing: 15,                
-            inputEnabled: false,
-            selected: 2, 
-            inputDateFormat: '%Y',
-    		inputEditDateFormat: '%Y'
-        }  
 	};
 }());
 
