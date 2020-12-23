@@ -5,10 +5,11 @@
 			inverted: true,
 		},
 		"series": [
-			{ "color": "#256370", index: 3, legendIndex: 3 }, // 
-			{ "color": "#71A3B5", index: 2, legendIndex: 2 }, // 
-			{ "color": "#FFBB58", index: 1, legendIndex: 1 }, // 
-			{ "color": "#8A8A8A", index: 0, legendIndex: 0 }, //
+			{ "color": "#083038", index: 4, legendIndex: 4}, // dunkelblau
+			{ "color": "#FABD24", index: 3, legendIndex: 3}, // grün
+			{ "color": "#A8C3CA", index: 2, legendIndex: 2}, // orange
+			{ "color": "#C8C8C8", index: 1, legendIndex: 1}, // hellgrau
+			{ "color": "#6F6F6F", index: 0, legendIndex: 0}, // grau
 		],
 		xAxis: {
 			type: "category",

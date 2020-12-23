@@ -22,7 +22,13 @@
       maxPadding: 0,
       reversedStacks: false,
       tickAmount: 6,
+      "labels": {
+        "format": "{value}%",
+      }
     },
+    tooltip: {
+      pointFormat: '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> ({point.percentage:.1f}%)<br/>'
+  },
     legend: {
       enabled: true,
       layout: "horizontal",

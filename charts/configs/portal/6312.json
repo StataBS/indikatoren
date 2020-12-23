@@ -295,12 +295,16 @@
     "itemStyle": {
       "fontSize": "10px",
       "color": "#000000",
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right"
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 180,
+    "width": 360
   },
   "navigation": {
     "menuItemStyle": {
@@ -321,7 +325,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

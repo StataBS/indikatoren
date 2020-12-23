@@ -6,26 +6,26 @@
       "data": [
         [
           "Basel",
-          6309
+          5808
         ],
         [
           "Bern",
-          7954
+          8015
         ],
         [
           "Genf",
-          2302
+          3447
         ],
         [
           "Liestal",
-          5854
+          6004
         ],
         [
           "Zürich",
-          3712
+          3828
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -179,7 +179,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2018",
+    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
     "align": "left"
   },
   "yAxis": {
@@ -235,7 +235,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

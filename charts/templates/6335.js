@@ -2,7 +2,16 @@
     return {
   "xAxis": {
     type:"category",
-    "tickInterval": 2
+    "tickInterval": 2,
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  
   },
   "yAxis": {
   	min: 80,

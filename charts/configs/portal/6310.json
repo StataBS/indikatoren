@@ -10,22 +10,26 @@
       "data": [
         [
           "2010",
-          216083.580618298
+          216083.58061
         ],
         [
           "2012",
-          200798.353739938
+          200798.35374
         ],
         [
           "2014",
-          203891.39090172
+          203891.3909
         ],
         [
           "2016",
-          203864.58015912
+          203864.58016
+        ],
+        [
+          "2018",
+          201178.9528
         ]
       ],
-      "name": "Verkehr",
+      "name": "Total",
       "turboThreshold": 0
     },
     {
@@ -41,19 +45,23 @@
       "data": [
         [
           "2010",
-          1.12575193345158
+          1.1257519334
         ],
         [
           "2012",
-          1.04094532783793
+          1.0409453278
         ],
         [
           "2014",
-          1.03980595708883
+          1.0398059571
         ],
         [
           "2016",
-          1.03000404271859
+          1.0300040427
+        ],
+        [
+          "2018",
+          1.006548618
         ]
       ],
       "name": "pro Kopf (rechte Skala)",
@@ -275,7 +283,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

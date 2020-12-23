@@ -49,7 +49,7 @@ yAxis: [{
     },
     min: 0,
     tickAmount: 5,
-    max: 50,
+   // max: 50,
     opposite: true
   }
   ],

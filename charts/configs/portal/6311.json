@@ -5,15 +5,19 @@
       "data": [
         [
           "2000",
-          13.4
+          13.38
         ],
         [
           "2003",
-          14.9
+          14.91
         ],
         [
           "2008",
-          14.5
+          14.47
+        ],
+        [
+          "2010",
+          10.04
         ]
       ],
       "name": "Über Grenzwert am Tag",
@@ -24,7 +28,7 @@
       "data": [
         [
           "2000",
-          17
+          17.04
         ],
         [
           "2003",
@@ -32,29 +36,14 @@
         ],
         [
           "2008",
-          16.2
+          16.24
+        ],
+        [
+          "2010",
+          18.48
         ]
       ],
       "name": "Über Grenzwert in der Nacht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#b375ab",
-      "data": [
-        [
-          "2000",
-          26
-        ],
-        [
-          "2003",
-          25.6
-        ],
-        [
-          "2008",
-          24.6
-        ]
-      ],
-      "name": "Über 50 dB(A) in der Nacht",
       "turboThreshold": 0
     }
   ],
@@ -264,7 +253,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "dataLabels": {
     "enabled": false,

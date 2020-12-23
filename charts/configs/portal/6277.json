@@ -5,10 +5,6 @@
       "legendIndex": 2,
       "data": [
         [
-          2010,
-          3.5
-        ],
-        [
           2011,
           2
         ],
@@ -43,6 +39,10 @@
         [
           2019,
           3.4
+        ],
+        [
+          2020,
+          3.7
         ]
       ],
       "name": "Mädchen"
@@ -51,10 +51,6 @@
       "color": "#008AC3",
       "legendIndex": 0,
       "data": [
-        [
-          2010,
-          4.3
-        ],
         [
           2011,
           3.9
@@ -90,6 +86,10 @@
         [
           2019,
           4.5
+        ],
+        [
+          2020,
+          5.2
         ]
       ],
       "name": "Knaben"
@@ -98,10 +98,6 @@
       "color": "#3c3c3c",
       "legendIndex": 1,
       "data": [
-        [
-          2010,
-          3.9
-        ],
         [
           2011,
           3
@@ -137,6 +133,10 @@
         [
           2019,
           4
+        ],
+        [
+          2020,
+          4.5
         ]
       ],
       "name": "Total"
@@ -281,7 +281,7 @@
         "fontSize": "10px",
         "color": "#000000"
       },
-      "format": "{value:,.1f}%"
+      "format": "{value:,.0f}%"
     }
   },
   "xAxis": {
@@ -313,13 +313,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Berufs- und Schulwahlerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
     "symbolRadius": 0,
     "itemMarginBottom": 2,
     "itemStyle": {

@@ -54,6 +54,10 @@
         [
           2018,
           1888.9
+        ],
+        [
+          2019,
+          1890.6
         ]
       ],
       "name": "Direkte Steuern natürliche Personen"
@@ -112,6 +116,10 @@
         [
           2018,
           748.1
+        ],
+        [
+          2019,
+          1079.7
         ]
       ],
       "name": "Direkte Steuern juristische Personen"
@@ -287,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Jahresbericht des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-21"
   },
   "legend": {
     "enabled": true,
