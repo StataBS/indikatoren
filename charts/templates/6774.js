@@ -3,55 +3,94 @@
 	global geojson_wohnviertelEPSG2056
 	global $
 */
+
+var legendPosition = {
+	blockChoropleth: {
+		x: 518, // Customizable
+		y: -15,  // Customizable
+		title: {
+			y: [320, 302, 285],
+			x: 525, // Customizable
+		}
+	},
+	blockSymbol: {
+		x: [750,745], // Customizable
+		y: [377, 402, 427, 452], // Customizable
+		y3C: [382, 412, 442],
+		y4S: [365, 390, 420, 445],
+		numbers: {
+			x: 0,
+			y: [365, 390, 420, 445], // Customizable
+			y3C: [370, 400, 430],
+			y4S: [378, 403, 433, 458]
+		},
+		title: {
+			x: 0
+		}
+	}
+};
+
+legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 15;
+
+legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
+var i;
+for (i = 0; i < 3; i++) {
+	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
+};
+
 (function(){
 
     return {
-    		"legend": {
-    		useHTML: true,
-			"title": {
+		"legend": 
+		{
+			useHTML: true,
+			"title": 
+			{
 				"text": null, 
-				style: {'fontWeight':' bold'}
+				style: 
+				{
+					fontWeight: 'normal',
+					fontSize: "15px"
+				}
 			},
 			"layout": "vertical",
 			//"verticalAlign": "middle",
-			"align": "right",
-		//	legendTop: 280,
-        //	legendLeft: 520,
-			"x": -125,
-			"y": -31,
-//			"x": -275,
-//			"y":  -103,
+			"align": "left",
+			"x": legendPosition.blockChoropleth.x,
+			"y": legendPosition.blockChoropleth.y,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
-			itemStyle: {
-				fontWeight: 'normal'
-				}
+			itemStyle: 
+			{
+				fontWeight: 'normal',
+				fontSize: "15px"
+			}
 		},
 		colorAxis: {
 		            dataClassColor: 'category',
 		                   dataClasses: [{
-		                to: 4.999,
+		                to: 3.999,
 		                color: '#FFDA80', //rgb(242,242,242)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>----</span> <<span style='color: rgba(0,0,0,0)'>11</span>5,0"
+		                name:  "<span style='color: rgba(0,0,0,0)'>11----</span> <<span style='color: rgba(0,0,0,0)'>11</span>4,00"
 		            }, {
-		                from: 5,
-		                to:  6.999,
+		                from: 4,
+		                to:  5.999,
 		                color: '#FABD24',//rgb(230,230,230)',
-		                name: "5,0 −<span style='color: rgba(0,0,0,0)'>11</span>6,9"
+		                name: "<span style='color: rgba(0,0,0,0)'>1</span>4,00 −<span style='color: rgba(0,0,0,0)'>11</span>5,90"
 		            }, {
-		                from: 7,
-		                to:8.999,
+		                from: 6,
+		                to:7.499,
 		                 color: '#CD9C00',  //rgb(200,200,200)',
-		                 name: "7,0 −<span style='color: rgba(0,0,0,0)'>11</span>8,9"
+		                 name: "<span style='color: rgba(0,0,0,0)'>1</span>6,00 −<span style='color: rgba(0,0,0,0)'>11</span>7,49"
 		            },{
-		                from: 9,
-		                to: 10.9999999,
+		                from: 7.5,
+		                to: 9.9999999,
 		                 color: '#7F5F1A', //rgb(153,153,153
-		                 name: "9,0 −<span style='color: rgba(0,0,0,0)'>1</span>10,9"
+		                 name: "<span style='color: rgba(0,0,0,0)'>1</span>7,50 −<span style='color: rgba(0,0,0,0)'>11</span>9,99"
 		            },{
-		                from: 11.00,
+		                from: 10.00,
 		                color: '#45381D', //rgb(60,60,60)
-		                name: "<span style='color: rgba(0,0,0,0)'>7,--</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>11,0"
+		                name: "<span style='color: rgba(0,0,0,0)'>117,--</span> ≥<span style='color: rgba(0,0,0,0)'>1</span>10,00"
 		            }], 
         },
         "data": {
@@ -162,12 +201,12 @@
                 	var legendTop = 190;
                 	var legendLeft = 350;;
                 	
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+25,  10, "#B00000");
-					fn.addLegendText(chart,        legendLeft+20, legendTop+33,  'Schweiz');
-					fn.addLegendSquare(chart,      legendLeft+0,  legendTop+39,  10, "blue");
-					fn.addLegendText(chart,        legendLeft+20, legendTop+47,  'Ausland');
-					fn.addLegendText(chart,     legendLeft+110,  legendTop+0, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
-					fn.addLegendText(chart,     legendLeft+0,  legendTop+0,  'Anteil Zugezogene <br> nach Zuzugsland');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[0],  15, "#B00000");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[0],  'Schweiz');
+					fn.addLegendSquare(chart,      legendPosition.blockSymbol.x[1], legendPosition.blockSymbol.y4S[1],  15, "blue");
+					fn.addLegendText(chart,        legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y4S[1],  'Ausland');
+					fn.addLegendTitle(chart, 'Anzahl Zugezogene <br> pro 100 Einwohner <br>', legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, 'Anteil Zugezogene <br> nach Zuzugsland', legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
 				//	fn.addLegendText(chart,     330, 170 , 'Anzahl Zugezogene <br> pro 100 Einwohner <br>');
 				//	fn.addLegendText(chart,     450, 170 , 'Anteil Zugezogene <br> nach Zuzugsland');
 				}

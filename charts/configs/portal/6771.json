@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "Saldo",
+      "name": "Wanderungs-\u002FUmzugssaldo",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -4125,7 +4125,7 @@
                     	};
 						return colors[''+Math.sign(value)][index];
                     };
-                    var chartHeight = 60//72;
+                    var chartHeight = 72;
                     var columnWidth = 5;
 					
 					//put the columns on the map
@@ -4179,7 +4179,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner"
+    "text": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner"
   },
   "subtitle": {
     "style": {
@@ -4204,7 +4204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
   },
   "colorAxis": {
     "min": 0,

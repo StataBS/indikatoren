@@ -11,6 +11,7 @@
     "labels": {
       "format": "{value:,.0f}",
       y: 3,
+     // x: -5,
     }
   },
   "xAxis": {
@@ -27,7 +28,15 @@
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
+    itemWidth: 165,
+    labelFormatter: function(){
+      return this.name.replace("Dienstl.", "DL")
+      .replace("dienstl.", "-DL");
+
+    },
     "itemStyle": {
+     // textOverflow: "none",
+     // whiteSpace: "wrap",
       "fontWeight": "normal"
     }
   },
