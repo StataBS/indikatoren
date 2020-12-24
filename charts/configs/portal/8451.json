@@ -100,6 +100,14 @@
         [
           "2016\u002F17",
           null
+        ],
+        [
+          "2017\u002F18",
+          null
+        ],
+        [
+          "2018\u002F19",
+          null
         ]
       ],
       "name": "Knaben",
@@ -202,6 +210,14 @@
         [
           "2016\u002F17",
           null
+        ],
+        [
+          "2017\u002F18",
+          null
+        ],
+        [
+          "2018\u002F19",
+          null
         ]
       ],
       "name": "Mädchen",
@@ -302,6 +318,14 @@
         [
           "2016\u002F17",
           7
+        ],
+        [
+          "2017\u002F18",
+          10
+        ],
+        [
+          "2018\u002F19",
+          11
         ]
       ],
       "name": "1. Stufe CH Knaben",
@@ -399,6 +423,14 @@
         [
           "2016\u002F17",
           12
+        ],
+        [
+          "2017\u002F18",
+          11
+        ],
+        [
+          "2018\u002F19",
+          14
         ]
       ],
       "name": "1. Stufe CH Mädchen",
@@ -499,6 +531,14 @@
         [
           "2016\u002F17",
           9
+        ],
+        [
+          "2017\u002F18",
+          12
+        ],
+        [
+          "2018\u002F19",
+          15
         ]
       ],
       "name": "1. Stufe Ausland Knaben",
@@ -596,6 +636,14 @@
         [
           "2016\u002F17",
           17
+        ],
+        [
+          "2017\u002F18",
+          16
+        ],
+        [
+          "2018\u002F19",
+          11
         ]
       ],
       "name": "1. Stufe Ausland Mädchen",
@@ -696,6 +744,14 @@
         [
           "2016\u002F17",
           18
+        ],
+        [
+          "2017\u002F18",
+          18
+        ],
+        [
+          "2018\u002F19",
+          16
         ]
       ],
       "name": "5. Stufe CH Knaben",
@@ -793,6 +849,14 @@
         [
           "2016\u002F17",
           22
+        ],
+        [
+          "2017\u002F18",
+          20
+        ],
+        [
+          "2018\u002F19",
+          18
         ]
       ],
       "name": "5. Stufe CH Mädchen",
@@ -893,6 +957,14 @@
         [
           "2016\u002F17",
           29
+        ],
+        [
+          "2017\u002F18",
+          24
+        ],
+        [
+          "2018\u002F19",
+          24
         ]
       ],
       "name": "5. Stufe Ausland Knaben",
@@ -990,6 +1062,14 @@
         [
           "2016\u002F17",
           28
+        ],
+        [
+          "2017\u002F18",
+          30
+        ],
+        [
+          "2018\u002F19",
+          23
         ]
       ],
       "name": "5. Stufe Ausland Mädchen",
@@ -1090,6 +1170,14 @@
         [
           "2016\u002F17",
           18
+        ],
+        [
+          "2017\u002F18",
+          24
+        ],
+        [
+          "2018\u002F19",
+          24
         ]
       ],
       "name": "11. Stufe CH Knaben",
@@ -1187,6 +1275,14 @@
         [
           "2016\u002F17",
           23
+        ],
+        [
+          "2017\u002F18",
+          21
+        ],
+        [
+          "2018\u002F19",
+          22
         ]
       ],
       "name": "11. Stufe CH Mädchen",
@@ -1287,6 +1383,14 @@
         [
           "2016\u002F17",
           32
+        ],
+        [
+          "2017\u002F18",
+          38
+        ],
+        [
+          "2018\u002F19",
+          34
         ]
       ],
       "name": "11. Stufe Ausland Knaben",
@@ -1384,6 +1488,14 @@
         [
           "2016\u002F17",
           29
+        ],
+        [
+          "2017\u002F18",
+          26
+        ],
+        [
+          "2018\u002F19",
+          28
         ]
       ],
       "name": "11. Stufe Ausland Mädchen",
@@ -1542,7 +1654,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-24"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

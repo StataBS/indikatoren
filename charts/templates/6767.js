@@ -104,6 +104,7 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         //"align": "left",
+        x:-12,
        	//"y": 55,    
         "itemStyle": {
           "fontWeight": "normal", 

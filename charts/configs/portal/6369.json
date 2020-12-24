@@ -554,7 +554,13 @@
     "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "align": "right"
+    "align": "right",
+    "itemWidth": 165,
+    "labelFormatter": function(){
+      return this.name.replace("Dienstl.", "DL")
+      .replace("dienstl.", "-DL");
+
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -575,7 +581,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-1"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
   },
   "dataLabels": {
     "enabled": false,

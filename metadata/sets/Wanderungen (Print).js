@@ -11,13 +11,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 zogen 14 069 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 13 381 Personen verliessen den Kanton im Jahr 2018. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2009 und 2018 stets positiv aus.",
+		"lesehilfe": "2019 zogen 14 013 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 12 799 Personen verliessen den Kanton im Jahr 2019. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2010 und 2019 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück.",
 		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -40,7 +40,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06761",
 		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
@@ -50,13 +50,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 ergibt sich für den Kanton ein Wanderungsgewinn von 688 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen als den Kanton in Richtung Ausland verlassen (+3 212).",
+		"lesehilfe": "2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 168).",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -79,7 +79,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06762",
 		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
@@ -89,13 +89,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2018. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 011 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (532) und Italien (486). Aus Frankreich kommen 474 Personen, aus dem Vereinigten Königreich 438. Die übrigen 3 815 Zuzüger verteilen sich auf 125 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2019. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 125 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (496) und Frankreich (489). Aus dem Vereinigten Königreich kommen 455 Personen, aus Italien 428. Die übrigen 3 980 Zuzüger verteilen sich auf 130 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"template": "pie001_print",
 		"darstellungsart": "Diagramm",
@@ -128,7 +128,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-22T11:50:11.1111",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -157,7 +157,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06766",
 		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
@@ -167,13 +167,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:06.066",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte (49,6%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Leicht höhere Frauenanteile weisen die Zugezogenen aus den Vereinigten Staaten (53,9%) und der Schweiz (51,2%) auf, niedrigere jene aus dem Vereinigten Königreich (49,4%), Deutschland (47,5%), Frankreich (46,8%) und Italien (44,9%).",
+		"lesehilfe": "Knapp die Hälfte (49,5%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (50,9%) auf. Bei den aus Italien zugegezogen Personen sind Männer klar in der Überzahl (60,1%).",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -196,7 +196,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
 		"kuerzel": "I.01.5.06767",
 		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
@@ -206,13 +206,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:06.066",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2009 und 2018 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen sowie den 20- bis 24-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2010 und 2019 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen, den 20- bis 24-Jährigen sowie (knapp) bei den 75- bis 79-Jährigen positiv.",
 		"erlaeuterungen": "",
 		"template": "populationPyramid001_print",
 		"darstellungsart": "Diagramm",
@@ -235,7 +235,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2009 - 2018 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
 		"kuerzel": "I.01.5.06768",
 		"kuerzelKunde": "2-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
@@ -245,7 +245,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:06.066",
+		"aktualisierungsdatum": "2020-12-23T15:55:39.3939",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -274,7 +274,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06770",
 		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
@@ -285,13 +285,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 kamen 26% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 70% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen sowie in der Gemeinde Riehen. Die Quartiere Altstadt Grossbasel, Bruderholz und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Breite sowie in den Wohnvierteln Gotthelf, Clara und Hirzbrunnen lassen sich Neuzuzüger aus Italien im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt, in den Vorstädten und in den Quartieren Wettstein und Kleinhüningen Personen aus Frankreich. Die Wohnviertel Vorstädte, Wettstein und Kleinhüningen verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus dem Vereinigten Königreich.",
+		"lesehilfe": "Im Jahr 2019 kamen 27% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In den Gemeinde Bettingen ist deren Anteil mit 46% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen (38%) sowie in der Gemeinde Riehen (39%). Die Quartiere Altstadt Grossbasel, Bruderholz, St. Johann und Wettstein sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Kleinbasler Altstadt, im Iselin-Quartier und in Kleinhüningen lassen sich Personen aus Frankreich im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt sowie in den Wohnvierteln Bruderholz und Wettstein Neuzuzüger aus dem Vereinigten Königreich. Die Altstadt Grossbasel sowie die Wohnviertel Iselin und Klybeck verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus Italien.",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -313,11 +313,11 @@ var indikatorensetData = [
 		"id": 6770
 	},
 	{
-		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
 		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06771",
 		"kuerzelKunde": "2-12",
-		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegung pro 100 Einwohner",
+		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"kennzahlenset": "Wanderungen (Print)",
@@ -325,14 +325,14 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-02T12:30:59.5959",
+		"aktualisierungsdatum": "2020-12-23T15:55:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen als von dort abwandern. Im Jahr 2019 verbuchten die Wohnviertel Vorstädte, Am Ring, Clara, Wettstein und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für Kleinhüningen und die Gemeinde Bettingen. Betrachtet man die Umzüge von Personen, die innerhalb des Kantons ihr Domizil wechselten, wiesen das St. Alban-, das Bruderholz- und das Rosentalquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Altstädten Gross- und Kleinbasel sowie in den Wohnvierteln Vorstädte, Wettstein, Matthäus und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban, Clara und Rosental sowie die Gemeinde Riehen auf. Die höchsten Bevölkerungsverluste infolge sämtlicher räumlicher Bevölkerungsbewegungen wiesen die Wohnviertel Altstadt Kleinbasel, Matthäus und Kleinhüningen sowie Bettingen aus.",
-		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo ist die Differenz zwischen den von innerhalb des Kantons eingezogenen und in den Kanton Basel-Stadt ausgezogenen Personen.",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2019 verbuchten die Wohnviertel Vorstädte, Am Ring, Clara, Wettstein und Rosental die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für Kleinhüningen und die Gemeinde Bettingen. Betrachtet man die innerkantonalen Umzüge wiesen das St. Alban-, das Bruderholz- und das Rosentalquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Altstädten Gross- und Kleinbasel sowie in den Wohnvierteln Vorstädte, Wettstein, Matthäus und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Am Ring, St. Alban, Clara und Rosental sowie die Gemeinde Riehen auf. Die höchsten Bevölkerungsverluste infolge sämtlicher räumlicher Bevölkerungsbewegungen verzeichneten die Wohnviertel Altstadt Kleinbasel, Matthäus und Kleinhüningen sowie Bettingen.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein basel-städtisches Wohnviertel oder eine basel-städtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
 		"template": "mapcolumn002_print",
 		"darstellungsart": "Karte",
 		"printformat": "",
@@ -354,7 +354,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2018",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06772",
 		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
@@ -364,13 +364,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2018 den grössten Zuzugsüberschuss gegenüber Deutschland (+727). Den zweiten Rang belegte Italien (+274), den dritten belegten die Vereinigten Staaten (+163). Danach folgten das Vereinigte Königreich (+140) und Frankreich (+62).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2019 den grössten Zuzugsüberschuss gegenüber Deutschland (+851). Den zweiten Rang belegte Italien (+222), den dritten belegte das Vereinigte Königreich (+213). Danach folgten die Vereinigten Staaten  (+119) und Frankreich (+52).",
 		"erlaeuterungen": "",
 		"template": "template001_print",
 		"darstellungsart": "Diagramm",
@@ -403,7 +403,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-01T15:41:39.3939",
+		"aktualisierungsdatum": "2020-12-23T15:55:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
@@ -432,7 +432,7 @@ var indikatorensetData = [
 	},
 	{
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2018",
+		"subtitle": "Basel-Stadt, 2019",
 		"kuerzel": "I.01.5.06774",
 		"kuerzelKunde": "2-10",
 		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
@@ -443,13 +443,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T13:28:05.055",
+		"aktualisierungsdatum": "2020-12-23T15:55:38.3838",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "45% der Neuzuzüger kommen aus der Schweiz, 55% ziehen aus dem Ausland zu. Im Wohnviertel Breite lassen sich mehr Neuzuzüger aus der Schweiz (54%) als aus dem Ausland (46%) nieder. In den Quartieren Gundeldingen, Bruderholz, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils über 60%",
+		"lesehilfe": "42% der Neuzuzüger kommen aus der Schweiz, 58% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz lassen sich mehr Neuzuzüger aus der Schweiz (56%) als aus dem Ausland (44%) nieder. In den Wohnvierteln Breite, Gundeldingen, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, St. Johann, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende auf 100 Einwohner hat das Wohnviertel Rosental mit 13 Personen, am wenigsten die Gemeinde Riehen mit 3 Personen.",
 		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
 		"template": "mappie002_print",
 		"darstellungsart": "Karte",

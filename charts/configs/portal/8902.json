@@ -323,7 +323,7 @@
     "text": "Zahlfälle der Sozialhilfe nach Bezugsdauer"
   },
   "subtitle": {
-    "text": "Basel-Stadt (bis 2015 Stadt Basel)"
+    "text": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)"
   },
   "yAxis": {
     "tickInterval": 20,
@@ -373,7 +373,7 @@
     "position": {
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
   },
   "navigation": {
     "buttonOptions": {
