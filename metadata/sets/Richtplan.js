@@ -1176,9 +1176,9 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-30T16:03:20.2020",
+		"aktualisierungsdatum": "2020-12-23T16:17:19.1919",
 		"stufe1": "Sachgebiet Mobilität",
-		"stufe2": "Strategie 11: Mobilität",
+		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -1189,19 +1189,17 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "05_11_00_00_00_003",
 		"parentId": 6155,
-		"children": [
-			"8421"
-		],
+		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Eidgenössische Zollverwaltung EZV"
+			"Eidgenössische Zollverwaltung (EZV)"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
 			""
 		],
 		"data-id": 7778,
-		"chart-id": 6155,
+		"chart-id": 7778,
 		"filter": "",
 		"id": 7778
 	},

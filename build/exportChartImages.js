@@ -57,16 +57,22 @@ function go(){
 function createPathArray(chartId, view){
     var imagePath = 'images/' + view + '/';
     var configPath = 'charts/configs/' + view + '/';
+    var singlePath = 'metadata/single/';
     var infilePath = path.join(__dirname, '../' + configPath + chartId + '.json');
+    var additionalConfigPath = path.join(__dirname, '../' + singlePath + chartId + '.json');
     var outfilePath = path.join(__dirname, '../' + imagePath + chartId + '.svg');
     
     try{
         var configFile = fs.readFileSync(infilePath, 'utf8');
         var config = deserialize(configFile);
+        var additionalConfigFile = fs.readFileSync(additionalConfigPath, 'utf8');
+        var additionalConfig = deserialize(additionalConfigFile);
+        
         //decide if stockchart, map, or chart
         var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
         return {
-            config: config, 
+            config: config,
+            additionalConfig: additionalConfig, 
             infilePath: infilePath, 
             outfilePath: outfilePath,
             constr: constr
@@ -83,7 +89,7 @@ function createSvgImages(chartDetails){
     if (chartDetails.length > 0){
         var chartEntry = chartDetails.pop();   
         //console.log('Current infile: ' + chart.infile);
-        //if (chartEntry.infilePath.indexOf('6009') > 0 ){
+        if (!chartEntry.additionalConfig.kennzahlenset.toLowerCase().includes('print')){
             var exportSettings = {
                 type: 'svg',
                 infile: chartEntry.infilePath,
@@ -106,14 +112,17 @@ function createSvgImages(chartDetails){
                 createSvgImages(chartDetails);
             });
         }
-        else {
-            console.log('...done!');
-            exporter.killPool();
-            process.exit();
+        else{
+            console.log('File not created (is Print-Indikator): ' + chartEntry.outfilePath + ', ' + chartDetails.length + ' to go...');
+            createSvgImages(chartDetails);
         }
-    //}
+    }
+    else {
+        console.log('...done!');
+        exporter.killPool();
+        process.exit();
+    }
 }
-
 
 //from https://github.com/yahoo/serialize-javascript
 function deserialize(serializedJavascript){

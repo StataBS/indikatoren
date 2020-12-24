@@ -81,6 +81,10 @@
         [
           "2017\u002F18",
           82.1
+        ],
+        [
+          "2018\u002F19",
+          85.2
         ]
       ],
       "name": "Diphtherie\u002FTetanus",
@@ -168,6 +172,10 @@
         [
           "2017\u002F18",
           76
+        ],
+        [
+          "2018\u002F19",
+          79.4
         ]
       ],
       "name": "Hepatitis B",
@@ -255,6 +263,10 @@
         [
           "2017\u002F18",
           96.2
+        ],
+        [
+          "2018\u002F19",
+          96.8
         ]
       ],
       "name": "Masern",
@@ -342,6 +354,10 @@
         [
           "2017\u002F18",
           94
+        ],
+        [
+          "2018\u002F19",
+          93.8
         ]
       ],
       "name": "Poliomyelitis",
@@ -428,6 +444,10 @@
         [
           "2017\u002F18",
           80.5
+        ],
+        [
+          "2018\u002F19",
+          83.8
         ]
       ],
       "name": "Pertussis",
@@ -514,6 +534,10 @@
         [
           "2017\u002F18",
           44.9
+        ],
+        [
+          "2018\u002F19",
+          52.2
         ]
       ],
       "name": "HPV",
@@ -646,7 +670,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-27"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -687,6 +711,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8348
+    "filename": "8348"
   }
 }

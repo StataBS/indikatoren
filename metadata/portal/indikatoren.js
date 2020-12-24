@@ -9308,7 +9308,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-09T17:35:41.4141",
+		"aktualisierungsdatum": "2020-12-23T16:04:53.5353",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -16138,7 +16138,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
-		"subtitle": "Basel-Stadt (bis 2015 Stadt Basel)",
+		"subtitle": "per Ende Jahr, Basel-Stadt (bis 2015 Stadt Basel)",
 		"kuerzel": "I.13.2.6183",
 		"kuerzelKunde": "11.4",
 		"description": "Zahlfälle der Sozialhilfe nach Bezugsdauer",
@@ -16148,13 +16148,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-09T08:22:47.4747",
+		"aktualisierungsdatum": "2020-12-23T16:02:02.022",
 		"stufe1": "Ziel 11: Das System der sozialen Sicherung bleibt anpassungsfähig und akzeptiert.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt Ende 2019 bei 50,7% (2018: 49,8%). 7,2% der Fälle werden seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
+		"lesehilfe": "Der Anteil Sozialhilfedossiers mit einer Unterstützungsdauer von über 36 Monaten liegt per Ende 2019 bei 50,7% (2018: 49,8%). 7,2% der Fälle werden zu diesem Zeitpunkt seit höchstens drei Monaten von der Sozialhilfe unterstützt.",
 		"erlaeuterungen": "Bis 2015 nur Stadt Basel, ab 2016 einschliesslich Riehen und Bettingen. <br>Die Sozialhilfe führt Dossiers für Unterstützungseinheiten, die eine Person oder mehrere Personen umfassen. Als Zahlfälle gelten Unterstützungseinheiten, die entweder wirtschaftliche Sozialhilfe mit Beratung beanspruchen oder Fremdplatzierte sind. Letztere sind minderjährige Kinder, die in Pflegefamilien oder Heimen untergebracht sind und für welche die Sozialhilfe ein eigenes Dossier führt. In einem Haushalt kann es mehrere Zahlfälle geben.",
 		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
@@ -16164,7 +16164,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			"5185",
-			"6329"
+			"6329",
+			"8902"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -27756,7 +27757,7 @@ var indikatoren = [
 	},
 	{
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
-		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2018",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt",
 		"kuerzel": "I.14.1.06991",
 		"kuerzelKunde": "",
 		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter",
@@ -27766,14 +27767,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:33.3333",
+		"aktualisierungsdatum": "2020-12-23T16:03:32.3232",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,1 Tagen im Jahr 2012 auf 6,6 Tage im Jahr 2018 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den sieben beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
+		"lesehilfe": "Die mittlere Aufenthaltsdauer von akutsomatischen Patienten in Basler Spitälern nahm von 7,1 Tagen im Jahr 2012 auf 6,5 Tage im Jahr 2019 ab. Der Verlauf der Aufenthaltsdauer nach Alter in den acht beobachteten Jahren gleicht sich relativ stark: Im Alter von ungefähr 10 Jahren steigt die Kurve an, um mit dem Erreichen der Volljährigkeit auf etwa 5 Tage zu sinken. Anschliessend nimmt die mittlere Aufenthaltsdauer mit zunehmendem Alter zu und erreicht in allen beobachteten Jahren bei Personen in einem Alter von 80 bis 90 Jahren die höchsten Werte.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt werden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritte (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -38322,13 +38323,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-27T09:06:55.5555",
+		"aktualisierungsdatum": "2020-12-23T16:05:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2017/2018 waren 96,2% der Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
+		"lesehilfe": "Im Schuljahr 2018/2019 waren 96,8% der Schülerinnen und Schüler im Kanton Basel-Stadt im Alter von 13 und 14 Jahren gegen Masern geimpft.",
 		"erlaeuterungen": "Erhoben im Rahmen der Schulärztlichen Impfaktion, gemäss Schweizer Impfplan.<br>Poliomyelitis = Kinderlähmung, Pertussis = Keuchhusten, HPV = Humane Papillomaviren (Anteil der geimpften Mädchen).",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
@@ -40183,13 +40184,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-24T11:37:32.3232",
+		"aktualisierungsdatum": "2020-12-23T16:05:23.2323",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2016/2017 waren 23% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"lesehilfe": "Im Schuljahr 2018/2019 waren 22% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
 		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
 		"template": "template001",
 		"darstellungsart": "Diagramm",

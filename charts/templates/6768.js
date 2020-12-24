@@ -84,12 +84,12 @@
         ],                
 		series: [
             {
-              color: "#73B97C", // rot
+              color: "#71A3B5", // rot 73B97C
               //borderWidth: 0,
               //pointWidth: 15
             }, 
             {
-              color: "#71A3B5", //blau
+              color: "#73B97C", //blau
               //borderWidth: 0,
               //pointWidth: 15
             },
@@ -103,7 +103,8 @@
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
-          //  "align": "left",
+            //"align": "left",
+            x:-12,
              "itemDistance": 5,
            	//"y": 55,    
             "itemStyle": {
