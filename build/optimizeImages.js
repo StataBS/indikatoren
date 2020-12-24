@@ -9,7 +9,11 @@ views.forEach(function(view){
     console.log('Starting optimizing svg files for indikatorensetView=' + view);
     var files = JSON.parse(fs.readFileSync('tmp/chartsToBuild.json'));
     files.forEach(function(id){        
-       filePaths.push('images/' + view + '/' + id + '.svg'); 
+        var configPath = 'metadata/single/' + id + '.json';
+        var config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+        if (!config.kennzahlenset.toLowerCase().includes('print')){
+            filePaths.push('images/' + view + '/' + id + '.svg');
+        }
     });
 });
 //console.log(filePaths);
@@ -45,7 +49,7 @@ filePaths.forEach(filePath => {
             js2svg  : { pretty: true, indent: 2 }
         })
         .then(function(result) {
-            //console.log('Optimized file ' + filePath + '...');
+            console.log('Optimized file ' + filePath + '...');
         })
         .catch(function(error){
             console.log(error);

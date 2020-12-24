@@ -14,7 +14,7 @@ views.forEach(function(view){
             if (id != 0000){
                 var fileContents = fs.readFileSync('metadata/single/' + id + '.json');
                 var indikator = JSON.parse(fileContents);
-                if (indikator.visible == undefined || indikator.visible) {                  
+                if ((indikator.visible == undefined || indikator.visible) && !indikator.kennzahlenset.toLowerCase().includes('print')) {                  
                     var path = 'images/' + view + '/';
                     var svg = fs.readFileSync(path + indikator.id + '.svg', 'utf8');
                     //replace hardcoded height and width with hardcoded viewBox in order to make pics compatible with IE. 
@@ -26,6 +26,7 @@ views.forEach(function(view){
                     var replace = 'viewBox="0 0 485 415">';
                     var svgWithViewBox = svg.replace(re, replace);            
                     fs.writeFileSync(path + indikator.id + '.svg', eol.auto(svgWithViewBox));
+                    console.log('Added ViewBox for chart ' + id);
                 }
             }
             else {
