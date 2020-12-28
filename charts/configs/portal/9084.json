@@ -1,0 +1,220 @@
+{
+  "series": [
+    {
+      "showInLegend": false,
+      "type": "pie",
+      "innerSize": "100%",
+      "borderWidth": 2,
+      "colors": [
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
+      ],
+      "dataLabels": {
+        "overflow": "justify",
+        "crop": false,
+        "enabled": true,
+        "format": "{point.name}",
+        "distance": 0,
+        "connectorWidth": 0,
+        "style": {
+          "color": "black",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        }
+      },
+      "data": [
+        [
+          "Laden",
+          9.943
+        ],
+        [
+          "Büro",
+          32.608
+        ],
+        [
+          "Gewerbe",
+          31.7704
+        ],
+        [
+          "Produktion",
+          7.1292
+        ],
+        [
+          "Lager",
+          18.5493
+        ]
+      ],
+      "name": "Anteil",
+      "turboThreshold": 0
+    },
+    {
+      "showInLegend": false,
+      "type": "pie",
+      "innerSize": "40%",
+      "borderWidth": 0,
+      "colors": [
+        "#D3E2E4",
+        "#B00000",
+        "#689199",
+        "#DC440E",
+        "#083038"
+      ],
+      "dataLabels": {
+        "enabled": true,
+        "format": "{point.percentage:.0f}%",
+        "distance": -20,
+        "style": {
+          "color": "contrast",
+          "textOutline": "0px black",
+          "fontWeight": "normal",
+          "fontSize": "10px"
+        }
+      },
+      "data": [
+        [
+          2020,
+          20559
+        ],
+        [
+          2020,
+          67423
+        ],
+        [
+          2020,
+          65691
+        ],
+        [
+          2020,
+          14741
+        ],
+        [
+          2020,
+          38354
+        ]
+      ],
+      "name": "Fläche in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": false,
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "events": {
+      "load": function() {
+                  this.credits.element.onclick = function() {};
+              }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "pie",
+    "renderTo": "container-9084",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "pie": {
+      "borderWidth": 0,
+      "allowPointSelect": true,
+      "cursor": true,
+      "showInLegend": true,
+      "dataLabels": {
+        "enabled": false
+      },
+      "size": 180
+    },
+    "series": {
+      "allowPointSelect": false,
+      "point": {
+        "events": {
+          "legendItemClick": function (event) {
+                      event.preventDefault();
+
+                  }
+        }
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geschäftsleerstandsfläche nach Nutzung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Landschaft, Anteile 2020",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} \u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-24"
+  },
+  "legend": {
+    "padding": 0,
+    "margin": 0,
+    "itemMarginBottom": 2,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "useHTML": true,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "symbolRadius": 0,
+    "itemDistance": 2,
+    "style": {
+      "fontSize": "12px"
+    }
+  },
+  "exporting": {
+    "filename": "9084"
+  }
+}
