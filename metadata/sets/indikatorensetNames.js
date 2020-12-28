@@ -35,6 +35,7 @@ var indikatorensetNames = [
 	"Nachhaltigkeit (Print)",
 	"Energiestatistik",
 	"Bevoelkerungsszenarien (Print)",
+	"Leerstand (Print)",
 	"Staedtevergleich",
 	"Test"
 ];

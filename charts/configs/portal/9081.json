@@ -1,0 +1,448 @@
+{
+  "series": [
+    {
+      "color": "#D3E2E4",
+      "index": 5,
+      "legendIndex": 1,
+      "data": [
+        [
+          2011,
+          16373
+        ],
+        [
+          2012,
+          14333
+        ],
+        [
+          2013,
+          9503
+        ],
+        [
+          2014,
+          17186
+        ],
+        [
+          2015,
+          17576
+        ],
+        [
+          2016,
+          10559
+        ],
+        [
+          2017,
+          11956
+        ],
+        [
+          2018,
+          12060
+        ],
+        [
+          2019,
+          10624
+        ],
+        [
+          2020,
+          9220
+        ]
+      ],
+      "name": "Laden"
+    },
+    {
+      "color": "#B00000",
+      "index": 4,
+      "legendIndex": 2,
+      "data": [
+        [
+          2011,
+          87909
+        ],
+        [
+          2012,
+          91175
+        ],
+        [
+          2013,
+          71229
+        ],
+        [
+          2014,
+          75525
+        ],
+        [
+          2015,
+          60952
+        ],
+        [
+          2016,
+          54565
+        ],
+        [
+          2017,
+          59699
+        ],
+        [
+          2018,
+          58024
+        ],
+        [
+          2019,
+          61674
+        ],
+        [
+          2020,
+          76480
+        ]
+      ],
+      "name": "Büro"
+    },
+    {
+      "color": "#689199",
+      "index": 3,
+      "legendIndex": 3,
+      "data": [
+        [
+          2011,
+          18925
+        ],
+        [
+          2012,
+          18102
+        ],
+        [
+          2013,
+          19987
+        ],
+        [
+          2014,
+          6126
+        ],
+        [
+          2015,
+          6866
+        ],
+        [
+          2016,
+          7793
+        ],
+        [
+          2017,
+          17388
+        ],
+        [
+          2018,
+          16987
+        ],
+        [
+          2019,
+          10161
+        ],
+        [
+          2020,
+          18532
+        ]
+      ],
+      "name": "Gewerbe"
+    },
+    {
+      "color": "#DC440E",
+      "index": 2,
+      "legendIndex": 4,
+      "data": [
+        [
+          2011,
+          2000
+        ],
+        [
+          2012,
+          1057
+        ],
+        [
+          2013,
+          1642
+        ],
+        [
+          2014,
+          682
+        ],
+        [
+          2015,
+          821
+        ],
+        [
+          2016,
+          2035
+        ],
+        [
+          2017,
+          380
+        ],
+        [
+          2018,
+          1098
+        ],
+        [
+          2019,
+          3897
+        ],
+        [
+          2020,
+          1791
+        ]
+      ],
+      "name": "Produktion"
+    },
+    {
+      "color": "#083038",
+      "index": 1,
+      "legendIndex": 5,
+      "data": [
+        [
+          2011,
+          43476
+        ],
+        [
+          2012,
+          23853
+        ],
+        [
+          2013,
+          15360
+        ],
+        [
+          2014,
+          15894
+        ],
+        [
+          2015,
+          17931
+        ],
+        [
+          2016,
+          11291
+        ],
+        [
+          2017,
+          20317
+        ],
+        [
+          2018,
+          19178
+        ],
+        [
+          2019,
+          12287
+        ],
+        [
+          2020,
+          14520
+        ]
+      ],
+      "name": "Lager"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "area",
+    "renderTo": "container-9081",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geschäftsleerstandsfläche nach Nutzung"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} ({point.percentage:.1f}%)\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "min": 2011,
+    "max": 2020,
+    "tickInterval": 1,
+    "endOnTick": true,
+    "startOnTick": true
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-24"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "area": {
+      "stacking": "normal",
+      "lineWidth": 0
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": "9081"
+  }
+}
