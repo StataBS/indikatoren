@@ -1,0 +1,348 @@
+{
+  "series": [
+    {
+      "index": 2,
+      "color": "#DC440E",
+      "data": [
+        [
+          2011,
+          168683
+        ],
+        [
+          2012,
+          148520
+        ],
+        [
+          2013,
+          117721
+        ],
+        [
+          2014,
+          115413
+        ],
+        [
+          2015,
+          104146
+        ],
+        [
+          2016,
+          86243
+        ],
+        [
+          2017,
+          109740
+        ],
+        [
+          2018,
+          107347
+        ],
+        [
+          2019,
+          98643
+        ],
+        [
+          2020,
+          120543
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "index": 1,
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2011,
+          155445
+        ],
+        [
+          2012,
+          207860
+        ],
+        [
+          2013,
+          188029
+        ],
+        [
+          2014,
+          177274
+        ],
+        [
+          2015,
+          194209
+        ],
+        [
+          2016,
+          201651
+        ],
+        [
+          2017,
+          248886
+        ],
+        [
+          2018,
+          235564
+        ],
+        [
+          2019,
+          215421
+        ],
+        [
+          2020,
+          206768
+        ]
+      ],
+      "name": "Basel-Landschaft"
+    },
+    {
+      "index": 3,
+      "color": "#FABD24",
+      "data": [
+        [
+          2011,
+          324128
+        ],
+        [
+          2012,
+          356380
+        ],
+        [
+          2013,
+          305750
+        ],
+        [
+          2014,
+          292687
+        ],
+        [
+          2015,
+          298355
+        ],
+        [
+          2016,
+          287894
+        ],
+        [
+          2017,
+          358626
+        ],
+        [
+          2018,
+          342911
+        ],
+        [
+          2019,
+          314064
+        ],
+        [
+          2020,
+          327311
+        ]
+      ],
+      "name": "Beide Basel"
+    }
+  ],
+  "chart": {
+    "events": {
+      "load": function () {
+          this.credits.element.onclick = function () { };
+
+          //add rigt-margin if legend is top to allow space for axis-labels
+          if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+            this.update({
+              chart: {
+                marginRight: 15
+              }
+            });
+          }
+
+          if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+            this.update({
+              chart: {
+                marginTop: 7
+              }
+            });
+          }
+
+          //for top-left legends with no x defined: move legend to x position of first yAxis
+          if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+            //square legends must be placed 3 pixels more to the left that lines, don't know why
+            var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+            this.update(
+              {
+                legend: {
+                  x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                }
+              }
+            );
+          }
+
+          if (this.yAxis[1]) {
+            this.update({
+                yAxis: [{
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                },
+                {
+                    gridLineColor: '#B9CFD7',
+                    gridLineWidth: 0.5,
+                    lineColor: '#B9CFD7',
+                    "title": {
+                        "style": {
+                            "color": "#000000",
+                            "fontSize": 10
+                        },
+                        "text": ''
+                    },
+                    "labels": {
+                        y: 3,
+                        "style": {
+                            fontSize: '10px',
+                            color: "#000000"
+                        }
+                    }
+                }]
+            });
+        }
+
+        }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "type": "line",
+    "renderTo": "container-9080",
+    "spacingBottom": 12
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Geschäftsleerstandsfläche"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "text": "Basel-Stadt und Basel-Landschaft",
+    "align": "left"
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": 10
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      }
+    },
+    "tickAmount": 5
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none",
+        "whiteSpace": "nowrap"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
+  "credits": {
+    "href": "http:\u002F\u002Fwww.statistik.bs.ch",
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-24"
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "fontWeight": "normal"
+    },
+    "padding": 0
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "connectNulls": true,
+      "marker": {
+        "enabled": false,
+        "symbol": "circle",
+        "radius": 3
+      }
+    }
+  },
+  "exporting": {
+    "enabled": false,
+    "filename": "9080"
+  }
+}

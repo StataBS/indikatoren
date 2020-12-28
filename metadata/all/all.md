@@ -1931,7 +1931,27 @@ id | visible | visibleInPortal | indikatorenset
 9060 | true | false | Bevoelkerungsszenarien (Print)
 9061 | true | false | Bevoelkerungsszenarien (Print)
 9064 | true | true | Leerstand
+9066 | true | false | Leerstand (Print)
+9067 | true | false | Leerstand (Print)
+9068 | true | false | Leerstand (Print)
+9069 | true | false | Leerstand (Print)
+9070 | true | false | Leerstand (Print)
+9071 | true | false | Leerstand (Print)
+9072 | true | false | Leerstand (Print)
+9073 | true | false | Leerstand (Print)
+9074 | true | false | Leerstand (Print)
+9075 | true | false | Leerstand (Print)
+9076 | true | false | Leerstand (Print)
+9077 | true | false | Leerstand (Print)
+9078 | true | false | Leerstand (Print)
+9079 | true | false | Leerstand (Print)
+9080 | true | false | Leerstand (Print)
+9081 | true | false | Leerstand (Print)
+9082 | true | false | Leerstand (Print)
+9083 | true | false | Leerstand (Print)
+9084 | true | false | Leerstand (Print)
 9137 | true | true | Leerstand
+9144 | true | false | Leerstand (Print)
 9157 | true | true | Staedtevergleich
 9158 | true | true | Staedtevergleich
 9159 | true | true | Staedtevergleich
