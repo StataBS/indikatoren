@@ -34,6 +34,10 @@
         [
           2017,
           42.122014
+        ],
+        [
+          2018,
+          42.047482
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -167,7 +171,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-16"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

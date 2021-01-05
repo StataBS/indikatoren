@@ -1078,13 +1078,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:36.3636",
-		"stufe1": "3 Erwerbsleben und öffentliche Finanzen",
+		"aktualisierungsdatum": "2021-01-04T08:29:24.2424",
+		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es 2018 insgesamt 15 Rotlichtsalons, 2006 waren es 20 Salons. Im Bezirk Erlenmatt wurden keine Salons verzeichnet. Insgesamt waren 2018 im Kanton Basel-Stadt 159 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Bezirk Messe gab es 2019 insgesamt 16 Rotlichtsalons, 2006 waren es 20 Salons. Im Bezirk Erlenmatt wurden keine Salons verzeichnet. Insgesamt waren 2019 im Kanton Basel-Stadt 158 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
