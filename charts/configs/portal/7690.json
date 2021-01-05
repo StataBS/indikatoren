@@ -16,6 +16,10 @@
           18
         ],
         [
+          2008,
+          null
+        ],
+        [
           2009,
           17
         ],
@@ -26,6 +30,10 @@
         [
           2011,
           16
+        ],
+        [
+          2012,
+          null
         ],
         [
           2013,
@@ -50,9 +58,79 @@
         [
           2018,
           15
+        ],
+        [
+          2019,
+          16
         ]
       ],
-      "name": "Bezirk Messe"
+      "name": "Messe"
+    },
+    {
+      "color": "#b375ab",
+      "data": [
+        [
+          2005,
+          null
+        ],
+        [
+          2006,
+          null
+        ],
+        [
+          2007,
+          null
+        ],
+        [
+          2008,
+          null
+        ],
+        [
+          2009,
+          null
+        ],
+        [
+          2010,
+          null
+        ],
+        [
+          2011,
+          null
+        ],
+        [
+          2012,
+          null
+        ],
+        [
+          2013,
+          null
+        ],
+        [
+          2014,
+          null
+        ],
+        [
+          2015,
+          null
+        ],
+        [
+          2016,
+          null
+        ],
+        [
+          2017,
+          null
+        ],
+        [
+          2018,
+          null
+        ],
+        [
+          2019,
+          null
+        ]
+      ],
+      "name": "Erlenmatt"
     }
   ],
   "chart": {
@@ -182,9 +260,9 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "exporting": {
-    "filename": 7690
+    "filename": "7690"
   }
 }

@@ -269,7 +269,7 @@
         ],
         [
           "Dez",
-          undefined
+          101.8
         ]
       ],
       "name": "2020",
@@ -402,7 +402,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-5"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

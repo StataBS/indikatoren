@@ -23,6 +23,10 @@
         [
           "2017",
           38
+        ],
+        [
+          "2018",
+          40
         ]
       ],
       "name": "Industrie",
@@ -51,6 +55,10 @@
         [
           "2017",
           60
+        ],
+        [
+          "2018",
+          59
         ]
       ],
       "name": "Baugewerbe",
@@ -79,6 +87,10 @@
         [
           "2017",
           95
+        ],
+        [
+          "2018",
+          68
         ]
       ],
       "name": "Handel, Reparatur",
@@ -107,6 +119,10 @@
         [
           "2017",
           26
+        ],
+        [
+          "2018",
+          33
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -135,6 +151,10 @@
         [
           "2017",
           25
+        ],
+        [
+          "2018",
+          37
         ]
       ],
       "name": "Gastgewerbe, Beherbergung",
@@ -163,6 +183,10 @@
         [
           "2017",
           69
+        ],
+        [
+          "2018",
+          60
         ]
       ],
       "name": "Information, Kommunikation",
@@ -191,6 +215,10 @@
         [
           "2017",
           22
+        ],
+        [
+          "2018",
+          16
         ]
       ],
       "name": "Finanz- und Versicherungsdienstl.",
@@ -219,6 +247,10 @@
         [
           "2017",
           84
+        ],
+        [
+          "2018",
+          74
         ]
       ],
       "name": "Immobilien, wirtschaftliche Dienstl.",
@@ -247,6 +279,10 @@
         [
           "2017",
           269
+        ],
+        [
+          "2018",
+          301
         ]
       ],
       "name": "Freiberufl., wiss., techn. Dienstl.",
@@ -275,6 +311,10 @@
         [
           "2017",
           63
+        ],
+        [
+          "2018",
+          40
         ]
       ],
       "name": "Unterrichtswesen",
@@ -303,6 +343,10 @@
         [
           "2017",
           129
+        ],
+        [
+          "2018",
+          109
         ]
       ],
       "name": "Gesundheits- und Sozialwesen",
@@ -331,6 +375,10 @@
         [
           "2017",
           100
+        ],
+        [
+          "2018",
+          86
         ]
       ],
       "name": "Kunst, Unterhaltung, Erholung",
@@ -359,6 +407,10 @@
         [
           "2017",
           81
+        ],
+        [
+          "2018",
+          66
         ]
       ],
       "name": "Sonstige Dienstleistungen",
@@ -500,13 +552,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensdemografie (UDEMO).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
   },
   "exporting": {
-    "filename": 5041
+    "filename": "5041"
   }
 }
