@@ -1211,14 +1211,14 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T14:58:55.5555",
+		"aktualisierungsdatum": "2021-01-04T16:48:47.4747",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 1990 bis 2018 (gepoolte Daten) verfügen 18,2% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 30,8% liegt. Vor allem bei den Ausländern ist der Anteil im Vergleich zu den Jahren 2000 (45,1%) und 1990 (54,0%) deutlich tiefer.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 1990 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 (gepoolte Daten) verfügen 18,2% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 30,8% liegt. Die Anteile der Personen, die über einen höchsten Abschluss auf Sekundarstufe I verfügen, sind seit den Jahren 1990 und 2000 gesunken. Bei den Ausländern ist dieser Rückgang stärker ausgefallen (1990: 54,0%; 2000: 45,1%) als bei den Schweizern (1990: 30,3%; 2000: 23,2%).",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

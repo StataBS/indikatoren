@@ -46,6 +46,10 @@
         [
           2016,
           133.74
+        ],
+        [
+          2018,
+          133.33
         ]
       ],
       "name": "Basel"
@@ -96,6 +100,10 @@
         [
           2016,
           146
+        ],
+        [
+          2018,
+          146.43
         ]
       ],
       "name": "Zürich"
@@ -146,6 +154,10 @@
         [
           2016,
           118.59
+        ],
+        [
+          2018,
+          115.57
         ]
       ],
       "name": "Bern"
@@ -196,6 +208,10 @@
         [
           2016,
           135.55
+        ],
+        [
+          2018,
+          134.82
         ]
       ],
       "name": "Genf"
@@ -325,7 +341,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-24"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -366,6 +382,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 5891
+    "filename": "5891"
   }
 }

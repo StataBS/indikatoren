@@ -16,6 +16,9 @@
     "series": [
       {
         "color": "#cd9c00"
+      },
+      {
+        "color": "#b375ab"
       }
     ],
     "chart": {

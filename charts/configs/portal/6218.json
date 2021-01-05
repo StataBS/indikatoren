@@ -50,6 +50,10 @@
         [
           "2017",
           21.5
+        ],
+        [
+          "2018",
+          21.8
         ]
       ],
       "name": "Sekundarstufe I",
@@ -105,6 +109,10 @@
         [
           "2017",
           38.3
+        ],
+        [
+          "2018",
+          37.3
         ]
       ],
       "name": "Sekundarstufe II",
@@ -160,6 +168,10 @@
         [
           "2017",
           40.2
+        ],
+        [
+          "2018",
+          41
         ]
       ],
       "name": "Tertiärstufe",
@@ -214,6 +226,10 @@
         ],
         [
           "2017",
+          null
+        ],
+        [
+          "2018",
           null
         ]
       ],
@@ -354,7 +370,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2019-4-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

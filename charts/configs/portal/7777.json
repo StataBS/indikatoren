@@ -47,6 +47,10 @@
         [
           2018,
           26
+        ],
+        [
+          2019,
+          26
         ]
       ],
       "name": "Basel"
@@ -97,6 +101,10 @@
         ],
         [
           2018,
+          33
+        ],
+        [
+          2019,
           33
         ]
       ],
@@ -149,6 +157,10 @@
         [
           2018,
           31
+        ],
+        [
+          2019,
+          32
         ]
       ],
       "name": "Zürich"
@@ -199,6 +211,10 @@
         ],
         [
           2018,
+          20
+        ],
+        [
+          2019,
           20
         ]
       ],
@@ -329,7 +345,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-30"
+    "text": "Quelle: TomTom International.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -370,6 +386,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7777
+    "filename": "7777"
   }
 }

@@ -34,6 +34,10 @@
         [
           "2017",
           50.6
+        ],
+        [
+          "2018",
+          50.97
         ]
       ],
       "name": "Qualifikationsniveau",
@@ -117,7 +121,7 @@
     "text": "Qualifikationsniveau"
   },
   "subtitle": {
-    "text": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf tertiärer Stufe in der Stadt Basel",
+    "text": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe in der Stadt Basel",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -170,13 +174,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 4360
+    "filename": "4360"
   }
 }
