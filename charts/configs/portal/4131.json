@@ -27,6 +27,10 @@
         [
           2018,
           15168
+        ],
+        [
+          2019,
+          15153
         ]
       ],
       "name": "Eigentümerwohungen"
@@ -58,6 +62,10 @@
         [
           2018,
           10682
+        ],
+        [
+          2019,
+          10776
         ]
       ],
       "name": "Genossenschaftswohnungen"
@@ -89,6 +97,10 @@
         [
           2018,
           72004
+        ],
+        [
+          2019,
+          72913
         ]
       ],
       "name": "Mietwohnungen"
@@ -120,6 +132,10 @@
         [
           2018,
           719
+        ],
+        [
+          2019,
+          765
         ]
       ],
       "name": "Sonstige Wohnungen"
@@ -255,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-8"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",

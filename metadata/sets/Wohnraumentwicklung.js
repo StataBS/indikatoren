@@ -167,13 +167,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
+		"aktualisierungsdatum": "2021-01-08T15:00:52.5252",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist seit 2013 leicht angestiegen.",
+		"lesehilfe": "Der Mietwohnungsanteil beträgt stets rund 73%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -654,13 +654,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:42:16.1616",
+		"aktualisierungsdatum": "2021-01-08T16:23:11.1111",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2018 etwa 11%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2019 knapp 11%.",
 		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -849,7 +849,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-06T08:39:46.4646",
+		"aktualisierungsdatum": "2021-01-08T16:23:50.5050",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",

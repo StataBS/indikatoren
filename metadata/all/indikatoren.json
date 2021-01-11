@@ -1856,13 +1856,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-03-05T18:11:11.1111",
+		"aktualisierungsdatum": "2021-01-08T15:00:52.5252",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist seit 2013 leicht angestiegen.",
+		"lesehilfe": "Der Mietwohnungsanteil beträgt stets rund 73%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -2355,13 +2355,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-07-29T11:42:16.1616",
+		"aktualisierungsdatum": "2021-01-08T16:23:11.1111",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2018 etwa 11%.",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2019 knapp 11%.",
 		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
 		"template": "template001",
 		"darstellungsart": "Diagramm",
@@ -2555,7 +2555,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-06T08:39:46.4646",
+		"aktualisierungsdatum": "2021-01-08T16:23:50.5050",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
@@ -74262,13 +74262,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T10:24:37.3737",
+		"aktualisierungsdatum": "2021-01-08T11:14:51.5151",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 10 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde.",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
