@@ -44,6 +44,10 @@
         [
           2018,
           10662
+        ],
+        [
+          2019,
+          10776
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen"
@@ -99,6 +103,10 @@
         [
           2018,
           10.800046192183
+        ],
+        [
+          2019,
+          10.81851677091
         ]
       ],
       "name": "Anteil am Bestand (rechte Skala)"
@@ -250,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2019-7-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-8"
   },
   "tooltip": {
     "shared": false,
