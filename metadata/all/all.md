@@ -220,7 +220,7 @@ id | visible | visibleInPortal | indikatorenset
 4743 | false |  | Integration-kompakt
 4822 | true | true | Wohnviertel
 4823 | true | true | Wohnviertel
-4824 | true | true | Wohnviertel
+4824 | false |  | Wohnviertel
 4825 | true | true | Wohnviertel
 4826 | true | true | Wohnviertel
 4827 | true | true | Wohnviertel
@@ -290,7 +290,7 @@ id | visible | visibleInPortal | indikatorenset
 5066 | true | true | Legislaturplan
 5109 | true | true | Wohnviertel
 5110 | true | true | Wohnviertel
-5111 | true | true | Wohnviertel
+5111 | false |  | Wohnviertel
 5112 | true | true | Wohnviertel
 5113 | true | true | Wohnviertel
 5114 | true | true | Wohnviertel
