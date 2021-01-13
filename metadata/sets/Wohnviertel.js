@@ -86,49 +86,6 @@ var indikatorensetData = [
 		"id": 4823
 	},
 	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
-		"subtitle": "Basel-Stadt,  2018",
-		"kuerzel": "I.01.7.4824",
-		"kuerzelKunde": "GS-3.A",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-06-03T10:22:31.3131",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-		"template": "dotplot",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"5111"
-		],
-		"renderLink": [
-			"5111"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4824,
-		"chart-id": 4824,
-		"filter": "",
-		"id": 4824
-	},
-	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
 		"kuerzel": "I.01.2.4825",
@@ -863,47 +820,6 @@ var indikatorensetData = [
 		"chart-id": 5110,
 		"filter": "",
 		"id": 5110
-	},
-	{
-		"title": "Anteil Personen ohne Religionszugehörigkeit",
-		"subtitle": "Basel-Stadt,  2018",
-		"kuerzel": "I.01.7.05111",
-		"kuerzelKunde": "GS-3.B",
-		"description": "Anteil Personen ohne Religionszugehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Religionen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2019-09-24T10:47:35.3535",
-		"stufe1": "Teil 3: Karten",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil Personen ohne Religionszugehörigkeit ist im Wohnviertel Kleinhüningen mit 40% am geringsten, im Wohnviertel Altstadt Kleinbasel mit 57% am höchsten.",
-		"erlaeuterungen": "Anteil Personen ohne Religionszugehörigkeit an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-		"template": "map001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_003",
-		"parentId": 4824,
-		"children": [],
-		"renderLink": [
-			"4824"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5111,
-		"chart-id": 5111,
-		"filter": "",
-		"id": 5111
 	},
 	{
 		"title": "Anteil Personen in Einpersonenhaushalten",
