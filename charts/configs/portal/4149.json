@@ -52,6 +52,10 @@
         [
           2019,
           89.18
+        ],
+        [
+          2020,
+          89.28
         ]
       ],
       "name": "Freiräume in ha"
@@ -109,6 +113,10 @@
         [
           2019,
           2.41
+        ],
+        [
+          2020,
+          2.42
         ]
       ],
       "name": "Anteil an der Kantonsfläche (rechte Skala)"
@@ -267,7 +275,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-17"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-13"
   },
   "tooltip": {
     "shared": true,
