@@ -8,7 +8,7 @@
 "unterthema":"Sterblichkeit",
 "kennzahlenset":"",
 "raeumlicheGliederung":["Kanton"],
-"aktualisierungsdatum":"2021-01-06T11:38:29.2929",
+"aktualisierungsdatum":"2021-01-13T10:48:57.5757",
 "stufe1":"",
 "stufe2":"",
 "stufe3":"",
@@ -27,7 +27,7 @@
 "renderLink":[],
 "quellenangabe":["Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"],
 "datenInChartIntegriert":false,
-"externalLinks":["<a href = 'https://www.experimental.bfs.admin.ch/de/momo.html' target = '_blank'>Mortalitätsmonitoring nach Grossregionen (MOMO)</a>","<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitszustand/sterblichkeit-todesursachen.html' target = '_blank'>Wöchentliche Todesfälle der Schweiz (BFS)</a>"],
+"externalLinks":["<a href = 'https://www.experimental.bfs.admin.ch/expstat/de/home/innovative-methoden/momo.html' target = '_blank'>Mortalitätsmonitoring nach Grossregionen (MOMO)</a>","<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/gesundheitszustand/sterblichkeit-todesursachen.html' target = '_blank'>Wöchentliche Todesfälle der Schweiz (BFS)</a>"],
 "data-id":8995, 
 "chart-id":8995, 
 "filter":""
