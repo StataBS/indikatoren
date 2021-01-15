@@ -587,6 +587,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": "nowrap",
       "whiteSpace": "nowrap"
@@ -603,6 +604,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8589
+    "filename": "8589"
   }
 }
