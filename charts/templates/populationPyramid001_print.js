@@ -139,6 +139,7 @@
             itemMarginBottom: 2,
             itemStyle: {
                 fontWeight: "normal",
+                color: "#000000",
                 fontSize: '10px'
             }
         },

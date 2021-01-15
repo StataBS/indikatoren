@@ -329,6 +329,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "9px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": "undefined"
     },
@@ -353,6 +354,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8698
+    "filename": "8698"
   }
 }

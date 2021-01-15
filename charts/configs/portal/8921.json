@@ -949,6 +949,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
       "textOverflow": undefined,
       "whiteSpace": "nowrap"

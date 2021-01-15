@@ -424,6 +424,7 @@
     "itemMarginBottom": 7,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "padding": 0,

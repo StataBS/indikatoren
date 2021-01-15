@@ -815,6 +815,7 @@
     "itemMarginBottom": 0,
     "itemStyle": {
       "fontSize": "9px",
+      "color": "#000000",
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },

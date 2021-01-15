@@ -234,6 +234,7 @@
     "itemMarginBottom": 5,
     "itemStyle": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal"
     },
     "padding": 0
@@ -255,6 +256,6 @@
   },
   "exporting": {
     "enabled": false,
-    "filename": 8492
+    "filename": "8492"
   }
 }
