@@ -1,0 +1,10 @@
+@media only screen 
+  and (max-device-width: 600px) {   
+    #bs-nav {
+        min-width: 555px;
+    }
+    
+    .highcharts-wrapper {
+        width: 555px;
+    }
+}
