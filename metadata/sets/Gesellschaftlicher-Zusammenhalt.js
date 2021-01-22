@@ -1340,7 +1340,7 @@ var indikatorensetData = [
 		"title": "Politikinteresse der über 54-Jährigen",
 		"subtitle": "«Wie stark beschäftigt Sie im Moment das Thema Politik?», Basel-Stadt",
 		"kuerzel": "I.50.4.4874",
-		"kuerzelKunde": "3.3.04",
+		"kuerzelKunde": "3.3.06",
 		"description": "Politikinteresse der über 54-Jährigen",
 		"thema": "50 Befragungen",
 		"unterthema": "Befragung 55 plus",
@@ -1348,7 +1348,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:46:56.5656",
+		"aktualisierungsdatum": "2021-01-21T15:32:13.1313",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -1359,7 +1359,7 @@ var indikatorensetData = [
 		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_03_00_00_00_035",
+		"orderKey": "03_03_00_00_00_065",
 		"parentId": null,
 		"children": [
 			"8412"
