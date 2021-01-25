@@ -7089,7 +7089,7 @@ var indikatoren = [
 	{
 		"title": "Erhaltene Hilfeleistungen",
 		"subtitle": "«Erhalten Sie oder ein anderes Haushaltsmitglied (finanzielle oder materielle) Hilfeleistungen von Arbeitskollegen, Freunden/Bekannten oder Nachbarn?», Basel-Stadt",
-		"kuerzel": "I.50.2.4716",
+		"kuerzel": "",
 		"kuerzelKunde": "1.1.01",
 		"description": "Erhaltene Hilfeleistungen",
 		"thema": "50 Befragungen",
@@ -7098,7 +7098,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7140,7 +7140,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T16:15:13.1313",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -7182,7 +7182,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T14:52:36.3636",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -7222,7 +7222,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:34.3434",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7234,7 +7234,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_011",
+		"orderKey": "02_01_00_00_00_040",
 		"parentId": null,
 		"children": [
 			"8383"
@@ -7264,7 +7264,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:35.3535",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.1 Identifikation",
 		"stufe3": "",
@@ -7276,7 +7276,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_012",
+		"orderKey": "02_01_00_00_00_041",
 		"parentId": null,
 		"children": [
 			"8384"
@@ -7298,7 +7298,7 @@ var indikatoren = [
 		"title": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"subtitle": "Basel-Stadt",
 		"kuerzel": "I.01.6.4722",
-		"kuerzelKunde": "2.1.03",
+		"kuerzelKunde": "3.3.02",
 		"description": "Anzahl eingebürgerte Ausländer und Einbürgerungsziffer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Einbürgerungen",
@@ -7306,9 +7306,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-20T10:44:18.1818",
-		"stufe1": "2 Verbundenheit",
-		"stufe2": "2.1 Identifikation",
+		"aktualisierungsdatum": "2021-01-22T18:01:17.1717",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -7318,7 +7318,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_013",
+		"orderKey": "03_03_00_00_00_061",
 		"parentId": null,
 		"children": [
 			"6043",
@@ -7350,7 +7350,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T14:59:38.3838",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8153,7 +8153,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T16:20:12.1212",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8195,7 +8195,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T16:24:32.3232",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8237,7 +8237,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-07T11:50:53.5353",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8279,7 +8279,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:46:55.5555",
+		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8321,7 +8321,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:17:25.2525",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -8365,7 +8365,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T09:05:29.2929",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -8408,7 +8408,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:19:02.022",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -8452,7 +8452,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -8494,7 +8494,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:36.3636",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
@@ -8536,7 +8536,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:37.3737",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8548,7 +8548,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_022",
+		"orderKey": "02_02_00_00_00_043",
 		"parentId": null,
 		"children": [
 			"8396"
@@ -8570,7 +8570,7 @@ var indikatoren = [
 		"title": "Beurteilung der Chancengleichheit",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Die Chancengleichheit wird von den Behörden zielstrebig vorangetrieben.», Basel-Stadt",
 		"kuerzel": "I.50.1.4858",
-		"kuerzelKunde": "2.2.03",
+		"kuerzelKunde": "2.2.04",
 		"description": "Beurteilung der Chancengleichheit",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -8578,7 +8578,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:41:53.5353",
+		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8590,7 +8590,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_023",
+		"orderKey": "02_02_00_00_00_045",
 		"parentId": null,
 		"children": [
 			"8397"
@@ -8620,7 +8620,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T15:00:17.1717",
+		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -8664,7 +8664,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-18T15:01:00.000",
+		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -8708,7 +8708,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:38.3838",
+		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -8720,7 +8720,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_032",
+		"orderKey": "02_03_00_00_00_048",
 		"parentId": null,
 		"children": [
 			"8400"
@@ -8742,7 +8742,7 @@ var indikatoren = [
 		"title": "Beurteilung der Bildungschancen",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Alle Kinder erhalten die gleichen Bildungschancen.», Basel-Stadt",
 		"kuerzel": "I.50.1.4862",
-		"kuerzelKunde": "2.3.03",
+		"kuerzelKunde": "2.3.04",
 		"description": "Beurteilung der Bildungschancen",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -8750,7 +8750,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T16:41:53.5353",
+		"aktualisierungsdatum": "2021-01-22T18:01:12.1212",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
@@ -8762,7 +8762,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_033",
+		"orderKey": "02_03_00_00_00_050",
 		"parentId": null,
 		"children": [
 			"8401"
@@ -8792,7 +8792,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"aktualisierungsdatum": "2021-01-22T18:01:12.1212",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8804,7 +8804,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_011",
+		"orderKey": "03_01_00_00_00_052",
 		"parentId": null,
 		"children": [
 			"8402"
@@ -8834,7 +8834,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T10:23:58.5858",
+		"aktualisierungsdatum": "2021-01-22T18:01:13.1313",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8846,7 +8846,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_012",
+		"orderKey": "03_01_00_00_00_053",
 		"parentId": null,
 		"children": [
 			"6040",
@@ -8878,7 +8878,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T16:32:54.5454",
+		"aktualisierungsdatum": "2021-01-22T18:01:14.1414",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
@@ -8890,7 +8890,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_013",
+		"orderKey": "03_01_00_00_00_054",
 		"parentId": null,
 		"children": [
 			"8404"
@@ -8920,7 +8920,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"aktualisierungsdatum": "2021-01-22T18:01:14.1414",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8932,7 +8932,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_021",
+		"orderKey": "03_02_00_00_00_055",
 		"parentId": null,
 		"children": [
 			"5188",
@@ -8967,7 +8967,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"aktualisierungsdatum": "2021-01-22T18:01:15.1515",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -8979,7 +8979,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_022",
+		"orderKey": "03_02_00_00_00_056",
 		"parentId": null,
 		"children": [
 			"8406"
@@ -9010,7 +9010,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:30:01.011",
+		"aktualisierungsdatum": "2021-01-22T18:01:15.1515",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9022,7 +9022,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_023",
+		"orderKey": "03_02_00_00_00_057",
 		"parentId": null,
 		"children": [
 			"8407"
@@ -9053,7 +9053,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:30:03.033",
+		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -9065,7 +9065,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_024",
+		"orderKey": "03_02_00_00_00_058",
 		"parentId": null,
 		"children": [
 			"8408"
@@ -9096,7 +9096,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-07T11:51:23.2323",
+		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9108,7 +9108,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_031",
+		"orderKey": "03_03_00_00_00_060",
 		"parentId": null,
 		"children": [
 			"8409"
@@ -9138,7 +9138,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-24T16:36:33.3333",
+		"aktualisierungsdatum": "2021-01-22T18:01:17.1717",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9174,7 +9174,7 @@ var indikatoren = [
 		"title": "Interesse an der Politik in Basel-Stadt",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kuerzel": "I.50.1.4872",
-		"kuerzelKunde": "3.3.03.A",
+		"kuerzelKunde": "3.3.04",
 		"description": "Interesse an der Politik in Basel-Stadt",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -9182,7 +9182,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"aktualisierungsdatum": "2021-01-22T18:01:18.1818",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9194,7 +9194,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_033",
+		"orderKey": "03_03_00_00_00_063",
 		"parentId": null,
 		"children": [
 			"8411"
@@ -9224,7 +9224,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-21T15:32:13.1313",
+		"aktualisierungsdatum": "2021-01-22T18:01:19.1919",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9266,7 +9266,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9664,7 +9664,7 @@ var indikatoren = [
 		"title": "Gedanken über die Arbeitsstelle",
 		"subtitle": "«Machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
 		"kuerzel": "I.50.1.4931",
-		"kuerzelKunde": "1.1.08.A",
+		"kuerzelKunde": "1.1.08",
 		"description": "Gedanken über die Arbeitsstelle",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -9672,7 +9672,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9706,7 +9706,7 @@ var indikatoren = [
 		"title": "Gründe für Gedanken über die Arbeitsstelle",
 		"subtitle": "«Warum machen Sie sich manchmal Gedanken über Ihre Arbeitsstelle?», Basel-Stadt",
 		"kuerzel": "I.50.1.4932",
-		"kuerzelKunde": "1.1.08.B",
+		"kuerzelKunde": "1.1.09",
 		"description": "Gründe für Gedanken über die Arbeitsstelle",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -9714,7 +9714,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -9748,7 +9748,7 @@ var indikatoren = [
 		"title": "Politikinteresse der unter 30-Jährigen",
 		"subtitle": "«Wie stark interessieren Sie sich für die Politik im Kanton Basel-Stadt?», Basel-Stadt",
 		"kuerzel": "I.50.1.4933",
-		"kuerzelKunde": "3.3.03.B",
+		"kuerzelKunde": "3.3.05",
 		"description": "Politikinteresse der unter 30-Jährigen",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
@@ -9756,7 +9756,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:40.4040",
+		"aktualisierungsdatum": "2021-01-22T18:01:18.1818",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -9768,7 +9768,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_03_00_00_00_034",
+		"orderKey": "03_03_00_00_00_064",
 		"parentId": null,
 		"children": [
 			"8416"
@@ -74223,9 +74223,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:11:35.3535",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -74235,7 +74235,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_03_00_00_00_034",
 		"parentId": null,
 		"children": [
 			"9033"
@@ -74265,9 +74265,9 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:11:36.3636",
-		"stufe1": "",
-		"stufe2": "",
+		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"stufe1": "1 Soziale Beziehungen",
+		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -74277,7 +74277,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"orderKey": "01_03_00_00_00_035",
 		"parentId": null,
 		"children": [
 			"9034"
@@ -74307,7 +74307,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-13T12:07:06.066",
+		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
@@ -74349,7 +74349,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T11:32:18.1818",
+		"aktualisierungsdatum": "2021-01-22T18:01:09.099",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.2 Vertrauen in die Mitmenschen",
 		"stufe3": "",
@@ -74361,10 +74361,11 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_000",
+		"orderKey": "01_02_00_00_00_024",
 		"parentId": null,
 		"children": [
-			"9036"
+			"9036",
+			"9116"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -76846,7 +76847,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
@@ -76888,7 +76889,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T18:52:01.011",
+		"aktualisierungsdatum": "2021-01-22T18:01:12.1212",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.3 Gerechtigkeitsempfinden",
 		"stufe3": "",
