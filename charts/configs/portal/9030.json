@@ -139,7 +139,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-13"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

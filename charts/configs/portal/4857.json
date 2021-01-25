@@ -329,7 +329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
   },
   "legend": {
     "layout": "horizontal",
@@ -349,6 +349,6 @@
     "itemDistance": 0
   },
   "exporting": {
-    "filename": 4857
+    "filename": "4857"
   }
 }

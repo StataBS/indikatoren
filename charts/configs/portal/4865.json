@@ -200,7 +200,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
   },
   "legend": {
     "layout": "horizontal",
@@ -220,6 +220,6 @@
     "reversed": false
   },
   "exporting": {
-    "filename": 4865
+    "filename": "4865"
   }
 }
