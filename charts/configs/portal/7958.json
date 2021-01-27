@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          22.43
+          22.79
         ],
         [
           "Bern",
-          18.12
+          18.17
         ],
         [
-          "Genève",
-          32.17
+          "Genf",
+          32.12
         ],
         [
           "Lausanne",
-          34.37
+          34.4
         ],
         [
           "Zürich",
-          27.54
+          27.73
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          37.09
+          37.29
         ],
         [
           "Bern",
-          25.71
+          25.3
         ],
         [
-          "Genève",
-          47.81
+          "Genf",
+          47.89
         ],
         [
           "Lausanne",
-          43.06
+          43.19
         ],
         [
           "Zürich",
-          32.32
+          32.47
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          22.47
+          22.7
         ],
         [
           "Bern",
-          14.55
+          14.82
         ],
         [
-          "Genève",
-          35
+          "Genf",
+          34.74
         ],
         [
           "Lausanne",
-          30.05
+          30.07
         ],
         [
           "Zürich",
-          25.52
+          25.71
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,14 +86,14 @@
       "data": [
         [
           "Basel",
-          14.39
+          14.99
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          13.79
+          14.41
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          18.9
+          "Genf",
+          19.14
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Ausländeranteil"
   },
   "subtitle": {
-    "text": "2017",
+    "text": "2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -273,7 +273,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

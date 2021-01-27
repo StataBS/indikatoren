@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          511.66
+          512.79
         ],
         [
           "Bern",
-          476.83
+          476.54
         ],
         [
-          "Genève",
-          530.28
+          "Genf",
+          526.45
         ],
         [
           "Lausanne",
-          501.66
+          498.21
         ],
         [
           "Zürich",
-          506.61
+          503.33
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          334.25
+          333.23
         ],
         [
           "Bern",
-          383.2
+          391.62
         ],
         [
-          "Genève",
-          364.66
+          "Genf",
+          357.55
         ],
         [
           "Lausanne",
-          363.31
+          359.04
         ],
         [
           "Zürich",
-          348.26
+          342.8
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          517.92
+          518.11
         ],
         [
           "Bern",
-          520.92
+          516.44
         ],
         [
-          "Genève",
-          538.2
+          "Genf",
+          530.91
         ],
         [
           "Lausanne",
-          570.3
+          566.79
         ],
         [
           "Zürich",
-          573.64
+          571.78
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,14 +86,14 @@
       "data": [
         [
           "Basel",
-          580.04
+          584.84
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          654.45
+          654.01
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          624.55
+          "Genf",
+          626.13
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Personenwagen"
   },
   "subtitle": {
-    "text": "pro 1000 Einwohner, 2017",
+    "text": "pro 1000 Einwohner, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          185126
+          185605
         ],
         [
           "Bern",
-          188231
+          189079
         ],
         [
-          "Genève",
-          180100
+          "Genf",
+          182521
         ],
         [
           "Lausanne",
-          119114
+          122100
         ],
         [
           "Zürich",
-          472396
+          480106
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          180964
+          182013
         ],
         [
           "Bern",
-          132010
+          131885
         ],
         [
-          "Genève",
-          209353
+          "Genf",
+          212886
         ],
         [
           "Lausanne",
-          143743
+          145508
         ],
         [
           "Zürich",
-          480288
+          484435
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,14 +62,14 @@
       "data": [
         [
           "Basel",
-          73568
+          74603
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -90,15 +90,15 @@
       "data": [
         [
           "Basel",
-          26657
+          26769
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          78145
+          "Genf",
+          77242
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": "2017",
+    "text": "2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

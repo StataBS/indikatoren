@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          3.15
+          3.22
         ],
         [
           "Bern",
-          2.19
+          2.37
         ],
         [
-          "Genève",
-          4.75
+          "Genf",
+          4.97
         ],
         [
           "Lausanne",
-          3.24
+          3.27
         ],
         [
           "Zürich",
-          3.93
+          4.11
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          7.71
+          8.02
         ],
         [
           "Bern",
-          5.66
+          6.23
         ],
         [
-          "Genève",
-          10.63
+          "Genf",
+          10.76
         ],
         [
           "Lausanne",
-          6.69
+          6.89
         ],
         [
           "Zürich",
-          7.93
+          8.42
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.9
+          0.91
         ],
         [
           "Bern",
-          0.56
+          0.55
         ],
         [
-          "Genève",
-          2.89
+          "Genf",
+          3.2
         ],
         [
           "Lausanne",
-          1.53
+          1.48
         ],
         [
           "Zürich",
-          2.23
+          2.27
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,14 +86,14 @@
       "data": [
         [
           "Basel",
-          4.15
+          4.13
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          1.6
+          1.69
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          3.33
+          "Genf",
+          3.52
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Hotelübernachtungen"
   },
   "subtitle": {
-    "text": "pro Einwohner, 2017",
+    "text": "pro Einwohner, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,10 +272,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "7971"

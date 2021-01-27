@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          3.4
+          3.51
         ],
         [
           "Bern",
-          2.46
+          2.45
         ],
         [
-          "Genève",
-          4.95
+          "Genf",
+          5.12
         ],
         [
           "Lausanne",
-          3.98
+          4.12
         ],
         [
           "Zürich",
-          2.53
+          2.48
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          3.11
+          3.53
         ],
         [
           "Bern",
-          2.07
+          1.67
         ],
         [
-          "Genève",
-          3.82
+          "Genf",
+          4.01
         ],
         [
           "Lausanne",
-          4.7
+          4.74
         ],
         [
           "Zürich",
-          2.51
+          2.57
         ]
       ],
       "name": "Kernstadt",
@@ -63,19 +63,19 @@
         ],
         [
           "Bern",
-          2.66
+          2.83
         ],
         [
-          "Genève",
-          4.15
+          "Genf",
+          4.48
         ],
         [
           "Lausanne",
-          3.57
+          3.75
         ],
         [
           "Zürich",
-          2.54
+          2.43
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -93,7 +93,7 @@
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          4.59
+          4.75
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          6.48
+          "Genf",
+          6.47
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Anteil der privaten Einelternhaushalte"
   },
   "subtitle": {
-    "text": "mit Kindern unter 18 Jahren, 2017",
+    "text": "mit Kindern unter 18 Jahren, 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,10 +272,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "7962"

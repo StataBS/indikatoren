@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          78.81
+          78.78
         ],
         [
           "Bern",
-          84.42
+          84.96
         ],
         [
-          "Genève",
-          77.75
+          "Genf",
+          77.55
         ],
         [
           "Lausanne",
-          78.77
+          79.49
         ],
         [
           "Zürich",
-          83.46
+          83.89
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          79.3
+          79.57
         ],
         [
           "Bern",
-          85.31
+          85.4
         ],
         [
-          "Genève",
-          77.79
+          "Genf",
+          77.38
         ],
         [
           "Lausanne",
-          78.7
+          79.61
         ],
         [
           "Zürich",
-          84.55
+          84.84
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          79.79
+          79.6
         ],
         [
           "Bern",
-          84
+          84.74
         ],
         [
-          "Genève",
-          75.21
+          "Genf",
+          74.82
         ],
         [
           "Lausanne",
-          78.8
+          79.42
         ],
         [
           "Zürich",
-          82.98
+          83.47
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -93,7 +93,7 @@
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          77.96
+          77.92
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          80.64
+          "Genf",
+          80.85
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Nettoerwerbsquote der 15- bis 64-Jährigen"
   },
   "subtitle": {
-    "text": "2017",
+    "text": "2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
