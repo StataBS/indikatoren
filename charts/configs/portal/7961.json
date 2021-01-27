@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          25.23
+          25.2
         ],
         [
           "Bern",
-          21.03
+          21.1
         ],
         [
-          "Genève",
-          29.6
+          "Genf",
+          29.59
         ],
         [
           "Lausanne",
-          25.47
+          25.4
         ],
         [
           "Zürich",
-          23.2
+          23.3
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          17.95
+          18.04
         ],
         [
           "Bern",
-          18.29
+          18.52
         ],
         [
-          "Genève",
-          21.83
+          "Genf",
+          21.91
         ],
         [
           "Lausanne",
-          21.26
+          21.3
         ],
         [
           "Zürich",
-          19.18
+          19.51
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          23.14
+          23.05
         ],
         [
           "Bern",
           22.39
         ],
         [
-          "Genève",
-          31.81
+          "Genf",
+          31.86
         ],
         [
           "Lausanne",
-          27.93
+          27.76
         ],
         [
           "Zürich",
-          25.11
+          25.1
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -93,7 +93,7 @@
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          28.58
+          28.43
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          32.35
+          "Genf",
+          32.15
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Anteil der Privathaushalte mit minderjährigen Kindern"
   },
   "subtitle": {
-    "text": "2017",
+    "text": "2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-12"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
