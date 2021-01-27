@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          33.05
+          33.43
         ],
         [
           "Bern",
-          32.18
+          32.68
         ],
         [
-          "Genève",
-          24.38
+          "Genf",
+          24.42
         ],
         [
           "Lausanne",
-          25.45
+          25.32
         ],
         [
           "Zürich",
-          26.6
+          26.8
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          30.06
+          29.94
         ],
         [
           "Bern",
-          26.22
+          26.18
         ],
         [
-          "Genève",
-          24.33
+          "Genf",
+          24.14
         ],
         [
           "Lausanne",
-          22.83
+          22.46
         ],
         [
           "Zürich",
-          22.83
+          22.46
         ]
       ],
       "name": "Kernstadt",
@@ -59,15 +59,15 @@
       "data": [
         [
           "Basel",
-          35.75
+          36.32
         ],
         [
           "Bern",
-          35.31
+          36.1
         ],
         [
-          "Genève",
-          26.96
+          "Genf",
+          26.97
         ],
         [
           "Lausanne",
@@ -75,7 +75,7 @@
         ],
         [
           "Zürich",
-          28.34
+          28.82
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,14 +86,14 @@
       "data": [
         [
           "Basel",
-          33.17
+          33.37
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
+          "Genf",
           null
         ],
         [
@@ -113,15 +113,15 @@
       "data": [
         [
           "Basel",
-          27.99
+          29.01
         ],
         [
           "Bern",
           null
         ],
         [
-          "Genève",
-          21.3
+          "Genf",
+          21.52
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Altersquotient"
   },
   "subtitle": {
-    "text": "2017",
+    "text": "2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -271,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-28"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
