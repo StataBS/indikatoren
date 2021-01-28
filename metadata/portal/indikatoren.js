@@ -40992,18 +40992,21 @@ var indikatoren = [
 		"id": 8992
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
 		"subtitle": "",
+		"kennzahlenset": "",
 		"kuerzel": "I.14.3.08995",
 		"kuerzelKunde": "",
 		"description": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-20T08:09:17.1717",
+		"aktualisierungsdatum": "2021-01-28T08:23:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41011,13 +41014,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Für die Kalenderwoche 14 des Jahres 2020 (30.03. - 05.04.) sind im Kanton Basel-Stadt insgesamt 68 Todesfälle gemeldet worden, davon 63 Todesfälle von Personen ab 65 Jahren und 5 Todesfälle von Personen unter 65 Jahren. Die schattierte Fläche gibt das Vertrauensintervall der normalerweise zu erwartenden Todesfälle an. Beobachtete Werte oberhalb des Vertrauensintervalls deuten auf eine sogenannte Übersterblichkeit hin.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Das Vertrauensintervall entspricht dem Bereich, in dem man die wöchentlichen Todesfälle mit einer Wahrscheinlichkeit von 99% erwarten würde. Die Schätzung des Vertrauensintervalls pro Kalenderwoche erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklassen, um sie von möglichen zeitlichen und demographischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -41420,18 +41420,21 @@ var indikatoren = [
 		"id": 9009
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
+		"kennzahlenset": "",
 		"kuerzel": "I.14.3.09022",
 		"kuerzelKunde": "",
 		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-20T13:59:48.4848",
+		"aktualisierungsdatum": "2021-01-28T08:23:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41439,13 +41442,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 14 des Jahres 2020 insgesamt 26 Personen ab 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -41460,18 +41460,21 @@ var indikatoren = [
 		"id": 9022
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen unter 65 Jahre, Basel-Stadt, nach Kalenderwoche",
+		"kennzahlenset": "",
 		"kuerzel": "I.14.3.09023",
 		"kuerzelKunde": "",
 		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-20T13:50:06.066",
+		"aktualisierungsdatum": "2021-01-28T08:23:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41479,13 +41482,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
