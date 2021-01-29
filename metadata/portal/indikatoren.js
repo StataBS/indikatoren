@@ -1889,32 +1889,32 @@ var indikatoren = [
 		"id": 4132
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.1.4133",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "",
 		"kuerzelKunde": "1.2.A",
 		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:07:50.5050",
+		"aktualisierungsdatum": "2021-01-29T09:16:01.011",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+12,1% bzw. +9,1% seit 2009). Rückläufig war dagegen die Entwicklung bei den Einzimmerwohnungen (-0,6%).",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (3,1%).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1929,32 +1929,32 @@ var indikatoren = [
 		"id": 4133
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4134",
 		"kuerzelKunde": "1.2.B",
 		"description": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:08:45.4545",
+		"aktualisierungsdatum": "2021-01-29T09:16:02.022",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2019 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (35%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
+		"lesehilfe": "Am zahlreichsten sind 2020 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (35%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1969,36 +1969,36 @@ var indikatoren = [
 		"id": 4134
 	},
 	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.1.4135",
-		"kuerzelKunde": "1.2.C-1",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-01-23T17:09:42.4242",
-		"stufe1": "Ziel 1: Gesellschaftspolitik",
-		"stufe2": "1.2 Wohnraum erhalten und erneuern",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 wurde die höchste Neubauproduktion seit 1981 verzeichnet. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"5816",
 			"6248",
 			"7595"
 		],
+		"template": "template001",
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "I.09.1.4135",
+		"kuerzelKunde": "1.2.C-1",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-01-29T09:16:02.022",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
+		"stufe2": "1.2 Wohnraum erhalten und erneuern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2020 wurde wiederum eine hohe Neubauproduktion verzeichnet. Auffallend ist insbesondere auch der stark positive Umbausaldo.",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_02_00_00_00_000",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2013,34 +2013,34 @@ var indikatoren = [
 		"id": 4135
 	},
 	{
-		"title": "Umbausaldo",
+		"parentId": null,
+		"children": [
+			"7596"
+		],
+		"template": "template001",
+		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4136",
 		"kuerzelKunde": "1.2.C-2",
-		"description": "Umbausaldo",
+		"description": "Umgebaute Wohnungen",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-29T16:21:21.2121",
+		"aktualisierungsdatum": "2021-01-29T09:16:03.033",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014 und 2019 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume (Büros) zu Wohnungen zurückzuführen. Ansonsten trägt vor allem der Dachstockausbau zum positiven Umbausaldo bei.",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014, 2019 und 2020 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. Im Berichtsjahr trägt auch der Dachstockausbau wesentlich zum positiven Umbausaldo bei.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"7596"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2055,32 +2055,32 @@ var indikatoren = [
 		"id": 4136
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.1.4137",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "",
 		"kuerzelKunde": "1.2.E",
 		"description": "Neuerstellte Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:13:46.4646",
+		"aktualisierungsdatum": "2021-01-29T09:16:04.044",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 865 Einheiten erreichte die Nettoproduktion 2019 den höchsten Stand seit 1981. Die Fertigstellung mehrerer Grossprojekte hat massgeblich dazu beigetragen. Der Zehnjahresdurchschnitt stieg dadurch stark.",
+		"lesehilfe": "Mit 607 Einheiten war die Neubauproduktion 2020 wiederum überdurchschnittlich hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
 		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2424,32 +2424,32 @@ var indikatoren = [
 		"id": 4145
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4146",
 		"kuerzelKunde": "2.1.A",
 		"description": "Wohnungen mit 4 oder mehr Zimmern",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:14:42.4242",
+		"aktualisierungsdatum": "2021-01-29T09:16:05.055",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -11684,35 +11684,35 @@ var indikatoren = [
 		"id": 5814
 	},
 	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2010-2019",
-		"kuerzel": "I.09.1.5817",
-		"kuerzelKunde": "ST 4-9",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-01-23T17:23:24.2424",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 28% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
-		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6249",
 			"7597"
 		],
+		"template": "template001",
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2011-2020",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "I.09.1.5817",
+		"kuerzelKunde": "ST 4-9",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2021-01-29T09:16:09.099",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 25% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -17434,37 +17434,35 @@ var indikatoren = [
 		"id": 6376
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6389"
+		],
+		"template": "mappie001",
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.09.1.06377",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzel": "",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
+		"aktualisierungsdatum": "2021-01-29T09:16:06.066",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"6389"
-		],
-		"renderLink": [
-			"6389"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -17479,18 +17477,23 @@ var indikatoren = [
 		"id": 6377
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6390"
+		],
+		"template": "mappie001",
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.09.1.06378",
 		"kuerzelKunde": "C9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:15.1515",
+		"aktualisierungsdatum": "2021-01-29T09:16:07.077",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -17498,18 +17501,11 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"6390"
-		],
-		"renderLink": [
-			"6390"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -17969,92 +17965,6 @@ var indikatoren = [
 		"chart-id": 6388,
 		"filter": "",
 		"id": 6388
-	},
-	{
-		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.09.1.06389",
-		"kuerzelKunde": "K9-1",
-		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
-		"erlaeuterungen": "",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_007",
-		"parentId": 6377,
-		"children": [],
-		"renderLink": [
-			"6377"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6389,
-		"chart-id": 6389,
-		"filter": "",
-		"id": 6389
-	},
-	{
-		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.09.1.06390",
-		"kuerzelKunde": "K9-2",
-		"description": "Wohnungsdichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
-		"erlaeuterungen": "",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_008",
-		"parentId": 6378,
-		"children": [],
-		"renderLink": [
-			"6378"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6390,
-		"chart-id": 6390,
-		"filter": "",
-		"id": 6390
 	},
 	{
 		"title": "Leerwohnungen",
@@ -33878,34 +33788,34 @@ var indikatoren = [
 		"id": 8059
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8630"
+		],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07679",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzel": "",
 		"kuerzelKunde": "4.03",
 		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-01-29T09:16:05.055",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den beiden Wohnviertel Klybeck und Kleinhüningen sind die Dreizimmerwohnungen am häufigsten. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In diesem Wohnviertel sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
+		"lesehilfe": "In den beiden Wohnvierteln Klybeck und Kleinhüningen kommen Dreizimmerwohnungen am häufigsten vor. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In Klybeck sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8630"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"

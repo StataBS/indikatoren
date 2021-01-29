@@ -6,7 +6,7 @@
       "data": [
         [
           "1 Zimmer",
-          3160
+          3212
         ],
         [
           "2 Zimmer",
@@ -30,7 +30,7 @@
         ],
         [
           "Alle",
-          3161
+          3213
         ]
       ],
       "name": "bis 29 m²",
@@ -42,19 +42,19 @@
       "data": [
         [
           "1 Zimmer",
-          7586
+          7787
         ],
         [
           "2 Zimmer",
-          6254
+          6352
         ],
         [
           "3 Zimmer",
-          155
+          154
         ],
         [
           "4 Zimmer",
-          1
+          4
         ],
         [
           "5 Zimmer",
@@ -66,7 +66,7 @@
         ],
         [
           "Alle",
-          13996
+          14297
         ]
       ],
       "name": "30-49 m²",
@@ -78,15 +78,15 @@
       "data": [
         [
           "1 Zimmer",
-          436
+          462
         ],
         [
           "2 Zimmer",
-          18115
+          18322
         ],
         [
           "3 Zimmer",
-          13472
+          13446
         ],
         [
           "4 Zimmer",
@@ -94,7 +94,7 @@
         ],
         [
           "5 Zimmer",
-          26
+          24
         ],
         [
           "6 Zimmer u.m.",
@@ -102,7 +102,7 @@
         ],
         [
           "Alle",
-          32374
+          32579
         ]
       ],
       "name": "50-69 m²",
@@ -114,31 +114,31 @@
       "data": [
         [
           "1 Zimmer",
-          141
+          149
         ],
         [
           "2 Zimmer",
-          1739
+          1777
         ],
         [
           "3 Zimmer",
-          25652
+          25869
         ],
         [
           "4 Zimmer",
-          10340
+          10323
         ],
         [
           "5 Zimmer",
-          647
+          610
         ],
         [
           "6 Zimmer u.m.",
-          109
+          108
         ],
         [
           "Alle",
-          38628
+          38836
         ]
       ],
       "name": "70-99 m²",
@@ -150,23 +150,23 @@
       "data": [
         [
           "1 Zimmer",
-          82
+          87
         ],
         [
           "2 Zimmer",
-          169
+          172
         ],
         [
           "3 Zimmer",
-          1942
+          1974
         ],
         [
           "4 Zimmer",
-          8183
+          8242
         ],
         [
           "5 Zimmer",
-          4866
+          4879
         ],
         [
           "6 Zimmer u.m.",
@@ -174,7 +174,7 @@
         ],
         [
           "Alle",
-          17060
+          17172
         ]
       ],
       "name": "100-149 m²",
@@ -186,7 +186,7 @@
       "data": [
         [
           "1 Zimmer",
-          14
+          15
         ],
         [
           "2 Zimmer",
@@ -198,19 +198,19 @@
         ],
         [
           "4 Zimmer",
-          588
+          599
         ],
         [
           "5 Zimmer",
-          1544
+          1553
         ],
         [
           "6 Zimmer u.m.",
-          3986
+          3998
         ],
         [
           "Alle",
-          6269
+          6302
         ]
       ],
       "name": "150 m² u.m.",
@@ -292,7 +292,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,10 +348,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.2f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
     "shared": false,
     "useHTML": true
   },

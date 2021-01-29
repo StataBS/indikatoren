@@ -615,33 +615,33 @@ var indikatorensetData = [
 		"id": 8059
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8630"
+		],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07679",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzel": "",
 		"kuerzelKunde": "4.03",
 		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-01-29T09:16:05.055",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den beiden Wohnviertel Klybeck und Kleinhüningen sind die Dreizimmerwohnungen am häufigsten. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In diesem Wohnviertel sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
+		"lesehilfe": "In den beiden Wohnvierteln Klybeck und Kleinhüningen kommen Dreizimmerwohnungen am häufigsten vor. In Kleinhüningen sind die Anteile der Wohnungen mit 3 oder mehr Zimmern grösser als im benachbarten Klybeck. In Klybeck sind dagegen die Anteile von Ein- und Zweizimmerwohnungen grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8630"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
