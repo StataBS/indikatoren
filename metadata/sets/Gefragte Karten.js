@@ -173,36 +173,34 @@ var indikatorensetData = [
 		"id": 6376
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6389"
+		],
+		"template": "mappie001",
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.09.1.06377",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzel": "",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
+		"aktualisierungsdatum": "2021-01-29T09:16:06.066",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"6389"
-		],
-		"renderLink": [
-			"6389"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -217,18 +215,23 @@ var indikatorensetData = [
 		"id": 6377
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6390"
+		],
+		"template": "mappie001",
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.09.1.06378",
 		"kuerzelKunde": "C9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:15.1515",
+		"aktualisierungsdatum": "2021-01-29T09:16:07.077",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -236,17 +239,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"6390"
-		],
-		"renderLink": [
-			"6390"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -698,34 +694,32 @@ var indikatorensetData = [
 		"id": 6388
 	},
 	{
+		"parentId": 6377,
+		"children": [],
+		"template": "mappie001",
 		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.09.1.06389",
 		"kuerzelKunde": "K9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
+		"aktualisierungsdatum": "2021-01-29T09:16:07.077",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern und an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_007",
-		"parentId": 6377,
-		"children": [],
-		"renderLink": [
-			"6377"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
@@ -740,18 +734,21 @@ var indikatorensetData = [
 		"id": 6389
 	},
 	{
+		"parentId": 6378,
+		"children": [],
+		"template": "mappie001",
 		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.09.1.06390",
 		"kuerzelKunde": "K9-2",
 		"description": "Wohnungsdichte nach Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:16:31.3131",
+		"aktualisierungsdatum": "2021-01-29T09:16:08.088",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
@@ -759,15 +756,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
 		"erlaeuterungen": "",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_008",
-		"parentId": 6378,
-		"children": [],
-		"renderLink": [
-			"6378"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
