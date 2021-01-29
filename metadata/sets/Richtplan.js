@@ -287,34 +287,34 @@ var indikatorensetData = [
 		"id": 5816
 	},
 	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2010-2019",
-		"kuerzel": "I.09.1.5817",
-		"kuerzelKunde": "ST 4-9",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-01-23T17:23:24.2424",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 28% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
-		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_04_00_00_00_009",
 		"parentId": null,
 		"children": [
 			"6249",
 			"7597"
 		],
+		"template": "template001",
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2011-2020",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "I.09.1.5817",
+		"kuerzelKunde": "ST 4-9",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2021-01-29T09:16:09.099",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 25% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "02_04_00_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"

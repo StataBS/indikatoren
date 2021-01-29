@@ -66,6 +66,10 @@
         [
           2019,
           865
+        ],
+        [
+          2020,
+          607
         ]
       ],
       "name": "Neubau"
@@ -136,6 +140,10 @@
         [
           2019,
           -186
+        ],
+        [
+          2020,
+          -154
         ]
       ],
       "name": "Abbruch"
@@ -206,6 +214,10 @@
         [
           2019,
           158
+        ],
+        [
+          2020,
+          219
         ]
       ],
       "name": "Umbausaldo"
@@ -281,6 +293,10 @@
         [
           2019,
           837
+        ],
+        [
+          2020,
+          672
         ]
       ],
       "name": "Nettowohnungsproduktion"
@@ -427,7 +443,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
   },
   "tooltip": {
     "shared": true

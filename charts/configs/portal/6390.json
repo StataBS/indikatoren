@@ -6569,83 +6569,83 @@
       "data": [
         [
           1,
-          39.208233337
+          41.063930655
         ],
         [
           2,
-          37.933523147
+          38.210733927
         ],
         [
           3,
-          69.774895159
+          71.153542923
         ],
         [
           4,
-          78.34670498
+          78.507012598
         ],
         [
           5,
-          21.754440036
+          22.378776689
         ],
         [
           6,
-          97.809816392
+          98.470809534
         ],
         [
           7,
-          17.121626106
+          17.26446718
         ],
         [
           8,
-          47.847691871
+          47.93270212
         ],
         [
           9,
-          86.055838643
+          86.199504484
         ],
         [
           10,
-          89.695928422
+          90.053027361
         ],
         [
           11,
-          44.879892092
+          44.959789042
         ],
         [
           12,
-          64.543346545
+          65.834213476
         ],
         [
           13,
-          99.424603333
+          103.87516141
         ],
         [
           14,
-          43.642381232
+          44.475806517
         ],
         [
           15,
-          15.336015737
+          15.294043483
         ],
         [
           16,
-          64.073221489
+          64.104784652
         ],
         [
           17,
-          149.81153403
+          150.31532801
         ],
         [
           18,
-          41.783571013
+          41.544497265
         ],
         [
           19,
-          10.080977487
+          10.354836641
         ],
         [
           20,
-          9.6369745162
+          9.7014297251
         ],
         [
           30,
@@ -6658,83 +6658,83 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1479
+          1549
         ],
         [
           "Vorstädte",
-          3421
+          3446
         ],
         [
           "Am Ring",
-          6377
+          6503
         ],
         [
           "Breite",
-          5376
+          5387
         ],
         [
           "St. Alban",
-          6481
+          6667
         ],
         [
           "Gundeldingen",
-          11394
+          11471
         ],
         [
           "Bruderholz",
-          4435
+          4472
         ],
         [
           "Bachletten",
-          7317
+          7330
         ],
         [
           "Gotthelf",
-          4193
+          4200
         ],
         [
           "Iselin",
-          9796
+          9835
         ],
         [
           "St. Johann",
-          10111
+          10129
         ],
         [
           "Altstadt Kleinbasel",
-          1600
+          1632
         ],
         [
           "Clara",
-          2301
+          2404
         ],
         [
           "Wettstein",
-          3299
+          3362
         ],
         [
           "Hirzbrunnen",
-          4750
+          4737
         ],
         [
           "Rosental",
-          4060
+          4062
         ],
         [
           "Matthäus",
-          8921
+          8951
         ],
         [
           "Klybeck",
-          3845
+          3823
         ],
         [
           "Kleinhüningen",
-          1362
+          1399
         ],
         [
           "Riehen",
-          10466
+          10536
         ],
         [
           "Bettingen",
@@ -7286,7 +7286,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7302,7 +7302,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
   },
   "colorAxis": {
     "min": 0,
