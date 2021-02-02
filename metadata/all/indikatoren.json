@@ -1885,30 +1885,6 @@
 		"id": 4131
 	},
 	{
-		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1.A",
-		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "50 Befragungen",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-06T09:46:30.3030",
-		"stufe1": "Ziel 1: Gesellschaftspolitik",
-		"stufe2": "1.1 Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "stock001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
 		"parentId": null,
 		"children": [
 			"6143",
@@ -1916,6 +1892,30 @@
 			"7773",
 			"8417"
 		],
+		"template": "stock001",
+		"title": "Bevölkerungsbestand am Jahresende",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "",
+		"kuerzelKunde": "1.1.A",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "50 Befragungen",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-02-02T09:43:22.2222",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
+		"stufe2": "1.1 Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_000",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -16697,18 +16697,21 @@
 		"id": 6141
 	},
 	{
+		"parentId": 4132,
+		"children": [],
+		"template": "stock001",
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Legislaturplan",
 		"kuerzel": "",
 		"kuerzelKunde": "4.1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-06T09:46:30.3030",
+		"aktualisierungsdatum": "2021-02-02T09:43:40.4040",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
@@ -16716,13 +16719,10 @@
 		"stufe5": "",
 		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "stock001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "04_00_00_00_00_001",
-		"parentId": 4132,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -41967,18 +41967,21 @@
 		"id": 7068
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Privatschulquote",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "",
 		"kuerzel": "I.15.1.07432",
 		"kuerzelKunde": "",
 		"description": "Privatschulquote",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-25T13:28:06.066",
+		"aktualisierungsdatum": "2021-02-02T09:43:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -41986,13 +41989,10 @@
 		"stufe5": "",
 		"lesehilfe": "2018 werden 9,5% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 13,5%.",
 		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
@@ -48144,18 +48144,21 @@
 		"id": 7764
 	},
 	{
+		"parentId": 4132,
+		"children": [],
+		"template": "stock001",
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Richtplan",
 		"kuerzel": "",
 		"kuerzelKunde": "ST 1-1",
 		"description": "Bevölkerungsbestand am Jahresende",
 		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-06T09:46:30.3030",
+		"aktualisierungsdatum": "2021-02-02T09:43:53.5353",
 		"stufe1": "Querschnittsthemen",
 		"stufe2": "Strategie 1: Regionale Sichtweise",
 		"stufe3": "",
@@ -48163,13 +48166,10 @@
 		"stufe5": "",
 		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "stock001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_01_00_00_00_001",
-		"parentId": 4132,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
