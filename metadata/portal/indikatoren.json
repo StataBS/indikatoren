@@ -1847,10 +1847,10 @@
 	{
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.4132",
+		"kuerzel": "",
 		"kuerzelKunde": "1.1.A",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
 		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
@@ -1862,7 +1862,7 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen dem 31.12.2009 und dem 31.12.2019 nahm die Bevölkerung im Kanton Basel-Stadt von 190 815 auf 200 407 Personen zu.",
+		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
 		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
 		"template": "stock001",
 		"darstellungsart": "Diagramm",
@@ -1873,7 +1873,8 @@
 		"children": [
 			"6143",
 			"6297",
-			"7773"
+			"7773",
+			"8417"
 		],
 		"renderLink": [],
 		"quellenangabe": [
@@ -28047,8 +28048,8 @@
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2017 werden 9,7% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 14,2%.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.",
+		"lesehilfe": "2018 werden 9,5% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 13,5%.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
 		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
