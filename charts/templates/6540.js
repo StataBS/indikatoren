@@ -1,6 +1,7 @@
 (function () {
   return {
     chart: {
+      marginRight: 20,
       events: {
         load: function () {
           this.credits.element.onclick = function () { };

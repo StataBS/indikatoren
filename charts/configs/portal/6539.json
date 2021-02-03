@@ -5,22 +5,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          414
+          415
         ],
         [
           "3-Sterne",
-          1400
+          1422
         ],
         [
           "4- und 5-Sterne",
-          1654
+          1695
         ],
         [
           "Nicht klassiert",
-          279
+          280
         ]
       ],
-      "name": "Verfügbare Zimmer 2010",
+      "name": "Verfügbare Zimmer 2011",
       "turboThreshold": 0
     },
     {
@@ -28,22 +28,22 @@
       "data": [
         [
           "1- und 2-Sterne",
-          709
+          547
         ],
         [
           "3-Sterne",
-          1690
+          1436
         ],
         [
           "4- und 5-Sterne",
-          1726
+          1622
         ],
         [
           "Nicht klassiert",
-          342
+          364
         ]
       ],
-      "name": "Verfügbare Zimmer 2019",
+      "name": "Verfügbare Zimmer 2020",
       "turboThreshold": 0
     },
     {
@@ -53,26 +53,27 @@
         "symbol": "diamond",
         "radius": 8
       },
-      "pointPlacement": -10,
+      "pointPlacement": -0.15,
+      "pointRange": 1,
       "data": [
         [
           "1- und 2-Sterne",
-          0.597178579
+          0.570876689
         ],
         [
           "3-Sterne",
-          0.653571322
+          0.644069719
         ],
         [
           "4- und 5-Sterne",
-          0.616250087
+          0.628790092
         ],
         [
           "Nicht klassiert",
-          0.38492143
+          0.353958887
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2010",
+      "name": "Nettozimmerauslastung (rechte Skala) 2011",
       "turboThreshold": 0
     },
     {
@@ -82,26 +83,27 @@
         "symbol": "diamond",
         "radius": 8
       },
-      "pointPlacement": 0.5,
+      "pointPlacement": 0.15,
+      "pointRange": 1,
       "data": [
         [
           "1- und 2-Sterne",
-          0.569354542
+          0.245301806
         ],
         [
           "3-Sterne",
-          0.652387304
+          0.321575429
         ],
         [
           "4- und 5-Sterne",
-          0.681675957
+          0.267331657
         ],
         [
           "Nicht klassiert",
-          0.59698089
+          0.269630952
         ]
       ],
-      "name": "Nettozimmerauslastung (rechte Skala) 2019",
+      "name": "Nettozimmerauslastung (rechte Skala) 2020",
       "turboThreshold": 0
     }
   ],
@@ -293,7 +295,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
