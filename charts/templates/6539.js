@@ -18,7 +18,8 @@
 					symbol: 'diamond',
 					radius: 8
 				},
-				pointPlacement: -10
+				pointPlacement: -0.15, 
+				pointRange: 1
 			},
 			{
 				color: "rgb(139, 34, 35)",
@@ -27,7 +28,8 @@
 					symbol: 'diamond',
 					radius: 8
 				},
-				pointPlacement: .5
+				pointPlacement: 0.15, 
+				pointRange: 1
 			}
 		],
 		xAxis: {

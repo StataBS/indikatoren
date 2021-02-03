@@ -1,6 +1,7 @@
 (function () {
   return {
     chart: {
+      marginRight: 16,
       //width: 665,
       events: {
         load: function () {
@@ -11,14 +12,14 @@
               switch (point.name) {
                 case 'Schweiz': case 'Schweiz': x = 0; y = -3; break; //ent-kommentieren falls gewünscht
                 case 'DE': case 'Deutschland': x = 0; y = -3; break;
-                case 'US': case 'USA': x = 0; y = -3; break;
-                case 'GB': case 'UK': x = 15; y = 25; break;
+                case 'US': case 'USA': x = 30; y = 50; break;
+                case 'GB': case 'UK': x = 25; y = 35; break;
                 case 'FR': case 'Frankreich': x = 15; y = -3; break;
-                case 'IT': case 'Italien': x = 15; y = 20; break;
-                case 'ES': case 'Spanien': x = -10; y = -5; break;
-                case 'NL': case 'Niederlande': x = -10; y = 28; break;
-                case 'IN': case 'Indien': x = 0; y = -5; break;
-                case 'CN': case 'VR China': x = 0; y = -10; break;
+                case 'IT': case 'Italien': x = 25; y = 10; break;
+                case 'ES': case 'Spanien': x = -30; y = 15; break;
+                case 'NL': case 'Niederlande': x = -15; y = -10; break;
+                case 'IN': case 'Indien': x = -15; y = -5; break;
+                case 'CN': case 'VR China': x = 0; y = 35; break;
 
               }
               point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
@@ -34,8 +35,8 @@
     tooltip: {
       useHTML: false,
       pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-        'Anteile am Übernachtungsvolumen 2019:<b> {point.x:,.1f}%</b><br/>' +
-        'Veränderung 2019 gegenüber dem Mittelwert 2008-2012:<b> {point.y}%</b><br/>' +
+        'Anteile am Übernachtungsvolumen 2020:<b> {point.x:,.1f}%</b><br/>' +
+        'Veränderung 2020 gegenüber dem Mittelwert 2009-2013:<b> {point.y}%</b><br/>' +
         'Wachstumsbeitrag:<b> {point.z}%</b>'
     },
     data: {
@@ -85,24 +86,25 @@
       }
     },
     xAxis: {
-      //tickInterval: 5,
-      max: 40,
-      min: 0,
+      tickInterval: 5,
+      max: 55,
+      min: -5,
       labels: {
         format: '{value}%'
       },
       title: {
-        text: 'Anteile am Übernachtungsvolumen 2019'
+        text: 'Anteile am Übernachtungsvolumen 2020'
       }
     },
     yAxis: {
       useHTML: true,
-      min: -50,
+      max: 50,
+      min: -150,
       labels: {
         format: '{value}%'
       },
       title: {
-        text: 'Veränderung Logiernächte 2019 gegenüber Ø 2008<span>-</span>2012'
+        text: 'Veränderung Logiernächte 2020 gegenüber Ø 2009<span>-</span>2013'
       }
     },
     plotOptions: {

@@ -16,18 +16,20 @@
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.5
             },
-            pointPlacement : -0.15
+            pointPlacement : -0.15,
+            pointRange: 1
         },
         {
             color: "rgb(220, 68, 14)",
             type: 'scatter',
             marker: {
                 symbol: 'diamond', 
-                radius: 5
+                radius: 4.5
             },
-            pointPlacement : 0.15
+            pointPlacement : 0.15,
+            pointRange: 1
         }        
   ],
   xAxis: {
@@ -60,8 +62,8 @@
       },
       {
         tickAmount: 6,
-        max: 0.35,
-        tickInterval: 0.07,
+        max: 0.6,
+        /*tickInterval: 0.10,*/
         opposite: true,
         min: 0,
         gridLineColor: '#B9CFD7', 
@@ -115,7 +117,7 @@
         fontWeight: "normal",
         width: 40        
     },
-    width: 200,
+    width: 190,
     itemWidth: 70,    
     symbolRadius: 0,
     labelFormatter: function(){

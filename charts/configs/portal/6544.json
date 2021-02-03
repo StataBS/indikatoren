@@ -4,52 +4,52 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          "Jan 19",
-          1.59776033
+          "Jan 20",
+          1.859707764
         ],
         [
-          "Feb 19",
-          1.609227812
+          "Feb 20",
+          1.572050341
         ],
         [
-          "Mrz 19",
-          1.872654816
+          "Mrz 20",
+          1.998445135
         ],
         [
-          "Apr 19",
-          1.553890017
+          "Apr 20",
+          4.269507187
         ],
         [
-          "Mai 19",
-          1.653797628
+          "Mai 20",
+          2.181380714
         ],
         [
-          "Jun 19",
-          1.739519869
+          "Jun 20",
+          1.677786674
         ],
         [
-          "Jul 19",
-          1.761854063
+          "Jul 20",
+          1.59299916
         ],
         [
-          "Aug 19",
-          1.698299913
+          "Aug 20",
+          1.705490405
         ],
         [
-          "Sep 19",
-          1.603187251
+          "Sep 20",
+          1.62094532
         ],
         [
-          "Okt 19",
-          1.657319164
+          "Okt 20",
+          1.706171805
         ],
         [
-          "Nov 19",
-          1.73410705
+          "Nov 20",
+          1.837993786
         ],
         [
-          "Dez 19",
-          1.548309087
+          "Dez 20",
+          1.975279658
         ]
       ],
       "name": "Inland",
@@ -59,52 +59,52 @@
       "color": "rgb(105, 146, 155)",
       "data": [
         [
-          "Jan 19",
-          1.97041839
+          "Jan 20",
+          1.98440103
         ],
         [
-          "Feb 19",
-          1.949751192
+          "Feb 20",
+          1.964992952
         ],
         [
-          "Mrz 19",
-          2.110608752
+          "Mrz 20",
+          2.104858211
         ],
         [
-          "Apr 19",
-          1.897910032
+          "Apr 20",
+          3.441666667
         ],
         [
-          "Mai 19",
-          2.100867022
+          "Mai 20",
+          2.382613222
         ],
         [
-          "Jun 19",
-          2.171462596
+          "Jun 20",
+          1.819787986
         ],
         [
-          "Jul 19",
-          2.024953637
+          "Jul 20",
+          1.673712838
         ],
         [
-          "Aug 19",
-          1.912870728
+          "Aug 20",
+          1.673429104
         ],
         [
-          "Sep 19",
-          1.9059264
+          "Sep 20",
+          1.713488632
         ],
         [
-          "Okt 19",
-          2.064947204
+          "Okt 20",
+          2.050075491
         ],
         [
-          "Nov 19",
-          2.019997042
+          "Nov 20",
+          2.204556835
         ],
         [
-          "Dez 19",
-          1.870225981
+          "Dez 20",
+          2.001868722
         ]
       ],
       "name": "Ausland",
@@ -185,7 +185,7 @@
     "text": "Mittlere Aufenthaltsdauer pro Monat"
   },
   "subtitle": {
-    "text": "in Tagen, Basel-Stadt, 2019",
+    "text": "in Tagen, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -237,7 +237,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

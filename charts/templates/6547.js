@@ -5,7 +5,7 @@
     },
     yAxis: 
       {
-        min: 90
+        min: 30
       },	
     "tooltip": {
       "shared": false, 

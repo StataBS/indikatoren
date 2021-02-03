@@ -96,7 +96,7 @@
       
      labels: {
   items: [{
-    html: 'innen: Inland<br/>aussen: Ausland',
+    html: 'Innen: Inland<br/>Aussen: Ausland',
     style: {
      left: '300px',
       top: '250px'
