@@ -29,7 +29,11 @@
         '4- und 5-Sterne',
         'Nicht klassiert'
     ],
-      "labels": {
+        labels:{
+          "formatter": function() {
+            return this.value.replace("1- und 2-Sterne", "1- und 2-<br/>Sterne")
+                            .replace("4- und 5-Sterne", "4- und 5-<br/>Sterne")
+        },
         rotation: 0  
         //"format": "{value}%"
 	  }

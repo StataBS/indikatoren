@@ -142,6 +142,18 @@
         [
           "2019: Erlenmatt",
           6.01843
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Messe",
+          3.19231
+        ],
+        [
+          "2020: Erlenmatt",
+          6.71231
         ]
       ],
       "name": "Grünfläche",
@@ -288,6 +300,18 @@
         ],
         [
           "2019: Erlenmatt",
+          0.24255
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Messe",
+          null
+        ],
+        [
+          "2020: Erlenmatt",
           0.24255
         ]
       ],
@@ -436,6 +460,18 @@
         [
           "2019: Erlenmatt",
           4.4404
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Messe",
+          17.227
+        ],
+        [
+          "2020: Erlenmatt",
+          4.75
         ]
       ],
       "name": "Gebäude",
@@ -583,6 +619,18 @@
         [
           "2019: Erlenmatt",
           7.90971
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Messe",
+          9.2699
+        ],
+        [
+          "2020: Erlenmatt",
+          8.0554
         ]
       ],
       "name": "Verkehrsfläche",
@@ -730,6 +778,18 @@
         [
           "2019: Erlenmatt",
           7.6574
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Messe",
+          7.4074
+        ],
+        [
+          "2020: Erlenmatt",
+          6.5081
         ]
       ],
       "name": "Übrige befestigte Flächen",
@@ -872,13 +932,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} ha\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7699
+    "filename": "7699"
   }
 }

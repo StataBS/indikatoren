@@ -4,11 +4,11 @@
       "color": "rgb(237, 226, 208)",
       "data": [
         [
-          "2010",
+          "2011",
           8
         ],
         [
-          "2019",
+          "2020",
           9
         ]
       ],
@@ -19,11 +19,11 @@
       "color": "rgb(197, 171, 146)",
       "data": [
         [
-          "2010",
+          "2011",
           27
         ],
         [
-          "2019",
+          "2020",
           25
         ]
       ],
@@ -34,12 +34,12 @@
       "color": "rgb(159, 124, 90)",
       "data": [
         [
-          "2010",
+          "2011",
           15
         ],
         [
-          "2019",
-          18
+          "2020",
+          19
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -49,12 +49,12 @@
       "color": "rgb(138, 138, 138)",
       "data": [
         [
-          "2010",
-          17
+          "2011",
+          16
         ],
         [
-          "2019",
-          11
+          "2020",
+          13
         ]
       ],
       "name": "Nicht klassiert",
@@ -271,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "dataLabels": {
     "enabled": false,

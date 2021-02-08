@@ -3,77 +3,138 @@
     {
       "data": [
         {
-          "x": 33.5,
-          "y": 55.2,
-          "z": 45.9,
+          "x": 51.2,
+          "y": -10.4,
+          "z": 6.2,
           "name": "Schweiz",
           "color": "rgb(176, 0, 0)"
         },
         {
-          "x": 14.4,
-          "y": 6.9,
-          "z": 3.6,
+          "x": 16.5,
+          "y": -53.1,
+          "z": 19.4,
           "name": "Deutschland",
           "color": "rgb(255, 128, 40)"
         },
         {
-          "x": 10,
-          "y": 42.4,
-          "z": 11.5,
+          "x": 3.6,
+          "y": -81.1,
+          "z": 16.2,
           "name": "USA",
           "color": "rgb(115, 186, 124)"
         },
         {
-          "x": 6.3,
-          "y": 10.4,
-          "z": 2.3,
+          "x": 3.7,
+          "y": -75.1,
+          "z": 11.6,
           "name": "UK",
           "color": "rgb(180, 117, 171)"
         },
         {
-          "x": 4,
-          "y": 20.4,
-          "z": 2.6,
+          "x": 4.9,
+          "y": -44.9,
+          "z": 4.2,
           "name": "Frankreich",
           "color": "rgb(8, 161, 217)"
         },
         {
-          "x": 3.1,
-          "y": 4.7,
-          "z": 0.5,
+          "x": 2.2,
+          "y": -72.2,
+          "z": 5.9,
           "name": "Italien",
           "color": "rgb(131, 82, 46)"
         },
         {
-          "x": 2.4,
-          "y": 37.2,
-          "z": 2.5,
+          "x": 1.3,
+          "y": -70.5,
+          "z": 3.2,
           "name": "Spanien",
           "color": "rgb(255, 232, 70)"
         },
         {
-          "x": 2.3,
-          "y": 8.7,
-          "z": 0.7,
+          "x": 2.7,
+          "y": -49.5,
+          "z": 2.8,
           "name": "Niederlande",
           "color": "rgb(60, 60, 60)"
         },
         {
-          "x": 1.5,
-          "y": 108.2,
-          "z": 3.1,
+          "x": 0.8,
+          "y": -62.4,
+          "z": 1.4,
           "name": "Indien",
           "color": "rgb(0, 122, 47)"
         },
         {
-          "x": 2.7,
-          "y": 180.4,
-          "z": 6.6,
+          "x": 0.4,
+          "y": -84.2,
+          "z": 2.4,
           "name": "VR China",
           "color": "rgb(103, 39, 115)"
         }
       ],
       "name": "Herkunftsland"
+    },
+    {
+      "name": "Massstab",
+      "animation": true,
+      "type": "mapline",
+      "data": [
+        {
+          "path": [
+            [
+              "M",
+              2587000,
+              -1249000
+            ],
+            [
+              "L",
+              2587000,
+              -1248600
+            ],
+            [
+              "L",
+              2587000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1249000
+            ],
+            [
+              "L",
+              2592000,
+              -1248600
+            ]
+          ],
+          "name": undefined,
+          "properties": {}
+        }
+      ],
+      "color": "black",
+      "tooltip": {
+        "pointFormatter": function () {
+                        return '<br/>';
+                    }
+      },
+      "dataLabels": {
+        "enabled": true,
+        "formatter": function () {
+                        return '5 km';
+                    },
+        "style": {
+          "fontSize": "12px",
+          "fontWeight": "normal",
+          "color": "black"
+        },
+        "y": -10
+      }
     }
   ],
   "chart": {
@@ -85,15 +146,15 @@
                             var x = 0, y = 0;
                             switch (point.name) {
                                 //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
-                                case 'DE': case 'Deutschland':    x = 10; y = -3; break;
-                                //case 'US': case 'USA':            x = 0; y = 0; break;
-                                case 'GB': case 'UK': x = 20; y = 40; break;
-                                case 'FR': case 'Frankreich': x = 12; y = -3; break;
-                                case 'IT': case 'Italien': x = 12; y = 40; break;
-                                case 'ES': case 'Spanien': x = -20; y = 12; break;
-                                case 'NL': case 'Niederlande': x = -11; y = 35; break;
-                                //case 'CN': case 'VR China':       x = 0; y = 0; break;
-                                case 'IN': case 'Indien': x = 0; y = 3; break;
+                                case 'DE': case 'Deutschland':    x = 5; y = -3; break;
+                                case 'US': case 'USA':            x = 30; y = 70; break;
+                                case 'GB': case 'UK': x = 40; y = 35; break;
+                                case 'FR': case 'Frankreich': x = 30; y = 0; break;
+                                case 'IT': case 'Italien': x = 20; y = 40; break;
+                                case 'ES': case 'Spanien': x = -30; y = 30; break;
+                                case 'NL': case 'Niederlande': x = -15; y = -5; break;
+                                case 'CN': case 'VR China':       x = 0; y = 55; break;
+								case 'IN': case 'Indien': x = -15; y = 5; break;
                             }
                             point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
                         });
@@ -103,113 +164,40 @@
     "borderColor": "#fbfbfb",
     "backgroundColor": "#fbfbfb",
     "width": 665,
-    "height": 221,
-    "spacing": [
-      10,
-      2,
-      2,
-      2
-    ],
+    "height": 518,
+    "spacingBottom": 35,
     "style": {
       "fontFamily": "Arial"
     },
-    "type": "bubble",
-    "renderTo": "container-7983",
-    "spacingBottom": 12
-  },
-  "plotOptions": {
-    "series": {
-      "marker": {
-        "fillOpacity": 1
-      }
-    },
-    "bubble": {
-      "label": {
-        "enabled": true
-      },
-      "dataLabels": {
-        "enabled": true,
-        "style": {
-          "fontSize": "10px",
-          "color": "black",
-          "fontWeight": "normal",
-          "textShadow": "none",
-          "textOutline": false
-        },
-        "formatter": function() {
-					//only return last word
-					return this.key.replace("Nieder", "Nieder-<br>"); //Umbruch, falls gewünscht;
-					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
-					/*return Highcharts.numberFormat((this.point.z,.1f)%,*/					
-					 },
-        "inside": false,
-        "y": -15,
-        "padding": 0,
-        "overflow": false,
-        "crop": false,
-        "format": "\u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E{point.z:,.1f}%",
-        "x": 0,
-        "allowOverlap": true
-      },
-      "sizeBy": "area",
-      "maxSize": "30%",
-      "minSize": "8"
-    }
+    "type": "map",
+    "inverted": false,
+    "marginRight": 16,
+    "renderTo": "container-7983"
   },
   "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "fontFamily": "Arial",
+      "color": "#000000"
+    },
+    "align": "left",
     "text": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2019"
-  },
-  "yAxis": {
-    "gridLineColor": "#B9CFD7",
-    "gridLineWidth": 0.5,
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "text": "Veränderung Logiernächte 2019 gegenüber Ø 2008\u003Cspan\u003E-\u003C\u002Fspan\u003E2012"
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "fontFamily": "Arial",
+      "color": "#000000"
     },
-    "labels": {
-      "y": 3,
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "format": "{value}%"
-    },
-    "min": -50,
-    "useHTML": true,
-    "tickInterval": 50
-  },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "title": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000"
-      },
-      "text": ""
-    },
-    "labels": {
-      "style": {
-        "fontSize": "10px",
-        "color": "#000000",
-        "textOverflow": null
-      },
-      "format": "{value}%"
-    },
-    "tickLength": 0,
-    "max": 40,
-    "min": 0
+    "text": "Basel-Stadt, 2020",
+    "align": "left"
   },
   "credits": {
     "enabled": true,
     "style": {
-      "color": "black",
+      "color": "#000000",
       "fontSize": "10px",
       "cursor": "default"
     },
@@ -219,21 +207,110 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+  },
+  "colorAxis": {
+    "min": 0,
+    "gridLineColor": "#fbfbfb",
+    "gridLineWidth": 1,
+    "labels": {
+      "style": {
+        "color": "black",
+        "cursor": "default",
+        "fontSize": "11px",
+        "textOverflow": "none"
+      }
+    },
+    "marker": {
+      "color": "black"
+    }
+  },
+  "mapNavigation": {
+    "enabled": true,
+    "buttonOptions": {
+      "align": "left",
+      "verticalAlign": "bottom"
+    }
   },
   "legend": {
-    "enabled": false,
-    "symbolRadius": 0
+    "useHTML": false,
+    "enabled": true,
+    "align": "left",
+    "y": -350,
+    "floating": true,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "title": {
+      "style": {
+        "fontWeight": "normal",
+        "fontSize": "12px"
+      }
+    }
+  },
+  "customFunctions": {
+    "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass) {
+                return chart.renderer.rect(x, y, width, height).attr({
+                    'stroke-width': 0,
+                    fill: fill,
+                    zIndex: 6,
+                    class: cssClass
+                }).add();
+            }
   },
   "tooltip": {
     "useHTML": false,
-    "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EAnteile am Übernachtungsvolumen 2019:\u003Cb\u003E {point.x}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EVeränderung 2019 gegenüber dem Mittelwert 2008-2012:\u003Cb\u003E {point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EWachstumsbeitrag:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E",
-    "footerFormat": "\u003C\u002Ftable\u003E",
-    "followPointer": true
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003EAnteile am Übernachtungsvolumen 2020:\u003Cb\u003E {point.x}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EVeränderung 2020 gegenüber dem Mittelwert 2009-2013:\u003Cb\u003E {point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003EWachstumsbeitrag:\u003Cb\u003E {point.z}%\u003C\u002Fb\u003E"
+  },
+  "xAxis": {
+    "tickInterval": 5,
+    "max": 60,
+    "min": -5,
+    "labels": {
+      "format": "{value}%"
+    }
+  },
+  "yAxis": {
+    "useHTML": true,
+    "min": -150,
+    "tickInterval": 50,
+    "labels": {
+      "format": "{value}%"
+    },
+    "title": {
+      "text": "Veränderung Logiernächte 2020 gegenüber Ø 2009\u003Cspan\u003E-\u003C\u002Fspan\u003E2013"
+    }
+  },
+  "plotOptions": {
+    "series": {},
+    "bubble": {
+      "sizeBy": "area",
+      "maxSize": "30%",
+      "minSize": "8",
+      "label": {
+        "enabled": true
+      },
+      "dataLabels": {
+        "format": "\u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E{point.z:,.1f}%",
+        "formatter": function() {
+					//only return last word
+					return this.key.replace("Nieder", "Nieder-<br>"); //Umbruch, falls gewünscht;
+					//return Highcharts.numberFormat(this.point.y, 0, ",", " ") // I dont't want to display a number but a character
+					/*return Highcharts.numberFormat((this.point.z,.1f)%,*/					
+					 },
+        "style": {
+          "fontSize": "10px",
+          "color": "black",
+          "fontWeight": "normal",
+          "textOutline": false
+        },
+        "x": 0,
+        "y": -15,
+        "allowOverlap": true
+      }
+    }
   },
   "exporting": {
-    "enabled": false,
     "filename": "7983"
   }
 }

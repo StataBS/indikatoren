@@ -17,7 +17,7 @@ global Highcharts
     {
       min: 0.0,
       tickInterval: 0.5, 
-      max: 3.5,
+      //max: 3.5,
       //tickAmount: 8,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,

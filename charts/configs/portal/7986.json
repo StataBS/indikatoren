@@ -16,50 +16,50 @@
       "data": [
         [
           "Schweiz",
-          303631
+          306478
         ],
         [
           "Deutschland",
-          202343
-        ],
-        [
-          "Vereinigte Staaten",
-          103871
-        ],
-        [
-          "Vereinigtes Königreich",
-          79124
+          195333
         ],
         [
           "Frankreich",
-          48297
+          47407
         ],
         [
-          "Italien",
-          45183
+          "Vereinigtes Königreich",
+          83728
         ],
         [
-          "Spanien",
-          24543
+          "Vereinigte Staaten",
+          107913
         ],
         [
           "Niederlande",
-          32733
+          29277
+        ],
+        [
+          "Italien",
+          42214
+        ],
+        [
+          "Spanien",
+          23998
         ],
         [
           "Indien",
-          9782
+          12612
         ],
         [
           "VR China",
-          13059
+          15713
         ],
         [
           "Übrige Länder",
-          208515
+          214630
         ]
       ],
-      "name": "Logiernächte 2010",
+      "name": "Logiernächte 2011",
       "turboThreshold": 0
     },
     {
@@ -77,50 +77,50 @@
       "data": [
         [
           "Schweiz",
-          476777
+          279513
         ],
         [
           "Deutschland",
-          205433
-        ],
-        [
-          "Vereinigte Staaten",
-          142448
-        ],
-        [
-          "Vereinigtes Königreich",
-          89254
+          90319
         ],
         [
           "Frankreich",
-          57187
+          26947
         ],
         [
-          "Italien",
-          44035
+          "Vereinigtes Königreich",
+          20242
         ],
         [
-          "Spanien",
-          34040
+          "Vereinigte Staaten",
+          19906
         ],
         [
           "Niederlande",
-          32692
+          14930
+        ],
+        [
+          "Italien",
+          11987
+        ],
+        [
+          "Spanien",
+          7064
         ],
         [
           "Indien",
-          21913
+          4388
         ],
         [
           "VR China",
-          37920
+          2365
         ],
         [
           "Übrige Länder",
-          281787
+          68245
         ]
       ],
-      "name": "Logiernächte 2019",
+      "name": "Logiernächte 2020",
       "turboThreshold": 0
     },
     {
@@ -132,53 +132,54 @@
         "radius": 4.8
       },
       "pointPlacement": -0.15,
+      "pointRange": 1,
       "data": [
         [
           "Schweiz",
-          0.283480895
+          0.283959184770171
         ],
         [
           "Deutschland",
-          0.188914751
-        ],
-        [
-          "Vereinigte Staaten",
-          0.096977726
-        ],
-        [
-          "Vereinigtes Königreich",
-          0.073873031
+          0.180980688462832
         ],
         [
           "Frankreich",
-          0.045091828
+          0.0439237174361602
         ],
         [
-          "Italien",
-          0.042184485
+          "Vereinigtes Königreich",
+          0.0775759911720805
         ],
         [
-          "Spanien",
-          0.022914233
+          "Vereinigte Staaten",
+          0.0999839711369282
         ],
         [
           "Niederlande",
-          0.030560714
+          0.027125839546448
+        ],
+        [
+          "Italien",
+          0.0391122789429845
+        ],
+        [
+          "Spanien",
+          0.0222347199998518
         ],
         [
           "Indien",
-          0.009132829
+          0.0116853191365168
         ],
         [
           "VR China",
-          0.012192355
+          0.0145584696790429
         ],
         [
           "Übrige Länder",
-          0.194677153
+          0.198859819716984
         ]
       ],
-      "name": "Marktanteile (rechte Skala) 2010",
+      "name": "Marktanteile (rechte Skala) 2011",
       "turboThreshold": 0
     },
     {
@@ -190,53 +191,54 @@
         "radius": 4.8
       },
       "pointPlacement": 0.15,
+      "pointRange": 1,
       "data": [
         [
           "Schweiz",
-          0.334936206
+          0.512016720827395
         ],
         [
           "Deutschland",
-          0.144316839
-        ],
-        [
-          "Vereinigte Staaten",
-          0.100069829
-        ],
-        [
-          "Vereinigtes Königreich",
-          0.062701003
+          0.1654478976234
         ],
         [
           "Frankreich",
-          0.040173911
+          0.0493619780694845
         ],
         [
-          "Italien",
-          0.030934621
+          "Vereinigtes Königreich",
+          0.0370796437481911
         ],
         [
-          "Spanien",
-          0.023913126
+          "Vereinigte Staaten",
+          0.0364641531692269
         ],
         [
           "Niederlande",
-          0.022966155
+          0.0273490307855199
+        ],
+        [
+          "Italien",
+          0.0219579927679857
+        ],
+        [
+          "Spanien",
+          0.0129399566958414
         ],
         [
           "Indien",
-          0.015393899
+          0.00803801387051983
         ],
         [
           "VR China",
-          0.026638829
+          0.00433224767633988
         ],
         [
           "Übrige Länder",
-          0.197955582
+          0.125012364766095
         ]
       ],
-      "name": "Marktanteile (rechte Skala) 2019",
+      "name": "Marktanteile (rechte Skala) 2020",
       "turboThreshold": 0
     }
   ],
@@ -353,9 +355,9 @@
   },
   "yAxis": [
     {
-      "tickAmount": 7,
-      "max": 600000,
-      "tickInterval": 100000,
+      "tickAmount": 6,
+      "max": 400000,
+      "tickInterval": 80000,
       "gridLineColor": "#B6CFD7",
       "gridLineWidth": 0.35,
       "lineColor": "#B6CFD7",
@@ -377,10 +379,10 @@
       }
     },
     {
-      "tickAmount": 7,
+      "tickAmount": 6,
       "allowDecimals": false,
-      "max": 0.36,
-      "tickInterval": 0.06,
+      "max": 0.6,
+      "tickInterval": 0.12,
       "opposite": true,
       "min": 0,
       "gridLineColor": "#B6CFD7",
@@ -457,7 +459,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "dataLabels": {
     "enabled": false,
