@@ -1392,6 +1392,24 @@ id | visible | visibleInPortal | indikatorenset
 8092 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8093 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
 8094 | true | true | Stadtteilmonitoring Klybeck-Kleinhüningen
+8095 | true | false | City-Statistics (Print)
+8096 | true | false | City-Statistics (Print)
+8097 | true | false | City-Statistics (Print)
+8098 | true | false | City-Statistics (Print)
+8100 | true | false | City-Statistics (Print)
+8101 | true | false | City-Statistics (Print)
+8102 | true | false | City-Statistics (Print)
+8104 | true | false | City-Statistics (Print)
+8105 | true | false | City-Statistics (Print)
+8106 | true | false | City-Statistics (Print)
+8108 | true | false | City-Statistics (Print)
+8109 | true | false | City-Statistics (Print)
+8110 | true | false | City-Statistics (Print)
+8111 | true | false | City-Statistics (Print)
+8112 | true | false | City-Statistics (Print)
+8113 | true | false | City-Statistics (Print)
+8114 | true | false | City-Statistics (Print)
+8115 | true | false | City-Statistics (Print)
 8240 | true | true | CMS Kennzahlen Soziales
 8241 | true | false | CMS Kennzahlen Soziales
 8242 | true | true | CMS Kennzahlen Soziales
@@ -1977,6 +1995,14 @@ id | visible | visibleInPortal | indikatorenset
 9197 | true | true | City-Statistics
 9199 | true | true | City-Statistics
 9200 | true | true | City-Statistics
+9203 | true | false | City-Statistics (Print)
+9204 | true | false | City-Statistics (Print)
+9205 | true | false | City-Statistics (Print)
+9206 | true | false | City-Statistics (Print)
+9207 | true | false | City-Statistics (Print)
+9208 | true | false | City-Statistics (Print)
+9209 | true | false | City-Statistics (Print)
+9210 | false |  | City-Statistics (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

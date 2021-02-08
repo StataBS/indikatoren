@@ -2412,31 +2412,33 @@ var indikatorensetData = [
 		"id": 6056
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8946"
+		],
+		"template": "line001",
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.3.6434",
-		"kuerzelKunde": "NL13",
+		"kuerzelKunde": "NL12",
 		"description": "Jahresmitteltemperatur",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Witterung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-03T15:02:22.2222",
+		"aktualisierungsdatum": "2021-02-08T08:44:54.5454",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2019 11,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
-		"template": "line001",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2020 12,2 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_02_00_00_00_413",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"

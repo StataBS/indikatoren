@@ -142,6 +142,18 @@
         [
           "2019: Kleinhüningen",
           30.2706
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          11.3449
+        ],
+        [
+          "2020: Kleinhüningen",
+          30.132
         ]
       ],
       "name": "Grünfläche",
@@ -288,6 +300,18 @@
         ],
         [
           "2019: Kleinhüningen",
+          1.66673
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          1.93146
+        ],
+        [
+          "2020: Kleinhüningen",
           1.66673
         ]
       ],
@@ -436,6 +460,18 @@
         [
           "2019: Kleinhüningen",
           22.4198
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          25.0262
+        ],
+        [
+          "2020: Kleinhüningen",
+          22.2783
         ]
       ],
       "name": "Gebäude",
@@ -583,6 +619,18 @@
         [
           "2019: Kleinhüningen",
           28.1078
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          21.9523
+        ],
+        [
+          "2020: Kleinhüningen",
+          28.1077
         ]
       ],
       "name": "Verkehrsfläche",
@@ -730,6 +778,18 @@
         [
           "2019: Kleinhüningen",
           52.641
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          31.7669
+        ],
+        [
+          "2020: Kleinhüningen",
+          52.9212
         ]
       ],
       "name": "Übrige befestigte Flächen",
@@ -875,13 +935,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.2f} ha\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8080
+    "filename": "8080"
   }
 }

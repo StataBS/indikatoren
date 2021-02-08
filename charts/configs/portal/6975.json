@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1024235792,
-          "Anzahl": 11419
+          "y": 0.104200215,
+          "Anzahl": 11712
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2358998278,
-          "Anzahl": 26300
+          "y": 0.237066166,
+          "Anzahl": 26646
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3707663605,
-          "Anzahl": 41336
+          "y": 0.369736386,
+          "Anzahl": 41558
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1743416332,
-          "Anzahl": 19437
+          "y": 0.17342681,
+          "Anzahl": 19493
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0635315011,
-          "Anzahl": 7083
+          "y": 0.062865328,
+          "Anzahl": 7066
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0530370982,
-          "Anzahl": 5913
+          "y": 0.052705095,
+          "Anzahl": 5924
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.0295241735,
-          "Anzahl": 309
+          "y": 0.029422931,
+          "Anzahl": 310
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.1098796102,
-          "Anzahl": 1150
+          "y": 0.111427487,
+          "Anzahl": 1174
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.3137779476,
-          "Anzahl": 3284
+          "y": 0.31340167,
+          "Anzahl": 3302
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.2698261036,
-          "Anzahl": 2824
+          "y": 0.268128322,
+          "Anzahl": 2825
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.1486718899,
-          "Anzahl": 1556
+          "y": 0.14977221,
+          "Anzahl": 1578
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.1283202752,
-          "Anzahl": 1343
+          "y": 0.12784738,
+          "Anzahl": 1347
         }
       ],
       "name": "Riehen",
@@ -227,6 +227,6 @@
     "data-id": 6956
   },
   "exporting": {
-    "filename": 6975
+    "filename": "6975"
   }
 }

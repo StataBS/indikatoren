@@ -55,6 +55,10 @@
         [
           2019,
           2315
+        ],
+        [
+          2020,
+          2315
         ]
       ],
       "name": "Freiraumfläche Messe"
@@ -115,6 +119,10 @@
         [
           2019,
           0.62
+        ],
+        [
+          2020,
+          0.62
         ]
       ],
       "name": "Anteil Freiraumfläche Messe (rechte Skala)"
@@ -174,6 +182,10 @@
         [
           2019,
           29789
+        ],
+        [
+          2020,
+          29778
         ]
       ],
       "name": "Freiraumfläche Erlenmatt"
@@ -233,6 +245,10 @@
         ],
         [
           2019,
+          11.34
+        ],
+        [
+          2020,
           11.34
         ]
       ],
@@ -372,7 +388,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

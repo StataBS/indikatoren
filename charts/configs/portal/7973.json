@@ -5,26 +5,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          51.7369863
+          51.90650685
         ],
         [
           "3-Sterne",
-          51.86402841
+          52.66595637
         ],
         [
           "4- und 5-Sterne",
-          110.290411
+          113
         ],
         [
           "Nicht klassiert",
-          16.38323932
+          17.48270548
         ],
         [
-          "",
-          undefined
+          "Total",
+          57.75691158
         ]
       ],
-      "name": "2010",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
@@ -32,26 +32,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          78.7500761
+          60.7671524
         ],
         [
           "3-Sterne",
-          67.60317808
+          57.42688525
         ],
         [
           "4- und 5-Sterne",
-          95.90030441
+          85.3783434
         ],
         [
           "Nicht klassiert",
-          31.08667497
+          28.00903741
         ],
         [
-          "",
-          undefined
+          "Total",
+          60.13458354
         ]
       ],
-      "name": "2019",
+      "name": "2020",
       "turboThreshold": 0
     },
     {
@@ -68,26 +68,26 @@
       "data": [
         [
           "1- und 2-Sterne",
-          62.39108962
+          63.29410623
         ],
         [
           "3-Sterne",
-          57.38712445
+          57.94341013
         ],
         [
           "4- und 5-Sterne",
-          103.6447238
+          101.153517
         ],
         [
           "Nicht klassiert",
-          19.73215544
+          20.89473525
         ],
         [
-          "",
-          undefined
+          "Total",
+          63.37002101
         ]
       ],
-      "name": "Ø 2010-2019",
+      "name": "Ø 2011-2020",
       "turboThreshold": 0
     }
   ],
@@ -107,6 +107,10 @@
         "color": "#000000",
         "textOverflow": "none"
       },
+      "formatter": function() {
+            return this.value.replace("1- und 2-Sterne", "1- und 2-<br/>Sterne")
+                            .replace("4- und 5-Sterne", "4- und 5-<br/>Sterne")
+        },
       "rotation": 0
     },
     "tickLength": 0,
@@ -304,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "dataLabels": {
     "enabled": false,

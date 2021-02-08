@@ -1,14 +1,14 @@
-﻿"Monat"	"Meldepflichtig 2019"	"Nicht meldepflichtig 2019"	"Meldepflichtig 2020"	"Nicht meldepflichtig 2020"
-"Jan"	1115	329	1128	559
-"Feb"	774	354	1162	498
-"Mrz"	767	387	615	423
-"Apr"	696	392	123	541
-"Mai"	713	373	3	610
-"Jun"	674	385	461	720
-"Jul"	695	371	887	714
-"Aug"	743	305	812	528
-"Sep"	794	340	725	488
-"Okt"	841	361	594	425
-"Nov"	635	363	578	379
-"Dez"	882	431	496	429
+﻿"Monat"	"Meldepflichtig 2020"	"Nicht meldepflichtig 2020"	"Meldepflichtig 2021"	"Nicht meldepflichtig 2021"
+"Jan"	1128	559	788	388
+"Feb"	1162	498		
+"Mrz"	615	423		
+"Apr"	123	541		
+"Mai"	3	610		
+"Jun"	461	720		
+"Jul"	887	714		
+"Aug"	812	528		
+"Sep"	725	488		
+"Okt"	594	425		
+"Nov"	578	379		
+"Dez"	496	429		
 

@@ -6,46 +6,46 @@
       "data": [
         [
           "Deutschland",
-          62.9
+          61.3
         ],
         [
           "Italien",
-          94.4
+          94.2
         ],
         [
           "Türkei",
-          62
+          70.3
         ],
         [
-          "EU-17 + EFTA",
-          77.8
+          "EU-West + EFTA + UK",
+          75.7
         ],
         [
           "EU-Ost",
-          39.9
+          60.9
         ],
         [
           "Balkan",
-          63.7
+          68.4
         ],
         [
           "Mittel- und Südamerika",
-          37.5
+          36.7
         ],
         [
           "Arabische Länder",
-          40.8
+          42.3
         ],
         [
           "Afrikanische Länder",
-          38.7
+          36.4
         ],
         [
           "Übrige Länder",
-          33.2
+          35.3
         ]
       ],
-      "name": "2000",
+      "name": "2001",
       "turboThreshold": 0
     },
     {
@@ -54,46 +54,46 @@
       "data": [
         [
           "Deutschland",
-          62
+          61.9
         ],
         [
           "Italien",
-          72.2
+          71.7
         ],
         [
           "Türkei",
-          83
+          82.2
         ],
         [
-          "EU-17 + EFTA",
+          "EU-West + EFTA + UK",
           58.2
         ],
         [
           "EU-Ost",
-          21.3
+          30.8
         ],
         [
           "Balkan",
-          81.1
+          80.5
         ],
         [
           "Mittel- und Südamerika",
-          41.1
+          39.8
         ],
         [
           "Arabische Länder",
-          27.7
+          27.4
         ],
         [
           "Afrikanische Länder",
-          38.6
+          37.5
         ],
         [
           "Übrige Länder",
-          35.8
+          35.6
         ]
       ],
-      "name": "2019",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -172,7 +172,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Ausländer mit Niederlassungsbewilligung"
+    "text": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung"
   },
   "subtitle": {
     "text": "nach Staatsangehörigkeit, Basel-Stadt",
@@ -230,7 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

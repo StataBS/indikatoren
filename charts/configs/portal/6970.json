@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1024235792,
-          "Anzahl": 11419
+          "y": 0.104200215,
+          "Anzahl": 11712
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2358998278,
-          "Anzahl": 26300
+          "y": 0.237066166,
+          "Anzahl": 26646
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3707663605,
-          "Anzahl": 41336
+          "y": 0.369736386,
+          "Anzahl": 41558
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1743416332,
-          "Anzahl": 19437
+          "y": 0.17342681,
+          "Anzahl": 19493
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0635315011,
-          "Anzahl": 7083
+          "y": 0.062865328,
+          "Anzahl": 7066
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0530370982,
-          "Anzahl": 5913
+          "y": 0.052705095,
+          "Anzahl": 5924
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.0425263158,
-          "Anzahl": 202
+          "y": 0.040531982,
+          "Anzahl": 192
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.1410526316,
-          "Anzahl": 670
+          "y": 0.140173105,
+          "Anzahl": 664
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.4635789474,
-          "Anzahl": 2202
+          "y": 0.465695588,
+          "Anzahl": 2206
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.2235789474,
-          "Anzahl": 1062
+          "y": 0.223770319,
+          "Anzahl": 1060
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.0863157895,
-          "Anzahl": 410
+          "y": 0.086763775,
+          "Anzahl": 411
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 0.0429473684,
+          "y": 0.043065231,
           "Anzahl": 204
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Hirzbrunnen, 2019",
+    "text": "Hirzbrunnen, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "pointFormatter": function(){
@@ -227,6 +227,6 @@
     "data-id": 6956
   },
   "exporting": {
-    "filename": 6970
+    "filename": "6970"
   }
 }

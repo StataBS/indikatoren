@@ -23,9 +23,9 @@
       },
       "yAxis": {
           min: 0,
-          max: 140000,
+          max: 120000,
           reversedStacks: false, 
-          tickAmount: 6
+          tickAmount: 5
       },
       "series": [
         {

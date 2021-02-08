@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1024235792,
-          "Anzahl": 11419
+          "y": 0.104200215,
+          "Anzahl": 11712
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2358998278,
-          "Anzahl": 26300
+          "y": 0.237066166,
+          "Anzahl": 26646
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3707663605,
-          "Anzahl": 41336
+          "y": 0.369736386,
+          "Anzahl": 41558
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1743416332,
-          "Anzahl": 19437
+          "y": 0.17342681,
+          "Anzahl": 19493
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0635315011,
-          "Anzahl": 7083
+          "y": 0.062865328,
+          "Anzahl": 7066
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0530370982,
-          "Anzahl": 5913
+          "y": 0.052705095,
+          "Anzahl": 5924
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.1433341283,
-          "Anzahl": 601
+          "y": 0.145238095,
+          "Anzahl": 610
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.2353923205,
-          "Anzahl": 987
+          "y": 0.237142857,
+          "Anzahl": 996
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.375149058,
-          "Anzahl": 1573
+          "y": 0.372380952,
+          "Anzahl": 1564
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.1430956356,
-          "Anzahl": 600
+          "y": 0.142142857,
+          "Anzahl": 597
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.0603386597,
-          "Anzahl": 253
+          "y": 0.06047619,
+          "Anzahl": 254
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Gotthelf",
-          "y": 0.0426901979,
+          "y": 0.042619048,
           "Anzahl": 179
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Gotthelf, 2019",
+    "text": "Gotthelf, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "pointFormatter": function(){
@@ -227,6 +227,6 @@
     "data-id": 6956
   },
   "exporting": {
-    "filename": 6964
+    "filename": "6964"
   }
 }
