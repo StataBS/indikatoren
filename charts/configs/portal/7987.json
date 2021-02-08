@@ -4,19 +4,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          73283
+          31917
         ],
         [
           "3-Sterne",
-          205128
+          117372
         ],
         [
           "4- und 5-Sterne",
-          140333
+          94119
         ],
         [
           "Nicht klassiert",
-          58033
+          36105
         ]
       ],
       "showInLegend": false,
@@ -52,19 +52,19 @@
       "data": [
         [
           "1- und 2-Sterne",
-          133974
+          33355
         ],
         [
           "3-Sterne",
-          324125
+          90875
         ],
         [
           "4- und 5-Sterne",
-          424721
+          118816
         ],
         [
           "Nicht klassiert",
-          63889
+          23347
         ]
       ],
       "showInLegend": true,
@@ -180,7 +180,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "tooltip": {
@@ -201,7 +201,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "legend": {
     "padding": 0,
@@ -226,7 +226,7 @@
   "labels": {
     "items": [
       {
-        "html": "innen: Inland\u003Cbr\u002F\u003Eaussen: Ausland",
+        "html": "Innen: Inland\u003Cbr\u002F\u003EAussen: Ausland",
         "style": {
           "left": "200px",
           "top": "150px",

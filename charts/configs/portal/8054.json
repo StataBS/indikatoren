@@ -5,48 +5,64 @@
       "visible": true,
       "data": [
         [
-          "2014: Kleinhüningen",
-          -46
+          "2015: Klybeck",
+          -69
         ],
         [
           "2015: Kleinhüningen",
           -33
         ],
         [
-          "2016: Kleinhüningen",
-          -39
-        ],
-        [
-          "2017: Kleinhüningen",
-          -39
-        ],
-        [
-          "2018: Kleinhüningen",
-          -22
-        ],
-        [
           " ",
-          undefined
-        ],
-        [
-          "2014: Klybeck",
-          -39
-        ],
-        [
-          "2015: Klybeck",
-          -69
+          null
         ],
         [
           "2016: Klybeck",
           -63
         ],
         [
+          "2016: Kleinhüningen",
+          -39
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
           "2017: Klybeck",
           -36
         ],
         [
+          "2017: Kleinhüningen",
+          -39
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
           "2018: Klybeck",
           -36
+        ],
+        [
+          "2018: Kleinhüningen",
+          -22
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          -60
+        ],
+        [
+          "2019: Kleinhüningen",
+          -37
+        ],
+        [
+          "    ",
+          null
         ]
       ],
       "name": "Schweiz. Aggl. BS",
@@ -57,48 +73,64 @@
       "visible": true,
       "data": [
         [
-          "2014: Kleinhüningen",
-          -12
+          "2015: Klybeck",
+          15
         ],
         [
           "2015: Kleinhüningen",
           15
         ],
         [
-          "2016: Kleinhüningen",
-          -8
-        ],
-        [
-          "2017: Kleinhüningen",
-          0
-        ],
-        [
-          "2018: Kleinhüningen",
-          -4
-        ],
-        [
           " ",
-          undefined
-        ],
-        [
-          "2014: Klybeck",
-          20
-        ],
-        [
-          "2015: Klybeck",
-          15
+          null
         ],
         [
           "2016: Klybeck",
           -24
         ],
         [
+          "2016: Kleinhüningen",
+          -8
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
           "2017: Klybeck",
           32
         ],
         [
+          "2017: Kleinhüningen",
+          0
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
           "2018: Klybeck",
           -13
+        ],
+        [
+          "2018: Kleinhüningen",
+          -4
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          4
+        ],
+        [
+          "2019: Kleinhüningen",
+          -15
+        ],
+        [
+          "    ",
+          null
         ]
       ],
       "name": "Übrige Schweiz",
@@ -109,48 +141,64 @@
       "visible": true,
       "data": [
         [
-          "2014: Kleinhüningen",
-          62
+          "2015: Klybeck",
+          98
         ],
         [
           "2015: Kleinhüningen",
           48
         ],
         [
-          "2016: Kleinhüningen",
-          56
-        ],
-        [
-          "2017: Kleinhüningen",
-          24
-        ],
-        [
-          "2018: Kleinhüningen",
-          30
-        ],
-        [
           " ",
-          undefined
-        ],
-        [
-          "2014: Klybeck",
-          96
-        ],
-        [
-          "2015: Klybeck",
-          98
+          null
         ],
         [
           "2016: Klybeck",
           115
         ],
         [
+          "2016: Kleinhüningen",
+          56
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
           "2017: Klybeck",
           82
         ],
         [
+          "2017: Kleinhüningen",
+          24
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
           "2018: Klybeck",
           146
+        ],
+        [
+          "2018: Kleinhüningen",
+          30
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          94
+        ],
+        [
+          "2019: Kleinhüningen",
+          21
+        ],
+        [
+          "    ",
+          null
         ]
       ],
       "name": "Ausland",
@@ -161,48 +209,64 @@
       "visible": true,
       "data": [
         [
-          "2014: Kleinhüningen",
-          -26
+          "2015: Klybeck",
+          -52
         ],
         [
           "2015: Kleinhüningen",
           -23
         ],
         [
-          "2016: Kleinhüningen",
-          -16
-        ],
-        [
-          "2017: Kleinhüningen",
-          -15
-        ],
-        [
-          "2018: Kleinhüningen",
-          -19
-        ],
-        [
           " ",
-          undefined
-        ],
-        [
-          "2014: Klybeck",
-          -59
-        ],
-        [
-          "2015: Klybeck",
-          -52
+          null
         ],
         [
           "2016: Klybeck",
           -60
         ],
         [
+          "2016: Kleinhüningen",
+          -16
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
           "2017: Klybeck",
           -51
         ],
         [
+          "2017: Kleinhüningen",
+          -15
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
           "2018: Klybeck",
           -47
+        ],
+        [
+          "2018: Kleinhüningen",
+          -19
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          -28
+        ],
+        [
+          "2019: Kleinhüningen",
+          -12
+        ],
+        [
+          "    ",
+          null
         ]
       ],
       "name": "Unbekannt",
@@ -213,48 +277,64 @@
       "visible": true,
       "data": [
         [
-          "2014: Kleinhüningen",
-          -22
+          "2015: Klybeck",
+          -8
         ],
         [
           "2015: Kleinhüningen",
           7
         ],
         [
-          "2016: Kleinhüningen",
-          -7
-        ],
-        [
-          "2017: Kleinhüningen",
-          -30
-        ],
-        [
-          "2018: Kleinhüningen",
-          -15
-        ],
-        [
           " ",
-          undefined
-        ],
-        [
-          "2014: Klybeck",
-          18
-        ],
-        [
-          "2015: Klybeck",
-          -8
+          null
         ],
         [
           "2016: Klybeck",
           -32
         ],
         [
+          "2016: Kleinhüningen",
+          -7
+        ],
+        [
+          "  ",
+          null
+        ],
+        [
           "2017: Klybeck",
           27
         ],
         [
+          "2017: Kleinhüningen",
+          -30
+        ],
+        [
+          "   ",
+          null
+        ],
+        [
           "2018: Klybeck",
           50
+        ],
+        [
+          "2018: Kleinhüningen",
+          -15
+        ],
+        [
+          "    ",
+          null
+        ],
+        [
+          "2019: Klybeck",
+          10
+        ],
+        [
+          "2019: Kleinhüningen",
+          -43
+        ],
+        [
+          "    ",
+          null
         ]
       ],
       "name": "Total",
@@ -395,13 +475,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8054
+    "filename": "8054"
   }
 }

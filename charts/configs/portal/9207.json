@@ -1,0 +1,514 @@
+{
+  "series": [
+    {
+      "color": "#2F656B",
+      "legendIndex": 0,
+      "data": [
+        [
+          "Basel",
+          5024.99308641829
+        ],
+        [
+          "Bern",
+          7709
+        ],
+        [
+          "Genf",
+          4871.12105044219
+        ],
+        [
+          "Lausanne",
+          5065
+        ],
+        [
+          "Zürich",
+          9374
+        ],
+        [
+          "Frankfurt a. M.",
+          6874
+        ],
+        [
+          "Freiburg i. Br.",
+          7220
+        ],
+        [
+          "Karlsruhe",
+          2557
+        ],
+        [
+          "München",
+          11693
+        ],
+        [
+          "Stuttgart",
+          11504
+        ],
+        [
+          "Lille",
+          4628
+        ],
+        [
+          "Lyon",
+          5906
+        ],
+        [
+          "Metz",
+          1581
+        ],
+        [
+          "Paris",
+          16148
+        ],
+        [
+          "Strassburg",
+          3827
+        ],
+        [
+          "Mailand",
+          null
+        ],
+        [
+          "Bologna",
+          null
+        ],
+        [
+          "Lissabon",
+          19912
+        ],
+        [
+          "Porto",
+          5350
+        ],
+        [
+          "Barcelona",
+          5678
+        ],
+        [
+          "Madrid",
+          15634
+        ],
+        [
+          "London",
+          null
+        ]
+      ],
+      "name": "1. Sektor",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#BAA85A",
+      "legendIndex": 1,
+      "data": [
+        [
+          "Basel",
+          118438.130243052
+        ],
+        [
+          "Bern",
+          42388
+        ],
+        [
+          "Genf",
+          66034.9989923602
+        ],
+        [
+          "Lausanne",
+          37543
+        ],
+        [
+          "Zürich",
+          126818
+        ],
+        [
+          "Frankfurt a. M.",
+          247151
+        ],
+        [
+          "Freiburg i. Br.",
+          74686
+        ],
+        [
+          "Karlsruhe",
+          87209
+        ],
+        [
+          "München",
+          280285
+        ],
+        [
+          "Stuttgart",
+          429620
+        ],
+        [
+          "Lille",
+          92098
+        ],
+        [
+          "Lyon",
+          181341
+        ],
+        [
+          "Metz",
+          29308
+        ],
+        [
+          "Paris",
+          764102
+        ],
+        [
+          "Strassburg",
+          68948
+        ],
+        [
+          "Mailand",
+          519193
+        ],
+        [
+          "Bologna",
+          91462
+        ],
+        [
+          "Lissabon",
+          188140
+        ],
+        [
+          "Porto",
+          124505
+        ],
+        [
+          "Barcelona",
+          406867
+        ],
+        [
+          "Madrid",
+          491194
+        ],
+        [
+          "London",
+          307700
+        ]
+      ],
+      "name": "2. Sektor",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "legendIndex": 2,
+      "data": [
+        [
+          "Basel",
+          345526.726392403
+        ],
+        [
+          "Bern",
+          270867
+        ],
+        [
+          "Genf",
+          401743.342619684
+        ],
+        [
+          "Lausanne",
+          225000
+        ],
+        [
+          "Zürich",
+          828349
+        ],
+        [
+          "Frankfurt a. M.",
+          1243636
+        ],
+        [
+          "Freiburg i. Br.",
+          249416
+        ],
+        [
+          "Karlsruhe",
+          317827
+        ],
+        [
+          "München",
+          1424350
+        ],
+        [
+          "Stuttgart",
+          1056977
+        ],
+        [
+          "Lille",
+          513647
+        ],
+        [
+          "Lyon",
+          771851
+        ],
+        [
+          "Metz",
+          126686
+        ],
+        [
+          "Paris",
+          5153892
+        ],
+        [
+          "Strassburg",
+          284778
+        ],
+        [
+          "Mailand",
+          1535525
+        ],
+        [
+          "Bologna",
+          247443
+        ],
+        [
+          "Lissabon",
+          1033877
+        ],
+        [
+          "Porto",
+          388722
+        ],
+        [
+          "Barcelona",
+          1886724
+        ],
+        [
+          "Madrid",
+          2950059
+        ],
+        [
+          "London",
+          6395600
+        ]
+      ],
+      "name": "3. Sektor",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickLength": 0
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 665,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9207",
+    "spacingBottom": 22
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "bold"
+    },
+    "align": "left",
+    "text": "Beschäftigte nach Wirtschaftssektor"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "fontFamily": "Arial"
+    },
+    "text": "Anteile an der Gesamtbeschäftigung, 2018",
+    "align": "left"
+  },
+  "yAxis": {
+    "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "text": ""
+    },
+    "labels": {
+      "y": 3,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    },
+    "tickAmount": 6,
+    "reversedStacks": false
+  },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    }
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": true
+  },
+  "exporting": {
+    "filename": "9207"
+  }
+}

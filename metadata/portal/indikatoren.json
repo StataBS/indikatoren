@@ -7357,34 +7357,34 @@
 		"id": 4825
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5113"
+		],
+		"template": "dotplot",
 		"title": "Gymnasialquote",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.15.6.4826",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"thema": "15 Bildung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-10T11:43:21.2121",
+		"aktualisierungsdatum": "2021-02-08T08:44:48.4848",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Spitzenwert wird mit 65,9% im Schuljahr 2019/20 auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert wie bereits im Vorjahr das Wohnviertel Klybeck (15,7%). Insgesamt weisen 2019 elf Wohnviertel und die beiden Landgemeinden eine gegenüber 2018 tiefere Gymnasialquote auf (dies wohl nicht zuletzt als Folge des erschwerten Zugangs zum progymnasialen Leistungszug P an der Sekundarschule). In sieben Wohnvierteln ist die Quote gestiegen. Auf dem Bruderholz ist sie unverändert geblieben.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und -Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
-		"template": "dotplot",
+		"lesehilfe": "Der Spitzenwert wird mit sehr hohen 69,0% (2019/20 65,9%) im Schuljahr 2020/21 wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2019/20 ebenfalls unverändert - das Wohnviertel Klybeck mit 20,0% (2019/20 15,7%). Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie 7 städtischen Vierteln gesunken, in 12 Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_01_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"5113"
-		],
 		"renderLink": [
 			"5113"
 		],
@@ -7445,35 +7445,35 @@
 		"id": 4827
 	},
 	{
-		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.4828",
-		"kuerzelKunde": "GS-7.A",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-10T11:58:33.3333",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
-		"template": "dotplot",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5115",
 			"6373"
 		],
+		"template": "dotplot",
+		"title": "Sesshaftigkeit",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "I.01.1.4828",
+		"kuerzelKunde": "GS-7.A",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2021-02-08T08:44:49.4949",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Gesellschaft und Soziales",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_01_00_00_00_007",
 		"renderLink": [
 			"5115",
 			"6373"
@@ -9218,32 +9218,32 @@
 		"id": 4909
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"subtitle": "",
+		"kennzahlenset": "",
 		"kuerzel": "I.05.1.4911",
 		"kuerzelKunde": "",
 		"description": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
 		"thema": "05 Preise",
 		"unterthema": "Basler Index der Konsumentenpreise",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-23T07:45:12.1212",
+		"aktualisierungsdatum": "2021-02-08T08:44:50.5050",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Auch 2019 lag die mittlere Jahresteuerung des Basler Index leicht über derjenigen des Landesindex. Dies ist namentlich auf die Entwicklung der Basler Mietpreise zurückzuführen.",
-		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2019 entspricht der Veränderungsrate zwischen dem Jahresmittel 2019 und dem Jahresmittel 2018.",
-		"template": "template001",
+		"lesehilfe": "Seit fünf Jahren liegt die mittlere Jahresteuerung des Basler Index leicht über derjenigen des Landesindex. Dies ist namentlich auf die Entwicklung der Basler Mietpreise zurückzuführen.",
+		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -9461,18 +9461,21 @@
 		"darstellungsart": "Diagramm"
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Grundpfandbelastung",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"kuerzel": "I.12.1.4919",
+		"kennzahlenset": "",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Grundpfandbelastung",
-		"thema": "12 Finanzmärkte",
+		"thema": "50 Befragungen",
 		"unterthema": "Grundpfandbelastung",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T11:37:56.5656",
+		"aktualisierungsdatum": "2021-02-08T08:44:51.5151",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -9480,13 +9483,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die Grundpfandbelastung ist im Kanton Basel-Stadt seit 1990 Jahr für Jahr gestiegen.",
 		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -9962,32 +9962,32 @@
 		"id": 5112
 	},
 	{
+		"parentId": 4826,
+		"children": [],
+		"template": "map001",
 		"title": "Gymnasialquote",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.15.6.05113",
 		"kuerzelKunde": "GS-5.B",
 		"description": "Gymnasialquote",
 		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-11T08:24:50.5050",
+		"aktualisierungsdatum": "2021-02-08T08:44:52.5252",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Spitzenwert wird mit 65,9% im Schuljahr 2019/20 auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert wie bereits im Vorjahr das Wohnviertel Klybeck (15,7%). Insgesamt weisen 2019 elf Wohnviertel und die beiden Landgemeinden eine gegenüber 2018 tiefere Gymnasialquote auf (dies wohl nicht zuletzt als Folge des erschwerten Zugangs zum progymnasialen Leistungszug P an der Sekundarschule). In sieben Wohnvierteln ist die Quote gestiegen. Auf dem Bruderholz ist sie unverändert geblieben.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und -Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
-		"template": "map001",
+		"lesehilfe": "Der Spitzenwert wird mit sehr hohen 69,0% (2019/20 65,9%) im Schuljahr 2020/21 wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2019/20 ebenfalls unverändert - das Wohnviertel Klybeck mit 20,0% (2019/20 15,7%). Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie 7 städtischen Vierteln gesunken, in 12 Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_005",
-		"parentId": 4826,
-		"children": [],
 		"renderLink": [
 			"4826"
 		],
@@ -10049,32 +10049,32 @@
 		"id": 5114
 	},
 	{
+		"parentId": 4828,
+		"children": [],
+		"template": "map001",
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.05115",
 		"kuerzelKunde": "GS-7.B",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-11T08:23:01.011",
+		"aktualisierungsdatum": "2021-02-08T08:44:53.5353",
 		"stufe1": "Teil 3: Karten",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
-		"template": "map001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_01_00_00_00_007",
-		"parentId": 4828,
-		"children": [],
 		"renderLink": [
 			"4828"
 		],
@@ -13682,34 +13682,34 @@
 		"id": 6072
 	},
 	{
-		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
+		"parentId": null,
+		"children": [
+			"6658"
+		],
+		"template": "template001",
+		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6073",
 		"kuerzelKunde": "A3-3",
-		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
+		"description": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T11:31:57.5757",
+		"aktualisierungsdatum": "2021-02-08T08:44:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2019 die Türken mit 83,0%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (81,1%) und Italien (72,2%). Im Vergleich zum Jahr 2000 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2020 die Türken mit 82,2%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (80,5%) und Italien (71,7%). Im Vergleich zum Jahr 2001 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_303",
-		"parentId": null,
-		"children": [
-			"6658"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -19499,32 +19499,34 @@
 		"id": 6432
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8946"
+		],
+		"template": "line001",
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.3.6434",
-		"kuerzelKunde": "NL13",
+		"kuerzelKunde": "NL12",
 		"description": "Jahresmitteltemperatur",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Witterung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-03T15:02:22.2222",
+		"aktualisierungsdatum": "2021-02-08T08:44:54.5454",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2019 11,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M; 47°33&#039; N / 7°35&#039; E).",
-		"template": "line001",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2020 12,2 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_02_00_00_00_413",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
@@ -26466,18 +26468,21 @@
 		"id": 6955
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Grossbasel, 2019",
+		"subtitle": "Altstadt Grossbasel, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06956",
 		"kuerzelKunde": "RU-01.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
+		"aktualisierungsdatum": "2021-02-08T08:44:55.5555",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -26485,13 +26490,10 @@
 		"stufe5": "",
 		"lesehilfe": "Im Vergleich zum Gesamtkanton sind im Wohnviertel Altstadt Grossbasel die Anteile der Einzimmer- und Zweizimmerwohnungen grösser.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_001",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26506,18 +26508,21 @@
 		"id": 6956
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Vorstädte, 2019",
+		"subtitle": "Vorstädte, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06957",
 		"kuerzelKunde": "RU-02.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
+		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -26525,13 +26530,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Vorstädte am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich häufiger Einzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_002",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26546,32 +26548,32 @@
 		"id": 6957
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Am Ring, 2019",
+		"subtitle": "Am Ring, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06958",
 		"kuerzelKunde": "RU-03.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
+		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
+		"lesehilfe": "Im Wohnviertel Am Ring ist die Verteilung ähnlich wie im Gesamtkanton, ausser bei den Einzimmerwohnungen, deren Anteil höher ist und bei den Dreizimmerwohnungen, deren Anteil tiefer ausfällt. Am häufigsten gibt es Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_003",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26586,32 +26588,32 @@
 		"id": 6958
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Breite, 2019",
+		"subtitle": "Breite, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06959",
 		"kuerzelKunde": "RU-04.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-03T08:40:28.2828",
+		"aktualisierungsdatum": "2021-02-08T08:44:57.5757",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit sechs und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Im Wohnviertel Breite liegt der Anteil der Dreizimmerwohnungen deutlich und der Anteil der Zweizimmerwohnungen leicht über dem kantonalen Durchschnitt. Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_004",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26626,18 +26628,21 @@
 		"id": 6959
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Alban, 2019",
+		"subtitle": "St. Alban, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06960",
 		"kuerzelKunde": "RU-05.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:44:58.5858",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -26645,13 +26650,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Alban am häufigsten Dreizimmerwohnungen. Allerdings ist im Vergleich zum Gesamtkanton der Anteil Wohnungen mit vier und mehr Zimmern höher. Wohnungen mit ein und zwei Zimmern sind seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_005",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26666,32 +26668,32 @@
 		"id": 6960
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gundeldingen, 2019",
+		"subtitle": "Gundeldingen, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06961",
 		"kuerzelKunde": "RU-06.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern etwas niedriger.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Gundeldingen am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Der Anteil an Wohnungen mit bis zu drei Zimmern ist etwas höher als im kantonalen Vergleich, der von Wohnungen mit vier und mehr Zimmern niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_006",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26706,32 +26708,32 @@
 		"id": 6961
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bruderholz, 2019",
+		"subtitle": "Bruderholz, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06962",
 		"kuerzelKunde": "RU-07.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen höheren Anteil an Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Ein- und Zweizimmerwohnungen.",
+		"lesehilfe": "Im Vergleich zum Gesamtkanton gibt es im Wohnviertel Bruderholz einen markant höheren Anteil an Wohnungen mit sechs und mehr Zimmern. Auch Wohnungen mit vier und fünf Zimmern gibt es häufiger als im kantonalen Durchschnitt. Dafür gibt es deutlich seltener Ein- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_007",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26746,18 +26748,21 @@
 		"id": 6962
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Bachletten, 2019",
+		"subtitle": "Bachletten, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06963",
 		"kuerzelKunde": "RU-08.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:00.000",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -26765,13 +26770,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Bachletten am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton häufiger Wohnungen mit fünf und mehr Zimmern. Dafür gibt es seltener Wohnungen mit ein und zwei Zimmern.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_008",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26786,32 +26788,32 @@
 		"id": 6963
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Gotthelf, 2019",
+		"subtitle": "Gotthelf, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06964",
 		"kuerzelKunde": "RU-09.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:01.011",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Drei- und Zweizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Einzimmerwohnungen sind anteilmässig stärker vertreten.",
+		"lesehilfe": "Der Anteil Zwei- und Dreizimmerwohnungen im Wohnviertel Gotthelf entspricht dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen ist im Gesamtvergleich etwas höher.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_009",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26826,32 +26828,32 @@
 		"id": 6964
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Iselin, 2019",
+		"subtitle": "Iselin, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06965",
 		"kuerzelKunde": "RU-10.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:02.022",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit fünf und mehr Zimmern gibt es seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Iselin am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Insbesondere der Anteil an Zweizimmerwohnungen ist deutlich höher als im Gesamtkanton. Wohnungen mit vier und mehr Zimmern gibt es seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_010",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26866,32 +26868,32 @@
 		"id": 6965
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "St. Johann, 2019",
+		"subtitle": "St. Johann, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06966",
 		"kuerzelKunde": "RU-11.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit fünf und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel St. Johann am häufigsten Dreizimmerwohnungen, gefolgt von Zwei- und Vierzimmerwohnungen. Wohnungen mit vier und mehr Zimmern gibt es im kantonalen Vergleich etwas seltener.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_011",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26906,18 +26908,21 @@
 		"id": 6966
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Altstadt Kleinbasel, 2019",
+		"subtitle": "Altstadt Kleinbasel, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06967",
 		"kuerzelKunde": "RU-12.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -26925,13 +26930,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Altstadt Kleinbasel am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich mehr Ein- und Zweizimmerwohnungen.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_012",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26946,32 +26948,32 @@
 		"id": 6967
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Clara, 2019",
+		"subtitle": "Clara, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06968",
 		"kuerzelKunde": "RU-13.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:04.044",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Clara am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Clara am häufigsten Dreizimmerwohnungen. Allerdings gibt es im Vergleich zum Gesamtkanton deutlich höhere Anteile bei den Zwei- und insbesondere bei den Einzimmerwohnungen. Wohnungen mit sechs und mehr Zimmern sind kaum vertreten.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_013",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -26986,18 +26988,21 @@
 		"id": 6968
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Wettstein, 2019",
+		"subtitle": "Wettstein, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06969",
 		"kuerzelKunde": "RU-14.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:05.055",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -27005,13 +27010,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Wettstein am häufigsten Dreizimmerwohnungen. Der Anteil liegt allerdings deutlich über dem kantonalen Durchschnitt. Der Anteil an Einzimmerwohnungen dagegen ist niedriger.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_014",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -27026,18 +27028,21 @@
 		"id": 6969
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Hirzbrunnen, 2019",
+		"subtitle": "Hirzbrunnen, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06970",
 		"kuerzelKunde": "RU-15.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
+		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -27045,13 +27050,10 @@
 		"stufe5": "",
 		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Hirzbrunnen am häufigsten Dreizimmerwohnungen. Deren Anteil allerdings liegt deutlich über dem kantonalen Durchschnitt, bei den Ein- und Zweizimmerwohnungen dagegen darunter.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_015",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -27066,32 +27068,32 @@
 		"id": 6970
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl und Wohnviertel",
-		"subtitle": "Rosental, 2019",
+		"subtitle": "Rosental, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06971",
 		"kuerzelKunde": "RU-16.E",
 		"description": "Wohnungen nach Zimmerzahl und Wohnviertel",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-01-24T08:39:34.3434",
+		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Der Anteil der Zweizimmerwohnungen ist fast gleich gross und liegt damit deutlich über dem kantonalen Vergleichswert.",
+		"lesehilfe": "Wie im Gesamtkanton gibt es im Wohnviertel Rosental am häufigsten Dreizimmerwohnungen. Der Anteil der Zweizimmerwohnungen hingegen ist fast gleich gross und liegt damit deutlich über dem kantonalen Vergleichswert.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_03_03_00_00_016",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -28071,32 +28073,32 @@
 		"id": 7432
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.07510",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-11T09:52:33.3333",
+		"aktualisierungsdatum": "2021-02-08T08:45:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist in den letzten zwölf Monaten spürbar gestiegen und liegt aktuell bei 4,3%. Die Jugendarbeitslosenquote ist zwar wieder tiefer als im Sommer 2020, liegt aber immer noch deutlich höher als ein Jahr zuvor. Auch die Arbeitslosenquote der Personen ab 50 Jahren hat gegenüber dem Vorjahr zugenommen, sie liegt aber weiterhin unter dem Durchschnitt der Gesamtbevölkerung.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist in den letzten zwölf Monaten spürbar gestiegen und liegt aktuell bei 4,4%. Die Jugendarbeitslosenquote ist zwar wieder tiefer als im Sommer 2020, liegt aber immer noch deutlich höher als ein Jahr zuvor. Auch die Arbeitslosenquote der Personen ab 50 Jahren hat gegenüber dem Vorjahr zugenommen, sie liegt aber weiterhin unter dem Durchschnitt der Gesamtbevölkerung.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_007",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -28111,32 +28113,32 @@
 		"id": 7510
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.03.4.07511",
 		"kuerzelKunde": "",
 		"description": "Gemeldete offene Stellen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T08:18:11.1111",
+		"aktualisierungsdatum": "2021-02-08T08:45:08.088",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie bei knapp über 1 000. Parallel zum Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Von Juni bis September war die Zahl der gemeldeten offenen Stellen höher als im Vorjahr, seit Oktober ist sie hingegen wieder tiefer.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Ende März lag sie bei knapp über 1 000. Parallel zum Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Nachdem im Juni und Juli 2020 die Zahl der offenen Stellen markant gestiegen ist, war sie bis Dezember rückläufig. Im Januar 2021 waren in Basel-Stadt fast 1200 Stellen offen.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen COVID-19 und seinen Folgen hat der Bundesrat die Stellenmeldepflicht für die Zeit vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_006",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -30755,34 +30757,34 @@
 		"id": 7698
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7937"
+		],
+		"template": "template001",
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Bezirksfläche, Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.02.1.07699",
 		"kuerzelKunde": "7.01",
 		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:04.044",
+		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2019: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: die «übrigen befestigen Flächen» haben sich verringert (2008: 59,3%; 2019: 29,2%) und die Grünflächen zugenommen (2008: 2,8%; 2019: 22,9%).",
+		"lesehilfe": "Im Bezirk Messe ist über den gesamten betrachteten Zeitraum der Grossteil des Bodens mit Gebäuden bedeckt (2020: 46,4%). Im Bezirk Erlenmatt zeigt sich die Transformation hin zu einem Wohngebiet: Die «Übrigen befestigten Flächen» haben sich verringert (2008: 59,3%; 2020: 24,8%) und die Grünflächen haben zugenommen (2008: 2,8%; 2020: 25,6%).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7937"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -30797,34 +30799,34 @@
 		"id": 7699
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7938"
+		],
+		"template": "template001",
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.02.1.07700",
 		"kuerzelKunde": "7.02",
 		"description": "Grünflächen nach Kategorie",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:06.066",
+		"aktualisierungsdatum": "2021-02-08T08:45:09.099",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2019 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
+		"lesehilfe": "Im Bezirk Messe macht die Bodenbedeckungsart «Gartenanlagen» den Grossteil der Grünflächen aus (2020 rund 25 800 m<sup>2</sup>). Im Bezirk Erlenmatt erfolgte 2016 fast eine Verdopplung der Grünflächen von rund 33 200 auf 57 500 m<sup>2</sup>.",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7938"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -31096,34 +31098,34 @@
 		"id": 7708
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7947"
+		],
+		"template": "line001",
 		"title": "Freiraumfläche",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.02.1.07709",
 		"kuerzelKunde": "7.03",
 		"description": "Freiraumfläche",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:09.099",
+		"aktualisierungsdatum": "2021-02-08T08:45:10.1010",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt waren 2019 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6%.",
+		"lesehilfe": "Im Bezirk Erlenmatt waren 2020 11,3% der Bezirksfläche Freiraumflächen, im Bezirk Messe nur 0,6% (Stadt Basel: 2,85%).",
 		"erlaeuterungen": "Im Bezirk Erlenmatt wurden im abgebildeten Zeitraum durch die Umnutzung des ehemaligen Bahnareals zu Wohngebieten auch neue Freiraumflächen geschaffen. Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von sechs bis zwölf Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7947"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -32357,34 +32359,34 @@
 		"id": 7774
 	},
 	{
-		"title": "Bauzonen",
-		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
-		"kuerzel": "I.09.1.07775",
-		"kuerzelKunde": "ST 1-3",
-		"description": "Bauzonen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-03-16T11:23:27.2727",
-		"stufe1": "Sachgebiet Querschnittsthemen",
-		"stufe2": "Strategie 1: Regionale Sichtweise",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2018 um 0,3 Prozentpunkte höher als 2005. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt gar 0,7 Prozentpunkte höher als noch 2005.",
-		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_003",
 		"parentId": null,
 		"children": [
 			"8419"
 		],
+		"template": "template001",
+		"title": "Bauzonen",
+		"subtitle": "indexiert (2005 = 100), Basel-Stadt",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
+		"kuerzelKunde": "ST 1-3",
+		"description": "Bauzonen",
+		"thema": "50 Befragungen",
+		"unterthema": "Gebäude und Wohnungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-02-08T08:45:11.1111",
+		"stufe1": "Querschnittsthemen",
+		"stufe2": "Strategie 1: Regionale Sichtweise",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Bauzonenfläche im Kanton Basel-Stadt ist 2020 im Vergleich zu 2005 um 0,04 Indexpunkte kleiner. Die Fläche der Bauzonen mit potenzieller Wohnnutzung liegt bei 100,96 Indexpunkten.",
+		"erlaeuterungen": "Zonen gemäss Zonenplan Basel-Stadt und Zonenplan Gemeinde Riehen (revidiert auf 1.1.2017). Bauzonen: Zonen 2 bis 7 einschliesslich 2a, 5a und Stadt- und Dorfbild-Schutz- und Schonzone sowie die Riehener Arbeitszonen und Zone 2R. Bauzonen mit potenzieller Wohnnutzung: ohne Zonen mit reiner Arbeitsnutzung (Basel: «Zone 7 Industrie- und Gewerbezone»; Riehen: Arbeitszonen).",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "01_01_00_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -33283,19 +33285,24 @@
 		"id": 8047
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8618"
+		],
+		"template": "line001",
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.1.07667",
 		"kuerzelKunde": "2.03",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2021-02-08T08:45:25.2525",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -33303,15 +33310,10 @@
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck ist der Jugendquotient zwischen 2000 und 2019 von 34,0 auf 28,1 gesunken. Im Wohnviertel Kleinhüningen hat der Jugendquotient zwischen 2000 und 2018 leicht zugenommen (von 31,8 auf 32,2). Im Jahr 2019 ist er jedoch auf 31,7 gesunken. In der Stadt Basel lag der Jugendquotient im Jahr 2000 bei 27,0, im Jahr 2019 bei 25,3.",
 		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8618"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -33537,34 +33539,34 @@
 		"id": 8053
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8624"
+		],
+		"template": "template001",
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.5.07673",
 		"kuerzelKunde": "2.09",
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-02-08T08:45:25.2525",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2014 bis 2018 kamen im Wohnviertel Klybeck häufiger positive als negative Wanderungssaldi zustande, im Wohnviertel Kleinhüningen verhielt es sich umgekehrt. Bei beiden sind allfällige Wanderungsgewinne jeweils hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen und ihre Bilanzen gegenüber der Agglomeration Basel waren stets negativ. In der Stadt Basel kamen die positiven Wanderungsbilanzen für die Jahre 2014 bis 2018 ebenfalls hauptsächlich aufgrund der Zuzüge aus dem Ausland zustande.",
+		"lesehilfe": "In den Jahren 2015 bis 2019 kamen im Wohnviertel Klybeck häufiger positive als negative Wanderungssaldi zustande, im Wohnviertel Kleinhüningen verhielt es sich umgekehrt. Bei beiden sind allfällige Wanderungsgewinne jeweils hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen und ihre Bilanzen gegenüber der Agglomeration Basel waren stets negativ. In der Stadt Basel kamen die positiven Wanderungsbilanzen für die Jahre 2015 bis 2019 ebenfalls hauptsächlich aufgrund der Zuzüge aus dem Ausland zustande.",
 		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"8624"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34632,34 +34634,34 @@
 		"id": 8079
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8650"
+		],
+		"template": "template001",
 		"title": "Bodenbedeckung nach Nutzungsart",
 		"subtitle": "Anteil an der Gesamtfläche, Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.02.1.07699",
 		"kuerzelKunde": "7.01",
 		"description": "Bodenbedeckung nach Nutzungsart",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2021-02-08T08:45:26.2626",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2019 16,6% (22,42 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 27,2% (25,02 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2019: 22,4% zu 12,3%).",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen waren 2020 16,5% (22,28 ha) des Bodens mit Gebäuden bedeckt, im Wohnviertel Klybeck 27,2% (25,03 ha). Seit 2013 weist Kleinhüningen einen grösseren Anteil an Grünflächen auf als Klybeck (2020: 22,3% zu 12,3%).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Befestigte Flächen sind: Bahn-, Tram-, Hafen- und Fabrikareale; Strassen, Wege, Trottoirs und Verkehrsinseln; Wasserbecken und befestigtes Gewässervorland; befestigte Sportanlagen; übrige befestigte Flächen. Unter Gewässer fallen sowohl stehende als auch fliessende Gewässer. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8650"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -34674,34 +34676,34 @@
 		"id": 8080
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8651"
+		],
+		"template": "template001",
 		"title": "Grünflächen nach Kategorie",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.02.1.07700",
 		"kuerzelKunde": "7.02",
 		"description": "Grünflächen nach Kategorie",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2021-02-08T08:45:27.2727",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2019 ein Grossteil (rund 230 500 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 885 m<sup>2</sup> auf die Kategorie «Gartenanlage». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (74 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen entfiel im Jahr 2020 ein Grossteil (rund 233 000 m<sup>2</sup>) der Grünflächen auf die Bodenbedeckungsart «Übrige humusierte» und nur 4 885 m<sup>2</sup> auf die Kategorie «Parkanlage/Spielplatz». Das Klybeck weist in der Summe weniger Grünflächen auf, dafür mehr in den Kategorien «Gartenanlage» (74 000 m<sup>2</sup>) und «Parkanlage/Spielplatz» (23 400 m<sup>2</sup>).",
 		"erlaeuterungen": "Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, Übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, Übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8651"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -35101,34 +35103,34 @@
 		"id": 8093
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8663"
+		],
+		"template": "template001",
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.5.07764",
 		"kuerzelKunde": "2.10",
 		"description": "Umzugssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-02-08T08:45:28.2828",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2018 zusammen, ergibt sich ein Umzugsverlust von 141; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für die Jahre ein Umzugsgewinn von 233 Personen.",
+		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2019 zusammen, ergibt sich ein Umzugsverlust von 212; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 237 Personen.",
 		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"8663"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -40703,32 +40705,32 @@
 		"id": 8970
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.03.4.08980",
 		"kuerzelKunde": "",
 		"description": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T08:20:11.1111",
+		"aktualisierungsdatum": "2021-02-08T08:45:43.4343",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Mai 2020 ist die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, grösser als 4 000. Die Arbeitslosigkeit ist damit deutlich höher als in den Vorjahren. Die Zahl der Langzeitarbeitslosen ist im laufenden Jahr stark gestiegen. Sie liegt im Dezember 2020 bei 929 Personen, was 21,1% der Arbeitslosen entspricht.",
+		"lesehilfe": "Seit Mai 2020 ist die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, grösser als 4 000. Ende Januar 2021 sind gut 4 500 Personen arbeitslos. Die Arbeitslosigkeit ist damit deutlich höher als in den Vorjahren. Die Zahl der Langzeitarbeitslosen hat sich in den letzten zwölf Monaten ungefähr verdoppelt und liegt seit Dezember 2020 bei über 900 Personen, was rund 21% der Arbeitslosen entspricht.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -40743,32 +40745,32 @@
 		"id": 8980
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.03.4.08981",
 		"kuerzelKunde": "",
 		"description": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-11T10:05:43.4343",
+		"aktualisierungsdatum": "2021-02-08T08:45:44.4444",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Anfang der COVID-19-Pandemie im März 2020 sind die Arbeitslosenzahlen in Basel-Stadt im Vergleich zum Vorjahr stets höher, nachdem sie von April 2017 bis Februar 2020 im Vorjahresvergleich jeweils tiefer waren. Ende Dezember 2020 sind 1 155 Personen mehr arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Seit Anfang der COVID-19-Pandemie im März 2020 sind die Arbeitslosenzahlen in Basel-Stadt im Vergleich zum Vorjahr stets höher, nachdem sie von April 2017 bis Februar 2020 im Vorjahresvergleich jeweils tiefer waren. Ende Januar 2021 sind 1 165 Personen mehr arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -40863,32 +40865,32 @@
 		"id": 8991
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "stock001",
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.08992",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T08:19:40.4040",
+		"aktualisierungsdatum": "2021-02-08T08:45:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung der COVID-19-Pandemie (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April und Mai lag am höchsten und betraf rund 95 000 Personen. Im Juni, Juli und August lag der Wert immer noch ziemlich hoch. Im September und im Oktober ist dann die Anzahl der Arbeitnehmer, für die Kurzarbeit beantragt wurde, auf 23 000 zurückgegangen. Zurzeit liegt sie bei rund 29 000. Die genehmigte Kurzarbeit erreicht zurzeit 99% der beantragten Kurzarbeit. Wie viel der seit März genehmigten Kurzarbeit auch in Anspruch genommen wird, d. h. auch abgerechnet wird, ist für Basel-Stadt noch nicht bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. In gewöhnlichen Zeiten wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
+		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung der COVID-19-Pandemie (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April und Mai lag am höchsten und betraf rund 95 000 Personen. Im Juni, Juli und August lag der Wert immer noch ziemlich hoch. Im September und im Oktober ist dann die Anzahl der Arbeitnehmer, für die Kurzarbeit beantragt wurde, auf 23 000 zurückgegangen. Im Januar 2021 ist sie wieder auf 43 000 gestiegen (provisorische Zahlen). Die genehmigte Kurzarbeit erreicht zurzeit 99% der beantragten Kurzarbeit. Wie viel der seit März genehmigten Kurzarbeit auch in Anspruch genommen wird, d. h. auch abgerechnet wird, ist für Basel-Stadt noch nicht bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die seit März 2020 abgerechnete Kurzarbeit in Basel-Stadt ist noch nicht verfügbar.",
-		"template": "stock001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"

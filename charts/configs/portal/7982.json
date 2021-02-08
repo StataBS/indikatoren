@@ -4,44 +4,44 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          100.9376513
-        ],
-        [
           2012,
-          103.221015
+          102.2621526
         ],
         [
           2013,
-          106.3040335
+          105.3165317
         ],
         [
           2014,
-          119.8019965
+          118.6891066
         ],
         [
           2015,
-          131.1391129
+          129.9209079
         ],
         [
           2016,
-          133.7794889
+          132.5367563
         ],
         [
           2017,
-          139.7268395
+          138.4288595
         ],
         [
           2018,
-          150.841976
+          149.4407429
         ],
         [
           2019,
-          157.0251391
+          155.5664681
+        ],
+        [
+          2020,
+          91.20165232
         ]
       ],
       "name": "Inland"
@@ -50,44 +50,44 @@
       "color": "rgb(105, 146, 155)",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          100.7003714
-        ],
-        [
           2012,
-          100.1362955
+          99.4398473
         ],
         [
           2013,
-          102.0379178
+          101.3282438
         ],
         [
           2014,
-          104.1347319
+          103.4104746
         ],
         [
           2015,
-          104.7126197
+          103.9843432
         ],
         [
           2016,
-          105.7373119
+          105.0019086
         ],
         [
           2017,
-          117.7657176
+          116.9466567
         ],
         [
           2018,
-          120.9845593
+          120.1431113
         ],
         [
           2019,
-          123.3577432
+          122.4997897
+        ],
+        [
+          2020,
+          34.47002879
         ]
       ],
       "name": "Ausland"
@@ -208,7 +208,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "indexiert (2010 = 100), Basel-Stadt",
+    "text": "indexiert (2011 = 100), Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -216,7 +216,7 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "yAxis": {
-    "min": 90,
+    "min": 0,
     "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
     "title": {
@@ -234,7 +234,7 @@
       }
     },
     "max": 160,
-    "tickAmount": 8
+    "tickAmount": 9
   },
   "xAxis": {
     "lineColor": "#B9CFD7",
@@ -265,7 +265,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "legend": {
     "enabled": true,

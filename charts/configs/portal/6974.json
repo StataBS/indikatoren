@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1024235792,
-          "Anzahl": 11419
+          "y": 0.104200215,
+          "Anzahl": 11712
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2358998278,
-          "Anzahl": 26300
+          "y": 0.237066166,
+          "Anzahl": 26646
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3707663605,
-          "Anzahl": 41336
+          "y": 0.369736386,
+          "Anzahl": 41558
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1743416332,
-          "Anzahl": 19437
+          "y": 0.17342681,
+          "Anzahl": 19493
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0635315011,
-          "Anzahl": 7083
+          "y": 0.062865328,
+          "Anzahl": 7066
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0530370982,
-          "Anzahl": 5913
+          "y": 0.052705095,
+          "Anzahl": 5924
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.0704845815,
+          "y": 0.068620443,
           "Anzahl": 96
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.2547723935,
-          "Anzahl": 347
+          "y": 0.26733381,
+          "Anzahl": 374
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.4897209985,
-          "Anzahl": 667
+          "y": 0.477483917,
+          "Anzahl": 668
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.1490455213,
-          "Anzahl": 203
+          "y": 0.150822016,
+          "Anzahl": 211
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.0220264317,
-          "Anzahl": 30
+          "y": 0.022158685,
+          "Anzahl": 31
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.0139500734,
+          "y": 0.013581129,
           "Anzahl": 19
         }
       ],
@@ -227,6 +227,6 @@
     "data-id": 6956
   },
   "exporting": {
-    "filename": 6974
+    "filename": "6974"
   }
 }

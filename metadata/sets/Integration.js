@@ -662,33 +662,33 @@ var indikatorensetData = [
 		"id": 6072
 	},
 	{
-		"title": "Anteil Ausländer mit Niederlassungsbewilligung",
+		"parentId": null,
+		"children": [
+			"6658"
+		],
+		"template": "template001",
+		"title": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6073",
 		"kuerzelKunde": "A3-3",
-		"description": "Anteil Ausländer mit Niederlassungsbewilligung",
+		"description": "Anteil ausländische Bevölkerung mit Niederlassungsbewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-10T11:31:57.5757",
+		"aktualisierungsdatum": "2021-02-08T08:44:53.5353",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2019 die Türken mit 83,0%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (81,1%) und Italien (72,2%). Im Vergleich zum Jahr 2000 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-17 + EFTA und EU-Ost sind diese stark zurückgegangen.",
+		"lesehilfe": "Den grössten Anteil an Niederlassungsbewilligungen gemessen an allen Bewilligungsarten einer Bevölkerungsgruppe besitzen 2020 die Türken mit 82,2%. Ähnlich hoch ist der Anteil bei den Personen aus dem Balkan (80,5%) und Italien (71,7%). Im Vergleich zum Jahr 2001 haben die Anteile bei den Personen aus der Türkei und den Balkanländern stark zugenommen. Bei Personen aus Italien, EU-West + EFTA + UK und EU-Ost sind diese stark zurückgegangen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_303",
-		"parentId": null,
-		"children": [
-			"6658"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

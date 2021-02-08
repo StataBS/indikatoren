@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1024235792,
-          "Anzahl": 11419
+          "y": 0.104200215,
+          "Anzahl": 11712
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.2358998278,
-          "Anzahl": 26300
+          "y": 0.237066166,
+          "Anzahl": 26646
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.3707663605,
-          "Anzahl": 41336
+          "y": 0.369736386,
+          "Anzahl": 41558
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.1743416332,
-          "Anzahl": 19437
+          "y": 0.17342681,
+          "Anzahl": 19493
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0635315011,
-          "Anzahl": 7083
+          "y": 0.062865328,
+          "Anzahl": 7066
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.0530370982,
-          "Anzahl": 5913
+          "y": 0.052705095,
+          "Anzahl": 5924
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.1353343865,
-          "Anzahl": 1542
+          "y": 0.137128411,
+          "Anzahl": 1573
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.2655783746,
-          "Anzahl": 3026
+          "y": 0.267631418,
+          "Anzahl": 3070
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.3976654379,
-          "Anzahl": 4531
+          "y": 0.395257606,
+          "Anzahl": 4534
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.1614007372,
-          "Anzahl": 1839
+          "y": 0.160404498,
+          "Anzahl": 1840
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.0322099351,
-          "Anzahl": 367
+          "y": 0.031819371,
+          "Anzahl": 365
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Gundeldingen",
-          "y": 0.0078111287,
+          "y": 0.007758696,
           "Anzahl": 89
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Gundeldingen, 2019",
+    "text": "Gundeldingen, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "pointFormatter": function(){
@@ -227,6 +227,6 @@
     "data-id": 6956
   },
   "exporting": {
-    "filename": 6961
+    "filename": "6961"
   }
 }

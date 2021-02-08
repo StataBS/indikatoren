@@ -1,6 +1,7 @@
 (function () {
 	return {
 		chart: {
+			marginRight: 16,
 			width: 665,
 			events: {
                 load: function () {
@@ -10,15 +11,15 @@
                             var x = 0, y = 0;
                             switch (point.name) {
                                 //case 'CH': case 'Schweiz':        x = 0; y = 0; break; //ent-kommentieren falls gewünscht
-                                case 'DE': case 'Deutschland':    x = 10; y = -3; break;
-                                //case 'US': case 'USA':            x = 0; y = 0; break;
-                                case 'GB': case 'UK': x = 20; y = 40; break;
-                                case 'FR': case 'Frankreich': x = 12; y = -3; break;
-                                case 'IT': case 'Italien': x = 12; y = 40; break;
-                                case 'ES': case 'Spanien': x = -20; y = 12; break;
-                                case 'NL': case 'Niederlande': x = -11; y = 35; break;
-                                //case 'CN': case 'VR China':       x = 0; y = 0; break;
-                                case 'IN': case 'Indien': x = 0; y = 3; break;
+                                case 'DE': case 'Deutschland':    x = 5; y = -3; break;
+                                case 'US': case 'USA':            x = 30; y = 70; break;
+                                case 'GB': case 'UK': x = 40; y = 35; break;
+                                case 'FR': case 'Frankreich': x = 30; y = 0; break;
+                                case 'IT': case 'Italien': x = 20; y = 40; break;
+                                case 'ES': case 'Spanien': x = -30; y = 30; break;
+                                case 'NL': case 'Niederlande': x = -15; y = -5; break;
+                                case 'CN': case 'VR China':       x = 0; y = 55; break;
+								case 'IN': case 'Indien': x = -15; y = 5; break;
                             }
                             point.dataLabel.translate(point.dataLabel.x + x, point.dataLabel.y + y);
                         });
@@ -33,8 +34,8 @@
 		tooltip: {
 			useHTML: false,
 			pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-				'Anteile am Übernachtungsvolumen 2019:<b> {point.x}%</b><br/>' +
-				'Veränderung 2019 gegenüber dem Mittelwert 2008-2012:<b> {point.y}%</b><br/>' +
+				'Anteile am Übernachtungsvolumen 2020:<b> {point.x}%</b><br/>' +
+				'Veränderung 2020 gegenüber dem Mittelwert 2009-2013:<b> {point.y}%</b><br/>' +
 				'Wachstumsbeitrag:<b> {point.z}%</b>'
 		},
 		data: {
@@ -83,25 +84,25 @@
 			}
 		},
 		xAxis: {
-			//tickInterval: 5,
-			max: 40,
-			min: 0,
+			tickInterval: 5,
+			max: 60,
+			min: -5,
 			labels: {
 				format: '{value}%'
 			},
 			/*title: {
-				text: 'Anteile am Übernachtungsvolumen 2019'
+				text: 'Anteile am Übernachtungsvolumen 2020'
 			}*/
 		},
 		yAxis: {
 			useHTML: true,
-			min: -50,
+			min: -150,
 			tickInterval: 50,
 			labels: {
 				format: '{value}%'
 			},
 			title: {
-				text: 'Veränderung Logiernächte 2019 gegenüber Ø 2008<span>-</span>2012'
+				text: 'Veränderung Logiernächte 2020 gegenüber Ø 2009<span>-</span>2013'
 			}
 		},
 		plotOptions: {

@@ -4,10 +4,6 @@
       "color": "rgb(255, 128, 40)",
       "data": [
         [
-          1934,
-          42
-        ],
-        [
           1935,
           42
         ],
@@ -346,6 +342,10 @@
         [
           2019,
           63
+        ],
+        [
+          2020,
+          66
         ]
       ],
       "name": "Geöffnete Betriebe"
@@ -354,10 +354,6 @@
       "color": "rgb(0, 122, 47)",
       "yAxis": 1,
       "data": [
-        [
-          1934,
-          2228
-        ],
         [
           1935,
           2225
@@ -697,6 +693,10 @@
         [
           2019,
           9175
+        ],
+        [
+          2020,
+          8011
         ]
       ],
       "name": "Verfügbare Betten (rechte Skala)"
@@ -904,7 +904,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "legend": {
     "enabled": true,

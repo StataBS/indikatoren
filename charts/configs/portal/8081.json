@@ -147,6 +147,18 @@
         [
           "2019: Kleinhüningen",
           4885.17
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          23407.07
+        ],
+        [
+          "2020: Kleinhüningen",
+          4885.17
         ]
       ],
       "name": "Parkanlage\u002FSpielplatz",
@@ -299,6 +311,18 @@
         [
           "2019: Kleinhüningen",
           50251.78
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          73835.19
+        ],
+        [
+          "2020: Kleinhüningen",
+          52304.67
         ]
       ],
       "name": "Gartenanlage",
@@ -450,6 +474,18 @@
         ],
         [
           "2019: Kleinhüningen",
+          null
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          null
+        ],
+        [
+          "2020: Kleinhüningen",
           null
         ]
       ],
@@ -603,6 +639,18 @@
         [
           "2019: Kleinhüningen",
           1096.83
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          null
+        ],
+        [
+          "2020: Kleinhüningen",
+          1096.83
         ]
       ],
       "name": "Gewässervorland humusiert",
@@ -755,6 +803,18 @@
         [
           "2019: Kleinhüningen",
           230496.4
+        ],
+        [
+          "            ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          16207.11
+        ],
+        [
+          "2020: Kleinhüningen",
+          232980.25
         ]
       ],
       "name": "Übrige humusierte",
@@ -903,7 +963,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "tooltip": {
     "useHTML": true,

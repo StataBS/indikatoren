@@ -1,0 +1,462 @@
+{
+  "series": [
+    {
+      "color": "#923F8D",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          70801
+        ],
+        [
+          "Basel: Kernstadt",
+          16822
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          26819
+        ],
+        [
+          "Basel: Agglomeration D",
+          17820
+        ],
+        [
+          "Basel: Agglomeration F",
+          9340
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          26477
+        ],
+        [
+          "Bern: Kernstadt",
+          9166
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          17310
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genf: Agglomeration",
+          93982
+        ],
+        [
+          "Genf: Kernstadt",
+          24831
+        ],
+        [
+          "Genf: Übrige Agglomeration CH",
+          42433
+        ],
+        [
+          "Genf: Agglomeration F",
+          26718
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          47672
+        ],
+        [
+          "Lausanne: Kernstadt",
+          18080
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          29593
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          106427
+        ],
+        [
+          "Zürich: Kernstadt",
+          31646
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          74781
+        ]
+      ],
+      "name": "Obligatorische Schule",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          215378
+        ],
+        [
+          "Basel: Kernstadt",
+          32462
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          97627
+        ],
+        [
+          "Basel: Agglomeration D",
+          59160
+        ],
+        [
+          "Basel: Agglomeration F",
+          26128
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          99973
+        ],
+        [
+          "Bern: Kernstadt",
+          25798
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          74175
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genf: Agglomeration",
+          163159
+        ],
+        [
+          "Genf: Kernstadt",
+          24586
+        ],
+        [
+          "Genf: Übrige Agglomeration CH",
+          65022
+        ],
+        [
+          "Genf: Agglomeration F",
+          73551
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          79417
+        ],
+        [
+          "Lausanne: Kernstadt",
+          21201
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          58216
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          299498
+        ],
+        [
+          "Zürich: Kernstadt",
+          68634
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          230864
+        ]
+      ],
+      "name": "Sekundarstufe II",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "Basel: Agglomeration",
+          177726
+        ],
+        [
+          "Basel: Kernstadt",
+          50487
+        ],
+        [
+          "Basel: Übrige Agglomeration CH",
+          77739
+        ],
+        [
+          "Basel: Agglomeration D",
+          32770
+        ],
+        [
+          "Basel: Agglomeration F",
+          16731
+        ],
+        [
+          "      ",
+          null
+        ],
+        [
+          "Bern: Agglomeration",
+          104521
+        ],
+        [
+          "Bern: Kernstadt",
+          43787
+        ],
+        [
+          "Bern: Übrige Agglomeration CH",
+          60734
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "Genf: Agglomeration",
+          227016
+        ],
+        [
+          "Genf: Kernstadt",
+          57211
+        ],
+        [
+          "Genf: Übrige Agglomeration CH",
+          93875
+        ],
+        [
+          "Genf: Agglomeration F",
+          75930
+        ],
+        [
+          "             ",
+          null
+        ],
+        [
+          "Lausanne: Agglomeration",
+          106717
+        ],
+        [
+          "Lausanne: Kernstadt",
+          41544
+        ],
+        [
+          "Lausanne: Übrige Agglomeration CH",
+          65173
+        ],
+        [
+          "                ",
+          null
+        ],
+        [
+          "Zürich: Agglomeration",
+          380640
+        ],
+        [
+          "Zürich: Kernstadt",
+          151003
+        ],
+        [
+          "Zürich: Übrige Agglomeration CH",
+          229637
+        ]
+      ],
+      "name": "Tertiärstufe",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "rotation": 0,
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none",
+        "width": 1
+      },
+      "formatter": undefined
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 650,
+    "height": 363,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "zoomType": "xy",
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px"
+    },
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for inverted charts, change labels x/y-offset
+					if (this.yAxis[0].horiz != true) {
+						this.update({
+							yAxis: {
+								labels: {
+									y: 3,
+									x: -5
+								}
+							}
+						});
+					}
+
+					//add top-margin if legend is right to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'vertical') {
+						this.update({
+							chart: {
+								marginTop: 6
+							}
+						});
+					}
+					//add right-margin if legend is top to allow space for axis-labels
+					if (this['legend']['options']['layout'] == 'horizontal') {
+						this.update({
+							chart: {
+								marginRight: 16
+							}
+						});
+					}
+
+					//square legends must be placed 3 pixels more to the left than lines, don't know why
+					var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update({
+							legend: {
+								x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+							}
+						});
+					}
+				}
+    },
+    "inverted": true,
+    "renderTo": "container-8106",
+    "spacingBottom": 12
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent",
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "groupPadding": 0.1
+    },
+    "column": {
+      "groupPadding": 0
+    }
+  },
+  "title": {
+    "text": "Bildungsniveau der Bevölkerung"
+  },
+  "subtitle": {
+    "text": "nach höchster abgeschlossener Ausbildung, 2018"
+  },
+  "yAxis": {
+    "tickInterval": 25,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "text": null
+    },
+    "labels": {
+      "y": 15,
+      "format": "{value}%",
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0
+    },
+    "type": "linear",
+    "tickAmount": 5,
+    "reversedStacks": false
+  },
+  "legend": {
+    "enabled": true,
+    "useHTML": true,
+    "layout": "horizontal",
+    "align": "left",
+    "verticalAlign": "top",
+    "symbolRadius": 0,
+    "padding": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "whitespace": "nowrap"
+    },
+    "labelFormatter": function () {
+				return this.name.replace('/ ', '/<br/>');
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
+    "shared": false,
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "credits": {
+    "enabled": true,
+    "position": {
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+  },
+  "navigation": {
+    "buttonOptions": {
+      "enabled": false
+    }
+  },
+  "exporting": {
+    "filename": "8106"
+  }
+}

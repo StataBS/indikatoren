@@ -4,10 +4,6 @@
       "color": "rgb(176, 0, 0)",
       "data": [
         [
-          1934,
-          1.785266799
-        ],
-        [
           1935,
           1.84307021
         ],
@@ -346,6 +342,10 @@
         [
           2019,
           1.671734473
+        ],
+        [
+          2020,
+          1.76994339
         ]
       ],
       "name": "Inland"
@@ -353,10 +353,6 @@
     {
       "color": "rgb(105, 146, 155)",
       "data": [
-        [
-          1934,
-          1.427478651
-        ],
         [
           1935,
           1.466729663
@@ -696,6 +692,10 @@
         [
           2019,
           2.005017261
+        ],
+        [
+          2020,
+          1.906224731
         ]
       ],
       "name": "Ausland"
@@ -880,7 +880,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
   },
   "legend": {
     "enabled": true,
