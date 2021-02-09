@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Matthäus, 2019",
+    "text": "Matthäus, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-9"
   },
   "tooltip": {
     "pointFormatter": function(){

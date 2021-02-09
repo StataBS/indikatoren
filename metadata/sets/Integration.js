@@ -576,29 +576,6 @@ var indikatorensetData = [
 		"id": 6070
 	},
 	{
-		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6071",
-		"kuerzelKunde": "A3-1",
-		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-09T10:47:20.2020",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_301",
 		"parentId": null,
 		"children": [
 			"6656",
@@ -607,6 +584,29 @@ var indikatorensetData = [
 			"8526",
 			"8952"
 		],
+		"template": "template001",
+		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
+		"kuerzel": "I.01.1.6071",
+		"kuerzelKunde": "A3-1",
+		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-02-09T09:12:36.3636",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2020: 43 322) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2020: 27 173). Von 2001 (864) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_301",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -621,33 +621,33 @@ var indikatorensetData = [
 		"id": 6071
 	},
 	{
-		"title": "Ausländer nach Art der Bewilligung",
-		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2019",
+		"parentId": null,
+		"children": [
+			"6657"
+		],
+		"template": "template001",
+		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
+		"subtitle": "und Staatsangehörigkeit, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6072",
 		"kuerzelKunde": "A3-2",
-		"description": "Ausländer nach Art der Bewilligung",
+		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T10:27:18.1818",
+		"aktualisierungsdatum": "2021-02-09T09:12:58.5858",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (72,2%), der Türkei (83,0%) und dem Balkan (81,1%) am höchsten. Bei Personen aus den EU-Oststaaten ist er mit 21,3% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewilligungen mit 70,0% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (21,5%) und afrikanischen (12,1%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
+		"lesehilfe": "Der Anteil Niederlassungsbewilligungen ist bei Personen aus Italien (71,7%), der Türkei (82,2%) und dem Balkan (80,5%) am höchsten. Bei Personen aus den EU-Oststaaten ist dieser mit 30,8% unterdurchschnittlich, dagegen ist dort der Anteil an Aufenthaltsbewilligungen mit 61,5% im Vergleich zu den anderen ausgewählten Ländergruppen hoch. Die arabischen (18,8%) und afrikanischen (11,0%) Länder haben einen vergleichsweise hohen Anteil an vorläufig Aufgenommenen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_302",
-		"parentId": null,
-		"children": [
-			"6657"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -4468,33 +4468,33 @@ var indikatorensetData = [
 		"id": 6517
 	},
 	{
-		"title": "Anteil Ausländer nach Alter und Art der Bewilligung",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6570",
-		"kuerzelKunde": "A3-4",
-		"description": "Anteil Ausländer nach Alter und Art der Bewilligung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-02-10T11:37:22.2222",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 62,6% am höchsten ist. Bei den über 65-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,4%. Im Vergleich zu den anderen Altersgruppen ist der Anteil der Kurzaufenthaltsbewilligungen bei den 15- bis 24-Jährigen (7,2%) hoch.",
-		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "_304",
 		"parentId": null,
 		"children": [
 			"6750"
 		],
+		"template": "template001",
+		"title": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
+		"kuerzel": "I.01.1.6570",
+		"kuerzelKunde": "A3-4",
+		"description": "Anteil ausländische Bevölkerung nach Alter und Art der Bewilligung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-02-09T09:13:25.2525",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Differenziert nach Altersgruppe zeigt sich, dass der Anteil von Personen ohne Niederlassungsbewilligung bei den 25- bis 39-Jährigen mit 63,3% am höchsten ist. Bei den über 64-Jährigen liegt der Anteil der Niederlassungsbewilligungen hingegen bei 95,0%. Den höchsten Anteil von Personen mit Kurzaufenthaltsbewilligungen weisen die 15- bis 24-Jährigen (7,6%) auf.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_304",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

@@ -1567,33 +1567,33 @@ var indikatorensetData = [
 		"id": 6031
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8924"
+		],
+		"template": "stock001",
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.12.06033",
 		"kuerzelKunde": "NL11",
 		"description": "Hitzetage",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Klima",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:52.5252",
+		"aktualisierungsdatum": "2021-02-09T09:13:54.5454",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 25 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat.<br>Die Summe der Tage eines Jahres, an denen das Maximum der Lufttemperatur über 30 °C liegt, ergibt die Anzahl Hitzetage pro Jahr. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
-		"template": "stock001",
+		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_02_00_00_00_412",
-		"parentId": null,
-		"children": [
-			"8924"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Meteorologischer Verein der Region Basel"
