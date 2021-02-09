@@ -238,9 +238,13 @@
         [
           1546300800000,
           25
+        ],
+        [
+          1577836800000,
+          22
         ]
       ],
-      "name": "Kantone Basel-Stadt und Basel-Landschaft"
+      "name": "Hitzetage"
     }
   ],
   "isStock": true,
@@ -364,7 +368,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-15"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-9"
   },
   "legend": {
     "symbolRadius": 0,
