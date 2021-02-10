@@ -6,7 +6,7 @@
 		plotOptions: {
 			pie: {
 				dataLabels: {
-					enabled: true, //sets datalabels to true via mappie001_print (BL, 17.02.2020)
+					enabled: true, //sets datalabels to true via mappie001 (BL, 17.02.2020)
 				}
 			}
 		},
@@ -42,22 +42,44 @@
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
 					"hover": {
-						"enabled": false,
-						"borderColor": '#BADA55',
-						"brightness": 0
+						"enabled": true,
+						"borderColor": '#888',
+						"brightness": 0.15
 					}
 				},
-				tooltip: {
+				/*tooltip: {
 					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
+						return '<p style="margin:0;padding:2px 7px;text-align: center;border:1px solid black;background-color:rgba(247,247,247,0.85)">' +
+							this.properties.LIBGEO + '</p>';
+						//return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 1) + '</b><br/>';
 					}
-				}
+				}*/
 			},
 			{
 				"visible": false
 			}
 		],
+		tooltip: {
+			useHTML: true,
+			zIndex: 100,
+			backgroundColor: 'rgba(0,0,0,0)',
+			shadow: false,
+			borderWidth: 0,
+			distance: 10,
+			formatter: function () {
+				//console.log(this);
+				var txt = '';
+				//wenn nicht Spalte mit Name "Hintergrund" (z.B. Rhein)
+				if (typeof this.point.series.userOptions !== 'undefined' && this.point.series.userOptions.name != 'Hintergrund') txt = this.point.series.userOptions.name;
+				//wenn tooltip für Fläche dann LIBGEO
+				else if (typeof this.point.properties !== 'undefined') txt = this.point.properties.LIBGEO;
+				//wenn tooltip für Pie/Label dann aus Highcharts-Objekt via _i
+				else if (typeof Highcharts.charts[1].series[0].data[this.point.series['_i'] - 5].properties !== 'undefined') txt = Highcharts.charts[1].series[0].data[this.point.series['_i'] - 5].properties.LIBGEO;
+				return '<p style="margin:0;padding:2px 7px;border:1px solid black;background-color:rgba(247,247,247,0.85);">' + txt + '</p>';
+			}
+		},
+
 		chart: {
 			events: {
 				load: function (e) {
@@ -82,7 +104,7 @@
 								name: " < \u00A0\u00A0 300",
 								from: 0,
 								to: 299,
-								diameter: 0.000001
+								diameter: .000001
 							},
 						];
 
@@ -101,7 +123,8 @@
 							},
 							tooltip: {
 								pointFormatter: function () {
-									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+									return correspondingMapSeriesItem.properties.LIBGEO;
+									//return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
 								}
 							}
 						};
@@ -110,11 +133,20 @@
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-					//console.log(choroplethSeries);
+					// Legende Wohnviertel
+					var yoff = 0, xoff = 0;
 					for (let i = 0; i < pieSizeSeries.data.length; i++) {
-						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
-						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20, undefined, false, 'right');
+						//console.log(pieSizeSeries.data[i].properties.LIBGEO);
+						if (choroplethSeries.data[i]["Wohnviertel Id"] < 10) xoff = 8; else xoff = 0;
+						if (i > 10) { xoff = 120; yoff = -11 * 15; }
+						fn.addLegendLabel(chart, choroplethSeries.data[i]["Wohnviertel Id"].toString()
+							+ ': ' + pieSizeSeries.data[i].properties.LIBGEO
+								.replace('Grossbasel', 'GB')
+								.replace('Kleinbasel', 'KB')
+							, 250 + xoff, 230 + i * 15 + yoff, undefined, false, 'left');
 					}
+
+					//fn.addLegendRectangle(chart, 245, 215, 115, 135, '#fbfbfb');
 
 					/*
 						//Add manually drawn legend
