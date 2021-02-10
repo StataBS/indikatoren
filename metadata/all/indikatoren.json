@@ -10835,18 +10835,24 @@
 		"id": 5138
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6989",
+			"8882"
+		],
+		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.5142",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzel": "",
 		"kuerzelKunde": "BE1",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
+		"aktualisierungsdatum": "2021-02-10T10:07:06.066",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -10854,16 +10860,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6989",
-			"8882"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -11623,32 +11623,32 @@
 		"id": 5188
 	},
 	{
+		"parentId": 6179,
+		"children": [],
+		"template": "line001",
 		"title": "Anzahl Störfälle und Ereignisse",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.18.05189",
 		"kuerzelKunde": "GW12",
 		"description": "Anzahl Störfälle und Ereignisse",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Störfälle",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:52:41.4141",
+		"aktualisierungsdatum": "2021-02-10T10:07:08.088",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 sind bei der Chemiefachberatung des Kantons 16 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
-		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten:<br>a) ausserhalb des Betriebsareals, <br>b) auf oder ausserhalb des Verkehrswegs, <br>c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
-		"template": "line001",
+		"lesehilfe": "2020 sind bei der Chemiefachberatung des Kantons 5  Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_04_00_00_00_313",
-		"parentId": 6179,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
@@ -27940,33 +27940,33 @@
 		"id": 6499
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6502",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-01-23T17:17:37.3737",
+		"aktualisierungsdatum": "2021-02-10T10:07:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am Jahresende 2019 wiesen die Wohnviertel Bruderholz und Hirzbrunnen sowie die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"lesehilfe": "Am Jahresende 2020 wiesen die Wohnviertel Bruderholz, Hirzbrunnen und Kleinhüningen sowie die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in den Gemeinden Riehen und Bettingen am höchsten.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -39001,18 +39001,21 @@
 		"id": 6988
 	},
 	{
+		"parentId": 5142,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.06989",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "",
 		"kuerzelKunde": "GS-99.D",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
+		"aktualisierungsdatum": "2021-02-10T10:07:07.077",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -39020,13 +39023,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_01_00_00_00_022",
-		"parentId": 5142,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -39035,7 +39035,7 @@
 		"externalLinks": [
 			""
 		],
-		"data-id": 5142,
+		"data-id": 6989,
 		"chart-id": 5142,
 		"filter": "",
 		"id": 6989
@@ -46043,34 +46043,34 @@
 		"id": 7689
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7928"
+		],
+		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.03.1.07690",
 		"kuerzelKunde": "3.09",
 		"description": "Anzahl Rotlichtsalons",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-01-04T08:29:24.2424",
+		"aktualisierungsdatum": "2021-02-10T10:07:05.055",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es 2019 insgesamt 16 Rotlichtsalons, 2006 waren es 20 Salons. Im Bezirk Erlenmatt wurden keine Salons verzeichnet. Insgesamt waren 2019 im Kanton Basel-Stadt 158 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 13 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2020 im Kanton Basel-Stadt 153 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7928"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -52855,34 +52855,34 @@
 		"id": 8070
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8641"
+		],
+		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.03.1.07690",
 		"kuerzelKunde": "3.09",
 		"description": "Anzahl Rotlichtsalons",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-12-01T09:21:48.4848",
+		"aktualisierungsdatum": "2021-02-10T10:07:06.066",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2019 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren 2019 in der Stadt Basel 158 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2020 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2020 in der Stadt Basel 153 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8641"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
@@ -74216,7 +74216,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-04T09:07:41.4141",
+		"aktualisierungsdatum": "2021-02-10T10:07:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74886,7 +74886,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-04T09:07:42.4242",
+		"aktualisierungsdatum": "2021-02-10T10:07:04.044",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

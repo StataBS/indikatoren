@@ -16,10 +16,6 @@
           18
         ],
         [
-          2008,
-          null
-        ],
-        [
           2009,
           17
         ],
@@ -30,10 +26,6 @@
         [
           2011,
           16
-        ],
-        [
-          2012,
-          null
         ],
         [
           2013,
@@ -62,6 +54,10 @@
         [
           2019,
           16
+        ],
+        [
+          2020,
+          13
         ]
       ],
       "name": "Messe"
@@ -82,10 +78,6 @@
           null
         ],
         [
-          2008,
-          null
-        ],
-        [
           2009,
           null
         ],
@@ -95,10 +87,6 @@
         ],
         [
           2011,
-          null
-        ],
-        [
-          2012,
           null
         ],
         [
@@ -128,6 +116,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          1
         ]
       ],
       "name": "Erlenmatt"
@@ -260,7 +252,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-10"
   },
   "exporting": {
     "filename": "7690"
