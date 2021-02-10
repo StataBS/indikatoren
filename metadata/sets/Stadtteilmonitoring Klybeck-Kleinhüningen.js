@@ -1066,33 +1066,33 @@ var indikatorensetData = [
 		"id": 8070
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8641"
+		],
+		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.03.1.07690",
 		"kuerzelKunde": "3.09",
 		"description": "Anzahl Rotlichtsalons",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-12-01T09:21:48.4848",
+		"aktualisierungsdatum": "2021-02-10T10:07:06.066",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck gab es 2019 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren 2019 in der Stadt Basel 158 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Wohnviertel Klybeck gab es 2020 einen Rotlichtsalon, im Wohnviertel Kleinhüningen wurden keine Salons verzeichnet. Insgesamt waren im Jahr 2020 in der Stadt Basel 153 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8641"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
