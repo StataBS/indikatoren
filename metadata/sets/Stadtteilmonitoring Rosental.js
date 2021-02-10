@@ -1067,33 +1067,33 @@ var indikatorensetData = [
 		"id": 7689
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7928"
+		],
+		"template": "template001",
 		"title": "Anzahl Rotlichtsalons",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.03.1.07690",
 		"kuerzelKunde": "3.09",
 		"description": "Anzahl Rotlichtsalons",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2021-01-04T08:29:24.2424",
+		"aktualisierungsdatum": "2021-02-10T10:07:05.055",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es 2019 insgesamt 16 Rotlichtsalons, 2006 waren es 20 Salons. Im Bezirk Erlenmatt wurden keine Salons verzeichnet. Insgesamt waren 2019 im Kanton Basel-Stadt 158 Rotlichtsalons registriert.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 13 Rotlichtsalons (2006 waren es deren 20), im Bezirk Erlenmatt einen einzigen. Insgesamt waren im Jahr 2020 im Kanton Basel-Stadt 153 Rotlichtsalons registriert.",
 		"erlaeuterungen": "Für die Jahre 2008 und 2012 liegen keine Daten vor.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7928"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"

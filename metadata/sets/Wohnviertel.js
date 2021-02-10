@@ -4775,18 +4775,21 @@ var indikatorensetData = [
 		"id": 6988
 	},
 	{
+		"parentId": 5142,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.06989",
+		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "",
 		"kuerzelKunde": "GS-99.D",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-13T11:27:09.099",
+		"aktualisierungsdatum": "2021-02-10T10:07:07.077",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
@@ -4794,12 +4797,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_022",
-		"parentId": 5142,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -4808,7 +4808,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 5142,
+		"data-id": 6989,
 		"chart-id": 5142,
 		"filter": "",
 		"id": 6989
