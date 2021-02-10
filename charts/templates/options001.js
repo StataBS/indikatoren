@@ -3,27 +3,6 @@
 */
 
 Highcharts.setOptions({
-	"lang": {
-		"resetZoom": "Zoom zurücksetzen",
-		"resetZoomTitle": "Zoom zurücksetzen 1:1",
-		"contextButtonTitle": "Exportieren und drucken",
-		"printChart": "Drucken",
-		"downloadJPEG": "Bild - JPEG",
-		"downloadSVG": "Bild - SVG",
-		"downloadPNG": "Bild - PNG",
-		"downloadPDF": "Bild - PDF",		
-		"downloadCSV": 'Daten - CSV/TSV',
-		"downloadXLS": 'Daten - XLS',
-		"decimalPoint": ",",
-        "thousandsSep": " ",
-        numericSymbols: null,
-        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
-        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
-        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
-        rangeSelectorFrom: "Von",
-        rangeSelectorTo: "Bis",
-        rangeSelectorZoom: "Zeitraum:"
-	},
 	"exporting": {
         "sourceWidth": null,
         "scale": 5,
@@ -45,6 +24,27 @@ Highcharts.setOptions({
             }
         }
     },
+	"lang": {
+		"resetZoom": "Zoom zurücksetzen",
+		"resetZoomTitle": "Zoom zurücksetzen 1:1",
+		"contextButtonTitle": "Exportieren und drucken",
+		"printChart": "Drucken",
+		"downloadJPEG": "Bild - JPEG",
+		"downloadSVG": "Bild - SVG",
+		"downloadPNG": "Bild - PNG",
+		"downloadPDF": "Bild - PDF",		
+		"downloadCSV": 'Daten - CSV/TSV',
+		"downloadXLS": 'Daten - XLS',
+		"decimalPoint": ",",
+        "thousandsSep": " ",
+        numericSymbols: null,
+        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        rangeSelectorFrom: "Von",
+        rangeSelectorTo: "Bis",
+        rangeSelectorZoom: "Zeitraum:"
+	},
     "navigation": {
         "menuItemStyle": {
             "fontFamily": Highcharts.SVGRenderer.prototype.getStyle().fontFamily,
@@ -68,6 +68,8 @@ var indikatorensetView = ($.url('?Indikatorenset') || $.url('?indikatorensetView
 var indikatorensetParameter = indikatorensetView ? '&indikatorensetView=' + indikatorensetView : '';
 
 var menuItems = Highcharts.getOptions().exporting.buttons.contextButton.menuItems;
+menuItems.shift(); //remove first menu element (View in fullscreen)
+
 menuItems.push(
     {
         "text": "Daten - TSV/CSV", 
