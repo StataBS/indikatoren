@@ -41339,15 +41339,15 @@
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
 		"kennzahlenset": "",
-		"kuerzel": "I.14.3.09022",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sterblichkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-04T09:07:42.4242",
+		"aktualisierungsdatum": "2021-02-11T08:15:27.2727",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

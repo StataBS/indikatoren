@@ -7593,8 +7593,19 @@
 		                        		borderColor: color(data.value)
 		                        	}
 		                        ],
-		                        dataLabels: {
-							        enabled: false
+		                        dataLabels: { //show dataLabels if set in chart-JS, e.g. for Wohnviertel-Nummerierung (BL, 10.02.2021)
+									enabled: (Highcharts.charts[0] !== undefined ? Highcharts.charts[0].userOptions.plotOptions.pie.dataLabels.enabled : false) , //gets setting from chart-js
+									distance: 0,
+									padding: 2,
+									x: -10,
+									borderWidth: 0,
+									style: {
+										textOutline: '0px'
+									},
+									formatter: function () {
+										return correspondingMapSeriesItem['Wohnviertel Id'];
+										//return correspondingMapSeriesItem.properties.LIBGEO;
+									}
 								},
 								colorAxis: false
 	                        };
