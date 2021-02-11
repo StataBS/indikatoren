@@ -1923,18 +1923,21 @@ var indikatorensetData = [
 		"id": 8665
 	},
 	{
+		"parentId": 8842,
+		"children": [],
+		"template": "mappie001_print",
 		"title": "Übersichtskarte Wohnviertel",
 		"subtitle": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 		"kuerzel": "",
 		"kuerzelKunde": "1.01",
 		"description": "Übersichtskarte Wohnviertel",
 		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:26.2626",
+		"aktualisierungsdatum": "2021-02-11T08:15:31.3131",
 		"stufe1": "1 Übersicht",
 		"stufe2": "",
 		"stufe3": "",
@@ -1942,12 +1945,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die 21 Wohnviertel und Gemeinden (Riehen und Bettingen) des Kantons Basel-Stadt.",
 		"erlaeuterungen": "",
-		"template": "mappie001_print",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
-		"parentId": 8845,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt"
