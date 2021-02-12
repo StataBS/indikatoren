@@ -303,18 +303,23 @@ var indikatorensetData = [
 		"id": 4829
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5117"
+		],
+		"template": "dotplot",
 		"title": "Baujahr Wohngebäude",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.4830",
 		"kuerzelKunde": "RU-1.A",
 		"description": "Baujahr Wohngebäude",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-25T17:11:09.099",
+		"aktualisierungsdatum": "2021-02-12T08:37:08.088",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -322,14 +327,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel verfügt über die älteste Bausubstanz, die Gemeinde Bettingen über die jüngste.",
 		"erlaeuterungen": "Ausgewiesen ist das mittlere Baujahr der Wohngebäude des Wohnviertels (ungewichtetes arithmetisches Mittel).",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"5117"
-		],
 		"renderLink": [
 			"5117"
 		],
