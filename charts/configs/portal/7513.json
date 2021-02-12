@@ -5,274 +5,119 @@
       "data": [
         [
           "Jan",
-          99.7
+          100.4
         ],
         [
           "Feb",
-          99.9
-        ],
-        [
-          "Mrz",
-          100.2
-        ],
-        [
-          "Apr",
           100.5
         ],
         [
-          "Mai",
-          100.7
-        ],
-        [
-          "Jun",
-          100.8
-        ],
-        [
-          "Jul",
-          100.4
-        ],
-        [
-          "Aug",
-          100.4
-        ],
-        [
-          "Sep",
-          100.4
-        ],
-        [
-          "Okt",
-          100.4
-        ],
-        [
-          "Nov",
-          100.2
-        ],
-        [
-          "Dez",
-          100.2
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#dc440e",
-      "data": [
-        [
-          "Jan",
-          100.2
-        ],
-        [
-          "Feb",
-          100.7
-        ],
-        [
           "Mrz",
-          100.9
+          100.6
         ],
         [
           "Apr",
-          101.1
+          100.2
         ],
         [
           "Mai",
-          101.4
+          100.4
         ],
         [
           "Jun",
-          101.2
+          100.4
         ],
         [
           "Jul",
-          100.9
+          100.2
         ],
         [
           "Aug",
-          101
+          100.3
         ],
         [
           "Sep",
-          101.3
+          100.3
         ],
         [
           "Okt",
-          101.4
+          100.3
         ],
         [
           "Nov",
-          101.3
+          100.1
         ],
         [
           "Dez",
-          101.3
+          100
         ]
       ],
-      "name": "2017",
+      "name": "2020",
       "turboThreshold": 0
     },
     {
       "color": "#b00000",
+      "type": "scatter",
+      "marker": {
+        "enabled": true,
+        "radius": 3
+      },
+      "tooltip": {
+        "shared": false,
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+      },
       "data": [
         [
           "Jan",
-          101.1
+          100.1
         ],
         [
           "Feb",
-          101.6
+          null
         ],
         [
           "Mrz",
-          101.9
+          null
         ],
         [
           "Apr",
-          102.2
+          null
         ],
         [
           "Mai",
-          102.6
+          null
         ],
         [
           "Jun",
-          102.6
+          null
         ],
         [
           "Jul",
-          102.4
+          null
         ],
         [
           "Aug",
-          102.4
+          null
         ],
         [
           "Sep",
-          102.5
+          null
         ],
         [
           "Okt",
-          102.6
+          null
         ],
         [
           "Nov",
-          102.4
+          null
         ],
         [
           "Dez",
-          102.1
+          null
         ]
       ],
-      "name": "2018",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#661200",
-      "data": [
-        [
-          "Jan",
-          101.9
-        ],
-        [
-          "Feb",
-          102.4
-        ],
-        [
-          "Mrz",
-          102.9
-        ],
-        [
-          "Apr",
-          103.1
-        ],
-        [
-          "Mai",
-          103.4
-        ],
-        [
-          "Jun",
-          103.4
-        ],
-        [
-          "Jul",
-          102.8
-        ],
-        [
-          "Aug",
-          102.8
-        ],
-        [
-          "Sep",
-          102.7
-        ],
-        [
-          "Okt",
-          102.5
-        ],
-        [
-          "Nov",
-          102.3
-        ],
-        [
-          "Dez",
-          102.4
-        ]
-      ],
-      "name": "2019",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#3C3C3C",
-      "data": [
-        [
-          "Jan",
-          102.2
-        ],
-        [
-          "Feb",
-          102.3
-        ],
-        [
-          "Mrz",
-          102.4
-        ],
-        [
-          "Apr",
-          102
-        ],
-        [
-          "Mai",
-          102.2
-        ],
-        [
-          "Jun",
-          102.2
-        ],
-        [
-          "Jul",
-          102
-        ],
-        [
-          "Aug",
-          102.1
-        ],
-        [
-          "Sep",
-          102
-        ],
-        [
-          "Okt",
-          102.1
-        ],
-        [
-          "Nov",
-          101.9
-        ],
-        [
-          "Dez",
-          101.8
-        ]
-      ],
-      "name": "2020",
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -351,7 +196,7 @@
     "text": "Basler Index"
   },
   "subtitle": {
-    "text": "Basis Dezember 2015 = 100",
+    "text": "Basis Dezember 2020 = 100",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -402,7 +247,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-12"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
