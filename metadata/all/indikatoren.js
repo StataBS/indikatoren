@@ -18639,34 +18639,34 @@ var indikatoren = [
 		"id": 6213
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6259"
+		],
+		"template": "template001",
 		"title": "Bevölkerung am Jahresende und Anzahl Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.1.06214",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
+		"thema": "50 Befragungen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-23T11:06:42.4242",
+		"aktualisierungsdatum": "2021-02-12T09:04:01.011",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2019 mit rund 200 400 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 111 000 Wohnungen (+32 000) über denselben Zeitraum. Die Bevölkerungszahl lag 1970 bei einem Höchststand von 236 219 Personen und sank bis 2006 auf 187 792. Seither kann eine kontinuierliche Zunahme registriert werden.",
+		"lesehilfe": "Die Wohnbevölkerung in Basel-Stadt liegt 2020 mit rund 202 000 Personen tiefer als noch 1960 (222 500 Personen). Demgegenüber steht ein Anstieg der Anzahl Wohnungen auf rund 112 000 Wohnungen (+33 000) über denselben Zeitraum. Die Bevölkerungszahl erreichte 1970 einen Höchststand von 236 219 Personen und sank bis 2001 auf 187 489. Seither wird eine kontinuierliche Zunahme registriert.",
 		"erlaeuterungen": "Bis 2012 wurde die Bevölkerungszahl ermittelt, indem der Vormonatsbestand durch die Berücksichtigung natürlicher und räumlicher Ereignisse fortgeschrieben wurde. Seit 2013 basiert die Bevölkerungsstatistik direkt auf Auswertungen aus dem kantonalen Einwohnerregister.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6259"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -43745,16 +43745,16 @@ var indikatoren = [
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "I.05.1.07512",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Jahresteuerung Basler Index und Landesindex",
-		"thema": "05 Preise",
+		"thema": "50 Befragungen",
 		"unterthema": "Basler Index der Konsumentenpreise",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:15.1515",
+		"aktualisierungsdatum": "2021-02-12T09:04:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
