@@ -107,12 +107,13 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 200; 
-	                var maxValueInLegend = 4000; 
+	                var maxValueInLegend = 5000; 
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
-	                fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahren in %", 265, 300, 'pieLegendStayOnZoom');
+					//fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahre in %", 265, 300, 'pieLegendStayOnZoom');
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');

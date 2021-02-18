@@ -260,33 +260,33 @@ var indikatorensetData = [
 		"id": 4828
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5116"
+		],
+		"template": "dotplot",
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.4829",
 		"kuerzelKunde": "GS-8.A",
 		"description": "Jugendquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
+		"aktualisierungsdatum": "2021-02-18T08:53:43.4343",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"5116"
-		],
 		"renderLink": [
 			"5116"
 		],
@@ -346,18 +346,23 @@ var indikatorensetData = [
 		"id": 4830
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5118"
+		],
+		"template": "dotplot",
 		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.4831",
 		"kuerzelKunde": "RU-2.A",
 		"description": "Anteil Einfamilienhäuser",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-25T15:45:24.2424",
+		"aktualisierungsdatum": "2021-02-18T08:54:21.2121",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -365,14 +370,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Einfamilienhäuser ist in Bettingen am höchsten, im Wohnviertel Clara am niedrigsten.",
 		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels in Prozent.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"5118"
-		],
 		"renderLink": [
 			"5118"
 		],
@@ -434,18 +434,23 @@ var indikatorensetData = [
 		"id": 4832
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5120"
+		],
+		"template": "dotplot",
 		"title": "Fläche pro Wohnung",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.4833",
 		"kuerzelKunde": "RU-4.A",
 		"description": "Fläche pro Wohnung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-25T16:00:28.2828",
+		"aktualisierungsdatum": "2021-02-18T08:54:31.3131",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -453,14 +458,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"5120"
-		],
 		"renderLink": [
 			"5120"
 		],
@@ -989,34 +989,34 @@ var indikatorensetData = [
 		"id": 5115
 	},
 	{
-		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.05116",
-		"kuerzelKunde": "GS-8.B",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
-		"stufe1": "Teil 3: Karten",
-		"stufe2": "Gesellschaft und Soziales",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotient weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "map001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "03_01_00_00_00_008",
 		"parentId": 4829,
 		"children": [
 			"8276",
 			"8547"
 		],
+		"template": "map001",
+		"title": "Jugendquotient",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "I.01.1.05116",
+		"kuerzelKunde": "GS-8.B",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"aktualisierungsdatum": "2021-02-18T08:53:56.5656",
+		"stufe1": "Teil 3: Karten",
+		"stufe2": "Gesellschaft und Soziales",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"orderKey": "03_01_00_00_00_008",
 		"renderLink": [
 			"4829"
 		],
