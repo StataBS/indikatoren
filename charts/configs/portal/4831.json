@@ -5,27 +5,27 @@
       "data": [
         [
           "Clara",
-          0.023715415019
+          0.023809523809
         ],
         [
           "Gundeldingen",
-          0.028711484593
+          0.028651292802
         ],
         [
           "Rosental",
-          0.067524115755
+          0.067307692307
         ],
         [
           "Matthäus",
-          0.069747166521
+          0.068181818181
         ],
         [
           "Klybeck",
-          0.070776255707
+          0.071428571428
         ],
         [
           "Vorstädte",
-          0.077064220183
+          0.076782449725
         ],
         [
           "Altstadt Kleinbasel",
@@ -33,59 +33,59 @@
         ],
         [
           "Altstadt Grossbasel",
-          0.103379721669
+          0.103174603174
         ],
         [
           "Breite",
-          0.130044843049
+          0.129850746268
         ],
         [
           "Kleinhüningen",
-          0.155688622754
+          0.15294117647
         ],
         [
           "Iselin",
-          0.166551961459
+          0.166896551724
         ],
         [
           "Am Ring",
-          0.195225916453
+          0.194608256107
         ],
         [
           "St. Johann",
-          0.248021108179
+          0.247857613711
         ],
         [
           "Wettstein",
-          0.334745762711
+          0.332394366197
         ],
         [
           "St. Alban",
-          0.336974789915
+          0.336691855583
         ],
         [
           "Gotthelf",
-          0.366972477064
+          0.368852459016
         ],
         [
           "Bachletten",
-          0.558612440191
+          0.558083832335
         ],
         [
           "Riehen",
-          0.655371304974
+          0.656391875746
         ],
         [
           "Hirzbrunnen",
-          0.694584382871
+          0.693761814744
         ],
         [
           "Bruderholz",
-          0.731963688485
+          0.729742612011
         ],
         [
           "Bettingen",
-          0.787096774193
+          0.788961038961
         ]
       ],
       "name": "Anteil Einfamilienhäuser",
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
   },
   "legend": {
     "enabled": false,

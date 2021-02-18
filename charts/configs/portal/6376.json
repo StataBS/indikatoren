@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          21.06
+          19.7
         ],
         [
           2,
-          23.93
+          23.31
         ],
         [
           3,
-          21.17
+          20.67
         ],
         [
           4,
-          21.39
+          21.11
         ],
         [
           5,
-          25.15
+          24.62
         ],
         [
           6,
-          15.72
+          15.78
         ],
         [
           7,
-          22.92
+          22.74
         ],
         [
           8,
-          21.73
+          21.7
         ],
         [
           9,
-          21.43
+          21.47
         ],
         [
           10,
-          16.44
+          16.07
         ],
         [
           11,
-          15.67
+          15.48
         ],
         [
           12,
-          19.63
+          19.14
         ],
         [
           13,
-          22.06
+          21.54
         ],
         [
           14,
-          19.82
+          18.97
         ],
         [
           15,
-          23.47
+          23.59
         ],
         [
           16,
-          8.61
+          8.75
         ],
         [
           17,
-          13.53
+          13.66
         ],
         [
           18,
-          14.29
+          14.84
         ],
         [
           19,
-          18.51
+          18.44
         ],
         [
           20,
-          25.78
+          25.24
         ],
         [
           30,
-          24.15
+          24.56
         ]
       ]
     },
@@ -6660,55 +6660,55 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          452
+          520
         ],
         [
           "Vorstädte",
-          1201
+          1177
         ],
         [
           "Am Ring",
-          2354
+          2343
         ],
         [
           "Breite",
-          1928
+          1911
         ],
         [
           "St. Alban",
-          2928
+          2888
         ],
         [
           "Gundeldingen",
-          2950
+          2981
         ],
         [
           "Bruderholz",
-          2155
+          2148
         ],
         [
           "Bachletten",
-          2967
+          2968
         ],
         [
           "Gotthelf",
-          1490
+          1466
         ],
         [
           "Iselin",
-          2776
+          2737
         ],
         [
           "St. Johann",
-          2861
+          2901
         ],
         [
           "Altstadt Kleinbasel",
-          473
+          462
         ],
         [
           "Clara",
-          901
+          875
         ],
         [
           "Wettstein",
@@ -6716,19 +6716,19 @@
         ],
         [
           "Hirzbrunnen",
-          2188
+          2194
         ],
         [
           "Rosental",
-          649
+          669
         ],
         [
           "Matthäus",
-          2066
+          2123
         ],
         [
           "Klybeck",
-          1034
+          1055
         ],
         [
           "Kleinhüningen",
@@ -6736,11 +6736,11 @@
         ],
         [
           "Riehen",
-          5528
+          5478
         ],
         [
           "Bettingen",
-          285
+          291
         ]
       ],
       "name": "Anzahl Personen über 64 Jahre"
@@ -7260,8 +7260,8 @@
 	                }));
 	                zoomableLabels[1].label = fn.addLegendLabel(zoomableLabels[1].chart, zoomableLabels[1].text, zoomableLabels[1].x, zoomableLabels[1].y, zoomableLabels[1].cssClass, zoomableLabels[1].useHtml, zoomableLabels[1].align);	                
 	                
-					fn.addLegendTitle(chart, 'Anteil Personen über 64 Jahren in %', 265, 300);
-					fn.addLegendLabelbold(chart, 'Anzahl Personen über 64 Jahren', 265, 220);
+					fn.addLegendTitle(chart, choroplethSeries.name/*'Anteil Personen über 64 Jahren in %'*/, 265, 300);
+					fn.addLegendLabelbold(chart, pieSizeSeries.name/*'Anzahl Personen über 64 Jahren'*/, 265, 220);
 					
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
@@ -7300,7 +7300,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7316,7 +7316,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
   },
   "colorAxis": {
     "min": 0,
