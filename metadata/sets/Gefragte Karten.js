@@ -87,36 +87,34 @@ var indikatorensetData = [
 		"id": 6374
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6387"
+		],
+		"template": "mappie001",
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.06375",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzel": "",
 		"kuerzelKunde": "C1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-03T09:56:40.4040",
+		"aktualisierungsdatum": "2021-02-18T08:53:18.1818",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (11,6%), Vorstädte (10,8%) und Altstadt Kleinbasel (10,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,0%), Hirzbrunnen (20,3%) sowie in der Gemeinde Riehen (20,3%).",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
-		"template": "mappie001",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,3%), Vorstädte (11,1%) und Altstadt Kleinbasel (10,5%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,1%) und Hirzbrunnen (20,6%) sowie in der Gemeinde Riehen (20,8%).",
+		"erlaeuterungen": "",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "_001",
-		"parentId": null,
-		"children": [
-			"6387"
-		],
-		"renderLink": [
-			"6387"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -130,36 +128,34 @@ var indikatorensetData = [
 		"id": 6375
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6388"
+		],
+		"template": "mappie001",
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.01.1.06376",
 		"kuerzelKunde": "C1-2",
 		"description": "Über 64-Jährige nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-03T14:51:59.5959",
+		"aktualisierungsdatum": "2021-02-18T08:53:29.2929",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,6%), Matthäus (13,5%) und Klybeck (14,3%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (25,2%) sowie die Gemeinden Riehen (25,8%) und Bettingen (24,2%) auf.",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
-		"template": "mappie001",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,8%), Matthäus (13,7%) und Klybeck (14,8%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (24,6%) sowie die Gemeinden Riehen (25,2%) und Bettingen (24,6%) auf.",
+		"erlaeuterungen": "",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6388"
-		],
-		"renderLink": [
-			"6388"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -612,34 +608,32 @@ var indikatorensetData = [
 		"id": 6386
 	},
 	{
+		"parentId": 6375,
+		"children": [],
+		"template": "mappie001",
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.06387",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzel": "",
 		"kuerzelKunde": "K1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-20T10:38:24.2424",
+		"aktualisierungsdatum": "2021-02-18T08:54:10.1010",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (11,6%), Vorstädte (10,8%) und Altstadt Kleinbasel (10,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,0%), Hirzbrunnen (20,3%) sowie in der Gemeinde Riehen (20,3%).",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
-		"template": "mappie001",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,3%), Vorstädte (11,1%) und Altstadt Kleinbasel (10,5%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,1%) und Hirzbrunnen (20,6%) sowie in der Gemeinde Riehen (20,8%).",
+		"erlaeuterungen": "",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_001",
-		"parentId": 6375,
-		"children": [],
-		"renderLink": [
-			"6375"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],

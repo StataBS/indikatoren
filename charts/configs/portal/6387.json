@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil unter 20-Jähriger in %",
+      "name": "Anteil Personen unter 20 Jahre in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6563,93 +6563,93 @@
       "tooltip": {
         "pointFormatter": function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
       },
       "data": [
         [
           1,
-          11.75125743
+          10.31
         ],
         [
           2,
-          11.27069619
+          11.11
         ],
         [
           3,
-          14.220601641
+          14.42
         ],
         [
           4,
-          14.093437152
+          14.41
         ],
         [
           5,
-          17.270677995
+          17.51
         ],
         [
           6,
-          14.297885936
+          14.07
         ],
         [
           7,
-          21.491931175
+          22.12
         ],
         [
           8,
-          17.851605759
+          18.06
         ],
         [
           9,
-          16.219723183
+          15.77
         ],
         [
           10,
-          17.301465827
+          17.18
         ],
         [
           11,
-          17.178414217
+          17.11
         ],
         [
           12,
-          10.961145194
+          10.52
         ],
         [
           13,
-          12.936546975
+          12.95
         ],
         [
           14,
-          14.154676259
+          14.07
         ],
         [
           15,
-          19.761117628
+          20.56
         ],
         [
           16,
-          19.429824561
+          19.43
         ],
         [
           17,
-          15.572304548
+          14.87
         ],
         [
           18,
-          19.155354449
+          17.9
         ],
         [
           19,
-          19.909027292
+          20.15
         ],
         [
           20,
-          20.332898172
+          20.76
         ],
         [
           30,
-          19.208573784
+          19.75
         ]
       ]
     },
@@ -6658,51 +6658,51 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          257
+          272
         ],
         [
           "Vorstädte",
-          565
+          561
         ],
         [
           "Am Ring",
-          1560
+          1635
         ],
         [
           "Breite",
-          1267
+          1304
         ],
         [
           "St. Alban",
-          1992
+          2054
         ],
         [
           "Gundeldingen",
-          2685
+          2658
         ],
         [
           "Bruderholz",
-          2011
+          2090
         ],
         [
           "Bachletten",
-          2418
+          2470
         ],
         [
           "Gotthelf",
-          1125
+          1077
         ],
         [
           "Iselin",
-          2939
+          2925
         ],
         [
           "St. Johann",
-          3161
+          3207
         ],
         [
           "Altstadt Kleinbasel",
-          268
+          254
         ],
         [
           "Clara",
@@ -6710,38 +6710,38 @@
         ],
         [
           "Wettstein",
-          787
+          812
         ],
         [
           "Hirzbrunnen",
-          1853
+          1912
         ],
         [
           "Rosental",
-          1329
+          1486
         ],
         [
           "Matthäus",
-          2438
+          2312
         ],
         [
           "Klybeck",
-          1397
+          1273
         ],
         [
           "Kleinhüningen",
-          569
+          566
         ],
         [
           "Riehen",
-          4361
+          4506
         ],
         [
           "Bettingen",
-          233
+          234
         ]
       ],
-      "name": "Anzahl unter 20-Jähriger"
+      "name": "Anzahl Personen unter 20 Jahre"
     },
     {
       "name": "Rhein",
@@ -7248,8 +7248,8 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 245, 210, 105, 130, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 210, 105, 130, '#fbfbfb');
-	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" u",  "<br/>u").replace("in", "<br/>in")/*"Anteil unter <br/>  20-Jähriger in %"*/, 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" u",  "<br/>u")/*"Anzahl unter <br/>  20-Jähriger"*/, 355, 210);
 	                
 	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 455, 255, undefined, false, 'right');
@@ -7287,7 +7287,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7303,7 +7303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
   },
   "colorAxis": {
     "min": 0,

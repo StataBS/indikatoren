@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          11.56
+          10.31
         ],
         [
           2,
-          10.84
+          11.11
         ],
         [
           3,
-          14.33
+          14.42
         ],
         [
           4,
-          14.06
+          14.41
         ],
         [
           5,
-          17.38
+          17.51
         ],
         [
           6,
-          14.28
+          14.07
         ],
         [
           7,
-          22.04
+          22.12
         ],
         [
           8,
-          17.84
+          18.06
         ],
         [
           9,
-          15.92
+          15.77
         ],
         [
           10,
-          17.29
+          17.18
         ],
         [
           11,
-          17.28
+          17.11
         ],
         [
           12,
-          10.75
+          10.52
         ],
         [
           13,
-          13.05
+          12.95
         ],
         [
           14,
-          13.95
+          14.07
         ],
         [
           15,
-          20.26
+          20.56
         ],
         [
           16,
-          18.97
+          19.43
         ],
         [
           17,
-          15.14
+          14.87
         ],
         [
           18,
-          18.79
+          17.9
         ],
         [
           19,
-          19.62
+          20.15
         ],
         [
           20,
-          20.3
+          20.76
         ],
         [
           30,
-          19.58
+          19.75
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          248
+          272
         ],
         [
           "Vorstädte",
-          544
+          561
         ],
         [
           "Am Ring",
-          1593
+          1635
         ],
         [
           "Breite",
-          1267
+          1304
         ],
         [
           "St. Alban",
-          2023
+          2054
         ],
         [
           "Gundeldingen",
-          2680
+          2658
         ],
         [
           "Bruderholz",
-          2072
+          2090
         ],
         [
           "Bachletten",
-          2436
+          2470
         ],
         [
           "Gotthelf",
-          1107
+          1077
         ],
         [
           "Iselin",
-          2921
+          2925
         ],
         [
           "St. Johann",
-          3155
+          3207
         ],
         [
           "Altstadt Kleinbasel",
-          259
+          254
         ],
         [
           "Clara",
-          533
+          526
         ],
         [
           "Wettstein",
-          771
+          812
         ],
         [
           "Hirzbrunnen",
-          1889
+          1912
         ],
         [
           "Rosental",
-          1431
+          1486
         ],
         [
           "Matthäus",
-          2313
+          2312
         ],
         [
           "Klybeck",
-          1360
+          1273
         ],
         [
           "Kleinhüningen",
-          549
+          566
         ],
         [
           "Riehen",
-          4354
+          4506
         ],
         [
           "Bettingen",
-          231
+          234
         ]
       ],
       "name": "Anzahl Personen unter 20 Jahren"
@@ -7228,12 +7228,13 @@
 	                
 					//pie values in legend
 	                var minValueInLegend = 200; 
-	                var maxValueInLegend = 4000; 
+	                var maxValueInLegend = 5000; 
 	                
                 	//Add manually drawn legend	
                 	fn.addLegendRectangle(chart, 250, 220, 230, 77, '#fbfbfb', 'pieLegend');
                 	fn.addLegendRectangle(chart, 250, 300, 230, 60, '#fbfbfb');
-	                fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahren in %", 265, 300, 'pieLegendStayOnZoom');
+					//fn.addLegendTitle(chart, "Anteil Personen unter 20 Jahre in %", 265, 300, 'pieLegendStayOnZoom');
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300, 'pieLegendStayOnZoom');
 	                
 	                fn.addLegendCircle(chart, 280, 255, 0.5*fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
 	                fn.addLegendCircle(chart, 280, 280, 0.5*fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), '#C9D6DB', 'pieLegendStayeOnZoom');
@@ -7302,7 +7303,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7318,7 +7319,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
   },
   "colorAxis": {
     "min": 0,

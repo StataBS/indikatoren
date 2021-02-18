@@ -80,7 +80,7 @@
 				tooltip: {
 					pointFormatter: function(){
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),1) + '</b><br/>';
+						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
 					}
 				}
 			}, 
@@ -155,8 +155,8 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 245, 210, 105, 130, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 210, 105, 130, '#fbfbfb');
-	        		fn.addLegendTitle(chart, "Anteil unter <br/>  20-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl unter <br/>  20-Jähriger", 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" u",  "<br/>u").replace("in", "<br/>in")/*"Anteil unter <br/>  20-Jähriger in %"*/, 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" u",  "<br/>u")/*"Anzahl unter <br/>  20-Jähriger"*/, 355, 210);
 	                
 	           		fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 455, 255, undefined, false, 'right');
