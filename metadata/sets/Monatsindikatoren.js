@@ -159,18 +159,21 @@ var indikatorensetData = [
 		"id": 7513
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.01.1.07515",
 		"kuerzelKunde": "",
 		"description": "Bilanz der Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-26T08:47:10.1010",
+		"aktualisierungsdatum": "2021-02-22T11:32:54.5454",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -178,12 +181,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
 		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "_003",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -276,32 +276,32 @@ var indikatorensetData = [
 		"id": 7517
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "mappie001",
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Dezember 2020",
+		"subtitle": "Basel-Stadt, Januar 2021",
+		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
 		"description": "Bevölkerung nach Wohnviertel",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Monatsindikatoren",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-01-26T08:54:34.3434",
+		"aktualisierungsdatum": "2021-02-22T11:32:55.5555",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Dezember 2020 stieg die Einwohnerzahl gegenüber dem Vormonat in fünf Wohnvierteln sowie in Riehen. In dreizehn Wohnvierteln ging sie zurück. Im Gundeldingen sowie in Bettingen blieb sie gleich.",
+		"lesehilfe": "Im Januar 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen und Bettingen. In neun Wohnvierteln ging sie zurück. In Kleinhüningen blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
