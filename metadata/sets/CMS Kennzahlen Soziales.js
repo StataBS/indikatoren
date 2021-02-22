@@ -611,31 +611,31 @@ var indikatorensetData = [
 		"id": 8254
 	},
 	{
+		"parentId": 6071,
+		"children": [],
+		"template": "template001",
 		"title": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.01.1.08255",
 		"kuerzelKunde": "1-25",
 		"description": "Ausländische Bevölkerung nach Art der Bewilligung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2021-02-22T11:32:56.5656",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2019:&nbsp;43&nbsp;102) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2019:&nbsp;26&nbsp;218). Von 2000 (685) bis 2006 (4&nbsp;022) stieg die Zahl der Personen mit Kurzaufenthaltsbewilligungen. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2&nbsp;000 Personen.",
-		"erlaeuterungen": "Bewilligungsarten: C:&nbsp;Niederlassungsbewilligung, B:&nbsp;Aufenthaltsbewilligung, F:&nbsp;vorläufig aufgenommene Ausländer, L:&nbsp;Kurzaufenthaltsbewilligung, N:&nbsp;Asylsuchende.",
-		"template": "template001",
+		"lesehilfe": "Der Grossteil der ausländischen Bevölkerung (2020: 43 322) im Kanton Basel-Stadt ist im Besitz einer zeitlich unbeschränkten und an keine Bedingungen geknüpften Niederlassungsbewilligung. Gut halb so viele Personen der ausländischen Bevölkerung besitzen eine Aufenthaltsbewilligung (2020: 27 173). Von 2001 (864) bis 2006 (4 022) stieg die Zahl der Personen mit einer Kurzaufenthaltsbewilligung. Seither nimmt sie tendenziell wieder ab und liegt seit 2015 bei etwa 2 000 Personen.",
+		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_125",
-		"parentId": 6071,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1713,18 +1713,21 @@ var indikatorensetData = [
 		"id": 8283
 	},
 	{
+		"parentId": 4832,
+		"children": [],
+		"template": "dotplot",
 		"title": "Anteil Grünflächen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.02.1.08284",
 		"kuerzelKunde": "2-09",
 		"description": "Anteil Grünflächen",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2021-02-22T11:32:56.5656",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1732,12 +1735,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
 		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_209",
-		"parentId": 4832,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1875,33 +1875,33 @@ var indikatorensetData = [
 		"id": 8287
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8559"
+		],
+		"template": "line001",
 		"title": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"subtitle": "Anzahl Polizeieinsätze und Anzahl Kinder, Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "2-14",
 		"description": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"aktualisierungsdatum": "2021-02-22T11:32:57.5757",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 124 Fällen Kinder (insgesamt 212) als direkt oder unmittelbar Betroffene anwesend.",
+		"lesehilfe": "Im Jahr 2019 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 110 Fällen Kinder (insgesamt 215) als direkt oder unmittelbar Betroffene anwesend.",
 		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_214",
-		"parentId": null,
-		"children": [
-			"8559"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"

@@ -25,6 +25,10 @@
         [
           2018,
           124
+        ],
+        [
+          2019,
+          110
         ]
       ],
       "name": "Polizeieinsätze"
@@ -54,6 +58,10 @@
         [
           2018,
           212
+        ],
+        [
+          2019,
+          215
         ]
       ],
       "name": "Betroffene Kinder"
@@ -185,7 +193,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-22"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
