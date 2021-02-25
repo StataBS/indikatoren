@@ -74127,7 +74127,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:52:29.2929",
+		"aktualisierungsdatum": "2021-02-25T08:38:52.5252",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74623,18 +74623,21 @@ var indikatoren = [
 		"id": 9009
 	},
 	{
-		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
-		"subtitle": "Stand: 4. April 2020, in % der Gesamtwirtschaft Basel-Stadt",
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Betriebe",
+		"subtitle": "in % der Gesamtwirtschaft Basel-Stadt",
+		"kennzahlenset": "",
 		"kuerzel": "I.03.2.09011",
 		"kuerzelKunde": "",
-		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
+		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Betriebe",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-13T18:25:33.3333",
+		"aktualisierungsdatum": "2021-02-25T08:38:53.5353",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74642,16 +74645,13 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung 2 vom 13. März 2020 (Stand 4. April 2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -74663,18 +74663,21 @@ var indikatoren = [
 		"id": 9011
 	},
 	{
-		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
-		"subtitle": "Stand: 11. Mai 2020, in % der Gesamtwirtschaft Basel-Stadt",
+		"parentId": null,
+		"children": [],
+		"template": "template001",
+		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte",
+		"subtitle": "in % der Gesamtwirtschaft Basel-Stadt",
+		"kennzahlenset": "",
 		"kuerzel": "I.03.2.09012",
 		"kuerzelKunde": "",
-		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe",
+		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-13T18:31:36.3636",
+		"aktualisierungsdatum": "2021-02-25T08:38:54.5454",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74682,16 +74685,13 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
@@ -74703,18 +74703,21 @@ var indikatoren = [
 		"id": 9012
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton",
 		"subtitle": "in % der Gesamtwirtschaft",
+		"kennzahlenset": "",
 		"kuerzel": "I.03.2.09013",
 		"kuerzelKunde": "",
 		"description": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-13T18:32:19.1919",
+		"aktualisierungsdatum": "2021-02-25T08:38:55.5555",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74722,16 +74725,13 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "<bitte Kommentar erfassen>",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020)"
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [

@@ -33,8 +33,13 @@
             },
             {
 
-                "color": '#008AC3'
+                "color": '#008AC3', visible: false
+            },
+            {
+
+                "color": '#0F7399'
             }
+
 
         ],
 

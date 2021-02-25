@@ -4,30 +4,38 @@
       "color": "#A0BEC8",
       "data": [
         [
-          "Beschäftigte",
-          1.147848308
+          "4. April 2020",
+          2.553523873
         ],
         [
-          "Betriebe",
-          4.030889838
+          "11. Mai 2020",
+          0
+        ],
+        [
+          "18. Januar 2021",
+          2.384721844
         ]
       ],
-      "name": "Künstlerische und unterhaltende Tätigkeiten (inkl. Kinos)",
+      "name": "Einkaufsläden und Märkte",
       "turboThreshold": 0
     },
     {
       "color": "#68AB2B",
       "data": [
         [
-          "Beschäftigte",
-          1.551585099
+          "4. April 2020",
+          4.018746461
         ],
         [
-          "Betriebe",
-          1.731703036
+          "11. Mai 2020",
+          0.084401015
+        ],
+        [
+          "18. Januar 2021",
+          4.018746461
         ]
       ],
-      "name": "Erholung (inkl. Skipisten und Campingplätze) und Freizeitaktivitäten (inkl. Diskotheken, Nachtclubs, Casinos)",
+      "name": "Restaurations-, Bar- und Clubbetriebe sowie Diskotheken und Tanzlokale",
       "turboThreshold": 0
     }
   ],
@@ -113,10 +121,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe"
+    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte"
   },
   "subtitle": {
-    "text": "Stand: 11. Mai 2020, in % der Gesamtwirtschaft Basel-Stadt",
+    "text": "in % der Gesamtwirtschaft Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -179,7 +187,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung  2 vom 13. März 2020 (Stand 11. Mai  2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -187,6 +195,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 9012
+    "filename": "9012"
   }
 }
