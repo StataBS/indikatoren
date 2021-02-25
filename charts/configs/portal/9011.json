@@ -2,14 +2,20 @@
   "series": [
     {
       "color": "#FABD24",
+      "index": 3,
+      "legendIndex": 3,
       "data": [
         [
-          "Beschäftigte",
-          2.793691024
+          "4. April 2020",
+          4.774285039
         ],
         [
-          "Betriebe",
-          5.060551103
+          "11. Mai 2020",
+          0
+        ],
+        [
+          "18. Januar 2021",
+          4.449302765
         ]
       ],
       "name": "Einkaufsläden und Märkte",
@@ -17,44 +23,62 @@
     },
     {
       "color": "#923F8D",
+      "index": 2,
+      "legendIndex": 2,
       "data": [
         [
-          "Beschäftigte",
-          3.941539332
+          "4. April 2020",
+          4.112502954
         ],
         [
-          "Betriebe",
-          4.112794711
+          "11. Mai 2020",
+          0.070905223
+        ],
+        [
+          "18. Januar 2021",
+          4.112502954
         ]
       ],
-      "name": "Restaurationsbetriebe, Barbetriebe, Diskotheken, Nachtclubs",
+      "name": "Restaurations-, Bar- und Clubbetriebe sowie Diskotheken und Tanzlokale",
       "turboThreshold": 0
     },
     {
       "color": "#689199",
+      "index": 1,
+      "legendIndex": 1,
       "data": [
         [
-          "Beschäftigte",
-          3.589120576
+          "4. April 2020",
+          7.23824155
         ],
         [
-          "Betriebe",
-          7.084771544
+          "11. Mai 2020",
+          5.719688017
+        ],
+        [
+          "18. Januar 2021",
+          7.23824155
         ]
       ],
-      "name": "Unterhaltungs- und Freizeitbetriebe, Campingplätze",
+      "name": "Betriebe in den Bereichen Kultur, Unterhaltung, Freizeit und Sport",
       "turboThreshold": 0
     },
     {
       "color": "#008AC3",
+      "index": 0,
+      "legendIndex": 0,
       "data": [
         [
-          "Beschäftigte",
-          0.839940094
+          "4. April 2020",
+          5.246986528
         ],
         [
-          "Betriebe",
-          5.294565027
+          "11. Mai 2020",
+          0
+        ],
+        [
+          "18. Januar 2021",
+          0
         ]
       ],
       "name": "Betriebe mit personenbezogenen Dienstleistungen mit Körperkontakt",
@@ -77,11 +101,12 @@
         "color": "#000000"
       },
       "formatter": function(){
-            return this.value
-              .replace("Beschäftigte", "Beschäftigte<br>(N=21 320)")
-              .replace("Betriebe", "Betriebe<br>(N=3 684)")
-              ;
-          }
+          return this.value
+            .replace("4. April 2020", "4. April<br>2020")
+            .replace("11. Mai 2020", "11. Mai<br>2020")
+            .replace("18. Januar 2021", "18. Januar<br>2021")
+            ;
+        }
     },
     "tickInterval": 1
   },
@@ -143,10 +168,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte und Betriebe"
+    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Betriebe"
   },
   "subtitle": {
-    "text": "Stand: 4. April 2020, in % der Gesamtwirtschaft Basel-Stadt",
+    "text": "in % der Gesamtwirtschaft Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -209,7 +234,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2017, COVID-19-Verordnung 2 vom 13. März 2020 (Stand 4. April 2020).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-13"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -217,6 +242,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 9011
+    "filename": "9011"
   }
 }
