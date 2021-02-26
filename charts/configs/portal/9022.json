@@ -4563,39 +4563,39 @@
         ],
         [
           45,
-          -47
+          -46
         ],
         [
           46,
-          -54
+          -53
         ],
         [
           47,
-          -47
+          -46
         ],
         [
           48,
-          -43
+          -42
         ],
         [
           49,
-          -25
+          -24
         ],
         [
           50,
-          -19
+          -17
         ],
         [
           51,
-          5
+          7
         ],
         [
           52,
-          23
+          25
         ],
         [
           53,
-          31
+          33
         ]
       ],
       "name": "2020 Kumuliert"
@@ -4783,7 +4783,7 @@
         ],
         [
           45,
-          0
+          1
         ],
         [
           46,
@@ -4803,7 +4803,7 @@
         ],
         [
           50,
-          5
+          6
         ],
         [
           51,
@@ -4831,15 +4831,15 @@
         ],
         [
           2,
-          -1
+          0
         ],
         [
           3,
-          4
+          5
         ],
         [
           4,
-          null
+          3
         ],
         [
           5,
@@ -5051,7 +5051,7 @@
         ],
         [
           2,
-          -3
+          -2
         ],
         [
           3,
@@ -5059,7 +5059,7 @@
         ],
         [
           4,
-          null
+          -1
         ],
         [
           5,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

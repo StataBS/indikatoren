@@ -409,7 +409,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "formatter": function() {
    			 return this.value.split("-").slice(0, -1);
@@ -451,6 +452,7 @@
                 }
     },
     "type": "column",
+    "marginRight": 20,
     "renderTo": "container-8981",
     "spacingBottom": 40
   },
@@ -527,7 +529,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-26"
   },
   "tooltip": {
     "valueDecimals": 0,

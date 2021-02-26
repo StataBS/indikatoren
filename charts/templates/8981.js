@@ -10,6 +10,10 @@
     "tickInterval": 12,
      "type": "category",
      labels:{
+      style: {
+        textOverflow: "none",
+        //whiteSpace: "nowrap",
+    },
       // x: 20,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
@@ -29,7 +33,8 @@
     "shared": false
   },
   "chart": {
-    "type": "column"
+    "type": "column", 
+    marginRight: 20
   }
 	};
 }());
