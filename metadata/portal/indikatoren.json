@@ -13977,34 +13977,34 @@
 		"id": 6080
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6666"
+		],
+		"template": "line001",
 		"title": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.15.1.6081",
 		"kuerzelKunde": "B1-2",
 		"description": "Gymnasialquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T13:55:53.5353",
+		"aktualisierungsdatum": "2021-03-02T08:27:53.5353",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Gymnasial- bzw. Sek  P-Quote der Schweizerinnen und Schweizer liegt in allen Jahren über derjenigen der Ausländerinnen und Ausländer. Die Quote der Gymnasiastinnen bzw. Sek  P-Schülerinnen – ob mit oder ohne Schweizer Pass – ist durchwegs höher als diejenige ihrer jeweiligen männlichen Kollegen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2019 in der Grafik entspricht Schuljahr 2019/20.",
-		"template": "line001",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2020 in der Grafik entspricht Schuljahr 2020/21.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"6666"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -20042,34 +20042,34 @@
 		"id": 6460
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7047"
+		],
+		"template": "template001",
 		"title": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6461",
 		"kuerzelKunde": "2-03",
 		"description": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:40.4040",
+		"aktualisierungsdatum": "2021-03-02T08:27:40.4040",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2019 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2017) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (29%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (30%), der Information und Kommunikation (31%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma; 25%), im Baugewerbe (21%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt Ende 2019 bei 18%.",
+		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2020 rund 34 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (33%), der Information und Kommunikation (30%), der Beratung, Planung, Forschung und im Immobilienwesen (28%), der Industrie (ohne Chemie und Pharma; 26%), im Baugewerbe (20%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2020 bei 18%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"7047"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
@@ -35645,34 +35645,34 @@
 		"id": 8254
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8527"
+		],
+		"template": "template001",
 		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.01.1.08256",
 		"kuerzelKunde": "1-26",
 		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2021-03-02T08:27:28.2828",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2019 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 45% aus. 2010 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2019 liegt dieser Anteil noch bei 43%.",
+		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2020 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 46% aus. 2011 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2020 liegt dieser Anteil noch bei 43%.",
 		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_02_00_00_00_126",
-		"parentId": null,
-		"children": [
-			"8527"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

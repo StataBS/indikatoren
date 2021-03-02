@@ -36,8 +36,8 @@
 },
 "series": [
 {"color": "#923f8d", "index": 3, "legendIndex":0}, /*grün dunkel2*/
-{"color": "#b375ab", "index": 2, "legendIndex":2}, /*grün mittel*/
-{"color": "#A8C3CA", "index": 1, "legendIndex":1}, 
+{"color": "#b375ab", "index": 2, "legendIndex":1}, /*grün mittel*/
+{"color": "#A8C3CA", "index": 1, "legendIndex":2}, 
 {"color": "#246370", "index": 0, "legendIndex":3}, 
 ],
 "chart": {

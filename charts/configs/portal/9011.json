@@ -6,7 +6,7 @@
       "legendIndex": 3,
       "data": [
         [
-          "4. April 2020",
+          "17. März\u003Cbr\u002F\u003E 2020",
           4.774285039
         ],
         [
@@ -27,7 +27,7 @@
       "legendIndex": 2,
       "data": [
         [
-          "4. April 2020",
+          "17. März\u003Cbr\u002F\u003E 2020",
           4.112502954
         ],
         [
@@ -48,7 +48,7 @@
       "legendIndex": 1,
       "data": [
         [
-          "4. April 2020",
+          "17. März\u003Cbr\u002F\u003E 2020",
           7.23824155
         ],
         [
@@ -69,7 +69,7 @@
       "legendIndex": 0,
       "data": [
         [
-          "4. April 2020",
+          "17. März\u003Cbr\u002F\u003E 2020",
           5.246986528
         ],
         [
@@ -168,7 +168,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Betriebe"
+    "text": "Gemäss COVID-19-Verordnung geschlossene Arbeitsstätten"
   },
   "subtitle": {
     "text": "in % der Gesamtwirtschaft Basel-Stadt",
@@ -234,7 +234,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-2"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
