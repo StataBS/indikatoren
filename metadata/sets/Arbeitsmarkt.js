@@ -1810,33 +1810,33 @@ var indikatorensetData = [
 		"id": 6460
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7047"
+		],
+		"template": "template001",
 		"title": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Arbeitsmarkt",
 		"kuerzel": "I.03.5.6461",
 		"kuerzelKunde": "2-03",
 		"description": "Anteil Grenzgänger an der Beschäftigung nach Branche",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Arbeitsmarkt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T09:48:40.4040",
+		"aktualisierungsdatum": "2021-03-02T08:27:40.4040",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2019 rund 32 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2017) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (29%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (30%), der Information und Kommunikation (31%), der Beratung, Planung, Forschung und im Immobilienwesen (27%), der Industrie (ohne Chemie und Pharma; 25%), im Baugewerbe (21%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt Ende 2019 bei 18%.",
+		"lesehilfe": "Die Abbildung zeigt die Grenzgänger als Anteil an den auf dem baselstädtischen Arbeitsmarkt besetzten Stellen. Beispielsweise kommen in der Branche Chemie und Pharma 2020 rund 34 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018) in diesem Bereich. Die Grenzgänger spielen auch in der Personalvermittlung und -überlassung (28%), im Bereich der Gebäudebetreuung, Sicherheit und sonstigen wirtschaftlichen Dienstleistungen (33%), der Information und Kommunikation (30%), der Beratung, Planung, Forschung und im Immobilienwesen (28%), der Industrie (ohne Chemie und Pharma; 26%), im Baugewerbe (20%) sowie im Handel (18%) eine wichtige Rolle. Der Anteil der Grenzgänger an der gesamten Beschäftigung liegt im 4. Quartal 2020 bei 18%.",
 		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"7047"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
