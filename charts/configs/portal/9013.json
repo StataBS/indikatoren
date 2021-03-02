@@ -407,7 +407,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Von Artikel 6 der COVID-19-Verordnung 2 betroffene Beschäftigte nach Kanton"
+    "text": "Von Schliessungen gemäss COVID-19-Verordnung betroffene Beschäftigte nach Kanton"
   },
   "subtitle": {
     "text": "in % der Gesamtwirtschaft",
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT) 2018.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-2"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
