@@ -10,6 +10,7 @@ id_rsa
 travis_phantomjs/
 travis_phantomjs/*
 build/convertArgs.json
+build/config.json
 npm-debug.log.*
 /node_cache
 
