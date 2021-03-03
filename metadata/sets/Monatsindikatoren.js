@@ -93,14 +93,14 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-02-12T09:04:01.011",
+		"aktualisierungsdatum": "2021-03-03T08:36:11.1111",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Diese Entwicklung setzt sich fort; seit April 2020 allerdings im negativen Bereich, sprich der Basler Index verläuft etwas weniger stark rückläufig als der Landesindex.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Januar 2021 und Januar 2020.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Februar 2021 und Februar 2020.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "_0-1",
@@ -133,7 +133,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:16.1616",
+		"aktualisierungsdatum": "2021-03-03T08:36:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

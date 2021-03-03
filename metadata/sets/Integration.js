@@ -948,33 +948,33 @@ var indikatorensetData = [
 		"id": 6079
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6665"
+		],
+		"template": "line001",
 		"title": "Gymnasialquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.15.1.6080",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "B1-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
+		"thema": "50 Befragungen",
 		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T10:08:21.2121",
+		"aktualisierungsdatum": "2021-03-03T08:36:13.1313",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (62,4%), gefolgt von den Schweizerinnen und Schweizern (47,0%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus der Türkei (10,2%) und dem Balkan (10,5%) auf.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2019 in der Grafik entspricht Schuljahr 2019/20.",
-		"template": "line001",
+		"lesehilfe": "Die höchste Gymnasial- bzw. Sek P-Quote erreichen die Schülerinnen und Schüler mit deutscher Staatsbürgerschaft (59,6%), gefolgt von den Schweizerinnen und Schweizern (46,5%). Die tiefsten Quoten weisen Schülerinnen und Schüler aus dem Balkan (9,6%) und der Türkei (13,1%) auf.",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen. Stichtag der Bildungsstatistik ist jeweils im September; Jahr 2020 in der Grafik entspricht Schuljahr 2020/21.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6665"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
