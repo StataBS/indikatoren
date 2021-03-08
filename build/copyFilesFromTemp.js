@@ -1,11 +1,16 @@
 const fs = require("fs");
 const parse = require('csv-parse/lib/sync');
 const child_process = require('child_process');
-const eol = require("eol");
 
 var config = require('./config.json');
 var tempDir = config.tempDir
 var verzeichnisTxtPath = tempDir + "verzeichnis.txt";
+
+// handle error function
+const handleError = (error) => {
+    // write error message to console with red color (\x1b[31m = red, \x1b[0m = reset, %s = string)
+    console.log('\x1b[31m%s\x1b[0m', error.message);
+}
 
 //parse csv  
 const records = parse(fs.readFileSync(verzeichnisTxtPath), {
@@ -15,13 +20,16 @@ const records = parse(fs.readFileSync(verzeichnisTxtPath), {
 
 //load json and tsv for each row
 records.forEach(row => {
-
     //for each line: download and save json / tsv
     console.log('downloading files for ' + row.Indikator + '...');
-    if (fs.existsSync(tempDir + row.Indikator + '.json')) {
-        console.log('file exists ' + tempDir + row.Indikator + '.json');
-      }
-    fs.copyFileSync(tempDir + row.Indikator + '.json', 'metadata/single/' + row.Indikator + '.json');
+    try {
+        fs.copyFileSync(tempDir + row.Indikator + '.json', 'metadata/single/' + row.Indikator + '.json');
+        console.log('file copied: ' + tempDir + row.Indikator + '.json');
+    }
+    catch (error) {
+        handleError(error);
+    }        
+
     //checkout js and overwrite tsv for each chart with a branch number other than null
     if (row.Branch) {
         console.log('checking out ' + row.Indikator + '.js and ' + row.Indikator + '.tsv from branch ' + row.Branch + '...');
@@ -32,16 +40,24 @@ records.forEach(row => {
             child_process.execSync(gitJsCommand);
         }
         catch (error) {
-        }
+            handleError(error);
+        }        
         console.log(gitTsvCommand);
         try {
             child_process.execSync(gitTsvCommand);
         }
         catch (error) {
-        }
+            handleError(error);
+        }        
     }
     else {
-        fs.copyFileSync(tempDir + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
+        try {
+            fs.copyFileSync(tempDir + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
+            console.log('file copied: ' + tempDir + row.Indikator + '.tsv');
+        }
+        catch (error) {
+            handleError(error);
+        }        
     }
 });
 console.log('...done!');
