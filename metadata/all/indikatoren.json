@@ -36229,18 +36229,21 @@
 		"id": 6909
 	},
 	{
-		"title": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
+		"parentId": null,
+		"children": [],
+		"template": "line001",
+		"title": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
 		"subtitle": "in Franken, Basel-Stadt",
+		"kennzahlenset": "Steuern",
 		"kuerzel": "I.18.2.06910",
 		"kuerzelKunde": "3-1",
-		"description": "Summe der Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
+		"description": "Summe des Ertrags aus Einkommens- und Vermögenssteuer von Zugezogenen und Weggezogenen",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Steuern",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-02T17:58:20.2020",
+		"aktualisierungsdatum": "2021-03-11T08:52:08.088",
 		"stufe1": "Wanderung",
 		"stufe2": "",
 		"stufe3": "",
@@ -36248,13 +36251,10 @@
 		"stufe5": "",
 		"lesehilfe": "Seit dem Jahr 2009 liegt jedes Jahr ein positiver Saldo des Steuerertrags von Zuzügern und Wegzügern vor. 2017 betrug dieser 5,9 Mio. Franken. Sowohl bei der Einkommenssteuer (rund 5,7 Mio. Franken) als auch bei der Vermögenssteuer (260 000 Franken) wurde ein Plus verzeichnet. Von Zuzügern lagen für das Steuerjahr 2017 rund 4 900 Veranlagungen vor, von Wegzügern des Vorjahres 4 250 Veranlagungen. Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen.",
 		"erlaeuterungen": "Die Methodik zur Untersuchung des Wanderungseffekts unterscheidet sich von den übrigen Auswertungen. Die Analyse der Effekte auf den Ertrag aus Einkommens- und Vermögenssteuer durch Zu- und Abwanderung im Kanton Basel-Stadt wird durch verschiedene methodische Aspekte erschwert. Seit der eidgenössischen Steuerharmonisierung im Jahr 2002 ist für die Steuerpflicht innerhalb der Schweiz der Wohnsitz am 31. Dezember massgebend. Es liegen daher in Basel-Stadt in der Regel keine Daten zur Einkommens- und Vermögenssituation im Jahr des Wegzugs vor. Für die Steuerstatistik der Wegzügerinnen und Wegzüger wurden daher die Steuerdaten des jeweiligen Vorjahres verwendet. Für die Zugezogenen und die ganzjährig Niedergelassenen sind die Steuerdaten des Berichtsjahres vorhanden und wurden für die Analyse verwendet. Bei der Definition der Zuzüger wurde berücksichtigt, dass Ausländer ohne Niederlassungsbewilligung in der Regel an der Quelle veranlagt werden. Aus diesem Grund wurde ein Zuzug erst bei einer Niederlassung als solcher gezählt. Quellensteuerpflichtige sind in der Regel nicht erfasst, ausser sie werden nachträglich ordentlich veranlagt. Dies ist zum Beispiel der Fall, wenn die Einkünfte mehr als 120 000 Franken im Kalenderjahr betragen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_001",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -74127,7 +74127,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-04T09:04:21.2121",
+		"aktualisierungsdatum": "2021-03-11T08:52:05.055",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74757,7 +74757,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-04T09:04:22.2222",
+		"aktualisierungsdatum": "2021-03-11T08:52:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74797,7 +74797,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-04T09:04:22.2222",
+		"aktualisierungsdatum": "2021-03-11T08:52:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
