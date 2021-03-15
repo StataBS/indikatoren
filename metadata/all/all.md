@@ -288,24 +288,24 @@ id | visible | visibleInPortal | indikatorenset
 5033 | true | true | Legislaturplan
 5041 | true | true | Legislaturplan
 5066 | true | true | Legislaturplan
-5109 | true | true | Wohnviertel
-5110 | true | true | Wohnviertel
+5109 | false |  | Wohnviertel
+5110 | false |  | Wohnviertel
 5111 | false |  | Wohnviertel
-5112 | true | true | Wohnviertel
-5113 | true | true | Wohnviertel
-5114 | true | true | Wohnviertel
-5115 | true | true | Wohnviertel
-5116 | true | true | Wohnviertel
-5117 | true | true | Wohnviertel
-5118 | true | true | Wohnviertel
-5119 | true | true | Wohnviertel
-5120 | true | true | Wohnviertel
-5121 | true | true | Wohnviertel
-5122 | true | true | Wohnviertel
-5123 | true | true | Wohnviertel
-5124 | true | true | Wohnviertel
-5125 | true | true | Wohnviertel
-5126 | true | true | Wohnviertel
+5112 | false |  | Wohnviertel
+5113 | false |  | Wohnviertel
+5114 | false |  | Wohnviertel
+5115 | false |  | Wohnviertel
+5116 | false |  | Wohnviertel
+5117 | false |  | Wohnviertel
+5118 | false |  | Wohnviertel
+5119 | false |  | Wohnviertel
+5120 | false |  | Wohnviertel
+5121 | false |  | Wohnviertel
+5122 | false |  | Wohnviertel
+5123 | false |  | Wohnviertel
+5124 | false |  | Wohnviertel
+5125 | false |  | Wohnviertel
+5126 | false |  | Wohnviertel
 5130 | true | true | 
 5131 | true | true | 
 5138 | true | false | Nachhaltigkeit
@@ -1444,7 +1444,7 @@ id | visible | visibleInPortal | indikatorenset
 8273 | true | true | CMS Kennzahlen Soziales
 8274 | true | true | CMS Kennzahlen Soziales
 8275 | true | true | CMS Kennzahlen Soziales
-8276 | true | false | CMS Kennzahlen Soziales
+8276 | true | true | CMS Kennzahlen Soziales
 8277 | true | true | CMS Kennzahlen Soziales
 8278 | true | true | CMS Kennzahlen Soziales
 8279 | true | true | CMS Kennzahlen Soziales
