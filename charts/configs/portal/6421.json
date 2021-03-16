@@ -72,6 +72,10 @@
         [
           "2019",
           3973
+        ],
+        [
+          "2020",
+          4032
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -149,6 +153,10 @@
         [
           "2019",
           70
+        ],
+        [
+          "2020",
+          68
         ]
       ],
       "name": "Unteres Fachkader",
@@ -226,6 +234,10 @@
         [
           "2019",
           164
+        ],
+        [
+          "2020",
+          176
         ]
       ],
       "name": "Unteres Kader",
@@ -303,6 +315,10 @@
         [
           "2019",
           104
+        ],
+        [
+          "2020",
+          109
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -380,6 +396,10 @@
         [
           "2019",
           207
+        ],
+        [
+          "2020",
+          192
         ]
       ],
       "name": "Mittleres Kader",
@@ -457,6 +477,10 @@
         [
           "2019",
           115
+        ],
+        [
+          "2020",
+          117
         ]
       ],
       "name": "Oberes Kader",
@@ -540,7 +564,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Schweizer Angestellte in der Verwaltung Basel-Stadt"
+    "text": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
     "text": "nach Kaderstufe",
@@ -601,12 +625,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-16"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6421
+    "filename": "6421"
   }
 }
