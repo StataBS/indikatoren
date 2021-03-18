@@ -1,17 +1,22 @@
 var indikatorensetData = [
 	{
+		"parentId": null,
+		"children": [
+			"5109"
+		],
+		"template": "dotplot",
 		"title": "Sozialhilfequote",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.13.3.4822",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:12:54.5454",
+		"aktualisierungsdatum": "2021-03-18T11:56:26.2626",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -19,17 +24,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 13,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,2% am tiefsten.",
 		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfebeziehenden am Endjahresbestand der Bevölkerung des entsprechenden Wohnviertels. Es sind alle Sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"5109"
-		],
-		"renderLink": [
-			"5109"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -86,18 +84,23 @@ var indikatorensetData = [
 		"id": 4823
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5112"
+		],
+		"template": "dotplot",
 		"title": "Anteil Personen in Einpersonenhaushalten",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.2.4825",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-27T08:35:25.2525",
+		"aktualisierungsdatum": "2021-03-18T11:56:26.2626",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -105,17 +108,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "In der Altstadt Kleinbasel ist der Anteil Personen, die in Einpersonenhaushalten leben, am höchsten, in der Gemeinde Bettingen am niedrigsten.",
 		"erlaeuterungen": "Anteil Personen in Einpersonenhaushalten an allen Personen in Privathaushalten des Wohnviertels in Prozent.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"5112"
-		],
-		"renderLink": [
-			"5112"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -145,7 +141,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:48.4848",
+		"aktualisierungsdatum": "2021-03-18T11:56:27.2727",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -156,9 +152,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_005",
-		"renderLink": [
-			"5113"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
 		],
@@ -172,18 +166,25 @@ var indikatorensetData = [
 		"id": 4826
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5114",
+			"8320",
+			"8591"
+		],
+		"template": "dotplot",
 		"title": "Altersquotient",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.4827",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:13:14.1414",
+		"aktualisierungsdatum": "2021-03-18T11:56:28.2828",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -191,16 +192,12 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Altersquotient ist im Wohnviertel Rosental am geringsten und in der Gemeinde Riehen am höchsten.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"5114"
-		],
 		"renderLink": [
-			"5114"
+			"8320",
+			"8591"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -232,7 +229,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:49.4949",
+		"aktualisierungsdatum": "2021-03-18T11:56:28.2828",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -244,7 +241,6 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_007",
 		"renderLink": [
-			"5115",
 			"6373"
 		],
 		"quellenangabe": [
@@ -262,7 +258,9 @@ var indikatorensetData = [
 	{
 		"parentId": null,
 		"children": [
-			"5116"
+			"5116",
+			"8276",
+			"8547"
 		],
 		"template": "dotplot",
 		"title": "Jugendquotient",
@@ -276,7 +274,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:53:43.4343",
+		"aktualisierungsdatum": "2021-03-18T11:56:29.2929",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -288,7 +286,8 @@ var indikatorensetData = [
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_008",
 		"renderLink": [
-			"5116"
+			"8276",
+			"8547"
 		],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -319,7 +318,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:08.088",
+		"aktualisierungsdatum": "2021-03-18T11:56:30.3030",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -330,9 +329,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_009",
-		"renderLink": [
-			"5117"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -362,7 +359,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:54:21.2121",
+		"aktualisierungsdatum": "2021-03-18T11:56:31.3131",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -373,9 +370,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_010",
-		"renderLink": [
-			"5118"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -407,7 +402,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:16:28.2828",
+		"aktualisierungsdatum": "2021-03-18T11:56:31.3131",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -418,9 +413,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_011",
-		"renderLink": [
-			"5119"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
 		],
@@ -450,7 +443,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:54:31.3131",
+		"aktualisierungsdatum": "2021-03-18T11:56:32.3232",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -461,9 +454,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_012",
-		"renderLink": [
-			"5120"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
@@ -477,29 +468,6 @@ var indikatorensetData = [
 		"id": 4833
 	},
 	{
-		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.09.1.4834",
-		"kuerzelKunde": "RU-5.A",
-		"description": "Wohnfläche pro Kopf",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-07-24T13:51:49.4949",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Raum und Umwelt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
-		"template": "dotplot",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_02_00_00_00_013",
 		"parentId": null,
 		"children": [
 			"5121",
@@ -507,9 +475,30 @@ var indikatorensetData = [
 			"8283",
 			"8554"
 		],
-		"renderLink": [
-			"5121"
+		"template": "dotplot",
+		"title": "Wohnfläche pro Kopf",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "I.09.1.4834",
+		"kuerzelKunde": "RU-5.A",
+		"description": "Wohnfläche pro Kopf",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"aktualisierungsdatum": "2021-03-18T11:56:35.3535",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Raum und Umwelt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "02_02_00_00_00_013",
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -567,18 +556,23 @@ var indikatorensetData = [
 		"id": 4835
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5123"
+		],
+		"template": "dotplot",
 		"title": "Einkommenssteuer pro Veranlagung",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.18.2.4836",
 		"kuerzelKunde": "WA-2.A",
 		"description": "Einkommenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-20T11:32:57.5757",
+		"aktualisierungsdatum": "2021-03-18T11:56:36.3636",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -586,17 +580,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Bettingen verzeichnet mit rund 21 100 Franken die höchste Einkommenssteuer pro Veranlagung. Den niedrigsten Wert weist mit 4 300 Franken das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_015",
-		"parentId": null,
-		"children": [
-			"5123"
-		],
-		"renderLink": [
-			"5123"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
@@ -610,18 +597,23 @@ var indikatorensetData = [
 		"id": 4836
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5124"
+		],
+		"template": "dotplot",
 		"title": "Erwerbstätigenquote",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2014 bis 2018",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.03.1.4837",
 		"kuerzelKunde": "WA-3.A",
 		"description": "Erwerbstätigenquote",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-27T08:35:25.2525",
+		"aktualisierungsdatum": "2021-03-18T11:56:37.3737",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -629,17 +621,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Mittel der Jahre 2014 bis 2018 ist die Erwerbstätigenquote im Wohnviertel Klybeck am tiefsten (63,0%) und im Wohnviertel Altstadt Grossbasel am höchsten (83,7%)",
 		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2014 bis 2018 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_016",
-		"parentId": null,
-		"children": [
-			"5124"
-		],
-		"renderLink": [
-			"5124"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -653,18 +638,23 @@ var indikatorensetData = [
 		"id": 4837
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5125"
+		],
+		"template": "dotplot",
 		"title": "Arbeitsplätze pro Kopf",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.03.2.4838",
 		"kuerzelKunde": "WA-4.A",
 		"description": "Arbeitsplätze pro Kopf",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-10-22T18:34:25.2525",
+		"aktualisierungsdatum": "2021-03-18T11:56:38.3838",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -672,17 +662,10 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
 		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br> Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_017",
-		"parentId": null,
-		"children": [
-			"5125"
-		],
-		"renderLink": [
-			"5125"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
 		],
@@ -696,36 +679,34 @@ var indikatorensetData = [
 		"id": 4838
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5126"
+		],
+		"template": "dotplot",
 		"title": "Arbeitslosenquote",
-		"subtitle": "Stand: 2016",
-		"kuerzel": "I.03.4.4839",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2016",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2018-06-21T10:59:40.4040",
+		"aktualisierungsdatum": "2021-03-18T11:56:38.3838",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Gemeinden Riehen und Bettingen verzeichnen die niedrigsten Arbeitslosenquoten, das Wohnviertel Klybeck die höchste.",
-		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent, jeweils Ende Jahr. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet.",
-		"template": "dotplot",
+		"erlaeuterungen": "Anteil als arbeitslos gemeldeter Personen am Total der Erwerbspersonen (15 bis 64 Jahre) in Prozent,Ende Jahr 2016. Erwerbspersonen aus den Jahren 2010-2014, Hochrechnung auf Basis einer Stichprobe von 5 000 Personen pro Jahr. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet. Aktuellere Arbeitslosendaten auf Ebene Wohnviertel sind nicht verfügbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_03_00_00_00_018",
-		"parentId": null,
-		"children": [
-			"5126"
-		],
-		"renderLink": [
-			"5126"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"

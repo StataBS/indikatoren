@@ -4551,51 +4551,51 @@
         ],
         [
           42,
-          -24
+          -23
         ],
         [
           43,
-          -25
+          -24
         ],
         [
           44,
-          -26
+          -25
         ],
         [
           45,
-          -28
+          -27
         ],
         [
           46,
-          -30
+          -29
         ],
         [
           47,
-          -30
+          -29
         ],
         [
           48,
-          -27
-        ],
-        [
-          49,
-          -27
-        ],
-        [
-          50,
-          -24
-        ],
-        [
-          51,
           -26
         ],
         [
+          49,
+          -26
+        ],
+        [
+          50,
+          -23
+        ],
+        [
+          51,
+          -25
+        ],
+        [
           52,
-          -27
+          -26
         ],
         [
           53,
-          -24
+          -22
         ]
       ],
       "name": "2020 Kumuliert"
@@ -4771,7 +4771,7 @@
         ],
         [
           42,
-          -1
+          0
         ],
         [
           43,
@@ -4815,7 +4815,7 @@
         ],
         [
           53,
-          3
+          4
         ]
       ],
       "name": "2020 Wöchentlich"
@@ -4831,7 +4831,7 @@
         ],
         [
           2,
-          7
+          8
         ],
         [
           3,
@@ -4847,11 +4847,11 @@
         ],
         [
           6,
-          6
+          7
         ],
         [
           7,
-          null
+          8
         ],
         [
           8,
@@ -5067,11 +5067,11 @@
         ],
         [
           6,
-          0
+          1
         ],
         [
           7,
-          null
+          1
         ],
         [
           8,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-11"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

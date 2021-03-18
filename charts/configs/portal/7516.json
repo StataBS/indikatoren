@@ -122,7 +122,7 @@
         ],
         [
           "Feb",
-          undefined
+          12028
         ],
         [
           "Mrz",
@@ -178,7 +178,7 @@
         ],
         [
           "Feb",
-          undefined
+          8720
         ],
         [
           "Mrz",
@@ -354,7 +354,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

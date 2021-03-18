@@ -1116,33 +1116,33 @@ var indikatorensetData = [
 		"id": 6083
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6669"
+		],
+		"template": "line001",
 		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.15.3.6084",
 		"kuerzelKunde": "B3-1",
 		"description": "Lernendenquote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T12:18:42.4242",
+		"aktualisierungsdatum": "2021-03-18T11:56:25.2525",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Lernende aus arabischen Ländern verzeichnen jüngst - dies allerdings bei geringen Gesamtzahlen - eine stark steigende Lernendenquote und weisen 2019 erstmals eine höhere Quote auf als jene vom Balkan.",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Da die – bei allerdings geringen Gesamtzahlen – stark steigende Lernendenquote der Jugendlichen aus arabischen Ländern im Jahr 2020 etwas gebremst worden ist, weisen aktuell Lernende aus Mittel- und Südamerika die höchste Quote auf.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"6669"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
