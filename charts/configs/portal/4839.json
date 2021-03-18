@@ -16,7 +16,7 @@
           0.0241987109
         ],
         [
-          "Vorstädte",
+          "VorstÃ¤dte",
           0.0242808282
         ],
         [
@@ -72,11 +72,11 @@
           0.0542989532
         ],
         [
-          "Matthäus",
+          "MatthÃ¤us",
           0.0555946177
         ],
         [
-          "Kleinhüningen",
+          "KleinhÃ¼ningen",
           0.0631074121
         ],
         [
@@ -107,7 +107,7 @@
           3
         ],
         [
-          "Vorstädte",
+          "VorstÃ¤dte",
           4
         ],
         [
@@ -163,11 +163,11 @@
           17
         ],
         [
-          "Matthäus",
+          "MatthÃ¤us",
           18
         ],
         [
-          "Kleinhüningen",
+          "KleinhÃ¼ningen",
           19
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Stand: 2016",
+    "text": "nach Wohnviertel, Basel-Stadt, 2016",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2018-6-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
   },
   "legend": {
     "enabled": false,
