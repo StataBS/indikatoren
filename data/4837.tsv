@@ -1,22 +1,23 @@
-﻿wohnviertel_id	Erwerbstätigenquote	Rang	Wohnviertel
-18	0.6299572238	1	Klybeck
-19	0.6440537503	2	Kleinhüningen
-13	0.6679853567	3	Clara
-12	0.7018931452	4	Altstadt Kleinbasel
-17	0.7026999861	5	Matthäus
-15	0.7065011149	6	Hirzbrunnen
-11	0.7083450309	7	St. Johann
-16	0.7101109975	8	Rosental
-10	0.7167552712	9	Iselin
-9	0.7341245851	10	Gotthelf
-7	0.7388214254	11	Bruderholz
-5	0.7434271384	12	St. Alban
-20	0.7503934401	13	Riehen
-30	0.7503934401	13	Bettingen
-4	0.7658882059	15	Breite
-6	0.7659613467	16	Gundeldingen
-8	0.7690934042	17	Bachletten
-2	0.7693459123	18	Vorstädte
-3	0.7868670616	19	Am Ring
-14	0.8031640176	20	Wettstein
-1	0.8374409571	21	Altstadt Grossbasel
+﻿"Wohnviertel_id"	"Erwerbstätigenquote"	"Rang"	"Wohnviertel"	"jahr_num"
+18	0.6299572	1	"Klybeck"	0
+19	0.6440538	2	"Kleinhüningen"	0
+13	0.6679854	3	"Clara"	0
+12	0.7018931	4	"Altstadt Kleinbasel"	0
+17	0.7027	5	"Matthäus"	0
+15	0.7065011	6	"Hirzbrunnen"	0
+11	0.708345	7	"St. Johann"	0
+16	0.710111	8	"Rosental"	0
+10	0.7167553	9	"Iselin"	0
+9	0.7341246	10	"Gotthelf"	0
+7	0.7388214	11	"Bruderholz"	0
+5	0.7434271	12	"St. Alban"	0
+20	0.7503934	13	"Riehen"	0
+30	0.7503934	14	"Bettingen"	0
+4	0.7658882	15	"Breite"	0
+6	0.7659613	16	"Gundeldingen"	0
+8	0.7690934	17	"Bachletten"	0
+2	0.7693459	18	"Vorstädte"	0
+3	0.7868671	19	"Am Ring"	0
+14	0.803164	20	"Wettstein"	0
+1	0.837441	21	"Altstadt Grossbasel"	0
+
