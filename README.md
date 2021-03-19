@@ -268,7 +268,6 @@ npm run reinstall
 
 
 
-
 ## Licensing
 [Highcharts](http://www.highcharts.com/) is free for personal, school or non-profit projects under the Creative Commons Attribution - Non Commercial 3.0 License.
 For commercial and governmental websites and projects, you need to buy a license. See [License and Pricing](http://shop.highsoft.com/highcharts.html).

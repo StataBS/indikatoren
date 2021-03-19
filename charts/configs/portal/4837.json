@@ -4,96 +4,204 @@
       "color": "#689199",
       "data": [
         [
-          0.6299572238,
+          "Klybeck",
+          0.6299572
+        ],
+        [
+          "Kleinhüningen",
+          0.6440538
+        ],
+        [
+          "Clara",
+          0.6679854
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7018931
+        ],
+        [
+          "Matthäus",
+          0.7027
+        ],
+        [
+          "Hirzbrunnen",
+          0.7065011
+        ],
+        [
+          "St. Johann",
+          0.708345
+        ],
+        [
+          "Rosental",
+          0.710111
+        ],
+        [
+          "Iselin",
+          0.7167553
+        ],
+        [
+          "Gotthelf",
+          0.7341246
+        ],
+        [
+          "Bruderholz",
+          0.7388214
+        ],
+        [
+          "St. Alban",
+          0.7434271
+        ],
+        [
+          "Riehen",
+          0.7503934
+        ],
+        [
+          "Bettingen",
+          0.7503934
+        ],
+        [
+          "Breite",
+          0.7658882
+        ],
+        [
+          "Gundeldingen",
+          0.7659613
+        ],
+        [
+          "Bachletten",
+          0.7690934
+        ],
+        [
+          "Vorstädte",
+          0.7693459
+        ],
+        [
+          "Am Ring",
+          0.7868671
+        ],
+        [
+          "Wettstein",
+          0.803164
+        ],
+        [
+          "Altstadt Grossbasel",
+          0.837441
+        ]
+      ],
+      "name": "Erwerbstätigenquote",
+      "turboThreshold": 0
+    },
+    {
+      "visible": false,
+      "data": [
+        [
+          "Klybeck",
           1
         ],
         [
-          0.6440537503,
+          "Kleinhüningen",
           2
         ],
         [
-          0.6679853567,
+          "Clara",
           3
         ],
         [
-          0.7018931452,
+          "Altstadt Kleinbasel",
           4
         ],
         [
-          0.7026999861,
+          "Matthäus",
           5
         ],
         [
-          0.7065011149,
+          "Hirzbrunnen",
           6
         ],
         [
-          0.7083450309,
+          "St. Johann",
           7
         ],
         [
-          0.7101109975,
+          "Rosental",
           8
         ],
         [
-          0.7167552712,
+          "Iselin",
           9
         ],
         [
-          0.7341245851,
+          "Gotthelf",
           10
         ],
         [
-          0.7388214254,
+          "Bruderholz",
           11
         ],
         [
-          0.7434271384,
+          "St. Alban",
           12
         ],
         [
-          0.7503934401,
+          "Riehen",
           13
         ],
         [
-          0.7503934401,
-          13
+          "Bettingen",
+          14
         ],
         [
-          0.7658882059,
+          "Breite",
           15
         ],
         [
-          0.7659613467,
+          "Gundeldingen",
           16
         ],
         [
-          0.7690934042,
+          "Bachletten",
           17
         ],
         [
-          0.7693459123,
+          "Vorstädte",
           18
         ],
         [
-          0.7868670616,
+          "Am Ring",
           19
         ],
         [
-          0.8031640176,
+          "Wettstein",
           20
         ],
         [
-          0.8374409571,
+          "Altstadt Grossbasel",
           21
         ]
       ],
-      "name": "Rang"
-    },
-    {
-      "visible": false
+      "name": "Rang",
+      "turboThreshold": 0
     }
   ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1
+  },
   "chart": {
     "events": {
       "load": function() {
@@ -181,25 +289,6 @@
     },
     "min": 0
   },
-  "xAxis": {
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "fontSize": "10px"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1,
-    "type": "category",
-    "uniqueNames": true
-  },
   "credits": {
     "enabled": true,
     "style": {
@@ -213,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-19"
   },
   "legend": {
     "enabled": false,
