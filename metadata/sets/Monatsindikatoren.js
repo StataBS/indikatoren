@@ -173,7 +173,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:54.5454",
+		"aktualisierungsdatum": "2021-03-22T09:03:10.1010",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -280,7 +280,7 @@ var indikatorensetData = [
 		"children": [],
 		"template": "mappie001",
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Januar 2021",
+		"subtitle": "Basel-Stadt, Februar",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
@@ -291,13 +291,13 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:55.5555",
+		"aktualisierungsdatum": "2021-03-22T09:03:11.1111",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Januar 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in neun Wohnvierteln sowie in Riehen und Bettingen. In neun Wohnvierteln ging sie zurück. In Kleinhüningen blieb sie gleich.",
+		"lesehilfe": "Im Februar 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Riehen. In elf Wohnvierteln und in Bettingen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"darstellungsart": "Karte",
 		"printformat": "",
