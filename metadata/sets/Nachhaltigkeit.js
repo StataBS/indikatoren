@@ -1408,18 +1408,23 @@ var indikatorensetData = [
 		"id": 6027
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8920"
+		],
+		"template": "befragungen001",
 		"title": "Anteile der Verkehrsmittel",
 		"subtitle": "",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.11.2.6028",
 		"kuerzelKunde": "GW21",
 		"description": "Anteile der Verkehrsmittel",
 		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-08T11:23:47.4747",
+		"aktualisierungsdatum": "2021-03-22T09:03:12.1212",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Mobilität",
 		"stufe3": "",
@@ -1427,14 +1432,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der zu Fuss zurückgelegten Etappen liegt 2015 in Basel-Stadt bei rund 51%, gemessen an der Tagesunterwegszeit bei etwa 41%. Rund 8% der Tagesdistanz werden zu Fuss zurückgelegt. Rund 43% der täglich zurückgelegten Distanz wird mit dem motorisierten Individualverkehr (MIV), also mit dem Auto oder mit motorisierten Zweirädern bewältigt. Der öffentliche Verkehr (Bahn, Bus, Tram, Postauto) kommt ebenfalls auf einen Anteil von 43%.",
 		"erlaeuterungen": "Die Ergebnisse von 2015 basieren auf der Hochrechnung einer Stichprobenerhebung von 1 241 Zielpersonen (2010: 1 253 Zielpersonen) mit Wohnort im Kanton Basel-Stadt. Eine Etappe beginnt mit jedem Verkehrsmittelwechsel (auch beim Umsteigen) oder bei einem neuen Verkehrszweck. Bei der Tagesunterwegszeit werden Warte- und Umsteigezeiten nicht mitgerechnet.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_08_00_00_00_322",
-		"parentId": null,
-		"children": [
-			"8920"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik und Bundesamt für Raumentwicklung, Mikrozensus Mobilität und Verkehr"
@@ -2972,18 +2972,23 @@ var indikatorensetData = [
 		"id": 8457
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8961"
+		],
+		"template": "line001",
 		"title": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"subtitle": "in Stunden pro Woche, Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.03.6.08458",
 		"kuerzelKunde": "WE9",
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:40:58.5858",
+		"aktualisierungsdatum": "2021-03-22T09:03:13.1313",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -2991,14 +2996,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Im Jahr 2016 wendete eine Person im Kanton Basel-Stadt durchschnittlich 21,1 Stunden pro Woche für Haus- und Familienarbeit auf. Frauen investierten mit 25,7 Stunden mehr Zeit in die Haus- und Familienarbeit als Männer mit 16,1 Stunden.",
 		"erlaeuterungen": "Die vorliegenden Ergebnisse beruhen auf Hochrechnungen auf Basis eines Stichprobenumfangs von etwa 600 Personen für den Kanton Basel-Stadt und sind folglich mit einer gewissen Ungenauigkeit verbunden.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_609",
-		"parentId": null,
-		"children": [
-			"8961"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE), Modul 'Unbezahlte Arbeit'"
