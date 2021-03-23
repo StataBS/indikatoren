@@ -31,6 +31,10 @@
         [
           "2017",
           1983.9
+        ],
+        [
+          "2018",
+          1975
         ]
       ],
       "name": "Waren verschiedener Art",
@@ -67,6 +71,10 @@
         [
           "2017",
           595.9
+        ],
+        [
+          "2018",
+          588.7
         ]
       ],
       "name": "Nahrung, Getränke, Tabak",
@@ -103,6 +111,10 @@
         [
           "2017",
           102.8
+        ],
+        [
+          "2018",
+          101
         ]
       ],
       "name": "Tankstellen",
@@ -139,6 +151,10 @@
         [
           "2017",
           368.5
+        ],
+        [
+          "2018",
+          316.9
         ]
       ],
       "name": "Elektronikgeräte",
@@ -175,6 +191,10 @@
         [
           "2017",
           423.4
+        ],
+        [
+          "2018",
+          406.4
         ]
       ],
       "name": "Haushalt, Textil, Einrichtung",
@@ -211,6 +231,10 @@
         [
           "2017",
           634.4
+        ],
+        [
+          "2018",
+          645.3
         ]
       ],
       "name": "Bücher, Sport, Spielwaren",
@@ -247,6 +271,10 @@
         [
           "2017",
           1058
+        ],
+        [
+          "2018",
+          912.2
         ]
       ],
       "name": "Kleider, Schuhe, Lederwaren",
@@ -283,6 +311,10 @@
         [
           "2017",
           803.8
+        ],
+        [
+          "2018",
+          799.7
         ]
       ],
       "name": "Apotheken, Kosmetik",
@@ -319,6 +351,10 @@
         [
           "2017",
           209.2
+        ],
+        [
+          "2018",
+          193.6
         ]
       ],
       "name": "Uhren und Schmuck",
@@ -355,6 +391,10 @@
         [
           "2017",
           678.1
+        ],
+        [
+          "2018",
+          669.2
         ]
       ],
       "name": "Sonstiger Detailhandel",
@@ -495,7 +535,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -504,6 +544,6 @@
     "valueDecimals": 0
   },
   "exporting": {
-    "filename": 7443
+    "filename": "7443"
   }
 }

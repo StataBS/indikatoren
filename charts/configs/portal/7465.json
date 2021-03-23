@@ -27,6 +27,14 @@
         [
           "2016",
           832.7
+        ],
+        [
+          "2017",
+          795.6
+        ],
+        [
+          "2018",
+          809.7
         ]
       ],
       "name": "Private Wach- und Sicherheitsdienste",
@@ -59,6 +67,14 @@
         [
           "2016",
           7.9
+        ],
+        [
+          "2017",
+          7.8
+        ],
+        [
+          "2018",
+          3.9
         ]
       ],
       "name": "Sicherheitsdienste mithilfe von Überwachungs-\u003Cbr\u003EAlarmsystemen",
@@ -91,6 +107,14 @@
         [
           "2016",
           0.7
+        ],
+        [
+          "2017",
+          0.8
+        ],
+        [
+          "2018",
+          0.8
         ]
       ],
       "name": "Detekteien",
@@ -102,6 +126,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -112,12 +137,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -126,25 +148,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "renderTo": "container-7465",
@@ -152,7 +178,7 @@
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -163,27 +189,26 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Beschäftigung in der Branche Wach- und Sicherheitsdienste"
   },
   "subtitle": {
+    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -200,6 +225,18 @@
     },
     "tickAmount": 10,
     "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": null,
+      "width": 180
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "itemMarginBottom": 5,
+    "align": "right"
   },
   "navigation": {
     "menuItemStyle": {
@@ -220,19 +257,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal",
-      "textOverflow": null,
-      "width": 180
-    },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "itemMarginBottom": 5,
-    "align": "right"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -240,6 +265,6 @@
     "valueDecimals": 0
   },
   "exporting": {
-    "filename": 7465
+    "filename": "7465"
   }
 }

@@ -4,22 +4,6 @@
       "color": "#73B97C",
       "data": [
         [
-          "2010-01",
-          88
-        ],
-        [
-          "2010-02",
-          76
-        ],
-        [
-          "2010-03",
-          131
-        ],
-        [
-          "2010-04",
-          95
-        ],
-        [
           "2011-01",
           88
         ],
@@ -162,6 +146,22 @@
         [
           "2019-04",
           100
+        ],
+        [
+          "2020-01",
+          129
+        ],
+        [
+          "2020-02",
+          44
+        ],
+        [
+          "2020-03",
+          66
+        ],
+        [
+          "2020-04",
+          70
         ]
       ],
       "name": "Handel, Reparatur",
@@ -170,22 +170,6 @@
     {
       "color": "#007A2F",
       "data": [
-        [
-          "2010-01",
-          37
-        ],
-        [
-          "2010-02",
-          51
-        ],
-        [
-          "2010-03",
-          52
-        ],
-        [
-          "2010-04",
-          50
-        ],
         [
           "2011-01",
           52
@@ -329,6 +313,22 @@
         [
           "2019-04",
           53
+        ],
+        [
+          "2020-01",
+          88
+        ],
+        [
+          "2020-02",
+          8
+        ],
+        [
+          "2020-03",
+          46
+        ],
+        [
+          "2020-04",
+          48
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -337,22 +337,6 @@
     {
       "color": "#0A3B19",
       "data": [
-        [
-          "2010-01",
-          112
-        ],
-        [
-          "2010-02",
-          99
-        ],
-        [
-          "2010-03",
-          112
-        ],
-        [
-          "2010-04",
-          133
-        ],
         [
           "2011-01",
           106
@@ -496,6 +480,22 @@
         [
           "2019-04",
           46
+        ],
+        [
+          "2020-01",
+          43
+        ],
+        [
+          "2020-02",
+          19
+        ],
+        [
+          "2020-03",
+          27
+        ],
+        [
+          "2020-04",
+          31
         ]
       ],
       "name": "Gastgewerbe",
@@ -578,7 +578,7 @@
     "text": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (I)"
   },
   "subtitle": {
-    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -630,7 +630,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -671,6 +671,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 2466
+    "filename": "2466"
   }
 }

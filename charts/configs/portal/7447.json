@@ -31,6 +31,10 @@
         [
           "2017",
           1028.1
+        ],
+        [
+          "2018",
+          1029.2
         ]
       ],
       "name": "Personenbef. Schiene",
@@ -67,6 +71,10 @@
         [
           "2017",
           65.3
+        ],
+        [
+          "2018",
+          65.2
         ]
       ],
       "name": "Güterbeförderung Schiene",
@@ -103,6 +111,10 @@
         [
           "2017",
           982.6
+        ],
+        [
+          "2018",
+          975
         ]
       ],
       "name": "Nahverkehr (ohne Taxis)",
@@ -139,6 +151,10 @@
         [
           "2017",
           417.1
+        ],
+        [
+          "2018",
+          374.8
         ]
       ],
       "name": "Taxis",
@@ -175,6 +191,10 @@
         [
           "2017",
           92.5
+        ],
+        [
+          "2018",
+          56.9
         ]
       ],
       "name": "Sonstige Personenbef.",
@@ -211,6 +231,10 @@
         [
           "2017",
           819
+        ],
+        [
+          "2018",
+          759.1
         ]
       ],
       "name": "Güterbeförderung Strasse",
@@ -247,6 +271,10 @@
         [
           "2017",
           118.2
+        ],
+        [
+          "2018",
+          123.2
         ]
       ],
       "name": "Umzugstransporte",
@@ -390,7 +418,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -399,6 +427,6 @@
     "valueDecimals": 0
   },
   "exporting": {
-    "filename": 7447
+    "filename": "7447"
   }
 }

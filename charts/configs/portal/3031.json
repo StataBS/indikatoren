@@ -4,22 +4,6 @@
       "color": "#B375AB",
       "data": [
         [
-          "2010-1",
-          6950
-        ],
-        [
-          "2010-2",
-          7113
-        ],
-        [
-          "2010-3",
-          13355
-        ],
-        [
-          "2010-4",
-          11439
-        ],
-        [
           "2011-1",
           7502
         ],
@@ -162,6 +146,22 @@
         [
           "2019-4",
           9535
+        ],
+        [
+          "2020-1",
+          8785
+        ],
+        [
+          "2020-2",
+          5592
+        ],
+        [
+          "2020-3",
+          9970
+        ],
+        [
+          "2020-4",
+          5894
         ]
       ],
       "name": "Industrie (inkl. Chemie, Pharma)",
@@ -170,22 +170,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2010-1",
-          23728
-        ],
-        [
-          "2010-2",
-          12553
-        ],
-        [
-          "2010-3",
-          13731
-        ],
-        [
-          "2010-4",
-          21166
-        ],
         [
           "2011-1",
           18834
@@ -329,6 +313,22 @@
         [
           "2019-4",
           17298
+        ],
+        [
+          "2020-1",
+          18662
+        ],
+        [
+          "2020-2",
+          10394
+        ],
+        [
+          "2020-3",
+          10638
+        ],
+        [
+          "2020-4",
+          9659
         ]
       ],
       "name": "Baugewerbe",
@@ -465,7 +465,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -506,6 +506,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 3031
+    "filename": "3031"
   }
 }

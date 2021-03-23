@@ -19,6 +19,10 @@
         [
           "2016",
           6940
+        ],
+        [
+          "2018",
+          6960
         ]
       ],
       "name": "Monatlicher Bruttolohn",
@@ -146,7 +150,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -187,6 +191,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8687
+    "filename": "8687"
   }
 }

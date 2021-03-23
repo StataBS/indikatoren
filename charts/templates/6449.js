@@ -25,7 +25,11 @@
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
+    labelFormatter: function(){
+      return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)", "Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinst.)")
+    },
     "itemStyle": {
+      textOverflow: "none",
       "fontWeight": "normal"
     }
   },
