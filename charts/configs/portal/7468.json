@@ -19,6 +19,10 @@
         [
           "2016",
           4667
+        ],
+        [
+          "2018",
+          4440
         ]
       ],
       "name": "Monatlicher Bruttolohn Nordwestschweiz",
@@ -43,6 +47,10 @@
         [
           "2016",
           5275
+        ],
+        [
+          "2018",
+          5051
         ]
       ],
       "name": "Monatlicher Bruttolohn Schweiz",
@@ -54,6 +62,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -64,12 +73,9 @@
         "color": "#000000"
       },
       "rotation": 0
-    },
-    "tickLength": 0
+    }
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -78,25 +84,29 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "type": "column",
     "inverted": false,
@@ -111,32 +121,30 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0,
-      "pointWidth": 40
+      "pointPadding": 0
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Medianlohn in der Branche Wach- und Sicherheitsdienste"
   },
   "subtitle": {
+    "text": "in Franken, Nordwestschweiz",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Nordwestschweiz",
-    "align": "left"
+    }
   },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -153,6 +161,16 @@
     },
     "tickAmount": 7,
     "tickInterval": 1000
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -173,23 +191,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 7468
+    "filename": "7468"
   }
 }

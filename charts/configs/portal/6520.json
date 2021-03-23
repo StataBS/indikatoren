@@ -4,22 +4,6 @@
       "color": "#FF8028",
       "data": [
         [
-          "2010-01",
-          12
-        ],
-        [
-          "2010-02",
-          11
-        ],
-        [
-          "2010-03",
-          28
-        ],
-        [
-          "2010-04",
-          16
-        ],
-        [
           "2011-01",
           23
         ],
@@ -162,6 +146,22 @@
         [
           "2019-04",
           21
+        ],
+        [
+          "2020-01",
+          22
+        ],
+        [
+          "2020-02",
+          9
+        ],
+        [
+          "2020-03",
+          20
+        ],
+        [
+          "2020-04",
+          11
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,22 +170,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2010-01",
-          439
-        ],
-        [
-          "2010-02",
-          477
-        ],
-        [
-          "2010-03",
-          605
-        ],
-        [
-          "2010-04",
-          499
-        ],
         [
           "2011-01",
           520
@@ -329,6 +313,22 @@
         [
           "2019-04",
           812
+        ],
+        [
+          "2020-01",
+          1384
+        ],
+        [
+          "2020-02",
+          440
+        ],
+        [
+          "2020-03",
+          633
+        ],
+        [
+          "2020-04",
+          610
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien, IT, sonst. DL",
@@ -411,7 +411,7 @@
     "text": "Zuwanderung von Erwerbstätigen im Dienstleistungssektor (II)"
   },
   "subtitle": {
-    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -503,6 +503,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6520
+    "filename": "6520"
   }
 }

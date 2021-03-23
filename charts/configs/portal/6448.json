@@ -4,44 +4,44 @@
       "color": "#FFBB58",
       "data": [
         [
-          2009,
+          2010,
           100
         ],
         [
-          2010,
-          101.6
-        ],
-        [
           2011,
-          104.9
+          102
         ],
         [
           2012,
-          108.5
+          105.6
         ],
         [
           2013,
-          115.3
+          112
         ],
         [
           2014,
-          116.6
+          115.1
         ],
         [
           2015,
-          114.6
+          114.8
         ],
         [
           2016,
-          116.4
+          120.1
         ],
         [
           2017,
-          119.7
+          123.4
         ],
         [
           2018,
-          119.9
+          122.6
+        ],
+        [
+          2019,
+          125
         ]
       ],
       "name": "Finanz-, Versicherungs-DL"
@@ -50,36 +50,32 @@
       "color": "#FF8028",
       "data": [
         [
-          2009,
+          2010,
           100
         ],
         [
-          2010,
-          100.1
-        ],
-        [
           2011,
-          99.8
+          100.2
         ],
         [
           2012,
-          108.9
+          106.4
         ],
         [
           2013,
-          118.7
+          114.2
         ],
         [
           2014,
-          124.7
+          121.8
         ],
         [
           2015,
-          123
+          118.7
         ],
         [
           2016,
-          126.4
+          119.7
         ],
         [
           2017,
@@ -87,7 +83,11 @@
         ],
         [
           2018,
-          125.5
+          126.5
+        ],
+        [
+          2019,
+          132.4
         ]
       ],
       "name": "Beratung, Planung, Forschung"
@@ -96,44 +96,44 @@
       "color": "#DC440E",
       "data": [
         [
-          2009,
+          2010,
           100
         ],
         [
-          2010,
-          105.5
-        ],
-        [
           2011,
-          109.1
+          106.5
         ],
         [
           2012,
-          119.6
+          115.4
         ],
         [
           2013,
-          125.5
+          123.4
         ],
         [
           2014,
-          128.7
+          127
         ],
         [
           2015,
-          128
+          123.9
         ],
         [
           2016,
-          124.7
+          118.1
         ],
         [
           2017,
-          128.6
+          121.9
         ],
         [
           2018,
-          136.2
+          120.8
+        ],
+        [
+          2019,
+          126.3
         ]
       ],
       "name": "Gebäudebet., Sicherh., sonst. wirtsch. DL (inkl. Pers.verm., -überl.)"
@@ -142,44 +142,44 @@
       "color": "#B00000",
       "data": [
         [
-          2009,
+          2010,
           100
         ],
         [
-          2010,
-          103
-        ],
-        [
           2011,
-          105
+          98.9
         ],
         [
           2012,
-          116
+          107.9
         ],
         [
           2013,
-          122.5
+          118.4
         ],
         [
           2014,
-          125.3
+          123.5
         ],
         [
           2015,
-          123
+          109.9
         ],
         [
           2016,
-          119.4
+          105.9
         ],
         [
           2017,
-          122
+          113.5
         ],
         [
           2018,
-          131
+          111
+        ],
+        [
+          2019,
+          116.8
         ]
       ],
       "name": "Personalvermittlung, -überlassung"
@@ -239,7 +239,7 @@
     "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (II)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2009 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -308,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-17"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -349,6 +349,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6448
+    "filename": "6448"
   }
 }

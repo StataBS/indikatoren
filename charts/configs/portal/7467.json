@@ -10,108 +10,92 @@
       "type": "line",
       "data": [
         [
-          "2010-01",
-          1070
-        ],
-        [
-          "2010-02",
-          1156
-        ],
-        [
-          "2010-03",
-          1168
-        ],
-        [
-          "2010-04",
-          1115
-        ],
-        [
           "2011-01",
-          1111
+          1119
         ],
         [
           "2011-02",
-          1221
+          1230
         ],
         [
           "2011-03",
-          1202
+          1214
         ],
         [
           "2011-04",
-          1279
+          1286
         ],
         [
           "2012-01",
-          1294
+          1303
         ],
         [
           "2012-02",
-          1348
+          1356
         ],
         [
           "2012-03",
-          1478
+          1496
         ],
         [
           "2012-04",
-          1481
+          1494
         ],
         [
           "2013-01",
-          1524
+          1525
         ],
         [
           "2013-02",
-          1607
+          1608
         ],
         [
           "2013-03",
-          1613
+          1616
         ],
         [
           "2013-04",
-          1659
+          1660
         ],
         [
           "2014-01",
-          1652
+          1654
         ],
         [
           "2014-02",
-          1716
+          1719
         ],
         [
           "2014-03",
-          1803
+          1811
         ],
         [
           "2014-04",
-          1797
+          1802
         ],
         [
           "2015-01",
-          1753
+          1755
         ],
         [
           "2015-02",
-          1878
+          1881
         ],
         [
           "2015-03",
-          1990
+          1992
         ],
         [
           "2015-04",
-          2035
+          2042
         ],
         [
           "2016-01",
-          1958
+          1960
         ],
         [
           "2016-02",
-          2039
+          2044
         ],
         [
           "2016-03",
@@ -119,39 +103,71 @@
         ],
         [
           "2016-04",
-          2099
+          2103
         ],
         [
           "2017-01",
-          2119
+          2063
         ],
         [
           "2017-02",
-          2190
+          2147
         ],
         [
           "2017-03",
-          2377
+          2359
         ],
         [
           "2017-04",
-          2343
+          2281
         ],
         [
           "2018-01",
-          2345
+          2301
         ],
         [
           "2018-02",
-          2368
+          2346
         ],
         [
           "2018-03",
-          2374
+          2362
         ],
         [
           "2018-04",
+          2396
+        ],
+        [
+          "2019-01",
+          2466
+        ],
+        [
+          "2019-02",
+          2446
+        ],
+        [
+          "2019-03",
           2439
+        ],
+        [
+          "2019-04",
+          2592
+        ],
+        [
+          "2020-01",
+          2576
+        ],
+        [
+          "2020-02",
+          2524
+        ],
+        [
+          "2020-03",
+          2633
+        ],
+        [
+          "2020-04",
+          2652
         ]
       ],
       "name": "Bestand Grenzgänger Sonstige wirtsch. DL",
@@ -166,22 +182,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2010-01",
-          17
-        ],
-        [
-          "2010-02",
-          0
-        ],
-        [
-          "2010-03",
-          1
-        ],
-        [
-          "2010-04",
-          14
-        ],
         [
           "2011-01",
           27
@@ -309,6 +309,38 @@
         [
           "2018-04",
           21
+        ],
+        [
+          "2019-01",
+          24
+        ],
+        [
+          "2019-02",
+          11
+        ],
+        [
+          "2019-03",
+          10
+        ],
+        [
+          "2019-04",
+          5
+        ],
+        [
+          "2020-01",
+          6
+        ],
+        [
+          "2020-02",
+          11
+        ],
+        [
+          "2020-03",
+          7
+        ],
+        [
+          "2020-04",
+          6
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ",
@@ -320,6 +352,7 @@
     "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -334,12 +367,9 @@
    			 return this.value.split("-").slice(0, -1);
      		}
     },
-    "tickLength": 0,
     "tickInterval": 4
   },
   "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -348,32 +378,36 @@
       30,
       10
     ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
     "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
                 }
-              );
-            }
-          }
     },
     "renderTo": "container-7467",
     "spacingBottom": 50
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -383,23 +417,22 @@
     }
   },
   "title": {
+    "align": "left",
     "style": {
       "fontSize": "14px",
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "align": "left",
     "text": "Ausländische Erwerbstätige in der Branche Wach- und Sicherheitsdienste"
   },
   "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
     "style": {
       "fontSize": "12px",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
       "color": "#000000"
-    },
-    "text": "Basel-Stadt",
-    "align": "left"
+    }
   },
   "yAxis": [
     {
@@ -438,11 +471,22 @@
         }
       },
       "min": 0,
+      "max": undefined,
       "tickAmount": 6,
       "tickInterval": 20,
       "opposite": true
     }
   ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -462,17 +506,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2019-3-25"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
   },
   "tooltip": {
     "shared": true,
@@ -482,6 +516,6 @@
   "marginTop": 85,
   "type": "line",
   "exporting": {
-    "filename": 7467
+    "filename": "7467"
   }
 }
