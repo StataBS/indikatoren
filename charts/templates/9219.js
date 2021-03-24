@@ -63,14 +63,14 @@
       "color": "#662673",
       "legendIndex": 2     
     },
-    {
+    /*{
       "color": "#B375AB",
       "legendIndex": 1
     },
     {
       "color": "#E7CEE2",
       "legendIndex": 0  
-    },     
+    },     */
   ],
   "chart": {    
     "type": "column",

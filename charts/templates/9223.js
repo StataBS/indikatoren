@@ -43,10 +43,10 @@
   }
 },
 "series": [
-  {
+  /*{
     "color": "#661200",
     "legendIndex": 3     
-  },
+  },*/
   {
     "color": "#B00000",
     "legendIndex": 2     
