@@ -525,34 +525,32 @@ var indikatorensetData = [
 		"id": 6384
 	},
 	{
+		"parentId": 6373,
+		"children": [],
+		"template": "map002",
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.01.1.06385",
 		"kuerzelKunde": "K1-4",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-03T10:02:43.4343",
+		"aktualisierungsdatum": "2021-03-26T08:03:40.4040",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
-		"template": "map002",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": 6373,
-		"children": [],
-		"renderLink": [
-			"6373"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],

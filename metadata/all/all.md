@@ -635,7 +635,7 @@ id | visible | visibleInPortal | indikatorenset
 6382 | true | true | Gefragte Karten
 6383 | true | true | Gefragte Karten
 6384 | true | true | Gefragte Karten
-6385 | true | true | Gefragte Karten
+6385 | true | false | Gefragte Karten
 6386 | true | true | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | true | Gefragte Karten

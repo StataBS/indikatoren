@@ -15145,34 +15145,34 @@ var indikatoren = [
 		"id": 6084
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6670"
+		],
+		"template": "line001",
 		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.15.3.6085",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "B3-2",
 		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-		"thema": "15 Bildung",
+		"thema": "50 Befragungen",
 		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T14:39:30.3030",
+		"aktualisierungsdatum": "2021-03-26T08:03:33.3333",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Lernende mit ausländischem Pass und Wohnort Basel-Stadt schliessen mit Lehrbetrieben im Kanton Basel-Stadt seit 2014 häufiger einen Lehrvertrag ab als Schweizerinnen und Schweizer. In den Jahren davor war dies noch umgekehrt. Nach Geschlecht differenziert liegen die Quoten bei den Schweizer Lernenden weiter auseinander als bei deren ausländischen Kolleginnen und Kollegen.",
+		"lesehilfe": "Relativ zu ihrer jeweiligen Bevölkerungsgruppe schliessen Lernende mit ausländischem Pass und Wohnort Basel-Stadt mit Lehrbetrieben im Kanton Basel-Stadt seit 2014 häufiger einen Lehrvertrag ab als Schweizerinnen und Schweizer. In den Jahren davor war dies noch umgekehrt. Nach Geschlecht differenziert liegen die Quoten bei den Schweizer Lernenden weiter auseinander als bei deren ausländischen Kolleginnen und Kollegen.",
 		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_302",
-		"parentId": null,
-		"children": [
-			"6670"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -23173,35 +23173,33 @@ var indikatoren = [
 		"id": 6384
 	},
 	{
+		"parentId": 6373,
+		"children": [],
+		"template": "map002",
 		"title": "Sesshaftigkeit",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.01.1.06385",
 		"kuerzelKunde": "K1-4",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-03T10:02:43.4343",
+		"aktualisierungsdatum": "2021-03-26T08:03:40.4040",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (42,8%) und Bachletten (41,2%) sowie in den Gemeinden Riehen (42,4%) und Bettingen (41,8%). Am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,6%), Vorstädte (28,2%)  und Rosental (18,9%).",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
-		"template": "map002",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": 6373,
-		"children": [],
-		"renderLink": [
-			"6373"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -24656,34 +24654,34 @@ var indikatoren = [
 		"id": 6422
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6698"
+		],
+		"template": "template001",
 		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
-		"kuerzel": "I.18.3.6423",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "C3-5",
 		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
+		"thema": "50 Befragungen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T10:37:52.5252",
+		"aktualisierungsdatum": "2021-03-26T08:03:37.3737",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede zweite Stelle in der Kantonsverwaltung mit einer Schweizerin besetzt. 2019 sind dies bei einem Personalbestand von 5&nbsp;404 Personen 2&nbsp;760 Schweizerinnen. Insbesondere beim «Unteren Fachkader» und «Oberen Kader» ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
+		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede zweite Stelle in der Kantonsverwaltung mit einer Schweizerin besetzt. 2020 sind dies bei einem Personalbestand von 5&nbsp;482 Personen 2&nbsp;794 Schweizerinnen. Insbesondere beim unteren Fachkader und oberen Kader ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_305",
-		"parentId": null,
-		"children": [
-			"6698"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
