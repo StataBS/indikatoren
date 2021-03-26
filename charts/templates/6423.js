@@ -4,7 +4,8 @@
         series: {
             pointPadding: 0,
             borderWidth: 0,
-			itemWidth: 10, 
+			      itemWidth: 10, 
+            minPointLength: 2
 
         }
    },
