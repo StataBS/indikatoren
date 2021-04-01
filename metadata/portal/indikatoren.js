@@ -27339,7 +27339,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-03-03T08:36:11.1111",
+		"aktualisierungsdatum": "2021-04-01T08:32:55.5555",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -27380,7 +27380,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-03T08:36:12.1212",
+		"aktualisierungsdatum": "2021-04-01T08:33:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40130,7 +40130,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-25T08:07:01.011",
+		"aktualisierungsdatum": "2021-04-01T08:33:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40558,7 +40558,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-25T08:07:02.022",
+		"aktualisierungsdatum": "2021-04-01T08:33:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40598,7 +40598,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-25T08:07:02.022",
+		"aktualisierungsdatum": "2021-04-01T08:33:19.1919",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
