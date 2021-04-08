@@ -2425,18 +2425,21 @@
 		"id": 4144
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Wohneigentumsquote",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4145",
 		"kuerzelKunde": "1.6.A",
 		"description": "Wohneigentumsquote",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:08:22.2222",
+		"aktualisierungsdatum": "2021-04-08T08:04:04.044",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.6 Förderung von Wohneigentum",
 		"stufe3": "",
@@ -2444,13 +2447,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die Eigentumsquote beträgt seit 2012 rund 15%.",
 		"erlaeuterungen": "Die Wohneigentumsquote wird als Anteil Wohnungen, welche durch den Gebäude- oder Wohnungseigentümer selber bewohnt sind, an den bewohnten Wohnungen berechnet. Die Daten 1990 und 2000 stammen aus den eidg. Volkszählungen. Seit 2012 kann die Eigentumsquote jährlich registerbasiert ausgewiesen werden.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -14255,34 +14255,34 @@
 		"id": 6063
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6649"
+		],
+		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2000",
+		"subtitle": "Basel-Stadt, 2001",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6064",
 		"kuerzelKunde": "A2-4",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:07:50.5050",
+		"aktualisierungsdatum": "2021-04-08T08:04:05.055",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 2000 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
+		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 2001 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "01_00_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"6649"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14339,34 +14339,34 @@
 		"id": 6065
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6651"
+		],
+		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6066",
 		"kuerzelKunde": "A2-5",
 		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:08:12.1212",
+		"aktualisierungsdatum": "2021-04-08T08:04:06.066",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2000 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
+		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2001 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
 		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_205",
-		"parentId": null,
-		"children": [
-			"6651"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -58074,34 +58074,34 @@
 		"id": 8369
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8487"
+		],
+		"template": "template001",
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2018",
-		"kuerzel": "I.06.4.08370",
+		"subtitle": "Anteil am nominalen BIP, 2019",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-1",
 		"description": "Exporte und Importe",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:30.3030",
+		"aktualisierungsdatum": "2021-04-08T08:04:05.055",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Exporte aus dem Kanton Basel-Landschaft haben mit 47,7 Mrd. Franken im Jahr 2018 einen mehr als doppelt so hohen Wert wie das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (fast gleicher Wert wie das BIP). Die Exporte aus dem Kanton Basel-Stadt entsprechen mit 23,5 Mrd. Franken 63% des BIP; diejenige aus dem Jura betragen 1,5 Mrd. Franken, bzw. 31% des BIP. In der Gesamtschweiz werden 2018 Waren im Wert von 233,2 Mrd. exportiert (34% des BIP).",
-		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Werten erheblich abweichen.",
-		"template": "template001",
+		"lesehilfe": "Die Exporte aus dem Kanton Basel-Stadt haben mit 63,5 Mrd. Franken im Jahr 2019 einen um fast 60% höheren Wert als das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (der Wert entspricht 85,6% des BIP). Die Exporte aus dem Kanton Basel-Landschaft entsprechen mit 6,1 Mrd. Franken 30,7% des BIP; diejenige aus dem Jura betragen 1,3 Mrd. Franken, bzw. 48,1% des BIP. In der Gesamtschweiz werden 2019 Waren im Wert von 242,3 Mrd. exportiert (33,3% des BIP).",
+		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8487"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",
@@ -73553,7 +73553,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-01T08:33:07.077",
+		"aktualisierungsdatum": "2021-04-08T08:04:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74183,7 +74183,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-01T08:33:14.1414",
+		"aktualisierungsdatum": "2021-04-08T08:04:02.022",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -74223,7 +74223,7 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-01T08:33:19.1919",
+		"aktualisierungsdatum": "2021-04-08T08:04:03.033",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
