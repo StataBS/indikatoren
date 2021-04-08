@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel-Stadt",
-          63.4
+          159.6
         ],
         [
           "Basel-Landschaft",
-          226.21
+          30.72
         ],
         [
           "Jura",
-          31.43
+          48.08
         ],
         [
           "BS\u002FBL\u002FJU",
-          115.64
+          108.49
         ],
         [
           "Schweiz",
-          33.82
+          33.34
         ]
       ],
       "name": "Exporte",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel-Stadt",
-          23.78
+          85.64
         ],
         [
           "Basel-Landschaft",
-          99.95
+          27.65
         ],
         [
           "Jura",
-          27.87
+          25.56
         ],
         [
           "BS\u002FBL\u002FJU",
-          49.65
+          61.89
         ],
         [
           "Schweiz",
-          29.27
+          28.22
         ]
       ],
       "name": "Importe",
@@ -131,7 +131,7 @@
     "text": "Exporte und Importe"
   },
   "subtitle": {
-    "text": "Anteil am nominalen BIP, 2018",
+    "text": "Anteil am nominalen BIP, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -186,13 +186,13 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: BAK Economics;\u003Cbr\u002F\u003EEidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-8"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8370
+    "filename": "8370"
   }
 }
