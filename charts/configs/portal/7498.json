@@ -27,6 +27,14 @@
         [
           "2016",
           832.7
+        ],
+        [
+          "2017",
+          795.6
+        ],
+        [
+          "2018",
+          809.7
         ]
       ],
       "name": "Private Wach- und Sicherheitsdienste",
@@ -59,9 +67,17 @@
         [
           "2016",
           7.9
+        ],
+        [
+          "2017",
+          7.8
+        ],
+        [
+          "2018",
+          3.9
         ]
       ],
-      "name": "Sicherheitsdienste mithilfe von Überwachungs-\u002F\u003Cbr\u002F\u003EAlarmsystemen",
+      "name": "Sicherheitsdienste mithilfe von Überwachungs-\u003Cbr\u003EAlarmsystemen",
       "turboThreshold": 0
     },
     {
@@ -91,6 +107,14 @@
         [
           "2016",
           0.7
+        ],
+        [
+          "2017",
+          0.8
+        ],
+        [
+          "2018",
+          0.8
         ]
       ],
       "name": "Detekteien",
@@ -110,7 +134,8 @@
     "labels": {
       "style": {
         "fontSize": "10px",
-        "color": "#000000"
+        "color": "#000000",
+        "textOverflow": "none"
       },
       "rotation": 0
     },
@@ -128,27 +153,86 @@
       2
     ],
     "style": {
-      "fontFamily": "Arial"
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
     },
     "zoomType": "xy",
     "events": {
-      "load": function() {
-                    this.credits.element.onclick = function() {};
-                    
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
                     //square legends must be placed 3 pixels more to the left that lines, don't know why
-                    var squareLegendX = (this['options']['chart']['type'] == 'line'  ? 0 : 3);
-                    
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
                     //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-                      this.update(
-                        {
-                          legend: {
-                            x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
-                          }
-                        }
-                      );
-                    }              
-                    
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
                 }
     },
     "type": "column",
@@ -162,9 +246,9 @@
       "dataLabels": {
         "style": {
           "fontSize": "10px",
+          "color": "#000000",
           "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "black"
+          "fontWeight": "normal"
         }
       },
       "stacking": "normal"
@@ -173,8 +257,8 @@
   "title": {
     "style": {
       "fontSize": "10px",
-      "fontWeight": "bold",
-      "color": "#000000"
+      "color": "#000000",
+      "fontWeight": "bold"
     },
     "align": "left",
     "text": "Beschäftigung in der Branche Wach- und Sicherheitsdienste"
@@ -182,9 +266,9 @@
   "subtitle": {
     "style": {
       "fontSize": "10px",
+      "color": "#000000",
       "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
+      "fontFamily": "Arial"
     },
     "text": "in Vollzeitäquivalenten, Basel-Stadt",
     "align": "left"
@@ -195,8 +279,8 @@
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": 10
+        "fontSize": "10px",
+        "color": "#000000"
       },
       "text": ""
     },
@@ -211,6 +295,23 @@
     "tickAmount": 10,
     "reversedStacks": false
   },
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 5,
+    "itemStyle": {
+      "fontSize": "9px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": "undefined"
+    },
+    "layout": "vertical",
+    "verticalAlign": "middle",
+    "align": "right",
+    "symbolPadding": 0,
+    "margin": 1,
+    "width": 120
+  },
   "navigation": {
     "menuItemStyle": {
       "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
@@ -220,8 +321,8 @@
   "credits": {
     "enabled": true,
     "style": {
+      "fontSize": "10px",
       "color": "#000000",
-      "fontSize": "10",
       "cursor": "default"
     },
     "position": {
@@ -230,28 +331,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-1-3"
-  },
-  "legend": {
-    "padding": 0,
-    "symbolRadius": 0,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontSize": "9px",
-      "textOverflow": "undefined",
-      "fontWeight": "normal"
-    },
-    "layout": "vertical",
-    "verticalAlign": "middle",
-    "align": "right",
-    "symbolPadding": 0,
-    "margin": 1,
-    "width": 120
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "dataLabels": {
     "enabled": false,
     "style": {
-      "fontSize": "10px"
+      "fontSize": "10px",
+      "color": "#000000"
     }
   },
   "tooltip": {
@@ -259,6 +345,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7498
+    "filename": "7498"
   }
 }

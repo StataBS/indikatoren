@@ -31,6 +31,10 @@
         [
           "2017",
           1146.7
+        ],
+        [
+          "2018",
+          1171.8
         ]
       ],
       "name": "Programmierungstätigkeiten",
@@ -67,6 +71,10 @@
         [
           "2017",
           956.6
+        ],
+        [
+          "2018",
+          955
         ]
       ],
       "name": "IT-Beratung",
@@ -103,6 +111,10 @@
         [
           "2017",
           161.1
+        ],
+        [
+          "2018",
+          184.8
         ]
       ],
       "name": "Sonstige",
@@ -324,7 +336,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "dataLabels": {
     "enabled": false,
@@ -338,6 +350,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7486
+    "filename": "7486"
   }
 }

@@ -5,73 +5,6 @@
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
-          8144
-        ],
-        [
-          "Chemie, Pharma",
-          18854
-        ],
-        [
-          "Baugewerbe",
-          7825
-        ],
-        [
-          "Handel, Reparatur",
-          12423
-        ],
-        [
-          "Verkehr, Lagerei",
-          9816
-        ],
-        [
-          "Gastgewerbe",
-          7388
-        ],
-        [
-          "Information, Kommunikation",
-          4097
-        ],
-        [
-          "Finanz-, Versicherungs-DL",
-          10213
-        ],
-        [
-          "Beratung, Planung, Forschung, Immobilien",
-          18857
-        ],
-        [
-          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
-          5775
-        ],
-        [
-          "Personalvermittlung, -überlassung",
-          6086
-        ],
-        [
-          "Öffentliche Verwaltung, Sozialversicherungen",
-          5214
-        ],
-        [
-          "Erziehung, Unterricht",
-          7901
-        ],
-        [
-          "Gesundheits-, Sozialwesen",
-          21414
-        ],
-        [
-          "Kultur, Unterhaltung, pers. DL",
-          7333
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Industrie (exkl. Chemie, Pharma)",
           8148
         ],
         [
@@ -135,7 +68,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#246370",
+      "color": "#689199",
       "data": [
         [
           "Industrie (exkl. Chemie, Pharma)",
@@ -199,6 +132,73 @@
         ]
       ],
       "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          7856
+        ],
+        [
+          "Chemie, Pharma",
+          18235
+        ],
+        [
+          "Baugewerbe",
+          7331
+        ],
+        [
+          "Handel, Reparatur",
+          11737
+        ],
+        [
+          "Verkehr, Lagerei",
+          9192
+        ],
+        [
+          "Gastgewerbe",
+          7394
+        ],
+        [
+          "Information, Kommunikation",
+          3911
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          9531
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          19830
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          5570
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          6123
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          5413
+        ],
+        [
+          "Erziehung, Unterricht",
+          8366
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          23166
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          7224
+        ]
+      ],
+      "name": "2018",
       "turboThreshold": 0
     }
   ],
@@ -383,7 +383,7 @@
       "fontWeight": "normal",
       "fontFamily": "Arial"
     },
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "yAxis": {
@@ -443,7 +443,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "dataLabels": {
     "enabled": false,

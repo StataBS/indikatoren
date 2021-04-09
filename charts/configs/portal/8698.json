@@ -31,6 +31,10 @@
         [
           "2017",
           75.2
+        ],
+        [
+          "2018",
+          71.3
         ]
       ],
       "name": "Kauf und Verkauf",
@@ -67,6 +71,10 @@
         [
           "2017",
           346.4
+        ],
+        [
+          "2018",
+          352.7
         ]
       ],
       "name": "Vermietung, Verpachtung",
@@ -103,6 +111,10 @@
         [
           "2017",
           124.9
+        ],
+        [
+          "2018",
+          127.6
         ]
       ],
       "name": "Vermittlung für Dritte",
@@ -139,6 +151,10 @@
         [
           "2017",
           975.6
+        ],
+        [
+          "2018",
+          1000.5
         ]
       ],
       "name": "Verwaltung für Dritte",
@@ -318,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "legend": {
     "enabled": true,
