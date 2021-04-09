@@ -38,6 +38,10 @@
         [
           "2017",
           5321
+        ],
+        [
+          "2018",
+          5413
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -81,6 +85,10 @@
         [
           "2017",
           7932
+        ],
+        [
+          "2018",
+          8366
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -124,6 +132,10 @@
         [
           "2017",
           22780
+        ],
+        [
+          "2018",
+          23166
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -167,6 +179,10 @@
         [
           "2017",
           7330
+        ],
+        [
+          "2018",
+          7224
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -346,7 +362,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "legend": {
     "enabled": true,

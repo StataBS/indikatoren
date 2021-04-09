@@ -38,6 +38,10 @@
         [
           "2017",
           12009
+        ],
+        [
+          "2018",
+          11737
         ]
       ],
       "name": "Handel, Reparatur",
@@ -81,6 +85,10 @@
         [
           "2017",
           9117
+        ],
+        [
+          "2018",
+          9192
         ]
       ],
       "name": "Verkehr, Lagerei",
@@ -124,6 +132,10 @@
         [
           "2017",
           7253
+        ],
+        [
+          "2018",
+          7394
         ]
       ],
       "name": "Gastgewerbe",
@@ -167,6 +179,10 @@
         [
           "2017",
           3894
+        ],
+        [
+          "2018",
+          3911
         ]
       ],
       "name": "Information, Kommunikation",
@@ -346,7 +362,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
   },
   "legend": {
     "enabled": true,

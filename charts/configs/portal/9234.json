@@ -1,0 +1,777 @@
+{
+  "series": [
+    {
+      "color": "#73b97c",
+      "index": 0,
+      "type": "column",
+      "yAxis": 1,
+      "data": [
+        [
+          "2011-01",
+          3
+        ],
+        [
+          "2011-02",
+          6
+        ],
+        [
+          "2011-03",
+          10
+        ],
+        [
+          "2011-04",
+          3
+        ],
+        [
+          "2012-01",
+          7
+        ],
+        [
+          "2012-02",
+          1
+        ],
+        [
+          "2012-03",
+          5
+        ],
+        [
+          "2012-04",
+          5
+        ],
+        [
+          "2013-01",
+          3
+        ],
+        [
+          "2013-02",
+          3
+        ],
+        [
+          "2013-03",
+          1
+        ],
+        [
+          "2013-04",
+          3
+        ],
+        [
+          "2014-01",
+          6
+        ],
+        [
+          "2014-02",
+          7
+        ],
+        [
+          "2014-03",
+          4
+        ],
+        [
+          "2014-04",
+          3
+        ],
+        [
+          "2015-01",
+          6
+        ],
+        [
+          "2015-02",
+          5
+        ],
+        [
+          "2015-03",
+          3
+        ],
+        [
+          "2015-04",
+          1
+        ],
+        [
+          "2016-01",
+          2
+        ],
+        [
+          "2016-02",
+          10
+        ],
+        [
+          "2016-03",
+          3
+        ],
+        [
+          "2016-04",
+          2
+        ],
+        [
+          "2017-01",
+          3
+        ],
+        [
+          "2017-02",
+          7
+        ],
+        [
+          "2017-03",
+          3
+        ],
+        [
+          "2017-04",
+          6
+        ],
+        [
+          "2018-01",
+          1
+        ],
+        [
+          "2018-02",
+          3
+        ],
+        [
+          "2018-03",
+          1
+        ],
+        [
+          "2018-04",
+          5
+        ],
+        [
+          "2019-01",
+          2
+        ],
+        [
+          "2019-02",
+          4
+        ],
+        [
+          "2019-03",
+          8
+        ],
+        [
+          "2019-04",
+          5
+        ],
+        [
+          "2020-01",
+          2
+        ],
+        [
+          "2020-02",
+          2
+        ],
+        [
+          "2020-03",
+          4
+        ],
+        [
+          "2020-04",
+          3
+        ]
+      ],
+      "name": "Zuwanderung Erwerbstätige (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#0A3B19",
+      "index": 1,
+      "type": "line",
+      "data": [
+        [
+          "2011-01",
+          951
+        ],
+        [
+          "2011-02",
+          923
+        ],
+        [
+          "2011-03",
+          917
+        ],
+        [
+          "2011-04",
+          918
+        ],
+        [
+          "2012-01",
+          963
+        ],
+        [
+          "2012-02",
+          978
+        ],
+        [
+          "2012-03",
+          1002
+        ],
+        [
+          "2012-04",
+          1064
+        ],
+        [
+          "2013-01",
+          1115
+        ],
+        [
+          "2013-02",
+          1131
+        ],
+        [
+          "2013-03",
+          1129
+        ],
+        [
+          "2013-04",
+          1146
+        ],
+        [
+          "2014-01",
+          1163
+        ],
+        [
+          "2014-02",
+          1168
+        ],
+        [
+          "2014-03",
+          1163
+        ],
+        [
+          "2014-04",
+          1153
+        ],
+        [
+          "2015-01",
+          1142
+        ],
+        [
+          "2015-02",
+          1141
+        ],
+        [
+          "2015-03",
+          1130
+        ],
+        [
+          "2015-04",
+          1137
+        ],
+        [
+          "2016-01",
+          1161
+        ],
+        [
+          "2016-02",
+          1169
+        ],
+        [
+          "2016-03",
+          1176
+        ],
+        [
+          "2016-04",
+          1188
+        ],
+        [
+          "2017-01",
+          1204
+        ],
+        [
+          "2017-02",
+          1200
+        ],
+        [
+          "2017-03",
+          1210
+        ],
+        [
+          "2017-04",
+          1218
+        ],
+        [
+          "2018-01",
+          1185
+        ],
+        [
+          "2018-02",
+          1167
+        ],
+        [
+          "2018-03",
+          1153
+        ],
+        [
+          "2018-04",
+          1155
+        ],
+        [
+          "2019-01",
+          1080
+        ],
+        [
+          "2019-02",
+          1067
+        ],
+        [
+          "2019-03",
+          1054
+        ],
+        [
+          "2019-04",
+          1085
+        ],
+        [
+          "2020-01",
+          1125
+        ],
+        [
+          "2020-02",
+          1116
+        ],
+        [
+          "2020-03",
+          1121
+        ],
+        [
+          "2020-04",
+          1098
+        ]
+      ],
+      "name": "Bestand Grenzgänger Nahrungs- u. Genussmittel, Getränke und Tabakerz.",
+      "turboThreshold": 0
+    },
+    {
+      "marker": {
+        "symbol": "circle",
+        "enabled": false
+      },
+      "color": "#008AC3",
+      "index": 2,
+      "type": "line",
+      "data": [
+        [
+          "2011-01",
+          70
+        ],
+        [
+          "2011-02",
+          52
+        ],
+        [
+          "2011-03",
+          251
+        ],
+        [
+          "2011-04",
+          75
+        ],
+        [
+          "2012-01",
+          59
+        ],
+        [
+          "2012-02",
+          65
+        ],
+        [
+          "2012-03",
+          341
+        ],
+        [
+          "2012-04",
+          60
+        ],
+        [
+          "2013-01",
+          96
+        ],
+        [
+          "2013-02",
+          112
+        ],
+        [
+          "2013-03",
+          268
+        ],
+        [
+          "2013-04",
+          74
+        ],
+        [
+          "2014-01",
+          62
+        ],
+        [
+          "2014-02",
+          110
+        ],
+        [
+          "2014-03",
+          221
+        ],
+        [
+          "2014-04",
+          92
+        ],
+        [
+          "2015-01",
+          132
+        ],
+        [
+          "2015-02",
+          80
+        ],
+        [
+          "2015-03",
+          305
+        ],
+        [
+          "2015-04",
+          60
+        ],
+        [
+          "2016-01",
+          72
+        ],
+        [
+          "2016-02",
+          62
+        ],
+        [
+          "2016-03",
+          271
+        ],
+        [
+          "2016-04",
+          41
+        ],
+        [
+          "2017-01",
+          55
+        ],
+        [
+          "2017-02",
+          69
+        ],
+        [
+          "2017-03",
+          269
+        ],
+        [
+          "2017-04",
+          53
+        ],
+        [
+          "2018-01",
+          59
+        ],
+        [
+          "2018-02",
+          66
+        ],
+        [
+          "2018-03",
+          262
+        ],
+        [
+          "2018-04",
+          43
+        ],
+        [
+          "2019-01",
+          52
+        ],
+        [
+          "2019-02",
+          80
+        ],
+        [
+          "2019-03",
+          290
+        ],
+        [
+          "2019-04",
+          84
+        ],
+        [
+          "2020-01",
+          54
+        ],
+        [
+          "2020-02",
+          44
+        ],
+        [
+          "2020-03",
+          105
+        ],
+        [
+          "2020-04",
+          60
+        ]
+      ],
+      "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "fontSize": "10px",
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "x": 17,
+      "rotation": 0,
+      "formatter": function () {
+                    return this.value.split("-").slice(0, -1);
+                }
+    },
+    "tickLength": 0,
+    "tickInterval": 4
+  },
+  "chart": {
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "width": 320,
+    "height": 221,
+    "spacing": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "style": {
+      "fontFamily": "Arial",
+      "fontSize": "10px",
+      "color": "#000000"
+    },
+    "zoomType": "xy",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //square legends must be placed 3 pixels more to the left that lines, don't know why
+                    var squareLegendX = (this['options']['chart']['type'] == 'line' ? 0 : 3);
+
+                    //add right-margin if legend is top to allow space for axis-labels
+                    if (this['legend']['options']['layout'] == 'horizontal' && this.yAxis[1] == undefined) {
+                        this.update({
+                            chart: {
+                                marginRight: 15
+                            }
+                        });
+                    }
+                    if (this['legend']['options']['enabled'] == false || this['legend']['options']['layout'] == 'vertical') {
+                        this.update({
+                            chart: {
+                                marginTop: 7
+                            }
+                        });
+                    }
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update({
+                            legend: {
+                                x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding - squareLegendX
+                            }
+                        });
+                    }
+
+                    // format second y-Axis (if exists)
+                    if (this.yAxis[1]) {
+                        this.update({
+                            yAxis: [{
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            },
+                            {
+                                gridLineColor: '#B9CFD7',
+                                gridLineWidth: 0.5,
+                                lineColor: '#B9CFD7',
+                                title: {
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    },
+                                    text: ''
+                                },
+                                labels: {
+                                    y: 3,
+                                    style: {
+                                        fontSize: '10px',
+                                        color: "#000000"
+                                    }
+                                }
+                            }]
+                        });
+                    }
+                }
+    },
+    "renderTo": "container-9234",
+    "spacingBottom": 22
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px",
+          "color": "#000000",
+          "fontFamily": "Arial",
+          "fontWeight": "normal"
+        },
+        "enabled": false
+      }
+    }
+  },
+  "title": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "bold"
+    },
+    "align": "left",
+    "text": "Ausländische Erwerbstätige in der Branche Nahrungsmittelindustrie"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "fontFamily": "Arial"
+    },
+    "text": "Basel-Stadt",
+    "align": "left"
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "tickAmount": 6
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "max": undefined,
+      "tickInterval": 5,
+      "tickAmount": 6,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "padding": 0,
+    "symbolRadius": 0,
+    "itemMarginBottom": 2,
+    "itemStyle": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "fontWeight": "normal",
+      "textOverflow": "none"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemWidth": 280,
+    "labelFormatter": function(){
+                return this.name
+                .replace("u.", "und")
+                  .replace("Tabakerz.", "Tabakerzeugnisse");
+              }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
+  },
+  "dataLabels": {
+    "enabled": false,
+    "style": {
+      "fontSize": "10px",
+      "color": "#000000"
+    }
+  },
+  "tooltip": {
+    "shared": true,
+    "valueDecimals": 0
+  },
+  "zoomType": "xy",
+  "marginTop": 85,
+  "type": "line",
+  "exporting": {
+    "filename": "9234"
+  }
+}
