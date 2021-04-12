@@ -18,6 +18,10 @@
         [
           "2016",
           8579
+        ],
+        [
+          "2018",
+          9039
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -41,6 +45,10 @@
         [
           "2016",
           7916
+        ],
+        [
+          "2018",
+          7945
         ]
       ],
       "name": "Beratung, Planung, Forschung",
@@ -64,6 +72,10 @@
         [
           "2016",
           5251
+        ],
+        [
+          "2018",
+          5349
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirt. DL",
@@ -87,6 +99,10 @@
         [
           "2016",
           5899
+        ],
+        [
+          "2018",
+          5868
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -300,7 +316,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,
@@ -313,6 +329,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7061
+    "filename": "7061"
   }
 }

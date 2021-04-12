@@ -23,6 +23,10 @@
         [
           "2016",
           6220
+        ],
+        [
+          "2018",
+          6251
         ]
       ],
       "name": "Frauen",
@@ -51,6 +55,10 @@
         [
           "2016",
           7034
+        ],
+        [
+          "2018",
+          7038
         ]
       ],
       "name": "Männer",
@@ -79,6 +87,10 @@
         [
           "2016",
           6700
+        ],
+        [
+          "2018",
+          6714
         ]
       ],
       "name": "Total",
@@ -111,6 +123,10 @@
         [
           "2016",
           0.884
+        ],
+        [
+          "2018",
+          0.888
         ]
       ],
       "name": "Verhältnis Frauen\u002FMänner (rechte Skala)",
@@ -350,7 +366,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,
@@ -360,6 +376,6 @@
     }
   },
   "exporting": {
-    "filename": 7056
+    "filename": "7056"
   }
 }

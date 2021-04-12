@@ -5,22 +5,6 @@
       "index": 1,
       "data": [
         [
-          "2010-01",
-          575
-        ],
-        [
-          "2010-02",
-          492
-        ],
-        [
-          "2010-03",
-          664
-        ],
-        [
-          "2010-04",
-          487
-        ],
-        [
           "2011-01",
           532
         ],
@@ -163,6 +147,22 @@
         [
           "2019-04",
           723
+        ],
+        [
+          "2020-01",
+          892
+        ],
+        [
+          "2020-02",
+          318
+        ],
+        [
+          "2020-03",
+          519
+        ],
+        [
+          "2020-04",
+          598
         ]
       ],
       "name": "Frauen",
@@ -172,22 +172,6 @@
       "color": "#008AC3",
       "index": 1,
       "data": [
-        [
-          "2010-01",
-          872
-        ],
-        [
-          "2010-02",
-          868
-        ],
-        [
-          "2010-03",
-          1126
-        ],
-        [
-          "2010-04",
-          899
-        ],
         [
           "2011-01",
           937
@@ -331,6 +315,22 @@
         [
           "2019-04",
           1073
+        ],
+        [
+          "2020-01",
+          1528
+        ],
+        [
+          "2020-02",
+          533
+        ],
+        [
+          "2020-03",
+          938
+        ],
+        [
+          "2020-04",
+          877
         ]
       ],
       "name": "Männer",
@@ -472,7 +472,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kurz- und Daueraufenthalter, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left"
   },
   "tooltip": {
@@ -519,7 +519,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "legend": {
     "enabled": true,

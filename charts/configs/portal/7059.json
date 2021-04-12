@@ -18,6 +18,10 @@
         [
           "2016",
           7430
+        ],
+        [
+          "2018",
+          7383
         ]
       ],
       "name": "Industrie (inkl. Chemie\u002FPharma, ohne Energie\u002FWasser)",
@@ -41,6 +45,10 @@
         [
           "2016",
           10851
+        ],
+        [
+          "2018",
+          11133
         ]
       ],
       "name": "Pharma",
@@ -64,6 +72,10 @@
         [
           "2016",
           6011
+        ],
+        [
+          "2018",
+          6366
         ]
       ],
       "name": "Baugewerbe",
@@ -275,7 +287,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,
@@ -288,6 +300,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7059
+    "filename": "7059"
   }
 }

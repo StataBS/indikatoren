@@ -8,6 +8,10 @@
           314
         ],
         [
+          "2005",
+          145
+        ],
+        [
           "2007",
           151
         ],
@@ -33,6 +37,10 @@
         [
           "2003",
           926
+        ],
+        [
+          "2005",
+          513
         ],
         [
           "2007",
@@ -62,6 +70,10 @@
           212
         ],
         [
+          "2005",
+          100
+        ],
+        [
           "2007",
           98
         ],
@@ -87,6 +99,10 @@
         [
           "2003",
           31
+        ],
+        [
+          "2005",
+          21
         ],
         [
           "2007",
@@ -116,6 +132,10 @@
           14
         ],
         [
+          "2005",
+          3
+        ],
+        [
           "2007",
           2
         ],
@@ -140,6 +160,10 @@
       "data": [
         [
           "2003",
+          0
+        ],
+        [
+          "2005",
           0
         ],
         [
@@ -297,7 +321,7 @@
     "text": "Selbsteinschätzung der wirtschaftlichen Stellung"
   },
   "subtitle": {
-    "text": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019"
+    "text": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -351,7 +375,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "navigation": {
     "buttonOptions": {

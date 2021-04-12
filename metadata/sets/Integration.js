@@ -453,33 +453,33 @@ var indikatorensetData = [
 		"id": 6067
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6653"
+		],
+		"template": "template001",
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6068",
 		"kuerzelKunde": "A2-2",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:13.1313",
+		"aktualisierungsdatum": "2021-04-12T07:58:12.1212",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 liegt der Jugendquotient der Schweizer bei 28,3. Deutlich höhere Jugendquotienten ergeben sich 2019 für Personen aus arabischen (42,5) und afrikanischen Ländern (42,4) sowie für Personen aus dem Balkan (31,1). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2000 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
+		"lesehilfe": "2020 liegt der Jugendquotient der Schweizerinnen und Schweizer bei 28,6. Deutlich höhere Jugendquotienten ergeben sich 2020 für Personen aus afrikanischen (42,6) und arabischen Ländern (41,0) sowie für Personen aus dem Balkan (32,2). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2001 ist der Jugendquotient der Personen aus afrikanischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"6653"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -494,33 +494,33 @@ var indikatorensetData = [
 		"id": 6068
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6654"
+		],
+		"template": "template001",
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6069",
 		"kuerzelKunde": "A2-3",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:22.2222",
+		"aktualisierungsdatum": "2021-04-12T07:58:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 weisen Schweizer (45,2) und Italiener (32,3) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanern (1,8). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit dem Jahr 2000.",
+		"lesehilfe": "2020 weisen Schweizerinnen und Schweizer (44,7) sowie Italienerinnen und Italiener (31,2) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,0). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2001.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"6654"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2357,36 +2357,35 @@ var indikatorensetData = [
 		"id": 6423
 	},
 	{
-		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2010",
+		"parentId": null,
+		"children": [
+			"6699"
+		],
+		"template": "template001",
+		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2011",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.18.3.6424",
 		"kuerzelKunde": "C3-6",
-		"description": "Angestellte in der Verwaltung Basel-Stadt",
+		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T17:32:19.1919",
+		"aktualisierungsdatum": "2021-04-12T07:58:14.1414",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2010 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». 2010 besitzen 91 der insgesamt 123 ausländischen Staatsangehörigen mit Kaderfunktion die deutsche Staatsbürgerschaft.",
+		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2011 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». 2011 besitzen 115 der insgesamt 145 ausländischen Staatsangehörigen mit Kaderfunktion die deutsche Staatsbürgerschaft.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_306",
-		"parentId": null,
-		"children": [
-			"6699"
-		],
 		"renderLink": [],
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
 		],
 		"datenInChartIntegriert": false,
@@ -2399,33 +2398,33 @@ var indikatorensetData = [
 		"id": 6424
 	},
 	{
-		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2019",
+		"parentId": null,
+		"children": [
+			"6700"
+		],
+		"template": "template001",
+		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.18.3.6425",
 		"kuerzelKunde": "C3-7",
-		"description": "Angestellte in der Verwaltung Basel-Stadt",
+		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T17:35:37.3737",
+		"aktualisierungsdatum": "2021-04-12T07:58:14.1414",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2019 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 170 Personen (ein Plus von knapp 7% gegenüber 2018) die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2020 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_307",
-		"parentId": null,
-		"children": [
-			"6700"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"

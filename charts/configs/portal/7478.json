@@ -81,7 +81,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "legendIndex": 7,
       "data": [
         [
@@ -121,7 +121,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
+      "color": "#FFBB58",
       "legendIndex": 6,
       "data": [
         [
@@ -161,7 +161,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#2E1435",
+      "color": "#662673",
       "legendIndex": 5,
       "data": [
         [
@@ -201,7 +201,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "legendIndex": 4,
       "data": [
         [
@@ -241,7 +241,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#923F8D",
+      "color": "#E7CEE2",
       "legendIndex": 3,
       "data": [
         [
@@ -281,7 +281,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#B375AB",
+      "color": "#246370",
       "legendIndex": 2,
       "data": [
         [
@@ -321,7 +321,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#E7CEE2",
+      "color": "#A8C3CA",
       "legendIndex": 1,
       "data": [
         [
@@ -361,7 +361,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#C9D6DB",
+      "color": "#D3E2E4",
       "legendIndex": 0,
       "data": [
         [
@@ -613,7 +613,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,

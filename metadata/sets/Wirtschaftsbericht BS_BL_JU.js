@@ -862,33 +862,33 @@ var indikatorensetData = [
 		"id": 8370
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8488"
+		],
+		"template": "line001",
 		"title": "Entwicklung Exporte",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "I.06.4.08371",
+		"subtitle": "indexiert (2016 = 100)",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-2",
 		"description": "Entwicklung Exporte",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:30.3030",
+		"aktualisierungsdatum": "2021-04-12T07:59:07.077",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Zeit zwischen 2014 und 2018 haben die nominalen Warenexporte aus Basel-Landschaft um fast 90% zugelegt. Das Exportwachstum liegt im Kanton Jura bei 30% und im Kanton Basel-Stadt bei 7%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum um 50%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
-		"template": "line001",
+		"lesehilfe": "In der Zeit zwischen 2016 und 2019 haben die nominalen Warenexporte aus Basel-Stadt um über 21% zugelegt. Das Exportwachstum liegt im Kanton Basel-Landschaft bei 15% und im Kanton Jura bei knapp 11%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum von über 20%, in der gesamten Schweiz von 15%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8488"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -1696,33 +1696,33 @@ var indikatorensetData = [
 		"id": 8447
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8508"
+		],
+		"template": "line001",
 		"title": "Entwicklung Importe",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "I.06.4.08462",
+		"subtitle": "indexiert (2016 = 100)",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-3",
 		"description": "Entwicklung Importe",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:39.3939",
+		"aktualisierungsdatum": "2021-04-12T07:59:11.1111",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2014 und 2018 um 75% gestiegen. Zum starken Importzuwachs im Jahr 2016 (+79%) hat in erster Linie der Kauf von Flugzeugen geführt. Im Kanton Basel-Landschaft liegt der Anstieg zwischen 2014 und 2018 bei 46%, im Jura bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
-		"template": "line001",
+		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2016 und 2019 um 29% gestiegen. Im Kanton Basel-Landschaft liegen sie knapp 14% höher, sind gegenüber 2018 aber um fast 9% gesunken. Im Jura sind die Warenimporte um 14% gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 26%, für die gesamte Schweiz von über 18%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8508"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"

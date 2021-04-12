@@ -2748,32 +2748,32 @@ var indikatoren = [
 		"id": 4153
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Bestand an Notwohnungen und ihre Belegung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.13.3.4154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-11T10:47:12.1212",
+		"aktualisierungsdatum": "2021-04-12T07:58:09.099",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2019 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot bis 2015 um rund 40 Logis erhöht werden.",
-		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Mietverträgen der Sozialhilfe gemessen.",
-		"template": "template001",
+		"lesehilfe": "Die wenigen Notwohnungen – 2020 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot bis 2015 um rund 40 Logis erhöht werden.",
+		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
@@ -6887,32 +6887,32 @@ var indikatoren = [
 		"id": 4374
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Personen mit und ohne Migrationshintergrund",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "",
 		"kuerzel": "I.01.1.4462",
 		"kuerzelKunde": "",
 		"description": "Personen mit und ohne Migrationshintergrund",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T15:20:08.088",
+		"aktualisierungsdatum": "2021-04-12T07:58:10.1010",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 sind in Basel-Stadt rund 75 000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Etwa 29 000 Personen sind Schweizer mit Migrationshintergrund und insgesamt 58 000 Personen sind ausländischer Herkunft. Rund 54 000 Personen sind Ausländer der ersten Generation, knapp 5 000 sind Personen der zweiten Generation und etwa 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
+		"lesehilfe": "2019 sind in Basel-Stadt rund 73 000 Personen über 15 Jahren Schweizer ohne Migrationshintergrund. Über 30 000 Personen sind Schweizer mit Migrationshintergrund. Rund 55 000 Personen sind Ausländer der ersten Generation, knapp 4 000 sind Personen der zweiten Generation und knapp 100 sind Ausländer der dritten Generation, also Ausländer ohne Migrationshintergrund.",
 		"erlaeuterungen": "Migrationshintergrund: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen, in der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil sowie im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: in der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren. Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -11031,18 +11031,25 @@ var indikatoren = [
 		"id": 5818
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5165",
+			"6252",
+			"8893"
+		],
+		"template": "befragungen001",
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt",
+		"kennzahlenset": "Richtplan",
 		"kuerzel": "I.50.1.5821",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:27:31.3131",
+		"aktualisierungsdatum": "2021-04-12T07:58:11.1111",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -11050,17 +11057,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_05_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"5165",
-			"6252",
-			"8893"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -12727,34 +12727,34 @@ var indikatoren = [
 		"id": 6067
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6653"
+		],
+		"template": "template001",
 		"title": "Jugendquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6068",
 		"kuerzelKunde": "A2-2",
 		"description": "Jugendquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:13.1313",
+		"aktualisierungsdatum": "2021-04-12T07:58:12.1212",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 liegt der Jugendquotient der Schweizer bei 28,3. Deutlich höhere Jugendquotienten ergeben sich 2019 für Personen aus arabischen (42,5) und afrikanischen Ländern (42,4) sowie für Personen aus dem Balkan (31,1). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2000 ist der Jugendquotient der Personen aus arabischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei und dem Balkan stark gesunken.",
+		"lesehilfe": "2020 liegt der Jugendquotient der Schweizerinnen und Schweizer bei 28,6. Deutlich höhere Jugendquotienten ergeben sich 2020 für Personen aus afrikanischen (42,6) und arabischen Ländern (41,0) sowie für Personen aus dem Balkan (32,2). Die niedrigsten Jugendquotienten weisen Personen aus Mittel- und Südamerika, Deutschland sowie aus der Ländergruppe EU-Ost auf. Im Vergleich zu 2001 ist der Jugendquotient der Personen aus afrikanischen Ländern am stärksten gestiegen und jener von Personen aus der Türkei am stärksten gesunken.",
 		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"6653"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12769,34 +12769,34 @@ var indikatoren = [
 		"id": 6068
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6654"
+		],
+		"template": "template001",
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6069",
 		"kuerzelKunde": "A2-3",
 		"description": "Altersquotient nach Staatsangehörigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-15T14:09:22.2222",
+		"aktualisierungsdatum": "2021-04-12T07:58:13.1313",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 weisen Schweizer (45,2) und Italiener (32,3) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanern (1,8). Auffällig ist die starke Zunahme der Altersquotienten der Italiener, der Türken und der Personen aus dem Balkan seit dem Jahr 2000.",
+		"lesehilfe": "2020 weisen Schweizerinnen und Schweizer (44,7) sowie Italienerinnen und Italiener (31,2) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,0). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2001.",
 		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"6654"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -18331,34 +18331,34 @@ var indikatoren = [
 		"id": 6423
 	},
 	{
-		"title": "Angestellte in der Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2019",
+		"parentId": null,
+		"children": [
+			"6700"
+		],
+		"template": "template001",
+		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.18.3.6425",
 		"kuerzelKunde": "C3-7",
-		"description": "Angestellte in der Verwaltung Basel-Stadt",
+		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T17:35:37.3737",
+		"aktualisierungsdatum": "2021-04-12T07:58:14.1414",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2019 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 170 Personen (ein Plus von knapp 7% gegenüber 2018) die mit Abstand grösste Gruppe.",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2020 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
 		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_307",
-		"parentId": null,
-		"children": [
-			"6700"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -23272,32 +23272,32 @@ var indikatoren = [
 		"id": 6778
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wohnviertel Altstadt Grossbasel, 2019",
+		"subtitle": "Wohnviertel Altstadt Grossbasel, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.06893",
 		"kuerzelKunde": "GS-01.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
+		"aktualisierungsdatum": "2021-04-12T07:58:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer und weniger Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_01_01_00_00_001",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38265,34 +38265,34 @@ var indikatoren = [
 		"id": 8370
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8488"
+		],
+		"template": "line001",
 		"title": "Entwicklung Exporte",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "I.06.4.08371",
+		"subtitle": "indexiert (2016 = 100)",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-2",
 		"description": "Entwicklung Exporte",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:30.3030",
+		"aktualisierungsdatum": "2021-04-12T07:59:07.077",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Zeit zwischen 2014 und 2018 haben die nominalen Warenexporte aus Basel-Landschaft um fast 90% zugelegt. Das Exportwachstum liegt im Kanton Jura bei 30% und im Kanton Basel-Stadt bei 7%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum um 50%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
-		"template": "line001",
+		"lesehilfe": "In der Zeit zwischen 2016 und 2019 haben die nominalen Warenexporte aus Basel-Stadt um über 21% zugelegt. Das Exportwachstum liegt im Kanton Basel-Landschaft bei 15% und im Kanton Jura bei knapp 11%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum von über 20%, in der gesamten Schweiz von 15%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8488"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"
@@ -39161,18 +39161,23 @@ var indikatoren = [
 		"id": 8447
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8955"
+		],
+		"template": "befragungen001",
 		"title": "Zufriedenheit mit Höhe der Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt, 2019",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.50.1.08449",
 		"kuerzelKunde": "SH4",
 		"description": "Zufriedenheit mit Höhe der Steuern",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:01:46.4646",
+		"aktualisierungsdatum": "2021-04-12T07:59:08.088",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -39180,15 +39185,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2019 sprechen sich 49,7% für eine Senkung der Steuern aus. Deutlich mehr als 2015 (37,1%). 37,0% sind für das Beibehalten des aktuellen Steuerniveaus und 1,2% für eine Erhöhung.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_02_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"8955"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -39285,18 +39285,23 @@ var indikatoren = [
 		"id": 8452
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8956"
+		],
+		"template": "befragungen001",
 		"title": "Zufriedenheit mit dem Kulturangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt, 2019",
-		"kuerzel": "I.50.1.08453",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzel": "",
 		"kuerzelKunde": "GW15",
 		"description": "Zufriedenheit mit dem Kulturangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-12T16:25:45.4545",
+		"aktualisierungsdatum": "2021-04-12T07:59:09.099",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Kultur",
 		"stufe3": "",
@@ -39304,15 +39309,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "2019 zeigen sich 39,6% der Befragten sehr und 40,8% eher zufrieden mit dem Kulturangebot. 7,6% sind damit unzufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_06_00_00_00_316",
-		"parentId": null,
-		"children": [
-			"8956"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -39453,18 +39453,23 @@ var indikatoren = [
 		"id": 8459
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8963"
+		],
+		"template": "befragungen001",
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
-		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.50.1.08460",
 		"kuerzelKunde": "WE12",
 		"description": "Selbsteinschätzung der wirtschaftlichen Stellung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:16:35.3535",
+		"aktualisierungsdatum": "2021-04-12T07:59:09.099",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -39472,15 +39477,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "17,8% der 2019 Befragten schätzen ihre wirtschaftliche Situation als sehr gut ein. 2015 lag dieser Anteil bei 31,3%. Der Anteil Personen, die ihre Sitaution als eher oder gar nicht gut einschätzen liegt bei 17,0% (2015: 9,8%).",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Bis 2015 wurde diese Frage einem Drittel der Befragten nicht gestellt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_612",
-		"parentId": null,
-		"children": [
-			"8963"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -39495,18 +39495,23 @@ var indikatoren = [
 		"id": 8460
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8964"
+		],
+		"template": "befragungen001",
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.50.1.08461",
 		"kuerzelKunde": "WE14",
 		"description": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T16:18:53.5353",
+		"aktualisierungsdatum": "2021-04-12T07:59:10.1010",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -39514,15 +39519,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_02_00_00_00_614",
-		"parentId": null,
-		"children": [
-			"8964"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -39537,34 +39537,34 @@ var indikatoren = [
 		"id": 8461
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8508"
+		],
+		"template": "line001",
 		"title": "Entwicklung Importe",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "I.06.4.08462",
+		"subtitle": "indexiert (2016 = 100)",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-3",
 		"description": "Entwicklung Importe",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:39.3939",
+		"aktualisierungsdatum": "2021-04-12T07:59:11.1111",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2014 und 2018 um 75% gestiegen. Zum starken Importzuwachs im Jahr 2016 (+79%) hat in erster Linie der Kauf von Flugzeugen geführt. Im Kanton Basel-Landschaft liegt der Anstieg zwischen 2014 und 2018 bei 46%, im Jura bei 7%. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 51%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten.Die kantonale Aussenhandelstatistik wird derzeit revidiert. Künftige Zahlen können von den aktuellen Zahlen abweichen.",
-		"template": "line001",
+		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2016 und 2019 um 29% gestiegen. Im Kanton Basel-Landschaft liegen sie knapp 14% höher, sind gegenüber 2018 aber um fast 9% gesunken. Im Jura sind die Warenimporte um 14% gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 26%, für die gesamte Schweiz von über 18%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8508"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"

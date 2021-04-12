@@ -1549,31 +1549,31 @@ var indikatorensetData = [
 		"id": 6759
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wohnviertel Altstadt Grossbasel, 2019",
+		"subtitle": "Wohnviertel Altstadt Grossbasel, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.06893",
 		"kuerzelKunde": "GS-01.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-09T10:44:11.1111",
+		"aktualisierungsdatum": "2021-04-12T07:58:15.1515",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer als Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons leben im Wohnviertel Altstadt Grossbasel mehr Männer und weniger Frauen. Der Anteil der 50- bis 54-Jährigen ist sowohl bei den Männern als auch bei den Frauen höher.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_01_01_00_00_001",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
