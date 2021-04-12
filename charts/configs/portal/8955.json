@@ -8,6 +8,10 @@
           19
         ],
         [
+          "2005",
+          10
+        ],
+        [
           "2007",
           5
         ],
@@ -33,6 +37,10 @@
         [
           "2003",
           873
+        ],
+        [
+          "2005",
+          569
         ],
         [
           "2007",
@@ -62,6 +70,10 @@
           605
         ],
         [
+          "2005",
+          931
+        ],
+        [
           "2007",
           452
         ],
@@ -89,6 +101,10 @@
           0
         ],
         [
+          "2005",
+          0
+        ],
+        [
           "2007",
           0
         ],
@@ -113,6 +129,10 @@
       "data": [
         [
           "2003",
+          0
+        ],
+        [
+          "2005",
           0
         ],
         [
@@ -268,7 +288,7 @@
     "text": "Zufriedenheit mit Höhe der Steuern"
   },
   "subtitle": {
-    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt, 2019"
+    "text": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -322,7 +342,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "navigation": {
     "buttonOptions": {

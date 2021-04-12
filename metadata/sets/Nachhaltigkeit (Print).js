@@ -468,18 +468,21 @@ var indikatorensetData = [
 		"id": 8892
 	},
 	{
+		"parentId": 5821,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzel": "I.50.1.08893",
 		"kuerzelKunde": "GW1",
 		"description": "Bewertung der Lebensqualität",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:52.5252",
+		"aktualisierungsdatum": "2021-04-12T07:59:16.1616",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Lebensqualität",
 		"stufe3": "",
@@ -487,12 +490,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_01_00_00_00_301",
-		"parentId": 5821,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2664,18 +2664,21 @@ var indikatorensetData = [
 		"id": 8954
 	},
 	{
+		"parentId": 8449,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Zufriedenheit mit Höhe der Steuern",
-		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt, 2019",
+		"subtitle": "«Finden Sie, dass die kantonalen Steuern und Gebühren erhöht, gesenkt oder beibehalten werden sollen?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzel": "I.50.1.08955",
 		"kuerzelKunde": "SH4",
 		"description": "Zufriedenheit mit Höhe der Steuern",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:24.2424",
+		"aktualisierungsdatum": "2021-04-12T07:59:17.1717",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Politik und Verwaltung",
 		"stufe3": "",
@@ -2683,12 +2686,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2019 sprechen sich 49,7% für eine Senkung der Steuern aus. Deutlich mehr als 2015 (37,1%). 37,0% sind für das Beibehalten des aktuellen Steuerniveaus und 1,2% für eine Erhöhung.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_204",
-		"parentId": 8449,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2703,18 +2703,21 @@ var indikatorensetData = [
 		"id": 8955
 	},
 	{
+		"parentId": 8453,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Zufriedenheit mit dem Kulturangebot",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Kulturangebot?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzel": "I.50.1.08956",
 		"kuerzelKunde": "GW15",
 		"description": "Zufriedenheit mit dem Kulturangebot",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:25.2525",
+		"aktualisierungsdatum": "2021-04-12T07:59:17.1717",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Kultur",
 		"stufe3": "",
@@ -2722,12 +2725,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2019 zeigen sich 39,6% der Befragten sehr und 40,8% eher zufrieden mit dem Kulturangebot. 7,6% sind damit unzufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_06_00_00_00_316",
-		"parentId": 8453,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -2976,18 +2976,21 @@ var indikatorensetData = [
 		"id": 8962
 	},
 	{
+		"parentId": 8460,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Selbsteinschätzung der wirtschaftlichen Stellung",
-		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt, 2019",
+		"subtitle": "«Wie geht es Ihnen im Moment wirtschaftlich?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzel": "I.50.1.08963",
 		"kuerzelKunde": "WE12",
 		"description": "Selbsteinschätzung der wirtschaftlichen Stellung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:08:01.011",
+		"aktualisierungsdatum": "2021-04-12T07:59:18.1818",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -2995,12 +2998,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "17,8% der 2019 Befragten schätzen ihre wirtschaftliche Situation als sehr gut ein. 2015 lag dieser Anteil bei 31,3%. Der Anteil Personen, die ihre Sitaution als eher oder gar nicht gut einschätzen liegt bei 17,0% (2015: 9,8%).",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Bis 2015 wurde diese Frage einem Drittel der Befragten nicht gestellt.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_612",
-		"parentId": 8460,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -3015,18 +3015,21 @@ var indikatorensetData = [
 		"id": 8963
 	},
 	{
+		"parentId": 8461,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt, 2019",
+		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"kuerzel": "I.50.1.08964",
 		"kuerzelKunde": "WE14",
 		"description": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:08:02.022",
+		"aktualisierungsdatum": "2021-04-12T07:59:19.1919",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
@@ -3034,12 +3037,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_614",
-		"parentId": 8461,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

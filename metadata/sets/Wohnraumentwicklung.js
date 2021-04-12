@@ -1076,31 +1076,31 @@ var indikatorensetData = [
 		"id": 4153
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Bestand an Notwohnungen und ihre Belegung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.13.3.4154",
 		"kuerzelKunde": "4.1.E",
 		"description": "Bestand an Notwohnungen und ihre Belegung",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-11T10:47:12.1212",
+		"aktualisierungsdatum": "2021-04-12T07:58:09.099",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2019 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot bis 2015 um rund 40 Logis erhöht werden.",
-		"erlaeuterungen": "Die Belegung wird Ende Jahr gemäss den Mietverträgen der Sozialhilfe gemessen.",
-		"template": "template001",
+		"lesehilfe": "Die wenigen Notwohnungen – 2020 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot bis 2015 um rund 40 Logis erhöht werden.",
+		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"

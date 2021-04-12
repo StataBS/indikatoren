@@ -54,35 +54,35 @@
       "legendIndex": 8     
     },
     {
-      "color": "#DC440E",
+      "color": "#FF8028",
       "legendIndex": 7     
     },
     {
-      "color": "#FF8028",
+      "color": "#FFBB58",
       "legendIndex": 6     
     },
     {
-      "color": "#2E1435",
+      "color": "#662673",
       "legendIndex": 5     
     },
     {
-      "color": "#662673",
+      "color": "#B375AB",
       "legendIndex": 4
     },
     {
-      "color": "#923F8D",
+      "color": "#E7CEE2",
       "legendIndex": 3  
     },
     {
-      "color": "#B375AB",
+      "color": "#246370",
       "legendIndex": 2  
     },
     {
-      "color": "#E7CEE2",
+      "color": "#A8C3CA",
       "legendIndex": 1  
     },
     {
-      "color": "#C9D6DB",
+      "color": "#D3E2E4",
       "legendIndex": 0  
     }        
   ],

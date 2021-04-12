@@ -18,6 +18,10 @@
         [
           "2016",
           6502
+        ],
+        [
+          "2018",
+          6538
         ]
       ],
       "name": "Schweiz",
@@ -41,6 +45,10 @@
         [
           "2016",
           6700
+        ],
+        [
+          "2018",
+          6714
         ]
       ],
       "name": "Nordwestschweiz",
@@ -64,6 +72,10 @@
         [
           "2016",
           6869
+        ],
+        [
+          "2018",
+          6965
         ]
       ],
       "name": "Zürich",
@@ -277,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-25"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,
@@ -291,6 +303,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7055
+    "filename": "7055"
   }
 }

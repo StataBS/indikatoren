@@ -295,7 +295,7 @@
     "text": "Zufriedenheit mit dem Angebot der Kinderbetreuung"
   },
   "subtitle": {
-    "text": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt, 2019"
+    "text": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 25,
@@ -349,7 +349,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "navigation": {
     "buttonOptions": {

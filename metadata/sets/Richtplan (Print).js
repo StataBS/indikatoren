@@ -392,18 +392,21 @@ var indikatorensetData = [
 		"id": 6251
 	},
 	{
+		"parentId": 5821,
+		"children": [],
+		"template": "befragungen001_print",
 		"title": "Bewertung der Lebensqualität",
-		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019",
+		"subtitle": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt",
+		"kennzahlenset": "Richtplan (Print)",
 		"kuerzel": "I.50.1.06252",
 		"kuerzelKunde": "ST 5-2",
 		"description": "Bewertung der Lebensqualität",
 		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Richtplan (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T14:23:06.066",
+		"aktualisierungsdatum": "2021-04-12T07:58:13.1313",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
@@ -411,12 +414,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Auf einer 10er-Skala konnten die befragten Personen die Lebensqualität im Kanton Basel-Stadt bewerten. 2019 geben die Befragten der Lebensqualität im Stadtkanton im Durchschnitt eine 8,0. Dies entspricht dem höchsten Wert seit der ersten Befragung im Jahr 2003.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt.<br>Um die Daten über die Jahre zu vergleichen, bleiben die befragten Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt.",
-		"template": "befragungen001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_05_00_00_00_002",
-		"parentId": 5821,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"

@@ -431,7 +431,7 @@
     "text": "Bewertung der Lebensqualität"
   },
   "subtitle": {
-    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt, 2019"
+    "text": "«Wie würden Sie die Lebensqualität im Kanton Basel-Stadt insgesamt bewerten?», Basel-Stadt"
   },
   "yAxis": {
     "tickInterval": 10,
@@ -483,7 +483,7 @@
     "position": {
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "navigation": {
     "buttonOptions": {

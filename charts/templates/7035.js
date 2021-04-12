@@ -31,10 +31,12 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 1,
-    width: 340,
+    //width: 340,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: "none",
+      whiteSpace: "nowrap"
     }
   },
   "plotOptions": {

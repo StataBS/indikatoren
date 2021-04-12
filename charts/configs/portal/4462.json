@@ -38,7 +38,11 @@
         ],
         [
           "2018",
-          74928
+          74749
+        ],
+        [
+          "2019",
+          72706
         ]
       ],
       "name": "Schweizer ohne Migrationshintergrund",
@@ -82,7 +86,11 @@
         ],
         [
           "2018",
-          28547
+          28714
+        ],
+        [
+          "2019",
+          30427
         ]
       ],
       "name": "Schweizer mit Migrationshintergrund",
@@ -126,7 +134,11 @@
         ],
         [
           "2018",
-          53793
+          53754
+        ],
+        [
+          "2019",
+          54805
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (1. Generation)",
@@ -170,7 +182,11 @@
         ],
         [
           "2018",
-          4537
+          4566
+        ],
+        [
+          "2019",
+          3889
         ]
       ],
       "name": "Ausländer mit Migrationshintergrund (2. Generation)",
@@ -215,6 +231,10 @@
         [
           "2018",
           78
+        ],
+        [
+          "2019",
+          87
         ]
       ],
       "name": "Ausländer ohne Migrationshintergrund (3. Generation)",
@@ -356,7 +376,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -137,7 +137,7 @@
         "color": "#000000",
         "textOverflow": "none"
       },
-      "rotation": 0
+      "rotation": -45
     },
     "tickLength": 0
   },
@@ -331,7 +331,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "dataLabels": {
     "enabled": false,

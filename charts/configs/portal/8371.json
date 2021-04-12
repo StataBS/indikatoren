@@ -4,24 +4,20 @@
       "color": "#474747",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          94.74
-        ],
-        [
-          2016,
-          101.89
-        ],
-        [
           2017,
-          109.02
+          106.43
         ],
         [
           2018,
-          107.28
+          108.25
+        ],
+        [
+          2019,
+          121.37
         ]
       ],
       "name": "Basel-Stadt"
@@ -30,24 +26,20 @@
       "color": "#FF8028",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          120.37
-        ],
-        [
-          2016,
-          135.77
-        ],
-        [
           2017,
-          157.38
+          106.44
         ],
         [
           2018,
-          188.68
+          113.05
+        ],
+        [
+          2019,
+          114.55
         ]
       ],
       "name": "Basel-Landschaft"
@@ -56,24 +48,20 @@
       "color": "#FABD24",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          94.24
-        ],
-        [
-          2016,
-          100.66
-        ],
-        [
           2017,
-          119.37
+          112.63
         ],
         [
           2018,
-          130.2
+          109.77
+        ],
+        [
+          2019,
+          110.94
         ]
       ],
       "name": "Jura"
@@ -82,24 +70,20 @@
       "color": "#B375AB",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          108.14
-        ],
-        [
-          2016,
-          119.59
-        ],
-        [
           2017,
-          134.57
+          106.66
         ],
         [
           2018,
-          150.42
+          108.78
+        ],
+        [
+          2019,
+          120.32
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -108,24 +92,20 @@
       "color": "#990300",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          97.39
-        ],
-        [
-          2016,
-          101.02
-        ],
-        [
           2017,
-          105.87
+          104.8
         ],
         [
           2018,
-          111.93
+          110.81
+        ],
+        [
+          2019,
+          115.14
         ]
       ],
       "name": "Schweiz"
@@ -187,7 +167,7 @@
     "text": "Entwicklung Exporte"
   },
   "subtitle": {
-    "text": "indexiert (2014 = 100)",
+    "text": "indexiert (2016 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -256,7 +236,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -297,6 +277,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8371
+    "filename": "8371"
   }
 }
