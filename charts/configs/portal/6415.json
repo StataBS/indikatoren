@@ -18,8 +18,8 @@
           0.793
         ],
         [
-          "2014-2018",
-          0.751
+          "2015-2019",
+          0.745
         ]
       ],
       "name": "Schweizer",
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2014-2018",
-          "low": 0.74,
-          "high": 0.762
+          "name": "2015-2019",
+          "low": 0.734,
+          "high": 0.757
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.676
         ],
         [
-          "2014-2018",
-          0.734
+          "2015-2019",
+          0.73
         ]
       ],
       "name": "Schweizerinnen",
@@ -98,9 +98,9 @@
           "high": null
         },
         {
-          "name": "2014-2018",
-          "low": 0.723,
-          "high": 0.745
+          "name": "2015-2019",
+          "low": 0.719,
+          "high": 0.741
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -124,7 +124,7 @@
           0.78
         ],
         [
-          "2014-2018",
+          "2015-2019",
           0.769
         ]
       ],
@@ -151,8 +151,8 @@
           "high": null
         },
         {
-          "name": "2014-2018",
-          "low": 0.755,
+          "name": "2015-2019",
+          "low": 0.754,
           "high": 0.783
         }
       ],
@@ -177,8 +177,8 @@
           0.642
         ],
         [
-          "2014-2018",
-          0.678
+          "2015-2019",
+          0.672
         ]
       ],
       "name": "Ausländerinnen",
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2014-2018",
-          "low": 0.663,
-          "high": 0.693
+          "name": "2015-2019",
+          "low": 0.657,
+          "high": 0.688
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -287,7 +287,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Erwerbstätigenquote der 15-64-Jährigen"
+    "text": "Erwerbstätigenquote der 15-bis 64-Jährigen"
   },
   "subtitle": {
     "text": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
   },
   "tooltip": {
     "shared": true

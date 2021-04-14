@@ -84,33 +84,33 @@ var indikatorensetData = [
 		"id": 5202
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6244"
+		],
+		"template": "template001",
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.11.5.5203",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Pendler",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-05T08:46:41.4141",
+		"aktualisierungsdatum": "2021-04-14T08:16:42.4242",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 pendeln gut 94 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund zwei Drittel von ihnen aus der Schweiz. Rund 25 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 69 000 Personen; das sind rund 5 000 weniger als im Vorjahr.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal).",
-		"template": "template001",
+		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 62% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"6244"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",

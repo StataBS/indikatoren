@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Klybeck",
-          0.6299572
+          "Kleinhüningen",
+          0.6169505
         ],
         [
-          "Kleinhüningen",
-          0.6440538
+          "Klybeck",
+          0.6435239
         ],
         [
           "Clara",
-          0.6679854
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.7018931
-        ],
-        [
-          "Matthäus",
-          0.7027
-        ],
-        [
-          "Hirzbrunnen",
-          0.7065011
+          0.6917513
         ],
         [
           "St. Johann",
-          0.708345
+          0.7039822
         ],
         [
-          "Rosental",
-          0.710111
+          "Hirzbrunnen",
+          0.7045793
         ],
         [
           "Iselin",
-          0.7167553
+          0.712183
+        ],
+        [
+          "Matthäus",
+          0.713825
         ],
         [
           "Gotthelf",
-          0.7341246
+          0.7160514
         ],
         [
-          "Bruderholz",
-          0.7388214
+          "Rosental",
+          0.720459
         ],
         [
           "St. Alban",
-          0.7434271
+          0.7322857
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7331914
         ],
         [
           "Riehen",
-          0.7503934
+          0.7384675
         ],
         [
           "Bettingen",
-          0.7503934
+          0.7384675
         ],
         [
-          "Breite",
-          0.7658882
-        ],
-        [
-          "Gundeldingen",
-          0.7659613
-        ],
-        [
-          "Bachletten",
-          0.7690934
+          "Bruderholz",
+          0.7402602
         ],
         [
           "Vorstädte",
-          0.7693459
+          0.7478803
+        ],
+        [
+          "Breite",
+          0.7532669
+        ],
+        [
+          "Bachletten",
+          0.7583558
+        ],
+        [
+          "Gundeldingen",
+          0.7627559
         ],
         [
           "Am Ring",
-          0.7868671
+          0.7824608
         ],
         [
           "Wettstein",
-          0.803164
+          0.789864
         ],
         [
           "Altstadt Grossbasel",
-          0.837441
+          0.8445363
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Klybeck",
+          "Kleinhüningen",
           1
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           2
         ],
         [
@@ -107,55 +107,55 @@
           3
         ],
         [
-          "Altstadt Kleinbasel",
+          "St. Johann",
           4
         ],
         [
-          "Matthäus",
+          "Hirzbrunnen",
           5
         ],
         [
-          "Hirzbrunnen",
+          "Iselin",
           6
         ],
         [
-          "St. Johann",
+          "Matthäus",
           7
         ],
         [
-          "Rosental",
+          "Gotthelf",
           8
         ],
         [
-          "Iselin",
+          "Rosental",
           9
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           10
         ],
         [
-          "Bruderholz",
+          "Altstadt Kleinbasel",
           11
         ],
         [
-          "St. Alban",
+          "Riehen",
           12
         ],
         [
-          "Riehen",
+          "Bettingen",
           13
         ],
         [
-          "Bettingen",
+          "Bruderholz",
           14
         ],
         [
-          "Breite",
+          "Vorstädte",
           15
         ],
         [
-          "Gundeldingen",
+          "Breite",
           16
         ],
         [
@@ -163,7 +163,7 @@
           17
         ],
         [
-          "Vorstädte",
+          "Gundeldingen",
           18
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2014 bis 2018",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2015 bis 2019",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-19"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
   },
   "legend": {
     "enabled": false,

@@ -1779,33 +1779,33 @@ var indikatorensetData = [
 		"id": 8863
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8874"
+		],
+		"template": "line001",
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.06.4.08868",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzel": "",
 		"kuerzelKunde": "4-4",
 		"description": "Entwicklung Handelsbilanz",
-		"thema": "06 Industrie, Dienstleistungen",
+		"thema": "50 Befragungen",
 		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:39.3939",
+		"aktualisierungsdatum": "2021-04-14T08:16:21.2121",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Landschaft steigt 2018 auf 26,6 Milliarden Franken, während sie in Basel-Stadt 14,7 Milliarden beträgt und im Jura bei null liegt. In der Schweiz insgesamt war die Handelsbilanz 2017 und 2018 rückläufig und liegt 2018 bei 31,4 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel.",
-		"template": "line001",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 680 Millionen. Im Jura liegt sie bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2019 wieder gestiegen und liegt bei 37,2 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8874"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Eidgenössische Zollverwaltung (EZV)"

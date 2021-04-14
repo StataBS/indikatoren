@@ -11,19 +11,19 @@
       "data": [
         [
           "15-24 Jahre",
-          0.433
+          0.411
         ],
         [
           "25-34 Jahre",
-          0.852
+          0.841
         ],
         [
           "35-44 Jahre",
-          0.865
+          0.867
         ],
         [
           "45-54 Jahre",
-          0.849
+          0.843
         ],
         [
           "55-64 Jahre",
@@ -44,27 +44,27 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.4,
-          "high": 0.467
+          "low": 0.377,
+          "high": 0.445
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.831,
-          "high": 0.872
+          "low": 0.82,
+          "high": 0.863
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.844,
-          "high": 0.887
+          "low": 0.845,
+          "high": 0.889
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.829,
-          "high": 0.869
+          "low": 0.823,
+          "high": 0.864
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.678,
+          "low": 0.677,
           "high": 0.727
         }
       ],
@@ -82,23 +82,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.493
+          0.467
         ],
         [
           "25-34 Jahre",
-          0.838
+          0.842
         ],
         [
           "35-44 Jahre",
-          0.851
+          0.852
         ],
         [
           "45-54 Jahre",
-          0.81
+          0.796
         ],
         [
           "55-64 Jahre",
-          0.635
+          0.641
         ]
       ],
       "name": "Schweizerinnen",
@@ -115,28 +115,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.46,
-          "high": 0.526
+          "low": 0.433,
+          "high": 0.501
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.818,
-          "high": 0.858
+          "low": 0.822,
+          "high": 0.861
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.83,
-          "high": 0.872
+          "low": 0.831,
+          "high": 0.873
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.789,
-          "high": 0.83
+          "low": 0.775,
+          "high": 0.818
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.611,
-          "high": 0.659
+          "low": 0.616,
+          "high": 0.665
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -153,23 +153,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.447
+          0.435
         ],
         [
           "25-34 Jahre",
-          0.837
+          0.849
         ],
         [
           "35-44 Jahre",
-          0.861
+          0.868
         ],
         [
           "45-54 Jahre",
-          0.811
+          0.797
         ],
         [
           "55-64 Jahre",
-          0.595
+          0.593
         ]
       ],
       "name": "Ausländer",
@@ -186,28 +186,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.391,
-          "high": 0.503
+          "low": 0.378,
+          "high": 0.491
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.813,
-          "high": 0.861
+          "low": 0.825,
+          "high": 0.873
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.839,
-          "high": 0.882
+          "low": 0.846,
+          "high": 0.889
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.785,
-          "high": 0.838
+          "low": 0.769,
+          "high": 0.825
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.553,
-          "high": 0.637
+          "low": 0.552,
+          "high": 0.635
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -224,23 +224,23 @@
       "data": [
         [
           "15-24 Jahre",
-          0.405
+          0.411
         ],
         [
           "25-34 Jahre",
-          0.753
+          0.741
         ],
         [
           "35-44 Jahre",
-          0.757
+          0.751
         ],
         [
           "45-54 Jahre",
-          0.695
+          0.687
         ],
         [
           "55-64 Jahre",
-          0.495
+          0.486
         ]
       ],
       "name": "Ausländerinnen",
@@ -257,28 +257,28 @@
       "data": [
         {
           "name": "15-24 Jahre",
-          "low": 0.351,
-          "high": 0.459
+          "low": 0.356,
+          "high": 0.467
         },
         {
           "name": "25-34 Jahre",
-          "low": 0.727,
-          "high": 0.778
+          "low": 0.715,
+          "high": 0.768
         },
         {
           "name": "35-44 Jahre",
-          "low": 0.731,
-          "high": 0.783
+          "low": 0.725,
+          "high": 0.777
         },
         {
           "name": "45-54 Jahre",
-          "low": 0.661,
-          "high": 0.729
+          "low": 0.653,
+          "high": 0.721
         },
         {
           "name": "55-64 Jahre",
-          "low": 0.446,
-          "high": 0.543
+          "low": 0.438,
+          "high": 0.535
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -362,7 +362,7 @@
     "text": "Erwerbstätigenquote"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2014 bis 2018",
+    "text": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2015 bis 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -421,13 +421,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
   },
   "tooltip": {
     "shared": true
   },
   "exporting": {
     "allowHTML": true,
-    "filename": 6417
+    "filename": "6417"
   }
 }

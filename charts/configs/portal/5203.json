@@ -47,7 +47,11 @@
         ],
         [
           "2018",
-          -24901
+          -24383
+        ],
+        [
+          "2019",
+          -23204
         ]
       ],
       "name": "Wegpendler in die Schweiz",
@@ -100,7 +104,11 @@
         ],
         [
           "2018",
-          -387
+          -429
+        ],
+        [
+          "2019",
+          -587
         ]
       ],
       "name": "Wegpendler ins Ausland",
@@ -153,7 +161,11 @@
         ],
         [
           "2018",
-          60088
+          58748
+        ],
+        [
+          "2019",
+          56797
         ]
       ],
       "name": "Zupendler aus der Schweiz",
@@ -174,39 +186,43 @@
         ],
         [
           "2010",
-          31090
+          30482
         ],
         [
           "2011",
-          31929
+          32087
         ],
         [
           "2012",
-          32799
+          33153
         ],
         [
           "2013",
-          33603
+          33642
         ],
         [
           "2014",
-          34535
+          34591
         ],
         [
           "2015",
-          34948
+          34988
         ],
         [
           "2016",
-          35739
+          35742
         ],
         [
           "2017",
-          35656
+          35661
         ],
         [
           "2018",
-          33897
+          34299
+        ],
+        [
+          "2019",
+          34342
         ]
       ],
       "name": "Zupendler aus dem Ausland",
@@ -230,39 +246,43 @@
         ],
         [
           "2010",
-          69183
+          68575
         ],
         [
           "2011",
-          72558
+          72716
         ],
         [
           "2012",
-          72224
+          72578
         ],
         [
           "2013",
-          72447
+          72486
         ],
         [
           "2014",
-          74054
+          74110
         ],
         [
           "2015",
-          74826
+          74866
         ],
         [
           "2016",
-          77137
+          77140
         ],
         [
           "2017",
-          74939
+          74944
         ],
         [
           "2018",
-          68697
+          68235
+        ],
+        [
+          "2019",
+          67348
         ]
       ],
       "name": "Saldo",
@@ -321,7 +341,6 @@
                 }
     },
     "renderTo": "container-5203",
-    "marginBottom": 75,
     "type": "column",
     "inverted": false,
     "spacingBottom": 50
@@ -412,7 +431,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-5"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

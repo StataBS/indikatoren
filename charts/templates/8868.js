@@ -16,8 +16,8 @@
         "switchRowsAndColumns": true
     },
       yAxis: {
-        min: -10000,
-        tickAmount: 7,
+        //min: -10000,
+        //tickInterval: 10000,
         labels: {
           "format": "{value:,.0f}"
         }
@@ -27,7 +27,7 @@
         { color: "#0F7399" },
         { color: "#689199" },
         { color: "#A8C3CA" },
-        { color: "#D3E2E4" }
+      /*  { color: "#D3E2E4" }*/
       ],
       legend: {
         enabled: true,
