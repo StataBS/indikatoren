@@ -5,73 +5,19 @@
       "data": [
         [
           "Basel-Stadt",
-          16879
+          25931
         ],
         [
           "Basel-Landschaft",
-          10895
+          565
         ],
         [
           "Jura",
-          -91
+          1063
         ],
         [
           "BS\u002FBL\u002FJU",
-          27683
-        ],
-        [
-          "Schweiz",
-          29753
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "Basel-Stadt",
-          16040
-        ],
-        [
-          "Basel-Landschaft",
-          16383
-        ],
-        [
-          "Jura",
-          -88
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          32335
-        ],
-        [
-          "Schweiz",
-          36527
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Basel-Stadt",
-          13871
-        ],
-        [
-          "Basel-Landschaft",
-          16694
-        ],
-        [
-          "Jura",
-          40
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          30606
+          27559
         ],
         [
           "Schweiz",
@@ -82,23 +28,23 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
-          15878
+          27001
         ],
         [
           "Basel-Landschaft",
-          20842
+          511
         ],
         [
           "Jura",
-          156
+          1194
         ],
         [
           "BS\u002FBL\u002FJU",
-          36876
+          28707
         ],
         [
           "Schweiz",
@@ -109,23 +55,23 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
-          14686
+          26470
         ],
         [
           "Basel-Landschaft",
-          26642
+          111
         ],
         [
           "Jura",
-          168
+          1123
         ],
         [
           "BS\u002FBL\u002FJU",
-          41496
+          27704
         ],
         [
           "Schweiz",
@@ -133,6 +79,33 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          29414
+        ],
+        [
+          "Basel-Landschaft",
+          680
+        ],
+        [
+          "Jura",
+          1142
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          31236
+        ],
+        [
+          "Schweiz",
+          37194
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -215,7 +188,7 @@
     }
   },
   "yAxis": {
-    "min": -10000,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -231,8 +204,7 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}"
-    },
-    "tickAmount": 7
+    }
   },
   "legend": {
     "enabled": true,
@@ -258,7 +230,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -298,6 +270,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Mio. Franken\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8868
+    "filename": "8868"
   }
 }
