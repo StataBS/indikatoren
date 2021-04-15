@@ -90,7 +90,7 @@
     {
       "color": "#661200",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -178,7 +178,7 @@
     {
       "color": "#dc440e",
       "legendIndex": 4,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -353,7 +353,7 @@
     {
       "color": "#7f5f1a",
       "legendIndex": 2,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -441,7 +441,7 @@
     {
       "color": "#ffda80",
       "legendIndex": 5,
-      "dashStyle": "LongDash",
+      "dashStyle": "ShortDash",
       "data": [
         [
           2000,
@@ -605,7 +605,14 @@
         "textOverflow": "none"
       }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+          var interval = 2,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
   },
   "yAxis": {
     "min": 0,
@@ -653,7 +660,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Bundesamt für Statistik (BFS);\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-15"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -694,6 +701,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6083
+    "filename": "6083"
   }
 }

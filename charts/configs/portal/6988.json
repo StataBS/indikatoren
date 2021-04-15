@@ -120,7 +120,7 @@
     "text": "Wohnungen nach Zimmerzahl"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -168,7 +168,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-3-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-15"
   },
   "tooltip": {
     "pointFormatter": function(){

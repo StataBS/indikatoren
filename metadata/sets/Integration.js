@@ -264,7 +264,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-10T08:03:48.4848",
+		"aktualisierungsdatum": "2021-04-15T07:52:44.4444",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
@@ -1005,7 +1005,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-02T08:27:53.5353",
+		"aktualisierungsdatum": "2021-04-15T07:52:46.4646",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1073,18 +1073,23 @@ var indikatorensetData = [
 		"id": 6082
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6668"
+		],
+		"template": "line001",
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.15.4.6083",
 		"kuerzelKunde": "B2-2",
 		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T14:38:12.1212",
+		"aktualisierungsdatum": "2021-04-15T07:52:46.4646",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1092,14 +1097,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach zweijährigem, leichtem Rückgang 2019 wieder gestiegen, wobei dieser Effekt einzig auf die Zunahme der Studentinnen mit Schweizer Pass zurückzuführen ist. Bei der ausländischen Wohnbevölkerung ist 2019 nach einer mehrjährigen Periode mit steigenden Zahlen zum zweiten Mal in Folge ein - allerdings nur sehr geringfügiger - Rückgang der Hochschulquote zu beobachten.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"6668"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
