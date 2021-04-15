@@ -1017,18 +1017,21 @@ var indikatorensetData = [
 		"id": 6667
 	},
 	{
+		"parentId": 6083,
+		"children": [],
+		"template": "line001_print",
 		"title": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration (Print)",
 		"kuerzel": "I.15.4.06668",
 		"kuerzelKunde": "B2-2",
 		"description": "Hochschulquote nach Staatsangehörigkeit und Geschlecht",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
-		"kennzahlenset": "Integration (Print)",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-16T15:37:25.2525",
+		"aktualisierungsdatum": "2021-04-15T07:52:47.4747",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
@@ -1036,12 +1039,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach zweijährigem, leichtem Rückgang 2019 wieder gestiegen, wobei dieser Effekt einzig auf die Zunahme der Studentinnen mit Schweizer Pass zurückzuführen ist. Bei der ausländischen Wohnbevölkerung ist 2019 nach einer mehrjährigen Periode mit steigenden Zahlen zum zweiten Mal in Folge ein - allerdings nur sehr geringfügiger - Rückgang der Hochschulquote zu beobachten.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
-		"template": "line001_print",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_202",
-		"parentId": 6083,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",

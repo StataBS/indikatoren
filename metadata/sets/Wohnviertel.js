@@ -4012,18 +4012,21 @@ var indikatorensetData = [
 		"id": 6976
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.06988",
 		"kuerzelKunde": "RU-99.E",
 		"description": "Wohnungen nach Zimmerzahl",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-03T10:18:45.4545",
+		"aktualisierungsdatum": "2021-04-15T07:52:48.4848",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
@@ -4031,12 +4034,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Am häufigsten gibt es in Basel-Stadt Dreizimmerwohnungen (37%), am seltensten Wohnungen mit sechs und mehr Zimmern.",
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_03_03_00_00_022",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
