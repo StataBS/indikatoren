@@ -90,17 +90,17 @@ var indikatorensetData = [
 		],
 		"template": "dotplot",
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.2.4825",
+		"kuerzel": "",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Haushalte",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:26.2626",
+		"aktualisierungsdatum": "2021-04-20T15:07:48.4848",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -141,7 +141,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:27.2727",
+		"aktualisierungsdatum": "2021-04-20T15:07:52.5252",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -158,6 +158,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=15_gymnasialquote.gymnasialquote&view=map2' target = '_blank'>Basler Atlas</a>",
 			""
 		],
 		"data-id": 4826,
@@ -184,7 +185,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:28.2828",
+		"aktualisierungsdatum": "2021-04-20T15:07:56.5656",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -204,7 +205,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.altersquotient&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4827,
 		"chart-id": 4827,
@@ -274,7 +275,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:29.2929",
+		"aktualisierungsdatum": "2021-04-20T15:08:00.000",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -294,7 +295,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4829,
 		"chart-id": 4829,
@@ -1822,31 +1823,31 @@ var indikatorensetData = [
 		"id": 6918
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wohnviertel Bachletten, 2019",
+		"subtitle": "Wohnviertel Bachletten, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.06919",
 		"kuerzelKunde": "GS-08.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
+		"aktualisierungsdatum": "2021-04-20T15:07:44.4444",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 55- bis 64-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 60- bis 69-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_01_01_00_00_008",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

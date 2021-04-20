@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          -12.3
+          -11.7
         ],
         [
           "Deutschland",
-          -2.8
+          -2.3
         ],
         [
           "Italien",
-          -12.5
+          -12.3
         ],
         [
           "Türkei",
-          -5
+          -5.2
         ],
         [
-          "EU-17 + EFTA",
-          -3.5
-        ],
-        [
-          "EU-Ost",
-          -1.5
-        ],
-        [
-          "Balkan",
-          "-8,3"
-        ],
-        [
-          "Mittel- und Südamerika",
-          -3
-        ],
-        [
-          "Arabische Länder",
-          -2.4
-        ],
-        [
-          "Afrikanische Länder",
+          "EU-West + EFTA + UK",
           -2.6
         ],
         [
+          "EU-Ost",
+          -8.6
+        ],
+        [
+          "Balkan",
+          -7.9
+        ],
+        [
+          "Mittel- und Südamerika",
+          -3.1
+        ],
+        [
+          "Arabische Länder",
+          -0.1
+        ],
+        [
+          "Afrikanische Länder",
+          2.2
+        ],
+        [
           "Übrige Länder",
-          0
+          -0.5
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Veränderung des Segregationsindex"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019 gegenüber 2000",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020 gegenüber 2001",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -188,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
   },
   "colors": [
     "#b00000",
@@ -209,6 +209,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 6079
+    "filename": "6079"
   }
 }

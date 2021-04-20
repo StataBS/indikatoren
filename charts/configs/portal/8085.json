@@ -84,6 +84,18 @@
         [
           "2019: Kleinhüningen",
           60
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          119
+        ],
+        [
+          "2020: Kleinhüningen",
+          59
         ]
       ],
       "name": "Erdgas",
@@ -172,6 +184,18 @@
         ],
         [
           "2019: Kleinhüningen",
+          36
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          38
+        ],
+        [
+          "2020: Kleinhüningen",
           36
         ]
       ],
@@ -262,6 +286,18 @@
         [
           "2019: Kleinhüningen",
           144
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          369
+        ],
+        [
+          "2020: Kleinhüningen",
+          146
         ]
       ],
       "name": "Fernwärme",
@@ -351,6 +387,18 @@
         [
           "2019: Kleinhüningen",
           161
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          166
+        ],
+        [
+          "2020: Kleinhüningen",
+          165
         ]
       ],
       "name": "Anderer\u002FKein Energieträger",
@@ -495,7 +543,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
@@ -503,6 +551,6 @@
     "shared": true
   },
   "exporting": {
-    "filename": 8085
+    "filename": "8085"
   }
 }
