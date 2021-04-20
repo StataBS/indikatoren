@@ -1371,35 +1371,35 @@ var indikatorensetData = [
 		"id": 6151
 	},
 	{
-		"title": "Segregationsindex nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06152",
-		"kuerzelKunde": "4.11",
-		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-28T12:04:58.5858",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 wiesen Personen aus dem Balkan (30,6), der Türkei (28,8), afrikanischen (25,6) und arabischen Ländern (21,8) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2019 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2019 bei 16,4.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"6078",
 			"6305",
 			"6663"
 		],
+		"template": "line001",
+		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
+		"kuerzelKunde": "4.11",
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-20T15:07:15.1515",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2020 wiesen Personen aus dem Balkan (31,5), der Türkei (28,2), afrikanischen (24,9) und arabischen Ländern (21,3) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2020 für die Deutschen (7,9). Der Segregationsindex der Schweizer lag im Jahr 2020 bei 16,2.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "04_00_00_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"

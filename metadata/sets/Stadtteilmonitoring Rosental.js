@@ -287,33 +287,33 @@ var indikatorensetData = [
 		"id": 7670
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7909"
+		],
+		"template": "line001",
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.01.1.07671",
 		"kuerzelKunde": "2.08",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:38.3838",
+		"aktualisierungsdatum": "2021-04-20T15:07:08.088",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2019 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2020 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"7909"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -698,33 +698,33 @@ var indikatorensetData = [
 		"id": 7680
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7919"
+		],
+		"template": "line001",
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.09.1.07681",
 		"kuerzelKunde": "4.02",
 		"description": "Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2021-04-20T15:07:12.1212",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2018 beträgt sie 35,3 m<sup>2</sup> (Erlenmatt) respektive 32,9 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2019 beträgt sie 36,0 m<sup>2</sup> (Erlenmatt) respektive 33,6 m<sup>2</sup>.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7919"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1813,33 +1813,33 @@ var indikatorensetData = [
 		"id": 7709
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7949"
+		],
+		"template": "line001",
 		"title": "Delikte",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.19.1.07711",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "19 Kriminalität und Strafrecht",
+		"thema": "50 Befragungen",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:11.1111",
+		"aktualisierungsdatum": "2021-04-20T15:07:28.2828",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 19 auf 51 gestiegen. Seither ist die Deliktzahl wieder zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 6 Delikte pro Jahr). Seit 2015 werden dort zwischen 4 und 37 Delikte registriert.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
-		"template": "line001",
+		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 20 auf 52 gestiegen. Danach ist die Deliktzahl zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Jahr 2020 erhöhte sich die Deliktzahl wieder auf 38. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 7 Delikte pro Jahr). Seit 2015 werden dort zwischen 5 und 39 Delikte registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7949"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -1854,33 +1854,33 @@ var indikatorensetData = [
 		"id": 7711
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7950"
+		],
+		"template": "line001",
 		"title": "Einbruch- und Einschleichdiebstähle",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.19.1.07712",
 		"kuerzelKunde": "6.02",
 		"description": "Einbruch- und Einschleichdiebstähle",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:14.1414",
+		"aktualisierungsdatum": "2021-04-20T15:07:32.3232",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2019 insgesamt 23 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 35 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
 		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7950"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"

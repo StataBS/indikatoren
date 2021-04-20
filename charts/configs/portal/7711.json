@@ -5,27 +5,27 @@
       "data": [
         [
           2009,
-          19
+          20
         ],
         [
           2010,
-          23
+          25
         ],
         [
           2011,
-          31
+          35
         ],
         [
           2012,
-          33
+          35
         ],
         [
           2013,
-          29
+          30
         ],
         [
           2014,
-          32
+          35
         ],
         [
           2015,
@@ -37,15 +37,19 @@
         ],
         [
           2017,
-          51
+          52
         ],
         [
           2018,
-          32
+          34
         ],
         [
           2019,
           24
+        ],
+        [
+          2020,
+          38
         ]
       ],
       "name": "Messe"
@@ -64,7 +68,7 @@
         ],
         [
           2011,
-          6
+          7
         ],
         [
           2012,
@@ -84,7 +88,7 @@
         ],
         [
           2016,
-          4
+          5
         ],
         [
           2017,
@@ -96,7 +100,11 @@
         ],
         [
           2019,
-          37
+          39
+        ],
+        [
+          2020,
+          38
         ]
       ],
       "name": "Erlenmatt"
@@ -226,7 +234,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

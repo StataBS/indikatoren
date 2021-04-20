@@ -26,6 +26,10 @@
         [
           2019,
           18.181818182
+        ],
+        [
+          2020,
+          19.521178637
         ]
       ],
       "name": "Klybeck"
@@ -56,6 +60,10 @@
         [
           2019,
           22.966507177
+        ],
+        [
+          2020,
+          22.274881517
         ]
       ],
       "name": "Kleinhüningen"
@@ -65,27 +73,31 @@
       "data": [
         [
           2014,
-          45.680559908
+          45.6805599080748
         ],
         [
           2015,
-          45.591202583
+          45.591202582728
         ],
         [
           2016,
-          46.125607699
+          46.1256076991765
         ],
         [
           2017,
-          46.255080317
+          46.2550803173989
         ],
         [
           2018,
-          46.232779097
+          46.2327790973872
         ],
         [
           2019,
-          46.569220743
+          46.5692207429476
+        ],
+        [
+          2020,
+          47.4471992653811
         ]
       ],
       "name": "Stadt Basel"
@@ -215,7 +227,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -256,6 +268,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8077
+    "filename": "8077"
   }
 }

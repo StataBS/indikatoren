@@ -7317,17 +7317,17 @@ var indikatoren = [
 		],
 		"template": "dotplot",
 		"title": "Anteil Personen in Einpersonenhaushalten",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.2.4825",
+		"kuerzel": "",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Haushalte",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:26.2626",
+		"aktualisierungsdatum": "2021-04-20T15:07:48.4848",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7369,7 +7369,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:27.2727",
+		"aktualisierungsdatum": "2021-04-20T15:07:52.5252",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7387,6 +7387,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=15_gymnasialquote.gymnasialquote&view=map2' target = '_blank'>Basler Atlas</a>",
 			""
 		],
 		"data-id": 4826,
@@ -7413,7 +7414,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:28.2828",
+		"aktualisierungsdatum": "2021-04-20T15:07:56.5656",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7434,7 +7435,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.altersquotient&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4827,
 		"chart-id": 4827,
@@ -7505,7 +7506,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:29.2929",
+		"aktualisierungsdatum": "2021-04-20T15:08:00.000",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
@@ -7526,7 +7527,7 @@ var indikatoren = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4829,
 		"chart-id": 4829,
@@ -13152,34 +13153,34 @@ var indikatoren = [
 		"id": 6077
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6664"
+		],
+		"template": "template001",
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019 gegenüber 2000",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020 gegenüber 2001",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.01.1.6079",
 		"kuerzelKunde": "A5-2",
 		"description": "Veränderung des Segregationsindex",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T17:38:11.1111",
+		"aktualisierungsdatum": "2021-04-20T15:07:40.4040",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2000 und 2019 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2019 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den Italienern (-12,5 Punkte) und den Schweizern (-12,3 Punkte). Nicht verändert hat sich der Segregationsindex der Personen aus den übrigen Ländern.",
+		"lesehilfe": "Zwischen 2001 und 2020 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2020 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den italienischen Staatsangehörigen (-12,3 Punkte) und den Schweizerinnen und Schweizern (-11,7 Punkte). Bei den Personen aus afrikanischen Ländern ist der Segregationsindex um 2,2 Punkte gestiegen.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_502",
-		"parentId": null,
-		"children": [
-			"6664"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -14440,36 +14441,36 @@ var indikatoren = [
 		"id": 6151
 	},
 	{
-		"title": "Segregationsindex nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06152",
-		"kuerzelKunde": "4.11",
-		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-28T12:04:58.5858",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 wiesen Personen aus dem Balkan (30,6), der Türkei (28,8), afrikanischen (25,6) und arabischen Ländern (21,8) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2019 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2019 bei 16,4.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_014",
 		"parentId": null,
 		"children": [
 			"6078",
 			"6305",
 			"6663"
 		],
+		"template": "line001",
+		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
+		"kuerzelKunde": "4.11",
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"thema": "50 Befragungen",
+		"unterthema": "Bestand und Struktur",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-04-20T15:07:15.1515",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "2020 wiesen Personen aus dem Balkan (31,5), der Türkei (28,2), afrikanischen (24,9) und arabischen Ländern (21,3) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2020 für die Deutschen (7,9). Der Segregationsindex der Schweizer lag im Jahr 2020 bei 16,2.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "04_00_00_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -24235,32 +24236,32 @@ var indikatoren = [
 		"id": 6918
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "populationPyramid001",
 		"title": "Alterspyramide nach Geschlecht und Heimat",
-		"subtitle": "Wohnviertel Bachletten, 2019",
+		"subtitle": "Wohnviertel Bachletten, 2020",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.01.1.06919",
 		"kuerzelKunde": "GS-08.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-04-09T10:44:12.1212",
+		"aktualisierungsdatum": "2021-04-20T15:07:44.4444",
 		"stufe1": "Teil 4: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 55- bis 64-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
+		"lesehilfe": "Im Vergleich zur Bevölkerung des Gesamtkantons ist im Wohnviertel Bachletten der Anteil der 60- bis 69-Jährigen relativ hoch. Ausländerinnen und Ausländer wohnen seltener im Wohnviertel.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_01_01_00_00_008",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -28748,34 +28749,34 @@ var indikatoren = [
 		"id": 7670
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7909"
+		],
+		"template": "line001",
 		"title": "Sesshaftigkeit",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.01.1.07671",
 		"kuerzelKunde": "2.08",
 		"description": "Sesshaftigkeit",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:38.3838",
+		"aktualisierungsdatum": "2021-04-20T15:07:08.088",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2019 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
+		"lesehilfe": "Im Wohnviertel Rosental liegt der Anteil an Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, Ende 2020 bei 18,9 Prozent. Im Vergleich mit anderen Wohnvierteln ist das der niedrigste Anteil. Dies liegt unter anderem daran, dass im Wohnviertel Rosental (insbesondere im Bezirk Erlenmatt) in den letzten Jahren viele neue Gebäude und Wohnungen erstellt wurden. Aufgrund dessen gibt es im Bezirk Erlenmatt eine geringe Sesshaftigkeit (unter 10% in den letzten Jahren).",
 		"erlaeuterungen": "Anteil Einwohner, die seit mindestens zehn Jahren an der gleichen Adresse wohnen. Ohne Personen an administrativen Meldeadressen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"7909"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -29169,34 +29170,34 @@ var indikatoren = [
 		"id": 7680
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7919"
+		],
+		"template": "line001",
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.09.1.07681",
 		"kuerzelKunde": "4.02",
 		"description": "Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:37.3737",
+		"aktualisierungsdatum": "2021-04-20T15:07:12.1212",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2018 beträgt sie 35,3 m<sup>2</sup> (Erlenmatt) respektive 32,9 m<sup>2</sup>.",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2019 beträgt sie 36,0 m<sup>2</sup> (Erlenmatt) respektive 33,6 m<sup>2</sup>.",
 		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7919"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -30353,34 +30354,34 @@ var indikatoren = [
 		"id": 7710
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7949"
+		],
+		"template": "line001",
 		"title": "Delikte",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.19.1.07711",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "19 Kriminalität und Strafrecht",
+		"thema": "50 Befragungen",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:11.1111",
+		"aktualisierungsdatum": "2021-04-20T15:07:28.2828",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 19 auf 51 gestiegen. Seither ist die Deliktzahl wieder zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 6 Delikte pro Jahr). Seit 2015 werden dort zwischen 4 und 37 Delikte registriert.",
-		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
-		"template": "line001",
+		"lesehilfe": "Im Bezirk Messe ist die Zahl der Delikte zwischen 2009 und 2017 von 20 auf 52 gestiegen. Danach ist die Deliktzahl zurückgegangen, 2019 wurden noch 24 Delikte registriert. Im Jahr 2020 erhöhte sich die Deliktzahl wieder auf 38. Im Bezirk Erlenmatt war die Zahl der Delikte in den Jahren 2009 bis 2014 sehr niedrig (0 bis 7 Delikte pro Jahr). Seit 2015 werden dort zwischen 5 und 39 Delikte registriert.",
+		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Delikte der folgenden Kategorien: Entreissdiebstahl, Raub, Einbruch- und Einschleichdiebstähle, Nötigung sowie Sexualdelikte (Vergewaltigung, sexuelle Nötigung).",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7949"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -30395,34 +30396,34 @@ var indikatoren = [
 		"id": 7711
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7950"
+		],
+		"template": "line001",
 		"title": "Einbruch- und Einschleichdiebstähle",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.19.1.07712",
 		"kuerzelKunde": "6.02",
 		"description": "Einbruch- und Einschleichdiebstähle",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:14.1414",
+		"aktualisierungsdatum": "2021-04-20T15:07:32.3232",
 		"stufe1": "6 Sicherheit",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2019 insgesamt 23 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
+		"lesehilfe": "Im Bezirk Messe gab es im Jahr 2020 insgesamt 35 Einbruch- oder Einschleichdiebstähle, im Bezirk Erlenmatt 36.",
 		"erlaeuterungen": "Bei der Kantonspolizei gemeldete Einbruch- und Einschleichdiebstähle.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7950"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt"
@@ -32372,34 +32373,34 @@ var indikatoren = [
 		"id": 7993
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8616"
+		],
+		"template": "line001",
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.1.07665",
 		"kuerzelKunde": "2.01",
 		"description": "Wohnbevölkerung",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-04-20T15:06:52.5252",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck lebten Ende 2019 7 237 Einwohner, 2,3% mehr als im Jahr 2000. Im Wohnviertel Kleinhüningen betrug die Einwohnerzahl Ende 2019 2 798, der Zuwachs gegenüber dem Jahr 2000 fiel mit 18,5% deutlich stärker aus. Dies ist wohl teilweise auf den Neubau von Wohnungen an der Hochbergerstrasse (2002) und im Densapark (2011) zurückzuführen. In der Stadt Basel hat die Bevölkerungszahl zwischen 2000 und 2019 um 6,8% zugenommen.",
+		"lesehilfe": "Im Wohnviertel Klybeck lebten Ende 2020 7 110 Einwohnerinnen und Einwohner, 0,5% mehr als im Jahr 2000. Im Wohnviertel Kleinhüningen betrug die Einwohnerzahl Ende 2020 2 809, der Zuwachs gegenüber dem Jahr 2000 fiel mit 18,9% deutlich stärker aus. Dies ist wohl teilweise auf den Neubau von Wohnungen an der Hochbergerstrasse (2002) und im Densapark (2011) zurückzuführen. In der Stadt Basel hat die Bevölkerungszahl zwischen 2000 und 2020 um 7,3% zugenommen.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8616"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32414,18 +32415,23 @@ var indikatoren = [
 		"id": 8046
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8617"
+		],
+		"template": "populationPyramid001",
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Klybeck, 2019",
-		"kuerzel": "I.01.1.07666",
+		"subtitle": "Wohnviertel Klybeck, 2020",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzel": "I.01.1.08047",
 		"kuerzelKunde": "2.02a",
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-04-20T15:06:56.5656",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
@@ -32433,15 +32439,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch in der Stadt Basel so.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8617"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -32464,23 +32465,23 @@ var indikatoren = [
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
 		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.01.1.07667",
+		"kuerzel": "",
 		"kuerzelKunde": "2.03",
 		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:25.2525",
+		"aktualisierungsdatum": "2021-04-20T15:07:00.000",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck ist der Jugendquotient zwischen 2000 und 2019 von 34,0 auf 28,1 gesunken. Im Wohnviertel Kleinhüningen hat der Jugendquotient zwischen 2000 und 2018 leicht zugenommen (von 31,8 auf 32,2). Im Jahr 2019 ist er jedoch auf 31,7 gesunken. In der Stadt Basel lag der Jugendquotient im Jahr 2000 bei 27,0, im Jahr 2019 bei 25,3.",
-		"erlaeuterungen": "Der Jugendquotient ergibt sich aus der Anzahl unter 20-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
+		"lesehilfe": "Im Wohnviertel Klybeck ist der Jugendquotient zwischen 2000 und 2020 von 34,0 auf 26,6 gesunken. Im Wohnviertel Kleinhüningen hat der Jugendquotient zwischen 2000 und 2020 in der Tendenz leicht zugenommen (von 31,8 auf 32,8). In der Stadt Basel lag der Jugendquotient im Jahr 2000 bei 27,0, im Jahr 2020 bei 25,2.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
@@ -32499,35 +32500,35 @@ var indikatoren = [
 		"id": 8048
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8619"
+		],
+		"template": "line001",
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.1.07668",
 		"kuerzelKunde": "2.04",
 		"description": "Altersquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
+		"aktualisierungsdatum": "2021-04-20T15:07:04.044",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck lag der Altersquotient Ende 2019 bei 21,4. Im Vergleich zum Jahr 2000 ist er gesunken. Im Wohnviertel Kleinhüningen betrug der Altersquotient Ende 2019 29,9. Auch dieser Wert liegt unter demjenigen des Jahres 2000. In der Stadt Basel ist der Altersquotient seit dem Jahr 2000 von 32,8 auf 28,6 (2019) gesunken.",
-		"erlaeuterungen": "Der Altersquotient ergibt sich aus der Anzahl über 64-Jähriger pro 100 20- bis 64-Jähriger (Personen im erwerbsfähigen Alter).",
-		"template": "line001",
+		"lesehilfe": "Im Wohnviertel Klybeck lag der Altersquotient Ende 2020 bei 22,1. Im Vergleich zum Jahr 2000 ist er leicht gesunken. Im Wohnviertel Kleinhüningen betrug der Altersquotient Ende 2020 30,0. Auch dieser Wert liegt leicht unter demjenigen des Jahres 2000. In der Stadt Basel ist der Altersquotient seit dem Jahr 2000 von 32,8 auf 28,3 (2020) gesunken.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8619"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -33636,34 +33637,34 @@ var indikatoren = [
 		"id": 8075
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8646"
+		],
+		"template": "line001",
 		"title": "Gymnasialquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.15.1.07695",
 		"kuerzelKunde": "5.02",
 		"description": "Gymnasialquote",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-04-20T15:07:24.2424",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquoten der Wohnviertel Klybeck und Kleinhüningen sind nach vorübergehendem Anstieg seit zwei Jahren leicht (Klybeck) respektive stark (Kleinhüningen; aufgrund tiefer Gesamtschülerzahl reagiert die Quote heftiger) rückläufig. Dieser Rückgang lässt sich im ganzen Kanton beobachten und ist auf ein Massnahmenpaket seitens Erziehungsdepartement zur Stabilisierung der Übertrittsquoten von der Sekundarschule ins Gymnasium zurückzuführen. Für die Stadt Basel beträgt der Wert 2019 38,5%.",
+		"lesehilfe": "Die Gymnasialquoten der Wohnviertel Klybeck und Kleinhüningen sind nach einem teilweise deutlichen Rückgang 2018 und 2019 im Jahr 2020 wieder gestiegen. Für die Stadt Basel beträgt der Wert 2020 37,6%. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
 		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8646"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -33678,34 +33679,34 @@ var indikatoren = [
 		"id": 8076
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8647"
+		],
+		"template": "line001",
 		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.15.1.07696",
 		"kuerzelKunde": "5.01",
 		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
 		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-04-20T15:07:20.2020",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2019 in den Wohnvierteln Kleinhüningen (23,0%) und Klybeck (18,2%) weiterhin tief. Im Vergleich zur Situation 2014 stagnieren diese Werte in beiden Wohnvierteln. Für die Stadt Basel beträgt der Vergleichswert 46,6% und ist damit rund doppelt so hoch wie in Kleinhüningen und zweieinhalb Mal höher als im Wohnviertel Klybeck.",
+		"lesehilfe": "Die Quote der Schülerinnen und Schüler mit Erstsprache Deutsch ist 2020 in den Wohnvierteln Klybeck (19,5%) und Kleinhüningen (22,3%) weiterhin tief. Im Klybeck ist diese Quote in den letzten vier Jahren leicht gestiegen, in Kleinhüningen stagniert sie, wenn auch auf höherem Niveau. Für die gesamte Stadt Basel beträgt der Vergleichswert 47,4%.",
 		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "05_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8647"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -33931,18 +33932,23 @@ var indikatoren = [
 		"id": 8082
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8654"
+		],
+		"template": "template001",
 		"title": "Heizsysteme nach Energieträger",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.08.1.07704",
 		"kuerzelKunde": "7.07",
 		"description": "Heizsysteme nach Energieträger",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"aktualisierungsdatum": "2021-04-20T15:07:36.3636",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
@@ -33950,15 +33956,10 @@ var indikatoren = [
 		"stufe5": "",
 		"lesehilfe": "Während der Anteil fernwärmebeheizter Gebäude in Klybeck seit 2010 leicht zugenommen hat, ist der Anteil mit Heizöl versorgter Bauten zurückgegangen. In Kleinhüningen ist ein leichter Anstieg beim Erdgas zu verzeichnen, während der Anteil Heizöl auch hier seit 2010 rückläufig ist.",
 		"erlaeuterungen": "Die Anzahl Heizsysteme nach Energieträger stammt aus der kantonalen Gebäude- und Wohnungsstatistik, welche jährlich per 31. Dezember aus dem kantonalen Gebäude- und Wohnungsregister (GWR) erzeugt wird.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "07_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8654"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
