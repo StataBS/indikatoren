@@ -40,6 +40,10 @@
         [
           2019,
           2289
+        ],
+        [
+          2020,
+          2272
         ]
       ],
       "name": "Anzahl Haushalte"
@@ -58,39 +62,43 @@
       "data": [
         [
           2011,
-          1.2038108622
+          1.2
         ],
         [
           2012,
-          1.5303306005
+          1.5
         ],
         [
           2013,
-          1.7469959199
+          1.7
         ],
         [
           2014,
-          1.9029641345
+          1.9
         ],
         [
           2015,
-          2.03620141
+          2
         ],
         [
           2016,
-          2.180589994
+          2.2
         ],
         [
           2017,
-          2.2729130062
+          2.3
         ],
         [
           2018,
-          2.3034251107
+          2.3
         ],
         [
           2019,
-          2.3116775568
+          2.3
+        ],
+        [
+          2020,
+          2.3
         ]
       ],
       "name": "Anteil in Prozent (rechte Skala)"
@@ -247,7 +255,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-26"
   },
   "tooltip": {
     "shared": false
