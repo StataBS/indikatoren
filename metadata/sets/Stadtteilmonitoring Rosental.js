@@ -1191,33 +1191,33 @@ var indikatorensetData = [
 		"id": 7692
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7931"
+		],
+		"template": "line001",
 		"title": "Nettoerwerbsquote der Frauen",
 		"subtitle": "Wohnviertel Rosental",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.03.1.07693",
 		"kuerzelKunde": "3.05",
 		"description": "Nettoerwerbsquote der Frauen",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-06T09:47:56.5656",
+		"aktualisierungsdatum": "2021-04-26T09:04:22.2222",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2014 bis 2018 bei 71,8%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,6%.",
-		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "line001",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbsquote der Frauen im Mittel der Jahre 2015 bis 2019 bei 73,7%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 75,4%.",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7931"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1603,33 +1603,33 @@ var indikatorensetData = [
 		"id": 7704
 	},
 	{
+		"parentId": null,
+		"children": [
+			"7943"
+		],
+		"template": "line001",
 		"title": "Stromverbrauch",
 		"subtitle": "in Gigawattstunden (GWh), Wohnviertel Rosental, nach Bezirk",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzel": "I.08.1.07705",
 		"kuerzelKunde": "7.06",
 		"description": "Stromverbrauch",
 		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
+		"aktualisierungsdatum": "2021-04-26T09:04:22.2222",
 		"stufe1": "7 Raum und Umwelt",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2010 und 2016 hat der Stromverbrauch im Bezirk Erlenmatt als Folge der Bautätigkeit stetig zugenommen. Auch im Bezirk Messe hat die Bautätigkeit zu einem Anstieg geführt.",
+		"lesehilfe": "Zwischen 2016 und 2018 ist der Stromverbrauch im Bezirk Messe stabil geblieben. Im Bezirk Erlenmatt hat die Bautätigkeit zu einem Anstieg geführt.",
 		"erlaeuterungen": "Die kantonale Energiestatistik basiert seit 2010 auf einer neuen methodischen Grundlage und erscheint im Zweijahresrhythmus. Abgebildet ist der jeweilige Endverbrauch.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "07_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"7943"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
