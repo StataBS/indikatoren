@@ -1,4 +1,209 @@
 {
+  "series": [
+    {
+      "color": "#008ac3",
+      "stacking": "normal",
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -162
+        ],
+        [
+          "5-9",
+          -183
+        ],
+        [
+          "10-14",
+          -167
+        ],
+        [
+          "15-19",
+          -145
+        ],
+        [
+          "20-24",
+          -228
+        ],
+        [
+          "25-29",
+          -322
+        ],
+        [
+          "30-34",
+          -318
+        ],
+        [
+          "35-39",
+          -320
+        ],
+        [
+          "40-44",
+          -307
+        ],
+        [
+          "45-49",
+          -256
+        ],
+        [
+          "50-54",
+          -254
+        ],
+        [
+          "55-59",
+          -266
+        ],
+        [
+          "60-64",
+          -222
+        ],
+        [
+          "65-69",
+          -159
+        ],
+        [
+          "70-74",
+          -130
+        ],
+        [
+          "75-79",
+          -100
+        ],
+        [
+          "80-84",
+          -57
+        ],
+        [
+          "85-89",
+          -33
+        ],
+        [
+          "90-94",
+          -16
+        ],
+        [
+          "95 u.m.",
+          -1
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "stacking": "normal",
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          153
+        ],
+        [
+          "5-9",
+          152
+        ],
+        [
+          "10-14",
+          149
+        ],
+        [
+          "15-19",
+          162
+        ],
+        [
+          "20-24",
+          236
+        ],
+        [
+          "25-29",
+          308
+        ],
+        [
+          "30-34",
+          319
+        ],
+        [
+          "35-39",
+          291
+        ],
+        [
+          "40-44",
+          229
+        ],
+        [
+          "45-49",
+          238
+        ],
+        [
+          "50-54",
+          211
+        ],
+        [
+          "55-59",
+          239
+        ],
+        [
+          "60-64",
+          218
+        ],
+        [
+          "65-69",
+          172
+        ],
+        [
+          "70-74",
+          123
+        ],
+        [
+          "75-79",
+          83
+        ],
+        [
+          "80-84",
+          84
+        ],
+        [
+          "85-89",
+          64
+        ],
+        [
+          "90-94",
+          24
+        ],
+        [
+          "95 u.m.",
+          9
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
   "chart": {
     "type": "bar",
     "borderColor": "#fbfbfb",
@@ -19,7 +224,7 @@
                         this.update(
                             {
                                 legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 50 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
                                 }
                             }
                         );
@@ -67,7 +272,7 @@
   },
   "yAxis": [
     {
-      "tickInterval": 100,
+      "max": 2000,
       "min": 0,
       "title": {
         "text": null
@@ -115,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-27"
   },
   "legend": {
     "symbolRadius": 0,
@@ -123,6 +328,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 145,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -150,43 +356,6 @@
                 axis.setExtremes(-absMax, absMax);
         	}
   },
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
-  "series": [
-    {
-      "color": "#008ac3",
-      "stacking": "normal",
-      "legendIndex": 0
-    },
-    {
-      "color": "#b00000",
-      "stacking": "normal",
-      "legendIndex": 1
-    }
-  ],
   "exporting": {
     "filename": "8047"
   }
