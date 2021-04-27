@@ -5,14 +5,6 @@
 (function () {
     return {
         data: {
-            "seriesMapping": [
-                {
-                    x: 0, y: 1
-                },
-                {
-                    x: 0, y: 3
-                }
-            ],
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
                 var negateNumbersInColumn = function (columnIndex) {
@@ -30,28 +22,9 @@
                 //negateNumbersInColumn(2);  //welche datenreihen sollen links (negativ) erscheinen?
             }
         },
-        "chart": {
-            marginRight: 15,
-            marginBottom: 70,
-            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
-                load: function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 50 //fixed offset instead of /charts/templates/populationPyramid001.js
-                                }
-                            }
-                        );
-                    }
-                },
-            }
-        },
         yAxis: [{
-            tickInterval: 100,
+            max: 2000,
+            //tickInterval: 6000,
             min: 0,
             title: {
                 text: null
@@ -104,45 +77,30 @@
         series: [
             {
                 //color: "#246370", // blau dunkel
-                color: "#008ac3",//"#7f5f1a",
+                color: "#008ac3",
                 stacking: 'normal',
-                //stack: 'male',
+                //stack: 'Männer',
                 legendIndex: 0
             },
-            /*{
-                //color: "#A8C3CA", //blau hell
-                "color": "#cd9c00",
-                stacking: 'normal',
-                //stack: 'male',
-                legendIndex: 2
-            },*/
             {
                 //color: "#923F8D", // rot dunkel 
-                "color": "#b00000",//"#923f8d",
+                "color": "#b00000",
                 stacking: 'normal',
-                //stack: 'female',
+                //stack: 'Frauen',
                 legendIndex: 1
             },
-            /*{
-                //color: "#E7CEE2", //rot hell
-                "color": "#b375ab",
-                stacking: 'normal',
-                // stack: 'female',
-                legendIndex: 3
-            }*/
         ],
         "legend": {
             "enabled": true,
             "layout": "horizontal",
             "verticalAlign": "top",
             "align": "left",
+            //"y": 55,
+            //"x": 2000,
+            "itemWidth": 145,
             "itemStyle": {
                 "fontWeight": "normal"
-            },
-            //itemWidth: 160,
-            /*labelFormatter: function () {
-                return this.name.replace('Kleinhüningen', 'Kleinh.');
-            }*/
+            }
         },
         "tooltip": {
             "shared": true,
@@ -157,6 +115,27 @@
                 // s += 'Total: <b>'+ sum + '</b>';
                 return s;
             },
+
+        },
+        "chart": {
+            marginRight: 15,
+            marginBottom: 70,
+            events: { // copied from resp. overwrite /charts/templates/populationPyramid001.js
+                load: function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top') {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                }
+                            }
+                        );
+                    }
+                },
+            }
         }
     };
 }());
