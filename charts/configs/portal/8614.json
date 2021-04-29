@@ -1,4 +1,209 @@
 {
+  "series": [
+    {
+      "color": "#008ac3",
+      "stacking": "normal",
+      "legendIndex": 0,
+      "data": [
+        [
+          "0-4",
+          -77
+        ],
+        [
+          "5-9",
+          -64
+        ],
+        [
+          "10-14",
+          -77
+        ],
+        [
+          "15-19",
+          -68
+        ],
+        [
+          "20-24",
+          -73
+        ],
+        [
+          "25-29",
+          -99
+        ],
+        [
+          "30-34",
+          -117
+        ],
+        [
+          "35-39",
+          -99
+        ],
+        [
+          "40-44",
+          -102
+        ],
+        [
+          "45-49",
+          -82
+        ],
+        [
+          "50-54",
+          -96
+        ],
+        [
+          "55-59",
+          -115
+        ],
+        [
+          "60-64",
+          -104
+        ],
+        [
+          "65-69",
+          -60
+        ],
+        [
+          "70-74",
+          -61
+        ],
+        [
+          "75-79",
+          -51
+        ],
+        [
+          "80-84",
+          -25
+        ],
+        [
+          "85-89",
+          -22
+        ],
+        [
+          "90-94",
+          -4
+        ],
+        [
+          "95 u.m.",
+          -2
+        ]
+      ],
+      "name": "Männer",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#b00000",
+      "stacking": "normal",
+      "legendIndex": 1,
+      "data": [
+        [
+          "0-4",
+          77
+        ],
+        [
+          "5-9",
+          69
+        ],
+        [
+          "10-14",
+          66
+        ],
+        [
+          "15-19",
+          68
+        ],
+        [
+          "20-24",
+          104
+        ],
+        [
+          "25-29",
+          95
+        ],
+        [
+          "30-34",
+          110
+        ],
+        [
+          "35-39",
+          93
+        ],
+        [
+          "40-44",
+          91
+        ],
+        [
+          "45-49",
+          87
+        ],
+        [
+          "50-54",
+          95
+        ],
+        [
+          "55-59",
+          91
+        ],
+        [
+          "60-64",
+          72
+        ],
+        [
+          "65-69",
+          69
+        ],
+        [
+          "70-74",
+          62
+        ],
+        [
+          "75-79",
+          58
+        ],
+        [
+          "80-84",
+          47
+        ],
+        [
+          "85-89",
+          26
+        ],
+        [
+          "90-94",
+          24
+        ],
+        [
+          "95 u.m.",
+          7
+        ]
+      ],
+      "name": "Frauen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": [
+    {
+      "reversed": false,
+      "type": "category",
+      "labels": {
+        "step": 1,
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "tickLength": 0,
+      "title": {
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "type": "category",
+      "visible": false,
+      "opposite": true,
+      "reversed": false,
+      "linkedTo": 0
+    }
+  ],
   "chart": {
     "type": "bar",
     "borderColor": "#fbfbfb",
@@ -19,7 +224,7 @@
                         this.update(
                             {
                                 legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 50 //fixed offset instead of /charts/templates/populationPyramid001.js
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding + 80 //fixed offset instead of /charts/templates/populationPyramid001.js
                                 }
                             }
                         );
@@ -62,12 +267,12 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Wohnviertel Kleinhüningen, 2019",
+    "text": "Wohnviertel Kleinhüningen, 2020",
     "align": "left"
   },
   "yAxis": [
     {
-      "tickInterval": 100,
+      "max": 2000,
       "min": 0,
       "title": {
         "text": null
@@ -115,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-29"
   },
   "legend": {
     "symbolRadius": 0,
@@ -123,6 +328,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "itemWidth": 145,
     "itemStyle": {
       "fontWeight": "normal"
     }
@@ -150,43 +356,6 @@
                 axis.setExtremes(-absMax, absMax);
         	}
   },
-  "xAxis": [
-    {
-      "reversed": false,
-      "type": "category",
-      "labels": {
-        "step": 1,
-        "style": {
-          "color": "#000000"
-        }
-      },
-      "tickLength": 0,
-      "title": {
-        "style": {
-          "color": "#000000"
-        }
-      }
-    },
-    {
-      "type": "category",
-      "visible": false,
-      "opposite": true,
-      "reversed": false,
-      "linkedTo": 0
-    }
-  ],
-  "series": [
-    {
-      "color": "#008ac3",
-      "stacking": "normal",
-      "legendIndex": 0
-    },
-    {
-      "color": "#b00000",
-      "stacking": "normal",
-      "legendIndex": 1
-    }
-  ],
   "exporting": {
     "filename": "8614"
   }
