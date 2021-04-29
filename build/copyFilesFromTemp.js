@@ -1,6 +1,7 @@
 const fs = require("fs");
 const parse = require('csv-parse/lib/sync');
 const child_process = require('child_process');
+const eol = require("eol");
 
 var config = require('./config.json');
 var tempDir = config.tempDir
@@ -23,7 +24,9 @@ records.forEach(row => {
     //for each line: download and save json / tsv
     console.log('downloading files for ' + row.Indikator + '...');
     try {
-        fs.copyFileSync(tempDir + row.Indikator + '.json', 'metadata/single/' + row.Indikator + '.json');
+        //fs.copyFileSync(tempDir + row.Indikator + '.json', destinationPath);
+        var destinationPath = 'metadata/single/' + row.Indikator + '.json';
+        fs.writeFileSync(destinationPath, eol.auto(fs.readFileSync(tempDir + row.Indikator + '.json').toString()));
         console.log('file copied: ' + tempDir + row.Indikator + '.json');
     }
     catch (error) {
@@ -52,7 +55,9 @@ records.forEach(row => {
     }
     else {
         try {
-            fs.copyFileSync(tempDir + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
+            //fs.copyFileSync(tempDir + row.Indikator + '.tsv', 'data/' + row.Indikator + '.tsv');
+            var destinationPath = 'data/' + row.Indikator + '.tsv';
+            fs.writeFileSync(destinationPath, eol.auto(fs.readFileSync(tempDir + row.Indikator + '.tsv').toString()));
             console.log('file copied: ' + tempDir + row.Indikator + '.tsv');
         }
         catch (error) {

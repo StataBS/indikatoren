@@ -1976,33 +1976,33 @@ var indikatorensetData = [
 		"id": 8375
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8665"
+		],
+		"template": "populationPyramid001",
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Kleinhüningen, 2019",
+		"subtitle": "Wohnviertel Kleinhüningen, 2020",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"kuerzel": "I.01.1.08614",
 		"kuerzelKunde": "2.02b",
 		"description": "Wohnbevölkerung nach Alter und Geschlecht",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:52.5252",
+		"aktualisierungsdatum": "2021-04-29T08:03:19.1919",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen neben den 25- bis 29-Jährigen und den 30- bis 34-Jährigen noch die 40- bis 44-Jährigen und die 55- bis 59-Jährigen zu den grössten Gruppen.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen zählen die 25- bis 29-Jährigen, die 30- bis 34-Jährigen, die 35- bis 39-Jährigen, die 40- bis 44-Jährigen sowie die 55- bis 59-Jährigen zu den grössten Gruppen.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8665"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2011,7 +2011,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 8047,
+		"data-id": 8614,
 		"chart-id": 8614,
 		"filter": "",
 		"id": 8614

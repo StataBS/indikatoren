@@ -403,7 +403,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:31.3131",
+		"aktualisierungsdatum": "2021-04-29T08:03:15.1515",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -420,7 +420,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4832,
 		"chart-id": 4832,
@@ -444,7 +444,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:32.3232",
+		"aktualisierungsdatum": "2021-04-29T08:03:16.1616",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -461,7 +461,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wofl&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4833,
 		"chart-id": 4833,
@@ -488,7 +488,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:35.3535",
+		"aktualisierungsdatum": "2021-04-29T08:03:17.1717",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
@@ -506,7 +506,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4834,
 		"chart-id": 4834,
@@ -614,7 +614,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:43.4343",
+		"aktualisierungsdatum": "2021-04-29T08:03:18.1818",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -631,7 +631,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbstaetige.ewbtq&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4837,
 		"chart-id": 4837,
@@ -655,7 +655,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:38.3838",
+		"aktualisierungsdatum": "2021-04-29T08:03:18.1818",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
@@ -672,7 +672,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			""
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbsleben.empfte_pro_kopf&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4838,
 		"chart-id": 4838,
