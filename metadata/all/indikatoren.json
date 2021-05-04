@@ -17612,14 +17612,14 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-26T09:04:21.2121",
+		"aktualisierungsdatum": "2021-05-04T08:40:20.2020",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2020  bei 16,8%. Das Wohnviertel Klybeck weist mit 27,8% die höchste, das Wohnviertel Vorstädte mit 8,8% die tiefste PV-Quote auf. Gegenüber dem Jahr 2015 ist die Quote in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 4,9 Prozentpunkten in Kleinhüningen zu beobachten.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
