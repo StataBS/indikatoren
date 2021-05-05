@@ -449,33 +449,33 @@ var indikatorensetData = [
 		"id": 8250
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8522"
+		],
+		"template": "line001",
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.08251",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
 		"kuerzelKunde": "1-19",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Arbeitslose",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:52.5252",
+		"aktualisierungsdatum": "2021-05-05T08:34:13.1313",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) reduzierte sich von 3,9% im Jahresdurchschnitt 2018 auf 3,2% im Jahr 2019. Sie lag damit weiterhin über der durchschnittlichen Arbeitslosenquote aller Altersgruppen (3,0% 2019). Die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren veränderten sich kaum und lagen wie in der Vergangenheit deutlich unterhalb des Durchschnitts.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist von 3,0% im Jahresdurchschnitt 2019 auf 3,8% im Jahr 2020 gestiegen. Die Jugendarbeitslosenquote (Personen zwischen 15 und 24 Jahren) erhöhte sich von 3,2% im Jahr 2019 auf 4,1% im Jahr 2020. Am höchsten war im Jahr 2020 die Arbeitslosenquote der Personen zwischen 30 und 39 Jahren (4,4%). Die Arbeitslosenquoten der Personen zwischen 50 und 59 Jahren sowie ab 60 Jahren nahmen ebenfalls zu, lagen jedoch nach wie vor deutlich unterhalb des Durchschnitts.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen, geteilt durch die Erwerbspersonen. In der Grafik sind die Jahresdurchschnitte abgebildet.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_119",
-		"parentId": null,
-		"children": [
-			"8522"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -2945,34 +2945,32 @@ var indikatorensetData = [
 		"id": 8334
 	},
 	{
+		"parentId": 6204,
+		"children": [],
+		"template": "mappie001",
 		"title": "Anteil Haushalte mit Prämienverbilligungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08335",
 		"kuerzelKunde": "1-13",
 		"description": "Anteil Haushalte mit Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-09T11:18:26.2626",
+		"aktualisierungsdatum": "2021-05-05T08:34:11.1111",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2019  bei 16,4%. Das Wohnviertel Klybeck weist mit 26,9% die höchste, das Wohnviertel Vorstädte mit 9,2% die tiefste PV-Quote auf. Der höchste Anstieg der PV-Quote im Vergleich zu 2014 ist mit 5,1 Prozentpunkten in Kleinhüningen zu beobachten. Im Wohnviertel Rosental ist sie im gleichen Zeitraum konstant geblieben.",
-		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
-		"template": "mappie001",
+		"lesehilfe": "Der Anteil der Haushalte mit reinen Prämienverbilligungen an allen Haushalten liegt im Kanton Basel-Stadt Ende 2020  bei 16,8%. Das Wohnviertel Klybeck weist mit 27,8% die höchste, das Wohnviertel Vorstädte mit 8,8% die tiefste PV-Quote auf. Gegenüber dem Jahr 2015 ist die Quote in allen Wohnvierteln gestiegen. Der höchste Anstieg ist mit 4,9 Prozentpunkten in Kleinhüningen zu beobachten.",
+		"erlaeuterungen": "Die Prämienverbilligungsquote errechnet sich als Quotient der Anzahl Haushalte mit Prämienverbilligungen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Im BISS sind nur Personen mit reinen Prämienverbilligungen erfasst. Personen mit Ergänzungsleistungen zur AHV/IV oder mit Sozialhilfebezug sind deshalb nicht berücksichtigt.",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_113",
-		"parentId": 6204,
-		"children": [],
-		"renderLink": [
-			"6204"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
@@ -3068,34 +3066,32 @@ var indikatorensetData = [
 		"id": 8337
 	},
 	{
+		"parentId": 6203,
+		"children": [],
+		"template": "mappie001",
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08338",
 		"kuerzelKunde": "1-16",
 		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"aktualisierungsdatum": "2021-05-05T08:34:12.1212",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2014 lag die FAMI-Quote noch bei 1,9%. Kleinhüningen weist mit 4,6% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,1%. Gegenüber 2014 ist einzig in den Wohnvierteln Altstadt Kleinbasel sowie Rosental ein Rückgang zu beobachten.",
+		"lesehilfe": "Ende 2020 liegt der Anteil Haushalte mit Familienmietzinsbeiträgen (FAMI) an allen Haushalten im Kanton Basel-Stadt bei 2,3%. 2015 lag die FAMI-Quote noch bei 2,0%. Kleinhüningen weist mit 5,1% die höchste Beitragsquote auf. In der Altstadt Grossbasel liegt dieser Anteil bei 0,2%. Den höchsten Anstieg der FAMI-Quote gegenüber dem Jahr 2015 ist in Bettingen sowie im Wohnviertel Hirzbrunnen mit je +0,8 Prozentpunkten zu beobachten.",
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Familienmietzinsbeiträgen an der Gesamtzahl der Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_116",
-		"parentId": 6203,
-		"children": [],
-		"renderLink": [
-			"6203"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
 		],
