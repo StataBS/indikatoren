@@ -1037,31 +1037,31 @@ var indikatorensetData = [
 		"id": 4152
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.13.2.4153",
 		"kuerzelKunde": "4.1.B",
 		"description": "Ausbezahlte Familienmietzinsbeiträge",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:08:24.2424",
+		"aktualisierungsdatum": "2021-05-05T08:34:13.1313",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sind seit 2008 kontinuierlich gestiegen und betragen 2019 rund 11,7 Mio. Franken.",
-		"erlaeuterungen": "Die Leistungen nach Wohnraumfördergesetz liefen per Ende 2008 aus. Das Gesetz wurde per 1.1.2009 aufgehoben. Dies hatte einen Einfluss auf die Anzahl unterstützter Mietverhältnisse nach Mietbeitragsgesetz.",
-		"template": "line001",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge steigen kontinuierlich und betragen 2020 rund 11,8 Mio. Franken.",
+		"erlaeuterungen": "",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"

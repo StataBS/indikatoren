@@ -43,6 +43,10 @@
         [
           2019,
           0.032398
+        ],
+        [
+          2020,
+          0.040616
         ]
       ],
       "name": "15-24 Jahre"
@@ -90,6 +94,10 @@
         [
           2019,
           0.030225
+        ],
+        [
+          2020,
+          0.042293
         ]
       ],
       "name": "25-29 Jahre"
@@ -137,6 +145,10 @@
         [
           2019,
           0.033051
+        ],
+        [
+          2020,
+          0.043505
         ]
       ],
       "name": "30-39 Jahre"
@@ -184,6 +196,10 @@
         [
           2019,
           0.030793
+        ],
+        [
+          2020,
+          0.038468
         ]
       ],
       "name": "40-49 Jahre"
@@ -231,6 +247,10 @@
         [
           2019,
           0.02662
+        ],
+        [
+          2020,
+          0.03295
         ]
       ],
       "name": "50-59 Jahre"
@@ -278,6 +298,10 @@
         [
           2019,
           0.021537
+        ],
+        [
+          2020,
+          0.026913
         ]
       ],
       "name": "60 Jahre u.m."
@@ -325,6 +349,10 @@
         [
           2019,
           0.029783
+        ],
+        [
+          2020,
+          0.038331
         ]
       ],
       "name": "Total"
@@ -457,7 +485,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-5"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -18,13 +18,10 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      itemDistance: 5
+      itemDistance: 10
     },
     "series": [
-      {
-        "color": "#9E7C59", index: 5, legendIndex: 0, tooltip: {
-          valueDecimals: 0
-        },
+      {"color": "#9E7C59", index: 5, legendIndex: 0, tooltip: {valueDecimals: 0},
       },
       {
         "color": "#C4AB91", index: 4, legendIndex: 1, tooltip: {
@@ -41,11 +38,11 @@
           valueDecimals: 0
         },
       },
-      {
+     /* {
         "color": "#6F6F6F", index: 1, legendIndex: 4, tooltip: {
           valueDecimals: 0
         },
-      },
+      },*/
       // {"color": "#ff8028", index: 4, legendIndex: 5},
     ],
     "chart": {
