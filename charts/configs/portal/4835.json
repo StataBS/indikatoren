@@ -4,88 +4,88 @@
       "color": "#689199",
       "data": [
         [
-          "Klybeck",
-          204
+          "Kleinhüningen",
+          199.4
         ],
         [
-          "Kleinhüningen",
-          221
+          "Klybeck",
+          205.9
         ],
         [
           "Rosental",
-          276
+          266.6
         ],
         [
           "Iselin",
-          496
+          484.8
         ],
         [
           "Clara",
-          535
-        ],
-        [
-          "Matthäus",
-          585
-        ],
-        [
-          "Breite",
-          591
-        ],
-        [
-          "St. Johann",
-          597
+          523.1
         ],
         [
           "Gundeldingen",
-          618
+          554.9
+        ],
+        [
+          "Matthäus",
+          574.4
+        ],
+        [
+          "Breite",
+          581.3
+        ],
+        [
+          "St. Johann",
+          640.6
         ],
         [
           "Hirzbrunnen",
-          718
-        ],
-        [
-          "Altstadt Kleinbasel",
-          1439
+          690.6
         ],
         [
           "Wettstein",
-          1695
+          1453.9
+        ],
+        [
+          "Altstadt Kleinbasel",
+          1898.4
         ],
         [
           "Am Ring",
-          2280
+          2094.5
         ],
         [
           "Bachletten",
-          2311
+          2334.9
         ],
         [
           "Riehen",
-          4072
+          3325.3
         ],
         [
           "Gotthelf",
-          4564
-        ],
-        [
-          "Altstadt Grossbasel",
-          5759
+          3335.3
         ],
         [
           "St. Alban",
-          5914
+          5684.9
+        ],
+        [
+          "Altstadt Grossbasel",
+          5871.5
         ],
         [
           "Vorstädte",
-          6755
+          7391.6
         ],
         [
           "Bruderholz",
-          7840
+          9469.7
         ],
         [
           "Bettingen",
-          14716
+          14573.8
         ]
       ],
       "name": "Vermögenssteuer pro Veranlagung",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Klybeck",
+          "Kleinhüningen",
           1
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           2
         ],
         [
@@ -115,19 +115,19 @@
           5
         ],
         [
-          "Matthäus",
+          "Gundeldingen",
           6
         ],
         [
-          "Breite",
+          "Matthäus",
           7
         ],
         [
-          "St. Johann",
+          "Breite",
           8
         ],
         [
-          "Gundeldingen",
+          "St. Johann",
           9
         ],
         [
@@ -135,11 +135,11 @@
           10
         ],
         [
-          "Altstadt Kleinbasel",
+          "Wettstein",
           11
         ],
         [
-          "Wettstein",
+          "Altstadt Kleinbasel",
           12
         ],
         [
@@ -159,11 +159,11 @@
           16
         ],
         [
-          "Altstadt Grossbasel",
+          "St. Alban",
           17
         ],
         [
-          "St. Alban",
+          "Altstadt Grossbasel",
           18
         ],
         [
@@ -249,7 +249,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
   },
   "legend": {
     "enabled": false,

@@ -62,6 +62,10 @@
         [
           2019,
           1854
+        ],
+        [
+          2020,
+          1967
         ]
       ],
       "name": "Subventionierte Tagesheime"
@@ -128,6 +132,10 @@
         [
           2019,
           2000
+        ],
+        [
+          2020,
+          2020
         ]
       ],
       "name": "Nicht subventionierte Tagesheime"
@@ -194,6 +202,10 @@
         [
           2019,
           331
+        ],
+        [
+          2020,
+          311
         ]
       ],
       "name": "Firmen-Tagesheime"
@@ -260,6 +272,10 @@
         [
           2019,
           84
+        ],
+        [
+          2020,
+          75
         ]
       ],
       "name": "Tagesfamilien"
@@ -326,6 +342,10 @@
         [
           2019,
           4269
+        ],
+        [
+          2020,
+          4373
         ]
       ],
       "name": "Total"
@@ -459,7 +479,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-6"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

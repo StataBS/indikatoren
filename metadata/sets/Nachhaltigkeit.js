@@ -2049,31 +2049,33 @@ var indikatorensetData = [
 		"id": 6046
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8936"
+		],
+		"template": "line001",
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.04.1.6047",
 		"kuerzelKunde": "WE3",
 		"description": "Branchenanteile an der nominalen Wertschöpfung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-04T17:17:27.2727",
+		"aktualisierungsdatum": "2021-05-07T08:01:06.066",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2018 bei 44,0%. Im Jahr 2000 lag er noch bei 23,2%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,7% im Jahr 2000 auf 8,8% im Jahr 2018).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
-		"template": "line001",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2019 bei 44,0%. Im Jahr 2000 lag er noch bei 24,4%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,0% im Jahr 2000 auf 9,1% im Jahr 2019).",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_01_00_00_00_603",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
