@@ -7912,43 +7912,41 @@
 		"id": 4834
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5122"
+		],
+		"template": "dotplot",
 		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
+		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.18.2.4835",
 		"kuerzelKunde": "WA-1.A",
 		"description": "Vermögenssteuer pro Veranlagung",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-03T09:07:46.4646",
+		"aktualisierungsdatum": "2021-05-07T08:01:04.044",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Klybeck der niedrigste.",
+		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Kleinhüningen der niedrigste.",
 		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_03_00_00_00_014",
-		"parentId": null,
-		"children": [
-			"5122"
-		],
-		"renderLink": [
-			"5122"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Steuerstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4835,
 		"chart-id": 4835,
@@ -7962,7 +7960,7 @@
 		],
 		"template": "dotplot",
 		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.18.2.4836",
 		"kuerzelKunde": "WA-2.A",
@@ -7972,13 +7970,13 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-18T11:56:36.3636",
+		"aktualisierungsdatum": "2021-05-07T08:01:05.055",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bettingen verzeichnet mit rund 21 100 Franken die höchste Einkommenssteuer pro Veranlagung. Den niedrigsten Wert weist mit 4 300 Franken das Wohnviertel Klybeck auf.",
+		"lesehilfe": "Bettingen verzeichnet mit rund 20 700 Franken die höchste Einkommenssteuer pro Veranlagung. Den niedrigsten Wert weist mit 4 400 Franken das Wohnviertel Klybeck auf.",
 		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -7990,7 +7988,7 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4836,
 		"chart-id": 4836,
@@ -13588,32 +13586,34 @@
 		"id": 6046
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8936"
+		],
+		"template": "line001",
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.04.1.6047",
 		"kuerzelKunde": "WE3",
 		"description": "Branchenanteile an der nominalen Wertschöpfung",
 		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-04T17:17:27.2727",
+		"aktualisierungsdatum": "2021-05-07T08:01:06.066",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2018 bei 44,0%. Im Jahr 2000 lag er noch bei 23,2%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,7% im Jahr 2000 auf 8,8% im Jahr 2018).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
-		"template": "line001",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2019 bei 44,0%. Im Jahr 2000 lag er noch bei 24,4%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,0% im Jahr 2000 auf 9,1% im Jahr 2019).",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "06_01_00_00_00_603",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -17765,34 +17765,34 @@
 		"id": 6209
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6338"
+		],
+		"template": "line001",
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.13.2.6210",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T11:02:51.5151",
+		"aktualisierungsdatum": "2021-05-07T08:01:03.033",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Zwischen 2016 und 2018 stagnierte die Anzahl angebotener Plätze bei rund 4 100. Im Jahr 2019 stehen insgesamt 4 269 Plätze zur Verfügung, davon befinden sich 84 Plätze in Tagesfamilien.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen ist seit 2006, mit einer Stagnationsphase zwischen 2016 und 2018, kontinuierlich ausgebaut worden. Lag dieses im Jahr 2006 noch bei 1 997 Plätzen, so sind es im Jahr 2020 deren 4 373.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6338"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"
@@ -42918,21 +42918,21 @@
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "",
+		"kuerzel": "I.03.4.07510",
 		"kuerzelKunde": "",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-09T07:41:17.1717",
+		"aktualisierungsdatum": "2021-05-07T08:00:57.5757",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt ist in den letzten zwölf Monaten spürbar gestiegen und liegt aktuell bei 4,3%. Die Jugendarbeitslosenquote ist zwar wieder tiefer als im Sommer 2020, liegt aber immer noch deutlich höher als ein Jahr zuvor. Auch die Arbeitslosenquote der Personen ab 50 Jahren hat gegenüber dem Vorjahr zugenommen, sie liegt aber weiterhin unter dem Durchschnitt der Gesamtbevölkerung.",
+		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt sinkt seit Jahresbeginn kontinuierlich und liegt aktuell bei 4,1%. Die Jugendarbeitslosenquote beträgt aktuell 3,5% und ist somit tiefer als die Arbeitslosenquote der Personen ab 50 Jahren die bei 3,7% liegt.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -42966,13 +42966,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-09T07:41:18.1818",
+		"aktualisierungsdatum": "2021-05-07T08:00:58.5858",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt noch bei über 1 600. Mit dem Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Nachdem im Juni und Juli 2020 die Zahl der offenen Stellen gestiegen ist, war sie bis Dezember rückläufig. Im Januar und Februar 2021 waren in Basel-Stadt fast 1200 Stellen offen, im März 2021 mehr als 1500.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt bei über 1 600. Mit dem Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Seit Jahresbeginn steigt die Zahl der offenen Stellen wieder an und übertrifft im April 2021 gar die Werte von vor dem Pandemieausbruch.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen COVID-19 und seinen Folgen hat der Bundesrat die Stellenmeldepflicht für die Zeit vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -72823,13 +72823,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-09T07:41:18.1818",
+		"aktualisierungsdatum": "2021-05-07T08:00:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Mai 2020 ist die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, grösser als 4 000. Ende März 2021 sind rund 4 400 Personen arbeitslos. Die Arbeitslosigkeit ist damit deutlich höher als in den Vorjahren. Die Zahl der Langzeitarbeitslosen hat sich in den letzten zwölf Monaten ungefähr verdoppelt und liegt im März 2021 bei rund 1 000 Personen, was 22,7% der Arbeitslosen entspricht.",
+		"lesehilfe": "Seit Mai 2020 ist die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, grösser als 4 000. Ende April 2021 sind rund 4 200 Personen arbeitslos. So viele Arbeitslose gab es zuletzt im Januar 2010. Die Zahl der Langzeitarbeitslosen hat sich in den letzten zwölf Monaten ungefähr verdoppelt und liegt im April 2021 bei rund 1 050 Personen, was 25,0% der Arbeitslosen entspricht.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -72863,13 +72863,13 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-09T07:41:19.1919",
+		"aktualisierungsdatum": "2021-05-07T08:01:00.000",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Anfang der COVID-19-Pandemie im März 2020 sind die Arbeitslosenzahlen in Basel-Stadt im Vergleich zum Vorjahr stets höher, nachdem sie von April 2017 bis Februar 2020 im Vorjahresvergleich jeweils tiefer waren. Im zweiten Jahr der Pandemie, Ende März 2021, sind 777 Personen mehr arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Seit Anfang der COVID-19-Pandemie im März 2020 sind die Arbeitslosenzahlen in Basel-Stadt im Vergleich zum Vorjahr stets höher, nachdem sie von April 2017 bis Februar 2020 im Vorjahresvergleich jeweils tiefer waren. Ende April 2021 sind 263 Personen mehr arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -73175,21 +73175,21 @@
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "",
+		"kuerzel": "I.03.4.08992",
 		"kuerzelKunde": "",
 		"description": "Von Kurzarbeit betroffene Arbeitnehmer",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-09T07:41:20.2020",
+		"aktualisierungsdatum": "2021-05-07T08:01:01.011",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung der COVID-19-Pandemie (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April und Mai lag am höchsten und betraf rund 95 000 Personen. Im Juni, Juli und August lag der Wert immer noch ziemlich hoch. Im September und im Oktober ist dann die Anzahl der Arbeitnehmer, für die Kurzarbeit beantragt wurde, auf 23 000 zurückgegangen. Bis im Februar 2021 ist sie wieder auf 53 000 gestiegen (provisorische Zahlen). Die genehmigte Kurzarbeit erreicht 99% der beantragten Kurzarbeit. Wie viel der seit März genehmigten Kurzarbeit auch in Anspruch genommen wird, d. h. auch abgerechnet wird, ist für Basel-Stadt noch nicht bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
+		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung der COVID-19-Pandemie (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni lag am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert immer noch ziemlich hoch (rund 75 000). Von September bis Dezember lag er dann zwischen 20 000 und 30 000. Seit Januar 2021 liegt die Anzahl der Arbeitnehmer, für die Kurzarbeit beantragt wurde, wieder eher bei 50 000 Personen (provisorische Zahlen). Die genehmigte Kurzarbeit erreicht 99% der beantragten Kurzarbeit. Wie viel der seit März genehmigten Kurzarbeit auch in Anspruch genommen wird, d. h. auch abgerechnet wird, ist für Basel-Stadt noch nicht bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die seit März 2020 abgerechnete Kurzarbeit in Basel-Stadt ist noch nicht verfügbar.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -78033,6 +78033,46 @@
 		"chart-id": 9239,
 		"filter": "",
 		"id": 9239
+	},
+	{
+		"parentId": null,
+		"children": [],
+		"template": "bubble001",
+		"title": "An Strassenverkehrsunfällen beteiligte Objekte nach Unfallort",
+		"subtitle": "Basel-Stadt, Mittel der Jahre 1930 bis 1940",
+		"kennzahlenset": "",
+		"kuerzel": "I.11.7.09293",
+		"kuerzelKunde": "",
+		"description": "An Strassenverkehrsunfällen beteiligte Objekte nach Unfallort",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-05-07T08:01:02.022",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "<bitte Kommentar erfassen>",
+		"erlaeuterungen": "",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9293,
+		"chart-id": 9293,
+		"filter": "",
+		"id": 9293
 	},
 	{
 		"title": "Test Daten",

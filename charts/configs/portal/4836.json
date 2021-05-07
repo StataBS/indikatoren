@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          4303.5488173
+          4399.1
         ],
         [
           "Kleinhüningen",
-          5008.7700706
+          4911.8
         ],
         [
           "Clara",
-          6316.6652961
+          6483.9
         ],
         [
           "Iselin",
-          6361.3300306
+          6575.8
         ],
         [
           "Matthäus",
-          6539.7952651
-        ],
-        [
-          "St. Johann",
-          6774.0039745
+          6827.7
         ],
         [
           "Rosental",
-          7020.280251
+          6991.6
+        ],
+        [
+          "St. Johann",
+          7019.2
         ],
         [
           "Breite",
-          7473.7566459
+          7471.7
         ],
         [
           "Gundeldingen",
-          7492.6236362
+          7472.3
         ],
         [
           "Hirzbrunnen",
-          7831.7899982
+          8009.3
         ],
         [
           "Gotthelf",
-          9091.0904773
+          9568.5
         ],
         [
           "Altstadt Kleinbasel",
-          9272.3190416
+          10098.1
         ],
         [
           "Wettstein",
-          11344.566364
+          11712.6
         ],
         [
           "Am Ring",
-          11861.725433
+          11993.3
         ],
         [
           "Bachletten",
-          12188.763138
+          12010.6
         ],
         [
           "Riehen",
-          12931.639783
+          12494.4
         ],
         [
           "St. Alban",
-          16151.844027
+          16669.6
         ],
         [
           "Altstadt Grossbasel",
-          16423.081464
+          16745.3
         ],
         [
           "Bruderholz",
-          16867.689036
+          17603.7
         ],
         [
           "Vorstädte",
-          16909.705491
+          17653.2
         ],
         [
           "Bettingen",
-          21092.429712
+          20650
         ]
       ],
       "name": "Einkommenssteuer pro Veranlagung",
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "St. Johann",
+          "Rosental",
           6
         ],
         [
-          "Rosental",
+          "St. Johann",
           7
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
     "align": "left"
   },
   "plotOptions": {
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
   },
   "legend": {
     "enabled": false,

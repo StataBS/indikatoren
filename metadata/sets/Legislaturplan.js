@@ -2721,33 +2721,33 @@ var indikatorensetData = [
 		"id": 6209
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6338"
+		],
+		"template": "line001",
 		"title": "Anzahl Plätze in Tagesbetreuungsangeboten",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.13.2.6210",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-06T11:02:51.5151",
+		"aktualisierungsdatum": "2021-05-07T08:01:03.033",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen wurde von 2006 bis 2016 kontinuierlich ausgebaut. Zwischen 2016 und 2018 stagnierte die Anzahl angebotener Plätze bei rund 4 100. Im Jahr 2019 stehen insgesamt 4 269 Plätze zur Verfügung, davon befinden sich 84 Plätze in Tagesfamilien.",
+		"lesehilfe": "Das Angebot an Tagesbetreuungsplätzen ist seit 2006, mit einer Stagnationsphase zwischen 2016 und 2018, kontinuierlich ausgebaut worden. Lag dieses im Jahr 2006 noch bei 1 997 Plätzen, so sind es im Jahr 2020 deren 4 373.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6338"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung"

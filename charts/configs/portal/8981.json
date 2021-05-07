@@ -398,6 +398,10 @@
         [
           "2021-03",
           777
+        ],
+        [
+          "2021-04",
+          263
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -537,7 +541,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-9"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
   },
   "tooltip": {
     "valueDecimals": 0,
