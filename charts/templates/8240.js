@@ -4,35 +4,11 @@
 	global $
 */
 
-var legendPosition = {
-	blockChoropleth: {
-		x: 230, // Customizable
-		y: -15,  // Customizable
-		title: {
-			y: [247, 232, 217],
-			x: 245, // Customizable
-		}
-	},
-	blockSymbol: {
-		x: [378,373], // Customizable
-		y: [277, 297, 317, 337], // Customizable
-		y3C: [382, 412, 442],
-		numbers: {
-			x: 393,
-			y: [267, 287, 310, 330], // Customizable
-			y3C: [370, 400, 430]
-		},
-		title: {
-			x: 368
-		}
-	}
-};
 
 (function(){
-
     return {
 		"legend": {
-    		useHTML: false,
+			useHTML: false,
 			"title": {
 				"text": null, 
 				style: {'fontWeight':' bold'}
@@ -40,15 +16,15 @@ var legendPosition = {
 			"layout": "vertical",
 			//"verticalAlign": "middle",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
+			"x": 230,
+			"y": -15,
 			itemMarginBottom: 2, 
 			symbolRadius: 0,
 			itemStyle: {
 				fontWeight: 'normal'
 				}
 		},
-         colorAxis: {
+        "colorAxis": {
             dataClassColor: 'category',
         	dataClasses: [{
                	from: 0,
@@ -117,7 +93,31 @@ var legendPosition = {
 			events: {
 	            load: function (e) {
 	            	
-	            	this.credits.element.onclick = function() {};
+					var lp = { //legendPosition
+						blockChoropleth: {
+							x: 230, // Customizable
+							y: -15,  // Customizable
+							title: {
+								y: [247, 232, 217],
+								x: 245, // Customizable
+							}
+						},
+						blockSymbol: {
+							x: [378,373], // Customizable
+							y: [277, 297, 317, 337], // Customizable
+							y3C: [382, 412, 442],
+							numbers: {
+								x: 393,
+								y: [267, 287, 310, 330], // Customizable
+								y3C: [370, 400, 430]
+							},
+							title: {
+								x: 368
+							}
+						}
+					};
+					
+					this.credits.element.onclick = function() {};
 
 	                var chart = this;
 	                var fn = this.options.customFunctions;
@@ -166,18 +166,18 @@ var legendPosition = {
 					fn.addLegendRectangle(chart, 243, 212, 105, 145, '#fbfbfb');
 					fn.addLegendRectangle(chart, 355, 212, 110, 145, '#fbfbfb');
 					
-					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[2]);
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("eiz ", "eiz<br/>").replace("ene ", "ene<br/>"), lp.blockChoropleth.title.x, lp.blockChoropleth.title.y[2]);
 					
-					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ", "<br/>"), lp.blockSymbol.title.x, lp.blockChoropleth.title.y[1]);
 					//fn.addLegendSquare(chart, 363, 275, 10, '#007A2F');
 					//fn.addLegendLabel(chart, 'Zunahme', 382, 269);
 					//fn.addLegendSquare(chart, 363, 295, 10, '#990300');
 					//fn.addLegendLabel(chart, 'Abnahme', 382, 289)
 
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[0], 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[0]);
-					fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y[1], 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
-					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y[1]);
+	                fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y[0], 0.5 * fn.pieSize(minValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((minValueInLegend), 0, ",", " "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[0]);
+					fn.addLegendCircle(chart, lp.blockSymbol.x[0], lp.blockSymbol.y[1], 0.5 * fn.pieSize(maxValueInLegend, extremeValues.maxAbsNumber, maxPieDiameter), /*'grey'*/ '#990300');
+					fn.addLegendLabel(chart, Highcharts.numberFormat((maxValueInLegend), 0, ".", " "), lp.blockSymbol.numbers.x, lp.blockSymbol.numbers.y[1]);
 
 					/*var shiftDown = 12;
 
