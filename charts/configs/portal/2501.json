@@ -56,47 +56,47 @@
       "data": [
         [
           "Life Sciences",
-          11.31293
+          11.35485
         ],
         [
           "Herst. von chem. Erzeugn.",
-          -3.91847
+          -3.60289
         ],
         [
           "Baugewerbe",
-          -0.37157
+          -0.40015
         ],
         [
           "Handel und Garagengewerbe",
-          -1.62007
+          -1.53675
         ],
         [
           "Verkehr und Lagerei",
-          2.87949
+          2.90217
         ],
         [
           "Gastgewerbe",
-          1.33658
+          1.25735
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          1.95727
+          1.89202
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          4.72839
+          4.70467
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          4.55449
+          4.5048
         ],
         [
           "Öffentliche Verwaltung",
-          0.56734
+          0.54988
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          2.43328
+          2.44898
         ]
       ],
       "name": "Basel-Stadt",
@@ -108,47 +108,47 @@
       "data": [
         [
           "Life Sciences",
-          17.27801
+          13.29331
         ],
         [
           "Herst. von chem. Erzeugn.",
-          0.87663
+          0.5977
         ],
         [
           "Baugewerbe",
-          2.18723
+          2.17021
         ],
         [
           "Handel und Garagengewerbe",
-          -3.15873
+          -3.09775
         ],
         [
           "Verkehr und Lagerei",
-          0.86002
+          0.7044
         ],
         [
           "Gastgewerbe",
-          -0.50355
+          -0.65735
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          1.86204
+          1.91708
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          1.71304
+          1.58615
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          1.57736
+          1.42642
         ],
         [
           "Öffentliche Verwaltung",
-          1.08323
+          1.09249
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          2.83034
+          2.82245
         ]
       ],
       "name": "Genf",
@@ -160,11 +160,11 @@
       "data": [
         [
           "Life Sciences",
-          6.05545
+          8.27129
         ],
         [
           "Herst. von chem. Erzeugn.",
-          -0.68918
+          -0.78873
         ],
         [
           "Baugewerbe",
@@ -172,27 +172,27 @@
         ],
         [
           "Handel und Garagengewerbe",
-          -0.63385
+          -0.71308
         ],
         [
           "Verkehr und Lagerei",
-          -0.75216
+          -0.73381
         ],
         [
           "Gastgewerbe",
-          2.59334
+          2.49369
         ],
         [
           "Finanz- u. Versicherungsdl.",
-          1.71688
+          1.69212
         ],
         [
           "Freiberufl. u. wiss. Dienstl.",
-          0.93211
+          1.04086
         ],
         [
           "Sonstige wirtschaftl. Dienstl.",
-          0.71341
+          0.81313
         ],
         [
           "Öffentliche Verwaltung",
@@ -200,7 +200,7 @@
         ],
         [
           "Gesundheits- u. Sozialwesen",
-          3.15279
+          3.14556
         ]
       ],
       "name": "Zürich",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-10"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

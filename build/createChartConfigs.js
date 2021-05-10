@@ -56,12 +56,12 @@ var geojson_gemeinden = JSON.parse(fs.readFileSync('geojson/UA_Gemeinden_100.jso
             files.forEach(function(id){
                 var indikator = JSON.parse(fs.readFileSync('metadata/single/' + id + '.json'));
                 //only create json files if indikator is visible and not from kennzahlenset "Umwelt"
-                if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt"){
+                if ((indikator.visible == undefined || indikator.visible) && indikator.kennzahlenset != "Umwelt" && !indikator.kennzahlenset.toLowerCase().includes('print')){
                     console.log('Creating config for chart ' + indikator.id + ', view=' + view +'...');
                     saveChartConfig(indikator, view, console);
                 }
                 else {
-                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt", ignoring.');
+                    console.log('Chart ' + indikator.id + ' is invisible or in kennzahlenset "Umwelt" or print, ignoring.');
                 }
             });
         });

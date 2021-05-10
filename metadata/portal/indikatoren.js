@@ -971,35 +971,35 @@ var indikatoren = [
 		"id": 2466
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6273"
+		],
+		"template": "line001",
 		"title": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
 		"subtitle": "Basel-Stadt im Vergleich mit der Schweiz, 2019",
-		"kuerzel": "I.04.1.2501",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"thema": "04 Volkswirtschaft",
+		"thema": "50 Befragungen",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-11-26T12:56:31.3131",
+		"aktualisierungsdatum": "2021-05-10T08:02:13.1313",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die reale Wertschöpfung in der Branche Life Sciences weist für das Jahr 2019 in allen betrachteten Regionen die höchsten Zuwachsraten auf. Am stärksten ist sie im Kanton Genf gestiegen (+17,3%). Während die Wertschöpfung in dieser Branche in Basel-Stadt weiter zugenommen hat (+11,3%), hat sie sich in der chemischen Industrie verringert (-3,9%). Ebenfalls rückläufig verlief 2019 die reale Wertschöpfung in der Branche Handel und Garagengewerbe (-1,6%) sowie im Baugewerbe (-0,4%).",
+		"lesehilfe": "Die reale Wertschöpfung in der Branche Life Sciences weist für das Jahr 2019 in allen betrachteten Regionen die höchsten Zuwachsraten auf. Am stärksten ist sie im Kanton Genf gestiegen (+13,3%). Während die Wertschöpfung in dieser Branche in Basel-Stadt weiter zugenommen hat (+11,4%), hat sie sich in der chemischen Industrie verringert (-3,6%). Ebenfalls rückläufig verlief 2019 die reale Wertschöpfung in der Branche Handel und Garagengewerbe (-1,5%) sowie im Baugewerbe (-0,4%).",
 		"erlaeuterungen": "Die Entwicklung der realen Wertschöpfung zeigt, ob die wirtschaftliche Leistung einer Branche grösser oder kleiner wird. Damit zeigt sie auch, ob eine Branche erfolgreich ist. Dieser Indikator sagt aber nichts über die Bedeutung einer Branche in einer Region aus.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6273"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -14798,36 +14798,36 @@ var indikatoren = [
 		"id": 6163
 	},
 	{
-		"title": "Wasserqualität: AOX-Konzentration",
-		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
-		"kuerzel": "I.02.19.6164",
-		"kuerzelKunde": "7.4",
-		"description": "Wasserqualität: AOX-Konzentration",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Wasser",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-14T19:51:18.1818",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2019 0,033 mg/l gereinigtes Abwasser. Sie lag damit unter dem Grenzwert von 0,080 mg/l.",
-		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,080 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "07_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6030",
 			"6315",
 			"8922"
 		],
+		"template": "line001",
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "I.02.19.6164",
+		"kuerzelKunde": "7.4",
+		"description": "Wasserqualität: AOX-Konzentration",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-05-10T08:02:14.1414",
+		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2020 0,035 mg pro Liter gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,080 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "07_00_00_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt"

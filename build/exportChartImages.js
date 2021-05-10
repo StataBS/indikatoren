@@ -63,20 +63,28 @@ function createPathArray(chartId, view){
     var outfilePath = path.join(__dirname, '../' + imagePath + chartId + '.svg');
     
     try{
-        var configFile = fs.readFileSync(infilePath, 'utf8');
-        var config = deserialize(configFile);
         var additionalConfigFile = fs.readFileSync(additionalConfigPath, 'utf8');
         var additionalConfig = deserialize(additionalConfigFile);
-        
-        //decide if stockchart, map, or chart
-        var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
-        return {
-            config: config,
-            additionalConfig: additionalConfig, 
-            infilePath: infilePath, 
-            outfilePath: outfilePath,
-            constr: constr
-        };
+        if(!additionalConfig.kennzahlenset.toLowerCase().includes('print'))
+        {
+            var configFile = fs.readFileSync(infilePath, 'utf8');
+            var config = deserialize(configFile);
+            
+            //decide if stockchart, map, or chart
+            var constr = config.isStock ? 'StockChart': (config.chart.type === 'map' ? 'Map' : 'Chart');
+            return {
+                config: config,
+                additionalConfig: additionalConfig, 
+                infilePath: infilePath, 
+                outfilePath: outfilePath,
+                constr: constr
+            };
+        }
+        else
+        {
+            console.log('File for Chart-Id ' + chartId + ' not created (is Print-Indikator) ');
+            return null;
+        }
     }
     catch(err){
         console.log('Exception when reading json file ' + infilePath + ': ' + err);

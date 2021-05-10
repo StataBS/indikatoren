@@ -66,6 +66,10 @@
         [
           2019,
           0.033
+        ],
+        [
+          2020,
+          0.035
         ]
       ],
       "name": "AOX-Konzentration"
@@ -144,6 +148,10 @@
         ],
         [
           2019,
+          0.08
+        ],
+        [
+          2020,
           0.08
         ]
       ],
@@ -273,7 +281,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-14"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-10"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

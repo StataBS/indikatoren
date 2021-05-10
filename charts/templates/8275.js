@@ -4,100 +4,68 @@
 	global $
 */
 
-var legendPosition = {
-	blockChoropleth: {
-		x: 230, // Customizable
-		y: -15,  // Customizable
-		title: {
-			y: [232, 217, 202],
-			x: 245, // Customizable
-		}
-	},
-	blockSymbol: {
-		x: [378,373], // Customizable
-		y: [277, 297, 317, 337], // Customizable
-		y3C: [276, 303, 330],
-		numbers: {
-			x: 0,
-			y: [267, 287, 310, 330], // Customizable
-			y3C: [267, 292, 317]
-		},
-		title: {
-			x: 0
-		}
-	}
-};
 
-legendPosition.blockSymbol.numbers.x = legendPosition.blockSymbol.x[0] + 90;
+(function () {
 
-legendPosition.blockSymbol.title.x = legendPosition.blockSymbol.x[0] - 10;
-var i;
-for (i = 0; i < 3; i++) {
-	legendPosition.blockChoropleth.title.y[i] -= legendPosition.blockChoropleth.y;
-};
-
-(function(){
-
-    return {
+	return {
 		"legend": {
-    		useHTML: false,
+			useHTML: false,
 			"title": {
-				"text": null, 
-				style: {'fontWeight':' bold'}
+				"text": null,
 			},
 			"layout": "vertical",
-			//"verticalAlign": "middle",
+			"verticalAlign": "top",
 			"align": "left",
-			"x": legendPosition.blockChoropleth.x,
-			"y": legendPosition.blockChoropleth.y,
-			itemMarginBottom: 2, 
+			"x": 230,
+			"y": 250,
+			itemMarginBottom: 2,
 			symbolRadius: 0,
 		},
-         colorAxis: {
-            dataClassColor: 'category',
-        	dataClasses: [{
-        		from: 0,
-                to:0.59,
-                color: '#D7E8D2',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,60"
-            }, {
-                from: 0.6,
-                to: 0.79,
-                color: '#73B97C',
-                name: "0,60 −  0,79"
-            },{
-                from: 0.8,
-                to: 0.99,
-                 color: '#68AB2B',
-                 name: "0,80 − 0,99"
-            },{
+		colorAxis: {
+			dataClassColor: 'category',
+			dataClasses: [{
+				from: 0,
+				to: 0.59,
+				color: '#D7E8D2',
+				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,60"
+			}, {
+				from: 0.6,
+				to: 0.79,
+				color: '#73B97C',
+				name: "0,60 −  0,79"
+			}, {
+				from: 0.8,
+				to: 0.99,
+				color: '#68AB2B',
+				name: "0,80 − 0,99"
+			}, {
 				from: 1.0,
-                to: 1.29,
-                 color: '#007A2F',
-                 name: "1,00 − 1,29"
-            },{
-                from: 1.3,
-                color: '#0A3B19',
-                name:  "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,30"
-            }], 
-        },
-        "data": {
-		    "seriesMapping": [
-		      {
-		      	x: 0, y: 2
-		      },
-		      {
-		      	//2nd series: use y values from column 3
-		      	y: 3
-		      }
-		    ]
-        },
+				to: 1.29,
+				color: '#007A2F',
+				name: "1,00 − 1,29"
+			}, {
+				from: 1.3,
+				color: '#0A3B19',
+				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,30"
+			}],
+		},
+		"data": {
+			"seriesMapping": [
+				{
+					x: 0, y: 2
+				},
+				{
+					//2nd series: use y values from column 3
+					y: 3
+				}
+			]
+		},
 		"series": [
 			{
-				"name": "Wohnviertel", 
+				"name": "Wohnviertel",
 				"animation": true,
 				"mapData": geojson_wohnviertelEPSG2056,
-				"borderColor": "#fbfbfb",		
+				"borderColor": "#fbfbfb",
 				"joinBy": ['TXT', 'Wohnviertel_Id'],
 				"keys": ['Wohnviertel_Id', 'value'],
 				"states": {
@@ -106,104 +74,143 @@ for (i = 0; i < 3; i++) {
 						"borderColor": '#BADA55',
 						"brightness": 0
 					}
-				}, 
+				},
 				tooltip: {
-					pointFormatter: function(){
+					pointFormatter: function () {
 						//console.log(this);
-						return this.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.value),2) + '</b><br/>';
+						return this.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.value), 2) + '</b><br/>';
 					}
 				}
-			}, 
+			},
 			{
 				"visible": false
 			}
 		],
 		chart: {
 			events: {
-	            load: function (e) {
-	            	
-	            	this.credits.element.onclick = function() {};
+				load: function (e) {
+					console.log(this.legend);
+					//legend positioning
+					var lx = this.legend.options.x, //230
+						ly = this.legend.options.y, //250
 
-	                var chart = this;
-	                var fn = this.options.customFunctions;
-	                //define new Highcharts template "mappie"
+						tr = 2, //number of title rows
+						lht = 15, //line-height title
+						lhc = 25, //line-height circles
+						col_pos = '#FABD24',
+						col_neg = '#FFDA80',
+						lh = this.legend.legendHeight + tr * lht + 5, //background height 
+						lcw = this.legend.legendWidth + 3, //background width choropleth block
+						sox = this.legend.legendWidth + 30, //x-offset symbol block
+						lsw = this.chartWidth - lx - this.legend.legendWidth - 30; //background width symbol block
+
+
+					var lp = { //legendPosition 
+						blockChoropleth: {
+							x: lx + 15,
+							y: ly - (tr * lht),
+							ty: [ly - lht, ly - 2 * lht, ly - 3 * lht],
+							tx: lx + 15,
+						},
+						blockSymbol: {
+							x: lx + sox,
+							cx: lx + sox + 13, //circles x
+							cy: [ly + 3 + lhc, ly + 3 + 2 * lhc, ly + 3 + 3 * lhc], //circles y
+							nx: lx + 230, //numbers x
+							ny: [ly + 17, ly + 17 + lhc, ly + 17 + 2 * lhc], //numbers y
+							tx: lx + sox
+						}
+					};
+
+					/*lp.blockSymbol.nx = lp.blockSymbol.x[0] + 90;
+					lp.blockSymbol.title.x = lp.blockSymbol.x[0] - 10;
+					var i;
+					for (i = 0; i < 3; i++) {
+						//lp.blockChoropleth.title.y[i] -= lp.blockChoropleth.y;
+					};
+*/
+					this.credits.element.onclick = function () { };
+
+					var chart = this;
+					var fn = this.options.customFunctions;
+					//define new Highcharts template "mappie"
 					fn.defineTemplate();
-					
+
 					var choroplethSeries = chart.series[1];
 					var pieSizeSeries = chart.series[2];
-					
+
 					//pie diameters in px
 					var maxPieDiameter = 20;
-					
+
 					//configuration of categorical pie sizes
-					var pieSizeCatConfig = 
-					[
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
-							from: 0,
-							to: 29.999, 
-							diameter: 5
-						},
-						{
-							name: ' 30,0 − 59,9',
-							from: 30,
-							to: 59.999,
-							diameter: 10
-						},
-						{
-							name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
-							from: 60,							
-							to: 1000000000,
-							diameter: 20
-						}
-					];
-					
+					var pieSizeCatConfig =
+						[
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 < 30,0",
+								from: 0,
+								to: 29.999,
+								diameter: 5
+							},
+							{
+								name: ' 30,0 − 59,9',
+								from: 30,
+								to: 59.999,
+								diameter: 10
+							},
+							{
+								name: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 ≥  60,0",
+								from: 60,
+								to: 1000000000,
+								diameter: 20
+							}
+						];
+
 					//define different colors for positive and negative values
-	                var color = function(value){
-	                	return (value >= 0) ? '#FABD24' : 'FFDA80';
-	                };					
-					
+					var color = function (value) {
+						return (value >= 0) ? col_pos : col_neg;
+					};
+
 					//define chart-specific details
-					var pieSeriesConfig = function(data, correspondingMapSeriesItem, color){
+					var pieSeriesConfig = function (data, correspondingMapSeriesItem, color) {
 						return {
-	                        sizeFormatter: function () {
-	                            var fn = this.chart.options.customFunctions;
+							sizeFormatter: function () {
+								var fn = this.chart.options.customFunctions;
 								//return fn.pieSize(Math.abs(data.value), fn.getPointsExtremes(pieSizeSeries.points).maxAbsNumber, maxPieDiameter); 
 								return fn.pieSizeCategorical(Math.abs(data.value), pieSizeCatConfig).diameter;
-	                        },
-	                        tooltip: {
-	                            pointFormatter: function () {
-	                            	return correspondingMapSeriesItem.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.v),0) + '</b><br/>';
-	                            }
-	                        }
-	                    };
+							},
+							tooltip: {
+								pointFormatter: function () {
+									return correspondingMapSeriesItem.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.v), 0) + '</b><br/>';
+								}
+							}
+						};
 					};
-					
+
 					//put the pies / bubbles on the map
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
-	                //Add manually drawn legend
-	                fn.addLegendRectangle(chart, 250, 210, 100, 120, '#fbfbfb');
-	                fn.addLegendRectangle(chart, 355, 210, 125, 120, '#fbfbfb');
+					//Add manually drawn legend
+					fn.addLegendRectangle(chart, lp.blockChoropleth.x, lp.blockChoropleth.y, lcw, lh, '#fbfbfb');
+					fn.addLegendRectangle(chart, lp.blockSymbol.x, lp.blockChoropleth.y, lsw, lh, '#fbfbfb');
 
-	        		fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), legendPosition.blockChoropleth.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), legendPosition.blockSymbol.title.x, legendPosition.blockChoropleth.title.y[1]);
-	                
-	               	fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[0], 0.5*pieSizeCatConfig[0].diameter, '#FABD24');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[0], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[1], 0.5*pieSizeCatConfig[1].diameter, '#FABD24');
-	                fn.addLegendLabel(chart, pieSizeCatConfig[1].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[1], undefined, false, 'right');
-	                fn.addLegendCircle(chart, legendPosition.blockSymbol.x[0], legendPosition.blockSymbol.y3C[2], 0.5*pieSizeCatConfig[2].diameter, '#FABD24');
-					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, legendPosition.blockSymbol.numbers.x, legendPosition.blockSymbol.numbers.y3C[2], undefined, false, 'right');
-					
-					//fn.addLegendSquare(chart, 565, 240, 10, '#7F5F1A');
+					fn.addLegendTitle(chart, choroplethSeries.name.replace("ngs", "ngs-<br/>"), lp.blockChoropleth.tx, lp.blockChoropleth.ty[1]);
+					fn.addLegendTitle(chart, pieSizeSeries.name.replace("ende ", "ende<br/>"), lp.blockSymbol.x, lp.blockChoropleth.ty[1]);
+
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[0], 0.5 * pieSizeCatConfig[0].diameter, col_pos);
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[1], 0.5 * pieSizeCatConfig[1].diameter, col_pos);
+					fn.addLegendCircle(chart, lp.blockSymbol.cx, lp.blockSymbol.cy[2], 0.5 * pieSizeCatConfig[2].diameter, col_pos);
+					fn.addLegendLabel(chart, pieSizeCatConfig[0].name, lp.blockSymbol.nx, lp.blockSymbol.ny[0], undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[1].name, lp.blockSymbol.nx, lp.blockSymbol.ny[1], undefined, false, 'right');
+					fn.addLegendLabel(chart, pieSizeCatConfig[2].name, lp.blockSymbol.nx, lp.blockSymbol.ny[2], undefined, false, 'right');
+
+					//fn.addLegendSquare(chart, 565, 240, 10, col_neg);
 					//fn.addLegendLabel(chart, 'Zunahme', 580, 236);
-					//fn.addLegendSquare(chart, 565, 256, 10, '#FABD24');
+					//fn.addLegendSquare(chart, 565, 256, 10, col_pos);
 					//fn.addLegendLabel(chart, 'Abnahme', 580, 252);
-				
+
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart, '#cccccc');
-	            }
+				}
 			}
 		}
 	};
