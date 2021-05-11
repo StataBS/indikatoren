@@ -30,14 +30,14 @@
       tooltip: {
         useHTML: true,
         
-        pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-          '<span>An Verkehrsunfällen beteiligte {point.name}:<b>  {point.z}</b></span>' + 
+        pointFormat: ' <span style="font-size: 10px"> Unfallort: {point.ort}</span><br/>' +
+          '<span style="color:{point.color}">\u25CF</span><span> An Verkehrsunfällen beteiligte {point.name}:<b>  {point.z}</b></span>' + 
           '<span style="font-size: 10px"><br/>(Pro Unfall sind Mehrfachnennungen möglich)</span>'
       },
       data: {
         seriesMapping: [
           //bubble series
-          { x: 1, y: 2, z: 3, name: 0, color: 4 }
+          { x: 1, y: 2, z: 3, name: 0, ort: 4, color: 5 }
         ],
         parsed: function (columns) {
           //define colors by entry in first column

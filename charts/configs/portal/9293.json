@@ -7,6 +7,7 @@
           "y": 5,
           "z": 320,
           "name": "Autos",
+          "ort": "Kreuzung",
           "color": "rgb(176, 0, 0)"
         },
         {
@@ -14,6 +15,7 @@
           "y": 4,
           "z": 118,
           "name": "Autos",
+          "ort": "Gabelung",
           "color": "rgb(176, 0, 0)"
         },
         {
@@ -21,6 +23,7 @@
           "y": 3,
           "z": 57,
           "name": "Autos",
+          "ort": "Platz",
           "color": "rgb(176, 0, 0)"
         },
         {
@@ -28,6 +31,7 @@
           "y": 2,
           "z": 16,
           "name": "Autos",
+          "ort": "Brücke",
           "color": "rgb(176, 0, 0)"
         },
         {
@@ -35,6 +39,7 @@
           "y": 1,
           "z": 277,
           "name": "Autos",
+          "ort": "Anderer Ort",
           "color": "rgb(176, 0, 0)"
         },
         {
@@ -42,6 +47,7 @@
           "y": 5,
           "z": 56,
           "name": "Motorräder",
+          "ort": "Kreuzung",
           "color": "rgb(43, 0, 153)"
         },
         {
@@ -49,6 +55,7 @@
           "y": 4,
           "z": 20,
           "name": "Motorräder",
+          "ort": "Gabelung",
           "color": "rgb(43, 0, 153)"
         },
         {
@@ -56,6 +63,7 @@
           "y": 3,
           "z": 5,
           "name": "Motorräder",
+          "ort": "Platz",
           "color": "rgb(43, 0, 153)"
         },
         {
@@ -63,6 +71,7 @@
           "y": 2,
           "z": 2,
           "name": "Motorräder",
+          "ort": "Brücke",
           "color": "rgb(43, 0, 153)"
         },
         {
@@ -70,6 +79,7 @@
           "y": 1,
           "z": 35,
           "name": "Motorräder",
+          "ort": "Anderer Ort",
           "color": "rgb(43, 0, 153)"
         },
         {
@@ -77,6 +87,7 @@
           "y": 5,
           "z": 168,
           "name": "Velos",
+          "ort": "Kreuzung",
           "color": "rgb(250, 189, 36)"
         },
         {
@@ -84,6 +95,7 @@
           "y": 4,
           "z": 79,
           "name": "Velos",
+          "ort": "Gabelung",
           "color": "rgb(250, 189, 36)"
         },
         {
@@ -91,6 +103,7 @@
           "y": 3,
           "z": 29,
           "name": "Velos",
+          "ort": "Platz",
           "color": "rgb(250, 189, 36)"
         },
         {
@@ -98,6 +111,7 @@
           "y": 2,
           "z": 18,
           "name": "Velos",
+          "ort": "Brücke",
           "color": "rgb(250, 189, 36)"
         },
         {
@@ -105,6 +119,7 @@
           "y": 1,
           "z": 186,
           "name": "Velos",
+          "ort": "Anderer Ort",
           "color": "rgb(250, 189, 36)"
         },
         {
@@ -112,6 +127,7 @@
           "y": 5,
           "z": 46,
           "name": "Trams",
+          "ort": "Kreuzung",
           "color": "rgb(68, 171, 43)"
         },
         {
@@ -119,6 +135,7 @@
           "y": 4,
           "z": 14,
           "name": "Trams",
+          "ort": "Gabelung",
           "color": "rgb(68, 171, 43)"
         },
         {
@@ -126,6 +143,7 @@
           "y": 3,
           "z": 12,
           "name": "Trams",
+          "ort": "Platz",
           "color": "rgb(68, 171, 43)"
         },
         {
@@ -133,6 +151,7 @@
           "y": 2,
           "z": 4,
           "name": "Trams",
+          "ort": "Brücke",
           "color": "rgb(68, 171, 43)"
         },
         {
@@ -140,6 +159,7 @@
           "y": 1,
           "z": 49,
           "name": "Trams",
+          "ort": "Anderer Ort",
           "color": "rgb(68, 171, 43)"
         },
         {
@@ -147,6 +167,7 @@
           "y": 5,
           "z": 12,
           "name": "Fuhrwerke",
+          "ort": "Kreuzung",
           "color": "rgb(8, 161, 217)"
         },
         {
@@ -154,6 +175,7 @@
           "y": 4,
           "z": 6,
           "name": "Fuhrwerke",
+          "ort": "Gabelung",
           "color": "rgb(8, 161, 217)"
         },
         {
@@ -161,6 +183,7 @@
           "y": 3,
           "z": 3,
           "name": "Fuhrwerke",
+          "ort": "Platz",
           "color": "rgb(8, 161, 217)"
         },
         {
@@ -168,6 +191,7 @@
           "y": 2,
           "z": 2,
           "name": "Fuhrwerke",
+          "ort": "Brücke",
           "color": "rgb(8, 161, 217)"
         },
         {
@@ -175,6 +199,7 @@
           "y": 1,
           "z": 24,
           "name": "Fuhrwerke",
+          "ort": "Anderer Ort",
           "color": "rgb(8, 161, 217)"
         },
         {
@@ -182,6 +207,7 @@
           "y": 5,
           "z": 38,
           "name": "Passanten",
+          "ort": "Kreuzung",
           "color": "rgb(255, 128, 40)"
         },
         {
@@ -189,6 +215,7 @@
           "y": 4,
           "z": 19,
           "name": "Passanten",
+          "ort": "Gabelung",
           "color": "rgb(255, 128, 40)"
         },
         {
@@ -196,6 +223,7 @@
           "y": 3,
           "z": 18,
           "name": "Passanten",
+          "ort": "Platz",
           "color": "rgb(255, 128, 40)"
         },
         {
@@ -203,6 +231,7 @@
           "y": 2,
           "z": 4,
           "name": "Passanten",
+          "ort": "Brücke",
           "color": "rgb(255, 128, 40)"
         },
         {
@@ -210,6 +239,7 @@
           "y": 1,
           "z": 89,
           "name": "Passanten",
+          "ort": "Anderer Ort",
           "color": "rgb(255, 128, 40)"
         }
       ],
@@ -409,7 +439,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-11"
   },
   "legend": {
     "enabled": false,
@@ -418,7 +448,7 @@
   "tooltip": {
     "useHTML": true,
     "headerFormat": "\u003Ctable\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E \u003Cspan style=\"font-size: 10px\"\u003E {point.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan\u003EAn Verkehrsunfällen beteiligte {point.name}:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 10px\"\u003E\u003Cbr\u002F\u003E(Pro Unfall sind Mehrfachnennungen möglich)\u003C\u002Fspan\u003E",
+    "pointFormat": " \u003Cspan style=\"font-size: 10px\"\u003E Unfallort: {point.ort}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E\u003Cspan\u003E An Verkehrsunfällen beteiligte {point.name}:\u003Cb\u003E  {point.z}\u003C\u002Fb\u003E\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 10px\"\u003E\u003Cbr\u002F\u003E(Pro Unfall sind Mehrfachnennungen möglich)\u003C\u002Fspan\u003E",
     "footerFormat": "\u003C\u002Ftable\u003E",
     "followPointer": true
   },

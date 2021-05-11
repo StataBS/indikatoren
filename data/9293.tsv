@@ -1,31 +1,31 @@
-Verkehrsmittel	x	y	z
-Autos	1	5	320
-Autos	1	4	118
-Autos	1	3	57
-Autos	1	2	16
-Autos	1	1	277
-Motorräder	2	5	56
-Motorräder	2	4	20
-Motorräder	2	3	5
-Motorräder	2	2	2
-Motorräder	2	1	35
-Velos	3	5	168
-Velos	3	4	79
-Velos	3	3	29
-Velos	3	2	18
-Velos	3	1	186
-Trams	4	5	46
-Trams	4	4	14
-Trams	4	3	12
-Trams	4	2	4
-Trams	4	1	49
-Fuhrwerke	5	5	12
-Fuhrwerke	5	4	6
-Fuhrwerke	5	3	3
-Fuhrwerke	5	2	2
-Fuhrwerke	5	1	24
-Passanten	6	5	38
-Passanten	6	4	19
-Passanten	6	3	18
-Passanten	6	2	4
-Passanten	6	1	89
+Verkehrsmittel	x	y	z	ort
+Autos	1	5	320	Kreuzung
+Autos	1	4	118	Gabelung
+Autos	1	3	57	Platz
+Autos	1	2	16	Brücke
+Autos	1	1	277	Anderer Ort
+Motorräder	2	5	56	Kreuzung
+Motorräder	2	4	20	Gabelung
+Motorräder	2	3	5	Platz
+Motorräder	2	2	2	Brücke
+Motorräder	2	1	35	Anderer Ort
+Velos	3	5	168	Kreuzung
+Velos	3	4	79	Gabelung
+Velos	3	3	29	Platz
+Velos	3	2	18	Brücke
+Velos	3	1	186	Anderer Ort
+Trams	4	5	46	Kreuzung
+Trams	4	4	14	Gabelung
+Trams	4	3	12	Platz
+Trams	4	2	4	Brücke
+Trams	4	1	49	Anderer Ort
+Fuhrwerke	5	5	12	Kreuzung
+Fuhrwerke	5	4	6	Gabelung
+Fuhrwerke	5	3	3	Platz
+Fuhrwerke	5	2	2	Brücke
+Fuhrwerke	5	1	24	Anderer Ort
+Passanten	6	5	38	Kreuzung
+Passanten	6	4	19	Gabelung
+Passanten	6	3	18	Platz
+Passanten	6	2	4	Brücke
+Passanten	6	1	89	Anderer Ort
