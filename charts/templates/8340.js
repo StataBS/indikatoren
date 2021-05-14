@@ -1,10 +1,23 @@
 (function(){
     return {
+        "legend": {
+            "enabled": true,
+            "layout": "horizontal",
+            "verticalAlign": "top",
+            "itemMarginBottom": 5,
+            "align": "left",
+            itemWidth: 200,
+  width: 400,
+  itemStyle: {
+    textOverflow: "none",
+    whiteSpace: "nowrap"
+  }
+          },
     series: [
         {
             color: "#FFDA80",
             index: 0,
-            legendIndex: 0 
+            legendIndex: 2 
         },
         {
             color: "#CD9C00",
@@ -19,7 +32,7 @@
         {
             color: "#007A2F",
             index: 2,
-            legendIndex: 2
+            legendIndex: 0
         }/*,
         {
             color: "#E7CEE2",

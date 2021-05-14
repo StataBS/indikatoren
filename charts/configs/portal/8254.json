@@ -6,30 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2014: M (N=378)",
-          179
-        ],
-        [
-          "2014: F (N=76)",
-          42
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          189
-        ],
-        [
-          "2015: F (N=75)",
-          38
-        ],
-        [
-          "  ",
-          null
-        ],
-        [
           "2016: M (N=392)",
           221
         ],
@@ -72,6 +48,18 @@
         [
           "2019: F (N=94)",
           59
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          167
+        ],
+        [
+          "2020: F (N=96)",
+          50
         ]
       ],
       "name": "1 bis 7 Nächte",
@@ -82,30 +70,6 @@
       "index": 4,
       "legendIndex": 1,
       "data": [
-        [
-          "2014: M (N=378)",
-          41
-        ],
-        [
-          "2014: F (N=76)",
-          8
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          18
-        ],
-        [
-          "2015: F (N=75)",
-          8
-        ],
-        [
-          "  ",
-          null
-        ],
         [
           "2016: M (N=392)",
           44
@@ -149,6 +113,18 @@
         [
           "2019: F (N=94)",
           3
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          33
+        ],
+        [
+          "2020: F (N=96)",
+          9
         ]
       ],
       "name": "8 bis 14 Nächte",
@@ -159,30 +135,6 @@
       "index": 3,
       "legendIndex": 2,
       "data": [
-        [
-          "2014: M (N=378)",
-          56
-        ],
-        [
-          "2014: F (N=76)",
-          3
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          40
-        ],
-        [
-          "2015: F (N=75)",
-          9
-        ],
-        [
-          "  ",
-          null
-        ],
         [
           "2016: M (N=392)",
           37
@@ -226,6 +178,18 @@
         [
           "2019: F (N=94)",
           6
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          54
+        ],
+        [
+          "2020: F (N=96)",
+          11
         ]
       ],
       "name": "15 bis 30 Nächte",
@@ -236,30 +200,6 @@
       "index": 2,
       "legendIndex": 3,
       "data": [
-        [
-          "2014: M (N=378)",
-          25
-        ],
-        [
-          "2014: F (N=76)",
-          7
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          26
-        ],
-        [
-          "2015: F (N=75)",
-          6
-        ],
-        [
-          "  ",
-          null
-        ],
         [
           "2016: M (N=392)",
           29
@@ -303,6 +243,18 @@
         [
           "2019: F (N=94)",
           7
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          35
+        ],
+        [
+          "2020: F (N=96)",
+          9
         ]
       ],
       "name": "31 bis 60 Nächte",
@@ -313,30 +265,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          "2014: M (N=378)",
-          37
-        ],
-        [
-          "2014: F (N=76)",
-          8
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          35
-        ],
-        [
-          "2015: F (N=75)",
-          6
-        ],
-        [
-          "  ",
-          null
-        ],
         [
           "2016: M (N=392)",
           34
@@ -380,6 +308,18 @@
         [
           "2019: F (N=94)",
           9
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          49
+        ],
+        [
+          "2020: F (N=96)",
+          9
         ]
       ],
       "name": "61 bis 150 Nächte",
@@ -390,30 +330,6 @@
       "index": 0,
       "legendIndex": 5,
       "data": [
-        [
-          "2014: M (N=378)",
-          40
-        ],
-        [
-          "2014: F (N=76)",
-          8
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2015: M (N=342)",
-          34
-        ],
-        [
-          "2015: F (N=75)",
-          8
-        ],
-        [
-          "  ",
-          null
-        ],
         [
           "2016: M (N=392)",
           27
@@ -457,6 +373,18 @@
         [
           "2019: F (N=94)",
           10
+        ],
+        [
+          "      ",
+          undefined
+        ],
+        [
+          "2020: M (N=359)",
+          21
+        ],
+        [
+          "2020: F (N=96)",
+          8
         ]
       ],
       "name": "\u003E150 Nächte",
@@ -477,7 +405,8 @@
     "labels": {
       "style": {
         "color": "#000000"
-      }
+      },
+      "rotation": -90
     }
   },
   "chart": {
@@ -535,7 +464,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten"
+    "text": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -596,13 +525,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8254
+    "filename": "8254"
   }
 }

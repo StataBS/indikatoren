@@ -2,7 +2,7 @@
   "series": [
     {
       "color": "#662673",
-      "index": 9,
+      "index": 4,
       "legendIndex": 0,
       "data": [
         [
@@ -20,6 +20,10 @@
         [
           "2019",
           452
+        ],
+        [
+          "2020",
+          400
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -27,8 +31,8 @@
     },
     {
       "color": "#B375AB",
-      "index": 8,
-      "legendIndex": 1,
+      "index": 3,
+      "legendIndex": 0,
       "data": [
         [
           "2016",
@@ -45,6 +49,10 @@
         [
           "2019",
           201
+        ],
+        [
+          "2020",
+          196
         ]
       ],
       "name": "Ehepaare ohne Kinder",
@@ -52,8 +60,8 @@
     },
     {
       "color": "#FFBB58",
-      "index": 7,
-      "legendIndex": 2,
+      "index": 2,
+      "legendIndex": 0,
       "data": [
         [
           "2016",
@@ -70,6 +78,10 @@
         [
           "2019",
           890
+        ],
+        [
+          "2020",
+          830
         ]
       ],
       "name": "Einelternfamilien",
@@ -77,8 +89,8 @@
     },
     {
       "color": "#A8C3CA",
-      "index": 6,
-      "legendIndex": 3,
+      "index": 1,
+      "legendIndex": 0,
       "data": [
         [
           "2016",
@@ -95,6 +107,10 @@
         [
           "2019",
           3860
+        ],
+        [
+          "2020",
+          3909
         ]
       ],
       "name": "Einzelpersonen",
@@ -102,8 +118,8 @@
     },
     {
       "color": "#8A8A8A",
-      "index": 10,
-      "legendIndex": 0,
+      "index": 0,
+      "legendIndex": 5,
       "data": [
         [
           "2016",
@@ -119,6 +135,10 @@
         ],
         [
           "2019",
+          1
+        ],
+        [
+          "2020",
           1
         ]
       ],
@@ -227,17 +247,23 @@
       },
       "format": "{value:,.0f}"
     },
+    "tickInterval": 1000,
     "reversedStacks": false
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right"
+    "align": "left",
+    "itemWidth": 200,
+    "width": 400
   },
   "navigation": {
     "menuItemStyle": {
@@ -258,13 +284,14 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "\u003Cspan style=\"color: black\"\u003E●\u003C\u002Fspan\u003E Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8242
+    "filename": "8242"
   }
 }
