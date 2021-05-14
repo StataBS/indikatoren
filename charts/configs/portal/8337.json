@@ -3,7 +3,7 @@
     {
       "color": "#B375AB",
       "index": 1,
-      "legendIndex": 1,
+      "legendIndex": 6,
       "data": [
         [
           "2011",
@@ -40,6 +40,10 @@
         [
           "2019",
           3071
+        ],
+        [
+          "2020",
+          3133
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -48,7 +52,7 @@
     {
       "color": "#FFBB58",
       "index": 3,
-      "legendIndex": 3,
+      "legendIndex": 4,
       "data": [
         [
           "2011",
@@ -85,6 +89,10 @@
         [
           "2019",
           1569
+        ],
+        [
+          "2020",
+          1562
         ]
       ],
       "name": "Ehepaare ohne Kind",
@@ -93,7 +101,7 @@
     {
       "color": "#DC440E",
       "index": 2,
-      "legendIndex": 2,
+      "legendIndex": 5,
       "data": [
         [
           "2011",
@@ -130,6 +138,10 @@
         [
           "2019",
           1872
+        ],
+        [
+          "2020",
+          1915
         ]
       ],
       "name": "Einelternfamilien",
@@ -138,7 +150,7 @@
     {
       "color": "#A8C3CA",
       "index": 0,
-      "legendIndex": 0,
+      "legendIndex": 7,
       "data": [
         [
           "2011",
@@ -175,6 +187,10 @@
         [
           "2019",
           9267
+        ],
+        [
+          "2020",
+          9573
         ]
       ],
       "name": "Einzelpersonen",
@@ -183,7 +199,7 @@
     {
       "color": "#246370",
       "index": 4,
-      "legendIndex": 4,
+      "legendIndex": 2,
       "data": [
         [
           "2011",
@@ -220,6 +236,10 @@
         [
           "2019",
           382
+        ],
+        [
+          "2020",
+          388
         ]
       ],
       "name": "Konkubinatspaare mit Kindern",
@@ -228,7 +248,7 @@
     {
       "color": "#FF8028",
       "index": 5,
-      "legendIndex": 5,
+      "legendIndex": 1,
       "data": [
         [
           "2011",
@@ -265,6 +285,10 @@
         [
           "2019",
           88
+        ],
+        [
+          "2020",
+          86
         ]
       ],
       "name": "Konkubinatspaare ohne Kinder",
@@ -394,24 +418,28 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "legend": {
     "reversed": true,
-    "layout": "vertical",
-    "verticalAlign": "middle",
+    "layout": "horizontal",
+    "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "right",
+    "align": "left",
     "useHTML": false,
     "itemStyle": {
       "fontWeight": "normal",
       "width": 115,
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "symbolRadius": 0,
     "labelFormatter": function () {
             return this.name.replace('/ ', '/<br/>');
-        }
+        },
+    "enabled": true,
+    "itemWidth": 200,
+    "width": 400
   },
   "exporting": {
     "filename": "8337"

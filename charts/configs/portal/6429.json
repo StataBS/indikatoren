@@ -5,59 +5,59 @@
       "data": [
         [
           "0-4",
-          -7.48
+          -6.82
         ],
         [
           "5-9",
-          -8.78
+          -8.01
         ],
         [
           "10-14",
-          -7.35
-        ],
-        [
-          "15-19",
-          -6.81
-        ],
-        [
-          "20-24",
           -7.13
         ],
         [
+          "15-19",
+          -5.98
+        ],
+        [
+          "20-24",
+          -6.16
+        ],
+        [
           "25-29",
-          -6.54
+          -6.31
         ],
         [
           "30-34",
-          -6.24
+          -5.77
         ],
         [
           "35-39",
-          -6.49
+          -6.26
         ],
         [
           "40-44",
-          -7.54
+          -7.23
         ],
         [
           "45-49",
-          -7.16
+          -7.4
         ],
         [
           "50-54",
-          -7.16
+          -6.62
         ],
         [
           "55-59",
-          -7.27
+          -6.99
         ],
         [
           "60-64",
-          -4.41
+          -4.5
         ],
         [
           "65 u.m.",
-          -0.12
+          -0.08
         ]
       ],
       "name": "Männer",
@@ -68,55 +68,55 @@
       "data": [
         [
           "0-4",
-          7.97
+          7.95
         ],
         [
           "5-9",
-          8.34
+          7.57
         ],
         [
           "10-14",
-          6.73
+          6.66
         ],
         [
           "15-19",
-          6.47
+          6.07
         ],
         [
           "20-24",
-          4.92
+          4.5
         ],
         [
           "25-29",
-          5.23
+          4.47
         ],
         [
           "30-34",
-          5.7
+          5.56
         ],
         [
           "35-39",
-          6.09
+          6.11
         ],
         [
           "40-44",
-          5.6
+          5.29
         ],
         [
           "45-49",
-          5.85
+          5.7
         ],
         [
           "50-54",
-          4.39
+          4.5
         ],
         [
           "55-59",
-          4.97
+          4.94
         ],
         [
           "60-64",
-          1.7
+          2.09
         ],
         [
           "65 u.m.",
@@ -209,7 +209,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Sozialhilfequote der Schweizer"
+    "text": "Sozialhilfequote der Schweizer Bevölkerung"
   },
   "subtitle": {
     "style": {
@@ -218,7 +218,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht, Basel-Stadt, 2019",
+    "text": "nach Alter und Geschlecht, Basel-Stadt, 2020",
     "align": "left"
   },
   "yAxis": [
@@ -271,7 +271,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "legend": {
     "symbolRadius": 0,

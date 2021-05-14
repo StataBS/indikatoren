@@ -80,33 +80,33 @@ var indikatorensetData = [
 		"id": 8241
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8513"
+		],
+		"template": "template001",
 		"title": "Sozialhilfefälle nach Fallstruktur",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.13.3.08242",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
 		"kuerzelKunde": "1-04",
 		"description": "Sozialhilfefälle nach Fallstruktur",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-16T11:36:50.5050",
+		"aktualisierungsdatum": "2021-05-14T09:23:57.5757",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 71% der Ende 2018 registrierten Sozialhilfefälle handelt es sich um eine unterstützte Einzelperson. 17% sind Einelternfamilien und 9% Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 4% der Fälle aus.",
+		"lesehilfe": "Bei 3 909 (73%) der 5 336 Ende 2020 registrierten Sozialhilfefälle handelt es sich um eine unterstützte Einzelperson. 830 (16%) sind Einelternfamilien und 400 (7%) Ehe- resp. Konkubinatspaare mit Kindern. Paare ohne Kinder machen 4% der Fälle aus.",
 		"erlaeuterungen": "Mit Ausnahme des Dossiertyps für Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) sind alle Dossiers berücksichtigt. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"8513"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -408,33 +408,34 @@ var indikatorensetData = [
 		"id": 8249
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8521",
+			"9298"
+		],
+		"template": "line001",
 		"title": "Beziehende von Ergänzungsleistungen und Beihilfen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "1-05",
 		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "13 Soziale Sicherheit",
+		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
+		"aktualisierungsdatum": "2021-05-14T09:24:02.022",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezug von EL und Beihilfen zur AHV hat in fast allen Jahren zugenommen. 2019 liegt die Anzahl Personen mit EL zur IV bei 6 929 und EL zur AHV bei 8 606. Beihilfen werden an 5 264 (IV) respektive 6 070 (AHV) Personen ausbezahlt.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"lesehilfe": "Der Bezug von Ergänzungsleistungen (EL) zur AHV geht nach kontinuierlichem Anstieg seit 2010 erstmals zurück, während jener der Beihilfen zu AHV weiter steigt. 2020 liegt die Anzahl Personen mit EL zur AHV bei 8 488. EL zur IV werden von 6 615 Personen in Anspruch genommen. Beihilfen werden an  6 205 (AHV) respektive 5 051 (IV) Personen ausbezahlt.",
+		"erlaeuterungen": "Referenzperiode: Dezember.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_105",
-		"parentId": null,
-		"children": [
-			"8521"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen"
@@ -529,33 +530,33 @@ var indikatorensetData = [
 		"id": 8252
 	},
 	{
-		"title": "In der Notschlafstelle Übernachtende nach Alter",
+		"parentId": null,
+		"children": [
+			"8524"
+		],
+		"template": "template001",
+		"title": "In den Notschlafstellen Übernachtende nach Alter",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "1-21",
-		"description": "In der Notschlafstelle Übernachtende nach Alter",
+		"description": "In den Notschlafstellen Übernachtende nach Alter",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
+		"aktualisierungsdatum": "2021-05-14T09:24:21.2121",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2019 insgesamt 17% aller Übernachtenden aus (2018: 16%). Die Gruppe der 41- bis 50-Jährigen ist mit 28% aller Nutzer die grösste. 9% sind älter als 60 Jahre.",
-		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal die Notschlafstelle genutzt haben.",
-		"template": "template001",
+		"lesehilfe": "Junge Erwachsene im Alter bis 25 Jahren machen 2020 insgesamt 11% aller Übernachtenden aus (2019: 17%). Gegenüber dem Vorjahr ist der Anteil der 31- bis 40-Jährigen von 21% auf 27% gestiegen, womit diese neu die Altersgruppe mit dem höchsten Anteil an Übernachtenden bilden.",
+		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal eine Notschlafstelle genutzt haben.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_121",
-		"parentId": null,
-		"children": [
-			"8524"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -570,33 +571,33 @@ var indikatorensetData = [
 		"id": 8253
 	},
 	{
-		"title": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
+		"parentId": null,
+		"children": [
+			"8525"
+		],
+		"template": "template001",
+		"title": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "",
 		"kuerzelKunde": "1-22",
-		"description": "In der Notschlafstelle Übernachtende nach Geschlecht und Anzahl Nächten",
-		"thema": "13 Soziale Sicherheit",
+		"description": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten",
+		"thema": "50 Befragungen",
 		"unterthema": "",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:36.3636",
+		"aktualisierungsdatum": "2021-05-14T09:24:26.2626",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Notschlafstellen wurden 2019 von insgesamt 323 unterschiedlichen Männern und 94 Frauen genutzt. Von den Männern haben 63% weniger als 8 Nächte in der Notschlafstelle verbracht, von den Frauen sind es 49%. 20% aller Frauen und 22% aller Männer haben im Verlaufe des Jahres 2019 mehr als 60 Nächte in der Notschlafstelle verbracht.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"lesehilfe": "Die Notschlafstellen wurden 2020 von insgesamt 359 unterschiedlichen Männern und 96 verschiedenen Frauen genutzt. Von den Männern haben 47% weniger als 8 Nächte in der Notschlafstelle verbracht, bei den Frauen sind es 52%. 21 Männer sowie 8 Frauen haben im Verlauf des Jahres 2020 mehr als 150 Nächte in der Notschlafstelle verbracht.",
+		"erlaeuterungen": "Personen, die innerhalb des betreffenden Jahres mindestens einmal eine Notschlafstelle genutzt haben.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_122",
-		"parentId": null,
-		"children": [
-			"8525"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen"
@@ -1593,33 +1594,33 @@ var indikatorensetData = [
 		"id": 8280
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8552"
+		],
+		"template": "mappie001",
 		"title": "Sozialhilfequote der Minderjährigen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.3.08281",
 		"kuerzelKunde": "2-03",
 		"description": "Sozialhilfequote der Minderjährigen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:38.3838",
+		"aktualisierungsdatum": "2021-05-14T09:24:30.3030",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 25,2% ist im Klybeck jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebeziehender an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
-		"template": "mappie001",
+		"lesehilfe": "Mit 23,3% ist im Klybeck beinahe jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_203",
-		"parentId": null,
-		"children": [
-			"8552"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2984,33 +2985,33 @@ var indikatorensetData = [
 		"id": 8335
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8607"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08336",
 		"kuerzelKunde": "1-14",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
+		"aktualisierungsdatum": "2021-05-14T09:24:06.066",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von den 16&nbsp249 Haushalten, die Ende 2019 reine Prämienverbilligungen beziehen, handelt es sich um 9&nbsp034 rein schweizerische und 5&nbsp895 rein ausländische Haushalte. 1&nbsp320 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d.&nbsph. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Von den 16 657 Haushalten, die Ende 2020 reine Prämienverbilligungen beziehen, handelt es sich um 9 105 rein schweizerische und 6 217 rein ausländische Haushalte. 1 335 Haushalte bestehen aus Personen mit sowohl schweizerischer als auch ausländischer Staatsangehörigkeit.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (d. h. ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_114",
-		"parentId": null,
-		"children": [
-			"8607"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3025,33 +3026,33 @@ var indikatorensetData = [
 		"id": 8336
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8608"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08337",
 		"kuerzelKunde": "1-15",
 		"description": "Haushalte mit reinen Prämienverbilligungen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
+		"aktualisierungsdatum": "2021-05-14T09:24:11.1111",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 16&nbsp249 Haushalte reine Prämienverbilligungen. Mit 57% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 19% die zweitgrösste Gruppe.",
-		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Ende 2020 beziehen 16 657 Haushalte reine Prämienverbilligungen. Mit 57,5% handelt es sich bei mehr als der Hälfte der Haushalte um Einzelpersonen. Ehepaare mit Kindern stellen mit einem Anteil von 18,8% die zweitgrösste Gruppe.",
+		"erlaeuterungen": "Es werden alle Haushalte mit mindestens einer Person mit reinen Prämienverbilligungen (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe) gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_115",
-		"parentId": null,
-		"children": [
-			"8608"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"
@@ -3144,33 +3145,33 @@ var indikatorensetData = [
 		"id": 8339
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8611"
+		],
+		"template": "befragungenProzent001",
 		"title": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.13.2.08340",
 		"kuerzelKunde": "1-18",
 		"description": "Haushalte mit Familienmietzinsbeiträgen nach Haushaltstyp",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:39.3939",
+		"aktualisierungsdatum": "2021-05-14T09:24:16.1616",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 beziehen 2&nbsp287 Haushalte Familienmietzinsbeiträge. Bei 62% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 32% der Haushalte aus, 6% sind Konkubinatspaare mit Kindern.",
-		"erlaeuterungen": "",
-		"template": "befragungenProzent001",
+		"lesehilfe": "Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Bei 60,6% der unterstützten Familien handelt es sich um Ehepaare mit Kindern. Einelternfamilien machen einen Anteil von 33,5% der Haushalte aus, 5,9% sind Konkubinatspaare mit Kindern.",
+		"erlaeuterungen": "Stichtag: 31. Dezember.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_02_00_00_00_118",
-		"parentId": null,
-		"children": [
-			"8611"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Basler Informationssystem Sozialleistungen (BISS)"

@@ -43,6 +43,10 @@
         [
           2019,
           6929
+        ],
+        [
+          2020,
+          6615
         ]
       ],
       "name": "EL zur IV"
@@ -90,6 +94,10 @@
         [
           2019,
           5264
+        ],
+        [
+          2020,
+          5051
         ]
       ],
       "name": "Beihilfen zur IV"
@@ -137,6 +145,10 @@
         [
           2019,
           8606
+        ],
+        [
+          2020,
+          8488
         ]
       ],
       "name": "EL zur AHV"
@@ -184,6 +196,10 @@
         [
           2019,
           6070
+        ],
+        [
+          2020,
+          6205
         ]
       ],
       "name": "Beihilfen zur AHV"
@@ -313,7 +329,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Ergänzungsleistungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -1,207 +1,12 @@
 {
   "series": [
     {
-      "color": "#923F8D",
-      "data": [
-        [
-          "Altstadt Grossbasel",
-          0.0125047366
-        ],
-        [
-          "Bettingen",
-          0.0151898734
-        ],
-        [
-          "Bruderholz",
-          0.0187361067
-        ],
-        [
-          "Bachletten",
-          0.0231061714
-        ],
-        [
-          "Wettstein",
-          0.0278884462
-        ],
-        [
-          "Am Ring",
-          0.0313189237
-        ],
-        [
-          "Riehen",
-          0.0328095479
-        ],
-        [
-          "St. Alban",
-          0.0343504944
-        ],
-        [
-          "Vorstädte",
-          0.0356506239
-        ],
-        [
-          "Gotthelf",
-          0.0386586616
-        ],
-        [
-          "Hirzbrunnen",
-          0.0484894097
-        ],
-        [
-          "Breite",
-          0.0546900895
-        ],
-        [
-          "Gundeldingen",
-          0.0623445356
-        ],
-        [
-          "Altstadt Kleinbasel",
-          0.0654515327
-        ],
-        [
-          "Rosental",
-          0.0776876798
-        ],
-        [
-          "St. Johann",
-          0.0796030518
-        ],
-        [
-          "Clara",
-          0.0837026096
-        ],
-        [
-          "Iselin",
-          0.0913255418
-        ],
-        [
-          "Matthäus",
-          0.1109538818
-        ],
-        [
-          "Kleinhüningen",
-          0.1146315415
-        ],
-        [
-          "Klybeck",
-          0.1264416315
-        ]
-      ],
-      "name": "Sozialhilfequote",
-      "turboThreshold": 0
+      "color": "#923F8D"
     },
     {
-      "visible": false,
-      "data": [
-        [
-          "Altstadt Grossbasel",
-          1
-        ],
-        [
-          "Bettingen",
-          2
-        ],
-        [
-          "Bruderholz",
-          3
-        ],
-        [
-          "Bachletten",
-          4
-        ],
-        [
-          "Wettstein",
-          5
-        ],
-        [
-          "Am Ring",
-          6
-        ],
-        [
-          "Riehen",
-          7
-        ],
-        [
-          "St. Alban",
-          8
-        ],
-        [
-          "Vorstädte",
-          9
-        ],
-        [
-          "Gotthelf",
-          10
-        ],
-        [
-          "Hirzbrunnen",
-          11
-        ],
-        [
-          "Breite",
-          12
-        ],
-        [
-          "Gundeldingen",
-          13
-        ],
-        [
-          "Altstadt Kleinbasel",
-          14
-        ],
-        [
-          "Rosental",
-          15
-        ],
-        [
-          "St. Johann",
-          16
-        ],
-        [
-          "Clara",
-          17
-        ],
-        [
-          "Iselin",
-          18
-        ],
-        [
-          "Matthäus",
-          19
-        ],
-        [
-          "Kleinhüningen",
-          20
-        ],
-        [
-          "Klybeck",
-          21
-        ]
-      ],
-      "name": "Rang",
-      "turboThreshold": 0
+      "visible": false
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000",
-        "fontSize": "10px"
-      }
-    },
-    "tickLength": 0,
-    "tickInterval": 1
-  },
   "chart": {
     "events": {
       "load": function() {
@@ -289,6 +94,25 @@
     },
     "min": 0
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "fontSize": "10px"
+      }
+    },
+    "tickLength": 0,
+    "tickInterval": 1,
+    "type": "category",
+    "uniqueNames": true
+  },
   "credits": {
     "enabled": true,
     "style": {
@@ -302,7 +126,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
   },
   "legend": {
     "enabled": false,

@@ -6,7 +6,10 @@
     }
   },
   "xAxis": {
-    "type": "category"
+    "type": "category",
+       labels: {
+        rotation: -90
+      }
   },
   "yAxis": {
     "tickInterval":20,
