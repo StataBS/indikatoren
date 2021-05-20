@@ -300,36 +300,34 @@ var indikatorensetData = [
 		"id": 6379
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6392"
+		],
+		"template": "mappie001",
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
 		"kuerzel": "I.13.3.06380",
 		"kuerzelKunde": "C13-1",
 		"description": "Sozialhilfequote und Sozialhilfebeziehende",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Gefragte Karten",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
+		"aktualisierungsdatum": "2021-05-20T08:05:27.2727",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,2% auf. In Bettingen und im Wohnviertel Bruderholz (je 1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 13,6% respektive 11,4% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebeziehender an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "mappie001",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,3% auf. In Bettingen (1,5%) und im Wohnviertel Bruderholz (1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,6% respektive 11,5% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"6392"
-		],
-		"renderLink": [
-			"6392"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],
@@ -807,37 +805,35 @@ var indikatorensetData = [
 		"id": 6391
 	},
 	{
-		"title": "Sozialhilfequote und Sozialhilfebeziehende",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.13.3.06392",
-		"kuerzelKunde": "K13-1",
-		"description": "Sozialhilfequote und Sozialhilfebeziehende",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-06-05T15:49:08.088",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,2% auf. In Bettingen und im Wohnviertel Bruderholz (je 1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 13,6% respektive 11,4% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Anzahl Sozialhilfebeziehender an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_010",
 		"parentId": 6380,
 		"children": [
 			"8241",
 			"8512"
 		],
-		"renderLink": [
-			"6380"
+		"template": "mappie001",
+		"title": "Sozialhilfequote und Sozialhilfebeziehende",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzel": "I.13.3.06392",
+		"kuerzelKunde": "K13-1",
+		"description": "Sozialhilfequote und Sozialhilfebeziehende",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"aktualisierungsdatum": "2021-05-20T08:05:30.3030",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,3% auf. In Bettingen (1,5%) und im Wohnviertel Bruderholz (1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,6% respektive 11,5% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"orderKey": "01_00_00_00_00_010",
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
 		],

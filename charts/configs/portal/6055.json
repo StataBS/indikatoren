@@ -63,6 +63,10 @@
         [
           2019,
           4269
+        ],
+        [
+          2020,
+          4373
         ]
       ],
       "name": "Tagesbetreuung"
@@ -130,6 +134,10 @@
         [
           2019,
           512
+        ],
+        [
+          2020,
+          536
         ]
       ],
       "name": "Frühhorte Tagesstrukturen"
@@ -197,6 +205,10 @@
         [
           2019,
           3183
+        ],
+        [
+          2020,
+          3463
         ]
       ],
       "name": "Mittagsmodule Tagesstrukturen"
@@ -264,6 +276,10 @@
         [
           2019,
           2815
+        ],
+        [
+          2020,
+          3086
         ]
       ],
       "name": "Nachmittagsmodule Tagesstrukturen"
@@ -331,6 +347,10 @@
         [
           2019,
           222
+        ],
+        [
+          2020,
+          207
         ]
       ],
       "name": "Tagesferien"
@@ -462,7 +482,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

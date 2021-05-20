@@ -1,30 +1,30 @@
 var indikatorensetData = [
 	{
+		"parentId": 6173,
+		"children": [],
+		"template": "line001",
 		"title": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.13.2.02917",
 		"kuerzelKunde": "GW6",
 		"description": "Bezügerinnen und Bezüger von Prämienverbilligungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-15T18:08:55.5555",
+		"aktualisierungsdatum": "2021-05-20T08:05:28.2828",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 53 088 Beziehenden erhalten Ende 2019 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
+		"lesehilfe": "Mit 53 309 Beziehenden erhalten Ende 2020 etwas mehr als ein Viertel aller in Basel-Stadt wohnhaften Personen Prämienverbilligungen.",
 		"erlaeuterungen": "Die Anzahl Bezügerinnen und Bezüger von Prämienverbilligungen schliesst alle Beziehenden von Sozialhilfe und Ergänzungsleistungen mit ein.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_307",
-		"parentId": 6173,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge"
@@ -686,31 +686,31 @@ var indikatorensetData = [
 		"id": 5183
 	},
 	{
+		"parentId": 6182,
+		"children": [],
+		"template": "line001",
 		"title": "Sozialhilfequote nach Altersgruppe",
 		"subtitle": "Basel-Stadt (bis 2016 Stadt Basel)",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.13.2.05184",
 		"kuerzelKunde": "GW8",
 		"description": "Sozialhilfequote nach Altersgruppe",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T08:24:00.000",
+		"aktualisierungsdatum": "2021-05-20T08:05:29.2929",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Minderjährige weisen mit 11,9% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,9%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber dem Jahr 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige gestiegen. Bei den jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
-		"erlaeuterungen": "Unter Sozialhilfebeziehenden sind hier alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. Seit Anfang 2012 beruhen die Zahlen ab 2001 auf den Daten, welche die Sozialhilfe Basel im Jahr 2011 für das Management Information System (MIS) des WSU bereinigt und aufbereitet hat. <br>Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. <br>Bis 2016 konnten nach Alter nur die Zahlen der Stadt Basel  ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
-		"template": "line001",
+		"lesehilfe": "Minderjährige weisen 2020 mit 11,2% die höchste Sozialhilfequote im Kanton auf. Bei jungen Erwachsenen im Alter von 18 bis 25 Jahren beträgt sie 8,2%. Mit 6,1% ist die Sozialhilfequote der 51- bis 65-Jährigen die tiefste aller Altersgruppen im erwerbsfähigen Alter. Gegenüber 2017 ist die Sozialhilfequote dieser Altersgruppe als einzige gestiegen. Bei den jungen Erwachsenen ist sie deutlich gesunken. Da seit 2017 gesamtkantonale Werte ausgewiesen werden können, zuvor aber nur die Daten der Stadt Basel abgebildet werden konnten, ist ein Vergleich zwischen den Werten ab 2017 und den Vorjahren nicht möglich. Da die Sozialhilfequoten der Gemeinden Riehen und Bettingen tiefer ausfallen als jene der Stadt Basel, sind bei der kantonalen Sozialhilfequote seit 2017 tiefere Werte zu erwarten als in den Vorjahren.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Seit 2015 wird für die Berechnung der Sozialhilfequoten im Nenner auch die Bevölkerung an administrativen Meldeadressen (Personen in Kollektivhaushalten ohne eigene Wohnadresse) berücksichtigt. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten. <br>Bis 2016 konnten nur die Zahlen der Stadt Basel nach Alter ausgewiesen werden. Seit 2017 werden gesamtkantonale Werte abgebildet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_309",
-		"parentId": 6182,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
@@ -2330,33 +2330,33 @@ var indikatorensetData = [
 		"id": 6054
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8944"
+		],
+		"template": "line001",
 		"title": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.13.2.6055",
 		"kuerzelKunde": "WE13",
 		"description": "Angebotene Plätze für Tagesbetreuung und Tagesstrukturen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-15T18:48:44.4444",
+		"aktualisierungsdatum": "2021-05-20T08:05:30.3030",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2019 liegt die Platzzahl bei 4 269. Auch die Tagesstrukturen wurden stetig ausgebaut. 2019 bieten die Frühhorte Platz für 512 Kinder, die Mittagsmodule  3 183 und die Nachmittagsmodule  2 815 Plätze. Die Tagesferien können von 222 Kindern gleichzeitig genutzt werden.",
-		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseit von privaten Trägerschaften in den Quartieren («Mittagstische») angeboten. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da in den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
-		"template": "line001",
+		"lesehilfe": "Die Anzahl angebotener Plätze für die Tagesbetreuung hat in den vergangenen Jahren ein stetiges Wachstum erfahren. Im Oktober 2020 liegt die Platzzahl bei 4 373. Auch die Tagesstrukturen wurden stetig ausgebaut. 2020 bieten die Frühhorte Platz für 536 Kinder, die Mittagsmodule  3 463 und die Nachmittagsmodule  3 086 Plätze. Die Tagesferien konnten im Verlaufe des Jahres von durchschnittlich 207 Kindern gleichzeitig genutzt werden.",
+		"erlaeuterungen": "Tagesstrukturen: Stichwoche im September. Bei den Tagesferien handelt es sich um die durchschnittliche Anzahl angebotener Plätze innerhalb eines Kalenderjahres. Frühhorte werden an einigen Primarschulstandorten angeboten. Die Mittags- und Nachmittagsmodule werden einerseits an den Schulen und andererseits von privaten Trägerschaften in den Quartieren («Mittagstische») bereitgestellt. In den Sekundarschulen bestehen ebenfalls Verpflegungsangebote und die Möglichkeit, sich nachmittags beaufsichtigt in den Schulräumlichkeiten aufzuhalten. Da bei den Sekundarschulen keine Anmeldepflicht besteht, existiert keine eindeutige Platzzahl. Die Anzahl Tagesstrukturplätze berücksichtigt dieses Angebot daher nicht.<br>Die Angaben zu den Tagesferien beziehen sich auf eine durchschnittliche Ferienwoche. Je Tagesferienangebot wird von 20 Plätzen ausgegangen. Tagesferien werden üblicherweise an 11 Wochen (exkl. Fasnachts- und Weihnachtsferien) angeboten. Aufgrund der Schulschliessungen im Zusammenhang mit der COVID-19-Pandemie musste dieses Angebot während der Frühlingsferien 2020 entfallen, womit lediglich an 9 Wochen Tagesferien stattfinden konnten.<br>Tagesbetreuung: Plätze in Tagesheimen und Tagesfamilien. Stichwoche im Oktober.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "06_02_00_00_00_613",
-		"parentId": null,
-		"children": [
-			"8944"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung",
