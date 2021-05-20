@@ -5,10 +5,6 @@
       "id": "0",
       "data": [
         [
-          2010,
-          12.54
-        ],
-        [
           2011,
           13.06
         ],
@@ -43,6 +39,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "0 bis 17 J. (Stadt)"
@@ -51,10 +51,6 @@
       "color": "#007A2F",
       "id": "1",
       "data": [
-        [
-          2010,
-          9.24
-        ],
         [
           2011,
           10.05
@@ -90,6 +86,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "18 bis 25 J. (Stadt)"
@@ -98,10 +98,6 @@
       "color": "#4f81bd",
       "id": "2",
       "data": [
-        [
-          2010,
-          6.95
-        ],
         [
           2011,
           7.33
@@ -137,6 +133,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "26 bis 35 J. (Stadt)"
@@ -145,10 +145,6 @@
       "color": "#662673",
       "id": "3",
       "data": [
-        [
-          2010,
-          7.83
-        ],
         [
           2011,
           8.26
@@ -184,6 +180,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "36 bis 50 J. (Stadt)"
@@ -192,10 +192,6 @@
       "color": "#7F5F1A",
       "id": "4",
       "data": [
-        [
-          2010,
-          4.89
-        ],
         [
           2011,
           5.27
@@ -231,6 +227,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "51 bis 65 J. (Stadt)"
@@ -239,10 +239,6 @@
       "color": "#FABD24",
       "id": "5",
       "data": [
-        [
-          2010,
-          0.2
-        ],
         [
           2011,
           0.25
@@ -278,6 +274,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "66 J. u.m. (Stadt)"
@@ -286,10 +286,6 @@
       "color": "#3C3C3C",
       "id": "6",
       "data": [
-        [
-          2010,
-          6.55
-        ],
         [
           2011,
           6.94
@@ -325,6 +321,10 @@
         [
           2019,
           null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "Total (Stadt)"
@@ -333,10 +333,6 @@
       "color": "#B00000",
       "linkedTo": "0",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -372,6 +368,10 @@
         [
           2019,
           11.9
+        ],
+        [
+          2020,
+          11.21
         ]
       ],
       "name": "0 bis 17 J. (Kanton)"
@@ -381,10 +381,6 @@
       "showInLegend": false,
       "linkedTo": "1",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -420,6 +416,10 @@
         [
           2019,
           8.93
+        ],
+        [
+          2020,
+          8.16
         ]
       ],
       "name": "18 bis 25 J. (Kanton)"
@@ -429,10 +429,6 @@
       "showInLegend": false,
       "linkedTo": "2",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -468,6 +464,10 @@
         [
           2019,
           6.84
+        ],
+        [
+          2020,
+          6.57
         ]
       ],
       "name": "26 bis 35 J. (Kanton)"
@@ -477,10 +477,6 @@
       "showInLegend": false,
       "linkedTo": "3",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -516,6 +512,10 @@
         [
           2019,
           7.56
+        ],
+        [
+          2020,
+          7.34
         ]
       ],
       "name": "36 bis 50 J. (Kanton)"
@@ -524,10 +524,6 @@
       "color": "#7F5F1A",
       "linkedTo": "4",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -563,6 +559,10 @@
         [
           2019,
           6.05
+        ],
+        [
+          2020,
+          6.05
         ]
       ],
       "name": "51 bis 65 J. (Kanton)"
@@ -572,10 +572,6 @@
       "showInLegend": false,
       "linkedTo": "5",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -611,6 +607,10 @@
         [
           2019,
           0.22
+        ],
+        [
+          2020,
+          0.26
         ]
       ],
       "name": "66 J. u.m. (Kanton)"
@@ -620,10 +620,6 @@
       "showInLegend": false,
       "linkedTo": "6",
       "data": [
-        [
-          2010,
-          null
-        ],
         [
           2011,
           null
@@ -659,6 +655,10 @@
         [
           2019,
           6.58
+        ],
+        [
+          2020,
+          6.33
         ]
       ],
       "name": "Total (Kanton)"
@@ -793,7 +793,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

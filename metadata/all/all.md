@@ -642,7 +642,7 @@ id | visible | visibleInPortal | indikatorenset
 6389 | true | false | Gefragte Karten
 6390 | true | false | Gefragte Karten
 6391 | true | true | Gefragte Karten
-6392 | true | true | Gefragte Karten
+6392 | true | false | Gefragte Karten
 6394 | true | true | Gefragte Karten
 6395 | true | true | Gefragte Karten
 6396 | true | true | Gefragte Karten
@@ -1411,7 +1411,7 @@ id | visible | visibleInPortal | indikatorenset
 8114 | true | false | City-Statistics (Print)
 8115 | true | false | City-Statistics (Print)
 8240 | true | true | CMS Kennzahlen Soziales
-8241 | true | false | CMS Kennzahlen Soziales
+8241 | true | true | CMS Kennzahlen Soziales
 8242 | true | true | CMS Kennzahlen Soziales
 8243 | true | true | CMS Kennzahlen Soziales
 8244 | true | true | CMS Kennzahlen Soziales
