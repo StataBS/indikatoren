@@ -65,7 +65,7 @@ id | visible | visibleInPortal | indikatorenset
 4149 | true | true | Wohnraumentwicklung
 4150 | true | true | Wohnraumentwicklung
 4151 | true | true | Wohnraumentwicklung
-4152 | true | true | Wohnraumentwicklung
+4152 | true | true | Soziales
 4153 | true | true | Wohnraumentwicklung
 4154 | true | true | Wohnraumentwicklung
 4155 | true | true | Wohnraumentwicklung
