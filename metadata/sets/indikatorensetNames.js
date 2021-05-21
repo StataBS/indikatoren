@@ -3,6 +3,7 @@ var indikatorensetNames = [
 	"Legislaturplan",
 	"Nachhaltigkeit",
 	"Wohnraumentwicklung",
+	"Soziales",
 	"Umwelt",
 	"Gesellschaftlicher-Zusammenhalt",
 	"Wohnviertel",
