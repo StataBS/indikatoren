@@ -1204,35 +1204,35 @@ var indikatorensetData = [
 		"id": 6147
 	},
 	{
-		"title": "Arbeitnehmende in Leitungsfunktionen",
-		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"kuerzel": "I.03.1.6148",
-		"kuerzelKunde": "4.7",
-		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-05-06T09:44:46.4646",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2019 bei den Männern etwa 40%, bei den Frauen rund 32%.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1&nbsp;500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "04_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"6301",
 			"6435",
 			"8947"
 		],
+		"template": "line001",
+		"title": "Arbeitnehmende in Leitungsfunktionen",
+		"subtitle": "nach Geschlecht, Basel-Stadt",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
+		"kuerzelKunde": "4.7",
+		"description": "Arbeitnehmende in Leitungsfunktionen",
+		"thema": "50 Befragungen",
+		"unterthema": "Erwerbspersonen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-05-25T08:35:45.4545",
+		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2020 bei den Männern etwa 39%, bei den Frauen rund 32%.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "04_00_00_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
