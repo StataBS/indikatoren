@@ -3728,33 +3728,33 @@ var indikatorensetData = [
 		"id": 6491
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6732"
+		],
+		"template": "template001",
 		"title": "Beteiligung an Freiwilligenarbeit",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.03.6.06492",
 		"kuerzelKunde": "D6-1",
 		"description": "Beteiligung an Freiwilligenarbeit",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T12:23:22.2222",
+		"aktualisierungsdatum": "2021-05-25T08:35:45.4545",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die prozentuale Beteiligung an institutionalisierter Freiwilligenarbeit der Schweizer Staatsangehörigen ist von 29,9% im Jahr 2004 auf 23,0% im Jahr 2013 gesunken. 2016 hat der Anteil wieder auf 26,1% zugenommen. Bei den Ausländern liegt sie tiefer, nämlich mit Ausnahme des Jahres 2010 (17,4%) bei oder leicht unter 10%. Die prozentuale Beteiligung an informeller Freiwilligenarbeit ist über die Zeit relativ konstant geblieben, steigt allerdings aus methodischen Gründen im Jahr 2016 stark. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei den Ausländern tiefer als bei den Schweizern.",
+		"lesehilfe": "Der Anteil der Schweizer Staatsangehörigen, der institutionalisierte Freiwilligenarbeit leistet, liegt 2020 bei 19,7% und damit deutlich tiefer als noch 2004 (29,9%). Auch bei den ausländischen Staatsangehörigen ist die Beteiligung an institutionalisierter Freiwilligenarbeit zurückgegangen, von 17,4% im Jahr 2010 auf 3,7% im Jahr 2020. In allen dargestellten Jahren ist die Beteiligung der Ausländerinnen und Ausländer an institutionalisierter Freiwilligenarbeit geringer als bei den Schweizerinnen und Schweizern. Die prozentuale Beteiligung an informeller Freiwilligenarbeit ist über die Zeit relativ konstant geblieben, steigt allerdings aus methodischen Gründen im Jahr 2016 stark. Auch die Beteiligung an informeller Freiwilligenarbeit ist bei der ausländischen Bevölkerung geringer als bei den Schweizerinnen und Schweizern.",
 		"erlaeuterungen": "Die institutionalisierte Freiwilligenarbeit umfasst unbezahlte, freiwillige Tätigkeiten in einem Verein, einer Organisation oder einer Institution. Die informelle Freiwilligenarbeit beinhaltet Hilfeleistungen für Verwandte und Bekannte. Die Frage zur informellen Freiwilligenarbeit wurde im Rahmen der SAKE 2016 überarbeitet, weshalb ein Reihenbruch zwischen 2013 und 2016 nicht auszuschliessen ist.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_601",
-		"parentId": null,
-		"children": [
-			"6732"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"

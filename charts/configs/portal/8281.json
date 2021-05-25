@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          0.4310344828
+          0.8620689655
         ],
         [
           2,
-          5.5214723926
+          7.5664621677
         ],
         [
           3,
-          5.5858310627
+          4.9046321526
         ],
         [
           4,
-          11.861471861
+          11.948051948
         ],
         [
           5,
-          7.7374599787
+          6.5635005336
         ],
         [
           6,
-          12.912541254
+          11.386138614
         ],
         [
           7,
-          2.4880889359
+          2.6998411858
         ],
         [
           8,
-          4.4782803403
+          3.6721898791
         ],
         [
           9,
-          8.4548104956
+          6.7055393586
         ],
         [
           10,
-          17.93499044
+          17.896749522
         ],
         [
           11,
-          15.39543058
+          13.532513181
         ],
         [
           12,
-          12.18487395
+          11.344537815
         ],
         [
           13,
-          19.375
+          17.708333333
         ],
         [
           14,
-          6.6666666667
+          6.0606060606
         ],
         [
           15,
-          7.7501445922
+          8.1550028918
         ],
         [
           16,
-          15.320121951
+          14.25304878
         ],
         [
           17,
-          19.867549669
+          20.813623463
         ],
         [
           18,
-          25.165562914
+          23.261589404
         ],
         [
           19,
-          19.315895372
+          20.32193159
         ],
         [
           20,
-          5.8928571429
+          5.7397959184
         ],
         [
           30,
-          3.7735849057
+          2.8301886792
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1
+          2
         ],
         [
           "Vorstädte",
-          27
+          37
         ],
         [
           "Am Ring",
-          82
+          72
         ],
         [
           "Breite",
-          137
+          138
         ],
         [
           "St. Alban",
-          145
+          123
         ],
         [
           "Gundeldingen",
-          313
+          276
         ],
         [
           "Bruderholz",
-          47
+          51
         ],
         [
           "Bachletten",
-          100
+          82
         ],
         [
           "Gotthelf",
-          87
+          69
         ],
         [
           "Iselin",
-          469
+          468
         ],
         [
           "St. Johann",
-          438
+          385
         ],
         [
           "Altstadt Kleinbasel",
-          29
+          27
         ],
         [
           "Clara",
-          93
+          85
         ],
         [
           "Wettstein",
-          44
+          40
         ],
         [
           "Hirzbrunnen",
-          134
+          141
         ],
         [
           "Rosental",
-          201
+          187
         ],
         [
           "Matthäus",
-          420
+          440
         ],
         [
           "Klybeck",
-          304
+          281
         ],
         [
           "Kleinhüningen",
-          96
+          101
         ],
         [
           "Riehen",
-          231
+          225
         ],
         [
           "Bettingen",
-          8
+          6
         ]
       ],
-      "name": "Anzahl Sozialhilfebeziehender"
+      "name": "Anzahl Sozialhilfebeziehende"
     },
     {
       "name": "Rhein",
@@ -7320,7 +7320,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7336,7 +7336,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-25"
   },
   "colorAxis": {
     "min": 0,
