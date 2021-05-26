@@ -9,16 +9,16 @@ var indikatorensetData = [
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.4152",
-		"kuerzelKunde": "4.1.A",
+		"kuerzelKunde": "1-07",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-21T08:06:51.5151",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
+		"aktualisierungsdatum": "2021-05-26T08:36:40.4040",
+		"stufe1": "Kernindikatoren",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -26,7 +26,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "01_00_00_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"

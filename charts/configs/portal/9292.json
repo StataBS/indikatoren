@@ -1,109 +1,109 @@
 {
   "series": [
     {
-      "color": "#008AC3",
-      "index": 1,
-      "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 0,
-      "data": [
-        [
-          "Schweiz",
-          51.64
-        ],
-        [
-          "Deutschland",
-          49.36
-        ],
-        [
-          "UK",
-          44.35
-        ],
-        [
-          "Frankreich",
-          45.92
-        ],
-        [
-          "Italien",
-          48.79
-        ],
-        [
-          "USA",
-          49.38
-        ],
-        [
-          "Übriges Ausland",
-          49.37
-        ],
-        [
-          "Total",
-          50.13
-        ]
-      ],
-      "name": "Frauen",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#B00000",
+      "color": "#923f8d",
       "index": 0,
       "type": "column",
-      "pointWidth": "15",
-      "legendIndex": 1,
       "data": [
         [
-          "Schweiz",
-          48.36
+          2011,
+          1165
         ],
         [
-          "Deutschland",
-          50.64
+          2012,
+          1497
         ],
         [
-          "UK",
-          55.65
+          2013,
+          1717
         ],
         [
-          "Frankreich",
-          54.08
+          2014,
+          1865
         ],
         [
-          "Italien",
-          51.21
+          2015,
+          1990
         ],
         [
-          "USA",
-          50.62
+          2016,
+          2137
         ],
         [
-          "Übriges Ausland",
-          50.63
+          2017,
+          2225
         ],
         [
-          "Total",
-          49.87
+          2018,
+          2263
+        ],
+        [
+          2019,
+          2289
+        ],
+        [
+          2020,
+          2272
         ]
       ],
-      "name": "Männer",
-      "turboThreshold": 0
+      "name": "Anzahl Haushalte"
+    },
+    {
+      "color": "#cd9c00",
+      "index": 1,
+      "type": "line",
+      "yAxis": 1,
+      "tooltip": {
+        "valueDecimals": 1
+      },
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          2011,
+          1.2
+        ],
+        [
+          2012,
+          1.5
+        ],
+        [
+          2013,
+          1.7
+        ],
+        [
+          2014,
+          1.9
+        ],
+        [
+          2015,
+          2
+        ],
+        [
+          2016,
+          2.2
+        ],
+        [
+          2017,
+          2.3
+        ],
+        [
+          2018,
+          2.3
+        ],
+        [
+          2019,
+          2.3
+        ],
+        [
+          2020,
+          2.3
+        ]
+      ],
+      "name": "Anteil in Prozent (rechte Skala)"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -137,20 +137,19 @@
                     }
                 }
     },
-    "renderTo": "container-6017",
+    "type": "line",
+    "renderTo": "container-9292",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
-        }
-      },
-      "stacking": "normal",
-      "pointPadding": 0,
-      "groupPadding": 0.5
+        },
+        "enabled": false
+      }
     }
   },
   "title": {
@@ -160,10 +159,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zugezogene nach Zuzugsland und Geschlecht"
+    "text": "Haushalte mit Familienmietzinsbeiträgen"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -171,25 +170,62 @@
       "color": "#000000"
     }
   },
-  "yAxis": {
-    "gridLineWidth": 0.5,
-    "gridLineColor": "#B9CFD7",
+  "xAxis": {
     "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
     "title": {
       "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
+        "color": "#000000"
+      }
     },
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}%"
+      }
     },
-    "max": 100
+    "tickInterval": 1
   },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0
+    },
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.1f}%",
+        "style": {
+          "color": "#000000"
+        }
+      },
+      "min": 0,
+      "opposite": true
+    }
+  ],
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
@@ -198,9 +234,7 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemMarginBottom": 5,
-    "itemWidth": 110
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -221,13 +255,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": "6017"
+    "filename": "9292"
   }
 }
