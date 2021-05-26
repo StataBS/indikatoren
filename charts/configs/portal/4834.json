@@ -4,88 +4,88 @@
       "color": "#68AB2B",
       "data": [
         [
-          "Klybeck",
-          32.20917147278098
+          "Kleinhüningen",
+          32.31353744
         ],
         [
-          "Kleinhüningen",
-          32.6070110701107
+          "Klybeck",
+          32.62961361
         ],
         [
           "Rosental",
-          34.51346572361262
+          34.252214765
         ],
         [
           "Matthäus",
-          35.749175361831036
+          35.985475086
         ],
         [
           "Clara",
-          36.610416666666666
-        ],
-        [
-          "Iselin",
-          36.682021600334146
+          36.892736267
         ],
         [
           "St. Johann",
-          36.73291010089559
+          36.915613718
+        ],
+        [
+          "Iselin",
+          37.040236116
         ],
         [
           "Breite",
-          38.852427404718696
+          38.951429868
         ],
         [
           "Hirzbrunnen",
-          38.98393748643369
+          39.12187637
         ],
         [
           "Gundeldingen",
-          39.012817031445174
+          39.295213638
         ],
         [
           "Gotthelf",
-          41.42121524201854
+          42.091235955
         ],
         [
           "Altstadt Kleinbasel",
-          43.25678682688029
+          43.321412804
         ],
         [
           "Am Ring",
-          45.404458288718
+          45.099479468
         ],
         [
           "Wettstein",
-          45.97710776102736
+          45.79726076
         ],
         [
           "Bachletten",
-          46.15430135365042
+          46.225749036
         ],
         [
           "Riehen",
-          47.48610913909792
+          47.186238404
         ],
         [
           "St. Alban",
-          48.31641285956007
+          47.794717781
         ],
         [
           "Bruderholz",
-          48.37687898777982
+          48.398167116
         ],
         [
           "Vorstädte",
-          50.3673640167364
+          50.008398068
         ],
         [
           "Altstadt Grossbasel",
-          52.64847899565427
+          52.433207902
         ],
         [
           "Bettingen",
-          52.93681318681318
+          52.64
         ]
       ],
       "name": "Wohnfläche pro Kopf",
@@ -95,11 +95,11 @@
       "visible": false,
       "data": [
         [
-          "Klybeck",
+          "Kleinhüningen",
           1
         ],
         [
-          "Kleinhüningen",
+          "Klybeck",
           2
         ],
         [
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "Iselin",
+          "St. Johann",
           6
         ],
         [
-          "St. Johann",
+          "Iselin",
           7
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2019",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
   },
   "legend": {
     "enabled": false,

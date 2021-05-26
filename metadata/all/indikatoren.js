@@ -2717,16 +2717,16 @@ var indikatoren = [
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Soziales",
 		"kuerzel": "I.13.2.4152",
-		"kuerzelKunde": "4.1.A",
+		"kuerzelKunde": "1-07",
 		"description": "Haushalte mit Familienmietzinsbeiträgen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-21T08:06:51.5151",
-		"stufe1": "Ziel 4: Sozialpolitik",
-		"stufe2": "4.1 Unterstützung Benachteiligter",
+		"aktualisierungsdatum": "2021-05-26T08:36:40.4040",
+		"stufe1": "Kernindikatoren",
+		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
@@ -2735,7 +2735,7 @@ var indikatoren = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_01_00_00_00_000",
+		"orderKey": "01_00_00_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
@@ -7877,7 +7877,7 @@ var indikatoren = [
 		],
 		"template": "dotplot",
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2020",
 		"kennzahlenset": "Wohnviertel",
 		"kuerzel": "I.09.1.4834",
 		"kuerzelKunde": "RU-5.A",
@@ -7887,13 +7887,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:17.1717",
+		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"lesehilfe": "Im Wohnviertel Kleinhüningen verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
 		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -12344,34 +12344,34 @@ var indikatoren = [
 		"id": 6011
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6761"
+		],
+		"template": "template001",
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.5.6012",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-22T11:48:41.4141",
+		"aktualisierungsdatum": "2021-05-26T08:36:41.4141",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 168).",
+		"lesehilfe": "2020 ergibt sich für den Kanton ein Wanderungsgewinn von 956 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 037). 2019 war der Wanderungsgewinn mit 1 214 höher ausgefallen.",
 		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6761"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12386,34 +12386,34 @@ var indikatoren = [
 		"id": 6012
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6762"
+		],
+		"template": "pie001",
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.5.6013",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
+		"aktualisierungsdatum": "2021-05-26T08:36:42.4242",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2019. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (2 125 Personen), danach folgen Personen aus den Vereinigten Staaten von Amerika (496) und Frankreich (489). Aus dem Vereinigten Königreich kommen 455 Personen, aus Italien 428. Die übrigen 3 980 Zuzüger verteilen sich auf 130 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2020. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 949 Personen), danach folgen Personen aus dem Vereinigten Königreich (469) und Frankreich (466). Aus Italien kommen 455 Personen, aus den Vereinigten Staaten 405. Die übrigen 3 312 Zuzügerinnen und Zuzüger verteilen sich auf 130 verschiedene Länder.",
 		"erlaeuterungen": "",
-		"template": "pie001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6762"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12428,34 +12428,34 @@ var indikatoren = [
 		"id": 6013
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6765"
+		],
+		"template": "template001",
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.5.6016",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-30T15:01:36.3636",
+		"aktualisierungsdatum": "2021-05-26T08:36:43.4343",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei 56% der Personen, die 2019 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 75%, derjenige der US-amerikanischen Staatsangehörigen an allen aus den Vereinigten Staaten Zugewanderten 52%. Von den im Jahr 2019 aus Frankreich zugewanderten Personen, besitzen 49% die französische Staatsbürgerschaft.",
+		"lesehilfe": "Bei 59% der Personen, die 2020 aus der Schweiz nach Basel-Stadt zuzogen, handelte es sich um Schweizer Staatsangehörige. Dieser Wert hat sich gegenüber 2011 kaum verändert. Der Anteil der deutschen Staatsangehörigen an allen aus Deutschland Zugewanderten betrug 73%, derjenige der italienischen Staatsangehörigen an allen aus Italien Zugewanderten 88%.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"6765"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12470,34 +12470,34 @@ var indikatoren = [
 		"id": 6016
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6766"
+		],
+		"template": "template001",
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.5.6017",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:15.1515",
+		"aktualisierungsdatum": "2021-05-26T08:36:43.4343",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp die Hälfte (49,5%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (50,9%) auf. Bei den aus Italien zugegezogen Personen sind Männer klar in der Überzahl (60,1%).",
+		"lesehilfe": "Gut die Hälfte (50,1%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (51,6%) auf. Bei den aus dem Vereinigten Königreich und Frankreich zugezogenen Personen sind Männer klar in der Überzahl (55,7% und 54,1%).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"6766"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12512,34 +12512,34 @@ var indikatoren = [
 		"id": 6017
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6767"
+		],
+		"template": "populationPyramid001",
 		"title": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
-		"kuerzel": "I.01.5.6018",
+		"subtitle": "Basel-Stadt, 2011 bis 2020 zusammengefasst",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:16.1616",
+		"aktualisierungsdatum": "2021-05-26T08:36:44.4444",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2010 und 2019 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen, den 20- bis 24-Jährigen sowie (knapp) bei den 75- bis 79-Jährigen positiv.",
+		"lesehilfe": "Zwischen 2011 und 2020 war die Wanderungsbilanz zwischen den aus der Schweiz Zugezogenen und den in die Schweiz Weggezogenen nur bei den 15- bis 19-Jährigen, den 20- bis 24-Jährigen sowie bei den 75- bis 79-Jährigen und den über 79-Jährigen (knapp) positiv.",
 		"erlaeuterungen": "",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"6767"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12724,34 +12724,34 @@ var indikatoren = [
 		"id": 6023
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6773"
+		],
+		"template": "line001",
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2010 = 100)",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (Wert 2011 = 100)",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6024",
 		"kuerzelKunde": "2-5",
 		"description": "Entwicklung der aus dem Ausland Zugezogenen",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-30T15:01:58.5858",
+		"aktualisierungsdatum": "2021-05-26T08:36:42.4242",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Index der Zuwanderung aus Frankreich ist 2019 gegenüber 2010 um 39% auf 139 Punkte gestiegen. Auch der Zuzug aus Italien hat um 36% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2010 (-7%), ebenso aus dem Vereinigten Königreich (-7%) und den Vereinigten Staaten (-13%). Die Zuwanderung aus übrigen Ländern hat gegenüber 2010 um 14% zugenommen.",
+		"lesehilfe": "Der Index der Zuwanderung aus Italien ist 2020 gegenüber 2011 um 42% auf 142 Punkte gestiegen. Auch der Zuzug aus Frankreich hat um 30% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2011 (-8%), ebenso aus dem Vereinigten Königreich (-18%) und den Vereinigten Staaten von Amerika (-24%). Die Zuwanderung aus den übrigen Ländern hat gegenüber 2011 um 19% abgenommen. Die tiefsten Zuzügerzahlen aus diesen Ländern wurden 2014 (Deutschland), 2015 (Vereinigtes Königreich) und 2020 (Vereinigte Staaten; Übriges Ausland) registriert.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6773"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -78034,6 +78034,46 @@ var indikatoren = [
 		"chart-id": 9239,
 		"filter": "",
 		"id": 9239
+	},
+	{
+		"parentId": 4152,
+		"children": [],
+		"template": "template001",
+		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "I.13.2.09292",
+		"kuerzelKunde": "4.1.A",
+		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 nach zuvor kontinuierlichem Anstieg erstmals zurückgegangen. Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9292,
+		"chart-id": 9292,
+		"filter": "",
+		"id": 9292
 	},
 	{
 		"parentId": null,

@@ -1152,5 +1152,44 @@ var indikatorensetData = [
 		"chart-id": 4156,
 		"filter": "",
 		"id": 4156
+	},
+	{
+		"parentId": 4152,
+		"children": [],
+		"template": "template001",
+		"title": "Haushalte mit Familienmietzinsbeiträgen",
+		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzel": "I.13.2.09292",
+		"kuerzelKunde": "4.1.A",
+		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 nach zuvor kontinuierlichem Anstieg erstmals zurückgegangen. Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "_000",
+		"renderLink": [],
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"datenInChartIntegriert": false,
+		"externalLinks": [
+			""
+		],
+		"data-id": 9292,
+		"chart-id": 9292,
+		"filter": "",
+		"id": 9292
 	}
 ];

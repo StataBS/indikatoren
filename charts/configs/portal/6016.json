@@ -6,38 +6,38 @@
       "data": [
         [
           "Schweiz",
-          57.71
+          58.42
         ],
         [
           "Deutschland",
-          84.26
-        ],
-        [
-          "USA",
-          59.75
-        ],
-        [
-          "Frankreich",
-          53.69
+          83.02
         ],
         [
           "UK",
-          64.48
+          61.85
+        ],
+        [
+          "Frankreich",
+          44.97
         ],
         [
           "Italien",
-          76.51
+          78.44
+        ],
+        [
+          "USA",
+          56.04
         ],
         [
           "Übriges Ausland",
-          75.95
+          75.71
         ],
         [
           "Total",
-          66.73
+          66.46
         ]
       ],
-      "name": "2010",
+      "name": "2011",
       "turboThreshold": 0
     },
     {
@@ -46,38 +46,38 @@
       "data": [
         [
           "Schweiz",
-          56.43
+          58.94
         ],
         [
           "Deutschland",
-          74.45
-        ],
-        [
-          "USA",
-          51.61
-        ],
-        [
-          "Frankreich",
-          49.08
+          73.37
         ],
         [
           "UK",
-          48.13
+          48.83
+        ],
+        [
+          "Frankreich",
+          48.71
         ],
         [
           "Italien",
-          87.62
+          87.91
+        ],
+        [
+          "USA",
+          51.85
         ],
         [
           "Übriges Ausland",
-          69.05
+          68.39
         ],
         [
           "Total",
-          62.53
+          63.12
         ]
       ],
-      "name": "2019",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-30"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
