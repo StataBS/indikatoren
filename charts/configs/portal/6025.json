@@ -7447,7 +7447,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "credits": {
@@ -7463,7 +7463,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-27"
   },
   "colorAxis": {
     "min": 0,
@@ -7483,6 +7483,7 @@
     "marker": {
       "color": "black"
     },
+    "max": 15,
     "minColor": "#FFDA80",
     "maxColor": "#45381D"
   },

@@ -15,7 +15,7 @@
 			},
 		"colorAxis": {
 			min: 0,
-			//max: 15,
+			max: 15,
 			"minColor": "#FFDA80",
 			"maxColor": "#45381D",
 			"labels": {

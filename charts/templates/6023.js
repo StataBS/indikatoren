@@ -17,7 +17,7 @@
       plotLines: [{
         color: '#B9CFD7',
         value: 0, 
-        width: 1.5
+        width: 1
       }]
     },
     "xAxis": {
