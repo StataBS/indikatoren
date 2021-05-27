@@ -7,23 +7,23 @@
       "data": [
         [
           "Deutschland",
-          2125
-        ],
-        [
-          "USA",
-          496
-        ],
-        [
-          "Frankreich",
-          489
+          1949
         ],
         [
           "UK",
-          455
+          469
+        ],
+        [
+          "Frankreich",
+          466
         ],
         [
           "Italien",
-          428
+          455
+        ],
+        [
+          "USA",
+          405
         ]
       ],
       "name": "Zugezogene",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Deutschland",
-          -1274
-        ],
-        [
-          "USA",
-          -377
-        ],
-        [
-          "Frankreich",
-          -437
+          -1203
         ],
         [
           "UK",
-          -242
+          -207
+        ],
+        [
+          "Frankreich",
+          -368
         ],
         [
           "Italien",
-          -206
+          -194
+        ],
+        [
+          "USA",
+          -236
         ]
       ],
       "name": "Weggezogene",
@@ -68,23 +68,23 @@
       "data": [
         [
           "Deutschland",
-          851
-        ],
-        [
-          "USA",
-          119
-        ],
-        [
-          "Frankreich",
-          52
+          746
         ],
         [
           "UK",
-          213
+          262
+        ],
+        [
+          "Frankreich",
+          98
         ],
         [
           "Italien",
-          222
+          261
+        ],
+        [
+          "USA",
+          169
         ]
       ],
       "name": "Saldo",
@@ -167,7 +167,7 @@
     "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
+    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -198,7 +198,7 @@
       {
         "color": "#B9CFD7",
         "value": 0,
-        "width": 1.5
+        "width": 1
       }
     ]
   },
@@ -232,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-27"
   },
   "exporting": {
     "filename": "6023"

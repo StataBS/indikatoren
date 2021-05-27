@@ -12554,34 +12554,34 @@ var indikatoren = [
 		"id": 6018
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6768"
+		],
+		"template": "populationPyramid001",
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2010 - 2019 zusammengefasst",
+		"subtitle": "Basel-Stadt, 2011 bis 2020 zusammengefasst",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6019",
 		"kuerzelKunde": "2-9",
 		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-14T11:13:28.2828",
+		"aktualisierungsdatum": "2021-05-27T09:08:10.1010",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderunsgsaldo der aus dem Ausland Zu- bzw. Weggezogenen fällt für alle Fünfjahresklassen zwischen 0 und 59 Jahren positiv aus. In den Altersgruppen der 60-Jährigen und Älteren übersteigt hingegen die Zahl der Wegzüger jene der Zuzüger.",
+		"lesehilfe": "Der Wanderungssaldo der aus dem Ausland zu- bzw. weggezogenen Personen fällt für alle Fünfjahresklassen zwischen 0 und 59 Jahren positiv aus. In den Altersgruppen der 60-Jährigen und Älteren übersteigt hingegen die Zahl der Weggezogenen jene der Zugezogenen.",
 		"erlaeuterungen": "",
-		"template": "populationPyramid001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"6768"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12596,35 +12596,35 @@ var indikatoren = [
 		"id": 6019
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6770"
+		],
+		"template": "template001",
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.5.6021",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
+		"kuerzel": "",
 		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:17.1717",
+		"aktualisierungsdatum": "2021-05-27T09:08:09.099",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 kamen 27% aller Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In den Gemeinde Bettingen ist deren Anteil mit 46% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen (38%) sowie in der Gemeinde Riehen (39%). Die Quartiere Altstadt Grossbasel, Bruderholz, St. Johann und Wettstein sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zuwanderer aus den Vereinigten Staaten. In der Kleinbasler Altstadt, im Iselin-Quartier und in Kleinhüningen lassen sich Personen aus Frankreich im Vergleich zum Gesamtkanton besonders oft nieder, in der Grossbasler Altstadt sowie in den Wohnvierteln Bruderholz und Wettstein Neuzuzüger aus dem Vereinigten Königreich. Die Altstadt Grossbasel sowie die Wohnviertel Iselin und Klybeck verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus Italien.",
+		"lesehilfe": "Im Jahr 2020 kamen 28% aller Neuzuzügerinnen und Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 75% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen (45%) sowie in der Gemeinde Riehen (46%). Die Quartiere Bruderholz, Clara, Wettstein und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zugewanderte aus dem Vereinigten Königreich. In den Wohnvierteln Breite, Bruderholz und Kleinhüningen lassen sich Personen aus Frankreich im Vergleich zum Gesamtkanton besonders oft nieder, in den Wohnvierteln Bachletten, Iselin, Klybeck und Kleinhüningen Neuzuziehende aus Italien. Die Quartiere Bruderholz, Altstadt Kleinbasel und Wettstein verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus den Vereinigten Staaten von Amerika.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"6770"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12682,34 +12682,34 @@ var indikatoren = [
 		"id": 6022
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6772"
+		],
+		"template": "template001",
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2019",
+		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6023",
 		"kuerzelKunde": "2-4",
 		"description": "Zugezogene, Weggezogene und Wanderungssaldo",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T11:48:18.1818",
+		"aktualisierungsdatum": "2021-05-27T09:08:09.099",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2019 den grössten Zuzugsüberschuss gegenüber Deutschland (+851). Den zweiten Rang belegte Italien (+222), den dritten belegte das Vereinigte Königreich (+213). Danach folgten die Vereinigten Staaten  (+119) und Frankreich (+52).",
+		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2020 den grössten Zuzugsüberschuss gegenüber Deutschland (+746). Den zweiten und dritten Rang belegten das Vereinigte Königreich (+262) und Italien (+261). Danach folgten die Vereinigten Staaten  (+169) und Frankreich (+98).",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6772"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -12766,35 +12766,35 @@ var indikatoren = [
 		"id": 6024
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6774"
+		],
+		"template": "mappie002",
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2019",
+		"subtitle": "Basel-Stadt, 2020",
+		"kennzahlenset": "Wanderungen",
 		"kuerzel": "I.01.5.6025",
 		"kuerzelKunde": "2-10",
 		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kennzahlenset": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-24T15:42:49.4949",
+		"aktualisierungsdatum": "2021-05-27T09:08:08.088",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "42% der Neuzuzüger kommen aus der Schweiz, 58% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz lassen sich mehr Neuzuzüger aus der Schweiz (56%) als aus dem Ausland (44%) nieder. In den Wohnvierteln Breite, Gundeldingen, Bachletten, Gotthelf, Iselin und Hirzbrunnen liegt der Anteil der Zuzüger, die bereits zuvor in der Schweiz gelebt haben, deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Am Ring, St. Johann, Clara, Wettstein, Rosental, Matthäus, Klybeck und Kleinhüningen mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende auf 100 Einwohner hat das Wohnviertel Rosental mit 13 Personen, am wenigsten die Gemeinde Riehen mit 3 Personen.",
+		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz ist der Anteil der Neuzuziehenden aus der Schweiz (61%) am höchsten. In den Wohnvierteln Gundeldingen, Bachletten und Altstadt Kleinbasel sowie in der Gemeinde Bettingen liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Clara, Wettstein, Rosental und Klybeck mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Hirzbrunnenquartier und die Gemeinde Bettingen mit jeweils 3 Personen.",
 		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
-		"template": "mappie002",
 		"darstellungsart": "Karte",
 		"printformat": "map",
 		"visibleInPortal": true,
 		"orderKey": "01_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"6774"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -73224,7 +73224,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:21.2121",
+		"aktualisierungsdatum": "2021-05-27T09:08:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -73854,7 +73854,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:22.2222",
+		"aktualisierungsdatum": "2021-05-27T09:08:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -73894,13 +73894,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:23.2323",
+		"aktualisierungsdatum": "2021-05-27T09:08:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 24 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

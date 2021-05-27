@@ -4240,7 +4240,7 @@
         ],
         [
           1618185600000,
-          6
+          7
         ],
         [
           1618790400000,
@@ -4248,7 +4248,7 @@
         ],
         [
           1619395200000,
-          null
+          2
         ],
         [
           1620000000000,
@@ -14064,7 +14064,7 @@
         ],
         [
           1609113600000,
-          48
+          49
         ],
         [
           1609718400000,
@@ -14132,7 +14132,7 @@
         ],
         [
           1619395200000,
-          null
+          31
         ],
         [
           1620000000000,
@@ -19646,7 +19646,7 @@
         },
         {
           "x": 1626652800000,
-          "low": 18.9,
+          "low": 18.8,
           "high": 48.8
         },
         {
@@ -19732,37 +19732,37 @@
         {
           "x": 1636934400000,
           "low": 22,
-          "high": 53.6
+          "high": 53.7
         },
         {
           "x": 1637539200000,
           "low": 22.5,
-          "high": 54.4
+          "high": 54.5
         },
         {
           "x": 1638144000000,
           "low": 23.1,
-          "high": 55.3
+          "high": 55.4
         },
         {
           "x": 1638748800000,
           "low": 23.7,
-          "high": 56.2
+          "high": 56.3
         },
         {
           "x": 1639353600000,
-          "low": 24.2,
-          "high": 57.1
+          "low": 24.3,
+          "high": 57.2
         },
         {
           "x": 1639958400000,
-          "low": 24.8,
-          "high": 58
+          "low": 24.9,
+          "high": 58.1
         },
         {
           "x": 1640563200000,
-          "low": 25.4,
-          "high": 58.9
+          "low": 25.5,
+          "high": 59.1
         }
       ],
       "name": "Untere Grenze Erwartungsbereich 65+ Jahre"
@@ -19785,8 +19785,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1561010888308,
-    "max": 1624514888308,
+    "min": 1561619404567,
+    "max": 1625123404567,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -19927,7 +19927,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
