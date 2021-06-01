@@ -24403,15 +24403,15 @@ var indikatoren = [
 		"title": "Erwerbstätigenquote",
 		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2015 bis 2019",
 		"kennzahlenset": "Integration",
-		"kuerzel": "I.03.1.6417",
+		"kuerzel": "",
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Erwerbspersonen",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:28.2828",
+		"aktualisierungsdatum": "2021-06-01T08:34:41.4141",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
