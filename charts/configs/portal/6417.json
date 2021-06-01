@@ -4,9 +4,9 @@
       "index": 0,
       "color": "#661200",
       "tooltip": {
-        "pointFormatter": function(){
-          return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
-        }
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -37,9 +37,9 @@
       "index": 1,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
-        }
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -75,9 +75,9 @@
       "index": 2,
       "color": "#dc440e",
       "tooltip": {
-        "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
-        }
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -108,9 +108,9 @@
       "index": 3,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
-        }
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -146,9 +146,9 @@
       "index": 4,
       "color": "#7f5f1a",
       "tooltip": {
-        "pointFormatter": function(){
-         return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
-        }
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -179,9 +179,9 @@
       "index": 5,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
-        }
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -217,9 +217,9 @@
       "index": 6,
       "color": "#ffda80",
       "tooltip": {
-        "pointFormatter": function(){
-          return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100*this.y),1) + '%</b>';
-        }
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((100 * this.y), 1) + '%</b>';
+          }
       },
       "data": [
         [
@@ -250,9 +250,9 @@
       "index": 7,
       "type": "errorbar",
       "tooltip": {
-        "pointFormatter": function(){
-         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
-        }
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100 * this.low), 1) + '%</b> - <b>' + Highcharts.numberFormat((100 * this.high), 1) + '%</b>)<br/>';
+          }
       },
       "data": [
         {
@@ -386,8 +386,8 @@
       "style": {
         "color": "#000000"
       },
-      "formatter": function(){
-            return Highcharts.numberFormat((100 * this.value),0)+'%';                
+      "formatter": function () {
+          return Highcharts.numberFormat((100 * this.value), 0) + '%';
         }
     }
   },
@@ -421,13 +421,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-1"
   },
   "tooltip": {
     "shared": true
   },
   "exporting": {
-    "allowHTML": true,
     "filename": "6417"
   }
 }
