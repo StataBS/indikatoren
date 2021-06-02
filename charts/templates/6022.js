@@ -18,13 +18,25 @@
 			//"min": undefined,
 			//"minColor": "#eff6e9",
 			//"maxColor": "#4b7b1f",
-			stops: [
+			/*stops: [
 				[0, 'rgb(103,39,115)'], //0,135,135
 				[0.25, 'rgb(230,230,230)'],
 				[0.9, 'rgb(0,135,135)']//103,39,115
+			],*/
+			stops:	[
+				[0, "#662673"],
+				[0.4999999999, "#E7CEE2"],
+				[0.5, "#ffffff"],
+				[0.5000000001, "#D3E2E4"],
+				[1, "#246370"]
+				//[0,'#FF8028'],
+				//[0.25,'#FFBB58'],
+				//[0.5,'#D3E2E4'],
+				//[0.75,'#689199'],
+				//[1,'#246370']
 			],
-			min: -1,
-			max: 5,
+			min: -4,
+			max: 4,
 			"labels": {
 				"formatter": function () {
 					return Highcharts.numberFormat((this.value), 0);
