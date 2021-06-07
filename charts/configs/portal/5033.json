@@ -2,18 +2,44 @@
   "series": [
     {
       "color": "#b00000",
+      "index": 9,
+      "legendIndex": 0,
       "data": [
         [
           "Basel-Stadt",
-          0.1565
+          null
+        ],
+        [
+          "Basel-Stadt: 2010-2014",
+          0.175
+        ],
+        [
+          "Basel-Stadt: 2015-2017",
+          0.076
         ],
         [
           "Basel-Landschaft",
-          0.034
+          null
+        ],
+        [
+          "Basel-Landschaft: 2010-2014",
+          0.035
+        ],
+        [
+          "Basel-Landschaft: 2015-2017",
+          0.026
         ],
         [
           "Zürich",
-          0.059
+          null
+        ],
+        [
+          "Zürich: 2010-2014",
+          0.058
+        ],
+        [
+          "Zürich: 2015-2017",
+          0.067
         ]
       ],
       "name": "Chemische Industrie",
@@ -21,59 +47,182 @@
     },
     {
       "color": "#4f81bd",
+      "index": 8,
+      "legendIndex": 1,
       "data": [
         [
           "Basel-Stadt",
-          0.1694
+          null
+        ],
+        [
+          "Basel-Stadt: 2010-2014",
+          0.47
+        ],
+        [
+          "Basel-Stadt: 2015-2017",
+          0.51
         ],
         [
           "Basel-Landschaft",
-          0.1597
+          null
+        ],
+        [
+          "Basel-Landschaft: 2010-2014",
+          0.172
+        ],
+        [
+          "Basel-Landschaft: 2015-2017",
+          0.109
         ],
         [
           "Zürich",
-          0.3293
+          null
+        ],
+        [
+          "Zürich: 2010-2014",
+          0.034
+        ],
+        [
+          "Zürich: 2015-2017",
+          0.043
         ]
       ],
-      "name": "Elektronik, Optik und Maschinenbau",
+      "name": "Pharmazeutische Industrie",
       "turboThreshold": 0
     },
     {
       "color": "#9A86A6",
+      "index": 7,
+      "legendIndex": 2,
       "data": [
         [
           "Basel-Stadt",
-          0.0785
+          null
+        ],
+        [
+          "Basel-Stadt: 2010-2014",
+          0.17
+        ],
+        [
+          "Basel-Stadt: 2015-2017",
+          0.174
         ],
         [
           "Basel-Landschaft",
-          0.0903
+          null
+        ],
+        [
+          "Basel-Landschaft: 2010-2014",
+          0.162
+        ],
+        [
+          "Basel-Landschaft: 2015-2017",
+          0.152
         ],
         [
           "Zürich",
-          0.0515
+          null
+        ],
+        [
+          "Zürich: 2010-2014",
+          0.33
+        ],
+        [
+          "Zürich: 2015-2017",
+          0.342
         ]
       ],
-      "name": "Medizinaltechnik",
+      "name": "Elektronik, Optik, Maschinenbau",
       "turboThreshold": 0
     },
     {
       "color": "#9bbb59",
+      "index": 6,
+      "legendIndex": 3,
       "data": [
         [
           "Basel-Stadt",
-          0.4569
+          null
+        ],
+        [
+          "Basel-Stadt: 2010-2014",
+          0.085
+        ],
+        [
+          "Basel-Stadt: 2015-2017",
+          0.104
         ],
         [
           "Basel-Landschaft",
-          0.1634
+          null
+        ],
+        [
+          "Basel-Landschaft: 2010-2014",
+          0.117
+        ],
+        [
+          "Basel-Landschaft: 2015-2017",
+          0.073
         ],
         [
           "Zürich",
-          0.0328
+          null
+        ],
+        [
+          "Zürich: 2010-2014",
+          0.069
+        ],
+        [
+          "Zürich: 2015-2017",
+          0.068
         ]
       ],
-      "name": "Pharmazeutische Industrie",
+      "name": "Medizinaltechnik, Sonstiges",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "index": 5,
+      "legendIndex": 4,
+      "data": [
+        [
+          "Basel-Stadt",
+          null
+        ],
+        [
+          "Basel-Stadt: 2010-2014",
+          0.073
+        ],
+        [
+          "Basel-Stadt: 2015-2017",
+          0.043
+        ],
+        [
+          "Basel-Landschaft",
+          null
+        ],
+        [
+          "Basel-Landschaft: 2010-2014",
+          0.033
+        ],
+        [
+          "Basel-Landschaft: 2015-2017",
+          0.042
+        ],
+        [
+          "Zürich",
+          null
+        ],
+        [
+          "Zürich: 2010-2014",
+          0.102
+        ],
+        [
+          "Zürich: 2015-2017",
+          0.107
+        ]
+      ],
+      "name": "Übrige Branchen",
       "turboThreshold": 0
     }
   ],
@@ -89,12 +238,54 @@
       }
     },
     "labels": {
+      "rotation": 0,
       "style": {
-        "color": "#000000"
-      }
+        "color": "#000000",
+        "width": 1,
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      },
+      "formatter": function () {
+                  //add sum of observations of visible series to the axis label
+                  var allVisibleSeries = this.chart.series.filter(function (val, i, arr) {
+                      return val.visible;
+                  });
+                  var indexOfCurrentValue = this.axis.names.indexOf(this.value);
+                  var sum = allVisibleSeries.reduce(function (accumulator, series, index, arr) {
+                      return accumulator + series.yData[indexOfCurrentValue];
+                  }, 0);
+                  //use N if all series are visible, otherwise use n
+                  var nString =  'n=';
+                    if (this.value.match(/Total/)) nString = (this.chart.series.length == allVisibleSeries.length) ? 'N=' : 'n=';
+
+                  //delete everything before ":", including ":"
+                  this.value = this.value.replace(/[^:]*:/, "");
+
+                  //check for value that contains only spaces
+                  if (sum != 0) return this.value;
+                  //else, if sum = 0, then it is assumed to be an intermediate title. return it bold
+                  return "<b>" + this.value + "</b>";
+              }
     }
   },
   "chart": {
+    "events": {
+      "load": function() {
+              this.credits.element.onclick = function() {};
+              //for top-left legends with no x defined: move legend to x position of first yAxis
+              if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
+                this.update(
+                  {
+                    legend: {
+                      x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                    }
+                  }
+                );
+              }              
+            }
+    },
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
     "width": 485,
     "height": 428,
     "spacing": [
@@ -103,34 +294,38 @@
       30,
       10
     ],
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
     "style": {
       "fontFamily": "Arial"
     },
     "zoomType": "xy",
-    "panning": true,
-    "panKey": "shift",
-    "events": {
-      "load": function () {
-                    this.credits.element.onclick = function () { };
-
-                    //for top-left legends with no x defined: move legend to x position of first yAxis
-                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
-                        this.update(
-                            {
-                                legend: {
-                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                                }
-                            }
-                        );
-                    }
-                }
-    },
     "type": "column",
-    "inverted": false,
+    "marginLeft": 110,
+    "inverted": true,
     "renderTo": "container-5033",
     "spacingBottom": 40
+  },
+  "title": {
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner"
+  },
+  "subtitle": {
+    "style": {
+      "fontSize": "12px",
+      "color": "#000000"
+    },
+    "align": "left",
+    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
   },
   "plotOptions": {
     "series": {
@@ -140,30 +335,14 @@
           "fontSize": "10px"
         }
       },
-      "pointPadding": 0
-    }
-  },
-  "title": {
-    "align": "left",
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner"
-  },
-  "subtitle": {
-    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015",
-    "align": "left",
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "color": "#000000"
+      "stacking": "normal",
+      "groupPadding": 0.1
     }
   },
   "yAxis": {
-    "gridLineWidth": 0.5,
+    "tickInterval": 0.2,
     "gridLineColor": "#B9CFD7",
+    "gridLineWidth": 0.5,
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -173,30 +352,19 @@
       "text": null
     },
     "labels": {
+      "format": "{value:,.1f}",
       "style": {
-        "color": "#000000"
-      },
-      "format": "{value:,.1f}"
+        "color": "#000000",
+        "whiteSpace": "nowrap",
+        "textOverflow": "none"
+      }
     },
-    "min": 0,
-    "max": 0.5
+    "max": 1
   },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
-  },
-  "navigation": {
-    "menuItemStyle": {
-      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
-      "padding": "2px 10px"
-    }
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false,
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "enabled": true,
@@ -211,13 +379,29 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-7"
   },
-  "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+  "legend": {
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "useHTML": false,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "symbolRadius": 0,
+    "labelFormatter": function () {
+            return this.name.replace('/ ', '/<br/>');
+        },
+    "itemWidth": 200,
+    "width": 420,
+    "enabled": true
   },
   "exporting": {
+    "allowHTML": false,
     "filename": "5033"
   }
 }

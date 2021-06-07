@@ -2265,32 +2265,32 @@ var indikatoren = [
 		"id": 4140
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.01.2.4141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Haushalte nach Art des Haushalts",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
+		"aktualisierungsdatum": "2021-06-07T08:33:17.1717",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2019 47% aus, 41% sind Familienhaushalte und 12% werden Anderen Haushalten zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2020 47% aus, 40% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_04_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -9852,34 +9852,34 @@ var indikatoren = [
 		"id": 4948
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6279"
+		],
+		"template": "befragungen001",
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015",
-		"kuerzel": "I.04.1.5033",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"thema": "04 Volkswirtschaft",
+		"thema": "50 Befragungen",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T10:26:14.1414",
+		"aktualisierungsdatum": "2021-06-07T08:33:19.1919",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt wurden in der Zeit zwischen 2010 und 2015 am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"lesehilfe": "In Basel-Stadt wurden in beiden betrachteten Perioden mehr Patente pro 1000 Einwohner und Jahr angemeldet als in den Kantonen Basel-Landschaft und Zürich. Der grösste Teil davon wurde im Bereich der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
 		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"6279"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
@@ -42918,21 +42918,21 @@ var indikatoren = [
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
 		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "I.03.4.07510",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "03 Arbeit, Erwerb",
+		"thema": "50 Befragungen",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:00:57.5757",
+		"aktualisierungsdatum": "2021-06-07T08:33:12.1212",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote in Basel-Stadt sinkt seit Jahresbeginn kontinuierlich und liegt aktuell bei 4,1%. Die Jugendarbeitslosenquote beträgt aktuell 3,5% und ist somit tiefer als die Arbeitslosenquote der Personen ab 50 Jahren die bei 3,7% liegt.",
+		"lesehilfe": "Aus saisonalen Gründen sinkt die Arbeitslosenquote in Basel-Stadt seit Jahresbeginn und liegt aktuell bei 3,9%. Die Jugendarbeitslosenquote beträgt aktuell 3,2% und ist somit tiefer als die Arbeitslosenquote der Personen ab 50 Jahren, die unverändert bei 3,7% liegt.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -42966,13 +42966,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:00:58.5858",
+		"aktualisierungsdatum": "2021-06-07T08:33:13.1313",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt bei über 1 600. Mit dem Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Seit Jahresbeginn steigt die Zahl der offenen Stellen wieder an und übertrifft im April 2021 gar die Werte von vor dem Pandemieausbruch.",
+		"lesehilfe": "Die Zahl der gemeldeten offenen Stellen lag im Januar und Februar 2020 in Basel-Stadt bei über 1 600. Mit dem Ausbruch der COVID-19-Pandemie und der damit verbundenen vorübergehenden Aufhebung der Stellenmeldepflicht (von Ende März bis Anfang Juni) waren im April und Mai 2020 deutlich weniger Stellen offen. Seit Jahresbeginn steigt die Zahl der offenen Stellen wieder an und übertrifft im April und Mai 2021 gar die Werte von vor dem Pandemieausbruch.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen COVID-19 und seinen Folgen hat der Bundesrat die Stellenmeldepflicht für die Zeit vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -43007,7 +43007,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-05-05T08:34:09.099",
+		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -43048,7 +43048,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-05T08:34:10.1010",
+		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -55185,34 +55185,34 @@ var indikatoren = [
 		"id": 8276
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8548"
+		],
+		"template": "mappie001",
 		"title": "Anteil Familienhaushalte",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"kuerzel": "I.01.2.08277",
 		"kuerzelKunde": "2-02",
 		"description": "Anteil Familienhaushalte",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
+		"aktualisierungsdatum": "2021-06-07T08:33:18.1818",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2019 mit 61% am höchsten, gefolgt von der Gemeinde Riehen und dem Wohnviertel Bruderholz (je 57%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (25%).",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie Eltern(-teile) mit volljährigen Kindern.",
-		"template": "mappie001",
+		"lesehilfe": "In der Gemeinde Bettingen ist der Anteil Familienhaushalte an allen Haushalten Ende 2020 mit 62% am höchsten, gefolgt von der Gemeinde Riehen (57%) und dem Wohnviertel Bruderholz (56%). Den geringsten Anteil an Familienhaushalten hat das Wohnviertel Altstadt Kleinbasel (24%).",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Zu den Familienhaushalten zählen verheiratete oder registrierte Paare ohne Kinder, verheiratete oder unverheiratete Paare mit minderjährigen Kindern, Einelternhaushalte mit minderjährigen Kindern sowie<br>Eltern(-teile) mit volljährigen Kindern.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"8548"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -58155,34 +58155,34 @@ var indikatoren = [
 		"id": 8377
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8953"
+		],
+		"template": "line001",
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.01.1.08379",
 		"kuerzelKunde": "BE4",
 		"description": "Abhängigkeitsquotient",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:42:08.088",
+		"aktualisierungsdatum": "2021-06-07T08:33:19.1919",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Abhängigkeitsquotient liegt 2019 bei 56,9. Er hat seit 2010 leicht abgenommen, da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
+		"lesehilfe": "Der Abhängigkeitsquotient liegt 2020 bei 56,5. Er hat seit 2011 leicht abgenommen, da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
 		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"8953"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -72824,13 +72824,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:00:59.5959",
+		"aktualisierungsdatum": "2021-06-07T08:33:15.1515",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Mai 2020 ist die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, grösser als 4 000. Ende April 2021 sind rund 4 200 Personen arbeitslos. So viele Arbeitslose gab es zuletzt im Januar 2010. Die Zahl der Langzeitarbeitslosen hat sich in den letzten zwölf Monaten ungefähr verdoppelt und liegt im April 2021 bei rund 1 050 Personen, was 25,0% der Arbeitslosen entspricht.",
+		"lesehilfe": "Nach einem knappen Jahr der Covid-19-Pandemie erreichte im Januar 2021 die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, einen Höchstand von rund 4 500. Seit Februar 2021 ist die Zahl rückläufig. Ende Mai 2021 sind rund 4 050 Personen arbeitslos. Die Zahl der Langzeitarbeitslosen steigt allerdings weiter an und ist im Mai 2021 mit rund 1 120 Personen mehr als doppelt so hoch als im Frühling 2020. Der Anteil der Langzeitarbeitslosen liegt aktuell bei 28%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -72864,13 +72864,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:01:00.000",
+		"aktualisierungsdatum": "2021-06-07T08:33:16.1616",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit Anfang der COVID-19-Pandemie im März 2020 sind die Arbeitslosenzahlen in Basel-Stadt im Vergleich zum Vorjahr stets höher, nachdem sie von April 2017 bis Februar 2020 im Vorjahresvergleich jeweils tiefer waren. Ende April 2021 sind 263 Personen mehr arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Der Trend hat sich jetzt geändert: Ende Mai 2021 sind 65 Personen weniger arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -73184,14 +73184,14 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:01:01.011",
+		"aktualisierungsdatum": "2021-06-07T08:33:17.1717",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit der Verschärfung der Massnahmen zur Bekämpfung der COVID-19-Pandemie (Lockdown ab 17.03.2020) sind die Anmeldungen von Kurzarbeit seitens der Unternehmen rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für rund 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 28 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni lag am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert immer noch ziemlich hoch (rund 75 000). Von September bis Dezember lag er dann zwischen 20 000 und 30 000. Seit Januar 2021 liegt die Anzahl der Arbeitnehmer, für die Kurzarbeit beantragt wurde, wieder eher bei 50 000 Personen (provisorische Zahlen). Die genehmigte Kurzarbeit erreicht 99% der beantragten Kurzarbeit. Wie viel der seit März genehmigten Kurzarbeit auch in Anspruch genommen wird, d. h. auch abgerechnet wird, ist für Basel-Stadt noch nicht bekannt.<br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
-		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die seit März 2020 abgerechnete Kurzarbeit in Basel-Stadt ist noch nicht verfügbar.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert nur ein bisschen tiefer (rund 75 000). Von September bis Dezember betrug die Anzahl der Angestellten, für die Kurzarbeit beantragt wurde, zwischen 20 000 und 30 000. Zu Beginn des Jahres 2021 lag der Wert wieder eher bei 50 000 Personen. Im Mai 2021 ist ein deutlicher Rückgang zu beobachten (provisorische Zahlen). 99% der beantragten Kurzarbeit wurde bisher vom AWA genehmigt.<br><br>Inzwischen ist auch bekannt, wie viel Kurzarbeit in den Monaten März bis August 2020 abgerechnet, d.h. tatsächlich in Anspruch genommen wurde: Von März bis Mai waren jeweils über 50 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich von Kurzarbeit betroffen (die Spitze war im April mit rund 60 000). Damit liegt der Anteil der genehmigten Kurzarbeit, die vom AWA abgerechnet und entschädigt wurde, im März bei 50%, im April bei 64% und im Mai bei 57%. In den Sommermonaten Juni bis August 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. <br><br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
+		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer im Kanton Basel-Stadt abgebildet (Kanton der Benutzerstelle). Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit mindestens 6 Monaten Verzögerung zur Verfügung.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,

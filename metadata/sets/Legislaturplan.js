@@ -289,33 +289,33 @@ var indikatorensetData = [
 		"id": 3104
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6279"
+		],
+		"template": "befragungen001",
 		"title": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitt 2010 bis 2015",
-		"kuerzel": "I.04.1.5033",
+		"subtitle": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"thema": "04 Volkswirtschaft",
+		"thema": "50 Befragungen",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T10:26:14.1414",
+		"aktualisierungsdatum": "2021-06-07T08:33:19.1919",
 		"stufe1": "Ziel 3: Der Kanton Basel-Stadt ist der Kern einer innovativen Wissensregion.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt wurden in der Zeit zwischen 2010 und 2015 am meisten Patente in der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
+		"lesehilfe": "In Basel-Stadt wurden in beiden betrachteten Perioden mehr Patente pro 1000 Einwohner und Jahr angemeldet als in den Kantonen Basel-Landschaft und Zürich. Der grösste Teil davon wurde im Bereich der Pharmazeutischen Industrie angemeldet. Im Kanton Zürich wurden vor allem in der Branche Elektronik, Optik und Maschinenbau Patente angemeldet.",
 		"erlaeuterungen": "Die transnationalen Patentanmeldungen bestehen aus Patenten, die von Forschenden am European Patent Office (EPO) oder über das Patent Cooperation Treaty (PCT)-Verfahren (gleichzeitige Patentanmeldung bei einer Vielzahl von nationalen Patentämtern) angemeldet wurden. Die über das PCT-Verfahren zum EPO gelangenden Patentanmeldungen werden nur einmal gezählt. Die Regionalisierung der Patentdaten erfolgt nach der Wohnadresse der beteiligten Forscher und wird von der OECD durchgeführt (REGPAT database). Die Patentanmeldungen sind pro 1000 Einwohner im Mittel über mehrere Jahre abgebildet.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"6279"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics"
