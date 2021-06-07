@@ -1,6 +1,11 @@
-﻿Branche	Basel-Stadt	Basel-Landschaft	Zürich
-Chemische Industrie	0.1565	0.0340	0.0590
-Elektronik, Optik und Maschinenbau	0.1694	0.1597	0.3293
-Medizinaltechnik	0.0785	0.0903	0.0515
-Pharmazeutische Industrie	0.4569	0.1634	0.0328
+Kanton	Chemische Industrie	Pharmazeutische Industrie	Elektronik, Optik, Maschinenbau	Medizinaltechnik, Sonstiges	Übrige Branchen
+Basel-Stadt					
+Basel-Stadt: 2010-2014	0.175	0.470	0.170	0.085	0.073
+Basel-Stadt: 2015-2017	0.076	0.510	0.174	0.104	0.043
+Basel-Landschaft					
+Basel-Landschaft: 2010-2014	0.035	0.172	0.162	0.117	0.033
+Basel-Landschaft: 2015-2017	0.026	0.109	0.152	0.073	0.042
+Zürich					
+Zürich: 2010-2014	0.058	0.034	0.330	0.069	0.102
+Zürich: 2015-2017	0.067	0.043	0.342	0.068	0.107
 

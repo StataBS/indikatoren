@@ -566,31 +566,31 @@ var indikatorensetData = [
 		"id": 4140
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.01.2.4141",
 		"kuerzelKunde": "1.4.A1",
 		"description": "Haushalte nach Art des Haushalts",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
+		"aktualisierungsdatum": "2021-06-07T08:33:17.1717",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2019 47% aus, 41% sind Familienhaushalte und 12% werden Anderen Haushalten zugeordnet.",
+		"lesehilfe": "Die Haushaltsstruktur weist in den letzten Jahren keine grossen Veränderungen auf. Einpersonenhaushalte machen 2020 47% aus, 40% sind Familienhaushalte und 13% werden Anderen Haushalten zugeordnet.",
 		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Anderen Haushalte umfassen Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
