@@ -73224,7 +73224,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-02T09:03:11.1111",
+		"aktualisierungsdatum": "2021-06-10T09:35:44.4444",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -73854,7 +73854,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-03T08:46:56.5656",
+		"aktualisierungsdatum": "2021-06-10T09:35:45.4545",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -73894,7 +73894,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-03T08:46:57.5757",
+		"aktualisierungsdatum": "2021-06-10T09:35:46.4646",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
