@@ -1,0 +1,463 @@
+{
+  "series": [
+    {
+      "color": "#246370",
+      "data": [
+        [
+          "Prämienverbilligung",
+          27228
+        ],
+        [
+          "Sozialhilfe",
+          12004
+        ],
+        [
+          "EL zur AHV",
+          7834
+        ],
+        [
+          "EL zur IV",
+          7047
+        ],
+        [
+          "Beihilfen zur AHV",
+          5373
+        ],
+        [
+          "Beihilfen zur IV",
+          5390
+        ],
+        [
+          "Tagesbetreuung",
+          3570
+        ],
+        [
+          "Familienmietzinsbeiträge",
+          2129
+        ],
+        [
+          "Stipendien",
+          2062
+        ],
+        [
+          "Behindertenhilfe",
+          null
+        ],
+        [
+          "Alimentenbevorschussung",
+          751
+        ],
+        [
+          "Stationäre Jugendhilfe",
+          409
+        ],
+        [
+          "Arbeitslosenhilfe",
+          50
+        ]
+      ],
+      "name": "2016",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Prämienverbilligung",
+          27401
+        ],
+        [
+          "Sozialhilfe",
+          12165
+        ],
+        [
+          "EL zur AHV",
+          7984
+        ],
+        [
+          "EL zur IV",
+          6895
+        ],
+        [
+          "Beihilfen zur AHV",
+          5536
+        ],
+        [
+          "Beihilfen zur IV",
+          5254
+        ],
+        [
+          "Tagesbetreuung",
+          3753
+        ],
+        [
+          "Familienmietzinsbeiträge",
+          2228
+        ],
+        [
+          "Stipendien",
+          2004
+        ],
+        [
+          "Behindertenhilfe",
+          2114
+        ],
+        [
+          "Alimentenbevorschussung",
+          735
+        ],
+        [
+          "Stationäre Jugendhilfe",
+          399
+        ],
+        [
+          "Arbeitslosenhilfe",
+          50
+        ]
+      ],
+      "name": "2017",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Prämienverbilligung",
+          26977
+        ],
+        [
+          "Sozialhilfe",
+          11920
+        ],
+        [
+          "EL zur AHV",
+          8262
+        ],
+        [
+          "EL zur IV",
+          6879
+        ],
+        [
+          "Beihilfen zur AHV",
+          5802
+        ],
+        [
+          "Beihilfen zur IV",
+          5241
+        ],
+        [
+          "Tagesbetreuung",
+          3811
+        ],
+        [
+          "Familienmietzinsbeiträge",
+          2248
+        ],
+        [
+          "Stipendien",
+          2030
+        ],
+        [
+          "Behindertenhilfe",
+          2090
+        ],
+        [
+          "Alimentenbevorschussung",
+          730
+        ],
+        [
+          "Stationäre Jugendhilfe",
+          393
+        ],
+        [
+          "Arbeitslosenhilfe",
+          50
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "Prämienverbilligung",
+          29140
+        ],
+        [
+          "Sozialhilfe",
+          11345
+        ],
+        [
+          "EL zur AHV",
+          8606
+        ],
+        [
+          "EL zur IV",
+          6929
+        ],
+        [
+          "Beihilfen zur AHV",
+          6070
+        ],
+        [
+          "Beihilfen zur IV",
+          5264
+        ],
+        [
+          "Tagesbetreuung",
+          3856
+        ],
+        [
+          "Familienmietzinsbeiträge",
+          2281
+        ],
+        [
+          "Stipendien",
+          2096
+        ],
+        [
+          "Behindertenhilfe",
+          2176
+        ],
+        [
+          "Alimentenbevorschussung",
+          690
+        ],
+        [
+          "Stationäre Jugendhilfe",
+          394
+        ],
+        [
+          "Arbeitslosenhilfe",
+          50
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0A3B19",
+      "data": [
+        [
+          "Prämienverbilligung",
+          30133
+        ],
+        [
+          "Sozialhilfe",
+          10943
+        ],
+        [
+          "EL zur AHV",
+          8488
+        ],
+        [
+          "EL zur IV",
+          6615
+        ],
+        [
+          "Beihilfen zur AHV",
+          6205
+        ],
+        [
+          "Beihilfen zur IV",
+          5051
+        ],
+        [
+          "Tagesbetreuung",
+          3800
+        ],
+        [
+          "Familienmietzinsbeiträge",
+          2300
+        ],
+        [
+          "Stipendien",
+          2078
+        ],
+        [
+          "Behindertenhilfe",
+          2177
+        ],
+        [
+          "Alimentenbevorschussung",
+          673
+        ],
+        [
+          "Stationäre Jugendhilfe",
+          400
+        ],
+        [
+          "Arbeitslosenhilfe",
+          50
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "inverted": false,
+    "renderTo": "container-9290"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "minPointLength": 2,
+      "pointPadding": 0,
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Übersicht Sozialleistungen: Personen\u002FFälle pro Leistung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": 0,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickAmount": 5
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialberichterstattung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-14"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
+  },
+  "exporting": {
+    "filename": "9290"
+  }
+}
