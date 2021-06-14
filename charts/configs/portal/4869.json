@@ -5,27 +5,27 @@
       "data": [
         [
           2009,
-          2.5
+          2.59
         ],
         [
           2010,
-          2.93
+          2.97
         ],
         [
           2011,
-          3.26
+          3.36
         ],
         [
           2012,
-          3.04
+          3.07
         ],
         [
           2013,
-          2.72
+          2.78
         ],
         [
           2014,
-          2.57
+          2.58
         ],
         [
           2015,
@@ -33,11 +33,11 @@
         ],
         [
           2016,
-          2.7
+          2.74
         ],
         [
           2017,
-          2.5
+          2.51
         ],
         [
           2018,
@@ -45,7 +45,11 @@
         ],
         [
           2019,
-          1.88
+          1.89
+        ],
+        [
+          2020,
+          1.57
         ]
       ],
       "name": "Anzahl Anzeigen"
@@ -177,7 +181,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-14"
   },
   "tooltip": {
     "valueDecimals": 1,

@@ -1040,29 +1040,6 @@ var indikatorensetData = [
 		"id": 4865
 	},
 	{
-		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
-		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kuerzel": "I.19.1.4866",
-		"kuerzelKunde": "3.2.01",
-		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-01-22T18:01:14.1414",
-		"stufe1": "3 Gemeinwohlorientierung",
-		"stufe2": "3.2 Anerkennung sozialer Regeln",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 106,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_02_00_00_00_055",
 		"parentId": null,
 		"children": [
 			"5188",
@@ -1071,6 +1048,29 @@ var indikatorensetData = [
 			"8405",
 			"8904"
 		],
+		"template": "template001",
+		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzel": "I.19.1.4866",
+		"kuerzelKunde": "3.2.01",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-06-14T08:12:25.2525",
+		"stufe1": "3 Gemeinwohlorientierung",
+		"stufe2": "3.2 Anerkennung sozialer Regeln",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 100,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "03_02_00_00_00_055",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -1086,33 +1086,33 @@ var indikatorensetData = [
 		"id": 4866
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8406"
+		],
+		"template": "template001",
 		"title": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.19.1.4867",
 		"kuerzelKunde": "3.2.02",
 		"description": "Angezeigte Straftaten betreffend Veruntreuung/Betrug",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:15.1515",
+		"aktualisierungsdatum": "2021-06-14T08:12:25.2525",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 6,6 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 6,3 Anzeigen wegen Veruntreuung oder Betrug erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Veruntreuung oder Betrug (Art. 138 und 142), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_056",
-		"parentId": null,
-		"children": [
-			"8406"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1128,33 +1128,33 @@ var indikatorensetData = [
 		"id": 4867
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8407"
+		],
+		"template": "template001",
 		"title": "Angezeigte Straftaten betreffend Diebstahl",
 		"subtitle": "ohne Fahrzeugdiebstahl und -entwendung, pro 1000 Einwohner, Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.19.1.4868",
 		"kuerzelKunde": "3.2.03",
 		"description": "Angezeigte Straftaten betreffend Diebstahl",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:15.1515",
+		"aktualisierungsdatum": "2021-06-14T08:12:26.2626",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 34,5 Anzeigen wegen Diebstahl erstattet.",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 30,0 Anzeigen wegen Diebstahl erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Diebstahl (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_057",
-		"parentId": null,
-		"children": [
-			"8407"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -1170,33 +1170,33 @@ var indikatorensetData = [
 		"id": 4868
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8408"
+		],
+		"template": "template001",
 		"title": "Angezeigte Straftaten betreffend Körperverletzung",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.19.1.4869",
 		"kuerzelKunde": "3.2.04",
 		"description": "Angezeigte Straftaten betreffend Körperverletzung",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
+		"aktualisierungsdatum": "2021-06-14T08:12:27.2727",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.2 Anerkennung sozialer Regeln",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 1,9 Anzeigen wegen Körperverletzung erstattet.",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 1,6 Anzeigen wegen Körperverletzung erstattet.",
 		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Körperverletzung (Art. 122), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_02_00_00_00_058",
-		"parentId": null,
-		"children": [
-			"8408"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
