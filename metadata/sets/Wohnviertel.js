@@ -41,42 +41,40 @@ var indikatorensetData = [
 		"id": 4822
 	},
 	{
+		"parentId": null,
+		"children": [
+			"5110"
+		],
+		"template": "dotplot",
 		"title": "Anteil Ausländer",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.4823",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzel": "I.01.1.04823",
 		"kuerzelKunde": "GS-2.A",
 		"description": "Anteil Ausländer",
 		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnviertel",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-03T08:57:50.5050",
+		"aktualisierungsdatum": "2021-06-15T09:18:40.4040",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22% am geringsten, im Wohnviertel Rosental mit 56% am höchsten.",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22,5% am geringsten, im Wohnviertel Rosental mit 55,8% am höchsten.",
 		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
-		"template": "dotplot",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_01_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"5110"
-		],
-		"renderLink": [
-			"5110"
-		],
+		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevheim.anteil_al' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevheim.anteil_al&view=map6' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4823,
 		"chart-id": 4823,
