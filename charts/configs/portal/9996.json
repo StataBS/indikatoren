@@ -248,7 +248,8 @@
       }
     },
     "min": 1,
-    "max": 21,
+    "max": 21.1,
+    "endOnTick": false,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -288,6 +289,6 @@
   },
   "exporting": {
     "allowHTML": false,
-    "filename": 9996
+    "filename": "9996"
   }
 }
