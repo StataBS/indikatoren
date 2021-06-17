@@ -6564,6 +6564,15 @@
     },
     "renderTo": "container-8285"
   },
+  "plotOptions": {
+    "series": {
+      "states": {
+        "inactive": {
+          "opacity": 1
+        }
+      }
+    }
+  },
   "title": {
     "style": {
       "fontSize": "14px",

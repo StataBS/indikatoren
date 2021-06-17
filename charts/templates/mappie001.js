@@ -22,6 +22,15 @@
             "type": "map",
     		"inverted": false
         },
+		plotOptions: {
+			series: {
+				states: {
+					inactive: {
+						opacity: 1
+					}
+				}
+			}
+		},
         "title": {
             "style": {
                 "fontSize": "14px",
