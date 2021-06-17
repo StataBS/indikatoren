@@ -208,31 +208,31 @@ var indikatorensetData = [
 		"id": 5814
 	},
 	{
+		"parentId": 4140,
+		"children": [],
+		"template": "line001",
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
+		"kennzahlenset": "Richtplan",
 		"kuerzel": "I.09.1.05815",
 		"kuerzelKunde": "ST 4-7",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-27T10:13:23.2323",
+		"aktualisierungsdatum": "2021-06-17T06:56:53.5353",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. 2019 nahm sie wieder zu.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende und berücksichtigen rückwirkend wo immer möglich die aktuell gültigen Definitionen gemäss Gesetzgebung zu Registerharmonisierung und Volkszählung. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
-		"template": "line001",
+		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. Ab 2019 nimmt sie wieder leicht zu.",
+		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_007",
-		"parentId": 4140,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -248,31 +248,31 @@ var indikatorensetData = [
 		"id": 5815
 	},
 	{
+		"parentId": 4135,
+		"children": [],
+		"template": "template001",
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Richtplan",
 		"kuerzel": "I.09.1.05816",
 		"kuerzelKunde": "ST 4-8",
 		"description": "Nettowohnungsproduktion",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-16T08:56:48.4848",
+		"aktualisierungsdatum": "2021-06-17T06:56:54.5454",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 wurde die höchste Neubauproduktion seit 1981 verzeichnet. Der Umbausaldo war wiederum positiv wie stets seit 2011.",
+		"lesehilfe": "2020 wurde wiederum eine hohe Neubauproduktion verzeichnet. Auffallend ist insbesondere auch der stark positive Umbausaldo.",
 		"erlaeuterungen": "",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_008",
-		"parentId": 4135,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -281,7 +281,7 @@ var indikatorensetData = [
 		"externalLinks": [
 			""
 		],
-		"data-id": 4135,
+		"data-id": 5816,
 		"chart-id": 4135,
 		"filter": "",
 		"id": 5816
