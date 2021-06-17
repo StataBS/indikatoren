@@ -45,31 +45,35 @@
         ],
         [
           2013,
-          42.004384685941
+          41.950871255189
         ],
         [
           2014,
-          41.7
+          41.606990519462
         ],
         [
           2015,
-          41.454831762135
+          41.379773554936
         ],
         [
           2016,
-          41.279119850187
+          41.206839672799
         ],
         [
           2017,
-          41.063543712208
+          40.988009567548
         ],
         [
           2018,
-          41.047173024523
+          40.976659316484
         ],
         [
           2019,
-          41.35700144497524
+          41.357359194944
+        ],
+        [
+          2020,
+          41.429498600806
         ]
       ],
       "name": "Wohnfläche in m² pro Person"
@@ -205,7 +209,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-17"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
