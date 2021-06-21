@@ -1553,33 +1553,33 @@ var indikatorensetData = [
 		"id": 8279
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8551"
+		],
+		"template": "line001",
 		"title": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.08280",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
 		"kuerzelKunde": "2-06",
 		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
-		"thema": "01 Bevölkerung",
+		"thema": "50 Befragungen",
 		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:53.5353",
+		"aktualisierungsdatum": "2021-06-21T08:56:06.066",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2010 und 2019 um 17,7% zugenommen. Die Zahl der 13- bis 17-Jährigen und der 18- bis 25-Jährigen ist hingegen um 1,3% bzw. um 8,9% zurückgegangen.",
+		"lesehilfe": "Die Zahl der 5- bis 12-jährigen Kinder hat im Kanton Basel-Stadt zwischen 2011 und 2020 um 19,7% zugenommen, die Zahl der 13- bis 17-Jährigen um 0,6%. Die Zahl der 18- bis 25-Jährigen ist hingegen um 7,7% zurückgegangen.",
 		"erlaeuterungen": "",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_02_00_00_00_206",
-		"parentId": null,
-		"children": [
-			"8551"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1853,13 +1853,13 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:53:05.055",
+		"aktualisierungsdatum": "2021-06-21T08:56:07.077",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 746 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"lesehilfe": "Im Jahr 2020 wurden 743 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
 		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",

@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Hirzbrunnen",
           "y": 11,
-          "Wert": 0.0476190476
+          "Wert": 0.0484894097
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 3,
-          "Wert": 0.2522522523
+          "y": 4,
+          "Wert": 0.2586818622
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Hirzbrunnen",
           "y": 4,
-          "Wert": 0.1854786195
+          "Wert": 0.1874177992
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 9,
-          "Wert": 0.32
+          "y": 11,
+          "Wert": 0.339181287
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.4170001906
+          "Wert": 0.4223291627
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Hirzbrunnen",
           "y": 17,
-          "Wert": 0.4001501502
+          "Wert": 0.395656381
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.3600152468
+          "Wert": 0.3680461983
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Hirzbrunnen",
           "y": 16,
-          "Wert": 1942.2852645
+          "Wert": 1942.344675488342
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Hirzbrunnen",
           "y": 19,
-          "Wert": 0.6945843829
+          "Wert": 0.693761814744
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Hirzbrunnen",
           "y": 18,
-          "Wert": 0.5975573457
+          "Wert": 0.5959045602
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Hirzbrunnen",
           "y": 12,
-          "Wert": 81.300210526
+          "Wert": 81.468228836816
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 9,
-          "Wert": 38.983937486
+          "Wert": 39.12187637
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 718.25484407
+          "Wert": 690.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Hirzbrunnen",
           "y": 10,
-          "Wert": 7831.7899982
+          "Wert": 8009.3
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Hirzbrunnen",
-          "y": 6,
-          "Wert": 0.7065011149
+          "y": 5,
+          "Wert": 0.7045793
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Hirzbrunnen",
           "y": 9,
-          "Wert": 0.3135640475
+          "Wert": 0.3237955868
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

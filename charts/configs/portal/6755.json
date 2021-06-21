@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.1097258486
+          "Wert": 0.1109538818
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Matthäus",
           "y": 19,
-          "Wert": 0.5026109661
+          "Wert": 0.5068501962
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Matthäus",
           "y": 11,
-          "Wert": 0.2633456749
+          "Wert": 0.2645417255
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Matthäus",
-          "y": 7,
-          "Wert": 0.2880434783
+          "y": 5,
+          "Wert": 0.259067358
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Matthäus",
           "y": 2,
-          "Wert": 0.1888482633
+          "Wert": 0.1910547156
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Matthäus",
-          "y": 5,
-          "Wert": 0.3087397709
+          "y": 6,
+          "Wert": 0.3063028192
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Matthäus",
-          "y": 7,
-          "Wert": 0.2115173675
+          "y": 6,
+          "Wert": 0.2080633549
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 1925.1996513
+          "Wert": 1925.374125874125
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 0.0697471665
+          "Wert": 0.068181818181
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Matthäus",
           "y": 6,
-          "Wert": 0.1653368754
+          "Wert": 0.1660807391
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Matthäus",
           "y": 3,
-          "Wert": 67.2267683
+          "Wert": 67.229024689978
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 4,
-          "Wert": 35.749175362
+          "Wert": 35.985475086
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Matthäus",
-          "y": 6,
-          "Wert": 584.74269201
+          "y": 7,
+          "Wert": 574.4
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 6539.7952651
+          "Wert": 6827.7
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Matthäus",
-          "y": 5,
-          "Wert": 0.7026999861
+          "y": 7,
+          "Wert": 0.713825
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Matthäus",
           "y": 5,
-          "Wert": 0.1847064587
+          "Wert": 0.1833720331
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

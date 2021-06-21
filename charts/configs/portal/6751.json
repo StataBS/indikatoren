@@ -5,56 +5,56 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Clara",
-          "y": 16,
-          "Wert": 0.0876376989
+          "y": 17,
+          "Wert": 0.0837026096
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Clara",
           "y": 17,
-          "Wert": 0.4695226438
+          "Wert": 0.4670113245
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Clara",
-          "y": 14,
-          "Wert": 0.2765625
+          "y": 17,
+          "Wert": 0.2900286384
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Clara",
-          "y": 6,
-          "Wert": 0.2708333333
+          "y": 4,
+          "Wert": 0.255319149
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Clara",
           "y": 13,
-          "Wert": 0.3398717465
+          "Wert": 0.3288237505
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Clara",
-          "y": 8,
-          "Wert": 0.3211750306
+          "y": 10,
+          "Wert": 0.3316100443
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Clara",
           "y": 4,
-          "Wert": 0.2010562052
+          "Wert": 0.1976700489
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Clara",
           "y": 7,
-          "Wert": 1929.2055336
+          "Wert": 1929.404761904761
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Clara",
           "y": 1,
-          "Wert": 0.023715415
+          "Wert": 0.023809523809
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
@@ -66,37 +66,37 @@
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Clara",
           "y": 2,
-          "Wert": 66.592351152
+          "Wert": 65.710898502495
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 36.610416667
+          "Wert": 36.892736267
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Clara",
           "y": 5,
-          "Wert": 534.92269737
+          "Wert": 523.1
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Clara",
           "y": 3,
-          "Wert": 6316.6652961
+          "Wert": 6483.9
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Clara",
           "y": 3,
-          "Wert": 0.6679853567
+          "Wert": 0.6917513
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Clara",
           "y": 12,
-          "Wert": 0.6108446086
+          "Wert": 0.5891255128
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

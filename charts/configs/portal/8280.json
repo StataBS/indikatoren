@@ -7,10 +7,6 @@
       },
       "data": [
         [
-          2010,
-          11543
-        ],
-        [
           2011,
           11604
         ],
@@ -45,6 +41,10 @@
         [
           2019,
           13585
+        ],
+        [
+          2020,
+          13892
         ]
       ],
       "name": "5-12 J."
@@ -55,10 +55,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2010,
-          7655
-        ],
         [
           2011,
           7637
@@ -94,6 +90,10 @@
         [
           2019,
           7558
+        ],
+        [
+          2020,
+          7681
         ]
       ],
       "name": "13-17 J."
@@ -104,10 +104,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2010,
-          18680
-        ],
         [
           2011,
           18587
@@ -143,6 +139,10 @@
         [
           2019,
           17016
+        ],
+        [
+          2020,
+          17152
         ]
       ],
       "name": "18-25 J."
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

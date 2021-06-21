@@ -156,18 +156,21 @@ var indikatorensetData = [
 		"id": 4130
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Wohnungsbelegung",
 		"subtitle": "nach Belegungsart, Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4131",
 		"kuerzelKunde": "0.1.C",
 		"description": "Wohnungsbelegung",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T15:00:52.5252",
+		"aktualisierungsdatum": "2021-06-21T08:56:05.055",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
@@ -175,12 +178,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "Der Mietwohnungsanteil beträgt stets rund 73%.",
 		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -644,31 +644,31 @@ var indikatorensetData = [
 		"id": 4142
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "template001",
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Wohnraumentwicklung",
 		"kuerzel": "I.09.1.4143",
 		"kuerzelKunde": "1.4.B",
 		"description": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Wohnraumentwicklung",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T16:23:11.1111",
+		"aktualisierungsdatum": "2021-06-21T08:56:05.055",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2019 knapp 11%.",
-		"erlaeuterungen": "Seit der Aktualisierung mit Daten aus dem Jahr 2017 werden nur noch Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren. Die Werte wurden entsprechend rückwirkend angepasst und weichen deshalb von früher an dieser Stelle publizierten Werten ab.",
-		"template": "template001",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2020 knapp 11%.",
+		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_04_00_00_00_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"

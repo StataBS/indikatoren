@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Johann",
-          "y": 15,
-          "Wert": 0.0866933305
+          "y": 16,
+          "Wert": 0.0796030518
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Johann",
           "y": 16,
-          "Wert": 0.4328721219
+          "Wert": 0.431681161
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Johann",
-          "y": 10,
-          "Wert": 0.2387484412
+          "y": 9,
+          "Wert": 0.2387184116
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Johann",
-          "y": 11,
-          "Wert": 0.3703703704
+          "y": 10,
+          "Wert": 0.303703704
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Johann",
           "y": 5,
-          "Wert": 0.2315104794
+          "Wert": 0.2296003166
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Johann",
-          "y": 9,
-          "Wert": 0.3238194368
+          "y": 8,
+          "Wert": 0.3206251352
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Johann",
           "y": 11,
-          "Wert": 0.2542359271
+          "Wert": 0.2538187574
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Johann",
-          "y": 10,
-          "Wert": 1933.2823219
+          "y": 9,
+          "Wert": 1933.359261700725
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Johann",
           "y": 13,
-          "Wert": 0.2480211082
+          "Wert": 0.247857613711
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Johann",
           "y": 12,
-          "Wert": 0.282953173
+          "Wert": 0.2821844968
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 72.031253091
+          "Wert": 72.100997136933
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
-          "y": 7,
-          "Wert": 36.732910101
+          "y": 6,
+          "Wert": 36.915613718
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 8,
-          "Wert": 596.51908679
+          "y": 9,
+          "Wert": 640.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 6,
-          "Wert": 6774.0039745
+          "y": 7,
+          "Wert": 7019.2
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Johann",
-          "y": 7,
-          "Wert": 0.7083450309
+          "y": 4,
+          "Wert": 0.7039822
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 1.0923026533
+          "Wert": 1.0875585544
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

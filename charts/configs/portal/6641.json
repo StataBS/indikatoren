@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 13,
-          "Wert": 0.0672478207
+          "y": 14,
+          "Wert": 0.0654515327
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 13,
-          "Wert": 0.3835616438
+          "Wert": 0.3881524441
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 21,
-          "Wert": 0.3457943925
+          "Wert": 0.3602649007
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 4,
-          "Wert": 0.2173913043
+          "y": 7,
+          "Wert": 0.269230769
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.2820512821
+          "Wert": 0.2720848057
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 3,
-          "Wert": 0.2860107929
+          "Wert": 0.2850041425
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.1544424568
+          "Wert": 0.1495877503
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 1881.2535211
+          "Wert": 1881.584507042253
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 7,
-          "Wert": 0.0985915493
+          "Wert": 0.098591549295
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 2,
-          "Wert": 0.0809475552
+          "Wert": 0.0809595313
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 9,
-          "Wert": 71.24
+          "Wert": 70.930759803921
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 43.256786827
+          "Wert": 43.321412804
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 11,
-          "Wert": 1438.9218159
+          "y": 12,
+          "Wert": 1898.4
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 12,
-          "Wert": 9272.3190416
+          "Wert": 10098.1
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 4,
-          "Wert": 0.7018931452
+          "y": 11,
+          "Wert": 0.7331914
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Altstadt Kleinbasel",
           "y": 16,
-          "Wert": 1.5534310401
+          "Wert": 1.5276966556
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,
