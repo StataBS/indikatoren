@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Am Ring",
-          "y": 7,
-          "Wert": 0.0329088953
+          "y": 6,
+          "Wert": 0.0313189237
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Am Ring",
           "y": 11,
-          "Wert": 0.3734756098
+          "Wert": 0.3775033083
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Am Ring",
-          "y": 15,
-          "Wert": 0.2779129758
+          "y": 12,
+          "Wert": 0.2720262194
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Am Ring",
-          "y": 18,
-          "Wert": 0.5454545455
+          "y": 19,
+          "Wert": 0.550458716
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Am Ring",
           "y": 11,
-          "Wert": 0.3281751011
+          "Wert": 0.3184722033
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Am Ring",
           "y": 4,
-          "Wert": 0.2989208633
+          "Wert": 0.2936858861
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Am Ring",
-          "y": 9,
-          "Wert": 0.2265439844
+          "y": 8,
+          "Wert": 0.222237325
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Am Ring",
           "y": 4,
-          "Wert": 1919.398977
+          "Wert": 1920.889637742207
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Am Ring",
           "y": 12,
-          "Wert": 0.1952259165
+          "Wert": 0.194608256107
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Am Ring",
           "y": 10,
-          "Wert": 0.2412124253
+          "Wert": 0.2408567116
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Am Ring",
           "y": 13,
-          "Wert": 81.888348753
+          "Wert": 81.75565123789
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
           "y": 13,
-          "Wert": 45.404458289
+          "Wert": 45.099479468
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Am Ring",
           "y": 13,
-          "Wert": 2279.9632508
+          "Wert": 2094.5
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Am Ring",
           "y": 14,
-          "Wert": 11861.725433
+          "Wert": 11993.3
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Am Ring",
           "y": 19,
-          "Wert": 0.7868670616
+          "Wert": 0.7824608
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Am Ring",
           "y": 14,
-          "Wert": 0.9990473993
+          "Wert": 1.0114517055
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

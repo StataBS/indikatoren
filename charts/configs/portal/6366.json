@@ -6,63 +6,63 @@
       "data": [
         [
           "0- 4",
-          -25.15
+          -25.03
         ],
         [
           "5- 9",
-          -25.69
+          -25.36
         ],
         [
           "10-14",
-          -27.16
+          -27.03
         ],
         [
           "15-19",
-          -28.88
+          -28.65
         ],
         [
           "20-24",
-          -32.94
+          -32.76
         ],
         [
           "25-29",
-          -36.67
+          -36.61
         ],
         [
           "30-34",
-          -38.14
+          -38.13
         ],
         [
           "35-39",
-          -37.46
+          -37.18
         ],
         [
           "40-44",
-          -37.48
+          -37.32
         ],
         [
           "45-49",
-          -39.75
+          -39.3
         ],
         [
           "50-54",
-          -43.01
+          -42.53
         ],
         [
           "55-59",
-          -45.72
+          -45.71
         ],
         [
           "60-64",
-          -48.46
+          -48.8
         ],
         [
           "65-69",
-          -51.5
+          -51.22
         ],
         [
           "70 u.m.",
-          -55.55
+          -55.48
         ]
       ],
       "name": "Männlich",
@@ -74,63 +74,63 @@
       "data": [
         [
           "0- 4",
-          24.57
+          24.55
         ],
         [
           "5- 9",
-          25.79
+          25.6
         ],
         [
           "10-14",
-          27.24
+          26.96
         ],
         [
           "15-19",
-          28.9
+          28.85
         ],
         [
           "20-24",
-          32.9
+          32.88
         ],
         [
           "25-29",
-          36.71
+          36.66
         ],
         [
           "30-34",
-          37.6
+          37.56
         ],
         [
           "35-39",
-          35.91
+          35.83
         ],
         [
           "40-44",
-          36.37
+          36.22
         ],
         [
           "45-49",
-          39.24
+          38.72
         ],
         [
           "50-54",
-          44.26
+          43.96
         ],
         [
           "55-59",
-          49.3
+          49.11
         ],
         [
           "60-64",
-          54.4
+          54.21
         ],
         [
           "65-69",
-          57.66
+          56.84
         ],
         [
           "70 u.m.",
-          65.29
+          65.47
         ]
       ],
       "name": "Weiblich",
@@ -229,7 +229,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Alter und Geschlecht in m², Basel-Stadt, 2019",
+    "text": "nach Alter und Geschlecht in m², Basel-Stadt, 2020",
     "align": "left",
     "useHTML": true
   },
@@ -281,7 +281,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "symbolRadius": 0,
@@ -306,6 +306,6 @@
         	}
   },
   "exporting": {
-    "filename": 6366
+    "filename": "6366"
   }
 }

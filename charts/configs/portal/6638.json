@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gotthelf",
           "y": 10,
-          "Wert": 0.044447641
+          "Wert": 0.0386586616
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gotthelf",
-          "y": 7,
-          "Wert": 0.2859608746
+          "y": 6,
+          "Wert": 0.2829111144
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gotthelf",
           "y": 18,
-          "Wert": 0.2886567603
+          "Wert": 0.3006741573
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gotthelf",
-          "y": 15,
-          "Wert": 0.4909090909
+          "y": 14,
+          "Wert": 0.480769231
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gotthelf",
           "y": 14,
-          "Wert": 0.3421354765
+          "Wert": 0.3420438637
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gotthelf",
           "y": 15,
-          "Wert": 0.3652186421
+          "Wert": 0.3738468297
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gotthelf",
           "y": 10,
-          "Wert": 0.2541905855
+          "Wert": 0.2512832478
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gotthelf",
           "y": 5,
-          "Wert": 1925.0652396
+          "Wert": 1925.209016393442
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 0.3669724771
+          "Wert": 0.368852459016
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gotthelf",
           "y": 13,
-          "Wert": 0.3197877716
+          "Wert": 0.3214087452
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 74.480085857
+          "Wert": 74.308095238095
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 41.421215242
+          "Wert": 42.091235955
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 16,
-          "Wert": 4563.7886488
+          "Wert": 3335.3
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gotthelf",
           "y": 11,
-          "Wert": 9091.0904773
+          "Wert": 9568.5
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gotthelf",
-          "y": 10,
-          "Wert": 0.7341245851
+          "y": 8,
+          "Wert": 0.7160514
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gotthelf",
-          "y": 7,
-          "Wert": 0.2847147596
+          "y": 8,
+          "Wert": 0.291090078
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

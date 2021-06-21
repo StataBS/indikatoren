@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Kleinhüningen",
           "y": 20,
-          "Wert": 0.1143674053
+          "Wert": 0.1146315415
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Kleinhüningen",
           "y": 18,
-          "Wert": 0.4699785561
+          "Wert": 0.4873620506
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Kleinhüningen",
           "y": 5,
-          "Wert": 0.1970479705
+          "Wert": 0.192548875
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 0.1632653061
+          "Wert": 0.216666667
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Kleinhüningen",
-          "y": 9,
-          "Wert": 0.299248989
+          "y": 10,
+          "Wert": 0.3002898551
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Kleinhüningen",
           "y": 16,
-          "Wert": 0.37884203
+          "Wert": 0.3823424706
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Kleinhüningen",
           "y": 17,
-          "Wert": 0.3171577123
+          "Wert": 0.328115942
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Kleinhüningen",
           "y": 17,
-          "Wert": 1946.7844311
+          "Wert": 1948.082352941176
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Kleinhüningen",
           "y": 10,
-          "Wert": 0.1556886228
+          "Wert": 0.15294117647
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Kleinhüningen",
           "y": 9,
-          "Wert": 0.2240506642
+          "Wert": 0.223024617
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Kleinhüningen",
-          "y": 6,
-          "Wert": 70.381057269
+          "y": 5,
+          "Wert": 70.106504646175
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 32.60701107
+          "y": 1,
+          "Wert": 32.31353744
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 221.13872832
+          "y": 1,
+          "Wert": 199.4
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Kleinhüningen",
           "y": 2,
-          "Wert": 5008.7700706
+          "Wert": 4911.8
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Kleinhüningen",
-          "y": 2,
-          "Wert": 0.6440537503
+          "y": 1,
+          "Wert": 0.6169505
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Kleinhüningen",
           "y": 18,
-          "Wert": 2.0877175139
+          "Wert": 2.1355715324
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

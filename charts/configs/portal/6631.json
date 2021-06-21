@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Vorstädte",
-          "y": 5,
-          "Wert": 0.0312811317
+          "y": 9,
+          "Wert": 0.0356506239
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Vorstädte",
-          "y": 14,
-          "Wert": 0.3851364814
+          "y": 15,
+          "Wert": 0.4018617548
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Vorstädte",
           "y": 20,
-          "Wert": 0.3347280335
+          "Wert": 0.3287843796
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Vorstädte",
-          "y": 13,
-          "Wert": 0.4583333333
+          "y": 18,
+          "Wert": 0.529411765
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Vorstädte",
-          "y": 16,
-          "Wert": 0.3668295663
+          "y": 15,
+          "Wert": 0.3554817276
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Vorstädte",
           "y": 2,
-          "Wert": 0.2823271568
+          "Wert": 0.2800554565
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 0.1661576054
+          "Wert": 0.1694352159
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Vorstädte",
           "y": 3,
-          "Wert": 1899.1376147
+          "Wert": 1899.35466179159
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Vorstädte",
           "y": 6,
-          "Wert": 0.0770642202
+          "Wert": 0.076782449725
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Vorstädte",
           "y": 8,
-          "Wert": 0.1947799544
+          "Wert": 0.1947985383
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Vorstädte",
           "y": 14,
-          "Wert": 82.28032739
+          "Wert": 82.035983749274
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 50.367364017
+          "Wert": 50.008398068
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 19,
-          "Wert": 6754.7690516
+          "Wert": 7391.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Vorstädte",
           "y": 20,
-          "Wert": 16909.705491
+          "Wert": 17653.2
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Vorstädte",
-          "y": 18,
-          "Wert": 0.7693459123
+          "y": 15,
+          "Wert": 0.7478803
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Vorstädte",
           "y": 21,
-          "Wert": 4.442984752
+          "Wert": 4.4012966738
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

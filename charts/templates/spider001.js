@@ -10,7 +10,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -38,6 +38,7 @@
 			width: 485,
 			height: 415,
 			spacingBottom: 45,
+			marginLeft: 20,
 			style: {
 				fontFamily: "Arial"
 			},
@@ -109,8 +110,7 @@
 				}
 			},
 			min: 1,
-			max: 21.1,
-			endOnTick: false,
+			max: 21,
 			tickInterval: 7,
 			showFirstLabel: false,
 			showLastLabel: true,

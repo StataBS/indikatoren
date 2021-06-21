@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Bettingen",
-          "y": 3,
-          "Wert": 0.0194915254
+          "y": 2,
+          "Wert": 0.0151898734
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Bettingen",
-          "y": 4,
-          "Wert": 0.2525423729
+          "y": 3,
+          "Wert": 0.2523206751
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Bettingen",
           "y": 1,
-          "Wert": 0.1364468864
+          "Wert": 0.1245454545
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Bettingen",
-          "y": 16,
-          "Wert": 0.5238095238
+          "y": 12,
+          "Wert": 0.375
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Bettingen",
-          "y": 19,
-          "Wert": 0.4292168675
+          "y": 20,
+          "Wert": 0.4409090909
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Bettingen",
-          "y": 19,
-          "Wert": 0.4177966102
+          "y": 20,
+          "Wert": 0.4270042194
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Bettingen",
           "y": 18,
-          "Wert": 0.3478915663
+          "Wert": 0.3545454545
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 1962.4483871
+          "Wert": 1962.493506493506
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.7870967742
+          "Wert": 0.788961038961
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 0.9019785762
+          "Wert": 0.9021220471
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 120.9047619
+          "Wert": 120.795634920634
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 52.936813187
+          "Wert": 52.64
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 14716.314696
+          "Wert": 14573.8
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Bettingen",
           "y": 21,
-          "Wert": 21092.429712
+          "Wert": 20650
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Bettingen",
           "y": 13,
-          "Wert": 0.7503934401
+          "Wert": 0.7384675
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Bettingen",
-          "y": 8,
-          "Wert": 0.2880605517
+          "y": 7,
+          "Wert": 0.2618170378
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,

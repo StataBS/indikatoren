@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gundeldingen",
-          "y": 14,
-          "Wert": 0.0683296024
+          "y": 13,
+          "Wert": 0.0623445356
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gundeldingen",
-          "y": 15,
-          "Wert": 0.3970792026
+          "y": 14,
+          "Wert": 0.4002646203
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gundeldingen",
-          "y": 17,
-          "Wert": 0.2832781187
+          "y": 16,
+          "Wert": 0.2889848104
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gundeldingen",
           "y": 8,
-          "Wert": 0.2950819672
+          "Wert": 0.291666667
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gundeldingen",
           "y": 4,
-          "Wert": 0.2246420956
+          "Wert": 0.2248792999
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gundeldingen",
           "y": 7,
-          "Wert": 0.3170770707
+          "Wert": 0.316644615
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gundeldingen",
           "y": 5,
-          "Wert": 0.2040816327
+          "Wert": 0.2005129753
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gundeldingen",
           "y": 8,
-          "Wert": 1932.5616246
+          "Wert": 1932.715583508036
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gundeldingen",
           "y": 2,
-          "Wert": 0.0287114846
+          "Wert": 0.028651292802
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gundeldingen",
           "y": 7,
-          "Wert": 0.1774198731
+          "Wert": 0.1762109013
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gundeldingen",
           "y": 7,
-          "Wert": 70.386958048
+          "Wert": 70.286723040711
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
           "y": 10,
-          "Wert": 39.012817031
+          "Wert": 39.295213638
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gundeldingen",
-          "y": 9,
-          "Wert": 617.95181985
+          "y": 6,
+          "Wert": 554.9
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gundeldingen",
           "y": 9,
-          "Wert": 7492.6236362
+          "Wert": 7472.3
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gundeldingen",
-          "y": 16,
-          "Wert": 0.7659613467
+          "y": 18,
+          "Wert": 0.7627559
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
           "y": 11,
-          "Wert": 0.5706260442
+          "Wert": 0.5766547817
         }
       ],
       "name": "Wert",
@@ -137,7 +137,7 @@
 					var endPurple = top + 2 * Math.PI / 18 * 8;
 					var endGreen = endPurple + 2 * Math.PI / 18 * 5;
 					var endBlue = top;
-					var centerX = 242.5;
+					var centerX = 247;
 					var centerY = 212.5;
 					var radius = 136;
 					this.renderer.arc(centerX, centerY, radius, 0, top, endPurple).attr({
@@ -165,6 +165,7 @@
     "width": 485,
     "height": 428,
     "spacingBottom": 55,
+    "marginLeft": 20,
     "style": {
       "fontFamily": "Arial"
     },
@@ -213,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -236,8 +237,7 @@
       }
     },
     "min": 1,
-    "max": 21.1,
-    "endOnTick": false,
+    "max": 21,
     "tickInterval": 7,
     "showFirstLabel": false,
     "showLastLabel": true,
@@ -258,7 +258,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
   },
   "legend": {
     "enabled": false,
