@@ -5,26 +5,30 @@
       "data": [
         [
           "2000",
-          13.4
+          13.38
         ],
         [
           "2003",
-          14.9
+          14.91
         ],
         [
           "2008",
-          14.5
+          14.47
+        ],
+        [
+          "2010",
+          10.04
         ]
       ],
       "name": "Über Grenzwert am Tag",
       "turboThreshold": 0
     },
     {
-      "color": "#4f81bd",
+      "color": "#923f8d",
       "data": [
         [
           "2000",
-          17
+          17.04
         ],
         [
           "2003",
@@ -32,29 +36,14 @@
         ],
         [
           "2008",
-          16.2
+          16.24
+        ],
+        [
+          "2010",
+          18.48
         ]
       ],
       "name": "Über Grenzwert in der Nacht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#9A86A6",
-      "data": [
-        [
-          "2000",
-          26
-        ],
-        [
-          "2003",
-          25.6
-        ],
-        [
-          "2008",
-          24.6
-        ]
-      ],
-      "name": "Über 50 dB(A) in der Nacht",
       "turboThreshold": 0
     }
   ],
@@ -190,11 +179,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-3"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": true
   },
   "exporting": {
     "filename": "5197"

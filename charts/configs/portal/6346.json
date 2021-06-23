@@ -47,6 +47,10 @@
         [
           2020,
           624
+        ],
+        [
+          2021,
+          625.2
         ]
       ],
       "name": "Basel-Stadt"
@@ -98,6 +102,10 @@
         [
           2020,
           543.5
+        ],
+        [
+          2021,
+          546.1
         ]
       ],
       "name": "Basel-Landschaft"
@@ -149,6 +157,10 @@
         [
           2020,
           532.5
+        ],
+        [
+          2021,
+          533.7
         ]
       ],
       "name": "Zürich"
@@ -200,6 +212,10 @@
         [
           2020,
           629.6
+        ],
+        [
+          2021,
+          639
         ]
       ],
       "name": "Genf"
@@ -251,6 +267,10 @@
         [
           2020,
           552.4
+        ],
+        [
+          2021,
+          557.1
         ]
       ],
       "name": "Bern"
@@ -380,7 +400,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-15"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

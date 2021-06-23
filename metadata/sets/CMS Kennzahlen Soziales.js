@@ -1730,7 +1730,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:56.5656",
+		"aktualisierungsdatum": "2021-06-23T08:12:00.000",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -1747,7 +1747,7 @@ var indikatorensetData = [
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4832,
 		"chart-id": 4832,
