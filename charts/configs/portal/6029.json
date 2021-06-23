@@ -122,7 +122,11 @@
         ],
         [
           2019,
-          17.16
+          15.24
+        ],
+        [
+          2020,
+          15.12
         ]
       ],
       "name": "Feinstaub (PM10)"
@@ -252,6 +256,10 @@
         [
           2019,
           30
+        ],
+        [
+          2020,
+          30
         ]
       ],
       "name": "Langzeitgrenzwert NO\u003Csub\u003E2\u003C\u002Fsub\u003E"
@@ -380,6 +388,10 @@
         [
           2019,
           20
+        ],
+        [
+          2020,
+          20
         ]
       ],
       "name": "Langzeitgrenzwert PM10"
@@ -507,7 +519,11 @@
         ],
         [
           2019,
-          30.33
+          22.99
+        ],
+        [
+          2020,
+          18.75
         ]
       ],
       "name": "Stickstoffdioxid (NO\u003Csub\u003E2\u003C\u002Fsub\u003E)"
@@ -630,11 +646,15 @@
         ],
         [
           2018,
-          null
+          13.5
         ],
         [
           2019,
-          12.29
+          10.67
+        ],
+        [
+          2020,
+          10.15
         ]
       ],
       "name": "Feinstaub (PM2,5)"
@@ -763,6 +783,10 @@
         ],
         [
           2019,
+          10
+        ],
+        [
+          2020,
           10
         ]
       ],
@@ -905,7 +929,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-14"
+    "text": "Quelle: Lufthygieneamt beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

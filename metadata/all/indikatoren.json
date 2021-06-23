@@ -11124,32 +11124,32 @@
 		"id": 5196
 	},
 	{
+		"parentId": 6159,
+		"children": [],
+		"template": "template001",
 		"title": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.14.05197",
 		"kuerzelKunde": "GW18",
 		"description": "Übermässig mit Lärm belastete Wohnbevölkerung",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Lärm",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T14:23:34.3434",
+		"aktualisierungsdatum": "2021-06-23T08:12:17.1717",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Einwohner, welche an ihrem Wohnort in der Nacht einer Lärmbelastung von über 50 dB(A) ausgesetzt sind, betrug 2008 24,6%. Bei 14,5% der Einwohner wurde der Tagesgrenzwert überschritten, bei 16,2% der Grenzwert in der Nacht.",
-		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br><br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z.&nbsp;B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
-		"template": "template001",
+		"lesehilfe": "Der Anteil der Einwohner, an deren Wohnort die nächtliche Lärmbelastung über dem Grenzwert liegt, betrug 2010 18,5%. Bei 10,0% wurden die entsprechenden Tagesgrenzwerte überschritten.",
+		"erlaeuterungen": "Lärmbelastete Einwohner sind Personen, welche an ihrem Wohnort einer Lärmbelastung über dem Immissionsgrenzwert gemäss Lärmschutzverordnung (LSV) ausgesetzt sind. Die in der LSV festgehaltenen Immissionsgrenzwerte drücken das Mass an Lärmbelastung aus, das zirka 75% der Bevölkerung erträgt, ohne sich erheblich gestört zu fühlen. Wohngebiete sind gemäss Lärmempfindlichkeitsstufenplan den Empfindlichkeitsstufen (ES) II (Wohnzonen) und III (Wohn-/Gewerbezonen) mit unterschiedlichen Immissionsgrenzwerten zugeteilt: ES II: 60 dB(A) Tag, 50 dB(A) Nacht, ES III: 65 dB(A) Tag, 55 dB(A) Nacht; dB(A) ist die übliche Masseinheit zur Messung von Lärmstärke.<br>Die angegebenen Werte beruhen auf Modellierungen. Die Lärmimmissionen an den Gebäuden werden in einem 3D-Oberflächenmodell (Gelände, Gebäude, Hindernisse) auf Basis des Emissionskatasters für Strassenverkehrslärm berechnet. Sobald ein Teil eines Gebäudes, z. B. eine Fassade oder die oberen Geschosse, welche nicht durch eine Lärmschutzwand geschützt werden, von Grenzwertüberschreitungen (gemäss LSV) betroffen ist, werden sämtliche Bewohner des Gebäudes als lärmbelastete Personen gezählt. Die Ausrichtung der einzelnen Wohnungen fliesst nicht in die Beurteilung ein. Weiter werden lärmempfindliche Räume in Betrieben nicht berücksichtigt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_06_00_00_00_319",
-		"parentId": 6159,
-		"children": [],
+		"orderKey": "03_07_00_00_00_319",
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster"
@@ -11159,7 +11159,7 @@
 			""
 		],
 		"data-id": 5197,
-		"chart-id": 5197,
+		"chart-id": 6159,
 		"filter": "",
 		"id": 5197
 	},
@@ -12932,32 +12932,32 @@
 		"id": 6028
 	},
 	{
+		"parentId": 6157,
+		"children": [],
+		"template": "line001",
 		"title": "Luftqualität: Langzeitbelastung der Luft",
 		"subtitle": "Jahresmittelwerte für Stickstoffdioxid (NO<sub>2</sub>) und Feinstaub (PM10, PM2,5) in Mikrogramm pro m<sup>3</sup>, Basel-Stadt",
+		"kennzahlenset": "Nachhaltigkeit",
 		"kuerzel": "I.02.5.06029",
 		"kuerzelKunde": "NL7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
 		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:53:35.3535",
+		"aktualisierungsdatum": "2021-06-23T08:12:18.1818",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Feinstaubkonzentration für PM10 lag 2019 mit 17,2 Mikrogramm pro Kubikmeter unter dem Grenzwert. Die Messungen für Stickstoffdioxid und PM2,5 überschritten mit 30,33 resp. 12,29 μg/m<sup>3</sup> die jeweiligen Grenzwerte leicht.",
+		"lesehilfe": "Der Mittelwert der Feinstaubkonzentration für PM10 lag 2020 mit 15,1 Mikrogramm pro Kubikmeter unter dem Grenzwert, ebenso jener für Stickstoffdioxid, welcher auf 18,8 μg/m<sup>3</sup> sank. Der Mittelwert für PM2,5 überschritt mit 10,2 μg/m<sup>3</sup> den Grenzwert leicht.",
 		"erlaeuterungen": "Der Indikator zeigt den Jahresmittelwert der Stickstoffdioxid- und der Feinstaub-Immissionen im Vergleich zu den gesetzlich festgelegten Grenzwerten gemäss Luftreinhalte-Verordnung. Die Jahresmittelwerte der einzelnen Kategorien basieren auf den Messwerten verschiedener Stationen im Kanton Basel-Stadt: St. Johanns-Platz (PM10, PM2,5 (ab 2019), NO<sub>2</sub>), Spalenring (NO<sub>2</sub>), Dreirosenbrücke Süd (NO<sub>2</sub>).<br><br>Stickoxide (NO<sub>x</sub>) entstehen beim Verbrennen von Brenn- und Treibstoffen, insbesondere bei hohen Verbrennungstemperaturen. Hauptquelle ist der Strassenverkehr. Sie sind wichtige Vorläufersubstanzen für die Bildung von sauren Niederschlägen, sekundärem Feinstaub und – zusammen mit flüchtigen organischen Verbindungen – von Ozon/Sommersmog. Stickstoffdioxid (NO<sub>2</sub>) und andere Reizgase begünstigen Erkrankungen der Atemwege.<br><br>Unter Feinstaub (PM10, PM2,5) versteht man Partikel, die kleiner sind als 10 respektive 2,5 Mikrometer. Dieser Staub ist ein physikalisch-chemisch komplexes Gemisch. Er entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus SO<sub>2</sub>, NO<sub>x</sub>, NH<sub>3</sub>, VOC). Feinstaub ist in seiner Zusammensetzung sehr vielfältig und kann Russ, Schwermetalle, Sulfat, Nitrat, Ammonium, organischen Kohlenstoff, polyzyklische aromatische Kohlenwasserstoffe oder Dioxine/Furane enthalten. <br>Der gesetzlich festgelegte Grenzwert gemäss Luftreinhalte-Verordnung beträgt für den Jahresmittelwert von PM10 20 μg/m<sup>3</sup> und von PM2,5 10 μg/m<sup>3</sup>.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "04_01_00_00_00_408",
-		"parentId": 6157,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Lufthygieneamt beider Basel"
@@ -22143,18 +22143,23 @@
 		"id": 6344
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6370"
+		],
+		"template": "line001",
 		"title": "Medianprämie pro Kanton",
 		"subtitle": "in Franken, Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"kuerzel": "I.14.4.6346",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Kanton",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Prävention, Praxen, Rettung",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-15T16:06:49.4949",
+		"aktualisierungsdatum": "2021-06-23T08:12:01.011",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
@@ -22162,15 +22167,10 @@
 		"stufe5": "",
 		"lesehilfe": "Die Medianprämien steigen seit 2010 in den fünf ausgewählten Kantonen stetig. Basel-Stadt gehört mit Genf schweizweit zu den Kantonen mit den höchsten Prämien.",
 		"erlaeuterungen": "Verglichen wird der Medianwert der Standardprämien aller Versicherer in den Vergleichskantonen. Standardprämie: Monatsprämie der Obligatorischen Krankenpflegeversicherung gemäss dem Bundesgesetz über die Krankenversicherung (KVG) für Erwachsene, Franchise Fr. 300, mit Unfalldeckung, ohne besondere Versicherungsmodelle mit eingeschränkter Arztwahl gemäss Art. 62 KVG. Der Medianwert ist der Wert einer Zahlenreihe, der an der mittleren (zentralen) Stelle steht, wenn man die Werte der Grösse nach sortiert.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "09_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6370"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Gesundheit (BAG)",
@@ -34809,8 +34809,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:15.1515",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:02.022",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -34820,7 +34820,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_001",
+		"orderKey": "03_01_01_00_00_001",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34849,8 +34849,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:28.2828",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:02.022",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -34860,7 +34860,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_002",
+		"orderKey": "03_01_01_00_00_002",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -34889,8 +34889,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:29.2929",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:03.033",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -34900,7 +34900,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_003",
+		"orderKey": "03_01_01_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35612,8 +35612,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:30.3030",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:04.044",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35623,7 +35623,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_004",
+		"orderKey": "03_01_01_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35652,8 +35652,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:30.3030",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:04.044",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35663,7 +35663,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_005",
+		"orderKey": "03_01_01_00_00_005",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35692,8 +35692,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:31.3131",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:05.055",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35703,7 +35703,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_006",
+		"orderKey": "03_01_01_00_00_006",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35732,8 +35732,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:32.3232",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:06.066",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35743,7 +35743,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_007",
+		"orderKey": "03_01_01_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35772,8 +35772,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:44.4444",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:07.077",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35783,7 +35783,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_008",
+		"orderKey": "03_01_01_00_00_008",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35812,8 +35812,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:32.3232",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:07.077",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35823,7 +35823,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_009",
+		"orderKey": "03_01_01_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35852,8 +35852,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:33.3333",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:08.088",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35863,7 +35863,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_010",
+		"orderKey": "03_01_01_00_00_010",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35892,8 +35892,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:34.3434",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:09.099",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35903,7 +35903,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_011",
+		"orderKey": "03_01_01_00_00_011",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35924,16 +35924,16 @@
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Wohnviertel Altstadt Kleinbasel, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06923",
 		"kuerzelKunde": "GS-12.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:35.3535",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:10.1010",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35943,7 +35943,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_012",
+		"orderKey": "03_01_01_00_00_012",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -35972,8 +35972,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:35.3535",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:10.1010",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -35983,7 +35983,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_013",
+		"orderKey": "03_01_01_00_00_013",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36012,8 +36012,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:36.3636",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:11.1111",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36023,7 +36023,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_014",
+		"orderKey": "03_01_01_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36052,8 +36052,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:37.3737",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:12.1212",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36063,7 +36063,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_015",
+		"orderKey": "03_01_01_00_00_015",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36092,8 +36092,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:38.3838",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:12.1212",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36103,7 +36103,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_016",
+		"orderKey": "03_01_01_00_00_016",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36132,8 +36132,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:38.3838",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:13.1313",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36143,7 +36143,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_017",
+		"orderKey": "03_01_01_00_00_017",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36172,8 +36172,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:39.3939",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:14.1414",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36183,7 +36183,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_018",
+		"orderKey": "03_01_01_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36212,8 +36212,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:40.4040",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:14.1414",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36223,7 +36223,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_018",
+		"orderKey": "03_01_01_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -36253,8 +36253,8 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:40.4040",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:15.1515",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36264,7 +36264,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_020",
+		"orderKey": "03_01_01_00_00_020",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -36294,8 +36294,8 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:41.4141",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:16.1616",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -36305,7 +36305,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_01_00_00_021",
+		"orderKey": "03_01_01_00_00_021",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37176,8 +37176,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:55.5555",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:19.1919",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37187,7 +37187,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_001",
+		"orderKey": "03_03_03_00_00_001",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37216,8 +37216,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:20.2020",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37227,7 +37227,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_002",
+		"orderKey": "03_03_03_00_00_002",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37256,8 +37256,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:20.2020",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37267,7 +37267,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_003",
+		"orderKey": "03_03_03_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37296,8 +37296,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:57.5757",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:21.2121",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37307,7 +37307,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_004",
+		"orderKey": "03_03_03_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37336,8 +37336,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:58.5858",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:22.2222",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37347,7 +37347,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_005",
+		"orderKey": "03_03_03_00_00_005",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37376,8 +37376,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:22.2222",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37387,7 +37387,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_006",
+		"orderKey": "03_03_03_00_00_006",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37416,8 +37416,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:23.2323",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37427,7 +37427,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_007",
+		"orderKey": "03_03_03_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37456,8 +37456,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:00.000",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:24.2424",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37467,7 +37467,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_008",
+		"orderKey": "03_03_03_00_00_008",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37496,8 +37496,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:01.011",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:25.2525",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37507,7 +37507,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_009",
+		"orderKey": "03_03_03_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37536,8 +37536,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:02.022",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:25.2525",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37547,7 +37547,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_010",
+		"orderKey": "03_03_03_00_00_010",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37576,8 +37576,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:26.2626",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37587,7 +37587,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_011",
+		"orderKey": "03_03_03_00_00_011",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37616,8 +37616,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:27.2727",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37627,7 +37627,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_012",
+		"orderKey": "03_03_03_00_00_012",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37656,8 +37656,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:04.044",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:28.2828",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37667,7 +37667,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_013",
+		"orderKey": "03_03_03_00_00_013",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37696,8 +37696,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:05.055",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:28.2828",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37707,7 +37707,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_014",
+		"orderKey": "03_03_03_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37736,8 +37736,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:29.2929",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37747,7 +37747,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_015",
+		"orderKey": "03_03_03_00_00_015",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37776,8 +37776,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:30.3030",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37787,7 +37787,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_016",
+		"orderKey": "03_03_03_00_00_016",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37816,8 +37816,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:14:14.1414",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:30.3030",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37827,7 +37827,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_017",
+		"orderKey": "03_03_03_00_00_017",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37856,8 +37856,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:14:42.4242",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:31.3131",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37867,7 +37867,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_018",
+		"orderKey": "03_03_03_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37896,8 +37896,8 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:15:10.1010",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:32.3232",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37907,7 +37907,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_019",
+		"orderKey": "03_03_03_00_00_019",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37937,8 +37937,8 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:15:39.3939",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:32.3232",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37948,7 +37948,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_020",
+		"orderKey": "03_03_03_00_00_020",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -37978,8 +37978,8 @@
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:16:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:33.3333",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -37989,7 +37989,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_021",
+		"orderKey": "03_03_03_00_00_021",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -38218,8 +38218,8 @@
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-15T07:52:48.4848",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:34.3434",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -38229,7 +38229,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_03_03_00_00_022",
+		"orderKey": "03_03_03_00_00_022",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -38250,18 +38250,18 @@
 		"title": "Bevölkerungspyramide am Jahresende",
 		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06989",
 		"kuerzelKunde": "GS-99.D",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:07.077",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
+		"aktualisierungsdatum": "2021-06-23T08:12:17.1717",
+		"stufe1": "Teil 3: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
@@ -38269,7 +38269,7 @@
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_01_00_00_00_022",
+		"orderKey": "03_01_01_00_00_022",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -38364,32 +38364,32 @@
 		"id": 6991
 	},
 	{
+		"parentId": null,
+		"children": [],
+		"template": "line001",
 		"title": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2019",
-		"kuerzel": "I.14.1.06992",
+		"subtitle": "im Hauptbereich Akutsomatik in Tagen, Basel-Stadt, 2020",
+		"kennzahlenset": "",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Spitäler",
-		"kennzahlenset": "",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:33.3333",
+		"aktualisierungsdatum": "2021-06-23T08:11:59.5959",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Aufenthaltsdauer von im Hauptbereich Akutsomatik in Basler Spitälern behandelten Frauen lag 2019 mit 6,7 Tagen leicht unter derjenigen der Männer (6,4 Tage). Der Kurvenverlauf der mittleren Aufenthaltsdauer von Frauen und Männern verläuft ähnlich. Im Alter zwischen 20 und 60 Jahren liegen Männer durchschnittlich etwas länger in Basler Spitälern als Frauen. Die Höchstwerte werden von beiden Geschlechtern im jugendlichen Alter von 16 Jahren (Frauen) resp. 14 Jahren (Männer) sowie im Alter zwischen 70 und 90 Jahren erreicht.",
+		"lesehilfe": "Die mittlere Aufenthaltsdauer von in Basler Spitälern behandelten Frauen lag 2020 mit 6,7 Tagen leicht unter derjenigen der Männer (7,0 Tage). Der Kurvenverlauf der mittleren Aufenthaltsdauer von Frauen und Männern verläuft ähnlich. Im Alter zwischen 20 und 60 Jahren liegen Männer durchschnittlich etwas länger in Basler Spitälern als Frauen. Die Höchstwerte werden von beiden Geschlechtern im jugendlichen Alter von 15 Jahren (Frauen) resp. 12 Jahren (Männer) sowie im Alter zwischen 70 und 90 Jahren erreicht.",
 		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt). Gezählt wurden die in Anspruch genommenen Pflegetage, abzüglich Zwischenaustritten (z. B. Ferien). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
@@ -55490,7 +55490,7 @@
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:56.5656",
+		"aktualisierungsdatum": "2021-06-23T08:12:00.000",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
@@ -55508,7 +55508,7 @@
 		],
 		"datenInChartIntegriert": false,
 		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant' target = '_blank'>Basler Atlas</a>"
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant&view=map2' target = '_blank'>Basler Atlas</a>"
 		],
 		"data-id": 4832,
 		"chart-id": 4832,

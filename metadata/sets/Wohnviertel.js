@@ -1560,8 +1560,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:15.1515",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:02.022",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1570,7 +1570,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_001",
+		"orderKey": "03_01_01_00_00_001",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1599,8 +1599,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:28.2828",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:02.022",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1609,7 +1609,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_002",
+		"orderKey": "03_01_01_00_00_002",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1638,8 +1638,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:29.2929",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:03.033",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1648,7 +1648,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_003",
+		"orderKey": "03_01_01_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1677,8 +1677,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:30.3030",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:04.044",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1687,7 +1687,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_004",
+		"orderKey": "03_01_01_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1716,8 +1716,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:30.3030",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:04.044",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1726,7 +1726,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_005",
+		"orderKey": "03_01_01_00_00_005",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1755,8 +1755,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:31.3131",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:05.055",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1765,7 +1765,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_006",
+		"orderKey": "03_01_01_00_00_006",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1794,8 +1794,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:32.3232",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:06.066",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1804,7 +1804,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_007",
+		"orderKey": "03_01_01_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1833,8 +1833,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:44.4444",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:07.077",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1843,7 +1843,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_008",
+		"orderKey": "03_01_01_00_00_008",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1872,8 +1872,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:32.3232",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:07.077",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1882,7 +1882,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_009",
+		"orderKey": "03_01_01_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1911,8 +1911,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:33.3333",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:08.088",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1921,7 +1921,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_010",
+		"orderKey": "03_01_01_00_00_010",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1950,8 +1950,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:34.3434",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:09.099",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1960,7 +1960,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_011",
+		"orderKey": "03_01_01_00_00_011",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -1981,16 +1981,16 @@ var indikatorensetData = [
 		"title": "Alterspyramide nach Geschlecht und Heimat",
 		"subtitle": "Wohnviertel Altstadt Kleinbasel, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06923",
 		"kuerzelKunde": "GS-12.D",
 		"description": "Alterspyramide nach Geschlecht und Heimat",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:35.3535",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:10.1010",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -1999,7 +1999,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_012",
+		"orderKey": "03_01_01_00_00_012",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2028,8 +2028,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:35.3535",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:10.1010",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2038,7 +2038,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_013",
+		"orderKey": "03_01_01_00_00_013",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2067,8 +2067,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:36.3636",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:11.1111",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2077,7 +2077,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_014",
+		"orderKey": "03_01_01_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2106,8 +2106,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:37.3737",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:12.1212",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2116,7 +2116,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_015",
+		"orderKey": "03_01_01_00_00_015",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2145,8 +2145,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:38.3838",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:12.1212",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2155,7 +2155,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_016",
+		"orderKey": "03_01_01_00_00_016",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2184,8 +2184,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:38.3838",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:13.1313",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2194,7 +2194,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_017",
+		"orderKey": "03_01_01_00_00_017",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2223,8 +2223,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:39.3939",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:14.1414",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2233,7 +2233,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_018",
+		"orderKey": "03_01_01_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2262,8 +2262,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:40.4040",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:14.1414",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2272,7 +2272,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_018",
+		"orderKey": "03_01_01_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -2302,8 +2302,8 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:40.4040",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:15.1515",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2312,7 +2312,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_020",
+		"orderKey": "03_01_01_00_00_020",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
@@ -2342,8 +2342,8 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:41.4141",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:16.1616",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Bevölkerungspyramide",
 		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
@@ -2352,7 +2352,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter (Fünfjahresklassen), Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_01_00_00_021",
+		"orderKey": "03_01_01_00_00_021",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -3202,8 +3202,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:55.5555",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:19.1919",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3212,7 +3212,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_001",
+		"orderKey": "03_03_03_00_00_001",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3241,8 +3241,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:20.2020",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3251,7 +3251,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_002",
+		"orderKey": "03_03_03_00_00_002",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3280,8 +3280,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:56.5656",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:20.2020",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3290,7 +3290,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_003",
+		"orderKey": "03_03_03_00_00_003",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3319,8 +3319,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:57.5757",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:21.2121",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3329,7 +3329,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_004",
+		"orderKey": "03_03_03_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3358,8 +3358,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:58.5858",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:22.2222",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3368,7 +3368,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_005",
+		"orderKey": "03_03_03_00_00_005",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3397,8 +3397,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:22.2222",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3407,7 +3407,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_006",
+		"orderKey": "03_03_03_00_00_006",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3436,8 +3436,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:59.5959",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:23.2323",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3446,7 +3446,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_007",
+		"orderKey": "03_03_03_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3475,8 +3475,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:00.000",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:24.2424",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3485,7 +3485,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_008",
+		"orderKey": "03_03_03_00_00_008",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3514,8 +3514,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:01.011",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:25.2525",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3524,7 +3524,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_009",
+		"orderKey": "03_03_03_00_00_009",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3553,8 +3553,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:02.022",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:25.2525",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3563,7 +3563,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_010",
+		"orderKey": "03_03_03_00_00_010",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3592,8 +3592,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:26.2626",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3602,7 +3602,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_011",
+		"orderKey": "03_03_03_00_00_011",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3631,8 +3631,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:03.033",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:27.2727",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3641,7 +3641,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_012",
+		"orderKey": "03_03_03_00_00_012",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3670,8 +3670,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:04.044",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:28.2828",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3680,7 +3680,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_013",
+		"orderKey": "03_03_03_00_00_013",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3709,8 +3709,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:05.055",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:28.2828",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3719,7 +3719,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_014",
+		"orderKey": "03_03_03_00_00_014",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3748,8 +3748,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:29.2929",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3758,7 +3758,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_015",
+		"orderKey": "03_03_03_00_00_015",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3787,8 +3787,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:30.3030",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3797,7 +3797,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_016",
+		"orderKey": "03_03_03_00_00_016",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3826,8 +3826,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:14:14.1414",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:30.3030",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3836,7 +3836,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_017",
+		"orderKey": "03_03_03_00_00_017",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3865,8 +3865,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:14:42.4242",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:31.3131",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3875,7 +3875,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_018",
+		"orderKey": "03_03_03_00_00_018",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3904,8 +3904,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:15:10.1010",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:32.3232",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3914,7 +3914,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_019",
+		"orderKey": "03_03_03_00_00_019",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3944,8 +3944,8 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:15:39.3939",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:32.3232",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3954,7 +3954,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_020",
+		"orderKey": "03_03_03_00_00_020",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -3984,8 +3984,8 @@ var indikatorensetData = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:16:06.066",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:33.3333",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -3994,7 +3994,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_021",
+		"orderKey": "03_03_03_00_00_021",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -4023,8 +4023,8 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-15T07:52:48.4848",
-		"stufe1": "Teil 4: Themen-Grafiken",
+		"aktualisierungsdatum": "2021-06-23T08:12:34.3434",
+		"stufe1": "Teil 3: Themen-Grafiken",
 		"stufe2": "Wohnungen",
 		"stufe3": "Raum und Umwelt",
 		"stufe4": "",
@@ -4033,7 +4033,7 @@ var indikatorensetData = [
 		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_03_03_00_00_022",
+		"orderKey": "03_03_03_00_00_022",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -4054,25 +4054,25 @@ var indikatorensetData = [
 		"title": "Bevölkerungspyramide am Jahresende",
 		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
 		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06989",
 		"kuerzelKunde": "GS-99.D",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:07.077",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
+		"aktualisierungsdatum": "2021-06-23T08:12:17.1717",
+		"stufe1": "Teil 3: Themen-Grafiken",
+		"stufe2": "Bevölkerungspyramide",
+		"stufe3": "Gesellschaft und Soziales",
 		"stufe4": "",
 		"stufe5": "",
 		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
 		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_022",
+		"orderKey": "03_01_01_00_00_022",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
