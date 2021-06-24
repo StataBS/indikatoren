@@ -27371,7 +27371,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-21T08:06:49.4949",
+		"aktualisierungsdatum": "2021-06-24T07:23:08.088",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -31361,7 +31361,7 @@ var indikatoren = [
 		"children": [],
 		"template": "mappie001",
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
+		"subtitle": "Basel-Stadt, Mai",
 		"kennzahlenset": "Monatsindikatoren",
 		"kuerzel": "I.01.1.07763",
 		"kuerzelKunde": "",
@@ -31372,13 +31372,13 @@ var indikatoren = [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-05-21T08:06:50.5050",
+		"aktualisierungsdatum": "2021-06-24T07:23:09.099",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im April 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in sieben Wohnvierteln sowie in Riehen und Bettingen. In elf Wohnvierteln ging sie zurück. Im Rosental blieb sie gleich",
+		"lesehilfe": "Im Mai 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Bettingen. In elf Wohnvierteln und in Riehen ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"darstellungsart": "Karte",
 		"printformat": "",
@@ -40459,15 +40459,15 @@ var indikatoren = [
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
 		"kennzahlenset": "",
-		"kuerzel": "I.14.3.09022",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sterblichkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-16T11:22:32.3232",
+		"aktualisierungsdatum": "2021-06-24T07:23:09.099",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40507,7 +40507,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-16T11:22:33.3333",
+		"aktualisierungsdatum": "2021-06-24T07:23:10.1010",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
