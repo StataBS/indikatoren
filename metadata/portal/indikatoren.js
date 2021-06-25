@@ -11075,34 +11075,34 @@ var indikatoren = [
 		"id": 5821
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6253"
+		],
+		"template": "befragungen001",
 		"title": "Anteil Einwohner pro ÖV-Güteklasse",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.11.2.5822",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Öffentlicher Verkehr",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-07T17:52:58.5858",
+		"aktualisierungsdatum": "2021-06-25T08:16:33.3333",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 6: Die Siedlungsentwicklung und stadtgerechte Mobilität aufeinander abstimmen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich zwischen 2018 und 2019 kaum verändert.",
+		"lesehilfe": "Fast zwei Drittel der Einwohner in Basel-Stadt wohnen in einem Gebiet der ÖV-Güteklasse A und damit in einer Zone mit sehr guter Anbindung an den öffentlichen Verkehr, rund 32% in einem Gebiet der Güteklasse B. Die Anteile haben sich zwischen 2019 und 2020 kaum verändert.",
 		"erlaeuterungen": "Die ÖV-Güteklassen sind ein Mass für die räumliche Erschliessungsqualität durch den öffentlichen Verkehr. Die Güteklassen werden zweistufig bestimmt: Die Art der Verkehrsmittel und das Kursintervall weisen jeder Haltestelle eine bestimmte Kategorie zu. Die Haltestellenkategorie in Verbindung mit der Distanz des Wohnorts einer Person zur Haltestelle ergibt dann die ÖV-Güteklasse für eine bestimmte Person.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_06_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6253"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -14576,36 +14576,36 @@ var indikatoren = [
 		"id": 6155
 	},
 	{
-		"title": "Jährlich durch Stau generierte Verzögerungszeit",
-		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
-		"kuerzel": "I.11.6.6156",
-		"kuerzelKunde": "5.4",
-		"description": "Jährlich durch Stau generierte Verzögerungszeit",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-06-29T10:26:15.1515",
-		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2019 rund 26%. Das bedeutet, dass eine durchschnittliche Reise 26% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre.",
-		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6308",
 			"7777",
 			"8420"
 		],
+		"template": "line001",
+		"title": "Jährlich durch Stau generierte Verzögerungszeit",
+		"subtitle": "Stadt Basel im Vergleich mit ausgewählten Schweizer Städten",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "I.11.6.6156",
+		"kuerzelKunde": "5.4",
+		"description": "Jährlich durch Stau generierte Verzögerungszeit",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-06-25T08:16:31.3131",
+		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Verzögerungszeit für den motorisierten Individualverkehr betrug in der Stadt Basel im Jahr 2020 rund 22%. Das bedeutet, dass eine durchschnittliche Reise 22% länger dauerte, als dies unter staufreien Bedingungen der Fall gewesen wäre. In allen betrachteten Städten ist ein Rückgang gegenüber 2019 zu beobachten. Dies dürfte zumindest teilweise mit der verringerten Mobilität aufgrund der Pandemie zusammenhängen.",
+		"erlaeuterungen": "Die Zahlen basieren auf gesammelten Verkehrsdaten des Navigationsgeräte-Herstellers TomTom. Damit die urbanen Flächen, für die der Index berechnet wird, international vergleichbar sind, wurden sie von TomTom individuell definiert.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "05_00_00_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"TomTom International"
@@ -19717,34 +19717,34 @@ var indikatoren = [
 		"id": 6474
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6716"
+		],
+		"template": "template001",
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.09.1.6475",
 		"kuerzelKunde": "D2-1",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T14:58:55.5555",
+		"aktualisierungsdatum": "2021-06-25T08:16:32.3232",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2019 für Schweizerinnen und Schweizer 45,2 m², für Ausländerinnen und Ausländer 34,8 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizer etwas abgenommen und diejenige der Ausländer zugenommen. Schweizer Staatsangehörige verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als ausländische Staatsangehörige.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2020 für Schweizerinnen und Schweizer 45,0 m², für Ausländerinnen und Ausländer 34,7 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer etwas abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen. Schweizer Staatsangehörige verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als ausländische Staatsangehörige.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_201",
-		"parentId": null,
-		"children": [
-			"6716"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -39905,46 +39905,6 @@ var indikatoren = [
 		"id": 8981
 	},
 	{
-		"title": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
-		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
-		"kuerzel": "I.11.1.08990",
-		"kuerzelKunde": "",
-		"description": "Rückgang beim durchschnittlichen Tagesverkehr MIV",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-15T15:55:04.044",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "<bitte Kommentar erfassen>",
-		"erlaeuterungen": "",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8990,
-		"chart-id": 8990,
-		"filter": "",
-		"id": 8990
-	},
-	{
 		"title": "Rückgang beim durchschnittlichen Tagesverkehr Velo",
 		"subtitle": "Top 7 Zählstellen, Wochen 1 und 2 des Lockdown gegenüber Vorjahr",
 		"kuerzel": "I.11.1.08991",
@@ -40031,15 +39991,15 @@ var indikatoren = [
 		"title": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
 		"subtitle": "",
 		"kennzahlenset": "",
-		"kuerzel": "I.14.3.08995",
+		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Todesfälle nach Kalenderwoche im Kanton Basel-Stadt",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Sterblichkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-16T11:22:31.3131",
+		"aktualisierungsdatum": "2021-06-25T08:16:30.3030",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
