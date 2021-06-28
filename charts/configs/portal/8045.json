@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Klybeck",
           "y": 21,
-          "Wert": 0.1358297637
+          "Wert": 0.1264416315
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Klybeck",
           "y": 20,
-          "Wert": 0.5185850491
+          "Wert": 0.5185654008
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Klybeck",
-          "y": 8,
-          "Wert": 0.2287241525
+          "y": 10,
+          "Wert": 0.2393310265
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 0.157480315
+          "Wert": 0.2
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.2135040264
+          "Wert": 0.2206189879
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Klybeck",
           "y": 13,
-          "Wert": 0.3442033992
+          "Wert": 0.3430379747
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Klybeck",
-          "y": 14,
-          "Wert": 0.280817675
+          "y": 13,
+          "Wert": 0.2662066081
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Klybeck",
           "y": 12,
-          "Wert": 1937.3995434
+          "Wert": 1937.472350230414
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Klybeck",
           "y": 5,
-          "Wert": 0.0707762557
+          "Wert": 0.071428571428
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Klybeck",
           "y": 3,
-          "Wert": 0.123419748
+          "Wert": 0.1232852931
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 65.324837451
+          "Wert": 65.375882814543
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
-          "y": 1,
-          "Wert": 32.2649016
+          "y": 2,
+          "Wert": 32.62961361
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Klybeck",
-          "y": 1,
-          "Wert": 203.54604932
+          "y": 2,
+          "Wert": 205.9
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Klybeck",
           "y": 1,
-          "Wert": 4303.5488173
+          "Wert": 4399.1
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Klybeck",
-          "y": 1,
-          "Wert": 0.6299572238
+          "y": 2,
+          "Wert": 0.6435239
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Klybeck",
           "y": 10,
-          "Wert": 0.4485080191
+          "Wert": 0.4690369439
         }
       ],
       "name": "Wert",
@@ -214,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2020",
+    "text": "Ausgabe 2021",
     "align": "left"
   },
   "yAxis": {
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-28"
   },
   "legend": {
     "enabled": false,
