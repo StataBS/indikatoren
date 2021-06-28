@@ -6,87 +6,87 @@
       "data": [
         [
           "Matthäus",
-          6.43
+          6.36
         ],
         [
           "Altstadt Kleinbasel",
-          8.33
+          8.31
         ],
         [
           "Clara",
-          9.02
+          9.07
         ],
         [
           "Altstadt Grossbasel",
-          9.85
+          9.53
         ],
         [
           "Gundeldingen",
-          11.02
+          10.86
         ],
         [
           "Rosental",
-          12.21
+          12.95
         ],
         [
           "Klybeck",
-          15.69
+          15.96
         ],
         [
           "Am Ring",
-          19.77
+          19.42
         ],
         [
           "Gotthelf",
-          22.41
+          22.93
         ],
         [
           "Iselin",
-          23.96
+          23.26
         ],
         [
           "Breite",
-          27.36
+          27.15
         ],
         [
           "St. Johann",
-          34.45
+          33.92
         ],
         [
           "Vorstädte",
-          35
+          34.79
         ],
         [
           "Wettstein",
-          38.1
+          36.74
         ],
         [
           "Bachletten",
-          46.26
+          46.23
         ],
         [
           "St. Alban",
-          82.74
+          82.04
         ],
         [
           "Kleinhüningen",
-          108.19
+          107.27
         ],
         [
           "Bruderholz",
-          196.47
+          195.26
         ],
         [
           "Hirzbrunnen",
-          198.5
+          198.44
         ],
         [
           "Riehen",
-          403.27
+          397.71
         ],
         [
           "Bettingen",
-          1702.31
+          1695.39
         ]
       ],
       "name": "Grünfläche",
@@ -170,7 +170,7 @@
     "text": "Grünfläche pro Kopf"
   },
   "subtitle": {
-    "text": "nach Wohnviertel, in m\u003Csup\u003E2\u003C\u002Fsup\u003E, Basel-Stadt, 2019",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -223,7 +223,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EGrundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-28"
   },
   "tooltip": {
     "useHTML": true,
