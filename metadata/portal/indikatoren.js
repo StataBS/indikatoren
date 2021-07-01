@@ -19761,34 +19761,34 @@ var indikatoren = [
 		"id": 6475
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6717"
+		],
+		"template": "template001",
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2019",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.09.1.6476",
 		"kuerzelKunde": "D2-2",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T14:58:55.5555",
+		"aktualisierungsdatum": "2021-07-01T08:33:00.000",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Ländergruppe zeigt sich, dass die Schweizer mit 45,2 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person weisen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern auf.",
+		"lesehilfe": "Differenziert nach Ländergruppe zeigt sich, dass die Schweizer mit 45,0 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person weisen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern auf.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_202",
-		"parentId": null,
-		"children": [
-			"6717"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19847,34 +19847,34 @@ var indikatoren = [
 		"id": 6477
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6719"
+		],
+		"template": "template001",
 		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2019",
+		"subtitle": "in m² nach Staatsangehörigkeit und Haushaltsgrösse, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.09.1.06478",
 		"kuerzelKunde": "D2-4",
 		"description": "Mittlere Wohnfläche pro Person",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T14:58:55.5555",
+		"aktualisierungsdatum": "2021-07-01T08:33:01.011",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,7 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,8 m² an erster Stelle.",
+		"lesehilfe": "Vergleicht man die Wohnfläche der Personen in Einpersonenhaushalten oder Vierpersonenhaushalten nach Ländergruppe, sind die Unterschiede weniger gross als beim Vergleich der Wohnfläche der Personen nach Ländergruppe ohne Aufteilung der Haushaltsarten. Alleinwohnende Schweizer verfügen mit 69,4 m² über die höchste mittlere Wohnfläche bei den Einpersonenhaushalten. Bei Vierpersonenhaushalten befinden sich die Deutschen mit einer mittleren Wohnfläche von 28,5 m² an erster Stelle.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_204",
-		"parentId": null,
-		"children": [
-			"6719"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20016,34 +20016,34 @@ var indikatoren = [
 		"id": 6481
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6723"
+		],
+		"template": "template001",
 		"title": "Beschuldigte Erwachsene",
 		"subtitle": "pro 1000 Erwachsene, Basel-Stadt",
-		"kuerzel": "I.19.1.6482",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "D4-1",
 		"description": "Beschuldigte Erwachsene",
-		"thema": "19 Kriminalität und Strafrecht",
+		"thema": "50 Befragungen",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T11:50:18.1818",
+		"aktualisierungsdatum": "2021-07-01T08:33:02.022",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 Personen mindestens einer Straftat beschuldigt. Im Jahr 2018 waren es 8,9 Personen. Niedrigere Beschuldigtenraten wiesen in diesen beiden Jahren nur Personen aus Deutschland (2018: 6,9; 2019: 6,6) auf. Die höchsten Werte zeigen sich über den gesamten Zeitraum bei Personen aus arabischen und afrikanischen Ländern.",
+		"lesehilfe": "Im Jahr 2020 wurden von 1000 erwachsenen, in Basel-Stadt wohnhaften Schweizern 9,3 mindestens einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"6723"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20059,34 +20059,34 @@ var indikatoren = [
 		"id": 6482
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6725"
+		],
+		"template": "template001",
 		"title": "Beschuldigte Erwachsene",
-		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2019",
+		"subtitle": "pro 1000 Erwachsene, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.19.1.6484",
 		"kuerzelKunde": "D4-3",
 		"description": "Beschuldigte Erwachsene",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:18:29.2929",
+		"aktualisierungsdatum": "2021-07-01T08:33:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 ergab sich die höchste Beschuldigtenrate mit 61,3 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 39,7.",
+		"lesehilfe": "Im Jahr 2020 ergab sich die höchste Beschuldigtenrate mit 58,2 bei den ausländischen Männern zwischen 18 und 24 Jahren. Bei den Schweizer Männern dieser Altersgruppe lag die Rate bei 40,1.",
 		"erlaeuterungen": "Die Rate wird berechnet, indem die Anzahl der Beschuldigten ab 18 Jahren durch die Anzahl Einwohner ab 18 Jahren der entsprechenden Länder- oder Altersgruppe am Jahresende geteilt und dann mit 1&nbsp;000 multipliziert wird. Die berücksichtigten Beschuldigten wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_403",
-		"parentId": null,
-		"children": [
-			"6725"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20102,34 +20102,34 @@ var indikatoren = [
 		"id": 6484
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6726"
+		],
+		"template": "line001",
 		"title": "Beschuldigte ausländische Erwachsene",
 		"subtitle": "nach Aufenthaltsstatus, Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.19.1.6485",
 		"kuerzelKunde": "D4-4",
 		"description": "Beschuldigte ausländische Erwachsene",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T17:18:29.2929",
+		"aktualisierungsdatum": "2021-07-01T08:33:03.033",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2018 von 536 auf 475. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung sank von 289 auf 267 Personen.",
+		"lesehilfe": "Im Jahr 2020 sank die Anzahl der in Basel-Stadt wohnhaften beschuldigten Ausländerinnen und Ausländer mit einer C-Bewilligung im Vergleich zu 2019 von 475 auf 463. Die Anzahl beschuldigter Ausländerinnen und Ausländer mit einer B-Bewilligung stieg hingegen von 267 auf 286 Personen.",
 		"erlaeuterungen": "Bewilligungsarten: C: Niederlassungsbewilligung, B: Aufenthaltsbewilligung, F: vorläufig aufgenommene Ausländer, L: Kurzaufenthaltsbewilligung, N: Asylsuchende. Die berücksichtigten Beschuldigten (ab 18 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_404",
-		"parentId": null,
-		"children": [
-			"6726"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20145,34 +20145,34 @@ var indikatoren = [
 		"id": 6485
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6727"
+		],
+		"template": "line001",
 		"title": "Beschuldigte Jugendliche",
 		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.19.1.6487",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "D5-1",
 		"description": "Beschuldigte Jugendliche",
-		"thema": "19 Kriminalität und Strafrecht",
+		"thema": "50 Befragungen",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T11:56:00.000",
+		"aktualisierungsdatum": "2021-07-01T08:33:04.044",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 15,3 einer Straftat beschuldigt. Mehr Beschuldigte wurden im Jahr 2019 bei Jugendlichen aus den EU-17 + EFTA-Ländern (16,8), aus der Türkei (17,2), aus dem Balkan (20,4), aus Italien (23,2) und aus den übrigen Ländern (27,5) registriert. Der Wert für deutsche Jugendliche lag fast über den gesamten Zeitraum unter den Vergleichswerten der anderen Länder und Ländergruppen.",
+		"lesehilfe": "Im Jahr 2020 wurden von 1000 im Kanton Basel-Stadt wohnhaften 10- bis 17-jährigen Schweizer Jugendlichen 23,9 einer Straftat beschuldigt.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1.&nbsp;Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_501",
-		"parentId": null,
-		"children": [
-			"6727"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20188,34 +20188,34 @@ var indikatoren = [
 		"id": 6487
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6729"
+		],
+		"template": "template001",
 		"title": "Beschuldigte Jugendliche",
-		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2019",
+		"subtitle": "pro 1000 Jugendliche, nach Staatsangehörigkeit, Geschlecht und Alter, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.19.1.6489",
 		"kuerzelKunde": "D5-3",
 		"description": "Beschuldigte Jugendliche",
 		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T12:04:43.4343",
+		"aktualisierungsdatum": "2021-07-01T08:33:05.055",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden männliche ausländische Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige Schweizer Jugendliche.",
+		"lesehilfe": "Im Jahr 2020 wurden männliche Schweizer Jugendliche zwischen 15 und 17 Jahren häufiger einer Straftat beschuldigt als gleichaltrige ausländische Jugendliche.",
 		"erlaeuterungen": "Die Strafmündigkeit beginnt bei Kindern ab dem Alter von 10 Jahren. Die Auswertung beginnt mit dem Jahr des Inkrafttretens der Schweizerischen Jugendstrafprozessordnung am 1. Januar 2011. Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_503",
-		"parentId": null,
-		"children": [
-			"6729"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -20273,34 +20273,34 @@ var indikatoren = [
 		"id": 6490
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6731"
+		],
+		"template": "template001",
 		"title": "Beschuldigte Jugendliche nach Straftatbestand",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
-		"kuerzel": "I.19.1.6491",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
+		"kennzahlenset": "Integration",
+		"kuerzel": "",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
-		"thema": "19 Kriminalität und Strafrecht",
+		"thema": "50 Befragungen",
 		"unterthema": "Polizei",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T12:18:44.4444",
+		"aktualisierungsdatum": "2021-07-01T08:33:06.066",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 ist sowohl bei den Schweizer Jugendlichen wie auch bei den ausländischen Jugendlichen Diebstahl mit 23,0% resp. 35,2% das häufigste Delikt.",
+		"lesehilfe": "Im Jahr 2020 ist sowohl bei den Schweizer Jugendlichen wie auch bei den ausländischen Jugendlichen Diebstahl mit 16,6% resp. 28,6% das häufigste Delikt.",
 		"erlaeuterungen": "Die berücksichtigten beschuldigten Jugendlichen (von 10 bis 17 Jahren) wurden mindestens einer Straftat gemäss Strafgesetzbuch (StGB) oder Betäubungsmittelgesetz (BetmG) beschuldigt und wohnen im Kanton Basel-Stadt.",
-		"template": "template001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_505",
-		"parentId": null,
-		"children": [
-			"6731"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
@@ -27289,7 +27289,7 @@ var indikatoren = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
+		"aktualisierungsdatum": "2021-07-01T08:33:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -27330,7 +27330,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
+		"aktualisierungsdatum": "2021-07-01T08:33:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -39999,7 +39999,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-25T08:16:30.3030",
+		"aktualisierungsdatum": "2021-07-01T08:33:08.088",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40427,7 +40427,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-24T07:23:09.099",
+		"aktualisierungsdatum": "2021-07-01T08:33:09.099",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -40467,7 +40467,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-24T07:23:10.1010",
+		"aktualisierungsdatum": "2021-07-01T08:33:09.099",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
