@@ -93,7 +93,7 @@ var indikatorensetData = [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
+		"aktualisierungsdatum": "2021-07-01T08:33:06.066",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
@@ -133,7 +133,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:14.1414",
+		"aktualisierungsdatum": "2021-07-01T08:33:07.077",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",

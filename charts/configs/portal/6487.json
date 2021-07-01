@@ -38,6 +38,10 @@
         [
           2019,
           15.3
+        ],
+        [
+          2020,
+          23.9
         ]
       ],
       "name": "Schweiz"
@@ -80,6 +84,10 @@
         [
           2019,
           10.1
+        ],
+        [
+          2020,
+          9.9
         ]
       ],
       "name": "Deutschland"
@@ -122,6 +130,10 @@
         [
           2019,
           23.2
+        ],
+        [
+          2020,
+          19.2
         ]
       ],
       "name": "Italien"
@@ -164,6 +176,10 @@
         [
           2019,
           17.2
+        ],
+        [
+          2020,
+          23.3
         ]
       ],
       "name": "Türkei"
@@ -206,48 +222,56 @@
         [
           2019,
           16.8
+        ],
+        [
+          2020,
+          21.1
         ]
       ],
-      "name": "EU-17 + EFTA"
+      "name": "EU-West + EFTA + UK"
     },
     {
       "color": "#b9cfd7",
       "data": [
         [
           2011,
-          22.2
+          24
         ],
         [
           2012,
-          32.6
+          33.6
         ],
         [
           2013,
-          30.1
+          32.3
         ],
         [
           2014,
-          12
+          13.7
         ],
         [
           2015,
-          21.2
+          18.9
         ],
         [
           2016,
-          24.9
+          24
         ],
         [
           2017,
-          22.1
+          20.8
         ],
         [
           2018,
-          12.2
+          13.1
         ],
         [
           2019,
-          20.4
+          20.2
+        ],
+        [
+          2020,
+          24.5
         ]
       ],
       "name": "Balkan"
@@ -257,39 +281,43 @@
       "data": [
         [
           2011,
-          38.1
-        ],
-        [
-          2012,
           34.5
         ],
         [
+          2012,
+          33.4
+        ],
+        [
           2013,
-          35.3
+          33.1
         ],
         [
           2014,
-          30.1
+          27.3
         ],
         [
           2015,
-          19.9
+          21.3
         ],
         [
           2016,
-          15.8
+          16.8
         ],
         [
           2017,
-          25.3
+          25.8
         ],
         [
           2018,
-          26.6
+          25.5
         ],
         [
           2019,
-          27.5
+          27.3
+        ],
+        [
+          2020,
+          26.9
         ]
       ],
       "name": "Übrige Länder"
@@ -420,7 +448,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

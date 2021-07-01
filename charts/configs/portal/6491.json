@@ -7,11 +7,11 @@
       "data": [
         [
           "Schweizer",
-          22.95
+          16.58
         ],
         [
           "Ausländer",
-          35.23
+          28.57
         ]
       ],
       "name": "Diebstahl",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Schweizer",
-          2.46
+          6.74
         ],
         [
           "Ausländer",
-          5.68
+          8.16
         ]
       ],
       "name": "Sachbeschädigung",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Schweizer",
-          6.56
+          0.52
         ],
         [
           "Ausländer",
-          1.14
+          4.08
         ]
       ],
       "name": "Körperverletzung",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Schweizer",
-          9.84
+          14.51
         ],
         [
           "Ausländer",
-          5.68
+          3.06
         ]
       ],
       "name": "Betäubungsmittelkonsum",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Schweizer",
-          5.74
+          5.18
         ],
         [
           "Ausländer",
-          7.95
+          8.16
         ]
       ],
       "name": "Tätlichkeit",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Schweizer",
-          52.46
+          56.48
         ],
         [
           "Ausländer",
-          44.32
+          47.96
         ]
       ],
       "name": "Übrige",
@@ -183,7 +183,7 @@
     "text": "Beschuldigte Jugendliche nach Straftatbestand"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -239,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-8"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
