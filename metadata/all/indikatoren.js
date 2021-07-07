@@ -1600,34 +1600,34 @@ var indikatoren = [
 		"id": 3051
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6368"
+		],
+		"template": "line001",
 		"title": "Ansiedlungen von Firmen aus dem Ausland",
 		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"kuerzel": "I.04.1.3086",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "2.4",
 		"description": "Ansiedlungen von Firmen aus dem Ausland",
-		"thema": "04 Volkswirtschaft",
+		"thema": "50 Befragungen",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T18:58:52.5252",
+		"aktualisierungsdatum": "2021-07-07T08:30:41.4141",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland war im Jahr 2019 mit 26 Firmen ähnlich hoch wie im Jahr 2018 (27 Ansiedlungen). Dazu gab es im Jahr 2019 vier Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2018 waren es sieben).",
+		"lesehilfe": "Trotz COVID-19-Pandemie ist die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland im Jahr 2020 mit 22 Firmen relativ stabil geblieben. Im Jahr 2019 siedelten sich 26 Firmen aus dem Ausland an. Dazu gab es im Jahr 2020 fünf Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2019 waren es vier).",
 		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "02_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6368"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BaselArea"
@@ -12258,32 +12258,32 @@ var indikatoren = [
 		"id": 5901
 	},
 	{
+		"parentId": 6154,
+		"children": [],
+		"template": "line001",
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kuerzel": "I.11.6.06007",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
 		"kuerzelKunde": "ST 11-1",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:55:39.3939",
+		"aktualisierungsdatum": "2021-07-07T08:30:45.4545",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2019 um 1,5% tiefer, diejenige des Veloverkehrs um 45% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Indexpunkte, sank dann aber wieder und liegt 2019 bei einem Indexwert von 98,4 und damit tiefer als im Jahr 2013.",
+		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "05_11_00_00_00_001",
-		"parentId": 6154,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -12293,7 +12293,7 @@ var indikatoren = [
 			""
 		],
 		"data-id": 6007,
-		"chart-id": 6007,
+		"chart-id": 6154,
 		"filter": "",
 		"id": 6007
 	},
@@ -15016,34 +15016,34 @@ var indikatoren = [
 		"id": 6081
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6667"
+		],
+		"template": "line001",
 		"title": "Hochschulquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.15.4.6082",
 		"kuerzelKunde": "B2-1",
 		"description": "Hochschulquote nach Staatsangehörigkeit",
 		"thema": "15 Bildung",
 		"unterthema": "Hochschulen",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T14:37:19.1919",
-		"stufe1": "",
+		"aktualisierungsdatum": "2021-07-07T08:30:43.4343",
+		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer hat sich seit vier Jahren um 25% eingependelt. Im gleichen Zeitraum haben sich die Quoten der Studierenden aus Italien, dem Balkan sowie aus Mittel- und Südamerika sukzessive erhöht. Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach kurzer Phase der Stagnation zwischen 2016 und 2018, seit zwei Jahren wieder steigende Tendenz auf. Eine auffällige Steigerung in den letzten beiden Jahren verzeichnet zudem die Gruppe \"Übrige Länder\". Die Zahl der Beobachtungen ist für einige Ländergruppen sehr klein.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_201",
-		"parentId": null,
-		"children": [
-			"6667"
-		],
+		"orderKey": "02_00_00_00_00_201",
 		"renderLink": [],
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS)",
@@ -15076,13 +15076,13 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-15T07:52:46.4646",
+		"aktualisierungsdatum": "2021-07-07T08:30:44.4444",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer ist nach zweijährigem, leichtem Rückgang 2019 wieder gestiegen, wobei dieser Effekt einzig auf die Zunahme der Studentinnen mit Schweizer Pass zurückzuführen ist. Bei der ausländischen Wohnbevölkerung ist 2019 nach einer mehrjährigen Periode mit steigenden Zahlen zum zweiten Mal in Folge ein - allerdings nur sehr geringfügiger - Rückgang der Hochschulquote zu beobachten.",
+		"lesehilfe": "Die Hochschulquote der Schweizerinnen und Schweizer weist, nach vorübergehendem leichtem Rückgang, seit zwei Jahren wieder steigende Tendenz auf. Bei der ausländischen Wohnbevölkerung ist 2020 ebenfalls eine geringfügige Zunahme der Hochschulquote zu beobachten.",
 		"erlaeuterungen": "Die Hochschulquote ist die Zahl Studierender an einer universitären Hochschule, Fachhochschule oder pädagogischen Hochschule der Schweiz im Alter von 20 bis 24 Jahren, die vor Studienbeginn in Basel-Stadt gewohnt haben, dividiert durch alle Bewohnerinnen und Bewohner des Kantons Basel-Stadt der gleichen Alters- und Bevölkerungsgruppe.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
@@ -16354,15 +16354,15 @@ var indikatoren = [
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "I.11.6.6154",
+		"kuerzel": "",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-28T08:33:44.4444",
+		"aktualisierungsdatum": "2021-07-07T08:30:42.4242",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
@@ -17938,30 +17938,6 @@ var indikatoren = [
 		"id": 6214
 	},
 	{
-		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.6215",
-		"kuerzelKunde": "ST 4-4",
-		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-10T17:59:27.2727",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6260",
@@ -17970,6 +17946,30 @@ var indikatoren = [
 			"8954",
 			"9061"
 		],
+		"template": "template001",
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "I.01.9.06215",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-07-07T08:30:46.4646",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2020 um 11% auf rund 224 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_04_00_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
@@ -60859,32 +60859,32 @@ var indikatoren = [
 		"id": 8453
 	},
 	{
+		"parentId": 6154,
+		"children": [],
+		"template": "line001",
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kuerzel": "I.11.6.08454",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzel": "",
 		"kuerzelKunde": "GW20",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Nachhaltigkeit",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:54:43.4343",
+		"aktualisierungsdatum": "2021-07-07T08:30:45.4545",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2019 um 1,5% tiefer, diejenige des Veloverkehrs um 45% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Indexpunkte, sank dann aber wieder und liegt 2019 bei einem Indexwert von 98,4 und damit tiefer als im Jahr 2013.",
+		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
 		"orderKey": "03_08_00_00_00_321",
-		"parentId": 6154,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"

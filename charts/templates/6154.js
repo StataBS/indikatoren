@@ -4,10 +4,16 @@
     "tickInterval": 1
   },
   "yAxis": {
-    "min": undefined, 
+    "min": undefined,
+    //tickInterval: 10,
 	"labels": {
 		"format": "{value:,.0f}"
-	}
+	},
+  plotLines: [{
+    color: '#B9CFD7',
+    value: 100,
+    width: 2
+}]
   },	
   "tooltip": {
     "shared": false, 
