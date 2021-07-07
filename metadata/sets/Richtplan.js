@@ -664,31 +664,31 @@ var indikatorensetData = [
 		"id": 5901
 	},
 	{
+		"parentId": 6154,
+		"children": [],
+		"template": "line001",
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kuerzel": "I.11.6.06007",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "",
 		"kuerzelKunde": "ST 11-1",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
-		"kennzahlenset": "Richtplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:55:39.3939",
+		"aktualisierungsdatum": "2021-07-07T08:30:45.4545",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf Kantonsgebiet liegt 2019 um 1,5% tiefer, diejenige des Veloverkehrs um 45% höher als im Jahr 2010. Der Wert für Fussgänger stieg von 2013 bis 2014 um 7 Indexpunkte, sank dann aber wieder und liegt 2019 bei einem Indexwert von 98,4 und damit tiefer als im Jahr 2013.",
+		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
 		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "05_11_00_00_00_001",
-		"parentId": 6154,
-		"children": [],
 		"renderLink": [],
 		"quellenangabe": [
 			"Amt für Mobilität Basel-Stadt"
@@ -698,7 +698,7 @@ var indikatorensetData = [
 			""
 		],
 		"data-id": 6007,
-		"chart-id": 6007,
+		"chart-id": 6154,
 		"filter": "",
 		"id": 6007
 	},
@@ -745,29 +745,6 @@ var indikatorensetData = [
 		"id": 6214
 	},
 	{
-		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2020",
-		"kuerzel": "I.01.9.6215",
-		"kuerzelKunde": "ST 4-4",
-		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-10T17:59:27.2727",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2040 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von rund 201 000 am Ende des Jahres 2019 um 11% auf knapp 223 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2020. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die Einwohnerzahl 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine mit den Vorjahren vergleichbare Bevölkerungsstatistik zu erhalten wurden 275 ausländische Wochenaufenthalter (Stand Januar 2020) hinzugerechnet.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_04_00_00_00_004",
 		"parentId": null,
 		"children": [
 			"6260",
@@ -776,6 +753,29 @@ var indikatorensetData = [
 			"8954",
 			"9061"
 		],
+		"template": "template001",
+		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
+		"kennzahlenset": "Richtplan",
+		"kuerzel": "I.01.9.06215",
+		"kuerzelKunde": "ST 4-4",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-07-07T08:30:46.4646",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2020 um 11% auf rund 224 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"orderKey": "02_04_00_00_00_004",
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"

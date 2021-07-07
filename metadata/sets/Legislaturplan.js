@@ -206,33 +206,33 @@ var indikatorensetData = [
 		"id": 3051
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6368"
+		],
+		"template": "line001",
 		"title": "Ansiedlungen von Firmen aus dem Ausland",
 		"subtitle": "in den Kantonen Basel-Stadt, Basel-Landschaft und Jura; unterstützt durch BaselArea",
-		"kuerzel": "I.04.1.3086",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "2.4",
 		"description": "Ansiedlungen von Firmen aus dem Ausland",
-		"thema": "04 Volkswirtschaft",
+		"thema": "50 Befragungen",
 		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T18:58:52.5252",
+		"aktualisierungsdatum": "2021-07-07T08:30:41.4141",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland war im Jahr 2019 mit 26 Firmen ähnlich hoch wie im Jahr 2018 (27 Ansiedlungen). Dazu gab es im Jahr 2019 vier Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2018 waren es sieben).",
+		"lesehilfe": "Trotz COVID-19-Pandemie ist die Anzahl durch BaselArea unterstützter Ansiedlungen von Firmen aus dem Ausland im Jahr 2020 mit 22 Firmen relativ stabil geblieben. Im Jahr 2019 siedelten sich 26 Firmen aus dem Ausland an. Dazu gab es im Jahr 2020 fünf Ansiedlungen von Unternehmen, die aus dem Rest der Schweiz in die Region zugezogen sind (2019 waren es vier).",
 		"erlaeuterungen": "BaselArea.swiss ist die Innovationsförderung und Standortpromotion der Nordwestschweizer Kantone BS, BL und JU.",
-		"template": "line001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "02_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6368"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"BaselArea"
@@ -1427,15 +1427,15 @@ var indikatorensetData = [
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
 		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "I.11.6.6154",
+		"kuerzel": "",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
+		"thema": "50 Befragungen",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-28T08:33:44.4444",
+		"aktualisierungsdatum": "2021-07-07T08:30:42.4242",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
