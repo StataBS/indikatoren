@@ -2100,33 +2100,33 @@ var indikatorensetData = [
 		"id": 6173
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6322"
+		],
+		"template": "template001",
 		"title": "Stationäre Fälle in Basler Spitälern",
 		"subtitle": "Nach Hauptbereich und Wohnort",
-		"kuerzel": "I.14.1.6175",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
 		"kuerzelKunde": "9.5",
 		"description": "Stationäre Fälle in Basler Spitälern",
-		"thema": "14 Gesundheit",
+		"thema": "50 Befragungen",
 		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Legislaturplan",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-29T10:26:16.1616",
+		"aktualisierungsdatum": "2021-07-13T08:34:13.1313",
 		"stufe1": "Ziel 9: Die Gesundheitsversorgung ist hochwertig, bezahlbar und für alle zugänglich.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden mehr ausserkantonale Patienten (43&nbsp;680) behandelt als Patienten mit Wohnort im Kanton Basel-Stadt (38&nbsp;304). Von den insgesamt 38&nbsp;304 Fällen aus dem Stadtkanton können über 78% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen macht der Anteil der Akutsomatik hingegen über 91% aus.",
-		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr. Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.",
-		"template": "template001",
+		"lesehilfe": "Im Jahr 2020 wurden mehr ausserkantonale Patienten behandelt als Patienten mit Wohnort im Kanton Basel-Stadt. Von den insgesamt 35 826 Fällen aus dem Stadtkanton können fast 86% dem Hauptbereich der Akutsomatik zugerechnet werden. Bei den ausserkantonalen Fällen (35 826) macht der Anteil der Akutsomatik hingegen über 93% aus",
+		"erlaeuterungen": "Gezählt werden alle stationären Fälle mit Austritt im jeweiligen Erhebungsjahr. Die Aufteilung in BS und Nicht-BS erfolgt anhand des Wohnorts der Patienten. Patienten mit Wohnsitz im Ausland sind in den Nicht-BS-Fällen eingeschlossen. Die Aufteilung in die Hauptbereiche erfolgt anhand der Hauptkostenstelle.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "09_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6322"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
