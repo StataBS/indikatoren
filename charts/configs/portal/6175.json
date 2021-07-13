@@ -7,30 +7,6 @@
       "legendIndex": 3,
       "data": [
         [
-          "2008 BS",
-          27758
-        ],
-        [
-          "2008 Nicht-BS",
-          27123
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2009 BS",
-          27980
-        ],
-        [
-          "2009 Nicht-BS",
-          27676
-        ],
-        [
-          "  ",
-          undefined
-        ],
-        [
           "2010 BS",
           28454
         ],
@@ -39,7 +15,7 @@
           28396
         ],
         [
-          "   ",
+          " ",
           undefined
         ],
         [
@@ -51,7 +27,7 @@
           29034
         ],
         [
-          "    ",
+          "  ",
           undefined
         ],
         [
@@ -63,7 +39,7 @@
           30140
         ],
         [
-          "     ",
+          "   ",
           undefined
         ],
         [
@@ -75,7 +51,7 @@
           31990
         ],
         [
-          "      ",
+          "    ",
           undefined
         ],
         [
@@ -87,7 +63,7 @@
           33549
         ],
         [
-          "       ",
+          "     ",
           undefined
         ],
         [
@@ -99,7 +75,7 @@
           34347
         ],
         [
-          "        ",
+          "      ",
           undefined
         ],
         [
@@ -111,7 +87,7 @@
           36999
         ],
         [
-          "         ",
+          "       ",
           undefined
         ],
         [
@@ -123,7 +99,7 @@
           38354
         ],
         [
-          "          ",
+          "        ",
           undefined
         ],
         [
@@ -135,7 +111,7 @@
           39083
         ],
         [
-          "           ",
+          "         ",
           undefined
         ],
         [
@@ -145,6 +121,18 @@
         [
           "2019 Nicht-BS",
           39909
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2020 BS",
+          30670
+        ],
+        [
+          "2020 Nicht-BS",
+          39218
         ]
       ],
       "name": "Akutsomatik",
@@ -157,30 +145,6 @@
       "legendIndex": 2,
       "data": [
         [
-          "2008 BS",
-          3629
-        ],
-        [
-          "2008 Nicht-BS",
-          182
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2009 BS",
-          3645
-        ],
-        [
-          "2009 Nicht-BS",
-          224
-        ],
-        [
-          "  ",
-          undefined
-        ],
-        [
           "2010 BS",
           3991
         ],
@@ -189,7 +153,7 @@
           307
         ],
         [
-          "   ",
+          " ",
           undefined
         ],
         [
@@ -201,7 +165,7 @@
           447
         ],
         [
-          "    ",
+          "  ",
           undefined
         ],
         [
@@ -213,7 +177,7 @@
           542
         ],
         [
-          "     ",
+          "   ",
           undefined
         ],
         [
@@ -225,7 +189,7 @@
           688
         ],
         [
-          "      ",
+          "    ",
           undefined
         ],
         [
@@ -237,7 +201,7 @@
           814
         ],
         [
-          "       ",
+          "     ",
           undefined
         ],
         [
@@ -249,7 +213,7 @@
           857
         ],
         [
-          "        ",
+          "      ",
           undefined
         ],
         [
@@ -261,7 +225,7 @@
           927
         ],
         [
-          "         ",
+          "       ",
           undefined
         ],
         [
@@ -273,7 +237,7 @@
           1009
         ],
         [
-          "          ",
+          "        ",
           undefined
         ],
         [
@@ -285,7 +249,7 @@
           1073
         ],
         [
-          "           ",
+          "         ",
           undefined
         ],
         [
@@ -295,6 +259,18 @@
         [
           "2019 Nicht-BS",
           846
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2020 BS",
+          6
+        ],
+        [
+          "2020 Nicht-BS",
+          2
         ]
       ],
       "name": "Geriatrie",
@@ -307,30 +283,6 @@
       "legendIndex": 1,
       "data": [
         [
-          "2008 BS",
-          2299
-        ],
-        [
-          "2008 Nicht-BS",
-          1333
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2009 BS",
-          2462
-        ],
-        [
-          "2009 Nicht-BS",
-          1360
-        ],
-        [
-          "  ",
-          undefined
-        ],
-        [
           "2010 BS",
           2084
         ],
@@ -339,7 +291,7 @@
           1580
         ],
         [
-          "   ",
+          " ",
           undefined
         ],
         [
@@ -351,7 +303,7 @@
           835
         ],
         [
-          "    ",
+          "  ",
           undefined
         ],
         [
@@ -363,7 +315,7 @@
           894
         ],
         [
-          "     ",
+          "   ",
           undefined
         ],
         [
@@ -375,7 +327,7 @@
           920
         ],
         [
-          "      ",
+          "    ",
           undefined
         ],
         [
@@ -387,7 +339,7 @@
           923
         ],
         [
-          "       ",
+          "     ",
           undefined
         ],
         [
@@ -399,7 +351,7 @@
           1012
         ],
         [
-          "        ",
+          "      ",
           undefined
         ],
         [
@@ -411,7 +363,7 @@
           1023
         ],
         [
-          "         ",
+          "       ",
           undefined
         ],
         [
@@ -423,7 +375,7 @@
           945
         ],
         [
-          "          ",
+          "        ",
           undefined
         ],
         [
@@ -435,7 +387,7 @@
           1013
         ],
         [
-          "           ",
+          "         ",
           undefined
         ],
         [
@@ -445,6 +397,18 @@
         [
           "2019 Nicht-BS",
           1023
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2020 BS",
+          2604
+        ],
+        [
+          "2020 Nicht-BS",
+          996
         ]
       ],
       "name": "Psychiatrie",
@@ -457,30 +421,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2008 BS",
-          1409
-        ],
-        [
-          "2008 Nicht-BS",
-          1107
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
-          "2009 BS",
-          1329
-        ],
-        [
-          "2009 Nicht-BS",
-          1154
-        ],
-        [
-          "  ",
-          undefined
-        ],
-        [
           "2010 BS",
           1334
         ],
@@ -489,7 +429,7 @@
           1159
         ],
         [
-          "   ",
+          " ",
           undefined
         ],
         [
@@ -501,7 +441,7 @@
           1179
         ],
         [
-          "    ",
+          "  ",
           undefined
         ],
         [
@@ -513,7 +453,7 @@
           1249
         ],
         [
-          "     ",
+          "   ",
           undefined
         ],
         [
@@ -525,7 +465,7 @@
           1218
         ],
         [
-          "      ",
+          "    ",
           undefined
         ],
         [
@@ -537,7 +477,7 @@
           1356
         ],
         [
-          "       ",
+          "     ",
           undefined
         ],
         [
@@ -549,7 +489,7 @@
           1456
         ],
         [
-          "        ",
+          "      ",
           undefined
         ],
         [
@@ -561,7 +501,7 @@
           1532
         ],
         [
-          "         ",
+          "       ",
           undefined
         ],
         [
@@ -573,7 +513,7 @@
           1459
         ],
         [
-          "          ",
+          "        ",
           undefined
         ],
         [
@@ -585,7 +525,7 @@
           1597
         ],
         [
-          "           ",
+          "         ",
           undefined
         ],
         [
@@ -595,6 +535,18 @@
         [
           "2019 Nicht-BS",
           1902
+        ],
+        [
+          "          ",
+          undefined
+        ],
+        [
+          "2020 BS",
+          2546
+        ],
+        [
+          "2020 Nicht-BS",
+          1763
         ]
       ],
       "name": "Rehabilitation",
@@ -740,10 +692,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-13"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "● Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6175"

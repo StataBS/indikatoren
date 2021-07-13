@@ -111,9 +111,16 @@
 					fn.drawPies(chart, pieSizeSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig, color);
 
 					//console.log(choroplethSeries);
+					var yoff = 0;
+					var xoff = 0
+					fn.addLegendLabel(chart, "<b>Stadt Basel</b>", 800, 10, undefined, false, 'right');
 					for (let i = 0; i < pieSizeSeries.data.length; i++) {
 						if (choroplethSeries.data[i].Wohnviertel_Id < 10) var xoff=8; else var xoff = 0;
-						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20, undefined, false, 'right');
+						if (choroplethSeries.data[i].Wohnviertel_Id == 20) {
+							fn.addLegendLabel(chart, "<b>Gemeinden</b>", 800+xoff, 30 + i * 20 + 5, undefined, false, 'right');
+							yoff=25; 
+						}
+						fn.addLegendLabel(chart, choroplethSeries.data[i].Wohnviertel_Id.toString() + ': ' + pieSizeSeries.data[i].options["hc-key"], 800+xoff, 30 + i * 20 + yoff, undefined, false, 'right');
 					}
 
 					/*
