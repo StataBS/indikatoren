@@ -83,7 +83,7 @@ rangeSelector: {
 buttons: 
 [
     {
-            count: 21,
+            count: 24,
             type: 'year',
             text: 'nur Szenarien'
         }, 
