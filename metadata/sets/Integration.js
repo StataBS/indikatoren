@@ -4179,18 +4179,23 @@ var indikatorensetData = [
 		"id": 6510
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6743"
+		],
+		"template": "befragungen001",
 		"title": "Sprachen im Freundeskreis",
 		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.50.3.6511",
 		"kuerzelKunde": "D11-1",
 		"description": "Sprachen im Freundeskreis",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-07T10:53:06.066",
+		"aktualisierungsdatum": "2021-07-15T08:01:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -4198,14 +4203,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "04_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6743"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"

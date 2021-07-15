@@ -8046,18 +8046,23 @@
 		"id": 4849
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8389"
+		],
+		"template": "befragungen001",
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?», Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
+		"aktualisierungsdatum": "2021-07-15T08:01:47.4747",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -8065,15 +8070,10 @@
 		"stufe5": "",
 		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 gaben 78,8% an, Mädchen und Jungen im Freundeskreis zu haben, 2009 lag der entsprechende Anteil bei 80,6%.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_01_00_00_00_015",
-		"parentId": null,
-		"children": [
-			"8389"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
@@ -8905,18 +8905,23 @@
 		"id": 4869
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8409"
+		],
+		"template": "befragungen001",
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?», Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
+		"aktualisierungsdatum": "2021-07-15T08:01:49.4949",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -8924,15 +8929,10 @@
 		"stufe5": "",
 		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "03_03_00_00_00_060",
-		"parentId": null,
-		"children": [
-			"8409"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
@@ -15748,36 +15748,36 @@
 		"id": 6210
 	},
 	{
-		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"kuerzel": "I.04.1.6211",
-		"kuerzelKunde": "2.7",
-		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-09T10:13:21.2121",
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
-		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_007",
 		"parentId": null,
 		"children": [
 			"5160",
 			"6339",
 			"8890"
 		],
+		"template": "line001",
+		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzel": "",
+		"kuerzelKunde": "2.7",
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"thema": "",
+		"unterthema": "Volkseinkommen",
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"aktualisierungsdatum": "2021-07-15T08:01:48.4848",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2020 beträgt die Quote 0,2 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 593 Franken pro Kopf. Der Rückgang der Werte im Jahr 2020 hat mehrere Gründe: in erster Linie höhere Steuereinnahmen sowie einen Sondereffekt durch die Aufwertung der Immobilien im Finanzvermögen.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"orderKey": "02_00_00_00_00_007",
 		"renderLink": [],
 		"quellenangabe": [
 			"Jahresbericht des Kantons Basel-Stadt"
@@ -20860,18 +20860,23 @@
 		"id": 6510
 	},
 	{
+		"parentId": null,
+		"children": [
+			"6743"
+		],
+		"template": "befragungen001",
 		"title": "Sprachen im Freundeskreis",
 		"subtitle": "«Welche Sprache wird in Deinem Freundeskreis am häufigsten gesprochen?», Basel-Stadt",
+		"kennzahlenset": "Integration",
 		"kuerzel": "I.50.3.6511",
 		"kuerzelKunde": "D11-1",
 		"description": "Sprachen im Freundeskreis",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Integration",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-07T10:53:06.066",
+		"aktualisierungsdatum": "2021-07-15T08:01:50.5050",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
@@ -20879,15 +20884,10 @@
 		"stufe5": "",
 		"lesehilfe": "2017 ist bei 80% der Jugendlichen, welche angeben, über einen Freundeskreis zu verfügen, Deutsch die am häufigsten gesprochene Sprache in ihrem Freundeskreis. 2009 und 2013 betrug der entsprechende Anteil jeweils 83%. Der Anteil «Keine Angabe» ist 2017 mit 12% gegenüber den Vorjahren (2013: 10%; 2009: 7%) gestiegen.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Die Befragung richtet sich an Jugendliche im Alter von 12 bis 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "04_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6743"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
@@ -35187,34 +35187,34 @@
 		"id": 8265
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8537"
+		],
+		"template": "mappie001",
 		"title": "Durch die IG Wohnen vermittelte Wohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
-		"kuerzel": "I.13.3.08266",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzel": "",
 		"kuerzelKunde": "1-37",
 		"description": "Durch die IG Wohnen vermittelte Wohnungen",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:20:37.3737",
+		"aktualisierungsdatum": "2021-07-15T08:01:48.4848",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 hat die IG Wohnen 82 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel St. Johann konnten mit insgesamt 15 am meisten Wohnungen vermittelt werden.",
+		"lesehilfe": "2020 hat die IG Wohnen 78 Wohnungen im Kantonsgebiet vermittelt. Im Wohnviertel Iselin konnten mit insgesamt 16 am meisten Wohnungen vermittelt werden.",
 		"erlaeuterungen": "Anzahl Wohnungen, welche durch den Verein IG Wohnen in Basel-Stadt vermittelt wurden.",
-		"template": "mappie001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
 		"orderKey": "01_05_00_00_00_137",
-		"parentId": null,
-		"children": [
-			"8537"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Verein IG Wohnen"
