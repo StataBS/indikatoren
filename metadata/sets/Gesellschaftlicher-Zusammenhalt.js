@@ -373,18 +373,23 @@ var indikatorensetData = [
 		"id": 4849
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8389"
+		],
+		"template": "befragungen001",
 		"title": "Zusammensetzung des Freundeskreises",
 		"subtitle": "«Wie sieht Dein Freundeskreis aus?», Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.50.3.4850",
 		"kuerzelKunde": "1.1.05",
 		"description": "Zusammensetzung des Freundeskreises",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:08.088",
+		"aktualisierungsdatum": "2021-07-15T08:01:47.4747",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.1 Soziale Netze",
 		"stufe3": "",
@@ -392,14 +397,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2017 geben 73,5% der befragten Jugendlichen an, sowohl Mädchen als auch Jungen in ihrem Freundeskreis zu haben. Jeweils gut 9% haben entweder nur Mädchen respektive nur Jungen im Freundeskreis. 1,4% geben an, keine Freunde zu haben. 2013 gaben 78,8% an, Mädchen und Jungen im Freundeskreis zu haben, 2009 lag der entsprechende Anteil bei 80,6%.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "01_01_00_00_00_015",
-		"parentId": null,
-		"children": [
-			"8389"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
@@ -1212,18 +1212,23 @@ var indikatorensetData = [
 		"id": 4869
 	},
 	{
+		"parentId": null,
+		"children": [
+			"8409"
+		],
+		"template": "befragungen001",
 		"title": "Engagement in Organisationen und Vereinen",
 		"subtitle": "«Engagierst Du Dich in einer Organisation, in einem Verein oder ähnlichem?», Basel-Stadt",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"kuerzel": "I.50.3.4870",
 		"kuerzelKunde": "3.3.01",
 		"description": "Engagement in Organisationen und Vereinen",
 		"thema": "50 Befragungen",
 		"unterthema": "Jugendbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:16.1616",
+		"aktualisierungsdatum": "2021-07-15T08:01:49.4949",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.3 Gesellschaftliche Teilhabe",
 		"stufe3": "",
@@ -1231,14 +1236,9 @@ var indikatorensetData = [
 		"stufe5": "",
 		"lesehilfe": "2017 geben 25,5% der Jugendlichen an, sich in einer Organisation, in einem Verein oder ähnlichem zu engagieren, exakt gleich viele wie in der Befragung von 2013. 2009 lag dieser Wert bei 12,0%.",
 		"erlaeuterungen": "Die Jugendbefragung wurde 2009 als kantonale Befragung eingeführt. Sie findet alle vier Jahre statt. Die Befragung richtet sich an Jugendliche im Alter von 12 und 17 Jahren und wird alle vier Jahre in ausgewählten Klassen der öffentlichen Schulen durchgeführt.",
-		"template": "befragungen001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"orderKey": "03_03_00_00_00_060",
-		"parentId": null,
-		"children": [
-			"8409"
-		],
 		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Jugendbefragung"
