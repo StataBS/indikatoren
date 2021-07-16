@@ -15748,47 +15748,45 @@
 		"id": 6210
 	},
 	{
+		"template": "line001",
+		"data-id": 6211,
+		"chart-id": 6211,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5160",
-			"6339",
-			"8890"
+			5160,
+			6339,
+			8890
 		],
-		"template": "line001",
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "",
-		"kuerzelKunde": "2.7",
 		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"thema": "",
-		"unterthema": "Volkseinkommen",
+		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2020 beträgt die Quote 0,2 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 593 Franken pro Kopf. Der Rückgang der Werte im Jahr 2020 hat mehrere Gründe: in erster Linie höhere Steuereinnahmen sowie einen Sondereffekt durch die Aufwertung der Immobilien im Finanzvermögen.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-15T08:01:48.4848",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.06211",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.7",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2020 beträgt die Quote 0,2 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 593 Franken pro Kopf. Der Rückgang der Werte im Jahr 2020 hat mehrere Gründe: in erster Linie höhere Steuereinnahmen sowie einen Sondereffekt durch die Aufwertung der Immobilien im Finanzvermögen.",
-		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"orderKey": "02_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6211,
-		"chart-id": 6211,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-16T10:11:50",
 		"id": 6211
 	},
 	{
@@ -40411,43 +40409,41 @@
 		"id": 9009
 	},
 	{
+		"template": "line001",
+		"data-id": 9022,
+		"chart-id": 9022,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
-		"kennzahlenset": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
 		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"thema": "50 Befragungen",
-		"unterthema": "Sterblichkeit",
+		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 14 des Jahres 2020 insgesamt 26 Personen ab 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:09.099",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kuerzel": "I.14.3.09022",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 14 des Jahres 2020 insgesamt 26 Personen ab 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
-		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9022,
-		"chart-id": 9022,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-16T10:07:11",
 		"id": 9022
 	},
 	{
