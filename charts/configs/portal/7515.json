@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          1588298400000,
-          27
-        ],
-        [
           1590976800000,
           -26
         ],
@@ -55,6 +51,10 @@
         [
           1619834400000,
           2
+        ],
+        [
+          1622512800000,
+          -10
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -63,10 +63,6 @@
       "color": "#923F8D",
       "visible": true,
       "data": [
-        [
-          1588298400000,
-          -184
-        ],
         [
           1590976800000,
           -225
@@ -114,6 +110,10 @@
         [
           1619834400000,
           -270
+        ],
+        [
+          1622512800000,
+          -404
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -122,10 +122,6 @@
       "color": "#C8C8C8",
       "visible": true,
       "data": [
-        [
-          1588298400000,
-          192
-        ],
         [
           1590976800000,
           64
@@ -173,6 +169,10 @@
         [
           1619834400000,
           178
+        ],
+        [
+          1622512800000,
+          34
         ]
       ],
       "name": "Bereinigungen"
@@ -320,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-22"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

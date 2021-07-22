@@ -159,42 +159,40 @@ var indikatorensetData = [
 		"id": 7513
 	},
 	{
+		"template": "template001",
+		"data-id": 7515,
+		"chart-id": 7515,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "I.01.1.07515",
-		"kuerzelKunde": "",
-		"description": "Bilanz der Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
+		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-24T07:23:08.088",
+		"description": "Bilanz der Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07515",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Monatliche Veränderungen am Bevölkerungsbestand sind in erster Linie auf räumliche Bevölkerungsbewegungen (Zuzüge und Wegzüge) zurückzuführen. Der Saldo der natürlichen Bevölkerungsbewegungen (Geburten und Todesfälle) ist in der Regel deutlich kleiner und trägt damit nur geringfügig zur Veränderung des Bestandes bei.",
-		"erlaeuterungen": "Aufgrund nachträglich gemeldeter Ereignisse (z. B. verspäteter An- oder Abmeldungen) entspricht die Summe aus Wanderungssaldo und Geburtssaldo nicht der effektiven Veränderung des Bevölkerungsbestandes per Ende Monat. Diese Differenz wird mit dem Bereinigungssaldo ausgewiesen.",
+		"orderKey": "_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7515,
-		"chart-id": 7515,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-22T08:43:05",
 		"id": 7515
 	},
 	{
@@ -276,43 +274,41 @@ var indikatorensetData = [
 		"id": 7517
 	},
 	{
+		"template": "mappie001",
+		"data-id": 7763,
+		"chart-id": 7763,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "mappie001",
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Mai",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "I.01.1.07763",
-		"kuerzelKunde": "",
-		"description": "Bevölkerung nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Im Juni 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in drei Wohnvierteln sowie in Riehen. In sechzehn Wohnvierteln und in Bettingen ging sie zurück.",
+		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Gemeinde"
 		],
-		"aktualisierungsdatum": "2021-06-24T07:23:09.099",
+		"description": "Bevölkerung nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07763",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mai 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in acht Wohnvierteln sowie in Bettingen. In elf Wohnvierteln und in Riehen ging sie zurück.",
-		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
+		"orderKey": "_000",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7763,
-		"chart-id": 7763,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-22T08:43:05",
 		"id": 7763
 	},
 	{
