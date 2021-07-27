@@ -78,6 +78,10 @@
         [
           2019,
           7.9
+        ],
+        [
+          2020,
+          7.6
         ]
       ],
       "name": "Schweiz"
@@ -160,6 +164,10 @@
         [
           2019,
           7.8
+        ],
+        [
+          2020,
+          7.4
         ]
       ],
       "name": "Italien"
@@ -241,6 +249,10 @@
         ],
         [
           2019,
+          2.8
+        ],
+        [
+          2020,
           2.8
         ]
       ],
@@ -324,6 +336,10 @@
         [
           2019,
           5.6
+        ],
+        [
+          2020,
+          5.3
         ]
       ],
       "name": "Spanien"
@@ -405,6 +421,10 @@
         ],
         [
           2019,
+          11.7
+        ],
+        [
+          2020,
           11.7
         ]
       ],
@@ -488,6 +508,10 @@
         [
           2019,
           9.5
+        ],
+        [
+          2020,
+          9.3
         ]
       ],
       "name": "Ehemaliges Jugoslawien"
@@ -616,7 +640,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBundesamt für Sozialversicherungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -657,6 +681,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6431
+    "filename": "6431"
   }
 }

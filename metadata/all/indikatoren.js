@@ -24939,132 +24939,126 @@ var indikatoren = [
 		"id": 6429
 	},
 	{
-		"title": "IV-Quote nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.13.1.6430",
-		"kuerzelKunde": "C5-1",
-		"description": "IV-Quote nach Staatsangehörigkeit",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialversicherungen",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-06-25T17:37:55.5555",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die höchste IV-Quote weist 2019 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,6%), der Schweiz (7,9%) sowie Italien (7,8%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,0 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2019 kontinuierlich von 8,9% auf 6,2%.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_501",
-		"parentId": null,
-		"children": [
-			"6705"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Sozialversicherungen"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6430,
 		"chart-id": 6430,
 		"filter": "",
-		"id": 6430
-	},
-	{
+		"parentId": null,
+		"children": [
+			6705
+		],
 		"title": "IV-Quote nach Staatsangehörigkeit",
-		"subtitle": "Top 6 der IV-Bezüger, Basel-Stadt",
-		"kuerzel": "I.13.1.6431",
-		"kuerzelKunde": "C5-2",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Die höchste IV-Quote weist 2020 mit 11,7% die Türkei auf, gefolgt von den Balkanländern (9,4%), der Schweiz (7,6%) sowie Italien (7,4%). Gegenüber 2001 ist die IV-Quote der Italienerinnen und Italiener um 8,4 Prozentpunkte gesunken. Die IV-Quoten der arabischen, afrikanischen und übrigen Länder haben die 5%-Marke während des Gesamtbeobachtungszeitraums nie überschritten. Die kantonale IV-Quote sank zwischen 2005 und 2020 kontinuierlich von 8,9% auf 6,0%.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, ab 2002 die 18- bis 62-Jährigen und ab 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Sozialversicherungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
 		"description": "IV-Quote nach Staatsangehörigkeit",
 		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialversicherungen",
+		"kuerzel": "I.13.1.06430",
 		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-08-31T16:08:46.4646",
+		"kuerzelKunde": "C5-1",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2009 und 2018 ist die IV-Quote bei allen dargestellten Staatsangehörigkeiten zurückgegangen. Mit 11,7% weist die Türkei 2019 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,5% sowie der Schweiz mit 7,9%. Gegenüber dem Vorjahr ist die IV-Quote der Personen mit türkischer und portugiesischer Staatsbürgerschaft um 0,1 resp. 0,2 Prozentpunkte gestiegen, während sie bei den übrigen vier Ländern gesunken oder stabil geblieben ist.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, seit 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_502",
-		"parentId": null,
-		"children": [
-			"6706"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Sozialversicherungen"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-07-27T08:52:33",
+		"id": 6430
+	},
+	{
+		"template": "line001",
 		"data-id": 6431,
 		"chart-id": 6431,
 		"filter": "",
-		"id": 6431
-	},
-	{
-		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.13.1.6432",
-		"kuerzelKunde": "C5-3",
-		"description": "IV-Quote nach Staatsangehörigkeit und Alter",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialversicherungen",
-		"kennzahlenset": "Integration",
+		"parentId": null,
+		"children": [
+			6706
+		],
+		"title": "IV-Quote nach Staatsangehörigkeit",
+		"subtitle": "Top 6 der IV-Bezüger, Basel-Stadt",
+		"lesehilfe": "Seit 2009 tendiert die IV-Quote bei allen dargestellten Staatsangehörigkeiten gegen unten. Mit 11,7% weist die Türkei 2020 die höchste IV-Quote auf, gefolgt von den Ländern des ehemaligen Jugoslawien mit 9,3% sowie der Schweiz mit 7,6%.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen zählen für das Jahr 2001 die 18- bis 61-Jährigen, seit 2002 die 18- bis 62-Jährigen und seit 2005 die 18- bis 63-Jährigen zu den Personen im erwerbsfähigen Alter. Bei den Männern sind es die 18- bis 64-Jährigen. Es werden nur jene Nationen berücksichtigt, die im aktuellen Berichtsjahr mehr als 50 IV-Bezügerinnen und Bezüger aufweisen. Ehemaliges Jugoslawien: Um eine Zeitreihe über den gesamten Beobachtungszeitraum zu gewährleisten, werden die betroffenen Staaten über den gesamten Zeitraum zusammengefasst dargestellt. Im Zuge der Einführung der 13-stelligen Versichertennummer wurde 2009 die Erfassung der Beziehenden von IV auf eine verbesserte Grundlage gestellt, was zu einem Rückgang des gemessenen Ausländeranteils führte.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Sozialversicherungen"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-25T17:37:55.5555",
+		"description": "IV-Quote nach Staatsangehörigkeit",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialversicherungen",
+		"kuerzel": "I.13.1.6431",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C5-2",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 20,6% bei den Ausländern respektive 15,4% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
-		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_502",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_503",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-07-27T08:52:34",
+		"id": 6431
+	},
+	{
+		"template": "line001",
+		"data-id": 6432,
+		"chart-id": 6432,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6707"
+			6707
 		],
-		"renderLink": [],
+		"title": "IV-Quote nach Staatsangehörigkeit und Alter",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Die IV-Quote der ausländischen Bevölkerung ist bis zum Alter von 60 Jahren tiefer als jene der Schweizer. Bei den 60- bis 64-Jährigen  beträgt die IV-Quote 19,6% bei den Ausländern respektive 15,2% bei den Schweizern. Ab 40 Jahren nimmt das Wachstum der IV-Quote bei den Ausländern deutlich zu. Bei den Schweizern ist ein eher lineares Wachstum der IV-Quote zu beobachten.",
+		"erlaeuterungen": "IV-Bezügerinnen und IV-Bezüger: Personen, die wegen Geburtsgebrechen, Krankheit oder Unfall eine Invalidenversicherungsrente beziehen. Stichtag der Erhebung ist der 31. Dezember des jeweiligen Jahres. IV-Quote: Anteil der Invaliden an der Wohnbevölkerung im erwerbsfähigen Alter. Bei den Frauen gelten die 18- bis 63-Jährigen und bei den Männern die 18- bis 64-Jährigen als Personen im erwerbsfähigen Alter.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Bundesamt für Sozialversicherungen"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 6432,
-		"chart-id": 6432,
-		"filter": "",
+		"description": "IV-Quote nach Staatsangehörigkeit und Alter",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialversicherungen",
+		"kuerzel": "I.13.1.6432",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C5-3",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_503",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-07-27T08:52:34",
 		"id": 6432
 	},
 	{
@@ -73837,7 +73831,6 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen ab 65 Jahre, Basel-Stadt, nach Kalenderwoche",
 		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 14 des Jahres 2020 insgesamt 26 Personen ab 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 25 Personen ab 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
 		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
@@ -73849,6 +73842,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"thema": "14 Gesundheit",
 		"unterthema": "Sterblichkeit",
 		"kuerzel": "I.14.3.09022",
@@ -73864,47 +73858,45 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-16T10:07:11",
+		"aktualisierungsdatum": "2021-07-27T08:52:33",
 		"id": 9022
 	},
 	{
+		"template": "line001",
+		"data-id": 9023,
+		"chart-id": 9023,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Kumulierte Todesfälle und wöchentliche Veränderung",
 		"subtitle": "Personen unter 65 Jahre, Basel-Stadt, nach Kalenderwoche",
-		"kennzahlenset": "",
-		"kuerzel": "I.14.3.09023",
-		"kuerzelKunde": "",
-		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
+		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 24 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
+		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:09.099",
+		"description": "Kumulierte Todesfälle und wöchentliche Veränderung",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kuerzel": "I.14.3.09023",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Balken zeigen die Abweichung der wöchentlich gemeldeten Todesfälle vom jeweilig erwarteten Wert. So sind in der Kalenderwoche 17 des Jahres 2020 insgesamt 4 Personen unter 65 Jahren mehr verstorben, als man statistisch erwarten würde. Die Linien geben die über die Kalenderwochen kumulierten Abweichungen wieder. So sind im Jahr 2019 bis einschliesslich Kalenderwoche 52 insgesamt 24 Personen unter 65 Jahren weniger verstorben, als man statistisch erwarten würde.",
-		"erlaeuterungen": "Dieser Indikator wird wöchentlich aktualisiert. Da die Todesfälle oftmals verzögert gemeldet werden, dürfte die tatsächliche Anzahl an Todesfällen der unmittelbar zurückliegenden Kalenderwochen höher liegen. Entsprechend können sich auch die Werte der Vorwochen bei Aktualisierungen jeweils leicht ändern.<br>Die geschätzte Abweichung der Todesfälle errechnet sich aus der Differenz der gemeldeten Todesfälle und deren Erwartungswert pro Kalenderwoche. Die Schätzung der erwarteten Todesfälle erfolgt mittels einer vom Bundesamt für Statistik entwickelten Methode, welche saisonale Schwankungen sowie die Altersstruktur der Bevölkerung und zeitliche Trends berücksichtigt. Die Schätzung erfolgt in drei Schritten: 1) Schätzung der erwarteten Todesfälle nach Jahr und Altersklasse, um sie von möglichen zeitlichen und demografischen Trends zu bereinigen; 2) Berechnung des Medians der Todesfälle nach Kalenderwoche, um die saisonale Schwankung der Todesfälle abzubilden; 3) Adjustierung der so errechneten Wochenwerte um einen im ersten Schritt geschätzten jahresabhängigen Korrekturfaktor, um eine Vorhersage für die Kalenderwoche eines bestimmten Jahres und einer bestimmten Altersklasse zu erhalten.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9023,
-		"chart-id": 9023,
-		"filter": "",
+		"aktualisierungsdatum": "2021-07-27T08:52:33",
 		"id": 9023
 	},
 	{
