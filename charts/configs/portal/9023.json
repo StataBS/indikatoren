@@ -4867,63 +4867,63 @@
         ],
         [
           11,
-          -2
+          -1
         ],
         [
           12,
-          -3
+          -2
         ],
         [
           13,
-          -5
-        ],
-        [
-          14,
-          -7
-        ],
-        [
-          15,
-          -6
-        ],
-        [
-          16,
           -4
         ],
         [
+          14,
+          -5
+        ],
+        [
+          15,
+          -4
+        ],
+        [
+          16,
+          -1
+        ],
+        [
           17,
-          -7
+          -4
         ],
         [
           18,
-          -11
+          -8
         ],
         [
           19,
-          -10
+          -7
         ],
         [
           20,
-          -13
+          -10
         ],
         [
           21,
-          -16
+          -13
         ],
         [
           22,
-          -16
+          -13
         ],
         [
           23,
-          null
+          -11
         ],
         [
           24,
-          null
+          -12
         ],
         [
           25,
-          null
+          -16
         ],
         [
           26,
@@ -5087,7 +5087,7 @@
         ],
         [
           11,
-          -3
+          -2
         ],
         [
           12,
@@ -5099,7 +5099,7 @@
         ],
         [
           14,
-          -2
+          -1
         ],
         [
           15,
@@ -5107,7 +5107,7 @@
         ],
         [
           16,
-          2
+          3
         ],
         [
           17,
@@ -5135,15 +5135,15 @@
         ],
         [
           23,
-          null
+          2
         ],
         [
           24,
-          null
+          -2
         ],
         [
           25,
-          null
+          -4
         ],
         [
           26,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
