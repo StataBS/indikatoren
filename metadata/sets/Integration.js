@@ -1903,85 +1903,81 @@ var indikatorensetData = [
 		"id": 6411
 	},
 	{
-		"title": "Anzahl monatlich ausgesteuerte Schweizer",
-		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"kuerzel": "I.03.4.6412",
-		"kuerzelKunde": "C1-3",
-		"description": "Anzahl monatlich ausgesteuerte Schweizer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-04T16:04:39.3939",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden insgesamt 227 Schweizer Frauen und 270 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat 41 Schweizer Staatsangehörige.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_103",
-		"parentId": null,
-		"children": [
-			"6688"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6412,
 		"chart-id": 6412,
 		"filter": "",
-		"id": 6412
-	},
-	{
-		"title": "Anzahl monatlich ausgesteuerte Ausländer",
+		"parentId": null,
+		"children": [
+			6688
+		],
+		"title": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"kuerzel": "I.03.4.6413",
-		"kuerzelKunde": "C1-4",
-		"description": "Anzahl monatlich ausgesteuerte Ausländer",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2020 91 Schweizer Frauen und 102 Schweizer Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-14T17:54:04.044",
+		"description": "Anzahl monatlich ausgesteuerte Schweizer Staatsangehörige",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.6412",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C1-3",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden insgesamt 276 ausländische Frauen und 381 ausländische Männer von der Arbeitslosenversicherung ausgesteuert. Im Schnitt waren das pro Monat rund 55 ausländische Staatsangehörige.",
-		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_103",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_104",
-		"parentId": null,
-		"children": [
-			"6689"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-07-28T08:29:45",
+		"id": 6412
+	},
+	{
+		"template": "line001",
 		"data-id": 6413,
 		"chart-id": 6413,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6689
+		],
+		"title": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
+		"subtitle": "nach Geschlecht, Basel-Stadt",
+		"lesehilfe": "Aufgrund der Massnahmen zur Abfederung der Folgen der COVID-19-Pandemie wurden zwischen März und Juli 2020 keine Arbeitslosen ausgesteuert. Insgesamt wurden im Jahr 2020 125 ausländische Frauen und 180 ausländische Männer von der Arbeitslosenversicherung ausgesteuert.",
+		"erlaeuterungen": "Ausgesteuerte sind Personen, die von der Arbeitslosenversicherung kein Taggeld mehr bekommen, weil sie die Höchstzahl der ihnen zustehenden Taggelder bezogen haben. Im März 2011 sind aufgrund der Revision des Arbeitslosenversicherungsgesetzes 506 Personen ausgesteuert worden.",
+		"quellenangabe": [
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl monatlich ausgesteuerte ausländische Staatsangehörige",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.6413",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C1-4",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_104",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-07-28T08:29:46",
 		"id": 6413
 	},
 	{
