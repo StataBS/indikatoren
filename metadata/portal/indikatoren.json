@@ -27383,83 +27383,79 @@
 		"id": 7515
 	},
 	{
-		"parentId": null,
-		"children": [],
 		"template": "line001",
-		"title": "Logiernächte nach Monat und Herkunft",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "I.10.1.07516",
-		"kuerzelKunde": "",
-		"description": "Logiernächte nach Monat und Herkunft",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-17T06:56:56.5656",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "60 299 Logiernächte wurden im Mai 2021 in den Basler Hotelbetrieben gebucht, 1 621 bzw. 2,8% mehr als im April. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 269% bzw. 43 936 Übernachtungen. Die inländischen Gäste buchten 42 744 Logiernächte (+263%), die Gäste aus dem Ausland 17 555 Übernachtungen (+284%).",
-		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7516,
 		"chart-id": 7516,
 		"filter": "",
-		"id": 7516
-	},
-	{
 		"parentId": null,
 		"children": [],
-		"template": "template001",
-		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Mai",
-		"kennzahlenset": "Monatsindikatoren",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Auslastung der Hotels nach Kategorie",
-		"thema": "50 Befragungen",
-		"unterthema": "Hotellerie",
+		"title": "Logiernächte nach Monat und Herkunft",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "53 919 Logiernächte wurden im Juni 2021 in den Basler Hotelbetrieben gebucht, 6 380 bzw. 10,6% weniger als im Mai. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 78,6% bzw. 23 729 Übernachtungen. Die inländischen Gäste buchten 30 615 Logiernächte (+62,3%), die Gäste aus dem Ausland 23 304 Übernachtungen (+105,7%).",
+		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-17T06:56:57.5757",
+		"description": "Logiernächte nach Monat und Herkunft",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.07516",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35%.",
-		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
+		"orderKey": "_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-07-29T08:25:33",
+		"id": 7516
+	},
+	{
+		"template": "template001",
 		"data-id": 7517,
 		"chart-id": 7517,
 		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Auslastung der Hotels nach Kategorie",
+		"subtitle": "Basel-Stadt, Juni",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35%.",
+		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Auslastung der Hotels nach Kategorie",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "",
+		"kennzahlenset": "Monatsindikatoren",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-07-29T08:25:34",
 		"id": 7517
 	},
 	{
@@ -40004,7 +40000,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-22T08:43:06",
+		"aktualisierungsdatum": "2021-07-29T08:25:34",
 		"id": 8995
 	},
 	{
@@ -40429,7 +40425,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-27T08:52:33",
+		"aktualisierungsdatum": "2021-07-29T08:25:34",
 		"id": 9022
 	},
 	{
@@ -40467,7 +40463,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-27T08:52:33",
+		"aktualisierungsdatum": "2021-07-29T08:25:35",
 		"id": 9023
 	},
 	{
