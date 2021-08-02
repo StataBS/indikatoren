@@ -7,11 +7,11 @@
       "data": [
         [
           "Wegpendler",
-          6400
+          6419
         ],
         [
           "Zupendler",
-          13654
+          13213
         ]
       ],
       "name": "Solothurn",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Wegpendler",
-          9116
+          9354
         ],
         [
           "Zupendler",
-          16309
+          16008
         ]
       ],
       "name": "Aargau",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Wegpendler",
-          5389
+          5482
         ],
         [
           "Zupendler",
-          3820
+          3693
         ]
       ],
       "name": "Bern",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Wegpendler",
-          4654
+          4652
         ],
         [
           "Zupendler",
-          2974
+          2921
         ]
       ],
       "name": "Zürich",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Wegpendler",
-          3445
+          3153
         ],
         [
           "Zupendler",
-          4129
+          3571
         ]
       ],
       "name": "Andere",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Wegpendler",
-          847
+          767
         ],
         [
           "Zupendler",
-          62560
+          64468
         ]
       ],
       "name": "Ausland",
@@ -182,7 +182,7 @@
     "text": "Arbeitspendler BS\u002FBL\u002FJU"
   },
   "subtitle": {
-    "text": "Pooling 2013-2017",
+    "text": "Pooling 2015-2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -241,12 +241,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8366
+    "filename": "8366"
   }
 }

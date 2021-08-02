@@ -84,7 +84,7 @@
         ],
         [
           "Jul",
-          null
+          100.9
         ],
         [
           "Aug",
@@ -237,7 +237,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -410,44 +410,42 @@ var indikatorensetData = [
 		"id": 8359
 	},
 	{
+		"template": "template001",
+		"data-id": 8360,
+		"chart-id": 8360,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8477
+		],
 		"title": "Entwicklung Erwerbstätige",
 		"subtitle": "",
-		"kuerzel": "I.03.1.08360",
-		"kuerzelKunde": "2.1-3",
-		"description": "Entwicklung Erwerbstätige",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2019 rund 138 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 95 000 Erwerbstätige. Zusammen mit den rund 34 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 267 000 Personen erwerbstätig.",
+		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:25.2525",
+		"description": "Entwicklung Erwerbstätige",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.08360",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-3",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Landschaft waren im Jahr 2018 rund 143 000 Einwohner erwerbstätig. Der Kanton Basel-Stadt verzeichnete im gleichen Jahr rund 94 000 Erwerbstätige. Zusammen mit den rund 35 000 Erwerbstätigen im Kanton Jura waren in den drei Kantonen insgesamt etwa 272 000 Personen erwerbstätig.",
-		"erlaeuterungen": "Seit 2010 stammen die Daten zu den Erwerbstätigen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8477"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8360,
-		"chart-id": 8360,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-02T08:32:47",
 		"id": 8360
 	},
 	{
@@ -533,44 +531,42 @@ var indikatorensetData = [
 		"id": 8362
 	},
 	{
+		"template": "template001",
+		"data-id": 8363,
+		"chart-id": 8363,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8480
+		],
 		"title": "Arbeitspendler Basel-Stadt",
-		"subtitle": "Pooling 2013-2017",
-		"kuerzel": "I.11.5.08363",
-		"kuerzelKunde": "2.1-9",
-		"description": "Arbeitspendler Basel-Stadt",
-		"thema": "11 Verkehr",
-		"unterthema": "Pendler",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "Pooling 2015-2019",
+		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 pendelten fast 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 42 600) oder aus dem Ausland (rund 35 000), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Fast 25 000 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, rund 15 300 von ihnen in Basel-Landschaft.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:27.2727",
+		"description": "Arbeitspendler Basel-Stadt",
+		"thema": "11 Verkehr",
+		"unterthema": "Pendler",
+		"kuerzel": "I.11.5.08363",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-9",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2013 bis 2017 pendelten fast 100 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen. Die meisten von ihnen kommen aus Basel-Landschaft (ca. 44 100) oder aus dem Ausland (rund 34 900), vornehmlich aus Frankreich und Deutschland. Andere Schweizer Kantone spielen eine kleinere Rolle. Über 25 000 Personen aus Basel-Stadt arbeiten in anderen Kantonen oder im Ausland, über 15 100 von ihnen in Basel-Landschaft.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"8480"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8363,
-		"chart-id": 8363,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-02T08:32:48",
 		"id": 8363
 	},
 	{
@@ -656,85 +652,81 @@ var indikatorensetData = [
 		"id": 8365
 	},
 	{
-		"title": "Arbeitspendler BS/BL/JU",
-		"subtitle": "Pooling 2013-2017",
-		"kuerzel": "I.11.5.08366",
-		"kuerzelKunde": "2.1-12",
-		"description": "Arbeitspendler BS/BL/JU",
-		"thema": "11 Verkehr",
-		"unterthema": "Pendler",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:28.2828",
-		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.1 Arbeitsmarkt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2013 bis 2017 insgesamt rund 29 900 Personen zur Arbeit aus diesem Gebiet weg, über 103 400 kommen von auswärts an ihren Arbeitsplatz. Mit über 9 100 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendlern kommt die grosse Mehrheit mit rund 62 600 Arbeitskräften aus dem Ausland.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_01_00_00_00_012",
-		"parentId": null,
-		"children": [
-			"8483"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8366,
 		"chart-id": 8366,
 		"filter": "",
-		"id": 8366
-	},
-	{
-		"title": "Arbeitspendler",
-		"subtitle": "Pooling 2013-2017",
-		"kuerzel": "I.11.5.08367",
-		"kuerzelKunde": "2.1-8",
-		"description": "Arbeitspendler",
-		"thema": "11 Verkehr",
-		"unterthema": "Pendler",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"parentId": null,
+		"children": [
+			8483
+		],
+		"title": "Arbeitspendler BS/BL/JU",
+		"subtitle": "Pooling 2015-2019",
+		"lesehilfe": "Fasst man die drei Kantone Basel-Stadt, Basel-Landschaft und Jura zusammen, so pendeln im Mittel der Jahre 2015 bis 2019 insgesamt rund 29 800 Personen zur Arbeit aus diesem Gebiet weg, fast 103 900 kommen von auswärts an ihren Arbeitsplatz. Mit über 9 400 Personen pendelt die grösste Gruppe in den Aargau. Bei den Zupendlern kommt die grosse Mehrheit mit rund 64 500 Arbeitskräften aus dem Ausland.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:28.2828",
+		"description": "Arbeitspendler BS/BL/JU",
+		"thema": "11 Verkehr",
+		"unterthema": "Pendler",
+		"kuerzel": "I.11.5.08366",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-12",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2013 bis 2017 ist für Basel-Stadt (+74 700) und Jura (+4 300) positiv, für Basel-Landschaft (-5 500) negativ. Werden die drei Kantone zusammen betrachtet, gibt es 73 600 mehr Zu- als Wegpendler.",
-		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2013 bis 2017, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2013 bis 2017 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"8484"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-02T08:32:47",
+		"id": 8366
+	},
+	{
+		"template": "template001",
 		"data-id": 8367,
 		"chart-id": 8367,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8484
+		],
+		"title": "Arbeitspendler",
+		"subtitle": "Pooling 2015-2019",
+		"lesehilfe": "Der durchschnittliche jährliche Saldo aus Zu- und Wegpendlern der Jahre 2015 bis 2019 ist für Basel-Stadt (+72 500) und Jura (+5 100) positiv, für Basel-Landschaft (-3 600) negativ. Werden die drei Kantone zusammen betrachtet, gibt es rund 74 000 mehr Zu- als Wegpendler.",
+		"erlaeuterungen": "Zupendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von einer Wohnadresse in einem anderen Kanton zu ihrem Arbeitsplatz pendeln. Die Zupendler aus dem Ausland stammen aus der Grenzgängerstatistik des Bundesamtes für Statistik (Durchschnitt der Jahre 2015 bis 2019, jeweils 4. Quartal). Erwerbstätige ohne Angabe des Ortes, wo ihr Arbeitsweg beginnt, sind nicht enthalten.<br>Wegpendler: Erwerbstätige, die mindestens eine Stunde in der Woche arbeiten und von ihrer Wohnadresse zu einem Arbeitsplatz in einem anderen Kanton oder Land pendeln. Wegpendler mit unbekanntem Arbeitsort sind nicht enthalten.<br>Pooling: Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet. Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Arbeitspendler",
+		"thema": "11 Verkehr",
+		"unterthema": "Pendler",
+		"kuerzel": "I.11.5.08367",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-8",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.1 Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-02T08:32:47",
 		"id": 8367
 	},
 	{
@@ -944,44 +936,42 @@ var indikatorensetData = [
 		"id": 8372
 	},
 	{
+		"template": "template001",
+		"data-id": 8373,
+		"chart-id": 8373,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8490
+		],
 		"title": "Entwicklung Anzahl Logiernächte",
 		"subtitle": "",
-		"kuerzel": "",
-		"kuerzelKunde": "5-1",
-		"description": "Entwicklung Anzahl Logiernächte",
-		"thema": "10 Tourismus",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2019 zusammen mehr als 1,8 Mio. Logiernächte verzeichnet. 2020 wurde ein Rückgang um 1,0 Mio bzw. mehr als 50% auf knapp 800 000 Übernachtungen registriert. Der grösste Teil fiel mit 0,5 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 150 000, im Jura 95 000 Logiernächte gebucht.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:31.3131",
+		"description": "Entwicklung Anzahl Logiernächte",
+		"thema": "10 Tourismus",
+		"unterthema": "",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-1",
 		"stufe1": "5. Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 1,8 Mio. Logiernächte verzeichnet. Der grösste Teil fiel mit fast 1,4 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 285 000, im Jura knapp 102 000 Logiernächte gebucht. Während in Basel-Stadt die Übernachtungszahl seit 2014 stark zunahm, ging sie in den beiden anderen Kantonen etwas zurück.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten. Es gibt im Jura nach Auskunft des Kantons mehr als 2,5-mal so viele Logiernächte aus dem Bereich der Parahotellerie als aus den der Auswertung zugrundeliegenden Betrieben.",
-		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung. Laut Informationen des Kanton Jura sind die Übernachtungszahlen in der Parahotellerie dort stark gestiegen. So resultierte insgesamt ein Anstieg der Übernachtungszahlen im Jura zwischen 2014 und 2018 um 10,8% (statt eines Rückgangs um 3,6%).",
-		"template": "template001",
+		"orderKey": "05_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8490"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8373,
-		"chart-id": 8373,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-02T08:32:48",
 		"id": 8373
 	},
 	{
