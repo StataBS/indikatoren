@@ -11,68 +11,6 @@
       "data": [
         [
           "Basel-Stadt",
-          94249
-        ],
-        [
-          "Basel-Landschaft",
-          141157
-        ],
-        [
-          "Jura",
-          34756
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          270162
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "index": 1,
-      "type": "errorbar",
-      "tooltip": {
-        "pointFormatter": function () {
-            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
-          }
-      },
-      "data": [
-        {
-          "name": "Basel-Stadt",
-          "low": 91911,
-          "high": 96588
-        },
-        {
-          "name": "Basel-Landschaft",
-          "low": 138479,
-          "high": 143835
-        },
-        {
-          "name": "Jura",
-          "low": 33819,
-          "high": 35693
-        },
-        {
-          "name": "BS\u002FBL\u002FJU",
-          "low": 266486,
-          "high": 273838
-        }
-      ],
-      "name": "95% Konfidenzintervall Untergrenze",
-      "turboThreshold": 0
-    },
-    {
-      "index": 2,
-      "color": "#0F7399",
-      "tooltip": {
-        "pointFormatter": function () {
-            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
-          }
-      },
-      "data": [
-        [
-          "Basel-Stadt",
           94986
         ],
         [
@@ -92,7 +30,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 3,
+      "index": 1,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -125,8 +63,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 4,
-      "color": "#689199",
+      "index": 2,
+      "color": "#0F7399",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -154,7 +92,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 5,
+      "index": 3,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -187,8 +125,8 @@
       "turboThreshold": 0
     },
     {
-      "index": 6,
-      "color": "#A8C3CA",
+      "index": 4,
+      "color": "#689199",
       "tooltip": {
         "pointFormatter": function () {
             return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
@@ -216,7 +154,7 @@
       "turboThreshold": 0
     },
     {
-      "index": 7,
+      "index": 5,
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function () {
@@ -249,6 +187,68 @@
       "turboThreshold": 0
     },
     {
+      "index": 6,
+      "color": "#A8C3CA",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
+      "data": [
+        [
+          "Basel-Stadt",
+          92726
+        ],
+        [
+          "Basel-Landschaft",
+          141301
+        ],
+        [
+          "Jura",
+          34883
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          268910
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "index": 7,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function () {
+            return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((this.low), 0) + '</b> - <b>' + Highcharts.numberFormat((this.high), 0) + '</b>)<br/>';
+          }
+      },
+      "data": [
+        {
+          "name": "Basel-Stadt",
+          "low": 90326,
+          "high": 95125
+        },
+        {
+          "name": "Basel-Landschaft",
+          "low": 138487,
+          "high": 144115
+        },
+        {
+          "name": "Jura",
+          "low": 33536,
+          "high": 36230
+        },
+        {
+          "name": "BS\u002FBL\u002FJU",
+          "low": 264974,
+          "high": 272845
+        }
+      ],
+      "name": "95% Konfidenzintervall Untergrenze",
+      "turboThreshold": 0
+    },
+    {
       "index": 8,
       "color": "#D3E2E4",
       "tooltip": {
@@ -259,22 +259,22 @@
       "data": [
         [
           "Basel-Stadt",
-          94437
+          95186
         ],
         [
           "Basel-Landschaft",
-          142808
+          138470
         ],
         [
           "Jura",
-          35181
+          33773
         ],
         [
           "BS\u002FBL\u002FJU",
-          272426
+          267429
         ]
       ],
-      "name": "2018",
+      "name": "2019",
       "turboThreshold": 0
     },
     {
@@ -288,23 +288,23 @@
       "data": [
         {
           "name": "Basel-Stadt",
-          "low": 92012,
-          "high": 96863
+          "low": 92805,
+          "high": 97567
         },
         {
           "name": "Basel-Landschaft",
-          "low": 139973,
-          "high": 145643
+          "low": 135693,
+          "high": 141247
         },
         {
           "name": "Jura",
-          "low": 33826,
-          "high": 36536
+          "low": 32355,
+          "high": 35191
         },
         {
           "name": "BS\u002FBL\u002FJU",
-          "low": 268456,
-          "high": 276396
+          "low": 263506,
+          "high": 271352
         }
       ],
       "name": "95% Konfidenzintervall Untergrenze",
@@ -447,13 +447,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
   },
   "tooltip": {
     "shared": true
   },
   "exporting": {
     "allowHTML": true,
-    "filename": 8360
+    "filename": "8360"
   }
 }
