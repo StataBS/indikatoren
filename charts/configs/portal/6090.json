@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          19202.750757
+          18703.630654
         ],
         [
           "Deutschland",
-          743.8507834
+          731.08265388
         ],
         [
           "Italien",
-          3024.7293105
+          3070.6085135
         ],
         [
           "Türkei",
-          3493.0139283
+          3372.30372
         ],
         [
-          "EU-17 + EFTA",
-          3525.4665771
+          "EU-West + EFTA + UK",
+          3537.0675737
         ],
         [
           "EU-Ost",
-          346.20317154
+          579.88440684
         ],
         [
           "Balkan",
-          3470.7682394
+          3123.2769154
         ],
         [
           "Mittel- und Südamerika",
-          430.16013845
+          480.74076736
         ],
         [
           "Arabische Länder",
-          392.83376375
+          455.8493281
         ],
         [
           "Afrikanische Länder",
-          703.15075611
+          754.01634704
         ],
         [
           "Übrige Länder",
-          1425.0801472
+          1407.8649076
         ]
       ],
       "name": "Sekundarstufe I",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          48058.731863
+          47538.839971
         ],
         [
           "Deutschland",
-          3292.2746548
+          3286.8833732
         ],
         [
           "Italien",
-          2185.3874594
+          2164.0253145
         ],
         [
           "Türkei",
-          952.41296008
+          1069.3753955
         ],
         [
-          "EU-17 + EFTA",
-          2215.4138841
+          "EU-West + EFTA + UK",
+          2243.7907466
         ],
         [
           "EU-Ost",
-          894.03592789
+          1357.2075715
         ],
         [
           "Balkan",
-          2362.0783483
+          2075.6996646
         ],
         [
           "Mittel- und Südamerika",
-          349.39228069
+          383.1474573
         ],
         [
           "Arabische Länder",
-          248.38642521
+          272.28823937
         ],
         [
           "Afrikanische Länder",
-          256.55565826
+          280.0319892
         ],
         [
           "Übrige Länder",
-          792.64930604
+          852.6336856
         ]
       ],
       "name": "Sekundarstufe II",
@@ -113,47 +113,47 @@
       "data": [
         [
           "Schweiz",
-          38145.11738
+          38766.529375
         ],
         [
           "Deutschland",
-          9636.0579784
+          9560.0491418
         ],
         [
           "Italien",
-          1921.5832309
+          1989.3666756
         ],
         [
           "Türkei",
-          719.98866156
+          680.59701825
         ],
         [
-          "EU-17 + EFTA",
-          6273.4340371
+          "EU-West + EFTA + UK",
+          6489.7915446
         ],
         [
           "EU-Ost",
-          1715.0587168
+          2063.4424843
         ],
         [
           "Balkan",
-          881.69019433
+          733.59750538
         ],
         [
           "Mittel- und Südamerika",
-          565.66540058
+          519.94493459
         ],
         [
           "Arabische Länder",
-          298.43372863
+          310.10913131
         ],
         [
           "Afrikanische Länder",
-          248.49048472
+          263.52404169
         ],
         [
           "Übrige Länder",
-          3583.3538465
+          3589.7989518
         ]
       ],
       "name": "Tertiärstufe",
@@ -235,7 +235,7 @@
     },
     "align": "left",
     "useHTML": true,
-    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2014 bis 2018"
+    "text": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2015 bis 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -292,7 +292,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-9"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
   },
   "legend": {
     "layout": "horizontal",

@@ -7,47 +7,47 @@
       "data": [
         [
           "Schweiz",
-          98328.836465
+          97942.600852
         ],
         [
           "Deutschland",
-          13569.85726
+          13421.690499
         ],
         [
           "Italien",
-          2460.330491
+          2343.192062
         ],
         [
           "Türkei",
-          2108.551491
+          2141.90032
         ],
         [
-          "EU-17 + EFTA",
-          3583.86128
+          "EU-West + EFTA + UK",
+          3675.106542
         ],
         [
           "EU-Ost",
-          974.562389
+          1447.046349
         ],
         [
           "Balkan",
-          3019.383249
+          2614.251986
         ],
         [
           "Mittel- und Südamerika",
-          362.636451
+          307.1369
         ],
         [
           "Arabische Länder",
-          335.414839
+          411.690143
         ],
         [
           "Afrikanische Länder",
-          383.627886
+          416.313813
         ],
         [
           "Übrige Länder",
-          1265.136156
+          1282.02923
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -60,47 +60,47 @@
       "data": [
         [
           "Schweiz",
-          7077.763535
+          7066.399148
         ],
         [
           "Deutschland",
-          102.326157
+          156.324669
         ],
         [
           "Italien",
-          4671.36951
+          4880.808442
         ],
         [
           "Türkei",
-          3056.864059
+          2980.375813
         ],
         [
-          "EU-17 + EFTA",
-          8430.453219
+          "EU-West + EFTA + UK",
+          8595.543323
         ],
         [
           "EU-Ost",
-          1980.735427
+          2553.488114
         ],
         [
           "Balkan",
-          3695.153533
+          3318.322099
         ],
         [
           "Mittel- und Südamerika",
-          982.581368
+          1076.696259
         ],
         [
           "Arabische Länder",
-          604.239079
+          626.556556
         ],
         [
           "Afrikanische Länder",
-          824.569013
+          881.258565
         ],
         [
           "Übrige Länder",
-          4535.947144
+          4568.268315
         ]
       ],
       "name": "Kein Deutsch",
@@ -181,7 +181,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2014 bis 2018"
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2015 bis 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
   },
   "legend": {
     "layout": "horizontal",

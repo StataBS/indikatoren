@@ -4,27 +4,27 @@
       "index": 1,
       "data": [
         [
-          "Basel-Stadt",
-          0.177688175
+          "BS",
+          0.180473484
         ],
         [
-          "Basel-Landschaft",
-          0.149608189
+          "BL",
+          0.153281482
         ],
         [
-          "Jura",
-          0.201483001
+          "JU",
+          0.200118101
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.169416052
+          0.172081317
         ],
         [
-          "Schweiz",
-          0.063482395
+          "CH",
+          0.065487895
         ]
       ],
-      "name": "2019Q4",
+      "name": "2020 Q4",
       "turboThreshold": 0
     },
     {
@@ -110,7 +110,7 @@
     "text": "Anteil Grenzgänger an der Beschäftigung"
   },
   "subtitle": {
-    "text": "2019, 4. Quartal",
+    "text": "2020, 4. Quartal",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -175,7 +175,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -225,6 +225,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 8863
+    "filename": "8863"
   }
 }

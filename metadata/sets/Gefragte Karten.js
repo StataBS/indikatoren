@@ -805,45 +805,43 @@ var indikatorensetData = [
 		"id": 6391
 	},
 	{
-		"parentId": 6380,
-		"children": [
-			"8241",
-			"8512"
-		],
 		"template": "mappie001",
+		"data-id": 6392,
+		"chart-id": 6392,
+		"filter": "",
+		"parentId": "6380",
+		"children": [
+			8241,
+			8512
+		],
 		"title": "Sozialhilfequote und Sozialhilfebeziehende",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.13.3.06392",
-		"kuerzelKunde": "K13-1",
-		"description": "Sozialhilfequote und Sozialhilfebeziehende",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,3% auf. In Bettingen (1,5%) und im Wohnviertel Bruderholz (1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,6% respektive 11,5% die Wohnviertel mit der höchsten Sozialhilfequote.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-20T08:05:30.3030",
+		"description": "Sozialhilfequote und Sozialhilfebeziehende",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.06392",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K13-1",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die tiefste Sozialhilfequote im Kanton Basel-Stadt weist die Altstadt Grossbasel mit 1,3% auf. In Bettingen (1,5%) und im Wohnviertel Bruderholz (1,9%) liegt sie ebenfalls unter 2%. Klybeck und Kleinhüningen sind mit 12,6% respektive 11,5% die Wohnviertel mit der höchsten Sozialhilfequote.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE/NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"orderKey": "01_00_00_00_00_010",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_010",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6392,
-		"chart-id": 6392,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-03T08:09:43",
 		"id": 6392
 	},
 	{

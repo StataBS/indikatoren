@@ -1,6 +1,7 @@
-﻿Branche	Primärer Sektor	Chemie, Pharma	Investitionsgüter	Baugewerbe	Sonstige Industrie	Handel, Reparatur	Verkehr, Lagerei	Gastgewerbe	Finanz-, Versicherungs-DL	Freib., wiss., tech. DL	Öff. Verwaltung, Bildung	Gesundheits-, Sozialwesen	Sonstige DL
-BS	18	28	118	809	540	2014	661	825	496	3338	999	2539	4708
-BL	970	58	432	1742	917	2682	599	651	427	2714	1353	2636	4444
-JU	1081	14	338	481	376	841	157	323	111	515	375	556	1220
-BS/BL/JU	2069	100	888	3032	1833	5537	1417	1799	1034	6567	2727	5731	10372
-CH	54193	1058	13505	50113	31144	93632	18259	32576	20989	100363	41748	75984	150603
+﻿""	"Primärer Sektor"	"Chemie, Pharma"	"Investitionsgüter"	"Baugewerbe"	"Sonstige Industrie"	"Handel, Reparatur"	"Verkehr, Lagerei"	"Gastgewerbe"	"Finanz-, Versicherungs-DL"	"Freib., wiss., tech. DL"	"Öff. Verwaltung, Bildung"	"Gesundheits-, Sozialwesen"	"Sonstige DL"	"Total"
+"BS"	21	33	117	795	521	1887	646	812	470	3390	995	2546	4691	16924
+"BL"	980	58	435	1763	902	2651	596	652	404	2744	1359	2656	4464	19664
+"JU"	1080	14	343	484	371	817	155	316	111	531	374	580	1241	6417
+"BS/BL/JU"	2081	105	895	3042	1794	5355	1397	1780	985	6665	2728	5782	10396	43005
+"CH"	53457	1088	13343	50326	30930	92055	18248	32500	20841	101367	42776	77587	152504	687022
+
