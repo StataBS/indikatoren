@@ -1265,171 +1265,163 @@ var indikatorensetData = [
 		"id": 8437
 	},
 	{
-		"title": "Beschäftigte nach Branche",
-		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1.3-4",
-		"description": "Beschäftigte nach Branche",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:34.3434",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.3 Unternehmen und Beschäftigte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt sind über 80% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (57%). Im Industriesektor ist für Basel insbesondere die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 36% der Beschäftigten (verglichen mit 26% in BL bzw. 19% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
-		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_03_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8498"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8438,
 		"chart-id": 8438,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8498
+		],
+		"title": "Beschäftigte nach Branche",
+		"subtitle": "2018",
+		"lesehilfe": "In Basel-Stadt sind über 80% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (71%) oder im Jura (56%). Im Industriesektor ist für Basel insbesondere die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 27% in BL bzw. 19% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
+		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Beschäftigte nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08438",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3-4",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_03_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-03T08:09:36",
 		"id": 8438
 	},
 	{
-		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1.3-3",
-		"description": "Arbeitsstätten nach Branche",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:35.3535",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.3 Unternehmen und Beschäftigte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Über 90% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 64%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in der Stadt die Landwirtschaft keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
-		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_03_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8499"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8439,
 		"chart-id": 8439,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8499
+		],
+		"title": "Arbeitsstätten nach Branche",
+		"subtitle": "2018",
+		"lesehilfe": "Über 90% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 64%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in der Stadt die Landwirtschaft keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Arbeitsstätten nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08439",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3-3",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_03_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-03T08:09:36",
 		"id": 8439
 	},
 	{
-		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"subtitle": "2017",
-		"kuerzel": "",
-		"kuerzelKunde": "1.3-5",
-		"description": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:35.3535",
-		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
-		"stufe2": "1.3 Unternehmen und Beschäftigte",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnitt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
-		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_03_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8500"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8440,
 		"chart-id": 8440,
 		"filter": "",
-		"id": 8440
-	},
-	{
-		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2017 gegenüber 2014",
-		"kuerzel": "",
-		"kuerzelKunde": "1.3-7",
-		"description": "Veränderung der Beschäftigtenzahl",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"parentId": null,
+		"children": [
+			8500
+		],
+		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
+		"subtitle": "2018",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnitt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:35.3535",
+		"description": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08440",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3-5",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2014 und 2017 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 0,4% gewachsen und damit weniger stark als in der Gesamtschweiz (+2,7%). Während im Baselbiet und im Jura ein Beschäftigungswachstum von je etwas mehr als einem Prozent verzeichnet wurde, hat sich die Zahl der Beschäftigten in Basel-Stadt über den betrachteten Zeitraum leicht reduziert (-0,3%).",
-		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
-		"template": "template001",
+		"orderKey": "01_03_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_03_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8501"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-03T08:09:37",
+		"id": 8440
+	},
+	{
+		"template": "template001",
 		"data-id": 8441,
 		"chart-id": 8441,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8501
+		],
+		"title": "Veränderung der Beschäftigtenzahl",
+		"subtitle": "2018 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2018 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,0%). Während im Baselbiet und im Jura ein Beschäftigungswachstum von 2,3% bzw. 3,8% verzeichnet wurde, hat sich die Zahl der Beschäftigten in Basel-Stadt über den betrachteten Zeitraum leicht reduziert (-0,4%).",
+		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Veränderung der Beschäftigtenzahl",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08441",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3-7",
+		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
+		"stufe2": "1.3 Unternehmen und Beschäftigte",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_03_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-03T08:09:37",
 		"id": 8441
 	},
 	{
@@ -1602,87 +1594,83 @@ var indikatorensetData = [
 		"id": 8445
 	},
 	{
-		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
-		"subtitle": "",
-		"kuerzel": "I.03.1.08446",
-		"kuerzelKunde": "2.1-1",
-		"description": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"raeumlicheGliederung": [
-			"Kanton",
-			"Schweiz"
-		],
-		"aktualisierungsdatum": "2020-07-07T09:09:38.3838",
-		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
-		"stufe2": "2.1 Arbeitsmarkt",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2018 bei 68,3%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 65,5% und 71,2%. Im Kanton Basel-Landschaft liegt die Quote bei 76,3% und im Kanton Jura bei 73,5%. Der Wert für die Schweiz beträgt 75,8%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_01_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8506"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8446,
 		"chart-id": 8446,
 		"filter": "",
-		"id": 8446
-	},
-	{
-		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
+		"parentId": null,
+		"children": [
+			8506
+		],
+		"title": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
 		"subtitle": "",
-		"kuerzel": "I.03.1.08447",
-		"kuerzelKunde": "2.1-2",
-		"description": "Entwicklung Nettoerwerbstätigenquote der Frauen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften 50- bis 64-Jährigen liegt im Jahr 2019 bei 67,7%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 64,9% und 70,6%. Im Kanton Basel-Landschaft liegt die Quote bei 74,1% und im Kanton Jura bei 69,3%. Der Wert für die Schweiz beträgt 75,4%.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:38.3838",
+		"description": "Entwicklung Nettoerwerbstätigenquote der 50- bis 64-Jährigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.08446",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,8%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 67,7% und 72,0%. Im Kanton Basel-Landschaft liegt die Quote bei 72,0% und im Kanton Jura bei 72,3%. Der Wert für die Schweiz beträgt 71,3%.",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8507"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-03T08:09:38",
+		"id": 8446
+	},
+	{
+		"template": "template001",
 		"data-id": 8447,
 		"chart-id": 8447,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8507
+		],
+		"title": "Entwicklung Nettoerwerbstätigenquote der Frauen",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2019 beträgt die Nettoerwerbstätigenquote der im Kanton Basel-Stadt wohnhaften Frauen 69,0%. Das 95%-Vertrauensintervall für diese Quote liegt zwischen 66,8% und 71,2%. Im Kanton Basel-Landschaft liegt die Quote bei 70,3% und im Kanton Jura bei 64,7%. Der Wert für die Schweiz beträgt 71,3%.",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der erwerbsfähigen Wohnbevölkerung (50 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe (in Basel-Stadt zum Beispiel jährlich rund 5 000 dort wohnhafte Personen, für die Schweiz rund 270 000 Personen, jeweils ab 15 Jahren) und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton",
+			"Schweiz"
+		],
+		"description": "Entwicklung Nettoerwerbstätigenquote der Frauen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.08447",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-2",
+		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
+		"stufe2": "2.1 Arbeitsmarkt",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_01_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-03T08:09:39",
 		"id": 8447
 	},
 	{
@@ -1727,45 +1715,43 @@ var indikatorensetData = [
 		"id": 8462
 	},
 	{
+		"template": "line001",
+		"data-id": 8863,
+		"chart-id": 8863,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8864
+		],
 		"title": "Anteil Grenzgänger an der Beschäftigung",
-		"subtitle": "2019, 4. Quartal",
-		"kuerzel": "I.03.5.08863",
-		"kuerzelKunde": "2.1-6",
-		"description": "Anteil Grenzgänger an der Beschäftigung",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "2020, 4. Quartal",
+		"lesehilfe": "Im Kanton Jura kommen rund 20 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2018). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (7%) deutlich höher.",
+		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:39.3939",
+		"description": "Anteil Grenzgänger an der Beschäftigung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08863",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.1-6",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.1 Arbeitsmarkt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Jura kommen rund 20 Grenzgänger auf 100 Stellen (Beschäftigungsstand: 2017). Auch der Anteil in den Kantonen Basel-Stadt (18%) und Basel-Landschaft (15%) ist im Vergleich zur gesamten Schweiz (6%) deutlich höher.",
-		"erlaeuterungen": "Grenzgänger: Einwohnerinnen und Einwohner von EU- und EFTA-Staaten mit dauerhafter Aufenthaltsbewilligung haben die Möglichkeit, als Grenzgänger in der Schweiz zu arbeiten. Beschäftigte (besetzte Stellen): Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8864"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8863,
-		"chart-id": 8863,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-03T08:09:39",
 		"id": 8863
 	},
 	{
@@ -1892,44 +1878,42 @@ var indikatorensetData = [
 		"id": 8969
 	},
 	{
+		"template": "line001",
+		"data-id": 8970,
+		"chart-id": 8970,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8973
+		],
 		"title": "Entwicklung Beschäftigung",
 		"subtitle": "",
-		"kuerzel": "I.03.2.08970",
-		"kuerzelKunde": "1.3-6",
-		"description": "Entwicklung Beschäftigung",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Basel-Stadt zählt rund 191 000 Beschäftigte und damit etwa gleich viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. In der betrachteten Zeitperiode hat die Beschäftigungszahl einzig im Baselbiet jedes Jahr zugenommen, während in Basel-Stadt und im Jura auch Beschäftigungsrückgänge festgestellt wurden. Die Beschäftigung hat zuletzt im Jahr 2018 in der Region BS/BL/JU insgesamt um 0,7% zugenommen.",
+		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:41.4141",
+		"description": "Entwicklung Beschäftigung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.08970",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.3-6",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.3 Unternehmen und Beschäftigte",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Basel-Stadt zählt rund 191 000 Beschäftigte und damit etwa gleich viele wie die beiden Kantone Basel-Landschaft und Jura zusammen. In der betrachteten Zeitperiode hat die Beschäftigungszahl einzig im Baselbiet jedes Jahr zugenommen, während in Basel-Stadt und im Jura insbesondere 2015 auch Beschäftigungsrückgänge festgestellt wurden. Die Beschäftigung hat zuletzt im Jahr 2017 überall in der Region BS/BL/JU wieder zugenommen - insgesamt um 0,6%.",
-		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
-		"template": "line001",
+		"orderKey": "01_03_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_03_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8973"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8970,
-		"chart-id": 8970,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-03T08:09:37",
 		"id": 8970
 	}
 ];

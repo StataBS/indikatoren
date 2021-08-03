@@ -7,15 +7,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          41742.411603
+          41045.389703
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          14845.66482
+          14934.637238
         ],
         [
           "Ausländer\u002F-innen",
-          29866.40826
+          29818.348077
         ]
       ],
       "name": "Deutsch oder Schweizerdeutsch",
@@ -28,15 +28,15 @@
       "data": [
         [
           "Schweizer\u002F-innen seit Geburt",
-          445.052754
+          524.385908
         ],
         [
           "Eingebürgerte Schweizer\u002F-innen",
-          388.503041
+          423.188397
         ],
         [
           "Ausländer\u002F-innen",
-          7921.071449
+          8270.162736
         ]
       ],
       "name": "Kein Deutsch",
@@ -117,7 +117,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2014 bis 2018"
+    "text": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2015 bis 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -174,7 +174,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
   },
   "legend": {
     "layout": "horizontal",
@@ -194,6 +194,6 @@
     "enabled": true
   },
   "exporting": {
-    "filename": 6405
+    "filename": "6405"
   }
 }

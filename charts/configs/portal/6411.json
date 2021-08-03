@@ -6,36 +6,48 @@
       "legendIndex": 0,
       "data": [
         [
-          "Bau- und Ausbaugewerbe",
-          19.2
+          "Baugewerbe",
+          21.3
         ],
         [
-          "Gastgewerbe, pers. DL",
-          27.4
+          "Sonst. wirtschaftl. DL",
+          31.5
         ],
         [
-          "Technische Berufe, Informatik",
-          35.2
+          "Gastgewerbe",
+          34.5
         ],
         [
-          "Industrie und Gewerbe",
-          43.1
+          "Freib., tech., wissens. DL",
+          40.5
         ],
         [
-          "Land- und Forstwirtschaft",
-          49.2
+          "Industrie und Energie",
+          42.6
         ],
         [
-          "Handels- und Verkehrsberufe",
-          51.6
+          "Verkehr, Lagerei",
+          42.8
         ],
         [
-          "Banken, Versicherungen o.ä.",
-          59
+          "Handel, Reparatur",
+          49.4
         ],
         [
-          "Gesundheit, Lehre, Kultur",
-          59.6
+          "Kultur, Unterhaltung, pers. DL",
+          52.7
+        ],
+        [
+          "Banken, Versicherungen",
+          53.9
+        ],
+        [
+          "Information, Kommunikation",
+          59.3
+        ],
+        [
+          "Bildung, Gesundheitswesen",
+          60.8
         ]
       ],
       "name": "Schweiz",
@@ -47,36 +59,48 @@
       "legendIndex": 1,
       "data": [
         [
-          "Bau- und Ausbaugewerbe",
-          80.8
+          "Baugewerbe",
+          78.7
         ],
         [
-          "Gastgewerbe, pers. DL",
-          72.6
+          "Sonst. wirtschaftl. DL",
+          68.5
         ],
         [
-          "Technische Berufe, Informatik",
-          64.8
+          "Gastgewerbe",
+          65.5
         ],
         [
-          "Industrie und Gewerbe",
-          56.9
+          "Freib., tech., wissens. DL",
+          59.5
         ],
         [
-          "Land- und Forstwirtschaft",
-          50.8
+          "Industrie und Energie",
+          57.4
         ],
         [
-          "Handels- und Verkehrsberufe",
-          48.4
+          "Verkehr, Lagerei",
+          57.2
         ],
         [
-          "Banken, Versicherungen o.ä.",
-          41
+          "Handel, Reparatur",
+          50.6
         ],
         [
-          "Gesundheit, Lehre, Kultur",
-          40.4
+          "Kultur, Unterhaltung, pers. DL",
+          47.3
+        ],
+        [
+          "Banken, Versicherungen",
+          46.1
+        ],
+        [
+          "Information, Kommunikation",
+          40.7
+        ],
+        [
+          "Bildung, Gesundheitswesen",
+          39.2
         ]
       ],
       "name": "Ausland",
@@ -160,10 +184,10 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Arbeitslose in ausgewählten Berufsgruppen"
+    "text": "Anteil Arbeitslose in ausgewählten Branchen"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -222,7 +246,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-14"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
