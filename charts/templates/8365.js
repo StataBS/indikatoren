@@ -25,11 +25,8 @@
       }
     },
     "series": [
-      { "color": "#474747", legendIndex: 7, index: 7 },
-      { "color": "#FF8028", legendIndex: 6, index: 6 },
-      { "color": "#923F8D", legendIndex: 5, index: 5 },
       { "color": "#68AB2B", legendIndex: 4, index: 4 },
-      { "color": "#689199", legendIndex: 3, index: 3 },
+   
       { "color": "#DC440E", legendIndex: 2, index: 2 },
       { "color": "#FABD24", legendIndex: 1, index: 1 },
     ],

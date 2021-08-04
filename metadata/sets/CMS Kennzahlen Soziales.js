@@ -3221,44 +3221,42 @@ var indikatorensetData = [
 		"id": 8341
 	},
 	{
+		"template": "template001",
+		"data-id": 8452,
+		"chart-id": 8452,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8613
+		],
 		"title": "Erwerbstätige Flüchtlinge",
 		"subtitle": "nach Bewilligungsart, Basel-Stadt",
-		"kuerzel": "I.03.5.08452",
-		"kuerzelKunde": "1-28",
-		"description": "Erwerbstätige Flüchtlinge",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "Zwischen 2014 und 2019 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge insgesamt von 190 auf 481 erhöht. Ende 2020 gab es weniger Asylsuchende und vorläufig Aufgenommene als im Vorjahr. Die Zahl der anerkannten Flüchtlinge ist geringfügig gestiegen.",
+		"erlaeuterungen": "Bestand der erwerbstätigen Personen mit Ausweis N (Asylsuchende), F (vorläufig Aufgenommene) oder B (anerkannte Flüchtlinge), per Jahresende.",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:56.5656",
+		"description": "Erwerbstätige Flüchtlinge",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08452",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-28",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen Ende 2014 und Ende 2018 hat sich in Basel-Stadt die Anzahl der erwerbstätigen Personen mit einem Status als Asylsuchende, vorläufig Aufgenommene oder anerkannte Flüchtlinge von 190 auf 411 erhöht.",
-		"erlaeuterungen": "Erwerbstätige Personen mit Ausweis N (Asylsuchende), F (vorläufig Aufgenommene) oder B (anerkannte Flüchtlinge), per Jahresende.",
-		"template": "template001",
+		"orderKey": "01_02_00_00_00_128",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_128",
-		"parentId": null,
-		"children": [
-			"8613"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8452,
-		"chart-id": 8452,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-04T08:59:28",
 		"id": 8452
 	},
 	{

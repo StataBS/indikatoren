@@ -1,88 +1,20 @@
 {
   "series": [
     {
-      "color": "#474747",
-      "legendIndex": 7,
-      "index": 7,
-      "data": [
-        [
-          "Wegpendler",
-          445
-        ],
-        [
-          "Zupendler",
-          40
-        ]
-      ],
-      "name": "Basel-Stadt",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#FF8028",
-      "legendIndex": 6,
-      "index": 6,
-      "data": [
-        [
-          "Wegpendler",
-          311
-        ],
-        [
-          "Zupendler",
-          55
-        ]
-      ],
-      "name": "Basel-Landschaft",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#923F8D",
-      "legendIndex": 5,
-      "index": 5,
-      "data": [
-        [
-          "Wegpendler",
-          383
-        ],
-        [
-          "Zupendler",
-          20
-        ]
-      ],
-      "name": "Solothurn",
-      "turboThreshold": 0
-    },
-    {
       "color": "#68AB2B",
       "legendIndex": 4,
       "index": 4,
       "data": [
         [
           "Wegpendler",
-          2671
+          2793
         ],
         [
           "Zupendler",
-          1333
+          1513
         ]
       ],
       "name": "Bern",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "legendIndex": 3,
-      "index": 3,
-      "data": [
-        [
-          "Wegpendler",
-          842
-        ],
-        [
-          "Zupendler",
-          504
-        ]
-      ],
-      "name": "Neuenburg",
       "turboThreshold": 0
     },
     {
@@ -92,14 +24,14 @@
       "data": [
         [
           "Wegpendler",
-          472
+          847
         ],
         [
           "Zupendler",
-          218
+          481
         ]
       ],
-      "name": "Andere",
+      "name": "Neuenburg",
       "turboThreshold": 0
     },
     {
@@ -109,14 +41,14 @@
       "data": [
         [
           "Wegpendler",
-          27
+          1533
         ],
         [
           "Zupendler",
-          7329
+          8320
         ]
       ],
-      "name": "Ausland",
+      "name": "Andere (inkl. Ausland)",
       "turboThreshold": 0
     }
   ],
@@ -199,7 +131,7 @@
     "text": "Arbeitspendler Jura"
   },
   "subtitle": {
-    "text": "Pooling 2013-2017",
+    "text": "Pooling 2015-2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -258,12 +190,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-4"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8365
+    "filename": "8365"
   }
 }
