@@ -523,42 +523,42 @@ var indikatorensetData = [
 		"id": 6384
 	},
 	{
-		"parentId": 6373,
-		"children": [],
 		"template": "map002",
+		"data-id": 6385,
+		"chart-id": 6385,
+		"filter": "",
+		"parentId": "6373",
+		"children": [],
 		"title": "Sesshaftigkeit",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.01.1.06385",
-		"kuerzelKunde": "K1-4",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-26T08:03:40.4040",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06385",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K1-4",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"orderKey": "01_00_00_00_00_004",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_004",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 6385,
-		"chart-id": 6385,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-09T08:36:22",
 		"id": 6385
 	},
 	{
