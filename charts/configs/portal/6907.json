@@ -7,11 +7,11 @@
       "data": [
         [
           "Veranlagungen",
-          29184
+          29301
         ],
         [
           "Summe Einkommenssteuer",
-          256847
+          206455
         ]
       ],
       "name": "0",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          28517
+          28619
         ],
         [
           "Summe Einkommenssteuer",
-          77406119
+          78259949
         ]
       ],
       "name": "1 bis 24 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          26034
+          26059
         ],
         [
           "Summe Einkommenssteuer",
-          206388618
+          207246011
         ]
       ],
       "name": "25 000 bis 49 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          13205
+          13173
         ],
         [
           "Summe Einkommenssteuer",
-          173025300
+          172962409
         ]
       ],
       "name": "50 000 bis 74 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          6751
+          6779
         ],
         [
           "Summe Einkommenssteuer",
-          124184314
+          124489067
         ]
       ],
       "name": "75 000 bis 99 999",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          8543
+          8881
         ],
         [
           "Summe Einkommenssteuer",
-          239323585
+          249903654
         ]
       ],
       "name": "100 000 bis 199 999",
@@ -109,14 +109,14 @@
       "data": [
         [
           "Veranlagungen",
-          3471
+          3592
         ],
         [
           "Summe Einkommenssteuer",
-          308067750
+          318862842
         ]
       ],
-      "name": "200 000 und mehr",
+      "name": "200 000 u.m.",
       "turboThreshold": 0
     }
   ],
@@ -206,7 +206,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2017"
+    "text": "in Franken, Basel-Stadt, 2018"
   },
   "navigation": {
     "menuItemStyle": {
@@ -267,7 +267,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
   },
   "legend": {
     "layout": "vertical",
