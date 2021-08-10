@@ -4,10 +4,6 @@
       "color": "#A8C3CA",
       "data": [
         [
-          2008,
-          64910
-        ],
-        [
           2009,
           65107
         ],
@@ -42,6 +38,10 @@
         [
           2017,
           69373
+        ],
+        [
+          2018,
+          69761
         ]
       ],
       "name": "Mittelwert Reineinkommen"
@@ -49,10 +49,6 @@
     {
       "color": "#689199",
       "data": [
-        [
-          2008,
-          47442
-        ],
         [
           2009,
           47980
@@ -88,18 +84,18 @@
         [
           2017,
           49558
+        ],
+        [
+          2018,
+          49680
         ]
       ],
-      "name": "Median Reineinkommen"
+      "name": "Mittelwert Median"
     },
     {
       "color": "#083038",
       "yAxis": 1,
       "data": [
-        [
-          2008,
-          1041456578
-        ],
         [
           2009,
           1058394894
@@ -135,6 +131,10 @@
         [
           2017,
           1128652533
+        ],
+        [
+          2018,
+          1151930387
         ]
       ],
       "name": "Ertrag aus Einkommenssteuer (rechte Skala)"
@@ -275,7 +275,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

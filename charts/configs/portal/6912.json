@@ -38,7 +38,7 @@
           undefined
         ]
       ],
-      "name": "Ertrag 2009",
+      "name": "Ertrag 2010",
       "turboThreshold": 0
     },
     {
@@ -57,38 +57,38 @@
       "data": [
         [
           "Erwerb",
-          201361275
+          203962954
         ],
         [
           "Versicherung",
-          1176628
+          1602220
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          67657908
+          68658360
         ],
         [
           "Grenzgänger aus Frankreich",
-          75855328
+          64359877
         ],
         [
           "Künstler, Sport",
-          1399802
+          1293580
         ],
         [
           "Verwaltungsräte",
-          4239590
+          4234808
         ],
         [
           "Renten",
-          1721980
+          2617626
         ],
         [
           "Kapitalleistungen",
-          17463739
+          17262415
         ]
       ],
-      "name": "Ertrag 2009",
+      "name": "Ertrag 2010",
       "turboThreshold": 0
     },
     {
@@ -129,7 +129,7 @@
           undefined
         ]
       ],
-      "name": "Ertrag 2018",
+      "name": "Ertrag 2019",
       "turboThreshold": 0
     },
     {
@@ -148,38 +148,38 @@
       "data": [
         [
           "Erwerb",
-          302767894
+          345257173
         ],
         [
           "Versicherung",
-          2327007
+          2479842
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          88172275
+          90403220
         ],
         [
           "Grenzgänger aus Frankreich",
-          73414759
+          73950933
         ],
         [
           "Künstler, Sport",
-          1677307
+          1452419
         ],
         [
           "Verwaltungsräte",
-          13421845
+          20983520
         ],
         [
           "Renten",
-          3099547
+          3173356
         ],
         [
           "Kapitalleistungen",
-          30822943
+          31938963
         ]
       ],
-      "name": "Ertrag 2018",
+      "name": "Ertrag 2019",
       "turboThreshold": 0
     },
     {
@@ -194,38 +194,38 @@
       "data": [
         [
           "Erwerb",
-          19704
+          21195
         ],
         [
           "Versicherung",
-          1210
+          1763
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          21036
+          22022
         ],
         [
           "Grenzgänger aus Frankreich",
-          23109
+          20995
         ],
         [
           "Künstler, Sport",
-          1523
+          1455
         ],
         [
           "Verwaltungsräte",
-          154
+          170
         ],
         [
           "Renten",
-          825
+          1241
         ],
         [
           "Kapitalleistungen",
-          5510
+          5533
         ]
       ],
-      "name": "Veranlagungen 2009 (rechte Skala)",
+      "name": "Veranlagungen 2010 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -240,38 +240,38 @@
       "data": [
         [
           "Erwerb",
-          31949
+          34267
         ],
         [
           "Versicherung",
-          2388
+          2326
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          25402
+          24806
         ],
         [
           "Grenzgänger aus Frankreich",
-          23112
+          22624
         ],
         [
           "Künstler, Sport",
-          2165
+          2449
         ],
         [
           "Verwaltungsräte",
-          525
+          529
         ],
         [
           "Renten",
-          1497
+          1592
         ],
         [
           "Kapitalleistungen",
-          8608
+          8706
         ]
       ],
-      "name": "Veranlagungen 2018 (rechte Skala)",
+      "name": "Veranlagungen 2019 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -360,7 +360,7 @@
     "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2009 und 2018",
+    "text": "in Franken, Basel-Stadt, 2010 und 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -440,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

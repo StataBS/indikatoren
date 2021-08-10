@@ -8,10 +8,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2007,
-          23901841
-        ],
-        [
           2008,
           15669900
         ],
@@ -46,6 +42,10 @@
         [
           2016,
           17700579
+        ],
+        [
+          2017,
+          17114877
         ]
       ],
       "name": "Ertrag Grundstücksteuern"
@@ -57,10 +57,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2007,
-          131526059
-        ],
         [
           2008,
           130144479
@@ -96,6 +92,10 @@
         [
           2016,
           157049719
+        ],
+        [
+          2017,
+          123451442
         ]
       ],
       "name": "Ertrag Kapitalsteuern"
@@ -107,10 +107,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2007,
-          790091445
-        ],
         [
           2008,
           603782261
@@ -146,6 +142,10 @@
         [
           2016,
           536679690
+        ],
+        [
+          2017,
+          379197426
         ]
       ],
       "name": "Ertrag Gewinnsteuern"
@@ -163,10 +163,6 @@
         "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
-        [
-          2007,
-          10051
-        ],
         [
           2008,
           10179
@@ -202,6 +198,10 @@
         [
           2016,
           11330
+        ],
+        [
+          2017,
+          11697
         ]
       ],
       "name": "Veranlagungen (rechte Skala)"
@@ -364,7 +364,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-2"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
   },
   "tooltip": {
     "shared": true
