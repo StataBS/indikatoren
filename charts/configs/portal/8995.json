@@ -4292,7 +4292,7 @@
         ],
         [
           1626048000000,
-          null
+          1
         ],
         [
           1626652800000,
@@ -14064,7 +14064,7 @@
         ],
         [
           1609113600000,
-          49
+          50
         ],
         [
           1609718400000,
@@ -14176,7 +14176,7 @@
         ],
         [
           1626048000000,
-          null
+          26
         ],
         [
           1626652800000,
@@ -19736,33 +19736,33 @@
         },
         {
           "x": 1637539200000,
-          "low": 22.5,
-          "high": 54.5
+          "low": 22.6,
+          "high": 54.6
         },
         {
           "x": 1638144000000,
-          "low": 23.1,
-          "high": 55.4
+          "low": 23.2,
+          "high": 55.5
         },
         {
           "x": 1638748800000,
-          "low": 23.7,
-          "high": 56.3
+          "low": 23.8,
+          "high": 56.4
         },
         {
           "x": 1639353600000,
-          "low": 24.3,
-          "high": 57.2
+          "low": 24.4,
+          "high": 57.3
         },
         {
           "x": 1639958400000,
           "low": 25,
-          "high": 58.2
+          "high": 58.3
         },
         {
           "x": 1640563200000,
-          "low": 25.6,
-          "high": 59.1
+          "low": 25.7,
+          "high": 59.2
         }
       ],
       "name": "Untere Grenze Erwartungsbereich 65+ Jahre"
@@ -19785,8 +19785,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1567664321754,
-    "max": 1631168321754,
+    "min": 1568268466470,
+    "max": 1631772466470,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -19927,7 +19927,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-12"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
