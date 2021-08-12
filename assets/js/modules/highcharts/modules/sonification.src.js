@@ -1,9 +1,9 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  *
  * Sonification module
  *
- * (c) 2012-2019 Øystein Moseng
+ * (c) 2012-2021 Øystein Moseng
  *
  * License: www.highcharts.com/license
  */
@@ -28,10 +28,10 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'modules/sonification/Instrument.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
+    _registerModule(_modules, 'Extensions/Sonification/Instrument.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Instrument class for sonification module.
          *
@@ -182,16 +182,21 @@
             this.masterVolume = this.options.masterVolume || 0;
             // Init the audio nodes
             var ctx = H.audioContext;
+            // Note: Destination node can be overridden by setting
+            // Highcharts.sonification.Instrument.prototype.destinationNode.
+            // This allows for inserting an additional chain of nodes after
+            // the default processing.
+            var destination = this.destinationNode || ctx.destination;
             this.gainNode = ctx.createGain();
             this.setGain(0);
             this.panNode = ctx.createStereoPanner && ctx.createStereoPanner();
             if (this.panNode) {
                 this.setPan(0);
                 this.gainNode.connect(this.panNode);
-                this.panNode.connect(ctx.destination);
+                this.panNode.connect(destination);
             }
             else {
-                this.gainNode.connect(ctx.destination);
+                this.gainNode.connect(destination);
             }
             // Oscillator initialization
             if (this.options.type === 'oscillator') {
@@ -421,18 +426,18 @@
                 currentDurationIx = 0,
                 callbackInterval = instrument.options.playCallbackInterval;
                 if (typeof value === 'function') {
-                    var timer = setInterval(function () {
+                    var timer_1 = setInterval(function () {
                             currentDurationIx++;
                         var curTime = (currentDurationIx * callbackInterval / target);
                         if (curTime >= 1) {
                             instrument[setter](value(1), setterData);
-                            clearInterval(timer);
+                            clearInterval(timer_1);
                         }
                         else {
                             instrument[setter](value(curTime), setterData);
                         }
                     }, callbackInterval);
-                    instrument.playCallbackTimers.push(timer);
+                    instrument.playCallbackTimers.push(timer_1);
                 }
                 else {
                     instrument[setter](value, setterData);
@@ -578,10 +583,10 @@
 
         return Instrument;
     });
-    _registerModule(_modules, 'modules/sonification/musicalFrequencies.js', [], function () {
+    _registerModule(_modules, 'Extensions/Sonification/MusicalFrequencies.js', [], function () {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  List of musical frequencies from C0 to C8.
          *
@@ -692,10 +697,10 @@
 
         return frequencies;
     });
-    _registerModule(_modules, 'modules/sonification/utilities.js', [_modules['modules/sonification/musicalFrequencies.js'], _modules['Core/Utilities.js']], function (musicalFrequencies, U) {
+    _registerModule(_modules, 'Extensions/Sonification/Utilities.js', [_modules['Extensions/Sonification/MusicalFrequencies.js'], _modules['Core/Utilities.js']], function (musicalFrequencies, U) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Utility functions for sonification.
          *
@@ -865,10 +870,10 @@
 
         return utilities;
     });
-    _registerModule(_modules, 'modules/sonification/instrumentDefinitions.js', [_modules['modules/sonification/Instrument.js'], _modules['modules/sonification/utilities.js']], function (Instrument, utilities) {
+    _registerModule(_modules, 'Extensions/Sonification/InstrumentDefinitions.js', [_modules['Extensions/Sonification/Instrument.js'], _modules['Extensions/Sonification/Utilities.js']], function (Instrument, utilities) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Instrument definitions for sonification module.
          *
@@ -897,10 +902,10 @@
 
         return instruments;
     });
-    _registerModule(_modules, 'modules/sonification/Earcon.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
+    _registerModule(_modules, 'Extensions/Sonification/Earcon.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Earcons for the sonification module in Highcharts.
          *
@@ -1073,10 +1078,10 @@
 
         return Earcon;
     });
-    _registerModule(_modules, 'modules/sonification/pointSonify.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js'], _modules['modules/sonification/utilities.js']], function (H, U, utilities) {
+    _registerModule(_modules, 'Extensions/Sonification/PointSonify.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js'], _modules['Extensions/Sonification/Utilities.js']], function (H, U, utilities) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Code for sonifying single points.
          *
@@ -1290,10 +1295,11 @@
          * @return {void}
          */
         function pointSonify(options) {
-            var _a;
             var point = this,
                 chart = point.series.chart,
-                masterVolume = pick(options.masterVolume, (_a = chart.options.sonification) === null || _a === void 0 ? void 0 : _a.masterVolume),
+                masterVolume = pick(options.masterVolume,
+                chart.options.sonification &&
+                    chart.options.sonification.masterVolume),
                 dataExtremes = options.dataExtremes || {}, 
                 // Get the value to pass to instrument.play from the mapping value
                 // passed in.
@@ -1425,10 +1431,10 @@
 
         return pointSonifyFunctions;
     });
-    _registerModule(_modules, 'modules/sonification/chartSonify.js', [_modules['Core/Globals.js'], _modules['Core/Series/Point.js'], _modules['Core/Utilities.js'], _modules['modules/sonification/utilities.js']], function (H, Point, U, utilities) {
+    _registerModule(_modules, 'Extensions/Sonification/ChartSonify.js', [_modules['Core/Globals.js'], _modules['Core/Series/Point.js'], _modules['Core/Utilities.js'], _modules['Extensions/Sonification/Utilities.js']], function (H, Point, U, utilities) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Sonification functions for chart/series.
          *
@@ -1580,9 +1586,9 @@
          * New extremes with data properties mapped to min/max objects.
          */
         function getExtremesForInstrumentProps(chart, instruments, dataExtremes) {
-            var _a;
             var allInstrumentDefinitions = (instruments || []).slice(0);
-            var defaultInstrumentDef = (_a = chart.options.sonification) === null || _a === void 0 ? void 0 : _a.defaultInstrumentOptions;
+            var defaultInstrumentDef = (chart.options.sonification &&
+                    chart.options.sonification.defaultInstrumentOptions);
             var optionDefToInstrDef = function (optionDef) { return ({
                     instrumentMapping: optionDef.mapping
                 }); };
@@ -1590,8 +1596,8 @@
                 allInstrumentDefinitions.push(optionDefToInstrDef(defaultInstrumentDef));
             }
             chart.series.forEach(function (series) {
-                var _a;
-                var instrOptions = (_a = series.options.sonification) === null || _a === void 0 ? void 0 : _a.instruments;
+                var instrOptions = (series.options.sonification &&
+                        series.options.sonification.instruments);
                 if (instrOptions) {
                     allInstrumentDefinitions = allInstrumentDefinitions.concat(instrOptions.map(optionDefToInstrDef));
                 }
@@ -1869,11 +1875,12 @@
          * Options for buildTimelinePathFromSeries.
          */
         function buildChartSonifySeriesOptions(series, dataExtremes, chartSonifyOptions) {
-            var _a,
-                _b,
-                _c;
             var additionalSeriesOptions = chartSonifyOptions.seriesOptions || {};
-            var pointPlayTime = ((_c = (_b = (_a = series.chart.options.sonification) === null || _a === void 0 ? void 0 : _a.defaultInstrumentOptions) === null || _b === void 0 ? void 0 : _b.mapping) === null || _c === void 0 ? void 0 : _c.pointPlayTime) || 'x';
+            var pointPlayTime = (series.chart.options.sonification &&
+                    series.chart.options.sonification.defaultInstrumentOptions &&
+                    series.chart.options.sonification.defaultInstrumentOptions.mapping &&
+                    series.chart.options.sonification.defaultInstrumentOptions.mapping.pointPlayTime ||
+                    'x');
             var configOptions = chartOptionsToSonifySeriesOptions(series);
             return merge(
             // Options from chart configuration
@@ -1922,8 +1929,9 @@
             if (orderOptions === 'sequential' || orderOptions === 'simultaneous') {
                 // Just add the series from the chart
                 order = chart.series.reduce(function (seriesList, series) {
-                    var _a;
-                    if (series.visible && ((_a = series.options.sonification) === null || _a === void 0 ? void 0 : _a.enabled) !== false) {
+                    if (series.visible &&
+                        (series.options.sonification &&
+                            series.options.sonification.enabled) !== false) {
                         seriesList.push({
                             series: series,
                             seriesOptions: seriesOptionsCallback(series)
@@ -2153,13 +2161,15 @@
          * @returns {Array<Highcharts.PointInstrumentObject>} The merged options.
          */
         function getSeriesInstrumentOptions(series, options) {
-            var _a,
-                _b;
-            if (options === null || options === void 0 ? void 0 : options.instruments) {
+            if (options && options.instruments) {
                 return options.instruments;
             }
-            var defaultInstrOpts = ((_a = series.chart.options.sonification) === null || _a === void 0 ? void 0 : _a.defaultInstrumentOptions) || {};
-            var seriesInstrOpts = ((_b = series.options.sonification) === null || _b === void 0 ? void 0 : _b.instruments) || [{}];
+            var defaultInstrOpts = (series.chart.options.sonification &&
+                    series.chart.options.sonification.defaultInstrumentOptions ||
+                    {});
+            var seriesInstrOpts = (series.options.sonification &&
+                    series.options.sonification.instruments ||
+                    [{}]);
             var removeNullsFromObject = function (obj) {
                     objectEach(obj,
                 function (val,
@@ -2196,8 +2206,6 @@
          * @returns {Highcharts.SonifySeriesOptionsObject} Options for chart/series.sonify()
          */
         function chartOptionsToSonifySeriesOptions(series) {
-            var _a,
-                _b;
             var seriesOpts = series.options.sonification || {};
             var chartOpts = series.chart.options.sonification || {};
             var chartEvents = chartOpts.events || {};
@@ -2207,7 +2215,9 @@
                 onStart: seriesEvents.onSeriesStart || chartEvents.onSeriesStart,
                 onPointEnd: seriesEvents.onPointEnd || chartEvents.onPointEnd,
                 onPointStart: seriesEvents.onPointStart || chartEvents.onPointStart,
-                pointPlayTime: (_b = (_a = chartOpts.defaultInstrumentOptions) === null || _a === void 0 ? void 0 : _a.mapping) === null || _b === void 0 ? void 0 : _b.pointPlayTime,
+                pointPlayTime: (chartOpts.defaultInstrumentOptions &&
+                    chartOpts.defaultInstrumentOptions.mapping &&
+                    chartOpts.defaultInstrumentOptions.mapping.pointPlayTime),
                 masterVolume: chartOpts.masterVolume,
                 instruments: getSeriesInstrumentOptions(series),
                 earcons: seriesOpts.earcons || chartOpts.earcons
@@ -2224,7 +2234,8 @@
             var chartOpts = series.chart.options.sonification;
             var seriesOpts = series.options.sonification;
             return merge({
-                duration: (seriesOpts === null || seriesOpts === void 0 ? void 0 : seriesOpts.duration) || (chartOpts === null || chartOpts === void 0 ? void 0 : chartOpts.duration)
+                duration: ((seriesOpts && seriesOpts.duration) ||
+                    (chartOpts && chartOpts.duration))
             }, chartOptionsToSonifySeriesOptions(series), options);
         }
         /**
@@ -2235,20 +2246,17 @@
          * @returns {Highcharts.SonificationOptions} The merged options.
          */
         function getChartSonifyOptions(chart, options) {
-            var _a,
-                _b,
-                _c,
-                _d,
-                _e;
             var chartOpts = chart.options.sonification || {};
             return merge({
                 duration: chartOpts.duration,
                 afterSeriesWait: chartOpts.afterSeriesWait,
-                pointPlayTime: (_b = (_a = chartOpts.defaultInstrumentOptions) === null || _a === void 0 ? void 0 : _a.mapping) === null || _b === void 0 ? void 0 : _b.pointPlayTime,
+                pointPlayTime: (chartOpts.defaultInstrumentOptions &&
+                    chartOpts.defaultInstrumentOptions.mapping &&
+                    chartOpts.defaultInstrumentOptions.mapping.pointPlayTime),
                 order: chartOpts.order,
-                onSeriesStart: (_c = chartOpts.events) === null || _c === void 0 ? void 0 : _c.onSeriesStart,
-                onSeriesEnd: (_d = chartOpts.events) === null || _d === void 0 ? void 0 : _d.onSeriesEnd,
-                onEnd: (_e = chartOpts.events) === null || _e === void 0 ? void 0 : _e.onEnd
+                onSeriesStart: (chartOpts.events && chartOpts.events.onSeriesStart),
+                onSeriesEnd: (chartOpts.events && chartOpts.events.onSeriesEnd),
+                onEnd: (chartOpts.events && chartOpts.events.onEnd)
             }, options);
         }
         /**
@@ -2566,10 +2574,10 @@
 
         return chartSonifyFunctions;
     });
-    _registerModule(_modules, 'modules/sonification/Timeline.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js'], _modules['modules/sonification/utilities.js']], function (H, U, utilities) {
+    _registerModule(_modules, 'Extensions/Sonification/Timeline.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js'], _modules['Extensions/Sonification/Utilities.js']], function (H, U, utilities) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  TimelineEvent class definition.
          *
@@ -3206,10 +3214,10 @@
 
         return timelineClasses;
     });
-    _registerModule(_modules, 'modules/sonification/options.js', [], function () {
+    _registerModule(_modules, 'Extensions/Sonification/Options.js', [], function () {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Default options for sonification.
          *
@@ -3242,10 +3250,10 @@
 
         return options;
     });
-    _registerModule(_modules, 'modules/sonification/sonification.js', [_modules['Core/Globals.js'], _modules['Core/Options.js'], _modules['Core/Series/Point.js'], _modules['Core/Utilities.js'], _modules['modules/sonification/Instrument.js'], _modules['modules/sonification/instrumentDefinitions.js'], _modules['modules/sonification/Earcon.js'], _modules['modules/sonification/pointSonify.js'], _modules['modules/sonification/chartSonify.js'], _modules['modules/sonification/utilities.js'], _modules['modules/sonification/Timeline.js'], _modules['modules/sonification/options.js']], function (H, O, Point, U, Instrument, instruments, Earcon, pointSonifyFunctions, chartSonifyFunctions, utilities, TimelineClasses, sonificationOptions) {
+    _registerModule(_modules, 'Extensions/Sonification/Sonification.js', [_modules['Core/Chart/Chart.js'], _modules['Core/Globals.js'], _modules['Core/DefaultOptions.js'], _modules['Core/Series/Point.js'], _modules['Core/Series/Series.js'], _modules['Core/Utilities.js'], _modules['Extensions/Sonification/Instrument.js'], _modules['Extensions/Sonification/InstrumentDefinitions.js'], _modules['Extensions/Sonification/Earcon.js'], _modules['Extensions/Sonification/PointSonify.js'], _modules['Extensions/Sonification/ChartSonify.js'], _modules['Extensions/Sonification/Utilities.js'], _modules['Extensions/Sonification/Timeline.js'], _modules['Extensions/Sonification/Options.js']], function (Chart, H, D, Point, Series, U, Instrument, instruments, Earcon, pointSonifyFunctions, chartSonifyFunctions, utilities, TimelineClasses, sonificationOptions) {
         /* *
          *
-         *  (c) 2009-2020 Øystein Moseng
+         *  (c) 2009-2021 Øystein Moseng
          *
          *  Sonification module for Highcharts
          *
@@ -3254,7 +3262,7 @@
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
-        var defaultOptions = O.defaultOptions;
+        var defaultOptions = D.defaultOptions;
         var addEvent = U.addEvent,
             extend = U.extend,
             merge = U.merge;
@@ -3329,8 +3337,8 @@
         // Chart specific
         Point.prototype.sonify = pointSonifyFunctions.pointSonify;
         Point.prototype.cancelSonify = pointSonifyFunctions.pointCancelSonify;
-        H.Series.prototype.sonify = chartSonifyFunctions.seriesSonify;
-        extend(H.Chart.prototype, {
+        Series.prototype.sonify = chartSonifyFunctions.seriesSonify;
+        extend(Chart.prototype, {
             sonify: chartSonifyFunctions.chartSonify,
             pauseSonify: chartSonifyFunctions.pause,
             resumeSonify: chartSonifyFunctions.resume,
@@ -3343,11 +3351,11 @@
         });
         /* eslint-disable no-invalid-this */
         // Prepare charts for sonification on init
-        addEvent(H.Chart, 'init', function () {
+        addEvent(Chart, 'init', function () {
             this.sonification = {};
         });
         // Update with chart/series/point updates
-        addEvent(H.Chart, 'update', function (e) {
+        addEvent(Chart, 'update', function (e) {
             var newOptions = e.options.sonification;
             if (newOptions) {
                 merge(true, this.options.sonification, newOptions);
@@ -3356,8 +3364,6 @@
 
     });
     _registerModule(_modules, 'masters/modules/sonification.src.js', [], function () {
-
-
 
 
     });

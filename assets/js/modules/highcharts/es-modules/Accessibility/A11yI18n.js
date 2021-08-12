@@ -2,7 +2,7 @@
  *
  *  Accessibility module - internationalization support
  *
- *  (c) 2010-2020 Highsoft AS
+ *  (c) 2010-2021 Highsoft AS
  *  Author: Øystein Moseng
  *
  *  License: www.highcharts.com/license
@@ -11,9 +11,12 @@
  *
  * */
 'use strict';
+import Chart from '../Core/Chart/Chart.js';
 import H from '../Core/Globals.js';
+import F from '../Core/FormatUtilities.js';
+var format = F.format;
 import U from '../Core/Utilities.js';
-var format = U.format, pick = U.pick;
+var pick = U.pick;
 /* eslint-disable valid-jsdoc */
 /**
  * String trim that works for IE6-8 as well.
@@ -49,7 +52,7 @@ function formatExtendedStatement(statement, ctx) {
     var eachStart = statement.indexOf('#each('), pluralStart = statement.indexOf('#plural('), indexStart = statement.indexOf('['), indexEnd = statement.indexOf(']'), arr, result;
     // Dealing with an each-function?
     if (eachStart > -1) {
-        var eachEnd = statement.slice(eachStart).indexOf(')') + eachStart, preEach = statement.substring(0, eachStart), postEach = statement.substring(eachEnd + 1), eachStatement = statement.substring(eachStart + 6, eachEnd), eachArguments = eachStatement.split(','), lenArg = Number(eachArguments[1]), len;
+        var eachEnd = statement.slice(eachStart).indexOf(')') + eachStart, preEach = statement.substring(0, eachStart), postEach = statement.substring(eachEnd + 1), eachStatement = statement.substring(eachStart + 6, eachEnd), eachArguments = eachStatement.split(','), lenArg = Number(eachArguments[1]), len = void 0;
         result = '';
         arr = ctx[eachArguments[0]];
         if (arr) {
@@ -84,7 +87,7 @@ function formatExtendedStatement(statement, ctx) {
     }
     // Array index
     if (indexStart > -1) {
-        var arrayName = statement.substring(0, indexStart), ix = Number(statement.substring(indexStart + 1, indexEnd)), val;
+        var arrayName = statement.substring(0, indexStart), ix = Number(statement.substring(indexStart + 1, indexEnd)), val = void 0;
         arr = ctx[arrayName];
         if (!isNaN(ix) && arr) {
             if (ix < 0) {
@@ -241,7 +244,7 @@ H.i18nFormat = function (formatString, context, chart) {
  * @return {string}
  *         The formatted string.
  */
-H.Chart.prototype.langFormat = function (langKey, context) {
+Chart.prototype.langFormat = function (langKey, context) {
     var keys = langKey.split('.'), formatString = this.options.lang, i = 0;
     for (; i < keys.length; ++i) {
         formatString = formatString && formatString[keys[i]];

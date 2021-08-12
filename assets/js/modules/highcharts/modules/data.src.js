@@ -1,9 +1,9 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  *
  * Data module
  *
- * (c) 2012-2019 Torstein Honsi
+ * (c) 2012-2021 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
@@ -31,7 +31,7 @@
     _registerModule(_modules, 'Extensions/Ajax.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
         /* *
          *
-         *  (c) 2010-2017 Christer Vasseng, Torstein Honsi
+         *  (c) 2010-2021 Christer Vasseng, Torstein Honsi
          *
          *  License: www.highcharts.com/license
          *
@@ -182,18 +182,21 @@
 
         return exports;
     });
-    _registerModule(_modules, 'Extensions/Data.js', [_modules['Core/Chart/Chart.js'], _modules['Core/Globals.js'], _modules['Core/Series/Point.js'], _modules['Core/Utilities.js'], _modules['Extensions/Ajax.js']], function (Chart, H, Point, U, Ajax) {
+    _registerModule(_modules, 'Extensions/Data.js', [_modules['Extensions/Ajax.js'], _modules['Core/Chart/Chart.js'], _modules['Core/Globals.js'], _modules['Core/Series/Point.js'], _modules['Core/Series/SeriesRegistry.js'], _modules['Core/Utilities.js']], function (Ajax, Chart, H, Point, SeriesRegistry, U) {
         /* *
          *
          *  Data module
          *
-         *  (c) 2012-2020 Torstein Honsi
+         *  (c) 2012-2021 Torstein Honsi
          *
          *  License: www.highcharts.com/license
          *
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
+        var ajax = Ajax.ajax;
+        var doc = H.doc;
+        var seriesTypes = SeriesRegistry.seriesTypes;
         var addEvent = U.addEvent,
             defined = U.defined,
             extend = U.extend,
@@ -275,10 +278,6 @@
          *         Return `false` to stop completion, or call `this.complete()` to
          *         continue async.
          */
-        var ajax = Ajax.ajax;
-        // Utilities
-        var win = H.win,
-            doc = win.document;
         /**
          * The Data module provides a simplified interface for adding data to
          * a chart from sources like CVS, HTML tables or grid views. See also
@@ -659,6 +658,11 @@
          * @param {Highcharts.Chart} [chart]
          */
         var Data = /** @class */ (function () {
+                /* *
+                 *
+                 *  Constructors
+                 *
+                 * */
                 function Data(dataOptions, chartOptions, chart) {
                     this.chart = void 0;
                 this.chartOptions = void 0;
@@ -727,6 +731,11 @@
                 };
                 this.init(dataOptions, chartOptions, chart);
             }
+            /* *
+             *
+             *  Functions
+             *
+             * */
             /**
              * Initialize the Data object with the given options
              *
@@ -806,12 +815,9 @@
                     options = this.options,
                     xColumns = [],
                     getValueCount = function (type) {
-                        return (H.seriesTypes[type || 'line'].prototype
-                            .pointArrayMap ||
-                            [0]).length;
+                        return (seriesTypes[type || 'line'].prototype.pointArrayMap || [0]).length;
                 }, getPointArrayMap = function (type) {
-                    return H.seriesTypes[type || 'line']
-                        .prototype.pointArrayMap;
+                    return seriesTypes[type || 'line'].prototype.pointArrayMap;
                 }, globalType = (chartOptions &&
                     chartOptions.chart &&
                     chartOptions.chart.type), individualCounts = [], seriesBuilders = [], seriesIndex = 0, 
@@ -1035,12 +1041,6 @@
                     }
                     for (; i < columnStr.length; i++) {
                         read(i);
-                        // Quoted string
-                        if (c === '#') {
-                            // The rest of the row is a comment
-                            push();
-                            return;
-                        }
                         if (c === '"') {
                             read(++i);
                             while (i < columnStr.length) {
@@ -1327,7 +1327,7 @@
                         options.dateFormat = deduceDateFormat(columns[0]);
                     }
                     // lines.forEach(function (line, rowNo) {
-                    //    var trimmed = self.trim(line),
+                    //    let trimmed = self.trim(line),
                     //        isComment = trimmed.indexOf('#') === 0,
                     //        isBlank = trimmed === '',
                     //        items;
@@ -1436,7 +1436,8 @@
                      * @private
                      */
                     function request(url, done, tp) {
-                        if (!url || url.indexOf('http') !== 0) {
+                        if (!url ||
+                            !/^(http|\/|\.\/|\.\.\/)/.test(url)) {
                             if (url && options.error) {
                                 options.error('Invalid URL');
                             }
@@ -1817,8 +1818,8 @@
              * @return {number}
              */
             Data.prototype.parseDate = function (val) {
-                var parseDate = this.options.parseDate,
-                    ret,
+                var parseDate = this.options.parseDate;
+                var ret,
                     key,
                     format,
                     dateFormat = this.options.dateFormat || this.dateFormat,
@@ -1854,9 +1855,15 @@
                     }
                     // Fall back to Date.parse
                     if (!match) {
+                        if (val.match(/:.+(GMT|UTC|[Z+-])/)) {
+                            val = val
+                                .replace(/\s*(?:GMT|UTC)?([+-])(\d\d)(\d\d)$/, '$1$2:$3')
+                                .replace(/(?:\s+|GMT|UTC)([+-])/, '$1')
+                                .replace(/(\d)\s*(?:GMT|UTC|Z)$/, '$1+00:00');
+                        }
                         match = Date.parse(val);
                         // External tools like Date.js and MooTools extend Date object
-                        // and returns a date.
+                        // and return a date.
                         if (typeof match === 'object' &&
                             match !== null &&
                             match.getTime) {

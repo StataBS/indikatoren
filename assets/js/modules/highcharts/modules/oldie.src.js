@@ -1,9 +1,9 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  *
  * Old IE (v6, v7, v8) module for Highcharts v6+.
  *
- * (c) 2010-2019 Highsoft AS
+ * (c) 2010-2021 Highsoft AS
  * Author: Torstein Honsi
  *
  * License: www.highcharts.com/license
@@ -29,10 +29,157 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Extensions/Oldie.js', [_modules['Core/Chart/Chart.js'], _modules['Core/Color.js'], _modules['Core/Globals.js'], _modules['Core/Pointer.js'], _modules['Core/Renderer/SVG/SVGElement.js'], _modules['Core/Renderer/SVG/SVGRenderer.js'], _modules['Core/Utilities.js']], function (Chart, Color, H, Pointer, SVGElement, SVGRenderer, U) {
+    _registerModule(_modules, 'Extensions/Oldie/VMLAxis3D.js', [_modules['Core/Utilities.js']], function (U) {
         /* *
          *
-         *  (c) 2010-2020 Torstein Honsi
+         *  (c) 2010-2021 Torstein Honsi
+         *
+         *  Extension to the VML Renderer
+         *
+         *  License: www.highcharts.com/license
+         *
+         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
+         *
+         * */
+        var addEvent = U.addEvent;
+        /* *
+         *
+         *  Class
+         *
+         * */
+        /* eslint-disable valid-jsdoc */
+        var VMLAxis3DAdditions = /** @class */ (function () {
+                /* *
+                 *
+                 *  Constructors
+                 *
+                 * */
+                function VMLAxis3DAdditions(axis) {
+                    this.axis = axis;
+            }
+            return VMLAxis3DAdditions;
+        }());
+        var VMLAxis3D = /** @class */ (function () {
+                function VMLAxis3D() {
+                }
+                /* *
+                 *
+                 *  Static Properties
+                 *
+                 * */
+                VMLAxis3D.compose = function (AxisClass) {
+                    AxisClass.keepProps.push('vml');
+                addEvent(AxisClass, 'destroy', VMLAxis3D.onDestroy);
+                addEvent(AxisClass, 'init', VMLAxis3D.onInit);
+                addEvent(AxisClass, 'render', VMLAxis3D.onRender);
+            };
+            /**
+             * @private
+             */
+            VMLAxis3D.onDestroy = function () {
+                var axis = this,
+                    vml = axis.vml;
+                if (vml) {
+                    var el_1;
+                    ['backFrame', 'bottomFrame', 'sideFrame'].forEach(function (prop) {
+                        el_1 = vml[prop];
+                        if (el_1) {
+                            vml[prop] = el_1.destroy();
+                        }
+                    }, this);
+                }
+            };
+            /**
+             * @private
+             */
+            VMLAxis3D.onInit = function () {
+                var axis = this;
+                if (!axis.vml) {
+                    axis.vml = new VMLAxis3DAdditions(axis);
+                }
+            };
+            /**
+             * @private
+             */
+            VMLAxis3D.onRender = function () {
+                var axis = this;
+                var vml = axis.vml;
+                // VML doesn't support a negative z-index
+                if (vml.sideFrame) {
+                    vml.sideFrame.css({ zIndex: 0 });
+                    vml.sideFrame.front.attr({
+                        fill: vml.sideFrame.color
+                    });
+                }
+                if (vml.bottomFrame) {
+                    vml.bottomFrame.css({ zIndex: 1 });
+                    vml.bottomFrame.front.attr({
+                        fill: vml.bottomFrame.color
+                    });
+                }
+                if (vml.backFrame) {
+                    vml.backFrame.css({ zIndex: 0 });
+                    vml.backFrame.front.attr({
+                        fill: vml.backFrame.color
+                    });
+                }
+            };
+            return VMLAxis3D;
+        }());
+
+        return VMLAxis3D;
+    });
+    _registerModule(_modules, 'Extensions/Oldie/VMLRenderer3D.js', [_modules['Core/Axis/Axis.js'], _modules['Core/DefaultOptions.js'], _modules['Extensions/Oldie/VMLAxis3D.js']], function (Axis, D, VMLAxis3D) {
+        /* *
+         *
+         *  (c) 2010-2021 Torstein Honsi
+         *
+         *  Extension to the VML Renderer
+         *
+         *  License: www.highcharts.com/license
+         *
+         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
+         *
+         * */
+        var setOptions = D.setOptions;
+        var VMLRenderer3D = /** @class */ (function () {
+                function VMLRenderer3D() {
+                }
+                /* *
+                 *
+                 *  Static Properties
+                 *
+                 * */
+                VMLRenderer3D.compose = function (vmlClass, svgClass) {
+                    var svgProto = svgClass.prototype;
+                var vmlProto = vmlClass.prototype;
+                setOptions({ animate: false });
+                vmlProto.face3d = svgProto.face3d;
+                vmlProto.polyhedron = svgProto.polyhedron;
+                vmlProto.elements3d = svgProto.elements3d;
+                vmlProto.element3d = svgProto.element3d;
+                vmlProto.cuboid = svgProto.cuboid;
+                vmlProto.cuboidPath = svgProto.cuboidPath;
+                vmlProto.toLinePath = svgProto.toLinePath;
+                vmlProto.toLineSegments = svgProto.toLineSegments;
+                vmlProto.arc3d = function (shapeArgs) {
+                    var result = svgProto.arc3d.call(this,
+                        shapeArgs);
+                    result.css({ zIndex: result.zIndex });
+                    return result;
+                };
+                vmlProto.arc3dPath = svgProto.arc3dPath;
+                VMLAxis3D.compose(Axis);
+            };
+            return VMLRenderer3D;
+        }());
+
+        return VMLRenderer3D;
+    });
+    _registerModule(_modules, 'Extensions/Oldie/Oldie.js', [_modules['Core/Chart/Chart.js'], _modules['Core/Color/Color.js'], _modules['Core/Globals.js'], _modules['Core/DefaultOptions.js'], _modules['Core/Color/Palette.js'], _modules['Core/Pointer.js'], _modules['Core/Renderer/RendererRegistry.js'], _modules['Core/Renderer/SVG/SVGElement.js'], _modules['Core/Renderer/SVG/SVGRenderer.js'], _modules['Core/Utilities.js'], _modules['Extensions/Oldie/VMLRenderer3D.js']], function (Chart, Color, H, D, palette, Pointer, RendererRegistry, SVGElement, SVGRenderer, U, VMLRenderer3D) {
+        /* *
+         *
+         *  (c) 2010-2021 Torstein Honsi
          *
          *  License: www.highcharts.com/license
          *
@@ -47,6 +194,7 @@
             noop = H.noop,
             svg = H.svg,
             win = H.win;
+        var getOptions = D.getOptions;
         var addEvent = U.addEvent,
             createElement = U.createElement,
             css = U.css,
@@ -55,17 +203,13 @@
             erase = U.erase,
             extend = U.extend,
             extendClass = U.extendClass,
-            getOptions = U.getOptions,
             isArray = U.isArray,
             isNumber = U.isNumber,
             isObject = U.isObject,
-            merge = U.merge,
-            offset = U.offset,
             pick = U.pick,
             pInt = U.pInt,
             uniqueKey = U.uniqueKey;
         var VMLRenderer,
-            VMLRendererExtension,
             VMLElement;
         /**
          * Path to the pattern image required by VML browsers in order to
@@ -78,10 +222,10 @@
          * @apioption global.VMLRadialGradientURL
          */
         getOptions().global.VMLRadialGradientURL =
-            'http://code.highcharts.com/8.2.0/gfx/vml-radial-gradient.png';
+            'http://code.highcharts.com/9.1.2/gfx/vml-radial-gradient.png';
         // Utilites
         if (doc && !doc.defaultView) {
-            H.getStyle = U.getStyle = function (el, prop) {
+            H.getStyle = U.getStyle = function getStyle(el, prop) {
                 var val,
                     alias = {
                         width: 'clientWidth',
@@ -96,7 +240,7 @@
                 // Getting the rendered width and height
                 if (alias) {
                     el.style.zoom = 1;
-                    return Math.max(el[alias] - 2 * U.getStyle(el, 'padding'), 0);
+                    return Math.max(el[alias] - 2 * getStyle(el, 'padding'), 0);
                 }
                 val = el.currentStyle[prop.replace(/\-(\w)/g, function (a, b) {
                     return b.toUpperCase();
@@ -139,7 +283,7 @@
                 }
                 // Get mouse position
                 if (!chartPosition) {
-                    this.chartPosition = chartPosition = offset(this.chart.container);
+                    this.chartPosition = chartPosition = this.getChartPosition();
                 }
                 return extend(e, {
                     // #2005, #2129: the second case is for IE10 quirks mode within
@@ -584,10 +728,10 @@
                                 '" />'
                             ];
                             shadow = createElement(renderer.prepVML(markup), null, {
-                                left: pInt(elemStyle.left) +
-                                    pick(shadowOptions.offsetX, 1),
-                                top: pInt(elemStyle.top) +
-                                    pick(shadowOptions.offsetY, 1)
+                                left: (pInt(elemStyle.left) +
+                                    pick(shadowOptions.offsetX, 1)) + 'px',
+                                top: (pInt(elemStyle.top) +
+                                    pick(shadowOptions.offsetY, 1)) + 'px'
                             });
                             if (cutOff) {
                                 shadow.cutOff = strokeWidth + 1;
@@ -595,7 +739,7 @@
                             // apply the opacity
                             markup = [
                                 '<stroke color="',
-                                shadowOptions.color || '#000000',
+                                shadowOptions.color || palette.neutralColor100,
                                 '" opacity="', shadowElementOpacity * i, '"/>'
                             ];
                             createElement(renderer.prepVML(markup), null, null, shadow);
@@ -780,23 +924,25 @@
              *
              * @augments Highcharts.SVGRenderer
              */
-            VMLRendererExtension = {
-                Element: VMLElement,
-                isIE8: win.navigator.userAgent.indexOf('MSIE 8.0') > -1,
-                /**
-                 * Initialize the VMLRenderer.
-                 *
-                 * @function Highcharts.VMLRenderer#init
-                 * @param {Highcharts.HTMLDOMElement} container
-                 * @param {number} width
-                 * @param {number} height
-                 * @return {void}
-                 */
-                init: function (container, width, height) {
-                    var renderer = this,
-                        boxWrapper,
-                        box,
-                        css;
+            var VMLRendererExtension = {
+                    Element: VMLElement,
+                    isIE8: win.navigator.userAgent.indexOf('MSIE 8.0') > -1,
+                    /**
+                     * Initialize the VMLRenderer.
+                     *
+                     * @function Highcharts.VMLRenderer#init
+                     * @param {Highcharts.HTMLDOMElement} container
+                     * @param {number} width
+                     * @param {number} height
+                     * @return {void}
+                     */
+                    init: function (container,
+                width,
+                height) {
+                        var renderer = this,
+                boxWrapper,
+                box,
+                css;
                     // Extended SVGRenderer member
                     this.crispPolyLine = SVGRenderer.prototype.crispPolyLine;
                     renderer.alignedObjects = [];
@@ -922,13 +1068,13 @@
                         fillType = 'pattern';
                     }
                     if (fillType) {
-                        var stopColor, stopOpacity, gradient = (colorOption.linearGradient ||
-                                colorOption.radialGradient), x1, y1, x2, y2, opacity1, opacity2, color1, color2, fillAttr = '', stops = colorOption.stops, firstStop, lastStop, colors = [], addFillNode = function () {
+                        var stopColor_1, stopOpacity_1, gradient = (colorOption.linearGradient ||
+                                colorOption.radialGradient), x1 = void 0, y1 = void 0, x2 = void 0, y2 = void 0, opacity1_1, opacity2_1, color1_1, color2_1, fillAttr_1 = '', stops = colorOption.stops, firstStop = void 0, lastStop = void 0, colors_1 = [], addFillNode_1 = function () {
                                 // Add the fill subnode. When colors attribute is used,
                                 // the meanings of opacity and o:opacity2 are reversed.
-                                markup = ['<fill colors="' + colors.join(',') +
-                                        '" opacity="', opacity2, '" o:opacity2="',
-                                    opacity1, '" type="', fillType, '" ', fillAttr,
+                                markup = ['<fill colors="' + colors_1.join(',') +
+                                        '" opacity="', opacity2_1, '" o:opacity2="',
+                                    opacity1_1, '" type="', fillType, '" ', fillAttr_1,
                                     'focus="100%" method="any" />'];
                             createElement(renderer.prepVML(markup), null, null, elem);
                         };
@@ -951,24 +1097,24 @@
                         stops.forEach(function (stop, i) {
                             if (regexRgba.test(stop[1])) {
                                 colorObject = color(stop[1]);
-                                stopColor = colorObject.get('rgb');
-                                stopOpacity = colorObject.get('a');
+                                stopColor_1 = colorObject.get('rgb');
+                                stopOpacity_1 = colorObject.get('a');
                             }
                             else {
-                                stopColor = stop[1];
-                                stopOpacity = 1;
+                                stopColor_1 = stop[1];
+                                stopOpacity_1 = 1;
                             }
                             // Build the color attribute
-                            colors.push((stop[0] * 100) + '% ' + stopColor);
+                            colors_1.push((stop[0] * 100) + '% ' + stopColor_1);
                             // Only start and end opacities are allowed, so we use the
                             // first and the last
                             if (!i) {
-                                opacity1 = stopOpacity;
-                                color2 = stopColor;
+                                opacity1_1 = stopOpacity_1;
+                                color2_1 = stopColor_1;
                             }
                             else {
-                                opacity2 = stopOpacity;
-                                color1 = stopColor;
+                                opacity2_1 = stopOpacity_1;
+                                color1_1 = stopColor_1;
                             }
                         });
                         // Apply the gradient to fills only.
@@ -979,38 +1125,38 @@
                                 y1 = gradient.y1 || gradient[1] || 0;
                                 x2 = gradient.x2 || gradient[2] || 0;
                                 y2 = gradient.y2 || gradient[3] || 0;
-                                fillAttr = 'angle="' + (90 - Math.atan((y2 - y1) / // y vector
+                                fillAttr_1 = 'angle="' + (90 - Math.atan((y2 - y1) / // y vector
                                     (x2 - x1) // x vector
                                 ) * 180 / Math.PI) + '"';
-                                addFillNode();
+                                addFillNode_1();
                                 // Radial (circular) gradient
                             }
                             else {
                                 var r = gradient.r,
-                                    sizex = r * 2,
-                                    sizey = r * 2,
-                                    cx = gradient.cx,
-                                    cy = gradient.cy,
-                                    radialReference = elem.radialReference,
-                                    bBox,
+                                    sizex_1 = r * 2,
+                                    sizey_1 = r * 2,
+                                    cx_1 = gradient.cx,
+                                    cy_1 = gradient.cy,
+                                    radialReference_1 = elem.radialReference,
+                                    bBox_1,
                                     applyRadialGradient = function () {
-                                        if (radialReference) {
-                                            bBox = wrapper.getBBox();
-                                        cx += (radialReference[0] - bBox.x) /
-                                            bBox.width - 0.5;
-                                        cy += (radialReference[1] - bBox.y) /
-                                            bBox.height - 0.5;
-                                        sizex *= radialReference[2] / bBox.width;
-                                        sizey *= radialReference[2] / bBox.height;
+                                        if (radialReference_1) {
+                                            bBox_1 = wrapper.getBBox();
+                                        cx_1 += (radialReference_1[0] - bBox_1.x) /
+                                            bBox_1.width - 0.5;
+                                        cy_1 += (radialReference_1[1] - bBox_1.y) /
+                                            bBox_1.height - 0.5;
+                                        sizex_1 *= radialReference_1[2] / bBox_1.width;
+                                        sizey_1 *= radialReference_1[2] / bBox_1.height;
                                     }
-                                    fillAttr =
+                                    fillAttr_1 =
                                         'src="' + getOptions().global.VMLRadialGradientURL +
                                             '" ' +
-                                            'size="' + sizex + ',' + sizey + '" ' +
+                                            'size="' + sizex_1 + ',' + sizey_1 + '" ' +
                                             'origin="0.5,0.5" ' +
-                                            'position="' + cx + ',' + cy + '" ' +
-                                            'color2="' + color2 + '" ';
-                                    addFillNode();
+                                            'position="' + cx_1 + ',' + cy_1 + '" ' +
+                                            'color2="' + color2_1 + '" ';
+                                    addFillNode_1();
                                 };
                                 // Apply radial gradient
                                 if (wrapper.added) {
@@ -1024,13 +1170,13 @@
                                 // The fill element's color attribute is broken in IE8
                                 // standards mode, so we need to set the parent shape's
                                 // fillcolor attribute instead.
-                                ret = color1;
+                                ret = color1_1;
                             }
                             // Gradients are not supported for VML stroke, return the first
                             // color. #722.
                         }
                         else {
-                            ret = stopColor;
+                            ret = stopColor_1;
                         }
                         // If the color is an rgba color, split it and add a fill node
                         // to hold the opacity component
@@ -1216,10 +1362,10 @@
                         imgStyle = element.tagName === 'IMG' && element.style; // #1111
                         css(element, {
                             flip: 'x',
-                            left: pInt(parentStyle.width) -
-                                (imgStyle ? pInt(imgStyle.top) : 1),
-                            top: pInt(parentStyle.height) -
-                                (imgStyle ? pInt(imgStyle.left) : 1),
+                            left: (pInt(parentStyle.width) -
+                                (imgStyle ? pInt(imgStyle.top) : 1)) + 'px',
+                            top: (pInt(parentStyle.height) -
+                                (imgStyle ? pInt(imgStyle.left) : 1)) + 'px',
                             rotation: -90
                         });
                     // Recursively invert child elements, needed for nested composite
@@ -1319,9 +1465,12 @@
             H.VMLRenderer = VMLRenderer = function () {
                 this.init.apply(this, arguments);
             };
-            VMLRenderer.prototype = merge(SVGRenderer.prototype, VMLRendererExtension);
+            extend(VMLRenderer.prototype, SVGRenderer.prototype);
+            extend(VMLRenderer.prototype, VMLRendererExtension);
             // general renderer
-            H.Renderer = VMLRenderer;
+            RendererRegistry.registerRendererType('VMLRenderer', VMLRenderer, true);
+            // 3D additions
+            VMLRenderer3D.compose(VMLRenderer, SVGRenderer);
         }
         SVGRenderer.prototype.getSpanWidth = function (wrapper, tspan) {
             var renderer = this,

@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2010-2020 Torstein Honsi
+ *  (c) 2010-2021 Torstein Honsi
  *
  *  License: www.highcharts.com/license
  *
@@ -17,74 +17,14 @@ WIP on vertical scrollable plot area (#9378). To do:
 - API and demos
  */
 'use strict';
+import A from '../Core/Animation/AnimationUtilities.js';
+var stop = A.stop;
+import Axis from '../Core/Axis/Axis.js';
 import Chart from '../Core/Chart/Chart.js';
-import H from '../Core/Globals.js';
+import Series from '../Core/Series/Series.js';
+import RendererRegistry from '../Core/Renderer/RendererRegistry.js';
 import U from '../Core/Utilities.js';
-var addEvent = U.addEvent, createElement = U.createElement, pick = U.pick, stop = U.stop;
-/**
- * Options for a scrollable plot area. This feature provides a minimum size for
- * the plot area of the chart. If the size gets smaller than this, typically
- * on mobile devices, a native browser scrollbar is presented. This scrollbar
- * provides smooth scrolling for the contents of the plot area, whereas the
- * title, legend and unaffected axes are fixed.
- *
- * Since v7.1.2, a scrollable plot area can be defined for either horizontal or
- * vertical scrolling, depending on whether the `minWidth` or `minHeight`
- * option is set.
- *
- * @sample highcharts/chart/scrollable-plotarea
- *         Scrollable plot area
- * @sample highcharts/chart/scrollable-plotarea-vertical
- *         Vertically scrollable plot area
- * @sample {gantt} highcharts/chart/scrollable-plotarea-vertical
- *         Gantt chart with vertically scrollable plot area
- *
- * @since     6.1.0
- * @product   highcharts gantt
- * @apioption chart.scrollablePlotArea
- */
-/**
- * The minimum height for the plot area. If it gets smaller than this, the plot
- * area will become scrollable.
- *
- * @type      {number}
- * @apioption chart.scrollablePlotArea.minHeight
- */
-/**
- * The minimum width for the plot area. If it gets smaller than this, the plot
- * area will become scrollable.
- *
- * @type      {number}
- * @apioption chart.scrollablePlotArea.minWidth
- */
-/**
- * The initial scrolling position of the scrollable plot area. Ranges from 0 to
- * 1, where 0 aligns the plot area to the left and 1 aligns it to the right.
- * Typically we would use 1 if the chart has right aligned Y axes.
- *
- * @type      {number}
- * @apioption chart.scrollablePlotArea.scrollPositionX
- */
-/**
- * The initial scrolling position of the scrollable plot area. Ranges from 0 to
- * 1, where 0 aligns the plot area to the top and 1 aligns it to the bottom.
- *
- * @type      {number}
- * @apioption chart.scrollablePlotArea.scrollPositionY
- */
-/**
- * The opacity of mask applied on one of the sides of the plot
- * area.
- *
- * @sample {highcharts} highcharts/chart/scrollable-plotarea-opacity
- *         Disabled opacity for the mask
- *
- * @type        {number}
- * @default     0.85
- * @since       7.1.1
- * @apioption   chart.scrollablePlotArea.opacity
- */
-''; // detach API doclets
+var addEvent = U.addEvent, createElement = U.createElement, merge = U.merge, pick = U.pick;
 /* eslint-disable no-invalid-this, valid-jsdoc */
 addEvent(Chart, 'afterSetChartSize', function (e) {
     var scrollablePlotArea = this.options.chart.scrollablePlotArea, scrollableMinWidth = scrollablePlotArea && scrollablePlotArea.minWidth, scrollableMinHeight = scrollablePlotArea && scrollablePlotArea.minHeight, scrollablePixelsX, scrollablePixelsY, corrections;
@@ -94,14 +34,13 @@ addEvent(Chart, 'afterSetChartSize', function (e) {
         if (scrollableMinWidth) {
             this.scrollablePixelsX = scrollablePixelsX = Math.max(0, scrollableMinWidth - this.chartWidth);
             if (scrollablePixelsX) {
-                this.plotWidth += scrollablePixelsX;
+                this.scrollablePlotBox = this.renderer.scrollablePlotBox = merge(this.plotBox);
+                this.plotBox.width = this.plotWidth += scrollablePixelsX;
                 if (this.inverted) {
                     this.clipBox.height += scrollablePixelsX;
-                    this.plotBox.height += scrollablePixelsX;
                 }
                 else {
                     this.clipBox.width += scrollablePixelsX;
-                    this.plotBox.width += scrollablePixelsX;
                 }
                 corrections = {
                     // Corrections for right side
@@ -113,14 +52,13 @@ addEvent(Chart, 'afterSetChartSize', function (e) {
         else if (scrollableMinHeight) {
             this.scrollablePixelsY = scrollablePixelsY = Math.max(0, scrollableMinHeight - this.chartHeight);
             if (scrollablePixelsY) {
-                this.plotHeight += scrollablePixelsY;
+                this.scrollablePlotBox = this.renderer.scrollablePlotBox = merge(this.plotBox);
+                this.plotBox.height = this.plotHeight += scrollablePixelsY;
                 if (this.inverted) {
                     this.clipBox.width += scrollablePixelsY;
-                    this.plotBox.width += scrollablePixelsY;
                 }
                 else {
                     this.clipBox.height += scrollablePixelsY;
-                    this.plotBox.height += scrollablePixelsY;
                 }
                 corrections = {
                     2: { name: 'bottom', value: scrollablePixelsY }
@@ -139,7 +77,7 @@ addEvent(Chart, 'afterSetChartSize', function (e) {
                         margin = this[marginName], path;
                         // Temporarily adjust
                         this[marginName] = margin - correctionValue;
-                        path = H.Axis.prototype.getPlotLinePath.apply(this, arguments);
+                        path = Axis.prototype.getPlotLinePath.apply(this, arguments);
                         // Reset
                         this[marginName] = margin;
                         return path;
@@ -172,16 +110,16 @@ addEvent(Chart, 'render', function () {
  */
 Chart.prototype.setUpScrolling = function () {
     var _this = this;
-    var attribs = {
+    var css = {
         WebkitOverflowScrolling: 'touch',
         overflowX: 'hidden',
         overflowY: 'hidden'
     };
     if (this.scrollablePixelsX) {
-        attribs.overflowX = 'auto';
+        css.overflowX = 'auto';
     }
     if (this.scrollablePixelsY) {
-        attribs.overflowY = 'auto';
+        css.overflowY = 'auto';
     }
     // Insert a container with position relative
     // that scrolling and fixed container renders to (#10555)
@@ -193,7 +131,7 @@ Chart.prototype.setUpScrolling = function () {
     // Add the necessary divs to provide scrolling
     this.scrollingContainer = createElement('div', {
         'className': 'highcharts-scrolling'
-    }, attribs, this.scrollingParent);
+    }, css, this.scrollingParent);
     // On scroll, reset the chart position because it applies to the scrolled
     // container
     addEvent(this.scrollingContainer, 'scroll', function () {
@@ -225,6 +163,7 @@ Chart.prototype.moveFixedElements = function () {
         '.highcharts-navigator-yaxis',
         '.highcharts-navigator',
         '.highcharts-reset-zoom',
+        '.highcharts-drillup-button',
         '.highcharts-scrollbar',
         '.highcharts-subtitle',
         '.highcharts-title'
@@ -241,7 +180,9 @@ Chart.prototype.moveFixedElements = function () {
     else if (this.scrollablePixelsY && this.inverted) {
         axisClass = '.highcharts-yaxis';
     }
-    fixedSelectors.push(axisClass, axisClass + '-labels');
+    if (axisClass) {
+        fixedSelectors.push(axisClass + ":not(.highcharts-radial-axis)", axisClass + "-labels:not(.highcharts-radial-axis-labels)");
+    }
     fixedSelectors.forEach(function (className) {
         [].forEach.call(container.querySelectorAll(className), function (elem) {
             (elem.namespaceURI === fixedRenderer.SVG_NS ?
@@ -257,8 +198,8 @@ Chart.prototype.moveFixedElements = function () {
  * @return {void}
  */
 Chart.prototype.applyFixed = function () {
-    var _a, _b;
-    var fixedRenderer, scrollableWidth, scrollableHeight, firstTime = !this.fixedDiv, scrollableOptions = this.options.chart.scrollablePlotArea;
+    var firstTime = !this.fixedDiv, chartOptions = this.options.chart, scrollableOptions = chartOptions.scrollablePlotArea, Renderer = RendererRegistry.getRendererType();
+    var fixedRenderer, scrollableWidth, scrollableHeight;
     // First render
     if (firstTime) {
         this.fixedDiv = createElement('div', {
@@ -267,12 +208,14 @@ Chart.prototype.applyFixed = function () {
             position: 'absolute',
             overflow: 'hidden',
             pointerEvents: 'none',
-            zIndex: 2,
+            zIndex: (chartOptions.style && chartOptions.style.zIndex || 0) + 2,
             top: 0
         }, null, true);
-        (_a = this.scrollingContainer) === null || _a === void 0 ? void 0 : _a.parentNode.insertBefore(this.fixedDiv, this.scrollingContainer);
+        if (this.scrollingContainer) {
+            this.scrollingContainer.parentNode.insertBefore(this.fixedDiv, this.scrollingContainer);
+        }
         this.renderTo.style.overflow = 'visible';
-        this.fixedRenderer = fixedRenderer = new H.Renderer(this.fixedDiv, this.chartWidth, this.chartHeight, (_b = this.options.chart) === null || _b === void 0 ? void 0 : _b.style);
+        this.fixedRenderer = fixedRenderer = new Renderer(this.fixedDiv, this.chartWidth, this.chartHeight, this.options.chart.style);
         // Mask
         this.scrollableMask = fixedRenderer
             .path()
@@ -283,13 +226,17 @@ Chart.prototype.applyFixed = function () {
         })
             .addClass('highcharts-scrollable-mask')
             .add();
-        this.moveFixedElements();
         addEvent(this, 'afterShowResetZoom', this.moveFixedElements);
+        addEvent(this, 'afterDrilldown', this.moveFixedElements);
         addEvent(this, 'afterLayOutTitles', this.moveFixedElements);
     }
     else {
         // Set the size of the fixed renderer to the visible width
         this.fixedRenderer.setSize(this.chartWidth, this.chartHeight);
+    }
+    if (this.scrollableDirty || firstTime) {
+        this.scrollableDirty = false;
+        this.moveFixedElements();
     }
     // Increase the size of the scrollable renderer and background
     scrollableWidth = this.chartWidth + (this.scrollablePixelsX || 0);
@@ -363,3 +310,78 @@ Chart.prototype.applyFixed = function () {
         this.scrollableMask.attr({ d: d });
     }
 };
+addEvent(Axis, 'afterInit', function () {
+    this.chart.scrollableDirty = true;
+});
+addEvent(Series, 'show', function () {
+    this.chart.scrollableDirty = true;
+});
+/* *
+ *
+ *  API Declarations
+ *
+ * */
+/**
+ * Options for a scrollable plot area. This feature provides a minimum size for
+ * the plot area of the chart. If the size gets smaller than this, typically
+ * on mobile devices, a native browser scrollbar is presented. This scrollbar
+ * provides smooth scrolling for the contents of the plot area, whereas the
+ * title, legend and unaffected axes are fixed.
+ *
+ * Since v7.1.2, a scrollable plot area can be defined for either horizontal or
+ * vertical scrolling, depending on whether the `minWidth` or `minHeight`
+ * option is set.
+ *
+ * @sample highcharts/chart/scrollable-plotarea
+ *         Scrollable plot area
+ * @sample highcharts/chart/scrollable-plotarea-vertical
+ *         Vertically scrollable plot area
+ * @sample {gantt} highcharts/chart/scrollable-plotarea-vertical
+ *         Gantt chart with vertically scrollable plot area
+ *
+ * @since     6.1.0
+ * @product   highcharts gantt
+ * @apioption chart.scrollablePlotArea
+ */
+/**
+ * The minimum height for the plot area. If it gets smaller than this, the plot
+ * area will become scrollable.
+ *
+ * @type      {number}
+ * @apioption chart.scrollablePlotArea.minHeight
+ */
+/**
+ * The minimum width for the plot area. If it gets smaller than this, the plot
+ * area will become scrollable.
+ *
+ * @type      {number}
+ * @apioption chart.scrollablePlotArea.minWidth
+ */
+/**
+ * The initial scrolling position of the scrollable plot area. Ranges from 0 to
+ * 1, where 0 aligns the plot area to the left and 1 aligns it to the right.
+ * Typically we would use 1 if the chart has right aligned Y axes.
+ *
+ * @type      {number}
+ * @apioption chart.scrollablePlotArea.scrollPositionX
+ */
+/**
+ * The initial scrolling position of the scrollable plot area. Ranges from 0 to
+ * 1, where 0 aligns the plot area to the top and 1 aligns it to the bottom.
+ *
+ * @type      {number}
+ * @apioption chart.scrollablePlotArea.scrollPositionY
+ */
+/**
+ * The opacity of mask applied on one of the sides of the plot
+ * area.
+ *
+ * @sample {highcharts} highcharts/chart/scrollable-plotarea-opacity
+ *         Disabled opacity for the mask
+ *
+ * @type        {number}
+ * @default     0.85
+ * @since       7.1.1
+ * @apioption   chart.scrollablePlotArea.opacity
+ */
+(''); // keep doclets above in transpiled file

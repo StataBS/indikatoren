@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2010-2020 Torstein Honsi
+ *  (c) 2010-2021 Torstein Honsi
  *
  *  License: www.highcharts.com/license
  *
@@ -10,52 +10,18 @@
 'use strict';
 import Axis from '../Core/Axis/Axis.js';
 import Chart from '../Core/Chart/Chart.js';
+import F from '../Core/FormatUtilities.js';
+var format = F.format;
 import H from '../Core/Globals.js';
+import Series from '../Core/Series/Series.js';
 import StackingAxis from '../Core/Axis/StackingAxis.js';
 import U from '../Core/Utilities.js';
-var correctFloat = U.correctFloat, defined = U.defined, destroyObjectProperties = U.destroyObjectProperties, format = U.format, isNumber = U.isNumber, pick = U.pick;
-/**
- * Stack of data points
+var correctFloat = U.correctFloat, defined = U.defined, destroyObjectProperties = U.destroyObjectProperties, isArray = U.isArray, isNumber = U.isNumber, objectEach = U.objectEach, pick = U.pick;
+/* *
  *
- * @product highcharts
+ *  Class
  *
- * @interface Highcharts.StackItemObject
- */ /**
-* Alignment settings
-* @name Highcharts.StackItemObject#alignOptions
-* @type {Highcharts.AlignObject}
-*/ /**
-* Related axis
-* @name Highcharts.StackItemObject#axis
-* @type {Highcharts.Axis}
-*/ /**
-* Cumulative value of the stacked data points
-* @name Highcharts.StackItemObject#cumulative
-* @type {number}
-*/ /**
-* True if on the negative side
-* @name Highcharts.StackItemObject#isNegative
-* @type {boolean}
-*/ /**
-* Related SVG element
-* @name Highcharts.StackItemObject#label
-* @type {Highcharts.SVGElement}
-*/ /**
-* Related stack options
-* @name Highcharts.StackItemObject#options
-* @type {Highcharts.YAxisStackLabelsOptions}
-*/ /**
-* Total value of the stacked data points
-* @name Highcharts.StackItemObject#total
-* @type {number}
-*/ /**
-* Shared x value of the stack
-* @name Highcharts.StackItemObject#x
-* @type {number}
-*/
-''; // detached doclets above
-import '../Core/Series/Series.js';
-var Series = H.Series;
+ * */
 /* eslint-disable no-invalid-this, valid-jsdoc */
 /**
  * The class for stacks. Each stack, on a specific X value and either negative
@@ -151,7 +117,7 @@ var StackItem = /** @class */ (function () {
             }
         }
         // Rank it higher than data labels (#8742)
-        this.label.labelrank = chart.plotHeight;
+        this.label.labelrank = chart.plotSizeY;
     };
     /**
      * Sets the offset that the stack has from the x value and repositions the
@@ -179,7 +145,7 @@ var StackItem = /** @class */ (function () {
         x = pick(defaultX, chart.xAxis[0].translate(stackItem.x)) +
             xOffset, stackBox = defined(y) && stackItem.getStackBox(chart, stackItem, x, y, xWidth, h, axis), label = stackItem.label, isNegative = stackItem.isNegative, isJustify = pick(stackItem.options.overflow, 'justify') === 'justify', textAlign = stackItem.textAlign, visible;
         if (label && stackBox) {
-            var bBox = label.getBBox(), padding = label.padding, boxOffsetX, boxOffsetY;
+            var bBox = label.getBBox(), padding = label.padding, boxOffsetX = void 0, boxOffsetY = void 0;
             if (textAlign === 'left') {
                 boxOffsetX = chart.inverted ? -padding : padding;
             }
@@ -313,6 +279,7 @@ StackingAxis.compose(Axis);
  * @return {void}
  */
 Series.prototype.setGroupedPoints = function () {
+    var stacking = this.yAxis.stacking;
     if (this.options.centerInCategory &&
         (this.is('column') || this.is('columnrange')) &&
         // With stacking enabled, we already have stacks that we can compute
@@ -321,6 +288,16 @@ Series.prototype.setGroupedPoints = function () {
         // With only one series, we don't need to consider centerInCategory
         this.chart.series.length > 1) {
         Series.prototype.setStackedPoints.call(this, 'group');
+        // After updating, if we now have proper stacks, we must delete the group
+        // pseudo stacks (#14986)
+    }
+    else if (stacking) {
+        objectEach(stacking.stacks, function (type, key) {
+            if (key.slice(-5) === 'group') {
+                objectEach(type, function (stack) { return stack.destroy(); });
+                delete stacking.stacks[key];
+            }
+        });
     }
 };
 /**
@@ -331,9 +308,8 @@ Series.prototype.setGroupedPoints = function () {
  */
 Series.prototype.setStackedPoints = function (stackingParam) {
     var stacking = stackingParam || this.options.stacking;
-    if (!stacking ||
-        (this.visible !== true &&
-            this.chart.options.chart.ignoreHiddenSeries !== false)) {
+    if (!stacking || (this.visible !== true &&
+        this.chart.options.chart.ignoreHiddenSeries !== false)) {
         return;
     }
     var series = this, xData = series.processedXData, yData = series.processedYData, stackedYData = [], yDataLength = yData.length, seriesOptions = series.options, threshold = seriesOptions.threshold, stackThreshold = pick(seriesOptions.startFromThreshold && threshold, 0), stackOption = seriesOptions.stack, stackKey = stackingParam ? series.type + "," + stacking : series.stackKey, negKey = '-' + stackKey, negStacks = series.negStacks, yAxis = series.yAxis, stacks = yAxis.stacking.stacks, oldStacks = yAxis.stacking.oldStacks, stackIndicator, isNegative, stack, other, key, pointKey, i, x, y;
@@ -351,8 +327,7 @@ Series.prototype.setStackedPoints = function (stackingParam) {
         key = isNegative ? negKey : stackKey;
         // Create empty object for this stack if it doesn't exist yet
         if (!stacks[key]) {
-            stacks[key] =
-                {};
+            stacks[key] = {};
         }
         // Initialize StackItem for this x
         if (!stacks[key][x]) {
@@ -406,6 +381,9 @@ Series.prototype.setStackedPoints = function (stackingParam) {
             }
         }
         else if (stacking === 'group') {
+            if (isArray(y)) {
+                y = y[0];
+            }
             // In this stack, the total is the number of valid points
             if (y !== null) {
                 stack.total = (stack.total || 0) + 1;
@@ -466,9 +444,6 @@ Series.prototype.modifyStacks = function () {
  *
  * @private
  * @function Highcharts.Series#percentStacker
- * @param {Array<number>} pointExtremes
- * @param {Highcharts.StackItem} stack
- * @param {number} i
  */
 Series.prototype.percentStacker = function (pointExtremes, stack, i) {
     var totalFactor = stack.total ? 100 / stack.total : 0;
@@ -510,5 +485,50 @@ Series.prototype.getStackIndicator = function (stackIndicator, x, index, key) {
         [index, x, stackIndicator.index].join(',');
     return stackIndicator;
 };
-H.StackItem = StackItem;
+H.StackItem = StackItem; // @todo -> master
+/* *
+ *
+ *  Default Export
+ *
+ * */
 export default H.StackItem;
+/**
+ * Stack of data points
+ *
+ * @product highcharts
+ *
+ * @interface Highcharts.StackItemObject
+ */ /**
+* Alignment settings
+* @name Highcharts.StackItemObject#alignOptions
+* @type {Highcharts.AlignObject}
+*/ /**
+* Related axis
+* @name Highcharts.StackItemObject#axis
+* @type {Highcharts.Axis}
+*/ /**
+* Cumulative value of the stacked data points
+* @name Highcharts.StackItemObject#cumulative
+* @type {number}
+*/ /**
+* True if on the negative side
+* @name Highcharts.StackItemObject#isNegative
+* @type {boolean}
+*/ /**
+* Related SVG element
+* @name Highcharts.StackItemObject#label
+* @type {Highcharts.SVGElement}
+*/ /**
+* Related stack options
+* @name Highcharts.StackItemObject#options
+* @type {Highcharts.YAxisStackLabelsOptions}
+*/ /**
+* Total value of the stacked data points
+* @name Highcharts.StackItemObject#total
+* @type {number}
+*/ /**
+* Shared x value of the stack
+* @name Highcharts.StackItemObject#x
+* @type {number}
+*/
+''; // keeps doclets above in JS file

@@ -1,13 +1,13 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/bullet
  * @requires highcharts
  *
  * Bullet graph series type for Highcharts
  *
- * (c) 2010-2019 Kacper Madej
+ * (c) 2010-2021 Kacper Madej
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Series/BulletSeries.js';
+import '../../Series/Bullet/BulletSeries.js';

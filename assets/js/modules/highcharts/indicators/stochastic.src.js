@@ -1,9 +1,9 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  *
- * Indicator series type for Highstock
+ * Indicator series type for Highcharts Stock
  *
- * (c) 2010-2019 Paweł Fus
+ * (c) 2010-2021 Paweł Fus
  *
  * License: www.highcharts.com/license
  */
@@ -28,68 +28,10 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Mixins/ReduceArray.js', [], function () {
-        /**
-         *
-         *  (c) 2010-2020 Pawel Fus & Daniel Studencki
-         *
-         *  License: www.highcharts.com/license
-         *
-         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
-         *
-         * */
-        var reduceArrayMixin = {
-                /**
-                 * Get min value of array filled by OHLC data.
-                 * @private
-                 * @param {Array<*>} arr Array of OHLC points (arrays).
-                 * @param {string} index Index of "low" value in point array.
-                 * @return {number} Returns min value.
-                 */
-                minInArray: function (arr,
-            index) {
-                    return arr.reduce(function (min,
-            target) {
-                        return Math.min(min,
-            target[index]);
-                }, Number.MAX_VALUE);
-            },
-            /**
-             * Get max value of array filled by OHLC data.
-             * @private
-             * @param {Array<*>} arr Array of OHLC points (arrays).
-             * @param {string} index Index of "high" value in point array.
-             * @return {number} Returns max value.
-             */
-            maxInArray: function (arr, index) {
-                return arr.reduce(function (max, target) {
-                    return Math.max(max, target[index]);
-                }, -Number.MAX_VALUE);
-            },
-            /**
-             * Get extremes of array filled by OHLC data.
-             * @private
-             * @param {Array<*>} arr Array of OHLC points (arrays).
-             * @param {string} minIndex Index of "low" value in point array.
-             * @param {string} maxIndex Index of "high" value in point array.
-             * @return {Array<number,number>} Returns array with min and max value.
-             */
-            getArrayExtremes: function (arr, minIndex, maxIndex) {
-                return arr.reduce(function (prev, target) {
-                    return [
-                        Math.min(prev[0], target[minIndex]),
-                        Math.max(prev[1], target[maxIndex])
-                    ];
-                }, [Number.MAX_VALUE, -Number.MAX_VALUE]);
-            }
-        };
-
-        return reduceArrayMixin;
-    });
     _registerModule(_modules, 'Mixins/MultipleLines.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
         /**
          *
-         *  (c) 2010-2020 Wojciech Chmiel
+         *  (c) 2010-2021 Wojciech Chmiel
          *
          *  License: www.highcharts.com/license
          *
@@ -275,7 +217,65 @@
 
         return multipleLinesMixin;
     });
-    _registerModule(_modules, 'Stock/Indicators/StochasticIndicator.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js'], _modules['Mixins/ReduceArray.js'], _modules['Mixins/MultipleLines.js']], function (H, U, reduceArrayMixin, multipleLinesMixin) {
+    _registerModule(_modules, 'Mixins/ReduceArray.js', [], function () {
+        /**
+         *
+         *  (c) 2010-2021 Pawel Fus & Daniel Studencki
+         *
+         *  License: www.highcharts.com/license
+         *
+         *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
+         *
+         * */
+        var reduceArrayMixin = {
+                /**
+                 * Get min value of array filled by OHLC data.
+                 * @private
+                 * @param {Array<*>} arr Array of OHLC points (arrays).
+                 * @param {string} index Index of "low" value in point array.
+                 * @return {number} Returns min value.
+                 */
+                minInArray: function (arr,
+            index) {
+                    return arr.reduce(function (min,
+            target) {
+                        return Math.min(min,
+            target[index]);
+                }, Number.MAX_VALUE);
+            },
+            /**
+             * Get max value of array filled by OHLC data.
+             * @private
+             * @param {Array<*>} arr Array of OHLC points (arrays).
+             * @param {string} index Index of "high" value in point array.
+             * @return {number} Returns max value.
+             */
+            maxInArray: function (arr, index) {
+                return arr.reduce(function (max, target) {
+                    return Math.max(max, target[index]);
+                }, -Number.MAX_VALUE);
+            },
+            /**
+             * Get extremes of array filled by OHLC data.
+             * @private
+             * @param {Array<*>} arr Array of OHLC points (arrays).
+             * @param {string} minIndex Index of "low" value in point array.
+             * @param {string} maxIndex Index of "high" value in point array.
+             * @return {Array<number,number>} Returns array with min and max value.
+             */
+            getArrayExtremes: function (arr, minIndex, maxIndex) {
+                return arr.reduce(function (prev, target) {
+                    return [
+                        Math.min(prev[0], target[minIndex]),
+                        Math.max(prev[1], target[maxIndex])
+                    ];
+                }, [Number.MAX_VALUE, -Number.MAX_VALUE]);
+            }
+        };
+
+        return reduceArrayMixin;
+    });
+    _registerModule(_modules, 'Stock/Indicators/Stochastic/StochasticIndicator.js', [_modules['Mixins/MultipleLines.js'], _modules['Mixins/ReduceArray.js'], _modules['Core/Series/SeriesRegistry.js'], _modules['Core/Utilities.js']], function (MultipleLinesMixin, ReduceArrayMixin, SeriesRegistry, U) {
         /* *
          *
          *  License: www.highcharts.com/license
@@ -283,11 +283,26 @@
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
-        var isArray = U.isArray,
-            merge = U.merge,
-            seriesType = U.seriesType;
-        var SMA = H.seriesTypes.sma,
-            getArrayExtremes = reduceArrayMixin.getArrayExtremes;
+        var __extends = (this && this.__extends) || (function () {
+                var extendStatics = function (d,
+            b) {
+                    extendStatics = Object.setPrototypeOf ||
+                        ({ __proto__: [] } instanceof Array && function (d,
+            b) { d.__proto__ = b; }) ||
+                        function (d,
+            b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+                return extendStatics(d, b);
+            };
+            return function (d, b) {
+                extendStatics(d, b);
+                function __() { this.constructor = d; }
+                d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+            };
+        })();
+        var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+        var extend = U.extend,
+            isArray = U.isArray,
+            merge = U.merge;
         /**
          * The Stochastic series type.
          *
@@ -297,81 +312,18 @@
          *
          * @augments Highcharts.Series
          */
-        seriesType('stochastic', 'sma', 
-        /**
-         * Stochastic oscillator. This series requires the `linkedTo` option to be
-         * set and should be loaded after the `stock/indicators/indicators.js` file.
-         *
-         * @sample stock/indicators/stochastic
-         *         Stochastic oscillator
-         *
-         * @extends      plotOptions.sma
-         * @since        6.0.0
-         * @product      highstock
-         * @excluding    allAreas, colorAxis, joinBy, keys, navigatorOptions,
-         *               pointInterval, pointIntervalUnit, pointPlacement,
-         *               pointRange, pointStart, showInNavigator, stacking
-         * @requires     stock/indicators/indicators
-         * @requires     stock/indicators/stochastic
-         * @optionparent plotOptions.stochastic
-         */
-        {
-            /**
-             * @excluding index, period
-             */
-            params: {
-                /**
-                 * Periods for Stochastic oscillator: [%K, %D].
-                 *
-                 * @type    {Array<number,number>}
-                 * @default [14, 3]
-                 */
-                periods: [14, 3]
-            },
-            marker: {
-                enabled: false
-            },
-            tooltip: {
-                pointFormat: '<span style="color:{point.color}">\u25CF</span><b> {series.name}</b><br/>%K: {point.y}<br/>%D: {point.smoothed}<br/>'
-            },
-            /**
-             * Smoothed line options.
-             */
-            smoothedLine: {
-                /**
-                 * Styles for a smoothed line.
-                 */
-                styles: {
-                    /**
-                     * Pixel width of the line.
-                     */
-                    lineWidth: 1,
-                    /**
-                     * Color of the line. If not set, it's inherited from
-                     * [plotOptions.stochastic.color
-                     * ](#plotOptions.stochastic.color).
-                     *
-                     * @type {Highcharts.ColorString}
-                     */
-                    lineColor: void 0
-                }
-            },
-            dataGrouping: {
-                approximation: 'averages'
+        var StochasticIndicator = /** @class */ (function (_super) {
+                __extends(StochasticIndicator, _super);
+            function StochasticIndicator() {
+                var _this = _super !== null && _super.apply(this,
+                    arguments) || this;
+                _this.data = void 0;
+                _this.options = void 0;
+                _this.points = void 0;
+                return _this;
             }
-        }, 
-        /**
-         * @lends Highcharts.Series#
-         */
-        merge(multipleLinesMixin, {
-            nameComponents: ['periods'],
-            nameBase: 'Stochastic',
-            pointArrayMap: ['y', 'smoothed'],
-            parallelArrays: ['x', 'y', 'smoothed'],
-            pointValKey: 'y',
-            linesApiNames: ['smoothedLine'],
-            init: function () {
-                SMA.prototype.init.apply(this, arguments);
+            StochasticIndicator.prototype.init = function () {
+                SeriesRegistry.seriesTypes.sma.prototype.init.apply(this, arguments);
                 // Set default color for lines:
                 this.options = merge({
                     smoothedLine: {
@@ -380,8 +332,8 @@
                         }
                     }
                 }, this.options);
-            },
-            getValues: function (series, params) {
+            };
+            StochasticIndicator.prototype.getValues = function (series, params) {
                 var periodK = params.periods[0],
                     periodD = params.periods[1],
                     xVal = series.xData,
@@ -415,7 +367,7 @@
                 for (i = periodK - 1; i < yValLen; i++) {
                     slicedY = yVal.slice(i - periodK + 1, i + 1);
                     // Calculate %K
-                    extremes = getArrayExtremes(slicedY, low, high);
+                    extremes = ReduceArrayMixin.getArrayExtremes(slicedY, low, high);
                     LL = extremes[0]; // Lowest low in %K periods
                     CL = yVal[i][close] - LL;
                     HL = extremes[1] - LL;
@@ -424,7 +376,7 @@
                     yData.push([K, null]);
                     // Calculate smoothed %D, which is SMA of %K
                     if (i >= (periodK - 1) + (periodD - 1)) {
-                        points = SMA.prototype.getValues.call(this, {
+                        points = SeriesRegistry.seriesTypes.sma.prototype.getValues.call(this, {
                             xData: xData.slice(-periodD),
                             yData: yData.slice(-periodD)
                         }, {
@@ -440,8 +392,92 @@
                     xData: xData,
                     yData: yData
                 };
-            }
-        }));
+            };
+            /**
+             * Stochastic oscillator. This series requires the `linkedTo` option to be
+             * set and should be loaded after the `stock/indicators/indicators.js` file.
+             *
+             * @sample stock/indicators/stochastic
+             *         Stochastic oscillator
+             *
+             * @extends      plotOptions.sma
+             * @since        6.0.0
+             * @product      highstock
+             * @excluding    allAreas, colorAxis, joinBy, keys, navigatorOptions,
+             *               pointInterval, pointIntervalUnit, pointPlacement,
+             *               pointRange, pointStart, showInNavigator, stacking
+             * @requires     stock/indicators/indicators
+             * @requires     stock/indicators/stochastic
+             * @optionparent plotOptions.stochastic
+             */
+            StochasticIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+                /**
+                 * @excluding index, period
+                 */
+                params: {
+                    // Index and period are unchangeable, do not inherit (#15362)
+                    index: void 0,
+                    period: void 0,
+                    /**
+                     * Periods for Stochastic oscillator: [%K, %D].
+                     *
+                     * @type    {Array<number,number>}
+                     * @default [14, 3]
+                     */
+                    periods: [14, 3]
+                },
+                marker: {
+                    enabled: false
+                },
+                tooltip: {
+                    pointFormat: '<span style="color:{point.color}">\u25CF</span><b> {series.name}</b><br/>%K: {point.y}<br/>%D: {point.smoothed}<br/>'
+                },
+                /**
+                 * Smoothed line options.
+                 */
+                smoothedLine: {
+                    /**
+                     * Styles for a smoothed line.
+                     */
+                    styles: {
+                        /**
+                         * Pixel width of the line.
+                         */
+                        lineWidth: 1,
+                        /**
+                         * Color of the line. If not set, it's inherited from
+                         * [plotOptions.stochastic.color
+                         * ](#plotOptions.stochastic.color).
+                         *
+                         * @type {Highcharts.ColorString}
+                         */
+                        lineColor: void 0
+                    }
+                },
+                dataGrouping: {
+                    approximation: 'averages'
+                }
+            });
+            return StochasticIndicator;
+        }(SMAIndicator));
+        extend(StochasticIndicator.prototype, {
+            nameComponents: ['periods'],
+            nameBase: 'Stochastic',
+            pointArrayMap: ['y', 'smoothed'],
+            parallelArrays: ['x', 'y', 'smoothed'],
+            pointValKey: 'y',
+            linesApiNames: ['smoothedLine'],
+            drawGraph: MultipleLinesMixin.drawGraph,
+            getTranslatedLinesNames: MultipleLinesMixin.getTranslatedLinesNames,
+            translate: MultipleLinesMixin.translate,
+            toYData: MultipleLinesMixin.toYData
+        });
+        SeriesRegistry.registerSeriesType('stochastic', StochasticIndicator);
+        /* *
+         *
+         *  Default Export
+         *
+         * */
         /**
          * A Stochastic indicator. If the [type](#series.stochastic.type) option is not
          * specified, it is inherited from [chart.type](#chart.type).
@@ -458,6 +494,7 @@
          */
         ''; // to include the above in the js output
 
+        return StochasticIndicator;
     });
     _registerModule(_modules, 'masters/indicators/stochastic.src.js', [], function () {
 

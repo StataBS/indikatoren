@@ -1,9 +1,9 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  *
- * Indicator series type for Highstock
+ * Indicator series type for Highcharts Stock
  *
- * (c) 2010-2019 Paweł Fus
+ * (c) 2010-2021 Paweł Fus
  *
  * License: www.highcharts.com/license
  */
@@ -28,7 +28,7 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Stock/Indicators/RSIIndicator.js', [_modules['Core/Utilities.js']], function (U) {
+    _registerModule(_modules, 'Stock/Indicators/RSI/RSIIndicator.js', [_modules['Core/Series/SeriesRegistry.js'], _modules['Core/Utilities.js']], function (SeriesRegistry, U) {
         /* *
          *
          *  License: www.highcharts.com/license
@@ -36,8 +36,25 @@
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
-        var isArray = U.isArray,
-            seriesType = U.seriesType;
+        var __extends = (this && this.__extends) || (function () {
+                var extendStatics = function (d,
+            b) {
+                    extendStatics = Object.setPrototypeOf ||
+                        ({ __proto__: [] } instanceof Array && function (d,
+            b) { d.__proto__ = b; }) ||
+                        function (d,
+            b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+                return extendStatics(d, b);
+            };
+            return function (d, b) {
+                extendStatics(d, b);
+                function __() { this.constructor = d; }
+                d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+            };
+        })();
+        var SMAIndicator = SeriesRegistry.seriesTypes.sma;
+        var isNumber = U.isNumber,
+            merge = U.merge;
         /* eslint-disable require-jsdoc */
         // Utils:
         function toFixed(a, n) {
@@ -53,39 +70,27 @@
          *
          * @augments Highcharts.Series
          */
-        seriesType('rsi', 'sma', 
-        /**
-         * Relative strength index (RSI) technical indicator. This series
-         * requires the `linkedTo` option to be set and should be loaded after
-         * the `stock/indicators/indicators.js` file.
-         *
-         * @sample stock/indicators/rsi
-         *         RSI indicator
-         *
-         * @extends      plotOptions.sma
-         * @since        6.0.0
-         * @product      highstock
-         * @requires     stock/indicators/indicators
-         * @requires     stock/indicators/rsi
-         * @optionparent plotOptions.rsi
-         */
-        {
-            /**
-             * @excluding index
-             */
-            params: {
-                period: 14,
-                /**
-                 * Number of maximum decimals that are used in RSI calculations.
-                 */
-                decimals: 4
+        var RSIIndicator = /** @class */ (function (_super) {
+                __extends(RSIIndicator, _super);
+            function RSIIndicator() {
+                var _this = _super !== null && _super.apply(this,
+                    arguments) || this;
+                /* *
+                 *
+                 *  Properties
+                 *
+                 * */
+                _this.data = void 0;
+                _this.points = void 0;
+                _this.options = void 0;
+                return _this;
             }
-        }, 
-        /**
-         * @lends Highcharts.Series#
-         */
-        {
-            getValues: function (series, params) {
+            /* *
+             *
+             *  Functions
+             *
+             * */
+            RSIIndicator.prototype.getValues = function (series, params) {
                 var period = params.period,
                     xVal = series.xData,
                     yVal = series.yData,
@@ -97,22 +102,31 @@
                     RSI = [],
                     xData = [],
                     yData = [],
-                    index = 3,
+                    index = params.index,
                     gain = 0,
                     loss = 0,
                     RSIPoint,
                     change,
                     avgGain,
                     avgLoss,
-                    i;
-                // RSI requires close value
-                if ((xVal.length < period) || !isArray(yVal[0]) ||
-                    yVal[0].length !== 4) {
+                    i,
+                    values;
+                if ((xVal.length < period)) {
                     return;
+                }
+                if (isNumber(yVal[0])) {
+                    values = yVal;
+                }
+                else {
+                    // in case of the situation, where the series type has data length
+                    // longer then 4 (HLC, range), this ensures that we are not trying
+                    // to reach the index out of bounds
+                    index = Math.min(index, yVal[0].length - 1);
+                    values = yVal.map(function (value) { return value[index]; });
                 }
                 // Calculate changes for first N points
                 while (range < period) {
-                    change = toFixed(yVal[range][index] - yVal[range - 1][index], decimals);
+                    change = toFixed(values[range] - values[range - 1], decimals);
                     if (change > 0) {
                         gain += change;
                     }
@@ -125,7 +139,7 @@
                 avgGain = toFixed(gain / (period - 1), decimals);
                 avgLoss = toFixed(loss / (period - 1), decimals);
                 for (i = range; i < yValLen; i++) {
-                    change = toFixed(yVal[i][index] - yVal[i - 1][index], decimals);
+                    change = toFixed(values[i] - values[i - 1], decimals);
                     if (change > 0) {
                         gain = change;
                         loss = 0;
@@ -159,8 +173,36 @@
                     xData: xData,
                     yData: yData
                 };
-            }
-        });
+            };
+            /**
+             * Relative strength index (RSI) technical indicator. This series
+             * requires the `linkedTo` option to be set and should be loaded after
+             * the `stock/indicators/indicators.js` file.
+             *
+             * @sample stock/indicators/rsi
+             *         RSI indicator
+             *
+             * @extends      plotOptions.sma
+             * @since        6.0.0
+             * @product      highstock
+             * @requires     stock/indicators/indicators
+             * @requires     stock/indicators/rsi
+             * @optionparent plotOptions.rsi
+             */
+            RSIIndicator.defaultOptions = merge(SMAIndicator.defaultOptions, {
+                params: {
+                    decimals: 4,
+                    index: 3
+                }
+            });
+            return RSIIndicator;
+        }(SMAIndicator));
+        SeriesRegistry.registerSeriesType('rsi', RSIIndicator);
+        /* *
+         *
+         *  Default Export
+         *
+         * */
         /**
          * A `RSI` series. If the [type](#series.rsi.type) option is not
          * specified, it is inherited from [chart.type](#chart.type).
@@ -175,6 +217,7 @@
          */
         ''; // to include the above in the js output
 
+        return RSIIndicator;
     });
     _registerModule(_modules, 'masters/indicators/rsi.src.js', [], function () {
 

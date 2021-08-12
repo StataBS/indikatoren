@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2009-2020 Øystein Moseng
+ *  (c) 2009-2021 Øystein Moseng
  *
  *  Handle keyboard navigation for series.
  *
@@ -11,25 +11,29 @@
  * */
 'use strict';
 import Chart from '../../../Core/Chart/Chart.js';
-import H from '../../../Core/Globals.js';
 import Point from '../../../Core/Series/Point.js';
+import Series from '../../../Core/Series/Series.js';
+import SeriesRegistry from '../../../Core/Series/SeriesRegistry.js';
+var seriesTypes = SeriesRegistry.seriesTypes;
+import H from '../../../Core/Globals.js';
+var doc = H.doc;
 import U from '../../../Core/Utilities.js';
-var defined = U.defined, extend = U.extend;
+var defined = U.defined, extend = U.extend, fireEvent = U.fireEvent;
 import KeyboardNavigationHandler from '../../KeyboardNavigationHandler.js';
 import EventProvider from '../../Utils/EventProvider.js';
 import ChartUtilities from '../../Utils/ChartUtilities.js';
 var getPointFromXY = ChartUtilities.getPointFromXY, getSeriesFromName = ChartUtilities.getSeriesFromName, scrollToPoint = ChartUtilities.scrollToPoint;
-import '../../../Series/ColumnSeries.js';
-import '../../../Series/PieSeries.js';
+import '../../../Series/Column/ColumnSeries.js';
+import '../../../Series/Pie/PieSeries.js';
 /* eslint-disable no-invalid-this, valid-jsdoc */
 /*
  * Set for which series types it makes sense to move to the closest point with
  * up/down arrows, and which series types should just move to next series.
  */
-H.Series.prototype.keyboardMoveVertical = true;
+Series.prototype.keyboardMoveVertical = true;
 ['column', 'pie'].forEach(function (type) {
-    if (H.seriesTypes[type]) {
-        H.seriesTypes[type].prototype.keyboardMoveVertical = false;
+    if (seriesTypes[type]) {
+        seriesTypes[type].prototype.keyboardMoveVertical = false;
     }
 });
 /**
@@ -46,7 +50,8 @@ H.Series.prototype.keyboardMoveVertical = true;
  *         The index in the series.points array of the point.
  */
 function getPointIndex(point) {
-    var index = point.index, points = point.series.points, i = points.length;
+    var index = point.index, points = point.series.points;
+    var i = points.length;
     if (points[index] !== point) {
         while (i--) {
             if (points[i] === point) {
@@ -92,9 +97,13 @@ function isSkipSeries(series) {
  */
 function isSkipPoint(point) {
     var a11yOptions = point.series.chart.options.accessibility;
+    var pointA11yDisabled = (point.options.accessibility &&
+        point.options.accessibility.enabled === false);
     return point.isNull &&
         a11yOptions.keyboardNavigation.seriesNavigation.skipNullPoints ||
         point.visible === false ||
+        point.isInside === false ||
+        pointA11yDisabled ||
         isSkipSeries(point.series);
 }
 /**
@@ -112,7 +121,8 @@ function isSkipPoint(point) {
  * @return {Highcharts.Point|undefined}
  */
 function getClosestPoint(point, series, xWeight, yWeight) {
-    var minDistance = Infinity, dPoint, minIx, distance, i = series.points.length, hasUndefinedPosition = function (point) {
+    var minDistance = Infinity, dPoint, minIx, distance, i = series.points.length;
+    var hasUndefinedPosition = function (point) {
         return !(defined(point.plotX) && defined(point.plotY));
     };
     if (hasUndefinedPosition(point)) {
@@ -180,7 +190,8 @@ Point.prototype.highlight = function () {
  */
 Chart.prototype.highlightAdjacentPoint = function (next) {
     var chart = this, series = chart.series, curPoint = chart.highlightedPoint, curPointIndex = curPoint && getPointIndex(curPoint) || 0, curPoints = (curPoint && curPoint.series.points), lastSeries = chart.series && chart.series[chart.series.length - 1], lastPoint = lastSeries && lastSeries.points &&
-        lastSeries.points[lastSeries.points.length - 1], newSeries, newPoint;
+        lastSeries.points[lastSeries.points.length - 1];
+    var newSeries, newPoint;
     // If no points, return false
     if (!series[0] || !series[0].points) {
         return false;
@@ -234,7 +245,7 @@ Chart.prototype.highlightAdjacentPoint = function (next) {
  *
  * @return {boolean|Highcharts.Point}
  */
-H.Series.prototype.highlightFirstValidPoint = function () {
+Series.prototype.highlightFirstValidPoint = function () {
     var curPoint = this.chart.highlightedPoint, start = (curPoint && curPoint.series) === this ?
         getPointIndex(curPoint) :
         0, points = this.points, len = points.length;
@@ -264,8 +275,9 @@ H.Series.prototype.highlightFirstValidPoint = function () {
  * @return {Highcharts.Point|boolean}
  */
 Chart.prototype.highlightAdjacentSeries = function (down) {
-    var chart = this, newSeries, newPoint, adjacentNewPoint, curPoint = chart.highlightedPoint, lastSeries = chart.series && chart.series[chart.series.length - 1], lastPoint = lastSeries && lastSeries.points &&
+    var chart = this, curPoint = chart.highlightedPoint, lastSeries = chart.series && chart.series[chart.series.length - 1], lastPoint = lastSeries && lastSeries.points &&
         lastSeries.points[lastSeries.points.length - 1];
+    var newSeries, newPoint, adjacentNewPoint;
     // If no point is highlighted, highlight the first/last point
     if (!chart.highlightedPoint) {
         newSeries = down ? (chart.series && chart.series[0]) : lastSeries;
@@ -311,7 +323,8 @@ Chart.prototype.highlightAdjacentSeries = function (down) {
  * @return {Highcharts.Point|boolean}
  */
 Chart.prototype.highlightAdjacentPointVertical = function (down) {
-    var curPoint = this.highlightedPoint, minDistance = Infinity, bestPoint;
+    var curPoint = this.highlightedPoint;
+    var minDistance = Infinity, bestPoint;
     if (!defined(curPoint.plotX) || !defined(curPoint.plotY)) {
         return false;
     }
@@ -324,7 +337,8 @@ Chart.prototype.highlightAdjacentPointVertical = function (down) {
                 point === curPoint) {
                 return;
             }
-            var yDistance = point.plotY - curPoint.plotY, width = Math.abs(point.plotX - curPoint.plotX), distance = Math.abs(yDistance) * Math.abs(yDistance) +
+            var yDistance = point.plotY - curPoint.plotY;
+            var width = Math.abs(point.plotX - curPoint.plotX), distance = Math.abs(yDistance) * Math.abs(yDistance) +
                 width * width * 4; // Weigh horizontal distance highly
             // Reverse distance number if axis is reversed
             if (series.yAxis && series.yAxis.reversed) {
@@ -362,7 +376,8 @@ function highlightFirstValidPointInChart(chart) {
  * @return {Highcharts.Point|boolean}
  */
 function highlightLastValidPointInChart(chart) {
-    var numSeries = chart.series.length, i = numSeries, res = false;
+    var numSeries = chart.series.length;
+    var i = numSeries, res = false;
     while (i--) {
         chart.highlightedPoint = chart.series[i].points[chart.series[i].points.length - 1];
         // Highlight first valid point in the series will also
@@ -400,7 +415,7 @@ extend(SeriesKeyboardNavigation.prototype, /** @lends Highcharts.SeriesKeyboardN
      */
     init: function () {
         var keyboardNavigation = this, chart = this.chart, e = this.eventProvider = new EventProvider();
-        e.addEvent(H.Series, 'destroy', function () {
+        e.addEvent(Series, 'destroy', function () {
             return keyboardNavigation.onSeriesDestroy(this);
         });
         e.addEvent(chart, 'afterDrilldown', function () {
@@ -419,11 +434,24 @@ extend(SeriesKeyboardNavigation.prototype, /** @lends Highcharts.SeriesKeyboardN
                 keyboardNavigation.onDrillupAll();
             }, 10);
         });
+        // Heatmaps et al. alter z-index in setState, causing elements
+        // to lose focus
+        e.addEvent(Point, 'afterSetState', function () {
+            var point = this;
+            var pointEl = point.graphic && point.graphic.element;
+            if (chart.highlightedPoint === point &&
+                doc.activeElement !== pointEl &&
+                pointEl &&
+                pointEl.focus) {
+                pointEl.focus();
+            }
+        });
     },
     onDrillupAll: function () {
         // After drillup we want to find the point that was drilled down to and
         // highlight it.
-        var last = this.lastDrilledDownPoint, chart = this.chart, series = last && getSeriesFromName(chart, last.seriesName), point;
+        var last = this.lastDrilledDownPoint, chart = this.chart, series = last && getSeriesFromName(chart, last.seriesName);
+        var point;
         if (last && series && defined(last.x) && defined(last.y)) {
             point = getPointFromXY(series, last.x, last.y);
         }
@@ -451,9 +479,12 @@ extend(SeriesKeyboardNavigation.prototype, /** @lends Highcharts.SeriesKeyboardN
                 [inverted ? [keys.left, keys.right] : [keys.up, keys.down], function (keyCode) {
                         return keyboardNavigation.onKbdVertical(this, keyCode);
                     }],
-                [[keys.enter, keys.space], function () {
-                        if (chart.highlightedPoint) {
-                            chart.highlightedPoint.firePointEvent('click');
+                [[keys.enter, keys.space], function (keyCode, event) {
+                        var point = chart.highlightedPoint;
+                        if (point) {
+                            event.point = point;
+                            fireEvent(point.series, 'click', event);
+                            point.firePointEvent('click');
                         }
                         return this.response.success;
                     }]
@@ -520,11 +551,17 @@ extend(SeriesKeyboardNavigation.prototype, /** @lends Highcharts.SeriesKeyboardN
      * @private
      */
     onHandlerTerminate: function () {
-        var _a, _b;
         var chart = this.chart;
-        var curPoint = chart.highlightedPoint;
-        (_a = chart.tooltip) === null || _a === void 0 ? void 0 : _a.hide(0);
-        (_b = curPoint === null || curPoint === void 0 ? void 0 : curPoint.onMouseOut) === null || _b === void 0 ? void 0 : _b.call(curPoint);
+        if (chart.tooltip) {
+            chart.tooltip.hide(0);
+        }
+        var hoverSeries = chart.highlightedPoint && chart.highlightedPoint.series;
+        if (hoverSeries && hoverSeries.onMouseOut) {
+            hoverSeries.onMouseOut();
+        }
+        if (chart.highlightedPoint && chart.highlightedPoint.onMouseOut) {
+            chart.highlightedPoint.onMouseOut();
+        }
         delete chart.highlightedPoint;
     },
     /**

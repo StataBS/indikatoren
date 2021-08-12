@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2010-2020 Torstein Honsi
+ *  (c) 2010-2021 Torstein Honsi
  *
  *  License: www.highcharts.com/license
  *
@@ -8,229 +8,30 @@
  *
  * */
 'use strict';
-import Color from '../../Color.js';
+import AST from '../HTML/AST.js';
+import Color from '../../Color/Color.js';
 import H from '../../Globals.js';
+var charts = H.charts, deg2rad = H.deg2rad, doc = H.doc, isFirefox = H.isFirefox, isMS = H.isMS, isWebKit = H.isWebKit, noop = H.noop, SVG_NS = H.SVG_NS, symbolSizes = H.symbolSizes, win = H.win;
+import Palette from '../../Color/Palette.js';
+import RendererRegistry from '../RendererRegistry.js';
 import SVGElement from './SVGElement.js';
 import SVGLabel from './SVGLabel.js';
+import Symbols from './Symbols.js';
+import TextBuilder from './TextBuilder.js';
 import U from '../../Utilities.js';
-var addEvent = U.addEvent, attr = U.attr, createElement = U.createElement, css = U.css, defined = U.defined, destroyObjectProperties = U.destroyObjectProperties, extend = U.extend, isArray = U.isArray, isNumber = U.isNumber, isObject = U.isObject, isString = U.isString, merge = U.merge, objectEach = U.objectEach, pick = U.pick, pInt = U.pInt, splat = U.splat, uniqueKey = U.uniqueKey;
-/**
- * A clipping rectangle that can be applied to one or more {@link SVGElement}
- * instances. It is instanciated with the {@link SVGRenderer#clipRect} function
- * and applied with the {@link SVGElement#clip} function.
+var addEvent = U.addEvent, attr = U.attr, createElement = U.createElement, css = U.css, defined = U.defined, destroyObjectProperties = U.destroyObjectProperties, extend = U.extend, isArray = U.isArray, isNumber = U.isNumber, isObject = U.isObject, isString = U.isString, merge = U.merge, pick = U.pick, pInt = U.pInt, uniqueKey = U.uniqueKey;
+/* *
  *
- * @example
- * var circle = renderer.circle(100, 100, 100)
- *     .attr({ fill: 'red' })
- *     .add();
- * var clipRect = renderer.clipRect(100, 100, 100, 100);
+ *  Variables
  *
- * // Leave only the lower right quarter visible
- * circle.clip(clipRect);
+ * */
+var hasInternalReferenceBug;
+/* *
  *
- * @typedef {Highcharts.SVGElement} Highcharts.ClipRectElement
- */
-/**
- * The font metrics.
+ *  Class
  *
- * @interface Highcharts.FontMetricsObject
- */ /**
-* The baseline relative to the top of the box.
-*
-* @name Highcharts.FontMetricsObject#b
-* @type {number}
-*/ /**
-* The font size.
-*
-* @name Highcharts.FontMetricsObject#f
-* @type {number}
-*/ /**
-* The line height.
-*
-* @name Highcharts.FontMetricsObject#h
-* @type {number}
-*/
-/**
- * An object containing `x` and `y` properties for the position of an element.
- *
- * @interface Highcharts.PositionObject
- */ /**
-* X position of the element.
-* @name Highcharts.PositionObject#x
-* @type {number}
-*/ /**
-* Y position of the element.
-* @name Highcharts.PositionObject#y
-* @type {number}
-*/
-/**
- * A rectangle.
- *
- * @interface Highcharts.RectangleObject
- */ /**
-* Height of the rectangle.
-* @name Highcharts.RectangleObject#height
-* @type {number}
-*/ /**
-* Width of the rectangle.
-* @name Highcharts.RectangleObject#width
-* @type {number}
-*/ /**
-* Horizontal position of the rectangle.
-* @name Highcharts.RectangleObject#x
-* @type {number}
-*/ /**
-* Vertical position of the rectangle.
-* @name Highcharts.RectangleObject#y
-* @type {number}
-*/
-/**
- * The shadow options.
- *
- * @interface Highcharts.ShadowOptionsObject
- */ /**
-* The shadow color.
-* @name    Highcharts.ShadowOptionsObject#color
-* @type    {Highcharts.ColorString|undefined}
-* @default #000000
-*/ /**
-* The horizontal offset from the element.
-*
-* @name    Highcharts.ShadowOptionsObject#offsetX
-* @type    {number|undefined}
-* @default 1
-*/ /**
-* The vertical offset from the element.
-* @name    Highcharts.ShadowOptionsObject#offsetY
-* @type    {number|undefined}
-* @default 1
-*/ /**
-* The shadow opacity.
-*
-* @name    Highcharts.ShadowOptionsObject#opacity
-* @type    {number|undefined}
-* @default 0.15
-*/ /**
-* The shadow width or distance from the element.
-* @name    Highcharts.ShadowOptionsObject#width
-* @type    {number|undefined}
-* @default 3
-*/
-/**
- * @interface Highcharts.SizeObject
- */ /**
-* @name Highcharts.SizeObject#height
-* @type {number}
-*/ /**
-* @name Highcharts.SizeObject#width
-* @type {number}
-*/
-/**
- * Serialized form of an SVG definition, including children. Some key
- * property names are reserved: tagName, textContent, and children.
- *
- * @interface Highcharts.SVGDefinitionObject
- */ /**
-* @name Highcharts.SVGDefinitionObject#[key:string]
-* @type {boolean|number|string|Array<Highcharts.SVGDefinitionObject>|undefined}
-*/ /**
-* @name Highcharts.SVGDefinitionObject#children
-* @type {Array<Highcharts.SVGDefinitionObject>|undefined}
-*/ /**
-* @name Highcharts.SVGDefinitionObject#tagName
-* @type {string|undefined}
-*/ /**
-* @name Highcharts.SVGDefinitionObject#textContent
-* @type {string|undefined}
-*/
-/**
- * Array of path commands, that will go into the `d` attribute of an SVG
- * element.
- *
- * @typedef {Array<(Array<Highcharts.SVGPathCommand>|Array<Highcharts.SVGPathCommand,number>|Array<Highcharts.SVGPathCommand,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number,number,number,number>)>} Highcharts.SVGPathArray
- */
-/**
- * Possible path commands in an SVG path array. Valid values are `A`, `C`, `H`,
- * `L`, `M`, `Q`, `S`, `T`, `V`, `Z`.
- *
- * @typedef {string} Highcharts.SVGPathCommand
- * @validvalue ["a","c","h","l","m","q","s","t","v","z","A","C","H","L","M","Q","S","T","V","Z"]
- */
-/**
- * An extendable collection of functions for defining symbol paths. Symbols are
- * used internally for point markers, button and label borders and backgrounds,
- * or custom shapes. Extendable by adding to {@link SVGRenderer#symbols}.
- *
- * @interface Highcharts.SymbolDictionary
- */ /**
-* @name Highcharts.SymbolDictionary#[key:string]
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#arc
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#callout
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#circle
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#diamond
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#square
-* @type {Function|undefined}
-*/ /**
-* @name Highcharts.SymbolDictionary#triangle
-* @type {Function|undefined}
-*/
-/**
- * Can be one of `arc`, `callout`, `circle`, `diamond`, `square`, `triangle`,
- * and `triangle-down`. Symbols are used internally for point markers, button
- * and label borders and backgrounds, or custom shapes. Extendable by adding to
- * {@link SVGRenderer#symbols}.
- *
- * @typedef {"arc"|"callout"|"circle"|"diamond"|"square"|"triangle"|"triangle-down"} Highcharts.SymbolKeyValue
- */
-/**
- * Additional options, depending on the actual symbol drawn.
- *
- * @interface Highcharts.SymbolOptionsObject
- */ /**
-* The anchor X position for the `callout` symbol. This is where the chevron
-* points to.
-*
-* @name Highcharts.SymbolOptionsObject#anchorX
-* @type {number|undefined}
-*/ /**
-* The anchor Y position for the `callout` symbol. This is where the chevron
-* points to.
-*
-* @name Highcharts.SymbolOptionsObject#anchorY
-* @type {number|undefined}
-*/ /**
-* The end angle of an `arc` symbol.
-*
-* @name Highcharts.SymbolOptionsObject#end
-* @type {number|undefined}
-*/ /**
-* Whether to draw `arc` symbol open or closed.
-*
-* @name Highcharts.SymbolOptionsObject#open
-* @type {boolean|undefined}
-*/ /**
-* The radius of an `arc` symbol, or the border radius for the `callout` symbol.
-*
-* @name Highcharts.SymbolOptionsObject#r
-* @type {number|undefined}
-*/ /**
-* The start angle of an `arc` symbol.
-*
-* @name Highcharts.SymbolOptionsObject#start
-* @type {number|undefined}
-*/
+ * */
 /* eslint-disable no-invalid-this, valid-jsdoc */
-var charts = H.charts, deg2rad = H.deg2rad, doc = H.doc, isFirefox = H.isFirefox, isMS = H.isMS, isWebKit = H.isWebKit, noop = H.noop, svg = H.svg, SVG_NS = H.SVG_NS, symbolSizes = H.symbolSizes, win = H.win;
 /**
  * Allows direct access to the Highcharts rendering layer in order to draw
  * primitive shapes like circles, rectangles, paths or text directly on a chart,
@@ -248,7 +49,7 @@ var charts = H.charts, deg2rad = H.deg2rad, doc = H.doc, isFirefox = H.isFirefox
  *
  * @example
  * // Use directly without a chart object.
- * var renderer = new Highcharts.Renderer(parentNode, 600, 400);
+ * let renderer = new Highcharts.Renderer(parentNode, 600, 400);
  *
  * @class
  * @name Highcharts.SVGRenderer
@@ -368,16 +169,15 @@ var SVGRenderer = /** @class */ (function () {
      * not when set explicitly through `.attr` and `.css` etc.
      */
     SVGRenderer.prototype.init = function (container, width, height, style, forExport, allowHTML, styledMode) {
-        var renderer = this, boxWrapper, element, desc;
-        boxWrapper = renderer.createElement('svg')
+        var renderer = this, boxWrapper = renderer
+            .createElement('svg')
             .attr({
             version: '1.1',
             'class': 'highcharts-root'
-        });
+        }), element = boxWrapper.element;
         if (!styledMode) {
             boxWrapper.css(this.getStyle(style));
         }
-        element = boxWrapper.element;
         container.appendChild(element);
         // Always use ltr on the container, otherwise text-anchor will be
         // flipped and text appear outside labels, buttons, tooltip etc (#3482)
@@ -391,20 +191,10 @@ var SVGRenderer = /** @class */ (function () {
         this.box = element;
         this.boxWrapper = boxWrapper;
         renderer.alignedObjects = [];
-        // #24, #672, #1070
-        this.url = ((isFirefox || isWebKit) &&
-            doc.getElementsByTagName('base').length) ?
-            win.location.href
-                .split('#')[0] // remove the hash
-                .replace(/<[^>]*>/g, '') // wing cut HTML
-                // escape parantheses and quotes
-                .replace(/([\('\)])/g, '\\$1')
-                // replace spaces (needed for Safari only)
-                .replace(/ /g, '%20') :
-            '';
+        this.url = this.getReferenceURL();
         // Add description
-        desc = this.createElement('desc').add();
-        desc.element.appendChild(doc.createTextNode('Created with Highcharts 8.2.0'));
+        var desc = this.createElement('desc').add();
+        desc.element.appendChild(doc.createTextNode('Created with Highcharts 9.1.2'));
         renderer.defs = this.createElement('defs').add();
         renderer.allowHTML = allowHTML;
         renderer.forExport = forExport;
@@ -447,46 +237,102 @@ var SVGRenderer = /** @class */ (function () {
      *
      * @function Highcharts.SVGRenderer#definition
      *
-     * @param {Highcharts.SVGDefinitionObject} def
+     * @param {Highcharts.ASTNode} def
      * A serialized form of an SVG definition, including children.
      *
      * @return {Highcharts.SVGElement}
      * The inserted node.
      */
     SVGRenderer.prototype.definition = function (def) {
-        var ren = this;
-        /**
-         * @private
-         * @param {Highcharts.SVGDefinitionObject} config - SVG definition
-         * @param {Highcharts.SVGElement} [parent] - parent node
-         */
-        function recurse(config, parent) {
-            var ret;
-            splat(config).forEach(function (item) {
-                var node = ren.createElement(item.tagName), attr = {};
-                // Set attributes
-                objectEach(item, function (val, key) {
-                    if (key !== 'tagName' &&
-                        key !== 'children' &&
-                        key !== 'textContent') {
-                        attr[key] = val;
-                    }
+        var ast = new AST([def]);
+        return ast.addToDOM(this.defs.element);
+    };
+    /**
+     * Get the prefix needed for internal URL references to work in certain
+     * cases. Some older browser versions had a bug where internal url
+     * references in SVG attributes, on the form `url(#some-id)`, would fail if
+     * a base tag was present in the page. There were also issues with
+     * `history.pushState` related to this prefix.
+     *
+     * Related issues: #24, #672, #1070, #5244.
+     *
+     * The affected browsers are:
+     * - Chrome <= 53 (May 2018)
+     * - Firefox <= 51 (January 2017)
+     * - Safari/Mac <= 12.1 (2018 or 2019)
+     * - Safari/iOS <= 13
+     *
+     * @todo Remove this hack when time has passed. All the affected browsers
+     * are evergreens, so it is increasingly unlikely that users are affected by
+     * the bug.
+     *
+     * @return {string}
+     * The prefix to use. An empty string for modern browsers.
+     */
+    SVGRenderer.prototype.getReferenceURL = function () {
+        if ((isFirefox || isWebKit) &&
+            doc.getElementsByTagName('base').length) {
+            // Detect if a clip path is taking effect by performing a hit test
+            // outside the clipped area. If the hit element is the rectangle
+            // that was supposed to be clipped, the bug is present. This only
+            // has to be performed once per page load, so we store the result
+            // locally in the module.
+            if (!defined(hasInternalReferenceBug)) {
+                var id = uniqueKey();
+                var ast = new AST([{
+                        tagName: 'svg',
+                        attributes: {
+                            width: 8,
+                            height: 8
+                        },
+                        children: [{
+                                tagName: 'defs',
+                                children: [{
+                                        tagName: 'clipPath',
+                                        attributes: {
+                                            id: id
+                                        },
+                                        children: [{
+                                                tagName: 'rect',
+                                                attributes: {
+                                                    width: 4,
+                                                    height: 4
+                                                }
+                                            }]
+                                    }]
+                            }, {
+                                tagName: 'rect',
+                                attributes: {
+                                    id: 'hitme',
+                                    width: 8,
+                                    height: 8,
+                                    'clip-path': "url(#" + id + ")",
+                                    fill: 'rgba(0,0,0,0.001)'
+                                }
+                            }]
+                    }]);
+                var svg = ast.addToDOM(doc.body);
+                css(svg, {
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    zIndex: 9e5
                 });
-                node.attr(attr);
-                // Add to the tree
-                node.add(parent || ren.defs);
-                // Add text content
-                if (item.textContent) {
-                    node.element.appendChild(doc.createTextNode(item.textContent));
-                }
-                // Recurse
-                recurse(item.children || [], node);
-                ret = node;
-            });
-            // Return last node added (on top level it's the only one)
-            return ret;
+                var hitElement = doc.elementFromPoint(6, 6);
+                hasInternalReferenceBug = (hitElement && hitElement.id) === 'hitme';
+                doc.body.removeChild(svg);
+            }
+            if (hasInternalReferenceBug) {
+                return win.location.href
+                    .split('#')[0] // remove the hash
+                    .replace(/<[^>]*>/g, '') // wing cut HTML
+                    // escape parantheses and quotes
+                    .replace(/([\('\)])/g, '\\$1')
+                    // replace spaces (needed for Safari only)
+                    .replace(/ /g, '%20');
+            }
         }
-        return recurse(def);
+        return '';
     };
     /**
      * Get the global style setting for the renderer.
@@ -589,113 +435,11 @@ var SVGRenderer = /** @class */ (function () {
     SVGRenderer.prototype.getRadialAttr = function (radialReference, gradAttr) {
         return {
             cx: (radialReference[0] - radialReference[2] / 2) +
-                gradAttr.cx * radialReference[2],
+                (gradAttr.cx || 0) * radialReference[2],
             cy: (radialReference[1] - radialReference[2] / 2) +
-                gradAttr.cy * radialReference[2],
-            r: gradAttr.r * radialReference[2]
+                (gradAttr.cy || 0) * radialReference[2],
+            r: (gradAttr.r || 0) * radialReference[2]
         };
-    };
-    /**
-     * Truncate the text node contents to a given length. Used when the css
-     * width is set. If the `textOverflow` is `ellipsis`, the text is truncated
-     * character by character to the given length. If not, the text is
-     * word-wrapped line by line.
-     *
-     * @private
-     * @function Highcharts.SVGRenderer#truncate
-     *
-     * @return {boolean}
-     * True if tspan is too long.
-     */
-    SVGRenderer.prototype.truncate = function (wrapper, tspan, text, words, startAt, width, getString) {
-        var renderer = this, rotation = wrapper.rotation, str, 
-        // Word wrap can not be truncated to shorter than one word, ellipsis
-        // text can be completely blank.
-        minIndex = words ? 1 : 0, maxIndex = (text || words).length, currentIndex = maxIndex, 
-        // Cache the lengths to avoid checking the same twice
-        lengths = [], updateTSpan = function (s) {
-            if (tspan.firstChild) {
-                tspan.removeChild(tspan.firstChild);
-            }
-            if (s) {
-                tspan.appendChild(doc.createTextNode(s));
-            }
-        }, getSubStringLength = function (charEnd, concatenatedEnd) {
-            // charEnd is useed when finding the character-by-character
-            // break for ellipsis, concatenatedEnd is used for word-by-word
-            // break for word wrapping.
-            var end = concatenatedEnd || charEnd;
-            if (typeof lengths[end] === 'undefined') {
-                // Modern browsers
-                if (tspan.getSubStringLength) {
-                    // Fails with DOM exception on unit-tests/legend/members
-                    // of unknown reason. Desired width is 0, text content
-                    // is "5" and end is 1.
-                    try {
-                        lengths[end] = startAt +
-                            tspan.getSubStringLength(0, words ? end + 1 : end);
-                    }
-                    catch (e) {
-                        '';
-                    }
-                    // Legacy
-                }
-                else if (renderer.getSpanWidth) { // #9058 jsdom
-                    updateTSpan(getString(text || words, charEnd));
-                    lengths[end] = startAt +
-                        renderer.getSpanWidth(wrapper, tspan);
-                }
-            }
-            return lengths[end];
-        }, actualWidth, truncated;
-        wrapper.rotation = 0; // discard rotation when computing box
-        actualWidth = getSubStringLength(tspan.textContent.length);
-        truncated = startAt + actualWidth > width;
-        if (truncated) {
-            // Do a binary search for the index where to truncate the text
-            while (minIndex <= maxIndex) {
-                currentIndex = Math.ceil((minIndex + maxIndex) / 2);
-                // When checking words for word-wrap, we need to build the
-                // string and measure the subStringLength at the concatenated
-                // word length.
-                if (words) {
-                    str = getString(words, currentIndex);
-                }
-                actualWidth = getSubStringLength(currentIndex, str && str.length - 1);
-                if (minIndex === maxIndex) {
-                    // Complete
-                    minIndex = maxIndex + 1;
-                }
-                else if (actualWidth > width) {
-                    // Too large. Set max index to current.
-                    maxIndex = currentIndex - 1;
-                }
-                else {
-                    // Within width. Set min index to current.
-                    minIndex = currentIndex;
-                }
-            }
-            // If max index was 0 it means the shortest possible text was also
-            // too large. For ellipsis that means only the ellipsis, while for
-            // word wrap it means the whole first word.
-            if (maxIndex === 0) {
-                // Remove ellipsis
-                updateTSpan('');
-                // If the new text length is one less than the original, we don't
-                // need the ellipsis
-            }
-            else if (!(text && maxIndex === text.length - 1)) {
-                updateTSpan(str || getString(text || words, currentIndex));
-            }
-        }
-        // When doing line wrapping, prepare for the next line by removing the
-        // items from this line.
-        if (words) {
-            words.splice(0, currentIndex);
-        }
-        wrapper.actualWidth = actualWidth;
-        wrapper.rotation = rotation; // Apply rotation again.
-        return truncated;
     };
     /**
      * Parse a simple HTML string into SVG tspans. Called internally when text
@@ -710,243 +454,7 @@ var SVGRenderer = /** @class */ (function () {
      * The parent SVGElement.
      */
     SVGRenderer.prototype.buildText = function (wrapper) {
-        var textNode = wrapper.element, renderer = this, forExport = renderer.forExport, textStr = pick(wrapper.textStr, '').toString(), hasMarkup = textStr.indexOf('<') !== -1, lines, childNodes = textNode.childNodes, truncated, parentX = attr(textNode, 'x'), textStyles = wrapper.styles, width = wrapper.textWidth, textLineHeight = textStyles && textStyles.lineHeight, textOutline = textStyles && textStyles.textOutline, ellipsis = textStyles && textStyles.textOverflow === 'ellipsis', noWrap = textStyles && textStyles.whiteSpace === 'nowrap', fontSize = textStyles && textStyles.fontSize, textCache, isSubsequentLine, i = childNodes.length, tempParent = width && !wrapper.added && this.box, getLineHeight = function (tspan) {
-            var fontSizeStyle;
-            if (!renderer.styledMode) {
-                fontSizeStyle =
-                    /(px|em)$/.test(tspan && tspan.style.fontSize) ?
-                        tspan.style.fontSize :
-                        (fontSize || renderer.style.fontSize || 12);
-            }
-            return textLineHeight ?
-                pInt(textLineHeight) :
-                renderer.fontMetrics(fontSizeStyle, 
-                // Get the computed size from parent if not explicit
-                (tspan.getAttribute('style') ? tspan : textNode)).h;
-        }, unescapeEntities = function (inputStr, except) {
-            objectEach(renderer.escapes, function (value, key) {
-                if (!except || except.indexOf(value) === -1) {
-                    inputStr = inputStr.toString().replace(new RegExp(value, 'g'), key);
-                }
-            });
-            return inputStr;
-        }, parseAttribute = function (s, attr) {
-            var start, delimiter;
-            start = s.indexOf('<');
-            s = s.substring(start, s.indexOf('>') - start);
-            start = s.indexOf(attr + '=');
-            if (start !== -1) {
-                start = start + attr.length + 1;
-                delimiter = s.charAt(start);
-                if (delimiter === '"' || delimiter === "'") { // eslint-disable-line quotes
-                    s = s.substring(start + 1);
-                    return s.substring(0, s.indexOf(delimiter));
-                }
-            }
-        };
-        var regexMatchBreaks = /<br.*?>/g;
-        // The buildText code is quite heavy, so if we're not changing something
-        // that affects the text, skip it (#6113).
-        textCache = [
-            textStr,
-            ellipsis,
-            noWrap,
-            textLineHeight,
-            textOutline,
-            fontSize,
-            width
-        ].join(',');
-        if (textCache === wrapper.textCache) {
-            return;
-        }
-        wrapper.textCache = textCache;
-        // Remove old text
-        while (i--) {
-            textNode.removeChild(childNodes[i]);
-        }
-        // Skip tspans, add text directly to text node. The forceTSpan is a hook
-        // used in text outline hack.
-        if (!hasMarkup &&
-            !textOutline &&
-            !ellipsis &&
-            !width &&
-            (textStr.indexOf(' ') === -1 ||
-                (noWrap && !regexMatchBreaks.test(textStr)))) {
-            textNode.appendChild(doc.createTextNode(unescapeEntities(textStr)));
-            // Complex strings, add more logic
-        }
-        else {
-            if (tempParent) {
-                // attach it to the DOM to read offset width
-                tempParent.appendChild(textNode);
-            }
-            if (hasMarkup) {
-                lines = renderer.styledMode ? (textStr
-                    .replace(/<(b|strong)>/g, '<span class="highcharts-strong">')
-                    .replace(/<(i|em)>/g, '<span class="highcharts-emphasized">')) : (textStr
-                    .replace(/<(b|strong)>/g, '<span style="font-weight:bold">')
-                    .replace(/<(i|em)>/g, '<span style="font-style:italic">'));
-                lines = lines
-                    .replace(/<a/g, '<span')
-                    .replace(/<\/(b|strong|i|em|a)>/g, '</span>')
-                    .split(regexMatchBreaks);
-            }
-            else {
-                lines = [textStr];
-            }
-            // Trim empty lines (#5261)
-            lines = lines.filter(function (line) {
-                return line !== '';
-            });
-            // build the lines
-            lines.forEach(function (line, lineNo) {
-                var spans, spanNo = 0, lineLength = 0;
-                line = line
-                    // Trim to prevent useless/costly process on the spaces
-                    // (#5258)
-                    .replace(/^\s+|\s+$/g, '')
-                    .replace(/<span/g, '|||<span')
-                    .replace(/<\/span>/g, '</span>|||');
-                spans = line.split('|||');
-                spans.forEach(function buildTextSpans(span) {
-                    if (span !== '' || spans.length === 1) {
-                        var attributes = {}, tspan = doc.createElementNS(renderer.SVG_NS, 'tspan'), a, classAttribute, styleAttribute, // #390
-                        hrefAttribute;
-                        classAttribute = parseAttribute(span, 'class');
-                        if (classAttribute) {
-                            attr(tspan, 'class', classAttribute);
-                        }
-                        styleAttribute = parseAttribute(span, 'style');
-                        if (styleAttribute) {
-                            styleAttribute = styleAttribute.replace(/(;| |^)color([ :])/, '$1fill$2');
-                            attr(tspan, 'style', styleAttribute);
-                        }
-                        // For anchors, wrap the tspan in an <a> tag and apply
-                        // the href attribute as is (#13559). Not for export
-                        // (#1529)
-                        hrefAttribute = parseAttribute(span, 'href');
-                        if (hrefAttribute && !forExport) {
-                            if (
-                            // Stop JavaScript links, vulnerable to XSS
-                            hrefAttribute.split(':')[0].toLowerCase()
-                                .indexOf('javascript') === -1) {
-                                a = doc.createElementNS(renderer.SVG_NS, 'a');
-                                attr(a, 'href', hrefAttribute);
-                                attr(tspan, 'class', 'highcharts-anchor');
-                                a.appendChild(tspan);
-                                if (!renderer.styledMode) {
-                                    css(tspan, { cursor: 'pointer' });
-                                }
-                            }
-                        }
-                        // Strip away unsupported HTML tags (#7126)
-                        span = unescapeEntities(span.replace(/<[a-zA-Z\/](.|\n)*?>/g, '') || ' ');
-                        // Nested tags aren't supported, and cause crash in
-                        // Safari (#1596)
-                        if (span !== ' ') {
-                            // add the text node
-                            tspan.appendChild(doc.createTextNode(span));
-                            // First span in a line, align it to the left
-                            if (!spanNo) {
-                                if (lineNo && parentX !== null) {
-                                    attributes.x = parentX;
-                                }
-                            }
-                            else {
-                                attributes.dx = 0; // #16
-                            }
-                            // add attributes
-                            attr(tspan, attributes);
-                            // Append it
-                            textNode.appendChild(a || tspan);
-                            // first span on subsequent line, add the line
-                            // height
-                            if (!spanNo && isSubsequentLine) {
-                                // allow getting the right offset height in
-                                // exporting in IE
-                                if (!svg && forExport) {
-                                    css(tspan, { display: 'block' });
-                                }
-                                // Set the line height based on the font size of
-                                // either the text element or the tspan element
-                                attr(tspan, 'dy', getLineHeight(tspan));
-                            }
-                            // Check width and apply soft breaks or ellipsis
-                            if (width) {
-                                var words = span.replace(/([^\^])-/g, '$1- ').split(' '), // #1273
-                                hasWhiteSpace = !noWrap && (spans.length > 1 ||
-                                    lineNo ||
-                                    words.length > 1), wrapLineNo = 0, dy = getLineHeight(tspan);
-                                if (ellipsis) {
-                                    truncated = renderer.truncate(wrapper, tspan, span, void 0, 0, 
-                                    // Target width
-                                    Math.max(0, 
-                                    // Substract the font face to make
-                                    // room for the ellipsis itself
-                                    width - parseInt(fontSize || 12, 10)), 
-                                    // Build the text to test for
-                                    function (text, currentIndex) {
-                                        return text.substring(0, currentIndex) + '\u2026';
-                                    });
-                                }
-                                else if (hasWhiteSpace) {
-                                    while (words.length) {
-                                        // For subsequent lines, create tspans
-                                        // with the same style attributes as the
-                                        // parent text node.
-                                        if (words.length &&
-                                            !noWrap &&
-                                            wrapLineNo > 0) {
-                                            tspan = doc.createElementNS(SVG_NS, 'tspan');
-                                            attr(tspan, {
-                                                dy: dy,
-                                                x: parentX
-                                            });
-                                            if (styleAttribute) { // #390
-                                                attr(tspan, 'style', styleAttribute);
-                                            }
-                                            // Start by appending the full
-                                            // remaining text
-                                            tspan.appendChild(doc.createTextNode(words.join(' ')
-                                                .replace(/- /g, '-')));
-                                            textNode.appendChild(tspan);
-                                        }
-                                        // For each line, truncate the remaining
-                                        // words into the line length.
-                                        renderer.truncate(wrapper, tspan, null, words, wrapLineNo === 0 ? lineLength : 0, width, 
-                                        // Build the text to test for
-                                        function (text, currentIndex) {
-                                            return words
-                                                .slice(0, currentIndex)
-                                                .join(' ')
-                                                .replace(/- /g, '-');
-                                        });
-                                        lineLength = wrapper.actualWidth;
-                                        wrapLineNo++;
-                                    }
-                                }
-                            }
-                            spanNo++;
-                        }
-                    }
-                });
-                // To avoid beginning lines that doesn't add to the textNode
-                // (#6144)
-                isSubsequentLine = (isSubsequentLine ||
-                    textNode.childNodes.length);
-            });
-            if (ellipsis && truncated) {
-                wrapper.attr('title', unescapeEntities(wrapper.textStr || '', ['&lt;', '&gt;']) // #7179
-                );
-            }
-            if (tempParent) {
-                tempParent.removeChild(textNode);
-            }
-            // Apply the text outline
-            if (isString(textOutline) && wrapper.applyTextOutline) {
-                wrapper.applyTextOutline(textOutline);
-            }
-        }
+        new TextBuilder(wrapper).buildSVG();
     };
     /**
      * Returns white for dark colors and black for bright colors.
@@ -988,7 +496,7 @@ var SVGRenderer = /** @class */ (function () {
      * @param {Highcharts.EventCallbackFunction<Highcharts.SVGElement>} callback
      * The function to execute on button click or touch.
      *
-     * @param {Highcharts.SVGAttributes} [normalState]
+     * @param {Highcharts.SVGAttributes} [theme]
      * SVG attributes for the normal state.
      *
      * @param {Highcharts.SVGAttributes} [hoverState]
@@ -1009,27 +517,27 @@ var SVGRenderer = /** @class */ (function () {
      * @return {Highcharts.SVGElement}
      * The button element.
      */
-    SVGRenderer.prototype.button = function (text, x, y, callback, normalState, hoverState, pressedState, disabledState, shape, useHTML) {
-        var label = this.label(text, x, y, shape, void 0, void 0, useHTML, void 0, 'button'), curState = 0, styledMode = this.styledMode, 
+    SVGRenderer.prototype.button = function (text, x, y, callback, theme, hoverState, pressedState, disabledState, shape, useHTML) {
+        var label = this.label(text, x, y, shape, void 0, void 0, useHTML, void 0, 'button'), styledMode = this.styledMode;
+        var curState = 0, 
         // Make a copy of normalState (#13798)
         // (reference to options.rangeSelector.buttonTheme)
-        normalState = normalState ? merge(normalState) : normalState, userNormalStyle = normalState && normalState.style || {};
+        normalState = theme ? merge(theme) : {};
+        var userNormalStyle = normalState && normalState.style || {};
         // Remove stylable attributes
-        if (normalState && normalState.style) {
-            delete normalState.style;
-        }
+        normalState = AST.filterUserAttributes(normalState);
         // Default, non-stylable attributes
         label.attr(merge({ padding: 8, r: 2 }, normalState));
+        // Presentational
+        var normalStyle, hoverStyle, pressedStyle, disabledStyle;
         if (!styledMode) {
-            // Presentational
-            var normalStyle, hoverStyle, pressedStyle, disabledStyle;
             // Normal state - prepare the attributes
             normalState = merge({
-                fill: '#f7f7f7',
-                stroke: '#cccccc',
+                fill: Palette.neutralColor3,
+                stroke: Palette.neutralColor20,
                 'stroke-width': 1,
                 style: {
-                    color: '#333333',
+                    color: Palette.neutralColor80,
                     cursor: 'pointer',
                     fontWeight: 'normal'
                 }
@@ -1040,26 +548,26 @@ var SVGRenderer = /** @class */ (function () {
             delete normalState.style;
             // Hover state
             hoverState = merge(normalState, {
-                fill: '#e6e6e6'
-            }, hoverState);
+                fill: Palette.neutralColor10
+            }, AST.filterUserAttributes(hoverState || {}));
             hoverStyle = hoverState.style;
             delete hoverState.style;
             // Pressed state
             pressedState = merge(normalState, {
-                fill: '#e6ebf5',
+                fill: Palette.highlightColor10,
                 style: {
-                    color: '#000000',
+                    color: Palette.neutralColor100,
                     fontWeight: 'bold'
                 }
-            }, pressedState);
+            }, AST.filterUserAttributes(pressedState || {}));
             pressedStyle = pressedState.style;
             delete pressedState.style;
             // Disabled state
             disabledState = merge(normalState, {
                 style: {
-                    color: '#cccccc'
+                    color: Palette.neutralColor20
                 }
-            }, disabledState);
+            }, AST.filterUserAttributes(disabledState || {}));
             disabledStyle = disabledState.style;
             delete disabledState.style;
         }
@@ -1108,6 +616,7 @@ var SVGRenderer = /** @class */ (function () {
                 .css(extend({ cursor: 'default' }, normalStyle));
         }
         return label
+            .on('touchstart', function (e) { return e.stopPropagation(); })
             .on('click', function (e) {
             if (curState !== 3) {
                 callback.call(label, e);
@@ -1125,7 +634,7 @@ var SVGRenderer = /** @class */ (function () {
      * @param {number} width
      *        The width of the line.
      *
-     * @param {string} roundingFunction
+     * @param {string} [roundingFunction=round]
      *        The rounding function name on the `Math` object, can be one of
      *        `round`, `floor` or `ceil`.
      *
@@ -1137,13 +646,13 @@ var SVGRenderer = /** @class */ (function () {
         var start = points[0];
         var end = points[1];
         // Normalize to a crisp line
-        if (start[1] === end[1]) {
+        if (defined(start[1]) && start[1] === end[1]) {
             // Substract due to #1129. Now bottom and left axis gridlines behave
             // the same.
             start[1] = end[1] =
                 Math[roundingFunction](start[1]) - (width % 2 / 2);
         }
-        if (start[2] === end[2]) {
+        if (defined(start[2]) && start[2] === end[2]) {
             start[2] = end[2] =
                 Math[roundingFunction](start[2]) + (width % 2 / 2);
         }
@@ -1158,7 +667,7 @@ var SVGRenderer = /** @class */ (function () {
      *         Draw a path independent from a chart
      *
      * @example
-     * var path = renderer.path(['M', 10, 10, 'L', 30, 30, 'z'])
+     * let path = renderer.path(['M', 10, 10, 'L', 30, 30, 'z'])
      *     .attr({ stroke: '#ff00ff' })
      *     .add();
      *
@@ -1275,7 +784,7 @@ var SVGRenderer = /** @class */ (function () {
     * The generated wrapper element.
     */
     SVGRenderer.prototype.arc = function (x, y, r, innerR, start, end) {
-        var arc, options;
+        var options;
         if (isObject(x)) {
             options = x;
             y = options.y;
@@ -1286,15 +795,11 @@ var SVGRenderer = /** @class */ (function () {
             x = options.x;
         }
         else {
-            options = {
-                innerR: innerR,
-                start: start,
-                end: end
-            };
+            options = { innerR: innerR, start: start, end: end };
         }
         // Arcs are defined as symbols for the ability to set
         // attributes in attr and animate
-        arc = this.symbol('arc', x, y, r, r, options);
+        var arc = this.symbol('arc', x, y, r, r, options);
         arc.r = r; // #959
         return arc;
     };
@@ -1341,7 +846,8 @@ var SVGRenderer = /** @class */ (function () {
     */
     SVGRenderer.prototype.rect = function (x, y, width, height, r, strokeWidth) {
         r = isObject(x) ? x.r : r;
-        var wrapper = this.createElement('rect'), attribs = isObject(x) ?
+        var wrapper = this.createElement('rect');
+        var attribs = (isObject(x) ?
             x :
             typeof x === 'undefined' ?
                 {} :
@@ -1350,10 +856,10 @@ var SVGRenderer = /** @class */ (function () {
                     y: y,
                     width: Math.max(width, 0),
                     height: Math.max(height, 0)
-                };
+                });
         if (!this.styledMode) {
             if (typeof strokeWidth !== 'undefined') {
-                attribs.strokeWidth = strokeWidth;
+                attribs['stroke-width'] = strokeWidth;
                 attribs = wrapper.crisp(attribs);
             }
             attribs.fill = 'none';
@@ -1361,7 +867,7 @@ var SVGRenderer = /** @class */ (function () {
         if (r) {
             attribs.r = r;
         }
-        wrapper.rSetter = function (value, key, element) {
+        wrapper.rSetter = function (value, _key, element) {
             wrapper.r = value;
             attr(element, {
                 rx: value,
@@ -1369,7 +875,7 @@ var SVGRenderer = /** @class */ (function () {
             });
         };
         wrapper.rGetter = function () {
-            return wrapper.r;
+            return wrapper.r || 0;
         };
         return wrapper.attr(attribs);
     };
@@ -1392,7 +898,7 @@ var SVGRenderer = /** @class */ (function () {
      * Whether and how to animate.
      */
     SVGRenderer.prototype.setSize = function (width, height, animate) {
-        var renderer = this, alignedObjects = renderer.alignedObjects, i = alignedObjects.length;
+        var renderer = this;
         renderer.width = width;
         renderer.height = height;
         renderer.boxWrapper.animate({
@@ -1407,9 +913,7 @@ var SVGRenderer = /** @class */ (function () {
             },
             duration: pick(animate, true) ? void 0 : 0
         });
-        while (i--) {
-            alignedObjects[i].align();
-        }
+        renderer.alignElements();
     };
     /**
      * Create and return an svg group element. Child
@@ -1464,7 +968,7 @@ var SVGRenderer = /** @class */ (function () {
      *         The generated wrapper element.
      */
     SVGRenderer.prototype.image = function (src, x, y, width, height, onload) {
-        var attribs = { preserveAspectRatio: 'none' }, elemWrapper, dummy, setSVGImageSource = function (el, src) {
+        var attribs = { preserveAspectRatio: 'none' }, setSVGImageSource = function (el, src) {
             // Set the href in the xlink namespace
             if (el.setAttributeNS) {
                 el.setAttributeNS('http://www.w3.org/1999/xlink', 'href', src);
@@ -1475,9 +979,6 @@ var SVGRenderer = /** @class */ (function () {
                 // requries regex shim to fix later
                 el.setAttribute('hc-svg-href', src);
             }
-        }, onDummyLoad = function (e) {
-            setSVGImageSource(elemWrapper.element, src);
-            onload.call(elemWrapper, e);
         };
         // optional properties
         if (arguments.length > 1) {
@@ -1488,14 +989,17 @@ var SVGRenderer = /** @class */ (function () {
                 height: height
             });
         }
-        elemWrapper = this.createElement('image').attr(attribs);
+        var elemWrapper = this.createElement('image').attr(attribs), onDummyLoad = function (e) {
+            setSVGImageSource(elemWrapper.element, src);
+            onload.call(elemWrapper, e);
+        };
         // Add load event if supplied
         if (onload) {
             // We have to use a dummy HTML image since IE support for SVG image
             // load events is very buggy. First set a transparent src, wait for
             // dummy to load, and then add the real src to the SVG image.
             setSVGImageSource(elemWrapper.element, 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /* eslint-disable-line */);
-            dummy = new win.Image();
+            var dummy = new win.Image();
             addEvent(dummy, 'load', onDummyLoad);
             dummy.src = src;
             if (dummy.complete) {
@@ -1536,9 +1040,10 @@ var SVGRenderer = /** @class */ (function () {
      * @return {Highcharts.SVGElement}
      */
     SVGRenderer.prototype.symbol = function (symbol, x, y, width, height, options) {
-        var ren = this, obj, imageRegex = /^url\((.*?)\)$/, isImage = imageRegex.test(symbol), sym = (!isImage && (this.symbols[symbol] ? symbol : 'circle')), 
+        var ren = this, imageRegex = /^url\((.*?)\)$/, isImage = imageRegex.test(symbol), sym = (!isImage && (this.symbols[symbol] ? symbol : 'circle')), 
         // get the symbol definition function
-        symbolFn = (sym && this.symbols[sym]), path, imageSrc, centerImage;
+        symbolFn = (sym && this.symbols[sym]);
+        var obj, path, imageSrc, centerImage;
         if (symbolFn) {
             // Check if there's a path defined for this symbol
             if (typeof x === 'number') {
@@ -1550,7 +1055,7 @@ var SVGRenderer = /** @class */ (function () {
             }
             // expando properties for use in animate and attr
             extend(obj, {
-                symbolName: sym,
+                symbolName: (sym || void 0),
                 x: x,
                 y: y,
                 width: width,
@@ -1564,29 +1069,27 @@ var SVGRenderer = /** @class */ (function () {
         else if (isImage) {
             imageSrc = symbol.match(imageRegex)[1];
             // Create the image synchronously, add attribs async
-            obj = this.image(imageSrc);
+            var img_1 = obj = this.image(imageSrc);
             // The image width is not always the same as the symbol width. The
             // image may be centered within the symbol, as is the case when
             // image shapes are used as label backgrounds, for example in flags.
-            obj.imgwidth = pick(symbolSizes[imageSrc] && symbolSizes[imageSrc].width, options && options.width);
-            obj.imgheight = pick(symbolSizes[imageSrc] && symbolSizes[imageSrc].height, options && options.height);
+            img_1.imgwidth = pick(symbolSizes[imageSrc] && symbolSizes[imageSrc].width, options && options.width);
+            img_1.imgheight = pick(symbolSizes[imageSrc] && symbolSizes[imageSrc].height, options && options.height);
             /**
              * Set the size and position
              */
-            centerImage = function () {
-                obj.attr({
-                    width: obj.width,
-                    height: obj.height
-                });
-            };
+            centerImage = function (obj) { return obj.attr({
+                width: obj.width,
+                height: obj.height
+            }); };
             /**
              * Width and height setters that take both the image's physical size
              * and the label size into consideration, and translates the image
              * to center within the label.
              */
             ['width', 'height'].forEach(function (key) {
-                obj[key + 'Setter'] = function (value, key) {
-                    var attribs = {}, imgSize = this['img' + key], trans = key === 'width' ? 'translateX' : 'translateY';
+                img_1[key + 'Setter'] = function (value, key) {
+                    var imgSize = this['img' + key];
                     this[key] = value;
                     if (defined(imgSize)) {
                         // Scale and center the image within its container.
@@ -1604,26 +1107,29 @@ var SVGRenderer = /** @class */ (function () {
                             this.element.setAttribute(key, imgSize);
                         }
                         if (!this.alignByTranslate) {
-                            attribs[trans] = ((this[key] || 0) - imgSize) / 2;
+                            var translate = ((this[key] || 0) - imgSize) / 2;
+                            var attribs = key === 'width' ?
+                                { translateX: translate } :
+                                { translateY: translate };
                             this.attr(attribs);
                         }
                     }
                 };
             });
             if (defined(x)) {
-                obj.attr({
+                img_1.attr({
                     x: x,
                     y: y
                 });
             }
-            obj.isImg = true;
-            if (defined(obj.imgwidth) && defined(obj.imgheight)) {
-                centerImage();
+            img_1.isImg = true;
+            if (defined(img_1.imgwidth) && defined(img_1.imgheight)) {
+                centerImage(img_1);
             }
             else {
                 // Initialize image to be 0 size so export will still function
                 // if there's no cached sizes.
-                obj.attr({ width: 0, height: 0 });
+                img_1.attr({ width: 0, height: 0 });
                 // Create a dummy JavaScript image to get the width and height.
                 createElement('img', {
                     onload: function () {
@@ -1643,10 +1149,10 @@ var SVGRenderer = /** @class */ (function () {
                             width: this.width,
                             height: this.height
                         };
-                        obj.imgwidth = this.width;
-                        obj.imgheight = this.height;
-                        if (obj.element) {
-                            centerImage();
+                        img_1.imgwidth = this.width;
+                        img_1.imgheight = this.height;
+                        if (img_1.element) {
+                            centerImage(img_1);
                         }
                         // Clean up after #2854 workaround.
                         if (this.parentNode) {
@@ -1672,10 +1178,10 @@ var SVGRenderer = /** @class */ (function () {
      * function.
      *
      * @example
-     * var circle = renderer.circle(100, 100, 100)
+     * let circle = renderer.circle(100, 100, 100)
      *     .attr({ fill: 'red' })
      *     .add();
-     * var clipRect = renderer.clipRect(100, 100, 100, 100);
+     * let clipRect = renderer.clipRect(100, 100, 100, 100);
      *
      * // Leave only the lower right quarter visible
      * circle.clip(clipRect);
@@ -1694,13 +1200,12 @@ var SVGRenderer = /** @class */ (function () {
      *         A clipping rectangle.
      */
     SVGRenderer.prototype.clipRect = function (x, y, width, height) {
-        var wrapper, 
+        var 
         // Add a hyphen at the end to avoid confusion in testing indexes
         // -1 and -10, -11 etc (#6550)
         id = uniqueKey() + '-', clipPath = this.createElement('clipPath').attr({
             id: id
-        }).add(this.defs);
-        wrapper = this.rect(x, y, width, height, 0).add(clipPath);
+        }).add(this.defs), wrapper = this.rect(x, y, width, height, 0).add(clipPath);
         wrapper.id = id;
         wrapper.clipPath = clipPath;
         wrapper.count = 0;
@@ -1737,8 +1242,7 @@ var SVGRenderer = /** @class */ (function () {
      * The text object.
      */
     SVGRenderer.prototype.text = function (str, x, y, useHTML) {
-        // declare variables
-        var renderer = this, wrapper, attribs = {};
+        var renderer = this, attribs = {};
         if (useHTML && (renderer.allowHTML || !renderer.forExport)) {
             return renderer.html(str, x, y);
         }
@@ -1749,12 +1253,11 @@ var SVGRenderer = /** @class */ (function () {
         if (defined(str)) {
             attribs.text = str;
         }
-        wrapper = renderer.createElement('text')
-            .attr(attribs);
+        var wrapper = renderer.createElement('text').attr(attribs);
         if (!useHTML) {
             wrapper.xSetter = function (value, key, element) {
-                var tspans = element.getElementsByTagName('tspan'), tspan, parentVal = element.getAttribute(key), i;
-                for (i = 0; i < tspans.length; i++) {
+                var tspans = element.getElementsByTagName('tspan'), parentVal = element.getAttribute(key);
+                for (var i = 0, tspan = void 0; i < tspans.length; i++) {
                     tspan = tspans[i];
                     // If the x values are equal, the tspan represents a
                     // linebreak
@@ -1784,7 +1287,6 @@ var SVGRenderer = /** @class */ (function () {
      *         The font metrics.
      */
     SVGRenderer.prototype.fontMetrics = function (fontSize, elem) {
-        var lineHeight, baseline;
         if ((this.styledMode || !/px/.test(fontSize)) &&
             win.getComputedStyle // old IE doesn't support it
         ) {
@@ -1807,8 +1309,9 @@ var SVGRenderer = /** @class */ (function () {
         // Empirical values found by comparing font size and bounding box
         // height. Applies to the default font family.
         // https://jsfiddle.net/highcharts/7xvn7/
-        lineHeight = fontSize < 24 ? fontSize + 3 : Math.round(fontSize * 1.2);
-        baseline = Math.round(lineHeight * 0.8);
+        var lineHeight = (fontSize < 24 ?
+            fontSize + 3 :
+            Math.round(fontSize * 1.2)), baseline = Math.round(lineHeight * 0.8);
         return {
             h: lineHeight,
             b: baseline,
@@ -2126,207 +1629,276 @@ var SVGRenderer = /** @class */ (function () {
     SVGRenderer.prototype.label = function (str, x, y, shape, anchorX, anchorY, useHTML, baseline, className) {
         return new SVGLabel(this, str, x, y, shape, anchorX, anchorY, useHTML, baseline, className);
     };
+    /**
+     * Re-align all aligned elements.
+     *
+     * @private
+     * @function Highcharts.SVGRenderer#alignElements
+     * @return {void}
+     */
+    SVGRenderer.prototype.alignElements = function () {
+        this.alignedObjects.forEach(function (el) { return el.align(); });
+    };
     return SVGRenderer;
 }());
-/**
- * A pointer to the renderer's associated Element class. The VMLRenderer
- * will have a pointer to VMLElement here.
- *
- * @name Highcharts.SVGRenderer#Element
- * @type {Highcharts.SVGElement}
- */
-SVGRenderer.prototype.Element = SVGElement;
-/**
- * @private
- */
-SVGRenderer.prototype.SVG_NS = SVG_NS;
-/**
- * Dummy function for plugins, called every time the renderer is updated.
- * Prior to Highcharts 5, this was used for the canvg renderer.
- *
- * @deprecated
- * @function Highcharts.SVGRenderer#draw
- */
-SVGRenderer.prototype.draw = noop;
-/**
- * A collection of characters mapped to HTML entities. When `useHTML` on an
- * element is true, these entities will be rendered correctly by HTML. In
- * the SVG pseudo-HTML, they need to be unescaped back to simple characters,
- * so for example `&lt;` will render as `<`.
- *
- * @example
- * // Add support for unescaping quotes
- * Highcharts.SVGRenderer.prototype.escapes['"'] = '&quot;';
- *
- * @name Highcharts.SVGRenderer#escapes
- * @type {Highcharts.Dictionary<string>}
- */
-SVGRenderer.prototype.escapes = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    "'": '&#39;',
-    '"': '&quot;'
-};
-/**
- * An extendable collection of functions for defining symbol paths.
- *
- * @name Highcharts.SVGRenderer#symbols
- * @type {Highcharts.SymbolDictionary}
- */
-SVGRenderer.prototype.symbols = {
-    circle: function (x, y, w, h) {
-        // Return a full arc
-        return this.arc(x + w / 2, y + h / 2, w / 2, h / 2, {
-            start: Math.PI * 0.5,
-            end: Math.PI * 2.5,
-            open: false
-        });
-    },
-    square: function (x, y, w, h) {
-        return [
-            ['M', x, y],
-            ['L', x + w, y],
-            ['L', x + w, y + h],
-            ['L', x, y + h],
-            ['Z']
-        ];
-    },
-    triangle: function (x, y, w, h) {
-        return [
-            ['M', x + w / 2, y],
-            ['L', x + w, y + h],
-            ['L', x, y + h],
-            ['Z']
-        ];
-    },
-    'triangle-down': function (x, y, w, h) {
-        return [
-            ['M', x, y],
-            ['L', x + w, y],
-            ['L', x + w / 2, y + h],
-            ['Z']
-        ];
-    },
-    diamond: function (x, y, w, h) {
-        return [
-            ['M', x + w / 2, y],
-            ['L', x + w, y + h / 2],
-            ['L', x + w / 2, y + h],
-            ['L', x, y + h / 2],
-            ['Z']
-        ];
-    },
-    arc: function (x, y, w, h, options) {
-        var arc = [];
-        if (options) {
-            var start = options.start || 0, end = options.end || 0, rx = options.r || w, ry = options.r || h || w, proximity = 0.001, fullCircle = Math.abs(end - start - 2 * Math.PI) <
-                proximity, 
-            // Substract a small number to prevent cos and sin of start and
-            // end from becoming equal on 360 arcs (related: #1561)
-            end = end - proximity, innerRadius = options.innerR, open = pick(options.open, fullCircle), cosStart = Math.cos(start), sinStart = Math.sin(start), cosEnd = Math.cos(end), sinEnd = Math.sin(end), 
-            // Proximity takes care of rounding errors around PI (#6971)
-            longArc = pick(options.longArc, end - start - Math.PI < proximity ? 0 : 1);
-            arc.push([
-                'M',
-                x + rx * cosStart,
-                y + ry * sinStart
-            ], [
-                'A',
-                rx,
-                ry,
-                0,
-                longArc,
-                pick(options.clockwise, 1),
-                x + rx * cosEnd,
-                y + ry * sinEnd
-            ]);
-            if (defined(innerRadius)) {
-                arc.push(open ?
-                    [
-                        'M',
-                        x + innerRadius * cosEnd,
-                        y + innerRadius * sinEnd
-                    ] : [
-                    'L',
-                    x + innerRadius * cosEnd,
-                    y + innerRadius * sinEnd
-                ], [
-                    'A',
-                    innerRadius,
-                    innerRadius,
-                    0,
-                    longArc,
-                    // Clockwise - opposite to the outer arc clockwise
-                    defined(options.clockwise) ? 1 - options.clockwise : 0,
-                    x + innerRadius * cosStart,
-                    y + innerRadius * sinStart
-                ]);
-            }
-            if (!open) {
-                arc.push(['Z']);
-            }
-        }
-        return arc;
+extend(SVGRenderer.prototype, {
+    /**
+     * A pointer to the renderer's associated Element class. The VMLRenderer
+     * will have a pointer to VMLElement here.
+     *
+     * @name Highcharts.SVGRenderer#Element
+     * @type {Highcharts.SVGElement}
+     */
+    Element: SVGElement,
+    SVG_NS: SVG_NS,
+    /**
+     * A collection of characters mapped to HTML entities. When `useHTML` on an
+     * element is true, these entities will be rendered correctly by HTML. In
+     * the SVG pseudo-HTML, they need to be unescaped back to simple characters,
+     * so for example `&lt;` will render as `<`.
+     *
+     * @example
+     * // Add support for unescaping quotes
+     * Highcharts.SVGRenderer.prototype.escapes['"'] = '&quot;';
+     *
+     * @name Highcharts.SVGRenderer#escapes
+     * @type {Highcharts.Dictionary<string>}
+     */
+    escapes: {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        "'": '&#39;',
+        '"': '&quot;'
     },
     /**
-     * Callout shape used for default tooltips, also used for rounded
-     * rectangles in VML
+     * An extendable collection of functions for defining symbol paths.
+     *
+     * @name Highcharts.SVGRenderer#symbols
+     * @type {Highcharts.SymbolDictionary}
      */
-    callout: function (x, y, w, h, options) {
-        var arrowLength = 6, halfDistance = 6, r = Math.min((options && options.r) || 0, w, h), safeDistance = r + halfDistance, anchorX = options && options.anchorX || 0, anchorY = options && options.anchorY || 0, path;
-        path = [
-            ['M', x + r, y],
-            ['L', x + w - r, y],
-            ['C', x + w, y, x + w, y, x + w, y + r],
-            ['L', x + w, y + h - r],
-            ['C', x + w, y + h, x + w, y + h, x + w - r, y + h],
-            ['L', x + r, y + h],
-            ['C', x, y + h, x, y + h, x, y + h - r],
-            ['L', x, y + r],
-            ['C', x, y, x, y, x + r, y] // top-left corner
-        ];
-        // Anchor on right side
-        if (anchorX && anchorX > w) {
-            // Chevron
-            if (anchorY > y + safeDistance &&
-                anchorY < y + h - safeDistance) {
-                path.splice(3, 1, ['L', x + w, anchorY - halfDistance], ['L', x + w + arrowLength, anchorY], ['L', x + w, anchorY + halfDistance], ['L', x + w, y + h - r]);
-                // Simple connector
-            }
-            else {
-                path.splice(3, 1, ['L', x + w, h / 2], ['L', anchorX, anchorY], ['L', x + w, h / 2], ['L', x + w, y + h - r]);
-            }
-            // Anchor on left side
-        }
-        else if (anchorX && anchorX < 0) {
-            // Chevron
-            if (anchorY > y + safeDistance &&
-                anchorY < y + h - safeDistance) {
-                path.splice(7, 1, ['L', x, anchorY + halfDistance], ['L', x - arrowLength, anchorY], ['L', x, anchorY - halfDistance], ['L', x, y + r]);
-                // Simple connector
-            }
-            else {
-                path.splice(7, 1, ['L', x, h / 2], ['L', anchorX, anchorY], ['L', x, h / 2], ['L', x, y + r]);
-            }
-        }
-        else if ( // replace bottom
-        anchorY &&
-            anchorY > h &&
-            anchorX > x + safeDistance &&
-            anchorX < x + w - safeDistance) {
-            path.splice(5, 1, ['L', anchorX + halfDistance, y + h], ['L', anchorX, y + h + arrowLength], ['L', anchorX - halfDistance, y + h], ['L', x + r, y + h]);
-        }
-        else if ( // replace top
-        anchorY &&
-            anchorY < 0 &&
-            anchorX > x + safeDistance &&
-            anchorX < x + w - safeDistance) {
-            path.splice(1, 1, ['L', anchorX - halfDistance, y], ['L', anchorX, y - arrowLength], ['L', anchorX + halfDistance, y], ['L', w - r, y]);
-        }
-        return path;
-    }
-};
-H.SVGRenderer = SVGRenderer;
-H.Renderer = H.SVGRenderer;
-export default H.Renderer;
+    symbols: Symbols,
+    /**
+     * Dummy function for plugins, called every time the renderer is updated.
+     * Prior to Highcharts 5, this was used for the canvg renderer.
+     *
+     * @deprecated
+     * @function Highcharts.SVGRenderer#draw
+     */
+    draw: noop
+});
+/* *
+ *
+ *  Registry
+ *
+ * */
+RendererRegistry.registerRendererType('svg', SVGRenderer, true);
+/* *
+ *
+ *  Export Default
+ *
+ * */
+export default SVGRenderer;
+/* *
+ *
+ *  API Declarations
+ *
+ * */
+/**
+ * A clipping rectangle that can be applied to one or more {@link SVGElement}
+ * instances. It is instanciated with the {@link SVGRenderer#clipRect} function
+ * and applied with the {@link SVGElement#clip} function.
+ *
+ * @example
+ * let circle = renderer.circle(100, 100, 100)
+ *     .attr({ fill: 'red' })
+ *     .add();
+ * let clipRect = renderer.clipRect(100, 100, 100, 100);
+ *
+ * // Leave only the lower right quarter visible
+ * circle.clip(clipRect);
+ *
+ * @typedef {Highcharts.SVGElement} Highcharts.ClipRectElement
+ */
+/**
+ * The font metrics.
+ *
+ * @interface Highcharts.FontMetricsObject
+ */ /**
+* The baseline relative to the top of the box.
+*
+* @name Highcharts.FontMetricsObject#b
+* @type {number}
+*/ /**
+* The font size.
+*
+* @name Highcharts.FontMetricsObject#f
+* @type {number}
+*/ /**
+* The line height.
+*
+* @name Highcharts.FontMetricsObject#h
+* @type {number}
+*/
+/**
+ * An object containing `x` and `y` properties for the position of an element.
+ *
+ * @interface Highcharts.PositionObject
+ */ /**
+* X position of the element.
+* @name Highcharts.PositionObject#x
+* @type {number}
+*/ /**
+* Y position of the element.
+* @name Highcharts.PositionObject#y
+* @type {number}
+*/
+/**
+ * A rectangle.
+ *
+ * @interface Highcharts.RectangleObject
+ */ /**
+* Height of the rectangle.
+* @name Highcharts.RectangleObject#height
+* @type {number}
+*/ /**
+* Width of the rectangle.
+* @name Highcharts.RectangleObject#width
+* @type {number}
+*/ /**
+* Horizontal position of the rectangle.
+* @name Highcharts.RectangleObject#x
+* @type {number}
+*/ /**
+* Vertical position of the rectangle.
+* @name Highcharts.RectangleObject#y
+* @type {number}
+*/
+/**
+ * The shadow options.
+ *
+ * @interface Highcharts.ShadowOptionsObject
+ */ /**
+* The shadow color.
+* @name    Highcharts.ShadowOptionsObject#color
+* @type    {Highcharts.ColorString|undefined}
+* @default ${palette.neutralColor100}
+*/ /**
+* The horizontal offset from the element.
+*
+* @name    Highcharts.ShadowOptionsObject#offsetX
+* @type    {number|undefined}
+* @default 1
+*/ /**
+* The vertical offset from the element.
+* @name    Highcharts.ShadowOptionsObject#offsetY
+* @type    {number|undefined}
+* @default 1
+*/ /**
+* The shadow opacity.
+*
+* @name    Highcharts.ShadowOptionsObject#opacity
+* @type    {number|undefined}
+* @default 0.15
+*/ /**
+* The shadow width or distance from the element.
+* @name    Highcharts.ShadowOptionsObject#width
+* @type    {number|undefined}
+* @default 3
+*/
+/**
+ * @interface Highcharts.SizeObject
+ */ /**
+* @name Highcharts.SizeObject#height
+* @type {number}
+*/ /**
+* @name Highcharts.SizeObject#width
+* @type {number}
+*/
+/**
+ * Array of path commands, that will go into the `d` attribute of an SVG
+ * element.
+ *
+ * @typedef {Array<(Array<Highcharts.SVGPathCommand>|Array<Highcharts.SVGPathCommand,number>|Array<Highcharts.SVGPathCommand,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number,number,number>|Array<Highcharts.SVGPathCommand,number,number,number,number,number,number,number>)>} Highcharts.SVGPathArray
+ */
+/**
+ * Possible path commands in an SVG path array. Valid values are `A`, `C`, `H`,
+ * `L`, `M`, `Q`, `S`, `T`, `V`, `Z`.
+ *
+ * @typedef {string} Highcharts.SVGPathCommand
+ * @validvalue ["a","c","h","l","m","q","s","t","v","z","A","C","H","L","M","Q","S","T","V","Z"]
+ */
+/**
+ * An extendable collection of functions for defining symbol paths. Symbols are
+ * used internally for point markers, button and label borders and backgrounds,
+ * or custom shapes. Extendable by adding to {@link SVGRenderer#symbols}.
+ *
+ * @interface Highcharts.SymbolDictionary
+ */ /**
+* @name Highcharts.SymbolDictionary#[key:string]
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#arc
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#callout
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#circle
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#diamond
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#square
+* @type {Function|undefined}
+*/ /**
+* @name Highcharts.SymbolDictionary#triangle
+* @type {Function|undefined}
+*/
+/**
+ * Can be one of `arc`, `callout`, `circle`, `diamond`, `square`, `triangle`,
+ * and `triangle-down`. Symbols are used internally for point markers, button
+ * and label borders and backgrounds, or custom shapes. Extendable by adding to
+ * {@link SVGRenderer#symbols}.
+ *
+ * @typedef {"arc"|"callout"|"circle"|"diamond"|"square"|"triangle"|"triangle-down"} Highcharts.SymbolKeyValue
+ */
+/**
+ * Additional options, depending on the actual symbol drawn.
+ *
+ * @interface Highcharts.SymbolOptionsObject
+ */ /**
+* The anchor X position for the `callout` symbol. This is where the chevron
+* points to.
+*
+* @name Highcharts.SymbolOptionsObject#anchorX
+* @type {number|undefined}
+*/ /**
+* The anchor Y position for the `callout` symbol. This is where the chevron
+* points to.
+*
+* @name Highcharts.SymbolOptionsObject#anchorY
+* @type {number|undefined}
+*/ /**
+* The end angle of an `arc` symbol.
+*
+* @name Highcharts.SymbolOptionsObject#end
+* @type {number|undefined}
+*/ /**
+* Whether to draw `arc` symbol open or closed.
+*
+* @name Highcharts.SymbolOptionsObject#open
+* @type {boolean|undefined}
+*/ /**
+* The radius of an `arc` symbol, or the border radius for the `callout` symbol.
+*
+* @name Highcharts.SymbolOptionsObject#r
+* @type {number|undefined}
+*/ /**
+* The start angle of an `arc` symbol.
+*
+* @name Highcharts.SymbolOptionsObject#start
+* @type {number|undefined}
+*/
+(''); // keeps doclets above in transpiled file

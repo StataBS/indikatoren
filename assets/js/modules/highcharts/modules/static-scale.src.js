@@ -1,9 +1,9 @@
 /**
- * @license Highcharts Gantt JS v8.2.0 (2020-08-20)
+ * @license Highcharts Gantt JS v9.1.2 (2021-06-16)
  *
  * StaticScale
  *
- * (c) 2016-2019 Torstein Honsi, Lars A. V. Cabrera
+ * (c) 2016-2021 Torstein Honsi, Lars A. V. Cabrera
  *
  * License: www.highcharts.com/license
  */
@@ -28,10 +28,10 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Extensions/StaticScale.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (H, U) {
+    _registerModule(_modules, 'Extensions/StaticScale.js', [_modules['Core/Axis/Axis.js'], _modules['Core/Chart/Chart.js'], _modules['Core/Utilities.js']], function (Axis, Chart, U) {
         /* *
          *
-         *  (c) 2016-2020 Torstein Honsi, Lars Cabrera
+         *  (c) 2016-2021 Torstein Honsi, Lars Cabrera
          *
          *  License: www.highcharts.com/license
          *
@@ -42,7 +42,6 @@
             defined = U.defined,
             isNumber = U.isNumber,
             pick = U.pick;
-        var Chart = H.Chart;
         /* eslint-disable no-invalid-this */
         /**
          * For vertical axes only. Setting the static scale ensures that each tick unit
@@ -60,8 +59,8 @@
          * @product   gantt
          * @apioption yAxis.staticScale
          */
-        addEvent(H.Axis, 'afterSetOptions', function () {
-            var chartOptions = this.chart.options && this.chart.options.chart;
+        addEvent(Axis, 'afterSetOptions', function () {
+            var chartOptions = this.chart.options.chart;
             if (!this.horiz &&
                 isNumber(this.options.staticScale) &&
                 (!chartOptions.height ||
@@ -84,7 +83,7 @@
                         // Minimum height is 1 x staticScale.
                         height = Math.max(height, staticScale);
                         diff = height - chart.plotHeight;
-                        if (Math.abs(diff) >= 1) {
+                        if (!chart.scrollablePixelsY && Math.abs(diff) >= 1) {
                             chart.plotHeight = height;
                             chart.redrawTrigger = 'adjustHeight';
                             chart.setSize(void 0, chart.chartHeight + diff, animate);
@@ -93,9 +92,11 @@
                         // animation.
                         axis.series.forEach(function (series) {
                             var clipRect = series.sharedClipKey &&
-                                    chart[series.sharedClipKey];
+                                    chart.sharedClips[series.sharedClipKey];
                             if (clipRect) {
-                                clipRect.attr({
+                                clipRect.attr(chart.inverted ? {
+                                    width: chart.plotHeight
+                                } : {
                                     height: chart.plotHeight
                                 });
                             }

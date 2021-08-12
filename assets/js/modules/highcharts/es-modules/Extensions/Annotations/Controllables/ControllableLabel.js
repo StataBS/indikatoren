@@ -4,13 +4,21 @@
  *
  * */
 'use strict';
+/* *
+ *
+ *  Imports
+ *
+ * */
+import '../../../Core/Renderer/SVG/SVGRenderer.js';
 import ControllableMixin from '../Mixins/ControllableMixin.js';
+import F from '../../../Core/FormatUtilities.js';
+var format = F.format;
 import MockPoint from '../MockPoint.js';
 import SVGRenderer from '../../../Core/Renderer/SVG/SVGRenderer.js';
+var symbols = SVGRenderer.prototype.symbols;
 import Tooltip from '../../../Core/Tooltip.js';
 import U from '../../../Core/Utilities.js';
-var extend = U.extend, format = U.format, isNumber = U.isNumber, pick = U.pick;
-import '../../../Core/Renderer/SVG/SVGRenderer.js';
+var extend = U.extend, isNumber = U.isNumber, pick = U.pick;
 /* eslint-disable no-invalid-this, valid-jsdoc */
 /**
  * A controllable label class.
@@ -77,7 +85,8 @@ var ControllableLabel = /** @class */ (function () {
      * Aligned position.
      */
     ControllableLabel.alignedPosition = function (alignOptions, box) {
-        var align = alignOptions.align, vAlign = alignOptions.verticalAlign, x = (box.x || 0) + (alignOptions.x || 0), y = (box.y || 0) + (alignOptions.y || 0), alignFactor, vAlignFactor;
+        var align = alignOptions.align, vAlign = alignOptions.verticalAlign;
+        var x = (box.x || 0) + (alignOptions.x || 0), y = (box.y || 0) + (alignOptions.y || 0), alignFactor, vAlignFactor;
         if (align === 'right') {
             alignFactor = 1;
         }
@@ -108,7 +117,7 @@ var ControllableLabel = /** @class */ (function () {
      * it works with absolute instead of relative position.
      */
     ControllableLabel.justifiedOptions = function (chart, label, alignOptions, alignAttr) {
-        var align = alignOptions.align, verticalAlign = alignOptions.verticalAlign, padding = label.box ? 0 : (label.padding || 0), bBox = label.getBBox(), off, 
+        var align = alignOptions.align, verticalAlign = alignOptions.verticalAlign, padding = label.box ? 0 : (label.padding || 0), bBox = label.getBBox(), 
         //
         options = {
             align: align,
@@ -119,7 +128,8 @@ var ControllableLabel = /** @class */ (function () {
             height: label.height
         }, 
         //
-        x = alignAttr.x - chart.plotLeft, y = alignAttr.y - chart.plotTop;
+        x = (alignAttr.x || 0) - chart.plotLeft, y = (alignAttr.y || 0) - chart.plotTop;
+        var off;
         // Off left
         off = x + padding;
         if (off < 0) {
@@ -127,7 +137,7 @@ var ControllableLabel = /** @class */ (function () {
                 options.align = 'left';
             }
             else {
-                options.x = -off;
+                options.x = (options.x || 0) - off;
             }
         }
         // Off right
@@ -137,7 +147,7 @@ var ControllableLabel = /** @class */ (function () {
                 options.align = 'right';
             }
             else {
-                options.x = chart.plotWidth - off;
+                options.x = (options.x || 0) + chart.plotWidth - off;
             }
         }
         // Off top
@@ -147,7 +157,7 @@ var ControllableLabel = /** @class */ (function () {
                 options.verticalAlign = 'top';
             }
             else {
-                options.y = -off;
+                options.y = (options.y || 0) - off;
             }
         }
         // Off bottom
@@ -157,7 +167,7 @@ var ControllableLabel = /** @class */ (function () {
                 options.verticalAlign = 'bottom';
             }
             else {
-                options.y = chart.plotHeight - off;
+                options.y = (options.y || 0) + chart.plotHeight - off;
             }
         }
         return options;
@@ -188,9 +198,9 @@ var ControllableLabel = /** @class */ (function () {
         // Annotation.options
         labelOptions = this.annotation.userOptions, 
         // Chart.options.annotations
-        annotationIndex = chart.annotations.indexOf(this.annotation), chartAnnotations = chart.options.annotations, chartOptions = chartAnnotations[annotationIndex], temp;
+        annotationIndex = chart.annotations.indexOf(this.annotation), chartAnnotations = chart.options.annotations, chartOptions = chartAnnotations[annotationIndex];
         if (chart.inverted) {
-            temp = dx;
+            var temp = dx;
             dx = dy;
             dy = temp;
         }
@@ -225,14 +235,14 @@ var ControllableLabel = /** @class */ (function () {
         ControllableMixin.render.call(this);
     };
     ControllableLabel.prototype.redraw = function (animation) {
-        var options = this.options, text = this.text || options.format || options.text, label = this.graphic, point = this.points[0], anchor, attrs;
+        var options = this.options, text = this.text || options.format || options.text, label = this.graphic, point = this.points[0];
         label.attr({
             text: text ?
                 format(text, point.getLabelConfig(), this.annotation.chart) :
                 options.formatter.call(point, this)
         });
-        anchor = this.anchor(point);
-        attrs = this.position(anchor);
+        var anchor = this.anchor(point);
+        var attrs = this.position(anchor);
         if (attrs) {
             label.alignAttr = attrs;
             attrs.anchorX = anchor.absolutePosition.x;
@@ -269,14 +279,16 @@ var ControllableLabel = /** @class */ (function () {
      * @return {Highcharts.PositionObject|null}
      */
     ControllableLabel.prototype.position = function (anchor) {
-        var item = this.graphic, chart = this.annotation.chart, point = this.points[0], itemOptions = this.options, anchorAbsolutePosition = anchor.absolutePosition, anchorRelativePosition = anchor.relativePosition, itemPosition, alignTo, itemPosRelativeX, itemPosRelativeY, showItem = point.series.visible &&
+        var item = this.graphic, chart = this.annotation.chart, point = this.points[0], itemOptions = this.options, anchorAbsolutePosition = anchor.absolutePosition, anchorRelativePosition = anchor.relativePosition;
+        var itemPosition, alignTo, itemPosRelativeX, itemPosRelativeY, showItem = point.series.visible &&
             MockPoint.prototype.isInsidePlot.call(point);
+        var _a = item.width, width = _a === void 0 ? 0 : _a, _b = item.height, height = _b === void 0 ? 0 : _b;
         if (showItem) {
             if (itemOptions.distance) {
                 itemPosition = Tooltip.prototype.getPosition.call({
                     chart: chart,
                     distance: pick(itemOptions.distance, 16)
-                }, item.width, item.height, {
+                }, width, height, {
                     plotX: anchorRelativePosition.x,
                     plotY: anchorRelativePosition.y,
                     negative: point.negative,
@@ -295,8 +307,8 @@ var ControllableLabel = /** @class */ (function () {
                     height: 0
                 };
                 itemPosition = ControllableLabel.alignedPosition(extend(itemOptions, {
-                    width: item.width,
-                    height: item.height
+                    width: width,
+                    height: height
                 }), alignTo);
                 if (this.options.overflow === 'justify') {
                     itemPosition = ControllableLabel.alignedPosition(ControllableLabel.justifiedOptions(chart, item, itemOptions, itemPosition), alignTo);
@@ -307,7 +319,7 @@ var ControllableLabel = /** @class */ (function () {
                 itemPosRelativeY = itemPosition.y - chart.plotTop;
                 showItem =
                     chart.isInsidePlot(itemPosRelativeX, itemPosRelativeY) &&
-                        chart.isInsidePlot(itemPosRelativeX + item.width, itemPosRelativeY + item.height);
+                        chart.isInsidePlot(itemPosRelativeX + width, itemPosRelativeY + height);
             }
         }
         return showItem ? itemPosition : null;
@@ -340,13 +352,13 @@ var ControllableLabel = /** @class */ (function () {
     return ControllableLabel;
 }());
 export default ControllableLabel;
-/* ********************************************************************** */
 /**
  * General symbol definition for labels with connector
  * @private
  */
-SVGRenderer.prototype.symbols.connector = function (x, y, w, h, options) {
-    var anchorX = options && options.anchorX, anchorY = options && options.anchorY, path, yOffset, lateral = w / 2;
+symbols.connector = function (x, y, w, h, options) {
+    var anchorX = options && options.anchorX, anchorY = options && options.anchorY;
+    var path, yOffset, lateral = w / 2;
     if (isNumber(anchorX) && isNumber(anchorY)) {
         path = [['M', anchorX, anchorY]];
         // Prefer 45 deg connectors

@@ -1,14 +1,14 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  * @module highcharts/indicators/mfi
  * @requires highcharts
  * @requires highcharts/modules/stock
  *
- * Money Flow Index indicator for Highstock
+ * Money Flow Index indicator for Highcharts Stock
  *
- * (c) 2010-2019 Grzegorz Blachliński
+ * (c) 2010-2021 Grzegorz Blachliński
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Stock/Indicators/MFIIndicator.js';
+import '../../Stock/Indicators/MFI/MFIIndicator.js';

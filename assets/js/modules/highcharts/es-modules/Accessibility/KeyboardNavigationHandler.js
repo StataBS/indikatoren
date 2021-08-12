@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2009-2020 Øystein Moseng
+ *  (c) 2009-2021 Øystein Moseng
  *
  *  Keyboard navigation handler base class definition
  *
@@ -83,7 +83,9 @@ KeyboardNavigationHandler.prototype = {
      *      a success/fail/unhandled, or if we should move to next/prev module.
      */
     run: function (e) {
-        var keyCode = e.which || e.keyCode, response = this.response.noHandler, handlerCodeSet = find(this.keyCodeMap, function (codeSet) {
+        var keyCode = e.which || e.keyCode;
+        var response = this.response.noHandler;
+        var handlerCodeSet = find(this.keyCodeMap, function (codeSet) {
             return codeSet[0].indexOf(keyCode) > -1;
         });
         if (handlerCodeSet) {

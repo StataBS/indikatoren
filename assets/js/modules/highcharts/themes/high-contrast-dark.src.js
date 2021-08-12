@@ -1,7 +1,7 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  *
- * (c) 2009-2019 Highsoft AS
+ * (c) 2009-2021 Highsoft AS
  *
  * License: www.highcharts.com/license
  */
@@ -26,10 +26,10 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Extensions/Themes/HighContrastDark.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (Highcharts, U) {
+    _registerModule(_modules, 'Extensions/Themes/HighContrastDark.js', [_modules['Core/Globals.js'], _modules['Core/DefaultOptions.js']], function (H, D) {
         /* *
          *
-         *  (c) 2010-2020 Highsoft AS
+         *  (c) 2010-2021 Highsoft AS
          *
          *  Author: Øystein Moseng
          *
@@ -42,9 +42,9 @@
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
-        var setOptions = U.setOptions;
+        var setOptions = D.setOptions;
         var textBright = '#F0F0F3';
-        Highcharts.theme = {
+        H.theme = {
             colors: [
                 '#a6f0ff',
                 '#70d49e',
@@ -234,7 +234,7 @@
             }
         };
         // Apply the theme
-        setOptions(Highcharts.theme);
+        setOptions(H.theme);
 
     });
     _registerModule(_modules, 'masters/themes/high-contrast-dark.src.js', [], function () {

@@ -1,7 +1,7 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  *
- * (c) 2009-2019 Highsoft AS
+ * (c) 2009-2021 Highsoft AS
  *
  * License: www.highcharts.com/license
  */
@@ -26,10 +26,10 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Extensions/Themes/Sunset.js', [_modules['Core/Globals.js'], _modules['Core/Utilities.js']], function (Highcharts, U) {
+    _registerModule(_modules, 'Extensions/Themes/Sunset.js', [_modules['Core/Globals.js'], _modules['Core/DefaultOptions.js']], function (H, D) {
         /* *
          *
-         *  (c) 2010-2020 Highsoft AS
+         *  (c) 2010-2021 Highsoft AS
          *
          *  Author: Øystein Moseng
          *
@@ -41,8 +41,8 @@
          *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
          *
          * */
-        var setOptions = U.setOptions;
-        Highcharts.theme = {
+        var setOptions = D.setOptions;
+        H.theme = {
             colors: ['#FDD089', '#FF7F79', '#A0446E', '#251535'],
             colorAxis: {
                 maxColor: '#60042E',
@@ -61,7 +61,7 @@
             }
         };
         // Apply the theme
-        setOptions(Highcharts.theme);
+        setOptions(H.theme);
 
     });
     _registerModule(_modules, 'masters/themes/sunset.src.js', [], function () {

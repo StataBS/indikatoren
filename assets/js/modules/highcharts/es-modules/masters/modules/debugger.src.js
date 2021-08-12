@@ -1,16 +1,16 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/debugger
  * @requires highcharts
  *
  * Debugger module
  *
- * (c) 2012-2019 Torstein Honsi
+ * (c) 2012-2021 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
-
 'use strict';
-
-import '../../error-messages.js';
-import '../../Extensions/Debugger.js';
+import Highcharts from '../../Core/Globals.js';
+import ErrorMessages from '../../Extensions/Debugger/ErrorMessages.js';
+Highcharts.errorMessages = ErrorMessages;
+import '../../Extensions/Debugger/Debugger.js';

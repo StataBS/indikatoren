@@ -2,19 +2,20 @@
  *
  *  GUI generator for Stock tools
  *
- *  (c) 2009-2017 Sebastian Bochan
+ *  (c) 2009-2021 Sebastian Bochan
  *
  *  License: www.highcharts.com/license
  *
  *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
-'use strict';
 import Chart from '../Core/Chart/Chart.js';
 import H from '../Core/Globals.js';
 import NavigationBindings from '../Extensions/Annotations/NavigationBindings.js';
+import D from '../Core/DefaultOptions.js';
+var setOptions = D.setOptions;
 import U from '../Core/Utilities.js';
-var addEvent = U.addEvent, createElement = U.createElement, css = U.css, extend = U.extend, fireEvent = U.fireEvent, getStyle = U.getStyle, isArray = U.isArray, merge = U.merge, pick = U.pick, setOptions = U.setOptions;
+var addEvent = U.addEvent, createElement = U.createElement, css = U.css, extend = U.extend, fireEvent = U.fireEvent, getStyle = U.getStyle, isArray = U.isArray, merge = U.merge, pick = U.pick;
 var DIV = 'div', SPAN = 'span', UL = 'ul', LI = 'li', PREFIX = 'highcharts-', activeClass = PREFIX + 'active';
 setOptions({
     /**
@@ -135,7 +136,35 @@ setOptions({
                 crosshairX: 'Crosshair X',
                 crosshairY: 'Crosshair Y',
                 tunnel: 'Tunnel',
-                background: 'Background'
+                background: 'Background',
+                // Indicators' params (#15170):
+                index: 'Index',
+                period: 'Period',
+                standardDeviation: 'Standard deviation',
+                periodTenkan: 'Tenkan period',
+                periodSenkouSpanB: 'Senkou Span B period',
+                periodATR: 'ATR period',
+                multiplierATR: 'ATR multiplier',
+                shortPeriod: 'Short period',
+                longPeriod: 'Long period',
+                signalPeriod: 'Signal period',
+                decimals: 'Decimals',
+                algorithm: 'Algorithm',
+                topBand: 'Top band',
+                bottomBand: 'Bottom band',
+                initialAccelerationFactor: 'Initial acceleration factor',
+                maxAccelerationFactor: 'Max acceleration factor',
+                increment: 'Increment',
+                multiplier: 'Multiplier',
+                ranges: 'Ranges',
+                highIndex: 'High index',
+                lowIndex: 'Low index',
+                deviation: 'Deviation',
+                xAxisUnit: 'x-axis unit',
+                factor: 'Factor',
+                fastAvgPeriod: 'Fast average period',
+                slowAvgPeriod: 'Slow average period',
+                average: 'Average'
             }
         }
     },
@@ -185,9 +214,10 @@ setOptions({
             toolbarClassName: 'stocktools-toolbar',
             /**
              * A collection of strings pointing to config options for the
-             * toolbar items. Each name refers to unique key from definitions
-             * object.
+             * toolbar items. Each name refers to a unique key from the
+             * definitions object.
              *
+             * @type    {Array<string>}
              * @default [
              *   'indicators',
              *   'separator',
@@ -742,23 +772,53 @@ setOptions({
 });
 /* eslint-disable no-invalid-this, valid-jsdoc */
 // Run HTML generator
-addEvent(H.Chart, 'afterGetContainer', function () {
+addEvent(Chart, 'afterGetContainer', function () {
     this.setStockTools();
 });
-addEvent(H.Chart, 'getMargins', function () {
+addEvent(Chart, 'getMargins', function () {
     var listWrapper = this.stockTools && this.stockTools.listWrapper, offsetWidth = listWrapper && ((listWrapper.startWidth +
         getStyle(listWrapper, 'padding-left') +
         getStyle(listWrapper, 'padding-right')) || listWrapper.offsetWidth);
     if (offsetWidth && offsetWidth < this.plotWidth) {
         this.plotLeft += offsetWidth;
+        this.spacing[3] += offsetWidth;
     }
+}, {
+    order: 0
 });
-addEvent(H.Chart, 'destroy', function () {
+['beforeRender', 'beforeRedraw'].forEach(function (event) {
+    addEvent(Chart, event, function () {
+        if (this.stockTools) {
+            var optionsChart = this.options.chart;
+            var listWrapper = this.stockTools.listWrapper, offsetWidth = listWrapper && ((listWrapper.startWidth +
+                getStyle(listWrapper, 'padding-left') +
+                getStyle(listWrapper, 'padding-right')) || listWrapper.offsetWidth);
+            var dirty = false;
+            if (offsetWidth && offsetWidth < this.plotWidth) {
+                var nextX = pick(optionsChart.spacingLeft, optionsChart.spacing && optionsChart.spacing[3], 0) + offsetWidth;
+                var diff = nextX - this.spacingBox.x;
+                this.spacingBox.x = nextX;
+                this.spacingBox.width -= diff;
+                dirty = true;
+            }
+            else if (offsetWidth === 0) {
+                dirty = true;
+            }
+            if (offsetWidth !== this.stockTools.prevOffsetWidth) {
+                this.stockTools.prevOffsetWidth = offsetWidth;
+                if (dirty) {
+                    this.isDirtyLegend = true;
+                }
+            }
+        }
+    });
+});
+addEvent(Chart, 'destroy', function () {
     if (this.stockTools) {
         this.stockTools.destroy();
     }
 });
-addEvent(H.Chart, 'redraw', function () {
+addEvent(Chart, 'redraw', function () {
     if (this.stockTools && this.stockTools.guiEnabled) {
         this.stockTools.redraw();
     }
@@ -831,7 +891,7 @@ var Toolbar = /** @class */ (function () {
         // create submenu container
         this.submenu = submenuWrapper = createElement(UL, {
             className: PREFIX + 'submenu-wrapper'
-        }, null, buttonWrapper);
+        }, void 0, buttonWrapper);
         // create submenu buttons and select the first one
         this.addSubmenuItems(buttonWrapper, button);
         // show / hide submenu
@@ -946,23 +1006,23 @@ var Toolbar = /** @class */ (function () {
         buttonWrapper = createElement(LI, {
             className: pick(classMapping[btnName], '') + ' ' + userClassName,
             title: lang[btnName] || btnName
-        }, null, target);
+        }, void 0, target);
         // single button
         mainButton = createElement(SPAN, {
             className: PREFIX + 'menu-item-btn'
-        }, null, buttonWrapper);
+        }, void 0, buttonWrapper);
         // submenu
         if (items && items.length) {
             // arrow is a hook to show / hide submenu
             submenuArrow = createElement(SPAN, {
                 className: PREFIX + 'submenu-item-arrow ' +
                     PREFIX + 'arrow-right'
-            }, null, buttonWrapper);
-            submenuArrow.style['background-image'] = 'url(' +
+            }, void 0, buttonWrapper);
+            submenuArrow.style.backgroundImage = 'url(' +
                 this.iconsURL + 'arrow-bottom.svg)';
         }
         else {
-            mainButton.style['background-image'] = 'url(' +
+            mainButton.style.backgroundImage = 'url(' +
                 this.iconsURL + btnOptions.symbol + ')';
         }
         return {
@@ -983,13 +1043,13 @@ var Toolbar = /** @class */ (function () {
         });
         stockToolbar.arrowUp = createElement(DIV, {
             className: PREFIX + 'arrow-up'
-        }, null, stockToolbar.arrowWrapper);
-        stockToolbar.arrowUp.style['background-image'] =
+        }, void 0, stockToolbar.arrowWrapper);
+        stockToolbar.arrowUp.style.backgroundImage =
             'url(' + this.iconsURL + 'arrow-right.svg)';
         stockToolbar.arrowDown = createElement(DIV, {
             className: PREFIX + 'arrow-down'
-        }, null, stockToolbar.arrowWrapper);
-        stockToolbar.arrowDown.style['background-image'] =
+        }, void 0, stockToolbar.arrowWrapper);
+        stockToolbar.arrowDown.style.backgroundImage =
             'url(' + this.iconsURL + 'arrow-right.svg)';
         wrapper.insertBefore(stockToolbar.arrowWrapper, wrapper.childNodes[0]);
         // attach scroll events
@@ -1005,14 +1065,14 @@ var Toolbar = /** @class */ (function () {
         _self.eventsToUnbind.push(addEvent(_self.arrowUp, 'click', function () {
             if (targetY > 0) {
                 targetY -= step;
-                toolbar.style['margin-top'] = -targetY + 'px';
+                toolbar.style.marginTop = -targetY + 'px';
             }
         }));
         _self.eventsToUnbind.push(addEvent(_self.arrowDown, 'click', function () {
             if (wrapper.offsetHeight + targetY <=
                 toolbar.offsetHeight + step) {
                 targetY += step;
-                toolbar.style['margin-top'] = -targetY + 'px';
+                toolbar.style.marginTop = -targetY + 'px';
             }
         }));
     };
@@ -1021,13 +1081,26 @@ var Toolbar = /** @class */ (function () {
      *
      */
     Toolbar.prototype.createHTML = function () {
-        var stockToolbar = this, chart = stockToolbar.chart, guiOptions = stockToolbar.options, container = chart.container, navigation = chart.options.navigation, bindingsClassName = navigation && navigation.bindingsClassName, listWrapper, toolbar, wrapper;
+        var stockToolbar = this, chart = stockToolbar.chart, guiOptions = stockToolbar.options, container = chart.container, navigation = chart.options.navigation, bindingsClassName = navigation && navigation.bindingsClassName, listWrapper, toolbar;
         // create main container
-        stockToolbar.wrapper = wrapper = createElement(DIV, {
+        var wrapper = stockToolbar.wrapper = createElement(DIV, {
             className: PREFIX + 'stocktools-wrapper ' +
                 guiOptions.className + ' ' + bindingsClassName
         });
-        container.parentNode.insertBefore(wrapper, container);
+        container.appendChild(wrapper);
+        // Mimic event behaviour of being outside chart.container
+        [
+            'mousemove',
+            'click',
+            'touchstart'
+        ].forEach(function (eventType) {
+            addEvent(wrapper, eventType, function (e) {
+                return e.stopPropagation();
+            });
+        });
+        addEvent(wrapper, 'mouseover', function (e) {
+            return chart.pointer.onContainerMouseLeave(e);
+        });
         // toolbar
         stockToolbar.toolbar = toolbar = createElement(UL, {
             className: PREFIX + 'stocktools-toolbar ' +
@@ -1070,8 +1143,8 @@ var Toolbar = /** @class */ (function () {
         // Show hide toolbar
         this.showhideBtn = showhideBtn = createElement(DIV, {
             className: PREFIX + 'toggle-toolbar ' + PREFIX + 'arrow-left'
-        }, null, wrapper);
-        showhideBtn.style['background-image'] =
+        }, void 0, wrapper);
+        showhideBtn.style.backgroundImage =
             'url(' + this.iconsURL + 'arrow-right.svg)';
         if (!visible) {
             // hide
@@ -1114,6 +1187,10 @@ var Toolbar = /** @class */ (function () {
         var buttonWrapper = button.parentNode, buttonWrapperClass = buttonWrapper.classList.value, 
         // main button in first level og GUI
         mainNavButton = buttonWrapper.parentNode.parentNode;
+        // if the button is disabled, don't do anything
+        if (buttonWrapperClass.indexOf('highcharts-disabled-btn') > -1) {
+            return;
+        }
         // set class
         mainNavButton.className = '';
         if (buttonWrapperClass) {
@@ -1122,8 +1199,8 @@ var Toolbar = /** @class */ (function () {
         // set icon
         mainNavButton
             .querySelectorAll('.' + PREFIX + 'menu-item-btn')[0]
-            .style['background-image'] =
-            button.style['background-image'];
+            .style.backgroundImage =
+            button.style.backgroundImage;
         // set active class
         if (redraw) {
             this.selectButton(mainNavButton);
@@ -1163,13 +1240,17 @@ var Toolbar = /** @class */ (function () {
      *
      * @param {Object} - general options for Stock Tools
      */
-    Toolbar.prototype.update = function (options) {
+    Toolbar.prototype.update = function (options, redraw) {
         merge(true, this.chart.options.stockTools, options);
         this.destroy();
         this.chart.setStockTools(options);
         // If Stock Tools are updated, then bindings should be updated too:
         if (this.chart.navigationBindings) {
             this.chart.navigationBindings.update();
+        }
+        this.chart.isDirtyBox = true;
+        if (pick(redraw, true)) {
+            this.chart.redraw();
         }
     };
     /**
@@ -1185,9 +1266,6 @@ var Toolbar = /** @class */ (function () {
         if (parent) {
             parent.removeChild(stockToolsDiv);
         }
-        // redraw
-        this.chart.isDirtyBox = true;
-        this.chart.redraw();
     };
     /**
      * Redraw, GUI requires to verify if the navigation should be visible.
@@ -1199,7 +1277,7 @@ var Toolbar = /** @class */ (function () {
     Toolbar.prototype.getIconsURL = function () {
         return this.chart.options.navigation.iconsURL ||
             this.options.iconsURL ||
-            'https://code.highcharts.com/8.2.0/gfx/stock-icons/';
+            'https://code.highcharts.com/9.1.2/gfx/stock-icons/';
     };
     return Toolbar;
 }());
@@ -1256,8 +1334,8 @@ extend(Chart.prototype, {
      * @param {Highcharts.StockToolsOptions} - chart options
      */
     setStockTools: function (options) {
-        var chartOptions = this.options, lang = chartOptions.lang, guiOptions = merge(chartOptions.stockTools && chartOptions.stockTools.gui, options && options.gui), langOptions = lang.stockTools && lang.stockTools.gui;
-        this.stockTools = new H.Toolbar(guiOptions, langOptions, this);
+        var chartOptions = this.options, lang = chartOptions.lang, guiOptions = merge(chartOptions.stockTools && chartOptions.stockTools.gui, options && options.gui), langOptions = lang && lang.stockTools && lang.stockTools.gui;
+        this.stockTools = new Toolbar(guiOptions, langOptions, this);
         if (this.stockTools.guiEnabled) {
             this.isDirtyBox = true;
         }
@@ -1285,6 +1363,23 @@ addEvent(NavigationBindings, 'deselectButton', function (event) {
             button = button.parentNode.parentNode;
         }
         gui.selectButton(button);
+    }
+});
+// Check if the correct price indicator button is displayed, #15029.
+addEvent(Chart, 'render', function () {
+    var chart = this, stockTools = chart.stockTools, button = stockTools &&
+        stockTools.toolbar &&
+        stockTools.toolbar.querySelector('.highcharts-current-price-indicator');
+    // Change the initial button background.
+    if (stockTools && chart.navigationBindings && chart.options.series && button) {
+        if (chart.navigationBindings.constructor.prototype.utils.isPriceIndicatorEnabled(chart.series)) {
+            button.firstChild.style['background-image'] =
+                'url("' + stockTools.getIconsURL() + 'current-price-hide.svg")';
+        }
+        else {
+            button.firstChild.style['background-image'] =
+                'url("' + stockTools.getIconsURL() + 'current-price-show.svg")';
+        }
     }
 });
 H.Toolbar = Toolbar;

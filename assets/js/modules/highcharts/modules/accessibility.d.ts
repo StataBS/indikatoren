@@ -15,10 +15,6 @@ export function factory(highcharts: typeof Highcharts): void;
 declare module "../highcharts" {
     interface Chart {
         /**
-         * Dismiss popup content in chart, including export menu and tooltip.
-         */
-        dismissPopupContent(): void;
-        /**
          * Apply context to a format string from lang options of the chart.
          *
          * @param langKey
@@ -61,6 +57,10 @@ declare module "../highcharts" {
          * Provide a description of the data point, announced to screen readers.
          */
         description?: string;
+        /**
+         * Enable or disable exposing the point to assistive technology
+         */
+        enabled?: boolean;
     }
     interface PointOptionsObject {
         accessibility?: PointAccessibilityOptionsObject;
@@ -197,7 +197,31 @@ declare module "../highcharts" {
      *        The series to add info on.
      */
     function describeSeries(series: Series): void;
+    /**
+     * Return string with the axis name/title.
+     */
     function getAxisDescription(axis: Axis): string;
+    /**
+     * Describe an axis from-to range.
+     */
+    function getAxisFromToDescription(axis: Axis): string;
+    /**
+     * Return string with text description of the axis range.
+     *
+     * @param axis
+     *        The axis to get range desc of.
+     *
+     * @return A string with the range description for the axis.
+     */
+    function getAxisRangeDescription(axis: Axis): string;
+    /**
+     * Describe the length of the time window shown on an axis.
+     */
+    function getAxisTimeLengthDesc(axis: Axis): string;
+    /**
+     * Describe the range of a category axis.
+     */
+    function getCategoryAxisRangeDesc(axis: Axis): string;
     function getChartTitle(): string;
 }
 export default factory;

@@ -1,9 +1,9 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  *
  * Drag-panes module
  *
- * (c) 2010-2019 Highsoft AS
+ * (c) 2010-2021 Highsoft AS
  * Author: Kacper Madej
  *
  * License: www.highcharts.com/license
@@ -29,12 +29,12 @@
             obj[path] = fn.apply(null, args);
         }
     }
-    _registerModule(_modules, 'Extensions/DragPanes.js', [_modules['Core/Globals.js'], _modules['Core/Axis/Axis.js'], _modules['Core/Pointer.js'], _modules['Core/Utilities.js']], function (H, Axis, Pointer, U) {
+    _registerModule(_modules, 'Extensions/DragPanes.js', [_modules['Core/Globals.js'], _modules['Core/Axis/Axis.js'], _modules['Core/Axis/AxisDefaults.js'], _modules['Core/Color/Palette.js'], _modules['Core/Pointer.js'], _modules['Core/Utilities.js']], function (H, Axis, AxisDefaults, palette, Pointer, U) {
         /* *
          *
          *  Plugin for resizing axes / panes in a chart.
          *
-         *  (c) 2010-2017 Highsoft AS
+         *  (c) 2010-2021 Highsoft AS
          *
          *  Author: Kacper Madej
          *
@@ -51,6 +51,11 @@
             objectEach = U.objectEach,
             relativeLength = U.relativeLength,
             wrap = U.wrap;
+        /* *
+         *
+         *  Class
+         *
+         * */
         /* eslint-disable no-invalid-this, valid-jsdoc */
         /**
          * The AxisResizer class.
@@ -470,7 +475,7 @@
                      * @type     {Highcharts.ColorString}
                      * @requires modules/drag-panes
                      */
-                    lineColor: '#cccccc',
+                    lineColor: palette.neutralColor20,
                     /**
                      * Dash style of the control line.
                      *
@@ -544,7 +549,7 @@
                     // Resizer not present and enabled
                     if (enabled) {
                         // Add new resizer
-                        axis.resizer = new H.AxisResizer(axis);
+                        axis.resizer = new AxisResizer(axis);
                     }
                     // Resizer not present and disabled, so do nothing
                 }
@@ -569,7 +574,7 @@
                 proceed.apply(this, Array.prototype.slice.call(arguments, 1));
             }
         });
-        merge(true, Axis.defaultYAxisOptions, AxisResizer.resizerOptions);
+        merge(true, AxisDefaults.defaultYAxisOptions, AxisResizer.resizerOptions);
         H.AxisResizer = AxisResizer;
 
         return H.AxisResizer;

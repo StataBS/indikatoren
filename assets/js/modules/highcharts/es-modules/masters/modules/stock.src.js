@@ -1,22 +1,29 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/stock
  * @requires highcharts
  *
- * Highstock as a plugin for Highcharts
+ * Highcharts Stock as a plugin for Highcharts
  *
- * (c) 2010-2019 Torstein Honsi
+ * (c) 2010-2021 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
 'use strict';
+import Highcharts from '../../Core/Globals.js';
 import '../../Core/Axis/OrdinalAxis.js';
 import './broken-axis.src.js';
 import '../../Extensions/DataGrouping.js';
-import '../../Series/OHLCSeries.js';
-import '../../Series/CandlestickSeries.js';
-import '../../Series/FlagsSeries.js';
-import '../../Core/Scrollbar.js';
+import '../../Series/OHLC/OHLCSeries.js';
+import '../../Series/Candlestick/CandlestickSeries.js';
+import '../../Series/Flags/FlagsSeries.js';
+import Scrollbar from '../../Core/Scrollbar.js';
 import '../../Core/Navigator.js';
 import '../../Extensions/RangeSelector.js';
-import '../../Core/Chart/StockChart.js';
+import StockChart from '../../Core/Chart/StockChart.js';
+var G = Highcharts;
+// Classes
+G.Scrollbar = Scrollbar;
+G.StockChart = G.stockChart = StockChart.stockChart;
+// Compositions
+Scrollbar.compose(G.Axis);
