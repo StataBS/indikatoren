@@ -126,85 +126,81 @@ var indikatorensetData = [
 		"id": 5203
 	},
 	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "in Prozent, Basel-Stadt",
-		"kuerzel": "I.09.2.5813",
-		"kuerzelKunde": "ST 4-5",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-08-27T10:08:40.4040",
-		"stufe1": "Sachgebiet Siedlung - Wohnen",
-		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Seither steigt sie wieder leicht an. Zwischen 2019 und 2020 sank die Quote leicht, beträgt gerundet aber immer noch 1,0%.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Anteil des Leerwohnungsbestandes am Gesamtwohnungsbestand.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_04_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6245"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5813,
 		"chart-id": 5813,
 		"filter": "",
-		"id": 5813
-	},
-	{
-		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kuerzel": "I.09.2.05814",
-		"kuerzelKunde": "ST 4-6",
-		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"parentId": null,
+		"children": [
+			6245
+		],
+		"title": "Leerwohnungsquote",
+		"subtitle": "in Prozent, Basel-Stadt",
+		"lesehilfe": "Die Leerwohnungsquote sank seit 2006 kontinuierlich und erreichte 2014 mit 0,2% den tiefsten Wert. Danach stieg sie und erreichte 2021 eine Quote von 1,1%.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Leerwohnungsquote",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.5813",
 		"kennzahlenset": "Richtplan",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-27T10:10:06.066",
+		"kuerzelKunde": "ST 4-5",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2020 im Wohnviertel Vorstädte verzeichnet. Die Zunahme gegenüber der Quote vor 10 Jahren war im Wohnviertel Altstadt am grössten (von 0,5% auf 1,7%).",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
+		"orderKey": "02_04_00_00_00_005",
+		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"6246"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"id": 5813
+	},
+	{
+		"template": "mappie001",
 		"data-id": 5814,
 		"chart-id": 5814,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6246
+		],
+		"title": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2021 in der Grossbasler Altstadt verzeichnet (2,2%). Die Zunahme gegenüber der Quote von vor zehn Jahren war ebenfalls im Wohnviertel Altstadt am grössten (von 0,4% auf 2,2%).",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Leerwohnungsquote nach Gemeinde und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.05814",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-6",
+		"stufe1": "Sachgebiet Siedlung - Wohnen",
+		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_04_00_00_00_006",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-16T05:19:50",
 		"id": 5814
 	},
 	{
@@ -829,44 +825,42 @@ var indikatorensetData = [
 		"id": 6216
 	},
 	{
+		"template": "line001",
+		"data-id": 6217,
+		"chart-id": 6217,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6262
+		],
 		"title": "Leerstehende Geschäftsflächen",
 		"subtitle": "in Quadratmetern, Basel-Stadt",
-		"kuerzel": "I.09.2.6217",
-		"kuerzelKunde": "ST 7-4",
-		"description": "Leerstehende Geschäftsflächen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Jahr 2021 beträgt die leerstehende Fläche insgesamt rund 185 000 m², was einem neuen Höchtsstand entspricht. Die Büroflächen machen mit rund 121 000 m² fast zwei Drittel der leerstehenden Geschäftsflächen aus.",
+		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
+		"quellenangabe": [
+			"SVIT beider Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-27T10:07:05.055",
+		"description": "Leerstehende Geschäftsflächen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.06217",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-4",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Büroflächen machen mit rund 76 000 m² weit über die Hälfte aller leerstehenden Geschäftsflächen aus. Der Leerstand von Industrie- und Gewerbeflächen erreichte 2011 mit total 169 000 m² den Höchststand in den letzten 20 Jahren. Im Jahr 2020 beträgt die leerstehende Fläche insgesamt rund 121 000 m².",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"6262"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"SVIT beider Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6217,
-		"chart-id": 6217,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-16T05:19:50",
 		"id": 6217
 	},
 	{

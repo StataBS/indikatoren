@@ -29,28 +29,28 @@
       },
       "data": [
         [
-          "1 Zimmer (1.6%)",
-          188
+          "1 Zimmer (2,3%)",
+          272
         ],
         [
-          "2 Zimmer (1.2%)",
-          313
+          "2 Zimmer (1,4%)",
+          377
         ],
         [
-          "3 Zimmer (0.9%)",
-          392
+          "3 Zimmer (1,1%)",
+          447
         ],
         [
-          "4 Zimmer (0.7%)",
-          129
+          "4 Zimmer (0,5%)",
+          94
         ],
         [
-          "5 Zimmer (0.4%)",
-          28
+          "5 Zimmer (0,5%)",
+          35
         ],
         [
-          "6 Zimmer (0.4%)",
-          23
+          "6 Zimmer (0,2%)",
+          10
         ]
       ],
       "name": "Leerwohnungen",
@@ -123,7 +123,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {
@@ -144,7 +144,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "legend": {
     "layout": "vertical",

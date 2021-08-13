@@ -9,15 +9,15 @@
       "data": [
         [
           "Grossbasel",
-          612
+          756
         ],
         [
           "Kleinbasel",
-          349
+          402
         ],
         [
           "Riehen\u002FBettingen",
-          112
+          77
         ],
         [
           "Arlesheim",
@@ -64,15 +64,15 @@
       "data": [
         [
           "Grossbasel",
-          0.0101
+          0.0124
         ],
         [
           "Kleinbasel",
-          0.0087
+          0.0099
         ],
         [
           "Riehen\u002FBettingen",
-          0.0102
+          0.007
         ],
         [
           "Arlesheim",
@@ -119,23 +119,23 @@
         ],
         [
           "Arlesheim",
-          916
+          689
         ],
         [
           "Laufen",
-          135
+          117
         ],
         [
           "Liestal",
-          385
+          408
         ],
         [
           "Sissach",
-          120
+          126
         ],
         [
           "Waldenburg",
-          61
+          64
         ]
       ],
       "name": "Anzahl Leerwohnungen",
@@ -174,23 +174,23 @@
         ],
         [
           "Arlesheim",
-          0.0117
+          0.0087
         ],
         [
           "Laufen",
-          0.0136
+          0.0115
         ],
         [
           "Liestal",
-          0.0129
+          0.0135
         ],
         [
           "Sissach",
-          0.007
+          0.0073
         ],
         [
           "Waldenburg",
-          0.008
+          0.0083
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)",
@@ -273,7 +273,7 @@
     "text": "Leerwohnungen und Leerwohnungsquoten nach Kantonsgebiet"
   },
   "subtitle": {
-    "text": "Basel-Stadt und Basel-Landschaft, 2020",
+    "text": "Basel-Stadt und Basel-Landschaft, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "tooltip": {
     "shared": true

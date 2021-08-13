@@ -78,42 +78,40 @@ var indikatorensetData = [
 		"id": 4128
 	},
 	{
+		"template": "line001",
+		"data-id": 4129,
+		"chart-id": 4129,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Mietpreisentwicklung der Leerwohnungen",
 		"subtitle": "nach Zimmerzahl, Basel-Stadt",
-		"kuerzel": "I.09.2.4129",
-		"kuerzelKunde": "0.1.B-2",
-		"description": "Mietpreisentwicklung der Leerwohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht steigend. Da es grundsätzlich wenige leerstehende 5-Zimmer-Wohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
+		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T10:03:40.4040",
+		"description": "Mietpreisentwicklung der Leerwohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.04129",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "0.1.B-2",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Mietpreisentwicklung der Leerwohnungen ist im Zehnjahresvergleich leicht ansteigend. Da es grundsätzlich wenige leerstehende 5-Zimmer-Wohnungen gibt, sind die ausgewiesenen Durchschnittsmieten in dieser Kategorie grösseren Schwankungen unterworfen bzw. können wie im Jahr 2014 aufgrund zu kleiner Stichprobe gar nicht berechnet werden.",
-		"erlaeuterungen": "Ohne Wohnungen mit Zwischennutzung (eingeschränkte Mieterrechte, besonders günstig), ohne möblierte Wohnungen (besonders teuer) und mit Genossenschaftswohnungen. Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4129,
-		"chart-id": 4129,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-16T05:19:42",
 		"id": 4129
 	},
 	{
@@ -440,84 +438,80 @@ var indikatorensetData = [
 		"id": 4137
 	},
 	{
-		"title": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.2.4138",
-		"kuerzelKunde": "1.2.F-1",
-		"description": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-08-27T10:12:00.000",
-		"stufe1": "Ziel 1: Gesellschaftspolitik",
-		"stufe2": "1.2 Wohnraum erhalten und erneuern",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2019 stetig auf 1,0% gestiegen. 2020 ist sie leicht gesunken, beträgt aber gerundet immer noch 1,0%.",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"5195",
-			"8909"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 4138,
 		"chart-id": 4138,
 		"filter": "",
-		"id": 4138
-	},
-	{
-		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
+		"parentId": null,
+		"children": [
+			5195,
+			8909
+		],
+		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.2.4139",
-		"kuerzelKunde": "1.2.F-2",
-		"description": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2021 auf 1,1% gestiegen.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T09:54:14.1414",
+		"description": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.04138",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.F-1",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit gut 0,5% bei Wohnungen ab 150 m² gemessen.",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "template001",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-16T05:19:43",
+		"id": 4138
+	},
+	{
+		"template": "template001",
 		"data-id": 4139,
 		"chart-id": 4139,
 		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 weisen Wohnungen mit einer Fläche von weniger als 30m² die höchste Leerwohnungsquote auf. Der tiefste Wert wird mit gut 0,5% bei Wohnungen ab 150 m² gemessen.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Leerwohnungen und Leerwohnungsquote nach Wohnungsgrösse",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.04139",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.F-2",
+		"stufe1": "Ziel 1: Gesellschaftspolitik",
+		"stufe2": "1.2 Wohnraum erhalten und erneuern",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_02_00_00_00_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-16T05:19:43",
 		"id": 4139
 	},
 	{

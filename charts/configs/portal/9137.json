@@ -8,10 +8,6 @@
       "legendIndex": 7,
       "data": [
         [
-          2011,
-          16
-        ],
-        [
           2012,
           19
         ],
@@ -46,6 +42,10 @@
         [
           2020,
           59
+        ],
+        [
+          2021,
+          33
         ]
       ],
       "name": "6 u.m. Zi"
@@ -57,10 +57,6 @@
       "pointWidth": "15",
       "legendIndex": 6,
       "data": [
-        [
-          2011,
-          57
-        ],
         [
           2012,
           64
@@ -96,6 +92,10 @@
         [
           2020,
           107
+        ],
+        [
+          2021,
+          81
         ]
       ],
       "name": "5 Zi"
@@ -107,10 +107,6 @@
       "pointWidth": "15",
       "legendIndex": 5,
       "data": [
-        [
-          2011,
-          241
-        ],
         [
           2012,
           189
@@ -146,6 +142,10 @@
         [
           2020,
           537
+        ],
+        [
+          2021,
+          461
         ]
       ],
       "name": "4 Zi"
@@ -157,10 +157,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2011,
-          196
-        ],
         [
           2012,
           234
@@ -196,6 +192,10 @@
         [
           2020,
           712
+        ],
+        [
+          2021,
+          610
         ]
       ],
       "name": "3 Zi"
@@ -207,10 +207,6 @@
       "pointWidth": "15",
       "legendIndex": 3,
       "data": [
-        [
-          2011,
-          47
-        ],
         [
           2012,
           67
@@ -246,6 +242,10 @@
         [
           2020,
           172
+        ],
+        [
+          2021,
+          177
         ]
       ],
       "name": "2 Zi"
@@ -257,10 +257,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2011,
-          15
-        ],
         [
           2012,
           16
@@ -296,6 +292,10 @@
         [
           2020,
           30
+        ],
+        [
+          2021,
+          42
         ]
       ],
       "name": "1 Zi"
@@ -316,10 +316,6 @@
           }
       },
       "data": [
-        [
-          2011,
-          0.0044
-        ],
         [
           2012,
           0.0045
@@ -355,6 +351,10 @@
         [
           2020,
           0.0113
+        ],
+        [
+          2021,
+          0.0097
         ]
       ],
       "name": "Leerstandsquote (rechte Skala)"
@@ -416,7 +416,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Leerwohnungen nach Zimmerzahl"
+    "text": "Leerwohnungen nach Zimmerzahl sowie Leerstandsquote"
   },
   "subtitle": {
     "text": "Basel-Landschaft",
@@ -520,7 +520,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "tooltip": {
     "shared": true

@@ -641,7 +641,7 @@ id | visible | visibleInPortal | indikatorenset
 6388 | true | true | Gefragte Karten
 6389 | true | false | Gefragte Karten
 6390 | true | false | Gefragte Karten
-6391 | true | true | Gefragte Karten
+6391 | true | false | Gefragte Karten
 6392 | true | false | Gefragte Karten
 6394 | true | true | Gefragte Karten
 6395 | true | true | Gefragte Karten
@@ -1443,7 +1443,7 @@ id | visible | visibleInPortal | indikatorenset
 8272 | true | true | CMS Kennzahlen Soziales
 8273 | true | true | CMS Kennzahlen Soziales
 8274 | true | true | CMS Kennzahlen Soziales
-8275 | true | true | CMS Kennzahlen Soziales
+8275 | true | false | CMS Kennzahlen Soziales
 8276 | true | true | CMS Kennzahlen Soziales
 8277 | true | true | CMS Kennzahlen Soziales
 8278 | true | true | CMS Kennzahlen Soziales

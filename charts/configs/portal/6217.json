@@ -8,10 +8,6 @@
       },
       "data": [
         [
-          2001,
-          6284
-        ],
-        [
           2002,
           4415
         ],
@@ -86,6 +82,10 @@
         [
           2020,
           9220
+        ],
+        [
+          2021,
+          16033
         ]
       ],
       "name": "Laden"
@@ -97,10 +97,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2001,
-          22039
-        ],
         [
           2002,
           23722
@@ -176,6 +172,10 @@
         [
           2020,
           76480
+        ],
+        [
+          2021,
+          122422
         ]
       ],
       "name": "Büro"
@@ -187,10 +187,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2001,
-          1532
-        ],
         [
           2002,
           1713
@@ -266,6 +262,10 @@
         [
           2020,
           18532
+        ],
+        [
+          2021,
+          23556
         ]
       ],
       "name": "Gewerbe"
@@ -277,10 +277,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2001,
-          14588
-        ],
         [
           2002,
           11547
@@ -356,6 +352,10 @@
         [
           2020,
           1791
+        ],
+        [
+          2021,
+          410
         ]
       ],
       "name": "Produktion"
@@ -367,10 +367,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2001,
-          22703
-        ],
         [
           2002,
           8057
@@ -446,6 +442,10 @@
         [
           2020,
           14520
+        ],
+        [
+          2021,
+          22258
         ]
       ],
       "name": "Lager"
@@ -573,7 +573,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: SVIT beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: SVIT beider Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -611,6 +611,6 @@
   },
   "tooltip": {},
   "exporting": {
-    "filename": 6217
+    "filename": "6217"
   }
 }

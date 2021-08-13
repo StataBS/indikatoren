@@ -26,26 +26,26 @@
       "data": [
         [
           "Laden",
-          9220
+          16033
         ],
         [
           "Büro",
-          76480
+          122422
         ],
         [
           "Gewerbe",
-          18532
+          23556
         ],
         [
           "Produktion",
-          1791
+          410
         ],
         [
           "Lager",
-          14520
+          22258
         ]
       ],
-      "name": "Fläche in m\u003Csup\u003E2\u003C\u002Fsup\u003E",
+      "name": "Anzahl",
       "turboThreshold": 0
     }
   ],
@@ -114,7 +114,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, Anteile 2020",
+    "text": "Basel-Stadt, Anteile 2021",
     "align": "left"
   },
   "tooltip": {
@@ -137,7 +137,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "legend": {
     "layout": "vertical",

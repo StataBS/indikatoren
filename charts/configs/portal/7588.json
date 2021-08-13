@@ -6,10 +6,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2011,
-          16373
-        ],
-        [
           2012,
           14333
         ],
@@ -44,6 +40,10 @@
         [
           2020,
           9220
+        ],
+        [
+          2021,
+          16033
         ]
       ],
       "name": "Laden"
@@ -53,10 +53,6 @@
       "index": 4,
       "legendIndex": 2,
       "data": [
-        [
-          2011,
-          87909
-        ],
         [
           2012,
           91175
@@ -92,6 +88,10 @@
         [
           2020,
           76480
+        ],
+        [
+          2021,
+          122422
         ]
       ],
       "name": "Büro"
@@ -101,10 +101,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          2011,
-          18925
-        ],
         [
           2012,
           18102
@@ -140,6 +136,10 @@
         [
           2020,
           18532
+        ],
+        [
+          2021,
+          23556
         ]
       ],
       "name": "Gewerbe"
@@ -149,10 +149,6 @@
       "index": 2,
       "legendIndex": 4,
       "data": [
-        [
-          2011,
-          2000
-        ],
         [
           2012,
           1057
@@ -188,6 +184,10 @@
         [
           2020,
           1791
+        ],
+        [
+          2021,
+          410
         ]
       ],
       "name": "Produktion"
@@ -197,10 +197,6 @@
       "index": 1,
       "legendIndex": 5,
       "data": [
-        [
-          2011,
-          43476
-        ],
         [
           2012,
           23853
@@ -236,6 +232,10 @@
         [
           2020,
           14520
+        ],
+        [
+          2021,
+          22258
         ]
       ],
       "name": "Lager"
@@ -317,11 +317,9 @@
         "textOverflow": "none"
       }
     },
-    "min": 2011,
-    "max": 2020,
     "tickInterval": 1,
-    "endOnTick": true,
-    "startOnTick": true
+    "endOnTick": false,
+    "startOnTick": false
   },
   "yAxis": {
     "min": 0,
@@ -367,7 +365,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

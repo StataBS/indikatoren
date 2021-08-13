@@ -964,42 +964,40 @@ var indikatorensetData = [
 		"id": 5193
 	},
 	{
-		"title": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
+		"template": "template001",
+		"data-id": 5195,
+		"chart-id": 5195,
+		"filter": "",
+		"parentId": "4138",
+		"children": [],
+		"title": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.09.2.05195",
-		"kuerzelKunde": "GW16",
-		"description": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2021 auf 1,1% gestiegen.",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T09:52:27.2727",
+		"description": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.05195",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW16",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Leerwohnungsquote (LWQ) erreichte im Jahr 2014 mit 0,2% ihren Tiefstwert innerhalb des Beobachtungszeitraums. Danach ist die LWQ bis 2019 stetig auf 1,0% gestiegen. 2020 ist sie leicht gesunken, beträgt aber gerundet immer noch 1,0%.",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "template001",
+		"orderKey": "03_07_00_00_00_317",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_317",
-		"parentId": 4138,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5195,
-		"chart-id": 5195,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-16T05:19:44",
 		"id": 5195
 	},
 	{

@@ -7,10 +7,6 @@
       "visible": false,
       "data": [
         [
-          2011,
-          94
-        ],
-        [
           2012,
           119
         ],
@@ -45,6 +41,10 @@
         [
           2020,
           188
+        ],
+        [
+          2021,
+          272
         ]
       ],
       "name": "1 Zimmer"
@@ -55,10 +55,6 @@
       "legendIndex": 4,
       "visible": false,
       "data": [
-        [
-          2011,
-          115
-        ],
         [
           2012,
           102
@@ -94,6 +90,10 @@
         [
           2020,
           313
+        ],
+        [
+          2021,
+          377
         ]
       ],
       "name": "2 Zimmer"
@@ -104,10 +104,6 @@
       "legendIndex": 6,
       "visible": false,
       "data": [
-        [
-          2011,
-          171
-        ],
         [
           2012,
           159
@@ -143,6 +139,10 @@
         [
           2020,
           392
+        ],
+        [
+          2021,
+          447
         ]
       ],
       "name": "3 Zimmer"
@@ -153,10 +153,6 @@
       "legendIndex": 8,
       "visible": false,
       "data": [
-        [
-          2011,
-          92
-        ],
         [
           2012,
           86
@@ -192,6 +188,10 @@
         [
           2020,
           129
+        ],
+        [
+          2021,
+          94
         ]
       ],
       "name": "4 Zimmer"
@@ -202,10 +202,6 @@
       "legendIndex": 10,
       "visible": false,
       "data": [
-        [
-          2011,
-          50
-        ],
         [
           2012,
           34
@@ -241,6 +237,10 @@
         [
           2020,
           51
+        ],
+        [
+          2021,
+          45
         ]
       ],
       "name": "5+ Zimmer"
@@ -251,10 +251,6 @@
       "legendIndex": 0,
       "visible": true,
       "data": [
-        [
-          2011,
-          522
-        ],
         [
           2012,
           500
@@ -290,6 +286,10 @@
         [
           2020,
           1073
+        ],
+        [
+          2021,
+          1235
         ]
       ],
       "name": "Anzahl leere Wohnungen"
@@ -304,10 +304,6 @@
         "enabled": false
       },
       "data": [
-        [
-          2011,
-          0.4959
-        ],
         [
           2012,
           0.4728
@@ -343,6 +339,10 @@
         [
           2020,
           0.9611
+        ],
+        [
+          2021,
+          1.0959
         ]
       ],
       "name": "LWQ alle Wohnungen (rechte Skala)"
@@ -358,10 +358,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2011,
-          0.8207
-        ],
         [
           2012,
           1.0384
@@ -397,6 +393,10 @@
         [
           2020,
           1.6385
+        ],
+        [
+          2021,
+          2.308
         ]
       ],
       "name": "LWQ 1 Zimmer"
@@ -412,10 +412,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2011,
-          0.4652
-        ],
         [
           2012,
           0.4092
@@ -451,6 +447,10 @@
         [
           2020,
           1.1878
+        ],
+        [
+          2021,
+          1.4092
         ]
       ],
       "name": "LWQ 2 Zimmer"
@@ -466,10 +466,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2011,
-          0.435
-        ],
         [
           2012,
           0.4029
@@ -505,6 +501,10 @@
         [
           2020,
           0.9467
+        ],
+        [
+          2021,
+          1.074
         ]
       ],
       "name": "LWQ 3 Zimmer"
@@ -520,10 +520,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2011,
-          0.5127
-        ],
         [
           2012,
           0.4765
@@ -559,6 +555,10 @@
         [
           2020,
           0.6636
+        ],
+        [
+          2021,
+          0.4814
         ]
       ],
       "name": "LWQ 4 Zimmer"
@@ -574,10 +574,6 @@
       },
       "visible": false,
       "data": [
-        [
-          2011,
-          0.4222
-        ],
         [
           2012,
           0.2866
@@ -613,6 +609,10 @@
         [
           2020,
           0.3931
+        ],
+        [
+          2021,
+          0.346
         ]
       ],
       "name": "LWQ 5+ Zimmer"
@@ -682,7 +682,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Leerwohnungen und Leerwohnungsquote nach Zimmerzahl"
+    "text": "Leerwohnungen und Leerwohnungsquote (LWQ) nach Zimmerzahl"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -781,7 +781,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
