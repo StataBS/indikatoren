@@ -1,12 +1,13 @@
 /* *
  *
- *  (c) 2010-2020 Torstein Honsi
+ *  (c) 2010-2021 Torstein Honsi
  *
  *  License: www.highcharts.com/license
  *
  *  !!!!!!! SOURCE GETS TRANSPILED BY TYPESCRIPT. EDIT TS FILE ONLY. !!!!!!!
  *
  * */
+'use strict';
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -105,9 +106,8 @@ var ZAxis = /** @class */ (function (_super) {
         // loop through this axis' series
         axis.series.forEach(function (series) {
             if (series.visible ||
-                !(chart.options.chart &&
-                    chart.options.chart.ignoreHiddenSeries)) {
-                var seriesOptions = series.options, zData, threshold = seriesOptions.threshold;
+                !chart.options.chart.ignoreHiddenSeries) {
+                var seriesOptions = series.options, zData = void 0, threshold = seriesOptions.threshold;
                 axis.hasVisibleSeries = true;
                 // Validate threshold in logarithmic axes
                 if (axis.positiveValuesOnly && threshold <= 0) {
@@ -128,8 +128,7 @@ var ZAxis = /** @class */ (function (_super) {
         var axis = this;
         var chart = axis.chart;
         _super.prototype.setAxisSize.call(this);
-        axis.width = axis.len = (chart.options.chart &&
-            chart.options.chart.options3d &&
+        axis.width = axis.len = (chart.options.chart.options3d &&
             chart.options.chart.options3d.depth) || 0;
         axis.right = chart.chartWidth - axis.width - axis.left;
     };
@@ -141,6 +140,8 @@ var ZAxis = /** @class */ (function (_super) {
             offset: 0,
             lineWidth: 0
         }, userOptions);
+        // #14793, this used to be set on the prototype
+        this.isZAxis = true;
         _super.prototype.setOptions.call(this, userOptions);
         this.coll = 'zAxis';
     };

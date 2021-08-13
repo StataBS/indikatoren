@@ -1,12 +1,12 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/venn
  * @requires highcharts
  *
- * (c) 2017-2019 Highsoft AS
+ * (c) 2017-2021 Highsoft AS
  * Authors: Jon Arild Nygard
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Series/VennSeries.js';
+import '../../Series/Venn/VennSeries.js';

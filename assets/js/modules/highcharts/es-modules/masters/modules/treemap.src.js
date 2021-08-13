@@ -1,12 +1,12 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/treemap
  * @requires highcharts
  *
- * (c) 2014-2019 Highsoft AS
+ * (c) 2014-2021 Highsoft AS
  * Authors: Jon Arild Nygard / Oystein Moseng
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Series/TreemapSeries.js';
+import '../../Series/Treemap/TreemapSeries.js';

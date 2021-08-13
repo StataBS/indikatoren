@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2009-2020 Øystein Moseng
+ *  (c) 2009-2021 Øystein Moseng
  *
  *  Default lang/i18n options for accessibility.
  *
@@ -19,10 +19,10 @@ var langOptions = {
      * [Highcharts Accessibility](https://www.highcharts.com/docs/chart-concepts/accessibility).
      *
      * For more dynamic control over the accessibility functionality, see
-     * [accessibility.pointDescriptionFormatter](#accessibility.pointDescriptionFormatter),
-     * [accessibility.seriesDescriptionFormatter](#accessibility.seriesDescriptionFormatter),
+     * [accessibility.point.descriptionFormatter](#accessibility.point.descriptionFormatter),
+     * [accessibility.series.descriptionFormatter](#accessibility.series.descriptionFormatter),
      * and
-     * [accessibility.screenReaderSectionFormatter](#accessibility.screenReaderSectionFormatter).
+     * [accessibility.screenReaderSection.beforeChartFormatter](#accessibility.screenReaderSection.beforeChartFormatter).
      *
      * @since        6.0.6
      * @optionparent lang.accessibility
@@ -104,8 +104,9 @@ var langOptions = {
          * @since 8.0.0
          */
         legend: {
-            legendLabel: 'Toggle series visibility',
-            legendItem: 'Hide {itemName}'
+            legendLabelNoTitle: 'Toggle series visibility',
+            legendLabel: 'Chart legend: {legendTitle}',
+            legendItem: 'Show {itemName}'
         },
         /**
          * Chart and map zoom accessibility language options.
@@ -123,9 +124,10 @@ var langOptions = {
          * @since 8.0.0
          */
         rangeSelector: {
+            dropdownLabel: '{rangeTitle}',
             minInputLabel: 'Select start date.',
             maxInputLabel: 'Select end date.',
-            buttonText: 'Select range {buttonText}'
+            clickButtonAnnouncement: 'Viewing {axisRangeDescription}'
         },
         /**
          * Accessibility language options for the data table.

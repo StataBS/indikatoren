@@ -1,13 +1,13 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/sankey
  * @requires highcharts
  *
  * Sankey diagram module
  *
- * (c) 2010-2019 Torstein Honsi
+ * (c) 2010-2021 Torstein Honsi
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Series/SankeySeries.js';
+import '../../Series/Sankey/SankeySeries.js';

@@ -1,6 +1,6 @@
 /* *
  *
- *  (c) 2009-2020 Øystein Moseng
+ *  (c) 2009-2021 Øystein Moseng
  *
  *  Accessibility component for chart legend.
  *
@@ -10,14 +10,15 @@
  *
  * */
 'use strict';
+import Chart from '../../Core/Chart/Chart.js';
 import H from '../../Core/Globals.js';
 import Legend from '../../Core/Legend.js';
 import U from '../../Core/Utilities.js';
-var addEvent = U.addEvent, extend = U.extend, find = U.find, fireEvent = U.fireEvent;
+var addEvent = U.addEvent, extend = U.extend, find = U.find, fireEvent = U.fireEvent, isNumber = U.isNumber;
 import AccessibilityComponent from '../AccessibilityComponent.js';
 import KeyboardNavigationHandler from '../KeyboardNavigationHandler.js';
 import HTMLUtilities from '../Utils/HTMLUtilities.js';
-var stripHTMLTags = HTMLUtilities.stripHTMLTagsFromString, removeElement = HTMLUtilities.removeElement;
+var removeElement = HTMLUtilities.removeElement, stripHTMLTags = HTMLUtilities.stripHTMLTagsFromString;
 /* eslint-disable no-invalid-this, valid-jsdoc */
 /**
  * @private
@@ -47,10 +48,11 @@ function shouldDoLegendA11y(chart) {
  *
  * @return {boolean}
  */
-H.Chart.prototype.highlightLegendItem = function (ix) {
-    var items = this.legend.allItems, oldIx = this.highlightedLegendItemIx;
+Chart.prototype.highlightLegendItem = function (ix) {
+    var items = this.legend.allItems, oldIx = this.accessibility &&
+        this.accessibility.components.legend.highlightedLegendItemIx;
     if (items[ix]) {
-        if (items[oldIx]) {
+        if (isNumber(oldIx) && items[oldIx]) {
             fireEvent(items[oldIx].legendGroup.element, 'mouseout');
         }
         scrollLegendToItem(this.legend, ix);
@@ -64,7 +66,7 @@ H.Chart.prototype.highlightLegendItem = function (ix) {
 addEvent(Legend, 'afterColorizeItem', function (e) {
     var chart = this.chart, a11yOptions = chart.options.accessibility, legendItem = e.item;
     if (a11yOptions.enabled && legendItem && legendItem.a11yProxyElement) {
-        legendItem.a11yProxyElement.setAttribute('aria-pressed', e.visible ? 'false' : 'true');
+        legendItem.a11yProxyElement.setAttribute('aria-pressed', e.visible ? 'true' : 'false');
     }
 });
 /**
@@ -128,6 +130,12 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
     /**
      * @private
      */
+    onChartUpdate: function () {
+        this.updateLegendTitle();
+    },
+    /**
+     * @private
+     */
     updateProxiesPositions: function () {
         for (var _i = 0, _a = this.proxyElementsList; _i < _a.length; _i++) {
             var _b = _a[_i], element = _b.element, posElement = _b.posElement;
@@ -150,6 +158,7 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
         this.removeProxies();
         if (shouldDoLegendA11y(this.chart)) {
             this.addLegendProxyGroup();
+            this.addLegendListContainer();
             this.proxyLegendItems();
             this.updateLegendItemProxyVisibility();
         }
@@ -164,13 +173,40 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
     /**
      * @private
      */
+    updateLegendTitle: function () {
+        var chart = this.chart;
+        var legendTitle = stripHTMLTags((chart.legend &&
+            chart.legend.options.title &&
+            chart.legend.options.title.text ||
+            '').replace(/<br ?\/?>/g, ' '));
+        var legendLabel = chart.langFormat('accessibility.legend.legendLabel' + (legendTitle ? '' : 'NoTitle'), {
+            chart: chart,
+            legendTitle: legendTitle
+        });
+        if (this.legendProxyGroup) {
+            this.legendProxyGroup.setAttribute('aria-label', legendLabel);
+        }
+    },
+    /**
+     * @private
+     */
     addLegendProxyGroup: function () {
-        var a11yOptions = this.chart.options.accessibility, groupLabel = this.chart.langFormat('accessibility.legend.legendLabel', {}), groupRole = a11yOptions.landmarkVerbosity === 'all' ?
+        var a11yOptions = this.chart.options.accessibility, groupRole = a11yOptions.landmarkVerbosity === 'all' ?
             'region' : null;
         this.legendProxyGroup = this.addProxyGroup({
-            'aria-label': groupLabel,
-            'role': groupRole
+            'aria-label': '_placeholder_',
+            role: groupRole
         });
+    },
+    /**
+     * @private
+     */
+    addLegendListContainer: function () {
+        if (this.legendProxyGroup) {
+            var container = this.legendListContainer = this.createElement('ul');
+            container.style.listStyle = 'none';
+            this.legendProxyGroup.appendChild(container);
+        }
     },
     /**
      * @private
@@ -189,21 +225,24 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
      * @param {Highcharts.BubbleLegend|Point|Highcharts.Series} item
      */
     proxyLegendItem: function (item) {
-        if (!item.legendItem || !item.legendGroup) {
+        if (!item.legendItem || !item.legendGroup || !this.legendListContainer) {
             return;
         }
         var itemLabel = this.chart.langFormat('accessibility.legend.legendItem', {
             chart: this.chart,
-            itemName: stripHTMLTags(item.name)
+            itemName: stripHTMLTags(item.name),
+            item: item
         }), attribs = {
             tabindex: -1,
-            'aria-pressed': !item.visible,
+            'aria-pressed': item.visible,
             'aria-label': itemLabel
         }, 
         // Considers useHTML
         proxyPositioningElement = item.legendGroup.div ?
             item.legendItem : item.legendGroup;
-        item.a11yProxyElement = this.createProxyButton(item.legendItem, this.legendProxyGroup, attribs, proxyPositioningElement);
+        var listItem = this.createElement('li');
+        this.legendListContainer.appendChild(listItem);
+        item.a11yProxyElement = this.createProxyButton(item.legendItem, listItem, attribs, proxyPositioningElement);
         this.proxyElementsList.push({
             item: item,
             element: item.a11yProxyElement,
@@ -226,7 +265,10 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
                 ],
                 [
                     [keys.enter, keys.space],
-                    function () {
+                    function (keyCode) {
+                        if (H.isFirefox && keyCode === keys.space) { // #15520
+                            return this.response.success;
+                        }
                         return component.onKbdClick(this);
                     }
                 ]
@@ -236,6 +278,9 @@ extend(LegendComponent.prototype, /** @lends Highcharts.LegendComponent */ {
             },
             init: function (direction) {
                 return component.onKbdNavigationInit(direction);
+            },
+            terminate: function () {
+                chart.legend.allItems.forEach(function (item) { return item.setState('', true); });
             }
         });
     },

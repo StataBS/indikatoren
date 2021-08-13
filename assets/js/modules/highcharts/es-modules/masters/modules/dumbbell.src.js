@@ -1,11 +1,11 @@
 /**
- * @license Highcharts JS v8.2.0 (2020-08-20)
+ * @license Highcharts JS v9.1.2 (2021-06-16)
  * @module highcharts/modules/dumbbell
  * @requires highcharts
  *
- * (c) 2009-2019 Sebastian Bochan, Rafal Sebestjanski
+ * (c) 2009-2021 Sebastian Bochan, Rafal Sebestjanski
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Series/DumbbellSeries.js';
+import '../../Series/Dumbbell/DumbbellSeries.js';

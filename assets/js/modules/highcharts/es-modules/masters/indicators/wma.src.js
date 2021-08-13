@@ -1,14 +1,14 @@
 /**
- * @license Highstock JS v8.2.0 (2020-08-20)
+ * @license Highstock JS v9.1.2 (2021-06-16)
  * @module highcharts/indicators/wma
  * @requires highcharts
  * @requires highcharts/modules/stock
  *
- * Indicator series type for Highstock
+ * Indicator series type for Highcharts Stock
  *
- * (c) 2010-2019 Kacper Madej
+ * (c) 2010-2021 Kacper Madej
  *
  * License: www.highcharts.com/license
  */
 'use strict';
-import '../../Stock/Indicators/WMAIndicator.js';
+import '../../Stock/Indicators/WMA/WMAIndicator.js';

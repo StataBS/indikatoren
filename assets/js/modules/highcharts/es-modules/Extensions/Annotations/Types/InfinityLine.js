@@ -22,6 +22,11 @@ import CrookedLine from './CrookedLine.js';
 import MockPoint from '../MockPoint.js';
 import U from '../../../Core/Utilities.js';
 var merge = U.merge;
+/* *
+ *
+ *  Class
+ *
+ * */
 /* eslint-disable no-invalid-this, valid-jsdoc */
 var InfinityLine = /** @class */ (function (_super) {
     __extends(InfinityLine, _super);
@@ -41,26 +46,15 @@ var InfinityLine = /** @class */ (function (_super) {
     InfinityLine.edgePoint = function (startIndex, endIndex) {
         return function (target) {
             var annotation = target.annotation, points = annotation.points, type = annotation.options.typeOptions.type;
-            if (type === 'horizontalLine') {
-                // Horizontal line has only one point,
+            if (type === 'horizontalLine' || type === 'verticalLine') {
+                // Horizontal and vertical lines have only one point,
                 // make a copy of it:
                 points = [
                     points[0],
                     new MockPoint(annotation.chart, points[0].target, {
-                        x: points[0].x + 1,
-                        y: points[0].y,
-                        xAxis: points[0].options.xAxis,
-                        yAxis: points[0].options.yAxis
-                    })
-                ];
-            }
-            else if (type === 'verticalLine') {
-                // The same for verticalLine type:
-                points = [
-                    points[0],
-                    new MockPoint(annotation.chart, points[0].target, {
-                        x: points[0].x,
-                        y: points[0].y + 1,
+                        // add 0 or 1 to x or y depending on type
+                        x: points[0].x + +(type === 'horizontalLine'),
+                        y: points[0].y + +(type === 'verticalLine'),
                         xAxis: points[0].options.xAxis,
                         yAxis: points[0].options.yAxis
                     })
@@ -79,7 +73,7 @@ var InfinityLine = /** @class */ (function (_super) {
             firstPoint[xOrY]);
     };
     InfinityLine.findEdgePoint = function (firstPoint, secondPoint) {
-        var xAxis = firstPoint.series.xAxis, yAxis = secondPoint.series.yAxis, firstPointPixels = MockPoint.pointToPixels(firstPoint), secondPointPixels = MockPoint.pointToPixels(secondPoint), deltaX = secondPointPixels.x - firstPointPixels.x, deltaY = secondPointPixels.y - firstPointPixels.y, xAxisMin = xAxis.left, xAxisMax = xAxisMin + xAxis.width, yAxisMin = yAxis.top, yAxisMax = yAxisMin + yAxis.height, xLimit = deltaX < 0 ? xAxisMin : xAxisMax, yLimit = deltaY < 0 ? yAxisMin : yAxisMax, edgePoint = {
+        var chart = firstPoint.series.chart, xAxis = firstPoint.series.xAxis, yAxis = secondPoint.series.yAxis, firstPointPixels = MockPoint.pointToPixels(firstPoint), secondPointPixels = MockPoint.pointToPixels(secondPoint), deltaX = secondPointPixels.x - firstPointPixels.x, deltaY = secondPointPixels.y - firstPointPixels.y, xAxisMin = xAxis.left, xAxisMax = xAxisMin + xAxis.width, yAxisMin = yAxis.top, yAxisMax = yAxisMin + yAxis.height, xLimit = deltaX < 0 ? xAxisMin : xAxisMax, yLimit = deltaY < 0 ? yAxisMin : yAxisMax, edgePoint = {
             x: deltaX === 0 ? firstPointPixels.x : xLimit,
             y: deltaY === 0 ? firstPointPixels.y : yLimit
         }, edgePointX, edgePointY, swap;
@@ -95,8 +89,8 @@ var InfinityLine = /** @class */ (function (_super) {
                 edgePoint.y = yLimit;
             }
         }
-        edgePoint.x -= xAxisMin;
-        edgePoint.y -= yAxisMin;
+        edgePoint.x -= chart.plotLeft;
+        edgePoint.y -= chart.plotTop;
         if (firstPoint.series.chart.inverted) {
             swap = edgePoint.x;
             edgePoint.x = edgePoint.y;
@@ -114,7 +108,11 @@ var InfinityLine = /** @class */ (function (_super) {
             this.points[0],
             InfinityLine.endEdgePoint
         ];
-        if (typeOptions.type.match(/Line/g)) {
+        // Be case-insensitive (#15155) e.g.:
+        // - line
+        // - horizontalLine
+        // - verticalLine
+        if (typeOptions.type.match(/line/gi)) {
             points[0] = InfinityLine.startEdgePoint;
         }
         var line = this.initShape(merge(typeOptions.line, {
@@ -133,6 +131,23 @@ var InfinityLine = /** @class */ (function (_super) {
     return InfinityLine;
 }(CrookedLine));
 InfinityLine.prototype.defaultOptions = merge(CrookedLine.prototype.defaultOptions, {});
+/* *
+ *
+ *  Registry
+ *
+ * */
+Annotation.types.infinityLine = InfinityLine;
+/* *
+ *
+ *  Default Export
+ *
+ * */
+export default InfinityLine;
+/* *
+ *
+ *  API Declarations
+ *
+ * */
 /**
  * An infinity line annotation.
  *
@@ -143,5 +158,4 @@ InfinityLine.prototype.defaultOptions = merge(CrookedLine.prototype.defaultOptio
  * @product   highstock
  * @apioption annotations.infinityLine
  */
-Annotation.types.infinityLine = InfinityLine;
-export default InfinityLine;
+(''); // keeps doclets above in transpiled file
