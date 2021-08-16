@@ -4,10 +4,6 @@
       "color": "black",
       "data": [
         [
-          2000,
-          1.37
-        ],
-        [
           2001,
           1.49
         ],
@@ -86,6 +82,10 @@
         [
           2020,
           0.96
+        ],
+        [
+          2021,
+          1.14
         ]
       ],
       "name": "Basel"
@@ -93,10 +93,6 @@
     {
       "color": "#9E7C59",
       "data": [
-        [
-          2000,
-          0.73
-        ],
         [
           2001,
           0.53
@@ -176,6 +172,10 @@
         [
           2020,
           0.58
+        ],
+        [
+          2021,
+          0.54
         ]
       ],
       "name": "Bern"
@@ -183,10 +183,6 @@
     {
       "color": "#689199",
       "data": [
-        [
-          2000,
-          0.97
-        ],
         [
           2001,
           0.44
@@ -265,6 +261,10 @@
         ],
         [
           2020,
+          0.6
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -273,10 +273,6 @@
     {
       "color": "#923F8D",
       "data": [
-        [
-          2000,
-          0.8
-        ],
         [
           2001,
           0.42
@@ -355,6 +351,10 @@
         ],
         [
           2020,
+          0.5
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -363,10 +363,6 @@
     {
       "color": "#CD9C00",
       "data": [
-        [
-          2000,
-          1.24
-        ],
         [
           2001,
           0.51
@@ -446,6 +442,10 @@
         [
           2020,
           0.56
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "name": "Winterthur"
@@ -453,10 +453,6 @@
     {
       "color": "#68AB2B",
       "data": [
-        [
-          2000,
-          0.14
-        ],
         [
           2001,
           0.05
@@ -536,6 +532,10 @@
         [
           2020,
           0.15
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "name": "Zürich"
@@ -543,10 +543,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          2000,
-          1.49
-        ],
         [
           2001,
           1.26
@@ -625,6 +621,10 @@
         ],
         [
           2020,
+          1.7
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -684,7 +684,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Leerwohnungsquote in Grossstädten"
+    "text": "Leerwohnungsquote in Grossstädten und in der Schweiz"
   },
   "subtitle": {
     "text": "",
@@ -759,7 +759,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

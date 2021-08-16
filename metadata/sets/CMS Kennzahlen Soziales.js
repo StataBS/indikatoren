@@ -1344,44 +1344,40 @@ var indikatorensetData = [
 		"id": 8274
 	},
 	{
-		"title": "Leerwohnungen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kuerzel": "I.09.2.08275",
-		"kuerzelKunde": "1-35",
-		"description": "Leerwohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Leerstand",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"template": "mappie001",
+		"data-id": 8275,
+		"chart-id": 8275,
+		"filter": "",
+		"parentId": "6379",
+		"children": [],
+		"title": "Leerwohnungen nach Gemeinde und Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2021 in der Altstadt Grossbasel (2,2%) beobachtet, die tiefste in Bettingen (0,0%).",
+		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-27T11:40:17.1717",
+		"description": "Leerwohnungen nach Gemeinde und Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Leerstand",
+		"kuerzel": "I.09.2.08275",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-35",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.4 Wohnen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die höchste Leerwohnungsquote aller Wohnviertel wurde 2020 im Wohnviertel Vorstädte (2,0%) beobachtet, die tiefste im Hirzbrunnen (0,3%).",
-		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
-		"template": "mappie001",
+		"orderKey": "01_05_00_00_00_135",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_05_00_00_00_135",
-		"parentId": 6379,
-		"children": [],
-		"renderLink": [
-			"6379"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8275,
-		"chart-id": 8275,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-16T05:19:43",
 		"id": 8275
 	},
 	{

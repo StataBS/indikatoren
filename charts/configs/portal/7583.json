@@ -7,10 +7,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2010,
-          1142
-        ],
-        [
           2011,
           1499
         ],
@@ -48,7 +44,11 @@
         ],
         [
           2020,
-          1867
+          1614
+        ],
+        [
+          2021,
+          1650
         ]
       ],
       "name": "Neubau"
@@ -59,10 +59,6 @@
       "type": "column",
       "legendIndex": 1,
       "data": [
-        [
-          2010,
-          6
-        ],
         [
           2011,
           124
@@ -101,7 +97,11 @@
         ],
         [
           2020,
-          142
+          164
+        ],
+        [
+          2021,
+          250
         ]
       ],
       "name": "Umbausaldo"
@@ -112,10 +112,6 @@
       "type": "column",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          -130
-        ],
         [
           2011,
           -114
@@ -154,7 +150,11 @@
         ],
         [
           2020,
-          -204
+          -194
+        ],
+        [
+          2021,
+          -200
         ]
       ],
       "name": "Abbruch"
@@ -168,10 +168,6 @@
       },
       "legendIndex": 3,
       "data": [
-        [
-          2010,
-          1018
-        ],
         [
           2011,
           1509
@@ -210,7 +206,11 @@
         ],
         [
           2020,
-          1805
+          1584
+        ],
+        [
+          2021,
+          1700
         ]
       ],
       "name": "Nettoproduktion"
@@ -221,19 +221,19 @@
       "showInLegend": false,
       "data": [
         [
-          2019.4,
+          2020.4,
           -500
         ],
         [
-          2019.4,
+          2020.4,
           2000
         ],
         [
-          2021,
+          2022,
           2000
         ],
         [
-          2021,
+          2022,
           -500
         ]
       ],
@@ -327,8 +327,9 @@
     },
     "endOnTick": true,
     "startOnTick": true,
-    "min": 2010,
-    "max": 2020
+    "tickInterval": 1,
+    "min": 2011,
+    "max": 2021
   },
   "yAxis": {
     "gridLineWidth": 0.5,
@@ -380,7 +381,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-27"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
   },
   "tooltip": {
     "shared": false,
