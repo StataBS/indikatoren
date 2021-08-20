@@ -43044,7 +43044,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "53 919 Logiernächte wurden im Juni 2021 in den Basler Hotelbetrieben gebucht, 6 380 bzw. 10,6% weniger als im Mai. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 78,6% bzw. 23 729 Übernachtungen. Die inländischen Gäste buchten 30 615 Logiernächte (+62,3%), die Gäste aus dem Ausland 23 304 Übernachtungen (+105,7%).",
+		"lesehilfe": "81 857 Logiernächte wurden im Juli 2021 in den Basler Hotelbetrieben gebucht, 27 938 bzw. 51,8% mehr als im Juni. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 47,4% bzw. 26 335 Übernachtungen. Die inländischen Gäste buchten 37 286 Logiernächte (+31,1%), die Gäste aus dem Ausland 44 571 Übernachtungen (+64,6%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -43070,7 +43070,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-29T08:25:33",
+		"aktualisierungsdatum": "2021-08-20T07:37:32",
 		"id": 7516
 	},
 	{
@@ -43081,8 +43081,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35%.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 45%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -43108,7 +43108,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-29T08:25:34",
+		"aktualisierungsdatum": "2021-08-20T07:37:33",
 		"id": 7517
 	},
 	{
@@ -73078,7 +73078,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-12T08:06:10",
+		"aktualisierungsdatum": "2021-08-20T07:37:33",
 		"id": 8995
 	},
 	{
@@ -73705,7 +73705,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-12T08:06:11",
+		"aktualisierungsdatum": "2021-08-20T07:37:33",
 		"id": 9022
 	},
 	{
@@ -73743,7 +73743,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-12T08:06:11",
+		"aktualisierungsdatum": "2021-08-20T07:37:33",
 		"id": 9023
 	},
 	{
