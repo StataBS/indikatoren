@@ -7123,10 +7123,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-23"
   },
   "colorAxis": {
-    "min": 0,
+    "min": 0.1,
     "gridLineColor": "#fbfbfb",
     "gridLineWidth": 1,
     "labels": {
@@ -7143,6 +7143,7 @@
     "marker": {
       "color": "black"
     },
+    "max": 0.5,
     "minColor": "#ECE1D0",
     "maxColor": "#3A2012"
   },
