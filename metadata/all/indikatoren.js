@@ -22605,47 +22605,45 @@ var indikatoren = [
 		"id": 6372
 	},
 	{
-		"parentId": 4828,
-		"children": [
-			"6385"
-		],
 		"template": "map002",
+		"data-id": 6373,
+		"chart-id": 6373,
+		"filter": "",
+		"parentId": "4828",
+		"children": [
+			6385
+		],
 		"title": "Sesshaftigkeit",
 		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.01.1.06373",
-		"kuerzelKunde": "C1-4",
-		"description": "Sesshaftigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
+		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-03-09T12:07:02.022",
+		"description": "Sesshaftigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06373",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C1-4",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
-		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
+		"orderKey": "02_00_00_00_00_004",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
-		"renderLink": [
-			"4828"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevsess.anteil_sess10' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 6373,
-		"chart-id": 6373,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-23T08:17:14",
 		"id": 6373
 	},
 	{
@@ -23168,7 +23166,7 @@ var indikatoren = [
 		"orderKey": "01_00_00_00_00_004",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"visibleInPortal": false,
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-08-09T08:36:22",
 		"id": 6385
@@ -27578,46 +27576,44 @@ var indikatoren = [
 		"id": 6513
 	},
 	{
+		"template": "template001",
+		"data-id": 6514,
+		"chart-id": 6514,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6746
+		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
-		"kuerzel": "I.15.6.6514",
-		"kuerzelKunde": "B5-1",
-		"description": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Integration",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
+		"lesehilfe": "Im Jahr 2020 wurden 2 709 (Vorjahr 3 115) Gutscheine ausgestellt und 1 252 (Vorjahr 1 552) eingelöst. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (751) ausgestellt. Mit 76,4% erreichten Personen aus dem Balkan die höchste Einlösequote. Am tiefsten war diese Quote 2020 bei Personen aus afrikanischen Ländern (36,7%).",
+		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
+			"Bevölkerungsdienste und Migration Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T10:19:25.2525",
+		"description": "Anzahl Gutscheine für Gratis-Deutschkurse",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.6514",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "B5-1",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden 3 115 Gutscheine ausgestellt und 1 552 eingelöst. Am meisten Gutscheine (890) wurden für Personen aus den EU-17- und EFTA-Ländern ausgestellt. Mit 86,5% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2019 bei Personen aus den EU-Oststaaten (36,6%).",
-		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_501",
-		"parentId": null,
-		"children": [
-			"6746"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
-			"Bevölkerungsdienste und Migration Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6514,
-		"chart-id": 6514,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-23T08:17:14",
 		"id": 6514
 	},
 	{
@@ -43032,7 +43028,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-22T08:43:05",
+		"aktualisierungsdatum": "2021-08-23T08:17:13",
 		"id": 7515
 	},
 	{
@@ -47204,8 +47200,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Juni",
-		"lesehilfe": "Im Juni 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in drei Wohnvierteln sowie in Riehen. In sechzehn Wohnvierteln und in Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, Juli",
+		"lesehilfe": "Im Juli 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in sechs Wohnvierteln sowie in Riehen und Bettingen. In zwölf Wohnvierteln ging sie zurück. Im Bachletten blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -47232,7 +47228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-07-22T08:43:05",
+		"aktualisierungsdatum": "2021-08-23T08:17:13",
 		"id": 7763
 	},
 	{
@@ -51273,45 +51269,43 @@ var indikatoren = [
 		"id": 8053
 	},
 	{
+		"template": "template001",
+		"data-id": 8054,
+		"chart-id": 8054,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8624"
+			8624
 		],
-		"template": "template001",
 		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.01.5.07673",
-		"kuerzelKunde": "2.09",
-		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"lesehilfe": "In den Jahren 2016 bis 2020 kamen im Wohnviertel Klybeck häufiger positive als negative Wanderungssaldi zustande. Im Wohnviertel Kleinhüningen waren die Wanderungssaldi in allen betrachteten Jahren negativ. In beiden Wohnvierteln waren die Wanderungsbilanzen gegenüber dem Ausland stets positiv und diejenigen gegenüber der Agglomeration Basel stets negativ. Die Stadt Basel verzeichnete für die Jahre 2016 bis 2020 Wanderungsgewinne, die hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen waren.",
+		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arisdorf, Arlesheim, Augst, Bärschwil, Bättwil, Bennwil, Biel-Benken, Binningen, Birsfelden, Blauen, Böckten, Bottmingen, Breitenbach, Bretzwil, Brislach, Bubendorf, Buckten, Büren, Burg im Leimental, Büsserach, Buus, Diepflingen, Dittingen, Dornach, Duggingen, Ettingen, Fehren, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Hellikon, Hemmiken, Hersberg, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Känerkinden, Kleinlützel, Lampenberg, Laufen, Lausen, Lauwil, Liestal, Lupsingen, Magden, Maisprach, Meltingen, Metzerlen-Mariastein, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Nunningen, Nusshof, Oberdorf, Obermumpf, Oberwil, Olsberg, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reigoldswil, Reinach, Rheinfelden, Rickenbach, Rodersdorf, Röschenz, Rümlingen, Rünenberg, Schönenbuch, Seltisberg, Seewen, Sissach, Tecknau, Tenniken, Therwil, Titterten, Thürnen, Wahlen, Wegenstetten, Wenslingen, Wintersingen, Witterswil, Wittinsburg, Zeiningen, Ziefen, Zullwil, Zunzgen, Zuzgen und Zwingen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:25.2525",
+		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.08054",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2015 bis 2019 kamen im Wohnviertel Klybeck häufiger positive als negative Wanderungssaldi zustande, im Wohnviertel Kleinhüningen verhielt es sich umgekehrt. Bei beiden sind allfällige Wanderungsgewinne jeweils hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen und ihre Bilanzen gegenüber der Agglomeration Basel waren stets negativ. In der Stadt Basel kamen die positiven Wanderungsbilanzen für die Jahre 2015 bis 2019 ebenfalls hauptsächlich aufgrund der Zuzüge aus dem Ausland zustande.",
-		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8054,
-		"chart-id": 8054,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-23T08:17:13",
 		"id": 8054
 	},
 	{

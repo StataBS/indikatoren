@@ -6,39 +6,39 @@
       "data": [
         [
           "Italien",
-          358
+          330
         ],
         [
           "Türkei",
-          99
+          89
         ],
         [
-          "EU-17 und EFTA",
-          890
+          "EU-West + EFTA + UK",
+          751
         ],
         [
           "EU-Ost",
-          470
+          371
         ],
         [
           "Balkan",
-          144
+          106
         ],
         [
           "Mittel- und Südamerika",
-          168
+          162
         ],
         [
           "Arabische Länder",
-          71
+          55
         ],
         [
           "Afrikanische Länder",
-          52
+          49
         ],
         [
           "Übrige Länder",
-          863
+          796
         ]
       ],
       "name": "Ausgestellte Gutscheine",
@@ -50,39 +50,39 @@
       "data": [
         [
           "Italien",
-          198
+          165
         ],
         [
           "Türkei",
-          83
+          49
         ],
         [
-          "EU-17 und EFTA",
-          364
+          "EU-West + EFTA + UK",
+          280
         ],
         [
           "EU-Ost",
-          172
+          160
         ],
         [
           "Balkan",
-          86
+          81
         ],
         [
           "Mittel- und Südamerika",
-          113
+          95
         ],
         [
           "Arabische Länder",
-          35
+          32
         ],
         [
           "Afrikanische Länder",
-          45
+          18
         ],
         [
           "Übrige Länder",
-          456
+          372
         ]
       ],
       "name": "Eingelöste Gutscheine",
@@ -167,7 +167,7 @@
     "text": "Anzahl Gutscheine für Gratis-Deutschkurse"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -223,7 +223,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-8"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung;\u003Cbr\u002F\u003EBevölkerungsdienste und Migration Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

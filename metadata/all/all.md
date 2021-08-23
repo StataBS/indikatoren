@@ -623,7 +623,7 @@ id | visible | visibleInPortal | indikatorenset
 6370 | true | false | Legislaturplan (Print)
 6371 | true | false | Legislaturplan (Print)
 6372 | true | false | Legislaturplan (Print)
-6373 | true | true | Gefragte Karten
+6373 | true | false | Gefragte Karten
 6374 | true | true | Gefragte Karten
 6375 | true | true | Gefragte Karten
 6376 | true | true | Gefragte Karten
@@ -635,7 +635,7 @@ id | visible | visibleInPortal | indikatorenset
 6382 | true | true | Gefragte Karten
 6383 | true | true | Gefragte Karten
 6384 | true | true | Gefragte Karten
-6385 | true | false | Gefragte Karten
+6385 | true | true | Gefragte Karten
 6386 | true | true | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | true | Gefragte Karten
