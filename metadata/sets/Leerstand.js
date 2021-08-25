@@ -35,7 +35,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:44",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 7573
 	},
 	{
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 7574
 	},
 	{
@@ -115,7 +115,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7576
 	},
 	{
@@ -154,7 +154,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7577
 	},
 	{
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7578
 	},
 	{
@@ -232,7 +232,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7579
 	},
 	{
@@ -271,7 +271,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7580
 	},
 	{
@@ -310,7 +310,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7581
 	},
 	{
@@ -349,7 +349,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7582
 	},
 	{
@@ -388,7 +388,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7583
 	},
 	{
@@ -427,7 +427,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7584
 	},
 	{
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7585
 	},
 	{
@@ -506,7 +506,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7586
 	},
 	{
@@ -523,7 +523,7 @@ var indikatorensetData = [
 		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist um 15% auf  375 000 m² gewachsen. Gut 49% des gesamten Angebots entfallen auf den Stadt- und knapp 51% auf den Landkanton.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"SVIT beider Basel"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -545,7 +545,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7587
 	},
 	{
@@ -559,10 +559,10 @@ var indikatorensetData = [
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -584,7 +584,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7588
 	},
 	{
@@ -598,10 +598,10 @@ var indikatorensetData = [
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Im Landkanton nahm die Bürofläche zwischen 2020 und 2021 um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% der grösste Bereich. Danach folgt der Gewerbebereich mit 24%.",
+		"lesehilfe": "Im Landkanton nahm die Bürofläche zwischen 2020 und 2021 um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% der grösste Bereich. Danach folgt der Gewerbebereich mit 24%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -623,7 +623,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7589
 	},
 	{
@@ -640,7 +640,7 @@ var indikatorensetData = [
 		"lesehilfe": "Rund zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Kleinere Anteile zwischen 13% und 9% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -662,7 +662,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7590
 	},
 	{
@@ -675,11 +675,11 @@ var indikatorensetData = [
 			9084
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "7573",
+		"subtitle": "Basel-Landschaft, Anteile 2021",
 		"lesehilfe": "Der Bürobereich (46%) und der Gewerbebereich (24%) weisen den grössten Anteil am Leerstand aus. Danach folgen die Lagerflächen mit 19%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -701,7 +701,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 9064
 	},
 	{
@@ -740,7 +740,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 9137
 	}
 ];

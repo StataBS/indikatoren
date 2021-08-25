@@ -241,85 +241,81 @@ var indikatorensetData = [
 		"id": 5155
 	},
 	{
-		"title": "Wanderungen der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, Summe 2010 bis 2019",
-		"kuerzel": "I.01.5.5156",
-		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen der Schweizer Bevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-20T10:47:26.2626",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Zwischen 2010 und 2019 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-jährigen sowie der 20- bis 24-jährigen Personen nennenswerte positive Wanderungssaldi auf. Geringfügig mehr Zuzüge als Wegzüge gab es auch bei den 75- bis 79- und den 80- bis 84-jährigen Schweizern. Deutlich mehr Weg- als Zuzüge verzeichneten die bis 4-jährigen, die 30- bis 34-jährigen und die 35- bis 39-jährigen Schweizer.",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_109",
-		"parentId": null,
-		"children": [
-			"8888"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5156,
 		"chart-id": 5156,
 		"filter": "",
-		"id": 5156
-	},
-	{
-		"title": "Wanderungen der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, Summe 2010 bis 2019",
-		"kuerzel": "I.01.5.5157",
-		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen der ausländischen Bevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"parentId": null,
+		"children": [
+			8888
+		],
+		"title": "Wanderungen der Schweizer Bevölkerung",
+		"subtitle": "Basel-Stadt, 2011 bis 2020",
+		"lesehilfe": "Zwischen 2011 und 2020 wiesen die zu- und weggezogenen Schweizerinnen und Schweizer einzig in den Fünfjahresklassen der 15- bis 19-jährigen sowie der 20- bis 24-jährigen Personen nennenswerte positive Wanderungssaldi auf. Geringfügig mehr Zuzüge als Wegzüge gab es auch bei den 75- bis 79-Jährigen, den 80- bis 84-Jährigen und den 85- bis 89-Jährigen. Deutlich mehr Weg- als Zuzüge verzeichneten die bis 4-jährigen, die 30- bis 34-jährigen und die 35- bis 39-jährigen Schweizerinnen und Schweizer.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-20T11:22:52.5252",
+		"description": "Wanderungen der Schweizer Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.05156",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.2",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2010 bis 2019 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Wanderungsgewinn 6 686 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
-		"template": "populationPyramid001",
+		"orderKey": "01_01_00_00_00_109",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_110",
-		"parentId": null,
-		"children": [
-			"8889"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-25T08:16:12",
+		"id": 5156
+	},
+	{
+		"template": "populationPyramid001",
 		"data-id": 5157,
 		"chart-id": 5157,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8889
+		],
+		"title": "Wanderungen der ausländischen Bevölkerung",
+		"subtitle": "Basel-Stadt, 2011 bis 2020",
+		"lesehilfe": "In allen zehn Fünfjahresklassen zwischen 5 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2011 bis 2020 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Wanderungsgewinn 7 020 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen der bis 4-Jährigen sowie bei denjenigen der 55-Jährigen und Älteren.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wanderungen der ausländischen Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.5157",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.3",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_110",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:13",
 		"id": 5157
 	},
 	{

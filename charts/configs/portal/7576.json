@@ -58,7 +58,7 @@
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
         }
       },
       "data": [
@@ -156,7 +156,7 @@
         "shared": true,
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
         "pointFormatter": function(){ 
-          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
       }
       },
       "data": [
@@ -317,7 +317,7 @@
       },
       "labels": {
         "formatter": function(){
-            return Highcharts.numberFormat(this.value*100, 1) + "%";
+            return Highcharts.numberFormat(this.value*100, 2) + "%";
           },
         "style": {
           "color": "#000000"
@@ -358,7 +358,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
   },
   "tooltip": {
     "shared": true

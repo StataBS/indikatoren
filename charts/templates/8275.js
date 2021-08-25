@@ -25,28 +25,28 @@
 			dataClassColor: 'category',
 			dataClasses: [{
 				from: 0,
-				to: 0.59,
+				to: 0.49,
 				color: '#D7E8D2',
-				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,60"
+				name: "<span style='color: rgba(0,0,0,0)'>0,34</span> < 0,50"
 			}, {
-				from: 0.6,
+				from: 0.50,
 				to: 0.79,
 				color: '#73B97C',
-				name: "0,60 −  0,79"
+				name: "0,50 −  0,79"
 			}, {
 				from: 0.8,
-				to: 0.99,
-				color: '#68AB2B',
-				name: "0,80 − 0,99"
-			}, {
-				from: 1.0,
 				to: 1.29,
-				color: '#007A2F',
-				name: "1,00 − 1,29"
+				color: '#68AB2B',
+				name: "0,80 − 1,29"
 			}, {
 				from: 1.3,
+				to: 1.59,
+				color: '#007A2F',
+				name: "1,30 − 1,59"
+			}, {
+				from: 1.6,
 				color: '#0A3B19',
-				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,30"
+				name: "<span style='color: rgba(0,0,0,0)'>1,29</span> ≥ 1,60"
 			}],
 		},
 		"data": {

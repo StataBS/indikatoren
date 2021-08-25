@@ -1988,6 +1988,7 @@ id | visible | visibleInPortal | indikatorenset
 9177 | false |  | Gesellschaftlicher-Zusammenhalt (Print)
 9178 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
 9179 | true | false | Gesellschaftlicher-Zusammenhalt (Print)
+9186 | true | true | 
 9192 | true | true | City-Statistics
 9193 | true | true | City-Statistics
 9194 | true | true | City-Statistics

@@ -8,17 +8,20 @@
       //"type": "category",
     },
     "yAxis": {
-      labels: {
+      /*labels: {
         formatter: function(){
           return Highcharts.numberFormat(this.value, 1);
         }
+      },*/
+      "labels": {
+        format: "{value:,.0f}%"
       },
       /*tickInterval: 20,*/
       "min": 0,
     },
     "tooltip": {
       "shared": false,
-      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}</b><br/>'
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.2f}%</b><br/>'
     }, 
     "series": [
       {color: "black"},

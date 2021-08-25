@@ -42,12 +42,26 @@
   {"color": "#B375AB"},  
   {"color": "#662673"},
   {
-    color: "orange", 
+    color: "#FABD24", 
     type: "scatter",
     yAxis: 1,
     marker: {
       enabled: true,
       radius: 2,
+      symbol: "circle"
+    }, 
+    tooltip: {
+       headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
+    }
+  },
+  {
+    color: "#008AC3", 
+    type: "scatter",
+    yAxis: 1,
+    marker: {
+      enabled: true,
+      radius: 2,
+      symbol: "circle"
     }, 
     tooltip: {
        headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
