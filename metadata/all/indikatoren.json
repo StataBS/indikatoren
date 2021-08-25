@@ -7042,43 +7042,41 @@
 		"id": 4462
 	},
 	{
+		"template": "line001",
+		"data-id": 4463,
+		"chart-id": 4463,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.01.8.4463",
-		"kuerzelKunde": "",
-		"description": "Zu Hause gesprochene Sprachen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Sprachen",
-		"kennzahlenset": "",
+		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 93% der Schweizer in Basel-Stadt geben im Jahr 2019 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%. 40% der Personen aus anderen Herkunftsländern sprechen zu Hause Deutsch.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-22T08:50:15.1515",
+		"description": "Zu Hause gesprochene Sprachen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Sprachen",
+		"kuerzel": "I.01.8.4463",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "Themenbereich 1: Struktur der Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 92% der Schweizer in Basel-Stadt geben im Jahr 2018 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 98%. 38% der Personen aus anderen Herkunftsländern sprechen zu Hause Deutsch.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4463,
-		"chart-id": 4463,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:12",
 		"id": 4463
 	},
 	{
@@ -10253,87 +10251,83 @@
 		"id": 5155
 	},
 	{
-		"title": "Wanderungen der Schweizer Bevölkerung",
-		"subtitle": "Basel-Stadt, Summe 2010 bis 2019",
-		"kuerzel": "I.01.5.5156",
-		"kuerzelKunde": "BE8.2",
-		"description": "Wanderungen der Schweizer Bevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-20T10:47:26.2626",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Zwischen 2010 und 2019 wiesen die zu- und weggezogenen Schweizer einzig in den Fünfjahresklassen der 15- bis 19-jährigen sowie der 20- bis 24-jährigen Personen nennenswerte positive Wanderungssaldi auf. Geringfügig mehr Zuzüge als Wegzüge gab es auch bei den 75- bis 79- und den 80- bis 84-jährigen Schweizern. Deutlich mehr Weg- als Zuzüge verzeichneten die bis 4-jährigen, die 30- bis 34-jährigen und die 35- bis 39-jährigen Schweizer.",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
 		"template": "populationPyramid001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_109",
-		"parentId": null,
-		"children": [
-			"8888"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5156,
 		"chart-id": 5156,
 		"filter": "",
-		"id": 5156
-	},
-	{
-		"title": "Wanderungen der ausländischen Bevölkerung",
-		"subtitle": "Basel-Stadt, Summe 2010 bis 2019",
-		"kuerzel": "I.01.5.5157",
-		"kuerzelKunde": "BE8.3",
-		"description": "Wanderungen der ausländischen Bevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"parentId": null,
+		"children": [
+			8888
+		],
+		"title": "Wanderungen der Schweizer Bevölkerung",
+		"subtitle": "Basel-Stadt, 2011 bis 2020",
+		"lesehilfe": "Zwischen 2011 und 2020 wiesen die zu- und weggezogenen Schweizerinnen und Schweizer einzig in den Fünfjahresklassen der 15- bis 19-jährigen sowie der 20- bis 24-jährigen Personen nennenswerte positive Wanderungssaldi auf. Geringfügig mehr Zuzüge als Wegzüge gab es auch bei den 75- bis 79-Jährigen, den 80- bis 84-Jährigen und den 85- bis 89-Jährigen. Deutlich mehr Weg- als Zuzüge verzeichneten die bis 4-jährigen, die 30- bis 34-jährigen und die 35- bis 39-jährigen Schweizerinnen und Schweizer.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-20T11:22:52.5252",
+		"description": "Wanderungen der Schweizer Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.05156",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.2",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In allen elf Fünfjahresklassen zwischen 0 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2010 bis 2019 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Wanderungsgewinn 6 686 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen ab 55 Jahren.",
-		"erlaeuterungen": "Im Jahr 2010 einschliesslich rund 1 600 nachträglicher Streichungen (zu Weggezogenen gezählt) im Rahmen der Registerbereinigungen für die Volkszählung.",
-		"template": "populationPyramid001",
+		"orderKey": "01_01_00_00_00_109",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_110",
-		"parentId": null,
-		"children": [
-			"8889"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-25T08:16:12",
+		"id": 5156
+	},
+	{
+		"template": "populationPyramid001",
 		"data-id": 5157,
 		"chart-id": 5157,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8889
+		],
+		"title": "Wanderungen der ausländischen Bevölkerung",
+		"subtitle": "Basel-Stadt, 2011 bis 2020",
+		"lesehilfe": "In allen zehn Fünfjahresklassen zwischen 5 und 54 Jahren ergaben sich bei den zu- und weggezogenen ausländischen Staatsangehörigen der Jahre 2011 bis 2020 Wanderungsgewinne. Am deutlichsten zeigte sich dies bei den Ausländern im Alter zwischen 25 und 29 Jahren, bei welchen der Wanderungsgewinn 7 020 betrug. Kleine Wanderungsverluste zeigen sich in den Altersklassen der bis 4-Jährigen sowie bei denjenigen der 55-Jährigen und Älteren.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wanderungen der ausländischen Bevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.5157",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.3",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_110",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:13",
 		"id": 5157
 	},
 	{
@@ -35283,7 +35277,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-10T09:47:39",
+		"aktualisierungsdatum": "2021-08-25T08:16:13",
 		"id": 6906
 	},
 	{
@@ -38414,245 +38408,233 @@
 		"id": 6994
 	},
 	{
-		"title": "Alters- und Pflegeheime",
-		"subtitle": "Anzahl Institutionen und zur Verfügung stehende Plätze, Basel-Stadt",
-		"kuerzel": "I.14.2.06995",
-		"kuerzelKunde": "",
-		"description": "Alters- und Pflegeheime",
-		"thema": "14 Gesundheit",
-		"unterthema": "Heime und Spitex",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-12-27T09:07:04.044",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2017 gab es insgesamt 39 Institutionen für Betagte in Basel-Stadt, welche 3&nbsp;236 Plätze zur Verfügung stellten. Dies sind 6 Institutionen und fast 500 Plätze mehr als noch 2011.",
-		"erlaeuterungen": "Gezählt werden alle Institutionen, welche den Fragebogen A der obligatorischen Statistik der sozialmedizinischen Institutionen (SOMED) ausfüllen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6995,
 		"chart-id": 6995,
 		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Alters- und Pflegeheime",
+		"subtitle": "Anzahl Institutionen und zur Verfügung stehende Plätze, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2019 gab es insgesamt 39 Institutionen für Betagte in Basel-Stadt, welche 3&nbsp;225 Plätze zur Verfügung stellten.",
+		"erlaeuterungen": "Gezählt werden alle Institutionen, welche den Fragebogen A der obligatorischen Statistik der sozialmedizinischen Institutionen (SOMED) ausfüllen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alters- und Pflegeheime",
+		"thema": "14 Gesundheit",
+		"unterthema": "Heime und Spitex",
+		"kuerzel": "I.14.2.06995",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:13",
 		"id": 6995
 	},
 	{
-		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
-		"kuerzel": "I.14.1.06996",
-		"kuerzelKunde": "",
-		"description": "Stationär behandelte Patienten",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-09-03T16:05:00.000",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden insgesamt 65&nbsp;613 Patienten in baselstädtischen Spitälern stationär behandelt. Der Anteil baselstädtischer Patienten betrug mit 45% rund 8 Prozentpunkte weniger als noch im Jahr 2008. Auch in absoluten Zahlen lässt sich diese Tendenz ablesen: 2019 wurden 29&nbsp;820 Personen aus Basel-Stadt in den Spitälern auf Kantonsgebiet behandelt. Stark zugenommen hat hingegen der Anteil an Patienten aus dem Kanton Basel-Landschaft: Sie machten 2019 fast 33% aller Behandelten aus.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6996,
 		"chart-id": 6996,
 		"filter": "",
-		"id": 6996
-	},
-	{
+		"parentId": null,
+		"children": [],
 		"title": "Stationär behandelte Patienten",
-		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2019",
-		"kuerzel": "I.14.1.06997",
-		"kuerzelKunde": "",
+		"subtitle": "in baselstädtischen Spitälern, nach Wohnkanton",
+		"lesehilfe": "Im Jahr 2020 wurden insgesamt 62&nbsp;306 Patienten in baselstädtischen Spitälern stationär behandelt. Davon wohnten 27&nbsp;905 Personen im Kanton Basel-Stadt und 20&nbsp;614 in Basel-Landschaft.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
 		"description": "Stationär behandelte Patienten",
 		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06996",
 		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:30:59.5959",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt wurden im Jahr 2019 in Basler Spitälern mit gut 35&nbsp;019 Personen mehr Patientinnen als Patienten (28&nbsp;978) stationär behandelt. Nach Alter aufgeschlüsselt ergeben sich für die beiden Geschlechter unterschiedliche Verteilungen: Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 52 und 74 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"id": 6996
+	},
+	{
+		"template": "line001",
 		"data-id": 6997,
 		"chart-id": 6997,
 		"filter": "",
-		"id": 6997
-	},
-	{
-		"title": "Neugeborene nach Alter der Mutter",
-		"subtitle": "in baselstädtischen Spitälern, nach Alter der Mutter, 2019",
-		"kuerzel": "I.14.1.06998",
-		"kuerzelKunde": "",
-		"description": "Neugeborene nach Alter der Mutter",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:30:56.5656",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 haben die 33-jährigen Mütter die meisten Babys zur Welt gebracht (387), gefolgt von den 34-jährigen Müttern (372). Der Altersdurchschnitt lag bei 32,6 Jahren.",
-		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
-		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"title": "Stationär behandelte Patienten",
+		"subtitle": "in baselstädtischen Spitälern, nach Geschlecht und Alter, 2020",
+		"lesehilfe": "Insgesamt wurden im Jahr 2020 in Basler Spitälern mit gut 32&nbsp;918 Personen mehr Patientinnen als Patienten (27&nbsp;847) stationär behandelt. Nach Alter aufgeschlüsselt ergeben sich für die beiden Geschlechter unterschiedliche Verteilungen: Es werden deutlich mehr Frauen im gebärfähigen Alter stationär behandelt als gleichaltrige Männer. Dafür werden in den Altersjahren zwischen 51 und 77 mehr männliche Patienten registriert. Anschliessend überwiegen wieder die Frauen.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten (ohne Neugeborene) berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt). Personen im Alter von 100 und mehr Jahren wurden zusammengefasst.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
+		"description": "Stationär behandelte Patienten",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06997",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"id": 6997
+	},
+	{
+		"template": "line001",
 		"data-id": 6998,
 		"chart-id": 6998,
 		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Neugeborene nach Alter der Mutter",
+		"subtitle": "in baselstädtischen Spitälern, 2020",
+		"lesehilfe": "Im Jahr 2020 haben die 32-jährigen Mütter die meisten Babys zur Welt gebracht (385), gefolgt von den 34-jährigen Müttern (373). Der Altersdurchschnitt lag bei 32,5 Jahren.",
+		"erlaeuterungen": "Es werden alle Neugeborenen berücksichtigt, welche im Erhebungsjahr in einer stationären Einrichtung im Kanton Basel-Stadt zur Welt gekommen sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Neugeborene nach Alter der Mutter",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06998",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:14",
 		"id": 6998
 	},
 	{
-		"title": "Patienten nach Liege- und Altersklasse",
-		"subtitle": "in baselstädtischen Spitälern, 2019",
-		"kuerzel": "I.14.1.06999",
-		"kuerzelKunde": "",
-		"description": "Patienten nach Liege- und Altersklasse",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-16T14:42:32.3232",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden insgesamt 11 495 Personen im Alter zwischen 70 und 79 Jahren in einem Basler Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
-		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem Basler Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
-			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6999,
 		"chart-id": 6999,
 		"filter": "",
-		"id": 6999
-	},
-	{
-		"title": "Aufenthaltsorte nach dem Spitalaustritt",
-		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2019",
-		"kuerzel": "I.14.1.07000",
-		"kuerzelKunde": "",
-		"description": "Aufenthaltsorte nach dem Spitalaustritt",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"parentId": null,
+		"children": [],
+		"title": "Patienten nach Liege- und Altersklasse",
+		"subtitle": "in baselstädtischen Spitälern, 2020",
+		"lesehilfe": "Im Jahr 2020 wurden insgesamt 11 169 Personen im Alter zwischen 70 und 79 Jahren in einem baselstädtischen Spital stationär behandelt. Am häufigsten lagen die Patienten über alle Altersgruppen hinweg auf einer allgemeinen Abteilung des Spitals.",
+		"erlaeuterungen": "Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr mindestens einmal aus einem baselstädtischen Spital ausgetreten sind (mehrfach hospitalisierte Personen werden nur einmal gezählt).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-22T08:47:41.4141",
+		"description": "Patienten nach Liege- und Altersklasse",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06999",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Knapp 79% aller Patienten, die sich im Jahr 2019 einer stationären Behandlung in einem baselstädtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 51% am tiefsten. Gut 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
-		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
-		"template": "template001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:14",
+		"id": 6999
+	},
+	{
+		"template": "template001",
+		"data-id": 7000,
+		"chart-id": 7000,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"title": "Aufenthaltsorte nach dem Spitalaustritt",
+		"subtitle": "aus baselstädtischen Spitälern, nach Alter der Patienten, 2020",
+		"lesehilfe": "Knapp 79% aller Patienten, die sich im Jahr 2020 einer stationären Behandlung in einem baselstädtischen Spital unterzogen haben, konnten anschliessend wieder direkt nach Hause entlassen werden. Bei Personen im Alter von mindestens 80 Jahren lag dieser Wert mit 51% am tiefsten. Über 17% der Patienten in dieser Altersklasse begaben sich nach einem stationären Spitalaufenthalt in eine Rehabilitationsklinik.",
+		"erlaeuterungen": "Gezählt werden alle Patienten, welche nach einem stationären Aufenthalt aus einem baselstädtischen Spital ausgetreten sind. Ein Patient wird dabei mehrfach gezählt, wenn er mehrfach in stationärer Behandlung war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 7000,
-		"chart-id": 7000,
-		"filter": "",
+		"description": "Aufenthaltsorte nach dem Spitalaustritt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.07000",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 7000
 	},
 	{
@@ -43395,7 +43377,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:44",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 7573
 	},
 	{
@@ -43435,7 +43417,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:15",
 		"id": 7574
 	},
 	{
@@ -43477,7 +43459,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7576
 	},
 	{
@@ -43517,7 +43499,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7577
 	},
 	{
@@ -43557,7 +43539,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:16",
 		"id": 7578
 	},
 	{
@@ -43597,7 +43579,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7579
 	},
 	{
@@ -43637,7 +43619,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7580
 	},
 	{
@@ -43677,7 +43659,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:46",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7581
 	},
 	{
@@ -43717,7 +43699,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:17",
 		"id": 7582
 	},
 	{
@@ -43757,7 +43739,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7583
 	},
 	{
@@ -43797,7 +43779,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7584
 	},
 	{
@@ -43837,7 +43819,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:47",
+		"aktualisierungsdatum": "2021-08-25T08:16:18",
 		"id": 7585
 	},
 	{
@@ -43878,7 +43860,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7586
 	},
 	{
@@ -43895,7 +43877,7 @@
 		"lesehilfe": "Das Angebot an Geschäftsflächen in den beiden Basel zusammen ist um 15% auf  375 000 m² gewachsen. Gut 49% des gesamten Angebots entfallen auf den Stadt- und knapp 51% auf den Landkanton.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"SVIT beider Basel"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -43918,7 +43900,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7587
 	},
 	{
@@ -43932,10 +43914,10 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -43958,7 +43940,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:48",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7588
 	},
 	{
@@ -43972,10 +43954,10 @@
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
 		"subtitle": "Basel-Landschaft",
-		"lesehilfe": "Im Landkanton nahm die Bürofläche zwischen 2020 und 2021 um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% der grösste Bereich. Danach folgt der Gewerbebereich mit 24%.",
+		"lesehilfe": "Im Landkanton nahm die Bürofläche zwischen 2020 und 2021 um 20 400 m² auf 87 800 m² zu. Die Büroflächen sind mit einem Anteil von 46% der grösste Bereich. Danach folgt der Gewerbebereich mit 24%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -43998,7 +43980,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:19",
 		"id": 7589
 	},
 	{
@@ -44015,7 +43997,7 @@
 		"lesehilfe": "Rund zwei Drittel des Geschäftsleerstandes entfallen auf den Bürobereich. Kleinere Anteile zwischen 13% und 9% weisen die Gewerbe-, Lager- und Ladenflächen auf.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -44038,7 +44020,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7590
 	},
 	{
@@ -45471,45 +45453,43 @@
 		"id": 7696
 	},
 	{
+		"template": "line001",
+		"data-id": 7697,
+		"chart-id": 7697,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7935
+		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2018",
-		"kuerzel": "I.15.6.07697",
-		"kuerzelKunde": "5.03",
-		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2019",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2015 bis 2019 im Mittel 35,5 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:59.5959",
+		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.07697",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.03",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2014 bis 2018 im Mittel 33,7 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7935"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7697,
-		"chart-id": 7697,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7697
 	},
 	{
@@ -47232,45 +47212,43 @@
 		"id": 7763
 	},
 	{
+		"template": "template001",
+		"data-id": 7764,
+		"chart-id": 7764,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7951
+		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.5.07764",
-		"kuerzelKunde": "2.10",
-		"description": "Umzugssaldo",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2020 für jedes Jahr negative Umzugssaldi auf; d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt waren die Umzugssaldi zwischen 2015 und 2019 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies war auf die Fertigstellung neuer Wohngebäude zurückzuführen. Für 2020 ergibt sich ein leicht negativer Umzugssaldo (-12).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:16.1616",
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.07764",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2019 für jedes Jahr negative Umzugssaldi auf; d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt sind die Umzugssaldi seit 2015 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies ist auf die Fertigstellung neuer Wohngebäude zurückzuführen.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"7951"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7764,
-		"chart-id": 7764,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7764
 	},
 	{
@@ -52831,45 +52809,43 @@
 		"id": 8093
 	},
 	{
+		"template": "template001",
+		"data-id": 8094,
+		"chart-id": 8094,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8663"
+			8663
 		],
-		"template": "template001",
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.01.5.07764",
-		"kuerzelKunde": "2.10",
-		"description": "Umzugssaldo",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2020 zusammen, ergibt sich ein Umzugsverlust von 351; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 249 Personen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:28.2828",
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.07764",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2019 zusammen, ergibt sich ein Umzugsverlust von 212; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 237 Personen.",
-		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"orderKey": "02_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8094,
-		"chart-id": 8094,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 8094
 	},
 	{
@@ -55004,7 +54980,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:43",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 8275
 	},
 	{
@@ -75043,11 +75019,11 @@
 			9084
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "7573",
+		"subtitle": "Basel-Landschaft, Anteile 2021",
 		"lesehilfe": "Der Bürobereich (46%) und der Gewerbebereich (24%) weisen den grössten Anteil am Leerstand aus. Danach folgen die Lagerflächen mit 19%.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
+			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
 		],
 		"externalLinks": [],
 		"renderLink": [],
@@ -75070,7 +75046,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:49",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 9064
 	},
 	{
@@ -75873,7 +75849,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-16T05:19:45",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 9137
 	},
 	{
@@ -76603,6 +76579,44 @@
 		"chart-id": 9179,
 		"filter": "",
 		"id": 9179
+	},
+	{
+		"template": "line001",
+		"data-id": 9186,
+		"chart-id": 9186,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Kariesfreiheit der Kinder und Jugendlichen",
+		"subtitle": "Anteil der jeweiligen Altersgruppe, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 waren 73,9% der 5-jährigen Schulkinder im Kanton Basel-Stadt kariesfrei.",
+		"erlaeuterungen": "Erhebung des Universitären Zentrums für Zahnmedizin (UZB) des Kantons Basel-Stadt im Rahmen der jährlichen zahnmedizinischen Schuluntersuchungen.",
+		"quellenangabe": [
+			"Universitäre Zentrum für Zahnmedizin Basel, Schulzahnklinik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Kariesfreiheit der Kinder und Jugendlichen",
+		"thema": "14 Gesundheit",
+		"unterthema": "Prävention, Praxen, Rettung",
+		"kuerzel": "",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-08-25T08:16:22",
+		"id": 9186
 	},
 	{
 		"parentId": null,

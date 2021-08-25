@@ -52,6 +52,10 @@
         [
           "2019",
           29820
+        ],
+        [
+          "2020",
+          27905
         ]
       ],
       "name": "Basel-Stadt",
@@ -109,6 +113,10 @@
         [
           "2019",
           21454
+        ],
+        [
+          "2020",
+          20614
         ]
       ],
       "name": "Basel-Landschaft",
@@ -166,6 +174,10 @@
         [
           "2019",
           6673
+        ],
+        [
+          "2020",
+          6516
         ]
       ],
       "name": "Aargau\u002FSolothurn",
@@ -223,6 +235,10 @@
         [
           "2019",
           3902
+        ],
+        [
+          "2020",
+          3830
         ]
       ],
       "name": "Übrige Schweiz",
@@ -280,6 +296,10 @@
         [
           "2019",
           3764
+        ],
+        [
+          "2020",
+          3441
         ]
       ],
       "name": "Ausland",
@@ -423,7 +443,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

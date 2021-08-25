@@ -365,12 +365,114 @@
       "turboThreshold": 0
     },
     {
-      "color": "orange",
+      "color": "#FABD24",
       "type": "scatter",
       "yAxis": 1,
       "marker": {
         "enabled": true,
-        "radius": 2
+        "radius": 2,
+        "symbol": "circle"
+      },
+      "tooltip": {
+        "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "Altstadt GB",
+          1549
+        ],
+        [
+          "Vorstädte",
+          2939
+        ],
+        [
+          "Am Ring",
+          6183
+        ],
+        [
+          "Breite",
+          5210
+        ],
+        [
+          "St. Alban",
+          6159
+        ],
+        [
+          "Gundeldingen",
+          11168
+        ],
+        [
+          "Bruderholz",
+          4941
+        ],
+        [
+          "Bachletten",
+          7897
+        ],
+        [
+          "Gotthelf",
+          4142
+        ],
+        [
+          "Iselin",
+          9272
+        ],
+        [
+          "St. Johann",
+          10112
+        ],
+        [
+          "Altstadt KB",
+          1540
+        ],
+        [
+          "Clara",
+          2449
+        ],
+        [
+          "Wettstein",
+          3303
+        ],
+        [
+          "Hirzbrunnen",
+          5126
+        ],
+        [
+          "Rosental",
+          2638
+        ],
+        [
+          "Matthäus",
+          8880
+        ],
+        [
+          "Klybeck",
+          4070
+        ],
+        [
+          "Kleinhüning.",
+          1470
+        ],
+        [
+          "Riehen",
+          11521
+        ],
+        [
+          "Bettingen",
+          627
+        ]
+      ],
+      "name": "Anzahl Veranlagungen 2009 (rechte Skala)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#008AC3",
+      "type": "scatter",
+      "yAxis": 1,
+      "marker": {
+        "enabled": true,
+        "radius": 2,
+        "symbol": "circle"
       },
       "tooltip": {
         "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E"
@@ -592,7 +694,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

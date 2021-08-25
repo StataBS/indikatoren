@@ -21,6 +21,11 @@
                 negateNumbersInColumn(1);
             }     
         },
+        plotOptions: {
+            series: {
+                minPointLength: 2
+            }
+        },
         yAxis:[{
             //max: 18000,
             //tickInterval: 6000,

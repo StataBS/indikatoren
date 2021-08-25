@@ -1356,44 +1356,42 @@ var indikatorensetData = [
 		"id": 7696
 	},
 	{
+		"template": "line001",
+		"data-id": 7697,
+		"chart-id": 7697,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7935
+		],
 		"title": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2014-2018",
-		"kuerzel": "I.15.6.07697",
-		"kuerzelKunde": "5.03",
-		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2015-2019",
+		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2015 bis 2019 im Mittel 35,5 Prozent.",
+		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:59.5959",
+		"description": "Anteil der Bevölkerung mit tertiärem Bildungsabschluss",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.07697",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.03",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental betrug der Anteil Personen mit tertiärem Bildungsabschluss im Zeitraum von 2014 bis 2018 im Mittel 33,7 Prozent.",
-		"erlaeuterungen": "Anteil der Personen mit höchstem Bildungsabschluss Tertiärstufe an der über 14-jährigen Wohnbevölkerung. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft, sowie Ausbildungen an Hochschulen wie z. B. ein Bachelor- oder Masterstudium. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7935"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7697,
-		"chart-id": 7697,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7697
 	},
 	{
@@ -1895,44 +1893,42 @@ var indikatorensetData = [
 		"id": 7712
 	},
 	{
+		"template": "template001",
+		"data-id": 7764,
+		"chart-id": 7764,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7951
+		],
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.5.07764",
-		"kuerzelKunde": "2.10",
-		"description": "Umzugssaldo",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2020 für jedes Jahr negative Umzugssaldi auf; d.  h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt waren die Umzugssaldi zwischen 2015 und 2019 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies war auf die Fertigstellung neuer Wohngebäude zurückzuführen. Für 2020 ergibt sich ein leicht negativer Umzugssaldo (-12).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:16.1616",
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.07764",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bezirk Messe weist zwischen 2012 und 2019 für jedes Jahr negative Umzugssaldi auf; d. h. es verlegen mehr Personen aus diesem Bezirk ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort in den Bezirk Messe. Im Bezirk Erlenmatt sind die Umzugssaldi seit 2015 positiv. Besonders hoch waren die Umzugsgewinne in den Jahren 2015 (+496) und 2019 (+401). Dies ist auf die Fertigstellung neuer Wohngebäude zurückzuführen.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"7951"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7764,
-		"chart-id": 7764,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:20",
 		"id": 7764
 	}
 ];

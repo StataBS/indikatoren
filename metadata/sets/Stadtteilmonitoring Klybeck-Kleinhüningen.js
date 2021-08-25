@@ -1894,44 +1894,42 @@ var indikatorensetData = [
 		"id": 8093
 	},
 	{
+		"template": "template001",
+		"data-id": 8094,
+		"chart-id": 8094,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8663"
+			8663
 		],
-		"template": "template001",
 		"title": "Umzugssaldo",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"kuerzel": "I.01.5.07764",
-		"kuerzelKunde": "2.10",
-		"description": "Umzugssaldo",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2020 zusammen, ergibt sich ein Umzugsverlust von 351; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 249 Personen.",
+		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:45:28.2828",
+		"description": "Umzugssaldo",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.07764",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "2.10",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Fasst man die Umzugssaldi des Wohnviertels Klybeck für die Jahre 2006 bis 2019 zusammen, ergibt sich ein Umzugsverlust von 212; d. h. es verlegen mehr Personen aus diesem Wohnviertel ihren Wohnsitz in den übrigen Kanton Basel-Stadt als von dort ins Wohnviertel Klybeck. In Kleinhüningen ergibt sich für diese Jahre ein Umzugsgewinn von 237 Personen.",
-		"erlaeuterungen": "Umzüge sind räumliche Bevölkerungsbewegungen innerhalb des Kantons Basel-Stadt.",
+		"orderKey": "02_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_011",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8094,
-		"chart-id": 8094,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-25T08:16:21",
 		"id": 8094
 	},
 	{

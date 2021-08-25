@@ -98,13 +98,13 @@
       tooltip: {
         headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
         pointFormatter: function(){ 
-            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+            return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
         }
       }
     },
   ],  
   tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total Beider Basel: <b>{point.total:,.0f}</b>',
+    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>', "footerFormat": 'Total beider Basel: <b>{point.total:,.0f}</b>',
     shared: true
   },
 };

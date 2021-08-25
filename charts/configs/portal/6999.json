@@ -6,43 +6,43 @@
       "data": [
         [
           "0 bis 9 J.",
-          7626
+          6852
         ],
         [
           "10 bis 19 J.",
-          2083
+          1908
         ],
         [
           "20 bis 29 J.",
-          3709
+          3438
         ],
         [
           "30 bis 39 J.",
-          6085
+          6067
         ],
         [
           "40 bis 49 J.",
-          4507
+          4223
         ],
         [
           "50 bis 59 J.",
-          6333
+          6161
         ],
         [
           "60 bis 69 J.",
-          6604
+          6276
         ],
         [
           "70 bis 79 J.",
-          7506
+          7430
         ],
         [
           "80 bis 89 J.",
-          6494
+          6226
         ],
         [
           "90 Jahre u.m.",
-          1830
+          1804
         ]
       ],
       "name": "Allgemein",
@@ -54,11 +54,11 @@
       "data": [
         [
           "0 bis 9 J.",
-          496
+          463
         ],
         [
           "10 bis 19 J.",
-          202
+          194
         ],
         [
           "20 bis 29 J.",
@@ -66,31 +66,31 @@
         ],
         [
           "30 bis 39 J.",
-          525
+          556
         ],
         [
           "40 bis 49 J.",
-          433
+          399
         ],
         [
           "50 bis 59 J.",
-          963
+          792
         ],
         [
           "60 bis 69 J.",
-          1446
+          1388
         ],
         [
           "70 bis 79 J.",
-          2354
+          2169
         ],
         [
           "80 bis 89 J.",
-          2088
+          1853
         ],
         [
           "90 Jahre u.m.",
-          573
+          531
         ]
       ],
       "name": "Halbprivat",
@@ -102,43 +102,43 @@
       "data": [
         [
           "0 bis 9 J.",
-          460
+          385
         ],
         [
           "10 bis 19 J.",
-          192
+          170
         ],
         [
           "20 bis 29 J.",
-          193
+          175
         ],
         [
           "30 bis 39 J.",
-          429
+          381
         ],
         [
           "40 bis 49 J.",
-          390
+          362
         ],
         [
           "50 bis 59 J.",
-          759
+          717
         ],
         [
           "60 bis 69 J.",
-          1022
+          958
         ],
         [
           "70 bis 79 J.",
-          1635
+          1570
         ],
         [
           "80 bis 89 J.",
-          1386
+          1311
         ],
         [
           "90 Jahre u.m.",
-          366
+          430
         ]
       ],
       "name": "Privat",
@@ -216,7 +216,7 @@
     "text": "Patienten nach Liege- und Altersklasse"
   },
   "subtitle": {
-    "text": "in baselstädtischen Spitälern, 2019",
+    "text": "in baselstädtischen Spitälern, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -269,7 +269,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-16"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
