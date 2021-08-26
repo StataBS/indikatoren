@@ -3,6 +3,7 @@
 "plotOptions": {
     "series": {
       pointPadding: 100,
+      minPointLength: 2,
       borderWidth: 0,
       "pointWidth": 10,
       "dataLabels": {
@@ -48,7 +49,8 @@
   "tooltip": {
     headerFormat: '<style="font-size: 10px">Alter: {point.key}</span><br/>',
   "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:.0f}</b><br/>',
-   "shared": false
+  "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+   "shared": true
   },
 }
 }());

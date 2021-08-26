@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "color": "#B375AB",
+      "color": "#E7CEE2",
       "data": [
         [
           2007,
@@ -46,12 +46,16 @@
         [
           2017,
           448363
+        ],
+        [
+          2018,
+          432229
         ]
       ],
       "name": "Mittelwert Reinvermögen"
     },
     {
-      "color": "#923F8D",
+      "color": "#2E1435",
       "data": [
         [
           2007,
@@ -96,6 +100,10 @@
         [
           2017,
           20000
+        ],
+        [
+          2018,
+          19156
         ]
       ],
       "name": "Median Reinvermögen"
@@ -222,7 +230,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-29"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-26"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
