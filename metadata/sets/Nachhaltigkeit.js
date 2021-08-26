@@ -3007,44 +3007,42 @@ var indikatorensetData = [
 		"id": 8458
 	},
 	{
+		"template": "line001",
+		"data-id": 8459,
+		"chart-id": 8459,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8962
+		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.08459",
-		"kuerzelKunde": "WE11",
-		"description": "Mittelwert und Median des Reinvermögens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-29T14:27:08.088",
+		"description": "Mittelwert und Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.08459",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE11",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Median des Reinvermögens ist seit 2008 überwiegend gestiegen, insgesamt um 63,2% von rund 12 300 auf 20 000 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
-		"template": "line001",
+		"orderKey": "06_02_00_00_00_611",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_02_00_00_00_611",
-		"parentId": null,
-		"children": [
-			"8962"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8459,
-		"chart-id": 8459,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-26T08:26:05",
 		"id": 8459
 	},
 	{
