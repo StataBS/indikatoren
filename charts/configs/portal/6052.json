@@ -24,8 +24,8 @@
           76
         ],
         [
-          "2018",
-          74.4
+          "2019",
+          76.1
         ]
       ],
       "name": "Männer",
@@ -55,8 +55,8 @@
           68.7
         ],
         [
-          "2018",
-          69.8
+          "2019",
+          69
         ]
       ],
       "name": "Frauen",
@@ -86,8 +86,8 @@
           72.8
         ],
         [
-          "2018",
-          72.6
+          "2019",
+          72.9
         ]
       ],
       "name": "Schweiz",
@@ -117,8 +117,8 @@
           71.5
         ],
         [
-          "2018",
-          71.4
+          "2019",
+          72.1
         ]
       ],
       "name": "Ausland",
@@ -148,8 +148,8 @@
           72.3
         ],
         [
-          "2018",
-          72.1
+          "2019",
+          72.5
         ]
       ],
       "name": "Total",
@@ -291,12 +291,12 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-6"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-31"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 6052
+    "filename": "6052"
   }
 }

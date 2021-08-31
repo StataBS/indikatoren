@@ -741,48 +741,48 @@ var indikatorensetData = [
 		"id": 6214
 	},
 	{
+		"template": "template001",
+		"data-id": 6215,
+		"chart-id": 6215,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6260",
-			"7747",
-			"8448",
-			"8954",
-			"9061"
+			6260,
+			7747,
+			8448,
+			8954,
+			9061
 		],
-		"template": "template001",
 		"title": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
 		"subtitle": "Bevölkerungsszenarien Basel-Stadt, 2021",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "I.01.9.06215",
-		"kuerzelKunde": "ST 4-4",
-		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Szenarien",
+		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2020 um 11% auf rund 224 000 Einwohner.",
+		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
+		],
+		"externalLinks": [
+			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-07T08:30:46.4646",
+		"description": "Wohnbevölkerung gemäss Bevölkerungsszenarien",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Szenarien",
+		"kuerzel": "I.01.9.06215",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bis zum Jahr 2045 erhöht sich die kantonale Wohnbevölkerung im Mittleren Szenario von 202 000 am Ende des Jahres 2020 um 11% auf rund 224 000 Einwohner.",
-		"erlaeuterungen": "Resultat der Bevölkerungsszenarien 2021. Bevölkerungsbestand am Jahresende. Die Bevölkerungszahl setzt sich zusammen aus der ständigen und nichtständigen Wohnbevölkerung und Personen am Nebenwohnsitz. Die hier ausgewiesene Einwohnerzahl Ende 2019 weicht von der offiziellen Bevölkerungszahl Ende 2019 ab, da diese infolge einer Systemumstellung ausländische Wochenaufenthalter nicht mit berücksichtigt. Um eine Zeitreihe ohne diesen methodischen Bruch zu erhalten, wurden zur offiziellen Bevölkerungszahl Ende 2019 die ausländischen Wochenaufenthalter Stand Ende Januar 2020 (275 Personen) hinzugerechnet.",
+		"orderKey": "02_04_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_004",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsszenarien"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Detaillierte Informationen zu den Bevölkerungsszenarien und der angewandten Methodik finden Sie auf der <a href = 'https://www.statistik.bs.ch/analysen-berichte/gesellschaft-soziales/bevoelkerungsszenarien.html' target = '_blank'>Internetseite zu den Bevölkerungsszenarien</a>."
-		],
-		"data-id": 6215,
-		"chart-id": 6215,
-		"filter": "",
+		"aktualisierungsdatum": "2021-08-31T09:34:38",
 		"id": 6215
 	},
 	{
