@@ -82,8 +82,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Die Jahresteuerung des Basler Index lag seit dem Basiswechsel von Dezember 2015 jeweils leicht über derjenigen des gesamtschweizerischen Landesindex der Konsumentenpreise. Diese Entwicklung setzte sich zwischen April 2020 und März 2021 fort, allerdings im negativen Bereich; der Basler Index entwickelte sich damit etwas weniger stark rückläufig als der Landesindex. Jüngst hat die Teuerung wieder spürbar angezogen.",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen Februar 2021 und Februar 2020.",
+		"lesehilfe": "Die Jahresteuerung des Basler Index entwickelte sich bis zum März etwas weniger stark rückläufig als diejenige des Landesindex. Seit April zieht die Teuerung in der Region, aber auch in der Schweiz wieder spürbar an.",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen August 2021 und August 2020.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:46",
+		"aktualisierungsdatum": "2021-09-02T08:34:47",
 		"id": 7512
 	},
 	{
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:46",
+		"aktualisierungsdatum": "2021-09-02T08:34:47",
 		"id": 7513
 	},
 	{
