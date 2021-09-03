@@ -5,52 +5,6 @@
       "data": [
         [
           "Basel-Stadt",
-          6801
-        ],
-        [
-          "Basel-Landschaft",
-          2441
-        ],
-        [
-          "Jura",
-          1739
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          10980
-        ]
-      ],
-      "name": "2014",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "Basel-Stadt",
-          7306
-        ],
-        [
-          "Basel-Landschaft",
-          2452
-        ],
-        [
-          "Jura",
-          1726
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          11483
-        ]
-      ],
-      "name": "2015",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#689199",
-      "data": [
-        [
-          "Basel-Stadt",
           7618
         ],
         [
@@ -70,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -93,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -113,6 +67,52 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "Basel-Stadt",
+          9171
+        ],
+        [
+          "Basel-Landschaft",
+          2222
+        ],
+        [
+          "Jura",
+          1557
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          12949
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "Basel-Stadt",
+          8011
+        ],
+        [
+          "Basel-Landschaft",
+          1997
+        ],
+        [
+          "Jura",
+          1489
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          11497
+        ]
+      ],
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -248,12 +248,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8873
+    "filename": "8873"
   }
 }

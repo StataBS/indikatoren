@@ -4,39 +4,79 @@
       "color": "#0070C0",
       "data": [
         [
-          "2007 (NR)",
+          "2007",
           52.4
         ],
         [
-          "2008 (GR)",
-          39
+          "2008",
+          null
         ],
         [
-          "2011 (NR)",
+          "2011",
           50.3
         ],
         [
-          "2012 (GR)",
-          41.6
+          "2012",
+          null
         ],
         [
-          "2015 (NR)",
+          "2015",
           50.4
         ],
         [
-          "2016 (GR)",
-          41.7
+          "2016",
+          null
         ],
         [
-          "2019 (NR)",
+          "2019",
           47.7
+        ],
+        [
+          "2020",
+          null
         ]
       ],
-      "name": "Wahlbeteiligung",
+      "name": "Nationalrat",
       "turboThreshold": 0
     },
     {
-      "color": "#FABD24"
+      "color": "#FABD24",
+      "data": [
+        [
+          "2007",
+          null
+        ],
+        [
+          "2008",
+          39
+        ],
+        [
+          "2011",
+          null
+        ],
+        [
+          "2012",
+          41.6
+        ],
+        [
+          "2015",
+          null
+        ],
+        [
+          "2016",
+          41.7
+        ],
+        [
+          "2019",
+          null
+        ],
+        [
+          "2020",
+          43.5
+        ]
+      ],
+      "name": "Grossrat",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -174,7 +214,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Staatskanzlei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

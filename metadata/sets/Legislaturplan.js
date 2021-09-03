@@ -621,44 +621,42 @@ var indikatorensetData = [
 		"id": 6129
 	},
 	{
+		"template": "line001",
+		"data-id": 6130,
+		"chart-id": 6130,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6287
+		],
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.18.2.6130",
-		"kuerzelKunde": "2.11a",
-		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
+		"lesehilfe": "Die Werte für Basel waren lange Zeit relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich gesunken und beträgt seitdem 6 407 Franken.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen) mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"quellenangabe": [
+			"Eidgenössische Steuerverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:24.2424",
+		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6130",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.11a",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich niedriger und beträgt 6 407 Franken.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"6287"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6130,
-		"chart-id": 6130,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 6130
 	},
 	{
@@ -705,46 +703,44 @@ var indikatorensetData = [
 		"id": 6131
 	},
 	{
+		"template": "line001",
+		"data-id": 6132,
+		"chart-id": 6132,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5162,
+			6289,
+			8892
+		],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.18.2.6132",
-		"kuerzelKunde": "2.10",
-		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2020 betrug deren Ertrag 637&nbsp;Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2020 über 2,0&nbsp;Mrd. Franken.",
+		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-12T10:32:47.4747",
+		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6132",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.10",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2019 betrug deren Ertrag fast 1,1&nbsp;Mrd. Franken. Die hohe Steigerung gegenüber dem Vorjahr ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2019 fast 1,9&nbsp;Mrd. Franken.",
-		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"5162",
-			"6289",
-			"8892"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6132,
-		"chart-id": 6132,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 6132
 	},
 	{
@@ -787,44 +783,42 @@ var indikatorensetData = [
 		"id": 6133
 	},
 	{
+		"template": "template001",
+		"data-id": 6134,
+		"chart-id": 6134,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6291
+		],
 		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
-		"kuerzel": "I.18.2.6134",
-		"kuerzelKunde": "2.12a",
-		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2020",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2020 im ausgewählten Modellfall 5 438 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Gesamtsteuerbelastung (Kantons-, Gemeinde- und Bundessteuer; ohne Kirchensteuer) in Franken für verheiratete Doppelverdiener (50/50) mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2020.",
+		"quellenangabe": [
+			"Eidgenössische Steuerverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:25.2525",
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6134",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.12a",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2019 im ausgewählten Modellfall 5 808 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeindesteuern) in Franken für verheiratete Doppelverdiener (50/50) mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2019.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_014",
-		"parentId": null,
-		"children": [
-			"6291"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6134,
-		"chart-id": 6134,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 6134
 	},
 	{
@@ -1286,46 +1280,44 @@ var indikatorensetData = [
 		"id": 6149
 	},
 	{
+		"template": "line001",
+		"data-id": 6150,
+		"chart-id": 6150,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6054,
+			6303,
+			8943
+		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.6150",
-		"kuerzelKunde": "4.9",
-		"description": "Mittelwert und Median des Reineinkommens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-09T16:56:28.2828",
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6150",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "4.9",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"6054",
-			"6303",
-			"8943"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6150,
-		"chart-id": 6150,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 6150
 	},
 	{
@@ -1458,46 +1450,44 @@ var indikatorensetData = [
 		"id": 6154
 	},
 	{
+		"template": "line001",
+		"data-id": 6155,
+		"chart-id": 6155,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6307,
+			7778,
+			8421
+		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"kuerzel": "I.06.4.6155",
-		"kuerzelKunde": "5.3",
-		"description": "Warentransit durch die Schweiz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-11T15:35:15.1515",
+		"description": "Warentransit durch die Schweiz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.3",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
-		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6307",
-			"7778",
-			"8421"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6155,
-		"chart-id": 6155,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 6155
 	},
 	{
@@ -2139,43 +2129,41 @@ var indikatorensetData = [
 		"id": 6175
 	},
 	{
+		"template": "template001",
+		"data-id": 6176,
+		"chart-id": 6176,
+		"filter": "",
+		"parentId": "4866",
+		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kuerzel": "I.19.1.06176",
-		"kuerzelKunde": "10.1",
-		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 100,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.06176",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "10.1",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 106,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
+		"orderKey": "10_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "10_00_00_00_00_001",
-		"parentId": 4866,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6176,
-		"chart-id": 6176,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:54",
 		"id": 6176
 	},
 	{

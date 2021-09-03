@@ -319,42 +319,40 @@ var indikatorensetData = [
 		"id": 5157
 	},
 	{
+		"template": "line001",
+		"data-id": 5160,
+		"chart-id": 5160,
+		"filter": "",
+		"parentId": "6211",
+		"children": [],
 		"title": "Nettoschuldenquote und Nettoschulden pro Kopf",
 		"subtitle": "in Promille des BIP der Schweiz resp. in Franken, Basel-Stadt",
-		"kuerzel": "I.04.1.05160",
-		"kuerzelKunde": "SH1",
-		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2020 beträgt die Quote 0,2 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 593 Franken pro Kopf. Der Rückgang der Werte im Jahr 2020 hat mehrere Gründe: in erster Linie höhere Steuereinnahmen sowie einen Sondereffekt durch die Aufwertung der Immobilien im Finanzvermögen.",
+		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T10:13:21.2121",
+		"description": "Nettoschuldenquote und Nettoschulden pro Kopf",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.05160",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "SH1",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettoschuldenquote und die Nettoschulden pro Kopf sind seit dem Jahr 2000 zurückgegangen. 2019 beträgt die Quote 1,5 Promille des Schweizer Bruttoinlandprodukts. Die Schulden liegen bei 5 249 Franken pro Kopf.",
-		"erlaeuterungen": "Die Nettoschuldenquote des Kantons Basel-Stadt wird in Bezug auf das Schweizer Bruttoinlandprodukt berechnet.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_201",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_201",
-		"parentId": 6211,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5160,
-		"chart-id": 5160,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:58",
 		"id": 5160
 	},
 	{
@@ -397,42 +395,40 @@ var indikatorensetData = [
 		"id": 5161
 	},
 	{
+		"template": "line001",
+		"data-id": 5162,
+		"chart-id": 5162,
+		"filter": "",
+		"parentId": "6132",
+		"children": [],
 		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
 		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.18.2.05162",
-		"kuerzelKunde": "SH3",
-		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2020 betrug deren Ertrag 637&nbsp;Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2020 über 2,0&nbsp;Mrd. Franken.",
+		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-15T15:17:38.3838",
+		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.05162",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "SH3",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2019 betrug deren Ertrag fast 1,1&nbsp;Mrd. Franken. Die hohe Steigerung gegenüber dem Vorjahr ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2019 fast 1,9&nbsp;Mrd. Franken.",
-		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
-		"template": "line001",
+		"orderKey": "02_01_00_00_00_203",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_203",
-		"parentId": 6132,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5162,
-		"chart-id": 5162,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:58",
 		"id": 5162
 	},
 	{
@@ -799,43 +795,41 @@ var indikatorensetData = [
 		"id": 5186
 	},
 	{
+		"template": "template001",
+		"data-id": 5188,
+		"chart-id": 4866,
+		"filter": "",
+		"parentId": "4866",
+		"children": [],
 		"title": "Angezeigte Straftaten betreffend Strafgesetzbuch",
 		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
-		"kuerzel": "I.19.1.05188",
-		"kuerzelKunde": "GW11",
-		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Polizei",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Im Jahr 2020 wurden pro 1000 Einwohner 100,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T13:11:39.3939",
+		"description": "Angezeigte Straftaten betreffend Strafgesetzbuch",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.05188",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW11",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden pro 1000 Einwohner 106,0 Anzeigen gemäss Strafgesetzbuch (StGB) erstattet.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "template001",
+		"orderKey": "03_04_00_00_00_312",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_04_00_00_00_312",
-		"parentId": 4866,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5188,
-		"chart-id": 4866,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:57",
 		"id": 5188
 	},
 	{
@@ -1676,44 +1670,42 @@ var indikatorensetData = [
 		"id": 6035
 	},
 	{
+		"template": "line001",
+		"data-id": 6036,
+		"chart-id": 6036,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8927
+		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.18.2.6036",
-		"kuerzelKunde": "GZ4",
-		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:42:03.033",
+		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6036",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ4",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_504",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_504",
-		"parentId": null,
-		"children": [
-			"8927"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6036,
-		"chart-id": 6036,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:57",
 		"id": 6036
 	},
 	{
@@ -1881,42 +1873,40 @@ var indikatorensetData = [
 		"id": 6041
 	},
 	{
+		"template": "template001",
+		"data-id": 6042,
+		"chart-id": 4871,
+		"filter": "",
+		"parentId": "4871",
+		"children": [],
 		"title": "Wahlbeteiligung an National- und Grossratswahlen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.17.3.06042",
-		"kuerzelKunde": "GZ9",
-		"description": "Wahlbeteiligung an National- und Grossratswahlen",
-		"thema": "17 Politik",
-		"unterthema": "Wahlen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
+		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
+		"quellenangabe": [
+			"Staatskanzlei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T22:28:56.5656",
+		"description": "Wahlbeteiligung an National- und Grossratswahlen",
+		"thema": "17 Politik",
+		"unterthema": "Wahlen",
+		"kuerzel": "I.17.3.06042",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ9",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Gesellschaftliche Verantwortung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bei nationalen Wahlen fällt die Wahlbeteiligung im Stadtkanton in der Regel mit über 50% höher aus als bei den Wahlen ins kantonale Parlament. 2019 wurde die 50%-Marke auch national erstmals unterschritten.",
-		"erlaeuterungen": "Parlamentswahlen auf kantonaler (Grossrat) und nationaler (Nationalrat) Ebene finden in Basel-Stadt alle vier Jahre statt, die Nationalratswahlen jeweils ein Jahr vor den Grossratswahlen. Die Wahlbeteiligung zeigt den Prozentanteil der Wahlberechtigten, der tatsächlich wählen ging.",
-		"template": "template001",
+		"orderKey": "05_03_00_00_00_510",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_03_00_00_00_510",
-		"parentId": 4871,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatskanzlei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6042,
-		"chart-id": 4871,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:57",
 		"id": 6042
 	},
 	{
@@ -2277,42 +2267,40 @@ var indikatorensetData = [
 		"id": 6053
 	},
 	{
+		"template": "line001",
+		"data-id": 6054,
+		"chart-id": 6054,
+		"filter": "",
+		"parentId": "6150",
+		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.06054",
-		"kuerzelKunde": "WE10",
-		"description": "Mittelwert und Median des Reineinkommens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:42:06.066",
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.06054",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE10",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
-		"template": "line001",
+		"orderKey": "06_02_00_00_00_610",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_02_00_00_00_610",
-		"parentId": 6150,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6054,
-		"chart-id": 6054,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:58",
 		"id": 6054
 	},
 	{

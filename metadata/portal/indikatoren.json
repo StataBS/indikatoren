@@ -2457,43 +2457,41 @@
 		"id": 4146
 	},
 	{
+		"template": "template001",
+		"data-id": 4147,
+		"chart-id": 4147,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Saldo des Steuerertrages von Zu- und Wegzügern",
 		"subtitle": "Basel-Stadt, in Mio. Franken",
-		"kuerzel": "I.18.2.4147",
-		"kuerzelKunde": "2.1.B",
-		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Zuletzt betrug der Wert 12,4 Mio. Franken.",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-20T11:32:22.2222",
+		"description": "Saldo des Steuerertrages von Zu- und Wegzügern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4147",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "2.1.B",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der Saldo des Steuerertrages bei den Zugezogenen höher als bei den Wegzügern. Zuletzt betrug der Wert 5,9 Mio. Franken.",
-		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
-		"template": "template001",
+		"orderKey": "03_01_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Siehe <a href='http://www.statistik.bs.ch/zahlen/analysen/steuerstatistik.html' target='_blank'>Weiterführende Informationen zur Steuerstatistik und zur Methodik</a>."
-		],
-		"data-id": 4147,
-		"chart-id": 4147,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:54",
 		"id": 4147
 	},
 	{
@@ -8591,45 +8589,43 @@
 		"id": 4862
 	},
 	{
+		"template": "template001",
+		"data-id": 4863,
+		"chart-id": 4863,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8402
+		],
 		"title": "Anteil Steuerveranlagungen mit Zuwendungen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.18.2.4863",
-		"kuerzelKunde": "3.1.01",
-		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "Rund 20,0% der Steuerveranlagungen im Jahr 2018 enthielten Zuwendungen, ein minimaler Zuwachs gegenüber dem Vorjahr. Seit 2008 ist der Anteil tendenziell steigend.",
+		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:12.1212",
+		"description": "Anteil Steuerveranlagungen mit Zuwendungen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4863",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "3.1.01",
 		"stufe1": "3 Gemeinwohlorientierung",
 		"stufe2": "3.1 Solidarität und Hilfsbereitschaft",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "19,9% der Steuerveranlagungen im Jahr 2017 enthielten Zuwendungen, ein leichter Rückgang gegenüber dem Vorjahr. Seit 2008 ist der Anteil tendenziell steigend.",
-		"erlaeuterungen": "Grundlage sind die Daten der Steuererklärungen der ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, ohne Wochenaufenthalter, Unterjährige und Auswärtige. Enthalten sind auch Quellenbesteuerte, die nachträglich ordentlich veranlagt wurden; dies ist zum Beispiel bei Einkünften von über 120 000 Franken pro Kalenderjahr der Fall. Eine Veranlagung kann zwei Personen umfassen, zum Beispiel bei Verheirateten.",
-		"template": "template001",
+		"orderKey": "03_01_00_00_00_052",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_052",
-		"parentId": null,
-		"children": [
-			"8402"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4863,
-		"chart-id": 4863,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 4863
 	},
 	{
@@ -9269,43 +9265,41 @@
 		"id": 4912
 	},
 	{
+		"template": "line001",
+		"data-id": 4913,
+		"chart-id": 4913,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
 		"subtitle": "in 1000 Franken",
-		"kuerzel": "I.06.4.4913",
-		"kuerzelKunde": "",
-		"description": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
-		"kennzahlenset": "",
+		"lesehilfe": "In Basel-Stadt ist seit 2016  bei den Ausfuhren eine stetige Zunahme zu beobachten. Dagegen ist 2020 bei den Einfuhren eine Abnahme gegenüber dem Vorjahr erkennbar. Die Ausfuhren sind 2020 mit 66,8 Mrd. Franken mehr als doppelt so hoch wie die Einfuhren.",
+		"erlaeuterungen": "2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-21T15:04:34.3434",
+		"description": "Wert der Ein- und Ausfuhren nach resp. aus Basel-Stadt",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.4913",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt ist seit 2016 sowohl bei den Ausfuhren wie bei den Einfuhren eine stetige Zunahme zu beobachten. Die Ausfuhren sind 2019 mit 63,8 Mrd. Franken fast doppelt so hoch wie die Einfuhren.",
-		"erlaeuterungen": "2020 wurde die von der Eidgenössischen Zollverwaltung publizierte kantonale Aussenhandelsstatistik einer grundlegenden Revision unterzogen. Die Zahlen wurden rückwirkend bis 2016 korrigiert und sind mit vorherigen Jahren nicht vergleichbar. Der Hauptunterschied zwischen der neuen und der alten Methode ist das Kriterium der Zuordnung der Importe und Exporte zu den Kantonen. Nach der alten Methode war die Adresse des Versenders bzw. des ersten Empfängers der Ware massgebend. Die neue Methode berücksichtigt die Adresse des Unternehmens, welches die Waren aus- oder einführt, also den Eigentümer der Ware.",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4913,
-		"chart-id": 4913,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:53",
 		"id": 4913
 	},
 	{
@@ -11905,45 +11899,43 @@
 		"id": 6033
 	},
 	{
+		"template": "line001",
+		"data-id": 6036,
+		"chart-id": 6036,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8927
+		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.18.2.6036",
-		"kuerzelKunde": "GZ4",
-		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:42:03.033",
+		"description": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6036",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ4",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens), er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_504",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_504",
-		"parentId": null,
-		"children": [
-			"8927"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6036,
-		"chart-id": 6036,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:57",
 		"id": 6036
 	},
 	{
@@ -13765,45 +13757,43 @@
 		"id": 6129
 	},
 	{
+		"template": "line001",
+		"data-id": 6130,
+		"chart-id": 6130,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6287
+		],
 		"title": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
-		"kuerzel": "I.18.2.6130",
-		"kuerzelKunde": "2.11a",
-		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"subtitle": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
+		"lesehilfe": "Die Werte für Basel waren lange Zeit relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich gesunken und beträgt seitdem 6 407 Franken.",
+		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen) mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
+		"quellenangabe": [
+			"Eidgenössische Steuerverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:24.2424",
+		"description": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6130",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.11a",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Werte für Basel sind in den letzten Jahren relativ konstant. Zwischen 2009 und 2018 lag die Steuerbelastung in Basel höher als in den anderen dargestellten Kantonshauptorten. Aufgrund einer Änderung des Steuergesetzes ist der Wert im Jahr 2019 deutlich niedriger und beträgt 6 407 Franken.",
-		"erlaeuterungen": "Dargestellt ist die Steuerbelastung von Aktiengesellschaften (Handels-, Industrie-, Bank-AG, ohne Beteiligungen), mit einem Kapital und Reserven von 2 Mio. Franken und einem Reingewinn von 80 000 Franken; Kanton- und Gemeindesteuer, einschliesslich Kirchensteuer. Reingewinn vor Abzug der im Geschäftsjahr bezahlten Steuern. In Genf ohne Gewerbesteuer.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"6287"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6130,
-		"chart-id": 6130,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 6130
 	},
 	{
@@ -13851,89 +13841,85 @@
 		"id": 6131
 	},
 	{
-		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"subtitle": "in Mio. Franken",
-		"kuerzel": "I.18.2.6132",
-		"kuerzelKunde": "2.10",
-		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-12T10:32:47.4747",
-		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2019 betrug deren Ertrag fast 1,1&nbsp;Mrd. Franken. Die hohe Steigerung gegenüber dem Vorjahr ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2019 fast 1,9&nbsp;Mrd. Franken.",
-		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"5162",
-			"6289",
-			"8892"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Jahresbericht des Kantons Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6132,
 		"chart-id": 6132,
 		"filter": "",
-		"id": 6132
-	},
-	{
-		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
-		"kuerzel": "I.18.2.6134",
-		"kuerzelKunde": "2.12a",
-		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"parentId": null,
+		"children": [
+			5162,
+			6289,
+			8892
+		],
+		"title": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
+		"subtitle": "in Mio. Franken",
+		"lesehilfe": "Die Folgen der Finanz- und Wirtschaftskrise, die 2008 begann, wurden vor allem beim Steuerertrag der juristischen Personen deutlich. 2020 betrug deren Ertrag 637&nbsp;Mio. Franken. Der hohe Wert im Jahr 2019 ist auf Sonderfaktoren bzw. Einmaleffekte zurückzuführen. Der Ertrag aus direkten Steuern natürlicher Personen betrug 2020 über 2,0&nbsp;Mrd. Franken.",
+		"erlaeuterungen": "Steuereinnahmen gemäss Jahresrechnung des Kantons Basel-Stadt; direkte Steuern natürlicher und juristischer Personen. Im Gegensatz zur Steuerstatistik auf das Kalenderjahr bezogen, nicht auf das Steuerjahr.",
+		"quellenangabe": [
+			"Jahresbericht des Kantons Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T12:32:25.2525",
+		"description": "Ertrag des Kantons Basel-Stadt aus direkten Steuern",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6132",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.10",
 		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel beträgt die Steuerbelastung 2019 im ausgewählten Modellfall 5 808 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
-		"erlaeuterungen": "Die Werte zeigen die Steuerbelastung (Kantons-, Gemeindesteuern) in Franken für verheiratete Doppelverdiener (50/50) mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2019.",
-		"template": "template001",
+		"orderKey": "02_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_014",
-		"parentId": null,
-		"children": [
-			"6291"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Steuerverwaltung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
+		"id": 6132
+	},
+	{
+		"template": "template001",
 		"data-id": 6134,
 		"chart-id": 6134,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6291
+		],
+		"title": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+		"subtitle": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2020",
+		"lesehilfe": "In Basel beträgt die Steuerbelastung 2020 im ausgewählten Modellfall 5 438 Franken. In den fünf Kantonshauptorten liegt sie in Bern am höchsten, in Genf am tiefsten.",
+		"erlaeuterungen": "Die Werte zeigen die Gesamtsteuerbelastung (Kantons-, Gemeinde- und Bundessteuer; ohne Kirchensteuer) in Franken für verheiratete Doppelverdiener (50/50) mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Franken im Jahr 2020.",
+		"quellenangabe": [
+			"Eidgenössische Steuerverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6134",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "2.12a",
+		"stufe1": "Ziel 2: Der Kanton Basel-Stadt bleibt ein erfolgreicher Wirtschaftsstandort.",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_014",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-09-03T08:04:55",
 		"id": 6134
 	},
 	{
@@ -14326,47 +14312,45 @@
 		"id": 6149
 	},
 	{
+		"template": "line001",
+		"data-id": 6150,
+		"chart-id": 6150,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6054,
+			6303,
+			8943
+		],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"kuerzel": "I.18.2.6150",
-		"kuerzelKunde": "4.9",
-		"description": "Mittelwert und Median des Reineinkommens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"quellenangabe": [
+			"Steuerstatistik Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-09T16:56:28.2828",
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.6150",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "4.9",
 		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"6054",
-			"6303",
-			"8943"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Steuerstatistik Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6150,
-		"chart-id": 6150,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 6150
 	},
 	{
@@ -14502,47 +14486,45 @@
 		"id": 6154
 	},
 	{
+		"template": "line001",
+		"data-id": 6155,
+		"chart-id": 6155,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6307,
+			7778,
+			8421
+		],
 		"title": "Warentransit durch die Schweiz",
 		"subtitle": "mit Eingang oder Ausgang Region Basel, in Tonnen, nach Verkehrsträger",
-		"kuerzel": "I.06.4.6155",
-		"kuerzelKunde": "5.3",
-		"description": "Warentransit durch die Schweiz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
+		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-11T15:35:15.1515",
+		"description": "Warentransit durch die Schweiz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.3",
 		"stufe1": "Ziel 5: Der Kanton Basel-Stadt ist bestens erreichbar.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Transit durch die Region Basel nimmt auf der Strasse seit 2010 kontinuierlich ab.",
-		"erlaeuterungen": "Berücksichtigt sind Waren, welche auf ihrem Weg vom Ursprungs- zum Zielland die Schweiz durchqueren und dabei in der Region Basel die Landesgrenze (resp. ein Zollamt) passieren. «Eingang» bezeichnet dabei Waren, welche die Grenze in Richtung Schweiz überqueren, «Ausgang» solche, die in Richtung Ausland transportiert werden. Die Region Basel besteht aus den Zollzonen Basel rechts, Basel links, Flughafen und Rheinhafen BS/BL. Über Pipelines verlassen in der Region Basel keine Waren die Schweiz.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"6307",
-			"7778",
-			"8421"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6155,
-		"chart-id": 6155,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 6155
 	},
 	{
@@ -26714,44 +26696,42 @@
 		"id": 6993
 	},
 	{
+		"template": "line001",
+		"data-id": 6994,
+		"chart-id": 6994,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Hospitalisierungsrate",
 		"subtitle": "der baselstädtischen Bevölkerung nach Alter",
-		"kuerzel": "I.14.1.06994",
-		"kuerzelKunde": "",
-		"description": "Hospitalisierungsrate",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Im Jahr 2019 betrug die Hospitalisierungsrate für Kinder und Jugendliche im Alter zwischen 10 und 19 Jahren 63 Fälle pro 1000 Einwohner der gleichen Altersgruppe. Dies ist der tiefste Wert aller ausgewiesenen Altersklassen.<br>Die höchste Rate erreicht mit über 900 pro 1000 Einwohner die Altersgruppe ab 90 Jahren.",
+		"erlaeuterungen": "Die Hospitalisierungsrate wird berechnet als Verhältnis von stationären Austritten pro 1000 Personen der jeweiligen Altersgruppe der kantonalen Wohnbevölkerung. Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Schweizer Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt) und im Kanton Basel-Stadt wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-17T13:10:34.3434",
+		"description": "Hospitalisierungsrate",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.06994",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Hospitalisierungsrate der baselstädtischen Bevölkerung lag im Jahr 2018 bei über 200 Fällen pro 1000 Einwohner. Für Kinder und Jugendliche im Alter zwischen 10 und 19 Jahren betrug die Rate 64 Fälle pro 1000 Einwohner. Dies ist der tiefste Wert aller ausgewiesenen Altersklassen.<br>Mit zunehmendem Alter steigt die Kurve an und erreicht für Personen im Alter von mindestens 90 Jahren mit über 900 Fällen pro 1000 Einwohner den Höchstwert.",
-		"erlaeuterungen": "Die Hospitalisierungsrate wird berechnet als Verhältnis von stationären Austritten pro 1000 Personen der kantonalen Wohnbevölkerung. Es werden alle stationär behandelten Patienten berücksichtigt, welche im Erhebungsjahr aus einem Schweizer Spital ausgetreten sind (mehrfach hospitalisierte Personen werden mehrfach gezählt) und im Kanton Basel-Stadt wohnhaft sind.",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6994,
-		"chart-id": 6994,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:54",
 		"id": 6994
 	},
 	{
@@ -37971,45 +37951,43 @@
 		"id": 8371
 	},
 	{
+		"template": "line001",
+		"data-id": 8372,
+		"chart-id": 8372,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8489
+		],
 		"title": "Entwicklung Logiernächte",
 		"subtitle": "indexiert, 2014 = 100",
-		"kuerzel": "",
-		"kuerzelKunde": "5-2",
-		"description": "Entwicklung Logiernächte",
-		"thema": "10 Tourismus",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Stark zugenommen haben zwischen 2014 und 2019 die Logiernächtezahlen in Basel-Stadt, insgesamt um 22,4%. Im Jahr 2020 wurden im Vergleich zu 2014 im Kanton Basel-Stadt (-53,1%) und Basel-Landschaft (-52,1%) pandemiebedingte hohe Rückgänge verzeichnet: Im Kanton Jura sank die Zahl der Übernachtungen lediglich um 9,6%. Der Wert der gesamten Schweiz sank um 34,0%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:30.3030",
+		"description": "Entwicklung Logiernächte",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08372",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-2",
 		"stufe1": "5. Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Stark zugenommen haben zwischen 2014 und 2018 die Logiernächtezahlen in Basel-Stadt, insgesamt um 19,2%. Rückgänge wurden im Kanton Basel-Landschaft (-7,9%) und im Jura (-3,6%) verzeichnet. Der Wert der gesamten Schweiz stieg um 8,0%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
-		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung. Laut Informationen des Kanton Jura sind die Übernachtungszahlen in der Parahotellerie dort stark gestiegen. So resultierte insgesamt ein Anstieg der Übernachtungszahlen im Jura zwischen 2014 und 2018 um 10,8% (statt eines Rückgangs um 3,6%).",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8489"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8372,
-		"chart-id": 8372,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 8372
 	},
 	{
@@ -39434,45 +39412,43 @@
 		"id": 8868
 	},
 	{
+		"template": "template001",
+		"data-id": 8873,
+		"chart-id": 8873,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8876
+		],
 		"title": "Entwicklung Bettenangebot",
 		"subtitle": "",
-		"kuerzel": "I.10.1.08873",
-		"kuerzelKunde": "5-3",
-		"description": "Entwicklung Bettenangebot",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2020 zusammen fast 11 500 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 8 000 an. Das Bettenangebot nahm in Basel-Stadt zwischen 2016 und 2019 um 20,4% zu. 2020 wurde im Vergleich zum Vorjahr ein pandemiebedingter Rückgang um 13% registriert. In Basel-Landschaft und im Jura wurden im Zeitraum von 2016 bis 2020 Rückgänge verzeichnet (-18,2% auf 2 000 und -14,4% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen. <br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:40.4040",
+		"description": "Entwicklung Bettenangebot",
+		"thema": "10 Tourismus",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08873",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "5-3",
 		"stufe1": "5. Tourismus",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2018 zusammen fast 12 900 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 9 000 an. Das Bettenangebot nahm in Basel-Stadt seit 2014 um fast 33% zu. In Basel-Landschaft und im Jura wurden in diesem Zeitraum Rückgänge verzeichnet (-5,5% auf 2 300 und -12,3% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
-		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen. <br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
-		"template": "template001",
+		"orderKey": "05_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"8876"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8873,
-		"chart-id": 8873,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-03T08:04:56",
 		"id": 8873
 	},
 	{

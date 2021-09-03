@@ -71,6 +71,10 @@
         [
           2017,
           5.9
+        ],
+        [
+          2018,
+          12.4
         ]
       ],
       "name": "Saldo in Mio. Franken"
@@ -208,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "tooltip": {
     "shared": false
