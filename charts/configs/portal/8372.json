@@ -22,6 +22,14 @@
         [
           2018,
           119.2
+        ],
+        [
+          2019,
+          122.4
+        ],
+        [
+          2020,
+          46.9
         ]
       ],
       "name": "Basel-Stadt"
@@ -48,6 +56,14 @@
         [
           2018,
           92.1
+        ],
+        [
+          2019,
+          91.5
+        ],
+        [
+          2020,
+          47.9
         ]
       ],
       "name": "Basel-Landschaft"
@@ -74,6 +90,14 @@
         [
           2018,
           96.4
+        ],
+        [
+          2019,
+          100.9
+        ],
+        [
+          2020,
+          90.4
         ]
       ],
       "name": "Jura"
@@ -100,6 +124,14 @@
         [
           2018,
           112.4
+        ],
+        [
+          2019,
+          114.9
+        ],
+        [
+          2020,
+          50
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -126,6 +158,14 @@
         [
           2018,
           108
+        ],
+        [
+          2019,
+          110.1
+        ],
+        [
+          2020,
+          66
         ]
       ],
       "name": "Schweiz"
@@ -213,7 +253,7 @@
     }
   },
   "yAxis": {
-    "min": 80,
+    "min": 0,
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
@@ -228,7 +268,15 @@
       "style": {
         "color": "#000000"
       }
-    }
+    },
+    "plotLines": [
+      {
+        "color": "#B9CFD7",
+        "value": 100,
+        "width": 2
+      }
+    ],
+    "tickInterval": 20
   },
   "legend": {
     "enabled": true,
@@ -255,7 +303,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

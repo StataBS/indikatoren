@@ -482,7 +482,7 @@
     },
     {
       "color": "#b375ab",
-      "visible": true,
+      "visible": false,
       "data": [
         [
           "0 bis 9 Jahre",
@@ -526,6 +526,54 @@
         ]
       ],
       "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923f8d",
+      "visible": true,
+      "data": [
+        [
+          "0 bis 9 Jahre",
+          197.7
+        ],
+        [
+          "10 bis 19 Jahre",
+          62.8
+        ],
+        [
+          "20 bis 29 Jahre",
+          88.8
+        ],
+        [
+          "30 bis 39 Jahre",
+          123.7
+        ],
+        [
+          "40 bis 49 Jahre",
+          118.2
+        ],
+        [
+          "50 bis 59 Jahre",
+          173.6
+        ],
+        [
+          "60 bis 69 Jahre",
+          260
+        ],
+        [
+          "70 bis 79 Jahre",
+          469.6
+        ],
+        [
+          "80 bis 89 Jahre",
+          784.1
+        ],
+        [
+          "90 Jahre u.m.",
+          914.5
+        ]
+      ],
+      "name": "2019",
       "turboThreshold": 0
     }
   ],
@@ -655,7 +703,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-17"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -693,7 +741,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6994"

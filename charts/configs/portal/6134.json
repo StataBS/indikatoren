@@ -6,26 +6,26 @@
       "data": [
         [
           "Basel",
-          5808
+          5438
         ],
         [
           "Bern",
-          8015
+          7980
         ],
         [
           "Genf",
-          3447
+          3351
         ],
         [
           "Liestal",
-          6004
+          5972
         ],
         [
           "Zürich",
-          3828
+          3815
         ]
       ],
-      "name": "2019",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -107,7 +107,7 @@
     "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten"
   },
   "subtitle": {
-    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
+    "text": "Doppelverdiener mit zwei Kindern und einem Bruttoarbeitseinkommen von 100 000 Fr., 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,7 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -21,6 +21,10 @@
         [
           2019,
           34160303
+        ],
+        [
+          2020,
+          31732060
         ]
       ],
       "name": "Einfuhren"
@@ -46,6 +50,10 @@
         [
           2019,
           63761256
+        ],
+        [
+          2020,
+          66791820
         ]
       ],
       "name": "Ausfuhren"
@@ -175,7 +183,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

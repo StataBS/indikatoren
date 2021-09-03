@@ -59,6 +59,10 @@
         [
           2019,
           6407
+        ],
+        [
+          2020,
+          6407
         ]
       ],
       "name": "Basel"
@@ -121,6 +125,10 @@
         ],
         [
           2019,
+          8923
+        ],
+        [
+          2020,
           8923
         ]
       ],
@@ -185,6 +193,10 @@
         [
           2019,
           15508
+        ],
+        [
+          2020,
+          8259
         ]
       ],
       "name": "Genf"
@@ -248,6 +260,10 @@
         [
           2019,
           12529
+        ],
+        [
+          2020,
+          10443
         ]
       ],
       "name": "Liestal"
@@ -311,6 +327,10 @@
         [
           2019,
           14501
+        ],
+        [
+          2020,
+          14501
         ]
       ],
       "name": "Zürich"
@@ -370,7 +390,7 @@
     "text": "Steuerbelastung von Aktiengesellschaften durch Reingewinn- und Kapitalsteuern"
   },
   "subtitle": {
-    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
+    "text": "in Franken; Kapital und Reserven: 2 Mio. Fr.; Reingewinn: 80 000 Fr.",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -440,7 +460,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Eidgenössische Steuerverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

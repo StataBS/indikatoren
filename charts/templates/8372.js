@@ -5,7 +5,13 @@
       //"type": "category",
     },
     "yAxis": {
-      "min": 80,
+      plotLines: [{
+        color: '#B9CFD7',
+        value: 100,
+        width: 2
+    }],
+      //"min": 40,
+      tickInterval: 20
     },
     "tooltip": {
       "shared": false,
