@@ -2429,42 +2429,40 @@ var indikatorensetData = [
 		"id": 6434
 	},
 	{
+		"template": "line001",
+		"data-id": 6435,
+		"chart-id": 6435,
+		"filter": "",
+		"parentId": "6148",
+		"children": [],
 		"title": "Arbeitnehmende in Leitungsfunktionen",
 		"subtitle": "nach Geschlecht, Basel-Stadt",
-		"kuerzel": "I.03.1.06435",
-		"kuerzelKunde": "GZ6",
-		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2020 bei den Männern etwa 39%, bei den Frauen rund 32%.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"quellenangabe": [
+			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-02T09:36:48.4848",
+		"description": "Arbeitnehmende in Leitungsfunktionen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.06435",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ6",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Arbeitnehmenden in einer Leitungsposition betrug 2019 bei den Männern etwa 40%, bei den Frauen rund 32%.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von rund 1 500 in Basel-Stadt wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_506",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_506",
-		"parentId": 6148,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6435,
-		"chart-id": 6435,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-06T08:46:27",
 		"id": 6435
 	},
 	{
@@ -2548,44 +2546,44 @@ var indikatorensetData = [
 		"id": 6592
 	},
 	{
-		"title": "Anzahl Ausländer nach Staatsangehörigkeit",
+		"template": "line001",
+		"data-id": 6599,
+		"chart-id": 6599,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6059,
+			6644,
+			8951
+		],
+		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06599",
-		"kuerzelKunde": "BE2",
-		"description": "Anzahl Ausländer nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Ende 2020 bildeten die Deutschen mit 16 648 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2001 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-10T16:37:48.4848",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06599",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE2",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 bildeten die Deutschen mit 16 380 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen, nun gegenüber 2018 jedoch geringfügig gesunken. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2000 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_01_00_00_00_102",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"6059"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6599,
-		"chart-id": 6599,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-06T08:46:27",
 		"id": 6599
 	},
 	{
