@@ -27051,7 +27051,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Alter",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Arbeitslosenquote ist seit Jahresbeginn von 4,4% auf aktuell 3,7% gesunken. Zum Rückgang haben sowohl saisonale Effekte als auch die Lockerungen der Massnahmen gegen die COVID-19-Pandemie beigetragen. Die Jugendarbeitslosenquote ist im Juli auf 3,8% gestiegen, während die Arbeitslosenquote der Personen ab 50 Jahren weiterhin unter dem Durchschnitt der Gesamtbevölkerung liegt.",
+		"lesehilfe": "Die Arbeitslosenquote ist seit Jahresbeginn von 4,4% auf aktuell 3,6% gesunken. Zum Rückgang haben sowohl saisonale Effekte als auch die Lockerungen der Massnahmen gegen die COVID-19-Pandemie beigetragen. Die Jugendarbeitslosenquote ist im Juli auf 3,8% gestiegen, liegt nun im August aber mit 3,3%, ebenso wie die Arbeitslosenquote der Personen ab 50 Jahren, wieder unter dem Durchschnitt der Gesamtbevölkerung.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Zahl der Arbeitslosen, geteilt durch die Erwerbspersonen.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -27077,7 +27077,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:19",
+		"aktualisierungsdatum": "2021-09-07T08:10:33",
 		"id": 7510
 	},
 	{
@@ -27089,7 +27089,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Gemeldete offene Stellen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit Jahresbeginn 2021 steigt die Zahl der offenen Stellen wieder an und übertrifft seit April 2021 gar die Werte von vor dem Ausbruch der COVID-19-Pandemie. Aktuell sind rund 2 400 Stellen in Basel-Stadt offen. Die grosse Mehrheit davon sind meldepflichtig.",
+		"lesehilfe": "Seit Jahresbeginn 2021 steigt die Zahl der offenen Stellen wieder an und übertrifft seit April 2021 gar die Werte von vor dem Ausbruch der COVID-19-Pandemie. Aktuell sind rund 2 500 Stellen in Basel-Stadt offen. Die grosse Mehrheit davon sind meldepflichtig.",
 		"erlaeuterungen": "Die offenen Stellen werden den regionalen Arbeitsvermittlungszentren freiwillig gemeldet. Im Juli 2018 wurde eine Meldepflicht für Branchen mit einer Arbeitslosenquote über 8% eingeführt. Dieser Schwellenwert wurde im Januar 2020 auf 5% gesenkt. Wegen COVID-19 und seinen Folgen hat der Bundesrat die Stellenmeldepflicht für die Zeit vom 26. März 2020 bis 8. Juni 2020 aufgehoben.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -27115,7 +27115,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:20",
+		"aktualisierungsdatum": "2021-09-07T08:10:33",
 		"id": 7511
 	},
 	{
@@ -39540,7 +39540,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Arbeitslose, Langzeitarbeitslose und Anteil der Langzeitarbeitslosen am Total",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Nach einem knappen Jahr der Covid-19-Pandemie erreichte im Januar 2021 die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, einen Höchstand von rund 4 500. Seit Februar 2021 ist die Zahl rückläufig. Ende Juli 2021 sind rund 3 800 Personen arbeitslos. Die Zahl der Langzeitarbeitslosen geht allerdings kaum zurück und ist im Juli 2021 mit rund 1 100 Personen mehr als doppelt so hoch wie im Frühling 2020. Der Anteil der Langzeitarbeitslosen liegt aktuell bei 29%.",
+		"lesehilfe": "Nach einem knappen Jahr der Covid-19-Pandemie erreichte im Januar 2021 die Zahl der Personen, die bei den RAV in Basel-Stadt als arbeitslos registriert sind, einen Höchstand von rund 4 500. Seit Februar 2021 ist die Zahl rückläufig. Ende August 2021 sind rund 3 700 Personen arbeitslos. Die Zahl der Langzeitarbeitslosen geht allerdings kaum zurück und ist im August 2021 mit rund 1 100 Personen mehr als doppelt so hoch wie im Frühling 2020. Der Anteil der Langzeitarbeitslosen liegt aktuell bei 29%.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Langzeitarbeitslose sind Personen, die länger als ein Jahr als arbeitslos registriert sind. In der Grafik sind Monatswerte abgebildet.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -39566,7 +39566,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:20",
+		"aktualisierungsdatum": "2021-09-07T08:10:34",
 		"id": 8980
 	},
 	{
@@ -39578,7 +39578,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Veränderung der Arbeitslosenzahl im Vergleich zum Vorjahresmonat",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Der Trend hat sich im Mai 2021 geändert. Ende Juli 2021 sind 434 Personen weniger arbeitslos als ein Jahr zuvor.",
+		"lesehilfe": "Von März 2020 bis April 2021 waren die Arbeitslosenzahlen in Basel-Stadt aufgrund der Covid-19-Pandemie stets deutlich höher als im Vorjahresmonat. Der Trend hat sich im Mai 2021 geändert. Ende August 2021 sind 433 Personen weniger arbeitslos als ein Jahr zuvor.",
 		"erlaeuterungen": "Dargestellt ist die Differenz der Arbeitslosenzahlen in Basel-Stadt jeweils im Vergleich zum Vorjahresmonat. Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -39604,7 +39604,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:21",
+		"aktualisierungsdatum": "2021-09-07T08:10:34",
 		"id": 8981
 	},
 	{
@@ -39656,7 +39656,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Von Kurzarbeit betroffene Arbeitnehmer",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert nur ein bisschen tiefer (rund 75 000). Von September bis Dezember betrug die Anzahl der Angestellten, für die Kurzarbeit beantragt wurde, zwischen 20 000 und 30 000. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Im Mai 2021 war ein deutlicher Rückgang zu beobachten und im Juli 2021 liegt der Wert mit rund 30 000 nochmal leicht tiefer (provisorische Zahlen). 99% der beantragten Kurzarbeit wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, in Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März geht die Zahl zurück.  <br><br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
+		"lesehilfe": "Mit dem Lockdown zur Bekämpfung der COVID-19-Pandemie im Frühling 2020 sind die Anmeldungen von Kurzarbeit rasant gestiegen. Für März 2020 wurde beim Amt für Wirtschaft und Arbeit (AWA) des Kantons Basel-Stadt Kurzarbeit für 85 000 Arbeitnehmerinnen und Arbeitnehmer beantragt, während es im Vormonat noch 21 Anmeldungen gewesen waren. Die beantragte Kurzarbeit für April, Mai und Juni war am höchsten und betraf mehr als 90 000 Personen. Im Juli und August lag der Wert nur ein bisschen tiefer (rund 75 000). Von September bis Dezember betrug die Anzahl der Angestellten, für die Kurzarbeit beantragt wurde, zwischen 20 000 und 30 000. Zu Beginn des Jahres 2021 lag der Wert wieder im Bereich von 50 000 Personen. Im Mai 2021 war ein deutlicher Rückgang zu beobachten und im August 2021 liegt der Wert mit rund 30 000 nochmal leicht tiefer (provisorische Zahlen). 99% der beantragten Kurzarbeit wurde bisher vom AWA genehmigt.<br><br>Wie viel Kurzarbeit wird tatsächlich in Anspruch genommen (abgerechnet)? Von März bis Mai 2020 wurde für 40 000 bis 60 000 Arbeitnehmerinnen und Arbeitnehmer tatsächlich Kurzarbeit abgerechnet (die Spitze war im April). Damit liegt der Anteil der genehmigten Kurzarbeit, die abgerechnet und entschädigt wurde, in Frühling 2020 zwischen 50% und 65%. In den Monaten Juni bis September 2020 ging die Zahl der abgerechneten Kurzarbeit deutlich zurück. Im Januar und Februar 2021 wurde wieder Kurzarbeit für mehr als 20 000 Personen abgerechnet, seit März geht die Zahl zurück.  <br><br>Die aktuelle Lage ist (auch bei längerer Betrachtungsperspektive) beispiellos. Üblicherweise wird Kurzarbeit für weniger als 100 Personen pro Monat beantragt. In Folge der globalen Finanz- und Wirtschaftskrise 2008/2009 wurde zwischen März 2009 und Juni 2010 Kurzarbeit für rund 1 000 bis fast 1 700 Personen pro Monat beantragt. Abgerechnet wurde damals durchschnittlich die Hälfte der beantragten Kurzarbeit.",
 		"erlaeuterungen": "Die Kurzarbeit ist ein Instrument des Bundes, um Entlassungen zu verhindern. Kurzarbeitsentschädigungen werden von den Unternehmen für ihre Angestellten beantragt, wenn sie mit einem vorübergehenden Rückgang der Nachfrage konfrontiert sind. Wegen der COVID-19-Pandemie wurde der Zugang zur Kurzarbeit erleichtert. Bei Erfüllung der Bedingungen für Kurzarbeit genehmigen die kantonalen Arbeitsämter die Anträge. Nach Ablauf der Abrechnungsperiode wird die Kurzarbeit abgerechnet, d. h. es wird berechnet, wie viel effektiv weniger gearbeitet wurde. Daraufhin bekommen die Firmen eine Entschädigung, damit sie trotzdem die Löhne bezahlen können (80% des ausgefallenen Lohns). In der Grafik ist die Anzahl der von Kurzarbeit betroffenen Arbeitnehmerinnen und Arbeitnehmer, die in einem Betrieb oder in einer Betriebsabteilung arbeiten, die Kurzarbeit beim AWA des Kantons Basel-Stadt beantragt haben, abgebildet. Die betroffenen Personen können auch ausserhalb des Kantons Basel-Stadt arbeiten oder wohnen. Die Zahlen der beantragten und der genehmigten Kurzarbeit der letzten drei Monate sind provisorisch. Die Zahl der abgerechneten Kurzarbeit in Basel-Stadt steht mit drei Monaten Verzögerung zur Verfügung.",
 		"quellenangabe": [
 			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
@@ -39682,7 +39682,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:21",
+		"aktualisierungsdatum": "2021-09-07T08:10:35",
 		"id": 8992
 	},
 	{
