@@ -89,6 +89,14 @@
         [
           2018,
           null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
         ]
       ],
       "name": "Unfälle"
@@ -184,6 +192,14 @@
         [
           2018,
           777
+        ],
+        [
+          2019,
+          747
+        ],
+        [
+          2020,
+          602
         ]
       ],
       "name": "Unfälle"
@@ -305,7 +321,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-12-2"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-8"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
