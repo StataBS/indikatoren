@@ -42,45 +42,44 @@ var indikatorensetData = [
 		"id": 6057
 	},
 	{
+		"template": "line001",
+		"data-id": 6058,
+		"chart-id": 6058,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6592,
+			6643,
+			8949
+		],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6058",
-		"kuerzelKunde": "A1-2",
-		"description": "Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Ende 2020 lebten im Kanton Basel-Stadt 127 276 Schweizerinnen und Schweizer und 74 695 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2001 um 22 171 gestiegen ist, ist die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 7 636 gesunken.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:15:03.033",
+		"description": "Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6058",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 lebten im Kanton Basel-Stadt 127 092 Schweizerinnen und Schweizer und 73 315 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2000 um 21 468 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 9 212.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_102",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_102",
-		"parentId": null,
-		"children": [
-			"6592",
-			"6643"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6058,
-		"chart-id": 6058,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-08T08:30:08",
 		"id": 6058
 	},
 	{
@@ -3199,44 +3198,42 @@ var indikatorensetData = [
 		"id": 6478
 	},
 	{
+		"template": "line001",
+		"data-id": 6479,
+		"chart-id": 6479,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6720
+		],
 		"title": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.6.6479",
-		"kuerzelKunde": "D3-1",
-		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Einbürgerungen",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Im Jahr 2020 liessen sich von 1000 in Basel-Stadt wohnhaften Personen mit deutscher Staatsangehörigkeit 26,6 einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2020 auch Personen aus dem Balkan (19,4), aus Mittel- und Südamerika (18,4) und aus der Türkei (18,1).",
+		"erlaeuterungen": "Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende. Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-08T15:14:28.2828",
+		"description": "Einbürgerungsziffer nach ehemaliger Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Einbürgerungen",
+		"kuerzel": "I.01.6.06479",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D3-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Pro 1000 Personen liessen sich 2019 34,8 Personen aus der Türkei einbürgern. Vergleichsweise hohe Einbürgerungsziffern verzeichneten 2019 auch Personen aus dem Balkan (29,3), aus Mittel- und Südamerika (25,7) und aus Deutschland (21,9). Auffällig ist die sehr hohe Einbürgerungsziffer der Personen aus dem Balkan im Jahr 2009. Diese Spitze lässt sich u. a. damit erklären, dass damals viele Zugewanderte aus dem ehemaligen Jugoslawien, die Mitte der 1990er-Jahre in die Schweiz gekommen waren, die für eine ordentliche Einbürgerung verlangte Aufenthaltsdauer erreicht hatten, und den Schweizer Pass beantragten.",
-		"erlaeuterungen": "Ausländer, die zehn Jahre in der Schweiz gelebt haben und eine Niederlassungsbewilligung C besitzen, können sich um die ordentliche Einbürgerung bewerben. Die im Alter von 8 bis 18 in der Schweiz verbrachten Jahre zählen doppelt. Unter bestimmten Voraussetzungen ist nach kürzerer Aufenthaltsdauer eine erleichterte Einbürgerung möglich, z. B. nach fünf Jahren Aufenthalt und drei Jahren Ehe mit einer Schweizerin bzw. einem Schweizer. Auch in der Schweiz geborene Ausländer der dritten Generation können sich bis zum Alter von 25 Jahren erleichtert einbürgern lassen, falls ein Grosseltern- und ein Elternteil in der Schweiz gelebt haben. Bis 2017 galten teilweise andere Bestimmungen, die bei bis zu diesem Zeitpunkt eingereichten Einbürgerungsgesuchen zum Tragen kamen. Neben den ordentlichen und den erleichterten Einbürgerungen gibt es weitere Einbürgerungen (z. B. infolge Adoption, Wiedereinbürgerung oder Feststellung der Schweizer Staatsangehörigkeit), die hier ebenfalls berücksichtigt werden. Die Einbürgerungsziffer ergibt sich aus der Anzahl Einbürgerungen pro 1000 Personen der jeweiligen Bevölkerungsgruppe am Jahresende.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_301",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_301",
-		"parentId": null,
-		"children": [
-			"6720"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6479,
-		"chart-id": 6479,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-08T08:30:09",
 		"id": 6479
 	},
 	{

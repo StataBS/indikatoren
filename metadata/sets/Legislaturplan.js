@@ -2167,44 +2167,42 @@ var indikatorensetData = [
 		"id": 6176
 	},
 	{
+		"template": "line001",
+		"data-id": 6177,
+		"chart-id": 6177,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6324
+		],
 		"title": "Anzahl Strassenverkehrsunfälle",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.11.7.6177",
-		"kuerzelKunde": "10.2",
-		"description": "Anzahl Strassenverkehrsunfälle",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3 000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. Seit drei Jahren wird erneut eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
+		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2019-12-02T09:51:39.3939",
+		"description": "Anzahl Strassenverkehrsunfälle",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.6177",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "10.2",
 		"stufe1": "Ziel 10: Der Kanton Basel-Stadt verfügt über einen hohen Sicherheitsstandard.",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3&nbsp;000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. 2018 wurde eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
-		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"template": "line001",
+		"orderKey": "10_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "10_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6324"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6177,
-		"chart-id": 6177,
-		"filter": "",
+		"aktualisierungsdatum": "2021-09-08T08:30:08",
 		"id": 6177
 	},
 	{

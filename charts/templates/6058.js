@@ -2,6 +2,7 @@
     return {
    "chart": {
     "type": "area",
+    marginRight: 25
    },
   plotOptions: {
         /*series: {
@@ -15,7 +16,7 @@
             stacking: 'normal',
             //lineColor: '#666666',
             lineWidth: 0,
-
+          
         }
   },
   "yAxis": {
@@ -23,8 +24,15 @@
       "format": "{value:,.0f}",
     }
   },
-  "xAxis": {
-  	"type": "category",
+  xAxis: {
+    tickPositioner: function () {
+      var interval = 2,
+        ext = this.getExtremes(),
+        i = ext.dataMax,
+        pos = [i];
+      while (i >= ext.dataMin) pos.unshift(i = i - interval);
+      return pos;
+    }
   },
   "legend": {
     "enabled": true,
@@ -32,7 +40,7 @@
     "verticalAlign": "top",
     "align": "left",
 	//"y": 40,
- 	itemWidth: 100,
+ 	itemWidth: 120,
 	"itemMarginBottom": 5,
     "itemStyle": {
     "fontWeight": "normal"
