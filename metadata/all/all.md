@@ -2028,6 +2028,8 @@ id | visible | visibleInPortal | indikatorenset
 9294 | true | false | Soziales
 9295 | true | false | Soziales
 9298 | true | false | Soziales
+9359 | true | false | 
+9360 | true | false | 
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

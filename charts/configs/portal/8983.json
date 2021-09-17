@@ -238,7 +238,7 @@
         ],
         [
           "28. Feb",
-          null
+          "#NV"
         ],
         [
           "29. Feb",
@@ -634,7 +634,7 @@
         ],
         [
           "28. Feb",
-          undefined
+          2788
         ],
         [
           "29. Feb",
@@ -1029,11 +1029,11 @@
         ],
         [
           "28. Feb",
-          undefined
+          7533
         ],
         [
           "29. Feb",
-          null
+          "#NV"
         ],
         [
           "01. Mrz",
@@ -1192,15 +1192,15 @@
       "data": [
         [
           "01. Jan",
-          undefined
+          null
         ],
         [
           "02. Jan",
-          undefined
+          null
         ],
         [
           "03. Jan",
-          undefined
+          null
         ],
         [
           "04. Jan",
@@ -1424,11 +1424,11 @@
         ],
         [
           "28. Feb",
-          undefined
+          5117
         ],
         [
           "29. Feb",
-          undefined
+          4983
         ],
         [
           "01. Mrz",
@@ -1568,15 +1568,15 @@
         ],
         [
           "04. Apr",
-          undefined
+          null
         ],
         [
           "05. Apr",
-          undefined
+          null
         ],
         [
           "06. Apr",
-          undefined
+          null
         ]
       ],
       "name": "gleitender Durchschnitt 2020",
@@ -1710,7 +1710,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-28"
+    "text": "Quelle: Amt für Mobilität Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-17"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -1751,6 +1751,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8983
+    "filename": "8983"
   }
 }
