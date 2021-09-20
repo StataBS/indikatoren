@@ -6,11 +6,11 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          86
+          98
         ],
         [
           "Innovation",
-          100
+          98
         ],
         [
           "Humankapital",
@@ -18,7 +18,7 @@
         ],
         [
           "Arbeitsmarkt",
-          24
+          41
         ],
         [
           "Erreichbarkeit",
@@ -26,15 +26,15 @@
         ],
         [
           "Einzugsgebiet",
-          89
+          94
         ],
         [
           "Kostenumfeld",
-          50
+          51
         ],
         [
           "Staatsfinanzen",
-          44
+          46
         ]
       ],
       "name": "Basel-Stadt",
@@ -46,31 +46,31 @@
       "data": [
         [
           "Wirtschaftsstruktur",
-          64.5
+          65
         ],
         [
           "Innovation",
-          29
+          27.5
         ],
         [
           "Humankapital",
-          32.5
+          31
         ],
         [
           "Arbeitsmarkt",
-          68
+          77
         ],
         [
           "Erreichbarkeit",
-          58
+          59
         ],
         [
           "Einzugsgebiet",
-          32
+          28
         ],
         [
           "Kostenumfeld",
-          76.5
+          65.5
         ],
         [
           "Staatsfinanzen",
@@ -159,7 +159,7 @@
     "text": "Kantonales Wettbewerbsprofil"
   },
   "subtitle": {
-    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2019",
+    "text": "Basel-Stadt im Vergleich zum Mediankanton, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: UBS Switzerland AG.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

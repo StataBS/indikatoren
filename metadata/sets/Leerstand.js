@@ -439,9 +439,9 @@ var indikatorensetData = [
 		"children": [
 			9078
 		],
-		"title": "Leerstandsquote nach Kanton",
+		"title": "Leerwohnungsquote nach Kanton",
 		"subtitle": "",
-		"lesehilfe": "Die derzeit verfügbaren Kantonswerte deuten insgesamt auf einen weiteren Anstieg des Leerwohnungsbestandes hin.",
+		"lesehilfe": "Die schweizerische Leerwohnungsquote ist gegenüber dem Vorjahr gesunken. Die niedrigste Quote weist der Kanton Zug (0,34%), die höchste der Kanton Solothurn (3,15%) auf.",
 		"erlaeuterungen": "Eine Wohnung gilt als leerstehend, wenn sie am Stichtag 1. Juni bezogen werden könnte und zur Dauermiete von mindestens drei Monaten oder zum Kauf angeboten wird.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Leerstandserhebung"
@@ -451,7 +451,7 @@ var indikatorensetData = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Leerstandsquote nach Kanton",
+		"description": "Leerwohnungsquote nach Kanton",
 		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Leerstand",
 		"kuerzel": "I.09.2.07585",
@@ -466,7 +466,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:18",
+		"aktualisierungsdatum": "2021-09-20T08:40:01",
 		"id": 7585
 	},
 	{
@@ -506,7 +506,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:19",
+		"aktualisierungsdatum": "2021-09-20T08:40:01",
 		"id": 7586
 	},
 	{
