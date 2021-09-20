@@ -497,7 +497,7 @@
       "data": [
         [
           "CH",
-          null
+          1.54
         ],
         [
           " ",
@@ -517,99 +517,99 @@
         ],
         [
           "ZH",
-          null
+          0.72
         ],
         [
           "BE",
-          null
+          1.61
         ],
         [
           "LU",
-          null
+          1.23
         ],
         [
           "UR",
-          null
+          1.74
         ],
         [
           "SZ",
-          null
+          0.99
         ],
         [
           "OW",
-          null
+          0.96
         ],
         [
           "NW",
-          null
+          1.23
         ],
         [
           "GL",
-          null
+          1.72
         ],
         [
           "ZG",
-          null
+          0.34
         ],
         [
           "FR",
-          null
+          1.8
         ],
         [
           "SO",
-          null
+          3.15
         ],
         [
           "SH",
-          null
+          1.59
         ],
         [
           "AR",
-          null
+          2.05
         ],
         [
           "AI",
-          null
+          2.59
         ],
         [
           "SG",
-          null
+          2.05
         ],
         [
           "GR",
-          null
+          0.87
         ],
         [
           "AG",
-          null
+          2.1
         ],
         [
           "TG",
-          null
+          2.21
         ],
         [
           "TI",
-          null
+          2.83
         ],
         [
           "VD",
-          null
+          1.35
         ],
         [
           "VS",
-          null
+          2.29
         ],
         [
           "NE",
-          null
+          2.36
         ],
         [
           "GE",
-          null
+          0.51
         ],
         [
           "JU",
-          null
+          2.56
         ]
       ],
       "name": "2021",
@@ -691,7 +691,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Leerstandsquote nach Kanton"
+    "text": "Leerwohnungsquote nach Kanton"
   },
   "subtitle": {
     "text": "",
@@ -750,7 +750,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

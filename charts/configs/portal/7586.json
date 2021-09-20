@@ -265,7 +265,7 @@
         ],
         [
           2021,
-          null
+          0.68
         ]
       ],
       "name": "Genf"
@@ -355,7 +355,7 @@
         ],
         [
           2021,
-          null
+          0.72
         ]
       ],
       "name": "Lausanne"
@@ -445,7 +445,7 @@
         ],
         [
           2021,
-          null
+          0.41
         ]
       ],
       "name": "Winterthur"
@@ -535,7 +535,7 @@
         ],
         [
           2021,
-          null
+          0.17
         ]
       ],
       "name": "Zürich"
@@ -621,11 +621,11 @@
         ],
         [
           2020,
-          1.7
+          1.72
         ],
         [
           2021,
-          null
+          1.54
         ]
       ],
       "name": "Schweiz"
@@ -757,7 +757,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Leerstandserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-20"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
