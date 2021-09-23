@@ -39706,7 +39706,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-17T08:14:32",
+		"aktualisierungsdatum": "2021-09-23T09:11:45",
 		"id": 8995
 	},
 	{
@@ -40131,7 +40131,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-17T08:14:33",
+		"aktualisierungsdatum": "2021-09-23T09:11:46",
 		"id": 9022
 	},
 	{
@@ -40169,7 +40169,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-17T08:14:33",
+		"aktualisierungsdatum": "2021-09-23T09:11:46",
 		"id": 9023
 	},
 	{
