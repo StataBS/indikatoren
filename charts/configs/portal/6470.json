@@ -7,43 +7,43 @@
       "data": [
         [
           "USA",
-          256846
+          267191
         ],
         [
           "Australien",
-          221013
-        ],
-        [
-          "Kanada",
-          193220
-        ],
-        [
-          "Irland",
-          177085
+          197894
         ],
         [
           "Dänemark",
-          171929
+          192149
         ],
         [
-          "Belgien",
-          171234
+          "Irland",
+          180712
+        ],
+        [
+          "Kanada",
+          173979
         ],
         [
           "Grossbritannien",
-          165668
+          159053
         ],
         [
           "Indien",
-          144901
+          154813
         ],
         [
-          "Niederlande",
-          139889
+          "Belgien",
+          146456
         ],
         [
           "Schweden",
-          133463
+          131670
+        ],
+        [
+          "Niederlande",
+          126494
         ]
       ],
       "name": "Mittelwert",
@@ -56,43 +56,43 @@
       "data": [
         [
           "USA",
-          165355
+          174906
         ],
         [
           "Australien",
-          195612
-        ],
-        [
-          "Kanada",
-          151195
-        ],
-        [
-          "Irland",
-          149700
+          174149
         ],
         [
           "Dänemark",
-          108666
+          108071
         ],
         [
-          "Belgien",
-          101388
+          "Irland",
+          153136
+        ],
+        [
+          "Kanada",
+          155261
         ],
         [
           "Grossbritannien",
-          128399
+          134004
         ],
         [
           "Indien",
-          126507
+          128343
         ],
         [
-          "Niederlande",
-          94535
+          "Belgien",
+          96776
         ],
         [
           "Schweden",
-          108533
+          108644
+        ],
+        [
+          "Niederlande",
+          88761
         ]
       ],
       "name": "Median",
@@ -109,43 +109,43 @@
       "data": [
         [
           "USA",
-          548
+          561
         ],
         [
           "Australien",
-          64
-        ],
-        [
-          "Kanada",
-          122
-        ],
-        [
-          "Irland",
-          129
+          63
         ],
         [
           "Dänemark",
-          101
+          86
         ],
         [
-          "Belgien",
-          112
+          "Irland",
+          136
+        ],
+        [
+          "Kanada",
+          116
         ],
         [
           "Grossbritannien",
-          1042
+          1040
         ],
         [
           "Indien",
-          339
+          357
         ],
         [
-          "Niederlande",
-          368
+          "Belgien",
+          113
         ],
         [
           "Schweden",
-          136
+          142
+        ],
+        [
+          "Niederlande",
+          371
         ]
       ],
       "name": "Anzahl Veranlagungen (rechte Skala)",
@@ -230,7 +230,7 @@
     "text": "Mittelwert und Median des Reineinkommens pro Veranlagung"
   },
   "subtitle": {
-    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2017",
+    "text": "in Franken, nach Staatsangehörigkeit, Top 10 der Mittelwerte in Basel-Stadt, Steuerjahr 2018",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -301,13 +301,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-10"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-28"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6470
+    "filename": "6470"
   }
 }

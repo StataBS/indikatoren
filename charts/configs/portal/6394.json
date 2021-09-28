@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          53595.5
+          53814
         ],
         [
           2,
-          59216
+          58060
         ],
         [
           3,
-          54487
+          54997.5
         ],
         [
           4,
-          47393
+          47338
         ],
         [
           5,
-          62163
+          63606
         ],
         [
           6,
-          47463
+          47700
         ],
         [
           7,
-          65811.5
+          67136
         ],
         [
           8,
-          59357.5
+          58775
         ],
         [
           9,
-          50910
+          51237
         ],
         [
           10,
-          44173
+          44416
         ],
         [
           11,
-          42027
+          42377.5
         ],
         [
           12,
-          41961.5
+          43150.5
         ],
         [
           13,
-          40137
+          39142
         ],
         [
           14,
-          55521
+          56058.5
         ],
         [
           15,
-          52717
+          52701
         ],
         [
           16,
-          44634
+          44828
         ],
         [
           17,
-          38565
+          39295.5
         ],
         [
           18,
-          36178
+          36481
         ],
         [
           19,
-          40315
+          39860
         ],
         [
           20,
-          63726
+          63193
         ],
         [
           30,
-          67289
+          70038.5
         ]
       ]
     },
@@ -7107,7 +7107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -7123,7 +7123,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-28"
   },
   "colorAxis": {
     "min": 0,
