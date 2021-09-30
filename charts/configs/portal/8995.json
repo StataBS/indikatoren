@@ -4312,7 +4312,7 @@
         ],
         [
           1629072000000,
-          4
+          6
         ],
         [
           1629676800000,
@@ -4320,7 +4320,7 @@
         ],
         [
           1630281600000,
-          null
+          3
         ],
         [
           1630886400000,
@@ -14200,11 +14200,11 @@
         ],
         [
           1629676800000,
-          25
+          26
         ],
         [
           1630281600000,
-          null
+          39
         ],
         [
           1630886400000,
@@ -19785,8 +19785,8 @@
         "textOverflow": "none"
       }
     },
-    "min": 1571901159357,
-    "max": 1635405159357,
+    "min": 1572504829563,
+    "max": 1636008829563,
     "tickInterval": 604800000,
     "dateTimeLabelFormats": {
       "day": "%V-%G",
@@ -19927,7 +19927,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-30"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
