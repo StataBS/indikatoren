@@ -1150,45 +1150,46 @@ var indikatorensetData = [
 		"id": 5199
 	},
 	{
+		"template": "line001",
+		"data-id": 5793,
+		"chart-id": 5793,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8914,
+			9389
+		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"kuerzel": "I.02.1.05793",
-		"kuerzelKunde": "NL1",
-		"description": "Ökologischer Fussabdruck der Schweiz",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"quellenangabe": [
+			"Global Footprint Network"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
+			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-11-26T12:16:49.4949",
+		"description": "Ökologischer Fussabdruck der Schweiz",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.02.1.05793",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL1",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
-		"template": "line001",
+		"orderKey": "04_01_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"8914"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Global Footprint Network"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
-			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
-		],
-		"data-id": 5793,
-		"chart-id": 5793,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:31",
 		"id": 5793
 	},
 	{
@@ -1676,11 +1677,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8927
+			8927,
+			9371
 		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -1705,7 +1707,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:57",
+		"aktualisierungsdatum": "2021-10-04T08:37:31",
 		"id": 6036
 	},
 	{

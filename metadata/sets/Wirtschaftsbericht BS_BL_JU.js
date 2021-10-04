@@ -205,44 +205,43 @@ var indikatorensetData = [
 		"id": 8354
 	},
 	{
+		"template": "line001",
+		"data-id": 8355,
+		"chart-id": 8355,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8472,
+			9361
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08355",
-		"kuerzelKunde": "1.2-2",
-		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08355",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt ist zwischen 2014 und 2018 um 71% gestiegen. Auch die Wertschöpfung in der Metallindustrie ist gewachsen (+18%), wobei diese Branche, ebenso wie der Bereich Elektro/Optik/Maschinen-Industrie (-26%), sehr klein ist. Die Wertschöpfung im Baugewerbe hat um 17% zugenommen, während sie im Bereich Verkehr und Lagerei um 12% zurückgegangen ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8472"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8355,
-		"chart-id": 8355,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:33",
 		"id": 8355
 	},
 	{
