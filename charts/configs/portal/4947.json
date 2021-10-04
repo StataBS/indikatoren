@@ -51,6 +51,10 @@
         [
           "2019",
           69899
+        ],
+        [
+          "2020",
+          69888
         ]
       ],
       "name": "Akutsomatik",
@@ -107,6 +111,10 @@
         [
           "2019",
           3435
+        ],
+        [
+          "2020",
+          8
         ]
       ],
       "name": "Geriatrie",
@@ -163,6 +171,10 @@
         [
           "2019",
           3784
+        ],
+        [
+          "2020",
+          3600
         ]
       ],
       "name": "Psychiatrie",
@@ -219,6 +231,10 @@
         [
           "2019",
           4866
+        ],
+        [
+          "2020",
+          4309
         ]
       ],
       "name": "Rehabilitation",
@@ -358,7 +374,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-4"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

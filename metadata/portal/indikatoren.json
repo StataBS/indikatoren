@@ -1643,43 +1643,43 @@
 		"id": 3104
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4127,
+		"chart-id": 4127,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9385
+		],
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"kuerzel": "I.50.1.4127",
-		"kuerzelKunde": "0.1.A",
-		"description": "Zufriedenheit mit dem Wohnungsangebot",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-22T18:08:21.2121",
+		"description": "Zufriedenheit mit dem Wohnungsangebot",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4127",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "0.1.A",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig angewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder angestiegen.",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4127,
-		"chart-id": 4127,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:29",
 		"id": 4127
 	},
 	{
@@ -1886,43 +1886,43 @@
 		"id": 4132
 	},
 	{
-		"parentId": null,
-		"children": [],
 		"template": "template001",
+		"data-id": 4133,
+		"chart-id": 4133,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9383
+		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "",
-		"kuerzelKunde": "1.2.A",
-		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "50 Befragungen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (+3,1%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:01.011",
+		"description": "Wohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.04133",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (3,1%).",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4133,
-		"chart-id": 4133,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
 		"id": 4133
 	},
 	{
@@ -2575,46 +2575,45 @@
 		"id": 4149
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4150,
+		"chart-id": 4150,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5819,
+			6251,
+			9388
+		],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks in Ihrem Wohnort?», Basel-Stadt, 2019",
-		"kuerzel": "I.50.1.4150",
-		"kuerzelKunde": "3.2.B",
-		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2019",
+		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-09T11:52:36.3636",
+		"description": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4150",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "3.2.B",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
-		"template": "befragungen001",
+		"orderKey": "04_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_000",
-		"parentId": null,
-		"children": [
-			"5819",
-			"6251"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4150,
-		"chart-id": 4150,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
 		"id": 4150
 	},
 	{
@@ -9591,85 +9590,81 @@
 		"id": 4933
 	},
 	{
-		"title": "Hospitalisierungen in baselstädtischen Spitälern",
-		"subtitle": "nach Hauptbereich",
-		"kuerzel": "I.14.1.4947",
-		"kuerzelKunde": "",
-		"description": "Hospitalisierungen in baselstädtischen Spitälern",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-07-24T13:53:00.000",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die akutsomatischen Fälle in baselstädtischen Spitälern nahmen von 2008 bis 2019 um 27% auf 69 899 zu. Mit einer Zunahme von 93% verzeichnete der Hauptbereich Rehabilitation die grösste relative Veränderung im Beobachtungszeitraum",
-		"erlaeuterungen": "Gezählt werden stationäre Austritte innerhalb eines Jahres.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
-			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 4947,
 		"chart-id": 4947,
 		"filter": "",
-		"id": 4947
-	},
-	{
-		"title": "Pflegetage in baselstädtischen Spitälern",
+		"parentId": null,
+		"children": [],
+		"title": "Hospitalisierungen in baselstädtischen Spitälern",
 		"subtitle": "nach Hauptbereich",
-		"kuerzel": "I.14.1.4948",
-		"kuerzelKunde": "",
-		"description": "Pflegetage in baselstädtischen Spitälern",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Im Jahr 2020 wurden 69 888 Fälle aus einer akutsomatischen Station entlassen.",
+		"erlaeuterungen": "Gezählt werden stationäre Austritte aus einem baselstädtischen Spital innerhalb eines Jahres.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:31:04.044",
+		"description": "Hospitalisierungen in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.4947",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Pflegetage im Hauptbereich Geriatrie ging von 2008 bis 2019 um 64% auf 49 294 zurück. In den übrigen Hauptbereichen wurde im selben Zeitraum eine Zunahme der Pflegetage verzeichnet. Das grösste Plus wurde im Bereich Rehabilitation (+59%) registriert. Die Gesamtzahl der Pflegetage in Basler Spitälern betrug 2019 rund 779 708 und lag somit unter der Gesamtzahl des Jahres 2008 (786 400 Pflegetage).",
-		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.",
-		"template": "template001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"id": 4947
+	},
+	{
+		"template": "template001",
+		"data-id": 4948,
+		"chart-id": 4948,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"renderLink": [],
+		"title": "Pflegetage in baselstädtischen Spitälern",
+		"subtitle": "nach Hauptbereich",
+		"lesehilfe": "Die Anzahl Pflegetage im Jahr 2020 betrug im Hauptbereich Akutsomatik 475 820.",
+		"erlaeuterungen": "Die Berechnungsmethode wurde rückwirkend ab 2012 angepasst. Deshalb können sich die Werte von früher an dieser Stelle publizierten Werten unterscheiden. Neu werden gemäss SwissDRG bei Fallzusammenführungen (Wiedereintritt mit identischer Hauptdiagnosegruppe innerhalb von 18 Tagen) die zwischen Aus- und Wiedereintritt liegenden Tage nicht mehr als Pflegetage gezählt.<br>Seit 2020 gelten nur noch Langzeitpflegefälle als Geriatrie-Fälle. Aufgrund einer geänderten Kodierungsvorgabe werden die Fälle der Akutgeriatrie der Inneren Medizin und somit der Akutsomatik zugeordnet.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gesundheitsstatistik",
 			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 4948,
-		"chart-id": 4948,
-		"filter": "",
+		"description": "Pflegetage in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.4948",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-10-04T08:37:30",
 		"id": 4948
 	},
 	{
@@ -10631,46 +10626,47 @@
 		"id": 5203
 	},
 	{
+		"template": "line001",
+		"data-id": 5793,
+		"chart-id": 5793,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8914,
+			9389
+		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"kuerzel": "I.02.1.05793",
-		"kuerzelKunde": "NL1",
-		"description": "Ökologischer Fussabdruck der Schweiz",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
+		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
+		"quellenangabe": [
+			"Global Footprint Network"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
+			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-11-26T12:16:49.4949",
+		"description": "Ökologischer Fussabdruck der Schweiz",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.02.1.05793",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL1",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
-		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation \"Global Footprint Network\" für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
-		"template": "line001",
+		"orderKey": "04_01_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_01_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"8914"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Global Footprint Network"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>",
-			"Aktuelle Daten des <a href = 'http://data.footprintnetwork.org/#/countryTrends?cn=211&type=BCpc,EFCpc' target = '_blank'>Global Footprint Network</a>"
-		],
-		"data-id": 5793,
-		"chart-id": 5793,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:31",
 		"id": 5793
 	},
 	{
@@ -11905,11 +11901,12 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8927
+			8927,
+			9371
 		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitablauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -11935,7 +11932,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:57",
+		"aktualisierungsdatum": "2021-10-04T08:37:31",
 		"id": 6036
 	},
 	{
@@ -26228,43 +26225,41 @@
 		"id": 6976
 	},
 	{
+		"template": "line001",
+		"data-id": 6979,
+		"chart-id": 6979,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Einbruchdiebstähle",
-		"subtitle": "pro 1 000 Einwohner, Basel-Stadt",
-		"kuerzel": "I.19.3.06979",
-		"kuerzelKunde": "",
-		"description": "Einbruchdiebstähle",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "Strafvollzug",
-		"kennzahlenset": "",
+		"subtitle": "pro 1000 Einwohner, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2020 wurden auf 1 000 Einwohner im Kanton Basel-Stadt 3,9 Einbruchdiebstähle polizeilich registriert.",
+		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T16:04:59.5959",
+		"description": "Einbruchdiebstähle",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Strafvollzug",
+		"kuerzel": "I.19.3.06979",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden auf 1 000 Einwohner im Kanton Basel-Stadt 4,8 Einbruchdiebstähle polizeilich registriert.",
-		"erlaeuterungen": "Anzeigen gemäss Strafgesetzbuch (StGB) betreffend Einbruchdiebstähle (Art. 139), bezogen auf die ständige Wohnbevölkerung am Jahresende.",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6979,
-		"chart-id": 6979,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:32",
 		"id": 6979
 	},
 	{
@@ -27087,7 +27082,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-02T08:34:47",
+		"aktualisierungsdatum": "2021-10-04T08:37:32",
 		"id": 7512
 	},
 	{
@@ -27126,7 +27121,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-02T08:34:47",
+		"aktualisierungsdatum": "2021-10-04T08:37:32",
 		"id": 7513
 	},
 	{
@@ -37178,45 +37173,44 @@
 		"id": 8354
 	},
 	{
+		"template": "line001",
+		"data-id": 8355,
+		"chart-id": 8355,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8472,
+			9361
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08355",
-		"kuerzelKunde": "1.2-2",
-		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08355",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-2",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt ist zwischen 2014 und 2018 um 71% gestiegen. Auch die Wertschöpfung in der Metallindustrie ist gewachsen (+18%), wobei diese Branche, ebenso wie der Bereich Elektro/Optik/Maschinen-Industrie (-26%), sehr klein ist. Die Wertschöpfung im Baugewerbe hat um 17% zugenommen, während sie im Bereich Verkehr und Lagerei um 12% zurückgegangen ist.",
-		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8472"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8355,
-		"chart-id": 8355,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:33",
 		"id": 8355
 	},
 	{
@@ -38761,43 +38755,41 @@
 		"id": 8449
 	},
 	{
+		"template": "template001",
+		"data-id": 8451,
+		"chart-id": 8451,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Übergewichtige Kinder",
 		"subtitle": "nach Schulstufe, Heimat und Geschlecht, Basel-Stadt",
-		"kuerzel": "I.14.1.08451",
-		"kuerzelKunde": "",
-		"description": "Übergewichtige Kinder",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Im Schuljahr 2019/2020 waren 22% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
+		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
+		"quellenangabe": [
+			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T16:05:23.2323",
+		"description": "Übergewichtige Kinder",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.08451",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Schuljahr 2018/2019 waren 22% der Schweizer Mädchen auf Stufe 11 übergewichtig, d. h. sie hatten einen BMI-Wert, der über dem Referenzwert für Übergewicht für ihr Alter und Geschlecht lag.",
-		"erlaeuterungen": "Die Daten werden im Rahmen der schulärztlichen Untersuchungen und nur für die dargestellten Schulstufen erhoben. Die BMI-Referenzwerte für Übergewicht variieren nach Alter und Geschlecht. Damit die Anteile vergleichbar bleiben, werden stets dieselben Referenzwerte verwendet, in dieser Grafik diejenigen nach Tim J Cole (BMJ Vol. 320, 5/2000).<br>Die Schulstufen entsprechen der HarmoS-Definition: 1. Stufe = 1. Kindergartenjahr, 5. Stufe = 3. Primarklasse, 11. Stufe = 3. Sekundarklasse (ehemals WBS/Gymnasium).",
-		"template": "template001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Gesundheitsdepartement Basel-Stadt, Kinder- und Jugendgesundheitsdienst"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8451,
-		"chart-id": 8451,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-04T08:37:33",
 		"id": 8451
 	},
 	{
