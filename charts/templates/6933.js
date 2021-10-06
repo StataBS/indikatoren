@@ -57,28 +57,23 @@ global $
     },
     data: {
       seriesMapping: [
-        { x: 24, y: 22 },
-        { x: 24, y: 4 },
-        { x: 24, y: 5 },
-        { x: 24, y: 6 },
-        { x: 24, y: 7 },
-        { x: 24, y: 8 },
-        { x: 24, y: 9 },
-        { x: 24, y: 10 },
-        { x: 24, y: 11 },
-        { x: 24, y: 12 },
-        { x: 24, y: 13 },
-        { x: 24, y: 14 },
-        { x: 24, y: 15 },
-        { x: 24, y: 16 },
-        { x: 24, y: 17 },
-        { x: 24, y: 18 },
-        { x: 24, y: 19 },
-        { x: 24, y: 20 },
-        { x: 24, y: 21 },
-        { x: 24, y: 23 },
-        { x: 24, y: 24 },
-        { x: 24, y: 1 }, //dummy series to get Wohnviertel
+        { x: 20, y: 18 },
+        { x: 20, y: 4 },
+        { x: 20, y: 5 },
+        { x: 20, y: 6 },
+        { x: 20, y: 7 },
+        { x: 20, y: 8 },
+        { x: 20, y: 9 },
+        { x: 20, y: 10 },
+        { x: 20, y: 11 },
+        { x: 20, y: 12 },
+        { x: 20, y: 13 },
+        { x: 20, y: 14 },
+        { x: 20, y: 15 },
+        { x: 20, y: 16 },
+        { x: 20, y: 17 },
+        { x: 20, y: 19 },
+        { x: 20, y: 1 }, //dummy series to get Wohnviertel
       ],
       parsed: function (columns) {
         //define which wohnviertel to display
@@ -107,11 +102,11 @@ global $
     },
     series: [
       { color: "rgb(176, 000, 000)", showInNavigator: true, visible: false },
-      { color: "rgb(008, 048, 56)", showInNavigator: true },
+      //{ color: "rgb(008, 048, 56)", showInNavigator: true },
       { color: "rgb(036, 099, 112)", showInNavigator: true },
-      { color: "rgb(104, 145, 153)", showInNavigator: true },
-      { color: "rgb(168, 195, 202)", showInNavigator: true },
-      { color: "rgb(211, 226, 228)", showInNavigator: true },
+      //{ color: "rgb(104, 145, 153)", showInNavigator: true },
+      //{ color: "rgb(168, 195, 202)", showInNavigator: true },
+      //{ color: "rgb(211, 226, 228)", showInNavigator: true },
       { color: "rgb(102, 038, 115)", showInNavigator: true },
       { color: "rgb(145, 063, 141)", showInNavigator: true },
       { color: "rgb(179, 117, 171)", showInNavigator: true },
@@ -145,20 +140,11 @@ global $
     },
     tooltip: {
       enabled: true,
-      shared: true,
+      shared: false,
       split: false,
       reversed: false,
       pointFormatter: function () {
-        //console.log(this);
-        return (this.y > 0 ? '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b><br/>' : "");
-      },
-      _formatter: function () {
-        var s = '<span style="font-size: 10px">' + new Date(this.x).getUTCFullYear() + '</span> <br/> <span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b>';
-        //suppress tooltip if value equals 0
-        console.log(this.y);
-        console.log(this);
-        return s;
-        //return (this.y > 0 ? s : false);
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + this.y + '</b> (' + Highcharts.numberFormat(this.percentage,1) + "%)" + '<br/>';
       },
     },
     plotOptions: {
