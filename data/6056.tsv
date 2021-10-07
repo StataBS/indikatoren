@@ -1,8 +1,7 @@
-﻿"Jahr"	"Vollzeit Männer"	"Teilzeit Männer"	"Vollzeit Frauen"	"Teilzeit Frauen"	"Vollzeit Total"	"Teilzeit Total"
-1970	67396	3171	31316	12983	98712	16154
-1980	54683	2972	26817	12499	81500	15471
-1990	51149	4367	22780	17192	73929	21559
-2000	38602	6235	19585	18767	58187	25002
-2010	37690	7849	21125	20593	58814	28442
-2018	38517	10129	24280	21511	62797	31640
-
+Jahr	Männer	Männer 95% Vertrauensintervall Untergrenze	Teilzeit Männer 95% Vertrauensintervall Obergrenze	Frauen	Frauen 95% Vertrauensintervall Untergrenze	Frauen 95% Vertrauensintervall Obergrenze	Total	Total 95% Vertrauensintervall Untergrenze	Total 95% Vertrauensintervall Obergrenze
+1970	4.5			29.3			14.1		
+1980	5.2			31.8			16.0		
+1990	7.9			43.0			22.6		
+2000	13.9			48.9			30.1		
+2010	17.2	15.3	19.1	49.4	46.7	52.0	32.6	30.9	34.3
+2019	20.8	18.6	23.0	48.7	46.0	51.5	34.1	32.2	35.9

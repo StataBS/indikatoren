@@ -806,6 +806,10 @@
         [
           "2021-08",
           3709
+        ],
+        [
+          "2021-09",
+          3484
         ]
       ],
       "name": "Arbeitslose",
@@ -1617,6 +1621,10 @@
         [
           "2021-08",
           1089
+        ],
+        [
+          "2021-09",
+          1038
         ]
       ],
       "name": "Langzeitarbeitslose",
@@ -2431,6 +2439,10 @@
         [
           "2021-08",
           0.29361
+        ],
+        [
+          "2021-09",
+          0.29793
         ]
       ],
       "name": "Anteil Langzeitarbeitslose am Total (rechte Skala)",
@@ -2576,7 +2588,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-7"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
