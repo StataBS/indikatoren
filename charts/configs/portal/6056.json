@@ -1,201 +1,243 @@
 {
   "series": [
     {
+      "index": 0,
       "color": "#008AC3",
-      "stack": "m",
-      "legendIndex": 3,
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
       "data": [
         [
           "1970",
-          67396
+          4.5
         ],
         [
           "1980",
-          54683
+          5.2
         ],
         [
           "1990",
-          51149
+          7.9
         ],
         [
           "2000",
-          38602
+          13.9
         ],
         [
           "2010",
-          37690
+          17.2
         ],
         [
-          "2018",
-          38517
+          "2019",
+          20.8
         ]
       ],
-      "name": "Vollzeit Männer",
+      "name": "Männer",
       "turboThreshold": 0
     },
     {
-      "color": "#00bAf3",
-      "stack": "m",
-      "legendIndex": 0,
+      "index": 1,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+      }
+      },
       "data": [
-        [
-          "1970",
-          3171
-        ],
-        [
-          "1980",
-          2972
-        ],
-        [
-          "1990",
-          4367
-        ],
-        [
-          "2000",
-          6235
-        ],
-        [
-          "2010",
-          7849
-        ],
-        [
-          "2018",
-          10129
-        ]
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 15.3,
+          "high": 19.1
+        },
+        {
+          "name": "2019",
+          "low": 18.6,
+          "high": 23
+        }
       ],
-      "name": "Teilzeit Männer",
+      "name": "Männer 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
-      "color": "#B00000",
-      "stack": "w",
-      "legendIndex": 4,
+      "index": 2,
+      "color": "#dc440e",
+      "tooltip": {
+        "pointFormatter": function(){
+        return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
       "data": [
         [
           "1970",
-          31316
+          29.3
         ],
         [
           "1980",
-          26817
+          31.8
         ],
         [
           "1990",
-          22780
+          43
         ],
         [
           "2000",
-          19585
+          48.9
         ],
         [
           "2010",
-          21125
+          49.4
         ],
         [
-          "2018",
-          24280
+          "2019",
+          48.7
         ]
       ],
-      "name": "Vollzeit Frauen",
+      "name": "Frauen",
       "turboThreshold": 0
     },
     {
-      "color": "#d00000",
-      "stack": "w",
-      "legendIndex": 1,
+      "index": 3,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+      }
+      },
       "data": [
-        [
-          "1970",
-          12983
-        ],
-        [
-          "1980",
-          12499
-        ],
-        [
-          "1990",
-          17192
-        ],
-        [
-          "2000",
-          18767
-        ],
-        [
-          "2010",
-          20593
-        ],
-        [
-          "2018",
-          21511
-        ]
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 46.7,
+          "high": 52
+        },
+        {
+          "name": "2019",
+          "low": 46,
+          "high": 51.5
+        }
       ],
-      "name": "Teilzeit Frauen",
+      "name": "Frauen 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     },
     {
-      "color": "#474747",
-      "stack": "t",
-      "legendIndex": 5,
+      "index": 4,
+      "color": "#3c3c3c",
+      "tooltip": {
+        "pointFormatter": function(){
+       return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),1) + '%</b>';
+      }
+      },
       "data": [
         [
           "1970",
-          98712
+          14.1
         ],
         [
           "1980",
-          81500
+          16
         ],
         [
           "1990",
-          73929
+          22.6
         ],
         [
           "2000",
-          58187
+          30.1
         ],
         [
           "2010",
-          58814
+          32.6
         ],
         [
-          "2018",
-          62797
+          "2019",
+          34.1
         ]
       ],
-      "name": "Vollzeit Total",
+      "name": "Total",
       "turboThreshold": 0
     },
     {
-      "color": "#6F6F6F",
-      "stack": "t",
-      "legendIndex": 2,
+      "index": 5,
+      "type": "errorbar",
+      "tooltip": {
+        "pointFormatter": function(){
+        return ' (95%-Konfidenzintervall: <b>' + Highcharts.numberFormat((this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((this.high),1) + '%</b>)';
+      }
+      },
       "data": [
-        [
-          "1970",
-          16154
-        ],
-        [
-          "1980",
-          15471
-        ],
-        [
-          "1990",
-          21559
-        ],
-        [
-          "2000",
-          25002
-        ],
-        [
-          "2010",
-          28442
-        ],
-        [
-          "2018",
-          31640
-        ]
+        {
+          "name": "1970",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1980",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "1990",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2000",
+          "low": null,
+          "high": null
+        },
+        {
+          "name": "2010",
+          "low": 30.9,
+          "high": 34.3
+        },
+        {
+          "name": "2019",
+          "low": 32.2,
+          "high": 35.9
+        }
       ],
-      "name": "Teilzeit Total",
+      "name": "Total 95% Vertrauensintervall Untergrenze",
       "turboThreshold": 0
     }
   ],
@@ -250,8 +292,8 @@
                 }
     },
     "marginBottom": 65,
-    "marginTop": 100,
     "type": "column",
+    "inverted": false,
     "renderTo": "container-6056",
     "spacingBottom": 50
   },
@@ -263,8 +305,6 @@
           "fontSize": "10px"
         }
       },
-      "stacking": "percent",
-      "pointPadding": 0,
       "groupPadding": 0.1
     }
   },
@@ -275,7 +315,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Anteil Voll- und Teilzeiterwerbstätige nach Geschlecht"
+    "text": "Anteil Teilzeiterwerbstätige nach Geschlecht"
   },
   "subtitle": {
     "text": "Basel-Stadt",
@@ -301,22 +341,21 @@
       "style": {
         "color": "#000000"
       },
-      "format": "{value}%"
-    },
-    "reversedStacks": false
+      "formatter": function(){
+          return Highcharts.numberFormat((this.value),0)+'%';                
+      }
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
+    "itemDistance": 5,
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "itemMarginBottom": 5,
-    "x": 40,
-    "align": "left",
-    "itemWidth": 130
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -337,13 +376,12 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-6"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-7"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003Cbr\u002F\u003E\u003Cb\u003E{point.y}\u003C\u002Fb\u003E Personen (\u003Cb\u003E{point.percentage:.1f}%\u003C\u002Fb\u003E von Total {point.stackTotal: ,2f} Personen)\u003Cbr\u002F\u003E",
-    "shared": false
+    "shared": true
   },
   "exporting": {
-    "filename": 6056
+    "filename": "6056"
   }
 }
