@@ -6,12 +6,14 @@ global $
   return {
     chart: {
       type: 'area',
+      marginTop: 60
     },
     yAxis: {
       showLastLabel: true,
       endOnTick: true,
       maxPadding: 0,
       labels: {
+        y: 3,
         format: "{value:,.0f}",
       },
       opposite: false,

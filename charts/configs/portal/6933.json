@@ -2976,6 +2976,7 @@
                 }
     },
     "type": "area",
+    "marginTop": 60,
     "renderTo": "container-6933"
   },
   "plotOptions": {
@@ -3031,6 +3032,7 @@
       "style": {
         "color": "#000000"
       },
+      "y": 3,
       "format": "{value:,.0f}"
     },
     "showLastLabel": true,
@@ -3058,7 +3060,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-6"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-10-19"
   },
   "legend": {
     "symbolRadius": 0,

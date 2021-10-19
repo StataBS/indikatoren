@@ -2976,6 +2976,7 @@
                 }
     },
     "type": "area",
+    "marginTop": 60,
     "renderTo": "container-6938"
   },
   "plotOptions": {
@@ -3031,6 +3032,7 @@
       "style": {
         "color": "#000000"
       },
+      "y": 3,
       "format": "{value:,.0f}"
     },
     "showLastLabel": true,
