@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-24T08:50:56",
+		"aktualisierungsdatum": "2021-10-22T07:25:09",
 		"id": 7515
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "104 357 Logiernächte wurden im August 2021 in den Basler Hotelbetrieben gebucht, 22 500 bzw. 27,5% mehr als im Juli. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 66,9% bzw. 41 842 Übernachtungen. Die inländischen Gäste buchten 46 034 Logiernächte (+43,9%), die Gäste aus dem Ausland 58 323 Übernachtungen (+91,1%).",
+		"lesehilfe": "105 617 Logiernächte wurden im September 2021 in den Basler Hotelbetrieben gebucht, 1 260 bzw. 1,2% mehr als im August. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 94,5% bzw. 51 316 Übernachtungen. Die inländischen Gäste buchten 42 854 Logiernächte (+44,1%), die Gäste aus dem Ausland 62 763 Übernachtungen (+155,5%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-20T08:40:00",
+		"aktualisierungsdatum": "2021-10-22T07:25:09",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 50%.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 40%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-20T08:40:00",
+		"aktualisierungsdatum": "2021-10-22T07:25:09",
 		"id": 7517
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, August",
-		"lesehilfe": "Im August 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in zwei Wohnvierteln sowie in Riehen. In 17 Wohnvierteln sowie in Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, September",
+		"lesehilfe": "Im September 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in 12 Wohnvierteln sowie in Riehen und Bettingen. In sieben Wohnvierteln ging sie zurück.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-24T08:50:56",
+		"aktualisierungsdatum": "2021-10-22T07:25:10",
 		"id": 7763
 	},
 	{
