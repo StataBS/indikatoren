@@ -332,7 +332,7 @@ id | visible | visibleInPortal | indikatorenset
 5188 | true | false | Nachhaltigkeit
 5189 | true | false | Nachhaltigkeit
 5191 | true | false | Nachhaltigkeit
-5192 | true | true | 
+5192 | true | true | Legislaturplan
 5193 | true | true | Nachhaltigkeit
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
