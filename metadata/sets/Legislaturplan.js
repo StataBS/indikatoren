@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -217,7 +217,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.4",
 		"description": "Ansiedlungen von Firmen aus dem Ausland",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -300,7 +300,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -911,7 +911,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1205,7 +1205,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.7",
 		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1371,7 +1371,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1416,7 +1416,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1547,7 +1547,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
-		"thema": "50 Befragungen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2258,7 +2258,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2714,7 +2714,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3001,7 +3001,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Kanton",
-		"thema": "50 Befragungen",
+		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"raeumlicheGliederung": [
 			"Kanton"

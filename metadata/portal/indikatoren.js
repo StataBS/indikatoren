@@ -475,7 +475,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -980,7 +980,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.2",
 		"description": "Jährliche Wachstumsrate der realen Wertschöpfung ausgewählter Branchen",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton",
@@ -1569,7 +1569,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.4",
 		"description": "Ansiedlungen von Firmen aus dem Ausland",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2061,7 +2061,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.2.E",
 		"description": "Neuerstellte Wohnungen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -7225,7 +7225,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7309,7 +7309,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7351,7 +7351,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7396,7 +7396,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -7917,7 +7917,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -9111,7 +9111,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bruttowertschöpfung nach Branchengruppe",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -9433,7 +9433,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Grundpfandbelastung",
-		"thema": "50 Befragungen",
+		"thema": "12 Finanzmärkte",
 		"unterthema": "Grundpfandbelastung",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -9679,7 +9679,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.6",
 		"description": "Transnationale Patentanmeldungen pro 1000 Einwohner",
-		"thema": "50 Befragungen",
+		"thema": "04 Volkswirtschaft",
 		"unterthema": "Volkseinkommen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -9884,7 +9884,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "BE1",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -10592,7 +10592,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11054,7 +11054,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11313,7 +11313,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11355,7 +11355,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11397,7 +11397,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11439,7 +11439,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11481,7 +11481,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -11565,7 +11565,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -12534,7 +12534,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "A2-1",
 		"description": "Durchschnittsalter der Wohnbevölkerung",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13167,7 +13167,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "B1-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13382,7 +13382,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "B3-2",
 		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -13966,7 +13966,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.4",
 		"description": "Arbeitslosenquote im Jahresmittel nach Altersgruppe",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -14227,7 +14227,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.7",
 		"description": "Arbeitnehmende in Leitungsfunktionen",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -14397,7 +14397,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.11",
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -14443,7 +14443,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "5.2",
 		"description": "Verkehrsleistungsindex",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -14577,7 +14577,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "7.7",
 		"description": "Luftqualität: Langzeitbelastung der Luft",
-		"thema": "50 Befragungen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Luftschadstoffe",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15182,7 +15182,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "11.2",
 		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15443,7 +15443,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -15655,7 +15655,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.4",
 		"description": "Anzahl Plätze in Tagesbetreuungsangeboten",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -15781,7 +15781,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16210,7 +16210,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "9.1",
 		"description": "Medianprämie pro Kanton",
-		"thema": "50 Befragungen",
+		"thema": "14 Gesundheit",
 		"unterthema": "Prävention, Praxen, Rettung",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16293,7 +16293,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16416,7 +16416,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -16500,7 +16500,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "C1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -16584,7 +16584,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -17807,7 +17807,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbstätigenquote",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -18061,7 +18061,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "C3-5",
 		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "50 Befragungen",
+		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19818,7 +19818,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "D4-1",
 		"description": "Beschuldigte Erwachsene",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -19947,7 +19947,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "D5-1",
 		"description": "Beschuldigte Jugendliche",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20075,7 +20075,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -20325,7 +20325,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -21417,7 +21417,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-1",
 		"description": "Geöffnete Betriebe nach Hotelkategorie",
-		"thema": "50 Befragungen",
+		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -22088,7 +22088,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -22128,7 +22128,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "QR-01",
 		"description": "Altstadt Grossbasel - Quartierradar",
-		"thema": "50 Befragungen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -26500,7 +26500,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "",
 		"description": "Mittlere Aufenthaltsdauer in Spitälern nach Alter und Geschlecht",
-		"thema": "50 Befragungen",
+		"thema": "14 Gesundheit",
 		"unterthema": "Spitäler",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -28091,7 +28091,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-01",
 		"description": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -29691,7 +29691,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "7.07",
 		"description": "Heizsysteme nach Energieträger",
-		"thema": "50 Befragungen",
+		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -29990,7 +29990,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Bezirk"
@@ -31161,7 +31161,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 1-3",
 		"description": "Bauzonen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -31247,7 +31247,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.1",
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -32087,7 +32087,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.03",
 		"description": "Jugendquotient",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -32257,7 +32257,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.08",
 		"description": "Sesshaftigkeit",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -32591,7 +32591,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.03",
 		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -33819,7 +33819,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Bezirk"
@@ -34023,7 +34023,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-04",
 		"description": "Sozialhilfefälle nach Fallstruktur",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -34360,7 +34360,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-05",
 		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -34402,7 +34402,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-19",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -34486,7 +34486,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-22",
 		"description": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -35410,7 +35410,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-06",
 		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -35452,7 +35452,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-03",
 		"description": "Sozialhilfequote der Minderjährigen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -37751,7 +37751,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-1",
 		"description": "Exporte und Importe",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -37794,7 +37794,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-2",
 		"description": "Entwicklung Exporte",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -38878,7 +38878,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "WE9",
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -39044,7 +39044,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-3",
 		"description": "Entwicklung Importe",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -39253,7 +39253,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-4",
 		"description": "Entwicklung Handelsbilanz",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -41356,7 +41356,7 @@ var indikatoren = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-03",
 		"description": "Sozialhilfequote nach Gemeinde",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Gemeinde"

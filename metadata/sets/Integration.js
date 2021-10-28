@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "A2-1",
 		"description": "Durchschnittsalter der Wohnbevölkerung",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -956,7 +956,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "B1-1",
 		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Schulen und Schulpersonal",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1166,7 +1166,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "B3-2",
 		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Berufsfachschulen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2052,7 +2052,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "C2-4",
 		"description": "Erwerbstätigenquote",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Erwerbspersonen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2300,7 +2300,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "C3-5",
 		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "50 Befragungen",
+		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Staatspersonal",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3316,7 +3316,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "D4-1",
 		"description": "Beschuldigte Erwachsene",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3484,7 +3484,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "D5-1",
 		"description": "Beschuldigte Jugendliche",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3651,7 +3651,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "D5-5",
 		"description": "Beschuldigte Jugendliche nach Straftatbestand",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Kanton"

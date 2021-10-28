@@ -818,7 +818,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-1",
 		"description": "Exporte und Importe",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -860,7 +860,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-2",
 		"description": "Entwicklung Exporte",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1678,7 +1678,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-3",
 		"description": "Entwicklung Importe",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1759,7 +1759,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4-4",
 		"description": "Entwicklung Handelsbilanz",
-		"thema": "50 Befragungen",
+		"thema": "06 Industrie, Dienstleistungen",
 		"unterthema": "Aussenhandel",
 		"raeumlicheGliederung": [
 			"Kanton"

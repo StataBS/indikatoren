@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.1",
 		"description": "Perimeter der trinationalen Agglomeration Basel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Gemeinde"

@@ -408,7 +408,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.2.E",
 		"description": "Neuerstellte Wohnungen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"

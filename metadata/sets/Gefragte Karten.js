@@ -92,7 +92,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "C1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -174,7 +174,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "C9-1",
 		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -595,7 +595,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "K1-1",
 		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"

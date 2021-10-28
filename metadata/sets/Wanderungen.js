@@ -54,7 +54,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-2",
 		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -95,7 +95,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-3",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -136,7 +136,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-6",
 		"description": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -177,7 +177,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-7",
 		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -218,7 +218,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-8",
 		"description": "Zuzug aus der Schweiz, Wegzug in die Schweiz und Wanderungssaldo nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -300,7 +300,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-11",
 		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel",

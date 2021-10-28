@@ -1571,7 +1571,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "7.07",
 		"description": "Heizsysteme nach Energieträger",
-		"thema": "50 Befragungen",
+		"thema": "08 Energie",
 		"unterthema": "Verbrauch",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -1822,7 +1822,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Bezirk"

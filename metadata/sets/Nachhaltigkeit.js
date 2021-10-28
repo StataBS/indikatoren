@@ -90,7 +90,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "BE1",
 		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2793,7 +2793,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "GW20",
 		"description": "Verkehrsleistungsindex",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -2953,7 +2953,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "WE9",
 		"description": "Durchschnittlicher Zeitaufwand für Haus- und Familienarbeit",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Unbezahlte Arbeit",
 		"raeumlicheGliederung": [
 			"Kanton"
