@@ -1067,45 +1067,6 @@ var indikatorensetData = [
 		"id": 6141
 	},
 	{
-		"parentId": 4132,
-		"children": [],
-		"template": "stock001",
-		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Legislaturplan",
-		"kuerzel": "",
-		"kuerzelKunde": "4.1",
-		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "50 Befragungen",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-02-02T09:43:40.4040",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "04_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
-		],
-		"data-id": 6143,
-		"chart-id": 6143,
-		"filter": "",
-		"id": 6143
-	},
-	{
 		"title": "Bevölkerung nach sozioprofessioneller Kategorie",
 		"subtitle": "Basel-Stadt, 2018",
 		"kuerzel": "I.01.1.6144",
@@ -1701,44 +1662,44 @@ var indikatorensetData = [
 		"id": 6159
 	},
 	{
+		"template": "template001",
+		"data-id": 6160,
+		"chart-id": 9008,
+		"filter": "",
+		"parentId": "9008",
+		"children": [
+			4953
+		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"kuerzel": "I.08.1.06160",
-		"kuerzelKunde": "7.1",
-		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Legislaturplan",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T11:10:57.5757",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.06160",
+		"kennzahlenset": "Legislaturplan",
+		"kuerzelKunde": "5.7",
+		"stufe1": "Legislaturziel 5: Mit natürlichen Ressourcen nachhaltig umgehen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
-		"template": "template001",
+		"orderKey": "05_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "07_00_00_00_00_001",
-		"parentId": 9008,
-		"children": [
-			"4953"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
-		],
-		"data-id": 6160,
-		"chart-id": 9008,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-28T08:59:21",
 		"id": 6160
 	},
 	{

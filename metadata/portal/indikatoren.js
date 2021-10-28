@@ -1841,48 +1841,48 @@ var indikatoren = [
 		"id": 4131
 	},
 	{
+		"template": "stock001",
+		"data-id": 4132,
+		"chart-id": 4132,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6143",
-			"6297",
-			"7773",
-			"8417"
+			6143,
+			6297,
+			7773,
+			8417
 		],
-		"template": "stock001",
 		"title": "Bevölkerungsbestand am Jahresende",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "",
-		"kuerzelKunde": "1.1.A",
-		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "50 Befragungen",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
+		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-02T09:43:22.2222",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.04132",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.1.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.1 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen dem 31.12.2010 und dem 31.12.2020 nahm die Bevölkerung im Kanton Basel-Stadt von 190 799 auf 201 971 Personen zu.",
-		"erlaeuterungen": "Angaben zur Erhebung der Bevölkerungszahlen: 1774-1847: Kantonale Volkszählungen; 1850-1900: Eidgenössische Volkszählungen; 1901-2011: Fortschreibung der kantonalen Bevölkerungsstatistik; ab 2012: Auswertungen aus dem kantonalen Einwohnerregister.",
+		"orderKey": "02_01_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zur Bevölkerungsstatistik finden Sie auf der Seite <a href = 'https://www.statistik.bs.ch/haeufig-gefragt/einwohner/zentrale-begriffe-einwohner.html' target = '_blank'>Einwohner&nbsp;-&nbsp;Zentrale Begriffe</a>."
-		],
-		"data-id": 4132,
-		"chart-id": 4132,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-28T08:59:20",
 		"id": 4132
 	},
 	{
@@ -39597,7 +39597,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-14T09:27:16",
+		"aktualisierungsdatum": "2021-10-28T08:59:19",
 		"id": 8995
 	},
 	{
@@ -39901,48 +39901,48 @@ var indikatoren = [
 		"id": 9007
 	},
 	{
+		"template": "template001",
+		"data-id": 9008,
+		"chart-id": 9008,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			5794,
+			6160,
+			6312,
+			8915
+		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"kuerzel": "I.08.1.09008",
-		"kuerzelKunde": "",
-		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Energiestatistik",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T11:10:57.5757",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.09008",
+		"kennzahlenset": "Energiestatistik",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
-		"template": "template001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [
-			"5794",
-			"6160",
-			"6312",
-			"8915"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
-		],
-		"data-id": 9008,
-		"chart-id": 9008,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-28T08:59:19",
 		"id": 9008
 	},
 	{
@@ -40022,7 +40022,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-21T03:44:44",
+		"aktualisierungsdatum": "2021-10-28T08:59:20",
 		"id": 9022
 	},
 	{
@@ -40060,7 +40060,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-21T03:44:44",
+		"aktualisierungsdatum": "2021-10-28T08:59:20",
 		"id": 9023
 	},
 	{

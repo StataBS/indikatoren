@@ -9,9 +9,9 @@
             parsed: function (columns) {
                 //Negate the numbers in the a column to create the left side of the population pyramid
                 var negateNumbersInColumn = function(columnIndex){
-                    Highcharts.each(columns, function(column, i, c) {
+                    columns.forEach(function(column, i, c) {
                         if (i == columnIndex){
-                            Highcharts.each(column, function(item, j, v){
+                            column.forEach(function(item, j, v){
                                 if (typeof(item) == 'number'){
                                     v[j] = -v[j];
                                 }

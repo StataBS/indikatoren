@@ -1490,42 +1490,42 @@ var indikatorensetData = [
 		"id": 6311
 	},
 	{
+		"template": "template001_print",
+		"data-id": 6312,
+		"chart-id": 6312,
+		"filter": "",
+		"parentId": "9008",
+		"children": [],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"kuerzel": "I.08.1.06312",
-		"kuerzelKunde": "7.1",
-		"description": "Endenergieverbrauch nach Verbrauchergruppe",
-		"thema": "08 Energie",
-		"unterthema": "Verbrauch",
-		"kennzahlenset": "Legislaturplan (Print)",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T15:59:59.5959",
-		"stufe1": "Ziel 7: Der Kanton Basel-Stadt löst seine Umweltaufgaben.",
+		"description": "Endenergieverbrauch nach Verbrauchergruppe",
+		"thema": "08 Energie",
+		"unterthema": "Verbrauch",
+		"kuerzel": "I.08.1.06312",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"kuerzelKunde": "7.1",
+		"stufe1": "Legislaturziel 6: Modernen, kundenfreundlichen Service public anbieten",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 19,4% auf 4 645 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
-		"template": "template001_print",
+		"orderKey": "07_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "small",
-		"orderKey": "07_00_00_00_00_001",
-		"parentId": 9008,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.statistik.bs.ch/analysen-berichte/raum-umwelt/energiestatistik.html' target = '_blank'>Energiestatistik Basel-Stadt</a>"
-		],
-		"data-id": 6312,
-		"chart-id": 6312,
-		"filter": "",
+		"aktualisierungsdatum": "2021-10-28T08:59:22",
 		"id": 6312
 	},
 	{

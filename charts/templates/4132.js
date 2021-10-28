@@ -8,7 +8,7 @@
             endOnTick: true,    
             startOnTick: true,
             showFirstLabel: true,
-            showLastLabel: true
+            showLastLabel: true,
         },
         yAxis: { 
             showLastLabel: true,
@@ -17,6 +17,9 @@
             	format: '{value:,.0f}'
             }, 
             opposite: false
+        },
+        tooltip: {
+            xDateFormat: '%A, %e. %b. %Y',
         },
         plotOptions: {
             series: {

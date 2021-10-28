@@ -211,7 +211,7 @@
 			  var mapYAxis = chart.yAxis[0];
 			  var zoomRatio = (mapXAxis.dataMax - mapXAxis.dataMin) / (mapXAxis.max - mapXAxis.min);
 			
-			  Highcharts.each(chart.series[0].points, function(state) {
+			  chart.series[0].points.forEach(function(state) {
 			    var stateCenterX = mapXAxis.toPixels(state.series.mapData[state.index].properties.POINT_X),
 			      stateCenterY = mapYAxis.toPixels(-state.series.mapData[state.index].properties.POINT_Y),
 			      chartWidthZoomed = chartWidth * zoomRatio || 10, // stateWidth / 6,
@@ -287,7 +287,7 @@
 				conf.yMin = yMin;
 				
 				//see https://forum.highcharts.com/highmaps-usage-f14/how-to-make-world-map-with-with-overlaid-column-charts-t39522/ and http://jsfiddle.net/kkulig/d0dku2c2/
-				Highcharts.each(choroplethSeries.points, function(state, i, array) {
+				choroplethSeries.points.forEach(function(state, i, array) {
 					var correspondingMapSeriesItem = choroplethSeries.points[i];
 					
 					// create axes separate axes for each column plot    
@@ -315,7 +315,7 @@
 						data: [], 
 					};
 					
-					Highcharts.each(columnSeries, function(item, i, arr){
+					columnSeries.forEach(function(item, i, arr){
 						var value = item.yData[state.index];
 						mapColumnSeries.data.push(
 							{
@@ -442,7 +442,7 @@
 				};
 				
 				
-				Highcharts.each(values, function(item, i, arr){
+				values.forEach(function(item, i, arr){
 				  mapColumnSeries.data.push(
 				  	{
 				  		y: item, 
@@ -465,7 +465,7 @@
 				divIdString = '';
 			    $(divIdString + ' .columnLegend').click(function(){
 					//Toggle visible of mapcolumns
-					Highcharts.each(chart.series, function (series) {
+					chart.series.forEach(function (series) {
 						if (series.userOptions.type == 'column'){
 							series.userOptions._hide = !series.userOptions._hide;
 						}
