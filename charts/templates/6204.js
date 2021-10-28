@@ -194,7 +194,7 @@
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
 	                var minNumber = Number.POSITIVE_INFINITY;
 	                var minAbsNumber = Number.POSITIVE_INFINITY;
-					Highcharts.each(chart.series[1].points, function (wohnviertel) {
+					chart.series[1].points.forEach(function (wohnviertel) {
 					    maxNumber = Math.max(maxNumber, wohnviertel.value);
 					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(wohnviertel.value));
 					    minNumber = Math.min(minNumber, wohnviertel.value);
@@ -243,12 +243,12 @@
 	                
 	                /*
 	                // When clicking legend items, also toggle connectors and pies
-	                Highcharts.each(chart.legend.allItems, function (item) {
+	                chart.legend.allItems.forEach(function (item) {
 	                    var old = item.setVisible;
 	                    item.setVisible = function () {
 	                        var legendItem = this;
 	                        old.call(legendItem);
-	                        Highcharts.each(chart.series[0].points, function (point) {
+	                        chart.series[0].points.forEach(function (point) {
 	                            if (chart.colorAxis[0].dataClasses[point.dataClass].name === legendItem.name) {
 	                                // Find this Wohnviertel's pie and set visibility
 	                                Highcharts.find(chart.series, function (item) {
@@ -270,7 +270,7 @@
 	                
 	                // Add the pies after chart load, optionally with offset and connectors
 	                // series[0] contains the choropleth map data, series[1] the pie chart data
-	                Highcharts.each(chart.series[1].points, function (data) {
+	                chart.series[1].points.forEach(function (data) {
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
 	                    }
@@ -436,7 +436,7 @@
 					$('.pieLegend').click(function(e){
 						e.stopPropagation();
 						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
+						chart.series.forEach(function (series) {
 							if (series.userOptions.type == 'mappie'){
 								series.setVisible(!series.visible, false);
 							}

@@ -251,7 +251,7 @@
 	                var maxAbsNumber = Number.NEGATIVE_INFINITY;
 	                var minNumber = Number.POSITIVE_INFINITY;
 	                var minAbsNumber = Number.POSITIVE_INFINITY;
-					Highcharts.each(points, function (point) {
+					points.forEach(function (point) {
 					    maxNumber = Math.max(maxNumber, point.value);
 					    maxAbsNumber = Math.max(maxAbsNumber, Math.abs(point.value));
 					    minNumber = Math.min(minNumber, point.value);
@@ -270,7 +270,7 @@
                 drawPies: function(chart, pieSizeSeries, pieSeries, choroplethSeries, pieSeriesConfig, pieSizeCatConfig){
                     
                     //iterate over each wohnviertel and draw the pies / bubbles
-	                Highcharts.each(pieSizeSeries.points, function (data, i) {
+	                pieSizeSeries.points.forEach(function (data, i) {
 	                    
 	                    if (!data.value) {
 	                        return; // Skip points with no data, if any
@@ -448,7 +448,7 @@
 					var divIdString = '#' + divId;
 				    $(divIdString + ' .pieLegend').click(function(){
 						//Toggle visible of mappies
-						Highcharts.each(chart.series, function (series) {
+						chart.series.forEach(function (series) {
 							if (series.userOptions.type == 'mappie'){
 								series.setVisible(!series.visible, false);
 							}

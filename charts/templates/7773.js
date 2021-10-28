@@ -18,6 +18,9 @@
             }, 
             opposite: false
         },
+        tooltip: {
+            xDateFormat: '%A, %e. %b. %Y',
+        },
         plotOptions: {
             series: {
                 marker: {

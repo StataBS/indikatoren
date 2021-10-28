@@ -44,7 +44,7 @@ function createChartConfig(data, chartOptions, template, chartMetaData, view, su
   parseData(chartOptions, data, function (dataOptions) {
     // Merge series configs
     if (chartOptions.series && dataOptions) {
-        Highcharts.each(chartOptions.series, function (series, i) {
+        chartOptions.series.forEach(function (series, i) {
           chartOptions.series[i] = Highcharts.merge(series, dataOptions.series[i]);
         });
     }
