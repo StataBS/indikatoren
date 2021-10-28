@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-1.A",
 		"description": "Sozialhilfequote",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -93,7 +93,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-4.A",
 		"description": "Anteil Personen in Einpersonenhaushalten",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Haushalte",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -134,7 +134,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-5.A",
 		"description": "Gymnasialquote",
-		"thema": "50 Befragungen",
+		"thema": "15 Bildung",
 		"unterthema": "Bildungsniveau",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -178,7 +178,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "GS-6.A",
 		"description": "Altersquotient",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -687,7 +687,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "WA-5.A",
 		"description": "Arbeitslosenquote",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -727,7 +727,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "QR-01",
 		"description": "Altstadt Grossbasel - Quartierradar",
-		"thema": "50 Befragungen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"raeumlicheGliederung": [
 			"Wohnviertel"

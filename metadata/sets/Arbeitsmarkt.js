@@ -464,7 +464,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.3-02",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3342,7 +3342,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.7-01",
 		"description": "Beschäftigung in der Branche Wach- und Sicherheitsdienste",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3672,7 +3672,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.8-01",
 		"description": "Arbeitslose in der Branche Private Haushaltsdienstleistungen",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3920,7 +3920,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.1-01",
 		"description": "Beschäftigung in der Branche Nahrungsmittelindustrie",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"raeumlicheGliederung": [
 			"Kanton"

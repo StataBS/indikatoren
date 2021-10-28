@@ -95,7 +95,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 4-12",
 		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Pendler",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -459,7 +459,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 6-1",
 		"description": "Anteil Einwohner pro ÖV-Güteklasse",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Öffentlicher Verkehr",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -667,7 +667,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 11-1",
 		"description": "Verkehrsleistungsindex",
-		"thema": "50 Befragungen",
+		"thema": "11 Verkehr",
 		"unterthema": "Mobilitätsverhalten",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -708,7 +708,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 4-1",
 		"description": "Bevölkerung am Jahresende und Anzahl Wohnungen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1080,7 +1080,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "ST 1-3",
 		"description": "Bauzonen",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Kanton"

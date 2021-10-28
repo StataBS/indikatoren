@@ -11,7 +11,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-1",
 		"description": "Geöffnete Betriebe nach Hotelkategorie",
-		"thema": "50 Befragungen",
+		"thema": "10 Tourismus",
 		"unterthema": "Hotellerie",
 		"raeumlicheGliederung": [
 			"Kanton"

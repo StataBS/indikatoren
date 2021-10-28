@@ -1932,7 +1932,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.01",
 		"description": "Übersichtskarte Wohnviertel",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"

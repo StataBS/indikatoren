@@ -89,7 +89,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-04",
 		"description": "Sozialhilfefälle nach Fallstruktur",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -418,7 +418,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-05",
 		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -459,7 +459,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-19",
 		"description": "Arbeitslosenquote nach Alter",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -578,7 +578,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-22",
 		"description": "In den Notschlafstellen Übernachtende nach Geschlecht und Anzahl Nächten",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1556,7 +1556,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-06",
 		"description": "Entwicklung der Bevölkerung unter 25 Jahren nach Altersgruppe",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -1597,7 +1597,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2-03",
 		"description": "Sozialhilfequote der Minderjährigen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Kanton"

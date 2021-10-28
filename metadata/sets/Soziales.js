@@ -50,7 +50,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-01",
 		"description": "Übersicht Sozialleistungen: Ausgaben pro Leistung",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialleistungen",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -89,7 +89,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-03",
 		"description": "Sozialhilfequote nach Gemeinde",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "Sozialhilfe und Notwohnen",
 		"raeumlicheGliederung": [
 			"Gemeinde"
@@ -285,7 +285,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1-05",
 		"description": "Beziehende von Ergänzungsleistungen und Beihilfen",
-		"thema": "50 Befragungen",
+		"thema": "13 Soziale Sicherheit",
 		"unterthema": "",
 		"raeumlicheGliederung": [
 			"Kanton"

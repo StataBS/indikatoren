@@ -132,7 +132,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.03",
 		"description": "Jugendquotient",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel",
@@ -298,7 +298,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "2.08",
 		"description": "Sesshaftigkeit",
-		"thema": "50 Befragungen",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -624,7 +624,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.03",
 		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "50 Befragungen",
+		"thema": "09 Bau-, Wohnungswesen",
 		"unterthema": "Gebäude und Wohnungen",
 		"raeumlicheGliederung": [
 			"Wohnviertel"
@@ -1823,7 +1823,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "6.01",
 		"description": "Delikte",
-		"thema": "50 Befragungen",
+		"thema": "19 Kriminalität und Strafrecht",
 		"unterthema": "Polizei",
 		"raeumlicheGliederung": [
 			"Bezirk"
@@ -1942,7 +1942,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "1.03",
 		"description": "Kleinhüningen - Quartierradar",
-		"thema": "50 Befragungen",
+		"thema": "02 Raum, Umwelt",
 		"unterthema": "Räumliche Gliederung und Bodennutzung",
 		"raeumlicheGliederung": [
 			"Wohnviertel"

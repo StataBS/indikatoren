@@ -9,7 +9,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.4-04",
 		"description": "Neue Grenzgängerbewilligungen nach Branche",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Ausländische Erwerbstätige",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -909,7 +909,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "3.2-05",
 		"description": "Beschäftigung in Industrie und Baugewerbe",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3178,7 +3178,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.8-01",
 		"description": "Arbeitslose in der Branche Private Haushaltsdienstleistungen",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Arbeitslose",
 		"raeumlicheGliederung": [
 			"Kanton"
@@ -3257,7 +3257,7 @@ var indikatorensetData = [
 		"kuerzel": "",
 		"kuerzelKunde": "4.1-01",
 		"description": "Beschäftigung in der Branche Nahrungsmittelindustrie",
-		"thema": "50 Befragungen",
+		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Beschäftigte",
 		"raeumlicheGliederung": [
 			"Kanton"
