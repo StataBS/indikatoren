@@ -4,24 +4,24 @@
       "color": "rgb(71,71,71)",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          100.6556375
-        ],
-        [
-          2016,
-          101.2854256
-        ],
-        [
           2017,
-          101.6175526
+          100.327911958733
         ],
         [
           2018,
-          101.8541148
+          100.561471891603
+        ],
+        [
+          2019,
+          101.037872284479
+        ],
+        [
+          2020,
+          101.56454219933
         ]
       ],
       "name": "Basel-Stadt"
@@ -30,24 +30,24 @@
       "color": "rgb(255,128,40)",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          100.3350891
-        ],
-        [
-          2016,
-          100.7802319
-        ],
-        [
           2017,
-          100.7320492
+          99.952190282675
         ],
         [
           2018,
-          100.5431509
+          99.7647544590711
+        ],
+        [
+          2019,
+          99.781053226341
+        ],
+        [
+          2020,
+          99.9223092093468
         ]
       ],
       "name": "Basel-Landschaft"
@@ -56,24 +56,24 @@
       "color": "rgb(250,189,36)",
       "data": [
         [
-          2014,
+          2016,
           100
         ],
         [
-          2015,
-          100.2176511
-        ],
-        [
-          2016,
-          100.7297713
-        ],
-        [
           2017,
-          100.5291909
+          99.8008727704105
         ],
         [
           2018,
-          100.2539263
+          99.5276024234207
+        ],
+        [
+          2019,
+          99.1399398381562
+        ],
+        [
+          2020,
+          99.095453967716
         ]
       ],
       "name": "Jura"
@@ -135,7 +135,7 @@
     "text": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU"
   },
   "subtitle": {
-    "text": "indexiert (2014 = 100)",
+    "text": "indexiert (2016 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -205,7 +205,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-2"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -246,6 +246,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8431
+    "filename": "8431"
   }
 }

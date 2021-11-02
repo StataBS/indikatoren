@@ -13,12 +13,11 @@
     "labels": {
       "format": "{value:,.0f}",
     },
-     plotLines: [{
-                    value: 0,
-                    color: 'white',
-                    width: 2,
-                    zIndex: 4,
-                }]
+    plotLines: [{
+      color: '#B9CFD7',
+      value: 0,
+      width: 2
+  }]
   },
   "xAxis": {
    "tickInterval": 1,

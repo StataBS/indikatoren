@@ -405,10 +405,9 @@
     },
     "plotLines": [
       {
+        "color": "#B9CFD7",
         "value": 0,
-        "color": "white",
-        "width": 2,
-        "zIndex": 4
+        "width": 2
       }
     ]
   },
@@ -443,7 +442,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-2"
   },
   "tooltip": {
     "shared": true
