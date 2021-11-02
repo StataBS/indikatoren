@@ -1683,7 +1683,7 @@ var indikatorensetData = [
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -1707,7 +1707,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:31",
+		"aktualisierungsdatum": "2021-11-02T08:02:18",
 		"id": 6036
 	},
 	{

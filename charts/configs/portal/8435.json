@@ -4,24 +4,24 @@
       "color": "rgb(71,71,71)",
       "data": [
         [
-          2014,
-          32.386714
-        ],
-        [
-          2015,
-          32.15320671
-        ],
-        [
           2016,
-          31.89302949
+          31.8930294884126
         ],
         [
           2017,
-          31.73975027
+          31.7397502703766
         ],
         [
           2018,
-          31.61285581
+          31.612855813042
+        ],
+        [
+          2019,
+          31.4827600211185
+        ],
+        [
+          2020,
+          31.2865544317704
         ]
       ],
       "name": "Basel-Stadt"
@@ -30,24 +30,24 @@
       "color": "rgb(255,128,40)",
       "data": [
         [
-          2014,
-          35.12385873
-        ],
-        [
-          2015,
-          35.6392912
-        ],
-        [
           2016,
-          36.07251539
+          36.0725153924182
         ],
         [
           2017,
-          36.6716366
+          36.6716366015075
         ],
         [
           2018,
-          37.26893754
+          37.2689375401687
+        ],
+        [
+          2019,
+          37.8069607208056
+        ],
+        [
+          2020,
+          38.2810111699001
         ]
       ],
       "name": "Basel-Landschaft"
@@ -56,24 +56,24 @@
       "color": "rgb(250,189,36)",
       "data": [
         [
-          2014,
-          33.61292914
-        ],
-        [
-          2015,
-          34.18797382
-        ],
-        [
           2016,
-          34.56662839
+          34.5666283946857
         ],
         [
           2017,
-          35.36582507
+          35.3658250697424
         ],
         [
           2018,
-          35.91305163
+          35.9130516255973
+        ],
+        [
+          2019,
+          36.7609435512264
+        ],
+        [
+          2020,
+          37.051101734646
         ]
       ],
       "name": "Jura"
@@ -135,7 +135,7 @@
     "text": "Entwicklung Altersquotient; BS, BL und JU"
   },
   "subtitle": {
-    "text": " Personen ab 64 Jahre je 100 20- bis 64-Jährige",
+    "text": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -204,7 +204,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-2"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -245,6 +245,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8435
+    "filename": "8435"
   }
 }

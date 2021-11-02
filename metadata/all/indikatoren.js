@@ -1936,7 +1936,7 @@ var indikatoren = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (+3,1%).",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig auf 112 389 im Jahr 2020 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% auf 7 066 bzw. +9,4% auf 19 493), am geringsten bei den Einzimmerwohnungen (+3,1% auf 11 712).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -1962,7 +1962,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"aktualisierungsdatum": "2021-11-02T08:02:16",
 		"id": 4133
 	},
 	{
@@ -2006,47 +2006,46 @@ var indikatoren = [
 		"id": 4134
 	},
 	{
+		"template": "template001",
+		"data-id": 4135,
+		"chart-id": 4135,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5816",
-			"6248",
-			"7595"
+			5816,
+			6248,
+			7595,
+			9384
 		],
-		"template": "template001",
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4135",
-		"kuerzelKunde": "1.2.C-1",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:02.022",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4135",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.C-1",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 wurde wiederum eine hohe Neubauproduktion verzeichnet. Auffallend ist insbesondere auch der stark positive Umbausaldo.",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4135,
-		"chart-id": 4135,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:17",
 		"id": 4135
 	},
 	{
@@ -13143,7 +13142,7 @@ var indikatoren = [
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
-		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen. Er wird aus der sogenannten Lorenzkurve abgeleitet.",
+		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -13168,7 +13167,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:31",
+		"aktualisierungsdatum": "2021-11-02T08:02:18",
 		"id": 6036
 	},
 	{
@@ -14790,43 +14789,43 @@ var indikatoren = [
 		"id": 6077
 	},
 	{
+		"template": "line001",
+		"data-id": 6078,
+		"chart-id": 6078,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6663
+		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06078",
-		"kuerzelKunde": "A5-1",
-		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "2020 wiesen Personen aus dem Balkan (31,5), der Türkei (28,2), afrikanischen (24,9) und arabischen Ländern (21,3) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2020 für die Deutschen (7,9). Der Segregationsindex der Schweizer lag im Jahr 2020 bei 16,2.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-22T18:29:53.5353",
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"thema": "",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A5-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 wiesen Personen aus dem Balkan (30,6), der Türkei (28,8), afrikanischen (25,6) und arabischen Ländern (21,8) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2019 für die Deutschen (7,6). Der Segregationsindex der Schweizer lag im Jahr 2019 bei 16,4.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_501",
-		"parentId": 6152,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6078,
-		"chart-id": 6078,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:18",
 		"id": 6078
 	},
 	{
@@ -59615,88 +59614,84 @@ var indikatoren = [
 		"id": 8423
 	},
 	{
+		"template": "line001",
+		"data-id": 8431,
+		"chart-id": 8431,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8491
+		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "2.3-1",
-		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "indexiert (2016 = 100)",
+		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung zwischen 2016 und 2020 nur im Kanton Basel-Stadt zugenommen (+1,6%). In den Kantonen Basel-Landschaft und Jura ist die Zahl der 15- bis 64-Jährigen um 0,1% bzw. um 0,9% zurückgegangen.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:31.3131",
+		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
+		"thema": "",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3-1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im regionalen Vergleich BS/BL/JU hat die 15- bis 64-jährige Wohnbevölkerung im Kanton Basel-Stadt mit +1,9% seit 2014 am stärksten zugelegt, gefolgt von Basel-Landschaft (+0,5%) und Jura (+0,3%). Allerdings verlief die Zunahme der betrachteten Altersgruppe im Kanton Basel-Stadt von 2016 bis 2018 moderater als zuvor. In den Kantonen Basel-Landschaft und Jura kam es nach der anfänglichen Zunahme gar zu einem Rückgang der 15- bis 64-Jährigen.",
-		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
-		"template": "line001",
+		"orderKey": "02_03_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8491"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8431,
-		"chart-id": 8431,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:17",
 		"id": 8431
 	},
 	{
+		"template": "line001",
+		"data-id": 8432,
+		"chart-id": 8432,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8492
+		],
 		"title": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"subtitle": "indexiert (2014 = 100)",
-		"kuerzel": "",
-		"kuerzelKunde": "2.3-2",
-		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "indexiert (2016 = 100)",
+		"lesehilfe": "Die gesamtschweizerische Zunahme der 15- bis 64-Jährigen betrug zwischen 2016 und 2020 +1,6%. In der Region BS/BL/JU ist das Wachstum mit +0,4% moderater ausgefallen und ist fast ausschliesslich auf den Anstieg im Jahr 2020 zurückzuführen. In den Jahren 2017 und 2018 wuchs die Zahl der 15- bis 64-Jährigen in der Region BS/BL/JU nur moderat, im Jahr 2018 ging sie leicht zurück. Dies ist auf die entsprechende Entwicklung in den Kantonen Basel-Landschaft und Jura zurückzuführen.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:32.3232",
+		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
+		"thema": "",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3-2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die gesamtschweizerische Zunahme der 15- bis 64-Jährigen betrug zwischen 2014 und 2018 +2,5%. In der Region BS/BL/JU ist das Wachstum mit +1,0% moderater ausgefallen und konzentrierte sich auf die Jahre 2014 bis 2016. In den Jahren 2016 bis 2018 stagnierte die Wohnbevölkerung der betrachteten Altersgruppe in der Region BS/BL/JU aufgrund der Rückgänge in den Kantonen Basel-Landschaft und Jura.",
-		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
-		"template": "line001",
+		"orderKey": "02_03_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8492"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8432,
-		"chart-id": 8432,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:17",
 		"id": 8432
 	},
 	{
@@ -59785,45 +59780,43 @@ var indikatoren = [
 		"id": 8434
 	},
 	{
+		"template": "line001",
+		"data-id": 8435,
+		"chart-id": 8435,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8495
+		],
 		"title": "Entwicklung Altersquotient; BS, BL und JU",
-		"subtitle": "Personen ab 64 Jahre je 100 20- bis 64-Jährige",
-		"kuerzel": "",
-		"kuerzelKunde": "2.3-5",
-		"description": "Entwicklung Altersquotient; BS, BL und JU",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
+		"lesehilfe": "Der Kanton Basel-Landschaft weist mit 38,3 im Jahr 2020 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura mit 37,1 und Basel-Stadt mit 31,3. Während die Altersquotienten in den Kantonen Basel-Landschaft und Jura seit 2016 gestiegen sind, ist der Altersquotient in Basel-Stadt zurückgegangen.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:33.3333",
+		"description": "Entwicklung Altersquotient; BS, BL und JU",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08435",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3-5",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Kanton Basel-Landschaft weist mit 37,3 im Jahr 2018 den höchsten Altersquotienten der Region BS/BL/JU auf, gefolgt von Jura mit 35,9 und Basel-Stadt mit 31,6. Im Vergleich zu 2014 haben sich die Unterschiede akzentuiert.",
-		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember. Altersquotient: 65-Jährige und Ältere je 100 20- bis 64-jährige Personen, d. h. Verhältnis der Anzahl Personen in einem Alter, in dem man im Allgemeinen wirtschaftlich nicht mehr aktiv ist, zur Anzahl der Personen im erwerbsfähigen Alter.<br>Der Altersquotient (65+-Jährige je 100 20- bis 64-Jährige) gibt an, wie hoch die Belastung einer Volkswirtschaft bzw. der Bevölkerung im produktiven Alter durch die aus Altersgründen nicht mehr erwerbsfähige Bevölkerung ist.",
-		"template": "line001",
+		"orderKey": "02_03_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"8495"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8435,
-		"chart-id": 8435,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:18",
 		"id": 8435
 	},
 	{

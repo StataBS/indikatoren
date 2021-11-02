@@ -405,10 +405,9 @@
     },
     "plotLines": [
       {
+        "color": "#B9CFD7",
         "value": 0,
-        "color": "white",
-        "width": 2,
-        "zIndex": 4
+        "width": 2
       }
     ]
   },

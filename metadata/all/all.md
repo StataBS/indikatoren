@@ -433,7 +433,7 @@ id | visible | visibleInPortal | indikatorenset
 6075 | true | true | Integration
 6076 | true | true | Integration
 6077 | true | true | Integration
-6078 | true | false | Integration
+6078 | true | true | Integration
 6079 | true | true | Integration
 6080 | true | true | Integration
 6081 | true | true | Integration

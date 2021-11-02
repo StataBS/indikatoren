@@ -247,7 +247,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig gestiegen. Am stärksten war das Wachstum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% bzw. +9,4% seit 2009). Am geringsten war die Zunahme bei den Einzimmerwohnungen (+3,1%).",
+		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig auf 112 389 im Jahr 2020 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% auf 7 066 bzw. +9,4% auf 19 493), am geringsten bei den Einzimmerwohnungen (+3,1% auf 11 712).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -272,7 +272,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"aktualisierungsdatum": "2021-11-02T08:02:16",
 		"id": 4133
 	},
 	{
@@ -315,46 +315,45 @@ var indikatorensetData = [
 		"id": 4134
 	},
 	{
+		"template": "template001",
+		"data-id": 4135,
+		"chart-id": 4135,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5816",
-			"6248",
-			"7595"
+			5816,
+			6248,
+			7595,
+			9384
 		],
-		"template": "template001",
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4135",
-		"kuerzelKunde": "1.2.C-1",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:02.022",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4135",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.C-1",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 wurde wiederum eine hohe Neubauproduktion verzeichnet. Auffallend ist insbesondere auch der stark positive Umbausaldo.",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4135,
-		"chart-id": 4135,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-02T08:02:17",
 		"id": 4135
 	},
 	{
