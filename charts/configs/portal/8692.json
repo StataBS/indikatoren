@@ -36,9 +36,13 @@
         [
           "2019",
           0
+        ],
+        [
+          "2020",
+          0
         ]
       ],
-      "name": "Kaiserschnitte (n. n. bez.)",
+      "name": "Kaiserschnitte (n.n.bez.)",
       "turboThreshold": 0
     },
     {
@@ -77,9 +81,13 @@
         [
           "2019",
           818
+        ],
+        [
+          "2020",
+          753
         ]
       ],
-      "name": "Primäre Kaiserschnitte",
+      "name": "Primärer Kaiserschnitte",
       "turboThreshold": 0
     },
     {
@@ -118,6 +126,10 @@
         [
           "2019",
           832
+        ],
+        [
+          "2020",
+          811
         ]
       ],
       "name": "Sekundäre Kaiserschnitte",
@@ -159,6 +171,10 @@
         [
           "2019",
           2921
+        ],
+        [
+          "2020",
+          2772
         ]
       ],
       "name": "Natürliche Entbindungen",
@@ -206,6 +222,10 @@
         ],
         [
           "2019",
+          36.1
+        ],
+        [
+          "2020",
           36.1
         ]
       ],
@@ -373,7 +393,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-4"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -413,6 +433,6 @@
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8692
+    "filename": "8692"
   }
 }
