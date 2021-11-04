@@ -68076,43 +68076,41 @@ var indikatoren = [
 		"id": 8690
 	},
 	{
+		"template": "line001",
+		"data-id": 8692,
+		"chart-id": 8692,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Kaiserschnitte in baselstädtischen Spitälern",
 		"subtitle": "2012 bis 2019",
-		"kuerzel": "I.14.1.08692",
-		"kuerzelKunde": "",
-		"description": "Kaiserschnitte in baselstädtischen Spitälern",
-		"thema": "14 Gesundheit",
-		"unterthema": "Spitäler",
-		"kennzahlenset": "",
+		"lesehilfe": "Im Jahr 2020 wurden von den 4 336 Entbindungen insgesamt 1 564 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 36,1%. Von allen Kaiserschnitten wurden 753 als primäre (geplante) Kaiserschnitte und 811 als sekundäre (ungeplante) Kaiserschnitte durchgeführt.",
+		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthalte in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen definiert, die nicht mittels Kaiserschnitt durchgeführt wurden. Die Kaiserschnittrate berechnet sich aus dem Quotienten der Kaiserschnitte (primäre und sekundäre) und der Gesamtzahl aller Entbindungen (Kaiserschnitte sowie natürliche Entbindungen) pro Jahr.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-24T14:08:45.4545",
+		"description": "Kaiserschnitte in baselstädtischen Spitälern",
+		"thema": "14 Gesundheit",
+		"unterthema": "Spitäler",
+		"kuerzel": "I.14.1.08692",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 wurden von den 4 571 Entbindungen insgesamt 1 650 mittels Kaiserschnitt durchgeführt. Dies entspricht einem Anteil von 36,1%. Von allen Kaiserschnitten wurden 818 als primäre (geplante) Kaiserschnitte und 832 als sekundäre (ungeplante) Kaiserschnitte durchgeführt.",
-		"erlaeuterungen": "Grundlage für die Zahlen liefert die Medizinische Statistik der Krankenhäuser. Hierin erfasst sind alle stationären Aufenthalte in Spitälern oder Geburtshäusern. Die hier aufgeführten Zahlen umfassen demnach keine ambulant durchgeführten Entbindungen. Die Kaiserschnitte werden über die gemäss Schweizerischer Operationsklassifikation (CHOP) erfasste Hauptbehandlung identifiziert. Ab dem Jahr 2014 werden primäre (im Voraus geplante) und sekundäre (ungeplante) Kaiserschnitte separat erfasst und in der obigen Grafik ausgewiesen. Als natürliche Entbindungen werden jene Entbindungen definiert, die nicht mittels Kaiserschnitt durchgeführt wurden. Die Kaiserschnittrate berechnet sich aus dem Quotienten der Kaiserschnitte (primäre und sekundäre) und der Gesamtzahl aller Entbindungen (Kaiserschnitte sowie natürliche Entbindungen) pro Jahr.",
-		"template": "line001",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Medizinische Statistik der Krankenhäuser"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8692,
-		"chart-id": 8692,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-04T08:12:40",
 		"id": 8692
 	},
 	{
@@ -72894,7 +72892,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:19",
+		"aktualisierungsdatum": "2021-11-04T08:12:40",
 		"id": 8995
 	},
 	{
@@ -73521,7 +73519,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:20",
+		"aktualisierungsdatum": "2021-11-04T08:12:41",
 		"id": 9022
 	},
 	{
@@ -73559,7 +73557,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:20",
+		"aktualisierungsdatum": "2021-11-04T08:12:41",
 		"id": 9023
 	},
 	{
