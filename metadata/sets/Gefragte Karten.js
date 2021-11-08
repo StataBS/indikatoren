@@ -625,44 +625,40 @@ var indikatorensetData = [
 		"id": 6387
 	},
 	{
+		"template": "mappie001",
+		"data-id": 6388,
+		"chart-id": 6388,
+		"filter": "",
+		"parentId": "6376",
+		"children": [],
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.06388",
-		"kuerzelKunde": "K1-2",
-		"description": "Über 64-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Gefragte Karten",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,8%), Matthäus (13,7%) und Klybeck (14,8%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (24,6%) sowie die Gemeinden Riehen (25,2%) und Bettingen (24,6%) auf.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-03-03T14:52:59.5959",
+		"description": "Über 64-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06388",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K1-2",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,6%), Matthäus (13,5%) und Klybeck (14,3%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (25,2%) sowie die Gemeinden Riehen (25,8%) und Bettingen (24,2%) auf.",
-		"erlaeuterungen": "Ohne Personen an administrativen Meldeadressen.",
-		"template": "mappie001",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_002",
-		"parentId": 6376,
-		"children": [],
-		"renderLink": [
-			"6376"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6388,
-		"chart-id": 6388,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-08T08:04:18",
 		"id": 6388
 	},
 	{

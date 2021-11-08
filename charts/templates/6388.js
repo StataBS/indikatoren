@@ -154,8 +154,8 @@
 	                //Add manually drawn legend
 	                fn.addLegendRectangle(chart, 243, 212, 105, 125, '#fbfbfb');
 	                fn.addLegendRectangle(chart, 355, 212, 115, 125, '#fbfbfb');
-	        		fn.addLegendTitle(chart, "Anteil über <br/>  64-Jähriger in %", 245, 210);
-	                fn.addLegendTitle(chart, "Anzahl über <br/>  64-Jähriger", 355, 210);
+	        		fn.addLegendTitle(chart, choroplethSeries.name.replace(" ü",  "<br/>ü").replace("in", "<br/>in")/*"Anteil über <br/>  64-Jähriger in %"*/, 245, 210);
+	                fn.addLegendTitle(chart, pieSizeSeries.name.replace(" ü",  "<br/>ü")/*"Anzahl über <br/>  64-Jähriger"*/, 355, 210);
 	                
 	                fn.addLegendCircle(chart, 373, 266, 0.5*pieSizeCatConfig[0].diameter, '#C9D6DB');
 	                fn.addLegendLabel(chart, pieSizeCatConfig[0].name, 465, 255, undefined, false, 'right');

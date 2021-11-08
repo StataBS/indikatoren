@@ -989,9 +989,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre; BS, BL und JU",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.08431",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.3-1",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -1003,7 +1003,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:17",
+		"aktualisierungsdatum": "2021-11-08T08:04:17",
 		"id": 8431
 	},
 	{
@@ -1029,9 +1029,9 @@ var indikatorensetData = [
 			"Schweiz"
 		],
 		"description": "Entwicklung Wohnbevölkerung im Alter 15 bis 64 Jahre, BS/BL/JU und Schweiz",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.08432",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "2.3-2",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
@@ -1043,7 +1043,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:17",
+		"aktualisierungsdatum": "2021-11-08T08:04:17",
 		"id": 8432
 	},
 	{
