@@ -886,9 +886,9 @@ var indikatorensetData = [
 			"Kanton"
 		],
 		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Bestand und Struktur",
-		"kuerzel": "",
+		"kuerzel": "I.01.1.06078",
 		"kennzahlenset": "Integration",
 		"kuerzelKunde": "A5-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
@@ -900,7 +900,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:18",
+		"aktualisierungsdatum": "2021-11-08T08:04:18",
 		"id": 6078
 	},
 	{
