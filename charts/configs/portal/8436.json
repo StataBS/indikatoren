@@ -4,24 +4,24 @@
       "color": "#B375AB",
       "data": [
         [
-          2014,
-          33.93593931
-        ],
-        [
-          2015,
-          34.18511679
-        ],
-        [
           2016,
-          34.35734781
+          34.3573478055121
         ],
         [
           2017,
-          34.70496059
+          34.7049605856529
         ],
         [
           2018,
-          35.02681065
+          35.0268106525668
+        ],
+        [
+          2019,
+          35.3536196465294
+        ],
+        [
+          2020,
+          35.552432342489
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -30,24 +30,24 @@
       "color": "#990300",
       "data": [
         [
-          2014,
-          28.68960206
-        ],
-        [
-          2015,
-          28.99314292
-        ],
-        [
           2016,
-          29.26131959
+          29.2613195902037
         ],
         [
           2017,
-          29.62516178
+          29.6251617774046
         ],
         [
           2018,
-          29.99944083
+          29.9994408273625
+        ],
+        [
+          2019,
+          30.3954071854531
+        ],
+        [
+          2020,
+          30.6655835572092
         ]
       ],
       "name": "Schweiz"
@@ -117,7 +117,7 @@
     "text": "Entwicklung Altersquotient; BS\u002FBL\u002FJU und Schweiz"
   },
   "subtitle": {
-    "text": " Personen ab 64 Jahre je 100 20- bis 64-Jährige",
+    "text": "Verhältnis der über 64-Jährigen zu den 20- bis 64-Jährigen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -191,13 +191,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-7"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-11"
   },
   "tooltip": {
     "shared": false,
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8436
+    "filename": "8436"
   }
 }
