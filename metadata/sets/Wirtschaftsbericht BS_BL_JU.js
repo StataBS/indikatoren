@@ -1086,45 +1086,43 @@ var indikatorensetData = [
 		"id": 8433
 	},
 	{
+		"template": "template001",
+		"data-id": 8434,
+		"chart-id": 8434,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8494
+		],
 		"title": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"subtitle": "Anteil an der Gesamtbevölkerung, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "2.3-4",
-		"description": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
-		"thema": "01 Bevölkerung",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "Anteil an der Gesamtbevölkerung, 2020",
+		"lesehilfe": "Die Altersklassen der 15- bis 64-Jährigen weisen in der Region BS/BL/JU leicht niedrigere Anteile an der Gesamtbevölkerung auf als in der Gesamtschweiz. Dabei sind die Unterschiede zwischen der Region BS/BL/JU und der Gesamtschweiz in den Klassen der 15- bis 29-Jährigen am grössten.",
+		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton",
 			"Schweiz"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:32.3232",
+		"description": "Altersklassen von 15 bis 64 Jahren; BS/BL/JU und Schweiz",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08434",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "2.3-4",
 		"stufe1": "2. Arbeitsmarkt, Bildung und Bevölkerung",
 		"stufe2": "2.3 Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Altersklassen von 15 bis 64 Jahren haben in der Region BS/BL/JU verglichen mit der Schweiz sehr ähnliche Anteile an der Gesamtbevölkerung. Auffällig sind die allgemein tieferen Anteile der 15- bis 54-Jährigen und der höhere Anteil der 55- bis 64-Jährigen. Mögliche Gründe für den tiefen Anteil der jüngsten betrachteten Altersklasse ist der Rückgang der Geburtenzahlen zu Beginn des 21. Jahrhunderts sowie bei der stärksten Altersklasse die Folge des Baby-Booms der 1960er-Jahre mit starken Jahrgängen. Wobei auch die Zuwanderung, die insbesondere in die Altersklassen ab 20 Jahren erfolgt und diese erstarken lässt, eine wesentliche Auswirkung auf die Altersstruktur hat.",
-		"erlaeuterungen": "Ständige Wohnbevölkerung per 31. Dezember.",
-		"template": "template001",
+		"orderKey": "02_03_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8494"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8434,
-		"chart-id": 8434,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-15T08:23:16",
 		"id": 8434
 	},
 	{
