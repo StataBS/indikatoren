@@ -12353,46 +12353,43 @@ var indikatoren = [
 		"id": 6056
 	},
 	{
+		"template": "line001",
+		"data-id": 6057,
+		"chart-id": 6057,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6642
+		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6057",
-		"kuerzelKunde": "A1-1",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Von 2001 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung von 28,0% auf 37,0%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:14:50.5050",
+		"description": "Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06057",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2000 bis 2019 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,6% auf 36,6%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007, 2010 und 2019 zu beobachten.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6597",
-			"6642"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6057,
-		"chart-id": 6057,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6057
 	},
 	{

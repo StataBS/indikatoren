@@ -13903,46 +13903,43 @@
 		"id": 6056
 	},
 	{
+		"template": "line001",
+		"data-id": 6057,
+		"chart-id": 6057,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6642
+		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6057",
-		"kuerzelKunde": "A1-1",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Von 2001 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung von 28,0% auf 37,0%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:14:50.5050",
+		"description": "Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06057",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2000 bis 2019 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,6% auf 36,6%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007, 2010 und 2019 zu beobachten.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6597",
-			"6642"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6057,
-		"chart-id": 6057,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6057
 	},
 	{
@@ -23594,45 +23591,43 @@
 		"id": 6399
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6400",
-		"kuerzelKunde": "A1-7",
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"template": "pie001",
+		"data-id": 6400,
+		"chart-id": 6400,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6676
+		],
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Ende 2020 zählten 16 501 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T16:58:42.4242",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6400",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-7",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 zählten 15 983 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
-		"erlaeuterungen": "",
-		"template": "pie001",
+		"orderKey": "01_00_00_00_00_107",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"6676"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6400,
-		"chart-id": 6400,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6400
 	},
 	{
@@ -60556,43 +60551,41 @@
 		"id": 8454
 	},
 	{
+		"template": "map002",
+		"data-id": 7701,
+		"chart-id": 7701,
+		"filter": "",
+		"parentId": "7701",
+		"children": [],
 		"title": "Anzahl Tropennächte",
 		"subtitle": "nach Wohnviertel, 2018",
-		"kuerzel": "I.02.12.08455",
-		"kuerzelKunde": "NL11",
-		"description": "Anzahl Tropennächte",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
+		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
+		"quellenangabe": [
+			"MCR-Lab, Universität Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2019-12-10T11:47:38.3838",
+		"description": "Anzahl Tropennächte",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.08455",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL10",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "<Bitte neue Lesehilfe erfassen>",
-		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
-		"template": "map002",
+		"orderKey": "04_02_00_00_00_411",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_02_00_00_00_411",
-		"parentId": 7701,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"MCR-Lab, Universität Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7701,
-		"chart-id": 7701,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 8455
 	},
 	{

@@ -1,44 +1,41 @@
 var indikatorensetData = [
 	{
+		"template": "line001",
+		"data-id": 6057,
+		"chart-id": 6057,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6642
+		],
 		"title": "Ausländeranteil",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.6057",
-		"kuerzelKunde": "A1-1",
-		"description": "Ausländeranteil",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Von 2001 bis 2020 stieg der Anteil der ausländischen Personen an der Bevölkerung von 28,0% auf 37,0%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-17T15:14:50.5050",
+		"description": "Ausländeranteil",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06057",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 2000 bis 2019 stieg der Anteil der ausländischen Personen an der Bevölkerung von 27,6% auf 36,6%. Der stärkste Anstieg um über 0,9 Prozentpunkte wurde 2002 verzeichnet. In diesem Jahr traten die bilateralen Verträge zwischen der Schweiz und der EU in Kraft, welche den Aufenthalt von EU- und EFTA-Staatsangehörigen erleichterten. Lediglich geringfügige Anstiege waren in den Jahren 2000, 2007, 2010 und 2019 zu beobachten.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6597",
-			"6642"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6057,
-		"chart-id": 6057,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6057
 	},
 	{
@@ -1397,44 +1394,42 @@ var indikatorensetData = [
 		"id": 6399
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6400",
-		"kuerzelKunde": "A1-7",
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-17 + EFTA»",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"template": "pie001",
+		"data-id": 6400,
+		"chart-id": 6400,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6676
+		],
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Ende 2020 zählten 16 501 Personen zur Ländergruppe «EU-West + EFTA + UK». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T16:58:42.4242",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-West + EFTA + UK»",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6400",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-7",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 zählten 15 983 Personen zur Ländergruppe «EU-17 + EFTA». Innerhalb dieser Gruppe bildeten Spanier und Portugiesen die grössten Bevölkerungsgruppen.",
-		"erlaeuterungen": "",
-		"template": "pie001",
+		"orderKey": "01_00_00_00_00_107",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"6676"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6400,
-		"chart-id": 6400,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-17T08:58:24",
 		"id": 6400
 	},
 	{
