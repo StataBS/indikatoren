@@ -1433,44 +1433,42 @@ var indikatorensetData = [
 		"id": 6400
 	},
 	{
+		"template": "pie001",
+		"data-id": 6401,
+		"chart-id": 6401,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6677
+		],
 		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6401",
-		"kuerzelKunde": "A1-8",
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Von 5 511 Personen, die Ende 2020 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Kroaten, Ungarn und Rumänen die grössten Bevölkerungsgruppen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T16:59:04.044",
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «EU-Ost»",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06401",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-8",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 4 462 Personen, die Ende 2019 zur Ländergruppe «EU-Ost» zählten, bildeten Polen, Ungarn, Rumänen und Slowaken die grössten Bevölkerungsgruppen.",
-		"erlaeuterungen": "",
-		"template": "pie001",
+		"orderKey": "01_00_00_00_00_108",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_108",
-		"parentId": null,
-		"children": [
-			"6677"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6401,
-		"chart-id": 6401,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-18T08:52:49",
 		"id": 6401
 	},
 	{
