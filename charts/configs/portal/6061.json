@@ -5,31 +5,31 @@
       "data": [
         [
           "Indien",
-          1670
+          1644
         ],
         [
           "Vereinigte Staaten",
-          1601
+          1641
         ],
         [
           "Sri Lanka",
-          811
+          815
         ],
         [
           "China",
-          516
+          560
         ],
         [
           "Russland",
-          443
+          474
         ],
         [
           "Thailand",
-          413
+          405
         ],
         [
-          "Übrige",
-          3022
+          "Weitere Übrige",
+          3160
         ]
       ],
       "turboThreshold": 0
@@ -98,7 +98,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "tooltip": {
@@ -119,7 +119,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
   },
   "legend": {
     "layout": "vertical",
@@ -136,6 +136,6 @@
     }
   },
   "exporting": {
-    "filename": 6061
+    "filename": "6061"
   }
 }

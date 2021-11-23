@@ -27,28 +27,28 @@
             dataClassColor: 'category',
                dataClasses: [{
                 from: 0,
-                to:0.2499,
+                to:0.2699,
                 color: '#ECE1D0',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 25,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> < 27,0"
             }, {
-                from: 0.25,
-                to: 0.3199,
+                from: 0.27,
+                to: 0.3499,
                 color: '#C4AB91',
-                name: "25,0 −  31,9"
+                name: "28,0 −  34,9"
             }, {
-                from: 0.32,
-                to: 0.3799,
+                from: 0.35,
+                to: 0.3899,
                  color: '#9E7C59',
-                 name: "32,0 − 37,9"
+                 name: "35,0 − 38,9"
             },{
-                from: 0.38,
-                to: 0.449,
+                from: 0.39,
+                to: 0.469,
                 color: '#67401E',
-                name: "38,0 − 44,9"
+                name: "39,0 − 46,9"
             },{
-                from: 0.45,
+                from: 0.47,
                 color: '#3A2012',
-                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 45,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>0,00</span> ≥ 47,0"
             }], 
         },
         "data": {

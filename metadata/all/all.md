@@ -921,7 +921,7 @@ id | visible | visibleInPortal | indikatorenset
 6772 | true | false | Wanderungen (Print)
 6773 | true | false | Wanderungen (Print)
 6774 | true | false | Wanderungen (Print)
-6778 | true | true | Gefragte Karten
+6778 | true | false | Gefragte Karten
 6893 | true | true | Wohnviertel
 6894 | true | true | Wohnviertel
 6895 | true | true | Wohnviertel
