@@ -59,6 +59,10 @@
         [
           2019,
           1162
+        ],
+        [
+          2020,
+          1190
         ]
       ],
       "name": "Schweiz"
@@ -122,6 +126,10 @@
         [
           2019,
           197
+        ],
+        [
+          2020,
+          184
         ]
       ],
       "name": "Deutschland"
@@ -185,6 +193,10 @@
         [
           2019,
           73
+        ],
+        [
+          2020,
+          82
         ]
       ],
       "name": "Italien"
@@ -248,6 +260,10 @@
         [
           2019,
           51
+        ],
+        [
+          2020,
+          46
         ]
       ],
       "name": "Türkei"
@@ -311,9 +327,13 @@
         [
           2019,
           228
+        ],
+        [
+          2020,
+          190
         ]
       ],
-      "name": "EU-17 + EFTA"
+      "name": "EU-West + EFTA + UK"
     },
     {
       "color": "#71a3b5",
@@ -325,55 +345,59 @@
       "data": [
         [
           2007,
-          15
+          29
         ],
         [
           2008,
-          22
+          31
         ],
         [
           2009,
-          23
+          32
         ],
         [
           2010,
-          34
+          43
         ],
         [
           2011,
-          25
+          34
         ],
         [
           2012,
-          40
+          50
         ],
         [
           2013,
-          41
+          48
         ],
         [
           2014,
-          39
+          46
         ],
         [
           2015,
-          44
+          51
         ],
         [
           2016,
-          71
+          77
         ],
         [
           2017,
-          54
+          61
         ],
         [
           2018,
-          68
+          76
         ],
         [
           2019,
-          78
+          89
+        ],
+        [
+          2020,
+          76
         ]
       ],
       "name": "EU-Ost"
@@ -388,55 +412,59 @@
       "data": [
         [
           2007,
-          154
+          140
         ],
         [
           2008,
-          138
-        ],
-        [
-          2009,
-          153
-        ],
-        [
-          2010,
-          135
-        ],
-        [
-          2011,
-          123
-        ],
-        [
-          2012,
-          117
-        ],
-        [
-          2013,
           129
         ],
         [
-          2014,
-          123
+          2009,
+          144
         ],
         [
-          2015,
-          113
+          2010,
+          126
         ],
         [
-          2016,
+          2011,
+          114
+        ],
+        [
+          2012,
           107
         ],
         [
+          2013,
+          122
+        ],
+        [
+          2014,
+          116
+        ],
+        [
+          2015,
+          106
+        ],
+        [
+          2016,
+          101
+        ],
+        [
           2017,
-          99
+          92
         ],
         [
           2018,
-          99
+          91
         ],
         [
           2019,
-          95
+          84
+        ],
+        [
+          2020,
+          71
         ]
       ],
       "name": "Balkan"
@@ -500,9 +528,13 @@
         [
           2019,
           16
+        ],
+        [
+          2020,
+          9
         ]
       ],
-      "name": "Mittel- u. Südamerika"
+      "name": "Mittel- und Südamerika"
     },
     {
       "color": "#73ba7c",
@@ -563,6 +595,10 @@
         [
           2019,
           39
+        ],
+        [
+          2020,
+          24
         ]
       ],
       "name": "Arabische Länder"
@@ -626,6 +662,10 @@
         [
           2019,
           39
+        ],
+        [
+          2020,
+          31
         ]
       ],
       "name": "Afrikanische Länder"
@@ -689,6 +729,10 @@
         [
           2019,
           89
+        ],
+        [
+          2020,
+          97
         ]
       ],
       "name": "Übrige Länder"
@@ -790,8 +834,10 @@
       "style": {
         "color": "#000000"
       },
+      "max": 2500,
       "format": "{value:,.0f}"
-    }
+    },
+    "tickInterval": 500
   },
   "legend": {
     "enabled": true,
@@ -802,7 +848,7 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "itemDistance": 0,
+    "itemDistance": 10,
     "itemMarginBottom": 2
   },
   "credits": {
@@ -818,7 +864,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -854,8 +900,11 @@
 				}, true, true);
 			}
   },
-  "tooltip": {},
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+  },
   "exporting": {
-    "filename": 6076
+    "filename": "6076"
   }
 }

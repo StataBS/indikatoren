@@ -121,85 +121,81 @@ var indikatorensetData = [
 		"id": 6059
 	},
 	{
-		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6060",
-		"kuerzelKunde": "A1-6",
-		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-04-01T16:56:21.2121",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ende 2019 besassen über 80% der ausländischen Wohnbevölkerung die Staatsangehörigkeit eines europäischen Staates. Bei etwas mehr als der Hälfte dieser Europäer handelte es sich um Deutsche, Italiener oder Türken.",
-		"erlaeuterungen": "",
 		"template": "pie001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_106",
-		"parentId": null,
-		"children": [
-			"6645"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6060,
 		"chart-id": 6060,
 		"filter": "",
-		"id": 6060
-	},
-	{
-		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"subtitle": "Basel-Stadt, 2019",
-		"kuerzel": "I.01.1.6061",
-		"kuerzelKunde": "A1-9",
-		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"parentId": null,
+		"children": [
+			6645
+		],
+		"title": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Ende 2020 besassen 22,3% der ausländischen Wohnbevölkerung die deutsche Staatsangehörigkeit. Insgesamt besassen über 80% jene eines europäischen Staates.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T16:56:53.5353",
+		"description": "Ausländer nach Staatsangehörigkeit bzw. Ländergruppen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6060",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-6",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Von 8 476 Personen, die Ende 2019 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten und von Sri Lanka.",
-		"erlaeuterungen": "",
-		"template": "pie001",
+		"orderKey": "01_00_00_00_00_106",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_109",
-		"parentId": null,
-		"children": [
-			"6646"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-11-23T08:28:00",
+		"id": 6060
+	},
+	{
+		"template": "pie001",
 		"data-id": 6061,
 		"chart-id": 6061,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6646
+		],
+		"title": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+		"subtitle": "Basel-Stadt, 2020",
+		"lesehilfe": "Von 8 699 Personen, die Ende 2020 zur Gruppe «Übrige Länder» zählten, bildeten Inder die grösste Bevölkerungsgruppe, gefolgt von Staatsangehörigen der Vereinigten Staaten von Amerika und von Sri Lanka.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausländer nach Staatsangehörigkeit innerhalb der Ländergruppe «Übrige»",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6061",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-9",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_109",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-23T08:28:01",
 		"id": 6061
 	},
 	{
@@ -782,44 +778,42 @@ var indikatorensetData = [
 		"id": 6075
 	},
 	{
+		"template": "line001",
+		"data-id": 6076,
+		"chart-id": 6076,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6661
+		],
 		"title": "Anzahl Geborene nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.6076",
-		"kuerzelKunde": "A4-2",
-		"description": "Anzahl Geborene nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Schweizer Staatsangehörige machen 2020 mit 1190 etwas über die Hälfte der exakt 2000 Geborenen aus. 2016 betrug das Total noch 2172.",
+		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-25T09:20:41.4141",
+		"description": "Anzahl Geborene nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Geburten und Todesfälle",
+		"kuerzel": "I.01.3.06076",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A4-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Geborenen hat zwischen 2007 und 2019 tendenziell zugenommen. Dies gilt für die meisten ausländischen Ländergruppen und die Schweizer. Die Zahl der Geborenen ist bei türkischen Staatsangehörigen und Personen aus dem Balkan zurückgegangen.",
-		"erlaeuterungen": "Die Angaben beziehen sich auf Lebendgeborene in Basel-Stadt gemeldeter Mütter.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_402",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_402",
-		"parentId": null,
-		"children": [
-			"6661"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6076,
-		"chart-id": 6076,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-23T08:28:01",
 		"id": 6076
 	},
 	{
@@ -1628,45 +1622,43 @@ var indikatorensetData = [
 		"id": 6405
 	},
 	{
+		"template": "line001",
+		"data-id": 6406,
+		"chart-id": 6406,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6682
+		],
 		"title": "Arbeitslosenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.4.6406",
-		"kuerzelKunde": "C1-1",
-		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Die Arbeitslosenquote der Schweizer und Schweizerinnen liegt in Basel-Stadt im Jahr 2020 bei 2,9%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (8,8%), dem Balkan (7,8%) und der Türkei (7,6%) die höchsten Arbeitslosenquoten im Jahr 2020 auf. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (3,6%).",
+		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre 2010 bis 2014 und Pooling 2015-2019 für die Jahre ab 2015).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-04T15:38:46.4646",
+		"description": "Arbeitslosenquote nach Staatsangehörigkeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.6406",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C1-1",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Arbeitslosenquote der Schweizer liegt in Basel-Stadt im Jahr 2019 bei 2,2%. Bei den Ausländergruppen weisen Personen aus den afrikanischen Ländern (6,7%) und aus dem Balkan (6,4%) die höchsten Arbeitslosenquoten des Jahres 2019 auf. Die Quote der Personen aus den EU-Ost-Ländern liegt bei 5,3%. Von den dargestellten Ausländergruppen weisen die Deutschen die tiefste Quote auf (2,6%).",
-		"erlaeuterungen": "Um die Zuverlässigkeit der Berechnung der Arbeitslosenquote nach Ländergruppen zu erhöhen, sind hier im Nenner die Erwerbspersonen aus den gepoolten Daten der Strukturerhebungen verwendet worden (Pooling 2010-2014 für die Jahre bis 2014 und Pooling 2015-2017 für die Jahre ab 2015).",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"6682"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6406,
-		"chart-id": 6406,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-23T08:28:01",
 		"id": 6406
 	},
 	{
@@ -2241,44 +2233,42 @@ var indikatorensetData = [
 		"id": 6421
 	},
 	{
+		"template": "template001",
+		"data-id": 6422,
+		"chart-id": 6422,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6697
+		],
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
-		"kuerzel": "I.18.3.6422",
-		"kuerzelKunde": "C3-4",
-		"description": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
+		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 2020 sind es 87,1% beim unteren Kader und 95,9% beim oberen Kader. Beim mittleren Fachkader sind die Schweizerinnen mit 48,4% stärker vertreten als ihre männlichen Kollegen. Der Anteil der ausländischen Staatsangestellten mit Kaderfunktion liegt bei maximal 12,9% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,2% bei den Beschäftigten ohne Kaderfunktion am stärksten vertreten.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-05-28T18:35:06.066",
+		"description": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.6422",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-4",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 85,9% sind es 2019 beim «Unteren Kader» und 94,3% beim «Oberen Kader». Auffällig ist der mit 48,3% hohe Anteil der Schweizerinnen beim «Mittleren Fachkader». Umgekehrt liegt der Anteil der ausländischen Staatsangestellten mit Kaderfunktion maximal bei 14,1% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,1% bei den Beschäftigten «Ohne Kaderfunktion» am stärksten vertreten.",
-		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"template": "template001",
+		"orderKey": "03_00_00_00_00_304",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_304",
-		"parentId": null,
-		"children": [
-			"6697"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6422,
-		"chart-id": 6422,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-23T08:28:02",
 		"id": 6422
 	},
 	{

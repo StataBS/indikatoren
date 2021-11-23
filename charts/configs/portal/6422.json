@@ -6,27 +6,27 @@
       "data": [
         [
           "Oberes Kader",
-          94.3
+          95.9
         ],
         [
           "Mittleres Kader",
-          94.1
+          93.2
         ],
         [
           "Mittleres Fachkader",
-          89.7
+          89.3
         ],
         [
           "Unteres Kader",
-          85.9
+          87.1
         ],
         [
           "Unteres Fachkader",
-          90.9
+          89.5
         ],
         [
           "Ohne Kaderfunktion",
-          84.9
+          84.8
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Oberes Kader",
-          57.4
+          58.2
         ],
         [
           "Mittleres Kader",
-          55
+          52.9
         ],
         [
           "Mittleres Fachkader",
-          41.4
+          41
         ],
         [
           "Unteres Kader",
-          56
+          57.9
         ],
         [
           "Unteres Fachkader",
-          54.5
+          52.6
         ],
         [
           "Ohne Kaderfunktion",
-          31.7
+          31.8
         ]
       ],
       "name": "Schweizer",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Oberes Kader",
-          36.9
+          37.7
         ],
         [
           "Mittleres Kader",
-          39.1
+          40.3
         ],
         [
           "Mittleres Fachkader",
-          48.3
+          48.4
         ],
         [
           "Unteres Kader",
-          29.8
+          29.2
         ],
         [
           "Unteres Fachkader",
-          36.4
+          36.8
         ],
         [
           "Ohne Kaderfunktion",
-          53.2
+          53
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,27 +102,27 @@
       "data": [
         [
           "Oberes Kader",
-          5.7
+          4.1
         ],
         [
           "Mittleres Kader",
-          5.9
+          6.8
         ],
         [
           "Mittleres Fachkader",
-          10.3
+          10.7
         ],
         [
           "Unteres Kader",
-          14.1
+          12.9
         ],
         [
           "Unteres Fachkader",
-          9.1
+          10.5
         ],
         [
           "Ohne Kaderfunktion",
-          15.1
+          15.2
         ]
       ],
       "name": "Ausland",
@@ -134,27 +134,27 @@
       "data": [
         [
           "Oberes Kader",
-          2.5
+          1.6
         ],
         [
           "Mittleres Kader",
-          4.1
+          4.9
         ],
         [
           "Mittleres Fachkader",
-          5.2
+          4.9
         ],
         [
           "Unteres Kader",
-          7.9
+          6.4
         ],
         [
           "Unteres Fachkader",
-          2.6
+          5.3
         ],
         [
           "Ohne Kaderfunktion",
-          5.9
+          6.1
         ]
       ],
       "name": "Ausländer",
@@ -166,27 +166,27 @@
       "data": [
         [
           "Oberes Kader",
-          3.3
+          2.5
         ],
         [
           "Mittleres Kader",
-          1.8
+          1.9
         ],
         [
           "Mittleres Fachkader",
-          5.2
+          5.7
         ],
         [
           "Unteres Kader",
-          6.3
+          6.4
         ],
         [
           "Unteres Fachkader",
-          6.5
+          5.3
         ],
         [
           "Ohne Kaderfunktion",
-          9.2
+          9.1
         ]
       ],
       "name": "Ausländerinnen",
@@ -271,7 +271,7 @@
     "text": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2019",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -328,13 +328,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-28"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 6422
+    "filename": "6422"
   }
 }

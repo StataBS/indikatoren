@@ -117,25 +117,25 @@
 		colorAxis: {
 			dataClassColor: 'category',
 			dataClasses: [{
-				from: 0.000,
-				to: 0.249,
+				from: 0.0000,
+				to: 0.2999,
 				color: '#D3E2E4',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 25,0"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 30,0"
 			}, {
-				from: 0.250,
-				to: 0.399,
+				from: 0.3000,
+				to: 0.3999,
 				color: '#A8C3CA',
-				name: "25,0 − 39,9"
+				name: "30,0 − 39,9"
 			}, {
-				from: 0.400,
-				to: 0.599,
+				from: 0.4000,
+				to: 0.5499,
 				color: '#689199',
-				name: "40,0 − 59,9"
+				name: "40,0 − 54,9"
 			}, {
-				from: 0.600,
-				to: 0.699,
+				from: 0.5500,
+				to: 0.6999,
 				color: '#246370',
-				name: "60,0 − 69,9"
+				name: "55,0 − 69,9"
 			}, {
 				from: 0.700,
 				color: '#083038',

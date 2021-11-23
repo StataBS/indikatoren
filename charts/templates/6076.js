@@ -19,7 +19,9 @@
         }
   },
   "yAxis": {
+    tickInterval: 500,
     "labels": {
+      max: 2500,
       "format": "{value:,.0f}",
     }
   },
@@ -35,7 +37,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemDistance: 0,
+    itemDistance: 10,
     itemMarginBottom: 2,
     "itemStyle": {
     "fontWeight": "normal"
@@ -55,6 +57,8 @@
     {"color":"#999999", "index": 1,legendIndex: 10, "marker": {"enabled": false}}, //
   ],  
   "tooltip": {
+    "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>',
+    "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
     //"shared": true
   },
 };

@@ -5,43 +5,43 @@
       "data": [
         [
           "Deutschland",
-          16380
+          16648
         ],
         [
           "Italien",
-          8651
+          8785
         ],
         [
           "Türkei",
-          6056
+          5951
         ],
         [
-          "EU-17 + EFTA",
-          15983
+          "EU-West + EFTA + UK",
+          16501
         ],
         [
           "EU-Ost",
-          4462
+          5511
         ],
         [
           "Balkan",
-          7962
+          7002
         ],
         [
           "Mittel- und Südamerika",
-          1831
+          1900
         ],
         [
           "Arabische Länder",
-          1625
+          1717
         ],
         [
           "Afrikanische Länder",
-          1889
+          1981
         ],
         [
           "Übrige Länder",
-          8476
+          8699
         ]
       ],
       "turboThreshold": 0
@@ -113,7 +113,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2019",
+    "text": "Basel-Stadt, 2020",
     "align": "left"
   },
   "tooltip": {
@@ -134,7 +134,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
   },
   "legend": {
     "layout": "vertical",
@@ -151,6 +151,6 @@
     }
   },
   "exporting": {
-    "filename": 6060
+    "filename": "6060"
   }
 }
