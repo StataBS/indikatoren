@@ -493,126 +493,120 @@ var indikatorensetData = [
 		"id": 7675
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.18.2.07676",
-		"kuerzelKunde": "3.06",
-		"description": "Mittelwert und Median des Reineinkommens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2017 bei rund 78 600 Franken, der Median bei 62 000 Franken. Es liegen dort aktuell 968 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 44 700 Franken, der Median 37 800 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2017 insgesamt 2 379 (2005: 2 443).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"7914"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7676,
 		"chart-id": 7676,
 		"filter": "",
-		"id": 7676
-	},
-	{
-		"title": "Mittelwert und Median des Reinvermögens",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.18.2.07677",
-		"kuerzelKunde": "3.07",
-		"description": "Mittelwert und Median des Reinvermögens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7914
+		],
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reineinkommens im Jahr 2018 bei rund 78 300 Franken, der Median bei 61 900 Franken. Es liegen dort aktuell 1 044 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 44 900 Franken, der Median 38 100 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 441 (2005: 2 443).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:04.044",
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07676",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.06",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2017 bei rund 132 800 Franken, der Median bei 23 600 Franken. Es liegen dort akutell 968 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert 68 900 Franken, der Median 1 530 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2017 insgesamt 2 379 (2005: 2 443).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"7915"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-11-24T08:43:34",
+		"id": 7676
+	},
+	{
+		"template": "line001",
 		"data-id": 7677,
 		"chart-id": 7677,
 		"filter": "",
-		"id": 7677
-	},
-	{
-		"title": "Steuerertrag durch Zu- und Wegzüger",
-		"subtitle": "in Fr., Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.18.2.07678",
-		"kuerzelKunde": "3.08",
-		"description": "Steuerertrag durch Zu- und Wegzüger",
+		"parentId": null,
+		"children": [
+			7915
+		],
+		"title": "Mittelwert und Median des Reinvermögens",
+		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Im Bezirk Erlenmatt liegt der Mittelwert des Reinvermögens im Jahr 2018 bei rund 134 400 Franken, der Median bei 21 600 Franken. Es liegen dort akutell 1 044 Veranlagungen vor. Im Jahr 2005 waren es nur 74 Veranlagungen. Im Bezirk Messe beträgt der Mittelwert rund 65 500 Franken, der Median ca. 2 100 Franken. Hier ist die Zahl der Veranlagungen deutlich höher und beträgt 2018 insgesamt 2 441 (2005: 2 443).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige und ohne Wochenaufenthalter.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Mittelwert und Median des Reinvermögens",
 		"thema": "18 Öffentliche Finanzen",
 		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07677",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2020-07-14T18:16:57.5757",
+		"kuerzelKunde": "3.07",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verloren ging. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
-		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"7916"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-11-24T08:43:34",
+		"id": 7677
+	},
+	{
+		"template": "line001",
 		"data-id": 7678,
 		"chart-id": 7678,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7916
+		],
+		"title": "Steuerertrag durch Zu- und Wegzüger",
+		"subtitle": "in Franken, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Sowohl im Bezirk Messe als auch im Bezirk Erlenmatt sind in fast allen Jahren durch die Zuzüger mehr Steuereinnahmen erzielt worden, als durch die Wegzüger verloren gingen. Beim Bezirk Erlenmatt kamen durch die neuen Wohnbauten entsprechend mehr Einwohner hinzu. Dies zeigt zum Beispiel der hohe Ertrag von Zuzügern im Jahr 2015 (148 Zuzüger gegenüber 17 Wegzügern).",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Steuerertrag durch Zu- und Wegzüger",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07678",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.08",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-24T08:43:35",
 		"id": 7678
 	},
 	{

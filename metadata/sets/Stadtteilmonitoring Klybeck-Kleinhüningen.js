@@ -328,44 +328,42 @@ var indikatorensetData = [
 		"id": 8052
 	},
 	{
+		"template": "template001",
+		"data-id": 8053,
+		"chart-id": 8053,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8623
+		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.01.2.07672",
-		"kuerzelKunde": "4.01",
-		"description": "Haushalte nach Art des Haushalts",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2020: 48% gegenüber 42%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2020: 49% gegenüber 41%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2020 bei 47%, Familienhaushalte machen 40% aus. Andere Haushaltsformen sind mit 13% vertreten.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:22:40.4040",
+		"description": "Haushalte nach Art des Haushalts",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.07672",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur weist in beiden Wohnvierteln in den letzten Jahren keine grossen Veränderungen auf. Der Anteil Einpersonenhaushalte ist im Wohnviertel Klybeck höher als im Wohnviertel Kleinhüningen (2019: 47% gegenüber 42%). Andererseits weisen Familienhaushalte im Wohnviertel Kleinhüningen einen höheren Anteil auf als im Wohnviertel Klybeck (2018: 49% gegenüber 42%). In der Stadt Basel liegt der Anteil Einpersonenhaushalte 2019 bei 48%, Familienhaushalte machen 39% aus. Andere Haushaltsformen sind mit 13% vertreten.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe «Andere Haushalte» umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8623"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8053,
-		"chart-id": 8053,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:35",
 		"id": 8053
 	},
 	{
@@ -490,126 +488,120 @@ var indikatorensetData = [
 		"id": 8056
 	},
 	{
-		"title": "Mittelwert und Median des Reineinkommens",
-		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.18.2.07676",
-		"kuerzelKunde": "3.06",
-		"description": "Mittelwert und Median des Reineinkommens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Steuerjahr 2016 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 46 000 Franken (Median: 41 400), der Mittelwert für Klybeck liegt bei 41 700 Franken (Median: 36 800). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck etwas zurück. In der Stadt Basel beträgt der Mittelwert 2016 rund 66 800 Franken (Median: 48 100).",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Quellenbesteuerte mit Einkünften von unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8627"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8057,
 		"chart-id": 8057,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8627
+		],
+		"title": "Mittelwert und Median des Reineinkommens",
+		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Im Steuerjahr 2018 beträgt der Mittelwert des Reineinkommens im Wohnviertel Kleinhüningen rund 45 200 Franken (Median: 39 900), der Mittelwert für Klybeck liegt bei 42 100 Franken (Median: 36 500). Während die Werte in Kleinhüningen über die Jahre relativ konstant blieben, gingen sie im Wohnviertel Klybeck tendenziell etwas zurück. In der Stadt Basel beträgt der Mittelwert 2018 rund 66 900 Franken (Median: 48 500).",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Quellenbesteuerte mit Einkünften von unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Mittelwert und Median des Reineinkommens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07676",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.06",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_006",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-24T08:43:33",
 		"id": 8057
 	},
 	{
-		"title": "Mittelwert und Median des Reinvermögens",
-		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.18.2.07677",
-		"kuerzelKunde": "3.07",
-		"description": "Mittelwert und Median des Reinvermögens",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-02-19T19:40:50.5050",
-		"stufe1": "3 Erwerbsleben und Steuern",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind in den Wohnvierteln Kleinhüningen und Klybeck über die Jahre überwiegend gestiegen. 2016 beträgt der Mittelwert für Kleinhüningen rund 71 000 Franken, der Median ca. 3 800. Die Werte für Klybeck liegen etwas tiefer - der Mittelwert bei 60 400 Franken, der Median bei knapp unter 2 000 Franken. Für die Stadt Basel liegt der Mittelwert bei 441 100 und der Median bei 16 400 Franken.",
-		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Quellenbesteuerte mit Einkünften von unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"8628"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8058,
 		"chart-id": 8058,
 		"filter": "",
-		"id": 8058
-	},
-	{
-		"title": "Steuerertrag durch Zu- und Wegzüger",
-		"subtitle": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.18.2.07678",
-		"kuerzelKunde": "3.08",
-		"description": "Steuerertrag durch Zu- und Wegzüger",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"parentId": null,
+		"children": [
+			8628
+		],
+		"title": "Mittelwert und Median des Reinvermögens",
+		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "Die Werte für Mittelwert und Median des Reinvermögens sind in den Wohnvierteln Kleinhüningen und Klybeck über die Jahre überwiegend gestiegen. 2018 beträgt der Mittelwert für Kleinhüningen rund 70 300 Franken, der Median ca. 2 900 Franken. Die Werte für Klybeck liegen etwas tiefer - der Mittelwert bei 68 100 Franken, der Median bei ca. 2 400 Franken. Für die Stadt Basel liegt der Mittelwert bei 388 700 und der Median bei 16 900 Franken.",
+		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen (ordentliche Veranlagung); ohne Auswärtige und ohne Wochenaufenthalter. Quellenbesteuerte mit Einkünften von unter 120 000 Franken im Kalenderjahr sind in der Regel in den Auswertungen nicht enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:22:37.3737",
+		"description": "Mittelwert und Median des Reinvermögens",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07677",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.07",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2017 ergab sich für Klybeck rechnerisch ein Gewinn von rund 8 600 Franken (bei 158 Weg- und 145 Zuzügern), in Kleinhüningen ein Verlust von ca. 8 200 Franken (bei 59 Weg- und 53 Zuzügern).",
-		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_008",
-		"parentId": null,
-		"children": [
-			"8629"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-11-24T08:43:34",
+		"id": 8058
+	},
+	{
+		"template": "line001",
 		"data-id": 8059,
 		"chart-id": 8059,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8629
+		],
+		"title": "Steuerertrag durch Zu- und Wegzüger",
+		"subtitle": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
+		"lesehilfe": "In den meisten Jahren ist der Saldo aus dem Steuerertrag der Zuzüger und dem Steuerertrag der Wegzüger (des Vorjahres) in den Wohnvierteln Klybeck und Kleinhüningen negativ. Im Jahr 2018 ergab sich für Klybeck rechnerisch ein Gewinn von rund 245 000 Franken (bei 115 Weg- und 151 Zuzügern), in Kleinhüningen ein Verlust von ca. 28 000 Franken (bei 49 Weg- und 45 Zuzügern).",
+		"erlaeuterungen": "Beim Steuerverfahren der ordentlichen Veranlagung ist für die kantonale Steuerpflicht der Wohnsitz am 31. Dezember massgebend. Es liegen daher im Wegzugskanton in der Regel keine Steuerdaten für das Jahr des Wegzugs vor. Deshalb ist für Wegziehende jeweils der Steuerertrag des Vorjahres abgebildet. Für die Zugezogenen und die ganzjährig Niedergelassenen werden die Steuerdaten des Berichtsjahres verwendet. <br>Aufgrund verschiedener methodischer Besonderheiten sind quellenbesteuerte Personen in dieser Auswertung zunächst nicht berücksichtig. Erst wenn sie nachträglich ordentlich veranlagt werden (zum Beispiel bei Einkünften von mehr als 120 000 Franken pro Jahr) oder die Niederlassungsbewilligung erhalten und deshalb ins ordentliche Verfahren wechseln, werden sie als Zuzug gezählt und in die Auswertung miteinbezogen – auch wenn sie schon länger im Kanton wohnhaft sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Steuerertrag durch Zu- und Wegzüger",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.07678",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.08",
+		"stufe1": "3 Erwerbsleben und Steuern",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-24T08:43:34",
 		"id": 8059
 	},
 	{
@@ -695,44 +687,42 @@ var indikatorensetData = [
 		"id": 8061
 	},
 	{
+		"template": "line001",
+		"data-id": 8062,
+		"chart-id": 8062,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8632
+		],
 		"title": "Wohnfläche pro Person",
 		"subtitle": "in m<sup>2</sup>, Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07681",
-		"kuerzelKunde": "4.02",
-		"description": "Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen ist die beanspruchte Wohnfläche pro Person deutlich geringer als im städtischen Durchschnitt.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-09T17:30:08.088",
+		"description": "Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07681",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.02",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Kleinhüningen ist die beanspruchte Wohnfläche pro Person deutlich geringer als im städtischen Durchschnitt.",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"8632"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8062,
-		"chart-id": 8062,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:35",
 		"id": 8062
 	},
 	{
@@ -777,44 +767,42 @@ var indikatorensetData = [
 		"id": 8063
 	},
 	{
+		"template": "line001",
+		"data-id": 8064,
+		"chart-id": 8064,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8634
+		],
 		"title": "Nettomietpreise nach Wohnviertel",
-		"subtitle": "in Fr. pro m<sup>2</sup>, Basel-Stadt, 2015-2017",
-		"kuerzel": "I.09.3.07683",
-		"kuerzelKunde": "4.06",
-		"description": "Nettomietpreise nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"subtitle": "in Franken pro m<sup>2</sup>, Basel-Stadt, 2015-2019",
+		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Klybeck bei 16,6 und im Wohnvierteil Kleinhüningen bei 16,0 Franken. Im Durchschnitt liegt die Nettomiete pro m<sup>2</sup> in der Stadt Basel bei 17,4 Franken.",
+		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-02-19T19:40:51.5151",
+		"description": "Nettomietpreise nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.07683",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.06",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettomiete pro m<sup>2</sup> von 3- und 4-Zimmer-Wohnungen liegt in den Wohnvierteln Klybeck und Kleinhüningen unter 16 Franken. Im Durchschnitt liegt die Nettomiete pro m<sup>2</sup> in der Stadt Basel bei ungefähr 17 Franken.",
-		"erlaeuterungen": "Der m<sup>2</sup>-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2017 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese drei Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_006",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"8634"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8064,
-		"chart-id": 8064,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:36",
 		"id": 8064
 	},
 	{
@@ -941,44 +929,42 @@ var indikatorensetData = [
 		"id": 8067
 	},
 	{
+		"template": "template001",
+		"data-id": 8068,
+		"chart-id": 8068,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8638
+		],
 		"title": "Genossenschaftswohnungen",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07687",
-		"kuerzelKunde": "4.10",
-		"description": "Genossenschaftswohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen signifikant höher als im Wohnviertel Klybeck.",
+		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-09T17:30:09.099",
+		"description": "Genossenschaftswohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07687",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.10",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen ist im Wohnviertel Kleinhüningen signifikant höher als im Wohnviertel Klybeck.",
-		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_010",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"8638"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8068,
-		"chart-id": 8068,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:36",
 		"id": 8068
 	},
 	{
@@ -1105,45 +1091,43 @@ var indikatorensetData = [
 		"id": 8071
 	},
 	{
+		"template": "line001",
+		"data-id": 8072,
+		"chart-id": 8072,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8642
+		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.03.1.07691",
-		"kuerzelKunde": "3.04",
-		"description": "Nettoerwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 64,4%, im Wohnviertel Kleinhüningen bei 61,7%. Zum Vergleich: Die Quote für die Stadt Basel betrug 73,0%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-06T09:47:08.088",
+		"description": "Nettoerwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07691",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "3.04",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Klybeck lag die Nettoerwerbstätigenquote im Mittel der Jahre 2014 bis 2018 bei 63,0%, im Wohnviertel Kleinhüningen bei 64,4%. Zum Vergleich: Die Quote für die Stadt Basel betrug 73,3%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8642"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8072,
-		"chart-id": 8072,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:33",
 		"id": 8072
 	},
 	{

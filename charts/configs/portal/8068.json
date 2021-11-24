@@ -35,6 +35,10 @@
         [
           2019,
           470
+        ],
+        [
+          2020,
+          473
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Klybeck"
@@ -74,6 +78,10 @@
         [
           2019,
           294
+        ],
+        [
+          2020,
+          281
         ]
       ],
       "name": "Anzahl Genossenschaftswohnungen Kleinhüningen"
@@ -117,6 +125,10 @@
         [
           2019,
           13.4709085697908
+        ],
+        [
+          2020,
+          13.89133627019
         ]
       ],
       "name": "Anteil am Bestand Klybeck (rechte Skala)"
@@ -160,6 +172,10 @@
         [
           2019,
           23.3333333333333
+        ],
+        [
+          2020,
+          22.679580306698
         ]
       ],
       "name": "Anteil am Bestand Kleinhüningen (rechte Skala)"
@@ -314,7 +330,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "exporting": {
     "filename": "8068"

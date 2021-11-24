@@ -27,6 +27,10 @@
           null
         ],
         [
+          "  ",
+          null
+        ],
+        [
           "1996",
           16
         ],
@@ -121,6 +125,10 @@
         [
           "2019",
           12
+        ],
+        [
+          "2020",
+          12
         ]
       ],
       "name": "Anzahl Betriebe",
@@ -149,6 +157,10 @@
         ],
         [
           " ",
+          null
+        ],
+        [
+          "  ",
           null
         ],
         [
@@ -246,6 +258,10 @@
         [
           "2019",
           422.2
+        ],
+        [
+          "2020",
+          422.8
         ]
       ],
       "name": "Landwirtschaftliche Nutzfläche in Hektar (rechte Skala)",
@@ -424,7 +440,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Landwirtschaftliche Strukturerhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "tooltip": {
     "shared": false

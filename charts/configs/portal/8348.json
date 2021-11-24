@@ -85,6 +85,10 @@
         [
           "2018\u002F19",
           85.2
+        ],
+        [
+          "2019\u002F20",
+          84.2
         ]
       ],
       "name": "Diphtherie\u002FTetanus",
@@ -176,6 +180,10 @@
         [
           "2018\u002F19",
           79.4
+        ],
+        [
+          "2019\u002F20",
+          83.6
         ]
       ],
       "name": "Hepatitis B",
@@ -267,6 +275,10 @@
         [
           "2018\u002F19",
           96.8
+        ],
+        [
+          "2019\u002F20",
+          97.1
         ]
       ],
       "name": "Masern",
@@ -358,6 +370,10 @@
         [
           "2018\u002F19",
           93.8
+        ],
+        [
+          "2019\u002F20",
+          92.9
         ]
       ],
       "name": "Poliomyelitis",
@@ -448,6 +464,10 @@
         [
           "2018\u002F19",
           83.8
+        ],
+        [
+          "2019\u002F20",
+          82.2
         ]
       ],
       "name": "Pertussis",
@@ -538,6 +558,10 @@
         [
           "2018\u002F19",
           52.2
+        ],
+        [
+          "2019\u002F20",
+          58.9
         ]
       ],
       "name": "HPV",
@@ -559,7 +583,10 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "formatter": function () {
+			return this.value.replace('-', '/'); //workaround for Chrome which automatically replaces e.g. 2000/01 by 2000-01 (interprets it as year/month)
+		  }
     },
     "tickInterval": 1
   },
@@ -670,7 +697,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
+    "text": "Quelle: Gesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

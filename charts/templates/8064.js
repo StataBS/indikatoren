@@ -53,6 +53,7 @@ global Highcharts
         }
       }
     ],
+
     "colors": [
       "#73b97c",
       "#73b97c",
@@ -70,17 +71,11 @@ global Highcharts
       "#73b97c",
       "#73b97c",
       "#73b97c",
-      "#73b97c",
-      "#007a2f",
       "#007a2f",
       "#73b97c",
+      "#007a2f",
       "#73b97c",
-      "#73b97c",
-      "#73b97c",
-      "#73b97c",
-      "#73b97c",
-      "#73b97c"
-    ],
+      ],
     "xAxis": {
       "type": "category",
       "labels": {
