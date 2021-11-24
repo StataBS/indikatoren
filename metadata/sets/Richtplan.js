@@ -244,42 +244,40 @@ var indikatorensetData = [
 		"id": 5815
 	},
 	{
-		"parentId": 4135,
-		"children": [],
 		"template": "template001",
+		"data-id": 5816,
+		"chart-id": 4135,
+		"filter": "",
+		"parentId": "4135",
+		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "I.09.1.05816",
-		"kuerzelKunde": "ST 4-8",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-17T06:56:54.5454",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.05816",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-8",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 wurde wiederum eine hohe Neubauproduktion verzeichnet. Auffallend ist insbesondere auch der stark positive Umbausaldo.",
-		"erlaeuterungen": "",
+		"orderKey": "02_04_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_008",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5816,
-		"chart-id": 4135,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:37",
 		"id": 5816
 	},
 	{
@@ -904,45 +902,43 @@ var indikatorensetData = [
 		"id": 6218
 	},
 	{
+		"template": "line001",
+		"data-id": 6220,
+		"chart-id": 6220,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6264
+		],
 		"title": "Haushalte in Begegnungszonen",
 		"subtitle": "indexiert (2011 = 100), Basel",
-		"kuerzel": "I.01.2.6220",
-		"kuerzelKunde": "ST 5-4",
-		"description": "Haushalte in Begegnungszonen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2019 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2019 gibt es 8 080 Privathaushalte in Begegnungszonen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Planungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-16T09:01:02.022",
+		"description": "Haushalte in Begegnungszonen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.06220",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 5-4",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 5: Die Wohn- und Wohnumfeldqualitäten steigern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl Privathaushalte in Begegnungszonen ist von 2011 bis 2018 prozentual stärker angestiegen als das Total der Privathaushalte in der Stadt Basel. Dies ist in erster Linie auf die Ausweitung der Begegnungszonen zurückzuführen. Ende 2018 gibt es 7 670 Privathaushalte in Begegnungszonen.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "02_05_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_05_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"6264"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Planungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6220,
-		"chart-id": 6220,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:37",
 		"id": 6220
 	},
 	{

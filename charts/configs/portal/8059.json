@@ -57,6 +57,10 @@
         [
           2017,
           809162
+        ],
+        [
+          2018,
+          768852
         ]
       ],
       "name": "Zugezogene Klybeck"
@@ -118,6 +122,10 @@
         [
           2017,
           -800495
+        ],
+        [
+          2018,
+          -524255
         ]
       ],
       "name": "Weggezogene Klybeck"
@@ -179,6 +187,10 @@
         [
           2017,
           366831
+        ],
+        [
+          2018,
+          229876
         ]
       ],
       "name": "Zugezogene Kleinhüningen"
@@ -240,6 +252,10 @@
         [
           2017,
           -375013
+        ],
+        [
+          2018,
+          -257764
         ]
       ],
       "name": "Weggezogene Kleinhüningen"
@@ -310,6 +326,10 @@
         [
           2017,
           8667
+        ],
+        [
+          2018,
+          244597
         ]
       ],
       "name": "Saldo Klybeck"
@@ -384,6 +404,10 @@
         [
           2017,
           -8182
+        ],
+        [
+          2018,
+          -27888
         ]
       ],
       "name": "Saldo Kleinhüningen"
@@ -438,7 +462,7 @@
     "text": "Steuerertrag durch Zu- und Wegzüger"
   },
   "subtitle": {
-    "text": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -519,7 +543,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

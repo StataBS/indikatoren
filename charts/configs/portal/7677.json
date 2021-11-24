@@ -54,6 +54,10 @@
         [
           2017,
           68850.02
+        ],
+        [
+          2018,
+          65540.88
         ]
       ],
       "name": "Mittelwert Messe"
@@ -112,6 +116,10 @@
         [
           2017,
           1533
+        ],
+        [
+          2018,
+          2061
         ]
       ],
       "name": "Median Messe"
@@ -170,6 +178,10 @@
         [
           2017,
           132767.57
+        ],
+        [
+          2018,
+          134406.17
         ]
       ],
       "name": "Mittelwert Erlenmatt"
@@ -228,6 +240,10 @@
         [
           2017,
           23588
+        ],
+        [
+          2018,
+          21589
         ]
       ],
       "name": "Median Erlenmatt"
@@ -287,7 +303,7 @@
     "text": "Mittelwert und Median des Reinvermögens"
   },
   "subtitle": {
-    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
+    "text": "in Franken, Wohnviertel Rosental, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -357,7 +373,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -397,6 +413,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7677
+    "filename": "7677"
   }
 }

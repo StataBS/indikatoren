@@ -4,18 +4,6 @@
       "color": "#2f656b",
       "data": [
         [
-          "2010: Klybeck",
-          1515
-        ],
-        [
-          "2010: Kleinhüningen",
-          488
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011: Klybeck",
           1577
         ],
@@ -24,7 +12,7 @@
           509
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -36,7 +24,7 @@
           546
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -48,7 +36,7 @@
           539
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -60,7 +48,7 @@
           524
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -72,7 +60,7 @@
           519
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
@@ -84,7 +72,7 @@
           521
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
@@ -96,7 +84,7 @@
           538
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
@@ -108,7 +96,7 @@
           525
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -118,6 +106,18 @@
         [
           "2019: Kleinhüningen",
           534
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          1660
+        ],
+        [
+          "2020: Kleinhüningen",
+          522
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -127,18 +127,6 @@
       "color": "#73b97c",
       "data": [
         [
-          "2010: Klybeck",
-          1436
-        ],
-        [
-          "2010: Kleinhüningen",
-          550
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011: Klybeck",
           1521
         ],
@@ -147,7 +135,7 @@
           595
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -159,7 +147,7 @@
           626
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -171,7 +159,7 @@
           633
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -183,7 +171,7 @@
           646
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -195,7 +183,7 @@
           642
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
@@ -207,7 +195,7 @@
           640
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
@@ -219,7 +207,7 @@
           625
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
@@ -231,7 +219,7 @@
           632
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -241,6 +229,18 @@
         [
           "2019: Kleinhüningen",
           621
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          1397
+        ],
+        [
+          "2020: Kleinhüningen",
+          613
         ]
       ],
       "name": "Familienhaushalte",
@@ -250,18 +250,6 @@
       "color": "#d7e8d2",
       "data": [
         [
-          "2010: Klybeck",
-          276
-        ],
-        [
-          "2010: Kleinhüningen",
-          78
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011: Klybeck",
           372
         ],
@@ -270,7 +258,7 @@
           110
         ],
         [
-          "  ",
+          " ",
           null
         ],
         [
@@ -282,7 +270,7 @@
           125
         ],
         [
-          "   ",
+          "  ",
           null
         ],
         [
@@ -294,7 +282,7 @@
           127
         ],
         [
-          "    ",
+          "   ",
           null
         ],
         [
@@ -306,7 +294,7 @@
           121
         ],
         [
-          "     ",
+          "    ",
           null
         ],
         [
@@ -318,7 +306,7 @@
           130
         ],
         [
-          "      ",
+          "     ",
           null
         ],
         [
@@ -330,7 +318,7 @@
           126
         ],
         [
-          "       ",
+          "      ",
           null
         ],
         [
@@ -342,7 +330,7 @@
           115
         ],
         [
-          "        ",
+          "       ",
           null
         ],
         [
@@ -354,7 +342,7 @@
           114
         ],
         [
-          "         ",
+          "        ",
           null
         ],
         [
@@ -364,6 +352,18 @@
         [
           "2019: Kleinhüningen",
           105
+        ],
+        [
+          "         ",
+          null
+        ],
+        [
+          "2020: Klybeck",
+          384
+        ],
+        [
+          "2020: Kleinhüningen",
+          115
         ]
       ],
       "name": "Andere Haushalte",
@@ -509,13 +509,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 8053
+    "filename": "8053"
   }
 }

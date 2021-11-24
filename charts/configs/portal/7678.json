@@ -57,6 +57,10 @@
         [
           2017,
           658295
+        ],
+        [
+          2018,
+          762449
         ]
       ],
       "name": "Zugezogene Messe"
@@ -118,6 +122,10 @@
         [
           2017,
           -593526
+        ],
+        [
+          2018,
+          -562660
         ]
       ],
       "name": "Weggezogene Messe"
@@ -179,6 +187,10 @@
         [
           2017,
           986398
+        ],
+        [
+          2018,
+          952357
         ]
       ],
       "name": "Zugezogene Erlenmatt"
@@ -240,6 +252,10 @@
         [
           2017,
           -675138
+        ],
+        [
+          2018,
+          -730542
         ]
       ],
       "name": "Weggezogene Erlenmatt"
@@ -310,6 +326,10 @@
         [
           2017,
           64769
+        ],
+        [
+          2018,
+          199789
         ]
       ],
       "name": "Saldo Messe"
@@ -384,6 +404,10 @@
         [
           2017,
           311260
+        ],
+        [
+          2018,
+          221815
         ]
       ],
       "name": "Saldo Erlenmatt"
@@ -438,7 +462,7 @@
     "text": "Steuerertrag durch Zu- und Wegzüger"
   },
   "subtitle": {
-    "text": "in Fr., Wohnviertel Rosental, nach Bezirk",
+    "text": "in Franken, Wohnviertel Rosental, nach Bezirk",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -516,7 +540,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

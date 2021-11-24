@@ -515,44 +515,42 @@ var indikatorensetData = [
 		"id": 5178
 	},
 	{
+		"template": "line001",
+		"data-id": 5180,
+		"chart-id": 5180,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8897
+		],
 		"title": "Lebenserwartung bei Geburt",
 		"subtitle": "nach Geschlecht in Jahren, Basel-Stadt",
-		"kuerzel": "I.14.3.5180",
-		"kuerzelKunde": "GW3",
-		"description": "Lebenserwartung bei Geburt",
-		"thema": "14 Gesundheit",
-		"unterthema": "Sterblichkeit",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Lebenserwartung bei Geburt liegt für Frauen im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2020 liegen bei 84,5 Jahren (Frauen) und 80,7 Jahren (Männer).",
+		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-16T10:57:43.4343",
+		"description": "Lebenserwartung bei Geburt",
+		"thema": "14 Gesundheit",
+		"unterthema": "Sterblichkeit",
+		"kuerzel": "I.14.3.5180",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW3",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Gesundheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Lebenserwartung bei Geburt für Frauen liegt im gesamten Beobachtungszeitraum über derjenigen der Männer. Die Werte für 2019 liegen bei 84,5 Jahren (Frauen) und 80,9 Jahren (Männer).",
-		"erlaeuterungen": "Die Lebenserwartung bei Geburt entspricht der durchschnittlichen Zahl der zu erwartenden Lebensjahre eines Neugeborenen unter der Voraussetzung, dass die altersspezifischen Sterblichkeitsverhältnisse eines bestimmten Kalenderjahres während des ganzen Lebens konstant bleiben.",
-		"template": "line001",
+		"orderKey": "03_02_00_00_00_304",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_02_00_00_00_304",
-		"parentId": null,
-		"children": [
-			"8897"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5180,
-		"chart-id": 5180,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:37",
 		"id": 5180
 	},
 	{
@@ -2505,42 +2503,40 @@ var indikatorensetData = [
 		"id": 6574
 	},
 	{
+		"template": "line001",
+		"data-id": 6592,
+		"chart-id": 6058,
+		"filter": "",
+		"parentId": "6058",
+		"children": [],
 		"title": "Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06592",
-		"kuerzelKunde": "BE5",
-		"description": "Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Ende 2020 lebten im Kanton Basel-Stadt 127 276 Schweizerinnen und Schweizer und 74 695 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2001 um 22 171 gestiegen ist, ist die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 7 636 gesunken.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-03T12:19:49.4949",
+		"description": "Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06592",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE5",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 lebten im Kanton Basel-Stadt 127 092 Schweizerinnen und Schweizer und 73 315 Ausländerinnen und Ausländer. Während die Zahl der ausländischen Personen seit Ende 2000 um 21 468 anstieg, sank die Anzahl Personen mit Schweizer Staatsangehörigkeit im gleichen Zeitraum um 9 212.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_01_00_00_00_105",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_105",
-		"parentId": 6058,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6592,
-		"chart-id": 6058,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-24T08:43:36",
 		"id": 6592
 	},
 	{

@@ -9,10 +9,6 @@
       "legendIndex": 1,
       "data": [
         [
-          2000,
-          51847
-        ],
-        [
           2001,
           52524
         ],
@@ -87,6 +83,10 @@
         [
           2019,
           73315
+        ],
+        [
+          2020,
+          74695
         ]
       ],
       "name": "Ausländer"
@@ -99,10 +99,6 @@
       },
       "legendIndex": 0,
       "data": [
-        [
-          2000,
-          136304
-        ],
         [
           2001,
           134912
@@ -178,6 +174,10 @@
         [
           2019,
           127092
+        ],
+        [
+          2020,
+          127276
         ]
       ],
       "name": "Schweizer"
@@ -313,7 +313,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

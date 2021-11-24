@@ -1,7 +1,12 @@
 (function(){
     return {
   "xAxis": {
-    "tickInterval":1
+    "tickInterval":1,
+    "labels": {
+		  formatter: function () {
+			return this.value.replace('-', '/'); //workaround for Chrome which automatically replaces e.g. 2000/01 by 2000-01 (interprets it as year/month)
+		  }
+		}
   },
   "yAxis": {
     "min": 0,

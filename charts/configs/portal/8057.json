@@ -50,6 +50,14 @@
         [
           2016,
           41703
+        ],
+        [
+          2017,
+          41569
+        ],
+        [
+          2018,
+          42095
         ]
       ],
       "name": "Mittelwert Klybeck"
@@ -104,6 +112,14 @@
         [
           2016,
           36802.5
+        ],
+        [
+          2017,
+          36178
+        ],
+        [
+          2018,
+          36481
         ]
       ],
       "name": "Median Klybeck"
@@ -158,6 +174,14 @@
         [
           2016,
           46046
+        ],
+        [
+          2017,
+          45664
+        ],
+        [
+          2018,
+          45220
         ]
       ],
       "name": "Mittelwert Kleinhüningen"
@@ -212,6 +236,14 @@
         [
           2016,
           41368
+        ],
+        [
+          2017,
+          40315
+        ],
+        [
+          2018,
+          39860
         ]
       ],
       "name": "Median Kleinhüningen"
@@ -271,7 +303,7 @@
     "text": "Mittelwert und Median des Reineinkommens"
   },
   "subtitle": {
-    "text": "in Fr., Wohnviertel Klybeck und Kleinhüningen",
+    "text": "in Franken, Wohnviertel Klybeck und Kleinhüningen",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -341,7 +373,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-2-19"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -381,6 +413,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f} Fr.\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8057
+    "filename": "8057"
   }
 }
