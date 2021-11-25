@@ -28,7 +28,7 @@ global Highcharts
                 }],*/
      plotLines: [{
                     value: 0,
-                    color: 'white',
+                    color: '#B9CFD7',
                     width: 2,
                     zIndex: 4 //series have zIndex 3 by default
                 }],

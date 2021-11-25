@@ -161,83 +161,79 @@ var indikatorensetData = [
 		"id": 5148
 	},
 	{
-		"title": "Geburtenziffer",
-		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.3.05149",
-		"kuerzelKunde": "BE7",
-		"description": "Geburtenziffer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Geburten und Todesfälle",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-10-29T14:43:16.1616",
-		"stufe1": "Bereich Bevölkerung",
-		"stufe2": "Bevölkerung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die rohe Geburtenziffer hat in den vergangenen zehn Jahren leicht von 10,0 auf 10,3 zugenommen.",
-		"erlaeuterungen": "Lebendgeborene auf 1000 Einwohner der mittleren Wohnbevölkerung.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_01_00_00_00_107",
-		"parentId": null,
-		"children": [
-			"8886"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 5149,
 		"chart-id": 5149,
 		"filter": "",
-		"id": 5149
-	},
-	{
-		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"parentId": null,
+		"children": [
+			8886
+		],
+		"title": "Geburtenziffer",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.5.05155",
-		"kuerzelKunde": "BE8.1",
-		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die rohe Geburtenziffer lag 2016 noch bei 11,0 und hat seither auf 9,9 im Jahr 2020 abgenommen.",
+		"erlaeuterungen": "Rohe Geburtenziffer: Lebendgeborene je 1000 Einwohner der mittleren Wohnbevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-08-31T15:41:50.5050",
+		"description": "Geburtenziffer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Geburten und Todesfälle",
+		"kuerzel": "I.01.3.05149",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE7",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 zogen 14 013 Personen neu in den Kanton Basel-Stadt. Betrachtet man die vergangenen zehn Jahre, wurden 2013 die meisten Neuzuzüger – nämlich 15 236 – registriert. 12 799 Personen verliessen den Kanton im Jahr 2019. 2016 wurde mit 13 947 Weggezogenen der Zehnjahreshöchststand erreicht. Der Wanderungssaldo fiel zwischen 2010 und 2019 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück.",
-		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
-		"template": "template001",
+		"orderKey": "01_01_00_00_00_107",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_01_00_00_00_108",
-		"parentId": 6011,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-11-25T08:56:01",
+		"id": 5149
+	},
+	{
+		"template": "template001",
 		"data-id": 5155,
 		"chart-id": 5155,
 		"filter": "",
+		"parentId": "6011",
+		"children": [],
+		"title": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2020 zogen 13 480 Personen neu in den Kanton Basel-Stadt. Dies ist der niedrigste Wert der letzten zehn Jahre. 12 524 Personen verliessen den Kanton im Jahr 2020. Letztmals weniger Weggezogene wurden 2012 - nämlich 12 441 - registriert. Der Wanderungssaldo fiel zwischen 2011 und 2020 stets positiv aus und ging jeweils einzig auf die Zuwanderung aus dem Ausland zurück. Im Vergleich zum Jahr 2019 hat die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und der Nordwestschweiz sowie der übrigen Schweiz zugenommen, während die Zahl der Wanderungsbewegungen zwischen Basel-Stadt und dem Ausland zurückgegangen ist.",
+		"erlaeuterungen": "Nordwestschweiz: Kanton Basel-Landschaft, Bezirke Dorneck und Thierstein des Kantons Solothurn sowie Bezirke Laufenburg und Rheinfelden einschliesslich der Gemeinden Bözen, Effingen und Elfingen des Kantons Aargau.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Zu- und Weggezogene nach Zuzugsort und Wegzugsort",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE8.1",
+		"stufe1": "Bereich Bevölkerung",
+		"stufe2": "Bevölkerung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_01_00_00_00_108",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-11-25T08:56:01",
 		"id": 5155
 	},
 	{
@@ -1949,44 +1945,42 @@ var indikatorensetData = [
 		"id": 6043
 	},
 	{
+		"template": "line001",
+		"data-id": 6045,
+		"chart-id": 6045,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8934
+		],
 		"title": "Bruttoinlandprodukt in Franken pro Einwohner",
 		"subtitle": "Basel-Stadt im Vergleich mit ausgewählten Kantonen",
-		"kuerzel": "I.04.1.06045",
-		"kuerzelKunde": "WE1",
-		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2019 beträgt es rund 204 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die Werte der übrigen Kantone verlaufen etwas konstanter.",
+		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-01T17:04:16.1616",
+		"description": "Bruttoinlandprodukt in Franken pro Einwohner",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.06045",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE1",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Bruttoinlandprodukt pro Kopf ist in Basel-Stadt seit 1999 stark gestiegen. 2018 beträgt es fast 191 000 Franken. Relativ hohe Werte (Niveau und Wachstum) verzeichnet auch der Kanton Zug. Die übrigen Kantone verlaufen etwas konstanter.",
-		"erlaeuterungen": "Daten der BAK Economics AG, Berechnungen aus verschiedenen Quellen. Wichtige Grundlage ist die Volkswirtschaftliche Gesamtrechnung.",
-		"template": "line001",
+		"orderKey": "06_01_00_00_00_601",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_01_00_00_00_601",
-		"parentId": null,
-		"children": [
-			"8934"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6045,
-		"chart-id": 6045,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-25T08:56:01",
 		"id": 6045
 	},
 	{
