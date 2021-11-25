@@ -8,10 +8,6 @@
       "zIndex": 5,
       "data": [
         [
-          2010,
-          179
-        ],
-        [
           2011,
           178
         ],
@@ -46,6 +42,10 @@
         [
           2019,
           115
+        ],
+        [
+          2020,
+          65
         ]
       ],
       "name": "Zuzugsort: unbekannt"
@@ -56,10 +56,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2010,
-          7482
-        ],
         [
           2011,
           8016
@@ -95,6 +91,10 @@
         [
           2019,
           7973
+        ],
+        [
+          2020,
+          7056
         ]
       ],
       "name": "Zuzugsort: Ausland"
@@ -105,10 +105,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          2959
-        ],
         [
           2011,
           2959
@@ -144,6 +140,10 @@
         [
           2019,
           2795
+        ],
+        [
+          2020,
+          3141
         ]
       ],
       "name": "Zuzugsort: übrige Schweiz"
@@ -154,10 +154,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2010,
-          2969
-        ],
         [
           2011,
           3172
@@ -193,6 +189,10 @@
         [
           2019,
           3130
+        ],
+        [
+          2020,
+          3218
         ]
       ],
       "name": "Zuzugsort: Nordwestschweiz"
@@ -203,10 +203,6 @@
       "pointWidth": "15",
       "legendIndex": 0,
       "data": [
-        [
-          2010,
-          -2599
-        ],
         [
           2011,
           -1406
@@ -242,6 +238,10 @@
         [
           2019,
           -714
+        ],
+        [
+          2020,
+          -736
         ]
       ],
       "name": "Wegzugsort: unbekannt"
@@ -252,10 +252,6 @@
       "pointWidth": "15",
       "legendIndex": 1,
       "data": [
-        [
-          2010,
-          -4077
-        ],
         [
           2011,
           -4331
@@ -291,6 +287,10 @@
         [
           2019,
           -4842
+        ],
+        [
+          2020,
+          -3984
         ]
       ],
       "name": "Wegzugsort: Ausland"
@@ -301,10 +301,6 @@
       "pointWidth": "15",
       "legendIndex": 2,
       "data": [
-        [
-          2010,
-          -2725
-        ],
         [
           2011,
           -2691
@@ -340,6 +336,10 @@
         [
           2019,
           -2878
+        ],
+        [
+          2020,
+          -3063
         ]
       ],
       "name": "Wegzugsort: übrige Schweiz"
@@ -350,10 +350,6 @@
       "pointWidth": "15",
       "legendIndex": 4,
       "data": [
-        [
-          2010,
-          -3925
-        ],
         [
           2011,
           -4229
@@ -389,6 +385,10 @@
         [
           2019,
           -4365
+        ],
+        [
+          2020,
+          -4741
         ]
       ],
       "name": "Wegzugsort: Nordwestschweiz"
@@ -401,10 +401,6 @@
       },
       "legendIndex": 4,
       "data": [
-        [
-          2010,
-          263
-        ],
         [
           2011,
           1668
@@ -440,6 +436,10 @@
         [
           2019,
           1214
+        ],
+        [
+          2020,
+          956
         ]
       ],
       "name": "Saldo"
@@ -572,7 +572,7 @@
     "plotLines": [
       {
         "value": 0,
-        "color": "white",
+        "color": "#B9CFD7",
         "width": 2,
         "zIndex": 4
       }
@@ -611,7 +611,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

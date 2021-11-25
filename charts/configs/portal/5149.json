@@ -51,6 +51,10 @@
         [
           2019,
           10.32
+        ],
+        [
+          2020,
+          9.92
         ]
       ],
       "name": "Total"
@@ -173,7 +177,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-25"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -210,7 +214,8 @@
 			}
   },
   "tooltip": {
-    "valueDecimals": 1
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E Geburtenziffer: \u003Cb\u003E{point.y:,.1f} \u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "shared": false
   },
   "exporting": {
     "filename": "5149"
