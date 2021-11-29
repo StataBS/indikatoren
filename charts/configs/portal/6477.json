@@ -1,7 +1,7 @@
 {
   "series": [
     {
-      "name": "PersonenproWohnung",
+      "name": "Personen pro Wohnung",
       "data": [
         [
           "Schweiz",
@@ -17,35 +17,35 @@
         ],
         [
           "Türkei",
-          2.57
+          2.54
         ],
         [
-          "EU-17 + EFTA",
-          2.06
+          "EU-West + EFTA + UK",
+          2.04
         ],
         [
           "EU-Ost",
-          2.01
+          2
         ],
         [
           "Balkan",
-          2.72
+          2.79
         ],
         [
           "Mittel- und Südamerika",
-          2.14
+          2.09
         ],
         [
           "Arabische Länder",
-          2.6
+          2.53
         ],
         [
           "Afrikanische Länder",
-          2.42
+          2.37
         ],
         [
           "Übrige Länder",
-          2.28
+          2.34
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Mittlere Anzahl Personen pro Haushalt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2019",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -186,7 +186,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-29"
   },
   "colors": [
     "#b00000",

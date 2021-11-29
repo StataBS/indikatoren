@@ -80,44 +80,42 @@ var indikatorensetData = [
 		"id": 7665
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 7666,
+		"chart-id": 7666,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7904
+		],
 		"title": "Wohnbevölkerung nach Alter und Geschlecht",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2019",
-		"kuerzel": "I.01.1.07666",
-		"kuerzelKunde": "2.02",
-		"description": "Wohnbevölkerung nach Alter und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk, 2020",
+		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2020 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
+		"description": "Wohnbevölkerung nach Alter und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07666",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.02",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Bezirken Messe und Erlenmatt sind die Fünfjahresgruppen der 25- bis 29-Jährigen, der 30- bis 34-Jährigen und der 35- bis 39-Jährigen am stärksten besetzt. Dies ist auch im Gesamtkanton so, allerdings ist das Phänomen in den beiden Bezirken des Rosentalviertels ausgeprägter: Ende 2019 waren im Bezirk Messe 36% der Männer und 33% der Frauen zwischen 25 und 39 Jahre alt und im Bezirk Erlenmatt 42% der Männer und 41% der Frauen. Im Kanton Basel-Stadt gehörten 26% der Männer und 25% der Frauen dieser Altersgruppe an.",
-		"erlaeuterungen": "",
-		"template": "populationPyramid001",
+		"orderKey": "02_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7904"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7666,
-		"chart-id": 7666,
-		"filter": "",
+		"aktualisierungsdatum": "2021-11-29T08:02:53",
 		"id": 7666
 	},
 	{

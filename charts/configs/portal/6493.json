@@ -318,23 +318,22 @@
                     }
                 }
     },
-    "renderTo": "container-6493",
-    "marginBottom": 130,
     "type": "column",
-    "inverted": false,
+    "marginBottom": 135,
+    "renderTo": "container-6493",
     "spacingBottom": 40
   },
   "plotOptions": {
     "series": {
-      "borderWidth": 0,
+      "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
         }
       },
+      "stacking": "normal",
       "pointPadding": 100,
-      "pointWidth": 20,
-      "stacking": "normal"
+      "pointWidth": 20
     }
   },
   "title": {
@@ -347,7 +346,7 @@
     "text": "Anerkannte Religionen nach Staatsangehörigkeit"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2009",
+    "text": "Basel-Stadt, 2010",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -372,23 +371,21 @@
       },
       "format": "{value:,.0f}%"
     },
-    "max": 100,
-    "rotation": 0
+    "max": 100
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "vertical",
     "verticalAlign": "middle",
     "align": "right",
     "reversed": true,
     "itemMarginBottom": 5,
-    "labelFormatter": function(){
-      return this.name.replace(" ", "<br/>").replace("-", "-<br/>");
-    }
+    "labelFormatter": function () {
+        return this.name.replace(" ", "<br/>").replace("-", "-<br/>").replace("/unbekannt", "/<br/>unbekannt");
+      }
   },
   "navigation": {
     "menuItemStyle": {
@@ -409,7 +406,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
