@@ -12,7 +12,7 @@
 			}
 			},
 		"colorAxis": {
-			min: 0,
+			min: 20,
 			"minColor": "#eff6e9",
 			"maxColor": "#4b7b1f",
 			"labels": {
@@ -118,7 +118,7 @@
 					//fn.addLegendLabel(chart, 'Zunahme', 300, 245);
 					//fn.addLegendSquare(chart, 270, 275, 10, '#FABD24');
 					//fn.addLegendLabel(chart, 'Abnahme', 300, 270);
-					fn.addLegendTitle(chart, 'Ausländeranteil 2019 in % ', 265, 300);
+					fn.addLegendTitle(chart, choroplethSeries.name, 265, 300);
 				
 					//make sure pies are hidden upon click onto pie legend
 					fn.AddPieLegendClickHandler(chart);
