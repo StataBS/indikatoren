@@ -1748,44 +1748,42 @@ var indikatorensetData = [
 		"id": 6037
 	},
 	{
+		"template": "template001",
+		"data-id": 6039,
+		"chart-id": 6039,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8929
+		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
 		"subtitle": "im Schuljahr 2019/20, Basel-Stadt",
-		"kuerzel": "I.15.1.6039",
-		"kuerzelKunde": "GW14",
-		"description": "Übertritte nach der obligatorischen Schulzeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
+		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-19T09:10:09.099",
+		"description": "Übertritte nach der obligatorischen Schulzeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.6039",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW14",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache).",
-		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
-		"template": "template001",
+		"orderKey": "03_05_00_00_00_315",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_05_00_00_00_315",
-		"parentId": null,
-		"children": [
-			"8929"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6039,
-		"chart-id": 6039,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:57",
 		"id": 6039
 	},
 	{

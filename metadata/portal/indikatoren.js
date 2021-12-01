@@ -11969,45 +11969,43 @@ var indikatoren = [
 		"id": 6037
 	},
 	{
+		"template": "template001",
+		"data-id": 6039,
+		"chart-id": 6039,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8929
+		],
 		"title": "Übertritte nach der obligatorischen Schulzeit",
 		"subtitle": "im Schuljahr 2019/20, Basel-Stadt",
-		"kuerzel": "I.15.1.6039",
-		"kuerzelKunde": "GW14",
-		"description": "Übertritte nach der obligatorischen Schulzeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium oder die Fachmaturitätsschule, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein oder nehmen ein Brückenangebot in Anspruch. Sehr deutliche Unterschiede zeigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache) beim Gymnasium und den Brückenangeboten.",
+		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-19T09:10:09.099",
+		"description": "Übertritte nach der obligatorischen Schulzeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.6039",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW14",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Bildung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Verteilung der Anschlusslösungen unterscheidet sich nach Geschlecht. So besuchen weibliche Jugendliche häufiger ein Gymnasium, deren Kollegen hingegen treten eher in eine berufliche Grundbildung ein. Noch deutlichere Unterschiede zeitigt die Auswertung der Befragungsresultate nach Erstsprache (Deutsch/Fremdsprache).",
-		"erlaeuterungen": "Jährliche Befragung von Schulabgängerinnen und Schulabgängern durch das Erziehungsdepartement Basel-Stadt.",
-		"template": "template001",
+		"orderKey": "03_05_00_00_00_315",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_05_00_00_00_315",
-		"parentId": null,
-		"children": [
-			"8929"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6039,
-		"chart-id": 6039,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:57",
 		"id": 6039
 	},
 	{
@@ -12970,45 +12968,43 @@ var indikatoren = [
 		"id": 6074
 	},
 	{
+		"template": "line001",
+		"data-id": 6075,
+		"chart-id": 6075,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6660
+		],
 		"title": "Anteil der in der Schweiz geborenen Ausländer",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kuerzel": "I.01.1.06075",
-		"kuerzelKunde": "A4-1",
-		"description": "Anteil der in der Schweiz geborenen Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Ende 2020 waren von den in Basel-Stadt lebenden Personen mit italienischer Staatsangehörigkeit 26,2% in der Schweiz gebürtig. Seit 2001 ist ihr Anteil um 10,7 Prozentpunkte zurückgegangen. Bei Personen aus der Türkei ging der Anteil ebenfalls zurück auf 24,7%, während er bei Personen aus dem Balkan auf 25,4% gestiegen ist. Den tiefsten Anteil in der Schweiz Geborener wiesen Ende 2020 Personen aus Mittel- und Südamerika (6,2%) auf.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-22T18:31:15.1515",
+		"description": "Anteil der in der Schweiz geborenen Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06075",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A4-1",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 wiesen Italien (26,6%), der Balkan (25,5) und die Türkei (25,2%) die höchsten Anteile in der Schweiz Geborener auf. Im Vergleich zu 2000 ist der Anteil der in der Schweiz Geborenen bei den Italienern stark und bei den Türken leicht zurückgegangen. Ebenfalls gesunken ist dieser Anteil bei den Personen aus dem Gebiet der EU-17 + EFTA. Deutlich gestiegen sind die Anteile in der Schweiz Geborener bei Personen aus dem Balkan und aus afrikanischen Ländern. Die tiefsten Anteile in der Schweiz Geborener wiesen Ende 2019 Personen aus den EU-Ost-Ländern (8,4%) sowie aus Mittel- und Südamerika (6,5%) auf.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_401",
-		"parentId": null,
-		"children": [
-			"6660"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6075,
-		"chart-id": 6075,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:57",
 		"id": 6075
 	},
 	{
@@ -26944,7 +26940,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:35:42",
+		"aktualisierungsdatum": "2021-12-01T08:35:54",
 		"id": 7512
 	},
 	{
@@ -26983,7 +26979,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:35:42",
+		"aktualisierungsdatum": "2021-12-01T08:35:55",
 		"id": 7513
 	},
 	{
@@ -31096,45 +31092,45 @@ var indikatoren = [
 		"id": 7775
 	},
 	{
+		"template": "line001",
+		"data-id": 7779,
+		"chart-id": 7779,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8422
+		],
 		"title": "Motorisierungsgrad",
 		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
-		"kuerzel": "I.11.1.07779",
-		"kuerzelKunde": "ST 11-4",
-		"description": "Motorisierungsgrad",
-		"thema": "11 Verkehr",
-		"unterthema": "Motorfahrzeuge",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 308 Personenwagen pro 1000 Einwohner.",
+		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [
+			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-03-16T09:08:04.044",
+		"description": "Motorisierungsgrad",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.07779",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 11-4",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 318 Personenwagen pro 1000 Einwohner.",
-		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
-		"template": "line001",
+		"orderKey": "05_11_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_11_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8422"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'http://www.polizei.bs.ch/verkehr/motorfahrzeugkontrolle.html' target = '_blank'>Motorfahrzeugkontrolle Basel-Stadt</a>"
-		],
-		"data-id": 7779,
-		"chart-id": 7779,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:58",
 		"id": 7779
 	},
 	{
@@ -35201,45 +35197,43 @@ var indikatoren = [
 		"id": 8277
 	},
 	{
+		"template": "line001",
+		"data-id": 8278,
+		"chart-id": 8278,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8549
+		],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"kuerzel": "I.15.3.08278",
-		"kuerzelKunde": "2-07",
-		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer; 2020 hat sich dieser Unterschied akzentuiert. Männliche Lernende weisen höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T09:58:40.4040",
+		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.08278",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-07",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass meistens über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden höhere Quoten auf als ihre Kolleginnen.",
-		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
-		"template": "line001",
+		"orderKey": "02_02_00_00_00_207",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_207",
-		"parentId": null,
-		"children": [
-			"8549"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8278,
-		"chart-id": 8278,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:56",
 		"id": 8278
 	},
 	{
@@ -35411,45 +35405,43 @@ var indikatoren = [
 		"id": 8282
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8285,
+		"chart-id": 8285,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8556
+		],
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz nach Wohnviertel, Stadt Basel, 2019",
-		"kuerzel": "I.16.3.08285",
-		"kuerzelKunde": "2-12",
-		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, nach Wohnviertel, Stadt Basel, 2020",
+		"lesehilfe": "In den Kleinbasler Wohnvierteln Kleinhüningen, Klybeck, Matthäus, Clara und Altstadt Kleinbasel können 2020 über 90% aller Kinder und Jugendlichen ein altersspezifisches Angebot der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA) innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz, St. Alban und Breite ist dies nur für weniger als 20% gegeben.",
+		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2020), für welche die Angebote der OKJA (Stand Mai 2020) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche zur Verfügung stehen. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Sport- und Freiwilligenarbeit",
+		"kuerzel": "I.16.3.08285",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-12",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Matthäus können 2019 alle Kinder (100%) ein altersspezifisches Angebot der OKJA innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz (12,8%) und Bachletten (16,9%) ist dies nur für einen kleinen Teil der Kinder gegeben.",
-		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2018), für welche die Angebote der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA; Stand Mai 2019) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
-		"template": "mappie001",
+		"orderKey": "02_02_00_00_00_212",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_212",
-		"parentId": null,
-		"children": [
-			"8556"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8285,
-		"chart-id": 8285,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:57",
 		"id": 8285
 	},
 	{
@@ -39976,45 +39968,44 @@ var indikatoren = [
 		"id": 9027
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 9029,
+		"chart-id": 9029,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9034,
+			9378
+		],
 		"title": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
 		"subtitle": "«Wie stehen Sie zu folgender Aussage: Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert.», Basel-Stadt",
-		"kuerzel": "I.50.4.09029",
-		"kuerzelKunde": "1.3.05",
-		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
-		"thema": "50 Befragungen",
-		"unterthema": "Befragung 55 plus",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "61,8% der 2019 befragten Personen ab 54 Jahren stimmen der Aussage genau oder eher zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 38,2% stimmen dieser Aussage eher nicht oder gar nicht zu.",
+		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Befragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.  Um die Daten über die Jahre vergleichen zu können, bleiben befragte Personen, welche die Frage mit «Weiss nicht» oder gar nicht beantwortet haben, unberücksichtigt (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:10.1010",
+		"description": "Seniorinnen und Senioren werden von den jüngeren Generationen akzeptiert und integriert",
+		"thema": "50 Befragungen",
+		"unterthema": "Befragung 55 plus",
+		"kuerzel": "I.50.4.09029",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "1.3.05",
 		"stufe1": "1 Soziale Beziehungen",
 		"stufe2": "1.3 Akzeptanz von Diversität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "51,1% der 2019 befragten Personen stimmen der Aussage zu, dass Seniorinnen und Senioren von der jüngeren Generation akzeptiert und integriert werden. 31,6% stimmen dieser Aussage nicht zu.",
-		"erlaeuterungen": "Seit 2011 wird alle vier Jahre im Kanton Basel-Stadt eine Bevölkerungsbefragung 55plus durchgeführt. Die Befragung richtet sich an Personen im Alter von mindestens 55 Jahren mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind.",
-		"template": "befragungen001",
+		"orderKey": "01_03_00_00_00_035",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_03_00_00_00_035",
-		"parentId": null,
-		"children": [
-			"9034"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Befragung 55plus"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9029,
-		"chart-id": 9029,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:56",
 		"id": 9029
 	},
 	{
@@ -41335,5 +41326,43 @@ var indikatoren = [
 		"chart-id": 9291,
 		"filter": "",
 		"id": 9291
+	},
+	{
+		"template": "line001",
+		"data-id": 9346,
+		"chart-id": 9346,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
+		"subtitle": "ausgestellt durch das Hauptzollamt Lörrach (D), nach Quartal",
+		"lesehilfe": "Im 4. Quartal 2020 wurden 666 178 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der Coronapandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
+		"erlaeuterungen": "Seit dem 1. Januar 2020 wird eine Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt. <br>Das Hautptzollamt Lörrach umfasst alle Grenzübergangsstellen von Weil am Rhein im Westen bis Rheinfelden im Osten. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland unter folgenden Bedingungen umsatzsteuerfrei einkaufen: Das Verkaufsunternehmen nimmt an diesem Verfahren teil; die Ware wird aus Deutschland ausgeführt; eine deutsche Grenzzollstelle bestätigt auf dem dafür vorgesehenen Beleg die Ausfuhr sowie den Wohnsitz der Käuferin oder des Käufers in einem Drittland.",
+		"quellenangabe": [
+			"Hauptzollamt Lörrach"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.09346",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-01T08:35:55",
+		"id": 9346
 	}
 ];

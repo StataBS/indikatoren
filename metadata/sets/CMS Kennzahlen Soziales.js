@@ -1463,44 +1463,42 @@ var indikatorensetData = [
 		"id": 8277
 	},
 	{
+		"template": "line001",
+		"data-id": 8278,
+		"chart-id": 8278,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8549
+		],
 		"title": "Lehrabbruchquote nach Herkunft und Geschlecht",
 		"subtitle": "in Prozent",
-		"kuerzel": "I.15.3.08278",
-		"kuerzelKunde": "2-07",
-		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"lesehilfe": "Die Quote der Lernenden mit ausländischem Pass liegt über der Quote der Schweizerinnen und Schweizer; 2020 hat sich dieser Unterschied akzentuiert. Männliche Lernende weisen höhere Quoten auf als ihre Kolleginnen.",
+		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
+		"quellenangabe": [
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-09T09:58:40.4040",
+		"description": "Lehrabbruchquote nach Herkunft und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.08278",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-07",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Betrachtungszeitraum liegt die Quote bei Lernenden mit ausländischem Pass meistens über der Quote der Schweizerinnen und Schweizer. Zudem weisen die männlichen Lernenden höhere Quoten auf als ihre Kolleginnen.",
-		"erlaeuterungen": "Die Lehrabbruchquote zeigt den Anteil der Lehrvertragsauflösungen an den Basler Berufsfachschulen gemessen an allen abgeschlossenen Lehrverträgen. Es werden sämtliche Lehrabbrüche gezählt, unabhängig vom Wohnort der Absolventinnen und Absolventen. Nur Lernende mit Lehrverträgen von Lehrbetrieben im Kanton Basel-Stadt; berücksichtigt werden Eidgenössisches Berufsattest EBA und Eidgenössisches Fähigkeitszeugnis EFZ.",
-		"template": "line001",
+		"orderKey": "02_02_00_00_00_207",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_207",
-		"parentId": null,
-		"children": [
-			"8549"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8278,
-		"chart-id": 8278,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:56",
 		"id": 8278
 	},
 	{
@@ -1747,44 +1745,42 @@ var indikatorensetData = [
 		"id": 8284
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8285,
+		"chart-id": 8285,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8556
+		],
 		"title": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"subtitle": "Kinder mit Angeboten in Gehdistanz nach Wohnviertel, Stadt Basel, 2019",
-		"kuerzel": "I.16.3.08285",
-		"kuerzelKunde": "2-12",
-		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
-		"thema": "16 Kultur und Sport",
-		"unterthema": "Sport- und Freiwilligenarbeit",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"subtitle": "Kinder mit Angeboten in Gehdistanz, nach Wohnviertel, Stadt Basel, 2020",
+		"lesehilfe": "In den Kleinbasler Wohnvierteln Kleinhüningen, Klybeck, Matthäus, Clara und Altstadt Kleinbasel können 2020 über 90% aller Kinder und Jugendlichen ein altersspezifisches Angebot der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA) innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz, St. Alban und Breite ist dies nur für weniger als 20% gegeben.",
+		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2020), für welche die Angebote der OKJA (Stand Mai 2020) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche zur Verfügung stehen. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"description": "Erreichbarkeit von Angeboten der Kinder- und Jugendarbeit",
+		"thema": "16 Kultur und Sport",
+		"unterthema": "Sport- und Freiwilligenarbeit",
+		"kuerzel": "I.16.3.08285",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-12",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Wohnvierteln Klybeck und Matthäus können 2019 alle Kinder (100%) ein altersspezifisches Angebot der OKJA innerhalb von 10 Minuten zu Fuss erreichen. In den Wohnvierteln Bruderholz (12,8%) und Bachletten (16,9%) ist dies nur für einen kleinen Teil der Kinder gegeben.",
-		"erlaeuterungen": "Summe und Anteil der Kinder (5 bis 12 Jahre) und Jugendlichen (13 bis 17 Jahre) pro Wohnviertel (Stand Ende 2018), für welche die Angebote der offenen Kinder- und Jugendarbeit Basel-Stadt (OKJA; Stand Mai 2019) in Gehdistanz erreichbar sind. Berücksichtigt sind Angebote, welche mindestens zwei Tage und sechs Stunden pro Woche geöffnet haben. Für jedes Angebot wurde entlang des Strassen- und Wegenetzes des Kantons Basel-Stadt ein Kerneinzugsgebiet berechnet, innerhalb dessen das zielgruppenspezifische Angebot für die jeweilige Zielgruppe gut zu Fuss erreichbar ist (Gehdistanz = innerhalb von ca. 10 Minuten zurücklegbare Distanz: Kinder: 600 m; Jugendliche: 850 m).",
-		"template": "mappie001",
+		"orderKey": "02_02_00_00_00_212",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_212",
-		"parentId": null,
-		"children": [
-			"8556"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8285,
-		"chart-id": 8285,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-01T08:35:57",
 		"id": 8285
 	},
 	{
