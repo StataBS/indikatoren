@@ -111,24 +111,24 @@
 			dataClassColor: 'category',
 			dataClasses: [{
 				from: 0.0,
-				to: 39.9,
+				to: 19.9,
 				color: '#D3E2E4',
-				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 40,0"
+				name: "<span style='color: rgba(0,0,0,0)'>00,0 </span> < 20,0"
+			}, {
+				from: 20.0,
+				to: 39.9,
+				color: '#A8C3CA',
+				name: "20,0 − 39,9"
 			}, {
 				from: 40.0,
 				to: 69.9,
-				color: '#A8C3CA',
+				color: '#689199',
 				name: "40,0 − 69,9"
 			}, {
 				from: 70.0,
-				to: 79.9,
-				color: '#689199',
-				name: "70,0 − 79,9"
-			}, {
-				from: 80.0,
 				to: 89.9,
 				color: '#246370',
-				name: "80,0 − 89,9"
+				name: "70,0 − 89,9"
 			}, {
 				from: 90,
 				color: '#083038',

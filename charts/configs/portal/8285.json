@@ -5847,79 +5847,79 @@
       "data": [
         [
           1,
-          83.6
+          30.1
         ],
         [
           2,
-          63.9
+          41.1
         ],
         [
           3,
-          89.5
+          47.8
         ],
         [
           4,
-          49.4
+          13.5
         ],
         [
           5,
-          23.8
+          17.8
         ],
         [
           6,
-          83.8
+          82.9
         ],
         [
           7,
-          12.8
+          12.4
         ],
         [
           8,
-          16.9
+          49.9
         ],
         [
           9,
-          75.3
+          74.6
         ],
         [
           10,
-          79.9
+          79.2
         ],
         [
           11,
-          71.2
+          70.8
         ],
         [
           12,
-          79.4
+          90.7
         ],
         [
           13,
-          89
+          99.4
         ],
         [
           14,
-          44.7
+          49.8
         ],
         [
           15,
-          33.8
+          34.6
         ],
         [
           16,
-          54.9
+          58.3
         ],
         [
           17,
-          100
+          98.4
         ],
         [
           18,
-          100
+          98.9
         ],
         [
           19,
-          84.8
+          94.9
         ]
       ]
     },
@@ -5928,23 +5928,23 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          127
+          49
         ],
         [
           "Vorstädte",
-          207
+          137
         ],
         [
           "Am Ring",
-          825
+          456
         ],
         [
           "Breite",
-          364
+          105
         ],
         [
           "St. Alban",
-          302
+          233
         ],
         [
           "Gundeldingen",
@@ -5952,55 +5952,55 @@
         ],
         [
           "Bruderholz",
-          172
+          178
         ],
         [
           "Bachletten",
-          259
+          799
         ],
         [
           "Gotthelf",
-          533
+          526
         ],
         [
           "Iselin",
-          1438
+          1447
         ],
         [
           "St. Johann",
-          1353
+          1406
         ],
         [
           "Altstadt Kleinbasel",
-          112
+          127
         ],
         [
           "Clara",
-          268
+          306
         ],
         [
           "Wettstein",
-          199
+          231
         ],
         [
           "Hirzbrunnen",
-          402
+          432
         ],
         [
           "Rosental",
-          436
+          516
         ],
         [
           "Matthäus",
-          1424
+          1420
         ],
         [
           "Klybeck",
-          889
+          826
         ],
         [
           "Kleinhüningen",
-          296
+          337
         ]
       ],
       "name": "Anzahl 5-17-Jährige"
@@ -6590,7 +6590,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Kinder mit Angeboten in Gehdistanz nach Wohnviertel, Stadt Basel, 2019",
+    "text": "Kinder mit Angeboten in Gehdistanz, nach Wohnviertel, Stadt Basel, 2020",
     "align": "left"
   },
   "credits": {
@@ -6606,7 +6606,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-5-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
   },
   "colorAxis": {
     "min": 0,
@@ -6627,27 +6627,27 @@
     "dataClasses": [
       {
         "from": 0,
-        "to": 39.9,
+        "to": 19.9,
         "color": "#D3E2E4",
-        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C 40,0"
+        "name": "\u003Cspan style='color: rgba(0,0,0,0)'\u003E00,0 \u003C\u002Fspan\u003E \u003C 20,0"
+      },
+      {
+        "from": 20,
+        "to": 39.9,
+        "color": "#A8C3CA",
+        "name": "20,0 − 39,9"
       },
       {
         "from": 40,
         "to": 69.9,
-        "color": "#A8C3CA",
+        "color": "#689199",
         "name": "40,0 − 69,9"
       },
       {
         "from": 70,
-        "to": 79.9,
-        "color": "#689199",
-        "name": "70,0 − 79,9"
-      },
-      {
-        "from": 80,
         "to": 89.9,
         "color": "#246370",
-        "name": "80,0 − 89,9"
+        "name": "70,0 − 89,9"
       },
       {
         "from": 90,

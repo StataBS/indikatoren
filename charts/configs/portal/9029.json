@@ -75,44 +75,6 @@
       ],
       "name": "Stimmt gar nicht",
       "turboThreshold": 0
-    },
-    {
-      "color": "#C8C8C8",
-      "data": [
-        [
-          "2011",
-          106
-        ],
-        [
-          "2015",
-          165
-        ],
-        [
-          "2019",
-          177
-        ]
-      ],
-      "name": "Weiss nicht",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#6F6F6F",
-      "data": [
-        [
-          "2011",
-          110
-        ],
-        [
-          "2015",
-          48
-        ],
-        [
-          "2019",
-          68
-        ]
-      ],
-      "name": "Keine Angabe",
-      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -257,7 +219,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Befragung 55plus.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
   },
   "legend": {
     "layout": "horizontal",
@@ -270,10 +232,10 @@
       "textOverflow": null
     },
     "symbolRadius": 0,
-    "labelFormatter": function(){
-            return this.name.replace("/", " /<br/>");
-        },
-    "reversed": false
+    "labelFormatter": function () {
+                return this.name.replace("/", " /<br/>");
+            },
+    "itemWidth": 180
   },
   "exporting": {
     "filename": "9029"
