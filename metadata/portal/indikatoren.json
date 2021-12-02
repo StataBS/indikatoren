@@ -28066,7 +28066,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7665
 	},
 	{
@@ -28147,7 +28147,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7667
 	},
 	{
@@ -28188,7 +28188,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7668
 	},
 	{
@@ -28355,7 +28355,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:21",
+		"aktualisierungsdatum": "2021-12-02T08:18:07",
 		"id": 7672
 	},
 	{
@@ -28380,9 +28380,9 @@
 			"Wohnviertel"
 		],
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.5.07673",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
@@ -28395,7 +28395,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7673
 	},
 	{
@@ -28435,7 +28435,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7674
 	},
 	{
@@ -39447,7 +39447,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:17",
+		"aktualisierungsdatum": "2021-12-02T08:18:03",
 		"id": 8995
 	},
 	{
@@ -39872,7 +39872,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:18",
+		"aktualisierungsdatum": "2021-12-02T08:18:04",
 		"id": 9022
 	},
 	{
@@ -39910,7 +39910,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:18",
+		"aktualisierungsdatum": "2021-12-02T08:18:04",
 		"id": 9023
 	},
 	{

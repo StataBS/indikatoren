@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7665
 	},
 	{
@@ -153,7 +153,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7667
 	},
 	{
@@ -193,7 +193,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7668
 	},
 	{
@@ -356,7 +356,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:21",
+		"aktualisierungsdatum": "2021-12-02T08:18:07",
 		"id": 7672
 	},
 	{
@@ -381,9 +381,9 @@ var indikatorensetData = [
 			"Wohnviertel"
 		],
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.5.07673",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
@@ -395,7 +395,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7673
 	},
 	{
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7674
 	},
 	{

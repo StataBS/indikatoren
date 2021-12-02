@@ -43939,7 +43939,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7665
 	},
 	{
@@ -44020,7 +44020,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:19",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7667
 	},
 	{
@@ -44061,7 +44061,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:05",
 		"id": 7668
 	},
 	{
@@ -44228,7 +44228,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:21",
+		"aktualisierungsdatum": "2021-12-02T08:18:07",
 		"id": 7672
 	},
 	{
@@ -44253,9 +44253,9 @@ var indikatoren = [
 			"Wohnviertel"
 		],
 		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "",
+		"thema": "01 Bevölkerung",
 		"unterthema": "Wanderungen",
-		"kuerzel": "",
+		"kuerzel": "I.01.5.07673",
 		"kennzahlenset": "Stadtteilmonitoring Rosental",
 		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
@@ -44268,7 +44268,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7673
 	},
 	{
@@ -44308,7 +44308,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"aktualisierungsdatum": "2021-12-02T08:18:06",
 		"id": 7674
 	},
 	{
@@ -72772,7 +72772,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:17",
+		"aktualisierungsdatum": "2021-12-02T08:18:03",
 		"id": 8995
 	},
 	{
@@ -73399,7 +73399,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:18",
+		"aktualisierungsdatum": "2021-12-02T08:18:04",
 		"id": 9022
 	},
 	{
@@ -73437,7 +73437,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:01:18",
+		"aktualisierungsdatum": "2021-12-02T08:18:04",
 		"id": 9023
 	},
 	{
