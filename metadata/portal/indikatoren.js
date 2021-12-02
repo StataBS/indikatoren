@@ -28030,45 +28030,43 @@ var indikatoren = [
 		"id": 7603
 	},
 	{
+		"template": "line001",
+		"data-id": 7665,
+		"chart-id": 7665,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7903
+		],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07665",
-		"kuerzelKunde": "2.01",
-		"description": "Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Bezirk Messe lebten Ende 2020 4 694 Einwohner. Dies sind 11,4% mehr als im Jahr 2001. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2001 und 2020 weniger stark zugenommen (+7,7%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Mit der Fertigstellung der Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen in der Folge die Einwohnerzahlen. Ende 2020 wurden in diesem neuen Stadtteil 2 952 Einwohner registriert.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-29T11:54:31.3131",
+		"description": "Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07665",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.01",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2019 4 758 Einwohner. Dies sind 13,7% mehr als im Jahr 2000. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2000 und 2019 weniger stark zugenommen (+6,3%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Mit der Fertigstellung der Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen in der Folge die Einwohnerzahlen. Ende 2019 wurden in diesem neuen Stadtteil 2 687 Einwohner registriert.",
-		"erlaeuterungen": "",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7903"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7665,
-		"chart-id": 7665,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-02T08:01:19",
 		"id": 7665
 	},
 	{
@@ -28112,89 +28110,85 @@ var indikatoren = [
 		"id": 7666
 	},
 	{
+		"template": "line001",
+		"data-id": 7667,
+		"chart-id": 7667,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7905
+		],
 		"title": "Jugendquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07667",
-		"kuerzelKunde": "2.03",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2001 und 2020 von 28,8 auf 23,8 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,8 auf 26,5. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und lag 2020 bei 32,4.",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Agglomeration"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:02.022",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.03",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe ist der Jugendquotient zwischen 2000 und 2019 von 28,7 auf 23,6 gesunken, im Kanton Basel-Stadt im gleichen Zeitraum von 27,8 auf 26,5. Aufgrund der geringen Bevölkerungszahl schwankt er im Bezirk Erlenmatt stärker und lag 2019 bei 30,7.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7905"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7667,
-		"chart-id": 7667,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-02T08:01:19",
 		"id": 7667
 	},
 	{
+		"template": "line001",
+		"data-id": 7668,
+		"chart-id": 7668,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7906
+		],
 		"title": "Altersquotient",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.1.07668",
-		"kuerzelKunde": "2.04",
-		"description": "Altersquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2020 bei 14,2, im Bezirk Erlenmatt bei 8,9. Während er im Messe-Bezirk im Vergleich zum Jahr 2001 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient im selben Zeitraum von 33,8 auf 30,1 gesunken.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:35.3535",
+		"description": "Altersquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.07668",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.04",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Bezirk Messe lag der Altersquotient Ende 2019 bei 13,4, im Bezirk Erlenmatt bei 9,3. Während der Altersquotient im Messe-Bezirk im Vergleich zum Jahr 2000 gesunken ist, hat er im Erlenmatt-Bezirk zugenommen. Im Gesamtkanton ist der Altersquotient seit dem Jahr 2000 (33,9) gesunken, 2019 lag er bei 30,5.",
-		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7906"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7668,
-		"chart-id": 7668,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-02T08:01:20",
 		"id": 7668
 	},
 	{
@@ -28324,130 +28318,124 @@ var indikatoren = [
 		"id": 7671
 	},
 	{
+		"template": "template001",
+		"data-id": 7672,
+		"chart-id": 7672,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7910
+		],
 		"title": "Haushalte nach Art des Haushalts",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.01.2.07672",
-		"kuerzelKunde": "4.01",
-		"description": "Haushalte nach Art des Haushalts",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Haushalte",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2020 machen Einpersonenhaushalte 47% aus, 38% sind Familienhaushalte. 15% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur.",
+		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privat- und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe \"Andere Haushalte\" umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:17:41.4141",
+		"description": "Haushalte nach Art des Haushalts",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Haushalte",
+		"kuerzel": "I.01.2.07672",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.01",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Haushaltsstruktur im Bezirk Messe weist in den letzten Jahren keine grossen Veränderungen auf. 2019 machen Einpersonenhaushalte 46% aus, 38% sind Familienhaushalte. 16% werden anderen Haushalten zugeordnet. Im Bezirk Erlenmatt gab es aufgrund der grossen Bautätigkeit Veränderungen in der Haushaltsstruktur, beispielsweise war der Anteil Einpersonenhaushalte 2010 mit 50% besonders hoch.",
-		"erlaeuterungen": "Personen, die in der gleichen Wohnung leben, bilden einen Haushalt. Haushalte werden unterteilt in Privathaushalte und Kollektivhaushalte. Hier werden nur Privathaushalte betrachtet. Die Gruppe der Anderen Haushalte umfasst Mehrpersonenhaushalte wie Wohngemeinschaften und unverheiratete Paare ohne ein gemeinsames Kind.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7910"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7672,
-		"chart-id": 7672,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-02T08:01:21",
 		"id": 7672
 	},
 	{
-		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.5.07673",
-		"kuerzelKunde": "2.09",
-		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:43.4343",
-		"stufe1": "2 Bevölkerung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In den Jahren 2014 bis 2019 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste (Jahre 2014, 2017, 2018) mit leichten Gewinnen ab (Jahre 2015, 2016, 2019).",
-		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7911"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7673,
 		"chart-id": 7673,
 		"filter": "",
-		"id": 7673
-	},
-	{
-		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"parentId": null,
+		"children": [
+			7911
+		],
+		"title": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.01.1.07674",
-		"kuerzelKunde": "2.11",
-		"description": "Segregationsindex nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "In den Jahren 2014 bis 2020 wies das Rosentalviertel jeweils positive Wanderungssaldi auf. Diese Wanderungsgewinne sind hauptsächlich auf Zuzüge aus dem Ausland zurückzuführen. Die Bilanzen gegenüber der Agglomeration Basel waren mit Ausnahme des Jahres 2015 negativ, gegenüber der übrigen Schweiz wechselten sich leichte Verluste mit leichten Gewinnen ab.",
+		"erlaeuterungen": "Schweizerische ausserkantonale Agglomerationsgemeinden: Aesch, Allschwil, Arboldswil, Arlesheim, Augst, Bättwil, Biel-Benken, Binningen, Ettingen, Frenkendorf, Füllinsdorf, Gelterkinden, Gempen, Giebenach, Grellingen, Himmelried, Hochwald, Hofstetten-Flüh, Hölstein, Itingen, Kaiseraugst, Lampenberg, Laufen, Lausen, Liestal, Lupsingen, Magden, Möhlin, Mumpf, Münchenstein, Muttenz, Nenzlingen, Niederdorf, Nuglar-St. Pantaleon, Oberdorf, Oberwil, Ormalingen, Pfeffingen, Pratteln, Ramlinsburg, Reinach, Rheinfelden, Rodersdorf, Röschenz, Rünenberg, Schönenbuch, Seltsiberg, Sissach, Stein, Tecknau, Tenniken, Therwil, Thürnen, Wahlen, Wallbach, Witterswil, Zeinigen, Ziefen, Zunzgen, Zwingen; dazu kamen 2016: Arisdorf, Bärschwil, Bennwil, Bretzwil, Buckten, Burg im Leimental, Büsserach, Buus, Dittingen, Fehren, Hellikon, Hemmiken, Hersberg, Känerkinden, Kleinlützel, Lauwil, Maisprach, Meltingen, Metzerlen-Mariastein, Nunningen, Nusshof, Obermumpf, Olsberg, Reigoldswil, Rickenbach, Rümlingen, Seewen, Titterten, Wegenstetten, Wenslingen, Wintersingen, Wittinsburg, Zullwil und Zunzgen; nicht mehr dazu gehören seit 2016: Stein und Wallbach.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:03.033",
+		"description": "Wanderungssaldo nach Zuzugs- und Wegzugsort",
+		"thema": "",
+		"unterthema": "Wanderungen",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.09",
 		"stufe1": "2 Bevölkerung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 wiesen Personen aus afrikanischen Ländern und aus der Türkei die weitaus höchsten Segregationsindices auf (32,4 und 31,4). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert waren. Ebenfalls relativ hohe Segregationsindices wiesen Personen aus Mittel- und Südamerika (24,7) sowie aus arabischen Ländern (23,6) auf. Die niedrigsten Indices ergaben sich 2019 für Schweizer (11,4) und für Personen aus der Gruppe EU-17 + EFTA (11,0). Im Vergleich zu 1999 haben die Segregationsindices aller Ländergruppen mit Ausnahme desjenigen der Türken und der Personen aus afrikanischen Ländern abgenommen.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Wohnviertel Rosental von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen Block umziehen müsste, um gleich über das Wohnviertel Rosental verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
-		"template": "line001",
+		"orderKey": "02_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"7912"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-12-02T08:01:20",
+		"id": 7673
+	},
+	{
+		"template": "line001",
 		"data-id": 7674,
 		"chart-id": 7674,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7912
+		],
+		"title": "Segregationsindex nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "2020 wiesen Personen aus der Türkei und aus afrikanischen Ländern die weitaus höchsten Segregationsindices auf (32,4 und 30,4). Die hohen Werte bedeuten, dass die Wohnorte dieser Bevölkerungsgruppen am stärksten auf einzelne Blöcke im Wohnviertel Rosental konzentriert waren. Ebenfalls relativ hohe Segregationsindices wiesen Personen aus Mittel- und Südamerika (25,7) sowie aus arabischen Ländern (23,9) auf. Die niedrigsten Indices ergaben sich 2020 für Schweizerinnen und Schweizer (10,6) und für Personen aus der Gruppe EU-West + EFTA + UK (12,2). Im Vergleich zum Jahr 2000 haben die Segregationsindices aller Ländergruppen mit Ausnahme desjenigen der Türkinnen und Türken abgenommen.",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Wohnviertel Rosental von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in einen anderen statistischen Block umziehen müsste, um gleich über das Wohnviertel Rosental verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Segregationsindex nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "2.11",
+		"stufe1": "2 Bevölkerung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_011",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-02T08:01:20",
 		"id": 7674
 	},
 	{
@@ -39459,7 +39447,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:55:59",
+		"aktualisierungsdatum": "2021-12-02T08:01:17",
 		"id": 8995
 	},
 	{
@@ -39884,7 +39872,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:56:00",
+		"aktualisierungsdatum": "2021-12-02T08:01:18",
 		"id": 9022
 	},
 	{
@@ -39922,7 +39910,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-25T08:56:00",
+		"aktualisierungsdatum": "2021-12-02T08:01:18",
 		"id": 9023
 	},
 	{

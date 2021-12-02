@@ -167,6 +167,34 @@
       ],
       "name": "2019",
       "turboThreshold": 0
+    },
+    {
+      "color": "#67401E",
+      "visible": true,
+      "data": [
+        [
+          "Schweiz. Aggl. BS",
+          -116
+        ],
+        [
+          "Übrige Schweiz",
+          -26
+        ],
+        [
+          "Ausland",
+          305
+        ],
+        [
+          "Unbekannt",
+          -55
+        ],
+        [
+          "Total",
+          108
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
     }
   ],
   "xAxis": {
@@ -280,7 +308,10 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "itemWidth": 75,
+    "width": 350,
+    "itemMarginBottom": 5
   },
   "navigation": {
     "menuItemStyle": {
@@ -301,13 +332,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-2"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
   "exporting": {
-    "filename": 7673
+    "filename": "7673"
   }
 }
