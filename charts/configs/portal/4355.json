@@ -1,95 +1,27 @@
 {
   "series": [
     {
-      "color": "#B00000",
+      "color": "#0A3B19",
       "data": [
         [
-          2015,
+          "2015",
           56
+        ],
+        [
+          "2020",
+          48
         ]
       ],
-      "name": "Brutvogel-Index"
+      "name": "Brutvogel-Index",
+      "turboThreshold": 0
     }
   ],
-  "chart": {
-    "borderColor": "#fbfbfb",
-    "backgroundColor": "#fbfbfb",
-    "width": 485,
-    "height": 428,
-    "spacing": [
-      10,
-      10,
-      30,
-      10
-    ],
-    "style": {
-      "fontFamily": "Arial"
-    },
-    "zoomType": "xy",
-    "events": {
-      "load": function(){
-            this.credits.element.onclick = function() {};
-              
-            //for top-left legends with no x defined: move legend to x position of first yAxis
-            if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0){
-              this.update(
-                {
-                  legend: {
-                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
-                  }
-                }
-              );
-            }
-          }
-    },
-    "marginBottom": 65,
-    "marginTop": 75,
-    "type": "column",
-    "renderTo": "container-4355",
-    "spacingBottom": 40
-  },
-  "plotOptions": {
-    "series": {
-      "borderWidth": 0,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        },
-        "enabled": true,
-        "formatter": function() {
-            var last  = this.series.data[this.series.data.length - 1];
-            var first  = this.series.data[0];
-            if (this.point.x === first.x || this.point.x === last.x) {
-              return Highcharts.numberFormat(this.point.y, 0, ",", " ");
-            }
-            return "";
-          }
-      }
-    }
-  },
-  "title": {
-    "style": {
-      "fontSize": "14px",
-      "fontWeight": "bold",
-      "color": "#000000"
-    },
-    "align": "left",
-    "text": "Brutvogelindex"
-  },
-  "subtitle": {
-    "style": {
-      "fontSize": "12px",
-      "fontWeight": "normal",
-      "fontFamily": "Arial",
-      "color": "#000000"
-    },
-    "text": "",
-    "align": "left"
-  },
   "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
     "lineColor": "#B9CFD7",
     "lineWidth": 0.5,
-    "uniqueNames": true,
+    "tickLength": 0,
     "title": {
       "style": {
         "color": "#000000"
@@ -100,12 +32,78 @@
         "color": "#000000"
       }
     },
-    "tickLength": 0,
     "tickInterval": 1
   },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-4355",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 60
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Brutvogelindex"
+  },
+  "subtitle": {
+    "text": "Stadt Basel",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
   "yAxis": {
-    "gridLineColor": "#B9CFD7",
     "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
     "lineColor": "#B9CFD7",
     "title": {
       "style": {
@@ -117,9 +115,15 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
+      }
     }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": false
   },
   "navigation": {
     "menuItemStyle": {
@@ -140,19 +144,12 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2017-11-14"
-  },
-  "legend": {
-    "symbolRadius": 0,
-    "itemStyle": {
-      "fontWeight": "normal"
-    },
-    "enabled": false
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-6"
   },
   "tooltip": {
-    "shared": false
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 4355
+    "filename": "4355"
   }
 }

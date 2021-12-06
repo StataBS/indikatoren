@@ -192,7 +192,7 @@ id | visible | visibleInPortal | indikatorenset
 4348 | false |  | Cercle-Indicateurs
 4350 | false |  | Cercle-Indicateurs
 4352 | false |  | Cercle-Indicateurs
-4355 | false |  | Cercle-Indicateurs
+4355 | true | true | Nachhaltigkeit
 4356 | false |  | Cercle-Indicateurs
 4359 | false |  | Cercle-Indicateurs
 4360 | true | true | 
