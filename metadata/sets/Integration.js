@@ -80,44 +80,42 @@ var indikatorensetData = [
 		"id": 6058
 	},
 	{
+		"template": "template001",
+		"data-id": 6059,
+		"chart-id": 6059,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6599
+		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06059",
-		"kuerzelKunde": "A1-4",
-		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Ende 2020 bildeten die Deutschen mit 16 648 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2001 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-02T11:03:30.3030",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06059",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-4",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 bildeten die Deutschen mit 16 380 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen, nun gegenüber 2018 jedoch geringfügig gesunken. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2000 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"orderKey": "01_00_00_00_00_104",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_104",
-		"parentId": 6599,
-		"children": [
-			"6644"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6059,
-		"chart-id": 6059,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-09T09:24:28",
 		"id": 6059
 	},
 	{
@@ -1232,7 +1230,7 @@ var indikatorensetData = [
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
 		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2015 bis 2019",
-		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-17 + EFTA + UK (53%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (37%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
+		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-West + EFTA + UK (53%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (37%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
 		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -1257,7 +1255,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:41",
+		"aktualisierungsdatum": "2021-12-09T09:24:28",
 		"id": 6090
 	},
 	{

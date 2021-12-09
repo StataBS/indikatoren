@@ -50,6 +50,10 @@
         [
           2019,
           0
+        ],
+        [
+          2020,
+          0
         ]
       ],
       "name": "Büros zu Wohnungen"
@@ -104,6 +108,10 @@
         [
           2019,
           1
+        ],
+        [
+          2020,
+          2
         ]
       ],
       "name": "(Dachstock-) Ausbauten"
@@ -157,6 +165,10 @@
         ],
         [
           2019,
+          0
+        ],
+        [
+          2020,
           0
         ]
       ],
@@ -212,6 +224,10 @@
         [
           2019,
           0
+        ],
+        [
+          2020,
+          0
         ]
       ],
       "name": "Sonstige Umnutzungen"
@@ -265,6 +281,10 @@
         ],
         [
           2019,
+          0
+        ],
+        [
+          2020,
           0
         ]
       ],
@@ -328,6 +348,10 @@
         [
           2019,
           1
+        ],
+        [
+          2020,
+          2
         ]
       ],
       "name": "Umbausaldo"
@@ -473,7 +497,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}% der Zu- resp. Abgänge)\u003Cbr\u002F\u003E",
