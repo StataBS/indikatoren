@@ -14,10 +14,10 @@
     },
     "series": [
       {
-        "color": "#008ac3"
+        "color": "#b00000"
       },
       {
-        "color": "#b00000"
+        "color": "#008ac3"
       },
       {
         "color": "#000"

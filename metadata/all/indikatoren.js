@@ -14011,45 +14011,43 @@ var indikatoren = [
 		"id": 6058
 	},
 	{
+		"template": "template001",
+		"data-id": 6059,
+		"chart-id": 6059,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6599
+		],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.06059",
-		"kuerzelKunde": "A1-4",
-		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Integration",
+		"lesehilfe": "Ende 2020 bildeten die Deutschen mit 16 648 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Zahl ist seit 2002 kontinuierlich gestiegen. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2001 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-02T11:03:30.3030",
+		"description": "Ausländische Bevölkerung nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06059",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A1-4",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Ende 2019 bildeten die Deutschen mit 16 380 Personen die grösste Bevölkerungsgruppe im Kanton. Ihre Anzahl ist seit 2002 kontinuierlich gestiegen, nun gegenüber 2018 jedoch geringfügig gesunken. Die Anzahl Italiener, Türken und Personen aus dem Balkan hat seit 2000 abgenommen, wobei die Anzahl Italiener seit 2013 wieder leicht zugenommen hat.",
-		"erlaeuterungen": "",
-		"template": "template001",
+		"orderKey": "01_00_00_00_00_104",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_104",
-		"parentId": 6599,
-		"children": [
-			"6644"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6059,
-		"chart-id": 6059,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-09T09:24:28",
 		"id": 6059
 	},
 	{
@@ -15191,7 +15189,7 @@ var indikatoren = [
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
 		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2015 bis 2019",
-		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-17 + EFTA + UK (53%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (37%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
+		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-West + EFTA + UK (53%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (37%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
 		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
@@ -15217,7 +15215,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:41",
+		"aktualisierungsdatum": "2021-12-09T09:24:28",
 		"id": 6090
 	},
 	{
@@ -44516,171 +44514,163 @@ var indikatoren = [
 		"id": 7678
 	},
 	{
-		"title": "Wohnungen nach Zimmerzahl",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07679",
-		"kuerzelKunde": "4.03",
-		"description": "Wohnungen nach Zimmerzahl",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:46.4646",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Der gesamtkantonale Anteil von ihnen beträgt 24%.",
-		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_003",
-		"parentId": null,
-		"children": [
-			"7917"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7679,
 		"chart-id": 7679,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7917
+		],
+		"title": "Wohnungen nach Zimmerzahl",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Ein gutes Drittel aller Wohnungen besteht aus Zweizimmerwohnungen. Ihr gesamtkantonaler Anteil beträgt 24%.",
+		"erlaeuterungen": "Als Zimmer gelten Räume, welche als bauliche Einheit die Wohnung bilden. Küchen, Badezimmer, Toilettenräume, Reduits, Gänge, Veranden usw. gelten nicht als Zimmer. Ebensowenig werden halbe Zimmer gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnungen nach Zimmerzahl",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07679",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.03",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_003",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:25",
 		"id": 7679
 	},
 	{
-		"title": "Wohnungen nach Belegungsart",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07680",
-		"kuerzelKunde": "4.04",
-		"description": "Wohnungen nach Belegungsart",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:48.4848",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 sind im Wohnviertel Rosental 3 248 Mietwohnungen, 165 selbstbewohnte Eigentümerwohnungen und 116 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
-		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
 		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7918"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7680,
 		"chart-id": 7680,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7918
+		],
+		"title": "Wohnungen nach Belegungsart",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "2020 sind im Wohnviertel Rosental 3 231\t Mietwohnungen, 167 selbstbewohnte Eigentümerwohnungen und 107 Genossenschaftswohnungen registriert. Der Anteil der Mietwohnungen gemessen am Gesamtbestand beträgt im betrachteten Zeitraum stets über 90%.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen. Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Wohnungen nach Belegungsart",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07680",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.04",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:25",
 		"id": 7680
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7919"
-		],
 		"template": "line001",
-		"title": "Wohnfläche pro Person",
-		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"kuerzel": "I.09.1.07681",
-		"kuerzelKunde": "4.02",
-		"description": "Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-04-20T15:07:12.1212",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2019 beträgt sie 36,0 m<sup>2</sup> (Erlenmatt) respektive 33,6 m<sup>2</sup>.",
-		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7681,
 		"chart-id": 7681,
 		"filter": "",
-		"id": 7681
-	},
-	{
-		"title": "Leerwohnungsquote",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07682",
-		"kuerzelKunde": "4.05",
-		"description": "Leerwohnungsquote",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7919
+		],
+		"title": "Wohnfläche pro Person",
+		"subtitle": "in m<sup>2</sup>, Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Die durchschnittliche Wohnfläche pro Person ist im betrachteten Zeitraum im Bezirk Erlenmatt stets höher als im Bezirk Messe. 2020 beträgt sie 35,1 m<sup>2</sup> (Erlenmatt) respektive 33,7 m<sup>2</sup>.",
+		"erlaeuterungen": "Die durchschnittliche Wohnfläche pro Bewohner berechnet sich aus der Gesamtfläche der bewohnten Wohnungen, dividiert durch die Summe der zugeordneten Bewohner. Als Wohnungsfläche gelten sämtliche bewohnbaren Flächen einer Wohnung, also die Summe der Flächen sämtlicher Zimmer, Küchen, Kochnischen, Badezimmer, Toilettenräume, Abstellräume, Gänge, Veranden etc. einer Wohnung (ohne Terrassen oder offene Balkone). Für die Berechnung werden sämtliche einer Wohnung zugeordneten Bewohner berücksichtigt, unabhängig von ihrem Meldeverhältnis (Niedergelassene und Aufenthalter). Personen mit mehreren Wohnsitzen werden entsprechend mehrmals gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-09-21T15:23:27.2727",
+		"description": "Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07681",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.02",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote. In den letzten Jahren stieg sie wieder. Die hohe Quote im Jahr 2019 war durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
-		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
-		"template": "line001",
+		"orderKey": "04_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7920"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-12-09T09:24:24",
+		"id": 7681
+	},
+	{
+		"template": "line001",
 		"data-id": 7682,
 		"chart-id": 7682,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7920
+		],
+		"title": "Leerwohnungsquote",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Das Wohnviertel Rosental wies in den 00er-Jahren hohe Leerwohnungsquoten aus. Bis 2014 sank die Quote. In den letzten Jahren stieg sie wieder. Die hohe Quote im Jahr 2019 war durch die Fertigstellung einer Grossüberbauung kurz vor dem Stichtag verursacht.",
+		"erlaeuterungen": "Stichtag ist der 1. Juni. Nur Wohnungen, die für den eigentlichen Wohnungsmarkt in Betracht kommen; also ohne leere Wohnungen, die für den Abbruch oder Umbau bestimmt sind. Die Prozentangaben beziehen sich auf den Leerwohnungsbestand am Gesamtwohnungsbestand.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Leerwohnungsquote",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07682",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.05",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_005",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:25",
 		"id": 7682
 	},
 	{
@@ -44726,171 +44716,163 @@ var indikatoren = [
 		"id": 7683
 	},
 	{
-		"title": "Anteil Einfamilienhäuser",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.09.1.07684",
-		"kuerzelKunde": "4.07",
-		"description": "Anteil Einfamilienhäuser",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-06-15T18:50:31.3131",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Weil es im Bezirk Erlenmatt nur wenige grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf fast 20%.",
-		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_007",
-		"parentId": null,
-		"children": [
-			"7922"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7684,
 		"chart-id": 7684,
 		"filter": "",
-		"id": 7684
-	},
-	{
-		"title": "Umgebaute Wohnungen",
-		"subtitle": "nach Art des Umbaus, Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07685",
-		"kuerzelKunde": "4.08",
-		"description": "Umgebaute Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-06-15T18:51:46.4646",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental war der Umbausaldo im betrachteten Zeitraum meist leicht positiv. Am meisten Einheiten entstanden durch Dachstock- oder andere Ausbauten. Im Vergleich zum Neubau war der Beitrag des Umbaus zur Nettoproduktion sehr gering.",
-		"erlaeuterungen": "",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_008",
 		"parentId": null,
 		"children": [
-			"7923"
+			7922
 		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7685,
-		"chart-id": 7685,
-		"filter": "",
-		"id": 7685
-	},
-	{
-		"title": "Nettowohnungsproduktion",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07686",
-		"kuerzelKunde": "4.09",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-06-15T18:53:28.2828",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Seit 2004 wird im Wohnviertel Rosental, insbesondere im Bezirk Erlenmatt, sehr viel neu gebaut. Die Zahl der Abbrüche ist gering und der Umbausaldo meist leicht positiv, womit die Nettoproduktion, besonders im Bezirk Erlenmatt, sehr hoch ist.",
-		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_009",
-		"parentId": null,
-		"children": [
-			"7924"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7686,
-		"chart-id": 7686,
-		"filter": "",
-		"id": 7686
-	},
-	{
-		"title": "Genossenschaftswohnungen",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.09.1.07687",
-		"kuerzelKunde": "4.10",
-		"description": "Genossenschaftswohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:51.5151",
-		"stufe1": "4 Bauen und Wohnen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen gut 10% beträgt, sind es im Wohnviertel Rosental zwischen 2,0 und 3,4%.",
-		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "04_00_00_00_00_010",
-		"parentId": null,
-		"children": [
-			"7925"
-		],
-		"renderLink": [],
+		"title": "Anteil Einfamilienhäuser",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Weil es im Bezirk Erlenmatt nur wenige grosse Mehrfamilienhäuser gibt, bewirkte der Bau von sechs neuen Einfamilienhäusern 2015 einen Sprung auf fast 20%.",
+		"erlaeuterungen": "Anteil der Einfamilienhäuser an allen bewohnbaren Gebäuden des Wohnviertels oder Bezirkes in Prozent.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"description": "Anteil Einfamilienhäuser",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07684",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.07",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_007",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"id": 7684
+	},
+	{
+		"template": "template001",
+		"data-id": 7685,
+		"chart-id": 7685,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7923
+		],
+		"title": "Umgebaute Wohnungen",
+		"subtitle": "nach Art des Umbaus, Wohnviertel Rosental",
+		"lesehilfe": "Im Wohnviertel Rosental war der Umbausaldo im betrachteten Zeitraum meist leicht positiv. Am meisten Einheiten entstanden durch Dachstock- oder andere Ausbauten. Im Vergleich zum Neubau war der Beitrag des Umbaus zur Nettoproduktion sehr gering.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Umgebaute Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07685",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.08",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_008",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"id": 7685
+	},
+	{
+		"template": "template001",
+		"data-id": 7686,
+		"chart-id": 7686,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7924
+		],
+		"title": "Nettowohnungsproduktion",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Seit 2004 wird im Wohnviertel Rosental, insbesondere im Bezirk Erlenmatt, sehr viel neu gebaut. Die Zahl der Abbrüche ist gering und der Umbausaldo meist leicht positiv, womit die Nettoproduktion, besonders im Bezirk Erlenmatt, sehr hoch ist.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neu gebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07686",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.09",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_009",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:26",
+		"id": 7686
+	},
+	{
+		"template": "template001",
 		"data-id": 7687,
 		"chart-id": 7687,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7925
+		],
+		"title": "Genossenschaftswohnungen",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Während im Kanton der Anteil der Genossenschaftswohnungen gut 10% beträgt, sind es im Wohnviertel Rosental zwischen 2,0% und 3,4%.",
+		"erlaeuterungen": "Es werden nur Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt waren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Genossenschaftswohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07687",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "4.10",
+		"stufe1": "4 Bauen und Wohnen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_010",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:26",
 		"id": 7687
 	},
 	{
@@ -45020,46 +45002,44 @@ var indikatoren = [
 		"id": 7690
 	},
 	{
+		"template": "line001",
+		"data-id": 7691,
+		"chart-id": 7691,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7929
+		],
 		"title": "Nettoerwerbstätigenquote",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.03.1.07691",
-		"kuerzelKunde": "3.04",
-		"description": "Nettoerwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2015 bis 2019 bei 72,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,0%.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-06-15T18:54:55.5555",
+		"description": "Nettoerwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.07691",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "3.04",
 		"stufe1": "3 Erwerbsleben und Steuern",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Rosental lag die Nettoerwerbstätigenquote im Mittel der Jahre 2014 bis 2018 bei 71,0%. Zum Vergleich: Die Quote für die Stadt Basel beträgt 73,3%.",
-		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2014 bis 2018 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden.",
-		"template": "line001",
+		"orderKey": "03_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7929"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7691,
-		"chart-id": 7691,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-09T09:24:24",
 		"id": 7691
 	},
 	{
@@ -45148,129 +45128,123 @@ var indikatoren = [
 		"id": 7693
 	},
 	{
-		"title": "Sozialhilfebezüger und -quote",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.13.3.07694",
-		"kuerzelKunde": "5.04",
-		"description": "Sozialhilfebezüger und -quote",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Bezirk"
-		],
-		"aktualisierungsdatum": "2020-04-03T15:27:14.1414",
-		"stufe1": "5 Bildung und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "2019 beträgt die Sozialhilfequote im Bezirk Messe 13,5%. 643 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 1,0% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 29.",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"7932"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7694,
 		"chart-id": 7694,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7932
+		],
+		"title": "Sozialhilfebezüger und -quote",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "2020 beträgt die Sozialhilfequote im Bezirk Messe 12,4%. 582 Personen wurden im Verlaufe des Jahres mindestens einmal von der Sozialhilfe finanziell unterstützt. Der Bezirk Erlenmatt weist eine Quote von 0,4% auf; die Anzahl Bezügerinnen und Bezüger beläuft sich auf 12.",
+		"erlaeuterungen": "Soziahilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Bezirk"
+		],
+		"description": "Sozialhilfebezüger und -quote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.07694",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.04",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_004",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:27",
 		"id": 7694
 	},
 	{
-		"title": "Gymnasialquote nach Staatsangehörigkeit",
-		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.15.1.07695",
-		"kuerzelKunde": "5.02",
-		"description": "Gymnasialquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-08-31T17:17:56.5656",
-		"stufe1": "5 Bildung und Soziales",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer ist im vergangenen Jahrzehnt insgesamt gestiegen. Zwischen 2014 und 2017 legten die ausländischen Gymnasiastinnen und Gymnasiasten stärker zu als die Schweizerinnen und Schweizer. 2018 und 2019 ist die Quote für alle, aber insbesondere für Schülerinnen und Schüler ohne Schweizer Pass, rückläufig. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
-		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"7933"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 7695,
 		"chart-id": 7695,
 		"filter": "",
-		"id": 7695
-	},
-	{
-		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"kuerzel": "I.15.1.07696",
-		"kuerzelKunde": "5.01",
-		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"parentId": null,
+		"children": [
+			7933
+		],
+		"title": "Gymnasialquote nach Staatsangehörigkeit",
+		"subtitle": "Wohnviertel Rosental",
+		"lesehilfe": "Die Gymnasialquote der Schweizerinnen und Schweizer liegt 2020, nach drei aufeinanderfolgenden Jahren mit rückläufiger Quote, exakt gleich hoch wie 2010. Gegenüber 2019 ist die Quote bei den ausländischen Schülerinnen und Schülern stark gestiegen. Unruhiger Kurvenverlauf aufgrund der vergleichsweise geringen Zahl an Beobachtungen.",
+		"erlaeuterungen": "Gymnasialquote: Anteil der Gymnasiastinnen und Gymnasiasten an allen Schülerinnen und Schülern (SuS) der 10. und 11. Schulstufe (einschliesslich zweier obligatorischer Kindergartenstufen) an öffentlichen Schulen und mit Elternwohnort Basel-Stadt. Bis zum Schuljahr 2015/16 wurden Weiterbildungsschule WBS und Gymnasium gegenübergestellt. Aufgrund von HarmoS (Ablösung WBS durch Sekundarschule Sek, Verkürzung Gymnasium) war dies 2016/17 nur noch auf Stufe 11 möglich (auf Stufe 10 Vergleich mit Sek P), 2017/18 dann gar nicht mehr. Als Hilfsquote wird daher für die gleichen beiden Stufen der Anteil Sek P-SuS an allen Sek-SuS herangezogen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-01T12:19:05.055",
+		"description": "Gymnasialquote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07695",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.02",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
-		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"7934"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2021-12-09T09:24:27",
+		"id": 7695
+	},
+	{
+		"template": "line001",
 		"data-id": 7696,
 		"chart-id": 7696,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7934
+		],
+		"title": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"subtitle": "Wohnviertel Rosental, nach Bezirk",
+		"lesehilfe": "Während beim Bezirk Messe der Anteil deutschsprachiger Schulkinder auf tiefem Niveau stagniert, verzeichnet der sich im baulichen Umbruch befindliche Bezirk Erlenmatt in den letzten Jahren eine dynamische Entwicklung hin zu einer ausgeglicheneren Verteilung deutsch- und fremdsprachiger Kinder.",
+		"erlaeuterungen": "Der Indikator zeigt den Anteil der Schülerinnen und Schüler mit Erstsprache Deutsch an allen Schülerinnen und Schülern der öffentlichen Kindergärten und Primarschulen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Anteil deutschsprachiger Kinder in Kindergarten und Primarschule",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07696",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.01",
+		"stufe1": "5 Bildung und Soziales",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "05_00_00_00_00_001",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2021-12-09T09:24:27",
 		"id": 7696
 	},
 	{
@@ -45314,46 +45288,44 @@ var indikatoren = [
 		"id": 7697
 	},
 	{
+		"template": "line001",
+		"data-id": 7698,
+		"chart-id": 7698,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7936
+		],
 		"title": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
 		"subtitle": "Wohnviertel Rosental",
-		"kuerzel": "I.13.2.07698",
-		"kuerzelKunde": "5.05",
-		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
-		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"lesehilfe": "3,5% der Haushalte im Wohnviertel Rosental erhalten Ende 2020 Familienmietzinsbeiträge (Kanton: 2,3%). In 19,5% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 16,8%).",
+		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-08-31T17:18:01.011",
+		"description": "Anteil Haushalte mit Familienmietzinsbeiträgen resp. reinen Prämienverbilligungen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.07698",
+		"kennzahlenset": "Stadtteilmonitoring Rosental",
+		"kuerzelKunde": "5.05",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "3,3% der Haushalte im Wohnviertel Rosental erhalten Ende 2019 Familienmietzinsbeiträge (Kanton: 2,3%). In 19,3% der Haushalte bezieht mindestens eine Person reine Prämienverbilligungen (Kanton: 16,4%).",
-		"erlaeuterungen": "Anteil Haushalte mit Prämienverbilligungen: Es werden alle Haushalte mit mindestens einer Person mit reiner Prämienverbilligung gezählt (ohne Bezügerinnen und Bezüger von Ergänzungsleistungen und Sozialhilfe).",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_005",
-		"parentId": null,
-		"children": [
-			"7936"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Basler Informationssystem Sozialleistungen (BISS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7698,
-		"chart-id": 7698,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-09T09:24:28",
 		"id": 7698
 	},
 	{
@@ -51932,45 +51904,43 @@ var indikatoren = [
 		"id": 8074
 	},
 	{
+		"template": "line001",
+		"data-id": 8075,
+		"chart-id": 8075,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8645
+		],
 		"title": "Sozialhilfebezüger und -quote",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.13.3.07694",
-		"kuerzelKunde": "5.04",
-		"description": "Sozialhilfebezüger und -quote",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "2020 beträgt die Sozialhilfequote im Klybeck 12,6% und in Kleinhüningen 11,5%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (6,7%).",
+		"erlaeuterungen": "Sozialhilfequote: Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Bezirk"
 		],
-		"aktualisierungsdatum": "2020-04-01T17:06:09.099",
+		"description": "Sozialhilfebezüger und -quote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "5.04",
 		"stufe1": "5 Bildung und Soziales",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2019 beträgt die Sozialhilfequote im Klybeck 13,6% und in Kleinhüningen 11,4%. Beide Wohnviertel liegen damit über der Sozialhilfequote der Stadt Basel (7,0%).",
-		"erlaeuterungen": "Anteil der im Jahresverlauf unterstützten Sozialhilfeempfänger am Endjahresbestand der Bevölkerung der entsprechenden Raumeinheit. Es sind alle sozialhilfebeziehenden Personen berücksichtigt, die im Verlaufe eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
-		"template": "line001",
+		"orderKey": "05_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8645"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8075,
-		"chart-id": 8075,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-09T09:24:27",
 		"id": 8075
 	},
 	{
@@ -73441,7 +73411,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:04",
+		"aktualisierungsdatum": "2021-12-09T09:24:23",
 		"id": 9022
 	},
 	{
@@ -73479,7 +73449,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:04",
+		"aktualisierungsdatum": "2021-12-09T09:24:24",
 		"id": 9023
 	},
 	{

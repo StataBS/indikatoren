@@ -14,6 +14,16 @@
         borderWidth: 0,
       }
     },
+    xAxis: {
+      tickPositioner: function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+    },
     yAxis: [
       {
         gridLineColor: '#B9CFD7',
@@ -45,14 +55,7 @@
         "opposite": true
       }
     ],
-    "xAxis": {
-      "tickInterval": 1,
-      labels:{
-        step: 2
-      }
-//      endOnTick: true,
-      //showLastLabel: true,
-    },
+
     "legend": {
       "enabled": true,
       "layout": "horizontal",

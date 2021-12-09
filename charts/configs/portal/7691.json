@@ -18,8 +18,8 @@
           0.71323
         ],
         [
-          "2014-2018",
-          0.71011
+          "2015-2019",
+          0.72046
         ]
       ],
       "name": "Rosental",
@@ -45,9 +45,9 @@
           "high": "."
         },
         {
-          "name": "2014-2018",
-          "low": 0.67394,
-          "high": 0.74628
+          "name": "2015-2019",
+          "low": 0.68497,
+          "high": 0.75594
         }
       ],
       "name": "Rosental 95% Konfidenzintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.72945
         ],
         [
-          "2014-2018",
-          0.73347
+          "2015-2019",
+          0.73027
         ]
       ],
       "name": "Basel",
@@ -98,9 +98,9 @@
           "high": "."
         },
         {
-          "name": "2014-2018",
-          "low": 0.72676,
-          "high": 0.74018
+          "name": "2015-2019",
+          "low": 0.72344,
+          "high": 0.73709
         }
       ],
       "name": "Basel 95% Konfidenzintervall Untergrenze",
@@ -228,7 +228,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-15"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -83,6 +83,10 @@
         [
           2019,
           643
+        ],
+        [
+          2020,
+          582
         ]
       ],
       "name": "Bezüger Messe"
@@ -170,6 +174,10 @@
         [
           2019,
           29
+        ],
+        [
+          2020,
+          12
         ]
       ],
       "name": "Bezüger Erlenmatt"
@@ -257,6 +265,10 @@
         [
           2019,
           13.514081547
+        ],
+        [
+          2020,
+          12.398806988
         ]
       ],
       "name": "Sozialhilfequote Messe"
@@ -344,6 +356,10 @@
         [
           2019,
           1.0416666667
+        ],
+        [
+          2020,
+          0.406504065
         ]
       ],
       "name": "Sozialhilfequote Erlenmatt"
@@ -431,6 +447,10 @@
         [
           2019,
           6.9843180489
+        ],
+        [
+          2020,
+          6.7353491359
         ]
       ],
       "name": "Sozialhilfequote Stadt Basel"
@@ -497,10 +517,16 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      },
-      "step": 2
+      }
     },
-    "tickInterval": 1
+    "tickPositioner": function () {
+        var interval = 2,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
   },
   "yAxis": [
     {
@@ -573,7 +599,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -610,6 +636,6 @@
 			}
   },
   "exporting": {
-    "filename": 7694
+    "filename": "7694"
   }
 }

@@ -26,6 +26,10 @@
         [
           2019,
           18.770226537
+        ],
+        [
+          2020,
+          19.93006993
         ]
       ],
       "name": "Messe"
@@ -57,6 +61,10 @@
         [
           2019,
           31.067961165
+        ],
+        [
+          2020,
+          33.870967742
         ]
       ],
       "name": "Erlenmatt"
@@ -186,7 +194,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-1"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -227,6 +235,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 7696
+    "filename": "7696"
   }
 }

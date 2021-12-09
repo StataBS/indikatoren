@@ -29,7 +29,11 @@
         ],
         [
           "2019",
-          3248
+          3227
+        ],
+        [
+          "2020",
+          3231
         ]
       ],
       "name": "Mietwohnungen",
@@ -64,7 +68,11 @@
         ],
         [
           "2019",
-          116
+          111
+        ],
+        [
+          "2020",
+          107
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -99,7 +107,11 @@
         ],
         [
           "2019",
-          165
+          164
+        ],
+        [
+          "2020",
+          167
         ]
       ],
       "name": "selbstbewohnte Eigentümerwohnungen",
@@ -134,6 +146,10 @@
         ],
         [
           "2019",
+          53
+        ],
+        [
+          "2020",
           55
         ]
       ],
@@ -278,7 +294,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-9"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
