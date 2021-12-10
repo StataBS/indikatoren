@@ -39501,7 +39501,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:03",
+		"aktualisierungsdatum": "2021-12-10T08:28:47",
 		"id": 8995
 	},
 	{
