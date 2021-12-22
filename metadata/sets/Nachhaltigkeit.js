@@ -1713,11 +1713,12 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			8927,
-			9371
+			9371,
+			9428
 		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -1742,50 +1743,48 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:18",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 6036
 	},
 	{
+		"template": "line001",
+		"data-id": 6037,
+		"chart-id": 6037,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6147,
+			6300,
+			8928
+		],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"kuerzel": "I.03.3.6037",
-		"kuerzelKunde": "GZ5",
-		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:44:23.2323",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6037",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ5",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_505",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_02_00_00_00_505",
-		"parentId": null,
-		"children": [
-			"6147",
-			"6300",
-			"8928"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6037,
-		"chart-id": 6037,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 6037
 	},
 	{
@@ -3016,11 +3015,13 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8962
+			8962,
+			9370,
+			9427
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -3045,7 +3046,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-26T08:26:05",
+		"aktualisierungsdatum": "2021-12-22T08:21:13",
 		"id": 8459
 	},
 	{

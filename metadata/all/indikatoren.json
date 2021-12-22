@@ -2015,11 +2015,12 @@
 			5816,
 			6248,
 			7595,
-			9384
+			9384,
+			9441
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -2045,7 +2046,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:17",
+		"aktualisierungsdatum": "2021-12-22T08:21:10",
 		"id": 4135
 	},
 	{
@@ -2572,43 +2573,44 @@
 		"id": 4148
 	},
 	{
+		"template": "template001",
+		"data-id": 4149,
+		"chart-id": 4149,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			9386,
+			9443
+		],
 		"title": "Freiraumfläche und Anteil an der Gesamtfläche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.02.1.4149",
-		"kuerzelKunde": "3.2.A",
-		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Im Jahr 2020 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,42%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9 Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5 Hektar.",
+		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parks und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-13T13:34:42.4242",
+		"description": "Freiraumfläche und Anteil an der Gesamtfläche",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.4149",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "3.2.A",
 		"stufe1": "Ziel 3: Raumplanung",
 		"stufe2": "3.2 Freiräume",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 betrug der Anteil der Freiraumflächen an der gesamten Fläche des Kantons 2,42%. Die Freiraumflächen reduzierten sich aufgrund von Schulhauserweiterungen auf Kosten von Sportanlagen sowie der Umgestaltung der Voltamatte vorübergehend bis auf rund 83,9 Hektar im Jahr 2013. Die Öffnung des Schwarzparks für die Bevölkerung sorgte 2014 für einen Sprung auf rund 88,5 Hektar.",
-		"erlaeuterungen": "Zu den Freiraumflächen zählen Parkanlagen, Spielplätze und Rasenflächen von Sportanlagen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der Amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Pärke und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
-		"template": "template001",
+		"orderKey": "04_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4149,
-		"chart-id": 4149,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:11",
 		"id": 4149
 	},
 	{
@@ -11829,7 +11831,7 @@
 		"children": [],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie auch eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -11855,7 +11857,7 @@
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:37",
+		"aktualisierungsdatum": "2021-12-22T08:21:13",
 		"id": 5816
 	},
 	{
@@ -13167,11 +13169,12 @@
 		"parentId": null,
 		"children": [
 			8927,
-			9371
+			9371,
+			9428
 		],
 		"title": "Gini-Koeffizienten von Reineinkommen und Reinvermögen",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu. Derjenige des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
+		"lesehilfe": "Der Gini-Koeffizient des Reineinkommens nimmt im Zeitverlauf insgesamt leicht zu, jener des Reinvermögens zeigt sich auf höherem Niveau etwas konstanter. Für das Reinvermögen liegt für das Jahr 2000 aufgrund von Gesetzesänderungen kein Wert vor.",
 		"erlaeuterungen": "Der Gini-Koeffizient ist ein Mass für die Gleichmässigkeit einer Verteilung (hier des Reineinkommens und des Reinvermögens). Er kann Werte zwischen 0 (alle besitzen gleich viel) und 1 (einer besitzt alles) annehmen.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -13197,51 +13200,49 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:18",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 6036
 	},
 	{
+		"template": "line001",
+		"data-id": 6037,
+		"chart-id": 6037,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6147,
+			6300,
+			8928
+		],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"kuerzel": "I.03.3.6037",
-		"kuerzelKunde": "GZ5",
-		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:44:23.2323",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6037",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GZ5",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
-		"template": "line001",
+		"orderKey": "05_02_00_00_00_505",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_02_00_00_00_505",
-		"parentId": null,
-		"children": [
-			"6147",
-			"6300",
-			"8928"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6037,
-		"chart-id": 6037,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 6037
 	},
 	{
@@ -20290,43 +20291,41 @@
 		"id": 6299
 	},
 	{
+		"template": "line001_print",
+		"data-id": 6300,
+		"chart-id": 6300,
+		"filter": "",
+		"parentId": "6037",
+		"children": [],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"kuerzel": "I.03.3.06300",
-		"kuerzelKunde": "4.6",
-		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Legislaturplan (Print)",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-23T15:59:58.5858",
-		"stufe1": "Ziel 4: Der gesellschaftliche Zusammenhalt ist gut.",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.06300",
+		"kennzahlenset": "Legislaturplan (Print)",
+		"kuerzelKunde": "2.12",
+		"stufe1": "Legislaturziel 2: Gesellschaftlichen Zusammenhalt stärken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
-		"template": "line001_print",
+		"orderKey": "02_00_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "small",
 		"visibleInPortal": false,
-		"orderKey": "04_00_00_00_00_006",
-		"parentId": 6037,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6300,
-		"chart-id": 6300,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:10",
 		"id": 6300
 	},
 	{
@@ -25540,46 +25539,46 @@
 		"id": 6459
 	},
 	{
+		"template": "template001",
+		"data-id": 6460,
+		"chart-id": 6460,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7046"
+			7046,
+			9363,
+			9421
 		],
-		"template": "template001",
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.4.6460",
-		"kuerzelKunde": "2-02",
-		"description": "Arbeitslosenquote nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-23T08:36:41.4141",
+		"description": "Arbeitslosenquote nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.6460",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "2-02",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
+		"orderKey": "01_00_00_00_00_201",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_201",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6460,
-		"chart-id": 6460,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:11",
 		"id": 6460
 	},
 	{
@@ -40200,44 +40199,42 @@
 		"id": 7045
 	},
 	{
-		"parentId": 6460,
-		"children": [],
 		"template": "template001_print",
+		"data-id": 7046,
+		"chart-id": 7046,
+		"filter": "",
+		"parentId": "6460",
+		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt (Print)",
-		"kuerzel": "I.03.4.07046",
-		"kuerzelKunde": "2-02",
-		"description": "Arbeitslosenquote nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Arbeitslose",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
+		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:44.4444",
+		"description": "Arbeitslosenquote nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Arbeitslose",
+		"kuerzel": "I.03.4.07046",
+		"kennzahlenset": "Arbeitsmarkt (Print)",
+		"kuerzelKunde": "2-02",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
-		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Erwerbspersonen nach Branche nicht vorhanden sind.",
+		"orderKey": "01_00_00_00_00_201",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "01_00_00_00_00_201",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7046,
-		"chart-id": 7046,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:11",
 		"id": 7046
 	},
 	{
@@ -42861,7 +42858,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "100 227 Logiernächte wurden im Oktober 2021 in den Basler Hotelbetrieben gebucht, 5 390 bzw. 5,1% weniger als im September. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 105,0% bzw. 51 340 Übernachtungen. Die inländischen Gäste buchten 48 845 Logiernächte (+49,9%), die Gäste aus dem Ausland 51 382 Übernachtungen (+215,3%).",
+		"lesehilfe": "81 980 Logiernächte wurden im November 2021 in den Basler Hotelbetrieben gebucht, 18 247 bzw. 18,2% weniger als im Oktober. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 223,2% bzw. 56 611 Übernachtungen. Die inländischen Gäste buchten 38 491 Logiernächte (+132,4%), die Gäste aus dem Ausland 43 489 Übernachtungen (+393,9%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42887,7 +42884,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:31",
+		"aktualisierungsdatum": "2021-12-22T08:21:09",
 		"id": 7516
 	},
 	{
@@ -42898,8 +42895,8 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Oktober",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 30%.",
+		"subtitle": "Basel-Stadt, November",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42925,7 +42922,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-24T08:43:32",
+		"aktualisierungsdatum": "2021-12-22T08:21:10",
 		"id": 7517
 	},
 	{
@@ -60628,11 +60625,13 @@
 		"filter": "",
 		"parentId": null,
 		"children": [
-			8962
+			8962,
+			9370,
+			9427
 		],
 		"title": "Mittelwert und Median des Reinvermögens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen im Allgemeinen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
+		"lesehilfe": "Der Median des Reinvermögens ist im Zeitverlauf überwiegend gestiegen, seit 2007 insgesamt um 68,1%, von rund 11 400 auf 19 200 Franken. Der Anstieg des Medians ist ein Indikator dafür, dass sich die tieferen Vermögen insgesamt positiv entwickelt haben. Allerdings sind die Werte des Medians im Vergleich zum Mittelwert des Reinvermögens auf einem deutlich niedrigeren Niveau.",
 		"erlaeuterungen": "Grundlage der Auswertungen sind die Veranlagungen von ganzjährig in Basel-Stadt steuerpflichtigen Personen; ohne Auswärtige, ohne Wochenaufenthalter.",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
@@ -60658,7 +60657,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-26T08:26:05",
+		"aktualisierungsdatum": "2021-12-22T08:21:13",
 		"id": 8459
 	},
 	{
@@ -70591,43 +70590,41 @@
 		"id": 8927
 	},
 	{
+		"template": "line001_print",
+		"data-id": 8928,
+		"chart-id": 8928,
+		"filter": "",
+		"parentId": "6037",
+		"children": [],
 		"title": "Verhältnis der Löhne von Frauen und Männern",
 		"subtitle": "im privaten Sektor in der Nordwestschweiz",
-		"kuerzel": "I.03.3.08928",
-		"kuerzelKunde": "GZ5",
-		"description": "Verhältnis der Löhne von Frauen und Männern",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied von 13,6% hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008: 18,5%).",
+		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-14T19:44:23.2323",
+		"description": "Verhältnis der Löhne von Frauen und Männern",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.08928",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "GZ5",
 		"stufe1": "Bereich Gesellschaftlicher Zusammenhalt",
 		"stufe2": "Chancengleichheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 erreicht der Medianlohn der Frauen in der Nordwestschweiz 5 884 Franken. Dies entspricht 86,4% des Medianlohns der Männer (6 814 Fr.). Der Lohnunterschied hat sich gegenüber 2016 nicht verändert, ist jedoch geringer als zehn Jahre zuvor (2008 betrug das Lohnverhältnis 81,5%).",
-		"erlaeuterungen": "Grundlage ist der Median des monatlichen Bruttolohns, standardisiert (Vollzeitäquivalent basierend auf 4,33 Wochen à 40 Arbeitsstunden), im privaten Sektor (ohne Landwirtschaft), im Monat Oktober, einschliesslich u. a. 1/12 des 13. Monatslohns und 1/12 der jährlichen Boni.",
-		"template": "line001_print",
+		"orderKey": "05_02_00_00_00_505",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "05_02_00_00_00_505",
-		"parentId": 6037,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8928,
-		"chart-id": 8928,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-22T08:21:12",
 		"id": 8928
 	},
 	{
