@@ -400,7 +400,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Bundesamt für Gesundheit (BAG);\u003Cbr\u002F\u003EGesundheitsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

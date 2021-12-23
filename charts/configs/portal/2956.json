@@ -2,16 +2,8 @@
   "series": [
     {
       "color": "#ffbb58",
-      "visible": false,
+      "visible": true,
       "data": [
-        [
-          "Schweiz",
-          95.2
-        ],
-        [
-          "Ausland",
-          93.5
-        ],
         [
           "18-29 J.",
           91
@@ -37,14 +29,6 @@
           96
         ],
         [
-          "Männer",
-          95.8
-        ],
-        [
-          "Frauen",
-          94.2
-        ],
-        [
           "Total",
           94.9
         ]
@@ -54,16 +38,8 @@
     },
     {
       "color": "#ff8028",
-      "visible": false,
+      "visible": true,
       "data": [
-        [
-          "Schweiz",
-          96.4
-        ],
-        [
-          "Ausland",
-          94.2
-        ],
         [
           "18-29 J.",
           96.8
@@ -89,14 +65,6 @@
           99.2
         ],
         [
-          "Männer",
-          96.7
-        ],
-        [
-          "Frauen",
-          95.6
-        ],
-        [
           "Total",
           96.1
         ]
@@ -106,16 +74,8 @@
     },
     {
       "color": "#b00000",
-      "visible": false,
+      "visible": true,
       "data": [
-        [
-          "Schweiz",
-          96
-        ],
-        [
-          "Ausland",
-          95.9
-        ],
         [
           "18-29 J.",
           96.6
@@ -141,14 +101,6 @@
           97.1
         ],
         [
-          "Männer",
-          96.9
-        ],
-        [
-          "Frauen",
-          95.3
-        ],
-        [
           "Total",
           96
         ]
@@ -158,16 +110,8 @@
     },
     {
       "color": "#661200",
-      "visible": false,
+      "visible": true,
       "data": [
-        [
-          "Schweiz",
-          96.2
-        ],
-        [
-          "Ausland",
-          94.3
-        ],
         [
           "18-29 J.",
           96.6
@@ -193,14 +137,6 @@
           96.9
         ],
         [
-          "Männer",
-          96.9
-        ],
-        [
-          "Frauen",
-          95.2
-        ],
-        [
           "Total",
           95.9
         ]
@@ -210,16 +146,8 @@
     },
     {
       "color": "#953735",
-      "visible": false,
+      "visible": true,
       "data": [
-        [
-          "Schweiz",
-          96.6
-        ],
-        [
-          "Ausland",
-          96.5
-        ],
         [
           "18-29 J.",
           97.9
@@ -245,14 +173,6 @@
           97
         ],
         [
-          "Männer",
-          96.9
-        ],
-        [
-          "Frauen",
-          96.3
-        ],
-        [
           "Total",
           96.6
         ]
@@ -264,14 +184,6 @@
       "color": "#B375AB",
       "visible": true,
       "data": [
-        [
-          "Schweiz",
-          93.9
-        ],
-        [
-          "Ausland",
-          90.7
-        ],
         [
           "18-29 J.",
           88.9
@@ -297,14 +209,6 @@
           95.5
         ],
         [
-          "Männer",
-          92.9
-        ],
-        [
-          "Frauen",
-          93.8
-        ],
-        [
           "Total",
           93.2
         ]
@@ -328,7 +232,7 @@
       "style": {
         "color": "#000000"
       },
-      "rotation": -90
+      "rotation": 0
     }
   },
   "chart": {
@@ -387,7 +291,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Zufriedenheit mit der Gesundheitsversorgung nach Geschlecht, Herkunft und Altersgruppe"
+    "text": "Zufriedenheit mit der Gesundheitsversorgung, nach Altersgruppe"
   },
   "subtitle": {
     "text": "«Wie zufrieden sind Sie mit der Gesundheitsversorgung?», Anteil sehr oder eher Zufriedene, Basel-Stadt",
@@ -447,7 +351,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

@@ -1688,7 +1688,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Arbeitslosenquote nach Branche",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie  (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
+		"lesehilfe": "Die mittlere Arbeitslosenquote ist 2020 auf 3,8% gestiegen (2019: 3,0%). In allen Branchen ausser in der Chemie/Pharma hat die Quote gegenüber 2019 zugenommen. Die Arbeitslosenquote ist im Baugewerbe (12,6%), im Gastgewerbe (9,0%), in der Industrie (7,0%, exkl. Chemie und Pharma) und in der Dienstleistungsgruppe Gebäudebetreuung, Sicherheit und sonstige wirtschaftliche Dienstleistungen (7,0%), in der z. B. auch das Reinigungsgewerbe enthalten ist, am höchsten.",
 		"erlaeuterungen": "Als Arbeitslose gelten Personen, welche bei einem Regionalen Arbeitsvermittlungszentrum (RAV) gemeldet sind, keine Stelle haben und sofort vermittelbar sind. Die Arbeitslosenquote berechnet sich aus der Anzahl Arbeitslosen (SECO), geteilt durch die Erwerbstätigen aus der Sturkturerhebung (Pooling 2015-2017), da die Anzahl Erwerbspersonen nach Branche nicht vorhanden ist.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
@@ -1714,7 +1714,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:11",
+		"aktualisierungsdatum": "2021-12-23T02:24:56",
 		"id": 7046
 	},
 	{

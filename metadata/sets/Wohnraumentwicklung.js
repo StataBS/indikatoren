@@ -6,11 +6,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9385
+			9385,
+			9442
 		],
 		"title": "Zufriedenheit mit dem Wohnungsangebot",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Wohnungsangebot?», Basel-Stadt",
-		"lesehilfe": "17,9% der Befragten sind mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Seit der ersten Bevölkerungsbefragung 2003 ist der Anteil der Zufriedenen bis 2011 stetig gewachsen, bevor 2015 ein Rückgang erfolgte. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen.",
+		"lesehilfe": "17,9% der Befragten sind 2019 mit dem Wohnungsangebot sehr zufrieden und 34,8% eher zufrieden. Gegenüber 2015 ist die Zufriedenheit der Befragten wieder gestiegen, nachdem 2015 erstmals ein Rückgang erfolgte.",
 		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -35,7 +36,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:29",
+		"aktualisierungsdatum": "2021-12-23T02:24:09",
 		"id": 4127
 	},
 	{
@@ -916,11 +917,12 @@ var indikatorensetData = [
 		"children": [
 			5819,
 			6251,
-			9388
+			9388,
+			9445
 		],
 		"title": "Zufriedenheit mit Grünanlagen und Parks am Wohnort",
 		"subtitle": "«Wie zufrieden sind Sie mit den Grünanlagen und Parks an Ihrem Wohnort?», Basel-Stadt, 2019",
-		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden. 2015 lag dieser Anteil bei 91,3%.",
+		"lesehilfe": "85,9% der 2019 Befragten sind mit den Grünanlagen und Parks an ihrem Wohnort eher bis sehr zufrieden.",
 		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
@@ -945,7 +947,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:30",
+		"aktualisierungsdatum": "2021-12-23T02:25:00",
 		"id": 4150
 	},
 	{

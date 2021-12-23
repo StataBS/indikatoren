@@ -555,11 +555,13 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9081
+			9081,
+			9365,
+			9423
 		],
 		"title": "Geschäftsleerstandsfläche nach Nutzung",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um 53% von 120 500  m² auf 184 700 m² zugenommen. Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
+		"subtitle": "in m², Basel-Stadt",
+		"lesehilfe": "Das Angebot leerstehender Geschäftsflächen hat zwischen 2020 und 2021 um von 120 500  m² auf 184 700 m² zugenommen (+ 53%). Dies ist hauptsächlich auf eine Zunahme im Bürobereich von 76 500  m² auf 122 400  m² zurückzuführen.",
 		"erlaeuterungen": "Die Erhebung wird vom Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel durchgeführt. Stichtag ist der 1. Juni.",
 		"quellenangabe": [
 			"Schweizerischer Verband der Immobilienwirtschaft (SVIT) beider Basel"
@@ -584,7 +586,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:19",
+		"aktualisierungsdatum": "2021-12-23T02:25:49",
 		"id": 7588
 	},
 	{

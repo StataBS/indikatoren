@@ -14,8 +14,7 @@
 
   "xAxis": {
     "type": "category",
-     "labels": {
-      "rotation": -45, 
+     "labels": { 
     } 
   },
   "yAxis": {

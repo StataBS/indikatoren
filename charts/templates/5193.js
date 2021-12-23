@@ -1,55 +1,37 @@
-(function(){
-    return {
-"plotOptions": {
-    "series": {
-      pointPadding: 100,
-      borderWidth: 0,
-      "pointWidth": 30,
-      "dataLabels": {
-        "style": {
-          "fontSize": "10px"
-        }
-      },
-      "stacking": "normal"
-    }
-  },
-  "xAxis": {
-    "tickInterval": 1
-  },  
-  "yAxis": {
-    "labels": {
-      "format": "{value:,.0f}",
+(function () {
+  return {
+    "chart": {
+      "type": "column",
     },
-	"max": undefined
-  },
-  "legend": {
-    "enabled": true,
-    "layout": "horizontal",
-    "verticalAlign": "top",
-    "align": "left",
-    //"y": 40,
-    //"itemWidth": 150,
-    "itemMarginBottom": 5,
-    "itemStyle": {
-      "fontWeight": "normal"
-    }
-  },
- "series": [
-  {"color": "#923f8d", "index": 0, "legendIndex":0}, /*grün dunkel2*/
-  {"color": "#b375ab", "index": 1, "legendIndex":2}, /*grün mittel*/
-  {"color": "#007a2f", "index": 2, "legendIndex":1}, 
-  {"color": "#68ab2b", "index": 3, "legendIndex":3}, 
-  ],
-  "chart": {
-    "marginBottom": 75,
-    //"marginTop": 75,
-    "type": "column",
-    "inverted": false
-  },
-  "tooltip": {
-  "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>',
-  "footerFormat": 'Total: <b>{point.total:,.1f}</b>',
-   "shared": false
-  },
-}
+    "plotOptions": {
+      "series": {
+        "stacking": "normal"
+      }
+    },
+    xAxis: {
+      tickInterval: 1
+    },
+    "yAxis": {
+      "labels": {
+        "format": "{value:,.0f}",
+        "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0) + '';
+        },
+      }
+    },
+    "legend": {
+      "layout": "horizontal",
+      "verticalAlign": "top",
+      "align": "left",
+      "itemMarginBottom": 5,
+    },
+    "tooltip": {
+      "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+      "footerFormat": 'Total: <b>{point.total:,.0f}</b>',
+    },
+    "series": [
+      { "color": "#923f8d", "index": 1, "legendIndex": 0 }, /*grün dunkel2*/
+      { "color": "#b375ab", "index": 0, "legendIndex": 2 }, /*grün mittel*/
+    ],
+  }
 }());

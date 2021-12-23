@@ -946,45 +946,6 @@ var indikatorensetData = [
 		"id": 5191
 	},
 	{
-		"title": "Staatsausgaben für Kultur und Freizeit",
-		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"kuerzel": "I.18.1.5193",
-		"kuerzelKunde": "GW15",
-		"description": "Staatsausgaben für Kultur und Freizeit",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatsrechnung",
-		"kennzahlenset": "Nachhaltigkeit",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2019-11-22T09:41:04.044",
-		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
-		"stufe2": "Bildung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Ausgaben des Kantons Basel-Stadt im Bereich Kultur, Sport und Freizeit, Kirche sind zwischen 2008 und 2017 von rund 1 300 Fr. auf über 1 500 Fr. pro Kopf gestiegen.",
-		"erlaeuterungen": "Ausgaben nach Funktion berechnet von der Eidgenössischen Finanzverwaltung; pro Kopf der mittleren Wohnbevölkerung Basel-Stadt.",
-		"template": "template001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_05_00_00_00_315",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5193,
-		"chart-id": 5193,
-		"filter": "",
-		"id": 5193
-	},
-	{
 		"template": "template001",
 		"data-id": 5195,
 		"chart-id": 5195,
@@ -1236,8 +1197,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen «Wohnen» und «Nichtwohnen (ohne Verkehr)».",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen (ohne Verkehr)» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -1263,7 +1224,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:22",
+		"aktualisierungsdatum": "2021-12-23T02:25:50",
 		"id": 5794
 	},
 	{
@@ -3091,44 +3052,44 @@ var indikatorensetData = [
 		"id": 8460
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 8461,
+		"chart-id": 8461,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8964"
+			8964,
+			9376,
+			9433
 		],
-		"template": "befragungen001",
 		"title": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
 		"subtitle": "«Wie zufrieden sind Sie mit dem Angebot zur Kinderbetreuung?», Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.50.1.08461",
-		"kuerzelKunde": "WE14",
-		"description": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
+		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden. 50,2% haben diese Frage mit «Weiss nicht» oder gar nicht beantwortet.",
+		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:59:10.1010",
+		"description": "Zufriedenheit mit dem Angebot der Kinderbetreuung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.08461",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE14",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Insgesamt 39,5% zeigen sich 2019 sehr oder eher zufrieden mit dem Angebot der Kinderbetreuung. 10,3% sind damit unzufrieden.",
-		"erlaeuterungen": "Alle vier Jahre wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) durchgeführt. In den Vorjahren wurde die Befragung telefonisch durchgeführt. Es werden nur die Antworten zur Zufriedenheit jener Befragten berücksichtigt, welche zuvor eine Angabe zur Wichtigkeit des jeweiligen Aspektes gemacht haben.",
+		"orderKey": "06_02_00_00_00_614",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_02_00_00_00_614",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8461,
-		"chart-id": 8461,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-23T02:25:53",
 		"id": 8461
 	},
 	{

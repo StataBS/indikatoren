@@ -747,46 +747,44 @@ var indikatorensetData = [
 		"id": 4858
 	},
 	{
+		"template": "befragungen001",
+		"data-id": 4859,
+		"chart-id": 4859,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6186,
+			6332,
+			8398
+		],
 		"title": "Beurteilung der kantonalen Verwaltung",
 		"subtitle": "«Wie ist der letzte Kontakt mit der kantonalen Verwaltung verlaufen?», Basel-Stadt",
-		"kuerzel": "I.50.1.4859",
-		"kuerzelKunde": "2.2.05",
-		"description": "Beurteilung der kantonalen Verwaltung",
-		"thema": "50 Befragungen",
-		"unterthema": "Bevölkerungsbefragung",
-		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ.",
+		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-22T18:01:11.1111",
+		"description": "Beurteilung der kantonalen Verwaltung",
+		"thema": "50 Befragungen",
+		"unterthema": "Bevölkerungsbefragung",
+		"kuerzel": "I.50.1.4859",
+		"kennzahlenset": "Gesellschaftlicher-Zusammenhalt",
+		"kuerzelKunde": "2.2.05",
 		"stufe1": "2 Verbundenheit",
 		"stufe2": "2.2 Vertrauen in Institutionen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "20,7% der im Jahr 2019 Befragten empfanden den letzten Kontakt mit der kantonalen Verwaltung als sehr positiv und 44,7% als eher positiv. 12,3% der Befragten empfanden den Kontakt als eher oder sehr negativ",
-		"erlaeuterungen": "Alle vier Jahre (bis 2007 alle zwei) wird im Kanton Basel-Stadt eine Bevölkerungsbefragung durchgeführt. Die Befragung richtet sich an volljährige Personen mit Schweizer Bürgerrecht sowie Ausländerinnen und Ausländer mit Ausweis B oder C, die seit mindestens einem Jahr in Basel-Stadt wohnhaft sind. 2019 wurde die Befragung erstmals in schriftlicher Form (Papier- bzw. Onlinefragebogen) statt wie zuvor telefonisch durchgeführt. Dieser Methodenwechsel kann einen Einfluss auf die Vergleichbarkeit der Ergebnisse haben (weitere Informationen: <a href='https://www.statistik.bs.ch/befragungen' target='_blank'>www.statistik.bs.ch/befragungen</a>).",
-		"template": "befragungen001",
+		"orderKey": "02_02_00_00_00_046",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_046",
-		"parentId": null,
-		"children": [
-			"6186",
-			"6332",
-			"8398"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, kantonale Bevölkerungsbefragung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4859,
-		"chart-id": 4859,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-23T02:24:45",
 		"id": 4859
 	},
 	{

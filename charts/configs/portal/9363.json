@@ -1,0 +1,372 @@
+{
+  "series": [
+    {
+      "color": "#FFBB58",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.05
+        ],
+        [
+          "Chemie, Pharma",
+          0.019
+        ],
+        [
+          "Baugewerbe",
+          0.103
+        ],
+        [
+          "Handel, Reparatur",
+          0.039
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.041
+        ],
+        [
+          "Gastgewerbe",
+          0.066
+        ],
+        [
+          "Information, Kommunikation",
+          0.03
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.03
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.026
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.059
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.03
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.021
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.015
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.024
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.023
+        ],
+        [
+          "Total",
+          0.033
+        ]
+      ],
+      "name": "2018",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.052
+        ],
+        [
+          "Chemie, Pharma",
+          0.018
+        ],
+        [
+          "Baugewerbe",
+          0.107
+        ],
+        [
+          "Handel, Reparatur",
+          0.033
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.037
+        ],
+        [
+          "Gastgewerbe",
+          0.059
+        ],
+        [
+          "Information, Kommunikation",
+          0.035
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.029
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.024
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.052
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.027
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.015
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.012
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.022
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.022
+        ],
+        [
+          "Total",
+          0.03
+        ]
+      ],
+      "name": "2019",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "data": [
+        [
+          "Industrie (exkl. Chemie, Pharma)",
+          0.07
+        ],
+        [
+          "Chemie, Pharma",
+          0.017
+        ],
+        [
+          "Baugewerbe",
+          0.126
+        ],
+        [
+          "Handel, Reparatur",
+          0.04
+        ],
+        [
+          "Verkehr, Lagerei",
+          0.046
+        ],
+        [
+          "Gastgewerbe",
+          0.09
+        ],
+        [
+          "Information, Kommunikation",
+          0.039
+        ],
+        [
+          "Finanz-, Versicherungs-DL",
+          0.04
+        ],
+        [
+          "Beratung, Planung, Forschung, Immobilien",
+          0.036
+        ],
+        [
+          "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
+          0.07
+        ],
+        [
+          "Personalvermittlung, -überlassung",
+          0.039
+        ],
+        [
+          "Öffentliche Verwaltung, Sozialversicherungen",
+          0.019
+        ],
+        [
+          "Erziehung, Unterricht",
+          0.017
+        ],
+        [
+          "Gesundheits-, Sozialwesen",
+          0.028
+        ],
+        [
+          "Kultur, Unterhaltung, pers. DL",
+          0.031
+        ],
+        [
+          "Total",
+          0.038
+        ]
+      ],
+      "name": "2020",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "align": "left",
+      "x": -180,
+      "formatter": function() {
+            return this.value.replace("/", "<br/>")
+        }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 663,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginLeft": 200,
+    "marginRight": 18,
+    "type": "column",
+    "inverted": true,
+    "renderTo": "container-9363",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointPadding": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Arbeitslosenquote nach Branche"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      },
+      "rotation": 0,
+      "formatter": function(){
+        return Highcharts.numberFormat((this.value*100),0)+'%'; 
+      },
+      "format": "{value}*100%"
+    },
+    "tickInterval": 0.02
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EStaatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "pointFormatter": function(){
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
+    }
+  },
+  "exporting": {
+    "filename": "9363"
+  }
+}

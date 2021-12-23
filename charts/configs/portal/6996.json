@@ -358,9 +358,8 @@
                     }
                 }
     },
-    "renderTo": "container-6996",
     "type": "column",
-    "inverted": false,
+    "renderTo": "container-6996",
     "spacingBottom": 40
   },
   "plotOptions": {
@@ -407,21 +406,18 @@
     "labels": {
       "style": {
         "color": "#000000"
-      },
-      "format": "{value:,.0f}"
-    },
-    "tickAmount": 5
+      }
+    }
   },
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "horizontal",
+    "align": "left",
     "verticalAlign": "top",
     "itemMarginBottom": 4,
-    "align": "left",
     "itemDistance": 10
   },
   "navigation": {
@@ -443,11 +439,24 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gesundheitsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "formatter": function () {
+        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+        $.each(this.points, function (i, point) {
+          s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y, 0) + '</b></td>'
+            + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+          sum += point.y;
+        });
+        s += '<tr><td>Total:</td><td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(sum, 0) + '</b></td>'
+          + '<td style="text-align:right">&nbsp;(100,0%)</td></tr></table>'
+        return s;
+      }
   },
   "exporting": {
     "filename": "6996"
