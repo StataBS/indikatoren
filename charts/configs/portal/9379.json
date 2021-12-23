@@ -1,0 +1,446 @@
+{
+  "series": [
+    {
+      "color": "#6F6F6F",
+      "data": [
+        [
+          2011,
+          3032
+        ],
+        [
+          2012,
+          3179
+        ],
+        [
+          2013,
+          3296
+        ],
+        [
+          2014,
+          3343
+        ],
+        [
+          2015,
+          3493
+        ],
+        [
+          2016,
+          3575
+        ],
+        [
+          2017,
+          3534
+        ],
+        [
+          2018,
+          3496
+        ],
+        [
+          2019,
+          3595
+        ],
+        [
+          2020,
+          3748
+        ]
+      ],
+      "name": "Basel-Stadt"
+    },
+    {
+      "color": "#FF8028",
+      "data": [
+        [
+          2011,
+          4040
+        ],
+        [
+          2012,
+          4299
+        ],
+        [
+          2013,
+          4333
+        ],
+        [
+          2014,
+          4458
+        ],
+        [
+          2015,
+          4508
+        ],
+        [
+          2016,
+          4631
+        ],
+        [
+          2017,
+          4677
+        ],
+        [
+          2018,
+          4749
+        ],
+        [
+          2019,
+          4838
+        ],
+        [
+          2020,
+          5089
+        ]
+      ],
+      "name": "Basel-Landschaft"
+    },
+    {
+      "color": "#008AC3",
+      "data": [
+        [
+          2011,
+          3397
+        ],
+        [
+          2012,
+          3472
+        ],
+        [
+          2013,
+          3799
+        ],
+        [
+          2014,
+          4035
+        ],
+        [
+          2015,
+          4316
+        ],
+        [
+          2016,
+          4470
+        ],
+        [
+          2017,
+          4726
+        ],
+        [
+          2018,
+          4740
+        ],
+        [
+          2019,
+          4742
+        ],
+        [
+          2020,
+          4744
+        ]
+      ],
+      "name": "Aargau"
+    },
+    {
+      "color": "#FABD24",
+      "data": [
+        [
+          2011,
+          1663
+        ],
+        [
+          2012,
+          1773
+        ],
+        [
+          2013,
+          1801
+        ],
+        [
+          2014,
+          1877
+        ],
+        [
+          2015,
+          1912
+        ],
+        [
+          2016,
+          1976
+        ],
+        [
+          2017,
+          1977
+        ],
+        [
+          2018,
+          1955
+        ],
+        [
+          2019,
+          1981
+        ],
+        [
+          2020,
+          2066
+        ]
+      ],
+      "name": "Solothurn"
+    },
+    {
+      "color": "#B00000",
+      "data": [
+        [
+          2011,
+          4991
+        ],
+        [
+          2012,
+          5169
+        ],
+        [
+          2013,
+          5363
+        ],
+        [
+          2014,
+          5381
+        ],
+        [
+          2015,
+          5709
+        ],
+        [
+          2016,
+          5991
+        ],
+        [
+          2017,
+          6066
+        ],
+        [
+          2018,
+          6054
+        ],
+        [
+          2019,
+          6069
+        ],
+        [
+          2020,
+          6293
+        ]
+      ],
+      "name": "Übrige Schweiz"
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          2011,
+          3808
+        ],
+        [
+          2012,
+          3885
+        ],
+        [
+          2013,
+          3962
+        ],
+        [
+          2014,
+          4000
+        ],
+        [
+          2015,
+          4053
+        ],
+        [
+          2016,
+          4097
+        ],
+        [
+          2017,
+          4123
+        ],
+        [
+          2018,
+          4098
+        ],
+        [
+          2019,
+          4232
+        ],
+        [
+          2020,
+          4360
+        ]
+      ],
+      "name": "Ausland"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "marginRight": 20,
+    "renderTo": "container-9379",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "stacking": "normal",
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Studierende Universität Basel und Fachhochschule Nordwestschweiz"
+  },
+  "subtitle": {
+    "text": "nach Wohnkanton bzw. Ausland",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickPositioner": function () {
+        var interval = 1,
+          ext = this.getExtremes(),
+          i = ext.dataMax,
+          pos = [i];
+        while (i >= ext.dataMin) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "min": 0,
+    "reversedStacks": false
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Universität Basel;\u003Cbr\u002F\u003EFachhochschule Nordwestschweiz (FHNW).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "formatter": function () {
+        var s = '<span style="font-size: 10px">' + this.points[0].key + '</span><table>', sum = 0;
+        $.each(this.points, function (i, point) {
+          s += '<tr><td><span style="color:' + point.color + '">\u25CF</span> ' + point.series.name + ':</td>'
+            + '<td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(point.y, 0) + '</b></td>'
+            + '<td style="text-align:right">&nbsp;(' + Highcharts.numberFormat(point.percentage, 1) + '%)</td></tr>';
+          sum += point.y;
+        });
+        s += '<tr><td>Total:</td><td style="text-align:right">&nbsp;<b>' + Highcharts.numberFormat(sum, 0) + '</b></td>'
+          + '<td style="text-align:right">&nbsp;(100,0%)</td></tr></table>'
+        return s;
+      }
+  },
+  "exporting": {
+    "filename": "9379"
+  }
+}

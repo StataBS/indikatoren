@@ -1,7 +1,8 @@
 var indikatorensetNames = [
 	"Arbeitsmarkt",
-	"Legislaturplan",
+	"Legislaturplan-2017-2021",
 	"Nachhaltigkeit",
+	"Legislaturplan",
 	"Wohnraumentwicklung",
 	"Soziales",
 	"Umwelt",
@@ -10,7 +11,6 @@ var indikatorensetNames = [
 	"Richtplan",
 	"Wanderungen",
 	"Integration",
-	"Legislaturplan-2017-2021",
 	"Richtplan (Print)",
 	"Legislaturplan (Print)",
 	"Gefragte Karten",

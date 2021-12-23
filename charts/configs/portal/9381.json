@@ -1,0 +1,584 @@
+{
+  "series": [
+    {
+      "color": "#344549",
+      "legendIndex": 5,
+      "data": [
+        [
+          "1990",
+          -281
+        ],
+        [
+          "2000",
+          -235
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          -269
+        ],
+        [
+          "2011",
+          -580
+        ],
+        [
+          "2012",
+          -512
+        ],
+        [
+          "2013",
+          -478
+        ],
+        [
+          "2014",
+          -508
+        ],
+        [
+          "2015",
+          -338
+        ],
+        [
+          "2016",
+          -453
+        ],
+        [
+          "2017",
+          -573
+        ],
+        [
+          "2018",
+          -429
+        ],
+        [
+          "2019",
+          -587
+        ]
+      ],
+      "name": "Wegpendler ins Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "legendIndex": 3,
+      "data": [
+        [
+          "1990",
+          -1959
+        ],
+        [
+          "2000",
+          -2856
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          -5129
+        ],
+        [
+          "2011",
+          -5337
+        ],
+        [
+          "2012",
+          -5251
+        ],
+        [
+          "2013",
+          -5754
+        ],
+        [
+          "2014",
+          -5324
+        ],
+        [
+          "2015",
+          -6172
+        ],
+        [
+          "2016",
+          -5731
+        ],
+        [
+          "2017",
+          -6623
+        ],
+        [
+          "2018",
+          -5192
+        ],
+        [
+          "2019",
+          -5098
+        ]
+      ],
+      "name": "Wegpendler in die restliche CH",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "legendIndex": 1,
+      "data": [
+        [
+          "1990",
+          -12729
+        ],
+        [
+          "2000",
+          -14294
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          -17321
+        ],
+        [
+          "2011",
+          -16760
+        ],
+        [
+          "2012",
+          -17692
+        ],
+        [
+          "2013",
+          -17808
+        ],
+        [
+          "2014",
+          -19355
+        ],
+        [
+          "2015",
+          -17901
+        ],
+        [
+          "2016",
+          -18349
+        ],
+        [
+          "2017",
+          -19773
+        ],
+        [
+          "2018",
+          -19192
+        ],
+        [
+          "2019",
+          -18106
+        ]
+      ],
+      "name": "Wegpendler in die NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#0A3B19",
+      "legendIndex": 0,
+      "data": [
+        [
+          "1990",
+          28767
+        ],
+        [
+          "2000",
+          29785
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          30482
+        ],
+        [
+          "2011",
+          32087
+        ],
+        [
+          "2012",
+          33153
+        ],
+        [
+          "2013",
+          33642
+        ],
+        [
+          "2014",
+          34591
+        ],
+        [
+          "2015",
+          34988
+        ],
+        [
+          "2016",
+          35742
+        ],
+        [
+          "2017",
+          35661
+        ],
+        [
+          "2018",
+          34299
+        ],
+        [
+          "2019",
+          34380
+        ]
+      ],
+      "name": "Zupendler aus dem Ausland",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "legendIndex": 2,
+      "data": [
+        [
+          "1990",
+          5685
+        ],
+        [
+          "2000",
+          7520
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          10598
+        ],
+        [
+          "2011",
+          11742
+        ],
+        [
+          "2012",
+          9967
+        ],
+        [
+          "2013",
+          10869
+        ],
+        [
+          "2014",
+          10953
+        ],
+        [
+          "2015",
+          11227
+        ],
+        [
+          "2016",
+          13000
+        ],
+        [
+          "2017",
+          12383
+        ],
+        [
+          "2018",
+          9494
+        ],
+        [
+          "2019",
+          9571
+        ]
+      ],
+      "name": "Zupendler aus der restlichen CH",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "legendIndex": 4,
+      "data": [
+        [
+          "1990",
+          51609
+        ],
+        [
+          "2000",
+          47005
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          50213
+        ],
+        [
+          "2011",
+          51564
+        ],
+        [
+          "2012",
+          52913
+        ],
+        [
+          "2013",
+          52015
+        ],
+        [
+          "2014",
+          53753
+        ],
+        [
+          "2015",
+          53062
+        ],
+        [
+          "2016",
+          52931
+        ],
+        [
+          "2017",
+          53869
+        ],
+        [
+          "2018",
+          49254
+        ],
+        [
+          "2019",
+          47226
+        ]
+      ],
+      "name": "Zupendler aus der NWCH",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "legendIndex": 6,
+      "type": "line",
+      "marker": {
+        "enabled": false
+      },
+      "data": [
+        [
+          "1990",
+          71092
+        ],
+        [
+          "2000",
+          66925
+        ],
+        [
+          " ",
+          undefined
+        ],
+        [
+          "2010",
+          68574
+        ],
+        [
+          "2011",
+          72716
+        ],
+        [
+          "2012",
+          72578
+        ],
+        [
+          "2013",
+          72486
+        ],
+        [
+          "2014",
+          74110
+        ],
+        [
+          "2015",
+          74866
+        ],
+        [
+          "2016",
+          77140
+        ],
+        [
+          "2017",
+          74944
+        ],
+        [
+          "2018",
+          68234
+        ],
+        [
+          "2019",
+          67386
+        ]
+      ],
+      "name": "Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "rotation": 0
+    },
+    "tickInterval": 1
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9381",
+    "spacingBottom": 50
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Grenzgänger und Pendler aus und nach Basel-Stadt"
+  },
+  "subtitle": {
+    "text": "",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "tickInterval": 20000,
+    "plotLines": [
+      {
+        "value": 0,
+        "color": "#B9CFD7",
+        "width": 2
+      }
+    ]
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "itemDistance": 0,
+    "itemWidth": 210,
+    "width": 450
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -35
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003C\u002Ftable\u003E"
+  },
+  "exporting": {
+    "filename": "9381"
+  }
+}

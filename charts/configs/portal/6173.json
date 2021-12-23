@@ -187,7 +187,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-20"
+    "text": "Quelle: Amt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen und Familienmietzinsbeiträge.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

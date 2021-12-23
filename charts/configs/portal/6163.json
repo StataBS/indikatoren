@@ -87,7 +87,11 @@
         ],
         [
           "2019",
-          162.728705427788
+          155.909764827452
+        ],
+        [
+          "2020",
+          158.851667518496
         ]
       ],
       "name": "Siedlungsabfälle (Hauskehricht und Sperrgut)",
@@ -181,6 +185,10 @@
         [
           "2019",
           126.267021430604
+        ],
+        [
+          "2020",
+          126.068467252527
         ]
       ],
       "name": "Wertstoffsammlungen",
@@ -277,6 +285,10 @@
         [
           "2019",
           40.6
+        ],
+        [
+          "2020",
+          41.1
         ]
       ],
       "name": "Recyclingquote (rechte Skala)",
@@ -426,7 +438,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-19"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "exporting": {
     "filename": "6163"

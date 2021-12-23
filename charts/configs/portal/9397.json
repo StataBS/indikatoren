@@ -1,0 +1,246 @@
+{
+  "series": [
+    {
+      "color": "#DC440E",
+      "index": 1,
+      "data": [
+        [
+          2011,
+          0.292741935
+        ],
+        [
+          2012,
+          0.327034884
+        ],
+        [
+          2013,
+          0.332390382
+        ],
+        [
+          2014,
+          0.351165981
+        ],
+        [
+          2015,
+          0.332358104
+        ],
+        [
+          2016,
+          0.337537538
+        ],
+        [
+          2017,
+          0.3429229
+        ],
+        [
+          2018,
+          0.358608894
+        ],
+        [
+          2019,
+          0.362527716
+        ],
+        [
+          2020,
+          0.357182168
+        ]
+      ],
+      "name": "Anteil Frauen Kader"
+    },
+    {
+      "color": "#661200 ",
+      "index": 2,
+      "data": [
+        [
+          2011,
+          0.517197700477443
+        ],
+        [
+          2012,
+          0.526020217147136
+        ],
+        [
+          2013,
+          0.521650485436893
+        ],
+        [
+          2014,
+          0.524824738307884
+        ],
+        [
+          2015,
+          0.530791788856305
+        ],
+        [
+          2016,
+          0.534344088009615
+        ],
+        [
+          2017,
+          0.536116451524307
+        ],
+        [
+          2018,
+          0.539268910604416
+        ],
+        [
+          2019,
+          0.542672107877928
+        ],
+        [
+          2020,
+          0.543791189732917
+        ]
+      ],
+      "name": "Anteil Frauen Total"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9397",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      }
+    },
+    "column": {
+      "borderWidth": 0
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Frauen in Kaderpositionen in der kantonalen Verwaltung"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickInterval": 1
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}",
+      "formatter": function () {
+                    return Highcharts.numberFormat((this.value * 100), 0) + '%';
+                }
+    },
+    "min": 0,
+    "max": 1
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "pointFormatter": function () {
+                return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+            }
+  },
+  "exporting": {
+    "filename": "9397"
+  }
+}

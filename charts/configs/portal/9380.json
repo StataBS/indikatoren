@@ -1,0 +1,321 @@
+{
+  "series": [
+    {
+      "index": 0,
+      "color": "rgb(180,117,171)",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          },
+        "footerFormat": "\u003Cbr\u003ETotal: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E"
+      },
+      "data": [
+        [
+          "2010",
+          2143
+        ],
+        [
+          "2011",
+          3364
+        ],
+        [
+          "2012",
+          3114
+        ],
+        [
+          "2013",
+          2878
+        ],
+        [
+          "2014",
+          3283
+        ],
+        [
+          "2015",
+          3713
+        ],
+        [
+          "2016",
+          3744
+        ],
+        [
+          "2017",
+          3896
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2018",
+          2159
+        ],
+        [
+          "2019",
+          2697
+        ]
+      ],
+      "name": "Bildung, Kultur",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "rgb(103,39,115)",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
+      "data": [
+        [
+          "2010",
+          3553
+        ],
+        [
+          "2011",
+          5684
+        ],
+        [
+          "2012",
+          6879
+        ],
+        [
+          "2013",
+          7656
+        ],
+        [
+          "2014",
+          7727
+        ],
+        [
+          "2015",
+          8247
+        ],
+        [
+          "2016",
+          8684
+        ],
+        [
+          "2017",
+          9290
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2018",
+          7778
+        ],
+        [
+          "2019",
+          8335
+        ]
+      ],
+      "name": "Gesundheits- und Sozialwesen",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "visible": false,
+      "color": "rgb(250,189,36)",
+      "tooltip": {
+        "pointFormatter": function () {
+            return '<br/>' + '<span style="color:' + this.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + '</b>';
+          }
+      },
+      "data": [
+        [
+          "2010",
+          44374
+        ],
+        [
+          "2011",
+          41799
+        ],
+        [
+          "2012",
+          41743
+        ],
+        [
+          "2013",
+          40952
+        ],
+        [
+          "2014",
+          42264
+        ],
+        [
+          "2015",
+          40373
+        ],
+        [
+          "2016",
+          40626
+        ],
+        [
+          "2017",
+          41041
+        ],
+        [
+          " ",
+          null
+        ],
+        [
+          "2018",
+          38427
+        ],
+        [
+          "2019",
+          36301
+        ]
+      ],
+      "name": "Alle anderen Branchen",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "marginBottom": 65,
+    "type": "column",
+    "inverted": false,
+    "renderTo": "container-9380",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Zupendelnde Fachkräfte in Bildung, Gesundheit, Kultur"
+  },
+  "subtitle": {
+    "text": "aus dem schweizerischen Teil der Agglomeration nach Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    },
+    "useHTML": true
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value), 0);
+        }
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "itemDistance": 5,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "shared": true
+  },
+  "exporting": {
+    "filename": "9380"
+  }
+}

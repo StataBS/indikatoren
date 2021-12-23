@@ -1,0 +1,616 @@
+{
+  "series": [
+    {
+      "index": 1,
+      "color": "#2F656B",
+      "legendIndex": 1,
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": true
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          21
+        ],
+        [
+          "2007",
+          56
+        ],
+        [
+          "2008",
+          56
+        ],
+        [
+          "2009",
+          71
+        ],
+        [
+          "2010",
+          69
+        ],
+        [
+          "2011",
+          93
+        ],
+        [
+          "2012",
+          102
+        ],
+        [
+          "2013",
+          133
+        ],
+        [
+          "2014",
+          87
+        ],
+        [
+          "2015",
+          112
+        ],
+        [
+          "2016",
+          100
+        ],
+        [
+          "2017",
+          112
+        ],
+        [
+          "2018",
+          152
+        ],
+        [
+          "2019",
+          346
+        ],
+        [
+          "2020",
+          404
+        ]
+      ],
+      "name": "Benzin-elektrisch: Normal-Hybrid",
+      "turboThreshold": 0
+    },
+    {
+      "index": 2,
+      "color": "#8B2223",
+      "legendIndex": 2,
+      "type": "column",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          1
+        ],
+        [
+          "2009",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          1
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2014",
+          19
+        ],
+        [
+          "2015",
+          17
+        ],
+        [
+          "2016",
+          28
+        ],
+        [
+          "2017",
+          45
+        ],
+        [
+          "2018",
+          43
+        ],
+        [
+          "2019",
+          148
+        ],
+        [
+          "2020",
+          571
+        ]
+      ],
+      "name": "Benzin-elektrisch: Plug-in-Hybrid",
+      "turboThreshold": 0
+    },
+    {
+      "index": 3,
+      "color": "#83522E",
+      "legendIndex": 3,
+      "type": "column",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          0
+        ],
+        [
+          "2009",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          10
+        ],
+        [
+          "2013",
+          5
+        ],
+        [
+          "2014",
+          3
+        ],
+        [
+          "2015",
+          24
+        ],
+        [
+          "2016",
+          13
+        ],
+        [
+          "2017",
+          2
+        ],
+        [
+          "2018",
+          21
+        ],
+        [
+          "2019",
+          117
+        ],
+        [
+          "2020",
+          204
+        ]
+      ],
+      "name": "Diesel-elektrisch: Normal-Hybrid",
+      "turboThreshold": 0
+    },
+    {
+      "index": 4,
+      "color": "#9A86A6",
+      "legendIndex": 4,
+      "type": "column",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          0
+        ],
+        [
+          "2009",
+          0
+        ],
+        [
+          "2010",
+          0
+        ],
+        [
+          "2011",
+          0
+        ],
+        [
+          "2012",
+          0
+        ],
+        [
+          "2013",
+          4
+        ],
+        [
+          "2014",
+          1
+        ],
+        [
+          "2015",
+          2
+        ],
+        [
+          "2016",
+          1
+        ],
+        [
+          "2017",
+          1
+        ],
+        [
+          "2018",
+          0
+        ],
+        [
+          "2019",
+          4
+        ],
+        [
+          "2020",
+          3
+        ]
+      ],
+      "name": "Diesel-elektrisch: Plug-in-Hybrid",
+      "turboThreshold": 0
+    },
+    {
+      "index": 5,
+      "color": "#BAA85A",
+      "legendIndex": 5,
+      "type": "column",
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          0
+        ],
+        [
+          "2007",
+          0
+        ],
+        [
+          "2008",
+          0
+        ],
+        [
+          "2009",
+          0
+        ],
+        [
+          "2010",
+          1
+        ],
+        [
+          "2011",
+          13
+        ],
+        [
+          "2012",
+          15
+        ],
+        [
+          "2013",
+          18
+        ],
+        [
+          "2014",
+          28
+        ],
+        [
+          "2015",
+          36
+        ],
+        [
+          "2016",
+          45
+        ],
+        [
+          "2017",
+          56
+        ],
+        [
+          "2018",
+          83
+        ],
+        [
+          "2019",
+          180
+        ],
+        [
+          "2020",
+          299
+        ]
+      ],
+      "name": "Elektrisch",
+      "turboThreshold": 0
+    },
+    {
+      "index": 6,
+      "color": "#000000",
+      "type": "line",
+      "legendIndex": 6,
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+        "shared": false
+      },
+      "data": [
+        [
+          "2005",
+          0
+        ],
+        [
+          "2006",
+          0.31
+        ],
+        [
+          "2007",
+          0.71
+        ],
+        [
+          "2008",
+          0.7
+        ],
+        [
+          "2009",
+          1.01
+        ],
+        [
+          "2010",
+          0.85
+        ],
+        [
+          "2011",
+          1.3
+        ],
+        [
+          "2012",
+          1.5
+        ],
+        [
+          "2013",
+          1.94
+        ],
+        [
+          "2014",
+          1.69
+        ],
+        [
+          "2015",
+          2.56
+        ],
+        [
+          "2016",
+          2.51
+        ],
+        [
+          "2017",
+          2.81
+        ],
+        [
+          "2018",
+          3.85
+        ],
+        [
+          "2019",
+          10.14
+        ],
+        [
+          "2020",
+          28.85
+        ]
+      ],
+      "name": "Anteil (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9391",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "true"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "Elektroautos"
+  },
+  "subtitle": {
+    "text": "Neue Inverkehrsetzungen von Personenwagen mit elektrischem Antrieb (inkl. Hybride)",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0
+    },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "tickInterval": 2,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "useHTML": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "labelFormatter": function(){
+        return this.name.replace("-elektrisch", "-elektr.");
+      }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Bundesamt für Statistik (BFS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "footerFormat": "Total neue Inverkehrsetzungen von Elektroautos: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E",
+    "shared": true,
+    "useHTML": true
+  },
+  "exporting": {
+    "filename": "9391"
+  }
+}

@@ -11,11 +11,11 @@
         ],
         [
           "Basel-Stadt: 2010-2014",
-          0.175
+          0.176
         ],
         [
-          "Basel-Stadt: 2015-2017",
-          0.076
+          "Basel-Stadt: 2015-2018",
+          0.075
         ],
         [
           "Basel-Landschaft",
@@ -23,11 +23,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.035
+          0.067
         ],
         [
-          "Basel-Landschaft: 2015-2017",
-          0.026
+          "Basel-Landschaft: 2015-2018",
+          0.048
         ],
         [
           "Zürich",
@@ -35,11 +35,23 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.058
+          0.082
         ],
         [
-          "Zürich: 2015-2017",
+          "Zürich: 2015-2018",
+          0.093
+        ],
+        [
+          "Schweiz",
+          null
+        ],
+        [
+          "Schweiz: 2010-2014",
           0.067
+        ],
+        [
+          "Schweiz: 2015-2018",
+          0.062
         ]
       ],
       "name": "Chemische Industrie",
@@ -56,11 +68,11 @@
         ],
         [
           "Basel-Stadt: 2010-2014",
-          0.47
+          0.494
         ],
         [
-          "Basel-Stadt: 2015-2017",
-          0.51
+          "Basel-Stadt: 2015-2018",
+          0.524
         ],
         [
           "Basel-Landschaft",
@@ -68,11 +80,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.172
+          0.329
         ],
         [
-          "Basel-Landschaft: 2015-2017",
-          0.109
+          "Basel-Landschaft: 2015-2018",
+          0.204
         ],
         [
           "Zürich",
@@ -80,11 +92,23 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.034
+          0.05
         ],
         [
-          "Zürich: 2015-2017",
-          0.043
+          "Zürich: 2015-2018",
+          0.063
+        ],
+        [
+          "Schweiz",
+          null
+        ],
+        [
+          "Schweiz: 2010-2014",
+          0.079
+        ],
+        [
+          "Schweiz: 2015-2018",
+          0.083
         ]
       ],
       "name": "Pharmazeutische Industrie",
@@ -101,11 +125,11 @@
         ],
         [
           "Basel-Stadt: 2010-2014",
-          0.17
+          0.171
         ],
         [
-          "Basel-Stadt: 2015-2017",
-          0.174
+          "Basel-Stadt: 2015-2018",
+          0.17
         ],
         [
           "Basel-Landschaft",
@@ -113,11 +137,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.162
+          0.311
         ],
         [
-          "Basel-Landschaft: 2015-2017",
-          0.152
+          "Basel-Landschaft: 2015-2018",
+          0.301
         ],
         [
           "Zürich",
@@ -125,11 +149,23 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.33
+          0.472
         ],
         [
-          "Zürich: 2015-2017",
-          0.342
+          "Zürich: 2015-2018",
+          0.494
+        ],
+        [
+          "Schweiz",
+          null
+        ],
+        [
+          "Schweiz: 2010-2014",
+          0.429
+        ],
+        [
+          "Schweiz: 2015-2018",
+          0.417
         ]
       ],
       "name": "Elektronik, Optik, Maschinenbau",
@@ -146,11 +182,11 @@
         ],
         [
           "Basel-Stadt: 2010-2014",
-          0.085
+          0.087
         ],
         [
-          "Basel-Stadt: 2015-2017",
-          0.104
+          "Basel-Stadt: 2015-2018",
+          0.112
         ],
         [
           "Basel-Landschaft",
@@ -158,11 +194,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.117
+          0.225
         ],
         [
-          "Basel-Landschaft: 2015-2017",
-          0.073
+          "Basel-Landschaft: 2015-2018",
+          0.15
         ],
         [
           "Zürich",
@@ -170,11 +206,23 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.069
+          0.1
         ],
         [
-          "Zürich: 2015-2017",
-          0.068
+          "Zürich: 2015-2018",
+          0.107
+        ],
+        [
+          "Schweiz",
+          null
+        ],
+        [
+          "Schweiz: 2010-2014",
+          0.109
+        ],
+        [
+          "Schweiz: 2015-2018",
+          0.112
         ]
       ],
       "name": "Medizinaltechnik, Sonstiges",
@@ -191,11 +239,11 @@
         ],
         [
           "Basel-Stadt: 2010-2014",
-          0.073
+          0.074
         ],
         [
-          "Basel-Stadt: 2015-2017",
-          0.043
+          "Basel-Stadt: 2015-2018",
+          0.044
         ],
         [
           "Basel-Landschaft",
@@ -203,11 +251,11 @@
         ],
         [
           "Basel-Landschaft: 2010-2014",
-          0.033
+          0.063
         ],
         [
-          "Basel-Landschaft: 2015-2017",
-          0.042
+          "Basel-Landschaft: 2015-2018",
+          0.075
         ],
         [
           "Zürich",
@@ -215,11 +263,23 @@
         ],
         [
           "Zürich: 2010-2014",
-          0.102
+          0.145
         ],
         [
-          "Zürich: 2015-2017",
-          0.107
+          "Zürich: 2015-2018",
+          0.155
+        ],
+        [
+          "Schweiz",
+          null
+        ],
+        [
+          "Schweiz: 2010-2014",
+          0.132
+        ],
+        [
+          "Schweiz: 2015-2018",
+          0.15
         ]
       ],
       "name": "Übrige Branchen",
@@ -311,7 +371,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Transnationale Patentanmeldungen pro 1000 Einwohner"
+    "text": "Transnationale Patentanmeldungen"
   },
   "subtitle": {
     "style": {
@@ -319,7 +379,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach ausgewählten Wirtschaftsbranchen, Jahresdurchschnitte"
+    "text": "pro 1000 Beschäftigte und Jahr, nach Wirtschaftsbranchen und ausgewählten Kantonen"
   },
   "navigation": {
     "menuItemStyle": {
@@ -358,13 +418,12 @@
         "whiteSpace": "nowrap",
         "textOverflow": "none"
       }
-    },
-    "max": 1
+    }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false,
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.3f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "credits": {
     "enabled": true,
@@ -379,7 +438,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-7"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "legend": {
     "layout": "horizontal",

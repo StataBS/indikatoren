@@ -2,17 +2,17 @@
   return {
     "xAxis": {
       tickPositioner: function () {
-        var interval = 2,
+        var interval = 4,
           ext = this.getExtremes(),
           i = ext.dataMax,
           pos = [i];
         while (i >= ext.dataMin) pos.unshift(i = i - interval);
         return pos;
       },
-      "tickInterval": 2,
+      "tickInterval": 4,
       showLastLabel: true,
       labels: {
-        rotation: -45,
+        //rotation: -45,
       }
     },
     "yAxis": {

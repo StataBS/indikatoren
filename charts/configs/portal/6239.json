@@ -107,7 +107,7 @@
     "text": "Steuerbelastung natürlicher Personen in ausgewählten Kantonshauptorten"
   },
   "subtitle": {
-    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000 Fr., 2019",
+    "text": "Doppelverdiener ohne Kinder mit einem Bruttoarbeitseinkommen von 100 000\\u00A0Fr., 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,7 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-12"
+    "text": "Quelle: Eidgenössische Finanzverwaltung.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

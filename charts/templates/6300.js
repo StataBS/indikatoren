@@ -105,7 +105,6 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "itemMarginBottom": 5,
       "align": "left",
       labelFormatter: function () {
         return this.name.replace("der Löhne von Frauen und Männern", "Löhne Frauen/Männer");
@@ -123,7 +122,7 @@
       },
       "column": {
         pointPadding: 0,
-        groupPadding: 0.1,
+        //groupPadding: 0.1,
         borderWidth: 0,
 
       }

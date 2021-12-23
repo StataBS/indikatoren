@@ -306,8 +306,8 @@ var indikatorensetData = [
 		],
 		"title": "Endenergieverbrauch nach Verbrauchergruppe",
 		"subtitle": "in GWh, Basel-Stadt",
-		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen Wohnen und Nichtwohnen.",
-		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Wohnen» und «Nichtwohnen» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen, Industrie und Verkehr gehören.",
+		"lesehilfe": "Der Endenergieverbrauch hat zwischen 2010 und 2018 um 22,9% auf 4 273 GWh abgenommen. Der Rückgang verteilt sich hauptsächlich auf die Verbrauchergruppen «Wohnen» und «Nichtwohnen (ohne Verkehr)».",
+		"erlaeuterungen": "Endenergie ist der nach Energiewandlungs- und Übertragungsverlusten übriggebliebene Teil der Primärenergie, welcher von den Energienutzern verbraucht wird. Bei den Energienutzern wird zwischen «Verkehr», «Wohnen» und «Nichtwohnen (ohne Verkehr)» unterschieden, wobei zum Wohnen die privaten Haushalte und zum Nichtwohnen Gewerbe, Handel, Dienstleistungen und Industrie gehören.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Energiestatistik"
 		],
@@ -333,7 +333,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-28T08:59:19",
+		"aktualisierungsdatum": "2021-12-23T02:24:07",
 		"id": 9008
 	},
 	{

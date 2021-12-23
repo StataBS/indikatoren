@@ -1,0 +1,239 @@
+{
+  "series": [
+    {
+      "color": "#a8c3ca",
+      "legendIndex": 2,
+      "data": [
+        [
+          2014,
+          1066.2858135
+        ],
+        [
+          2016,
+          878.06082491
+        ],
+        [
+          2018,
+          576.23593859
+        ]
+      ],
+      "name": "Andere Energieträger (nicht erneuerbar)"
+    },
+    {
+      "color": "#ff8028",
+      "legendIndex": 1,
+      "data": [
+        [
+          2014,
+          1036.08024
+        ],
+        [
+          2016,
+          1146.4458803
+        ],
+        [
+          2018,
+          1309.4117768
+        ]
+      ],
+      "name": "Fernwärme (nicht erneuerbar)"
+    },
+    {
+      "color": "#dc440e",
+      "legendIndex": 3,
+      "data": [
+        [
+          2014,
+          154.53513399
+        ],
+        [
+          2016,
+          208.269607
+        ],
+        [
+          2018,
+          180.40451733
+        ]
+      ],
+      "name": "Fernwärme (erneuerbar)"
+    },
+    {
+      "color": "#246370",
+      "legendIndex": 4,
+      "data": [
+        [
+          2014,
+          402.60037661
+        ],
+        [
+          2016,
+          416.26556792
+        ],
+        [
+          2018,
+          413.56943849
+        ]
+      ],
+      "name": "Andere Energieträger (erneuerbar)"
+    }
+  ],
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+          //add and move legend title (get it from series names)
+          this.legend.title
+            .attr({
+              text:
+                this.series[0].name.split(" (").slice(-1).toString().replace(')', '').substr(0, 1).toUpperCase() //Capitalize first letter
+                + this.series[0].name.split(" (").slice(-1).toString().replace(')', '').substr(1)
+                + ':<br>'
+                + this.series[2].name.split(" (").slice(-1).toString().replace(')', '').substr(0, 1).toUpperCase() //Capitalize first letter
+                + this.series[2].name.split(" (").slice(-1).toString().replace(')', '').substr(1) 
+                + ':'
+            })
+            .translate(-110, 41);
+        }
+    },
+    "type": "column",
+    "renderTo": "container-9393",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "percent"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anteil Fernwärme und erneuerbare Energieträger an den Heizungen"
+  },
+  "subtitle": {
+    "text": "Anteil am Bruttoenergieverbrauch aller Heizungen, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}%"
+    }
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "right",
+    "y": -40,
+    "x": -55,
+    "width": 250,
+    "itemWidth": 100,
+    "itemMarginBottom": 5,
+    "labelFormatter": function () {
+        //remove text after " ("
+        return this.name.split(" (").slice(0, 1).toString();
+      },
+    "title": {
+      "text": "-\u003Cbr\u003E-",
+      "style": {
+        "fontWeight": "normal",
+        "lineHeight": 19
+      }
+    }
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+  },
+  "tooltip": {
+    "shared": true,
+    "useHTML": true,
+    "followPointer": true,
+    "headerFormat": "\u003Ctable\u003E",
+    "pointFormat": "\u003Ctr\u003E\u003Ctd\u003E\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}:\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;\u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd style=\"text-align:right\"\u003E&nbsp;({point.percentage:,.1f}%)\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E",
+    "footerFormat": "\u003Ctr\u003E\u003Ctd\u003ETotal: \u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftable\u003E"
+  },
+  "exporting": {
+    "filename": "9393"
+  }
+}
