@@ -318,7 +318,7 @@ id | visible | visibleInPortal | indikatorenset
 5156 | true | true | Nachhaltigkeit
 5157 | true | true | Nachhaltigkeit
 5160 | true | false | Nachhaltigkeit
-5161 | true | false | Nachhaltigkeit
+5161 | true | true | Nachhaltigkeit
 5162 | true | false | Nachhaltigkeit
 5165 | true | false | Nachhaltigkeit
 5178 | true | true | Nachhaltigkeit
@@ -636,7 +636,7 @@ id | visible | visibleInPortal | indikatorenset
 6383 | true | true | Gefragte Karten
 6384 | true | true | Gefragte Karten
 6385 | true | true | Gefragte Karten
-6386 | true | true | Gefragte Karten
+6386 | true | false | Gefragte Karten
 6387 | true | false | Gefragte Karten
 6388 | true | false | Gefragte Karten
 6389 | true | false | Gefragte Karten
@@ -776,7 +776,7 @@ id | visible | visibleInPortal | indikatorenset
 6576 | true | true | Tourismus
 6592 | true | false | Nachhaltigkeit
 6597 | false |  | Nachhaltigkeit
-6599 | true | true | Nachhaltigkeit
+6599 | true | false | Nachhaltigkeit
 6601 | false |  | 
 6623 | true | true | 
 6630 | true | true | Wohnviertel

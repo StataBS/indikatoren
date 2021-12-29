@@ -6,51 +6,51 @@
       "data": [
         [
           "Life Sciences",
-          24.35289773
+          24.36731132
         ],
         [
           "Chemische Industrie",
-          3.691392703
+          3.69355964
         ],
         [
           "Baugewerbe",
-          3.094175365
+          3.096023305
         ],
         [
           "Handel und Reparatur",
-          8.617076185
+          8.622180929
         ],
         [
           "Verkehr und Lagerei",
-          5.190899571
+          5.193969521
         ],
         [
           "Gastgewerbe",
-          1.650500892
+          1.654109557
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          14.97518483
+          14.98401113
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          5.782533065
+          5.78577304
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          10.13285968
+          10.13881327
         ],
         [
           "Öffentliche Verwaltung",
-          6.293220427
+          6.29677499
         ],
         [
           "Gesundheits- und Sozialwesen",
-          5.693227505
+          5.696599621
         ],
         [
           "Übrige Branchen",
-          10.52603204
+          10.47087368
         ]
       ],
       "name": "2000",
@@ -62,51 +62,51 @@
       "data": [
         [
           "Life Sciences",
-          37.65863305
+          37.69912109
         ],
         [
           "Chemische Industrie",
-          1.742158884
+          1.74436711
         ],
         [
           "Baugewerbe",
-          1.688993891
+          1.690165376
         ],
         [
           "Handel und Reparatur",
-          8.345869315
+          8.349830644
         ],
         [
           "Verkehr und Lagerei",
-          4.185934233
+          4.190250469
         ],
         [
           "Gastgewerbe",
-          1.320106128
+          1.304181527
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          10.48189284
+          10.4947822
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          5.050081936
+          5.054053153
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          9.542682915
+          9.551168
         ],
         [
           "Öffentliche Verwaltung",
-          6.337540976
+          6.344511997
         ],
         [
           "Gesundheits- und Sozialwesen",
-          5.651909547
+          5.658072044
         ],
         [
           "Übrige Branchen",
-          7.994196288
+          7.919496392
         ]
       ],
       "name": "2010",
@@ -118,54 +118,54 @@
       "data": [
         [
           "Life Sciences",
-          44.004435
+          43.99019884
         ],
         [
           "Chemische Industrie",
-          0.962258512
+          1.070054033
         ],
         [
           "Baugewerbe",
-          1.493912049
+          1.61045151
         ],
         [
           "Handel und Reparatur",
-          6.488765309
+          6.716289818
         ],
         [
           "Verkehr und Lagerei",
-          3.467142091
+          2.840832797
         ],
         [
           "Gastgewerbe",
-          1.284117987
+          0.666135783
         ],
         [
           "Finanz- und Versicherungsdienstl.",
-          9.129581241
+          8.710858484
         ],
         [
           "Grundstücks- und Wohnungswesen",
-          4.019343146
+          4.434170028
         ],
         [
           "Unternehmens- und freiberufl. Dienstl.",
-          10.56610284
+          10.39263916
         ],
         [
           "Öffentliche Verwaltung",
-          6.209927775
+          6.636857472
         ],
         [
           "Gesundheits- und Sozialwesen",
-          6.032479581
+          6.172577565
         ],
         [
           "Übrige Branchen",
-          6.341934469
+          6.758934516
         ]
       ],
-      "name": "2019",
+      "name": "2020",
       "turboThreshold": 0
     }
   ],
@@ -297,7 +297,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-7"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

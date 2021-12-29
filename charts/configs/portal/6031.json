@@ -1,35 +1,87 @@
 {
   "series": [
     {
-      "index": 1,
-      "color": "#71A3B5",
+      "color": "#2F656B",
       "type": "column",
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} Tonnen\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
       },
       "data": [
         [
-          "2010",
-          910740.05789
-        ],
-        [
           "2012",
-          833179.51666
+          246864.8923
         ],
         [
           "2014",
-          764522.46821
+          199418.86744
         ],
         [
           "2016",
-          741614.43579
+          190274.14488
         ],
         [
           "2018",
-          694507.47658
+          189586.64121
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen",
+      "name": "Haushalte",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#8B2223",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
+      },
+      "data": [
+        [
+          "2012",
+          385152.1723
+        ],
+        [
+          "2014",
+          360696.65988
+        ],
+        [
+          "2016",
+          347016.32325
+        ],
+        [
+          "2018",
+          303332.98213
+        ]
+      ],
+      "name": "Nicht-Wohnen (ohne Verkehr)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#83522E",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E Tonnen ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total CO\u003Csub\u003E2\u003C\u002Fsub\u003E Emissionen: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E Tonnen"
+      },
+      "data": [
+        [
+          "2012",
+          201350.29601
+        ],
+        [
+          "2014",
+          204406.94145
+        ],
+        [
+          "2016",
+          204334.64087
+        ],
+        [
+          "2018",
+          201597.45844
+        ]
+      ],
+      "name": "Verkehr",
       "turboThreshold": 0
     },
     {
@@ -40,31 +92,27 @@
         "enabled": false
       },
       "tooltip": {
-        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} Tonnen\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
       },
       "data": [
         [
-          "2010",
-          4.7447722687
-        ],
-        [
           "2012",
-          4.3192302575
+          4.3202040467
         ],
         [
           "2014",
-          3.8989140898
+          3.8989140926
         ],
         [
           "2016",
-          3.7469278205
+          3.7469817457
         ],
         [
           "2018",
-          3.4747946095
+          3.4748426667
         ]
       ],
-      "name": "CO\u003Csub\u003E2\u003C\u002Fsub\u003E-Emissionen in Tonnen pro Kopf (rechte Skala)",
+      "name": "Tonnen pro Kopf (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -131,7 +179,7 @@
         }
       },
       "pointWidth": 30,
-      "stacking": "false"
+      "stacking": "true"
     }
   },
   "title": {
@@ -164,19 +212,21 @@
           "color": "black"
         }
       },
-      "min": 0
+      "min": 0,
+      "tickAmount": 4
     },
     {
       "title": {
         "text": null
       },
       "labels": {
-        "format": "{value:,.1f}",
+        "format": "{value:,.0f}",
         "style": {
           "color": "black"
         }
       },
       "min": 0,
+      "tickAmount": 4,
       "opposite": true
     }
   ],
@@ -184,16 +234,17 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "useHTML": true,
     "enabled": true,
-    "itemDistance": 12,
-    "padding": 0,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
-    "align": "left"
+    "align": "left",
+    "itemWidth": 130,
+    "width": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -214,14 +265,13 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
   },
   "tooltip": {
-    "shared": false,
-    "useHTML": true
+    "useHTML": true,
+    "outside": true
   },
   "exporting": {
-    "allowHTML": true,
     "filename": "6031"
   }
 }
