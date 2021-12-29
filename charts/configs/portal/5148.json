@@ -199,6 +199,10 @@
         [
           1546300800000,
           -25
+        ],
+        [
+          1577836800000,
+          -165
         ]
       ],
       "name": "Saldo Geburten-Todesfälle",
@@ -403,6 +407,10 @@
         [
           1546300800000,
           1214
+        ],
+        [
+          1577836800000,
+          956
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge",
@@ -607,6 +615,10 @@
         [
           1546300800000,
           -1038
+        ],
+        [
+          1577836800000,
+          773
         ]
       ],
       "name": "Bereinigungen",
@@ -812,6 +824,10 @@
         [
           1546300800000,
           151
+        ],
+        [
+          1577836800000,
+          1564
         ]
       ],
       "name": "Gesamtveränderung",
@@ -953,7 +969,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-10-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
   },
   "legend": {
     "symbolRadius": 0,

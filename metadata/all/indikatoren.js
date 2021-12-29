@@ -2522,43 +2522,41 @@ var indikatoren = [
 		"id": 4147
 	},
 	{
+		"template": "line001",
+		"data-id": 4148,
+		"chart-id": 4148,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
 		"subtitle": "",
-		"kuerzel": "I.01.1.4148",
-		"kuerzelKunde": "2.2.A",
-		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt hat zwischen 2011 und 2019 jedes Jahr leicht zugenommen. Im Jahr 2020 ist sie leicht gesunken. Die volljährigen Personen mit Hauptwohnsitz im Kanton Basel-Stadt versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel auch in Basel-Stadt.",
+		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-08T16:23:50.5050",
+		"description": "Erwachsene Einwohner mit Hauptwohnsitz in Basel-Stadt",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.4148",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "2.2.A",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.2 Anteil an Hauptwohnsitznehmern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl volljähriger Personen mit Hauptwohnsitz im Kanton Basel-Stadt nimmt seit 2010 jedes Jahr leicht zu. Diese Personen versteuern ihr Einkommen oder ihre Vermögenswerte, falls vorhanden, in der Regel in Basel-Stadt.",
-		"erlaeuterungen": "Für den Indikator werden Personen ab 18 Jahren mit dem Meldeverhältnis «Hauptwohnsitz in Basel-Stadt» und den Bevölkerungstypen «Nichtständige Wohnbevölkerung» und «Ständige Wohnbevölkerung» berücksichtigt. Zur ständigen Wohnbevölkerung am Hauptwohnsitz gehören in einer baselstädtischen Gemeinde niedergelassene Schweizer (einschliesslich Personen, die ausserhalb von Basel-Stadt Wochenaufenthalter sind), Ausländer mit einer Aufenthalts- oder Niederlassungsbewilligung für mindestens 12 Monate, Ausländer mit einer nach Kurzaufenthaltsbewilligungen kumulierten Aufenthaltsdauer von mindestens 12 Monaten sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von mindestens 12 Monaten. Zur nichtständigen Wohnbevölkerung am Hauptwohnsitz gehören Ausländer mit einer Kurzaufenthaltsbewilligung für weniger als 12 Monate sowie Personen im Asylprozess mit einer Gesamtaufenthaltsdauer von weniger als 12 Monaten. Die Wohnbevölkerung am Nebenwohnsitz besteht aus Personen, die in Basel-Stadt Wochenaufenthalter sind (mit hinterlegtem Heimatausweis) und ihren Hauptwohnsitz anderswo haben.",
-		"template": "line001",
+		"orderKey": "03_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_02_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Bevölkerung und der Haushalte (STATPOP)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4148,
-		"chart-id": 4148,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:17",
 		"id": 4148
 	},
 	{
@@ -10136,45 +10134,43 @@ var indikatoren = [
 		"id": 5142
 	},
 	{
+		"template": "stock001",
+		"data-id": 5148,
+		"chart-id": 5148,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8885
+		],
 		"title": "Bilanz der Wohnbevölkerung",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.01.1.05148",
-		"kuerzelKunde": "BE6",
-		"description": "Bilanz der Wohnbevölkerung",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "In den Jahren 2010 bis 2020 überstieg die Zahl der Todesfälle meist diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2020 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-165). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2010 und 2020 stets positiv aus. 2020 ergibt sich für den Kanton ein Wanderungsgewinn von 956 Personen.",
+		"erlaeuterungen": "Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister, wodurch sich jedes Jahr ein Bereinigungssaldo ergibt. Dieser ist im Allgemeinen auf verspätet gemeldete Ereignisse zurückzuführen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-21T09:31:27.2727",
+		"description": "Bilanz der Wohnbevölkerung",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.05148",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE6",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den Jahren 2010 bis 2019 überstieg die Zahl der Todesfälle meistens diejenige der Geburten. Lediglich im Jahr 2016 gab es mehr Lebendgeborene als Gestorbene, der Saldo aus Geburten und Todesfällen betrug 152. Im Jahr 2019 fiel der Saldo aus Geburten und Todesfällen erneut negativ aus (-25). Der Wanderungssaldo (Zugezogene-Weggezogene) fiel zwischen 2010 und 2019 stets positiv aus. 2019 ergibt sich für den Kanton ein Wanderungsgewinn von 1 214 Personen.",
-		"erlaeuterungen": "Bis zum Jahr 2011 wurde die Bevölkerungszahl durch Fortschreibung ermittelt. Seit dem Jahr 2012 basiert sie direkt auf Auswertungen aus dem kantonalen Einwohnerregister, aufgrund dessen ergibt sich ein Bereinigungssaldo. Dieser ist im Allgemeinen auf verspätet gemeldete Ereignisse zurückzuführen.",
-		"template": "stock001",
+		"orderKey": "01_01_00_00_00_106",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_106",
-		"parentId": null,
-		"children": [
-			"8885"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5148,
-		"chart-id": 5148,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:18",
 		"id": 5148
 	},
 	{
@@ -10374,43 +10370,43 @@ var indikatoren = [
 		"id": 5160
 	},
 	{
+		"template": "template001",
+		"data-id": 5161,
+		"chart-id": 6131,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8890
+		],
 		"title": "Entwicklung der Staatsausgaben nach Funktion",
 		"subtitle": "pro Kopf in Franken, Basel-Stadt",
-		"kuerzel": "I.04.1.05161",
-		"kuerzelKunde": "SH2",
-		"description": "Entwicklung der Staatsausgaben nach Funktion",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2010 erhöht. Den grössten Anteil an den Gesamtausgaben hat 2019 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Der erhöhte Wert von «Allgemeine Verwaltung» 2016 steht in erster Linie mit der Pensionskassenreform in Zusammenhang.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Eidgenössische Finanzverwaltung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-08T16:55:47.4747",
+		"description": "Entwicklung der Staatsausgaben nach Funktion",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatsrechnung",
+		"kuerzel": "I.18.1.05161",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "SH2",
 		"stufe1": "Bereich Staatliches Handeln",
 		"stufe2": "Finanzhaushalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In den meisten Bereichen haben sich die Ausgaben seit 2008 erhöht. Den höchsten Anteil an den Gesamtausgaben hat 2017 die Funktion «Bildung», gefolgt von «Soziale Sicherheit» und «Gesundheit». Die erhöhten Werte von «Allgemeine Verwaltung» 2008 und 2016 stehen jeweils in erster Linie mit der Pensionskassenreform in Zusammenhang.",
-		"erlaeuterungen": "Seit 2008 verwendet die Eidgenössische Finanzverwaltung (EFV) aufgrund des Neuen Finanzausgleichs in der Finanzstatistik ein neues Sektorisierungskonzept, in dem die Ausgaben für Spitäler aus der Staatsrechnung ausgebucht werden.",
-		"template": "template001",
+		"orderKey": "02_01_00_00_00_202",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "02_01_00_00_00_202",
-		"parentId": 6131,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Finanzverwaltung"
-		],
+		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5161,
-		"chart-id": 6131,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:20",
 		"id": 5161
 	},
 	{
@@ -11185,45 +11181,43 @@ var indikatoren = [
 		"id": 5198
 	},
 	{
+		"template": "template001",
+		"data-id": 5199,
+		"chart-id": 5199,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8913
+		],
 		"title": "Ausgaben für Umbau- und Unterhaltsarbeiten",
 		"subtitle": "in 1000 Franken sowie Anteil am Total der Bauausgaben, Basel-Stadt",
-		"kuerzel": "I.09.1.5199",
-		"kuerzelKunde": "GW22",
-		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Das Total der Bauausgaben ist 2020 leicht gestiegen, die Ausgaben für Umbau und Unterhalt hingegen sind leicht gesunken. Der Anteil am Total der Bauausgaben lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,6% und der höchste 2011 mit 63,0%.",
+		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Baustatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-26T13:00:28.2828",
+		"description": "Ausgaben für Umbau- und Unterhaltsarbeiten",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5199",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW22",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Infrastruktur",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Total der Bauausgaben ist 2019 leicht gestiegen, die Ausgaben für Umbau und Unterhalt hingegen sind leicht gesunken. Der Anteil am Total der Bauausgaben lag in den meisten Jahren über der 50%-Marke. Der tiefste Wert ergab sich 2008 mit einem Anteil von 46,4% und der höchste 2011 mit 63,0%.",
-		"erlaeuterungen": "Die Bauausgaben umfassen die öffentlichen und privaten Bauinvestitionen und die öffentlichen Unterhaltsarbeiten. Die Bauinvestitionen umfassen sämtliche Ausgaben, die bei der Realisierung eines Bauwerkes anfallen. Dazu gehören Ausgaben für Vorbereitungs- und Umgebungsarbeiten innerhalb der Grundstücksgrenzen, sanitäre Installationen, Lüftungsanlagen, Heizungen und alle übrigen mit dem Bauprojekt fest verbundenen Einrichtungen sowie Architektenhonorare und Baunebenkosten. Nicht enthalten sind Kosten für Landerwerb sowie maschinelle und sonstige bewegliche Einrichtungen.",
-		"template": "template001",
+		"orderKey": "03_09_00_00_00_323",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_09_00_00_00_323",
-		"parentId": null,
-		"children": [
-			"8913"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Baustatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5199,
-		"chart-id": 5199,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:19",
 		"id": 5199
 	},
 	{
@@ -11482,43 +11476,41 @@ var indikatoren = [
 		"id": 5795
 	},
 	{
+		"template": "template001",
+		"data-id": 5796,
+		"chart-id": 5796,
+		"filter": "",
+		"parentId": "6163",
+		"children": [],
 		"title": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
 		"subtitle": "Siedlungsabfälle und Wertstoffsammlungen in kg pro Kopf, Basel-Stadt",
-		"kuerzel": "I.02.6.05796",
-		"kuerzelKunde": "NL4",
-		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Entsorgung",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2020 von 194 auf 159 kg pro Kopf. Die Recyclingquote liegt aktuell bei 41,1%.",
+		"erlaeuterungen": "Grundlage ist die kantonale Abfallstatistik. Berücksichtigt bei der Wertstoffsammlung sind Altpapier und Karton, Altglas, Altmetall/Alu/Weissblech, Grüngut, Textilien sowie Sonderabfälle. Die Recyclingquote entspricht dem Anteil der Wertstoffsammlungen an der Gesamtmenge der Siedlungsabfälle.",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-02-11T17:07:36.3636",
+		"description": "Siedlungsabfälle, Wertstoffsammlungen, Recyclingquote",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Entsorgung",
+		"kuerzel": "I.02.6.05796",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL4",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Siedlungsabfälle reduzierten sich zwischen dem Jahr 2000 und 2018 von ca. 194 auf 163 kg pro Kopf. Die Recyclingquote liegt aktuell bei ca. 40,1%.",
-		"erlaeuterungen": "Die Berechnungsmethode für die Recyclingquote wurde vom Amt für Umwelt und Energie im Jahr 2016 rückwirkend für alle abgebildeten Jahre revidiert (dezentrale Kompostierung nicht mehr eingerechnet). Dies führt zu einem tieferen Recyclinganteil im Vergleich zu früheren Berechnungen.",
-		"template": "template001",
+		"orderKey": "04_01_00_00_00_404",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_01_00_00_00_404",
-		"parentId": 6163,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Umwelt und Energie Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5796,
-		"chart-id": 5796,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:19",
 		"id": 5796
 	},
 	{
@@ -12229,43 +12221,41 @@ var indikatoren = [
 		"id": 5901
 	},
 	{
-		"parentId": 6154,
-		"children": [],
 		"template": "line001",
+		"data-id": 6007,
+		"chart-id": 6154,
+		"filter": "",
+		"parentId": "6154",
+		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "",
-		"kuerzelKunde": "ST 11-1",
-		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
+		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-07T08:30:45.4545",
+		"description": "Verkehrsleistungsindex",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.06007",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 11-1",
 		"stufe1": "Sachgebiet Mobilität",
 		"stufe2": "Strategie 11: Vereinbarkeit von Mobilität, urbaner Wohnqualität und Wirtschaftsstandort",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"orderKey": "05_11_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "05_11_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6007,
-		"chart-id": 6154,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:21",
 		"id": 6007
 	},
 	{
@@ -12984,43 +12974,41 @@ var indikatoren = [
 		"id": 6030
 	},
 	{
+		"template": "template001",
+		"data-id": 6165,
+		"chart-id": 6165,
+		"filter": "",
+		"parentId": "6165",
+		"children": [],
 		"title": "CO<sub>2</sub>-Emissionen",
 		"subtitle": "in Tonnen, Basel-Stadt",
-		"kuerzel": "I.02.5.06031",
-		"kuerzelKunde": "NL9",
-		"description": "CO<sub>2</sub>-Emissionen",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Luftschadstoffe",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2012 und 2018 von 833 367 Tonnen auf 694 517 Tonnen ab. Das entspricht einer Reduktion um 16,6% bzw. einem Rückgang von 4,3 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
+		"erlaeuterungen": "Die CO<sub>2</sub>-Emissionen berechnen sich aus dem Bruttoenergieverbrauch der verschiedenen Energieträger multipliziert mit dem jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Erneuerbare Brennstoffe wie Holz oder Biogas gelten als CO<sub>2</sub>-neutral und sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird zu 50% als erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet. Der Pro-Kopf-Verbrauch basiert auf der mittleren Wohnbevölkerung eines Jahres.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-12-02T08:26:30.3030",
+		"description": "CO<sub>2</sub>-Emissionen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Luftschadstoffe",
+		"kuerzel": "I.02.5.06031",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL9",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die aus dem Bruttoenergieverbrauch abgeleiteten CO<sub>2</sub>-Emissionen nahmen zwischen 2010 und 2018 von 910 740 Tonnen auf 69 507 Tonnen ab. Das entspricht einer Reduktion um 24% bzw. einem Rückgang von 4,7 Tonnen auf 3,5 Tonnen CO<sub>2</sub> pro Kopf.",
-		"erlaeuterungen": "Die CO<sub>2</sub>-Emission berechnet sich aus der Summe der Verbräuche aller fossilen Brennstoffe sowie Abfall multipliziert mit den jeweiligen Emissionskoeffizienten von CO<sub>2</sub>. Zur Berechnung des Pro-Kopf-Verbrauchs wird der CO<sub>2</sub>-Verbrauch durch die mittlere Bevölkerung dividiert. Erneuerbare Brennstoffe wie Holz oder Biogas sind nicht in den Emissionen eingeschlossen. Der in der Kehrichtverwertungsanlage (KVA) verbrannte Hauskehricht wird als 50% erneuerbar gezählt und ist somit nur zur Hälfte in die CO<sub>2</sub>-Emissionen eingerechnet.",
-		"template": "template001",
+		"orderKey": "04_02_00_00_00_410",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "04_02_00_00_00_410",
-		"parentId": 6165,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6031,
-		"chart-id": 6031,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:20",
 		"id": 6031
 	},
 	{
@@ -13550,45 +13538,43 @@ var indikatoren = [
 		"id": 6046
 	},
 	{
+		"template": "line001",
+		"data-id": 6047,
+		"chart-id": 6047,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8936"
+			8936
 		],
-		"template": "line001",
 		"title": "Branchenanteile an der nominalen Wertschöpfung",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.04.1.6047",
-		"kuerzelKunde": "WE3",
-		"description": "Branchenanteile an der nominalen Wertschöpfung",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Volkseinkommen",
+		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2020 bei 44% (im Jahr 2000 lag er bei 24%). Einen deutlichen Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15% im Jahr 2000 auf 9% im Jahr 2020). Fast unverändert blieb der Anteil der Wertschöpfung der Bereiche Unternehmens- und freiberufliche Dienstleistungen, öffentliche Verwaltung sowie Gesundheits- und Sozialwesen.",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:01:06.066",
+		"description": "Branchenanteile an der nominalen Wertschöpfung",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Volkseinkommen",
+		"kuerzel": "I.04.1.6047",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE3",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Life Sciences an der nominalen Gesamtwertschöpfung des Kantons Basel-Stadt liegt 2019 bei 44,0%. Im Jahr 2000 lag er noch bei 24,4%. Einen starken Rückgang des Wertschöpfungsanteils verzeichnete die Branche der Finanz- und Versicherungsdienstleistungen (von 15,0% im Jahr 2000 auf 9,1% im Jahr 2019).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung in der Branche, geteilt durch den Gesamtwert des Kantons Basel-Stadt.",
+		"orderKey": "06_01_00_00_00_603",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_01_00_00_00_603",
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6047,
-		"chart-id": 6047,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:21",
 		"id": 6047
 	},
 	{
@@ -13800,8 +13786,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Mittelwert und Median des Reineinkommens",
 		"subtitle": "in Franken, Basel-Stadt",
-		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
-		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet. Die Quintile ergeben sich, wenn man alle Veranlagungen nach Höhe des Reineinkommens sortiert und fünf gleich grosse Gruppen bildet. Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen.",
+		"lesehilfe": "Der Mittelwert des Reineinkommens des obersten Quintils ist seit 1991 am deutlichsten gestiegen. Die übrigen Werte verlaufen relativ konstant.",
+		"erlaeuterungen": "Mittelwert und Median werden pro Veranlagung berechnet (Ehepaare werden bspw. gemeinsam veranlagt). Der Mittelwert des obersten respektive untersten Quintils ist der Durchschnitt des Reineinkommens derjenigen 20% der Veranlagungen mit den jeweils höchsten respektive niedrigsten Reineinkommen. Über den Betrachtungszeitraum gab es zahlreiche Veränderungen in der Steuergesetzgebung, die einen Einfluss auf die Berechnung des Reineinkommens haben können, etwa durch erhöhte Abzugsmöglichkeiten (z. B. für Berufskosten).",
 		"quellenangabe": [
 			"Steuerstatistik Basel-Stadt"
 		],
@@ -13826,7 +13812,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:58",
+		"aktualisierungsdatum": "2021-12-29T10:27:21",
 		"id": 6054
 	},
 	{
@@ -22769,46 +22755,42 @@ var indikatoren = [
 		"id": 6385
 	},
 	{
-		"title": "Reinvermögen nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2017",
-		"kuerzel": "I.18.2.06386",
-		"kuerzelKunde": "K18-2",
-		"description": "Reinvermögen nach Wohnviertel",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "Gefragte Karten",
+		"template": "map002",
+		"data-id": 6386,
+		"chart-id": 6386,
+		"filter": "",
+		"parentId": "6374",
+		"children": [],
+		"title": "Reinvermögen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
+		"lesehilfe": "Der höchste Median des Reinvermögens 2018 wird mit rund 92 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt ca. 19 200 Franken.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-20T10:37:20.2020",
+		"description": "Reinvermögen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.06386",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K18-2",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reinvermögens 2017 wird mit rund 109 000 Franken in der Einwohnergemeinde Bettingen verzeichnet. Der Median für den ganzen Kanton beträgt 20 000 Franken.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
-		"template": "map002",
+		"orderKey": "01_00_00_00_00_012",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_012",
-		"parentId": 6374,
-		"children": [],
-		"renderLink": [
-			"6374"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6386,
-		"chart-id": 6386,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:19",
 		"id": 6386
 	},
 	{
@@ -25163,45 +25145,45 @@ var indikatoren = [
 		"id": 6457
 	},
 	{
+		"template": "template001",
+		"data-id": 6459,
+		"chart-id": 6459,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7045,
+			9457,
+			9458
+		],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.6459",
-		"kuerzelKunde": "2-01",
-		"description": "Beschäftigung nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3,1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T17:11:44.4444",
+		"description": "Beschäftigung nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06459",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "2-01",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 23 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2018 im Gesundheits- und Sozialwesen tätig. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 1,7%. Fast 20 000 VZÄ sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen tätig und somit 1,2% mehr als im Vorjahr. In der Chemischen und Pharmazeutischen Industrie sind es rund 18 000, was einer Abnahme um 3,4% im Vergleich zum Vorjahr entspricht. Mehr als 1,0% Wachstum verzeichnete die Branche Erziehung und Unterricht (+5,5%), das Gastgewerbe (+1,9%) sowie die Branche Öffentliche Verwaltung und Sozialversicherungen (+1,7%). Am stärksten abgenommen hat die Beschäftigung in den Branchen Personalvermittlung und -überlassung (-4,6%), Gebäudebetreuung, Sicherheit, sonst. Wirtsch. DL (-3,4%) und Baugewerbe (-2,7%). Im gesamten Kanton Basel-Stadt sind im Jahr 2018 rund 150 900 Beschäftigte in Vollzeitäquivalenten tätig.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
-		"template": "template001",
+		"orderKey": "01_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7045"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6459,
-		"chart-id": 6459,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:17",
 		"id": 6459
 	},
 	{
@@ -28432,9 +28414,8 @@ var indikatoren = [
 		"data-id": 6599,
 		"chart-id": 6599,
 		"filter": "",
-		"parentId": null,
+		"parentId": "6059",
 		"children": [
-			6059,
 			6644,
 			8951
 		],
@@ -28464,9 +28445,9 @@ var indikatoren = [
 		"orderKey": "01_01_00_00_00_102",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"visibleInPortal": true,
+		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-06T08:46:27",
+		"aktualisierungsdatum": "2021-12-29T10:27:18",
 		"id": 6599
 	},
 	{
@@ -40627,43 +40608,41 @@ var indikatoren = [
 		"id": 7068
 	},
 	{
+		"template": "line001",
+		"data-id": 7432,
+		"chart-id": 7432,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Privatschulquote",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"kennzahlenset": "",
-		"kuerzel": "I.15.1.07432",
-		"kuerzelKunde": "",
-		"description": "Privatschulquote",
-		"thema": "15 Bildung",
-		"unterthema": "Schulen und Schulpersonal",
+		"lesehilfe": "2019 werden 10,0% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Dies entspricht dem höchsten Wert im gesamten Beobachtungszeitraum. Bei Schweizern liegt der Anteil bei 7,1%, bei den Ausländern bei 14,3%.",
+		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-02T09:43:03.033",
+		"description": "Privatschulquote",
+		"thema": "15 Bildung",
+		"unterthema": "Schulen und Schulpersonal",
+		"kuerzel": "I.15.1.07432",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 werden 9,5% aller Schülerinnen und Schüler an einer Privatschule unterrichtet. Bei Schweizern liegt der Anteil bei 6,9%, bei den Ausländern bei 13,5%.",
-		"erlaeuterungen": "Die Privatschulquote definiert sich als derjenige Anteil an allen Schülerinnen und Schüler (SuS) in der obligatorischen Schulzeit, welcher eine Privatschule besucht.<br>Berücksichtigt werden sämtliche SuS mit Wohnort Basel-Stadt, die am jeweiligen Stichtag im September an einer Schule in der Schweiz unterrichtet wurden. Sonderschulen werden nicht zu den Privatschulen gezählt.<br>Der Indikator wurde methodisch überarbeitet. Abweichungen zu früher publizierten Werten sind möglich.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Lernenden (SDL)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 7432,
-		"chart-id": 7432,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:15",
 		"id": 7432
 	},
 	{
@@ -54921,45 +54900,43 @@ var indikatoren = [
 		"id": 8287
 	},
 	{
+		"template": "line001",
+		"data-id": 8288,
+		"chart-id": 8288,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8559"
+			8559
 		],
-		"template": "line001",
 		"title": "Von häuslicher Gewalt (mit-)betroffene Kinder",
 		"subtitle": "Anzahl Polizeieinsätze und Anzahl Kinder, Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-14",
-		"description": "Von häuslicher Gewalt (mit-)betroffene Kinder",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "",
+		"lesehilfe": "Im Jahr 2020 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 221 Fällen insgesamt 348 Kinder als direkt oder unmittelbar Betroffene anwesend. Der Anstieg fällt zeitlich zusammen mit Einschränkungen des öffentlichen Lebens aufgrund der COVID-19-Pandemie.",
+		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-22T11:32:57.5757",
+		"description": "Von häuslicher Gewalt (mit-)betroffene Kinder",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.08288",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-14",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 waren bei Einsätzen der Polizei zu häuslicher Gewalt in 110 Fällen Kinder (insgesamt 215) als direkt oder unmittelbar Betroffene anwesend.",
-		"erlaeuterungen": "Polizeieinsätze im Kanton Basel-Stadt zu häuslicher Gewalt, bei welchen Kinder als direkt oder unmittelbar (Mit-)Betroffene von häuslicher Gewalt anwesend waren.",
+		"orderKey": "02_03_00_00_00_214",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_214",
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8288,
-		"chart-id": 8288,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:17",
 		"id": 8288
 	},
 	{
@@ -60085,43 +60062,41 @@ var indikatoren = [
 		"id": 8453
 	},
 	{
-		"parentId": 6154,
-		"children": [],
 		"template": "line001",
+		"data-id": 8454,
+		"chart-id": 6154,
+		"filter": "",
+		"parentId": "6154",
+		"children": [],
 		"title": "Verkehrsleistungsindex",
 		"subtitle": "indexiert (Basis 2010 = 100), Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "",
-		"kuerzelKunde": "GW20",
-		"description": "Verkehrsleistungsindex",
-		"thema": "11 Verkehr",
-		"unterthema": "Mobilitätsverhalten",
+		"lesehilfe": "Im Jahr 2020, dem ersten Jahr der COVID-19-Pandemie, kam es bei sämtlichen Verkehrsmitteln zu einem Rückgang. Am stärksten ist dieser beim öffentlichen Verkehr mit 35,4 Indexpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Indexpunkte). 2019 lag die Fahrleistung des motorisierten Individualverkehrs (MIV Total) auf dem Stadtstrassennetz um 7,7% tiefer, diejenige des Veloverkehrs um 45% höher als 2010.",
+		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. Weiterführende Informationen: <a href='https://www.mobilitaet.bs.ch/gesamtverkehr/verkehrskennzahlen/verkehrsindex.html' target=\"_blank\">Amt für Mobilität Basel-Stadt</a>",
+		"quellenangabe": [
+			"Amt für Mobilität Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-07T08:30:45.4545",
+		"description": "Verkehrsleistungsindex",
+		"thema": "11 Verkehr",
+		"unterthema": "Mobilitätsverhalten",
+		"kuerzel": "I.11.6.08454",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW20",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Mobilität",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die COVID-19-Pandemie führte im Jahr 2020 zu einem Rückgang des Verkehrsaufkommens in Basel-Stadt: Bei sämtlichen Verkehrsmitteln ist im Jahr 2020 ein Rückgang zu beobachten. Am stärksten ist der Rückgang beim öffentlichen Verkehr mit 35,4 Prozentpunkten. Einzig der Veloverkehr blieb mehr oder weniger stabil (-3,1 Prozentpunkte), allerdings zeigte dort der Trend in den Jahren vor der Pandemie stark nach oben.",
-		"erlaeuterungen": "Der Verkehrsleistungsindex erfasst die Veränderung der Fahrleistung der verschiedenen Verkehrsmittel im ganzen Kantonsgebiet. Es wird die Veränderung gegenüber dem Referenzjahr 2010 dargestellt (indexiert, 2010 = 100). Bei den Fussgängerdaten ist das Referenzjahr 2013, da diese erst seit dann erhoben werden. <br/><br/>Der Verkehrsleistungsindex basiert auf den an automatischen Zählstellen erfassten Verkehrsaufkommen der einzelnen Kategorien, aus welchen mit Modellen die Verkehrsleistungen für den gesamten Kanton abgeleitet werden. Für den Auto- und Veloverkehr wird jede Zählstelle auf Basis des Gesamtverkehrsmodells der Region Basel gewichtet. Die Zählstellen des Fussverkehrs werden über den «Mikrozensus Verkehr» gewichtet.<br/><br/>Autoverkehr:<br/>Der Index für den motorisierten Individualverkehr (MIV) berechnet sich anhand von rund 40 Dauerzählstellen des Kantons Basel-Stadt, des Kantons Basel-Landschaft und des Bundesamtes für Strassen. Er umfasst die Verkehrsleistung aller Motorfahrzeuge auf baselstädtischem Kantonsgebiet (inkl. Lastwagen, Lieferwagen und Motorräder), aber ohne Linienbusse, Motorfahrräder und E-Bikes. Der MIV Total entspricht der Verkehrsleistung auf allen Strassen des Kantonsgebiets, der MIV Stadtstrassennetz derjenigen ohne Autobahnen.<br/><br/>Veloverkehr:<br/>Der Index für den Veloverkehr wird auf Basis von rund 20 Zählstellen des Kantons Basel-Stadt berechnet. Der Einfluss des Wetters auf den Veloverkehr wird mittels eines Modells herausgerechnet.<br/><br/>Fussverkehr:<br/>Der Index für den Fussverkehr basiert auf rund 18 Zählstellen. Die Daten werden erst seit dem Jahr 2013 erhoben.<br/><br/>Öffentlicher Verkehr:<br/>Der Index des öffentlichen Verkehrs basiert auf den Verkehrsleistungen der Tram-, Bus- und S-Bahn-Linien auf dem Gebiet des Kantons Basel-Stadt.",
+		"orderKey": "03_08_00_00_00_321",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": false,
-		"orderKey": "03_08_00_00_00_321",
-		"renderLink": [],
-		"quellenangabe": [
-			"Amt für Mobilität Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8454,
-		"chart-id": 6154,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:18",
 		"id": 8454
 	},
 	{
@@ -80464,7 +80439,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:27",
+		"aktualisierungsdatum": "2021-12-29T10:27:16",
 		"id": 9457
 	},
 	{
@@ -80502,7 +80477,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:27",
+		"aktualisierungsdatum": "2021-12-29T10:27:16",
 		"id": 9458
 	},
 	{

@@ -70,6 +70,10 @@
         [
           2019,
           958800
+        ],
+        [
+          2020,
+          933323
         ]
       ],
       "name": "Umbau- und Unterhaltsarbeiten (UuU)"
@@ -144,6 +148,10 @@
         [
           2019,
           1826700
+        ],
+        [
+          2020,
+          1878600
         ]
       ],
       "name": "Total der Bauausgaben (BA)"
@@ -220,6 +228,10 @@
         [
           2019,
           52.5
+        ],
+        [
+          2020,
+          49.7
         ]
       ],
       "name": "Anteil UuU am Total der BA (rechte Skala)"
@@ -375,7 +387,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-11-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Baustatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
   },
   "tooltip": {},
   "exporting": {

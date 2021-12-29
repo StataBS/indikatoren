@@ -6563,87 +6563,87 @@
       "data": [
         [
           1,
-          31391
+          31230.5
         ],
         [
           2,
-          48690
+          45040
         ],
         [
           3,
-          41941
+          37950
         ],
         [
           4,
-          14799
+          13526
         ],
         [
           5,
-          65590
+          61289
         ],
         [
           6,
-          13491
+          14018
         ],
         [
           7,
-          78356.5
+          66453.5
         ],
         [
           8,
-          50438
+          47099
         ],
         [
           9,
-          30156
+          29531
         ],
         [
           10,
-          10000
+          9345.5
         ],
         [
           11,
-          8508
+          8876
         ],
         [
           12,
-          9590.5
+          11977
         ],
         [
           13,
-          8430
+          8468
         ],
         [
           14,
-          33876
+          32471
         ],
         [
           15,
-          18864
+          17739
         ],
         [
           16,
-          3866
+          4235
         ],
         [
           17,
-          5867
+          5864.5
         ],
         [
           18,
-          2241.5
+          2432
         ],
         [
           19,
-          3415
+          2868
         ],
         [
           20,
-          60515
+          56700
         ],
         [
           30,
-          108794
+          92332
         ]
       ]
     },
@@ -7098,7 +7098,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Reinvermögen nach Wohnviertel"
+    "text": "Reinvermögen"
   },
   "subtitle": {
     "style": {
@@ -7107,7 +7107,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2017",
+    "text": "nach Wohnviertel, Basel-Stadt, 2018",
     "align": "left"
   },
   "credits": {
@@ -7123,7 +7123,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Steuerstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-29"
   },
   "colorAxis": {
     "min": 0,

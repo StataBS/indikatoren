@@ -1725,44 +1725,44 @@ var indikatorensetData = [
 		"id": 6457
 	},
 	{
+		"template": "template001",
+		"data-id": 6459,
+		"chart-id": 6459,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7045,
+			9457,
+			9458
+		],
 		"title": "Beschäftigung nach Branche",
-		"subtitle": "in Vollzeitäquivalenten, Basel-Stadt",
-		"kuerzel": "I.03.2.6459",
-		"kuerzelKunde": "2-01",
-		"description": "Beschäftigung nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Arbeitsmarkt",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "In Basel-Stadt sind 2019 rund 152 400 Beschäftigte in Vollzeitäquivalenten (VZA) tätig. Die grösste Branche ist das Gesundheits- und Sozialwesen mit rund 22 900 VZÄ (+2,8% zum Vorjahr). Es folgen die Branchen Beratung, Planung, Forschung, Immobilien mit fast 20 500 VZÄ (+3,1%) sowie Chemie und Pharma mit rund 17 700 VZÄ (-2,0%). Das stärkste Wachstum verzeichnen die Branchen Personalvermittlung und -überlassung (+8,8%), Information und Kommunikation (+8,6%) und Gastgewerbe (+7,2%). Die Branchen Baugewerbe (-3,2%), Industrie (-2,4%, exkl. Chemie, Pharma) sowie Öffentliche Verwaltung und Sozialversicherungen (-2,1%) sind dagegen am stärksten rückläufig.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-03T17:11:44.4444",
+		"description": "Beschäftigung nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06459",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "2-01",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Rund 23 000 Beschäftigte in Vollzeitäquivalenten (VZÄ) sind in Basel-Stadt 2018 im Gesundheits- und Sozialwesen tätig. Im Vergleich zum Vorjahr bedeutet dies eine Steigerung um 1,7%. Fast 20 000 VZÄ sind in der Dienstleistungsgruppe Beratung, Planung, Forschung, Immobilienwesen tätig und somit 1,2% mehr als im Vorjahr. In der Chemischen und Pharmazeutischen Industrie sind es rund 18 000, was einer Abnahme um 3,4% im Vergleich zum Vorjahr entspricht. Mehr als 1,0% Wachstum verzeichnete die Branche Erziehung und Unterricht (+5,5%), das Gastgewerbe (+1,9%) sowie die Branche Öffentliche Verwaltung und Sozialversicherungen (+1,7%). Am stärksten abgenommen hat die Beschäftigung in den Branchen Personalvermittlung und -überlassung (-4,6%), Gebäudebetreuung, Sicherheit, sonst. Wirtsch. DL (-3,4%) und Baugewerbe (-2,7%). Im gesamten Kanton Basel-Stadt sind im Jahr 2018 rund 150 900 Beschäftigte in Vollzeitäquivalenten tätig.",
-		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und die einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Anzahl der Beschäftigten (Voll- und Teilzeit) in Vollzeitstellen.",
-		"template": "template001",
+		"orderKey": "01_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_101",
-		"parentId": null,
-		"children": [
-			"7045"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6459,
-		"chart-id": 6459,
-		"filter": "",
+		"aktualisierungsdatum": "2021-12-29T10:27:17",
 		"id": 6459
 	},
 	{
