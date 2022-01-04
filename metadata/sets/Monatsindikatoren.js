@@ -109,7 +109,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:54",
+		"aktualisierungsdatum": "2022-01-04T08:35:31",
 		"id": 7512
 	},
 	{
@@ -121,7 +121,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Basler Index",
 		"subtitle": "Basis Dezember 2020 = 100",
-		"lesehilfe": "Die mittlere Jahresteuerung des Basler Index beläuft sich für das ganze Jahr 2020 auf -0,6%. Das durchschnittliche Preisniveau in der Region Basel ist damit leicht gesunken. Im bisherigen Jahresverlauf 2021 hat sich die Teuerung akzentuiert.",
+		"lesehilfe": "Das durchschnittliche regionale Preisniveau ist in den vergangen Monaten mehrheitlich gestiegen. Die mittlere Jahresteuerung für den Basler Index beläuft sich für das ganze Jahr 2021 auf +0,6%.",
 		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
@@ -147,7 +147,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:55",
+		"aktualisierungsdatum": "2022-01-04T08:35:31",
 		"id": 7513
 	},
 	{
