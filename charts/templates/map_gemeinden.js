@@ -78,10 +78,11 @@
         },
         "legend": {
             useHTML: false,
-            "enabled": true,
+            enabled: true,
             align: 'left',
             y: -250,
-            "floating": true,
+            floating: true,
+            symbolRadius: 0,
             itemStyle: {
                 fontWeight: 'normal'
             },
@@ -92,7 +93,19 @@
                 }
             }
         },
-
+        "tooltip": {
+            useHTML: true,
+            "formatter": function (args) {
+                if (!this.point["CODGEO"]) {
+                    //Grenzen, Massstab
+                    return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+                } else {
+                    if (Highcharts.charts[0].legend.title != undefined) var einheit = Highcharts.charts[0].legend.title.text.textStr; else var einheit = '';
+                    return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' +
+                        this.point.properties.LIBGEO + ': <b>' + Highcharts.numberFormat((this.point.value), 0) + ' ' + einheit + '</b>';
+                }
+            }
+        },
         "afterSeries": [
             {
                 name: 'Massstab',
@@ -113,8 +126,20 @@
                     style: { fontSize: "12px", fontWeight: "normal", color: 'black' },
                     y: -10
                 }
+            },
+            {
+                name: 'Grenze',
+                animation: true,
+                type: 'mapline',
+                data: borderDataTrinat,
+                color: 'black',
+                tooltip: {
+                    pointFormatter: function () {
+                        return '<br/>';
+                    }
+                }
             }
-		],
+        ],
         customFunctions: {
             addLegendRectangle: function (chart, x, y, width, height, fill, cssClass) {
                 return chart.renderer.rect(x, y, width, height).attr({

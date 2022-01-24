@@ -27384,6 +27384,55 @@
         },
         "y": -10
       }
+    },
+    {
+      "name": "Grenze",
+      "animation": true,
+      "type": "mapline",
+      "data": [
+        {
+          "path": [
+            [
+              "M",
+              2587000,
+              -1249000
+            ],
+            [
+              "L",
+              2587000,
+              -1248600
+            ],
+            [
+              "L",
+              2587000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1249000
+            ],
+            [
+              "L",
+              2592000,
+              -1248600
+            ]
+          ],
+          "name": undefined,
+          "properties": {}
+        }
+      ],
+      "color": "black",
+      "tooltip": {
+        "pointFormatter": function () {
+                        return '<br/>';
+                    }
+      }
     }
   ],
   "chart": {
@@ -27490,11 +27539,12 @@
     }
   },
   "legend": {
-    "useHTML": true,
+    "useHTML": false,
     "enabled": true,
     "align": "left",
     "y": -250,
     "floating": true,
+    "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
@@ -27504,8 +27554,18 @@
         "fontSize": "12px"
       }
     },
-    "symbolRadius": 0,
     "itemWidth": 300
+  },
+  "tooltip": {
+    "useHTML": true,
+    "formatter": function (args) {
+				if (!this.point["CODGEO"]) {
+					//Grenzen, Massstab
+					return '<span style="color:' + this.color + ';">\u25CF </span><span>' + this.series.name + '</span>';
+				} else {
+					return '<span style="color:' + this.color + ';">\u25CF </span>Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
+				}
+			}
   },
   "customFunctions": {
     "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass) {
@@ -27516,13 +27576,6 @@
                     class: cssClass
                 }).add();
             }
-  },
-  "tooltip": {
-    "formatter": function(args){
-				var this_point_index = this.series.data.indexOf(this.point);
-				return '<span style="color:' + this.color + ';">\u25CF</span> Gemeinde: <b>' + this.point.properties.LIBGEO + '</b>';
-			},
-    "useHTML": true
   },
   "exporting": {
     "filename": "7952"

@@ -8401,10 +8401,10 @@
 	},
 	"7952": {
 		"metadata": "fce7d1e5d6ea5ba00190fc4e4449a9df9552d7b6",
-		"chartConfig": "089a225d8cec4a21e3eab7775e6daf4dedf2713e",
+		"chartConfig": "751c51cb8165ada112aa77fa9a1de52a0e727a17",
 		"data": "4e96d9974a120bc72f022f6ac99a36c504a6b3fd",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e18cb7bbf9df13f6a023e14c4ba8446f4676d15a"
+		"template": "769057544b2f551a960fc8c9c37c2321a69ed124"
 	},
 	"7953": {
 		"metadata": "b79fd1f28e3dc90066d887460456011987a3afe3",
@@ -8418,7 +8418,7 @@
 		"chartConfig": "d9ffabfcfec14f5783857795402cec55e3a1f9db",
 		"data": "3c1d22e6e04838242b0c4f402b8efc33d4457029",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e18cb7bbf9df13f6a023e14c4ba8446f4676d15a"
+		"template": "769057544b2f551a960fc8c9c37c2321a69ed124"
 	},
 	"7955": {
 		"metadata": "b872822948e34f14fd38b9f6f05117cf4a4b6912",
@@ -8600,7 +8600,7 @@
 		"chartConfig": "59d45720ca5f2f7b20b3ddbc18dff54511fd58c7",
 		"data": "fe1c95627119b51ced1afd4fd1c9143aa8c7d819",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e57f44f838894e053c25825b0cd444b40d42f460"
+		"template": "441222a5a3ac722b5ffa8ecd9f578b5b41e9362c"
 	},
 	"7984": {
 		"metadata": "3f017097f77318ed9fb9fa3d01acc03ca1bc1412",
@@ -8978,7 +8978,7 @@
 		"chartConfig": "ee58d7ce30b076320bf2f0792d466d3cd92ed568",
 		"data": "4e96d9974a120bc72f022f6ac99a36c504a6b3fd",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e57f44f838894e053c25825b0cd444b40d42f460"
+		"template": "441222a5a3ac722b5ffa8ecd9f578b5b41e9362c"
 	},
 	"8096": {
 		"metadata": "42544f96755b85279c17b916c7728a260bbf0031",
@@ -8992,7 +8992,7 @@
 		"chartConfig": "4246b737c0ebd4eeb389d136c9013b4a031a3894",
 		"data": "3c1d22e6e04838242b0c4f402b8efc33d4457029",
 		"configs/portal": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-		"template": "e57f44f838894e053c25825b0cd444b40d42f460"
+		"template": "441222a5a3ac722b5ffa8ecd9f578b5b41e9362c"
 	},
 	"8098": {
 		"metadata": "6a00ca65ca618e56deeb53faf824ed058aac0e95",
