@@ -1,0 +1,27 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "Grenzen",
+	"crs" : {
+		"type" : "name",
+		"properties" : {
+			"name" : "EPSG:2056"
+		}
+	},
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "LineString",
+				"coordinates" : [
+					[ 2587000, 1249000 ],
+					[ 2587000, 1248600 ],
+					[ 2587000, 1248800 ],
+					[ 2592000, 1248800 ],
+					[ 2592000, 1249000 ],
+					[ 2592000, 1248600 ]
+				]
+			},
+			"properties" : {}
+		}
+	]
+}

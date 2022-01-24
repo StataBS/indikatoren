@@ -27384,6 +27384,55 @@
         },
         "y": -10
       }
+    },
+    {
+      "name": "Grenze",
+      "animation": true,
+      "type": "mapline",
+      "data": [
+        {
+          "path": [
+            [
+              "M",
+              2587000,
+              -1249000
+            ],
+            [
+              "L",
+              2587000,
+              -1248600
+            ],
+            [
+              "L",
+              2587000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1248800
+            ],
+            [
+              "L",
+              2592000,
+              -1249000
+            ],
+            [
+              "L",
+              2592000,
+              -1248600
+            ]
+          ],
+          "name": undefined,
+          "properties": {}
+        }
+      ],
+      "color": "black",
+      "tooltip": {
+        "pointFormatter": function () {
+                        return '<br/>';
+                    }
+      }
     }
   ],
   "chart": {
@@ -27474,6 +27523,7 @@
     "align": "left",
     "y": -250,
     "floating": true,
+    "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal"
     },
@@ -27485,6 +27535,14 @@
       "text": "Einwohner pro km\u003Csup\u003E2\u003C\u002Fsup\u003E"
     }
   },
+  "tooltip": {
+    "useHTML": true,
+    "formatter": function(args){
+				var this_point_index = this.series.data.indexOf(this.point);
+				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
+					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
+			}
+  },
   "customFunctions": {
     "addLegendRectangle": function (chart, x, y, width, height, fill, cssClass) {
                 return chart.renderer.rect(x, y, width, height).attr({
@@ -27494,14 +27552,6 @@
                     class: cssClass
                 }).add();
             }
-  },
-  "tooltip": {
-    "formatter": function(args){
-				var this_point_index = this.series.data.indexOf(this.point);
-				return '<span style="color:' + this.color + ';">\u25CF</span><span style="font-size: 0.85em;"> ' + this.series.name + ':</span><br/>' + 
-					this.point.properties.LIBGEO +': <b>' + Highcharts.numberFormat((this.point.value),0) + ' Einwohner pro km<sup>2</sup></b></b>';
-			},
-    "useHTML": true
   },
   "exporting": {
     "filename": "7954"
