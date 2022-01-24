@@ -770,7 +770,7 @@ id | visible | visibleInPortal | indikatorenset
 6546 | true | true | Tourismus
 6547 | true | true | Tourismus
 6548 | false |  | Tourismus
-6549 | true | true | Tourismus
+6549 | false |  | Tourismus
 6570 | true | true | Integration
 6574 | true | true | Nachhaltigkeit
 6576 | true | true | Tourismus

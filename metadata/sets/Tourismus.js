@@ -454,47 +454,6 @@ var indikatorensetData = [
 	{
 		"parentId": null,
 		"children": [
-			"7983"
-		],
-		"template": "bubble001",
-		"title": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Tourismus",
-		"kuerzel": "I.10.1.6549",
-		"kuerzelKunde": "2-15",
-		"description": "Anteile am Übernachtungsvolumen der aufkommensstärksten Herkunftsmärkte",
-		"thema": "10 Tourismus",
-		"unterthema": "Hotellerie",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-02-03T08:49:00.000",
-		"stufe1": "Kernindikatoren zum Tourismus",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Insgesamt haben die Hotels bei der Nachfrage nach Übernachtungen aus den zehn aufkommensstärksten Märkten im Jahr 2020 gegenüber dem Mittelwert der Jahre 2009-2013 einen Rückgang von 49,2% zu verzeichnen. Die Nachfrage aus dem heimischen Markt ist gegenüber dem Mittelwert der Jahre 2009-2013 um 10,4% zurückgegangen. Für den deutschen Markt beläuft sich das Minus bei den Logiernächten auf 53,1%, für die Vereinigten Staaten auf 81,1% und das Vereinigte Königreich auf 75,1%. Der deutsche Markt generierte mit 19,4% den grössten Wachstumsbeitrag im Beobachtungszeitraum. Die US-amerikanischen Gäste sorgten mit 16,2% für den zweithöchsten Beitrag. Auf dem dritten Rang folgt das Vereinigte Königreich mit einem Wachstumsbeitrag von 11,6%. Der einheimische Markt trug 6,2% bei.",
-		"erlaeuterungen": "Als Wachstumsbeitrag bezeichnet man denjenigen Beitrag, welchen einzelne Quellmärkte zum Wachstum der gesamten Nachfrage beisteuern. Die Kreisgrösse symbolisiert den Wachstumsbeitrag der verschiedenen Herkunftsländer. Die Abbildung zeigt neben dem Wachstumsbeitrag auch die Entwicklung und den aktuellen Marktanteil der einzelnen Herkunftsmärkte. Um den Effekt von Ausreissern (z. B. aufgrund von Grossveranstaltungen, welche nicht jedes Jahr stattfinden) auszugleichen, wird anstelle des Jahreswertes 2011 der Mittelwert über die Jahre 2009-2013 als Bezugsgrösse für die Berechnung des Wachstums verwendet. Die COVID-19-Pandemie und die damit verbundenen Massnahmen zum Schutz der Bevölkerung haben Auswirkungen auf Reiseverhalten und Tourismus und damit auf die Tourismusstatistik ab März 2020.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_015",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6549,
-		"chart-id": 6549,
-		"filter": "",
-		"id": 6549
-	},
-	{
-		"parentId": null,
-		"children": [
 			"7984"
 		],
 		"template": "template001",
