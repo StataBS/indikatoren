@@ -35,8 +35,8 @@
     tooltip: {
       useHTML: false,
       pointFormat: '<span style="color:{point.color}">\u25CF</span> <span style="font-size: 10px"> {point.name}</span><br/>' +
-        'Anteile am Übernachtungsvolumen 2020:<b> {point.x:,.1f}%</b><br/>' +
-        'Veränderung 2020 gegenüber dem Mittelwert 2009-2013:<b> {point.y}%</b><br/>' +
+        'Anteile am Übernachtungsvolumen 2021:<b> {point.x:,.1f}%</b><br/>' +
+        'Veränderung 2021 gegenüber dem Mittelwert 2010-2014:<b> {point.y}%</b><br/>' +
         'Wachstumsbeitrag:<b> {point.z}%</b>'
     },
     data: {
@@ -93,7 +93,7 @@
         format: '{value}%'
       },
       title: {
-        text: 'Anteile am Übernachtungsvolumen 2020'
+        text: 'Anteile am Übernachtungsvolumen 2021'
       }
     },
     yAxis: {
@@ -104,7 +104,7 @@
         format: '{value}%'
       },
       title: {
-        text: 'Veränderung Logiernächte 2020 gegenüber Ø 2009<span>-</span>2013'
+        text: 'Veränderung Logiernächte 2021 gegenüber Ø 2010<span>-</span>2014'
       }
     },
     plotOptions: {
