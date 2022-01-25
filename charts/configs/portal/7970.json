@@ -5,23 +5,23 @@
       "data": [
         [
           "Basel",
-          512.79
+          512.8
         ],
         [
           "Bern",
-          476.54
+          473.69
         ],
         [
           "Genf",
-          526.45
+          520.63
         ],
         [
           "Lausanne",
-          498.21
+          493.77
         ],
         [
           "Zürich",
-          503.33
+          498.83
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          333.23
+          328.39
         ],
         [
           "Bern",
-          391.62
+          386.83
         ],
         [
           "Genf",
-          357.55
+          352.09
         ],
         [
           "Lausanne",
-          359.04
+          353.34
         ],
         [
           "Zürich",
-          342.8
+          333.93
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          518.11
+          519
         ],
         [
           "Bern",
-          516.44
+          514.3
         ],
         [
           "Genf",
-          530.91
+          524.08
         ],
         [
           "Lausanne",
-          566.79
+          562.2
         ],
         [
           "Zürich",
-          571.78
+          569.49
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -86,7 +86,7 @@
       "data": [
         [
           "Basel",
-          584.84
+          588.56
         ],
         [
           "Bern",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          654.01
+          650.71
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          626.13
+          620.3
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Personenwagen"
   },
   "subtitle": {
-    "text": "pro 1000 Einwohner, 2018",
+    "text": "pro 1000 Einwohner, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

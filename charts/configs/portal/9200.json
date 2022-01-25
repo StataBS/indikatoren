@@ -10,19 +10,19 @@
         ],
         [
           "Bern",
-          0.767
+          0.768
         ],
         [
           "Genf",
-          0.517
+          0.521
         ],
         [
           "Lausanne",
-          0.636
+          0.639
         ],
         [
           "Zürich",
-          0.705
+          0.71
         ],
         [
           "Frankfurt a. M.",
@@ -66,11 +66,11 @@
         ],
         [
           "Mailand",
-          0.396
+          0.424
         ],
         [
           "Bologna",
-          0.412
+          0.42
         ],
         [
           "Lissabon",
@@ -82,11 +82,11 @@
         ],
         [
           "Barcelona",
-          0.461
+          0.468
         ],
         [
           "Madrid",
-          0.509
+          0.525
         ],
         [
           "London",
@@ -173,7 +173,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "Beschäftigte pro Einwohner, 2018",
+    "text": "Beschäftigte pro Einwohner, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -229,7 +229,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

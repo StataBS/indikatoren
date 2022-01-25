@@ -1,13 +1,13 @@
 (function(){
     return {
-  
-  "xAxis": {
-    "type": "category",
-    "labels": {
-      //"rotation": -90 
-
-    } 
-  },
+      xAxis: {
+        type: "category",
+        labels: {
+          style: {
+              fontSize: "8pt"
+          }
+        }
+      }, 
    plotOptions: {
         series: {
             pointPadding: 0,

@@ -6,11 +6,11 @@
       "data": [
         [
           "Basel",
-          31.9
+          32.1
         ],
         [
           "Bern",
-          30.2
+          30.5
         ],
         [
           "Genf",
@@ -74,11 +74,11 @@
         ],
         [
           "Lissabon",
-          36.7
+          36.9
         ],
         [
           "Porto",
-          31.5
+          31.3
         ],
         [
           "Barcelona",
@@ -102,15 +102,15 @@
       "data": [
         [
           "Basel",
-          33.4
+          33.9
         ],
         [
           "Bern",
-          32.7
+          33.2
         ],
         [
           "Genf",
-          24.4
+          24.5
         ],
         [
           "Lausanne",
@@ -170,11 +170,11 @@
         ],
         [
           "Lissabon",
-          37.4
+          38.1
         ],
         [
           "Porto",
-          32.8
+          33.7
         ],
         [
           "Barcelona",
@@ -269,7 +269,7 @@
     "text": "Jugend- und Altersquotient"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -325,7 +325,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

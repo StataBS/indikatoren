@@ -6,43 +6,43 @@
       "data": [
         [
           "Basel",
-          70801.059005855
+          68752.4724483418
         ],
         [
           "Bern",
-          26476.5997806426
+          25379.5017671494
         ],
         [
-          "Genève",
-          93981.6008102707
+          "Genf",
+          89756.276508053
         ],
         [
           "Lausanne",
-          47672.2863551886
+          48027.4561278659
         ],
         [
           "Zürich",
-          106426.859223452
+          102885.725395207
         ],
         [
           "Frankfurt a. M.",
-          211400
+          254274
         ],
         [
           "Freiburg i. Br.",
-          41400
+          41412
         ],
         [
           "Karlsruhe",
-          63300
+          49987
         ],
         [
           "München",
-          176700
+          164823
         ],
         [
           "Stuttgart",
-          227100
+          219881
         ],
         [
           "Lille",
@@ -61,11 +61,11 @@
           1285780
         ],
         [
-          "Strasbourg",
+          "Strassburg",
           68152
         ],
         [
-          "Milano",
+          "Mailand",
           971625
         ],
         [
@@ -73,12 +73,20 @@
           123857
         ],
         [
+          "Lissabon",
+          758260
+        ],
+        [
+          "Porto",
+          435434
+        ],
+        [
           "Barcelona",
-          906784
+          880389
         ],
         [
           "Madrid",
-          1179851
+          1144824
         ],
         [
           "London",
@@ -94,43 +102,43 @@
       "data": [
         [
           "Basel",
-          215377.600679529
+          216245.032306838
         ],
         [
           "Bern",
-          99973.4947405782
+          100607.692329041
         ],
         [
-          "Genève",
-          163159.330507888
+          "Genf",
+          170928.222524466
         ],
         [
           "Lausanne",
-          79416.5412469875
+          80795.2711626014
         ],
         [
           "Zürich",
-          299497.654116731
+          311814.187127061
         ],
         [
           "Frankfurt a. M.",
-          773600
+          740449
         ],
         [
           "Freiburg i. Br.",
-          189500
+          182829
         ],
         [
           "Karlsruhe",
-          217300
+          209280
         ],
         [
           "München",
-          754000
+          722342
         ],
         [
           "Stuttgart",
-          743500
+          755751
         ],
         [
           "Lille",
@@ -149,11 +157,11 @@
           2222279
         ],
         [
-          "Strasbourg",
+          "Strassburg",
           175486
         ],
         [
-          "Milano",
+          "Mailand",
           1226927
         ],
         [
@@ -161,12 +169,20 @@
           175744
         ],
         [
+          "Lissabon",
+          358731
+        ],
+        [
+          "Porto",
+          130268
+        ],
+        [
           "Barcelona",
-          680173
+          683007
         ],
         [
           "Madrid",
-          912121
+          931138
         ],
         [
           "London",
@@ -182,43 +198,43 @@
       "data": [
         [
           "Basel",
-          177726.258127889
+          177007.333936387
         ],
         [
           "Bern",
-          104520.935574617
+          106217.975073133
         ],
         [
-          "Genève",
-          227015.600014051
+          "Genf",
+          230416.82423232
         ],
         [
           "Lausanne",
-          106716.732243217
+          109327.968914999
         ],
         [
           "Zürich",
-          380640.283604948
+          383381.528374199
         ],
         [
           "Frankfurt a. M.",
-          476000
+          538937
         ],
         [
           "Freiburg i. Br.",
-          119000
+          128771
         ],
         [
           "Karlsruhe",
-          130100
+          157490
         ],
         [
           "München",
-          638200
+          764270
         ],
         [
           "Stuttgart",
-          491100
+          571440
         ],
         [
           "Lille",
@@ -237,11 +253,11 @@
           3118664
         ],
         [
-          "Strasbourg",
+          "Strassburg",
           166951
         ],
         [
-          "Milano",
+          "Mailand",
           540532
         ],
         [
@@ -249,12 +265,20 @@
           104584
         ],
         [
+          "Lissabon",
+          397260
+        ],
+        [
+          "Porto",
+          153707
+        ],
+        [
           "Barcelona",
-          1215376
+          1261482
         ],
         [
           "Madrid",
-          1794173
+          1857413
         ],
         [
           "London",
@@ -278,7 +302,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "8pt"
       }
     }
   },
@@ -324,7 +349,7 @@
       "borderWidth": 1e-7,
       "dataLabels": {
         "style": {
-          "fontSize": "10px"
+          "fontSize": "8px"
         }
       },
       "stacking": "percent"
@@ -340,7 +365,7 @@
     "text": "Bildungsniveau der Bevölkerung"
   },
   "subtitle": {
-    "text": "nach höchster abgeschlossener Ausbildung, 2018",
+    "text": "nach höchster abgeschlossener Ausbildung, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -398,7 +423,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

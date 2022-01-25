@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          81.4
+          80.1
         ],
         [
           "Bern",
-          85.9
+          84
         ],
         [
           "Genf",
-          74.8
+          73.4
         ],
         [
           "Lausanne",
-          80
+          78
         ],
         [
           "Zürich",
-          85.8
+          84.1
         ],
         [
           "Frankfurt a. M.",
@@ -65,6 +65,22 @@
           73.2
         ],
         [
+          "Mailand",
+          75.1
+        ],
+        [
+          "Bologna",
+          80.8
+        ],
+        [
+          "Lissabon",
+          71.5
+        ],
+        [
+          "Porto",
+          68.2
+        ],
+        [
           "Barcelona",
           73.3
         ],
@@ -86,23 +102,23 @@
       "data": [
         [
           "Basel",
-          74.4
+          72.5
         ],
         [
           "Bern",
-          80
+          79.9
         ],
         [
           "Genf",
-          66.4
+          65.2
         ],
         [
           "Lausanne",
-          73
+          71.5
         ],
         [
           "Zürich",
-          77.4
+          74.9
         ],
         [
           "Frankfurt a. M.",
@@ -145,6 +161,22 @@
           67.3
         ],
         [
+          "Mailand",
+          62
+        ],
+        [
+          "Bologna",
+          68.9
+        ],
+        [
+          "Lissabon",
+          67.7
+        ],
+        [
+          "Porto",
+          59.1
+        ],
+        [
           "Barcelona",
           66.3
         ],
@@ -174,7 +206,8 @@
     },
     "labels": {
       "style": {
-        "color": "#000000"
+        "color": "#000000",
+        "fontSize": "8pt"
       }
     }
   },
@@ -237,7 +270,7 @@
     "text": "Erwerbstätigenquote nach Geschlecht"
   },
   "subtitle": {
-    "text": "der 20- bis 64-Jährigen, 2018",
+    "text": "der 20- bis 64-Jährigen, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -293,7 +326,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

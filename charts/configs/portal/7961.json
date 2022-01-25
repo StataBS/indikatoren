@@ -9,19 +9,19 @@
         ],
         [
           "Bern",
-          21.1
+          21.17
         ],
         [
           "Genf",
-          29.59
+          29.63
         ],
         [
           "Lausanne",
-          25.4
+          25.35
         ],
         [
           "Zürich",
-          23.3
+          23.24
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          18.04
+          18.34
         ],
         [
           "Bern",
-          18.52
+          18.7
         ],
         [
           "Genf",
-          21.91
+          22.26
         ],
         [
           "Lausanne",
-          21.3
+          21.26
         ],
         [
           "Zürich",
-          19.51
+          19.58
         ]
       ],
       "name": "Kernstadt",
@@ -59,7 +59,7 @@
       "data": [
         [
           "Basel",
-          23.05
+          23
         ],
         [
           "Bern",
@@ -67,15 +67,15 @@
         ],
         [
           "Genf",
-          31.86
+          31.74
         ],
         [
           "Lausanne",
-          27.76
+          27.67
         ],
         [
           "Zürich",
-          25.1
+          25
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -113,7 +113,7 @@
       "data": [
         [
           "Basel",
-          28.43
+          28.08
         ],
         [
           "Bern",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          32.15
+          32.06
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Anteil der Privathaushalte mit minderjährigen Kindern"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
