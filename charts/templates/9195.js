@@ -4,15 +4,20 @@
     series: {
       dataLabels: {
         style: {
-          fontSize: "10px"
+          fontSize: "8px"
         }
       },
       stacking: "percent",
     }
   },
   xAxis: {
-    type: "category"    
-  },  
+    type: "category",
+    labels: {
+      style: {
+          fontSize: "8pt"
+      }
+    }
+  },   
   yAxis: {
     tickAmount: 6,
       labels: {

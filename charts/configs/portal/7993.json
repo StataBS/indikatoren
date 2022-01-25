@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          185605
+          185139
         ],
         [
           "Bern",
-          189079
+          189629
         ],
         [
           "Genf",
-          182521
+          186456
         ],
         [
           "Lausanne",
-          122100
+          123531
         ],
         [
           "Zürich",
-          480106
+          491835
         ]
       ],
       "name": "Kernstadt",
@@ -34,23 +34,23 @@
       "data": [
         [
           "Basel",
-          182013
+          184214
         ],
         [
           "Bern",
-          131885
+          133299
         ],
         [
           "Genf",
-          212886
+          217868
         ],
         [
           "Lausanne",
-          145508
+          148005
         ],
         [
           "Zürich",
-          484435
+          490688
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -62,7 +62,7 @@
       "data": [
         [
           "Basel",
-          74603
+          74804
         ],
         [
           "Bern",
@@ -90,7 +90,7 @@
       "data": [
         [
           "Basel",
-          26769
+          27007
         ],
         [
           "Bern",
@@ -98,7 +98,7 @@
         ],
         [
           "Genf",
-          77242
+          77236
         ],
         [
           "Lausanne",
@@ -188,7 +188,7 @@
     "text": "Beschäftigte"
   },
   "subtitle": {
-    "text": "2018",
+    "text": "2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -247,7 +247,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

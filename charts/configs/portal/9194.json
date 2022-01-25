@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          9.55784729883875
+          9.50675213317134
         ],
         [
           "Bern",
-          10.6015172331402
+          10.1663453987292
         ],
         [
           "Genf",
-          11.3428951066541
+          11.3298734998378
         ],
         [
           "Lausanne",
-          11.6337933771749
+          11.1228339558478
         ],
         [
           "Zürich",
-          11.2662805569738
+          10.946554124709
         ],
         [
           "Frankfurt a. M.",
@@ -70,7 +70,7 @@
         ],
         [
           "Bologna",
-          8
+          7
         ],
         [
           "Lissabon",
@@ -86,7 +86,7 @@
         ],
         [
           "Madrid",
-          9
+          8
         ],
         [
           "London",
@@ -102,23 +102,23 @@
       "data": [
         [
           "Basel",
-          9.35565757241431
+          9.30542172320211
         ],
         [
           "Bern",
-          8.69004241084762
+          8.9312486613836
         ],
         [
           "Genf",
-          5.93172609511103
+          5.92064006919667
         ],
         [
           "Lausanne",
-          7.16565618634984
+          6.41040737408801
         ],
         [
           "Zürich",
-          7.33652242701278
+          7.32634856809424
         ],
         [
           "Frankfurt a. M.",
@@ -162,7 +162,7 @@
         ],
         [
           "Mailand",
-          9
+          10
         ],
         [
           "Bologna",
@@ -174,11 +174,11 @@
         ],
         [
           "Porto",
-          10
+          9
         ],
         [
           "Barcelona",
-          9
+          8
         ],
         [
           "Madrid",
@@ -269,7 +269,7 @@
     "text": "Geburten- und Sterberate"
   },
   "subtitle": {
-    "text": "Fälle pro 1000 Einwohner, 2018",
+    "text": "Fälle pro 1000 Einwohner, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -325,7 +325,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

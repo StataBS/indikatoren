@@ -6,23 +6,23 @@
       "data": [
         [
           "Basel",
-          5024.99308641829
+          4980
         ],
         [
           "Bern",
-          7709
+          7563
         ],
         [
           "Genf",
-          4871.12105044219
+          5011
         ],
         [
           "Lausanne",
-          5065
+          5044
         ],
         [
           "Zürich",
-          9374
+          9027
         ],
         [
           "Frankfurt a. M.",
@@ -66,31 +66,31 @@
         ],
         [
           "Mailand",
-          null
+          23371
         ],
         [
           "Bologna",
-          null
+          10190
         ],
         [
           "Lissabon",
-          19912
+          19934
         ],
         [
           "Porto",
-          5350
+          5303
         ],
         [
           "Barcelona",
-          5678
+          5865
         ],
         [
           "Madrid",
-          15634
+          17200
         ],
         [
           "London",
-          null
+          2000
         ]
       ],
       "name": "1. Sektor",
@@ -102,23 +102,23 @@
       "data": [
         [
           "Basel",
-          118438.130243052
+          118575
         ],
         [
           "Bern",
-          42388
+          42201
         ],
         [
           "Genf",
-          66034.9989923602
+          67214
         ],
         [
           "Lausanne",
-          37543
+          37960
         ],
         [
           "Zürich",
-          126818
+          128201
         ],
         [
           "Frankfurt a. M.",
@@ -162,31 +162,31 @@
         ],
         [
           "Mailand",
-          519193
+          584648
         ],
         [
           "Bologna",
-          91462
+          91792
         ],
         [
           "Lissabon",
-          188140
+          194893
         ],
         [
           "Porto",
-          124505
+          128062
         ],
         [
           "Barcelona",
-          406867
+          413267
         ],
         [
           "Madrid",
-          491194
+          505674
         ],
         [
           "London",
-          307700
+          547400
         ]
       ],
       "name": "2. Sektor",
@@ -198,23 +198,23 @@
       "data": [
         [
           "Basel",
-          345526.726392403
+          347607
         ],
         [
           "Bern",
-          270867
+          273164
         ],
         [
           "Genf",
-          401743.342619684
+          409338
         ],
         [
           "Lausanne",
-          225000
+          228532
         ],
         [
           "Zürich",
-          828349
+          845295
         ],
         [
           "Frankfurt a. M.",
@@ -258,31 +258,31 @@
         ],
         [
           "Mailand",
-          1535525
+          1602070
         ],
         [
           "Bologna",
-          247443
+          263776
         ],
         [
           "Lissabon",
-          1033877
+          1086172
         ],
         [
           "Porto",
-          388722
+          404437
         ],
         [
           "Barcelona",
-          1886724
+          1942061
         ],
         [
           "Madrid",
-          2950059
+          3088408
         ],
         [
           "London",
-          6395600
+          6250700
         ]
       ],
       "name": "3. Sektor",
@@ -365,7 +365,7 @@
     "text": "Beschäftigte nach Wirtschaftssektor"
   },
   "subtitle": {
-    "text": "Anteile an der Gesamtbeschäftigung, 2018",
+    "text": "Anteile an der Gesamtbeschäftigung, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -422,7 +422,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics;\u003Cbr\u002F\u003EEurostat.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

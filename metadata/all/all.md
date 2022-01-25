@@ -2065,6 +2065,11 @@ id | visible | visibleInPortal | indikatorenset
 9396 | true | true | Legislaturplan
 9397 | true | true | Legislaturplan
 9398 | true | true | Legislaturplan
+9406 | true | true | City-Statistics
+9407 | true | true | City-Statistics
+9409 | true | true | City-Statistics
+9410 | true | true | City-Statistics
+9411 | true | true | City-Statistics
 9418 | true | false | Legislaturplan (Print)
 9419 | true | false | Legislaturplan (Print)
 9420 | true | false | Legislaturplan (Print)

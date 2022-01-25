@@ -5,15 +5,15 @@
       "data": [
         [
           "Basel: Agglomeration",
-          70801
+          68752
         ],
         [
           "Basel: Kernstadt",
-          16822
+          18213
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          26819
+          23849
         ],
         [
           "Basel: Agglomeration D",
@@ -21,7 +21,7 @@
         ],
         [
           "Basel: Agglomeration F",
-          9340
+          8871
         ],
         [
           "      ",
@@ -29,15 +29,15 @@
         ],
         [
           "Bern: Agglomeration",
-          26477
+          25380
         ],
         [
           "Bern: Kernstadt",
-          9166
+          8105
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          17310
+          17275
         ],
         [
           "         ",
@@ -45,19 +45,19 @@
         ],
         [
           "Genf: Agglomeration",
-          93982
+          89756
         ],
         [
           "Genf: Kernstadt",
-          24831
+          23571
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          42433
+          39726
         ],
         [
           "Genf: Agglomeration F",
-          26718
+          26459
         ],
         [
           "             ",
@@ -65,15 +65,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          47672
+          48027
         ],
         [
           "Lausanne: Kernstadt",
-          18080
+          17917
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          29593
+          30111
         ],
         [
           "                ",
@@ -81,15 +81,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          106427
+          102886
         ],
         [
           "Zürich: Kernstadt",
-          31646
+          29279
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          74781
+          73607
         ]
       ],
       "name": "Obligatorische Schule",
@@ -100,15 +100,15 @@
       "data": [
         [
           "Basel: Agglomeration",
-          215378
+          216245
         ],
         [
           "Basel: Kernstadt",
-          32462
+          32436
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          97627
+          98523
         ],
         [
           "Basel: Agglomeration D",
@@ -116,7 +116,7 @@
         ],
         [
           "Basel: Agglomeration F",
-          26128
+          26126
         ],
         [
           "      ",
@@ -124,15 +124,15 @@
         ],
         [
           "Bern: Agglomeration",
-          99973
+          100608
         ],
         [
           "Bern: Kernstadt",
-          25798
+          25692
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          74175
+          74916
         ],
         [
           "         ",
@@ -140,19 +140,19 @@
         ],
         [
           "Genf: Agglomeration",
-          163159
+          170928
         ],
         [
           "Genf: Kernstadt",
-          24586
+          27112
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          65022
+          68089
         ],
         [
           "Genf: Agglomeration F",
-          73551
+          75727
         ],
         [
           "             ",
@@ -160,15 +160,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          79417
+          80795
         ],
         [
           "Lausanne: Kernstadt",
-          21201
+          21581
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          58216
+          59214
         ],
         [
           "                ",
@@ -176,15 +176,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          299498
+          311814
         ],
         [
           "Zürich: Kernstadt",
-          68634
+          71681
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          230864
+          240133
         ]
       ],
       "name": "Sekundarstufe II",
@@ -195,15 +195,15 @@
       "data": [
         [
           "Basel: Agglomeration",
-          177726
+          177007
         ],
         [
           "Basel: Kernstadt",
-          50487
+          49506
         ],
         [
           "Basel: Übrige Agglomeration CH",
-          77739
+          76850
         ],
         [
           "Basel: Agglomeration D",
@@ -211,7 +211,7 @@
         ],
         [
           "Basel: Agglomeration F",
-          16731
+          17881
         ],
         [
           "      ",
@@ -219,15 +219,15 @@
         ],
         [
           "Bern: Agglomeration",
-          104521
+          106218
         ],
         [
           "Bern: Kernstadt",
-          43787
+          45138
         ],
         [
           "Bern: Übrige Agglomeration CH",
-          60734
+          61080
         ],
         [
           "         ",
@@ -235,19 +235,19 @@
         ],
         [
           "Genf: Agglomeration",
-          227016
+          230417
         ],
         [
           "Genf: Kernstadt",
-          57211
+          56762
         ],
         [
           "Genf: Übrige Agglomeration CH",
-          93875
+          92733
         ],
         [
           "Genf: Agglomeration F",
-          75930
+          80921
         ],
         [
           "             ",
@@ -255,15 +255,15 @@
         ],
         [
           "Lausanne: Agglomeration",
-          106717
+          109328
         ],
         [
           "Lausanne: Kernstadt",
-          41544
+          41625
         ],
         [
           "Lausanne: Übrige Agglomeration CH",
-          65173
+          67703
         ],
         [
           "                ",
@@ -271,15 +271,15 @@
         ],
         [
           "Zürich: Agglomeration",
-          380640
+          383382
         ],
         [
           "Zürich: Kernstadt",
-          151003
+          155320
         ],
         [
           "Zürich: Übrige Agglomeration CH",
-          229637
+          228061
         ]
       ],
       "name": "Tertiärstufe",
@@ -358,7 +358,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "nach höchster abgeschlossener Ausbildung, 2018"
+    "text": "nach höchster abgeschlossener Ausbildung, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -419,7 +419,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "legend": {
     "layout": "horizontal",

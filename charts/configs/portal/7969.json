@@ -9,19 +9,19 @@
         ],
         [
           "Bern",
-          0.767
+          0.768
         ],
         [
           "Genf",
-          0.517
+          0.521
         ],
         [
           "Lausanne",
-          0.636
+          0.639
         ],
         [
           "Zürich",
-          0.705
+          0.71
         ]
       ],
       "name": "Gesamte Agglomeration",
@@ -32,23 +32,23 @@
       "data": [
         [
           "Basel",
-          1.082
+          1.075
         ],
         [
           "Bern",
-          1.413
+          1.416
         ],
         [
           "Genf",
-          0.91
+          0.924
         ],
         [
           "Lausanne",
-          0.879
+          0.888
         ],
         [
           "Zürich",
-          1.173
+          1.184
         ]
       ],
       "name": "Kernstadt",
@@ -59,23 +59,23 @@
       "data": [
         [
           "Basel",
-          0.484
+          0.487
         ],
         [
           "Bern",
-          0.463
+          0.466
         ],
         [
           "Genf",
-          0.544
+          0.551
         ],
         [
           "Lausanne",
-          0.516
+          0.518
         ],
         [
           "Zürich",
-          0.505
+          0.506
         ]
       ],
       "name": "Übrige Agglomerationsgemeinden Schweiz",
@@ -121,7 +121,7 @@
         ],
         [
           "Genf",
-          0.24
+          0.236
         ],
         [
           "Lausanne",
@@ -215,7 +215,7 @@
     "text": "Beschäftigtendichte"
   },
   "subtitle": {
-    "text": "Beschäftigte pro Einwohner, 2018",
+    "text": "Beschäftigte pro Einwohner, 2019",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -272,7 +272,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-27"
+    "text": "Quelle: Bundesamt für Statistik (BFS), City Statistics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-25"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.2f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
