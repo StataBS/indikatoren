@@ -42451,7 +42451,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T08:38:31",
+		"aktualisierungsdatum": "2022-01-26T08:01:33",
 		"id": 7515
 	},
 	{
@@ -46575,8 +46575,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, November",
-		"lesehilfe": "Im November 2021 stieg die Einwohnerzahl gegenüber dem Vormonat in 17 Wohnvierteln sowie in Riehen. In zwei Wohnvierteln sowie in Bettingen ging sie zurück.",
+		"subtitle": "Basel-Stadt, Dezember",
+		"lesehilfe": "Im Dezember 2021 sank die Einwohnerzahl gegenüber dem Vormonat in 14 Wohnvierteln. In vier Wohnvierteln sowie in Riehen und Bettingen stieg sie. Im Wohnviertel Gotthelf blieb sie gleich.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -46603,7 +46603,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T08:38:31",
+		"aktualisierungsdatum": "2022-01-26T08:01:33",
 		"id": 7763
 	},
 	{
