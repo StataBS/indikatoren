@@ -16,11 +16,16 @@
         "switchRowsAndColumns": true
     },
       yAxis: {
-        //min: -10000,
-        //tickInterval: 10000,
+        min: -10000,
+        tickInterval: 10000,
         labels: {
           "format": "{value:,.0f}"
-        }
+        },
+        plotLines: [{
+          color: '#B9CFD7',
+          value: 0,
+          width: 2
+      }]
       },
       series: [
         { color: "#246370" },

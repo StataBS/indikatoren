@@ -18,6 +18,10 @@
         [
           2019,
           129.19
+        ],
+        [
+          2020,
+          119.36
         ]
       ],
       "name": "Basel-Stadt"
@@ -40,6 +44,10 @@
         [
           2019,
           113.93
+        ],
+        [
+          2020,
+          120.03
         ]
       ],
       "name": "Basel-Landschaft"
@@ -62,6 +70,10 @@
         [
           2019,
           114.18
+        ],
+        [
+          2020,
+          89.77
         ]
       ],
       "name": "Jura"
@@ -84,6 +96,10 @@
         [
           2019,
           126.17
+        ],
+        [
+          2020,
+          118.45
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -106,6 +122,10 @@
         [
           2019,
           118.21
+        ],
+        [
+          2020,
+          105.05
         ]
       ],
       "name": "Schweiz"
@@ -236,7 +256,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
+    "text": "Quelle: Eidgenössische Zollverwaltung (EZV).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

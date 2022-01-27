@@ -38,6 +38,10 @@
         [
           2019,
           4.3490866918
+        ],
+        [
+          2020,
+          4.2878120411
         ]
       ],
       "name": "FAMI-Quote Klybeck"
@@ -80,6 +84,10 @@
         [
           2019,
           4.552715655
+        ],
+        [
+          2020,
+          5.0847457627
         ]
       ],
       "name": "FAMI-Quote Kleinhüningen"
@@ -122,6 +130,10 @@
         [
           2019,
           26.877355755
+        ],
+        [
+          2020,
+          27.841409692
         ]
       ],
       "name": "PV-Quote Klybeck"
@@ -164,6 +176,10 @@
         [
           2019,
           25
+        ],
+        [
+          2020,
+          25.827280065
         ]
       ],
       "name": "PV-Quote Kleinhüningen"
@@ -293,7 +309,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2020-8-31"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EBasler Informationssystem Sozialleistungen (BISS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -334,6 +350,6 @@
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
-    "filename": 8079
+    "filename": "8079"
   }
 }

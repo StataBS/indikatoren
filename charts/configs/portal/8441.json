@@ -5,26 +5,26 @@
       "data": [
         [
           "Basel-Stadt",
-          -0.00426989
+          0.006775
         ],
         [
           "Basel-Landschaft",
-          0.023168092
+          0.031338
         ],
         [
           "Jura",
-          0.037586898
+          0.064391
         ],
         [
           "BS\u002FBL\u002FJU",
-          0.010990797
+          0.022654
         ],
         [
           "Schweiz",
-          0.040363452
+          0.054329
         ]
       ],
-      "name": "Veränderung 2014-2018",
+      "name": "Veränderung 2019 gegenüber 2014",
       "turboThreshold": 0
     }
   ],
@@ -105,7 +105,7 @@
     "text": "Veränderung der Beschäftigtenzahl"
   },
   "subtitle": {
-    "text": "2018 gegenüber 2014",
+    "text": "2019 gegenüber 2014",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -162,7 +162,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
   },
   "tooltip": {
     "pointFormatter": function(){
