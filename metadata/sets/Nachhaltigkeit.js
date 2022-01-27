@@ -1975,42 +1975,40 @@ var indikatorensetData = [
 		"id": 6045
 	},
 	{
+		"template": "template001",
+		"data-id": 6046,
+		"chart-id": 6236,
+		"filter": "",
+		"parentId": "6236",
+		"children": [],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.2.06046",
-		"kuerzelKunde": "WE2",
-		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1 988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-23T18:07:40.4040",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06046",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE2",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt 190 756 Personen beschäftigt. Das sind 210 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Pharmaindustrie mit einer Abnahme um 574 Personen, während bei der Branchengruppe Öffentliche Verwaltung und Bildung mit 710 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
-		"template": "template001",
+		"orderKey": "06_01_00_00_00_602",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "06_01_00_00_00_602",
-		"parentId": 6236,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6046,
-		"chart-id": 6236,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:11",
 		"id": 6046
 	},
 	{

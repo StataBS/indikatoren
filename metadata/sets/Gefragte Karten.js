@@ -411,93 +411,85 @@ var indikatorensetData = [
 		"id": 6382
 	},
 	{
-		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
-		"kuerzel": "I.03.2.06383",
-		"kuerzelKunde": "C3-2",
-		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-09-03T17:15:54.5454",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_006",
-		"parentId": null,
-		"children": [
-			"6395"
-		],
-		"renderLink": [
-			"6395"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6383,
 		"chart-id": 6383,
 		"filter": "",
-		"id": 6383
-	},
-	{
-		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
-		"kuerzel": "I.03.2.06384",
-		"kuerzelKunde": "C3-1",
-		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-09-03T17:15:55.5555",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_005",
 		"parentId": null,
 		"children": [
-			"6396"
+			6395
 		],
-		"renderLink": [
-			"6396"
-		],
+		"title": "Arbeitsstätten nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2019",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 60 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"description": "Arbeitsstätten nach Wohnviertel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06383",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C3-2",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_006",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-01-27T08:46:09",
+		"id": 6383
+	},
+	{
+		"template": "mappie001",
 		"data-id": 6384,
 		"chart-id": 6384,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6396
+		],
+		"title": "Beschäftigte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2019",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 580 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigte nach Wohnviertel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06384",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C3-1",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_005",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-01-27T08:46:09",
 		"id": 6384
 	},
 	{

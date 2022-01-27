@@ -191,6 +191,10 @@
         [
           2019,
           68172
+        ],
+        [
+          2020,
+          63754
         ]
       ],
       "name": "Anzahl Betreibungen"
@@ -316,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Beitreibungs- und Konkursamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-12-23"
+    "text": "Quelle: Beitreibungs- und Konkursamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-27"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

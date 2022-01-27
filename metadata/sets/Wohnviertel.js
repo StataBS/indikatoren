@@ -123,45 +123,44 @@ var indikatorensetData = [
 		"id": 4825
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4826,
+		"chart-id": 4826,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5113"
+			5113
 		],
-		"template": "dotplot",
 		"title": "Gymnasialquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
-		"kuerzelKunde": "GS-5.A",
-		"description": "Gymnasialquote",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der Spitzenwert wird im Schuljahr 2021/22 mit 61,4% (2020/21 69,0%) wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2020/21 ebenfalls unverändert - das Wohnviertel Klybeck mit 14,2% (2020/21 20,0%). Im Vorjahresvergleich ist die Quote in Riehen sowie 9 städtischen Vierteln gesunken, in Bettingen sowie 10 Wohnvierteln der Stadt Basel dagegen gestiegen.",
+		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern der Stufen 10 und 11 an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=15_gymnasialquote.gymnasialquote&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:52.5252",
+		"description": "Gymnasialquote",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.04826",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-5.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Spitzenwert wird mit sehr hohen 69,0% (2019/20 65,9%) im Schuljahr 2020/21 wie im Vorjahr auf dem Bruderholz erreicht, am anderen Ende der Skala rangiert - gegenüber 2019/20 ebenfalls unverändert - das Wohnviertel Klybeck mit 20,0% (2019/20 15,7%). Im Vorjahresvergleich ist die Quote in den beiden Landgemeinden sowie 7 städtischen Vierteln gesunken, in 12 Wohnvierteln der Stadt Basel dagegen gestiegen.",
-		"erlaeuterungen": "Anteil der Sek P-Schülerinnen und Schüler an allen Sek-Schülerinnen und Schülern an öffentlichen Schulen und mit Elternwohnort Basel-Stadt.",
+		"orderKey": "02_01_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_005",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bildungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=15_gymnasialquote.gymnasialquote&view=map2' target = '_blank'>Basler Atlas</a>",
-			""
-		],
-		"data-id": 4826,
-		"chart-id": 4826,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:10",
 		"id": 4826
 	},
 	{
@@ -635,44 +634,44 @@ var indikatorensetData = [
 		"id": 4837
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4838,
+		"chart-id": 4838,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5125"
+			5125
 		],
-		"template": "dotplot",
 		"title": "Arbeitsplätze pro Kopf",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.03.2.4838",
-		"kuerzelKunde": "WA-4.A",
-		"description": "Arbeitsplätze pro Kopf",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"lesehilfe": "Im Wohnviertel Bruderholz gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
+		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br>  Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbsleben.empfte_pro_kopf&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:18.1818",
+		"description": "Arbeitsplätze pro Kopf",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.4838",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-4.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Breite gibt es die wenigsten Arbeitsplätze pro Kopf, im Wohnviertel Vorstädte die meisten.",
-		"erlaeuterungen": "Anzahl Arbeitsplätze (Beschäftigte in Vollzeitäquivalenten) im Verhältnis zur Wohnbevölkerung des Wohnviertels.<br> Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"orderKey": "02_03_00_00_00_017",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_017",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbsleben.empfte_pro_kopf&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4838,
-		"chart-id": 4838,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:11",
 		"id": 4838
 	},
 	{

@@ -807,86 +807,82 @@ var indikatorensetData = [
 		"id": 8369
 	},
 	{
+		"template": "template001",
+		"data-id": 8370,
+		"chart-id": 8370,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8487"
+			8487
 		],
-		"template": "template001",
 		"title": "Exporte und Importe",
-		"subtitle": "Anteil am nominalen BIP, 2019",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-1",
-		"description": "Exporte und Importe",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-08T08:04:05.055",
-		"stufe1": "4. Aussenhandel",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Exporte aus dem Kanton Basel-Stadt haben mit 63,5 Mrd. Franken im Jahr 2019 einen um fast 60% höheren Wert als das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (der Wert entspricht 85,6% des BIP). Die Exporte aus dem Kanton Basel-Landschaft entsprechen mit 6,1 Mrd. Franken 30,7% des BIP; diejenige aus dem Jura betragen 1,3 Mrd. Franken, bzw. 48,1% des BIP. In der Gesamtschweiz werden 2019 Waren im Wert von 242,3 Mrd. exportiert (33,3% des BIP).",
+		"subtitle": "Anteil am nominalen BIP, 2020",
+		"lesehilfe": "Die Exporte aus dem Kanton Basel-Stadt haben mit 66,6 Mrd. Franken im Jahr 2020 einen um fast 70% höheren Wert als das kantonale BIP. Auch die Importe sind im regionalen Vergleich am höchsten (der Wert entspricht 79,8% des BIP). Die Exporte aus dem Kanton Basel-Landschaft entsprechen mit knapp 6  Mrd. Franken 28,1% des BIP; diejenige aus dem Jura betragen 2  Mrd. Franken bzw. 41,1% des BIP. In der Gesamtschweiz werden 2020 Waren im Wert von 225,3 Mrd. exportiert (31,9% des BIP).",
 		"erlaeuterungen": "Nominaler Wert der Exporte und der Importe von Waren, Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten, im Verhältnis zum nominalen regionalen Bruttoinlandprodukt (BIP). Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "04_00_00_00_00_001",
-		"renderLink": [],
 		"quellenangabe": [
 			"BAK Economics",
 			"Eidgenössische Zollverwaltung (EZV)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8370,
-		"chart-id": 8370,
-		"filter": "",
-		"id": 8370
-	},
-	{
-		"parentId": null,
-		"children": [
-			"8488"
-		],
-		"template": "line001",
-		"title": "Entwicklung Exporte",
-		"subtitle": "indexiert (2016 = 100)",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-2",
-		"description": "Entwicklung Exporte",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:59:07.077",
+		"description": "Exporte und Importe",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08370",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-1",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In der Zeit zwischen 2016 und 2019 haben die nominalen Warenexporte aus Basel-Stadt um über 21% zugelegt. Das Exportwachstum liegt im Kanton Basel-Landschaft bei 15% und im Kanton Jura bei knapp 11%. Für die gesamte Region BS/BL/JU ergibt sich ein Wachstum von über 20%, in der gesamten Schweiz von 15%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"orderKey": "04_00_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-01-27T08:46:07",
+		"id": 8370
+	},
+	{
+		"template": "line001",
 		"data-id": 8371,
 		"chart-id": 8371,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8488
+		],
+		"title": "Entwicklung Exporte",
+		"subtitle": "indexiert (2016 = 100)",
+		"lesehilfe": "In der Zeit zwischen 2016 und 2020 haben die nominalen Warenexporte aus Basel-Stadt um über 27% zugelegt. Dagegen gab es 2020 sowohl im Kanton Basel-Landschaft wie im Kanton Jura einen Exportrückgang gegenüber 2019. In Basel-Landschaft sanken die Exporte um über 14%, im Jura um 19% - sie liegen im Jura somit um 8,4% tiefer als 2016. Dank des Exportwachstums in Basel-Stadt ergibt sich im Zeitraum 2016-2020 für die gesamte Region BS/BL/JU ein Wachstum von über 23%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenexporte ins Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Entwicklung Exporte",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08371",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-2",
+		"stufe1": "4. Aussenhandel",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_002",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-01-27T08:46:07",
 		"id": 8371
 	},
 	{
@@ -1255,8 +1251,8 @@ var indikatorensetData = [
 			8498
 		],
 		"title": "Beschäftigte nach Branche",
-		"subtitle": "2018",
-		"lesehilfe": "In Basel-Stadt sind über 80% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (71%) oder im Jura (56%). Im Industriesektor ist für Basel insbesondere die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 27% in BL bzw. 19% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
+		"subtitle": "2019",
+		"lesehilfe": "In Basel-Stadt sind rund 82% der Beschäftigten in einer Dienstleistungsbranche tätig und damit deutlich mehr als im Baselbiet (72%) oder im Jura (56%). Im Industriesektor ist für Basel-Stadt die Chemie- und Pharmabranche von besonderer Bedeutung. Am gewichtigsten ist der Industriesektor jedoch für den Kanton Jura mit einem Anteil von 37% der Beschäftigten (verglichen mit 26% in BL bzw. 18% in BS). Dabei ist insbesondere die Investitionsgüterindustrie zentral. Auch der Landwirtschaftssektor hat im Jura mit 7% einen höheren Beschäftigtenanteil als in den beiden Basel.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1282,7 +1278,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:36",
+		"aktualisierungsdatum": "2022-01-27T08:46:06",
 		"id": 8438
 	},
 	{
@@ -1295,8 +1291,8 @@ var indikatorensetData = [
 			8499
 		],
 		"title": "Arbeitsstätten nach Branche",
-		"subtitle": "2018",
-		"lesehilfe": "Über 90% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 64%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in der Stadt die Landwirtschaft keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
+		"subtitle": "2019",
+		"lesehilfe": "Rund 91% der Arbeitsstätten in Basel-Stadt sind in einer Dienstleistungsbranche angesiedelt. Im Baselbiet und im Jura liegt dieser Anteil deutlich tiefer bei 79% bzw. 65%. In allen drei Kantonen sind dabei insbesondere der Handel, das Gesundheitswesen sowie die freiberuflichen, wissenschaftlichen und technischen Dienstleistungen am gewichtigsten. Während in Basel-Stadt die Landwirtschaft grössenmässig keine Bedeutung hat, finden sich im Jura ähnlich viele Arbeitsstätten in der Landwirtschaft wie in der Industrie.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1322,7 +1318,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:36",
+		"aktualisierungsdatum": "2022-01-27T08:46:06",
 		"id": 8439
 	},
 	{
@@ -1335,8 +1331,8 @@ var indikatorensetData = [
 			8500
 		],
 		"title": "Durchschnittliche Zahl der Beschäftigten pro Arbeitsstätte",
-		"subtitle": "2018",
-		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 8 Personen beschäftigt. Dies entspricht auch dem gesamtschweizerischen Durchschnitt. Im Jura liegt der Wert etwas tiefer bei 7 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
+		"subtitle": "2019",
+		"lesehilfe": "In einer Baselbieter Arbeitsstätte sind im Durchschnitt 7,7 Personen beschäftigt. Dies entspricht fast dem gesamtschweizerischen Durchschnitt, der bei 7,6 liegt. Im Jura liegt der Wert etwas tiefer bei 6,9 Beschäftigten, da dort u. a. die Landwirtschaft mit typischerweise kleineren Arbeitsstätten eine höhere Bedeutung hat. In Basel-Stadt hingegen fällt die durchschnittliche Arbeitsstättengrösse mit 11,2 Beschäftigten deutlich höher aus, was mit den grösseren Arbeitsstätten in der Industrie und im Speziellen in der Chemie-/Pharmabranche erklärt werden kann.",
 		"erlaeuterungen": "Erfasst werden alle Arbeitsstätten mit Standort in BS/BL/JU (unabhängig vom Hauptsitz des Gesamtunternehmens), die für Beschäftigte Sozialversicherungsbeiträge abrechnen bzw. alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1362,7 +1358,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:37",
+		"aktualisierungsdatum": "2022-01-27T08:46:06",
 		"id": 8440
 	},
 	{
@@ -1375,8 +1371,8 @@ var indikatorensetData = [
 			8501
 		],
 		"title": "Veränderung der Beschäftigtenzahl",
-		"subtitle": "2018 gegenüber 2014",
-		"lesehilfe": "Zwischen 2014 und 2018 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 1,1% gewachsen und damit weniger stark als in der Gesamtschweiz (+4,0%). Während im Baselbiet und im Jura ein Beschäftigungswachstum von 2,3% bzw. 3,8% verzeichnet wurde, hat sich die Zahl der Beschäftigten in Basel-Stadt über den betrachteten Zeitraum leicht reduziert (-0,4%).",
+		"subtitle": "2019 gegenüber 2014",
+		"lesehilfe": "Zwischen 2014 und 2019 ist die Zahl der Beschäftigten in der Region BS/BL/JU insgesamt um 2,3% gewachsen und damit weniger stark als in der Gesamtschweiz (+5,4%). Das Beschäftigungswachstum liegt im Jura (6,4%) über dem Schweizer Wert, in Basel-Landschaft (2,3%) und Basel-Stadt (0,7%) hingegen darunter.",
 		"erlaeuterungen": "Gezählt werden alle Beschäftigten (inkl. Selbstständigerwerbende), welche sozialversicherungspflichtig sind (ab Jahreseinkommen von 2 300 Franken) und ihre Tätigkeit in einer Arbeitsstätte mit Standort in BS/BL/JU verrichten (unabhängig vom Hauptsitz des Gesamtunternehmens).",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
@@ -1402,7 +1398,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:37",
+		"aktualisierungsdatum": "2022-01-27T08:46:07",
 		"id": 8441
 	},
 	{
@@ -1655,44 +1651,42 @@ var indikatorensetData = [
 		"id": 8447
 	},
 	{
+		"template": "line001",
+		"data-id": 8462,
+		"chart-id": 8462,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8508"
+			8508
 		],
-		"template": "line001",
 		"title": "Entwicklung Importe",
 		"subtitle": "indexiert (2016 = 100)",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-3",
-		"description": "Entwicklung Importe",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
+		"lesehilfe": "Der Wert der Warenimporte aus dem Ausland ist in Basel-Stadt zwischen 2016 und 2020 um  über 19% gestiegen. Gegenüber 2019 ist er um fast 10% gesunken. Im Kanton Basel-Landschaft liegt der Wert 20% höher als 2016. Im Jura ist der Wert, nachdem er bis 2019 gestiegen war, um 24,4% gesunken und liegt nun über 10% tiefer als 2016. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um rund 19% seit 2016, für die gesamte Schweiz von ca. 5%.",
+		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:59:11.1111",
+		"description": "Entwicklung Importe",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08462",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-3",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Warenimporte aus dem Ausland sind in Basel-Stadt zwischen 2016 und 2019 um 29% gestiegen. Im Kanton Basel-Landschaft liegen sie knapp 14% höher, sind gegenüber 2018 aber um fast 9% gesunken. Im Jura sind die Warenimporte um 14% gestiegen. Für die gesamte Region BS/BL/JU ergibt sich eine Zunahme um 26%, für die gesamte Schweiz von über 18%.",
-		"erlaeuterungen": "Entwicklung des nominalen Werts der Warenimporte aus dem Ausland. Total ohne Edelmetalle, Edel- und Schmucksteine, Kunstgegenstände und Antiquitäten. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"orderKey": "04_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8462,
-		"chart-id": 8462,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:08",
 		"id": 8462
 	},
 	{
@@ -1736,44 +1730,42 @@ var indikatorensetData = [
 		"id": 8863
 	},
 	{
+		"template": "line001",
+		"data-id": 8868,
+		"chart-id": 8868,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8874"
+			8874
 		],
-		"template": "line001",
 		"title": "Entwicklung Handelsbilanz",
 		"subtitle": "in Mio. Franken",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
-		"kuerzel": "",
-		"kuerzelKunde": "4-4",
-		"description": "Entwicklung Handelsbilanz",
-		"thema": "06 Industrie, Dienstleistungen",
-		"unterthema": "Aussenhandel",
+		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2020 gegenüber dem Vorjahr um 5,7 Milliarden auf 35,1 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 2020 minus 497 Millionen. Im Jura liegt sie bei 995 Millionen Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2020 zum zweiten mal in Folge gestiegen und liegt bei knapp 43 Milliarden Franken.",
+		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig.",
+		"quellenangabe": [
+			"Eidgenössische Zollverwaltung (EZV)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:21.2121",
+		"description": "Entwicklung Handelsbilanz",
+		"thema": "06 Industrie, Dienstleistungen",
+		"unterthema": "Aussenhandel",
+		"kuerzel": "I.06.4.08868",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "4-4",
 		"stufe1": "4. Aussenhandel",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Handelsbilanz im Kanton Basel-Stadt ist 2019 gegenüber dem Vorjahr um knapp 3 Milliarden auf 29,4 Milliarden Franken gestiegen. In Basel-Landschaft beträgt sie 680 Millionen. Im Jura liegt sie bei 1,1 Milliarden Franken. Nachdem in der Schweiz die Handelsbilanz 2018 insgesamt rückläufig war, ist sie im Jahr 2019 wieder gestiegen und liegt bei 37,2 Milliarden Franken.",
-		"erlaeuterungen": "Die Handelsbilanz entspricht der Differenz zwischen den nominalen Exporten und den nominalen Importen im Warenhandel. Die kantonale Aussenhandelstatistik wurde 2020 revidiert. Neu wird die Adresse des Unternehmers, welches die Waren aus- oder einführt, berücksichtig. Die revidierten Werte sind ab 2016 verfügbar. Sie sind mit früher publizierten Daten nicht vergleichbar.",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_004",
-		"renderLink": [],
-		"quellenangabe": [
-			"Eidgenössische Zollverwaltung (EZV)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8868,
-		"chart-id": 8868,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:08",
 		"id": 8868
 	},
 	{

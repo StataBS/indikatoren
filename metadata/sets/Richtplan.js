@@ -614,45 +614,43 @@ var indikatorensetData = [
 		"id": 5891
 	},
 	{
+		"template": "line001",
+		"data-id": 5901,
+		"chart-id": 5901,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6257
+		],
 		"title": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"subtitle": "indexiert (Basis 2005 = 100), Basel-Stadt",
-		"kuerzel": "I.03.2.5901",
-		"kuerzelKunde": "ST 4-11",
-		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"subtitle": "indexiert (Basis 2011 = 100), Basel-Stadt",
+		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2011 und 2019 von 192 076 auf 200 407 gestiegen, was einem Anstieg von etwa 4,3% entspricht. Die Zahl der Beschäftigten stieg im gleichen Zeitraum um 5,1% von 183 183 auf 192 450.",
+		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-26T12:21:10.1010",
+		"description": "Bevölkerungs- und Beschäftigtenentwicklung",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.5901",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-11",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnbevölkerung ist im Kanton Basel-Stadt zwischen 2005 und 2019 von 187&nbsp;463 auf 200&nbsp;407 gestiegen, was einem Anstieg um etwa 6,9% entspricht. Demgegenüber stieg die Zahl der Beschäftigten zwischen 2005 und 2018 um 11,1% von 171&nbsp;743 auf 190&nbsp;756.",
-		"erlaeuterungen": "Es ist jeweils der Bevölkerungsbestand Ende Jahr abgebildet. Referenzperiode für die Beschäftigten ist der Dezember. Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen.",
-		"template": "line001",
+		"orderKey": "02_04_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_011",
-		"parentId": null,
-		"children": [
-			"6257"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5901,
-		"chart-id": 5901,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:10",
 		"id": 5901
 	},
 	{
@@ -940,48 +938,46 @@ var indikatorensetData = [
 		"id": 6220
 	},
 	{
+		"template": "template001",
+		"data-id": 6236,
+		"chart-id": 6236,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6046,
+			6265,
+			6347,
+			6371,
+			8935
+		],
 		"title": "Anzahl Beschäftigte nach Branche",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.03.2.6236",
-		"kuerzelKunde": "ST 7-1",
-		"description": "Anzahl Beschäftigte nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Jahr 2019 sind in Basel-Stadt 192 450 Personen beschäftigt. Das sind 1 988 Personen mehr als im Vorjahr. Die grösste Beschäftigungszunahme verzeichnet die Branchengruppe Unternehmensdienstleistungen und Freiberufe, während bei der Pharmaindustrie mit 382 Beschäftigten weniger die grösste Abnahme zu beobachten ist",
+		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-09-15T11:18:43.4343",
+		"description": "Anzahl Beschäftigte nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.6236",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-1",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2018 sind in Basel-Stadt 190 756 Personen beschäftigt. Das sind 210 Personen weniger als im Vorjahr. Den grössten Beschäftigungsrückgang verzeichnet die Pharmaindustrie mit einer Abnahme um 574 Personen, während bei der Branchengruppe Öffentliche Verwaltung und Bildung mit 710 zusätzlichen Beschäftigten der grösste Zuwachs zu beobachten ist.",
-		"erlaeuterungen": "«Unternehmens-DL, Freiberufe» umfasst: Erbringung von freiberuflichen, wissenschaftlichen und technischen Dienstleistungen, Erbringung von sonstigen wirtschaftlichen Dienstleistungen; «Übrige Branchen» umfasst: Land- und Forstwirtschaft, Fischerei, Bergbau und Gewinnung von Steinen und Erden, Beherbergung und Gastronomie, Information und Kommunikation, Grundstücks- und Wohnungswesen, Kunst, Unterhaltung und Erholung, sonstige Dienstleistungen. Die Werte 2005 und 2008 basieren auf einem Schätzmodell, welches die STATENT-Methode für die entsprechenden Jahre simuliert.",
-		"template": "template001",
+		"orderKey": "03_07_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"6046",
-			"6265",
-			"6347",
-			"6371",
-			"8935"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6236,
-		"chart-id": 6236,
-		"filter": "",
+		"aktualisierungsdatum": "2022-01-27T08:46:10",
 		"id": 6236
 	},
 	{

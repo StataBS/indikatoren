@@ -1842,8 +1842,8 @@ var indikatorensetData = [
 		],
 		"title": "Offene Behördendaten",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind Ende 2020 152 Geodatensätze öffentlich verfügbar.",
-		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
+		"lesehilfe": "Ende 2021 sind im kantonalen Datenportal 137 Datensätze von 29 Organisationen, sogenannte offene Behördendaten (Open Government Data, OGD), publiziert. Im kantonalen Geoportal sind 165 Geodatensätze öffentlich verfügbar.",
+		"erlaeuterungen": "Jeweils Stand per 31. Dezember. Ein Datensatz im Datenportal entspricht jeweils einer Tabelle, ein Datensatz im Geoportal kann mehrere Ebenen (Karten resp. Tabellen) umfassen - die Zahlen sind daher nicht direkt miteinander vergleichbar. Datensätze des Geoportals sind teilweise auch im kantonalen Datenportal publiziert. Das kantonale Datenportal ist seit November 2019 online.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Grundbuch- und Vermessungsamt Basel-Stadt"
@@ -1871,7 +1871,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:32",
+		"aktualisierungsdatum": "2022-01-27T08:46:09",
 		"id": 9394
 	},
 	{
