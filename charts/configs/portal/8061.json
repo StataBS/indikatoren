@@ -5,11 +5,11 @@
       "data": [
         [
           "2013: Klybeck",
-          2883
+          2885
         ],
         [
           "2013: Kleinhüningen",
-          937
+          945
         ],
         [
           " ",
@@ -17,11 +17,11 @@
         ],
         [
           "2014: Klybeck",
-          2893
+          2915
         ],
         [
           "2014: Kleinhüningen",
-          927
+          935
         ],
         [
           "  ",
@@ -29,11 +29,11 @@
         ],
         [
           "2015: Klybeck",
-          2852
+          2878
         ],
         [
           "2015: Kleinhüningen",
-          927
+          937
         ],
         [
           "   ",
@@ -41,11 +41,11 @@
         ],
         [
           "2016: Klybeck",
-          2829
+          2862
         ],
         [
           "2016: Kleinhüningen",
-          929
+          937
         ],
         [
           "    ",
@@ -53,11 +53,11 @@
         ],
         [
           "2017: Klybeck",
-          2875
+          2910
         ],
         [
           "2017: Kleinhüningen",
-          930
+          935
         ],
         [
           "     ",
@@ -65,11 +65,11 @@
         ],
         [
           "2018: Klybeck",
-          2850
+          2885
         ],
         [
           "2018: Kleinhüningen",
-          894
+          900
         ],
         [
           "      ",
@@ -77,15 +77,27 @@
         ],
         [
           "2019: Klybeck",
-          2915
+          2913
         ],
         [
           "2019: Kleinhüningen",
-          899
+          897
         ],
         [
           "       ",
-          null
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          2863
+        ],
+        [
+          "2020: Kleinhüningen",
+          900
+        ],
+        [
+          "        ",
+          undefined
         ]
       ],
       "name": "Mietwohnungen",
@@ -176,7 +188,19 @@
         ],
         [
           "       ",
-          null
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          473
+        ],
+        [
+          "2020: Kleinhüningen",
+          281
+        ],
+        [
+          "        ",
+          undefined
         ]
       ],
       "name": "Genossenschaftswohnungen",
@@ -267,7 +291,19 @@
         ],
         [
           "       ",
-          null
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          81
+        ],
+        [
+          "2020: Kleinhüningen",
+          37
+        ],
+        [
+          "        ",
+          undefined
         ]
       ],
       "name": "Selbstbewohnte Eigentümerwohnungen",
@@ -290,7 +326,7 @@
         ],
         [
           "2014: Klybeck",
-          10
+          17
         ],
         [
           "2014: Kleinhüningen",
@@ -302,7 +338,7 @@
         ],
         [
           "2015: Klybeck",
-          10
+          17
         ],
         [
           "2015: Kleinhüningen",
@@ -358,6 +394,18 @@
         ],
         [
           "       ",
+          undefined
+        ],
+        [
+          "2020: Klybeck",
+          23
+        ],
+        [
+          "2020: Kleinhüningen",
+          26
+        ],
+        [
+          "        ",
           undefined
         ]
       ],
@@ -490,7 +538,11 @@
     "itemMarginBottom": 5,
     "reversed": true,
     "labelFormatter": function () {
-        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
+        return this.name.replace('Sonstige', 'Sonstige<br>')
+        .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
+        .replace('Eigentümer', 'Eigentümer-<br>')
+        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
+        .replace('Mietwohnungen', 'Miet-<br>wohnungen');
       }
   },
   "navigation": {
@@ -512,7 +564,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-7-9"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

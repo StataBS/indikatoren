@@ -6,7 +6,7 @@
       "data": [
         [
           "1 Zimmer",
-          3212
+          3387
         ],
         [
           "2 Zimmer",
@@ -14,23 +14,23 @@
         ],
         [
           "3 Zimmer",
-          null
+          0
         ],
         [
           "4 Zimmer",
-          null
+          0
         ],
         [
           "5 Zimmer",
-          null
+          0
         ],
         [
-          "6 Zimmer u.m.",
-          null
+          "6 Zimmer und mehr",
+          0
         ],
         [
           "Alle",
-          3213
+          3388
         ]
       ],
       "name": "bis 29 m²",
@@ -42,15 +42,15 @@
       "data": [
         [
           "1 Zimmer",
-          7787
+          7854
         ],
         [
           "2 Zimmer",
-          6352
+          6565
         ],
         [
           "3 Zimmer",
-          154
+          148
         ],
         [
           "4 Zimmer",
@@ -58,15 +58,15 @@
         ],
         [
           "5 Zimmer",
-          null
+          0
         ],
         [
-          "6 Zimmer u.m.",
-          null
+          "6 Zimmer und mehr",
+          0
         ],
         [
           "Alle",
-          14297
+          14571
         ]
       ],
       "name": "30-49 m²",
@@ -78,31 +78,31 @@
       "data": [
         [
           "1 Zimmer",
-          462
+          481
         ],
         [
           "2 Zimmer",
-          18322
+          18456
         ],
         [
           "3 Zimmer",
-          13446
+          13515
         ],
         [
           "4 Zimmer",
-          325
+          316
         ],
         [
           "5 Zimmer",
           24
         ],
         [
-          "6 Zimmer u.m.",
-          null
+          "6 Zimmer und mehr",
+          1
         ],
         [
           "Alle",
-          32579
+          32793
         ]
       ],
       "name": "50-69 m²",
@@ -114,31 +114,31 @@
       "data": [
         [
           "1 Zimmer",
-          149
+          154
         ],
         [
           "2 Zimmer",
-          1777
+          1838
         ],
         [
           "3 Zimmer",
-          25869
+          26098
         ],
         [
           "4 Zimmer",
-          10323
+          10338
         ],
         [
           "5 Zimmer",
-          610
+          608
         ],
         [
-          "6 Zimmer u.m.",
-          108
+          "6 Zimmer und mehr",
+          109
         ],
         [
           "Alle",
-          38836
+          39145
         ]
       ],
       "name": "70-99 m²",
@@ -150,31 +150,31 @@
       "data": [
         [
           "1 Zimmer",
-          87
+          90
         ],
         [
           "2 Zimmer",
-          172
+          178
         ],
         [
           "3 Zimmer",
-          1974
+          2024
         ],
         [
           "4 Zimmer",
-          8242
+          8394
         ],
         [
           "5 Zimmer",
-          4879
+          4888
         ],
         [
-          "6 Zimmer u.m.",
-          1818
+          "6 Zimmer und mehr",
+          1811
         ],
         [
           "Alle",
-          17172
+          17385
         ]
       ],
       "name": "100-149 m²",
@@ -186,31 +186,31 @@
       "data": [
         [
           "1 Zimmer",
-          15
+          20
         ],
         [
           "2 Zimmer",
-          22
+          23
         ],
         [
           "3 Zimmer",
-          115
+          119
         ],
         [
           "4 Zimmer",
-          599
+          612
         ],
         [
           "5 Zimmer",
-          1553
+          1561
         ],
         [
-          "6 Zimmer u.m.",
-          3998
+          "6 Zimmer und mehr",
+          4002
         ],
         [
           "Alle",
-          6302
+          6337
         ]
       ],
       "name": "150 m² u.m.",
@@ -292,7 +292,7 @@
     "text": "Wohnungsbestand nach Zimmerzahl und Wohnfläche"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",

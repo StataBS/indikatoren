@@ -5,87 +5,87 @@
       "data": [
         [
           "Klybeck",
-          65.375882814543
+          65.233176
         ],
         [
           "Clara",
-          65.710898502495
+          66.476753
         ],
         [
           "Matthäus",
-          67.229024689978
+          67.359025
         ],
         [
           "Iselin",
-          68.764107778342
+          68.689253
         ],
         [
           "Kleinhüningen",
-          70.106504646175
-        ],
-        [
-          "Breite",
-          70.215147577501
+          69.783132
         ],
         [
           "Gundeldingen",
-          70.286723040711
+          70.142191
+        ],
+        [
+          "Breite",
+          70.289537
         ],
         [
           "Rosental",
-          70.604628261939
+          70.538499
         ],
         [
           "Altstadt Kleinbasel",
-          70.930759803921
+          70.800242
         ],
         [
           "St. Johann",
-          72.100997136933
+          72.069619
         ],
         [
           "Gotthelf",
-          74.308095238095
+          74.358962
         ],
         [
           "Hirzbrunnen",
-          81.468228836816
+          81.69519
         ],
         [
           "Am Ring",
-          81.75565123789
+          81.898351
         ],
         [
           "Vorstädte",
-          82.035983749274
+          82.364532
         ],
         [
           "Wettstein",
-          82.962819750148
+          82.938168
         ],
         [
           "Altstadt Grossbasel",
-          87.251775338928
+          87.574062
         ],
         [
           "St. Alban",
-          92.180740962951
+          90.787373
         ],
         [
           "Bachletten",
-          92.74065484311
+          92.607904
         ],
         [
           "Riehen",
-          102.605732725892
+          102.556069
         ],
         [
           "Bruderholz",
-          109.5728980322
+          109.416592
         ],
         [
           "Bettingen",
-          120.795634920634
+          121.346441
         ]
       ],
       "name": "Fläche pro Wohnung",
@@ -115,11 +115,11 @@
           5
         ],
         [
-          "Breite",
+          "Gundeldingen",
           6
         ],
         [
-          "Gundeldingen",
+          "Breite",
           7
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2021",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "legend": {
     "enabled": false,

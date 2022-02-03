@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.035714286,
+          "y": 0.033707865168539325,
           "Anzahl": 18
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.087301587,
-          "Anzahl": 44
+          "y": 0.08426966292134831,
+          "Anzahl": 45
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.18452381,
-          "Anzahl": 93
+          "y": 0.18726591760299627,
+          "Anzahl": 100
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.204365079,
-          "Anzahl": 103
+          "y": 0.21161048689138576,
+          "Anzahl": 113
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.259920635,
-          "Anzahl": 131
+          "y": 0.25842696629213485,
+          "Anzahl": 138
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Bettingen",
-          "y": 0.228174603,
-          "Anzahl": 115
+          "y": 0.2247191011235955,
+          "Anzahl": 120
         }
       ],
       "name": "Bettingen",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Gemeinde Bettingen, 2020",
+    "text": "Gemeinde Bettingen, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

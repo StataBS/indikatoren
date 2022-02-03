@@ -9,35 +9,39 @@
       "data": [
         [
           2011,
-          39.973266
+          39.369478
         ],
         [
           2012,
-          40.218031
+          39.53292
         ],
         [
           2013,
-          40.798945
+          40.294259
         ],
         [
           2014,
-          41.21395
+          40.822036
         ],
         [
           2015,
-          40.972121
+          40.613944
         ],
         [
           2016,
-          42.167556
+          41.778331
         ],
         [
           2017,
-          42.122014
+          41.62336
         ],
         [
           2018,
-          42.047482
+          41.728568
+        ],
+        [
+          2019,
+          42.474347
         ]
       ],
       "name": "Beschäftigte pro ha"
@@ -72,6 +76,7 @@
 					}
 				}
     },
+    "marginRight": 30,
     "renderTo": "container-5823"
   },
   "plotOptions": {
@@ -83,10 +88,10 @@
         "enabled": false,
         "allowOverlap": true,
         "y": 30,
-        "formatter": function() {
+        "formatter": function () {
             var last = this.series.data[this.series.data.length - 1];
             var first = this.series.data[0];
-            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y ) {
+            if (this.point.category === first.category && this.point.y === first.y || this.point.category === last.category && this.point.y === last.y) {
               return Highcharts.numberFormat(this.point.y, 1, ",", " ");
             }
             return "";
@@ -127,7 +132,8 @@
         "color": "#000000",
         "textOverflow": "none"
       }
-    }
+    },
+    "tickInterval": 1
   },
   "yAxis": {
     "min": 0,
@@ -171,7 +177,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-4"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

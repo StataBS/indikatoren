@@ -244,11 +244,12 @@ var indikatorensetData = [
 		"filter": "",
 		"parentId": null,
 		"children": [
-			9383
+			9383,
+			9440
 		],
 		"title": "Wohnungen nach Zimmerzahl",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Seit 2009 ist der gesamte Wohnungsbestand leicht und stetig auf 112 389 im Jahr 2020 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,8% auf 7 066 bzw. +9,4% auf 19 493), am geringsten bei den Einzimmerwohnungen (+3,1% auf 11 712).",
+		"lesehilfe": "Seit 2010 ist der gesamte Wohnungsbestand leicht und stetig auf 113 620 im Jahr 2021 gestiegen. Am stärksten war das Wachstum in diesem Zeitraum bei den Fünf- bzw. Vierzimmerwohnungen (+11,5% auf 7 081 bzw. +9,6% auf 19 664), am geringsten bei den Einzimmerwohnungen (+4,7% auf 11 986).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -273,46 +274,44 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-02T08:02:16",
+		"aktualisierungsdatum": "2022-02-03T08:59:01",
 		"id": 4133
 	},
 	{
+		"template": "template001",
+		"data-id": 4134,
+		"chart-id": 4134,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4134",
-		"kuerzelKunde": "1.2.B",
-		"description": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Am zahlreichsten sind 2021 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (34%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:02.022",
+		"description": "Wohnungsbestand nach Zimmerzahl und Wohnfläche",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4134",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.B",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am zahlreichsten sind 2020 nach Wohnungsflächenkategorie Wohnungen zwischen 70 und 99 Quadratmetern (35%). Bei den Dreizimmerwohnungen macht diese Kategorie sogar 62% aus.",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4134,
-		"chart-id": 4134,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-03T08:59:02",
 		"id": 4134
 	},
 	{
@@ -330,7 +329,7 @@ var indikatorensetData = [
 		],
 		"title": "Nettowohnungsproduktion",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Die Nettowohnungsproduktion lag 2020 bei 672 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
+		"lesehilfe": "Die Nettowohnungsproduktion lag 2021 bei 977 Einheiten. Dies vor allem dank einer wiederum hohen Neubauproduktion sowie eines stark positiven Umbausaldos.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
@@ -355,7 +354,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-22T08:21:10",
+		"aktualisierungsdatum": "2022-02-03T08:59:02",
 		"id": 4135
 	},
 	{
@@ -400,42 +399,42 @@ var indikatorensetData = [
 		"id": 4136
 	},
 	{
-		"parentId": null,
-		"children": [],
 		"template": "template001",
+		"data-id": 4137,
+		"chart-id": 4137,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			7598
+		],
 		"title": "Neuerstellte Wohnungen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "",
-		"kuerzelKunde": "1.2.E",
-		"description": "Neuerstellte Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Mit 851 Einheiten war die Neubauproduktion 2021 wiederum überdurchschnittlich hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter.",
+		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:04.044",
+		"description": "Neuerstellte Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.04137",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.E",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 607 Einheiten war die Neubauproduktion 2020 wiederum überdurchschnittlich hoch. Der Zehnjahresdurchschnitt stieg dadurch weiter an.",
-		"erlaeuterungen": "Es werden nur neuerstellte Wohnungen in Neubauten berücksichtigt. Neue Wohnungen aus Umbauten sind nicht enthalten. Die Neubauprognose wird aufgrund der baubegonnenen Projekte und der voraussichtlichen Baudauer hochgerechnet. Der Durchschnitt der Neubauproduktion errechnet sich aus dem arithmetischen Mittel der Neubauten der dargestellten Jahre (exklusive Neubauprognose).",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4137,
-		"chart-id": 4137,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-03T08:59:02",
 		"id": 4137
 	},
 	{

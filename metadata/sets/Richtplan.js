@@ -281,45 +281,43 @@ var indikatorensetData = [
 		"id": 5816
 	},
 	{
+		"template": "template001",
+		"data-id": 5817,
+		"chart-id": 5817,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6249",
-			"7597"
+			6249,
+			7597
 		],
-		"template": "template001",
 		"title": "Nettowohnungsproduktion",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2011-2020",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "I.09.1.5817",
-		"kuerzelKunde": "ST 4-9",
-		"description": "Nettowohnungsproduktion",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2012-2021",
+		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 22% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und in kleinerem Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
+		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:09.099",
+		"description": "Nettowohnungsproduktion",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.5817",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-9",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Nettowohnungsproduktion war in den letzten zehn Jahren im Wohnviertel Rosental besonders hoch. Auf dieses Wohnviertel entfielen rund 25% der gesamtkantonalen Nettoproduktion. Die Nettowohnungsproduktion ist insgesamt vor allem auf grosse Arealentwicklungen zurückzuführen und im kleineren Masse auf Erneuerungen bzw. Verdichtungen im Bestand.",
-		"erlaeuterungen": "Die Nettowohnungsproduktion setzt sich wie folgt zusammen: Neugebaute Wohnungen minus abgebrochene Wohnungen plus Saldo aus Umbauten (kann positiv oder negativ sein).",
+		"orderKey": "02_04_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_009",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5817,
-		"chart-id": 5817,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-03T08:59:12",
 		"id": 5817
 	},
 	{
@@ -488,44 +486,42 @@ var indikatorensetData = [
 		"id": 5822
 	},
 	{
+		"template": "line001",
+		"data-id": 5823,
+		"chart-id": 5823,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6254
+		],
 		"title": "Beschäftigtendichte",
 		"subtitle": "Anzahl Beschäftigte in Vollzeitäquivalenten pro Hektar, Basel-Stadt",
-		"kuerzel": "I.03.2.5823",
-		"kuerzelKunde": "ST 7-2",
-		"description": "Beschäftigtendichte",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Richtplan",
+		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2019 in Vollzeitäquivalente (VZÄ) umgerechnet rund 152 462 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von 42,5 Beschäftigten (VZÄ) pro Hektar.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung des Arbeitsvolumens sämtlicher Voll- und Teilzeitbeschäftigten in Vollzeitbeschäftigte mittels Schätzmodell (basierend auf Lohnangaben der AHV und Informationen weiterer Erhebungen).",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-04T16:49:27.2727",
+		"description": "Beschäftigtendichte",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.5823",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 7-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 7: Das Nutzungspotenzial der Wirtschaftsflächen vergrössern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Basel-Stadt arbeiteten 2018 in Vollzeitäquivalente (VZÄ) umgerechnet rund 150 931 Beschäftigte. Daraus resultiert eine Beschäftigtendichte von etwa 42 Beschäftigten (VZÄ) pro Hektar. Dieser Wert hat sich in den letzten Jahren kaum verändert.",
-		"erlaeuterungen": "Die Unternehmensstatistik (STATENT) basiert auf den AHV-Registerdaten. Als beschäftigt gilt jede Person mit AHV-pflichtigem Einkommen. Die Beschäftigung in Vollzeitäquivalenten (VZÄ) resultiert aus der Umrechnung der Beschäftigung in Vollzeitstellen. Das BFS hat das Modell zur Schätzung der VZÄ für die Daten ab 2015 revidiert.",
-		"template": "line001",
+		"orderKey": "03_07_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_07_00_00_00_002",
-		"parentId": null,
-		"children": [
-			"6254"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5823,
-		"chart-id": 5823,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-03T08:59:12",
 		"id": 5823
 	},
 	{

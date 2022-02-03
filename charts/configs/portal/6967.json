@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.199142157,
-          "Anzahl": 325
+          "y": 0.20278450363196127,
+          "Anzahl": 335
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.298406863,
-          "Anzahl": 487
+          "y": 0.2966101694915254,
+          "Anzahl": 490
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.3125,
-          "Anzahl": 510
+          "y": 0.31234866828087166,
+          "Anzahl": 516
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.118872549,
+          "y": 0.11743341404358354,
           "Anzahl": 194
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.047794118,
-          "Anzahl": 78
+          "y": 0.04782082324455206,
+          "Anzahl": 79
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Altstadt Kleinbasel",
-          "y": 0.023284314,
+          "y": 0.023002421307506054,
           "Anzahl": 38
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Altstadt Kleinbasel, 2020",
+    "text": "Altstadt Kleinbasel, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

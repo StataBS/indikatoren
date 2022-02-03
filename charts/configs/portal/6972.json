@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.159200089,
-          "Anzahl": 1425
+          "y": 0.15915915915915915,
+          "Anzahl": 1431
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.2971735,
-          "Anzahl": 2660
+          "y": 0.29941052163274384,
+          "Anzahl": 2692
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.355379287,
-          "Anzahl": 3181
+          "y": 0.35313090868646424,
+          "Anzahl": 3175
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.139090604,
-          "Anzahl": 1245
+          "y": 0.13958402847291737,
+          "Anzahl": 1255
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.033627528,
-          "Anzahl": 301
+          "y": 0.0333667000333667,
+          "Anzahl": 300
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Matthäus",
-          "y": 0.015528991,
-          "Anzahl": 139
+          "y": 0.015348682015348681,
+          "Anzahl": 138
         }
       ],
       "name": "Matthäus",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Matthäus, 2020",
+    "text": "Matthäus, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

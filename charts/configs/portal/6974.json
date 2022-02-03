@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.068620443,
-          "Anzahl": 96
+          "y": 0.0744153082919915,
+          "Anzahl": 105
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.26733381,
-          "Anzahl": 374
+          "y": 0.2657689581856839,
+          "Anzahl": 375
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.477483917,
-          "Anzahl": 668
+          "y": 0.4727143869596031,
+          "Anzahl": 667
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.150822016,
-          "Anzahl": 211
+          "y": 0.15166548547129696,
+          "Anzahl": 214
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.022158685,
+          "y": 0.021970233876683204,
           "Anzahl": 31
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kleinhüningen",
-          "y": 0.013581129,
+          "y": 0.013465627214741318,
           "Anzahl": 19
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Kleinhüningen, 2020",
+    "text": "Kleinhüningen, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){
