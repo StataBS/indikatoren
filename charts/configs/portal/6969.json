@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,37 +49,37 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.063355146,
-          "Anzahl": 213
+          "y": 0.06302021403091558,
+          "Anzahl": 212
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.226650803,
-          "Anzahl": 762
+          "y": 0.22711058263971462,
+          "Anzahl": 764
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.441701368,
-          "Anzahl": 1485
+          "y": 0.4423305588585018,
+          "Anzahl": 1488
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.161511005,
-          "Anzahl": 543
+          "y": 0.16171224732461356,
+          "Anzahl": 544
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.047888162,
-          "Anzahl": 161
+          "y": 0.0469678953626635,
+          "Anzahl": 158
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Wettstein",
-          "y": 0.058893516,
+          "y": 0.058858501783590964,
           "Anzahl": 198
         }
       ],
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Wettstein, 2020",
+    "text": "Wettstein, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

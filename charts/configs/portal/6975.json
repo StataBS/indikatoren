@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.029422931,
-          "Anzahl": 310
+          "y": 0.02947567312234294,
+          "Anzahl": 312
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.111427487,
-          "Anzahl": 1174
+          "y": 0.11289560699102504,
+          "Anzahl": 1195
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.31340167,
-          "Anzahl": 3302
+          "y": 0.3126121870571564,
+          "Anzahl": 3309
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.268128322,
-          "Anzahl": 2825
+          "y": 0.2683042040623524,
+          "Anzahl": 2840
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.14977221,
-          "Anzahl": 1578
+          "y": 0.14964572508266416,
+          "Anzahl": 1584
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Riehen",
-          "y": 0.12784738,
-          "Anzahl": 1347
+          "y": 0.12706660368445913,
+          "Anzahl": 1345
         }
       ],
       "name": "Riehen",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "Gemeinde Riehen, 2020",
+    "text": "Gemeinde Riehen, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

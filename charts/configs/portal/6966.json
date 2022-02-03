@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.107513081,
-          "Anzahl": 1089
+          "y": 0.10948483389504092,
+          "Anzahl": 1137
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.293217494,
-          "Anzahl": 2970
+          "y": 0.2912855079441502,
+          "Anzahl": 3025
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.383552177,
-          "Anzahl": 3885
+          "y": 0.38218584496870484,
+          "Anzahl": 3969
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.148583276,
-          "Anzahl": 1505
+          "y": 0.14973519499277804,
+          "Anzahl": 1555
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.032678448,
-          "Anzahl": 331
+          "y": 0.033317284545016854,
+          "Anzahl": 346
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "St. Johann",
-          "y": 0.034455524,
-          "Anzahl": 349
+          "y": 0.0339913336543091,
+          "Anzahl": 353
         }
       ],
       "name": "St. Johann",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "St. Johann, 2020",
+    "text": "St. Johann, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){

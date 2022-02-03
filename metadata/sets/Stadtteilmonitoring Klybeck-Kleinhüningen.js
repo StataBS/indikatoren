@@ -646,44 +646,42 @@ var indikatorensetData = [
 		"id": 8060
 	},
 	{
+		"template": "template001",
+		"data-id": 8061,
+		"chart-id": 8061,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8631
+		],
 		"title": "Wohnungen nach Belegungsart",
 		"subtitle": "Wohnviertel Klybeck und Kleinhüningen",
-		"kuerzel": "I.09.1.07680",
-		"kuerzelKunde": "4.04",
-		"description": "Wohnungen nach Belegungsart",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2020: Klybeck 83,2%, Kleinhüningen 72,3%). Der Anteil an Genossenschaftswohnungen betrug 2020 13,8% (Klybeck) und 22,6% (Kleinhüningen), was über dem Wert für die Stadt Basel (10,5%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen, Mansarden oder Einzelzimmer (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-07-09T17:30:07.077",
+		"description": "Wohnungen nach Belegungsart",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.07680",
+		"kennzahlenset": "Stadtteilmonitoring Klybeck-Kleinhüningen",
+		"kuerzelKunde": "4.04",
 		"stufe1": "4 Bauen und Wohnen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietwohnungsanteil überwiegt in beiden Wohnvierteln (2019: Klybeck 83,5%, Kleinhüningen 71,3%). Der Anteil an Genossenschaftswohnungen betrug 2019 13,5% (Klybeck) und 23,3% (Kleinh.), was über dem Wert für die Stadt Basel (10,4%) lag. In beiden Wohnvierteln gibt es nur wenige selbstbewohnte Eigentümerwohnungen.",
-		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Sonstige Wohnungen umfassen Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen.",
-		"template": "template001",
+		"orderKey": "04_00_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8631"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8061,
-		"chart-id": 8061,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-03T08:59:03",
 		"id": 8061
 	},
 	{

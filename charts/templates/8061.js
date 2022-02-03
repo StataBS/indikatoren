@@ -41,7 +41,11 @@
       "itemMarginBottom": 5,
       reversed: true,
       labelFormatter: function () {
-        return this.name.replace('Genossenschafts', 'Genossenschafts-<br>').replace('Selbstbewohnte', 'Selbstbewohnte<br>');
+        return this.name.replace('Sonstige', 'Sonstige<br>')
+        .replace('Selbstbewohnte', 'Selbst-<br>bewohnte<br>')
+        .replace('Eigentümer', 'Eigentümer-<br>')
+        .replace('Genossenschafts', 'Genossen-<br>schafts-<br>')
+        .replace('Mietwohnungen', 'Miet-<br>wohnungen');
       }
     },
     "series": [

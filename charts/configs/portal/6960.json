@@ -6,38 +6,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.104200215,
-          "Anzahl": 11712
+          "y": 0.1054929193180718,
+          "Anzahl": 11986
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.237066166,
-          "Anzahl": 26646
+          "y": 0.2381731928638696,
+          "Anzahl": 27061
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.369736386,
-          "Anzahl": 41558
+          "y": 0.36881155440551316,
+          "Anzahl": 41904
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.17342681,
-          "Anzahl": 19493
+          "y": 0.1730696450417624,
+          "Anzahl": 19664
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.062865328,
-          "Anzahl": 7066
+          "y": 0.06232232285093162,
+          "Anzahl": 7081
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "Kanton Basel-Stadt",
-          "y": 0.052705095,
-          "Anzahl": 5924
+          "y": 0.05213036551985143,
+          "Anzahl": 5923
         }
       ],
       "name": "Kanton Basel-Stadt",
@@ -49,38 +49,38 @@
         {
           "name": "1 Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.074246288,
-          "Anzahl": 495
+          "y": 0.09129172714078375,
+          "Anzahl": 629
         },
         {
           "name": "2 Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.207889606,
-          "Anzahl": 1386
+          "y": 0.20754716981132076,
+          "Anzahl": 1430
         },
         {
           "name": "3 Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.334933253,
-          "Anzahl": 2233
+          "y": 0.3283018867924528,
+          "Anzahl": 2262
         },
         {
           "name": "4 Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.226638668,
-          "Anzahl": 1511
+          "y": 0.22177068214804063,
+          "Anzahl": 1528
         },
         {
           "name": "5 Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.080545973,
+          "y": 0.07793904208998549,
           "Anzahl": 537
         },
         {
           "name": "6 u.m. Zimmer",
           "Wohnviertel": "St. Alban",
-          "y": 0.075746213,
-          "Anzahl": 505
+          "y": 0.07314949201741655,
+          "Anzahl": 504
         }
       ],
       "name": "St. Alban",
@@ -163,7 +163,7 @@
     "text": "Wohnungen nach Zimmerzahl und Wohnviertel"
   },
   "subtitle": {
-    "text": "St. Alban, 2020",
+    "text": "St. Alban, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -215,7 +215,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-3"
   },
   "tooltip": {
     "pointFormatter": function(){
