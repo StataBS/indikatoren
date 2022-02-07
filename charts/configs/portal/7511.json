@@ -7,120 +7,6 @@
       "data": [
         [
           "Jan",
-          1128
-        ],
-        [
-          "Feb",
-          1162
-        ],
-        [
-          "Mrz",
-          615
-        ],
-        [
-          "Apr",
-          123
-        ],
-        [
-          "Mai",
-          3
-        ],
-        [
-          "Jun",
-          461
-        ],
-        [
-          "Jul",
-          887
-        ],
-        [
-          "Aug",
-          812
-        ],
-        [
-          "Sep",
-          725
-        ],
-        [
-          "Okt",
-          594
-        ],
-        [
-          "Nov",
-          578
-        ],
-        [
-          "Dez",
-          496
-        ]
-      ],
-      "name": "Meldepflichtig 2020",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 1,
-      "legendIndex": 2,
-      "color": "rgb(250, 189, 36)",
-      "data": [
-        [
-          "Jan",
-          559
-        ],
-        [
-          "Feb",
-          498
-        ],
-        [
-          "Mrz",
-          423
-        ],
-        [
-          "Apr",
-          541
-        ],
-        [
-          "Mai",
-          610
-        ],
-        [
-          "Jun",
-          720
-        ],
-        [
-          "Jul",
-          714
-        ],
-        [
-          "Aug",
-          528
-        ],
-        [
-          "Sep",
-          488
-        ],
-        [
-          "Okt",
-          425
-        ],
-        [
-          "Nov",
-          379
-        ],
-        [
-          "Dez",
-          429
-        ]
-      ],
-      "name": "Nicht meldepflichtig 2020",
-      "turboThreshold": 0
-    },
-    {
-      "stack": 2,
-      "legendIndex": 1,
-      "color": "rgb(0, 122, 47)",
-      "data": [
-        [
-          "Jan",
           788
         ],
         [
@@ -172,9 +58,9 @@
       "turboThreshold": 0
     },
     {
-      "stack": 2,
-      "legendIndex": 3,
-      "color": "rgb(205, 156, 0)",
+      "stack": 1,
+      "legendIndex": 2,
+      "color": "rgb(250, 189, 36)",
       "data": [
         [
           "Jan",
@@ -226,6 +112,120 @@
         ]
       ],
       "name": "Nicht meldepflichtig 2021",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 1,
+      "color": "rgb(0, 122, 47)",
+      "data": [
+        [
+          "Jan",
+          1447
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Meldepflichtig 2022",
+      "turboThreshold": 0
+    },
+    {
+      "stack": 2,
+      "legendIndex": 3,
+      "color": "rgb(205, 156, 0)",
+      "data": [
+        [
+          "Jan",
+          522
+        ],
+        [
+          "Feb",
+          null
+        ],
+        [
+          "Mrz",
+          null
+        ],
+        [
+          "Apr",
+          null
+        ],
+        [
+          "Mai",
+          null
+        ],
+        [
+          "Jun",
+          null
+        ],
+        [
+          "Jul",
+          null
+        ],
+        [
+          "Aug",
+          null
+        ],
+        [
+          "Sep",
+          null
+        ],
+        [
+          "Okt",
+          null
+        ],
+        [
+          "Nov",
+          null
+        ],
+        [
+          "Dez",
+          null
+        ]
+      ],
+      "name": "Nicht meldepflichtig 2022",
       "turboThreshold": 0
     }
   ],
@@ -356,7 +356,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-1-7"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-7"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
