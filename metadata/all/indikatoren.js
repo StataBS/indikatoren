@@ -2443,43 +2443,41 @@ var indikatoren = [
 		"id": 4145
 	},
 	{
+		"template": "template001",
+		"data-id": 4146,
+		"chart-id": 4146,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Wohnungen mit 4 oder mehr Zimmern",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4146",
-		"kuerzelKunde": "2.1.A",
-		"description": "Wohnungen mit 4 oder mehr Zimmern",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:05.055",
+		"description": "Wohnungen mit 4 oder mehr Zimmern",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4146",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "2.1.A",
 		"stufe1": "Ziel 2: Fiskalpolitik",
 		"stufe2": "2.1 Grosszügiger Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil von Wohnungen mit 4 oder mehr Zimmern nahm von 2000 bis 2014 zu. Seither ist ein leichter Rückgang zu verzeichnen.",
-		"erlaeuterungen": "",
+		"orderKey": "03_01_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_01_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4146,
-		"chart-id": 4146,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-08T08:27:17",
 		"id": 4146
 	},
 	{
@@ -9328,85 +9326,81 @@ var indikatoren = [
 		"id": 4908
 	},
 	{
-		"parentId": null,
-		"children": [],
 		"template": "line001",
-		"title": "Jahresmittel Basler Index der Konsumentenpreise",
-		"subtitle": "Basis Dezember 1982 = 100",
-		"kennzahlenset": "",
-		"kuerzel": "I.05.1.4909",
-		"kuerzelKunde": "",
-		"description": "Jahresmittel Basler Index der Konsumentenpreise",
-		"thema": "05 Preise",
-		"unterthema": "Basler Index der Konsumentenpreise",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-02-09T09:10:36.3636",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Basler Index der Konsumentenpreise war im Jahr 2020 rückläufig. Seit mittlerweile 13 Jahren bewegt sich dessen Jahresmittel in der vergleichsweise engen Bandbreite zwischen 160,0 und 163,8 Punkten.",
-		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 4909,
 		"chart-id": 4909,
 		"filter": "",
-		"id": 4909
-	},
-	{
 		"parentId": null,
 		"children": [],
-		"template": "template001",
-		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
-		"subtitle": "",
-		"kennzahlenset": "",
-		"kuerzel": "I.05.1.4911",
-		"kuerzelKunde": "",
-		"description": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
-		"thema": "05 Preise",
-		"unterthema": "Basler Index der Konsumentenpreise",
+		"title": "Jahresmittel Basler Index der Konsumentenpreise",
+		"subtitle": "Basis Dezember 1982 = 100",
+		"lesehilfe": "Der Basler Index der Konsumentenpreise ist im Jahr 2021 gestiegen. Seit mittlerweile 14 Jahren bewegt sich dessen Jahresmittel in der vergleichsweise engen Bandbreite zwischen 160,0 und 163,8 Punkten.",
+		"erlaeuterungen": "Als regionale Variante des Landesindex der Konsumentenpreise veröffentlicht das Statistische Amt des Kantons Basel-Stadt monatlich den Basler Index. Dieser misst die durchschnittliche Preisveränderung der durch die privaten Haushalte des Kantons Basel-Stadt konsumierten Waren und Dienstleistungen. Das Jahresmittel zeigt das arithmetische Mittel aller 12 Monatsindices des entsprechenden Jahres.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:50.5050",
+		"description": "Jahresmittel Basler Index der Konsumentenpreise",
+		"thema": "05 Preise",
+		"unterthema": "Basler Index der Konsumentenpreise",
+		"kuerzel": "I.05.1.4909",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit fünf Jahren liegt die mittlere Jahresteuerung des Basler Index leicht über derjenigen des Landesindex. Dies ist namentlich auf die Entwicklung der Basler Mietpreise zurückzuführen.",
-		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-02-08T08:27:16",
+		"id": 4909
+	},
+	{
+		"template": "template001",
+		"data-id": 4911,
+		"chart-id": 4911,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
+		"subtitle": "",
+		"lesehilfe": "Zum vierten Mal seit 2000 ist die mittlere Jahresteuerung des Basler Index und des Landesindex der Konsumentenpreise gleich hoch ausgefallen; der entsprechende Wert 2021 beträgt für Basel-Stadt und die Schweiz je 0,6%.",
+		"erlaeuterungen": "Die mittlere bzw. durchschnittliche Jahresteuerung ist die Veränderungsrate zweier Jahresmittel. Das Jahresmittel entspricht dem arithmetischen Durchschnittswert aller 12 Monatsindices des entsprechenden Jahres. Bei der Berechnung der mittleren Jahresteuerung werden alle 24 Monatswerte zweier Jahre verwendet und somit auch die Entwicklung während des Jahres berücksichtigt. Beispiel: Die mittlere bzw. durchschnittliche Jahresteuerung 2020 entspricht der Veränderungsrate zwischen dem Jahresmittel 2020 und dem Jahresmittel 2019.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 4911,
-		"chart-id": 4911,
-		"filter": "",
+		"description": "Mittlere Jahresteuerung Basel-Stadt und Schweiz",
+		"thema": "05 Preise",
+		"unterthema": "Basler Index der Konsumentenpreise",
+		"kuerzel": "I.05.1.4911",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-02-08T08:27:16",
 		"id": 4911
 	},
 	{
@@ -9606,43 +9600,41 @@ var indikatoren = [
 		"darstellungsart": "Diagramm"
 	},
 	{
+		"template": "line001",
+		"data-id": 4919,
+		"chart-id": 4919,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Grundpfandbelastung",
 		"subtitle": "in Mio. Franken, Basel-Stadt",
-		"kennzahlenset": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Grundpfandbelastung",
-		"thema": "12 Finanzmärkte",
-		"unterthema": "Grundpfandbelastung",
+		"lesehilfe": "Die Grundpfandbelastung ist im Kanton Basel-Stadt seit 1990 Jahr für Jahr gestiegen.",
+		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:51.5151",
+		"description": "Grundpfandbelastung",
+		"thema": "12 Finanzmärkte",
+		"unterthema": "Grundpfandbelastung",
+		"kuerzel": "I.12.1.04919",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Grundpfandbelastung ist im Kanton Basel-Stadt seit 1990 Jahr für Jahr gestiegen.",
-		"erlaeuterungen": "Zur Sicherung einer Forderung kann ein Grundstück mit einem Grundpfandrecht verpfändet werden. In Basel-Stadt kann dies in Form eines Schuldbriefs oder einer Grundpfandverschreibung erfolgen.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4919,
-		"chart-id": 4919,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-08T08:27:17",
 		"id": 4919
 	},
 	{
@@ -25385,7 +25377,7 @@ var indikatoren = [
 		"children": [
 			6708
 		],
-		"title": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
+		"title": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
 		"lesehilfe": "Würde die Verteilung der Äquivalenz-Haushaltseinkommen in Basel-Stadt jeweils exakt der Verteilung in der Schweiz entsprechen, würde jedes Quintil ebenfalls 20% der Haushalte beinhalten. Bei den ausländischen Personen in Basel-Stadt sind bspw. im Mittel der Jahre 2017 bis 2019 die höchsten wie auch die tiefsten Einkommen im Vergleich zur gesamten Schweiz übervertreten: der Anteil mit einem Äquivalenz-Haushaltseinkommen im 1. Quintil (25,3%) und im 5. Quintil (22,9%) ist jeweils grösser als 20%. Bei den Schweizer Staatsangehörigen in Basel-Stadt gleicht die Einkommensverteilung eher derjenigen der gesamten Schweiz: Die Anteile im 1. und 5. Quintil liegen auch über 20%, beim 5. Quintil mit 20,4% allerdings nur knapp.",
 		"erlaeuterungen": "Quintile: Die schweizweiten Äquivalenz-Haushaltseinkommen werden in fünf gleich grosse Gruppen eingeteilt. Das erste Quintil entspricht dabei den 20% der Haushalte mit den geringsten Einkommen, das fünfte Quintil denjenigen mit den höchsten Einkommen. Die Quintile werden für jedes Erhebungsjahr neu bestimmt.<br>Äquivalenz-Haushaltseinkommen: Um den Unterschieden bezüglich Haushaltsgrösse und -zusammensetzung Rechnung zu tragen, wird das Haushaltseinkommen in ein Einkommen eines Einpersonenhaushalts umgerechnet, indem es durch die «Äquivalenzgrösse» dividiert wird. Diese wird berechnet, indem die Haushaltsmitglieder gewichtet werden: Die erste erwachsene Person mit 1,0, die zweite und jede weitere im Alter von 15 und mehr Jahren mit 0,5 sowie jedes Kind unter 15 Jahren mit 0,3.",
@@ -25397,7 +25389,7 @@ var indikatoren = [
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"description": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens",
+		"description": "Verteilung des Äquivalenz-Haushaltseinkommens",
 		"thema": "03 Arbeit, Erwerb",
 		"unterthema": "Löhne",
 		"kuerzel": "I.03.3.6467",
@@ -25413,7 +25405,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-29T08:02:55",
+		"aktualisierungsdatum": "2022-02-08T08:27:17",
 		"id": 6467
 	},
 	{
