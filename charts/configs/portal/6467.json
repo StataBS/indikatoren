@@ -383,7 +383,7 @@
       "fontWeight": "bold",
       "color": "#000000"
     },
-    "text": "Quintilsverteilung des Äquivalenz-Haushaltseinkommens"
+    "text": "Verteilung des Äquivalenz-Haushaltseinkommens"
   },
   "subtitle": {
     "text": "nach Staatsangehörigkeit, Basel-Stadt, 3-Jahres-Pooling",
@@ -448,7 +448,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-29"
+    "text": "Quelle: Bundesamt für Statistik, Schweizerische Arbeitskräfteerhebung (SAKE).\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-8"
   },
   "tooltip": {
     "pointFormatter": function () {
