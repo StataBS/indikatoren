@@ -44,29 +44,6 @@
         enabled: false
       }
     },
-    /*
-    {
-      tickAmount: 6,
-      labels: {
-        format: "{value:,.0f}",
-      },
-      plotLines: [{
-        value: 0,
-        color: '#B9CFD7',
-        width: 2
-      }],
-      gridLineColor: '#B9CFD7',
-      gridLineWidth: 0.5,
-      "title": {
-        enabled: false
-      },
-      labels: {
-        style: {
-          color: "#000000"
-        }
-      }
-    },
-  ],*/
     xAxis: {
       tickInterval: 1,
     },
@@ -79,17 +56,8 @@
       ]
     },
     series: [
-      /*      {
-              color: "#8b2223",
-              type: "column"
-            },
-            {
-              color: "#DC440E",
-              type: "column"
-            },
-      */
       {
-        color: "#7b1213",
+        color: "#B00000",
         type: "line",
         marker: {
           enabled: false
@@ -97,7 +65,7 @@
         // yAxis: 1
       },
       {
-        color: "#aC140E",
+        color: "#246370",
         type: "line",
         marker: {
           enabled: false

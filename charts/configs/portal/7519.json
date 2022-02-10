@@ -6,47 +6,47 @@
       "data": [
         [
           "Schweiz",
-          0.512016720827395
+          0.512121355022323
         ],
         [
           "Deutschland",
-          0.1654478976234
+          0.147232945920697
         ],
         [
           "Frankreich",
-          0.0493619780694845
-        ],
-        [
-          "Vereinigtes Königreich",
-          0.0370796437481911
-        ],
-        [
-          "Vereinigte Staaten",
-          0.0364641531692269
+          0.044191550674414
         ],
         [
           "Niederlande",
-          0.0273490307855199
+          0.043574681337281
+        ],
+        [
+          "Vereinigte Staaten",
+          0.038407763377079
         ],
         [
           "Italien",
-          0.0219579927679857
+          0.030076203755511
+        ],
+        [
+          "Vereinigtes Königreich",
+          0.020394923828108
         ],
         [
           "Spanien",
-          0.0129399566958414
+          0.018680689823058
         ],
         [
           "Indien",
-          0.00803801387051983
+          0.004003278074246
         ],
         [
           "China, Hongkong, Taiwan",
-          0.00433224767633988
+          0.00205070818894
         ],
         [
           "Übrige Länder",
-          0.125012364766095
+          0.1389944330305
         ]
       ],
       "turboThreshold": 0
@@ -119,7 +119,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {
@@ -140,7 +140,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
   },
   "legend": {
     "layout": "vertical",

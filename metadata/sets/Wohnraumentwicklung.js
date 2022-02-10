@@ -358,44 +358,42 @@ var indikatorensetData = [
 		"id": 4135
 	},
 	{
+		"template": "template001",
+		"data-id": 4136,
+		"chart-id": 4136,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7596"
+			7596
 		],
-		"template": "template001",
 		"title": "Umgebaute Wohnungen",
 		"subtitle": "nach Art des Umbaus, Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4136",
-		"kuerzelKunde": "1.2.C-2",
-		"description": "Umgebaute Wohnungen",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Die hohen Werte 2014, 2019 und 2021 sind auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. 2020 trug unter anderem der Dachstockausbau wesentlich zum positiven Umbausaldo bei.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:03.033",
+		"description": "Umgebaute Wohnungen",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4136",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.2.C-2",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.2 Wohnraum erhalten und erneuern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 2011 ist der Umbausaldo positiv. Der sprunghafte Anstieg 2014, 2019 und 2020 ist auf die grosse Anzahl Umnutzungen gewerblich genutzter Räume zu Wohnungen zurückzuführen. Im Berichtsjahr trägt auch der Dachstockausbau wesentlich zum positiven Umbausaldo bei.",
-		"erlaeuterungen": "",
+		"orderKey": "02_02_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4136,
-		"chart-id": 4136,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-10T09:17:30",
 		"id": 4136
 	},
 	{

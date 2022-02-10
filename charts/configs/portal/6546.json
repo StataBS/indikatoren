@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "1935",
-          144458
-        ],
-        [
           "1936",
           126627
         ],
@@ -348,6 +344,10 @@
         [
           "2020",
           279513
+        ],
+        [
+          "2021",
+          401814
         ]
       ],
       "name": "Logiernächte Inland",
@@ -358,10 +358,6 @@
       "index": 0,
       "legendIndex": 1,
       "data": [
-        [
-          "1935",
-          159875
-        ],
         [
           "1936",
           155330
@@ -701,6 +697,10 @@
         [
           "2020",
           266393
+        ],
+        [
+          "2021",
+          382793
         ]
       ],
       "name": "Logiernächte Ausland",
@@ -834,7 +834,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
