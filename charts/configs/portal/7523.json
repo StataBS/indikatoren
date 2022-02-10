@@ -7,43 +7,43 @@
       "data": [
         [
           "VR China",
-          217
+          291
         ],
         [
           "Indien",
-          232
+          516
         ],
         [
           "Spanien",
-          1246
-        ],
-        [
-          "Italien",
-          1671
-        ],
-        [
-          "Niederlande",
-          1485
-        ],
-        [
-          "USA",
-          2024
+          2456
         ],
         [
           "UK",
-          1942
+          1242
+        ],
+        [
+          "Italien",
+          3918
+        ],
+        [
+          "USA",
+          1731
+        ],
+        [
+          "Niederlande",
+          8227
         ],
         [
           "Frankreich",
-          3569
+          3909
         ],
         [
           "Deutschland",
-          12165
+          12229
         ],
         [
           "Schweiz",
-          31917
+          40934
         ]
       ],
       "name": "1- und 2-Sterne",
@@ -56,43 +56,43 @@
       "data": [
         [
           "VR China",
-          794
+          743
         ],
         [
           "Indien",
-          2310
+          1640
         ],
         [
           "Spanien",
-          2567
-        ],
-        [
-          "Italien",
-          4560
-        ],
-        [
-          "Niederlande",
-          6119
-        ],
-        [
-          "USA",
-          3124
+          6700
         ],
         [
           "UK",
-          6535
+          4763
+        ],
+        [
+          "Italien",
+          9855
+        ],
+        [
+          "USA",
+          6678
+        ],
+        [
+          "Niederlande",
+          13322
         ],
         [
           "Frankreich",
-          9026
+          12599
         ],
         [
           "Deutschland",
-          31581
+          45572
         ],
         [
           "Schweiz",
-          117372
+          157779
         ]
       ],
       "name": "3-Sterne",
@@ -105,43 +105,43 @@
       "data": [
         [
           "VR China",
-          1131
+          412
         ],
         [
           "Indien",
-          1700
+          908
         ],
         [
           "Spanien",
-          2737
-        ],
-        [
-          "Italien",
-          4664
-        ],
-        [
-          "Niederlande",
-          6365
-        ],
-        [
-          "USA",
-          14171
+          4739
         ],
         [
           "UK",
-          10754
+          9364
+        ],
+        [
+          "Italien",
+          8554
+        ],
+        [
+          "USA",
+          20406
+        ],
+        [
+          "Niederlande",
+          11352
         ],
         [
           "Frankreich",
-          12641
+          15632
         ],
         [
           "Deutschland",
-          34247
+          44959
         ],
         [
           "Schweiz",
-          94119
+          157083
         ]
       ],
       "name": "4- und 5-Sterne",
@@ -154,43 +154,43 @@
       "data": [
         [
           "VR China",
-          223
+          163
         ],
         [
           "Indien",
-          146
+          77
         ],
         [
           "Spanien",
-          514
-        ],
-        [
-          "Italien",
-          1092
-        ],
-        [
-          "Niederlande",
-          961
-        ],
-        [
-          "USA",
-          587
+          762
         ],
         [
           "UK",
-          1011
+          633
+        ],
+        [
+          "Italien",
+          1271
+        ],
+        [
+          "USA",
+          1320
+        ],
+        [
+          "Niederlande",
+          1288
         ],
         [
           "Frankreich",
-          1711
+          2533
         ],
         [
           "Deutschland",
-          12326
+          12760
         ],
         [
           "Schweiz",
-          36105
+          46018
         ]
       ],
       "name": "Nicht klassiert",
@@ -276,7 +276,7 @@
     "text": "Logiernächte der Hauptmärkte nach Hotelkategorie"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -334,7 +334,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Tourismusstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-10"
   },
   "tooltip": {
     "shared": false,
