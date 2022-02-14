@@ -254,49 +254,46 @@ var indikatorensetData = [
 		"id": 4828
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4829,
+		"chart-id": 4829,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5116",
-			"8276",
-			"8547"
+			5116,
+			8276,
+			8547
 		],
-		"template": "dotplot",
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.1.4829",
-		"kuerzelKunde": "GS-8.A",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:08:00.000",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.4829",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-8.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"orderKey": "02_01_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_01_00_00_00_008",
-		"renderLink": [
-			"8276",
-			"8547"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4829,
-		"chart-id": 4829,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:07:00",
 		"id": 4829
 	},
 	{
