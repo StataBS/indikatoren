@@ -7498,50 +7498,47 @@ var indikatoren = [
 		"id": 4828
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4829,
+		"chart-id": 4829,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5116",
-			"8276",
-			"8547"
+			5116,
+			8276,
+			8547
 		],
-		"template": "dotplot",
 		"title": "Jugendquotient",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.1.4829",
-		"kuerzelKunde": "GS-8.A",
-		"description": "Jugendquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Kleinbasel",
+		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:08:00.000",
+		"description": "Jugendquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.4829",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-8.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Den höchsten Jugendquotienten weist das Wohnviertel Bruderholz auf, den niedrigsten das Wohnviertel Altstadt Grossbasel.",
-		"erlaeuterungen": "Der Jugendquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"orderKey": "02_01_00_00_00_008",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_008",
-		"renderLink": [
-			"8276",
-			"8547"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevstruk.jugendquotient&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4829,
-		"chart-id": 4829,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:07:00",
 		"id": 4829
 	},
 	{
@@ -9876,46 +9873,44 @@ var indikatoren = [
 		"darstellungsart": "Karte"
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 5142,
+		"chart-id": 5142,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6989",
-			"8882"
+			6989,
+			8882
 		],
-		"template": "populationPyramid001",
 		"title": "Bevölkerungspyramide am Jahresende",
-		"subtitle": "nach Alter, Geschlecht und Herkunft, Basel-Stadt, 2020",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "",
-		"kuerzelKunde": "BE1",
-		"description": "Bevölkerungspyramide am Jahresende",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Alter, Geschlecht und Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
+		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:06.066",
+		"description": "Bevölkerungspyramide am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.05142",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE1",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Bevölkerungspyramide zeigt, dass bei der ausländischen Bevölkerung vor allem die mittleren Jahrgänge der Personen im Erwerbsalter gut besetzt sind. Deutlich wird zudem, dass in den höheren Altersgruppen die Schweizer Frauen stark vertreten sind.",
-		"erlaeuterungen": "Die Bevölkerungspyramide zeigt die Wohnbevölkerung am Jahresende nach Alter, Geschlecht und Staatsangehörigkeit.",
+		"orderKey": "01_01_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_101",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5142,
-		"chart-id": 5142,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:06:59",
 		"id": 5142
 	},
 	{
@@ -16408,87 +16403,83 @@ var indikatoren = [
 		"id": 6374
 	},
 	{
+		"template": "mappie001",
+		"data-id": 6375,
+		"chart-id": 6375,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6387"
+			6387
 		],
-		"template": "mappie001",
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "",
-		"kuerzelKunde": "C1-1",
-		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnvierteln Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:53:18.1818",
+		"description": "Unter 20-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06375",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C1-1",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,3%), Vorstädte (11,1%) und Altstadt Kleinbasel (10,5%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,1%) und Hirzbrunnen (20,6%) sowie in der Gemeinde Riehen (20,8%).",
-		"erlaeuterungen": "",
+		"orderKey": "_001",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6375,
-		"chart-id": 6375,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:06:59",
 		"id": 6375
 	},
 	{
+		"template": "mappie001",
+		"data-id": 6376,
+		"chart-id": 6376,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6388"
+			6388
 		],
-		"template": "mappie001",
 		"title": "Über 64-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.01.1.06376",
-		"kuerzelKunde": "C1-2",
-		"description": "Über 64-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (9,3%), Matthäus (13,9%) und Klybeck (15,0%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (23,7%) sowie die Gemeinden Riehen (25,5%) und Bettingen (23,8%) auf.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:53:29.2929",
+		"description": "Über 64-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06376",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C1-2",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der 65-Jährigen und Älteren an der Gesamtbevölkerung in den Wohnvierteln Rosental (8,8%), Matthäus (13,7%) und Klybeck (14,8%). Die höchsten Anteile 65-Jähriger und Älterer weisen das Wohnviertel St. Alban (24,6%) sowie die Gemeinden Riehen (25,2%) und Bettingen (24,6%) auf.",
-		"erlaeuterungen": "",
+		"orderKey": "02_00_00_00_00_002",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6376,
-		"chart-id": 6376,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:07:00",
 		"id": 6376
 	},
 	{
@@ -20123,44 +20114,42 @@ var indikatoren = [
 		"id": 6499
 	},
 	{
+		"template": "template001",
+		"data-id": 6502,
+		"chart-id": 6502,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Bevölkerungsbestand am Jahresende",
-		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "",
-		"kuerzel": "",
-		"kuerzelKunde": "",
-		"description": "Bevölkerungsbestand am Jahresende",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Altersklasse und Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Am Jahresende 2021 wiesen die Wohnviertel Bruderholz und Hirzbrunnen sowie die Gemeinden Riehen und Bettingen die höchsten Anteile an Kindern und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Seniorinnen und Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in der Gemeinde Riehen am höchsten.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-10T10:07:02.022",
+		"description": "Bevölkerungsbestand am Jahresende",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06502",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am Jahresende 2020 wiesen die Wohnviertel Bruderholz, Hirzbrunnen und Kleinhüningen sowie die Gemeinde Riehen die höchsten Anteile an Kinder und Jugendlichen unter 20 Jahren auf. Besonders viele junge Erwachsene zwischen 20 und 39 Jahren lebten in den Wohnvierteln Gundeldingen, Rosental und Matthäus. Die Anteile der Senioren ab 80 Jahren hingegen waren in den Vorstädten, im St. Albanviertel und in den Gemeinden Riehen und Bettingen am höchsten.",
-		"erlaeuterungen": "",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6502,
-		"chart-id": 6502,
-		"filter": "",
+		"aktualisierungsdatum": "2022-02-14T08:06:58",
 		"id": 6502
 	},
 	{
