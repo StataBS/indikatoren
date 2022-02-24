@@ -1177,6 +1177,12 @@ id | visible | visibleInPortal | indikatorenset
 7588 | true | true | Leerstand
 7589 | true | true | Leerstand
 7590 | true | true | Leerstand
+7595 | true | false | Wohnbaustatistik
+7596 | true | false | Wohnbaustatistik
+7597 | true | false | Wohnbaustatistik
+7598 | true | false | Wohnbaustatistik
+7599 | true | true | Wohnbaustatistik
+7601 | true | true | Wohnbaustatistik
 7603 | true | true | Soziales
 7664 | true | false | Stadtteilmonitoring Rosental
 7665 | true | true | Stadtteilmonitoring Rosental
@@ -2109,6 +2115,7 @@ id | visible | visibleInPortal | indikatorenset
 9457 | true | false | Legislaturplan
 9458 | true | false | Legislaturplan (Print)
 9461 | true | false | Legislaturplan (Print)
+9465 | true | true | Wohnbaustatistik
 9475 | true | true | 
 9995 | true | false | 
 9996 | true | false | 
