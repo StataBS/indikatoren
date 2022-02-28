@@ -22,6 +22,10 @@
         [
           "2015",
           11997397
+        ],
+        [
+          "2020",
+          11558982
         ]
       ],
       "name": "Wohnen",
@@ -49,6 +53,10 @@
         [
           "2015",
           8647032
+        ],
+        [
+          "2020",
+          9071415
         ]
       ],
       "name": "Arbeiten",
@@ -182,7 +190,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bau- und Verkehrsdepartement des Kantons Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2019-10-14"
+    "text": "Quelle: Bau- und Verkehrsdepartement Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-2-28"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -226,6 +234,6 @@
     "shared": false
   },
   "exporting": {
-    "filename": 7774
+    "filename": "7774"
   }
 }
