@@ -2117,6 +2117,11 @@ id | visible | visibleInPortal | indikatorenset
 9461 | true | false | Legislaturplan (Print)
 9465 | true | true | Wohnbaustatistik
 9475 | true | true | 
+9481 | true | false | City-Statistics (Print)
+9482 | true | false | City-Statistics (Print)
+9483 | true | false | City-Statistics (Print)
+9484 | true | false | City-Statistics (Print)
+9485 | true | false | City-Statistics (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

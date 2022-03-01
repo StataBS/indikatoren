@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2011,
-          48.38
-        ],
-        [
           2012,
           46.89
         ],
@@ -43,6 +39,10 @@
         [
           2020,
           46.53
+        ],
+        [
+          2021,
+          45.46
         ]
       ],
       "name": "Schweiz"
@@ -52,10 +52,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2011,
-          44.46
-        ],
         [
           2012,
           43.66
@@ -91,6 +87,10 @@
         [
           2020,
           39.81
+        ],
+        [
+          2021,
+          38.02
         ]
       ],
       "name": "Schweizer"
@@ -100,10 +100,6 @@
       "legendIndex": 4,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2011,
-          52.53
-        ],
         [
           2012,
           50.26
@@ -139,6 +135,10 @@
         [
           2020,
           53.4
+        ],
+        [
+          2021,
+          53.26
         ]
       ],
       "name": "Schweizerinnen"
@@ -147,10 +147,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          2011,
-          22.85
-        ],
         [
           2012,
           20.67
@@ -186,6 +182,10 @@
         [
           2020,
           26.27
+        ],
+        [
+          2021,
+          23.8
         ]
       ],
       "name": "Ausland"
@@ -195,10 +195,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2011,
-          20.47
-        ],
         [
           2012,
           19.77
@@ -234,6 +230,10 @@
         [
           2020,
           22.06
+        ],
+        [
+          2021,
+          20.75
         ]
       ],
       "name": "Ausländer"
@@ -243,10 +243,6 @@
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2011,
-          25.24
-        ],
         [
           2012,
           21.62
@@ -282,6 +278,10 @@
         [
           2020,
           31.12
+        ],
+        [
+          2021,
+          27.16
         ]
       ],
       "name": "Ausländerinnen"
@@ -412,7 +412,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bildungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-1"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
