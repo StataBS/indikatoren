@@ -18,7 +18,7 @@ global rheinData
 				"text": "Einwohner pro km²"
 			},
 			useHTML: true,
-			//y: -300,
+			y: -400,
 		},
 		"colorAxis": {
 			"minColor": "#D3E2E4",

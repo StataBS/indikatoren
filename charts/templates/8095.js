@@ -18,7 +18,8 @@ global rheinData
 			},
 			useHTML: true,
 			symbolRadius: 0,
-			itemWidth: 500
+			itemWidth: 500,
+			y: -400
 		},
 		colorAxis: {
 			dataClassColor: 'category',
