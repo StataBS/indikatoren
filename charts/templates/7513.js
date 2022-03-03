@@ -16,12 +16,12 @@
   "series": [
     {"color": "#FFBB58"},
     {"color": "#FF8028"},
-    {"color": "#B00000", type: "scatter", marker:{"enabled": true,"radius": 3},
+    {"color": "#B00000"/*, type: "scatter", marker:{"enabled": true,"radius": 3},
     "tooltip": {
       "shared": false, 
       "headerFormat": '<span style="font-size: 10px"> {point.key}</span><br/>',
       "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b><br/>'
-   }, },
+   },*/ },
   ],
   "legend": {
     "enabled": true,

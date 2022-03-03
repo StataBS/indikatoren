@@ -12983,45 +12983,45 @@
 		"id": 6031
 	},
 	{
+		"template": "stock001",
+		"data-id": 6033,
+		"chart-id": 6033,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8924"
+			8924
 		],
-		"template": "stock001",
 		"title": "Hitzetage",
 		"subtitle": "Anzahl Tage",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.02.12.06033",
-		"kuerzelKunde": "NL11",
-		"description": "Hitzetage",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Klima",
+		"lesehilfe": "Im Jahr 2021 wurden 6 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
+		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [
+			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-09T09:13:54.5454",
+		"description": "Hitzetage",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Klima",
+		"kuerzel": "I.02.12.06033",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL11",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden 22 Hitzetage verzeichnet. Das Maximum innerhalb des abgebildeten Zeitraumes wurde mit 43 Hitzetagen im Jahr 2003 registriert.",
-		"erlaeuterungen": "Anzahl Tage im Jahr, an denen die Lufttemperatur mindestens 30 °C erreicht hat. Die Temperaturmessungen erfolgen an der meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"orderKey": "04_02_00_00_00_412",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_412",
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Weitere Informationen zum Indikator: <a href = 'http://www.umweltberichtbeiderbasel.bs.ch/indikatoren-08-0801' target = '_blank'>Umweltbericht beider Basel</a>"
-		],
-		"data-id": 6033,
-		"chart-id": 6033,
-		"filter": "",
+		"aktualisierungsdatum": "2022-03-03T08:35:01",
 		"id": 6033
 	},
 	{
@@ -24506,45 +24506,43 @@
 		"id": 6432
 	},
 	{
+		"template": "line001",
+		"data-id": 6434,
+		"chart-id": 6434,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8946"
+			8946
 		],
-		"template": "line001",
 		"title": "Jahresmitteltemperatur",
 		"subtitle": "in °C",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.02.3.6434",
-		"kuerzelKunde": "NL12",
-		"description": "Jahresmitteltemperatur",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Witterung",
+		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2021 10,7 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
+		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"quellenangabe": [
+			"Meteorologischer Verein der Region Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-02-08T08:44:54.5454",
+		"description": "Jahresmitteltemperatur",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Witterung",
+		"kuerzel": "I.02.3.06434",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL12",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Klimawandel",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mittelwert der Lufttemperatur am Standort Basel-Binningen betrug im Jahr 2020 12,2 °C. Im Jahr 2018 wurde mit 12,3 °C der bislang höchste Wert seit Messbeginn im Jahr 1755 registriert.",
-		"erlaeuterungen": "Die Jahresmitteltemperatur entspricht dem Mittelwert der über ein Jahr hinweg gemessenen Lufttemperatur. Die Temperaturmessungen erfolgen an der Meteorologischen Station Basel-Binningen in 2 m über Grund (317 m ü. M.; 47°33' N/7°35' E).",
+		"orderKey": "04_02_00_00_00_413",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "04_02_00_00_00_413",
-		"renderLink": [],
-		"quellenangabe": [
-			"Meteorologischer Verein der Region Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6434,
-		"chart-id": 6434,
-		"filter": "",
+		"aktualisierungsdatum": "2022-03-03T08:35:01",
 		"id": 6434
 	},
 	{
@@ -42243,7 +42241,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-11T08:34:14",
+		"aktualisierungsdatum": "2022-03-03T08:34:59",
 		"id": 7512
 	},
 	{
@@ -42282,7 +42280,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-11T08:34:15",
+		"aktualisierungsdatum": "2022-03-03T08:34:59",
 		"id": 7513
 	},
 	{
@@ -72385,7 +72383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:48",
+		"aktualisierungsdatum": "2022-03-03T08:35:00",
 		"id": 8995
 	},
 	{
@@ -73012,7 +73010,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:49",
+		"aktualisierungsdatum": "2022-03-03T08:35:00",
 		"id": 9022
 	},
 	{
@@ -73050,7 +73048,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-24T09:16:49",
+		"aktualisierungsdatum": "2022-03-03T08:35:01",
 		"id": 9023
 	},
 	{

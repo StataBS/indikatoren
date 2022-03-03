@@ -242,6 +242,10 @@
         [
           2020,
           12.2
+        ],
+        [
+          2021,
+          10.7
         ]
       ],
       "name": "Jahresmitteltemperatur"
@@ -364,7 +368,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-8"
+    "text": "Quelle: Meteorologischer Verein der Region Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-3"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
