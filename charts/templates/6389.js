@@ -27,7 +27,7 @@
             dataClassColor: 'category',
                dataClasses: [{
                 from: 0,
-                to:3.999,
+                to:3.9999,
                 color: '#D7E8D2',
                 name:  "<span style='color: rgba(0,0,0,0)'>12,5</span> < <span style='color: rgba(0,0,0,0)'>0</span>4,0"
             }, {
@@ -37,12 +37,12 @@
                 name: "<span style='color: rgba(0,0,0,0)'>0</span>4,0 − <span style='color: rgba(0,0,0,0)'>0</span>5,9"
             }, {
                 from: 6.0,
-                to: 9.999,
+                to: 9.9999,
                  color: '#68AB2B',
                  name: "<span style='color: rgba(0,0,0,0)'>0</span>6,0 − <span style='color: rgba(0,0,0,0)'>0</span>9,9"
             },{
                 from: 10,
-                to: 12.99,
+                to: 12.9999,
                  color: '#007A2F',
                  name: "10,0 − 12,9"
             },{

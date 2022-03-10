@@ -935,7 +935,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Anzahl Logiernächte",
 		"subtitle": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2019 zusammen mehr als 1,8 Mio. Logiernächte verzeichnet. 2020 wurde ein Rückgang um 1,0 Mio bzw. mehr als 50% auf knapp 800 000 Übernachtungen registriert. Der grösste Teil fiel mit 0,5 Mio. auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden rund 150 000, im Jura 95 000 Logiernächte gebucht.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2021 zusammen rund 1,1 Mio. Logiernächte verzeichnet. Der grösste Teil fiel mit 785 000 auf die baselstädtischen Beherbergungsbetriebe. Im Kanton Basel-Landschaft wurden 185 000, im Jura 124 000 Logiernächte gebucht. 2020 wurde ein pandemiebedingter Rückgang auf knapp 800 000 Übernachtungen registriert.<br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
 		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -947,8 +947,8 @@ var indikatorensetData = [
 		],
 		"description": "Entwicklung Anzahl Logiernächte",
 		"thema": "10 Tourismus",
-		"unterthema": "",
-		"kuerzel": "",
+		"unterthema": "Hotellerie",
+		"kuerzel": "I.10.1.08373",
 		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
 		"kuerzelKunde": "5-1",
 		"stufe1": "5. Tourismus",
@@ -960,7 +960,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-02T08:32:48",
+		"aktualisierungsdatum": "2022-03-10T01:29:33",
 		"id": 8373
 	},
 	{
@@ -1779,7 +1779,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Bettenangebot",
 		"subtitle": "",
-		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2020 zusammen fast 11 500 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit über 8 000 an. Das Bettenangebot nahm in Basel-Stadt zwischen 2016 und 2019 um 20,4% zu. 2020 wurde im Vergleich zum Vorjahr ein pandemiebedingter Rückgang um 13% registriert. In Basel-Landschaft und im Jura wurden im Zeitraum von 2016 bis 2020 Rückgänge verzeichnet (-18,2% auf 2 000 und -14,4% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"lesehilfe": "In den drei Kantonen Basel-Stadt, Basel-Landschaft und Jura wurden im Jahr 2021 zusammen 12 000 Betten angeboten. Mit Abstand die meisten bot Basel-Stadt mit knapp 8 500 an. Das Bettenangebot nahm in Basel-Stadt zwischen 2017 und 2019 zu. 2020 wurde im Vergleich zum Vorjahr ein pandemiebedingter Rückgang registriert. 2021 nahm das Angebot im Vergleich zu 2020 um 5,8% zu.  In Basel-Landschaft und im Jura wurden im Zeitraum von 2017 bis 2021 Rückgänge verzeichnet (-11,7% auf 2 100 und -9,9% auf 1 500). <br>Zur Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
 		"erlaeuterungen": "Anzahl angebotene Betten der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen. <br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -1804,7 +1804,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:56",
+		"aktualisierungsdatum": "2022-03-10T01:29:33",
 		"id": 8873
 	},
 	{

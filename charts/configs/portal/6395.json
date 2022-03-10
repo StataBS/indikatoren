@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          62.023855
+          60.344828
         ],
         [
           2,
-          39.67684
+          40.00797
         ],
         [
           3,
-          12.785098
+          12.733142
         ],
         [
           4,
-          4.0823137
+          4.2822276
         ],
         [
           5,
-          16.108895
+          16.361762
         ],
         [
           6,
-          8.110123
+          8.2933589
         ],
         [
           7,
-          4.5848028
+          4.8399106
         ],
         [
           8,
-          6.3787375
+          7.0366845
         ],
         [
           9,
-          6.4013841
+          6.2715765
         ],
         [
           10,
-          4.0972508
+          4.2273535
         ],
         [
           11,
-          6.1442946
+          6.3290455
         ],
         [
           12,
-          21.554192
+          21.793275
         ],
         [
           13,
-          10.019598
+          9.9388005
         ],
         [
           14,
-          7.6798561
+          7.5294118
         ],
         [
           15,
-          3.1779887
+          3.1638782
         ],
         [
           16,
-          4.5906433
+          4.5478653
         ],
         [
           17,
-          6.2694927
+          6.5600522
         ],
         [
           18,
-          5.2927465
+          5.4442449
         ],
         [
           19,
-          9.1672498
+          9.5425304
         ],
         [
           20,
-          4.3174189
+          4.4070326
         ],
         [
           30,
-          4.3693322
+          4.4067797
         ]
       ]
     },
@@ -6658,87 +6658,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1612
+          1540
         ],
         [
           "Vorstädte",
-          1989
+          2008
         ],
         [
           "Am Ring",
-          1407
+          1420
         ],
         [
           "Breite",
-          367
-        ],
-        [
-          "St. Alban",
-          1858
-        ],
-        [
-          "Gundeldingen",
-          1523
-        ],
-        [
-          "Bruderholz",
-          429
-        ],
-        [
-          "Bachletten",
-          864
-        ],
-        [
-          "Gotthelf",
-          444
-        ],
-        [
-          "Iselin",
-          696
-        ],
-        [
-          "St. Johann",
-          1148
-        ],
-        [
-          "Altstadt Kleinbasel",
-          527
-        ],
-        [
-          "Clara",
-          409
-        ],
-        [
-          "Wettstein",
-          427
-        ],
-        [
-          "Hirzbrunnen",
-          298
-        ],
-        [
-          "Rosental",
-          314
-        ],
-        [
-          "Matthäus",
-          985
-        ],
-        [
-          "Klybeck",
           386
         ],
         [
+          "St. Alban",
+          1905
+        ],
+        [
+          "Gundeldingen",
+          1556
+        ],
+        [
+          "Bruderholz",
+          455
+        ],
+        [
+          "Bachletten",
+          961
+        ],
+        [
+          "Gotthelf",
+          436
+        ],
+        [
+          "Iselin",
+          714
+        ],
+        [
+          "St. Johann",
+          1171
+        ],
+        [
+          "Altstadt Kleinbasel",
+          525
+        ],
+        [
+          "Clara",
+          406
+        ],
+        [
+          "Wettstein",
+          416
+        ],
+        [
+          "Hirzbrunnen",
+          295
+        ],
+        [
+          "Rosental",
+          343
+        ],
+        [
+          "Matthäus",
+          1005
+        ],
+        [
+          "Klybeck",
+          394
+        ],
+        [
           "Kleinhüningen",
-          262
+          267
         ],
         [
           "Riehen",
-          926
+          945
         ],
         [
           "Bettingen",
-          53
+          52
         ]
       ],
       "name": "Anzahl Arbeitsstätten"
@@ -7296,7 +7296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2018",
+    "text": "Basel-Stadt, 2019",
     "align": "left"
   },
   "credits": {
@@ -7312,7 +7312,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Statistisches Amt Basel-Stadt;\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT);\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
   },
   "colorAxis": {
     "min": 0,

@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          13.361020691
+          13.44
         ],
         [
           2,
-          6.0653718683
+          6.07
         ],
         [
           3,
-          12.987737267
+          13
         ],
         [
           4,
-          9.7641912829
+          9.69
         ],
         [
           5,
-          3.9977685671
+          4.01
         ],
         [
           6,
-          12.284171253
+          12.33
         ],
         [
           7,
-          8.0994749876
+          8.1
         ],
         [
           8,
-          16.38082112
+          16.39
         ],
         [
           9,
-          20.031122947
+          20.01
         ],
         [
           10,
-          13.276755432
+          13.29
         ],
         [
           11,
-          6.7335373656
+          6.76
         ],
         [
           12,
-          11.456444012
+          11.54
         ],
         [
           13,
-          10.888744042
+          10.85
         ],
         [
           14,
-          9.3925706803
+          9.38
         ],
         [
           15,
-          5.1238435736
+          5.14
         ],
         [
           16,
-          4.923853474
+          4.92
         ],
         [
           17,
-          19.211343452
+          19.28
         ],
         [
           18,
-          4.716273035
+          4.71
         ],
         [
           19,
-          1.2582717862
+          1.26
         ],
         [
           20,
-          3.8535007023
+          3.87
         ],
         [
           30,
-          1.3830146253
+          1.43
         ]
       ]
     },
@@ -6660,7 +6660,7 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          504
+          507
         ],
         [
           "Vorstädte",
@@ -6668,55 +6668,55 @@
         ],
         [
           "Am Ring",
-          1187
+          1188
         ],
         [
           "Breite",
-          670
+          665
         ],
         [
           "St. Alban",
-          1191
+          1196
         ],
         [
           "Gundeldingen",
-          1431
+          1436
         ],
         [
           "Bruderholz",
-          2098
+          2097
         ],
         [
           "Bachletten",
-          2505
+          2507
         ],
         [
           "Gotthelf",
-          976
+          975
         ],
         [
           "Iselin",
-          1450
+          1451
         ],
         [
           "St. Johann",
-          1517
+          1524
         ],
         [
           "Altstadt Kleinbasel",
-          284
+          286
         ],
         [
           "Clara",
-          252
+          251
         ],
         [
           "Wettstein",
-          710
+          709
         ],
         [
           "Hirzbrunnen",
-          1587
+          1593
         ],
         [
           "Rosental",
@@ -6724,11 +6724,11 @@
         ],
         [
           "Matthäus",
-          1144
+          1148
         ],
         [
           "Klybeck",
-          434
+          433
         ],
         [
           "Kleinhüningen",
@@ -6736,11 +6736,11 @@
         ],
         [
           "Riehen",
-          4185
+          4199
         ],
         [
           "Bettingen",
-          308
+          319
         ]
       ],
       "name": "Anzahl Gebäude"
@@ -7312,7 +7312,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "credits": {
@@ -7328,7 +7328,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
   },
   "colorAxis": {
     "min": 0,
