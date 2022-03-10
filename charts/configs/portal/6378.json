@@ -6569,87 +6569,87 @@
       "data": [
         [
           1,
-          41.063930655
+          41.7
         ],
         [
           2,
-          38.210733927
+          38.27
         ],
         [
           3,
-          71.153542923
+          71.69
         ],
         [
           4,
-          78.507012598
+          78.42
         ],
         [
           5,
-          22.378776689
+          23.13
         ],
         [
           6,
-          98.470809534
+          99.49
         ],
         [
           7,
-          17.26446718
+          17.31
         ],
         [
           8,
-          47.93270212
+          48.15
         ],
         [
           9,
-          86.199504484
+          86.22
         ],
         [
           10,
-          90.053027361
+          90.4
         ],
         [
           11,
-          44.959789042
+          46.1
         ],
         [
           12,
-          65.834213476
+          66.64
         ],
         [
           13,
-          103.87516141
+          113.38
         ],
         [
           14,
-          44.475806517
+          44.5
         ],
         [
           15,
-          15.294043483
+          15.51
         ],
         [
           16,
-          64.104784652
+          64.36
         ],
         [
           17,
-          150.31532801
+          150.99
         ],
         [
           18,
-          41.544497265
+          41.66
         ],
         [
           19,
-          10.354836641
+          10.44
         ],
         [
           20,
-          9.7014297251
+          9.75
         ],
         [
           30,
-          2.2631148414
+          2.4
         ]
       ]
     },
@@ -6660,87 +6660,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          1549
+          1573
         ],
         [
           "Vorstädte",
-          3446
+          3451
         ],
         [
           "Am Ring",
-          6503
+          6552
         ],
         [
           "Breite",
-          5387
+          5381
         ],
         [
           "St. Alban",
-          6667
+          6890
         ],
         [
           "Gundeldingen",
-          11471
+          11590
         ],
         [
           "Bruderholz",
-          4472
+          4484
         ],
         [
           "Bachletten",
-          7330
+          7363
         ],
         [
           "Gotthelf",
-          4200
+          4201
         ],
         [
           "Iselin",
-          9835
+          9873
         ],
         [
           "St. Johann",
-          10129
+          10385
         ],
         [
           "Altstadt Kleinbasel",
-          1632
+          1652
         ],
         [
           "Clara",
-          2404
+          2624
         ],
         [
           "Wettstein",
-          3362
+          3364
         ],
         [
           "Hirzbrunnen",
-          4737
+          4803
         ],
         [
           "Rosental",
-          4062
+          4078
         ],
         [
           "Matthäus",
-          8951
+          8991
         ],
         [
           "Klybeck",
-          3823
+          3834
         ],
         [
           "Kleinhüningen",
-          1399
+          1411
         ],
         [
           "Riehen",
-          10536
+          10585
         ],
         [
           "Bettingen",
-          504
+          534
         ]
       ],
       "name": "Anzahl Wohnungen"
@@ -7318,7 +7318,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "credits": {
@@ -7334,7 +7334,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-1-29"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik;\u003Cbr\u002F\u003EKartengrundlage: Geodaten Kanton Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
   },
   "colorAxis": {
     "min": 0,

@@ -3326,7 +3326,7 @@
       ]
     },
     {
-      "name": "Anteil Personen unter 20 Jahre in %",
+      "name": "Anteil Personen unter 20 Jahren in %",
       "animation": true,
       "mapData": {
         "name": "wohnviertel_centroide_diagramme_latlon",
@@ -6569,11 +6569,11 @@
       "data": [
         [
           1,
-          10.31
+          10.04
         ],
         [
           2,
-          11.11
+          11.04
         ],
         [
           3,
@@ -6581,27 +6581,27 @@
         ],
         [
           4,
-          14.41
+          14.34
         ],
         [
           5,
-          17.51
+          18.14
         ],
         [
           6,
-          14.07
+          14.15
         ],
         [
           7,
-          22.12
+          22.25
         ],
         [
           8,
-          18.06
+          18.75
         ],
         [
           9,
-          15.77
+          16.19
         ],
         [
           10,
@@ -6609,47 +6609,47 @@
         ],
         [
           11,
-          17.11
+          17.25
         ],
         [
           12,
-          10.52
+          9.83
         ],
         [
           13,
-          12.95
+          12.73
         ],
         [
           14,
-          14.07
+          14.33
         ],
         [
           15,
-          20.56
+          21.09
         ],
         [
           16,
-          19.43
+          19.52
         ],
         [
           17,
-          14.87
+          14.85
         ],
         [
           18,
-          17.9
+          18.14
         ],
         [
           19,
-          20.15
+          19.53
         ],
         [
           20,
-          20.76
+          21.26
         ],
         [
           30,
-          19.75
+          21.62
         ]
       ]
     },
@@ -6658,90 +6658,90 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          272
+          268
         ],
         [
           "Vorstädte",
-          561
+          543
         ],
         [
           "Am Ring",
-          1635
+          1625
         ],
         [
           "Breite",
-          1304
+          1271
         ],
         [
           "St. Alban",
-          2054
+          2169
         ],
         [
           "Gundeldingen",
-          2658
+          2681
         ],
         [
           "Bruderholz",
-          2090
+          2100
         ],
         [
           "Bachletten",
-          2470
+          2567
         ],
         [
           "Gotthelf",
-          1077
+          1100
         ],
         [
           "Iselin",
-          2925
+          2892
         ],
         [
           "St. Johann",
-          3207
+          3254
         ],
         [
           "Altstadt Kleinbasel",
-          254
+          232
         ],
         [
           "Clara",
-          526
+          553
         ],
         [
           "Wettstein",
-          812
+          825
         ],
         [
           "Hirzbrunnen",
-          1912
+          1971
         ],
         [
           "Rosental",
-          1486
+          1484
         ],
         [
           "Matthäus",
-          2312
+          2277
         ],
         [
           "Klybeck",
-          1273
+          1261
         ],
         [
           "Kleinhüningen",
-          566
+          537
         ],
         [
           "Riehen",
-          4506
+          4650
         ],
         [
           "Bettingen",
-          234
+          269
         ]
       ],
-      "name": "Anzahl Personen unter 20 Jahre"
+      "name": "Anzahl Personen unter 20 Jahren"
     },
     {
       "name": "Rhein",
@@ -7296,7 +7296,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "credits": {
@@ -7312,7 +7312,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-2-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
   },
   "colorAxis": {
     "min": 0,

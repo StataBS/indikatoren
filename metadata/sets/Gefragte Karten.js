@@ -9,8 +9,8 @@ var indikatorensetData = [
 			6385
 		],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Am grössten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,3%) und Bachletten (42,0%) sowie in den Gemeinden Riehen (42,0%) und Bettingen (41,4%). Die kleinsten Anteile sesshafter Personen gibt es hingegen in den Wohnvierteln Vorstädte (28,4%), Altstadt Kleinbasel (28,0%) und Rosental (18,8%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -37,7 +37,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-23T08:17:14",
+		"aktualisierungsdatum": "2022-03-10T01:29:33",
 		"id": 6373
 	},
 	{
@@ -159,87 +159,83 @@ var indikatorensetData = [
 		"id": 6376
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6389"
-		],
 		"template": "mappie001",
-		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "",
-		"kuerzelKunde": "C9-1",
-		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-01-29T09:16:06.066",
-		"stufe1": "kontinuierlich klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
-		"erlaeuterungen": "",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6377,
 		"chart-id": 6377,
 		"filter": "",
-		"id": 6377
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6390"
+			6389
 		],
-		"template": "mappie001",
-		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.09.1.06378",
-		"kuerzelKunde": "C9-2",
-		"description": "Wohnungsdichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"title": "Gebäudedichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:07.077",
+		"description": "Gebäudedichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.06377",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C9-1",
 		"stufe1": "kontinuierlich klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
-		"erlaeuterungen": "",
+		"orderKey": "02_00_00_00_00_007",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_008",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:34",
+		"id": 6377
+	},
+	{
+		"template": "mappie001",
+		"data-id": 6378,
+		"chart-id": 6378,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6390
+		],
+		"title": "Wohnungsdichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
-		"data-id": 6378,
-		"chart-id": 6378,
-		"filter": "",
+		"description": "Wohnungsdichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.06378",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "C9-2",
+		"stufe1": "kontinuierlich klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_008",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:34",
 		"id": 6378
 	},
 	{
@@ -496,8 +492,8 @@ var indikatorensetData = [
 		"parentId": "6373",
 		"children": [],
 		"title": "Sesshaftigkeit",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"lesehilfe": "Am höchsten ist der Anteil der Personen, die seit 10 oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,0%) und Bachletten (41,5%) sowie in den Gemeinden Riehen (42,1%) und Bettingen (42,7%). Anteilsmässig am wenigsten sesshafte Personen gibt es hingegen in den Wohnvierteln Altstadt Kleinbasel (28,5%), Vorstädte (28,0%)  und Rosental (18,9%).",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Am grössten ist der Anteil der Personen, die seit zehn oder mehr Jahren an der gleichen Adresse wohnen, in den Wohnvierteln Bruderholz (43,3%) und Bachletten (42,0%) sowie in den Gemeinden Riehen (42,0%) und Bettingen (41,4%). Die kleinsten Anteile sesshafter Personen gibt es hingegen in den Wohnvierteln Vorstädte (28,4%), Altstadt Kleinbasel (28,0%) und Rosental (18,8%).",
 		"erlaeuterungen": "Anteil der seit mindestens zehn Jahren an der gleichen Adresse wohnenden Personen an der gesamten Wohnbevölkerung des Wohnviertels in Prozent. Ohne Personen an administrativen Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -524,7 +520,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-09T08:36:22",
+		"aktualisierungsdatum": "2022-03-10T01:29:35",
 		"id": 6385
 	},
 	{
@@ -566,42 +562,40 @@ var indikatorensetData = [
 		"id": 6386
 	},
 	{
-		"parentId": 6375,
-		"children": [],
 		"template": "mappie001",
+		"data-id": 6387,
+		"chart-id": 6387,
+		"filter": "",
+		"parentId": "6375",
+		"children": [],
 		"title": "Unter 20-Jährige nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "",
-		"kuerzelKunde": "K1-1",
-		"description": "Unter 20-Jährige nach Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,0%), Vorstädte (11,0%) und Altstadt Kleinbasel (9,8%). Am höchsten ist der Anteil der Kinder und Jugendlichen im Wohnviertel Bruderholz (22,3%) sowie in Riehen (21,3%) und Bettingen (21,6%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-02-18T08:54:10.1010",
+		"description": "Unter 20-Jährige nach Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.06387",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K1-1",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Am niedrigsten ist der Anteil der Personen unter 20 Jahren an der Gesamtbevölkerung in den Wohnvierteln Altstadt Grossbasel (10,3%), Vorstädte (11,1%) und Altstadt Kleinbasel (10,5%). Am höchsten ist der Anteil der Kinder und Jugendlichen in den Wohnvierteln Bruderholz (22,1%) und Hirzbrunnen (20,6%) sowie in der Gemeinde Riehen (20,8%).",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_001",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6387,
-		"chart-id": 6387,
-		"filter": "",
+		"aktualisierungsdatum": "2022-03-10T01:29:34",
 		"id": 6387
 	},
 	{
@@ -642,83 +636,79 @@ var indikatorensetData = [
 		"id": 6388
 	},
 	{
-		"parentId": 6377,
-		"children": [],
 		"template": "mappie001",
-		"title": "Gebäudedichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.09.1.06389",
-		"kuerzelKunde": "K9-1",
-		"description": "Gebäudedichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-01-29T09:16:07.077",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
-		"erlaeuterungen": "",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6389,
 		"chart-id": 6389,
 		"filter": "",
-		"id": 6389
-	},
-	{
-		"parentId": 6378,
+		"parentId": "6377",
 		"children": [],
-		"template": "mappie001",
-		"title": "Wohnungsdichte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Gefragte Karten",
-		"kuerzel": "I.09.1.06390",
-		"kuerzelKunde": "K9-2",
-		"description": "Wohnungsdichte nach Wohnviertel",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"title": "Gebäudedichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Die grösste Gebäudedichte verzeichnet das Wohnviertel Gotthelf mit rund 20 bewohnbaren Gebäuden pro Hektare. Am geringsten fällt sie im Wohnviertel Kleinhüningen mit gut einem Gebäude pro Hektare aus. Ein hoher Anteil an Reiheneinfamilienhäusern im Gotthelfquartier sowie ein hoher Anteil an grossen Mehrfamilienhäusern wie auch an Industrie- und Gewerbebauten im Wohnviertel Kleinhüningen sind die Hauptgründe.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-01-29T09:16:08.088",
+		"description": "Gebäudedichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.06389",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K9-1",
 		"stufe1": "kategoriell klassifiziert",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_007",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_008",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:36",
+		"id": 6389
+	},
+	{
+		"template": "mappie001",
+		"data-id": 6390,
+		"chart-id": 6390,
+		"filter": "",
+		"parentId": "6378",
+		"children": [],
+		"title": "Wohnungsdichte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Das Wohnviertel Matthäus weist mit rund 150 Wohnungen pro Hektare die höchste Wohnungsdichte auf. In der Einwohnergemeinde Bettingen ist sie mit gut 2 Wohnungen pro Hektare am geringsten.",
+		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
-		"data-id": 6390,
-		"chart-id": 6390,
-		"filter": "",
+		"description": "Wohnungsdichte nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.06390",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K9-2",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_008",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:36",
 		"id": 6390
 	},
 	{
@@ -837,89 +827,81 @@ var indikatorensetData = [
 		"id": 6394
 	},
 	{
-		"title": "Arbeitsstätten nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
-		"kuerzel": "I.03.2.06395",
-		"kuerzelKunde": "K3-2",
-		"description": "Arbeitsstätten nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-09-03T17:15:56.5656",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 62 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn).",
 		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_006",
-		"parentId": 6383,
-		"children": [],
-		"renderLink": [
-			"6383"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt",
-			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6395,
 		"chart-id": 6395,
 		"filter": "",
-		"id": 6395
-	},
-	{
-		"title": "Beschäftigte nach Wohnviertel",
-		"subtitle": "Basel-Stadt, 2018",
-		"kuerzel": "I.03.2.06396",
-		"kuerzelKunde": "K3-1",
-		"description": "Beschäftigte nach Wohnviertel",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Beschäftigte",
-		"kennzahlenset": "Gefragte Karten",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2020-09-03T17:15:58.5858",
-		"stufe1": "kategoriell klassifiziert",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 573 Beschäftigten pro 100 Einwohner den höchsten Wert auf, während der Wert im Wohnviertel Breite mit rund 17 Beschäftigten pro 100 Einwohner am tiefsten ausfällt.",
-		"erlaeuterungen": "Beschäftigte werden berücksichtigt, sofern sie aufgrund eines Mindesteinkommens von 2 300 Franken im Jahr AHV-Beiträge zahlen müssen. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
-		"template": "mappie001",
-		"darstellungsart": "Karte",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_005",
-		"parentId": 6384,
+		"parentId": "6383",
 		"children": [],
-		"renderLink": [
-			"6384"
-		],
+		"title": "Arbeitsstätten nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2019",
+		"lesehilfe": "Das Wohnviertel Altstadt Grossbasel weist mit rund 60 Arbeitsstätten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Hirzbrunnen mit rund 3 Arbeitsstätten pro 100 Einwohner den tiefsten.",
+		"erlaeuterungen": "Eine Arbeitsstätte ist ein an einem bestimmten Ort gelegenes Unternehmen (Einzelunternehmen) oder Teil eines Unternehmens (z. B. Werkstatt, Werk, Verkaufsladen, Büro, Dienststelle, Lager). An diesem Ort arbeiten eine oder mehrere Personen für dasselbe Unternehmen. Berücksichtigt werden alle Arbeitsstätten, die der AHV-Beitragspflicht unterstehen (ab 2 300 Franken Jahreslohn). Bei Unternehmen mit mehreren Arbeitsstätten wird die Struktur gemäss Angaben der Unternehmen erfasst. Dabei ist nicht auszuschliessen, dass es sich bei der Verteilung auf die verschiedenen Arbeitsstätten teilweise um rein administrative Zuordnungen handeln kann und nicht alle effektiv vorhandenen Arbeitsstätten abgebildet sind.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
 			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
 		],
+		"description": "Arbeitsstätten nach Wohnviertel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06395",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K3-2",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_006",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:35",
+		"id": 6395
+	},
+	{
+		"template": "mappie001",
 		"data-id": 6396,
 		"chart-id": 6396,
 		"filter": "",
+		"parentId": "6384",
+		"children": [],
+		"title": "Beschäftigte nach Wohnviertel",
+		"subtitle": "Basel-Stadt, 2019",
+		"lesehilfe": "Das Wohnviertel Vorstädte weist mit rund 580 Beschäftigten pro 100 Einwohner den höchsten Wert auf, das Wohnviertel Bruderholz mit rund 17 Beschäftigten pro 100 Einwohner den tiefsten.",
+		"erlaeuterungen": "Als Beschäftigte gelten Personen, die eine Tätigkeit ausüben und dafür einen AHV-pflichtigen Lohn von mindestens 2 300 Franken pro Jahr erhalten. Die Referenzperiode ist jeweils der Dezember des Jahres. Bei Unternehmen mit mehreren Arbeitsstätten werden die Beschäftigten gemäss Angaben der Unternehmen auf die verschiedenen Arbeitsstätten verteilt. Dabei ist nicht auszuschliessen, dass es sich teilweise um rein administrative Zuordnungen handeln kann und nicht alle Beschäftigten effektiv an dieser Arbeitsstätte bzw. Adresse tätig sind. Im Wohnviertel St. Johann sind auch die Beschäftigten im Schweizer Sektor des EuroAirports enthalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt",
+			"Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT)",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Beschäftigte nach Wohnviertel",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Beschäftigte",
+		"kuerzel": "I.03.2.06396",
+		"kennzahlenset": "Gefragte Karten",
+		"kuerzelKunde": "K3-1",
+		"stufe1": "kategoriell klassifiziert",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_005",
+		"darstellungsart": "Karte",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-10T01:29:35",
 		"id": 6396
 	},
 	{

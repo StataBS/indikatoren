@@ -5,29 +5,6 @@
       "data": [
         [
           "Basel-Stadt",
-          1217677
-        ],
-        [
-          "Basel-Landschaft",
-          282219
-        ],
-        [
-          "Jura",
-          106420
-        ],
-        [
-          "BS\u002FBL\u002FJU",
-          1606316
-        ]
-      ],
-      "name": "2016",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#0F7399",
-      "data": [
-        [
-          "Basel-Stadt",
           1328047
         ],
         [
@@ -47,7 +24,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
+      "color": "#0F7399",
       "data": [
         [
           "Basel-Stadt",
@@ -70,7 +47,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#A8C3CA",
+      "color": "#689199",
       "data": [
         [
           "Basel-Stadt",
@@ -93,7 +70,7 @@
       "turboThreshold": 0
     },
     {
-      "color": "#D3E2E4",
+      "color": "#A8C3CA",
       "data": [
         [
           "Basel-Stadt",
@@ -113,6 +90,29 @@
         ]
       ],
       "name": "2020",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "Basel-Stadt",
+          784607
+        ],
+        [
+          "Basel-Landschaft",
+          185228
+        ],
+        [
+          "Jura",
+          123667
+        ],
+        [
+          "BS\u002FBL\u002FJU",
+          1093502
+        ]
+      ],
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -248,7 +248,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-2"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-10"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
