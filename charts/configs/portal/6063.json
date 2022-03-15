@@ -5,10 +5,6 @@
       "legendIndex": 0,
       "data": [
         [
-          2001,
-          46.9
-        ],
-        [
           2002,
           46.8
         ],
@@ -83,6 +79,10 @@
         [
           2020,
           45.7
+        ],
+        [
+          2021,
+          45.5
         ]
       ],
       "name": "Schweiz"
@@ -92,10 +92,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2001,
-          44
-        ],
         [
           2002,
           43.9
@@ -171,6 +167,10 @@
         [
           2020,
           43.6
+        ],
+        [
+          2021,
+          43.5
         ]
       ],
       "name": "Schweizer"
@@ -180,10 +180,6 @@
       "legendIndex": 4,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2001,
-          49.3
-        ],
         [
           2002,
           49.2
@@ -259,6 +255,10 @@
         [
           2020,
           47.5
+        ],
+        [
+          2021,
+          47.3
         ]
       ],
       "name": "Schweizerinnen"
@@ -267,10 +267,6 @@
       "color": "#cd9c00",
       "legendIndex": 1,
       "data": [
-        [
-          2001,
-          33.6
-        ],
         [
           2002,
           33.8
@@ -346,6 +342,10 @@
         [
           2020,
           37.5
+        ],
+        [
+          2021,
+          37.7
         ]
       ],
       "name": "Ausland"
@@ -355,10 +355,6 @@
       "legendIndex": 2,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2001,
-          34.3
-        ],
         [
           2002,
           34.5
@@ -434,6 +430,10 @@
         [
           2020,
           37.8
+        ],
+        [
+          2021,
+          38
         ]
       ],
       "name": "Ausländer"
@@ -443,10 +443,6 @@
       "legendIndex": 5,
       "dashStyle": "ShortDash",
       "data": [
-        [
-          2001,
-          32.8
-        ],
         [
           2002,
           33.1
@@ -522,6 +518,10 @@
         [
           2020,
           37.2
+        ],
+        [
+          2021,
+          37.5
         ]
       ],
       "name": "Ausländerinnen"
@@ -659,7 +659,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-15"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-15"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -697,7 +697,7 @@
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y} Jahre\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: .1f} Jahre\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "6063"
