@@ -17,7 +17,7 @@
   },	
   "tooltip": {
     headerFormat: '<span style="font-size: 10px">{point.key}</span><br/>',
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} Jahre</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y: .1f} Jahre</b><br/>'
   },
  "series": [
   {"color": "#b00000", legendIndex: 0}, /*Schweiz*/
