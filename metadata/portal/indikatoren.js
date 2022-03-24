@@ -10321,6 +10321,46 @@ var indikatoren = [
 		"id": 5186
 	},
 	{
+		"template": "line001",
+		"data-id": 5189,
+		"chart-id": 5189,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8905
+		],
+		"title": "Anzahl Störfälle und Ereignisse",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2021 sind bei der Chemiefachberatung des Kantons 10 Alarmierungen aufgrund von ABC-Ereignissen eingegangen.",
+		"erlaeuterungen": "Der Indikator sagt aus, wie häufig die Chemiefachberatung von den kantonalen Einsatzkräften bei Ereignissen angefordert wurde. Die Häufigkeit von solchen Ereignissen mit Austritt von Chemikalien in die Umgebung ist ein Mass für die Qualität des Umgangs mit gefährlichen Stoffen. Veränderungen sind dabei besser zu erkennen, wenn man nicht nur die selten auftretenden Störfälle betrachtet. Die Anzahl der Ereignisse alleine sagt hingegen noch nichts über die Einwirkung eines Ereignisses auf die Umwelt aus, und ist deshalb immer in Verbindung mit der jeweiligen Bewertung zu betrachten.<br>Unter dem Begriff «Ereignisse» sind Alarmierungen an die Chemiefachberatung der Industriefeuerwehr Regio Basel (IFRB) zu verstehen. Es handelt sich dabei um Ereignisse mit radioaktiven, biologischen und/oder chemischen Gefahren. Als Störfall gilt nach Definition der Störfallverordnung (StFV) ein ausserordentliches Ereignis in einem Betrieb, auf einem Verkehrsweg oder in einer Rohrleitungsanlage, bei dem erhebliche Einwirkungen auftreten: a) ausserhalb des Betriebsareals, b) auf oder ausserhalb des Verkehrswegs, c) ausserhalb der Rohrleitungsanlage. <br>Die eigentliche Entscheidung, ob ein Ereignis als Störfall einzustufen ist, liegt im Ermessen der zuständigen Fachstelle.",
+		"quellenangabe": [
+			"Kantonales Laboratorium Basel-Stadt, Kontrollstelle für Chemie- und Biosicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Störfälle und Ereignisse",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Störfälle",
+		"kuerzel": "I.02.18.05189",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW12",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Sicherheit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_04_00_00_00_313",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-24T08:55:30",
+		"id": 5189
+	},
+	{
 		"template": "befragungen001",
 		"data-id": 5192,
 		"chart-id": 5192,
@@ -26606,7 +26646,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "39 575 Logiernächte wurden im Januar 2022 in den Basler Hotelbetrieben gebucht, 27 586 bzw. 41,1% weniger als im Dezember. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 109,9% bzw. 20 717 Übernachtungen. Die inländischen Gäste buchten 9 455 Logiernächte mehr (+82,9%), die Gäste aus dem Ausland 11 262 Übernachtungen (+151,0%).",
+		"lesehilfe": "49 376 Logiernächte wurden im Februar 2022 in den Basler Hotelbetrieben gebucht, 9 801 bzw. 24,8% mehr als im Januar. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 138,0% bzw. 28 628 Übernachtungen. Die inländischen Gäste buchten 24 483 Logiernächte (+103,6%), die Gäste aus dem Ausland 24 893 Übernachtungen (+185,5%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26632,7 +26672,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-25T07:42:08",
+		"aktualisierungsdatum": "2022-03-24T08:55:27",
 		"id": 7516
 	},
 	{
@@ -26643,8 +26683,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Januar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 25%.",
+		"subtitle": "Basel-Stadt, Februar",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -26670,7 +26710,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-25T07:42:09",
+		"aktualisierungsdatum": "2022-03-24T08:55:28",
 		"id": 7517
 	},
 	{
@@ -37272,7 +37312,7 @@ var indikatoren = [
 		],
 		"title": "Entwicklung Logiernächte",
 		"subtitle": "indexiert, 2014 = 100",
-		"lesehilfe": "Stark zugenommen haben zwischen 2014 und 2019 die Logiernächtezahlen in Basel-Stadt, insgesamt um 22,4%. Im Jahr 2020 wurden im Vergleich zu 2014 im Kanton Basel-Stadt (-53,1%) und Basel-Landschaft (-52,1%) pandemiebedingte hohe Rückgänge verzeichnet: Im Kanton Jura sank die Zahl der Übernachtungen lediglich um 9,6%. Der Wert der gesamten Schweiz sank um 34,0%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"lesehilfe": "Zwischen 2014 und 2019 haben die Logiernächte in Basel-Stadt zugenommen, insgesamt um 22,4%. In den Jahren 2020 und 2021 wurden im Kanton Basel-Stadt (46,9 bzw. 67,5 Indexpunkte) und Basel-Landschaft (47,9 bzw. 59,9 Indexpunkte) pandemiebedingte sehr tiefe Werte verzeichnet. Im Kanton Jura stieg 2021 die Zahl der Übernachtungen um 17,0%. Der Wert der gesamten Schweiz sank um 17,7%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
 		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -37298,7 +37338,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:56",
+		"aktualisierungsdatum": "2022-03-24T08:55:29",
 		"id": 8372
 	},
 	{
@@ -39018,7 +39058,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-18T08:55:19",
+		"aktualisierungsdatum": "2022-03-24T08:55:28",
 		"id": 8995
 	},
 	{
@@ -39443,7 +39483,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-18T08:55:20",
+		"aktualisierungsdatum": "2022-03-24T08:55:29",
 		"id": 9022
 	},
 	{
@@ -39481,7 +39521,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-18T08:55:20",
+		"aktualisierungsdatum": "2022-03-24T08:55:29",
 		"id": 9023
 	},
 	{

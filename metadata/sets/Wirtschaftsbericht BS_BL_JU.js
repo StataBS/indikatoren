@@ -896,7 +896,7 @@ var indikatorensetData = [
 		],
 		"title": "Entwicklung Logiernächte",
 		"subtitle": "indexiert, 2014 = 100",
-		"lesehilfe": "Stark zugenommen haben zwischen 2014 und 2019 die Logiernächtezahlen in Basel-Stadt, insgesamt um 22,4%. Im Jahr 2020 wurden im Vergleich zu 2014 im Kanton Basel-Stadt (-53,1%) und Basel-Landschaft (-52,1%) pandemiebedingte hohe Rückgänge verzeichnet: Im Kanton Jura sank die Zahl der Übernachtungen lediglich um 9,6%. Der Wert der gesamten Schweiz sank um 34,0%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
+		"lesehilfe": "Zwischen 2014 und 2019 haben die Logiernächte in Basel-Stadt zugenommen, insgesamt um 22,4%. In den Jahren 2020 und 2021 wurden im Kanton Basel-Stadt (46,9 bzw. 67,5 Indexpunkte) und Basel-Landschaft (47,9 bzw. 59,9 Indexpunkte) pandemiebedingte sehr tiefe Werte verzeichnet. Im Kanton Jura stieg 2021 die Zahl der Übernachtungen um 17,0%. Der Wert der gesamten Schweiz sank um 17,7%. <br>Zu den Logiernächtezahlen und der Bedeutung der Parahotellerie im Kanton Jura bitte die Erläuterungen und methodischen Hinweise beachten.",
 		"erlaeuterungen": "Logiernächte der geöffneten Hotels und Kurbetriebe. Seit 2017 einschliesslich 14 Betriebe der Schweizer Jugendherbergen, deren Merkmale den Kriterien der NOGA (Allgemeine Systematik der Wirtschaftszweige) für Hotels und ähnliche Unterkünfte weitgehend entsprechen.<br>Die Parahotellerie ist in dieser Auswertung nicht erfasst, sie hat insbesondere im Kanton Jura eine grosse Bedeutung.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Beherbergungsstatistik"
@@ -921,7 +921,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-03T08:04:56",
+		"aktualisierungsdatum": "2022-03-24T08:55:29",
 		"id": 8372
 	},
 	{
