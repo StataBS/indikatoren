@@ -30,6 +30,10 @@
         [
           2020,
           46.9
+        ],
+        [
+          2021,
+          67.5
         ]
       ],
       "name": "Basel-Stadt"
@@ -64,6 +68,10 @@
         [
           2020,
           47.9
+        ],
+        [
+          2021,
+          59.9
         ]
       ],
       "name": "Basel-Landschaft"
@@ -98,6 +106,10 @@
         [
           2020,
           90.4
+        ],
+        [
+          2021,
+          117
         ]
       ],
       "name": "Jura"
@@ -132,6 +144,10 @@
         [
           2020,
           50
+        ],
+        [
+          2021,
+          69.3
         ]
       ],
       "name": "BS\u002FBL\u002FJU"
@@ -166,6 +182,10 @@
         [
           2020,
           66
+        ],
+        [
+          2021,
+          82.3
         ]
       ],
       "name": "Schweiz"
@@ -303,7 +323,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Beherbergungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-24"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
