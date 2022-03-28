@@ -98,6 +98,18 @@
         [
           2018,
           null
+        ],
+        [
+          2019,
+          null
+        ],
+        [
+          2020,
+          null
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -201,6 +213,18 @@
         [
           2018,
           777
+        ],
+        [
+          2019,
+          747
+        ],
+        [
+          2020,
+          602
+        ],
+        [
+          2021,
+          577
         ]
       ],
       "name": "Anzahl Unfälle"
@@ -303,6 +327,18 @@
         [
           2018,
           473
+        ],
+        [
+          2019,
+          471
+        ],
+        [
+          2020,
+          366
+        ],
+        [
+          2021,
+          377
         ]
       ],
       "name": "Verunfallte Personen"
@@ -434,7 +470,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2020-4-7"
+    "text": "Quelle: Kantonspolizei Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-28"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

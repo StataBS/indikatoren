@@ -1,0 +1,1002 @@
+{
+  "series": [
+    {
+      "color": "#B00000",
+      "legendIndex": 1,
+      "yAxis": 1,
+      "data": [
+        [
+          1924,
+          5
+        ],
+        [
+          1925,
+          9
+        ],
+        [
+          1926,
+          7
+        ],
+        [
+          1927,
+          13
+        ],
+        [
+          1928,
+          17
+        ],
+        [
+          1929,
+          15
+        ],
+        [
+          1930,
+          17
+        ],
+        [
+          1931,
+          14
+        ],
+        [
+          1932,
+          10
+        ],
+        [
+          1933,
+          23
+        ],
+        [
+          1934,
+          23
+        ],
+        [
+          1935,
+          16
+        ],
+        [
+          1936,
+          18
+        ],
+        [
+          1937,
+          17
+        ],
+        [
+          1938,
+          11
+        ],
+        [
+          1939,
+          11
+        ],
+        [
+          1940,
+          13
+        ],
+        [
+          1941,
+          6
+        ],
+        [
+          1942,
+          14
+        ],
+        [
+          1943,
+          6
+        ],
+        [
+          1944,
+          13
+        ],
+        [
+          1945,
+          8
+        ],
+        [
+          1946,
+          16
+        ],
+        [
+          1947,
+          25
+        ],
+        [
+          1948,
+          16
+        ],
+        [
+          1949,
+          14
+        ],
+        [
+          1950,
+          16
+        ],
+        [
+          1951,
+          19
+        ],
+        [
+          1952,
+          23
+        ],
+        [
+          1953,
+          24
+        ],
+        [
+          1954,
+          29
+        ],
+        [
+          1955,
+          13
+        ],
+        [
+          1956,
+          16
+        ],
+        [
+          1957,
+          23
+        ],
+        [
+          1958,
+          20
+        ],
+        [
+          1959,
+          22
+        ],
+        [
+          1960,
+          12
+        ],
+        [
+          1961,
+          24
+        ],
+        [
+          1962,
+          31
+        ],
+        [
+          1963,
+          17
+        ],
+        [
+          1964,
+          21
+        ],
+        [
+          1965,
+          19
+        ],
+        [
+          1966,
+          24
+        ],
+        [
+          1967,
+          15
+        ],
+        [
+          1968,
+          22
+        ],
+        [
+          1969,
+          15
+        ],
+        [
+          1970,
+          27
+        ],
+        [
+          1971,
+          24
+        ],
+        [
+          1972,
+          22
+        ],
+        [
+          1973,
+          16
+        ],
+        [
+          1974,
+          12
+        ],
+        [
+          1975,
+          13
+        ],
+        [
+          1976,
+          17
+        ],
+        [
+          1977,
+          16
+        ],
+        [
+          1978,
+          17
+        ],
+        [
+          1979,
+          20
+        ],
+        [
+          1980,
+          16
+        ],
+        [
+          1981,
+          7
+        ],
+        [
+          1982,
+          18
+        ],
+        [
+          1983,
+          14
+        ],
+        [
+          1984,
+          10
+        ],
+        [
+          1985,
+          10
+        ],
+        [
+          1986,
+          8
+        ],
+        [
+          1987,
+          15
+        ],
+        [
+          1988,
+          12
+        ],
+        [
+          1989,
+          8
+        ],
+        [
+          1990,
+          7
+        ],
+        [
+          1991,
+          9
+        ],
+        [
+          1992,
+          11
+        ],
+        [
+          1993,
+          9
+        ],
+        [
+          1994,
+          9
+        ],
+        [
+          1995,
+          9
+        ],
+        [
+          1996,
+          6
+        ],
+        [
+          1997,
+          9
+        ],
+        [
+          1998,
+          9
+        ],
+        [
+          1999,
+          9
+        ],
+        [
+          2000,
+          3
+        ],
+        [
+          2001,
+          12
+        ],
+        [
+          2002,
+          8
+        ],
+        [
+          2003,
+          7
+        ],
+        [
+          2004,
+          3
+        ],
+        [
+          2005,
+          6
+        ],
+        [
+          2006,
+          2
+        ],
+        [
+          2007,
+          3
+        ],
+        [
+          2008,
+          6
+        ],
+        [
+          2009,
+          4
+        ],
+        [
+          2010,
+          4
+        ],
+        [
+          2011,
+          3
+        ],
+        [
+          2012,
+          5
+        ],
+        [
+          2013,
+          2
+        ],
+        [
+          2014,
+          2
+        ],
+        [
+          2015,
+          3
+        ],
+        [
+          2016,
+          4
+        ],
+        [
+          2017,
+          1
+        ],
+        [
+          2018,
+          2
+        ],
+        [
+          2019,
+          2
+        ],
+        [
+          2020,
+          3
+        ],
+        [
+          2021,
+          5
+        ]
+      ],
+      "name": "Verkehrstote (rechte Skala)"
+    },
+    {
+      "color": "#FABD24",
+      "legendIndex": 0,
+      "data": [
+        [
+          1924,
+          60
+        ],
+        [
+          1925,
+          170
+        ],
+        [
+          1926,
+          205
+        ],
+        [
+          1927,
+          213
+        ],
+        [
+          1928,
+          303
+        ],
+        [
+          1929,
+          385
+        ],
+        [
+          1930,
+          462
+        ],
+        [
+          1931,
+          443
+        ],
+        [
+          1932,
+          542
+        ],
+        [
+          1933,
+          483
+        ],
+        [
+          1934,
+          500
+        ],
+        [
+          1935,
+          517
+        ],
+        [
+          1936,
+          532
+        ],
+        [
+          1937,
+          559
+        ],
+        [
+          1938,
+          670
+        ],
+        [
+          1939,
+          633
+        ],
+        [
+          1940,
+          426
+        ],
+        [
+          1941,
+          447
+        ],
+        [
+          1942,
+          445
+        ],
+        [
+          1943,
+          415
+        ],
+        [
+          1944,
+          426
+        ],
+        [
+          1945,
+          485
+        ],
+        [
+          1946,
+          744
+        ],
+        [
+          1947,
+          856
+        ],
+        [
+          1948,
+          827
+        ],
+        [
+          1949,
+          910
+        ],
+        [
+          1950,
+          969
+        ],
+        [
+          1951,
+          1023
+        ],
+        [
+          1952,
+          1012
+        ],
+        [
+          1953,
+          1252
+        ],
+        [
+          1954,
+          1218
+        ],
+        [
+          1955,
+          1238
+        ],
+        [
+          1956,
+          1277
+        ],
+        [
+          1957,
+          1388
+        ],
+        [
+          1958,
+          1429
+        ],
+        [
+          1959,
+          1494
+        ],
+        [
+          1960,
+          1510
+        ],
+        [
+          1961,
+          1503
+        ],
+        [
+          1962,
+          1536
+        ],
+        [
+          1963,
+          1292
+        ],
+        [
+          1964,
+          1313
+        ],
+        [
+          1965,
+          1326
+        ],
+        [
+          1966,
+          1176
+        ],
+        [
+          1967,
+          1215
+        ],
+        [
+          1968,
+          1178
+        ],
+        [
+          1969,
+          1311
+        ],
+        [
+          1970,
+          1206
+        ],
+        [
+          1971,
+          1339
+        ],
+        [
+          1972,
+          1321
+        ],
+        [
+          1973,
+          1161
+        ],
+        [
+          1974,
+          1110
+        ],
+        [
+          1975,
+          1151
+        ],
+        [
+          1976,
+          1101
+        ],
+        [
+          1977,
+          1090
+        ],
+        [
+          1978,
+          1153
+        ],
+        [
+          1979,
+          1159
+        ],
+        [
+          1980,
+          1032
+        ],
+        [
+          1981,
+          973
+        ],
+        [
+          1982,
+          972
+        ],
+        [
+          1983,
+          977
+        ],
+        [
+          1984,
+          925
+        ],
+        [
+          1985,
+          854
+        ],
+        [
+          1986,
+          902
+        ],
+        [
+          1987,
+          792
+        ],
+        [
+          1988,
+          846
+        ],
+        [
+          1989,
+          772
+        ],
+        [
+          1990,
+          738
+        ],
+        [
+          1991,
+          748
+        ],
+        [
+          1992,
+          822
+        ],
+        [
+          1993,
+          864
+        ],
+        [
+          1994,
+          966
+        ],
+        [
+          1995,
+          971
+        ],
+        [
+          1996,
+          846
+        ],
+        [
+          1997,
+          926
+        ],
+        [
+          1998,
+          853
+        ],
+        [
+          1999,
+          849
+        ],
+        [
+          2000,
+          757
+        ],
+        [
+          2001,
+          696
+        ],
+        [
+          2002,
+          651
+        ],
+        [
+          2003,
+          659
+        ],
+        [
+          2004,
+          600
+        ],
+        [
+          2005,
+          688
+        ],
+        [
+          2006,
+          657
+        ],
+        [
+          2007,
+          600
+        ],
+        [
+          2008,
+          583
+        ],
+        [
+          2009,
+          563
+        ],
+        [
+          2010,
+          458
+        ],
+        [
+          2011,
+          388
+        ],
+        [
+          2012,
+          302
+        ],
+        [
+          2013,
+          397
+        ],
+        [
+          2014,
+          435
+        ],
+        [
+          2015,
+          470
+        ],
+        [
+          2016,
+          486
+        ],
+        [
+          2017,
+          445
+        ],
+        [
+          2018,
+          471
+        ],
+        [
+          2019,
+          469
+        ],
+        [
+          2020,
+          363
+        ],
+        [
+          2021,
+          372
+        ]
+      ],
+      "name": "Verletzte"
+    }
+  ],
+  "chart": {
+    "type": "line",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 30,
+    "renderTo": "container-9283"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      }
+    },
+    "line": {
+      "marker": {
+        "enabled": false,
+        "symbol": "circle"
+      }
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Anzahl Verletzte und Verkehrstote"
+  },
+  "subtitle": {
+    "text": "Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+          var interval = 8,
+            ext = this.getExtremes(),
+            i = ext.dataMax,
+            pos = [i];
+          while (i >= ext.dataMin) pos.unshift(i = i - interval);
+          return pos;
+        }
+  },
+  "yAxis": [
+    {
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "min": 0,
+      "tickInterval": 300,
+      "tickAmount": 7,
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    },
+    {
+      "opposite": true,
+      "min": 0,
+      "tickInterval": 10,
+      "tickAmount": 7,
+      "gridLineColor": "#B9CFD7",
+      "gridLineWidth": 0.5,
+      "lineColor": "#B9CFD7",
+      "title": {
+        "style": {
+          "color": "#000000",
+          "fontSize": null
+        },
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "#000000"
+        }
+      }
+    }
+  ],
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-28"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "shared": false,
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9283"
+  }
+}

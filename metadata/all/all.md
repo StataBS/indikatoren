@@ -486,7 +486,7 @@ id | visible | visibleInPortal | indikatorenset
 6173 | true | true | Legislaturplan-2017-2021
 6175 | true | true | Legislaturplan-2017-2021
 6176 | true | false | Legislaturplan-2017-2021
-6177 | true | true | Legislaturplan-2017-2021
+6177 | false |  | Legislaturplan-2017-2021
 6179 | true | true | Legislaturplan-2017-2021
 6181 | true | true | Legislaturplan-2017-2021
 6182 | true | true | Legislaturplan-2017-2021
@@ -590,7 +590,7 @@ id | visible | visibleInPortal | indikatorenset
 6321 | true | false | Legislaturplan-2017-2021 (Print)
 6322 | true | false | Legislaturplan (Print)
 6323 | true | false | Legislaturplan-2017-2021 (Print)
-6324 | true | false | Legislaturplan-2017-2021 (Print)
+6324 | false |  | Legislaturplan-2017-2021 (Print)
 6325 | false |  | Legislaturplan (Print)
 6326 | true | false | Legislaturplan-2017-2021 (Print)
 6327 | true | false | Legislaturplan-2017-2021 (Print)
@@ -2026,6 +2026,9 @@ id | visible | visibleInPortal | indikatorenset
 9237 | true | false | Arbeitsmarkt (Print)
 9238 | true | false | Arbeitsmarkt (Print)
 9239 | true | false | Arbeitsmarkt (Print)
+9274 | true | true | 
+9283 | true | true | 
+9287 | true | true | 
 9289 | true | true | Soziales
 9290 | true | true | Soziales
 9291 | true | true | Soziales
