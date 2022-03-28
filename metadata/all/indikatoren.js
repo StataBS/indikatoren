@@ -10755,45 +10755,44 @@ var indikatoren = [
 		"id": 5185
 	},
 	{
+		"template": "line001",
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8903,
+			9130
+		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.11.7.5186",
-		"kuerzelKunde": "GW10",
-		"description": "Strassenverkehrsunfälle und verunfallte Personen",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:51:23.2323",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.5186",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW10",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und 2 tödlich.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"template": "line001",
+		"orderKey": "03_04_00_00_00_311",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_04_00_00_00_311",
-		"parentId": null,
-		"children": [
-			"8903"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5186,
-		"chart-id": 5186,
-		"filter": "",
+		"aktualisierungsdatum": "2022-03-28T08:10:12",
 		"id": 5186
 	},
 	{
@@ -16850,46 +16849,6 @@ var indikatoren = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6177,
-		"chart-id": 6177,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6324
-		],
-		"title": "Anzahl Strassenverkehrsunfälle",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3 000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. Seit drei Jahren wird erneut eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
-		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Strassenverkehrsunfälle",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kuerzel": "I.11.7.6177",
-		"kennzahlenset": "Legislaturplan-2017-2021",
-		"kuerzelKunde": "10.2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_002",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:29",
-		"id": 6177
-	},
-	{
-		"template": "line001",
 		"data-id": 6179,
 		"chart-id": 6179,
 		"filter": "",
@@ -20915,44 +20874,6 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2021-12-24T08:32:14",
 		"id": 6323
-	},
-	{
-		"template": "line001_print",
-		"data-id": 6324,
-		"chart-id": 6324,
-		"filter": "",
-		"parentId": "6177",
-		"children": [],
-		"title": "Anzahl Strassenverkehrsunfälle",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3 000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. Seit drei Jahren wird erneut eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
-		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Strassenverkehrsunfälle",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kuerzel": "I.11.7.06324",
-		"kennzahlenset": "Legislaturplan-2017-2021 (Print)",
-		"kuerzelKunde": "10.2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_002",
-		"darstellungsart": "Diagramm",
-		"printformat": "small",
-		"visibleInPortal": false,
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-24T08:32:14",
-		"id": 6324
 	},
 	{
 		"template": "line001_print",
@@ -77151,6 +77072,120 @@ var indikatoren = [
 		"chart-id": 9239,
 		"filter": "",
 		"id": 9239
+	},
+	{
+		"template": "line001",
+		"data-id": 9274,
+		"chart-id": 9274,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Strassenverkehrsunfälle",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, davon 305 Unfälle mit Personenschaden.",
+		"erlaeuterungen": "Ab 1. April 1955 nur Unfälle mit Sachschaden ab 100 Franken pro Unfall. Ab 1956 nur Unfälle mit Sachschaden ab 200 Franken pro Unfall. Ab 1976 nur Unfälle mit Sachschaden ab 500 Franken pro Unfall. Seit 1980 einschliesslich Bagatellunfälle. Seit 1992 einschliesslich Unfälle unter 500 Franken Schaden; dabei handelt es sich meistens um Unfälle beim Parkieren. Seit 2011 sind beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) in der Statistik nicht mehr enthalten.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Strassenverkehrsunfälle",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.09274",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-28T08:10:10",
+		"id": 9274
+	},
+	{
+		"template": "line001",
+		"data-id": 9283,
+		"chart-id": 9283,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Verletzte und Verkehrstote",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 sind auf den baselstädtischen Strassen insgesamt 377 Personen verunfallt. Davon wurden 372 verletzt, 5 verloren dabei ihr Leben.",
+		"erlaeuterungen": "Verkehrstote: Personen, welche an der Unfallstelle ihr Leben verloren haben oder innert 30 Tagen nach dem Unfall an dessen Folgen gestorben sind; Suizide oder Tötungsabsicht werden nicht berücksichtigt.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Verletzte und Verkehrstote",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.09283",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-28T08:10:11",
+		"id": 9283
+	},
+	{
+		"template": "line001",
+		"data-id": 9287,
+		"chart-id": 9287,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 waren in Basel-Stadt 19 Personen an Verkehrsunfällen beteiligt, bei denen eine Geschwindigkeitsübertretung die Hauptursache war. Weitere Hauptursachen sind u. a. Alkohol (82 Beteiligte), Missachtung der Vortrittsregelungen (141 Beteiligte) sowie Missachten von Signalen und Zeichengebung (50 Beteiligte).",
+		"erlaeuterungen": "Am Verkehrsunfall beteiligte Fussgänger oder Fahrzeuglenkende (ohne Mitfahrende), Führer von Handwagen oder Arbeitsmaschinen (Bagger usw.), Benutzer fahrzeugähnlicher Geräte und Tierführer (Reiter, Kutscher usw.) gelten als Verkehrsteilnehmer, wenn sie sich auf einer öffentlichen Verkehrsfläche befinden. Mitfahrer gelten nur dann als Verkehrsteilnehmer, wenn sie aktiv am Verkehrsunfallgeschehen beteiligt sind (z. B. Griff ins Lenkrad). Pro Unfall (und auch pro Beteiligten) können mehrere mutmassliche Ursachen gemeldet werden.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt, Dienst für Verkehrssicherheit"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Beteiligte an Strassenverkehrsunfällen nach ausgewählten Unfallursachen",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.09287",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-28T08:10:11",
+		"id": 9287
 	},
 	{
 		"parentId": null,

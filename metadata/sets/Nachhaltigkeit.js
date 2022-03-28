@@ -785,44 +785,43 @@ var indikatorensetData = [
 		"id": 5185
 	},
 	{
+		"template": "line001",
+		"data-id": 5186,
+		"chart-id": 5186,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8903,
+			9130
+		],
 		"title": "Strassenverkehrsunfälle und verunfallte Personen",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.11.7.5186",
-		"kuerzelKunde": "GW10",
-		"description": "Strassenverkehrsunfälle und verunfallte Personen",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "2021 wurden auf den baselstädtischen Strassen 577 Unfälle durch die Polizei rapportiert, das sind 25 weniger als ein Jahr zuvor. Die Zahl der verunfallten Personen liegt bei 377, das sind 11 mehr als im Vorjahr.",
+		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
+		"quellenangabe": [
+			"Kantonspolizei Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-04-07T11:51:23.2323",
+		"description": "Strassenverkehrsunfälle und verunfallte Personen",
+		"thema": "11 Verkehr",
+		"unterthema": "Strassenverkehrsunfälle",
+		"kuerzel": "I.11.7.5186",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW10",
 		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
 		"stufe2": "Sicherheit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2018 wurden auf den baselstädtischen Strassen 777 Unfälle durch die Polizei rapportiert, das sind 58 weniger als ein Jahr zuvor. Trotz abnehmender Gesamtzahl der Verkehrsunfälle gab es mehr Unfälle mit Personenschaden (+25). 473 Personen wurden dabei verletzt, 96 davon schwer und 2 tödlich.",
-		"erlaeuterungen": "Seit 2017 sind bei der Anzahl Unfälle beanzeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"template": "line001",
+		"orderKey": "03_04_00_00_00_311",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_04_00_00_00_311",
-		"parentId": null,
-		"children": [
-			"8903"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5186,
-		"chart-id": 5186,
-		"filter": "",
+		"aktualisierungsdatum": "2022-03-28T08:10:12",
 		"id": 5186
 	},
 	{

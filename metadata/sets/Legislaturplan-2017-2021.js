@@ -1497,45 +1497,6 @@ var indikatorensetData = [
 	},
 	{
 		"template": "line001",
-		"data-id": 6177,
-		"chart-id": 6177,
-		"filter": "",
-		"parentId": null,
-		"children": [
-			6324
-		],
-		"title": "Anzahl Strassenverkehrsunfälle",
-		"subtitle": "Basel-Stadt",
-		"lesehilfe": "Von 1998 bis 2012 ist die Anzahl der Strassenverkehrsunfälle von knapp 3 000 auf rund 900 gesunken. Bis 2016 war ein leichter Anstieg zu beobachten. Seit drei Jahren wird erneut eine Abnahme der Verkehrsunfälle gegenüber dem Vorjahr verzeichnet.",
-		"erlaeuterungen": "Seit 2017 sind angezeigte Parkschäden mit pflichtwidrigem Verhalten (unbekannter Schadenverursacher) nicht mehr enthalten.",
-		"quellenangabe": [
-			"Kantonspolizei Basel-Stadt"
-		],
-		"externalLinks": [],
-		"renderLink": [],
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"description": "Anzahl Strassenverkehrsunfälle",
-		"thema": "11 Verkehr",
-		"unterthema": "Strassenverkehrsunfälle",
-		"kuerzel": "I.11.7.6177",
-		"kennzahlenset": "Legislaturplan-2017-2021",
-		"kuerzelKunde": "10.2",
-		"stufe1": "",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"orderKey": "_002",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:29",
-		"id": 6177
-	},
-	{
-		"template": "line001",
 		"data-id": 6179,
 		"chart-id": 6179,
 		"filter": "",
