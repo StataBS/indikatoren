@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          "2010",
-          7052
-        ],
-        [
           "2012",
           6776
         ],
@@ -150,7 +146,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -4,22 +4,6 @@
       "color": "#C8C8C8",
       "data": [
         [
-          "2011-01",
-          9
-        ],
-        [
-          "2011-02",
-          7
-        ],
-        [
-          "2011-03",
-          9
-        ],
-        [
-          "2011-04",
-          6
-        ],
-        [
           "2012-01",
           3
         ],
@@ -162,6 +146,22 @@
         [
           "2020-04",
           4
+        ],
+        [
+          "2021-01",
+          9
+        ],
+        [
+          "2021-02",
+          3
+        ],
+        [
+          "2021-03",
+          6
+        ],
+        [
+          "2021-04",
+          10
         ]
       ],
       "name": "Öffentliche Verwaltung, Sozialversicherungen",
@@ -170,22 +170,6 @@
     {
       "color": "#008AC3",
       "data": [
-        [
-          "2011-01",
-          71
-        ],
-        [
-          "2011-02",
-          69
-        ],
-        [
-          "2011-03",
-          118
-        ],
-        [
-          "2011-04",
-          66
-        ],
         [
           "2012-01",
           88
@@ -329,6 +313,22 @@
         [
           "2020-04",
           91
+        ],
+        [
+          "2021-01",
+          58
+        ],
+        [
+          "2021-02",
+          44
+        ],
+        [
+          "2021-03",
+          80
+        ],
+        [
+          "2021-04",
+          91
         ]
       ],
       "name": "Erziehung, Unterricht",
@@ -337,22 +337,6 @@
     {
       "color": "#6F6F6F",
       "data": [
-        [
-          "2011-01",
-          88
-        ],
-        [
-          "2011-02",
-          67
-        ],
-        [
-          "2011-03",
-          87
-        ],
-        [
-          "2011-04",
-          86
-        ],
         [
           "2012-01",
           88
@@ -496,6 +480,22 @@
         [
           "2020-04",
           111
+        ],
+        [
+          "2021-01",
+          94
+        ],
+        [
+          "2021-02",
+          79
+        ],
+        [
+          "2021-03",
+          79
+        ],
+        [
+          "2021-04",
+          95
         ]
       ],
       "name": "Gesundheits-, Sozialwesen",
@@ -504,22 +504,6 @@
     {
       "color": "#2B0099",
       "data": [
-        [
-          "2011-01",
-          58
-        ],
-        [
-          "2011-02",
-          107
-        ],
-        [
-          "2011-03",
-          114
-        ],
-        [
-          "2011-04",
-          46
-        ],
         [
           "2012-01",
           69
@@ -663,6 +647,22 @@
         [
           "2020-04",
           66
+        ],
+        [
+          "2021-01",
+          60
+        ],
+        [
+          "2021-02",
+          44
+        ],
+        [
+          "2021-03",
+          76
+        ],
+        [
+          "2021-04",
+          93
         ]
       ],
       "name": "Kultur, Unterhaltung, pers. DL",
@@ -796,7 +796,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -834,7 +834,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "6521"

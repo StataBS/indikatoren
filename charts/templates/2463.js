@@ -50,7 +50,7 @@
 		],
 		tooltip: {
 			"pointFormatter": function () {
-				return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + ' </b><br/><b>'
+				return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y), 0) + ' </b>'
 			},
 		},
 		"chart": {

@@ -2,7 +2,8 @@
     return {
   "plotOptions": {
     "series": {
-      "pointWidth": 25,
+      pointPadding: 0.1,
+      groupPadding: 0.1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -35,11 +36,13 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    itemWidth: 135,
     "itemStyle": {
+      textOverflow: null,
       "fontWeight": "normal"
     },
    "labelFormatter": function() {
-            return this.name.replace("Personenbef.", "Personenbeförderung");
+           return this.name.replace("Nahverkehr (ohne Taxis)", "Nahverkehr <br/>(ohne Taxis)");
           }
   },
   "series": [
@@ -73,8 +76,9 @@
       "legendIndex": 0  
     }        
   ],
-  "chart": {    
-    "type": "column"
+  "chart": {
+    "type": "column",
+    marginRight: 160,
   }
 	}
 }());

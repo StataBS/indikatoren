@@ -7,23 +7,23 @@
       "data": [
         [
           "BS",
-          27129
+          27854
         ],
         [
           "BL",
-          33021
+          33129
         ],
         [
           "AG",
-          76967
+          78263
         ],
         [
           "ZH",
-          197634
+          199641
         ],
         [
           "CH",
-          1186677
+          1196220
         ]
       ],
       "name": "\u003C10 VZÄ",
@@ -36,23 +36,23 @@
       "data": [
         [
           "BS",
-          30333
+          30793
         ],
         [
           "BL",
-          32868
+          34014
         ],
         [
           "AG",
-          72965
+          73117
         ],
         [
           "ZH",
-          209548
+          213627
         ],
         [
           "CH",
-          1128145
+          1143418
         ]
       ],
       "name": "10-49,9 VZÄ",
@@ -65,23 +65,23 @@
       "data": [
         [
           "BS",
-          37918
+          39746
         ],
         [
           "BL",
-          37077
+          35648
         ],
         [
           "AG",
-          69264
+          70040
         ],
         [
           "ZH",
-          209778
+          210233
         ],
         [
           "CH",
-          1060543
+          1056110
         ]
       ],
       "name": "50-249,9 VZÄ",
@@ -94,23 +94,23 @@
       "data": [
         [
           "BS",
-          55551
+          54070
         ],
         [
           "BL",
-          16314
+          16910
         ],
         [
           "AG",
-          49392
+          48435
         ],
         [
           "ZH",
-          193472
+          195468
         ],
         [
           "CH",
-          737855
+          744523
         ]
       ],
       "name": "250 VZÄ u.m.",
@@ -191,7 +191,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "Anteil der Vollzeitäquivalente, 2018"
+    "text": "Anteil der Vollzeitäquivalente, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -235,7 +235,7 @@
     }
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E ({point.percentage:.1f}% von {point.total:,.0f})\u003Cbr\u002F\u003E",
     "shared": false
   },
   "credits": {
@@ -251,7 +251,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "legend": {
     "layout": "horizontal",

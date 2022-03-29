@@ -4,44 +4,44 @@
       "color": "#D7E8D2",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          98.4
-        ],
-        [
           2012,
-          102.3
+          104
         ],
         [
           2013,
-          103.7
+          105.4
         ],
         [
           2014,
-          104.8
+          106.4
         ],
         [
           2015,
-          109.7
+          111.4
         ],
         [
           2016,
-          110.9
+          112.7
         ],
         [
           2017,
-          111.2
+          113
         ],
         [
           2018,
-          108
+          110.2
         ],
         [
           2019,
-          106.3
+          108.9
+        ],
+        [
+          2020,
+          110.1
         ]
       ],
       "name": "Handel, Reparatur"
@@ -50,44 +50,44 @@
       "color": "#73B97C",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          100.7
-        ],
-        [
           2012,
-          103.1
+          102.4
         ],
         [
           2013,
-          98.4
+          97.7
         ],
         [
           2014,
-          102.3
+          101.6
         ],
         [
           2015,
-          89.7
+          89.1
         ],
         [
           2016,
-          85.8
+          85.3
         ],
         [
           2017,
-          85.1
+          84.6
         ],
         [
           2018,
-          88.2
+          87.6
         ],
         [
           2019,
-          90.8
+          92.5
+        ],
+        [
+          2020,
+          73
         ]
       ],
       "name": "Verkehr, Lagerei"
@@ -96,44 +96,44 @@
       "color": "#007A2F",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          101.2
-        ],
-        [
           2012,
-          100.7
+          99.4
         ],
         [
           2013,
-          110.7
+          109.1
         ],
         [
           2014,
-          111.5
+          110
         ],
         [
           2015,
-          108.8
+          107
         ],
         [
           2016,
-          105.2
+          103.5
         ],
         [
           2017,
-          108.1
+          106.2
         ],
         [
           2018,
-          110.7
+          109.9
         ],
         [
           2019,
-          112.2
+          111
+        ],
+        [
+          2020,
+          46
         ]
       ],
       "name": "Gastgewerbe"
@@ -142,44 +142,44 @@
       "color": "#0A3B19",
       "data": [
         [
-          2010,
+          2011,
           100
         ],
         [
-          2011,
-          91.6
-        ],
-        [
           2012,
-          98.3
+          107.3
         ],
         [
           2013,
-          98.5
+          107.5
         ],
         [
           2014,
-          91.8
+          100.2
         ],
         [
           2015,
-          93
+          101.5
         ],
         [
           2016,
-          92.5
+          101
         ],
         [
           2017,
-          91.3
+          99.6
         ],
         [
           2018,
-          90.3
+          98.9
         ],
         [
           2019,
-          95.2
+          103.5
+        ],
+        [
+          2020,
+          100.8
         ]
       ],
       "name": "Information, Kommunikation"
@@ -239,7 +239,7 @@
     "text": "Wertschöpfungsentwicklung im Dienstleistungssektor (I)"
   },
   "subtitle": {
-    "text": "Basel-Stadt, real, indexiert (Jahr 2010 = 100)",
+    "text": "Basel-Stadt, real, indexiert (Jahr 2011 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -308,7 +308,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: BAK Economics.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -346,7 +346,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "2405"

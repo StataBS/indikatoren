@@ -1,83 +1,47 @@
 {
   "series": [
     {
-      "color": "#B00000",
-      "legendIndex": 2,
-      "data": [
-        [
-          "2011",
-          105.4
-        ],
-        [
-          "2012",
-          107.5
-        ],
-        [
-          "2013",
-          93.2
-        ],
-        [
-          "2014",
-          93.5
-        ],
-        [
-          "2015",
-          88.9
-        ],
-        [
-          "2016",
-          83.5
-        ],
-        [
-          "2017",
-          63.1
-        ],
-        [
-          "2018",
-          51.1
-        ]
-      ],
-      "name": "Bauschreinerei, Fenster und Türen",
-      "turboThreshold": 0
-    },
-    {
       "color": "#FF8028",
       "legendIndex": 1,
       "data": [
         [
           "2011",
-          198.1
+          103.9
         ],
         [
           "2012",
-          187.8
+          107
         ],
         [
           "2013",
-          218.8
+          82.7
         ],
         [
           "2014",
-          213.3
+          85.4
         ],
         [
           "2015",
-          201
+          80.5
         ],
         [
           "2016",
-          198.3
+          83.6
         ],
         [
           "2017",
-          277.9
+          63
         ],
         [
           "2018",
-          279.6
+          51
+        ],
+        [
+          "2019",
+          40.7
         ]
       ],
-      "name": "Schreinerarbeiten im Innenausbau",
+      "name": "Bauschreinerei, Fenster und Türen",
       "turboThreshold": 0
     },
     {
@@ -86,38 +50,42 @@
       "data": [
         [
           "2011",
-          3.5
+          204.4
         ],
         [
           "2012",
-          3.3
+          200.5
         ],
         [
           "2013",
-          2.3
+          227.2
         ],
         [
           "2014",
-          3.9
+          228.6
         ],
         [
           "2015",
-          5.2
+          214.4
         ],
         [
           "2016",
-          4.9
+          203.7
         ],
         [
           "2017",
-          3.5
+          281.5
         ],
         [
           "2018",
-          2.9
+          278.8
+        ],
+        [
+          "2019",
+          271.3
         ]
       ],
-      "name": "Sonstiges Schreinereigewerbe",
+      "name": "Schreinerarbeiten im Innenausbau und sonstiges Schreinereigewerbe",
       "turboThreshold": 0
     }
   ],
@@ -184,7 +152,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -236,7 +205,7 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "itemWidth": 180
+    "itemWidth": 120
   },
   "navigation": {
     "menuItemStyle": {
@@ -257,7 +226,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

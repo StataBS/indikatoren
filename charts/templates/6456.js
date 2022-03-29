@@ -37,7 +37,9 @@
         .replace("Personalvermittlung, -überlassung", "Personalvermittlung, <br/>-überlassung");
     },
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: "none",
+      whiteSpace: "nowrap",
     }
   },
   

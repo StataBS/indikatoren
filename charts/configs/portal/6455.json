@@ -5,35 +5,39 @@
       "data": [
         [
           2011,
-          0.8904825
+          0.8820696
         ],
         [
           2012,
-          0.8840209
+          0.8780179
         ],
         [
           2013,
-          0.8818779
+          0.8741883
         ],
         [
           2014,
-          0.8787231
+          0.8733403
         ],
         [
           2015,
-          0.8729933
+          0.8716492
         ],
         [
           2016,
-          0.8738822
+          0.8704906
         ],
         [
           2017,
-          0.8692753
+          0.8637243
         ],
         [
           2018,
-          0.868059
+          0.8643725
+        ],
+        [
+          2019,
+          0.8689941
         ]
       ],
       "name": "Männer"
@@ -43,35 +47,39 @@
       "data": [
         [
           2011,
-          0.7046279
+          0.6941411
         ],
         [
           2012,
-          0.6932103
+          0.6920878
         ],
         [
           2013,
-          0.704487
+          0.6946241
         ],
         [
           2014,
-          0.7001559
+          0.6938479
         ],
         [
           2015,
-          0.7050946
+          0.695482
         ],
         [
           2016,
-          0.7052739
+          0.6966483
         ],
         [
           2017,
-          0.7063241
+          0.6965459
         ],
         [
           2018,
-          0.7069301
+          0.7007733
+        ],
+        [
+          2019,
+          0.7078079
         ]
       ],
       "name": "Frauen"
@@ -81,35 +89,39 @@
       "data": [
         [
           2011,
-          0.8037344
+          0.7942777
         ],
         [
           2012,
-          0.7950478
+          0.7909173
         ],
         [
           2013,
-          0.7988232
+          0.7900425
         ],
         [
           2014,
-          0.7950704
+          0.789236
         ],
         [
           2015,
-          0.7938071
+          0.788604
         ],
         [
           2016,
-          0.7937954
+          0.7880388
         ],
         [
           2017,
-          0.7917547
+          0.7842009
         ],
         [
           2018,
-          0.7912239
+          0.7864348
+        ],
+        [
+          2019,
+          0.7922211
         ]
       ],
       "name": "Total"
@@ -144,6 +156,7 @@
 					}
 				}
     },
+    "marginRight": 20,
     "renderTo": "container-6455"
   },
   "plotOptions": {
@@ -213,9 +226,9 @@
         "color": "#000000"
       },
       "format": "{value:,.0f}",
-      "formatter": function(){
-        return Highcharts.numberFormat((this.value*100),0)+'%'; 
-      }
+      "formatter": function () {
+          return Highcharts.numberFormat((this.value * 100), 0) + '%';
+        }
     }
   },
   "legend": {
@@ -242,7 +255,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -279,9 +292,9 @@
 			}
   },
   "tooltip": {
-    "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y*100),1) + '% </b><br/><b>' 
-    }
+    "pointFormatter": function () {
+        return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y * 100), 1) + '% </b><br/><b>'
+      }
   },
   "exporting": {
     "filename": "6455"

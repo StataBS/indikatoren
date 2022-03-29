@@ -6,35 +6,39 @@
       "data": [
         [
           "2011",
-          936.7
+          977.5
         ],
         [
           "2012",
-          1174.8
+          1249.6
         ],
         [
           "2013",
-          1222.4
+          1281.6
         ],
         [
           "2014",
-          1237.8
+          1282.6
         ],
         [
           "2015",
-          1015.4
+          996.8
         ],
         [
           "2016",
-          1044.2
+          1009.9
         ],
         [
           "2017",
-          1146.7
+          1112.2
         ],
         [
           "2018",
-          1171.8
+          1144.3
+        ],
+        [
+          "2019",
+          1218.3
         ]
       ],
       "name": "Programmierungstätigkeiten",
@@ -46,35 +50,39 @@
       "data": [
         [
           "2011",
-          989.5
+          1106.5
         ],
         [
           "2012",
-          1215.6
+          1236.1
         ],
         [
           "2013",
-          1236.8
+          1264.2
         ],
         [
           "2014",
-          1071.3
+          1176.8
         ],
         [
           "2015",
-          1059.4
+          1076.9
         ],
         [
           "2016",
-          974.6
+          1048.9
         ],
         [
           "2017",
-          956.6
+          1051.3
         ],
         [
           "2018",
-          955
+          1041.9
+        ],
+        [
+          "2019",
+          1114
         ]
       ],
       "name": "IT-Beratung",
@@ -86,35 +94,39 @@
       "data": [
         [
           "2011",
-          109.1
+          116.4
         ],
         [
           "2012",
-          126.7
+          129.9
         ],
         [
           "2013",
-          153.5
+          154.3
         ],
         [
           "2014",
-          156.3
+          153.4
         ],
         [
           "2015",
-          151.9
+          162
         ],
         [
           "2016",
-          141.7
+          156.3
         ],
         [
           "2017",
-          161.1
+          177.6
         ],
         [
           "2018",
-          184.8
+          182.9
+        ],
+        [
+          "2019",
+          196.2
         ]
       ],
       "name": "Sonstige",
@@ -173,6 +185,7 @@
                 }
     },
     "type": "column",
+    "marginRight": 160,
     "renderTo": "container-7452",
     "spacingBottom": 40
   },
@@ -184,7 +197,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -229,12 +243,17 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
-    "align": "right"
+    "align": "right",
+    "itemWidth": 130,
+    "labelFormatter": function () {
+      return this.name.replace("Programmierungstätigkeiten", "Programmierungs-<br/>tätigkeiten");
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -255,7 +274,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

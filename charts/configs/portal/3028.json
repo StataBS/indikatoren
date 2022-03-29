@@ -8,22 +8,6 @@
       },
       "data": [
         [
-          "2011-1",
-          3987
-        ],
-        [
-          "2011-2",
-          2734
-        ],
-        [
-          "2011-3",
-          2890
-        ],
-        [
-          "2011-4",
-          2708
-        ],
-        [
           "2012-1",
           4945
         ],
@@ -166,6 +150,22 @@
         [
           "2020-4",
           1703
+        ],
+        [
+          "2021-1",
+          2229
+        ],
+        [
+          "2021-2",
+          2645
+        ],
+        [
+          "2021-3",
+          3367
+        ],
+        [
+          "2021-4",
+          2226
         ]
       ],
       "name": "BS",
@@ -175,22 +175,6 @@
       "color": "#FF8028",
       "index": 1,
       "data": [
-        [
-          "2011-1",
-          2037
-        ],
-        [
-          "2011-2",
-          1643
-        ],
-        [
-          "2011-3",
-          1685
-        ],
-        [
-          "2011-4",
-          1434
-        ],
         [
           "2012-1",
           2169
@@ -334,6 +318,22 @@
         [
           "2020-4",
           1242
+        ],
+        [
+          "2021-1",
+          2170
+        ],
+        [
+          "2021-2",
+          1899
+        ],
+        [
+          "2021-3",
+          2281
+        ],
+        [
+          "2021-4",
+          1363
         ]
       ],
       "name": "BL",
@@ -343,22 +343,6 @@
       "color": "#A8C3CA",
       "index": 1,
       "data": [
-        [
-          "2011-1",
-          4220
-        ],
-        [
-          "2011-2",
-          3215
-        ],
-        [
-          "2011-3",
-          4239
-        ],
-        [
-          "2011-4",
-          3090
-        ],
         [
           "2012-1",
           4782
@@ -502,6 +486,22 @@
         [
           "2020-4",
           2779
+        ],
+        [
+          "2021-1",
+          4049
+        ],
+        [
+          "2021-2",
+          4736
+        ],
+        [
+          "2021-3",
+          4738
+        ],
+        [
+          "2021-4",
+          2967
         ]
       ],
       "name": "AG",
@@ -511,22 +511,6 @@
       "color": "#008AC3",
       "index": 2,
       "data": [
-        [
-          "2011-1",
-          8796
-        ],
-        [
-          "2011-2",
-          7067
-        ],
-        [
-          "2011-3",
-          7643
-        ],
-        [
-          "2011-4",
-          8323
-        ],
         [
           "2012-1",
           11726
@@ -670,6 +654,22 @@
         [
           "2020-4",
           5243
+        ],
+        [
+          "2021-1",
+          7515
+        ],
+        [
+          "2021-2",
+          8178
+        ],
+        [
+          "2021-3",
+          10268
+        ],
+        [
+          "2021-4",
+          7340
         ]
       ],
       "name": "ZH",
@@ -807,7 +807,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -845,7 +845,7 @@
   },
   "tooltip": {
     "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b>' 
     }
   },
   "exporting": {

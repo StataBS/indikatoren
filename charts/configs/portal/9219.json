@@ -6,35 +6,39 @@
       "data": [
         [
           "2011",
-          1387.4
+          1366.3
         ],
         [
           "2012",
-          1375.4
+          1378.2
         ],
         [
           "2013",
-          1403.5
+          1409
         ],
         [
           "2014",
-          1338.7
+          1341.8
         ],
         [
           "2015",
-          1287.5
+          1286.3
         ],
         [
           "2016",
-          1298.7
+          1296.4
         ],
         [
           "2017",
-          1332.6
+          1330.8
         ],
         [
           "2018",
-          1284.4
+          1272.1
+        ],
+        [
+          "2019",
+          1250
         ]
       ],
       "name": "Schlachten, Fleischverarbeitung",
@@ -46,35 +50,39 @@
       "data": [
         [
           "2011",
-          100.3
+          99.4
         ],
         [
           "2012",
-          111.2
+          111.1
         ],
         [
           "2013",
-          103.3
+          103.5
         ],
         [
           "2014",
-          108.6
+          108.7
         ],
         [
           "2015",
-          108.1
+          108
         ],
         [
           "2016",
-          112.5
+          111.7
         ],
         [
           "2017",
-          112.1
+          112.8
         ],
         [
           "2018",
-          125.8
+          125.1
+        ],
+        [
+          "2019",
+          128.3
         ]
       ],
       "name": "Fischverarbeitung",
@@ -86,35 +94,39 @@
       "data": [
         [
           "2011",
-          322
+          313.7
         ],
         [
           "2012",
-          320.9
+          320.6
         ],
         [
           "2013",
-          306.6
+          312.3
         ],
         [
           "2014",
-          265.5
+          298.1
         ],
         [
           "2015",
-          351.1
+          385.2
         ],
         [
           "2016",
-          339.3
+          347.7
         ],
         [
           "2017",
-          362.1
+          363.6
         ],
         [
           "2018",
-          315.9
+          313.5
+        ],
+        [
+          "2019",
+          341
         ]
       ],
       "name": "Herstellung Back- und Teigwaren",
@@ -126,75 +138,39 @@
       "data": [
         [
           "2011",
-          220.4
+          218
         ],
         [
           "2012",
-          192.4
+          196
         ],
         [
           "2013",
-          197.4
+          194.4
         ],
         [
           "2014",
-          228.3
+          224.9
         ],
         [
           "2015",
-          232.7
+          225.1
         ],
         [
           "2016",
-          246.6
+          237
         ],
         [
           "2017",
-          252.1
+          247.2
         ],
         [
           "2018",
-          237.8
-        ]
-      ],
-      "name": "Herstellung sonst. Nahrungsmittel",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#662673",
-      "legendIndex": 2,
-      "data": [
-        [
-          "2011",
-          0.7
+          234.4
         ],
         [
-          "2012",
-          2.8
-        ],
-        [
-          "2013",
-          3.1
-        ],
-        [
-          "2014",
-          1.4
-        ],
-        [
-          "2015",
-          1.3
-        ],
-        [
-          "2016",
-          2.5
-        ],
-        [
-          "2017",
-          5
-        ],
-        [
-          "2018",
-          3
+          "2019",
+          235
         ]
       ],
       "name": "Sonstige Nahrungsmittelindustrie",
@@ -264,7 +240,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -316,7 +293,10 @@
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
-    "itemWidth": 150
+    "itemWidth": 130,
+    "labelFormatter": function () {
+      return this.name.replace("Nahrungsmittelindustrie", "Nahrungs-<br/>mittelindustrie");
+    }
   },
   "navigation": {
     "menuItemStyle": {
@@ -337,7 +317,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-24"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

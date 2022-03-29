@@ -3,7 +3,8 @@
         "plotOptions": {
             "series": {
                 borderWidth: 0,
-                "pointWidth": 25,
+                pointPadding: 0.1,
+                groupPadding: 0.1,
                 "dataLabels": {
                     "style": {
                         "fontSize": "10px"
@@ -30,16 +31,16 @@
             footerFormat: 'Total: <b>{point.total:,.0f}</b>',
             "shared": true,
             valueDecimals: 0
-          },
+        },
         "legend": {
             "enabled": true,
             "layout": "vertical",
             "verticalAlign": "middle",
             "itemMarginBottom": 5,
             "align": "right",
+            itemWidth: 130,
             "itemStyle": {
                 textOverflow: null,
-                width: 150,
                 "fontWeight": "normal"
             }
         },
@@ -62,7 +63,8 @@
             }
         ],
         "chart": {
-            "type": "column"
-        }
+            "type": "column",
+            marginRight: 160,
+          }
     }
 }());

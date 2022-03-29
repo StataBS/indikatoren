@@ -6,35 +6,39 @@
       "data": [
         [
           "2011",
-          95.2
+          96.9
         ],
         [
           "2012",
-          84.4
+          87.2
         ],
         [
           "2013",
-          99.1
+          86.5
         ],
         [
           "2014",
-          107.8
+          99.2
         ],
         [
           "2015",
-          99
+          104.6
         ],
         [
           "2016",
-          81.2
+          84.6
         ],
         [
           "2017",
-          75.2
+          78.7
         ],
         [
           "2018",
-          71.3
+          77
+        ],
+        [
+          "2019",
+          84.4
         ]
       ],
       "name": "Kauf und Verkauf",
@@ -46,35 +50,39 @@
       "data": [
         [
           "2011",
-          216.3
+          224.1
         ],
         [
           "2012",
-          215.8
+          230.8
         ],
         [
           "2013",
-          221.9
+          233.1
         ],
         [
           "2014",
-          217.9
+          242.5
         ],
         [
           "2015",
-          275.1
+          335.3
         ],
         [
           "2016",
-          326.4
+          410.5
         ],
         [
           "2017",
-          346.4
+          411.9
         ],
         [
           "2018",
-          352.7
+          427
+        ],
+        [
+          "2019",
+          446.9
         ]
       ],
       "name": "Vermietung, Verpachtung",
@@ -86,35 +94,39 @@
       "data": [
         [
           "2011",
-          85.5
+          94
         ],
         [
           "2012",
-          101.9
+          102.8
         ],
         [
           "2013",
-          129.9
+          126.7
         ],
         [
           "2014",
-          116.3
+          120.8
         ],
         [
           "2015",
-          107.9
+          120.5
         ],
         [
           "2016",
-          116.9
+          125.2
         ],
         [
           "2017",
-          124.9
+          125.2
         ],
         [
           "2018",
-          127.6
+          127.4
+        ],
+        [
+          "2019",
+          128.6
         ]
       ],
       "name": "Vermittlung für Dritte",
@@ -126,35 +138,39 @@
       "data": [
         [
           "2011",
-          1082
+          962.4
         ],
         [
           "2012",
-          1181.2
+          984
         ],
         [
           "2013",
-          1183.3
+          981.8
         ],
         [
           "2014",
-          1203.5
+          1068.5
         ],
         [
           "2015",
-          1002.8
+          988.8
         ],
         [
           "2016",
-          1042.1
+          990.7
         ],
         [
           "2017",
-          975.6
+          954.5
         ],
         [
           "2018",
-          1000.5
+          939.3
+        ],
+        [
+          "2019",
+          1020.3
         ]
       ],
       "name": "Verwaltung für Dritte",
@@ -209,6 +225,7 @@
 					}
 				}
     },
+    "marginRight": 160,
     "renderTo": "container-8683"
   },
   "plotOptions": {
@@ -217,7 +234,8 @@
         "enabled": false
       },
       "borderWidth": 0,
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -273,10 +291,10 @@
     "symbolRadius": 0,
     "itemStyle": {
       "fontWeight": "normal",
-      "textOverflow": null,
-      "width": 150
+      "textOverflow": null
     },
-    "itemMarginBottom": 5
+    "itemMarginBottom": 5,
+    "itemWidth": 130
   },
   "credits": {
     "enabled": true,
@@ -291,7 +309,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

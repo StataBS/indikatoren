@@ -4,22 +4,6 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2011-01",
-          65
-        ],
-        [
-          "2011-02",
-          84
-        ],
-        [
-          "2011-03",
-          121
-        ],
-        [
-          "2011-04",
-          101
-        ],
-        [
           "2012-01",
           59
         ],
@@ -162,6 +146,22 @@
         [
           "2020-04",
           65
+        ],
+        [
+          "2021-01",
+          55
+        ],
+        [
+          "2021-02",
+          72
+        ],
+        [
+          "2021-03",
+          58
+        ],
+        [
+          "2021-04",
+          101
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -170,22 +170,6 @@
     {
       "color": "#B375AB",
       "data": [
-        [
-          "2011-01",
-          314
-        ],
-        [
-          "2011-02",
-          266
-        ],
-        [
-          "2011-03",
-          356
-        ],
-        [
-          "2011-04",
-          283
-        ],
         [
           "2012-01",
           325
@@ -329,6 +313,22 @@
         [
           "2020-04",
           320
+        ],
+        [
+          "2021-01",
+          250
+        ],
+        [
+          "2021-02",
+          175
+        ],
+        [
+          "2021-03",
+          247
+        ],
+        [
+          "2021-04",
+          282
         ]
       ],
       "name": "Chemie, Pharma",
@@ -337,22 +337,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2011-01",
-          66
-        ],
-        [
-          "2011-02",
-          88
-        ],
-        [
-          "2011-03",
-          119
-        ],
-        [
-          "2011-04",
-          79
-        ],
         [
           "2012-01",
           63
@@ -496,6 +480,22 @@
         [
           "2020-04",
           35
+        ],
+        [
+          "2021-01",
+          24
+        ],
+        [
+          "2021-02",
+          16
+        ],
+        [
+          "2021-03",
+          76
+        ],
+        [
+          "2021-04",
+          42
         ]
       ],
       "name": "Baugewerbe",
@@ -630,7 +630,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -668,7 +668,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "2465"

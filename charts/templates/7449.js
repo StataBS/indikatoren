@@ -45,7 +45,6 @@
     "min": 0,
     "max": undefined,
     tickAmount: 6,
-    tickInterval: 20,
     "opposite": true
   }
   ],
