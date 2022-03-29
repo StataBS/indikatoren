@@ -4,44 +4,40 @@
       "color": "#E7CEE2",
       "data": [
         [
-          "2008",
-          8350
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          9202
+          9011
         ],
         [
           "2012",
-          8699
+          8356
         ],
         [
           "2013",
-          8176
+          7972
         ],
         [
           "2014",
-          8075
+          7940
         ],
         [
           "2015",
-          8144
+          8074
         ],
         [
           "2016",
-          8148
+          8048
         ],
         [
           "2017",
-          7888
+          7810
         ],
         [
           "2018",
-          7856
+          7788
+        ],
+        [
+          "2019",
+          7602
         ]
       ],
       "name": "Industrie (exkl. Chemie, Pharma)",
@@ -51,44 +47,40 @@
       "color": "#B375AB",
       "data": [
         [
-          "2008",
-          16651
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          17561
+          17730
         ],
         [
           "2012",
-          18243
+          17931
         ],
         [
           "2013",
-          18295
+          18079
         ],
         [
           "2014",
-          18483
+          18192
         ],
         [
           "2015",
-          18854
+          18578
         ],
         [
           "2016",
-          19030
+          18821
         ],
         [
           "2017",
-          18872
+          18571
         ],
         [
           "2018",
-          18235
+          18098
+        ],
+        [
+          "2019",
+          17730
         ]
       ],
       "name": "Chemie, Pharma",
@@ -98,44 +90,40 @@
       "color": "#662673",
       "data": [
         [
-          "2008",
-          7364
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          7418
+          7267
         ],
         [
           "2012",
-          7442
+          7360
         ],
         [
           "2013",
-          7318
+          7308
         ],
         [
           "2014",
-          7739
+          7686
         ],
         [
           "2015",
-          7825
+          7862
         ],
         [
           "2016",
-          7774
+          7763
         ],
         [
           "2017",
-          7538
+          7502
         ],
         [
           "2018",
-          7331
+          7327
+        ],
+        [
+          "2019",
+          7089
         ]
       ],
       "name": "Baugewerbe",
@@ -212,7 +200,7 @@
     "text": "Beschäftigung in Industrie und Baugewerbe"
   },
   "subtitle": {
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -265,7 +253,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

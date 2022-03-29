@@ -2125,6 +2125,10 @@ id | visible | visibleInPortal | indikatorenset
 9483 | true | false | City-Statistics (Print)
 9484 | true | false | City-Statistics (Print)
 9485 | true | false | City-Statistics (Print)
+9490 | true | true | Arbeitsmarkt
+9491 | true | true | Arbeitsmarkt
+9492 | true | true | Arbeitsmarkt
+9493 | true | true | Arbeitsmarkt
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

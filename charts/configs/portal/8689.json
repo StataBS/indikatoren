@@ -8,54 +8,6 @@
       },
       "data": [
         [
-          "2011-01",
-          9
-        ],
-        [
-          "2011-02",
-          8
-        ],
-        [
-          "2011-03",
-          11
-        ],
-        [
-          "2011-04",
-          12
-        ],
-        [
-          "2011-05",
-          13
-        ],
-        [
-          "2011-06",
-          12
-        ],
-        [
-          "2011-07",
-          10
-        ],
-        [
-          "2011-08",
-          8
-        ],
-        [
-          "2011-09",
-          10
-        ],
-        [
-          "2011-10",
-          12
-        ],
-        [
-          "2011-11",
-          13
-        ],
-        [
-          "2011-12",
-          14
-        ],
-        [
           "2012-01",
           11
         ],
@@ -486,6 +438,54 @@
         [
           "2020-12",
           10
+        ],
+        [
+          "2021-01",
+          10
+        ],
+        [
+          "2021-02",
+          10
+        ],
+        [
+          "2021-03",
+          10
+        ],
+        [
+          "2021-04",
+          11
+        ],
+        [
+          "2021-05",
+          12
+        ],
+        [
+          "2021-06",
+          10
+        ],
+        [
+          "2021-07",
+          8
+        ],
+        [
+          "2021-08",
+          9
+        ],
+        [
+          "2021-09",
+          11
+        ],
+        [
+          "2021-10",
+          11
+        ],
+        [
+          "2021-11",
+          10
+        ],
+        [
+          "2021-12",
+          8
         ]
       ],
       "name": "Monatliche Anzahl Arbeitslose",
@@ -563,7 +563,7 @@
     "text": "Arbeitslose in der Branche Private Haushaltsdienstleistungen"
   },
   "subtitle": {
-    "text": "in Vollzeitäquivalenten, Basel-Stadt",
+    "text": "Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -613,7 +613,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

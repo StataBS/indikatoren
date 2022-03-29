@@ -4,44 +4,40 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2008",
-          10619
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          10464
+          10678
         ],
         [
           "2012",
-          10237
+          10453
         ],
         [
           "2013",
-          10121
+          10292
         ],
         [
           "2014",
-          10186
+          10308
         ],
         [
           "2015",
-          10213
+          10205
         ],
         [
           "2016",
-          9910
+          9958
         ],
         [
           "2017",
-          9439
+          9506
         ],
         [
           "2018",
-          9531
+          9539
+        ],
+        [
+          "2019",
+          9562
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -51,44 +47,40 @@
       "color": "#FF8028",
       "data": [
         [
-          "2008",
-          15348
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          17700
+          17645
         ],
         [
           "2012",
-          18182
+          18026
         ],
         [
           "2013",
-          18830
+          18513
         ],
         [
           "2014",
-          19292
+          19099
         ],
         [
           "2015",
-          18857
+          18864
         ],
         [
           "2016",
-          19008
+          18979
         ],
         [
           "2017",
-          19597
+          19566
         ],
         [
           "2018",
-          19830
+          19821
+        ],
+        [
+          "2019",
+          20430
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -98,43 +90,39 @@
       "color": "#DC440E",
       "data": [
         [
-          "2008",
-          4580
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          5705
+          5540
         ],
         [
           "2012",
-          5643
+          5119
         ],
         [
           "2013",
-          5728
+          5519
         ],
         [
           "2014",
-          5863
+          5684
         ],
         [
           "2015",
-          5775
+          5721
         ],
         [
           "2016",
-          5749
+          5686
         ],
         [
           "2017",
-          5766
+          5809
         ],
         [
           "2018",
+          5608
+        ],
+        [
+          "2019",
           5570
         ]
       ],
@@ -145,44 +133,40 @@
       "color": "#B00000",
       "data": [
         [
-          "2008",
-          5837
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2011",
-          5681
+          5446
         ],
         [
           "2012",
-          5847
+          5650
         ],
         [
           "2013",
-          6594
+          6471
         ],
         [
           "2014",
-          6484
+          6470
         ],
         [
           "2015",
-          6086
+          5993
         ],
         [
           "2016",
-          6254
+          6155
         ],
         [
           "2017",
-          6419
+          6125
         ],
         [
           "2018",
-          6123
+          5989
+        ],
+        [
+          "2019",
+          6516
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -295,7 +279,9 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
     "width": 430,
     "itemWidth": 215,
@@ -320,7 +306,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

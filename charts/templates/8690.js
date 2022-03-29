@@ -2,6 +2,7 @@
   return {
     "plotOptions": {
       "series": {
+        borderWidth: 0,
         "dataLabels": {
           "enabled": false
         }
@@ -24,7 +25,7 @@
         }
       },
       "min": 0,
-      tickAmount: 6,
+      tickAmount: 7,
     },
     {
       gridLineColor: '#B9CFD7',
@@ -44,8 +45,7 @@
       },
       "min": 0,
       "max": undefined,
-      tickAmount: 6,
-      tickInterval: 10,
+      tickAmount: 7,
       "opposite": true
     }
     ],
@@ -66,7 +66,6 @@
       "layout": "horizontal",
       "verticalAlign": "top",
       "align": "left",
-      //"y": 35,
       "itemStyle": {
         "fontWeight": "normal"
       }
@@ -101,9 +100,9 @@
       valueDecimals: 0
     },
     // "chart": {
-    "zoomType": "xy",
-    "marginTop": 85,
-    "type": "line"
+    //"zoomType": "xy",
+    //"marginTop": 85,
+    //"type": "line"
     //}
   }
 }());

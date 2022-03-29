@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2011-01",
-          2
-        ],
-        [
-          "2011-02",
-          9
-        ],
-        [
-          "2011-03",
-          9
-        ],
-        [
-          "2011-04",
-          26
-        ],
-        [
           "2012-01",
           1
         ],
@@ -165,6 +149,22 @@
         [
           "2020-04",
           3
+        ],
+        [
+          "2021-01",
+          1
+        ],
+        [
+          "2021-02",
+          null
+        ],
+        [
+          "2021-03",
+          1
+        ],
+        [
+          "2021-04",
+          3
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -179,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2011-01",
-          258
-        ],
-        [
-          "2011-02",
-          244
-        ],
-        [
-          "2011-03",
-          247
-        ],
-        [
-          "2011-04",
-          265
-        ],
         [
           "2012-01",
           258
@@ -309,35 +293,51 @@
         ],
         [
           "2019-01",
-          155
+          148
         ],
         [
           "2019-02",
-          151
+          152
         ],
         [
           "2019-03",
-          142
+          133
         ],
         [
           "2019-04",
-          151
+          145
         ],
         [
           "2020-01",
-          136
+          135
         ],
         [
           "2020-02",
-          131
+          129
         ],
         [
           "2020-03",
-          137
+          136
         ],
         [
           "2020-04",
-          154
+          153
+        ],
+        [
+          "2021-01",
+          141
+        ],
+        [
+          "2021-02",
+          138
+        ],
+        [
+          "2021-03",
+          150
+        ],
+        [
+          "2021-04",
+          128
         ]
       ],
       "name": "Bestand Grenzgänger Holzwaren, Papier und Druckerzeugnisse",
@@ -352,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2011-01",
-          70
-        ],
-        [
-          "2011-02",
-          52
-        ],
-        [
-          "2011-03",
-          251
-        ],
-        [
-          "2011-04",
-          75
-        ],
         [
           "2012-01",
           59
@@ -511,6 +495,22 @@
         [
           "2020-04",
           60
+        ],
+        [
+          "2021-01",
+          29
+        ],
+        [
+          "2021-02",
+          33
+        ],
+        [
+          "2021-03",
+          107
+        ],
+        [
+          "2021-04",
+          75
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Industrie, Herstellung von Waren",
@@ -643,7 +643,6 @@
       "min": 0,
       "max": undefined,
       "tickAmount": 7,
-      "tickInterval": 10,
       "opposite": true
     }
   ],
@@ -676,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "shared": true,

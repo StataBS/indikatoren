@@ -5,22 +5,6 @@
       "index": 1,
       "data": [
         [
-          "2011-01",
-          532
-        ],
-        [
-          "2011-02",
-          562
-        ],
-        [
-          "2011-03",
-          693
-        ],
-        [
-          "2011-04",
-          539
-        ],
-        [
           "2012-01",
           604
         ],
@@ -163,6 +147,22 @@
         [
           "2020-04",
           598
+        ],
+        [
+          "2021-01",
+          455
+        ],
+        [
+          "2021-02",
+          371
+        ],
+        [
+          "2021-03",
+          524
+        ],
+        [
+          "2021-04",
+          652
         ]
       ],
       "name": "Frauen",
@@ -172,22 +172,6 @@
       "color": "#008AC3",
       "index": 1,
       "data": [
-        [
-          "2011-01",
-          937
-        ],
-        [
-          "2011-02",
-          1021
-        ],
-        [
-          "2011-03",
-          1274
-        ],
-        [
-          "2011-04",
-          1031
-        ],
         [
           "2012-01",
           1071
@@ -331,6 +315,22 @@
         [
           "2020-04",
           877
+        ],
+        [
+          "2021-01",
+          814
+        ],
+        [
+          "2021-02",
+          649
+        ],
+        [
+          "2021-03",
+          1023
+        ],
+        [
+          "2021-04",
+          965
         ]
       ],
       "name": "Männer",
@@ -468,7 +468,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -506,7 +506,7 @@
   },
   "tooltip": {
     "pointFormatter": function(){
-      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b><br/><b>' 
+      return '<span style="color:' + this.series.color + '">\u25CF</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat((this.y),0) + ' </b>' 
     }
   },
   "exporting": {

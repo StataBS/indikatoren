@@ -4,22 +4,6 @@
       "color": "#FFBB58",
       "data": [
         [
-          "2011-1",
-          555
-        ],
-        [
-          "2011-2",
-          376
-        ],
-        [
-          "2011-3",
-          799
-        ],
-        [
-          "2011-4",
-          719
-        ],
-        [
           "2012-1",
           13
         ],
@@ -162,6 +146,22 @@
         [
           "2020-4",
           389
+        ],
+        [
+          "2021-1",
+          150
+        ],
+        [
+          "2021-2",
+          9
+        ],
+        [
+          "2021-3",
+          185
+        ],
+        [
+          "2021-4",
+          42
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,22 +170,6 @@
     {
       "color": "#FF8028",
       "data": [
-        [
-          "2011-1",
-          5720
-        ],
-        [
-          "2011-2",
-          4718
-        ],
-        [
-          "2011-3",
-          3684
-        ],
-        [
-          "2011-4",
-          4307
-        ],
         [
           "2012-1",
           5873
@@ -329,6 +313,22 @@
         [
           "2020-4",
           3389
+        ],
+        [
+          "2021-1",
+          1297
+        ],
+        [
+          "2021-2",
+          3345
+        ],
+        [
+          "2021-3",
+          4161
+        ],
+        [
+          "2021-4",
+          3746
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien",
@@ -337,22 +337,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2011-1",
-          5380
-        ],
-        [
-          "2011-2",
-          2966
-        ],
-        [
-          "2011-3",
-          2678
-        ],
-        [
-          "2011-4",
-          2119
-        ],
         [
           "2012-1",
           7275
@@ -496,6 +480,22 @@
         [
           "2020-4",
           1991
+        ],
+        [
+          "2021-1",
+          772
+        ],
+        [
+          "2021-2",
+          1893
+        ],
+        [
+          "2021-3",
+          5754
+        ],
+        [
+          "2021-4",
+          4622
         ]
       ],
       "name": "Gebäudebetreuung, Sicherheit, sonst. wirtsch. DL",
@@ -504,22 +504,6 @@
     {
       "color": "#B00000",
       "data": [
-        [
-          "2011-1",
-          11052
-        ],
-        [
-          "2011-2",
-          15436
-        ],
-        [
-          "2011-3",
-          22824
-        ],
-        [
-          "2011-4",
-          17071
-        ],
         [
           "2012-1",
           10265
@@ -663,6 +647,22 @@
         [
           "2020-4",
           22535
+        ],
+        [
+          "2021-1",
+          13597
+        ],
+        [
+          "2021-2",
+          19630
+        ],
+        [
+          "2021-3",
+          35744
+        ],
+        [
+          "2021-4",
+          23121
         ]
       ],
       "name": "Personalvermittlung, -überlassung",
@@ -798,7 +798,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -836,7 +836,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "6452"

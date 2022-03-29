@@ -24,9 +24,9 @@
       }
     },
     "min": 0,
-    tickAmount: 8,
+    tickAmount: 7,
   },
-  {
+  /*{
     gridLineColor: '#B9CFD7', 
     gridLineWidth: 0.5,
     "title": {
@@ -47,7 +47,7 @@
     tickAmount: 6,
     tickInterval: 20,
     "opposite": true
-  }
+  }*/
   ],
   "xAxis": {
     lineColor: '#B9CFD7', 

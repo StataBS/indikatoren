@@ -4,22 +4,6 @@
       "color": "#73B97C",
       "data": [
         [
-          "2011-01",
-          88
-        ],
-        [
-          "2011-02",
-          96
-        ],
-        [
-          "2011-03",
-          124
-        ],
-        [
-          "2011-04",
-          92
-        ],
-        [
           "2012-01",
           82
         ],
@@ -162,6 +146,22 @@
         [
           "2020-04",
           70
+        ],
+        [
+          "2021-01",
+          69
+        ],
+        [
+          "2021-02",
+          51
+        ],
+        [
+          "2021-03",
+          63
+        ],
+        [
+          "2021-04",
+          108
         ]
       ],
       "name": "Handel, Reparatur",
@@ -170,22 +170,6 @@
     {
       "color": "#007A2F",
       "data": [
-        [
-          "2011-01",
-          52
-        ],
-        [
-          "2011-02",
-          68
-        ],
-        [
-          "2011-03",
-          53
-        ],
-        [
-          "2011-04",
-          51
-        ],
         [
           "2012-01",
           63
@@ -329,6 +313,22 @@
         [
           "2020-04",
           48
+        ],
+        [
+          "2021-01",
+          22
+        ],
+        [
+          "2021-02",
+          35
+        ],
+        [
+          "2021-03",
+          74
+        ],
+        [
+          "2021-04",
+          45
         ]
       ],
       "name": "Verkehr, Lagerei, Kommunikation",
@@ -337,22 +337,6 @@
     {
       "color": "#0A3B19",
       "data": [
-        [
-          "2011-01",
-          106
-        ],
-        [
-          "2011-02",
-          114
-        ],
-        [
-          "2011-03",
-          103
-        ],
-        [
-          "2011-04",
-          105
-        ],
         [
           "2012-01",
           101
@@ -496,6 +480,22 @@
         [
           "2020-04",
           31
+        ],
+        [
+          "2021-01",
+          25
+        ],
+        [
+          "2021-02",
+          20
+        ],
+        [
+          "2021-03",
+          46
+        ],
+        [
+          "2021-04",
+          52
         ]
       ],
       "name": "Gastgewerbe",
@@ -630,7 +630,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -668,7 +668,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "2466"

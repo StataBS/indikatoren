@@ -6,38 +6,42 @@
       "data": [
         [
           "2011",
-          1204.5
+          1189
         ],
         [
           "2012",
-          1222.3
+          1217
         ],
         [
           "2013",
-          1223
+          1276.2
         ],
         [
           "2014",
-          1220.6
+          1278.6
         ],
         [
           "2015",
-          1069.6
+          1206.6
         ],
         [
           "2016",
-          1047.1
+          1173
         ],
         [
           "2017",
-          1028.1
+          1148.4
         ],
         [
           "2018",
-          1029.2
+          1171
+        ],
+        [
+          "2019",
+          1184.6
         ]
       ],
-      "name": "Personenbef. Schiene",
+      "name": "Personenbeförderung Schiene",
       "turboThreshold": 0
     },
     {
@@ -46,35 +50,39 @@
       "data": [
         [
           "2011",
-          673.3
+          633.2
         ],
         [
           "2012",
-          626.8
+          608.4
         ],
         [
           "2013",
-          537.7
+          528.6
         ],
         [
           "2014",
-          537.5
+          530.5
         ],
         [
           "2015",
-          76.5
+          76.6
         ],
         [
           "2016",
-          67.4
+          67.2
         ],
         [
           "2017",
-          65.3
+          65.4
         ],
         [
           "2018",
           65.2
+        ],
+        [
+          "2019",
+          50.5
         ]
       ],
       "name": "Güterbeförderung Schiene",
@@ -86,35 +94,39 @@
       "data": [
         [
           "2011",
-          954.5
+          991
         ],
         [
           "2012",
-          976.4
+          975
         ],
         [
           "2013",
-          1024.1
+          1023.7
         ],
         [
           "2014",
-          941.1
+          940.2
         ],
         [
           "2015",
-          986.3
+          980.3
         ],
         [
           "2016",
-          971.1
+          960.2
         ],
         [
           "2017",
-          982.6
+          970.8
         ],
         [
           "2018",
-          975
+          977.7
+        ],
+        [
+          "2019",
+          1049
         ]
       ],
       "name": "Nahverkehr (ohne Taxis)",
@@ -126,35 +138,39 @@
       "data": [
         [
           "2011",
-          416.7
+          397.2
         ],
         [
           "2012",
-          422.4
+          411.4
         ],
         [
           "2013",
-          430.2
+          427.4
         ],
         [
           "2014",
-          387.2
+          405
         ],
         [
           "2015",
-          426
+          423.4
         ],
         [
           "2016",
-          407.3
+          404.2
         ],
         [
           "2017",
-          417.1
+          415
         ],
         [
           "2018",
-          374.8
+          372.6
+        ],
+        [
+          "2019",
+          384.8
         ]
       ],
       "name": "Taxis",
@@ -166,38 +182,42 @@
       "data": [
         [
           "2011",
-          77.6
+          78.2
         ],
         [
           "2012",
-          81.7
+          83.7
         ],
         [
           "2013",
-          82.7
+          82.8
         ],
         [
           "2014",
-          84.3
+          85.6
         ],
         [
           "2015",
-          95.4
+          95
         ],
         [
           "2016",
-          93.2
+          92.6
         ],
         [
           "2017",
-          92.5
+          94.9
         ],
         [
           "2018",
-          56.9
+          57.6
+        ],
+        [
+          "2019",
+          63.9
         ]
       ],
-      "name": "Sonstige Personenbef.",
+      "name": "Sonstige Personenbeförderung",
       "turboThreshold": 0
     },
     {
@@ -206,35 +226,39 @@
       "data": [
         [
           "2011",
-          890
+          865.1
         ],
         [
           "2012",
-          943.1
+          910
         ],
         [
           "2013",
-          999.4
+          955.3
         ],
         [
           "2014",
-          874.8
+          893.9
         ],
         [
           "2015",
-          879.5
+          854.4
         ],
         [
           "2016",
-          817.2
+          814.6
         ],
         [
           "2017",
-          819
+          782.9
         ],
         [
           "2018",
-          759.1
+          763.9
+        ],
+        [
+          "2019",
+          815
         ]
       ],
       "name": "Güterbeförderung Strasse",
@@ -246,35 +270,39 @@
       "data": [
         [
           "2011",
-          65.5
+          75.2
         ],
         [
           "2012",
-          72.1
+          82.8
         ],
         [
           "2013",
-          93.9
+          101.6
         ],
         [
           "2014",
-          97.6
+          108.7
         ],
         [
           "2015",
-          105.6
-        ],
-        [
-          "2016",
-          128.2
-        ],
-        [
-          "2017",
           118.2
         ],
         [
+          "2016",
+          127.9
+        ],
+        [
+          "2017",
+          117.7
+        ],
+        [
           "2018",
-          123.2
+          122.8
+        ],
+        [
+          "2019",
+          131.7
         ]
       ],
       "name": "Umzugstransporte",
@@ -333,6 +361,7 @@
                 }
     },
     "type": "column",
+    "marginRight": 160,
     "renderTo": "container-7447",
     "spacingBottom": 40
   },
@@ -344,7 +373,8 @@
           "fontSize": "10px"
         }
       },
-      "pointWidth": 25,
+      "pointPadding": 0.1,
+      "groupPadding": 0.1,
       "stacking": "normal"
     }
   },
@@ -389,14 +419,16 @@
   "legend": {
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": null
     },
     "layout": "vertical",
     "verticalAlign": "middle",
     "itemMarginBottom": 5,
     "align": "right",
+    "itemWidth": 135,
     "labelFormatter": function() {
-            return this.name.replace("Personenbef.", "Personenbeförderung");
+           return this.name.replace("Nahverkehr (ohne Taxis)", "Nahverkehr <br/>(ohne Taxis)");
           }
   },
   "navigation": {
@@ -418,7 +450,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Statistik der Unternehmensstruktur (STATENT).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

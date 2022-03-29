@@ -4,22 +4,6 @@
       "color": "#FF8028",
       "data": [
         [
-          "2011-01",
-          23
-        ],
-        [
-          "2011-02",
-          19
-        ],
-        [
-          "2011-03",
-          14
-        ],
-        [
-          "2011-04",
-          12
-        ],
-        [
           "2012-01",
           12
         ],
@@ -162,6 +146,22 @@
         [
           "2020-04",
           11
+        ],
+        [
+          "2021-01",
+          7
+        ],
+        [
+          "2021-02",
+          14
+        ],
+        [
+          "2021-03",
+          13
+        ],
+        [
+          "2021-04",
+          12
         ]
       ],
       "name": "Finanz-, Versicherungs-DL",
@@ -170,22 +170,6 @@
     {
       "color": "#DC440E",
       "data": [
-        [
-          "2011-01",
-          520
-        ],
-        [
-          "2011-02",
-          586
-        ],
-        [
-          "2011-03",
-          719
-        ],
-        [
-          "2011-04",
-          627
-        ],
         [
           "2012-01",
           704
@@ -329,6 +313,22 @@
         [
           "2020-04",
           610
+        ],
+        [
+          "2021-01",
+          584
+        ],
+        [
+          "2021-02",
+          458
+        ],
+        [
+          "2021-03",
+          720
+        ],
+        [
+          "2021-04",
+          677
         ]
       ],
       "name": "Beratung, Planung, Forschung, Immobilien, IT, sonst. DL",
@@ -462,7 +462,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -500,7 +500,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "6520"

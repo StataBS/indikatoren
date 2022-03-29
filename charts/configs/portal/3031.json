@@ -4,22 +4,6 @@
       "color": "#B375AB",
       "data": [
         [
-          "2011-1",
-          7502
-        ],
-        [
-          "2011-2",
-          5512
-        ],
-        [
-          "2011-3",
-          17350
-        ],
-        [
-          "2011-4",
-          6809
-        ],
-        [
           "2012-1",
           7715
         ],
@@ -162,6 +146,22 @@
         [
           "2020-4",
           5894
+        ],
+        [
+          "2021-1",
+          3121
+        ],
+        [
+          "2021-2",
+          4427
+        ],
+        [
+          "2021-3",
+          9836
+        ],
+        [
+          "2021-4",
+          7334
         ]
       ],
       "name": "Industrie (inkl. Chemie, Pharma)",
@@ -170,22 +170,6 @@
     {
       "color": "#662673",
       "data": [
-        [
-          "2011-1",
-          18834
-        ],
-        [
-          "2011-2",
-          14221
-        ],
-        [
-          "2011-3",
-          18963
-        ],
-        [
-          "2011-4",
-          16091
-        ],
         [
           "2012-1",
           27379
@@ -329,6 +313,22 @@
         [
           "2020-4",
           9659
+        ],
+        [
+          "2021-1",
+          8052
+        ],
+        [
+          "2021-2",
+          10281
+        ],
+        [
+          "2021-3",
+          18139
+        ],
+        [
+          "2021-4",
+          10635
         ]
       ],
       "name": "Baugewerbe",
@@ -465,7 +465,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
@@ -503,7 +503,7 @@
   },
   "tooltip": {
     "shared": false,
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E"
   },
   "exporting": {
     "filename": "3031"

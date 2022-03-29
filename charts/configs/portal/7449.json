@@ -7,22 +7,6 @@
       "yAxis": 1,
       "data": [
         [
-          "2011-01",
-          13
-        ],
-        [
-          "2011-02",
-          12
-        ],
-        [
-          "2011-03",
-          20
-        ],
-        [
-          "2011-04",
-          11
-        ],
-        [
           "2012-01",
           10
         ],
@@ -165,6 +149,22 @@
         [
           "2020-04",
           38
+        ],
+        [
+          "2021-01",
+          7
+        ],
+        [
+          "2021-02",
+          19
+        ],
+        [
+          "2021-03",
+          25
+        ],
+        [
+          "2021-04",
+          29
         ]
       ],
       "name": "Zuwanderung Erwerbstätige (rechte Skala)",
@@ -179,22 +179,6 @@
       "index": 1,
       "type": "line",
       "data": [
-        [
-          "2011-01",
-          704
-        ],
-        [
-          "2011-02",
-          695
-        ],
-        [
-          "2011-03",
-          706
-        ],
-        [
-          "2011-04",
-          707
-        ],
         [
           "2012-01",
           719
@@ -309,35 +293,51 @@
         ],
         [
           "2019-01",
-          574
+          585
         ],
         [
           "2019-02",
-          558
+          567
         ],
         [
           "2019-03",
-          576
+          592
         ],
         [
           "2019-04",
-          564
+          583
         ],
         [
           "2020-01",
-          570
-        ],
-        [
-          "2020-02",
-          563
-        ],
-        [
-          "2020-03",
           573
         ],
         [
+          "2020-02",
+          567
+        ],
+        [
+          "2020-03",
+          576
+        ],
+        [
           "2020-04",
-          559
+          563
+        ],
+        [
+          "2021-01",
+          560
+        ],
+        [
+          "2021-02",
+          563
+        ],
+        [
+          "2021-03",
+          567
+        ],
+        [
+          "2021-04",
+          567
         ]
       ],
       "name": "Bestand Grenzgänger",
@@ -352,22 +352,6 @@
       "index": 2,
       "type": "line",
       "data": [
-        [
-          "2011-01",
-          34
-        ],
-        [
-          "2011-02",
-          9
-        ],
-        [
-          "2011-03",
-          7
-        ],
-        [
-          "2011-04",
-          6
-        ],
         [
           "2012-01",
           37
@@ -511,6 +495,22 @@
         [
           "2020-04",
           21
+        ],
+        [
+          "2021-01",
+          10
+        ],
+        [
+          "2021-02",
+          8
+        ],
+        [
+          "2021-03",
+          92
+        ],
+        [
+          "2021-04",
+          37
         ]
       ],
       "name": "Bestand Meldepflichtige in VZÄ Verkehr",
@@ -643,7 +643,6 @@
       "min": 0,
       "max": undefined,
       "tickAmount": 6,
-      "tickInterval": 20,
       "opposite": true
     }
   ],
@@ -676,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-23"
+    "text": "Quelle: Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Grenzgängerstatistik (GGS).\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-29"
   },
   "tooltip": {
     "shared": true,

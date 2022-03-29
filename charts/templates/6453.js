@@ -11,7 +11,6 @@
      }
   },
   "yAxis": {
-  	//max: 25000,
   	tickInterval: 5000,
 	"labels": {
 		"format": "{value:,.0f}",
@@ -19,7 +18,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>'
   },
  "series": [
   {"color": "#C8C8C8"},

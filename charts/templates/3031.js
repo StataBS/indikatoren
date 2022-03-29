@@ -18,7 +18,7 @@
   },	
   "tooltip": {
     "shared": false, 
-	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>'
+	"pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b>'
   },
  "series": [
   {"color": "#B375AB"}, 
@@ -27,7 +27,6 @@
   "legend": {
   	itemWidth: 300,
     "enabled": true,
-    //"y": 45,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
