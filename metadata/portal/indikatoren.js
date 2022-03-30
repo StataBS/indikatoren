@@ -38919,7 +38919,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:28",
+		"aktualisierungsdatum": "2022-03-30T08:08:31",
 		"id": 8995
 	},
 	{
