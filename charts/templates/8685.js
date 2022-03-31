@@ -24,7 +24,7 @@
                 }
             },
             "min": 0,
-            //tickAmount: 9,
+            tickAmount: 6,
         },
         {
             gridLineColor: '#B9CFD7',
@@ -44,8 +44,8 @@
             },
             "min": 0,
             "max": undefined,
-            //tickAmount: 9,
-            tickInterval: 5,
+            tickAmount: 6,
+            //tickInterval: 5,
             "opposite": true
         }
         ],

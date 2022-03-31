@@ -52,8 +52,4 @@
     "proxyquire": "latest",
     "requirejs": "latest"
   }
-
-,"_resolved": "https://registry.npmjs.org/seedrandom/-/seedrandom-2.4.3.tgz"
-,"_integrity": "sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw="
-,"_from": "seedrandom@2.4.3"
 }
