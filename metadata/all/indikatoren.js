@@ -67178,46 +67178,44 @@ var indikatoren = [
 		"id": 8684
 	},
 	{
+		"template": "line001",
+		"data-id": 8685,
+		"chart-id": 8685,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8700"
+			8700
 		],
-		"template": "line001",
 		"title": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.5.08685",
-		"kuerzelKunde": "4.6-03",
-		"description": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Ausländische Erwerbstätige",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-23T08:44:46.4646",
-		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
-		"stufe2": "4.6 Immobilienwesen",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im 4. Quartal 2020 sind in Basel-Stadt 63 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt im 4. Quartal 2020 6 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
+		"lesehilfe": "Im 4. Quartal 2021 sind in Basel-Stadt 61 Grenzgänger im Immobilienwesen tätig. Die Zahl der Meldepflichtigen in Vollzeitäquivalenten (VZÄ) beträgt 14 Stellen. In den letzten zehn Jahren sind pro Quartal nie mehr als 9 Erwerbstätige zugewandert.",
 		"erlaeuterungen": "",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": false,
-		"orderKey": "03_06_00_00_00_603",
-		"renderLink": [],
 		"quellenangabe": [
 			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)",
 			"Bundesamt für Statistik (BFS), Grenzgängerstatistik (GGS)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 8685,
-		"chart-id": 8685,
-		"filter": "",
+		"description": "Ausländische Erwerbstätige in der Branche Immobilienwesen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Ausländische Erwerbstätige",
+		"kuerzel": "I.03.5.08685",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "4.7-03",
+		"stufe1": "4 Fokusbranchen der Tripartiten Kommission",
+		"stufe2": "4.7 Immobilienwesen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_07_00_00_00_703",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": false,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-03-31T08:46:06",
 		"id": 8685
 	},
 	{
@@ -72779,7 +72777,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:29",
+		"aktualisierungsdatum": "2022-03-31T08:46:04",
 		"id": 9022
 	},
 	{
@@ -72817,7 +72815,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:29",
+		"aktualisierungsdatum": "2022-03-31T08:46:05",
 		"id": 9023
 	},
 	{
