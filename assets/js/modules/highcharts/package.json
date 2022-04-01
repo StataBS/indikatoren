@@ -21,4 +21,8 @@
   "bugs": "https://github.com/highcharts/highcharts/issues",
   "license": "https://www.highcharts.com/license",
   "types": "highcharts.d.ts"
+
+,"_resolved": "https://registry.npmjs.org/highcharts/-/highcharts-9.1.2.tgz"
+,"_integrity": "sha512-RwCnJnxAUCGG4R/WDG+QP/4VJNtOpkQTkXcuf58DjDvm9ZILplSMdZvrbMRC9Y9ecuJQCjjZsiifvyS5E2IBvQ=="
+,"_from": "highcharts@9.1.2"
 }
