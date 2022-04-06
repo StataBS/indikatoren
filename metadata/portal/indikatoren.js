@@ -7615,7 +7615,7 @@ var indikatoren = [
 			5120
 		],
 		"title": "Fläche pro Wohnung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2021",
 		"lesehilfe": "Im Wohnviertel Klybeck sind die Wohnungen im Durchschnitt am kleinsten, in der Gemeinde Bettingen am grössten.",
 		"erlaeuterungen": "Mittlere Fläche der Wohnungen im Wohnviertel (ungewichtetes arithmetisches Mittel über alle Wohnungen) in Quadratmeter.",
 		"quellenangabe": [
@@ -7644,7 +7644,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-03T08:59:11",
+		"aktualisierungsdatum": "2022-04-06T08:07:26",
 		"id": 4833
 	},
 	{
@@ -10638,11 +10638,12 @@ var indikatoren = [
 		"parentId": null,
 		"children": [
 			8914,
-			9389
+			9389,
+			9446
 		],
 		"title": "Ökologischer Fussabdruck der Schweiz",
 		"subtitle": "in globalen Hektaren pro Kopf",
-		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2017 4,5 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 1,0 globale Hektare betrug.",
+		"lesehilfe": "Der ökologische Fussabdruck der Schweiz mass 2018 4,35 globale Hektaren pro Kopf, während die Biokapazität der Schweiz nur 0,99 globale Hektaren pro Kopf betrug.",
 		"erlaeuterungen": "Der ökologische Fussabdruck misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Er zeigt auf, ob und in welchem Ausmass die Nutzung der Natur die regenerative Fähigkeit der Biosphäre (Biokapazität) übersteigt. Eine globale Hektare ist eine Hektare produktiver Fläche, welche eine Produktivität aufweist, die dem weltweiten Durchschnitt entspricht. Der ökologische Fussabdruck und die Biokapazität werden durch die Non-Profit Organisation «Global Footprint Network» für alle Länder weltweit berechnet. Aufgrund von Verbesserungen der Methodik und der berücksichtigten Eingangsgrössen für die Berechnung kann bei Aktualisierungen die gesamte Zeitreihe rückwirkend angepasst werden.",
 		"quellenangabe": [
 			"Global Footprint Network"
@@ -10671,7 +10672,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:31",
+		"aktualisierungsdatum": "2022-04-06T08:07:26",
 		"id": 5793
 	},
 	{
@@ -12180,46 +12181,46 @@ var indikatoren = [
 		"id": 6047
 	},
 	{
+		"template": "line001",
+		"data-id": 6051,
+		"chart-id": 6051,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8940
+		],
 		"title": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
 		"subtitle": "Bruttoinlandprodukt des Kantons Basel-Stadt und ökologischer Fussabdruck der Schweiz",
-		"kuerzel": "I.04.2.6051",
-		"kuerzelKunde": "WE6",
-		"description": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Nachhaltigkeit",
+		"lesehilfe": "Im Vergleich zu 1995 lag der ökologische Fussabdruck der Schweiz 2018 um 24,3% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2020 um 135,5% höher.",
+		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
+		"quellenangabe": [
+			"BAK Economics",
+			"Global Footprint Network"
+		],
+		"externalLinks": [
+			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-11-27T10:46:42.4242",
+		"description": "Entwicklung von Wirtschaftswachstum und Umweltverbrauch",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.06051",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "WE6",
 		"stufe1": "Bereich Wirtschaftliche Entfaltung",
 		"stufe2": "Wirtschaftssystem",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Verglichen mit 1995 lag der ökologische Fussabdruck der Schweiz 2017 um 22,1% tiefer, das Bruttoinlandprodukt des Kantons Basel-Stadt 2019 um 125,8% höher.",
-		"erlaeuterungen": "Das Bruttoinlandprodukt (BIP) ist ein Mass für die wirtschaftliche Leistung der kantonalen Wirtschaft. Es misst den Wert der im Kanton hergestellten Waren und Dienstleistungen, soweit diese nicht als Vorleistungen für die Produktion anderer Waren und Dienstleistungen verwendet werden. Der ökologische Fussabdruck der Schweiz misst den Verbrauch natürlicher Ressourcen und drückt in globalen Hektaren pro Kopf die Fläche aus, die für die Produktion dieser Ressourcen notwendig wäre. Gemäss <a href='http://www.grosserrat.bs.ch/dokumente/100380/000000380855.pdf' target='_blank'>Regierungsratsbeschluss vom 26. Mai 2015</a> zum «Anzug Mirjam Ballmer und Konsorten betreffend ökologischer Fussabdruck in Basel-Stadt messen» kann man aufgrund von Erfahrungen in anderen Ländern «…davon ausgehen, dass der ökologische Fussabdruck für den Kanton Basel-Stadt ähnlich ausfallen würde wie jener für die Schweiz».",
-		"template": "line001",
+		"orderKey": "06_01_00_00_00_606",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "06_01_00_00_00_606",
-		"parentId": null,
-		"children": [
-			"8940"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics",
-			"Global Footprint Network"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"<a href = 'https://www.bfs.admin.ch/bfs/de/home/statistiken/nachhaltige-entwicklung/weitere-indikatoren-achhaltige-entwicklung/oekologischer-fussabdruck.html' target = '_blank'>Bundesamt für Statistik: Der ökologische Fussabdruck der Schweiz</a>"
-		],
-		"data-id": 6051,
-		"chart-id": 6051,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-06T08:07:27",
 		"id": 6051
 	},
 	{
