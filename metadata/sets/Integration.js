@@ -1084,87 +1084,83 @@ var indikatorensetData = [
 		"id": 6083
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6669"
-		],
 		"template": "line001",
-		"title": "Lernendenquote nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.15.3.6084",
-		"kuerzelKunde": "B3-1",
-		"description": "Lernendenquote nach Staatsangehörigkeit",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-18T11:56:25.2525",
-		"stufe1": "Kapitel B Schule und Bildung",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt. Da die – bei allerdings geringen Gesamtzahlen – stark steigende Lernendenquote der Jugendlichen aus arabischen Ländern im Jahr 2020 etwas gebremst worden ist, weisen aktuell Lernende aus Mittel- und Südamerika die höchste Quote auf.",
-		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_00_00_00_00_301",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6084,
 		"chart-id": 6084,
 		"filter": "",
-		"id": 6084
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6670"
+			6669
 		],
-		"template": "line001",
-		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
+		"title": "Lernendenquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "B3-2",
-		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
-		"thema": "15 Bildung",
-		"unterthema": "Berufsfachschulen",
+		"lesehilfe": "Die Lernendenquote der Schweizerinnen und Schweizer hat sich in den vergangenen Jahren im Vergleich zu anderen Ländergruppen wenig dynamisch entwickelt; seit 2016 ist diese gar leicht rückläufig. Wie schon vor Jahresfrist weisen auch 2021 – bei allerdings geringen Gesamtzahlen – Lernende aus Mittel- und Südamerika die höchste Quote auf. Stark steigend ist die Lernenenquote zudem bei Menschen aus afrikanischen Staaten.",
+		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-26T08:03:33.3333",
+		"description": "Lernendenquote nach Staatsangehörigkeit",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.6084",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "B3-1",
 		"stufe1": "Kapitel B Schule und Bildung",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Relativ zu ihrer jeweiligen Bevölkerungsgruppe schliessen Lernende mit ausländischem Pass und Wohnort Basel-Stadt mit Lehrbetrieben im Kanton Basel-Stadt seit 2014 häufiger einen Lehrvertrag ab als Schweizerinnen und Schweizer. In den Jahren davor war dies noch umgekehrt. Nach Geschlecht differenziert liegen die Quoten bei den Schweizer Lernenden weiter auseinander als bei deren ausländischen Kolleginnen und Kollegen.",
-		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort-Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
+		"orderKey": "02_00_00_00_00_301",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_00_00_00_00_302",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-11T08:00:31",
+		"id": 6084
+	},
+	{
+		"template": "line001",
+		"data-id": 6085,
+		"chart-id": 6085,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6670
+		],
+		"title": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Relativ zu ihrer jeweiligen Bevölkerungsgruppe schliessen Lernende mit ausländischem Pass und Wohnort Basel-Stadt mit Lehrbetrieben im Kanton Basel-Stadt seit 2014 häufiger einen Lehrvertrag ab als Schweizerinnen und Schweizer. In den Jahren davor war dies noch umgekehrt. Nach Geschlecht differenziert liegen die Quoten bei den Schweizer Lernenden weiter auseinander als bei deren ausländischen Kolleginnen und Kollegen.",
+		"erlaeuterungen": "Lernendenquote: Lernende im Alter von 16 bis 20 Jahren mit Wohnort und Lehrbetrieb im Kanton Basel-Stadt, jeweils im Verhältnis zur Gesamtzahl der 16- bis 20-Jährigen der gleichen Bevölkerungsgruppe innerhalb des Kantons Basel-Stadt. Dadurch sind insbesondere Lernende mit Wohnort Basel-Stadt und Lehrbetrieb in Basel-Landschaft ausgeklammert.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 6085,
-		"chart-id": 6085,
-		"filter": "",
+		"description": "Lernendenquote nach Staatsangehörigkeit und Geschlecht",
+		"thema": "15 Bildung",
+		"unterthema": "Berufsfachschulen",
+		"kuerzel": "I.15.3.06085",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "B3-2",
+		"stufe1": "Kapitel B Schule und Bildung",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_00_00_00_00_302",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-11T08:00:34",
 		"id": 6085
 	},
 	{

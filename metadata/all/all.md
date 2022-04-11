@@ -337,7 +337,7 @@ id | visible | visibleInPortal | indikatorenset
 5194 | false |  | Nachhaltigkeit
 5195 | true | false | Nachhaltigkeit
 5196 | true | true | Nachhaltigkeit
-5197 | true | false | Nachhaltigkeit
+5197 | true | true | Nachhaltigkeit
 5198 | true | true | Nachhaltigkeit
 5199 | true | true | Nachhaltigkeit
 5201 | true | true | Richtplan
