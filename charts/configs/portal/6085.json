@@ -43,6 +43,10 @@
         [
           2020,
           26.3
+        ],
+        [
+          2021,
+          25.8
         ]
       ],
       "name": "Schweiz"
@@ -91,6 +95,10 @@
         [
           2020,
           30.6
+        ],
+        [
+          2021,
+          30
         ]
       ],
       "name": "Schweizer"
@@ -139,6 +147,10 @@
         [
           2020,
           21.9
+        ],
+        [
+          2021,
+          21.7
         ]
       ],
       "name": "Schweizerinnen"
@@ -186,6 +198,10 @@
         [
           2020,
           30
+        ],
+        [
+          2021,
+          30.5
         ]
       ],
       "name": "Ausland"
@@ -233,6 +249,10 @@
         ],
         [
           2020,
+          32
+        ],
+        [
+          2021,
           32
         ]
       ],
@@ -282,6 +302,10 @@
         [
           2020,
           27.9
+        ],
+        [
+          2021,
+          28.8
         ]
       ],
       "name": "Ausländerinnen"
@@ -412,7 +436,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2022-4-11"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

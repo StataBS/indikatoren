@@ -42,6 +42,10 @@
         [
           2020,
           26.3
+        ],
+        [
+          2021,
+          25.8
         ]
       ],
       "name": "Schweiz"
@@ -88,6 +92,10 @@
         [
           2020,
           15.9
+        ],
+        [
+          2021,
+          11.5
         ]
       ],
       "name": "Deutschland"
@@ -134,6 +142,10 @@
         [
           2020,
           30
+        ],
+        [
+          2021,
+          36.9
         ]
       ],
       "name": "Italien"
@@ -180,6 +192,10 @@
         [
           2020,
           43.2
+        ],
+        [
+          2021,
+          47.7
         ]
       ],
       "name": "Türkei"
@@ -226,6 +242,10 @@
         [
           2020,
           24
+        ],
+        [
+          2021,
+          24.1
         ]
       ],
       "name": "EU-West + EFTA + UK"
@@ -272,6 +292,10 @@
         [
           2020,
           20.4
+        ],
+        [
+          2021,
+          22.7
         ]
       ],
       "name": "EU-Ost"
@@ -318,6 +342,10 @@
         [
           2020,
           43.5
+        ],
+        [
+          2021,
+          45
         ]
       ],
       "name": "Balkan"
@@ -364,6 +392,10 @@
         [
           2020,
           51.6
+        ],
+        [
+          2021,
+          54.5
         ]
       ],
       "name": "Mittel- u. Südamerika"
@@ -410,6 +442,10 @@
         [
           2020,
           46.4
+        ],
+        [
+          2021,
+          36.3
         ]
       ],
       "name": "Arab. Länder"
@@ -456,6 +492,10 @@
         [
           2020,
           44.3
+        ],
+        [
+          2021,
+          50.5
         ]
       ],
       "name": "Afrikan. Länder"
@@ -502,6 +542,10 @@
         [
           2020,
           24.5
+        ],
+        [
+          2021,
+          25.7
         ]
       ],
       "name": "Übrige Länder"
@@ -631,7 +675,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-18"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Lehraufsicht.\u003Cbr\u002F\u003EZuletzt geändert: 2022-4-11"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

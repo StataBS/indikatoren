@@ -47,6 +47,10 @@
         [
           2020,
           15.221394827448
+        ],
+        [
+          2021,
+          15.136952909689
         ]
       ],
       "name": "Wohneigentumsquote"
@@ -182,7 +186,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-4-11"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

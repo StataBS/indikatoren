@@ -4,66 +4,55 @@
       "color": "#b00000",
       "data": [
         [
-          "2000",
+          2000,
           13.38
         ],
         [
-          "2003",
+          2003,
           14.91
         ],
         [
-          "2008",
+          2008,
           14.47
         ],
         [
-          "2010",
+          2010,
           10.04
+        ],
+        [
+          2021,
+          11.65
         ]
       ],
-      "name": "Über Grenzwert am Tag",
-      "turboThreshold": 0
+      "name": "Über Grenzwert am Tag"
     },
     {
-      "color": "#923f8d",
+      "color": "#4f81bd",
       "data": [
         [
-          "2000",
+          2000,
           17.04
         ],
         [
-          "2003",
+          2003,
           19.4
         ],
         [
-          "2008",
+          2008,
           16.24
         ],
         [
-          "2010",
+          2010,
           18.48
+        ],
+        [
+          2021,
+          20.46
         ]
       ],
-      "name": "Über Grenzwert in der Nacht",
-      "turboThreshold": 0
+      "name": "Über Grenzwert in der Nacht"
     }
   ],
-  "xAxis": {
-    "type": "category",
-    "uniqueNames": true,
-    "lineColor": "#B9CFD7",
-    "lineWidth": 0.5,
-    "tickLength": 0,
-    "title": {
-      "style": {
-        "color": "#000000"
-      }
-    },
-    "labels": {
-      "style": {
-        "color": "#000000"
-      }
-    }
-  },
   "chart": {
     "width": 485,
     "height": 428,
@@ -98,7 +87,6 @@
                 }
     },
     "type": "column",
-    "inverted": false,
     "renderTo": "container-5197",
     "spacingBottom": 40
   },
@@ -131,6 +119,31 @@
       "color": "#000000"
     }
   },
+  "xAxis": {
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "uniqueNames": true,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "tickPositioner": function () {
+        var maxlabels = 7,
+          ext = this.getExtremes(),
+          i = Math.round(ext.max),
+          interval = Math.round((i - ext.min)/maxlabels),
+          pos = [i];
+        while (i >= ext.min) pos.unshift(i = i - interval);
+        return pos;
+      }
+  },
   "yAxis": {
     "gridLineWidth": 0.5,
     "gridLineColor": "#B9CFD7",
@@ -154,11 +167,9 @@
     "itemStyle": {
       "fontWeight": "normal"
     },
-    "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left",
-    "itemWidth": 300
+    "align": "left"
   },
   "navigation": {
     "menuItemStyle": {
@@ -179,11 +190,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-23"
+    "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt, Strassenlärmkataster.\u003Cbr\u002F\u003EZuletzt geändert: 2022-4-11"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
-    "shared": true
+    "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "5197"
