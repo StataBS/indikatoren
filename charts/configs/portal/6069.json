@@ -6,39 +6,39 @@
       "data": [
         [
           "Schweiz",
-          46.4
+          46.1
         ],
         [
           "Deutschland",
-          14.7
+          13.7
         ],
         [
           "Italien",
-          15.3
+          17.1
         ],
         [
           "Türkei",
-          1.7
+          1.8
         ],
         [
           "EU-West + EFTA + UK",
-          7.3
+          7
         ],
         [
           "EU-Ost",
-          3.6
+          3.5
         ],
         [
           "Balkan",
-          2.4
+          2.7
         ],
         [
           "Mittel- und Südamerika",
-          1
+          1.1
         ],
         [
           "Arabische Länder",
-          1.8
+          1.9
         ],
         [
           "Afrikanische Länder",
@@ -49,7 +49,7 @@
           3.2
         ]
       ],
-      "name": "2001",
+      "name": "2002",
       "turboThreshold": 0
     },
     {
@@ -58,50 +58,50 @@
       "data": [
         [
           "Schweiz",
-          44.7
+          44.9
         ],
         [
           "Deutschland",
-          8
+          8.1
         ],
         [
           "Italien",
-          31.2
+          31
         ],
         [
           "Türkei",
-          16.6
+          18.7
         ],
         [
           "EU-West + EFTA + UK",
-          8.6
+          8.9
         ],
         [
           "EU-Ost",
-          4.6
+          4.9
         ],
         [
           "Balkan",
-          16
+          17.5
         ],
         [
           "Mittel- und Südamerika",
-          2.9
+          3.3
         ],
         [
           "Arabische Länder",
-          3.5
+          3.4
         ],
         [
           "Afrikanische Länder",
-          2
+          2.3
         ],
         [
           "Übrige Länder",
-          3.9
+          4.3
         ]
       ],
-      "name": "2020",
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -238,7 +238,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.4.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
