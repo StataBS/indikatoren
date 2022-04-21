@@ -478,44 +478,42 @@ var indikatorensetData = [
 		"id": 6068
 	},
 	{
+		"template": "template001",
+		"data-id": 6069,
+		"chart-id": 6069,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6654"
+			6654
 		],
-		"template": "template001",
 		"title": "Altersquotient nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6069",
-		"kuerzelKunde": "A2-3",
-		"description": "Altersquotient nach Staatsangehörigkeit",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "2021 weisen Schweizerinnen und Schweizer (44,9) sowie Italienerinnen und Italiener (31,0) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,3). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2002.",
+		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:13.1313",
+		"description": "Altersquotient nach Staatsangehörigkeit",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6069",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-3",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 weisen Schweizerinnen und Schweizer (44,7) sowie Italienerinnen und Italiener (31,2) die weitaus höchsten Altersquotienten auf. Am niedrigsten ist der Altersquotient bei den Afrikanerinnen und Afrikanern (2,0). Auffällig ist die starke Zunahme der Altersquotienten der italienischen und der türkischen Staatsangehörigen sowie der Personen aus dem Balkan seit dem Jahr 2001.",
-		"erlaeuterungen": "Der Altersquotient beschreibt das Verhältnis der Personen im Alter von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"orderKey": "01_00_00_00_00_203",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_203",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6069,
-		"chart-id": 6069,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-21T08:31:08",
 		"id": 6069
 	},
 	{
@@ -2079,127 +2077,121 @@ var indikatorensetData = [
 		"id": 6418
 	},
 	{
-		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
-		"subtitle": "",
-		"kuerzel": "I.18.3.6419",
-		"kuerzelKunde": "C3-1",
-		"description": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"kennzahlenset": "Integration",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2020-12-04T17:11:30.3030",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 sind 5,9% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist zwischen 2010 und 2019 mehr als doppelt so hoch als bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
-		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"template": "line001",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_301",
+		"data-id": 6419,
+		"chart-id": 6419,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6694"
+			6694
 		],
-		"renderLink": [],
+		"title": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
+		"subtitle": "",
+		"lesehilfe": "Im Jahr 2021 sind 6,1% aller im Kanton Basel-Stadt wohnhaften Schweizerinnen und Schweizer im erwerbsfähigen Alter Staatsangestellte. Die Quote ist damit mehr als doppelt so hoch wie bei den übrigen betrachteten Ländergruppen. Nach den Schweizerinnen und Schweizern sind die Deutschen (Tendenz zunehmend) sowie die Italienerinnen und Italiener (Tendenz abnehmend) am stärksten vertreten.",
+		"erlaeuterungen": "Die Angestelltenquote zeigt pro Ländergruppe den Anteil des Staatspersonals an der erwerbsfähigen Bevölkerung (15 bis 64 Jahre) des Kantons Basel-Stadt. Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 6419,
-		"chart-id": 6419,
-		"filter": "",
+		"description": "Staatsangestelltenquote Basel-Stadt nach Staatsangehörigkeit",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.06419",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-1",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_301",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-21T08:31:08",
 		"id": 6419
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6695"
-		],
 		"template": "template001",
-		"title": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Kaderstufe",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.18.3.6420",
-		"kuerzelKunde": "C3-2",
-		"description": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-16T08:49:27.2727",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum bis 2013 langsam, aber stetig gestiegen und stagniert seither.",
-		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_302",
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6420,
 		"chart-id": 6420,
 		"filter": "",
-		"id": 6420
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6696"
+			6695
 		],
-		"template": "template001",
-		"title": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"title": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
 		"subtitle": "nach Kaderstufe",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.18.3.6421",
-		"kuerzelKunde": "C3-3",
-		"description": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
+		"lesehilfe": "Über 90% der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt fallen in die Kategorie «Ohne Kaderfunktion». Die Zahl ausländischer Staatsangestellter mit Kaderfunktion ist im Beobachtungszeitraum bis 2013 langsam, aber stetig gestiegen und stagniert seither.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-16T08:51:25.2525",
+		"description": "Ausländische Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.6420",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-2",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt weist seit 2015 steigende Tendenz auf. Im gesamten Beobachtungszeitraum ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt in der Kategorie «Ohne Kaderfunktion» leicht rückläufig; umgekehrt ist der Anteil derjenigen mit Kaderfunktion gestiegen.",
-		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"orderKey": "03_00_00_00_00_302",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_303",
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-04-21T08:31:08",
+		"id": 6420
+	},
+	{
+		"template": "template001",
 		"data-id": 6421,
 		"chart-id": 6421,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6696
+		],
+		"title": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Kaderstufe",
+		"lesehilfe": "Die Zahl der Schweizer Staatsangestellten mit Wohnsitz Basel-Stadt weist seit 2015 steigende Tendenz auf. Im gesamten Beobachtungszeitraum ist der Anteil der Staatsangestellten mit Schweizer Pass und Wohnsitz Basel-Stadt in der Kategorie «Ohne Kaderfunktion» leicht rückläufig; umgekehrt ist der Anteil derjenigen mit Kaderfunktion gestiegen.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Schweizer Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.6421",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-3",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_303",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-21T08:31:09",
 		"id": 6421
 	},
 	{
@@ -2212,8 +2204,8 @@ var indikatorensetData = [
 			6697
 		],
 		"title": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
-		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 2020 sind es 87,1% beim unteren Kader und 95,9% beim oberen Kader. Beim mittleren Fachkader sind die Schweizerinnen mit 48,4% stärker vertreten als ihre männlichen Kollegen. Der Anteil der ausländischen Staatsangestellten mit Kaderfunktion liegt bei maximal 12,9% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,2% bei den Beschäftigten ohne Kaderfunktion am stärksten vertreten.",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2021",
+		"lesehilfe": "In sämtlichen Kaderfunktionen sind die Schweizerinnen und Schweizer mit Wohnsitz Basel-Stadt stärker vertreten als in der grössten Staatspersonal-Kategorie «Ohne Kaderfunktion»: 2021 sind es 86,7% beim unteren Kader und 95,6% beim oberen Kader. Beim mittleren Fachkader sind die Schweizerinnen mit 51,6% stärker vertreten als ihre männlichen Kollegen. Der Anteil der ausländischen Staatsangestellten mit Wohnsitz Basel-Stadt und Kaderfunktion liegt bei maximal 13,3% («Unteres Kader»). Angestellte ohne Schweizer Pass sind mit 15,7% bei den Beschäftigten ohne Kaderfunktion am stärksten vertreten.",
 		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
 		"quellenangabe": [
 			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
@@ -2238,130 +2230,124 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-23T08:28:02",
+		"aktualisierungsdatum": "2022-04-21T08:31:09",
 		"id": 6422
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6698"
-		],
 		"template": "template001",
-		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "C3-5",
-		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-26T08:03:37.3737",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In absoluten Zahlen betrachtet ist mehr als jede zweite Stelle in der Kantonsverwaltung mit einer Schweizerin besetzt. 2020 sind dies bei einem Personalbestand von 5&nbsp;482 Personen 2&nbsp;794 Schweizerinnen. Insbesondere beim unteren Fachkader und oberen Kader ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
-		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_305",
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6423,
 		"chart-id": 6423,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6698
+		],
+		"title": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2021",
+		"lesehilfe": "In absoluten Zahlen betrachtet ist gut jede zweite Stelle in der Kantonsverwaltung mit einer Schweizerin besetzt. 2021 sind dies beim in Basel-Stadt wohnhaften Personal von 5&nbsp;600 Personen 2&nbsp;848 Schweizerinnen. Insbesondere beim unteren Fachkader und oberen Kader ist die Zahl der Ausländerinnen und Ausländer verschwindend klein.",
+		"erlaeuterungen": "Staatspersonal: Wohnsitz Basel-Stadt, auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Anzahl Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.06423",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-5",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_305",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-21T08:31:10",
 		"id": 6423
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6699"
-		],
 		"template": "template001",
-		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2011",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.18.3.6424",
-		"kuerzelKunde": "C3-6",
-		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-12T07:58:14.1414",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2011 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Kader». 2011 besitzen 115 der insgesamt 145 ausländischen Staatsangehörigen mit Kaderfunktion die deutsche Staatsbürgerschaft.",
-		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "03_00_00_00_00_306",
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6424,
 		"chart-id": 6424,
 		"filter": "",
-		"id": 6424
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6700"
+			6699
 		],
-		"template": "template001",
 		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.18.3.6425",
-		"kuerzelKunde": "C3-7",
-		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Staatspersonal",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2012",
+		"lesehilfe": "In sämtlichen Kaderstufen bilden Staatsangestellte ohne Schweizer Pass 2012 eine – teilweise verschwindend kleine – Minderheit. Vergleichsweise am höchsten ist deren Anteil bei der Kategorie «Unteres Fachkader». 2012 besitzen 133 der insgesamt 169 ausländischen Staatsangehörigen mit Kaderfunktion die deutsche Staatsbürgerschaft.",
+		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:14.1414",
+		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.6424",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-6",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2020 die Kantonsangestellten mit deutscher Staatsbürgerschaft mit gut 160 Personen die mit Abstand grösste Gruppe.",
-		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"orderKey": "03_00_00_00_00_306",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_307",
-		"renderLink": [],
-		"quellenangabe": [
-			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-04-21T08:31:10",
+		"id": 6424
+	},
+	{
+		"template": "template001",
 		"data-id": 6425,
 		"chart-id": 6425,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6700
+		],
+		"title": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"subtitle": "nach Staatsangehörigkeit und Kaderstufe, 2021",
+		"lesehilfe": "Abgesehen von den Schweizerinnen und Schweizern bilden 2021 im Kaderbereich die Kantonsangestellten mit deutscher Staatsbürgerschaft mit 166 Personen die mit Abstand grösste Gruppe.",
+		"erlaeuterungen": "Gezeigt wird das gesamte Staatspersonal (unabhängig vom Wohnsitz). Staatspersonal: auf Basis des ordentlichen Bestandes (sog. Headcount), nur Verwaltung im engeren Sinn (ohne Betriebe wie BVB und IWB sowie Spitäler).",
+		"quellenangabe": [
+			"Finanzdepartement Basel-Stadt, Zentraler Personaldienst"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Angestellte in der kantonalen Verwaltung Basel-Stadt",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Staatspersonal",
+		"kuerzel": "I.18.3.6425",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C3-7",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_307",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-21T08:31:10",
 		"id": 6425
 	},
 	{

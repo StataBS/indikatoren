@@ -6,27 +6,27 @@
       "data": [
         [
           "Oberes Kader",
-          95.9
+          95.6
         ],
         [
           "Mittleres Kader",
-          93.2
+          93.1
         ],
         [
           "Mittleres Fachkader",
-          89.3
+          90.2
         ],
         [
           "Unteres Kader",
-          87.1
+          86.7
         ],
         [
           "Unteres Fachkader",
-          89.5
+          90.5
         ],
         [
           "Ohne Kaderfunktion",
-          84.8
+          84.3
         ]
       ],
       "name": "Schweiz",
@@ -38,27 +38,27 @@
       "data": [
         [
           "Oberes Kader",
-          58.2
-        ],
-        [
-          "Mittleres Kader",
-          52.9
-        ],
-        [
-          "Mittleres Fachkader",
-          41
-        ],
-        [
-          "Unteres Kader",
-          57.9
-        ],
-        [
-          "Unteres Fachkader",
           52.6
         ],
         [
+          "Mittleres Kader",
+          53.7
+        ],
+        [
+          "Mittleres Fachkader",
+          38.5
+        ],
+        [
+          "Unteres Kader",
+          58.1
+        ],
+        [
+          "Unteres Fachkader",
+          47.3
+        ],
+        [
           "Ohne Kaderfunktion",
-          31.8
+          31.7
         ]
       ],
       "name": "Schweizer",
@@ -70,27 +70,27 @@
       "data": [
         [
           "Oberes Kader",
-          37.7
+          43
         ],
         [
           "Mittleres Kader",
-          40.3
+          39.4
         ],
         [
           "Mittleres Fachkader",
-          48.4
+          51.6
         ],
         [
           "Unteres Kader",
-          29.2
+          28.6
         ],
         [
           "Unteres Fachkader",
-          36.8
+          43.2
         ],
         [
           "Ohne Kaderfunktion",
-          53
+          52.6
         ]
       ],
       "name": "Schweizerinnen",
@@ -102,27 +102,27 @@
       "data": [
         [
           "Oberes Kader",
-          4.1
+          4.4
         ],
         [
           "Mittleres Kader",
-          6.8
+          6.9
         ],
         [
           "Mittleres Fachkader",
-          10.7
+          9.8
         ],
         [
           "Unteres Kader",
-          12.9
+          13.3
         ],
         [
           "Unteres Fachkader",
-          10.5
+          9.5
         ],
         [
           "Ohne Kaderfunktion",
-          15.2
+          15.7
         ]
       ],
       "name": "Ausland",
@@ -134,11 +134,11 @@
       "data": [
         [
           "Oberes Kader",
-          1.6
+          1.8
         ],
         [
           "Mittleres Kader",
-          4.9
+          5.4
         ],
         [
           "Mittleres Fachkader",
@@ -146,15 +146,15 @@
         ],
         [
           "Unteres Kader",
-          6.4
+          6.2
         ],
         [
           "Unteres Fachkader",
-          5.3
+          4.1
         ],
         [
           "Ohne Kaderfunktion",
-          6.1
+          6.3
         ]
       ],
       "name": "Ausländer",
@@ -166,27 +166,27 @@
       "data": [
         [
           "Oberes Kader",
-          2.5
+          2.6
         ],
         [
           "Mittleres Kader",
-          1.9
+          1.5
         ],
         [
           "Mittleres Fachkader",
-          5.7
+          4.9
         ],
         [
           "Unteres Kader",
-          6.4
+          7.1
         ],
         [
           "Unteres Fachkader",
-          5.3
+          5.4
         ],
         [
           "Ohne Kaderfunktion",
-          9.1
+          9.5
         ]
       ],
       "name": "Ausländerinnen",
@@ -271,7 +271,7 @@
     "text": "Anteil Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2020",
+    "text": "nach Staatsangehörigkeit, Geschlecht und Kaderstufe, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -328,7 +328,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-23"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 21.4.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

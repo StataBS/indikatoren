@@ -76,6 +76,10 @@
         [
           "2020",
           4032
+        ],
+        [
+          "2021",
+          4109
         ]
       ],
       "name": "Ohne Kaderfunktion",
@@ -157,6 +161,10 @@
         [
           "2020",
           68
+        ],
+        [
+          "2021",
+          67
         ]
       ],
       "name": "Unteres Fachkader",
@@ -238,6 +246,10 @@
         [
           "2020",
           176
+        ],
+        [
+          "2021",
+          182
         ]
       ],
       "name": "Unteres Kader",
@@ -319,6 +331,10 @@
         [
           "2020",
           109
+        ],
+        [
+          "2021",
+          110
         ]
       ],
       "name": "Mittleres Fachkader",
@@ -400,6 +416,10 @@
         [
           "2020",
           192
+        ],
+        [
+          "2021",
+          189
         ]
       ],
       "name": "Mittleres Kader",
@@ -481,6 +501,10 @@
         [
           "2020",
           117
+        ],
+        [
+          "2021",
+          109
         ]
       ],
       "name": "Oberes Kader",
@@ -625,7 +649,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-3-16"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 21.4.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

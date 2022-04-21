@@ -7,23 +7,23 @@
       "data": [
         [
           "Oberes Kader",
-          185
+          179
         ],
         [
           "Mittleres Kader",
-          408
+          404
         ],
         [
           "Mittleres Fachkader",
-          271
+          283
         ],
         [
           "Unteres Kader",
-          617
+          626
         ],
         [
           "Unteres Fachkader",
-          131
+          124
         ]
       ],
       "name": "Schweiz",
@@ -40,19 +40,19 @@
         ],
         [
           "Mittleres Kader",
-          41
+          42
         ],
         [
           "Mittleres Fachkader",
-          28
+          29
         ],
         [
           "Unteres Kader",
-          69
+          70
         ],
         [
           "Unteres Fachkader",
-          16
+          15
         ]
       ],
       "name": "Deutschland",
@@ -69,7 +69,7 @@
         ],
         [
           "Mittleres Kader",
-          1
+          0
         ],
         [
           "Mittleres Fachkader",
@@ -77,11 +77,11 @@
         ],
         [
           "Unteres Kader",
-          9
+          13
         ],
         [
           "Unteres Fachkader",
-          1
+          2
         ]
       ],
       "name": "Italien",
@@ -127,7 +127,7 @@
         ],
         [
           "Mittleres Kader",
-          8
+          9
         ],
         [
           "Mittleres Fachkader",
@@ -193,7 +193,7 @@
         ],
         [
           "Unteres Kader",
-          1
+          2
         ],
         [
           "Unteres Fachkader",
@@ -218,7 +218,7 @@
         ],
         [
           "Mittleres Fachkader",
-          0
+          1
         ],
         [
           "Unteres Kader",
@@ -276,7 +276,7 @@
         ],
         [
           "Mittleres Fachkader",
-          1
+          0
         ],
         [
           "Unteres Kader",
@@ -410,7 +410,7 @@
     "text": "Angestellte in der kantonalen Verwaltung Basel-Stadt"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit und Kaderstufe, 2020",
+    "text": "nach Staatsangehörigkeit und Kaderstufe, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -466,7 +466,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
+    "text": "Quelle: Finanzdepartement Basel-Stadt, Zentraler Personaldienst.\u003Cbr\u002F\u003EZuletzt geändert: 21.4.2022"
   },
   "exporting": {
     "filename": "6425"
