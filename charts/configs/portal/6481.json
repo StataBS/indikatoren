@@ -5,19 +5,19 @@
       "data": [
         [
           "Schweizer ohne Migrationshintergrund",
-          76230
+          74946
         ],
         [
           "Schweizer mit Migrationshintergrund",
-          27724
+          28742
         ],
         [
           "Ausländer der ersten Generation",
-          53103
+          53804
         ],
         [
           "Ausländer der zweiten und höheren Generation",
-          4548
+          4443
         ]
       ],
       "turboThreshold": 0
@@ -83,7 +83,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2015 bis 2019",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
     "align": "left"
   },
   "tooltip": {
@@ -104,7 +104,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-3"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 25.4.2022"
   },
   "legend": {
     "layout": "horizontal",

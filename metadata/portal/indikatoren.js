@@ -6765,8 +6765,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Qualifikationsniveau",
 		"subtitle": "Anteil der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe in der Stadt Basel",
-		"lesehilfe": "Der Anteil der Wohnbevölkerung im Alter von 25 bis 64 Jahren mit einem Ausbildungsabschluss auf Tertiärstufe ist in der Stadt Basel von 2010 bis 2019 von 40,3 auf 52,1 Prozent gestiegen.",
-		"erlaeuterungen": "Das Qualifikationsniveau wird gemessen am Bevölkerungsanteil (ständige Wohnbevölkerung) der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe (Hochschulabschlüsse und Abschlüsse mit höherer Berufsbildung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 4 000 in der Stadt Basel wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
+		"lesehilfe": "Der Anteil der Wohnbevölkerung im Alter von 25 bis 64 Jahren mit einem Ausbildungsabschluss auf Tertiärstufe ist in der Stadt Basel von 2010 bis 2020 von 40,3 auf 56,9 Prozent gestiegen.",
+		"erlaeuterungen": "Das Qualifikationsniveau wird gemessen am Bevölkerungsanteil (ständige Wohnbevölkerung) der 25- bis 64-Jährigen mit Ausbildung auf Tertiärstufe (Hochschulabschlüsse und Abschlüsse mit höherer Berufsbildung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in der Stadt Basel wohnhaften Personen und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Definition gemäss <a href='https://www.bfs.admin.ch/bfsstatic/dam/assets/3782489/master' target='_blank'>Cercle Indicateurs</a>.<br>Der Cercle Indicateurs ist ein nationales Netzwerk, das sich mit der Messung der nachhaltigen Entwicklung in den Kantonen und Städten befasst. Es handelt sich um eine gemeinsame Tätigkeit des Bundes und der teilnehmenden Kantone und Städte.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -6793,7 +6793,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-09-06T08:46:26",
+		"aktualisierungsdatum": "2022-04-25T08:50:53",
 		"id": 4360
 	},
 	{
@@ -6886,8 +6886,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Zu Hause gesprochene Sprachen",
 		"subtitle": "Anteil Personen, welche zu Hause Deutsch oder Schweizerdeutsch sprechen, nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 93% der Schweizer in Basel-Stadt geben im Jahr 2019 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 96%. 40% der Personen aus anderen Herkunftsländern sprechen zu Hause Deutsch.",
-		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet.",
+		"lesehilfe": "Die Grafik zeigt den Anteil der Bevölkerung über 15 Jahre in Basel-Stadt, der zu Hause Deutsch spricht, gruppiert nach verschiedenen Herkunftsländern. Rund 92% der Schweizer in Basel-Stadt geben im Jahr 2020 an, zu Hause unter anderem Deutsch zu sprechen (die Angabe von mehreren Sprachen ist möglich). Bei den Personen aus Deutschland, Österreich und Liechtenstein sind es etwa 97%. 38% der Personen aus anderen Herkunftsländern sprechen zu Hause Deutsch.",
+		"erlaeuterungen": "Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -6912,7 +6912,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-25T08:16:12",
+		"aktualisierungsdatum": "2022-04-25T08:50:53",
 		"id": 4463
 	},
 	{
@@ -13504,8 +13504,8 @@ var indikatoren = [
 		],
 		"title": "Erwachsene mit höchstem Abschluss Sekundarstufe I",
 		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt",
-		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 (gepoolte Daten) verfügen 17,8% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 30,4% liegt. Die Anteile der Personen, die über einen höchsten Abschluss auf Sekundarstufe I verfügen, sind seit den Jahren 1990 und 2000 gesunken. Bei den Ausländern ist dieser Rückgang stärker ausgefallen (1990: 54,0%; 2000: 45,1%) als bei den Schweizern (1990: 30,3%; 2000: 23,2%).",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 (gepoolte Daten) verfügen 17,2% der Schweizer Staatsangehörigen über einen höchsten Abschluss auf Sekundarstufe I, während dieser Anteil bei den ausländischen Staatsangehörigen bei 29,4% liegt. Die Anteile der Personen, die über einen höchsten Abschluss auf Sekundarstufe I verfügen, sind seit den Jahren 1990 und 2000 gesunken. Bei den Ausländern ist dieser Rückgang stärker ausgefallen (1990: 54,0%; 2000: 45,1%) als bei den Schweizern (1990: 30,3%; 2000: 23,2%).",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
@@ -13531,7 +13531,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:41",
+		"aktualisierungsdatum": "2022-04-25T08:50:56",
 		"id": 6088
 	},
 	{
@@ -13544,9 +13544,9 @@ var indikatoren = [
 			6672
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2015 bis 2019",
-		"lesehilfe": "Bei Personen aus Deutschland (70%), EU-West + EFTA + UK (53%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (37%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (13%) und dem Balkan (12%) auf.",
-		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "Personen ab 15 Jahren nach Staatsangehörigkeit, Basel-Stadt, gepoolte&nbsp;Daten 2016 bis 2020",
+		"lesehilfe": "Bei Personen aus Deutschland (71%), EU-West + EFTA + UK (55%) und EU-Ost (52%) ist der Anteil an Personen mit Tertiärausbildung grösser als bei den Schweizer Staatsangehörigen (39%). Geringe Anteile an tertiär Ausgebildeten weisen Personen aus der Türkei (14%) und dem Balkan (13%) auf.",
+		"erlaeuterungen": "Sekundarstufe I: Keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -13571,7 +13571,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-09T09:24:28",
+		"aktualisierungsdatum": "2022-04-25T08:50:56",
 		"id": 6090
 	},
 	{
@@ -13584,9 +13584,9 @@ var indikatoren = [
 			6673
 		],
 		"title": "Bevölkerung nach höchster abgeschlossener Ausbildung",
-		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2015 bis 2019",
-		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (45%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den ausländischen Staatsangehörigen am höchsten (30%).",
-		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, 1-jährige Vorlehre, 1-jährige allgemeinbildende Schule, 10. Schuljahr, 1-jährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "Personen ab 15 Jahren nach Migrationsstatus, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2016 bis 2020",
+		"lesehilfe": "Ausländische Staatsangehörige weisen einen höheren Anteil an Personen mit Tertiärausbildung (46,5%) auf als Schweizer (sowohl hier geborene wie eingebürgerte). Gleichzeitig ist auch der Anteil Personen mit Sekundarstufe I-Ausbildung bei den ausländischen Staatsangehörigen am höchsten (29,4%).",
+		"erlaeuterungen": "Sekundarstufe I: keine abgeschlossene Ausbildung, obligatorische Schule, einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule, Sozialjahr, Brückenangebote. Sekundarstufe II:  Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte, Diplommittelschule, Verkehrsschule, Fachmittelschule, gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Tertiärstufe: Höhere Fachschule, Fachhochschule, Universität. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -13611,7 +13611,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:42",
+		"aktualisierungsdatum": "2022-04-25T08:50:57",
 		"id": 6091
 	},
 	{
@@ -16896,9 +16896,9 @@ var indikatoren = [
 			6678
 		],
 		"title": "Anteil Personen mit Hauptsprache Deutsch",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (44,1%), der Türkei (41,8%) und arabischen Ländern (39,7%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (22,2%) und der Kategorie «Übrige Länder» (21,9%) zu beobachten sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Abgesehen von Deutschen und Schweizern gaben Personen aus dem Balkan (42,8%), der Türkei (42,0%) und arabischen Ländern (37,1%) am häufigsten Deutsch als Hauptsprache an, während die geringsten Anteile bei Personen aus Mittel- und Südamerika (18,2%) und der Kategorie «Übrige Länder» (21,1%) zu beobachten sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -16923,7 +16923,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:40",
+		"aktualisierungsdatum": "2022-04-25T08:50:54",
 		"id": 6402
 	},
 	{
@@ -16936,9 +16936,9 @@ var indikatoren = [
 			6679
 		],
 		"title": "Anteil ausländische Staatsangehörige mit Hauptsprache Deutsch nach Alter",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (66,3%) am grössten, während er bei den 40- bis 64-Jährigen (46,6%) und den über 65-Jährigen (35,9%) geringer ist.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Der Anteil deutschsprachiger Ausländerinnen und Ausländer ist bei den 15-bis 24-Jährigen (65,5%) am grössten, während er bei den 40- bis 64-Jährigen (45,5%) und den über 65-Jährigen (35,6%) geringer ist.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -16963,7 +16963,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:40",
+		"aktualisierungsdatum": "2022-04-25T08:50:55",
 		"id": 6403
 	},
 	{
@@ -16976,9 +16976,9 @@ var indikatoren = [
 			6680
 		],
 		"title": "Gesprochene Hauptsprachen nach Migrationsstatus",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2015 bis 2019 zu 80,1% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 48,6% waren.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Eingebürgerte Schweizerinnen und Schweizer gaben im Mittel der Jahre 2016 bis 2020 zu 80,2% Deutsch als Hauptsprache an, während es bei den Ausländerinnen und Ausländern lediglich 47,8% waren.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d. h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17003,7 +17003,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:40",
+		"aktualisierungsdatum": "2022-04-25T08:50:55",
 		"id": 6404
 	},
 	{
@@ -17016,9 +17016,9 @@ var indikatoren = [
 			6681
 		],
 		"title": "Bei der Arbeit gesprochene Sprachen",
-		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"lesehilfe": "Bei der Arbeit sprechen 97,2% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern 78,3% sind.",
-		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "nach Migrationsstatus, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Bei der Arbeit sprechen 96,6% der eingebürgerten Schweizerinnen und Schweizer Deutsch oder Schweizerdeutsch, während es bei den Ausländerinnen und Ausländern 76,8% sind.",
+		"erlaeuterungen": "Für jede Person werden bis zu drei Hauptsprachen, d.&nbsp;h. Sprachen, in denen man denkt und die man am besten beherrscht, erfasst. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -17043,7 +17043,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:41",
+		"aktualisierungsdatum": "2022-04-25T08:50:56",
 		"id": 6405
 	},
 	{
@@ -17376,173 +17376,165 @@ var indikatoren = [
 		"id": 6413
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6690"
-		],
 		"template": "template001",
-		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen",
-		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.03.1.6415",
-		"kuerzelKunde": "C2-1",
-		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-14T08:16:25.2525",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Bei den Schweizerinnen und Ausländerinnen ist der Unterschied etwas grösser. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_201",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6415,
 		"chart-id": 6415,
 		"filter": "",
-		"id": 6415
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6691"
+			6690
 		],
-		"template": "template001",
-		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"subtitle": "Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.03.1.6416",
-		"kuerzelKunde": "C2-3",
-		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-14T08:16:27.2727",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (87,6%), EU-West + EFTA + UK (77,5%) und EU-Ost (76,4%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus Mittel- und Südamerika (67,4%), dem Balkan (57,0%), arabischen (51,8%) und afrikanischen Ländern sowie der Türkei (je 49,7%) zu beobachten.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_203",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6416,
-		"chart-id": 6416,
-		"filter": "",
-		"id": 6416
-	},
-	{
-		"parentId": null,
-		"children": [
-			"6692"
-		],
-		"template": "template001",
-		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2015 bis 2019",
-		"kennzahlenset": "Integration",
-		"kuerzel": "",
-		"kuerzelKunde": "C2-4",
-		"description": "Erwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-01T08:34:41.4141",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Bei den 15- bis 24-Jährigen ist die Erwerbstätigenquote ausländischer Männer etwas höher als bei den Schweizern. In den höheren Altersgruppen (ab 45 Jahren) liegt die Quote der ausländischen Männer deutlich unter derjenigen der Schweizer. Die Schweizerinnen haben in allen Altersgruppen eine höhere Erwerbstätigenquote als die Ausländerinnen.",
-		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_204",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6417,
-		"chart-id": 6417,
-		"filter": "",
-		"id": 6417
-	},
-	{
-		"parentId": null,
-		"children": [
-			"6693"
-		],
-		"template": "template001",
-		"title": "Erwerbsquote der 15- bis 64-Jährigen",
+		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen",
 		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.03.1.6418",
-		"kuerzelKunde": "C2-2",
-		"description": "Erwerbsquote der 15- bis 64-Jährigen",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-14T08:16:26.2626",
-		"stufe1": "Kapitel C Erwerb und Auskommen",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2015 bis 2019 liegen die Quoten der Schweizer (79,0%) und Schweizerinnen (76,4%) näher zusammen als diejenigen der Ausländer (84,9%) und Ausländerinnen (73,1%).",
-		"erlaeuterungen": "Die (Netto-)Erwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2015 bis 2019 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "03_00_00_00_00_202",
-		"renderLink": [],
+		"lesehilfe": "Die Erwerbstätigenquoten der Schweizer und der Ausländer lagen in allen betrachteten Jahren nahe beieinander. Bei den Schweizerinnen und Ausländerinnen sind die Unterschiede etwas grösser. In den letzten Jahren haben sich die Quoten der Männer und Frauen angeglichen. Dieser Effekt war bei den Schweizer Staatsangehörigen etwas stärker ausgeprägt.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
 			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
+		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.6415",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C2-1",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_201",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-25T08:50:57",
+		"id": 6415
+	},
+	{
+		"template": "template001",
+		"data-id": 6416,
+		"chart-id": 6416,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6691
+		],
+		"title": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
+		"subtitle": "Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Vergleichsweise hohe Erwerbstätigenquoten weisen Personen aus Deutschland (86,7%), EU-West + EFTA + UK (77,8%) und EU-Ost (75,2%) auf. Tiefe Erwerbstätigenquoten sind bei Personen aus dem Balkan (55,7%), der Türkei (50,0%) sowie aus arabischen (49,5%) und afrikanischen Ländern (46,6%) zu beobachten.",
+		"erlaeuterungen": "Die Nettoerwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Erwerbstätigenquote der 15-bis 64-Jährigen nach Staatsangehörigkeit",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.6416",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C2-3",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_203",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-25T08:50:58",
+		"id": 6416
+	},
+	{
+		"template": "template001",
+		"data-id": 6417,
+		"chart-id": 6417,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6692
+		],
+		"title": "Erwerbstätigenquote",
+		"subtitle": "nach Staatsangehörigkeit, Alter und Geschlecht, Basel-Stadt, gepoolte&nbsp;Daten&nbsp;2016 bis 2020",
+		"lesehilfe": "Bei den 15- bis 24-Jährigen ist die Erwerbstätigenquote ausländischer Männer etwas höher als bei den Schweizern. In den höheren Altersgruppen (ab 45 Jahren) liegt die Quote der ausländischen Männer deutlich unter derjenigen der Schweizer. Die Schweizerinnen haben in allen Altersgruppen eine höhere Erwerbstätigenquote als die Ausländerinnen.",
+		"erlaeuterungen": "Die (Netto-)Erwerbstätigenquote ist definiert als die Anzahl der Erwerbstätigen, geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Seit 2010 stammen die Daten zu den Erwerbspersonen aus der Strukturerhebung. Es handelt sich um eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Erwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C2-4",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_204",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-25T08:50:58",
+		"id": 6417
+	},
+	{
+		"template": "template001",
 		"data-id": 6418,
 		"chart-id": 6418,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6693
+		],
+		"title": "Erwerbsquote der 15- bis 64-Jährigen",
+		"subtitle": "nach Staatsangehörigkeit und Geschlecht, Basel-Stadt",
+		"lesehilfe": "Die Erwerbsquoten von Frauen und Männern haben sich über die Jahre angeglichen. Im Mittel der Jahre 2016 bis 2020 liegen die Quoten der Schweizer (78,8%) und Schweizerinnen (75,9%) näher zusammen als diejenigen der Ausländer (84,7%) und Ausländerinnen (72,7%).",
+		"erlaeuterungen": "Die Nettoerwerbsquote ist definiert als die Summe der Erwerbspersonen (Erwerbstätige plus Erwerbslose), geteilt durch die Wohnbevölkerung im Alter von 15 bis 64 Jahren. Bis 2000 stammen die Daten zu den Erwerbspersonen aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung. Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Erwerbsquote der 15- bis 64-Jährigen",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.6418",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C2-2",
+		"stufe1": "Kapitel C Erwerb und Auskommen",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_00_00_00_00_202",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-25T08:50:57",
 		"id": 6418
 	},
 	{
@@ -17623,7 +17615,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-21T08:31:08",
+		"aktualisierungsdatum": "2022-04-25T08:50:59",
 		"id": 6420
 	},
 	{
@@ -19396,9 +19388,9 @@ var indikatoren = [
 			6722
 		],
 		"title": "Anteil Personen mit und ohne Migrationshintergrund",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 sind in Basel-Stadt rund 47% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 17% sind Schweizer mit Migrationshintergrund und 33% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
-		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 sind in Basel-Stadt rund 46% aller Personen über 15 Jahre Schweizer ohne Migrationshintergrund. Etwa 18% sind Schweizer mit Migrationshintergrund und 33% Ausländer der ersten Generation. Lediglich 3% sind Ausländer zweiter oder höherer Generation.",
+		"erlaeuterungen": "Migrationshintergrund haben: Gebürtige Schweizer mit zwei im Ausland geborenen Elternteilen. In der Schweiz geborene Eingebürgerte und Ausländer mit mindestens einem im Ausland geborenen Elternteil. Im Ausland geborene Eingebürgerte und Ausländer. Ausländer der 1. Generation: Im Ausland geboren. Ausländer der 2. Generation: In der Schweiz geboren und mindestens ein Elternteil im Ausland geboren. Ausländer der 3. Generation: In der Schweiz geboren und beide Elternteile in der Schweiz geboren.<br>Wenn mindestens ein Elternteil das Schweizer Bürgerrecht besitzt, geht dieses bei Geburt automatisch auf das Kind über.<br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5 000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
 		"quellenangabe": [
 			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
 		],
@@ -19423,7 +19415,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-03T08:09:43",
+		"aktualisierungsdatum": "2022-04-25T08:50:59",
 		"id": 6481
 	},
 	{
@@ -26474,7 +26466,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-22T08:57:40",
+		"aktualisierungsdatum": "2022-04-25T08:50:54",
 		"id": 7515
 	},
 	{
@@ -30425,8 +30417,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Im Februar 2022 sank die Einwohnerzahl gegenüber dem Vormonat in zehn Wohnvierteln sowie in Riehen. In neun Wohnvierteln sowie in Bettingen stieg sie.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Im März 2022 sank die Einwohnerzahl gegenüber dem Vormonat in zwei Wohnvierteln. In 17 Wohnvierteln sowie in Riehen und Bettingen stieg sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30453,7 +30445,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-22T08:57:41",
+		"aktualisierungsdatum": "2022-04-25T08:50:54",
 		"id": 7763
 	},
 	{
