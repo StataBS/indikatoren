@@ -18,8 +18,8 @@
           0.831
         ],
         [
-          "2015-2019",
-          0.79
+          "2016-2020",
+          0.788
         ]
       ],
       "name": "Schweizer",
@@ -30,7 +30,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)';
         }
       },
       "data": [
@@ -45,9 +45,9 @@
           "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.779,
-          "high": 0.801
+          "name": "2016-2020",
+          "low": 0.777,
+          "high": 0.799
         }
       ],
       "name": "Schweizer 95% Vertrauensintervall Untergrenze",
@@ -71,8 +71,8 @@
           0.709
         ],
         [
-          "2015-2019",
-          0.764
+          "2016-2020",
+          0.759
         ]
       ],
       "name": "Schweizerinnen",
@@ -83,7 +83,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)';
         }
       },
       "data": [
@@ -98,9 +98,9 @@
           "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.754,
-          "high": 0.775
+          "name": "2016-2020",
+          "low": 0.748,
+          "high": 0.77
         }
       ],
       "name": "Schweizerinnen 95% Vertrauensintervall Untergrenze",
@@ -124,8 +124,8 @@
           0.837
         ],
         [
-          "2015-2019",
-          0.849
+          "2016-2020",
+          0.847
         ]
       ],
       "name": "Ausländer",
@@ -136,7 +136,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+          return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)';
         }
       },
       "data": [
@@ -151,9 +151,9 @@
           "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.837,
-          "high": 0.861
+          "name": "2016-2020",
+          "low": 0.835,
+          "high": 0.859
         }
       ],
       "name": "Ausländer 95% Vertrauensintervall Untergrenze",
@@ -177,8 +177,8 @@
           0.729
         ],
         [
-          "2015-2019",
-          0.731
+          "2016-2020",
+          0.727
         ]
       ],
       "name": "Ausländerinnen",
@@ -189,7 +189,7 @@
       "type": "errorbar",
       "tooltip": {
         "pointFormatter": function(){
-         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)<br/>';
+         return ' (95%-Vertrauensintervall: <b>' + Highcharts.numberFormat((100*this.low),1) + '%</b> - <b>'+ Highcharts.numberFormat((100*this.high),1) + '%</b>)';
         }
       },
       "data": [
@@ -204,9 +204,9 @@
           "high": null
         },
         {
-          "name": "2015-2019",
-          "low": 0.717,
-          "high": 0.746
+          "name": "2016-2020",
+          "low": 0.713,
+          "high": 0.742
         }
       ],
       "name": "Ausländerinnen 95% Vertrauensintervall Untergrenze",
@@ -349,7 +349,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-14"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 25.4.2022"
   },
   "tooltip": {
     "shared": true

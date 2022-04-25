@@ -5,10 +5,6 @@
       "visible": true,
       "data": [
         [
-          1612141200000,
-          4
-        ],
-        [
           1614560400000,
           19
         ],
@@ -42,19 +38,23 @@
         ],
         [
           1635728400000,
-          5
+          3
         ],
         [
           1638320400000,
-          -79
+          -77
         ],
         [
           1640998800000,
-          -12
+          -9
         ],
         [
           1643677200000,
-          -141
+          -55
+        ],
+        [
+          1646096400000,
+          -107
         ]
       ],
       "name": "Saldo Geburten-Todesfälle"
@@ -63,10 +63,6 @@
       "color": "#923F8D",
       "visible": true,
       "data": [
-        [
-          1612141200000,
-          -5
-        ],
         [
           1614560400000,
           -117
@@ -101,19 +97,23 @@
         ],
         [
           1635728400000,
-          -78
+          -69
         ],
         [
           1638320400000,
-          -316
+          -297
         ],
         [
           1640998800000,
-          97
+          136
         ],
         [
           1643677200000,
-          53
+          117
+        ],
+        [
+          1646096400000,
+          1049
         ]
       ],
       "name": "Saldo Zuzüge-Wegzüge"
@@ -122,10 +122,6 @@
       "color": "#C8C8C8",
       "visible": true,
       "data": [
-        [
-          1612141200000,
-          19
-        ],
         [
           1614560400000,
           90
@@ -160,19 +156,23 @@
         ],
         [
           1635728400000,
-          677
+          670
         ],
         [
           1638320400000,
-          242
+          221
         ],
         [
           1640998800000,
-          77
+          35
         ],
         [
           1643677200000,
-          149
+          -1
+        ],
+        [
+          1646096400000,
+          351
         ]
       ],
       "name": "Bereinigungen"
@@ -287,9 +287,9 @@
       },
       "format": "{value:,.0f}"
     },
-    "max": 1000,
+    "max": 1250,
     "tickInterval": 250,
-    "min": -1000
+    "min": -1250
   },
   "legend": {
     "symbolRadius": 0,
@@ -320,7 +320,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2022-3-22"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 25.4.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

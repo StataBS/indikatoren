@@ -32,7 +32,7 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-    itemDistance: 10, 
+    itemDistance: 5, 
     "itemStyle": {
       "fontWeight": "normal"
     }
