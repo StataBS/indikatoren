@@ -1610,43 +1610,41 @@ var indikatoren = [
 		"id": 4127
 	},
 	{
+		"template": "line001",
+		"data-id": 4128,
+		"chart-id": 4128,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Mietpreisentwicklung",
 		"subtitle": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
-		"kuerzel": "I.09.3.4128",
-		"kuerzelKunde": "0.1.B-1",
-		"description": "Mietpreisentwicklung",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2021 betrug der Durchschnittspreis 2 277 Franken.",
+		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-04T08:24:18.1818",
+		"description": "Mietpreisentwicklung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.4128",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "0.1.B-1",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2020 betrug der Durchschnittspreis 2 243 Franken.",
-		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4128,
-		"chart-id": 4128,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:20",
 		"id": 4128
 	},
 	{
@@ -7776,45 +7774,45 @@ var indikatoren = [
 		"id": 4836
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4837,
+		"chart-id": 4837,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5124"
+			5124
 		],
-		"template": "dotplot",
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.03.1.4837",
-		"kuerzelKunde": "WA-3.A",
-		"description": "Erwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (58,3%) und im Wohnviertel Altstadt Grossbasel am höchsten (80,6%)",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbstaetige.ewbtq&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:18.1818",
+		"description": "Erwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.4837",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-3.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (61,7%) und im Wohnviertel Altstadt Grossbasel am höchsten (84,5%)",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"orderKey": "02_03_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_016",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbstaetige.ewbtq&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4837,
-		"chart-id": 4837,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:21",
 		"id": 4837
 	},
 	{
@@ -10297,6 +10295,46 @@ var indikatoren = [
 	},
 	{
 		"template": "befragungen001",
+		"data-id": 6136,
+		"chart-id": 6136,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8906
+		],
+		"title": "Höchste abgeschlossene Ausbildung",
+		"subtitle": "nach Geschlecht, Staatsangehörigkeit und Altersklasse, Pooling 2016-2020",
+		"lesehilfe": "In der Altersgruppe der 30- bis 39-Jährigen haben 52,0% einen universitären Abschluss, in der Gesamtbevölkerung ab 15 Jahren liegt der Anteil bei 31,1%.",
+		"erlaeuterungen": "Keine oder obligatorische Schule: Keine abgeschlossene Ausbildung, obligatorische Schule. Berufsvorbereitende Schule: einjährige Vorlehre, einjährige allgemeinbildende Schule, 10. Schuljahr, einjährige Berufswahlschule, Haushaltslehrjahr, Sprachschule (mind. ein Jahr), Sozialjahr, Brückenangebote. DMS, FMS o. ä.: Diplommittelschule, Verkehrsschule, Fachmittelschule. Berufslehre: Anlehre, Berufslehre, Vollzeitberufsschule, Handelsdiplom, Lehrwerkstätte. Matura: Gymnasiale Maturität, Lehrkräfte-Seminar, Berufs- oder Fachmaturität. Höhere Fachschule: Höhere Fach- und Berufsausbildung mit eidg. Fachausweis, eidg. Diplom oder Meisterprüfung, höhere Fachschule für Technik oder für Wirtschaft. Universität: Bachelor, Master, Lizentiat, Diplom, Staatsexamen, Nachdiplom, Doktorat, Habilitation.<br>Die Strukturerhebung ist eine Stichprobenerhebung, weshalb die Schätzungen mit einer gewissen Ungenauigkeit verbunden sind. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Höchste abgeschlossene Ausbildung",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsabschlüsse",
+		"kuerzel": "I.15.7.05191",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "GW13",
+		"stufe1": "Bereich Grundbedürfnisse und Wohlergehen",
+		"stufe2": "Bildung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "03_05_00_00_00_314",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-04-27T08:13:20",
+		"id": 5191
+	},
+	{
+		"template": "befragungen001",
 		"data-id": 5192,
 		"chart-id": 5192,
 		"filter": "",
@@ -10626,46 +10664,44 @@ var indikatoren = [
 		"id": 5202
 	},
 	{
+		"template": "template001",
+		"data-id": 5203,
+		"chart-id": 5203,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6244"
+			6244
 		],
-		"template": "template001",
 		"title": "Zu- und Wegpendler nach Herkunft und Ziel",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "",
-		"kuerzelKunde": "ST 4-12",
-		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
-		"thema": "11 Verkehr",
-		"unterthema": "Pendler",
+		"lesehilfe": "Im Jahr 2020 pendeln rund 89 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 61% von ihnen aus der Schweiz. Rund 22 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen.",
+		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:42.4242",
+		"description": "Zu- und Wegpendler nach Herkunft und Ziel",
+		"thema": "11 Verkehr",
+		"unterthema": "Pendler",
+		"kuerzel": "I.11.5.05203",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 4-12",
 		"stufe1": "Sachgebiet Siedlung - Wohnen",
 		"stufe2": "Strategie 4: Mehr Wohnraum für eine wachsende Bevölkerung schaffen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2019 pendeln gut 91 000 Personen nach Basel-Stadt, um einer Erwerbstätigkeit nachzugehen, rund 62% von ihnen aus der Schweiz. Rund 24 000 Wegpendler stehen dem gegenüber. Dies ergibt einen Zupendlerüberschuss von rund 67 000 Personen; das sind rund 1 000 weniger als im Vorjahr.",
-		"erlaeuterungen": "Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Die Zahl der Zupendler aus dem Ausland basiert bis 2000 auf den gültigen Grenzgängerbewilligungen Ende November (2000: Ende Dezember) gemäss Bundesamt für Migration und seit 2010 auf der Grenzgängerstatistik des Bundesamtes für Statistik (4. Quartal). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"orderKey": "02_04_00_00_00_012",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_04_00_00_00_012",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 5203,
-		"chart-id": 5203,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:20",
 		"id": 5203
 	},
 	{
@@ -15779,46 +15815,44 @@ var indikatoren = [
 		"id": 6217
 	},
 	{
+		"template": "template001",
+		"data-id": 6218,
+		"chart-id": 6218,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6263"
+			6263
 		],
-		"template": "template001",
 		"title": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Richtplan",
-		"kuerzel": "I.15.6.6218",
-		"kuerzelKunde": "ST 8-2",
-		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
-		"thema": "15 Bildung",
-		"unterthema": "Bildungsniveau",
+		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2020 beträgt dieser Anteil 47%. Rund 33% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 20% auf Niveau Sekundarstufe I.",
+		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
+			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-28T08:33:46.4646",
+		"description": "Bevölkerung ab 15 Jahren nach Ausbildungsniveau",
+		"thema": "15 Bildung",
+		"unterthema": "Bildungsniveau",
+		"kuerzel": "I.15.6.6218",
+		"kennzahlenset": "Richtplan",
+		"kuerzelKunde": "ST 8-2",
 		"stufe1": "Sachgebiet Siedlung - Wirtschaft",
 		"stufe2": "Strategie 8: Bedingugen für Wirtschaft und Bildung verbessern",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Seit 1990 hat sich der Anteil der Personen mit einer Ausbildung auf Tertiärstufe kontinuierlich erhöht. 2019 beträgt dieser Anteil 41%. Rund 38% der baselstädtischen Wohnbevölkerung besitzen eine höchste abgeschlossene Ausbildung auf Niveau Sekundarstufe II und 21% auf Niveau Sekundarstufe I.",
-		"erlaeuterungen": "Die Sekundarstufe I umfasst Ausbildungen bis maximal der obligatorischen Schule. Unter Sekundarstufe II ist die berufliche Grundbildung, z. B. eine Berufslehre, sowie die allgemeinbildende Schule, z. B. die gymnasiale Maturität, zusammengefasst. Die Tertiärstufe umfasst die höhere Berufsbildung, z. B. eine höhere Fachschule für Technik oder Wirtschaft sowie Ausbildungen an Hochschulen, wie z. B. ein Bachelor- oder Masterstudium. Bis 2000 stammen die Daten aus der Eidgenössischen Volkszählung (Vollerhebung), seit 2010 aus der Strukturerhebung (Hochrechnungen aufgrund einer Stichprobenerhebung).",
+		"orderKey": "03_08_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "03_08_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)",
-			"Bundesamt für Statistik (BFS), Volkszählung (VZ)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6218,
-		"chart-id": 6218,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:21",
 		"id": 6218
 	},
 	{
@@ -42057,7 +42091,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-02-16T07:09:28",
+		"aktualisierungsdatum": "2022-04-27T08:13:19",
 		"id": 9475
 	},
 	{

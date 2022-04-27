@@ -588,44 +588,44 @@ var indikatorensetData = [
 		"id": 4836
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4837,
+		"chart-id": 4837,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5124"
+			5124
 		],
-		"template": "dotplot",
 		"title": "Erwerbstätigenquote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2015 bis 2019",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.03.1.4837",
-		"kuerzelKunde": "WA-3.A",
-		"description": "Erwerbstätigenquote",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Erwerbspersonen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2016 bis 2020",
+		"lesehilfe": "Im Mittel der Jahre 2016 bis 2020 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (58,3%) und im Wohnviertel Altstadt Grossbasel am höchsten (80,6%)",
+		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2016 bis 2020 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2016-2020 einen methodischen Bruch.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbstaetige.ewbtq&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:18.1818",
+		"description": "Erwerbstätigenquote",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Erwerbspersonen",
+		"kuerzel": "I.03.1.4837",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-3.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Mittel der Jahre 2015 bis 2019 ist die Erwerbstätigenquote im Wohnviertel Kleinhüningen am tiefsten (61,7%) und im Wohnviertel Altstadt Grossbasel am höchsten (84,5%)",
-		"erlaeuterungen": "Anteil der erwerbstätigen Wohnbevölkerung an der gesamten erwerbsfähigen Wohnbevölkerung (15 bis 64 Jahre; Nettoerwerbstätigenquote) in Prozent. Aufgrund der Grösse wird Bettingen zusammen mit Riehen ausgewertet, was zum selben Wert für die beiden Gemeinden führt. <br>Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe von jährlich rund 5&nbsp;000 in Basel-Stadt wohnhaften Personen ab 15 Jahren und sind folglich mit einer gewissen Unsicherheit behaftet. Die Daten der Jahre 2015 bis 2019 werden zusammen ausgewertet, um eine grössere Stichprobe zu erhalten (gepoolte Daten). Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden. Folglich gibt es innerhalb des Poolingzeitraums 2015-2019 einen methodischen Bruch.",
+		"orderKey": "02_03_00_00_00_016",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_016",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=03_erwerbstaetige.ewbtq&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4837,
-		"chart-id": 4837,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:21",
 		"id": 4837
 	},
 	{

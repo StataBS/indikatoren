@@ -1,23 +1,23 @@
 ﻿"Wohnviertel_id"	"Erwerbstätigenquote"	"Rang"	"Wohnviertel"	"jahr_num"
-19	0.6169505	1	"Kleinhüningen"	0
-18	0.6435239	2	"Klybeck"	0
-13	0.6917513	3	"Clara"	0
-11	0.7039822	4	"St. Johann"	0
-15	0.7045793	5	"Hirzbrunnen"	0
-10	0.712183	6	"Iselin"	0
-17	0.713825	7	"Matthäus"	0
-9	0.7160514	8	"Gotthelf"	0
-16	0.720459	9	"Rosental"	0
-5	0.7322857	10	"St. Alban"	0
-12	0.7331914	11	"Altstadt Kleinbasel"	0
-20	0.7384675	12	"Riehen"	0
-30	0.7384675	13	"Bettingen"	0
-7	0.7402602	14	"Bruderholz"	0
-2	0.7478803	15	"Vorstädte"	0
-4	0.7532669	16	"Breite"	0
-8	0.7583558	17	"Bachletten"	0
-6	0.7627559	18	"Gundeldingen"	0
-3	0.7824608	19	"Am Ring"	0
-14	0.789864	20	"Wettstein"	0
-1	0.8445363	21	"Altstadt Grossbasel"	0
+19	0.5825095	1	"Kleinhüningen"	"2016-2020"
+18	0.6446787	2	"Klybeck"	"2016-2020"
+13	0.6882928	3	"Clara"	"2016-2020"
+16	0.7068611	4	"Rosental"	"2016-2020"
+11	0.7097482	5	"St. Johann"	"2016-2020"
+15	0.7112519	6	"Hirzbrunnen"	"2016-2020"
+10	0.7117031	7	"Iselin"	"2016-2020"
+5	0.717248	8	"St. Alban"	"2016-2020"
+17	0.7191912	9	"Matthäus"	"2016-2020"
+9	0.7255677	10	"Gotthelf"	"2016-2020"
+20	0.7283179	11	"Riehen"	"2016-2020"
+30	0.7283179	11	"Bettingen"	"2016-2020"
+7	0.7356224	13	"Bruderholz"	"2016-2020"
+8	0.7526574	14	"Bachletten"	"2016-2020"
+2	0.7530226	15	"Vorstädte"	"2016-2020"
+4	0.7530277	16	"Breite"	"2016-2020"
+6	0.7560823	17	"Gundeldingen"	"2016-2020"
+12	0.7584403	18	"Altstadt Kleinbasel"	"2016-2020"
+3	0.776574	19	"Am Ring"	"2016-2020"
+14	0.7896758	20	"Wettstein"	"2016-2020"
+1	0.8057185	21	"Altstadt Grossbasel"	"2016-2020"
 
