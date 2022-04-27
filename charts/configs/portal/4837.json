@@ -5,87 +5,87 @@
       "data": [
         [
           "Kleinhüningen",
-          0.6169505
+          0.5825095
         ],
         [
           "Klybeck",
-          0.6435239
+          0.6446787
         ],
         [
           "Clara",
-          0.6917513
-        ],
-        [
-          "St. Johann",
-          0.7039822
-        ],
-        [
-          "Hirzbrunnen",
-          0.7045793
-        ],
-        [
-          "Iselin",
-          0.712183
-        ],
-        [
-          "Matthäus",
-          0.713825
-        ],
-        [
-          "Gotthelf",
-          0.7160514
+          0.6882928
         ],
         [
           "Rosental",
-          0.720459
+          0.7068611
+        ],
+        [
+          "St. Johann",
+          0.7097482
+        ],
+        [
+          "Hirzbrunnen",
+          0.7112519
+        ],
+        [
+          "Iselin",
+          0.7117031
         ],
         [
           "St. Alban",
-          0.7322857
+          0.717248
         ],
         [
-          "Altstadt Kleinbasel",
-          0.7331914
+          "Matthäus",
+          0.7191912
+        ],
+        [
+          "Gotthelf",
+          0.7255677
         ],
         [
           "Riehen",
-          0.7384675
+          0.7283179
         ],
         [
           "Bettingen",
-          0.7384675
+          0.7283179
         ],
         [
           "Bruderholz",
-          0.7402602
-        ],
-        [
-          "Vorstädte",
-          0.7478803
-        ],
-        [
-          "Breite",
-          0.7532669
+          0.7356224
         ],
         [
           "Bachletten",
-          0.7583558
+          0.7526574
+        ],
+        [
+          "Vorstädte",
+          0.7530226
+        ],
+        [
+          "Breite",
+          0.7530277
         ],
         [
           "Gundeldingen",
-          0.7627559
+          0.7560823
+        ],
+        [
+          "Altstadt Kleinbasel",
+          0.7584403
         ],
         [
           "Am Ring",
-          0.7824608
+          0.776574
         ],
         [
           "Wettstein",
-          0.789864
+          0.7896758
         ],
         [
           "Altstadt Grossbasel",
-          0.8445363
+          0.8057185
         ]
       ],
       "name": "Erwerbstätigenquote",
@@ -107,47 +107,47 @@
           3
         ],
         [
-          "St. Johann",
+          "Rosental",
           4
         ],
         [
-          "Hirzbrunnen",
+          "St. Johann",
           5
         ],
         [
-          "Iselin",
+          "Hirzbrunnen",
           6
         ],
         [
-          "Matthäus",
+          "Iselin",
           7
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           8
         ],
         [
-          "Rosental",
+          "Matthäus",
           9
         ],
         [
-          "St. Alban",
+          "Gotthelf",
           10
         ],
         [
-          "Altstadt Kleinbasel",
+          "Riehen",
           11
         ],
         [
-          "Riehen",
-          12
-        ],
-        [
           "Bettingen",
-          13
+          11
         ],
         [
           "Bruderholz",
+          13
+        ],
+        [
+          "Bachletten",
           14
         ],
         [
@@ -159,11 +159,11 @@
           16
         ],
         [
-          "Bachletten",
+          "Gundeldingen",
           17
         ],
         [
-          "Gundeldingen",
+          "Altstadt Kleinbasel",
           18
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2015 bis 2019",
+    "text": "nach Wohnviertel, Basel-Stadt, gepoolte Daten 2016 bis 2020",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-29"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
   },
   "legend": {
     "enabled": false,

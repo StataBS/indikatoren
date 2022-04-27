@@ -67,6 +67,10 @@
         [
           "2020",
           688
+        ],
+        [
+          "2021",
+          717
         ]
       ],
       "name": "1 Zimmer",
@@ -139,6 +143,10 @@
         [
           "2020",
           1003
+        ],
+        [
+          "2021",
+          1036
         ]
       ],
       "name": "2 Zimmer",
@@ -211,6 +219,10 @@
         [
           "2020",
           1223
+        ],
+        [
+          "2021",
+          1244
         ]
       ],
       "name": "3 Zimmer",
@@ -283,6 +295,10 @@
         [
           "2020",
           1646
+        ],
+        [
+          "2021",
+          1687
         ]
       ],
       "name": "4 Zimmer",
@@ -355,6 +371,10 @@
         [
           "2020",
           2243
+        ],
+        [
+          "2021",
+          2277
         ]
       ],
       "name": "5 Zimmer",
@@ -491,7 +511,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 2020-6-4"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

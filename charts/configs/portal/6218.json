@@ -58,6 +58,10 @@
         [
           "2019",
           21.2
+        ],
+        [
+          "2020",
+          20.3
         ]
       ],
       "name": "Sekundarstufe I",
@@ -121,6 +125,10 @@
         [
           "2019",
           37.7
+        ],
+        [
+          "2020",
+          32.9
         ]
       ],
       "name": "Sekundarstufe II",
@@ -184,6 +192,10 @@
         [
           "2019",
           41.1
+        ],
+        [
+          "2020",
+          46.8
         ]
       ],
       "name": "Tertiärstufe",
@@ -246,6 +258,10 @@
         ],
         [
           "2019",
+          null
+        ],
+        [
+          "2020",
           null
         ]
       ],
@@ -386,7 +402,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-28"
+    "text": "Quelle: Bundesamt für Statistik (BFS), Strukturerhebung (SE);\u003Cbr\u002F\u003EBundesamt für Statistik (BFS), Volkszählung (VZ).\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

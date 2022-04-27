@@ -40,42 +40,40 @@ var indikatorensetData = [
 		"id": 4127
 	},
 	{
+		"template": "line001",
+		"data-id": 4128,
+		"chart-id": 4128,
+		"filter": "",
+		"parentId": null,
+		"children": [],
 		"title": "Mietpreisentwicklung",
 		"subtitle": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
-		"kuerzel": "I.09.3.4128",
-		"kuerzelKunde": "0.1.B-1",
-		"description": "Mietpreisentwicklung",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Mietpreise",
-		"kennzahlenset": "Wohnraumentwicklung",
+		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2021 betrug der Durchschnittspreis 2 277 Franken.",
+		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-06-04T08:24:18.1818",
+		"description": "Mietpreisentwicklung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.4128",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "0.1.B-1",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2020 betrug der Durchschnittspreis 2 243 Franken.",
-		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
-		"template": "line001",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_000",
-		"parentId": null,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4128,
-		"chart-id": 4128,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-27T08:13:20",
 		"id": 4128
 	},
 	{
