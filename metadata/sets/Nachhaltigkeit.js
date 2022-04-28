@@ -2798,7 +2798,7 @@ var indikatorensetData = [
 		"parentId": "7701",
 		"children": [],
 		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
 		"quellenangabe": [
@@ -2824,7 +2824,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-18T08:52:49",
+		"aktualisierungsdatum": "2022-04-28T08:18:45",
 		"id": 8455
 	},
 	{
