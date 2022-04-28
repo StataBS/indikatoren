@@ -7333,45 +7333,45 @@ var indikatoren = [
 		"id": 4724
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4822,
+		"chart-id": 4822,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5109"
+			5109
 		],
-		"template": "dotplot",
 		"title": "Sozialhilfequote",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "",
-		"kuerzelKunde": "GS-1.A",
-		"description": "Sozialhilfequote",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Im Wohnviertel Klybeck beziehen 12,8% der Bevölkerung Sozialhilfe. Das ist der höchste Wert im Kanton. In der Gemeinde Bettingen beziehen 1,1% der Bevölkerung Sozialhilfe. Das ist der niedrigste Wert.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=soz_sozhilfe.soz_quote&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-25T08:35:46.4646",
+		"description": "Sozialhilfequote",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-1.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Sozialhilfebeziehende ist mit 12,6% im Wohnviertel Klybeck am höchsten, in der Altstadt Grossbasel mit 1,3% am tiefsten.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "02_01_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_001",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=soz_sozhilfe.soz_quote&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4822,
-		"chart-id": 4822,
-		"filter": "",
+		"aktualisierungsdatum": "2022-04-28T08:18:44",
 		"id": 4822
 	},
 	{
@@ -42032,7 +42032,7 @@ var indikatoren = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "49 376 Logiernächte wurden im Februar 2022 in den Basler Hotelbetrieben gebucht, 9 801 bzw. 24,8% mehr als im Januar. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 138,0% bzw. 28 628 Übernachtungen. Die inländischen Gäste buchten 24 483 Logiernächte (+103,6%), die Gäste aus dem Ausland 24 893 Übernachtungen (+185,5%).",
+		"lesehilfe": "81 538 Logiernächte wurden im März 2022 in den Basler Hotelbetrieben gebucht, 32 162 bzw. 65,1% mehr als im Februar. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 163,8% bzw. 50 632 Übernachtungen. Die inländischen Gäste buchten 37 724 Logiernächte (+114,1%), die Gäste aus dem Ausland 43 814 Übernachtungen (+229,7%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42058,7 +42058,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:27",
+		"aktualisierungsdatum": "2022-04-28T08:18:42",
 		"id": 7516
 	},
 	{
@@ -42069,8 +42069,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, Februar",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 35%.",
+		"subtitle": "Basel-Stadt, März",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42096,7 +42096,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-03-24T08:55:28",
+		"aktualisierungsdatum": "2022-04-28T08:18:43",
 		"id": 7517
 	},
 	{
@@ -44817,7 +44817,7 @@ var indikatoren = [
 			8958
 		],
 		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
 		"quellenangabe": [
@@ -44844,7 +44844,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-18T08:52:48",
+		"aktualisierungsdatum": "2022-04-28T08:18:44",
 		"id": 7701
 	},
 	{
@@ -46654,7 +46654,7 @@ var indikatoren = [
 		],
 		"title": "Motorisierungsgrad",
 		"subtitle": "Personenwagen pro 1000 Einwohner, Basel-Stadt",
-		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 308 Personenwagen pro 1000 Einwohner.",
+		"lesehilfe": "Seit dem Höchststand von 332 Personenwagen pro 1000 Einwohnerinnen und Einwohner im Jahr 2004 ist eine leicht abnehmende Tendenz zu beobachten. Aktuell beträgt der Motorisierungsgrad 307 Personenwagen pro 1000 Einwohner.",
 		"erlaeuterungen": "Der Motorisierungsgrad zeigt das Verhältnis zwischen Fahrzeugbestand und mittlerer kantonaler Wohnbevölkerung.",
 		"quellenangabe": [
 			"Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt"
@@ -46682,7 +46682,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:58",
+		"aktualisierungsdatum": "2022-04-28T08:18:45",
 		"id": 7779
 	},
 	{
@@ -59774,7 +59774,7 @@ var indikatoren = [
 		"parentId": "7701",
 		"children": [],
 		"title": "Anzahl Tropennächte",
-		"subtitle": "nach Wohnviertel, 2018",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2018",
 		"lesehilfe": "In den Wohnvierteln Rosental und Altstadt Kleinbasel traten 2018 mit 14 Nächten über 20 °C kantonsweit am meisten Tropennächte auf (gemittelt über das gesamte Wohnviertel). Den tiefsten Wert wies die Gemeinde Bettingen mit nur 2 Tropennächten auf.",
 		"erlaeuterungen": "Tropennächte sind Nächte, in denen die Temperatur nicht unter 20 °C sinkt. Heissere Flächen sind in der Regel stark bebaute, versiegelte und vegetationsarme Gebiete (z. B. Innenstädte, Industrie- und Bahnareale). Kühlere Flächen finden sich dort, wo genügend Vegetation (z. B. Parks) oder grössere Gewässer (Rhein) vorhanden sind oder wo Kaltluftzufuhr, z. B. aus umliegenden kühleren Gebieten, erfolgen kann. Die Daten basieren auf Modellrechnungen (200 x 200 m-Raster, räumlich gemittelt über das jeweilige Wohnviertel) der Universität Basel für das Jahr 2018 und berücksichtigen neben Temperaturmessungen (an zehn Standorten) auch Topografie, Gebäude, Bäume und die Oberflächenbeschaffenheit des Bodens.",
 		"quellenangabe": [
@@ -59801,7 +59801,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": false,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-18T08:52:49",
+		"aktualisierungsdatum": "2022-04-28T08:18:45",
 		"id": 8455
 	},
 	{
@@ -72700,7 +72700,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-21T08:31:07",
+		"aktualisierungsdatum": "2022-04-28T08:18:43",
 		"id": 9022
 	},
 	{
@@ -72738,7 +72738,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-21T08:31:07",
+		"aktualisierungsdatum": "2022-04-28T08:18:44",
 		"id": 9023
 	},
 	{

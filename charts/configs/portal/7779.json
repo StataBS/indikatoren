@@ -106,6 +106,10 @@
         [
           2020,
           307.6
+        ],
+        [
+          2021,
+          307.1
         ]
       ],
       "name": "Anzahl Personenwagen pro 1000 Einwohner"
@@ -181,9 +185,17 @@
       "style": {
         "color": "#000000",
         "textOverflow": "none"
-      }
+      },
+      "rotation": -45
     },
-    "tickInterval": 2
+    "tickPositioner": function () {
+		var interval = 2,
+			ext = this.getExtremes(),
+			i = ext.dataMax,
+			pos = [i];
+		while (i >= ext.dataMin) pos.unshift(i = i - interval);
+		return pos;
+	}
   },
   "yAxis": {
     "min": 0,
@@ -227,7 +239,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
+    "text": "Quelle: Kantonspolizei Basel-Stadt, Motorfahrzeugkontrolle; Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.4.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
