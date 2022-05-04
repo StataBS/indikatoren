@@ -1215,42 +1215,40 @@ var indikatorensetData = [
 		"id": 8915
 	},
 	{
+		"template": "template001_print",
+		"data-id": 8916,
+		"chart-id": 8916,
+		"filter": "",
+		"parentId": "6161",
+		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
-		"kuerzel": "I.08.3.08916",
-		"kuerzelKunde": "NL3",
-		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
-		"thema": "08 Energie",
-		"unterthema": "Erneuerbare",
-		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"lesehilfe": "Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
+		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Energiestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-10-16T12:07:40.4040",
+		"description": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
+		"thema": "08 Energie",
+		"unterthema": "Erneuerbare",
+		"kuerzel": "I.08.3.08916",
+		"kennzahlenset": "Nachhaltigkeit (Print)",
+		"kuerzelKunde": "NL3",
 		"stufe1": "Bereich Natürliche Lebensgrundlagen",
 		"stufe2": "Umgang mit Energie und Ressourcen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
-		"erlaeuterungen": "Folgende Energieträger werden als erneuerbar berücksichtigt: Wasserkraft, Holz, Umweltwärme, thermische und fotovoltaische Sonnenenergie, Klärschlamm, Biogas, erneuerbare Elektrizität (in Basel-Stadt stammen 100% des importierten Strommixes aus erneuerbaren Quellen) und Kehricht (zu 50% als erneuerbar taxiert).<br><br>Die Summe der Verbräuche der erneuerbaren Energien wird durch den Gesamtenergieverbrauch dividiert.",
-		"template": "template001_print",
+		"orderKey": "04_01_00_00_00_403",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_01_00_00_00_403",
-		"parentId": 9007,
-		"children": [],
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Energiestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8916,
-		"chart-id": 8916,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-04T08:06:02",
 		"id": 8916
 	},
 	{

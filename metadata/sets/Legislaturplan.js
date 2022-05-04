@@ -484,8 +484,12 @@ var indikatorensetData = [
 		"data-id": 6161,
 		"chart-id": 9007,
 		"filter": "",
-		"parentId": "9007",
-		"children": [],
+		"parentId": null,
+		"children": [
+			5795,
+			6313,
+			8916
+		],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
 		"lesehilfe": "Der Anteil erneuerbarer Energien am Bruttoverbrauch ist von 34,5% im Jahr 2010 auf 39,9% im Jahr 2018 gestiegen.",
@@ -513,7 +517,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:28",
+		"aktualisierungsdatum": "2022-05-04T08:05:59",
 		"id": 6161
 	},
 	{
