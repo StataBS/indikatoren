@@ -342,7 +342,7 @@ var indikatorensetData = [
 		"data-id": 6313,
 		"chart-id": 6313,
 		"filter": "",
-		"parentId": "9007",
+		"parentId": "6161",
 		"children": [],
 		"title": "Anteil erneuerbarer Energie am Bruttoenergieverbrauch",
 		"subtitle": "Basel-Stadt",
@@ -371,7 +371,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "small",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:25:27",
+		"aktualisierungsdatum": "2022-05-04T08:06:00",
 		"id": 6313
 	},
 	{
