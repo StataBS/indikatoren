@@ -4186,8 +4186,8 @@ var indikatorensetData = [
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 wurden 2 709 (Vorjahr 3 115) Gutscheine ausgestellt und 1 252 (Vorjahr 1 552) eingelöst. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (751) ausgestellt. Mit 76,4% erreichten Personen aus dem Balkan die höchste Einlösequote. Am tiefsten war diese Quote 2020 bei Personen aus afrikanischen Ländern (36,7%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wurden 2 385 (Vorjahr 2 709) Gutscheine ausgestellt und 1 422 (Vorjahr 1 252) eingelöst. Damit hat sich die Einlösequote im Vorjahresvergleich deutlich erhöht. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (693) ausgestellt. Mit 95,2% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2021 bei Personen der zahlenmässig stärksten Gruppe EU-West + EFTA + UK (47,2%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -4213,7 +4213,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-23T08:17:14",
+		"aktualisierungsdatum": "2022-05-05T08:39:01",
 		"id": 6514
 	},
 	{

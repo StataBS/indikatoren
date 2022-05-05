@@ -2655,43 +2655,41 @@
 		"id": 4153
 	},
 	{
+		"template": "template001",
+		"data-id": 4154,
+		"chart-id": 4154,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Bestand an Notwohnungen und ihre Belegung",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.13.3.4154",
-		"kuerzelKunde": "4.1.E",
-		"description": "Bestand an Notwohnungen und ihre Belegung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"lesehilfe": "Die wenigen Notwohnungen – 2021 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013, 2014 und 2021 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen und Erweiterung des Portfolios konnte das Angebot bis 2021 um rund 70 Logis erhöht werden.",
+		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-12T07:58:09.099",
+		"description": "Bestand an Notwohnungen und ihre Belegung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.4154",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "4.1.E",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die wenigen Notwohnungen – 2020 machten sie 0,15% des Wohnungsbestandes aus – waren immer zu mindestens 86% belegt. In den Jahren 2013 und 2014 betrug die Belegung sogar mehr als 95%. Durch Aufstockungen bestehender Blockrandsiedlungen konnte das Angebot bis 2015 um rund 40 Logis erhöht werden.",
-		"erlaeuterungen": "Belegung Ende Jahr gemäss Mietverträgen der Sozialhilfe.",
+		"orderKey": "05_01_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "05_01_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfe Basel"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4154,
-		"chart-id": 4154,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-05T08:39:01",
 		"id": 4154
 	},
 	{
@@ -7690,87 +7688,87 @@
 		"id": 4834
 	},
 	{
-		"parentId": null,
-		"children": [
-			"5122"
-		],
 		"template": "dotplot",
-		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.18.2.4835",
-		"kuerzelKunde": "WA-1.A",
-		"description": "Vermögenssteuer pro Veranlagung",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-05-07T08:01:04.044",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Wirtschaft und Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Kleinhüningen der niedrigste.",
-		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_014",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
 		"data-id": 4835,
 		"chart-id": 4835,
 		"filter": "",
-		"id": 4835
-	},
-	{
 		"parentId": null,
 		"children": [
-			"5123"
+			5122
 		],
-		"template": "dotplot",
-		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.18.2.4836",
-		"kuerzelKunde": "WA-2.A",
-		"description": "Einkommenssteuer pro Veranlagung",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
+		"title": "Vermögenssteuer in Franken  pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner der Gemeinde Bettingen die höchsten Vermögenssteuern pro Veranlagung.  Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:01:05.055",
+		"description": "Vermögenssteuer in Franken  pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4835",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-1.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bettingen verzeichnet mit rund 20 700 Franken die höchste Einkommenssteuer pro Veranlagung. Den niedrigsten Wert weist mit 4 400 Franken das Wohnviertel Klybeck auf.",
-		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
+		"orderKey": "02_03_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_015",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
+		"aktualisierungsdatum": "2022-05-05T08:39:02",
+		"id": 4835
+	},
+	{
+		"template": "dotplot",
 		"data-id": 4836,
 		"chart-id": 4836,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			5123
+		],
+		"title": "Einkommenssteuer in Franken pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner der Gemeinde Bettingen die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Einkommenssteuer in Franken pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4836",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-2.A",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_015",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-05T08:39:03",
 		"id": 4836
 	},
 	{
@@ -20466,8 +20464,8 @@
 			6746
 		],
 		"title": "Anzahl Gutscheine für Gratis-Deutschkurse",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Im Jahr 2020 wurden 2 709 (Vorjahr 3 115) Gutscheine ausgestellt und 1 252 (Vorjahr 1 552) eingelöst. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (751) ausgestellt. Mit 76,4% erreichten Personen aus dem Balkan die höchste Einlösequote. Am tiefsten war diese Quote 2020 bei Personen aus afrikanischen Ländern (36,7%).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Im Jahr 2021 wurden 2 385 (Vorjahr 2 709) Gutscheine ausgestellt und 1 422 (Vorjahr 1 252) eingelöst. Damit hat sich die Einlösequote im Vorjahresvergleich deutlich erhöht. Für Personen aus der Ländergruppe EU-West- + EFTA + UK wurden die meisten Gutscheine (693) ausgestellt. Mit 95,2% erreichten Personen aus afrikanischen Ländern die höchste Einlösequote. Am tiefsten war diese Quote 2021 bei Personen der zahlenmässig stärksten Gruppe EU-West + EFTA + UK (47,2%).",
 		"erlaeuterungen": "Neuzugezogene erhalten im Kanton Basel-Stadt die rechtlich verankerte Möglichkeit, einen Gratis-Deutschkurs zu besuchen. Anspruchsberechtigt sind volljährige, nicht deutschsprachige Migrantinnen und Migranten in ihrem ersten Aufenthaltsjahr in der Schweiz bzw. im Kanton, die über eine Aufenthaltsbewilligung B verfügen. Da Gutscheine jeweils ein Jahr gültig sind, entsprechen die Personen, welche die ausgestellten Gutscheine erhalten haben, nicht zwingend den Personen, welche die Gutscheine eingelöst haben. Personen aus dem Asylbereich sind hier ausgenommen, da sie über die Sozialhilfe spezifisch im Spracherwerb gefördert werden.",
 		"quellenangabe": [
 			"Erziehungsdepartement Basel-Stadt, Fachstelle Erwachsenenbildung",
@@ -20494,7 +20492,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-08-23T08:17:14",
+		"aktualisierungsdatum": "2022-05-05T08:39:01",
 		"id": 6514
 	},
 	{
@@ -26437,8 +26435,8 @@
 		"children": [],
 		"title": "Jahresteuerung Basler Index und Landesindex",
 		"subtitle": "",
-		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im März erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,0%, der Landesindex eine von 2,4%. Zuletzt so hoch war das lokale und nationale Preisniveau während der Finanzkrise im Herbst 2008",
-		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen August 2021 und August 2020.",
+		"lesehilfe": "Das bereits seit Monaten zu beobachtende Teuerungswachstum hat sich seit Jahresbeginn 2022 akzentuiert. Im April erreicht der Basler Index der Konsumentenpreise eine Jahresteuerung von 2,2%, der Landesindex eine von 2,5%. Zuletzt so hoch war das lokale und nationale Preisniveau während der Finanzkrise im Herbst 2008",
+		"erlaeuterungen": "Die Jahresteuerung beschreibt die Teuerung zwischen dem aktuellen Monat und dem Vorjahresmonat wie beispielsweise zwischen April 2022 und April 2021.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt",
 			"Bundesamt für Statistik (BFS)"
@@ -26465,7 +26463,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-01T08:33:21",
+		"aktualisierungsdatum": "2022-05-05T08:38:54",
 		"id": 7512
 	},
 	{
@@ -26504,7 +26502,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-01T08:33:21",
+		"aktualisierungsdatum": "2022-05-05T08:38:55",
 		"id": 7513
 	},
 	{
@@ -33914,87 +33912,83 @@
 		"id": 8254
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8527"
-		],
 		"template": "template001",
-		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08256",
-		"kuerzelKunde": "1-26",
-		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-02T08:27:28.2828",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.2 Existenzsicherung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2020 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 46% aus. 2011 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2020 liegt dieser Anteil noch bei 43%.",
-		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_126",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8256,
 		"chart-id": 8256,
 		"filter": "",
-		"id": 8256
-	},
-	{
 		"parentId": null,
 		"children": [
-			"8529"
+			8527
 		],
-		"template": "line001",
-		"title": "Minderjährige unbegleitete Flüchtlinge",
-		"subtitle": "nach Alter, Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08258",
-		"kuerzelKunde": "1-27",
-		"description": "Minderjährige unbegleitete Flüchtlinge",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2021 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von über 48% aus. 2012 waren rund 53% der Asylsuchenden bis 25 Jahre alt. 2021 liegt dieser Anteil noch bei 40%.",
+		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-15T08:28:08.088",
+		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08256",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-26",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2011 wurden im Kanton Basel-Stadt 12 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44, dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück, 2018 waren es noch 10. Seither hat ihre Zahl wieder leicht zugenommen, 2020 waren es 16. Nach Alter betrachtet, bildeten in fast allen Jahren jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. Nur 2018 waren die 8- bis 12-Jährigen am zahlreichsten.",
-		"erlaeuterungen": "",
+		"orderKey": "01_02_00_00_00_126",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_02_00_00_00_127",
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-05-05T08:38:58",
+		"id": 8256
+	},
+	{
+		"template": "line001",
 		"data-id": 8258,
 		"chart-id": 8258,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8529
+		],
+		"title": "Minderjährige unbegleitete Flüchtlinge",
+		"subtitle": "nach Alter, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2012 wurden im Kanton Basel-Stadt 14 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44. Dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück. 2018 waren es noch 10. Seither hat ihre Zahl wieder leicht zugenommen. 2021 waren es 20. Nach Alter betrachtet, bildeten in fast allen Jahren jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. Nur 2018 waren die 8- bis 12-Jährigen am zahlreichsten.",
+		"erlaeuterungen": "Als minderjährige unbegleitete Flüchtlinge werden Personen unter 18 Jahren bezeichnet, die in der Schweiz ein Asylgesuch stellen und nicht von den Eltern oder einer Person, welche die elterliche Sorge ausübt, begleitet werden.",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Minderjährige unbegleitete Flüchtlinge",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08258",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-27",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.2 Existenzsicherung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_127",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-05T08:38:59",
 		"id": 8258
 	},
 	{
@@ -35002,45 +34996,43 @@
 		"id": 8286
 	},
 	{
+		"template": "line001",
+		"data-id": 8287,
+		"chart-id": 8287,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8558"
+			8558
 		],
-		"template": "line001",
 		"title": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-13",
-		"description": "Anzahl Straftaten im Bereich häusliche Gewalt",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "",
+		"lesehilfe": "Im Jahr 2021 wurden 709 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:07.077",
+		"description": "Anzahl Straftaten im Bereich häusliche Gewalt",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.08287",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-13",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden 743 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
-		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
+		"orderKey": "02_03_00_00_00_213",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_03_00_00_00_213",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8287,
-		"chart-id": 8287,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-05T08:39:00",
 		"id": 8287
 	},
 	{
@@ -38966,7 +38958,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-21T08:31:06",
+		"aktualisierungsdatum": "2022-05-05T08:38:56",
 		"id": 8995
 	},
 	{
@@ -39391,7 +39383,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:43",
+		"aktualisierungsdatum": "2022-05-05T08:38:56",
 		"id": 9022
 	},
 	{
@@ -39429,7 +39421,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:44",
+		"aktualisierungsdatum": "2022-05-05T08:38:57",
 		"id": 9023
 	},
 	{
@@ -42297,5 +42289,43 @@
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-03-29T08:27:38",
 		"id": 9493
+	},
+	{
+		"template": "template001",
+		"data-id": 9625,
+		"chart-id": 9625,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Personenwagen mit elektrischem Antrieb",
+		"subtitle": "Bestand und Anteil an allen Personenwagen, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2021 sind von den 4 024 Fahrzeugen mit elektrischem oder hybrid-elektrischem Antrieb 902 rein elektrisch unterwegs, die anderen 3 122 verfügen über eine zusätzliche Antriebsart. Der Anteil der elektrischen und hybrid-elektrischen Fahrzeuge an allen Personenwagen beträgt 6,2%.",
+		"erlaeuterungen": "Bestand an Personenwagen mit elektrischem Antrieb (nach Antriebsart, inkl. Hybride) sowie deren Anteil an allen Personenwagen.\t In die Kategorie der Elektrofahrzeuge fallen neben den rein elektrisch betriebenen Fahrzeugen auch folgende Antriebsarten: Benzin-elektrisch und Diesel-elektrisch Normal- und Plug-in-Hybrid). «Personenwagen» sind leichte Motorwagen zum Personentransport mit höchstens neun Sitzplätzen einschliesslich Fahrer oder Fahrerin. \nDer Strassenfahrzeugbestand berücksichtigt alle am 30. September immatrikulierten zivilen Fahrzeuge von Halterinnen und Haltern, die an diesem Stichtag Wohnsitz im Kanton hatten.",
+		"quellenangabe": [
+			"Bundesamt für Strassen (ASTRA)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Personenwagen mit elektrischem Antrieb",
+		"thema": "11 Verkehr",
+		"unterthema": "Motorfahrzeuge",
+		"kuerzel": "I.11.1.09625",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-05T08:38:57",
+		"id": 9625
 	}
 ]

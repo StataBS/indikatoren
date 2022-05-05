@@ -647,85 +647,81 @@ var indikatorensetData = [
 		"id": 8255
 	},
 	{
-		"parentId": null,
-		"children": [
-			"8527"
-		],
 		"template": "template001",
-		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08256",
-		"kuerzelKunde": "1-26",
-		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-03-02T08:27:28.2828",
-		"stufe1": "Prävention und Bekämpfung von Armut",
-		"stufe2": "1.2 Existenzsicherung",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2020 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von 46% aus. 2011 waren etwas mehr als die Hälfte der Asylsuchenden bis 25 Jahre alt, 2020 liegt dieser Anteil noch bei 43%.",
-		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_02_00_00_00_126",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 8256,
 		"chart-id": 8256,
 		"filter": "",
-		"id": 8256
-	},
-	{
 		"parentId": null,
 		"children": [
-			"8529"
+			8527
 		],
-		"template": "line001",
-		"title": "Minderjährige unbegleitete Flüchtlinge",
-		"subtitle": "nach Alter, Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "I.01.1.08258",
-		"kuerzelKunde": "1-27",
-		"description": "Minderjährige unbegleitete Flüchtlinge",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"title": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
+		"subtitle": "Basel-Stadt",
+		"lesehilfe": "Fast ein Drittel aller vorläufig Aufgenommenen ist im Jahr 2021 unter 18 Jahre alt. Über 25-Jährige machen einen Anteil von über 48% aus. 2012 waren rund 53% der Asylsuchenden bis 25 Jahre alt. 2021 liegt dieser Anteil noch bei 40%.",
+		"erlaeuterungen": "Auswertungen aus der kantonalen Bevölkerungsstatistik (ohne dem Empfangs- und Verfahrenszentrum zugewiesene Personen).",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-03-15T08:28:08.088",
+		"description": "Vorläufig Aufgenommene und Asylsuchende nach Alter",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08256",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-26",
 		"stufe1": "Prävention und Bekämpfung von Armut",
 		"stufe2": "1.2 Existenzsicherung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2011 wurden im Kanton Basel-Stadt 12 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44, dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück, 2018 waren es noch 10. Seither hat ihre Zahl wieder leicht zugenommen, 2020 waren es 16. Nach Alter betrachtet, bildeten in fast allen Jahren jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. Nur 2018 waren die 8- bis 12-Jährigen am zahlreichsten.",
-		"erlaeuterungen": "",
+		"orderKey": "01_02_00_00_00_126",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_127",
-		"renderLink": [],
-		"quellenangabe": [
-			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-05-05T08:38:58",
+		"id": 8256
+	},
+	{
+		"template": "line001",
 		"data-id": 8258,
 		"chart-id": 8258,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			8529
+		],
+		"title": "Minderjährige unbegleitete Flüchtlinge",
+		"subtitle": "nach Alter, Basel-Stadt",
+		"lesehilfe": "Im Jahr 2012 wurden im Kanton Basel-Stadt 14 minderjährige unbegleitete Flüchtlinge registriert. 2015 waren es 44. Dies ist der höchste Wert der letzten zehn Jahre. Danach ging die Zahl der minderjährigen unbegleiteten Flüchtlinge zurück. 2018 waren es noch 10. Seither hat ihre Zahl wieder leicht zugenommen. 2021 waren es 20. Nach Alter betrachtet, bildeten in fast allen Jahren jeweils die 13- bis 15-Jährigen oder die 16- bis 17-Jährigen die grösste Gruppe. Nur 2018 waren die 8- bis 12-Jährigen am zahlreichsten.",
+		"erlaeuterungen": "Als minderjährige unbegleitete Flüchtlinge werden Personen unter 18 Jahren bezeichnet, die in der Schweiz ein Asylgesuch stellen und nicht von den Eltern oder einer Person, welche die elterliche Sorge ausübt, begleitet werden.",
+		"quellenangabe": [
+			"Staatssekretariat für Migration (SEM), Zentrales Migrationssystem (ZEMIS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Minderjährige unbegleitete Flüchtlinge",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08258",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "1-27",
+		"stufe1": "Prävention und Bekämpfung von Armut",
+		"stufe2": "1.2 Existenzsicherung",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_02_00_00_00_127",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-05T08:38:59",
 		"id": 8258
 	},
 	{
@@ -1825,44 +1821,42 @@ var indikatorensetData = [
 		"id": 8286
 	},
 	{
+		"template": "line001",
+		"data-id": 8287,
+		"chart-id": 8287,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8558"
+			8558
 		],
-		"template": "line001",
 		"title": "Anzahl Straftaten im Bereich häusliche Gewalt",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-13",
-		"description": "Anzahl Straftaten im Bereich häusliche Gewalt",
-		"thema": "19 Kriminalität und Strafrecht",
-		"unterthema": "",
+		"lesehilfe": "Im Jahr 2021 wurden 709 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
+		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:07.077",
+		"description": "Anzahl Straftaten im Bereich häusliche Gewalt",
+		"thema": "19 Kriminalität und Strafrecht",
+		"unterthema": "Polizei",
+		"kuerzel": "I.19.1.08287",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-13",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.3 Prävention und Schutz vor Gewalt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 wurden 743 Straftaten im Bereich der häuslichen Gewalt polizeilich registriert.",
-		"erlaeuterungen": "Unter häuslicher Gewalt wird die Anwendung oder Androhung von Gewalt unter Paaren in bestehender oder aufgelöster ehelicher oder partnerschaftlicher Beziehung, zwischen Eltern (auch Stief-/Pflegeeltern) und Kind oder zwischen weiteren Verwandten verstanden. Für die statistische Erfassung der häuslichen Gewalt wird in einer Auswahl von für den häuslichen Bereich relevanten Straftaten die Beziehung zwischen der beschuldigten und der geschädigten Person erfasst.",
+		"orderKey": "02_03_00_00_00_213",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_213",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Polizeiliche Kriminalstatistik (PKS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8287,
-		"chart-id": 8287,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-05T08:39:00",
 		"id": 8287
 	},
 	{
