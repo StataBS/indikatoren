@@ -506,85 +506,85 @@ var indikatorensetData = [
 		"id": 4834
 	},
 	{
-		"parentId": null,
-		"children": [
-			"5122"
-		],
 		"template": "dotplot",
-		"title": "Vermögenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.18.2.4835",
-		"kuerzelKunde": "WA-1.A",
-		"description": "Vermögenssteuer pro Veranlagung",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"raeumlicheGliederung": [
-			"Wohnviertel"
-		],
-		"aktualisierungsdatum": "2021-05-07T08:01:04.044",
-		"stufe1": "Teil 2: Rang-Grafiken",
-		"stufe2": "Wirtschaft und Arbeit",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der Gemeinde Bettingen wird der höchste Wert pro Veranlagung verzeichnet, im Wohnviertel Kleinhüningen der niedrigste.",
-		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_03_00_00_00_014",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
 		"data-id": 4835,
 		"chart-id": 4835,
 		"filter": "",
-		"id": 4835
-	},
-	{
 		"parentId": null,
 		"children": [
-			"5123"
+			5122
 		],
-		"template": "dotplot",
-		"title": "Einkommenssteuer pro Veranlagung",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2018",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.18.2.4836",
-		"kuerzelKunde": "WA-2.A",
-		"description": "Einkommenssteuer pro Veranlagung",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
+		"title": "Vermögenssteuer in Franken  pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner der Gemeinde Bettingen die höchsten Vermögenssteuern pro Veranlagung.  Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Vermögenssteuer pro Veranlagung im Wohnviertel (ordentliche Veranlagung natürlicher Personen; totaler Vermögenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_ver.vermoegen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-07T08:01:05.055",
+		"description": "Vermögenssteuer in Franken  pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4835",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-1.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Wirtschaft und Arbeit",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Bettingen verzeichnet mit rund 20 700 Franken die höchste Einkommenssteuer pro Veranlagung. Den niedrigsten Wert weist mit 4 400 Franken das Wohnviertel Klybeck auf.",
-		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
+		"orderKey": "02_03_00_00_00_014",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_015",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
+		"aktualisierungsdatum": "2022-05-05T08:39:02",
+		"id": 4835
+	},
+	{
+		"template": "dotplot",
 		"data-id": 4836,
 		"chart-id": 4836,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			5123
+		],
+		"title": "Einkommenssteuer in Franken pro Veranlagung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, Steuerjahr 2019",
+		"lesehilfe": "Im Durchschnitt zahlen die Einwohner der Gemeinde Bettingen die höchsten Einkommenssteuern pro Veranlagung. Im Wohnviertel Klybeck ist dieser Wert am niedrigsten.",
+		"erlaeuterungen": "Mittlere Einkommenssteuer pro Veranlagung (ordentliche Veranlagung natürlicher Personen; totaler Einkommenssteuerertrag geteilt durch die Anzahl Veranlagungen) in Franken. Eine Veranlagung kann auch zwei Personen umfassen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=wua_steuer_eink.einkommen_steuerbetrag_du&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Einkommenssteuer in Franken pro Veranlagung",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.4836",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "WA-2.A",
+		"stufe1": "Teil 2: Rang-Grafiken",
+		"stufe2": "Wirtschaft und Arbeit",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_03_00_00_00_015",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-05T08:39:03",
 		"id": 4836
 	},
 	{

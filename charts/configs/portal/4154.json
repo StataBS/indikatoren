@@ -44,6 +44,10 @@
         [
           2020,
           168
+        ],
+        [
+          2021,
+          173
         ]
       ],
       "name": "Notwohnungen"
@@ -92,6 +96,10 @@
         [
           2020,
           158
+        ],
+        [
+          2021,
+          168
         ]
       ],
       "name": "Notwohnungen belegt"
@@ -147,6 +155,10 @@
         [
           2020,
           94.047619047619
+        ],
+        [
+          2021,
+          97.10982659
         ]
       ],
       "name": "Belegungsquote (Anteil belegter Wohnungen in %, rechte Skala)"
@@ -309,7 +321,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfe Basel.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-12"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfe Basel.\u003Cbr\u002F\u003EZuletzt geändert: 5.5.2022"
   },
   "tooltip": {
     "shared": false
