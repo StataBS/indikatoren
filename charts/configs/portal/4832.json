@@ -5,87 +5,87 @@
       "data": [
         [
           "Altstadt Grossbasel",
-          0.0666591586
+          0.067
         ],
         [
           "Altstadt Kleinbasel",
-          0.0809595313
+          0.08
         ],
         [
           "Klybeck",
-          0.1232852931
+          0.124
         ],
         [
           "Rosental",
-          0.1563106041
+          0.157
         ],
         [
           "Clara",
-          0.159184092
+          0.161
         ],
         [
           "Matthäus",
-          0.1660807391
+          0.171
         ],
         [
           "Gundeldingen",
-          0.1762109013
+          0.178
         ],
         [
           "Vorstädte",
-          0.1947985383
+          0.196
         ],
         [
           "Kleinhüningen",
-          0.223024617
+          0.225
         ],
         [
           "Am Ring",
-          0.2408567116
+          0.246
         ],
         [
           "Wettstein",
-          0.2805539178
+          0.282
         ],
         [
           "St. Johann",
-          0.2821844968
-        ],
-        [
-          "Gotthelf",
-          0.3214087452
+          0.287
         ],
         [
           "St. Alban",
-          0.3230578902
+          0.324
+        ],
+        [
+          "Gotthelf",
+          0.324
         ],
         [
           "Breite",
-          0.3581089512
+          0.362
         ],
         [
           "Iselin",
-          0.3626791795
+          0.365
         ],
         [
           "Bachletten",
-          0.4134138139
+          0.421
         ],
         [
           "Hirzbrunnen",
-          0.5959045602
+          0.598
         ],
         [
           "Bruderholz",
-          0.7121272768
+          0.711
         ],
         [
           "Riehen",
-          0.7946988909
+          0.792
         ],
         [
           "Bettingen",
-          0.9021220471
+          0.902
         ]
       ],
       "name": "Anteil Grünflächen",
@@ -143,11 +143,11 @@
           12
         ],
         [
-          "Gotthelf",
+          "St. Alban",
           13
         ],
         [
-          "St. Alban",
+          "Gotthelf",
           14
         ],
         [
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "nach Wohnviertel, Basel-Stadt, 2021",
     "align": "left"
   },
   "plotOptions": {
@@ -302,7 +302,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-29"
+    "text": "Quelle: Grundbuch- und Vermessungsamt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 11.5.2022"
   },
   "legend": {
     "enabled": false,
