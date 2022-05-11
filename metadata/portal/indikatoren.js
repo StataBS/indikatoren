@@ -7556,47 +7556,47 @@ var indikatoren = [
 		"id": 4831
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4832,
+		"chart-id": 4832,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5119",
-			"8284",
-			"8555"
+			5119,
+			8284,
+			8555
 		],
-		"template": "dotplot",
 		"title": "Anteil Grünflächen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.02.1.4832",
-		"kuerzelKunde": "RU-3.A",
-		"description": "Anteil Grünflächen",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
+		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"quellenangabe": [
+			"Grundbuch- und Vermessungsamt Basel-Stadt"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=02_bodenbedeckung.gruenflaeche&i2=02_bodenbedeckung.gruenflaeche_anteil&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-04-29T08:03:15.1515",
+		"description": "Anteil Grünflächen",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.4832",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "RU-3.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil Grünflächen ist in den beiden Landgemeinden Bettingen und Riehen am höchsten. Auch in den Wohnvierteln Bruderholz und Hirzbrunnen liegt er noch über 50%. Am geringsten ist der Anteil Grünflächen in den innenstädtischen Wohnvierteln Altstadt Grossbasel und Altstadt Kleinbasel.",
-		"erlaeuterungen": "Anteil der Grünflächen an der gesamten Fläche des jeweiligen Wohnviertels. Als Grünfläche gelten alle privaten und öffentlichen bestockten (Wald, übrige) oder humusierten (Acker, Wiese, Friedhof, Gartenanlage, Gewässervorland, Park, Reben, Schrebergarten, Sportanlage, Tierpark, übrige) Flächen. Die Angaben basieren auf der Datenebene «Bodenbedeckung» der amtlichen Vermessung des Kantons Basel-Stadt, in welcher Flächen von mind. 100 m<sup>2</sup> geführt werden (Öffentliche Parkanlagen und Rabatten im Strassenbereich werden detaillierter erfasst). Diese werden bei Bedarf oder spätestens in einem Turnus von 6 bis 12 Jahren mit einer periodischen Nachführung aktualisiert.",
+		"orderKey": "02_02_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_011",
-		"renderLink": [],
-		"quellenangabe": [
-			"Grundbuch- und Vermessungsamt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=ru_gruen.gruenflaeche_ant&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4832,
-		"chart-id": 4832,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-11T09:24:35",
 		"id": 4832
 	},
 	{
@@ -11923,6 +11923,46 @@ var indikatoren = [
 		"chart-id": 6028,
 		"filter": "",
 		"id": 6028
+	},
+	{
+		"template": "line001",
+		"data-id": 6030,
+		"chart-id": 6030,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8922
+		],
+		"title": "Wasserqualität: AOX-Konzentration",
+		"subtitle": "in Milligramm pro Liter gereinigtem Abwasser in der ARA Basel",
+		"lesehilfe": "Die mittlere AOX-Fracht betrug im Jahr 2021 0,036 mg pro Liter gereinigtem Abwasser. Sie lag damit unter dem Grenzwert von 0,080 mg/l.",
+		"erlaeuterungen": "AOX sind an Aktivkohle adsorbierbare organische Halogenverbindungen. Diese Fluor-, Chlor- und Bromverbindungen (wobei Chlorkohlenwasserstoffe in der Regel am häufigsten vorkommen) können als Verluste oder Nebenprodukte aus industriellen und gewerblichen Produktionen ins Wasser gelangen. Auch chlorhaltige Reinigungsmittel aus Haushalten tragen zur Belastung der Abwässer bei. Die AOX-Konzentration wird im gereinigten Abwasser in den Abläufen der Abwasserreinigungsanlagen (ARA) gemessen. Der Indikator zeigt den Jahresmittelwert in Milligramm AOX pro Liter. <br><br>Im Auslauf der ARA wird mehrmals pro Jahr die AOX-Konzentration in Form von Tagessammelmustern gemessen. Der Mittelwert aller Messungen eines Jahres entspricht dem Jahreswert. In der Gewässerschutzverordnung ist für die Einleitung von kommunalem Abwasser in Gewässer ein AOX-Grenzwert von 0,08 mg/l definiert.<br><br>Das Abwasser aus Basel-Stadt wird in der ARA Basel gereinigt. Deren Einzugsgebiet umfasst auch die Gemeinden Allschwil, Binningen, Birsfelden, Bottmingen, Münchenstein (Ortsteil Brüglingen), Oberwil, Schönenbuch, Inzlingen (D), Weil-Otterbach (D, Ortsteil 14 Linden) und Neuwiller (F).",
+		"quellenangabe": [
+			"Amt für Umwelt und Energie Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Wasserqualität: AOX-Konzentration",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Wasser",
+		"kuerzel": "I.02.19.06030",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "NL8",
+		"stufe1": "Bereich Natürliche Lebensgrundlagen",
+		"stufe2": "Umgang mit Energie und Ressourcen",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_01_00_00_00_409",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-11T09:24:31",
+		"id": 6030
 	},
 	{
 		"template": "stock001",
@@ -30687,6 +30727,44 @@ var indikatoren = [
 		"datenInChartIntegriert": false,
 		"aktualisierungsdatum": "2022-04-28T08:18:45",
 		"id": 7779
+	},
+	{
+		"template": "line001",
+		"data-id": 7901,
+		"chart-id": 7901,
+		"filter": "",
+		"parentId": null,
+		"children": [],
+		"title": "Nettomietpreise nach Wohnviertel",
+		"subtitle": "in Franken pro m<sup>2</sup>, 2016-2020",
+		"lesehilfe": "Die Nettomiete pro m² von 3- und 4-Zimmer-Wohnungen liegt im Wohnviertel Rosental bei ungefähr 18,2 Franken.",
+		"erlaeuterungen": "Der m²-Preis bezieht sich auf die Nettomiete, dividiert durch die Wohnfläche von 3- oder 4-Zimmer-Wohnungen. Die Daten stammen aus der Strukturerhebung. Die Ergebnisse beruhen auf der Hochrechnung einer Stichprobe und sind folglich mit einer gewissen Unsicherheit behaftet. Die schwarzen Fehlerbalken zeigen die Konfidenzintervalle auf dem 95%-Niveau. Das Konfidenzintervall gibt den Bereich an, der den wahren Wert mit einer Wahrscheinlichkeit von 95% umfasst. Um eine grössere Stichprobe zu erhalten, werden die Daten der Jahre 2016 bis 2020 zusammen ausgewertet (Pooling). Die Zahlen können als Mittelwert über diese fünf Jahre interpretiert werden. Aufgrund von Änderungen in der Erhebungsmethode und der Gewichtung ab dem Jahr 2018 können die Ergebnisse nur bedingt mit denen vor 2018 verglichen werden.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Strukturerhebung (SE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Wohnviertel"
+		],
+		"description": "Nettomietpreise nach Wohnviertel",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Mietpreise",
+		"kuerzel": "I.09.3.07901",
+		"kennzahlenset": "",
+		"kuerzelKunde": "",
+		"stufe1": "",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "_000",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-05-11T09:24:28",
+		"id": 7901
 	},
 	{
 		"template": "map_gemeinden",

@@ -387,7 +387,7 @@ id | visible | visibleInPortal | indikatorenset
 6027 | true | false | Nachhaltigkeit
 6028 | true | true | Nachhaltigkeit
 6029 | true | false | Nachhaltigkeit
-6030 | true | false | Nachhaltigkeit
+6030 | true | true | Nachhaltigkeit
 6031 | true | false | Nachhaltigkeit
 6033 | true | true | Nachhaltigkeit
 6034 | true | false | Nachhaltigkeit
@@ -1268,6 +1268,7 @@ id | visible | visibleInPortal | indikatorenset
 7778 | true | false | Richtplan
 7779 | true | true | Richtplan
 7782 | true | false | Richtplan
+7901 | true | true | 
 7902 | true | false | Stadtteilmonitoring Rosental (Print)
 7903 | true | false | Stadtteilmonitoring Rosental (Print)
 7904 | true | false | Stadtteilmonitoring Rosental (Print)
