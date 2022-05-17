@@ -4,102 +4,102 @@
       "color": "#68AB2B",
       "data": [
         [
-          "Kleinhüningen",
-          32.31353744
+          "Klybeck",
+          32.689705
         ],
         [
-          "Klybeck",
-          32.62961361
+          "Kleinhüningen",
+          33.034844
         ],
         [
           "Rosental",
-          34.252214765
+          34.681738
         ],
         [
           "Matthäus",
-          35.985475086
-        ],
-        [
-          "Clara",
-          36.892736267
+          36.416751
         ],
         [
           "St. Johann",
-          36.915613718
+          36.873281
         ],
         [
           "Iselin",
-          37.040236116
+          37.379916
         ],
         [
-          "Breite",
-          38.951429868
+          "Clara",
+          37.607867
         ],
         [
           "Hirzbrunnen",
-          39.12187637
+          39.005769
+        ],
+        [
+          "Breite",
+          39.268261
         ],
         [
           "Gundeldingen",
-          39.295213638
+          39.333333
         ],
         [
           "Gotthelf",
-          42.091235955
+          41.908723
         ],
         [
           "Altstadt Kleinbasel",
-          43.321412804
+          44.343848
         ],
         [
           "Am Ring",
-          45.099479468
+          45.038361
         ],
         [
           "Wettstein",
-          45.79726076
+          45.806859
         ],
         [
           "Bachletten",
-          46.225749036
+          46.279114
         ],
         [
           "Riehen",
-          47.186238404
+          47.348309
         ],
         [
           "St. Alban",
-          47.794717781
+          47.712836
         ],
         [
           "Bruderholz",
-          48.398167116
+          48.437175
         ],
         [
           "Vorstädte",
-          50.008398068
-        ],
-        [
-          "Altstadt Grossbasel",
-          52.433207902
+          50.609808
         ],
         [
           "Bettingen",
-          52.64
+          51.850475
+        ],
+        [
+          "Altstadt Grossbasel",
+          53.23327
         ]
       ],
-      "name": "Wohnfläche pro Kopf",
+      "name": "undefined",
       "turboThreshold": 0
     },
     {
       "visible": false,
       "data": [
         [
-          "Kleinhüningen",
+          "Klybeck",
           1
         ],
         [
-          "Klybeck",
+          "Kleinhüningen",
           2
         ],
         [
@@ -111,23 +111,23 @@
           4
         ],
         [
-          "Clara",
+          "St. Johann",
           5
         ],
         [
-          "St. Johann",
+          "Iselin",
           6
         ],
         [
-          "Iselin",
+          "Clara",
           7
         ],
         [
-          "Breite",
+          "Hirzbrunnen",
           8
         ],
         [
-          "Hirzbrunnen",
+          "Breite",
           9
         ],
         [
@@ -171,15 +171,15 @@
           19
         ],
         [
-          "Altstadt Grossbasel",
+          "Bettingen",
           20
         ],
         [
-          "Bettingen",
+          "Altstadt Grossbasel",
           21
         ]
       ],
-      "name": "Rang",
+      "name": "undefined",
       "turboThreshold": 0
     }
   ],
@@ -248,7 +248,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, 2020",
+    "text": "in m\u003Csup\u003E2\u003C\u002Fsup\u003E, nach Wohnviertel, Basel-Stadt, %",
     "align": "left",
     "useHTML": true
   },
@@ -303,7 +303,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2022"
   },
   "legend": {
     "enabled": false,
