@@ -461,48 +461,48 @@ var indikatorensetData = [
 		"id": 4833
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4834,
+		"chart-id": 4834,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5121",
-			"5903",
-			"8283",
-			"8554"
+			5121,
+			5903,
+			8283,
+			8554
 		],
-		"template": "dotplot",
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.09.1.4834",
-		"kuerzelKunde": "RU-5.A",
-		"description": "Wohnfläche pro Kopf",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, %",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
+		"description": "Wohnfläche pro Kopf",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4834",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "RU-5.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"orderKey": "02_02_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_013",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4834,
-		"chart-id": 4834,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-17T08:45:57",
 		"id": 4834
 	},
 	{

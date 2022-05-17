@@ -7642,49 +7642,49 @@ var indikatoren = [
 		"id": 4833
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4834,
+		"chart-id": 4834,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5121",
-			"5903",
-			"8283",
-			"8554"
+			5121,
+			5903,
+			8283,
+			8554
 		],
-		"template": "dotplot",
 		"title": "Wohnfläche pro Kopf",
-		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.09.1.4834",
-		"kuerzelKunde": "RU-5.A",
-		"description": "Wohnfläche pro Kopf",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"subtitle": "in m<sup>2</sup>, nach Wohnviertel, Basel-Stadt, %",
+		"lesehilfe": "Im Wohnviertel Klybeck verfügen die Bewohner mit 33&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, im Wohnviertel Altstadt Grossbasel mit 53&nbsp;m<sup>2</sup> über die höchste.",
+		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
+		"description": "Wohnfläche pro Kopf",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4834",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "RU-5.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Raum und Umwelt",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Kleinhüningen verfügen die Bewohner mit 32&nbsp;m<sup>2</sup> durchschnittlich über die geringste Wohnfläche pro Kopf, in der Gemeinde Bettingen mit 53&nbsp;m<sup>2</sup> über die höchste.",
-		"erlaeuterungen": "Die mittlere Wohnfläche pro Kopf wird folgendermassen definiert: Gesamte Wohnfläche der durch Privatpersonen belegten Wohnungen und Mansarden geteilt durch das Total der dort wohnenden Personen.",
+		"orderKey": "02_02_00_00_00_013",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_013",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=09_bauwohnungswesen.mean_wfpk&view=map2' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4834,
-		"chart-id": 4834,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-17T08:45:57",
 		"id": 4834
 	},
 	{
@@ -19338,8 +19338,8 @@ var indikatoren = [
 			6718
 		],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8). Dieser Wert ist etwas tiefer als derjenige der Schweizerinnen und Schweizer (1,9). In den grössten Haushalten leben Personen aus der Türkei (2,8), dem Balkan (2,5) und aus arabischen Ländern (2,5).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8). Dieser Wert ist etwas tiefer als derjenige der Schweizerinnen und Schweizer (1,9). In den grössten Haushalten leben Personen aus der Türkei (2,5), vom Balkan (2,8) und aus arabischen Ländern (2,5).",
 		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z.&nbsp;B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -19366,7 +19366,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-29T08:02:56",
+		"aktualisierungsdatum": "2022-05-17T08:45:57",
 		"id": 6477
 	},
 	{
@@ -40751,8 +40751,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausfuhrbescheinigungen im nicht kommerziellen Reiseverkehr",
 		"subtitle": "ausgestellt durch das Hauptzollamt Lörrach (D), nach Quartal",
-		"lesehilfe": "Im 4. Quartal 2020 wurden 666 178 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der Coronapandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
-		"erlaeuterungen": "Seit dem 1. Januar 2020 wird eine Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt. <br>Das Hautptzollamt Lörrach umfasst alle Grenzübergangsstellen von Weil am Rhein im Westen bis Rheinfelden im Osten. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland unter folgenden Bedingungen umsatzsteuerfrei einkaufen: Das Verkaufsunternehmen nimmt an diesem Verfahren teil; die Ware wird aus Deutschland ausgeführt; eine deutsche Grenzzollstelle bestätigt auf dem dafür vorgesehenen Beleg die Ausfuhr sowie den Wohnsitz der Käuferin oder des Käufers in einem Drittland.",
+		"lesehilfe": "Im 4. Quartal 2021 wurden 648 748 Ausfuhrbescheinigungen durch das Hauptzollamt Lörrach ausgestellt. Im Zuge der eingeschränkten Reisemöglichkeiten während der COVID-19-Pandemie hat das Antragsaufkommen zum Abstempeln der sogenannten Ausfuhrkassenzettel erheblich abgenommen.",
+		"erlaeuterungen": "Das Hautptzollamt Lörrach umfasst alle Grenzübergangsstellen von Weil am Rhein im Westen bis Rheinfelden im Osten. Reisende mit Wohnort in einem Nicht-EU-Mitgliedstaat können in Deutschland unter folgenden Bedingungen umsatzsteuerfrei einkaufen: Das Verkaufsunternehmen nimmt an diesem Verfahren teil; die Ware wird aus Deutschland ausgeführt; eine deutsche Grenzzollstelle bestätigt auf dem dafür vorgesehenen Beleg die Ausfuhr sowie den Wohnsitz der Käuferin oder des Käufers in einem Drittland. Seit dem 1. Januar 2020 wird eine Ausfuhrbescheinigung nur noch dann erteilt, wenn der Rechnungsbetrag für einen Einkauf in einem Geschäft den Betrag von 50 Euro übersteigt.",
 		"quellenangabe": [
 			"Hauptzollamt Lörrach"
 		],
@@ -40777,7 +40777,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-01T08:35:55",
+		"aktualisierungsdatum": "2022-05-17T08:45:57",
 		"id": 9346
 	},
 	{

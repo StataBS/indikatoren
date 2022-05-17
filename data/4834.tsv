@@ -1,23 +1,22 @@
-﻿wohnviertel_id	Wohnfläche pro Kopf	Rang	Wohnviertel	jahr_num
-19	32.31353744	1	Kleinhüningen	2020
-18	32.62961361	2	Klybeck	2020
-16	34.252214765	3	Rosental	2020
-17	35.985475086	4	Matthäus	2020
-13	36.892736267	5	Clara	2020
-11	36.915613718	6	St. Johann	2020
-10	37.040236116	7	Iselin	2020
-4	38.951429868	8	Breite	2020
-15	39.12187637	9	Hirzbrunnen	2020
-6	39.295213638	10	Gundeldingen	2020
-9	42.091235955	11	Gotthelf	2020
-12	43.321412804	12	Altstadt Kleinbasel	2020
-3	45.099479468	13	Am Ring	2020
-14	45.79726076	14	Wettstein	2020
-8	46.225749036	15	Bachletten	2020
-20	47.186238404	16	Riehen	2020
-5	47.794717781	17	St. Alban	2020
-7	48.398167116	18	Bruderholz	2020
-2	50.008398068	19	Vorstädte	2020
-1	52.433207902	20	Altstadt Grossbasel	2020
-30	52.64	21	Bettingen	2020
-
+﻿wohnviertel_id Wohnfläche pro Kopf    Rang      Wohnviertel      jahr_num
+18	32.689705	1	Klybeck	2021
+19	33.034844	2	Kleinhüningen	2021
+16	34.681738	3	Rosental	2021
+17	36.416751	4	Matthäus	2021
+11	36.873281	5	St. Johann	2021
+10	37.379916	6	Iselin	2021
+13	37.607867	7	Clara	2021
+15	39.005769	8	Hirzbrunnen	2021
+4	39.268261	9	Breite	2021
+6	39.333333	10	Gundeldingen	2021
+9	41.908723	11	Gotthelf	2021
+12	44.343848	12	Altstadt Kleinbasel	2021
+3	45.038361	13	Am Ring	2021
+14	45.806859	14	Wettstein	2021
+8	46.279114	15	Bachletten	2021
+20	47.348309	16	Riehen	2021
+5	47.712836	17	St. Alban	2021
+7	48.437175	18	Bruderholz	2021
+2	50.609808	19	Vorstädte	2021
+30	51.850475	20	Bettingen	2021
+1	53.233270	21	Altstadt Grossbasel	2021

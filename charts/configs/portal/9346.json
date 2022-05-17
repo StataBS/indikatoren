@@ -50,6 +50,10 @@
         [
           "2020",
           755012
+        ],
+        [
+          "2021",
+          25419
         ]
       ],
       "name": "I. Quartal",
@@ -105,6 +109,10 @@
         [
           "2020",
           194091
+        ],
+        [
+          "2021",
+          386420
         ]
       ],
       "name": "II. Quartal",
@@ -160,6 +168,10 @@
         [
           "2020",
           769573
+        ],
+        [
+          "2021",
+          598871
         ]
       ],
       "name": "III. Quartal",
@@ -215,6 +227,10 @@
         [
           "2020",
           666178
+        ],
+        [
+          "2021",
+          648748
         ]
       ],
       "name": "IV. Quartal",
@@ -341,7 +357,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Hauptzollamt Lörrach.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-1"
+    "text": "Quelle: Hauptzollamt Lörrach.\u003Cbr\u002F\u003EZuletzt geändert: 17.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -3041,8 +3041,8 @@ var indikatorensetData = [
 			6718
 		],
 		"title": "Mittlere Anzahl Personen pro Haushalt",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8). Dieser Wert ist etwas tiefer als derjenige der Schweizerinnen und Schweizer (1,9). In den grössten Haushalten leben Personen aus der Türkei (2,8), dem Balkan (2,5) und aus arabischen Ländern (2,5).",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Deutsche leben im Durchschnitt in Haushalten mit der geringsten Anzahl an Personen (1,8). Dieser Wert ist etwas tiefer als derjenige der Schweizerinnen und Schweizer (1,9). In den grössten Haushalten leben Personen aus der Türkei (2,5), vom Balkan (2,8) und aus arabischen Ländern (2,5).",
 		"erlaeuterungen": "Pro Person wurde ein Haushaltanteil berechnet (z.&nbsp;B. hat bei einem Vierpersonenhaushalt eine Person einen Haushaltanteil von 0,25). Diese Haushaltanteile wurden pro Ländergruppe addiert. Anschliessend wurde die Anzahl Personen dieser Ländergruppe durch die addierten Haushaltanteile geteilt, damit man die mittlere Anzahl Personen pro Haushalt erhält. Somit ist es möglich, Daten nach einzelnen Ländergruppen zu zeigen, obwohl es Haushalte mit Personen aus unterschiedlichen Ländergruppen gibt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
@@ -3068,7 +3068,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-29T08:02:56",
+		"aktualisierungsdatum": "2022-05-17T08:45:57",
 		"id": 6477
 	},
 	{
