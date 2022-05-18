@@ -42030,7 +42030,7 @@
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "81 538 Logiernächte wurden im März 2022 in den Basler Hotelbetrieben gebucht, 32 162 bzw. 65,1% mehr als im Februar. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 163,8% bzw. 50 632 Übernachtungen. Die inländischen Gäste buchten 37 724 Logiernächte (+114,1%), die Gäste aus dem Ausland 43 814 Übernachtungen (+229,7%).",
+		"lesehilfe": "98 599 Logiernächte wurden im April 2022 in den Basler Hotelbetrieben gebucht, 17 061 bzw. 20,9% mehr als im März. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 68,0% bzw. 39 921 Übernachtungen. Die inländischen Gäste buchten 46 474 Logiernächte (+12,1%), die Gäste aus dem Ausland 52 125 Übernachtungen (+202,5%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -42056,7 +42056,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:42",
+		"aktualisierungsdatum": "2022-05-18T07:50:55",
 		"id": 7516
 	},
 	{
@@ -42067,7 +42067,7 @@
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, März",
+		"subtitle": "Basel-Stadt, April",
 		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
@@ -42094,7 +42094,7 @@
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-28T08:18:43",
+		"aktualisierungsdatum": "2022-05-18T07:50:56",
 		"id": 7517
 	},
 	{
