@@ -1,22 +1,22 @@
-﻿Wohnviertel_id	Altersquotient	Rang	wohnviertel	jahr_num
-16	0.1218357312	1	Rosental	2020
-17	0.1910547156	2	Matthäus	2020
-18	0.2206189879	3	Klybeck	2020
-6	0.2248792999	4	Gundeldingen	2020
-11	0.2296003166	5	St. Johann	2020
-10	0.2408271007	6	Iselin	2020
-12	0.2720848057	7	Altstadt Kleinbasel	2020
-1	0.2815376286	8	Altstadt Grossbasel	2020
-14	0.2832384894	9	Wettstein	2020
-19	0.3002898551	10	Kleinhüningen	2020
-3	0.3184722033	11	Am Ring	2020
-4	0.3274503084	12	Breite	2020
-13	0.3288237505	13	Clara	2020
-9	0.3420438637	14	Gotthelf	2020
-2	0.3554817276	15	Vorstädte	2020
-8	0.3602816218	16	Bachletten	2020
-7	0.4123632175	17	Bruderholz	2020
-15	0.4223291627	18	Hirzbrunnen	2020
-5	0.4253313697	19	St. Alban	2020
-30	0.4409090909	20	Bettingen	2020
-20	0.4675258172	21	Riehen	2020
+﻿wohnviertel_id	Altersquotient	Rang	Wohnviertel	jahr_num1
+Rosental	0.13024201	1	Rosental	2021
+Matthäus	0.1958054767	2	Matthäus	2021
+Klybeck	0.2243975904	3	Klybeck	2021
+Gundeldingen	0.2283232628	4	Gundeldingen	2021
+St. Johann	0.2326462923	5	St. Johann	2021
+Iselin	0.2460906085	6	Iselin	2021
+Wettstein	0.2803738318	7	Wettstein	2021
+Altstadt Kleinbasel	0.2833031947	8	Altstadt Kleinbasel	2021
+Altstadt Grossbasel	0.2938005391	9	Altstadt Grossbasel	2021
+Clara	0.3055459869	10	Clara	2021
+Am Ring	0.3100964805	11	Am Ring	2021
+Kleinhüningen	0.3190220632	12	Kleinhüningen	2021
+Breite	0.3253054101	13	Breite	2021
+Gotthelf	0.3509729473	14	Gotthelf	2021
+Vorstädte	0.3570099256	15	Vorstädte	2021
+Bachletten	0.367211503	16	Bachletten	2021
+St. Alban	0.4066091954	17	St. Alban	2021
+Bruderholz	0.4198104082	18	Bruderholz	2021
+Hirzbrunnen	0.4209208245	19	Hirzbrunnen	2021
+Bettingen	0.4359351988	20	Bettingen	2021
+Riehen	0.4775223061	21	Riehen	2021

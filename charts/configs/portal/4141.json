@@ -43,6 +43,10 @@
         [
           "2020",
           47064
+        ],
+        [
+          "2021",
+          47607
         ]
       ],
       "name": "Einpersonenhaushalte",
@@ -91,6 +95,10 @@
         [
           "2020",
           40218
+        ],
+        [
+          "2021",
+          40060
         ]
       ],
       "name": "Familienhaushalte",
@@ -139,6 +147,10 @@
         [
           "2020",
           12630
+        ],
+        [
+          "2021",
+          12686
         ]
       ],
       "name": "Andere Haushalte",
@@ -277,7 +289,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 19.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
