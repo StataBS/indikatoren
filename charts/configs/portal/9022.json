@@ -4827,67 +4827,67 @@
       "data": [
         [
           1,
-          -6
+          -5
         ],
         [
           2,
-          -9
+          -8
         ],
         [
           3,
-          -10
+          -9
         ],
         [
           4,
-          -14
+          -13
         ],
         [
           5,
-          -29
+          -27
         ],
         [
           6,
-          -21
+          -19
         ],
         [
           7,
-          -25
+          -23
         ],
         [
           8,
-          -26
+          -24
         ],
         [
           9,
-          -29
+          -27
         ],
         [
           10,
-          -35
+          -33
         ],
         [
           11,
-          -37
+          -35
         ],
         [
           12,
-          -44
+          -42
         ],
         [
           13,
-          -36
+          -34
         ],
         [
           14,
-          -28
+          -25
         ],
         [
           15,
-          -36
+          -33
         ],
         [
           16,
-          null
+          -38
         ],
         [
           17,
@@ -5047,7 +5047,7 @@
       "data": [
         [
           1,
-          -6
+          -5
         ],
         [
           2,
@@ -5063,7 +5063,7 @@
         ],
         [
           5,
-          -14
+          -13
         ],
         [
           6,
@@ -5099,7 +5099,7 @@
         ],
         [
           14,
-          8
+          9
         ],
         [
           15,
@@ -5107,7 +5107,7 @@
         ],
         [
           16,
-          null
+          -5
         ],
         [
           17,
@@ -5429,7 +5429,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 12.5.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

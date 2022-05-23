@@ -69,6 +69,10 @@
         [
           2020,
           53309
+        ],
+        [
+          2021,
+          52919
         ]
       ],
       "name": "PV-Beziehende (inkl. SH\u002FEL)"
@@ -148,6 +152,10 @@
         [
           2020,
           26.39438335
+        ],
+        [
+          2021,
+          26.22283888
         ]
       ],
       "name": "Anteil PV-Beziehende an der Wohnbevölkerung (rechte Skala)"
@@ -284,7 +292,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EAmt für Sozialbeiträge Basel-Stadt, Abteilung Prämienverbilligungen.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

@@ -67,6 +67,10 @@
         [
           2020,
           4373
+        ],
+        [
+          2021,
+          4409
         ]
       ],
       "name": "Tagesbetreuung"
@@ -138,6 +142,10 @@
         [
           2020,
           536
+        ],
+        [
+          2021,
+          568
         ]
       ],
       "name": "Frühhorte Tagesstrukturen"
@@ -209,6 +217,10 @@
         [
           2020,
           3463
+        ],
+        [
+          2021,
+          3625
         ]
       ],
       "name": "Mittagsmodule Tagesstrukturen"
@@ -219,19 +231,19 @@
       "data": [
         [
           2005,
-          256
+          undefined
         ],
         [
           2006,
-          276
+          undefined
         ],
         [
           2007,
-          427
+          undefined
         ],
         [
           2008,
-          511
+          undefined
         ],
         [
           2009,
@@ -280,80 +292,13 @@
         [
           2020,
           3086
+        ],
+        [
+          2021,
+          3227
         ]
       ],
       "name": "Nachmittagsmodule Tagesstrukturen"
-    },
-    {
-      "color": "#007A2F",
-      "legendIndex": 5,
-      "data": [
-        [
-          2005,
-          undefined
-        ],
-        [
-          2006,
-          undefined
-        ],
-        [
-          2007,
-          undefined
-        ],
-        [
-          2008,
-          undefined
-        ],
-        [
-          2009,
-          153
-        ],
-        [
-          2010,
-          178
-        ],
-        [
-          2011,
-          176
-        ],
-        [
-          2012,
-          182
-        ],
-        [
-          2013,
-          193
-        ],
-        [
-          2014,
-          198
-        ],
-        [
-          2015,
-          198
-        ],
-        [
-          2016,
-          195
-        ],
-        [
-          2017,
-          198
-        ],
-        [
-          2018,
-          211
-        ],
-        [
-          2019,
-          222
-        ],
-        [
-          2020,
-          207
-        ]
-      ],
-      "name": "Tagesferien"
     }
   ],
   "chart": {
@@ -482,7 +427,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-20"
+    "text": "Quelle: Erziehungsdepartement Basel-Stadt, Fachstelle Tagesbetreuung;\u003Cbr\u002F\u003EErziehungsdepartement Basel-Stadt, Fachstelle Tagesstrukturen.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

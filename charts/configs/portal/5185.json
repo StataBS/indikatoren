@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2011",
-          501
-        ],
-        [
           "2012",
           485
         ],
@@ -48,6 +44,10 @@
         [
           "2020",
           425
+        ],
+        [
+          "2021",
+          319
         ]
       ],
       "name": "Bis 3 Monate",
@@ -58,10 +58,6 @@
       "index": 1,
       "legendIndex": 1,
       "data": [
-        [
-          "2011",
-          1088
-        ],
         [
           "2012",
           1020
@@ -101,6 +97,10 @@
         [
           "2020",
           874
+        ],
+        [
+          "2021",
+          691
         ]
       ],
       "name": "4 bis 12 Monate",
@@ -111,10 +111,6 @@
       "index": 2,
       "legendIndex": 2,
       "data": [
-        [
-          "2011",
-          1479
-        ],
         [
           "2012",
           1597
@@ -154,6 +150,10 @@
         [
           "2020",
           1372
+        ],
+        [
+          "2021",
+          1284
         ]
       ],
       "name": "13 bis 36 Monate",
@@ -164,10 +164,6 @@
       "index": 3,
       "legendIndex": 3,
       "data": [
-        [
-          "2011",
-          2059
-        ],
         [
           "2012",
           2164
@@ -207,6 +203,10 @@
         [
           "2020",
           2810
+        ],
+        [
+          "2021",
+          2717
         ]
       ],
       "name": "Über 36 Monate",
@@ -348,7 +348,7 @@
       "x": 10,
       "y": -45
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-25"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik;\u003Cbr\u002F\u003ESozialhilfe Stadt Basel;\u003Cbr\u002F\u003ESozialhilfe Riehen.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "legend": {
     "layout": "horizontal",

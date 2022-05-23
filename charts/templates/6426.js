@@ -13,11 +13,18 @@
       "stacking": "normal"
     }
   },
-  "xAxis": {
-  	min: 0,
-    "type": "category",
-    "tickInterval": 1
-  },  
+  xAxis: {
+    type: "category", /* muss "category" sein, sonst funktioniert es nicht richtig */
+    tickPositioner: function () {
+      var maxlabels = 10,
+        ext = this.getExtremes(),
+        i = Math.round(ext.max),
+        interval = Math.round((i - ext.min)/maxlabels),
+        pos = [i];
+      while (i >= ext.min) pos.unshift(i = i - interval);
+      return pos;
+    }
+  },
   "yAxis": {
   	 //max: 120000,
      //tickInterval: 60000,

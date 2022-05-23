@@ -6,18 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2016: M (N=392)",
-          221
-        ],
-        [
-          "2016: F (N=74)",
-          42
-        ],
-        [
-          "   ",
-          null
-        ],
-        [
           "2017: M (N=348)",
           186
         ],
@@ -60,6 +48,18 @@
         [
           "2020: F (N=96)",
           50
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          226
+        ],
+        [
+          "2021: F (N=94)",
+          61
         ]
       ],
       "name": "1 bis 7 Nächte",
@@ -70,18 +70,6 @@
       "index": 4,
       "legendIndex": 1,
       "data": [
-        [
-          "2016: M (N=392)",
-          44
-        ],
-        [
-          "2016: F (N=74)",
-          7
-        ],
-        [
-          "   ",
-          null
-        ],
         [
           "2017: M (N=348)",
           34
@@ -125,6 +113,18 @@
         [
           "2020: F (N=96)",
           9
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          63
+        ],
+        [
+          "2021: F (N=94)",
+          9
         ]
       ],
       "name": "8 bis 14 Nächte",
@@ -135,18 +135,6 @@
       "index": 3,
       "legendIndex": 2,
       "data": [
-        [
-          "2016: M (N=392)",
-          37
-        ],
-        [
-          "2016: F (N=74)",
-          11
-        ],
-        [
-          "   ",
-          null
-        ],
         [
           "2017: M (N=348)",
           34
@@ -190,6 +178,18 @@
         [
           "2020: F (N=96)",
           11
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          33
+        ],
+        [
+          "2021: F (N=94)",
+          3
         ]
       ],
       "name": "15 bis 30 Nächte",
@@ -200,18 +200,6 @@
       "index": 2,
       "legendIndex": 3,
       "data": [
-        [
-          "2016: M (N=392)",
-          29
-        ],
-        [
-          "2016: F (N=74)",
-          4
-        ],
-        [
-          "   ",
-          null
-        ],
         [
           "2017: M (N=348)",
           35
@@ -255,6 +243,18 @@
         [
           "2020: F (N=96)",
           9
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          26
+        ],
+        [
+          "2021: F (N=94)",
+          3
         ]
       ],
       "name": "31 bis 60 Nächte",
@@ -265,18 +265,6 @@
       "index": 1,
       "legendIndex": 4,
       "data": [
-        [
-          "2016: M (N=392)",
-          34
-        ],
-        [
-          "2016: F (N=74)",
-          5
-        ],
-        [
-          "   ",
-          null
-        ],
         [
           "2017: M (N=348)",
           30
@@ -320,6 +308,18 @@
         [
           "2020: F (N=96)",
           9
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          26
+        ],
+        [
+          "2021: F (N=94)",
+          6
         ]
       ],
       "name": "61 bis 150 Nächte",
@@ -330,18 +330,6 @@
       "index": 0,
       "legendIndex": 5,
       "data": [
-        [
-          "2016: M (N=392)",
-          27
-        ],
-        [
-          "2016: F (N=74)",
-          5
-        ],
-        [
-          "   ",
-          null
-        ],
         [
           "2017: M (N=348)",
           29
@@ -385,6 +373,18 @@
         [
           "2020: F (N=96)",
           8
+        ],
+        [
+          "       ",
+          undefined
+        ],
+        [
+          "2021: M (N=402)",
+          28
+        ],
+        [
+          "2021: F (N=94)",
+          12
         ]
       ],
       "name": "\u003E150 Nächte",
@@ -525,7 +525,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",

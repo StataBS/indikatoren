@@ -2343,44 +2343,42 @@ var indikatorensetData = [
 		"id": 6425
 	},
 	{
+		"template": "template001",
+		"data-id": 6426,
+		"chart-id": 6426,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6701"
+			6701
 		],
-		"template": "template001",
 		"title": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
 		"subtitle": "Kanton Basel-Stadt (bis 2016 Stadt Basel)",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.13.3.6426",
-		"kuerzelKunde": "C4-1",
-		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"lesehilfe": "Mit 5 242 im Jahresverlauf unterstützen Personen besitzen 2021 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei mit 984 Personen auf Rang zwei vor Personen aus afrikanischen (968) und arabischen Ländern (891).",
+		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-14T09:24:40.4040",
+		"description": "Anzahl Sozialhilfebeziehende nach Staatsangehörigkeit",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.6426",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C4-1",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 5 551 im Jahresverlauf unterstützen Personen besitzen 2020 die meisten Empfängerinnen und Empfänger von Sozialhilfe einen Schweizer Pass. Es folgen Personen aus der Türkei mit 1 065 Personen auf Rang zwei vor Personen aus afrikanischen Ländern (966) und arabischen Ländern (950).",
-		"erlaeuterungen": "Seit 2017 können gesamtkantonale Werte ausgewiesen werden. In den Vorjahren sind nur Beziehende der Stadt Basel ausgewiesen.<br>Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "03_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6426,
-		"chart-id": 6426,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-23T07:58:46",
 		"id": 6426
 	},
 	{
@@ -2425,44 +2423,42 @@ var indikatorensetData = [
 		"id": 6427
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 6428,
+		"chart-id": 6428,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6703"
+			6703
 		],
-		"template": "populationPyramid001",
 		"title": "Sozialhilfequote der ausländischen Bevölkerung",
-		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.13.3.6428",
-		"kuerzelKunde": "C4-4",
-		"description": "Sozialhilfequote der ausländischen Bevölkerung",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"subtitle": "nach Alter und Geschlecht, Basel-Stadt, 2021",
+		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Sowohl bei den ausländischen Männern (17,5%) als auch den Frauen (16,4%) ist die Sozialhilfequote im Alter von 15 bis 19 Jahren am höchsten.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-14T09:24:56.5656",
+		"description": "Sozialhilfequote der ausländischen Bevölkerung",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "I.13.3.6428",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "C4-4",
 		"stufe1": "Kapitel C Erwerb und Auskommen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Personen unter 20 Jahren weisen die höchsten Sozialhilfequoten im Kanton auf. Ausländische Männer im Alter von 15 bis 19 Jahren tragen mit einer Quote von 18,5% das höchste Sozialhilferisiko aller dargestellten Gruppen. Bei den ausländischen Frauen liegt die Sozialhilfequote bei den unter 5-Jährigen mit 17,5% am höchsten.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Unter Sozialhilfebeziehenden sind alle Personen erfasst, die im Verlauf eines Jahres mindestens eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern Nothilfe erhalten.",
+		"orderKey": "03_00_00_00_00_404",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "03_00_00_00_00_404",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6428,
-		"chart-id": 6428,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-23T07:58:46",
 		"id": 6428
 	},
 	{
@@ -2904,46 +2900,44 @@ var indikatorensetData = [
 		"id": 6473
 	},
 	{
+		"template": "line001",
+		"data-id": 6474,
+		"chart-id": 6474,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6715",
-			"8339",
-			"8610"
+			6715,
+			8339,
+			8610
 		],
-		"template": "line001",
 		"title": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.13.2.6474",
-		"kuerzelKunde": "D1-1",
-		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Nach kontinuierlichem Anstieg stagniert die Familienmietzinsbeitragsquote seit 2017 bei 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2021 eine Quote von 3,7% auf, während sie bei Schweizer Haushalten bei 1,2% liegt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst seit dem Jahr 2012 zur Verfügung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-14T09:25:01.011",
+		"description": "Familienmietzinsbeitragsquote nach Staatsangehörigkeit",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.6474",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D1-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Nach kontinuierlichem Anstieg stagniert die Familienmietzinsbeitragsquote seit 2017 bei 2,3%. Haushalte mit ausschliesslich ausländischen Personen weisen Ende 2020 eine Quote von 3,6% auf, während sie bei Schweizer Haushalten bei 1,3% liegt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte der jeweiligen Kategorie (ausschliesslich Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember. Stichtag ist jeweils der 4. Januar des Folgejahres. Die Anzahl Haushalte einschliesslich Zusammensetzung nach Staatsangehörigkeit steht aufgrund der Registerharmonisierung erst seit dem Jahr 2012 zur Verfügung.",
+		"orderKey": "04_00_00_00_00_101",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_101",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6474,
-		"chart-id": 6474,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-23T07:58:47",
 		"id": 6474
 	},
 	{

@@ -52,6 +52,10 @@
         [
           "2020 (N=455)",
           47
+        ],
+        [
+          "2021 (N=531)",
+          96
         ]
       ],
       "name": "18 bis 25 Jahre",
@@ -109,6 +113,10 @@
         [
           "2020 (N=455)",
           50
+        ],
+        [
+          "2021 (N=531)",
+          71
         ]
       ],
       "name": "26 bis 30 Jahre",
@@ -166,6 +174,10 @@
         [
           "2020 (N=455)",
           117
+        ],
+        [
+          "2021 (N=531)",
+          137
         ]
       ],
       "name": "31 bis 40 Jahre",
@@ -223,6 +235,10 @@
         [
           "2020 (N=455)",
           97
+        ],
+        [
+          "2021 (N=531)",
+          110
         ]
       ],
       "name": "41 bis 50 Jahre",
@@ -280,6 +296,10 @@
         [
           "2020 (N=455)",
           87
+        ],
+        [
+          "2021 (N=531)",
+          67
         ]
       ],
       "name": "51 bis 60 Jahre",
@@ -337,6 +357,10 @@
         [
           "2020 (N=455)",
           41
+        ],
+        [
+          "2021 (N=531)",
+          33
         ]
       ],
       "name": "61 bis 70 Jahre",
@@ -475,7 +499,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Sozialhilfe des Kantons Basel-Stadt, Notschlafstellen und Notwohnungen.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:.0f}%)\u003Cbr\u002F\u003E",
