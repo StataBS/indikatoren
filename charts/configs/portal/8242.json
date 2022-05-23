@@ -6,10 +6,6 @@
       "legendIndex": 0,
       "data": [
         [
-          "2016",
-          494
-        ],
-        [
           "2017",
           517
         ],
@@ -24,6 +20,10 @@
         [
           "2020",
           400
+        ],
+        [
+          "2021",
+          345
         ]
       ],
       "name": "Ehepaare mit Kindern",
@@ -34,10 +34,6 @@
       "index": 3,
       "legendIndex": 0,
       "data": [
-        [
-          "2016",
-          199
-        ],
         [
           "2017",
           226
@@ -53,6 +49,10 @@
         [
           "2020",
           196
+        ],
+        [
+          "2021",
+          158
         ]
       ],
       "name": "Ehepaare ohne Kinder",
@@ -63,10 +63,6 @@
       "index": 2,
       "legendIndex": 0,
       "data": [
-        [
-          "2016",
-          965
-        ],
         [
           "2017",
           987
@@ -82,6 +78,10 @@
         [
           "2020",
           830
+        ],
+        [
+          "2021",
+          803
         ]
       ],
       "name": "Einelternfamilien",
@@ -92,10 +92,6 @@
       "index": 1,
       "legendIndex": 0,
       "data": [
-        [
-          "2016",
-          4132
-        ],
         [
           "2017",
           4074
@@ -111,6 +107,10 @@
         [
           "2020",
           3909
+        ],
+        [
+          "2021",
+          3612
         ]
       ],
       "name": "Einzelpersonen",
@@ -121,10 +121,6 @@
       "index": 0,
       "legendIndex": 5,
       "data": [
-        [
-          "2016",
-          1
-        ],
         [
           "2017",
           0
@@ -140,6 +136,10 @@
         [
           "2020",
           1
+        ],
+        [
+          "2021",
+          0
         ]
       ],
       "name": "Übrige und kein Eintrag",
@@ -284,7 +284,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",

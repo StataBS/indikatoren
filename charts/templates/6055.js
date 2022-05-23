@@ -35,10 +35,7 @@
     	"color": "#FABD24", 
     	"legendIndex": 4
     }, /* gelb */
-        {
-    	"color": "#007A2F", 
-    	"legendIndex": 5
-    }, /* grün */
+      
   ],
    "legend": {
     "enabled": true,

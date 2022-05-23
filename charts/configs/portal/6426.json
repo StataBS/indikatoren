@@ -88,6 +88,10 @@
         [
           "2020",
           5551
+        ],
+        [
+          "2021",
+          5242
         ]
       ],
       "name": "Schweiz",
@@ -181,6 +185,10 @@
         [
           "2020",
           452
+        ],
+        [
+          "2021",
+          387
         ]
       ],
       "name": "Deutschland",
@@ -274,6 +282,10 @@
         [
           "2020",
           426
+        ],
+        [
+          "2021",
+          369
         ]
       ],
       "name": "Italien",
@@ -367,6 +379,10 @@
         [
           "2020",
           1065
+        ],
+        [
+          "2021",
+          984
         ]
       ],
       "name": "Türkei",
@@ -460,9 +476,13 @@
         [
           "2020",
           682
+        ],
+        [
+          "2021",
+          646
         ]
       ],
-      "name": "EU-17 + EFTA + UK",
+      "name": "EU-West + EFTA + UK",
       "turboThreshold": 0
     },
     {
@@ -553,6 +573,10 @@
         [
           "2020",
           468
+        ],
+        [
+          "2021",
+          395
         ]
       ],
       "name": "EU-Ost",
@@ -646,6 +670,10 @@
         [
           "2020",
           701
+        ],
+        [
+          "2021",
+          619
         ]
       ],
       "name": "Balkan",
@@ -739,6 +767,10 @@
         [
           "2020",
           275
+        ],
+        [
+          "2021",
+          272
         ]
       ],
       "name": "Mittel- und Südamerika",
@@ -832,6 +864,10 @@
         [
           "2020",
           950
+        ],
+        [
+          "2021",
+          891
         ]
       ],
       "name": "Arabische Länder",
@@ -925,6 +961,10 @@
         [
           "2020",
           966
+        ],
+        [
+          "2021",
+          968
         ]
       ],
       "name": "Afrikanische Länder",
@@ -1018,6 +1058,10 @@
         [
           "2020",
           927
+        ],
+        [
+          "2021",
+          825
         ]
       ],
       "name": "Übrige Länder",
@@ -1040,8 +1084,15 @@
         "color": "#000000"
       }
     },
-    "min": 0,
-    "tickInterval": 1
+    "tickPositioner": function () {
+      var maxlabels = 10,
+        ext = this.getExtremes(),
+        i = Math.round(ext.max),
+        interval = Math.round((i - ext.min)/maxlabels),
+        pos = [i];
+      while (i >= ext.min) pos.unshift(i = i - interval);
+      return pos;
+    }
   },
   "chart": {
     "width": 485,
@@ -1160,7 +1211,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 23.5.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"

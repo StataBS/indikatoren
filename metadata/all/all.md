@@ -325,9 +325,9 @@ id | visible | visibleInPortal | indikatorenset
 5180 | true | true | Nachhaltigkeit
 5181 | true | true | Nachhaltigkeit
 5182 | true | true | Nachhaltigkeit
-5183 | true | false | Nachhaltigkeit
-5184 | true | false | Nachhaltigkeit
-5185 | true | false | Nachhaltigkeit
+5183 | true | true | Nachhaltigkeit
+5184 | true | true | Nachhaltigkeit
+5185 | true | true | Nachhaltigkeit
 5186 | true | true | Nachhaltigkeit
 5188 | true | false | Nachhaltigkeit
 5189 | true | true | Nachhaltigkeit
@@ -2036,8 +2036,8 @@ id | visible | visibleInPortal | indikatorenset
 9291 | true | true | Soziales
 9292 | true | false | Wohnraumentwicklung
 9293 | true | false | 
-9294 | true | false | Soziales
-9295 | true | false | Soziales
+9294 | true | true | Soziales
+9295 | true | true | Soziales
 9298 | true | false | Soziales
 9346 | true | true | 
 9359 | true | false | 
