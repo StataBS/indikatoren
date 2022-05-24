@@ -7210,45 +7210,45 @@ var indikatoren = [
 		"id": 4822
 	},
 	{
+		"template": "dotplot",
+		"data-id": 4823,
+		"chart-id": 4823,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5110"
+			5110
 		],
-		"template": "dotplot",
 		"title": "Anteil Ausländer",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.01.1.04823",
-		"kuerzelKunde": "GS-2.A",
-		"description": "Anteil Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22,3% am tiefsten, im Wohnviertel Rosental mit 56,2% am höchsten.",
+		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [
+			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevheim.anteil_al&view=map2' target = '_blank'>Basler Atlas</a>"
+		],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-06-15T09:18:40.4040",
+		"description": "Anteil Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.04823",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "GS-2.A",
 		"stufe1": "Teil 2: Rang-Grafiken",
 		"stufe2": "Gesellschaft und Soziales",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Ausländeranteil ist im Wohnviertel Bachletten mit 22,5% am geringsten, im Wohnviertel Rosental mit 55,8% am höchsten.",
-		"erlaeuterungen": "Anteil der ausländischen Wohnbevölkerung an der gesamten Wohnbevölkerung des Wohnviertels in Prozent.",
+		"orderKey": "02_01_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_01_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			"Diese Daten finden Sie auch im interaktiven <a href = 'https://basleratlas.ch/#c=indicator&i=bevheim.anteil_al&view=map6' target = '_blank'>Basler Atlas</a>"
-		],
-		"data-id": 4823,
-		"chart-id": 4823,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-24T08:48:16",
 		"id": 4823
 	},
 	{
@@ -26687,7 +26687,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-25T08:50:54",
+		"aktualisierungsdatum": "2022-05-24T08:48:15",
 		"id": 7515
 	},
 	{
@@ -30638,8 +30638,8 @@ var indikatoren = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, März",
-		"lesehilfe": "Im März 2022 sank die Einwohnerzahl gegenüber dem Vormonat in zwei Wohnvierteln. In 17 Wohnvierteln sowie in Riehen und Bettingen stieg sie.",
+		"subtitle": "Basel-Stadt, April",
+		"lesehilfe": "Im April 2022 sank die Einwohnerzahl gegenüber dem Vormonat in zwei Wohnvierteln. In 17 Wohnvierteln sowie in Riehen und Bettingen stieg sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -30666,7 +30666,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-25T08:50:54",
+		"aktualisierungsdatum": "2022-05-24T08:48:16",
 		"id": 7763
 	},
 	{
@@ -35007,45 +35007,43 @@ var indikatoren = [
 		"id": 8280
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8281,
+		"chart-id": 8281,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8552"
+			8552
 		],
-		"template": "mappie001",
 		"title": "Sozialhilfequote der Minderjährigen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-03",
-		"description": "Sozialhilfequote der Minderjährigen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Mit 23,3% ist im Klybeck beinahe jedes vierte Kind von Sozialhilfe abhängig. In Bettingen beträgt die Sozialhilfequote der Minderjährigen 1,9%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-25T08:35:44.4444",
+		"description": "Sozialhilfequote der Minderjährigen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-03",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 23,3% ist im Klybeck beinahe jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "02_02_00_00_00_203",
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_02_00_00_00_203",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8281,
-		"chart-id": 8281,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-24T08:48:16",
 		"id": 8281
 	},
 	{

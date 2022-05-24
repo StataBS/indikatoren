@@ -1572,44 +1572,42 @@ var indikatorensetData = [
 		"id": 8280
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8281,
+		"chart-id": 8281,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8552"
+			8552
 		],
-		"template": "mappie001",
 		"title": "Sozialhilfequote der Minderjährigen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2020",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
-		"kuerzel": "",
-		"kuerzelKunde": "2-03",
-		"description": "Sozialhilfequote der Minderjährigen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialhilfe und Notwohnen",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2021",
+		"lesehilfe": "Mit 23,3% ist im Klybeck beinahe jedes vierte Kind von Sozialhilfe abhängig. In Bettingen beträgt die Sozialhilfequote der Minderjährigen 1,9%.",
+		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-25T08:35:44.4444",
+		"description": "Sozialhilfequote der Minderjährigen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialhilfe und Notwohnen",
+		"kuerzel": "",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "2-03",
 		"stufe1": "Kinderfreundliche Lebensräume",
 		"stufe2": "2.2 Aufwachsen",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Mit 23,3% ist im Klybeck beinahe jedes vierte Kind von Sozialhilfe abhängig. In der Altstadt Grossbasel beträgt die Sozialhilfequote der Minderjährigen weniger als 1%.",
-		"erlaeuterungen": "Die Sozialhilfequote wird als Anteil der Sozialhilfebeziehenden an der jeweiligen Bevölkerungsgruppe gemäss Bevölkerungsstand Ende Jahr berechnet. Als Sozialhilfebeziehende sind alle Personen erfasst, die im Verlaufe des jeweiligen Jahres mindestens einmal eine bedarfsabhängige Sozialhilfeleistung erhalten haben. Die Dossiertypen Asyl und Flüchtling sind ebenfalls berücksichtigt. Asylsuchende mit Nichteintretens- oder Negativentscheid (NEE-NE-Dossiers) werden aus den Auswertungen ausgeschlossen, weil diese Personen nicht Sozialhilfe, sondern nur Nothilfe erhalten.",
+		"orderKey": "02_02_00_00_00_203",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "02_02_00_00_00_203",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Sozialhilfestatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8281,
-		"chart-id": 8281,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-24T08:48:16",
 		"id": 8281
 	},
 	{

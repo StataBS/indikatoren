@@ -29,28 +29,28 @@
             dataClassColor: 'category',
                    dataClasses: [{
                 from: 0,
-                to:4.999,
+                to:3.999,
                 color: '#D3E2E4',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,0 </span> <<span style='color: rgba(0,0,0,0)'>...</span>5,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0 </span> <<span style='color: rgba(0,0,0,0)'>...</span>4,0"
             }, {
-                from: 5,
-                to: 6.999,
+                from: 4,
+                to: 7.999,
                 color: '#A8C3CA',
-                name: "<span style='color: rgba(0,0,0,0)'>0</span>5,0 −<span style='color: rgba(0,0,0,0)'>0</span> 6,9"
+                name: "<span style='color: rgba(0,0,0,0)'>0</span>4,0 −<span style='color: rgba(0,0,0,0)'>0</span> 7,9"
             }, {
-                from: 7,
-                to: 9.999,
+                from: 8,
+                to: 10.999,
                  color: '#689199',
-                 name: "<span style='color: rgba(0,0,0,0)'>1</span>7,0 − <span style='color: rgba(0,0,0,0)'>.</span> 9,9"
+                 name: "<span style='color: rgba(0,0,0,0)'>1</span>8,0 − <span style='color: rgba(0,0,0,0)'></span> 10,9"
             },{
-                from: 10,
-                to: 16.999,
+                from: 11,
+                to: 15.999,
                  color: '#246370',
-                 name: "10,0 − 16,9"
+                 name: "11,0 − 15,9"
             },{
-                from: 17.0,
+                from: 16.0,
                 color: '#083038',
-                name:  "<span style='color: rgba(0,0,0,0)'>00,0</span> ≥ 17,0"
+                name:  "<span style='color: rgba(0,0,0,0)'>00,0</span> ≥ 16,0"
             }], 
         },
         "data": {
