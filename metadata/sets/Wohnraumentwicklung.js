@@ -977,42 +977,40 @@ var indikatorensetData = [
 		"id": 4151
 	},
 	{
+		"template": "line001",
+		"data-id": 4153,
+		"chart-id": 4153,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "line001",
 		"title": "Ausbezahlte Familienmietzinsbeiträge",
 		"subtitle": "Basel-Stadt, in Franken",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.13.2.4153",
-		"kuerzelKunde": "4.1.B",
-		"description": "Ausbezahlte Familienmietzinsbeiträge",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge sinken 2021 nach zuvor kontinuierlichem Anstieg erstmals und betragen 2021 rund 11,7 Mio. Franken.",
+		"erlaeuterungen": "Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-05T08:34:13.1313",
+		"description": "Ausbezahlte Familienmietzinsbeiträge",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.4153",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "4.1.B",
 		"stufe1": "Ziel 4: Sozialpolitik",
 		"stufe2": "4.1 Unterstützung Benachteiligter",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die ausbezahlten Familienmietzinsbeiträge steigen kontinuierlich und betragen 2020 rund 11,8 Mio. Franken.",
-		"erlaeuterungen": "",
+		"orderKey": "05_01_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "05_01_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4153,
-		"chart-id": 4153,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-30T09:32:20",
 		"id": 4153
 	},
 	{
@@ -1131,42 +1129,40 @@ var indikatorensetData = [
 		"id": 4156
 	},
 	{
-		"parentId": 4152,
-		"children": [],
 		"template": "template001",
+		"data-id": 9292,
+		"chart-id": 9292,
+		"filter": "",
+		"parentId": "4152",
+		"children": [],
 		"title": "Haushalte mit Familienmietzinsbeiträgen",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.13.2.09292",
-		"kuerzelKunde": "4.1.A",
-		"description": "Haushalte mit Familienmietzinsbeiträgen",
-		"thema": "13 Soziale Sicherheit",
-		"unterthema": "Sozialleistungen",
+		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 und 2021 nach zuvor kontinuierlichem Anstieg zurückgegangen. Ende 2021 beziehen 2 250 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
+		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.<br>Anspruch auf Familienmietzinsbeiträge können Familien in bescheidenen wirtschaftlichen Verhältnissen geltend machen. Es muss mindestens ein minderjähriges oder sich in Erstausbildung befindendes Kind unter 25 Jahren im gleichen Haushalt leben. Grundvoraussetzung für den Bezug ist der Wohnsitz im Kanton Basel-Stadt, wobei das Gesetz eine Wohnsitzdauer von 5 Jahren ohne Unterbruch verlangt. Es genügt, wenn eine Person bzw. ein Elternteil diese Bedingung erfüllt.<br>Die Höhe des Zuschusses ist abhängig von der Anzahl Personen, der Anzahl Zimmer, dem Mietzins sowie dem Jahreseinkommen und Vermögen der wirtschaftlichen Haushaltseinheit.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:45.4545",
+		"description": "Haushalte mit Familienmietzinsbeiträgen",
+		"thema": "13 Soziale Sicherheit",
+		"unterthema": "Sozialleistungen",
+		"kuerzel": "I.13.2.09292",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "4.1.A",
 		"stufe1": "",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Anzahl der mit Familienmietzinsbeiträgen unterstützten Haushalte ist 2020 nach zuvor kontinuierlichem Anstieg erstmals zurückgegangen. Ende 2020 beziehen 2 272 Haushalte Familienmietzinsbeiträge. Dies entspricht 2,3% aller Haushalte im Kanton Basel-Stadt.",
-		"erlaeuterungen": "Die Familienmietzinsbeitragsquote errechnet sich als Quotient der Anzahl Haushalte mit Mietzinsbeiträgen an der Gesamtzahl Haushalte (exklusive Haushalte in Wohnungen ohne Kocheinrichtung) per 31. Dezember.",
+		"orderKey": "_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Basler Informationssystem Sozialleistungen (BISS)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 9292,
-		"chart-id": 9292,
-		"filter": "",
+		"aktualisierungsdatum": "2022-05-30T09:32:20",
 		"id": 9292
 	}
 ];

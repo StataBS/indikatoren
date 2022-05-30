@@ -55,6 +55,10 @@
         [
           "2020",
           11813226
+        ],
+        [
+          "2021",
+          11706521
         ]
       ],
       "name": "Familienmietzinsbeiträge in Franken",
@@ -178,7 +182,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-5"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Amt für Sozialbeiträge Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 30.5.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
