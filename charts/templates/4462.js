@@ -2,7 +2,7 @@
     return {
   "plotOptions": {
     "series": {
-      "minPointLength": 3,
+      "minPointLength": 1,
       //"pointWidth": 50,
       "dataLabels": {
         "style": {
