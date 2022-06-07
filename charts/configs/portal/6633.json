@@ -5,98 +5,98 @@
         {
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Breite",
-          "y": 12,
-          "Wert": 0.0546900895
+          "y": 11,
+          "Wert": 0.0461364918
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Breite",
-          "y": 10,
-          "Wert": 0.3563142194
+          "y": 9,
+          "Wert": 0.3555555556
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 0.2807535179
+          "Wert": 0.2863914903
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Breite",
-          "y": 6,
-          "Wert": 0.268041237
+          "y": 5,
+          "Wert": 0.2524
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Breite",
-          "y": 12,
-          "Wert": 0.3274503084
+          "y": 13,
+          "Wert": 0.32530541
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Breite",
-          "y": 11,
-          "Wert": 0.3335543034
+          "y": 12,
+          "Wert": 0.3426959955
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Breite",
           "y": 9,
-          "Wert": 0.2234407128
+          "Wert": 0.2218150087
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 1941.392537313432
+          "Wert": 1941.696240601503
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Breite",
           "y": 9,
-          "Wert": 0.129850746268
+          "Wert": 0.130827067669
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Breite",
           "y": 15,
-          "Wert": 0.3581089512
+          "Wert": 0.362
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Breite",
-          "y": 6,
-          "Wert": 70.215147577501
+          "y": 7,
+          "Wert": 70.289537
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Breite",
-          "y": 8,
-          "Wert": 38.951429868
+          "y": 9,
+          "Wert": 39.268261
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Breite",
-          "y": 8,
-          "Wert": 581.3
+          "y": 5,
+          "Wert": 607.3
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Breite",
           "y": 8,
-          "Wert": 7471.7
+          "Wert": 7554.3
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Breite",
           "y": 16,
-          "Wert": 0.7532669
+          "Wert": 0.7530277
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Breite",
-          "y": 1,
-          "Wert": 0.1254493051
+          "y": 2,
+          "Wert": 0.1273465
         }
       ],
       "name": "Wert",
@@ -214,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2021",
+    "text": "Ausgabe 2022",
     "align": "left"
   },
   "yAxis": {
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2022"
   },
   "legend": {
     "enabled": false,

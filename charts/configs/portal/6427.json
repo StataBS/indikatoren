@@ -82,6 +82,10 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "name": "Schweiz (Stadt)"
@@ -169,6 +173,10 @@
         [
           2020,
           4.36
+        ],
+        [
+          2021,
+          4.12
         ]
       ],
       "name": "Schweiz (Kanton)"
@@ -254,6 +262,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -342,6 +354,10 @@
         [
           2020,
           2.72
+        ],
+        [
+          2021,
+          2.34
         ]
       ],
       "name": "Deutschland (Kanton)"
@@ -427,6 +443,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -515,6 +535,10 @@
         [
           2020,
           4.85
+        ],
+        [
+          2021,
+          4.26
         ]
       ],
       "name": "Italien (Kanton)"
@@ -600,6 +624,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -688,6 +716,10 @@
         [
           2020,
           17.9
+        ],
+        [
+          2021,
+          17.14
         ]
       ],
       "name": "Türkei (Kanton)"
@@ -774,9 +806,13 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
         ]
       ],
-      "name": "EU-17 + EFTA + UK (Stadt)"
+      "name": "EU-West + EFTA + UK(Stadt)"
     },
     {
       "color": "#b475ab",
@@ -861,9 +897,13 @@
         [
           2020,
           4.13
+        ],
+        [
+          2021,
+          3.91
         ]
       ],
-      "name": "EU-17 + EFTA + UK (Kanton)"
+      "name": "EU-West + EFTA + UK(Kanton)"
     },
     {
       "color": "#71a3b5",
@@ -946,6 +986,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1034,6 +1078,10 @@
         [
           2020,
           8.49
+        ],
+        [
+          2021,
+          7.02
         ]
       ],
       "name": "EU-Ost (Kanton)"
@@ -1119,6 +1167,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1207,6 +1259,10 @@
         [
           2020,
           10.01
+        ],
+        [
+          2021,
+          9.1
         ]
       ],
       "name": "Balkan (Kanton)"
@@ -1292,6 +1348,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1380,6 +1440,10 @@
         [
           2020,
           14.47
+        ],
+        [
+          2021,
+          13.89
         ]
       ],
       "name": "Mittel- und Südamerika (Kanton)"
@@ -1465,6 +1529,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1553,6 +1621,10 @@
         [
           2020,
           55.33
+        ],
+        [
+          2021,
+          49.8
         ]
       ],
       "name": "Arabische Länder (Kanton)"
@@ -1638,6 +1710,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1726,6 +1802,10 @@
         [
           2020,
           48.76
+        ],
+        [
+          2021,
+          48.42
         ]
       ],
       "name": "Afrikanische Länder (Kanton)"
@@ -1811,6 +1891,10 @@
         ],
         [
           2020,
+          null
+        ],
+        [
+          2021,
           null
         ]
       ],
@@ -1899,6 +1983,10 @@
         [
           2020,
           10.66
+        ],
+        [
+          2021,
+          9.42
         ]
       ],
       "name": "Übrige Länder (Kanton)"
@@ -2041,7 +2129,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-14"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Sozialhilfestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 7.6.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
