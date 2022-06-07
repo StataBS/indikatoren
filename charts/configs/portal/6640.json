@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "St. Johann",
           "y": 16,
-          "Wert": 0.0796030518
+          "Wert": 0.0714626518
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "St. Johann",
           "y": 16,
-          "Wert": 0.431681161
+          "Wert": 0.420505752
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "St. Johann",
-          "y": 9,
-          "Wert": 0.2387184116
+          "y": 8,
+          "Wert": 0.2364071456
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 0.303703704
+          "Wert": 0.3169
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "St. Johann",
           "y": 5,
-          "Wert": 0.2296003166
+          "Wert": 0.232646292
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "St. Johann",
           "y": 8,
-          "Wert": 0.3206251352
+          "Wert": 0.3126440478
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "St. Johann",
-          "y": 11,
-          "Wert": 0.2538187574
+          "y": 10,
+          "Wert": 0.2569691226
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "St. Johann",
-          "y": 9,
-          "Wert": 1933.359261700725
+          "y": 10,
+          "Wert": 1933.761811023622
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "St. Johann",
           "y": 13,
-          "Wert": 0.247857613711
+          "Wert": 0.246719160104
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "St. Johann",
           "y": 12,
-          "Wert": 0.2821844968
+          "Wert": 0.287
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "St. Johann",
           "y": 10,
-          "Wert": 72.100997136933
+          "Wert": 72.069619
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
-          "y": 6,
-          "Wert": 36.915613718
+          "y": 5,
+          "Wert": 36.873281
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 9,
-          "Wert": 640.6
+          "y": 6,
+          "Wert": 630.8
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "St. Johann",
-          "y": 7,
-          "Wert": 7019.2
+          "y": 6,
+          "Wert": 7078.3
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "St. Johann",
-          "y": 4,
-          "Wert": 0.7039822
+          "y": 5,
+          "Wert": 0.7097482
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "St. Johann",
           "y": 15,
-          "Wert": 1.0875585544
+          "Wert": 1.0672492
         }
       ],
       "name": "Wert",
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2021"
   },
   "legend": {
     "enabled": false,

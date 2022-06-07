@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Gundeldingen",
           "y": 13,
-          "Wert": 0.0623445356
+          "Wert": 0.0578019426
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Gundeldingen",
           "y": 14,
-          "Wert": 0.4002646203
+          "Wert": 0.3962732264
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Gundeldingen",
           "y": 16,
-          "Wert": 0.2889848104
+          "Wert": 0.2916576264
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Gundeldingen",
-          "y": 8,
-          "Wert": 0.291666667
+          "y": 3,
+          "Wert": 0.2432
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Gundeldingen",
           "y": 4,
-          "Wert": 0.2248792999
+          "Wert": 0.228323263
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Gundeldingen",
-          "y": 7,
-          "Wert": 0.316644615
+          "y": 9,
+          "Wert": 0.3137141047
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Gundeldingen",
           "y": 5,
-          "Wert": 0.2005129753
+          "Wert": 0.2024924471
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Gundeldingen",
           "y": 8,
-          "Wert": 1932.715583508036
+          "Wert": 1933.022980501392
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Gundeldingen",
           "y": 2,
-          "Wert": 0.028651292802
+          "Wert": 0.028551532033
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Gundeldingen",
           "y": 7,
-          "Wert": 0.1762109013
+          "Wert": 0.178
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Gundeldingen",
-          "y": 7,
-          "Wert": 70.286723040711
+          "y": 6,
+          "Wert": 70.142191
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
           "y": 10,
-          "Wert": 39.295213638
+          "Wert": 39.333333
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Gundeldingen",
-          "y": 6,
-          "Wert": 554.9
+          "y": 7,
+          "Wert": 641.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Gundeldingen",
           "y": 9,
-          "Wert": 7472.3
+          "Wert": 7882.8
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Gundeldingen",
-          "y": 18,
-          "Wert": 0.7627559
+          "y": 17,
+          "Wert": 0.7560823
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Gundeldingen",
-          "y": 11,
-          "Wert": 0.5766547817
+          "y": 12,
+          "Wert": 0.5900194
         }
       ],
       "name": "Wert",
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2021"
   },
   "legend": {
     "enabled": false,

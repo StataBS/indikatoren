@@ -6,97 +6,97 @@
           "name": "Anteil&nbsp;Sozialhilfeempfänger",
           "Wohnviertel": "Riehen",
           "y": 7,
-          "Wert": 0.0328556288
+          "Wert": 0.0311356986
         },
         {
           "name": "Anteil&nbsp;Ausländer",
           "Wohnviertel": "Riehen",
           "y": 5,
-          "Wert": 0.2765771163
+          "Wert": 0.2769294075
         },
         {
           "name": "Anteil&nbsp;Personen&nbsp;in Einpersonen-haushalten",
           "Wohnviertel": "Riehen",
           "y": 3,
-          "Wert": 0.1635821174
+          "Wert": 0.1657440573
         },
         {
           "name": "Gymnasialquote",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 0.524137931
+          "Wert": 0.4802
         },
         {
           "name": "Altersquotient",
           "Wohnviertel": "Riehen",
           "y": 21,
-          "Wert": 0.4675258172
+          "Wert": 0.477522306
         },
         {
           "name": "Anteil&nbsp;Sesshafte",
           "Wohnviertel": "Riehen",
-          "y": 19,
-          "Wert": 0.421144806
+          "y": 20,
+          "Wert": 0.4201115786
         },
         {
           "name": "Jugendquotient",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.384569429
+          "Wert": 0.3989361702
         },
         {
           "name": "Baujahr&nbsp;Wohngebäude",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 1958.639187574671
+          "Wert": 1958.95951417004
         },
         {
           "name": "Anteil Einfamilienhäuser",
           "Wohnviertel": "Riehen",
           "y": 18,
-          "Wert": 0.656391875746
+          "Wert": 0.656823053107
         },
         {
           "name": "Anteil&nbsp;Grünfläche",
           "Wohnviertel": "Riehen",
           "y": 20,
-          "Wert": 0.7946988909
+          "Wert": 0.792
         },
         {
           "name": "Fläche&nbsp;pro&nbsp;Wohnung",
           "Wohnviertel": "Riehen",
           "y": 19,
-          "Wert": 102.605732725892
+          "Wert": 102.556069
         },
         {
           "name": "Wohnfläche&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 47.186238404
+          "Wert": 47.348309
         },
         {
           "name": "Vermögenssteuer",
           "Wohnviertel": "Riehen",
-          "y": 15,
-          "Wert": 3325.3
+          "y": 16,
+          "Wert": 3642.6
         },
         {
           "name": "Einkommenssteuer",
           "Wohnviertel": "Riehen",
           "y": 16,
-          "Wert": 12494.4
+          "Wert": 13384.8
         },
         {
           "name": "Erwerbstätigenquote",
           "Wohnviertel": "Riehen",
-          "y": 12,
-          "Wert": 0.7384675
+          "y": 11,
+          "Wert": 0.7283179
         },
         {
           "name": "Arbeitsplätze&nbsp;pro&nbsp;Kopf",
           "Wohnviertel": "Riehen",
-          "y": 4,
-          "Wert": 0.1604026597
+          "y": 3,
+          "Wert": 0.1612785
         }
       ],
       "name": "Wert",
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2021"
   },
   "legend": {
     "enabled": false,
