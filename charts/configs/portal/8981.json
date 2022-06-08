@@ -450,6 +450,10 @@
         [
           "2022-04",
           -1039
+        ],
+        [
+          "2022-05",
+          -946
         ]
       ],
       "name": "Veränderung im Vergleich zum Vorjahresmonat",
@@ -589,7 +593,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 6.5.2022"
+    "text": "Quelle: Staatssekretariat für Wirtschaft SECO, Arbeitslosenstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 8.6.2022"
   },
   "tooltip": {
     "valueDecimals": 0,
