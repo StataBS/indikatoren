@@ -7,23 +7,23 @@
       "data": [
         [
           "Deutschland",
-          1949
+          1909
         ],
         [
-          "UK",
-          469
+          "Spanien",
+          437
         ],
         [
           "Frankreich",
-          466
+          427
         ],
         [
           "Italien",
-          455
+          410
         ],
         [
           "USA",
-          405
+          362
         ]
       ],
       "name": "Zugezogene",
@@ -36,23 +36,23 @@
       "data": [
         [
           "Deutschland",
-          -1203
+          -1243
         ],
         [
-          "UK",
-          -207
+          "Spanien",
+          -180
         ],
         [
           "Frankreich",
-          -368
+          -451
         ],
         [
           "Italien",
-          -194
+          -205
         ],
         [
           "USA",
-          -236
+          -304
         ]
       ],
       "name": "Weggezogene",
@@ -68,23 +68,23 @@
       "data": [
         [
           "Deutschland",
-          746
+          666
         ],
         [
-          "UK",
-          262
+          "Spanien",
+          257
         ],
         [
           "Frankreich",
-          98
+          -24
         ],
         [
           "Italien",
-          261
+          205
         ],
         [
           "USA",
-          169
+          58
         ]
       ],
       "name": "Saldo",
@@ -167,7 +167,7 @@
     "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2020",
+    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -232,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-2"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
   },
   "exporting": {
     "filename": "6023"

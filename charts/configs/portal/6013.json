@@ -5,27 +5,27 @@
       "data": [
         [
           "Deutschland",
-          1949
+          1909
         ],
         [
-          "UK",
-          469
+          "Spanien",
+          437
         ],
         [
           "Frankreich",
-          466
+          427
         ],
         [
           "Italien",
-          455
+          410
         ],
         [
           "USA",
-          405
+          362
         ],
         [
           "Übriges Ausland",
-          3312
+          3231
         ]
       ],
       "turboThreshold": 0
@@ -101,7 +101,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left"
   },
   "tooltip": {
@@ -122,7 +122,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
   },
   "legend": {
     "layout": "vertical",
