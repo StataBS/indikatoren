@@ -2937,88 +2937,84 @@ var indikatorensetData = [
 		"id": 6474
 	},
 	{
+		"template": "template001",
+		"data-id": 6475,
+		"chart-id": 6475,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6716"
+			6716
 		],
-		"template": "template001",
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.09.1.6475",
-		"kuerzelKunde": "D2-1",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-06-25T08:16:32.3232",
-		"stufe1": "Kapitel D Politik und Zusammenleben",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2020 für Schweizerinnen und Schweizer 45,0 m², für Ausländerinnen und Ausländer 34,7 m². Im Vergleich zu 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer etwas abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen. Schweizer Staatsangehörige verfügen jedoch immer noch über eine deutlich höhere mittlere Wohnfläche als ausländische Staatsangehörige.",
+		"lesehilfe": "Die mittlere Wohnfläche pro Person beträgt 2021 für Schweizerinnen und Schweizer 45,1 m², für Ausländerinnen und Ausländer 35,0 m². Gegenüber 2000 hat die mittlere Wohnfläche der Schweizerinnen und Schweizer abgenommen und diejenige der Ausländerinnen und Ausländer zugenommen.",
 		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "04_00_00_00_00_201",
-		"renderLink": [],
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik",
 			"Bundesamt für Statistik (BFS), Eidgenössische Volks- und Wohnungszählungen 1990 und 2000"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6475,
-		"chart-id": 6475,
-		"filter": "",
-		"id": 6475
-	},
-	{
-		"parentId": null,
-		"children": [
-			"6717"
-		],
-		"template": "template001",
-		"title": "Mittlere Wohnfläche pro Person",
-		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.09.1.6476",
-		"kuerzelKunde": "D2-2",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-07-01T08:33:00.000",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.6475",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D2-1",
 		"stufe1": "Kapitel D Politik und Zusammenleben",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Differenziert nach Ländergruppe zeigt sich, dass die Schweizer mit 45,0 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich die Deutschen. Eine vergleichsweise tiefe Wohnfläche pro Person weisen Personen aus den Balkanländern, aus der Türkei oder aus arabischen und afrikanischen Ländern auf.",
-		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
+		"orderKey": "04_00_00_00_00_201",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "04_00_00_00_00_202",
-		"renderLink": [],
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-13T08:03:38",
+		"id": 6475
+	},
+	{
+		"template": "template001",
+		"data-id": 6476,
+		"chart-id": 6476,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			6717
+		],
+		"title": "Mittlere Wohnfläche pro Person",
+		"subtitle": "in m² nach Staatsangehörigkeit, Basel-Stadt, 2021",
+		"lesehilfe": "Differenziert nach Ländergruppe zeigt sich, dass Schweizer mit 45,1 m² über die höchste mittlere Wohnfläche verfügen. Knapp dahinter befinden sich Deutsche. Eine vergleichsweise tiefe Wohnfläche pro Person weisen Personen aus den Balkanländern, der Türkei oder arabischen und afrikanischen Ländern auf.",
+		"erlaeuterungen": "Als Wohnfläche gilt die bewohnbare Fläche der Wohnung in Quadratmetern. Sie setzt sich zusammen aus der Summe der Flächen aller Zimmer, Küchen, Badezimmer, Toilettenräume, Reduits und Gänge einer Wohnung. Zusätzliche separate Wohnräume (z. B. Mansarden), offene Balkone und Terrassen sowie nicht bewohnbare Keller- und Dachgeschossräume fallen bei der Berechnung ausser Betracht.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
 			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
 		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
 		],
-		"data-id": 6476,
-		"chart-id": 6476,
-		"filter": "",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.6476",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "D2-2",
+		"stufe1": "Kapitel D Politik und Zusammenleben",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "04_00_00_00_00_202",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-13T08:03:38",
 		"id": 6476
 	},
 	{

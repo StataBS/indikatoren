@@ -5,7 +5,7 @@
       "data": [
         [
           "1 Pers.",
-          66.8
+          65.74
         ],
         [
           "2 Pers.",
@@ -36,19 +36,19 @@
         ],
         [
           "2 Pers.",
-          46.53
+          46.88
         ],
         [
           "3 Pers.",
-          31.74
+          31.86
         ],
         [
           "4 Pers.",
-          26.51
+          26.63
         ],
         [
           "5 u.m. Pers.",
-          20.77
+          20.9
         ]
       ],
       "name": "Familienhaushalte",
@@ -63,19 +63,19 @@
         ],
         [
           "2 Pers.",
-          39.75
+          39.88
         ],
         [
           "3 Pers.",
-          28.56
+          28.68
         ],
         [
           "4 Pers.",
-          25.77
+          24.76
         ],
         [
           "5 u.m. Pers.",
-          22.01
+          23.59
         ]
       ],
       "name": "Nichtfamilienhaushalte",
@@ -160,7 +160,7 @@
     "text": "Mittlere Wohnfläche pro Person"
   },
   "subtitle": {
-    "text": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2020",
+    "text": "nach Haushaltsgrösse und Haushaltstyp in m², Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -219,7 +219,7 @@
       "x": 10,
       "y": -35
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik;\u003Cbr\u002F\u003EStatistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} m²\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

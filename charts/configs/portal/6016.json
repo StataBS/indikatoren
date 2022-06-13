@@ -6,38 +6,38 @@
       "data": [
         [
           "Schweiz",
-          58.42
+          58.5
         ],
         [
           "Deutschland",
-          83.02
+          82.8
         ],
         [
-          "UK",
-          61.85
+          "Spanien",
+          74
         ],
         [
           "Frankreich",
-          44.97
+          52.5
         ],
         [
           "Italien",
-          78.44
+          81.5
         ],
         [
           "USA",
-          56.04
+          60.2
         ],
         [
           "Übriges Ausland",
-          75.71
+          75.5
         ],
         [
           "Total",
-          66.46
+          66.8
         ]
       ],
-      "name": "2011",
+      "name": "2012",
       "turboThreshold": 0
     },
     {
@@ -46,38 +46,38 @@
       "data": [
         [
           "Schweiz",
-          58.94
+          59.5
         ],
         [
           "Deutschland",
-          73.37
+          75.1
         ],
         [
-          "UK",
-          48.83
+          "Spanien",
+          83.3
         ],
         [
           "Frankreich",
-          48.71
+          48
         ],
         [
           "Italien",
-          87.91
+          86.1
         ],
         [
           "USA",
-          51.85
+          58.3
         ],
         [
           "Übriges Ausland",
-          68.39
+          68
         ],
         [
           "Total",
-          63.12
+          64.9
         ]
       ],
-      "name": "2020",
+      "name": "2021",
       "turboThreshold": 0
     }
   ],
@@ -212,7 +212,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
