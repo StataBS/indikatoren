@@ -47,8 +47,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Mietpreisentwicklung",
-		"subtitle": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
-		"lesehilfe": "Eine 5-Zimmer-Wohnung kostete im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2021 betrug der Durchschnittspreis 2 277 Franken.",
+		"subtitle": "in Franken, Wohnungen nach Zimmerzahl, Basel-Stadt",
+		"lesehilfe": "Die Monatsmiete einer 5-Zimmer-Wohnung betrug im Mai 2006 im Durchschnitt 2 017 Franken, im Mai 2022 durchschnittlich 2 295 Franken.",
 		"erlaeuterungen": "Abgebildet sind Bestandsmieten. Die Mietpreisangaben stützen sich auf systematische Stichprobenerhebungen, die 5% der Miet- und Genossenschaftswohnungen umfassen. Die Angaben beziehen sich auf die Mietpreiserhebung im Mai des jeweiligen Jahres. Wohnungen mit mehr als 5 Zimmern werden in der Abbildung nicht berücksichtigt.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Mietpreiserhebung"
@@ -73,7 +73,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-04-27T08:13:20",
+		"aktualisierungsdatum": "2022-06-15T04:10:14",
 		"id": 4128
 	},
 	{

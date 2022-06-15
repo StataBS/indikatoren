@@ -71,6 +71,10 @@
         [
           "2021",
           717
+        ],
+        [
+          "2022",
+          721
         ]
       ],
       "name": "1 Zimmer",
@@ -147,6 +151,10 @@
         [
           "2021",
           1036
+        ],
+        [
+          "2022",
+          1047
         ]
       ],
       "name": "2 Zimmer",
@@ -223,6 +231,10 @@
         [
           "2021",
           1244
+        ],
+        [
+          "2022",
+          1255
         ]
       ],
       "name": "3 Zimmer",
@@ -299,6 +311,10 @@
         [
           "2021",
           1687
+        ],
+        [
+          "2022",
+          1699
         ]
       ],
       "name": "4 Zimmer",
@@ -375,6 +391,10 @@
         [
           "2021",
           2277
+        ],
+        [
+          "2022",
+          2295
         ]
       ],
       "name": "5 Zimmer",
@@ -458,7 +478,7 @@
     "text": "Mietpreisentwicklung"
   },
   "subtitle": {
-    "text": "in Fr., Wohnungen nach Zimmerzahl, Basel-Stadt",
+    "text": "in Franken, Wohnungen nach Zimmerzahl, Basel-Stadt",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -511,7 +531,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 27.4.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Mietpreiserhebung.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
