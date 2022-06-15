@@ -241,86 +241,82 @@ var indikatorensetData = [
 		"id": 6018
 	},
 	{
+		"template": "populationPyramid001",
+		"data-id": 6019,
+		"chart-id": 6019,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6768"
+			6768
 		],
-		"template": "populationPyramid001",
 		"title": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"subtitle": "Basel-Stadt, 2011 bis 2020 zusammengefasst",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.6019",
-		"kuerzelKunde": "2-9",
-		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2012 bis 2021 zusammengefasst",
+		"lesehilfe": "In den Jahren 2012 bis 2021 sind in allen Altersklassen zwischen 0 und 59 Jahren in der Summe mehr Personen aus dem Ausland nach Basel-Stadt zugezogen als ins Ausland weggezogen. Für die Altersklassen der 60-Jährigen und Älteren ist der Wanderungssaldo negativ.",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-27T09:08:10.1010",
+		"description": "Zuzug aus dem Ausland, Wegzug ins Ausland und Wanderungssaldo nach Alter",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.6019",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-9",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo der aus dem Ausland zu- bzw. weggezogenen Personen fällt für alle Fünfjahresklassen zwischen 0 und 59 Jahren positiv aus. In den Altersgruppen der 60-Jährigen und Älteren übersteigt hingegen die Zahl der Weggezogenen jene der Zugezogenen.",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_009",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_009",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6019,
-		"chart-id": 6019,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-15T04:10:15",
 		"id": 6019
 	},
 	{
+		"template": "template001",
+		"data-id": 6021,
+		"chart-id": 6021,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6770"
+			6770
 		],
-		"template": "template001",
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "",
-		"kuerzelKunde": "2-11",
-		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "2021 kamen 28% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (75%), Riehen (55%) und Hirzbrunnen (37%) besonders hoch. Personen aus den Vereinigten Staaten von Amerika ziehen überproportional häufig in die Altstadt Kleinbasel (15%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-27T09:08:09.099",
+		"description": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06021",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-11",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Jahr 2020 kamen 28% aller Neuzuzügerinnen und Neuzuzüger, die sich in Basel-Stadt niederliessen, aus Deutschland. In der Gemeinde Bettingen ist deren Anteil mit 75% deutlich höher. Ebenfalls überdurchschnittlich hoch ist der Anteil der Personen, die zuvor in Deutschland gelebt haben, im Wohnviertel Hirzbrunnen (45%) sowie in der Gemeinde Riehen (46%). Die Quartiere Bruderholz, Clara, Wettstein und Kleinhüningen sind im Vergleich zum Gesamtkanton überproportional häufig erstes baselstädtisches Domizil für Zugewanderte aus dem Vereinigten Königreich. In den Wohnvierteln Breite, Bruderholz und Kleinhüningen lassen sich Personen aus Frankreich im Vergleich zum Gesamtkanton besonders oft nieder, in den Wohnvierteln Bachletten, Iselin, Klybeck und Kleinhüningen Neuzuziehende aus Italien. Die Quartiere Bruderholz, Altstadt Kleinbasel und Wettstein verzeichnen im Vergleich zum Gesamtkanton hohe Anteile von Personen aus den Vereinigten Staaten von Amerika.",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_011",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_011",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6021,
-		"chart-id": 6021,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-15T04:10:14",
 		"id": 6021
 	},
 	{
@@ -405,44 +401,42 @@ var indikatorensetData = [
 		"id": 6023
 	},
 	{
+		"template": "line001",
+		"data-id": 6024,
+		"chart-id": 6024,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6773"
+			6773
 		],
-		"template": "line001",
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (2011 = 100)",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.6024",
-		"kuerzelKunde": "2-5",
-		"description": "Entwicklung der aus dem Ausland Zugezogenen",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (2012 = 100)",
+		"lesehilfe": "Frankreich weist 2021 im Vergleich zu 2012 den stärksten Zuwachs an Zugezogenen auf (+19%). Die Zuwanderung aus den USA hat am stärksten abgenommen (-29%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-02T09:03:14.1414",
+		"description": "Entwicklung der aus dem Ausland Zugezogenen",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.6024",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-5",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Index der Zuwanderung aus Italien ist 2020 gegenüber 2011 um 42% auf 142 Punkte gestiegen. Auch der Zuzug aus Frankreich hat um 30% zugenommen. Die höchsten Zuzügerzahlen aus diesen Ländern wurden 2015 resp. 2016 verbucht. Aus Deutschland kamen weniger Personen als noch 2011 (-8%), ebenso aus dem Vereinigten Königreich (-18%) und den Vereinigten Staaten von Amerika (-24%). Die Zuwanderung aus den übrigen Ländern hat gegenüber 2011 um 19% abgenommen. Die tiefsten Zuzügerzahlen aus diesen Ländern wurden 2014 (Deutschland), 2015 (Vereinigtes Königreich) und 2020 (Vereinigte Staaten; Übriges Ausland) registriert.",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_005",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_005",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6024,
-		"chart-id": 6024,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-15T04:10:15",
 		"id": 6024
 	},
 	{
