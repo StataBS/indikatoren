@@ -161,44 +161,42 @@ var indikatorensetData = [
 		"id": 6016
 	},
 	{
+		"template": "template001",
+		"data-id": 6017,
+		"chart-id": 6017,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6766"
+			6766
 		],
-		"template": "template001",
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "",
-		"kuerzelKunde": "2-7",
-		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
+		"lesehilfe": "Knapp die Hälfte (49,7%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Die Zugezogenen aus den USA und der Schweiz weisen einen leicht höheren Frauenanteil auf (51,9% und 51,6%). Mehr Männer ziehen beispielsweise aus Frankreich zu (56,9%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:43.4343",
+		"description": "Zugezogene nach Zuzugsland und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06017",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-7",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut die Hälfte (50,1%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (51,6%) auf. Bei den aus dem Vereinigten Königreich und Frankreich zugezogenen Personen sind Männer klar in der Überzahl (55,7% und 54,1%).",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6017,
-		"chart-id": 6017,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:04",
 		"id": 6017
 	},
 	{

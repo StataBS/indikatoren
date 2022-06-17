@@ -783,42 +783,40 @@ var indikatorensetData = [
 		"id": 6631
 	},
 	{
+		"template": "spider001",
+		"data-id": 6630,
+		"chart-id": 6632,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "spider001",
 		"title": "Am Ring - Quartierradar",
-		"subtitle": "Ausgabe 2021",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.02.1.6632",
-		"kuerzelKunde": "QR-03",
-		"description": "Am Ring - Quartierradar",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"subtitle": "Ausgabe 2022",
+		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
+		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:09.099",
+		"description": "Am Ring - Quartierradar",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.6632",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "QR-03",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
-		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6630,
-		"chart-id": 6632,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:47",
 		"id": 6632
 	},
 	{
@@ -2432,8 +2430,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Alban",
-		"lesehilfe": "Im  Wohnviertel St. Alban stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Franzosen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Franzosen und auch Briten deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 35,4%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im  Wohnviertel St. Alban bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Franzosen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Franzosen und Briten deutlich höher. Der Ausländeranteil beträgt im Wohnviertel 36,1%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2457,7 +2455,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:32",
+		"aktualisierungsdatum": "2022-06-17T09:56:38",
 		"id": 6938
 	},
 	{
@@ -2469,8 +2467,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Gundeldingen",
-		"lesehilfe": "Im Wohnviertel Gundeldingen stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Türken und Italienern. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Türken und auch der Personen aus den Balkanländern deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 40,0%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Gundeldingen bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher etwas geringer, der Anteil Italiener, Türken und  der Personen aus den Balkanländern deutlich höher. Der Ausländeranteil beträgt im Wohnviertel 39,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2494,7 +2492,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:32",
+		"aktualisierungsdatum": "2022-06-17T09:56:40",
 		"id": 6939
 	},
 	{
@@ -2506,8 +2504,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bruderholz",
-		"lesehilfe": "Im Wohnviertel Bruderholz stellen Deutsche die grösste Bevölkerungsgruppe gefolgt von den Italienern, Briten und Franzosen. Im kantonalen Vergleich wohnen überdurchschnittlich viele Schweizer im Wohnviertel, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus.<br>Der Ausländeranteil im Wohnviertel beträgt 25%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Bruderholz bilden Deutsche die grösste Bevölkerungsgruppe gefolgt von Italienern, Briten und Franzosen. Im kantonalen Vergleich wohnen überdurchschnittlich viele Schweizer im Wohnviertel, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus. Der Ausländeranteil beträgt im Wohnviertel 24,7%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2531,7 +2529,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:33",
+		"aktualisierungsdatum": "2022-06-17T09:56:42",
 		"id": 6940
 	},
 	{
@@ -2543,8 +2541,8 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bachletten",
-		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe bilden Deutsche, gefolgt von Italienern, Spaniern und Briten. Im Vergleich zum kantonalen Durchschnitt ist der Anteil der Deutschen, Briten und Franzosen höher. <br>Der Ausländeranteil im Wohnviertel beträgt 22,5% und ist damit der niedrigste im Kanton.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe bilden Deutsche, gefolgt von Italienern, Spaniern und Briten. Im Vergleich zum kantonalen Durchschnitt ist der Anteil der Deutschen, Briten und Franzosen höher. Der Ausländeranteil ist mit 22,3% der niedrigste im Kanton.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -2568,7 +2566,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:33",
+		"aktualisierungsdatum": "2022-06-17T09:56:44",
 		"id": 6941
 	},
 	{

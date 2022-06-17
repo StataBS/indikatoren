@@ -49,7 +49,7 @@ var indikatorensetData = [
 		],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2020 4 694 Einwohner. Dies sind 11,4% mehr als im Jahr 2001. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2001 und 2020 weniger stark zugenommen (+7,7%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Mit der Fertigstellung der Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen in der Folge die Einwohnerzahlen. Ende 2020 wurden in diesem neuen Stadtteil 2 952 Einwohner registriert.",
+		"lesehilfe": "Im Bezirk Messe hat die Bevölkerung seit 2002 leicht zugenommen (+6,3%). Im Gesamtkanton hat die Bevölkerungszahl etwas stärker zugenommen (+7,3%). Ein drastischer Anstieg zeigt sich im Bezirk Erlenmatt: Mit dem Bau von Wohnungen auf dem ehemaligen Areal der Deutschen Bahn stieg die Einwohnerzahl von unter 200 bis zum Jahr 2008 auf 2 955 (2021).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -74,7 +74,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:05",
+		"aktualisierungsdatum": "2022-06-17T09:56:00",
 		"id": 7665
 	},
 	{

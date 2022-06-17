@@ -22,7 +22,7 @@
   "yAxis": {
   	//"min": 0,
   	//"max": 0.5,
-  	tickInterval: 3000,
+  //	tickInterval: 3000,
     "labels": {
       "format": "{value:,.0f}" ,
         style: { 
@@ -50,6 +50,7 @@
   },  
   "chart": {  
   	marginLeft: 200,
+    marginRight: 30,
   	"height": 650,        
     "type": "column",
     "inverted": true

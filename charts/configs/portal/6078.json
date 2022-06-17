@@ -2,6 +2,7 @@
   "series": [
     {
       "color": "#b00000",
+      "legendIndex": 1,
       "data": [
         [
           2001,
@@ -88,6 +89,7 @@
     },
     {
       "color": "#672773",
+      "legendIndex": 4,
       "data": [
         [
           2001,
@@ -174,6 +176,7 @@
     },
     {
       "color": "#007a2f",
+      "legendIndex": 7,
       "data": [
         [
           2001,
@@ -260,6 +263,7 @@
     },
     {
       "color": "#fabd24",
+      "legendIndex": 10,
       "data": [
         [
           2001,
@@ -346,6 +350,7 @@
     },
     {
       "color": "#b475ab",
+      "legendIndex": 3,
       "data": [
         [
           2001,
@@ -432,6 +437,7 @@
     },
     {
       "color": "#71a3b5",
+      "legendIndex": 2,
       "data": [
         [
           2001,
@@ -518,6 +524,7 @@
     },
     {
       "color": "#b9cfd7",
+      "legendIndex": 5,
       "data": [
         [
           2001,
@@ -604,6 +611,7 @@
     },
     {
       "color": "#ff8028",
+      "legendIndex": 6,
       "data": [
         [
           2001,
@@ -690,6 +698,7 @@
     },
     {
       "color": "#73ba7c",
+      "legendIndex": 8,
       "data": [
         [
           2001,
@@ -776,6 +785,7 @@
     },
     {
       "color": "#9f7c5a",
+      "legendIndex": 11,
       "data": [
         [
           2001,
@@ -862,6 +872,7 @@
     },
     {
       "color": "#999999",
+      "legendIndex": 9,
       "data": [
         [
           2001,
@@ -1054,10 +1065,14 @@
     "align": "left",
     "symbolRadius": 0,
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
     },
-    "itemMarginBottom": 5,
-    "itemDistance": 5
+    "y": -10,
+    "itemMarginBottom": 3,
+    "itemDistance": 5,
+    "itemWidth": 140
   },
   "credits": {
     "enabled": true,
@@ -1072,7 +1087,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-11-8"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

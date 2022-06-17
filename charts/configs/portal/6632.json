@@ -214,7 +214,7 @@
       "fontFamily": "Arial",
       "color": "#000000"
     },
-    "text": "Ausgabe 2021",
+    "text": "Ausgabe 2022",
     "align": "left"
   },
   "yAxis": {
@@ -259,7 +259,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2021"
+    "text": "Quelle: Statistisches Amt Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "legend": {
     "enabled": false,

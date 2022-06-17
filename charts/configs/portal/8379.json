@@ -8,10 +8,6 @@
       "color": "#8b2223",
       "data": [
         [
-          2011,
-          57.2
-        ],
-        [
           2012,
           57
         ],
@@ -46,6 +42,10 @@
         [
           2020,
           56.5
+        ],
+        [
+          2021,
+          57.2
         ]
       ],
       "name": "Abhängigkeitsquotient"
@@ -167,7 +167,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-6-7"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {
