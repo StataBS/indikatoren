@@ -1844,44 +1844,42 @@ var indikatorensetData = [
 		"id": 6463
 	},
 	{
+		"template": "template001",
+		"data-id": 6464,
+		"chart-id": 6464,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7050"
+			7050
 		],
-		"template": "template001",
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6464",
-		"kuerzelKunde": "2-06",
-		"description": "Löhne nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2020 mit einem monatlichen Bruttolohn von 11 785 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 638 Franken brutto bezahlt. Er beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 789 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:08.088",
+		"description": "Löhne nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6464",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "2-06",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2018 mit einem monatlichen Bruttolohn von 11 133 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 285 Franken brutto bezahlt. Er beträgt damit weniger als zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 714 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "01_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6464,
-		"chart-id": 6464,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:02",
 		"id": 6464
 	},
 	{
@@ -2041,85 +2039,81 @@ var indikatorensetData = [
 		"id": 6521
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7055"
-		],
 		"template": "template001",
-		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
-		"subtitle": "in Franken",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6522",
-		"kuerzelKunde": "3.5-01",
-		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:09.099",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2018 bei 6 714 Franken pro Monat und hat sich damit im Vergleich zu 2016 kaum verändert (+0,2%). Er liegt  weiterhin höher als im Landesdurchschnitt, aber tiefer als im Kanton Zürich. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 4,1%, in der Gesamtschweiz um 5,1%.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_05_00_00_00_501",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6522,
 		"chart-id": 6522,
 		"filter": "",
-		"id": 6522
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7056"
+			7055
 		],
-		"template": "template001",
-		"title": "Medianlohn nach Geschlecht",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6523",
-		"kuerzelKunde": "3.5-02",
-		"description": "Medianlohn nach Geschlecht",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
+		"subtitle": "in Franken",
+		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2020 bei 6 789 Franken pro Monat und ist damit im Vergleich zu 2018 um 1,1% gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (6 665 Franken), aber tiefer als im Kanton Zürich (7 113 Franken). Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 5,3%, in der Gesamtschweiz um 7,2%.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:10.1010",
+		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6522",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-01",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2018 bei 7 038 Franken brutto pro Monat. Die Frauen verdienen 2018 mit einem Medianlohn von 6 251 Franken 11,2% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,89 im Jahr 2018 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "02_05_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_05_00_00_00_502",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:06",
+		"id": 6522
+	},
+	{
+		"template": "template001",
 		"data-id": 6523,
 		"chart-id": 6523,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7056
+		],
+		"title": "Medianlohn nach Geschlecht",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2020 knapp unter 6 400 Franken brutto pro Monat. Die Männer verdienen 2020 mit einem Medianlohn von 7 050 Franken 10,2% mehr als die Frauen. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,91 im Jahr 2020 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn nach Geschlecht",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6523",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-02",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_502",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:09",
 		"id": 6523
 	},
 	{
@@ -2164,208 +2158,198 @@ var indikatorensetData = [
 		"id": 6524
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7058"
-		],
 		"template": "line001",
-		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"subtitle": "in Franken, Nordwestschweiz, 2018",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6525",
-		"kuerzelKunde": "3.5-04",
-		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-03-23T08:42:16.1616",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn 2018 bei 6 492 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 934 Franken) und die Schweizer (6 664 Franken), während die Niedergelassenen und die Aufenthalter rund 6 000 Franken verdienen. Die Angaben für die Kurzaufenthalter sind statistisch unsicher.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_05_00_00_00_504",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6525,
 		"chart-id": 6525,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7058
+		],
+		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"subtitle": "in Franken, Nordwestschweiz, 2020",
+		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor. Hier liegt der Bruttomedianlohn 2020 bei 6 575 Franken pro Monat. Höhere Löhne verdienen Grenzgänger (6 798 Franken) und Schweizer (6 733 Franken), während die Löhne von Niedergelassenen (C) und Aufenthaltern (B) unter dem Durchschnitt liegen. Am tiefsten sind die Löhne von Kurzaufenthaltern (L).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6525",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-04",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_504",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:11",
 		"id": 6525
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7059"
-		],
 		"template": "template001",
-		"title": "Medianlohn in Industrie und Baugewerbe",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6526",
-		"kuerzelKunde": "3.5-05",
-		"description": "Medianlohn in Industrie und Baugewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:12.1212",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2018 bei 7 383 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 133 Franken). In der Bauwirtschaft ist der Medianlohn 2018 auf 6 366 Franken gestiegen.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_05_00_00_00_505",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6526,
 		"chart-id": 6526,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7059
+		],
+		"title": "Medianlohn in Industrie und Baugewerbe",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2020 bei 7 540 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 785 Franken). In der Bauwirtschaft ist der Medianlohn 2020 auf 6 213 Franken leicht gesunken.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in Industrie und Baugewerbe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6526",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-05",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_505",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:13",
 		"id": 6526
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7060"
-		],
 		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (I)",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6527",
-		"kuerzelKunde": "3.5-06",
-		"description": "Medianlohn im Dienstleistungssektor (I)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn in den dargestellten Branchen hat sich 2018 gegenüber 2016 verringert. Er liegt in der Branche Handel und Reparatur bei 5 752 Franken (-1,0%) und im Bereich Verkehr und Lagerei bei 5 549 Franken (-5,1%). Auch der ohnehin vergleichsweise tiefe Medianlohn im Gastgewerbe ist um 5,1% auf 4 285 Franken zurückgegangen. In der Branche Information und Kommunikation beträgt der Medianwert 8 323 Franken (-0,2%) monatlich.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_05_00_00_00_506",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6527,
 		"chart-id": 6527,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7060
+		],
+		"title": "Medianlohn im Dienstleistungssektor (I)",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "2020 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 638 Franken weiterhin am tiefsten. In der Branche Handel und Reparatur (5 821 Franken) sowie im Bereich Verkehr und Lagerei (5 623 Franken) liegt der Medianlohn unter 6 000 Franken. In der Branche Information und Kommunikation beträgt er 8 719 Franken monatlich.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn im Dienstleistungssektor (I)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6527",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-06",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_506",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:15",
 		"id": 6527
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7061"
-		],
 		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (II)",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6528",
-		"kuerzelKunde": "3.5-07",
-		"description": "Medianlohn im Dienstleistungssektor (II)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn 2018 ist in den Finanz- und Versicherungsdienstleistungen auf 9 039 Franken gestiegen. Im Bereich Beratung, Planung und Forschung beträgt er 7 945 Franken. Unterhalb von 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen (5 349 Franken) sowie in der Personalvermittlung und -überlassung (5 868 Franken).",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "02_05_00_00_00_507",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6528,
 		"chart-id": 6528,
 		"filter": "",
-		"id": 6528
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7062"
+			7061
 		],
-		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (III)",
+		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6529",
-		"kuerzelKunde": "3.5-08",
-		"description": "Medianlohn im Dienstleistungssektor (III)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"lesehilfe": "Der Bruttomedianlohn 2020 liegt im Bereich Finanz- und Versicherungsdienst-leistungen bei 9 066 Franken. Im Bereich Beratung, Planung und Forschung ist er auf 8 166 Franken gestiegen. Bei rund 5 600 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:14.1414",
+		"description": "Medianlohn im Dienstleistungssektor (II)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6528",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-07",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn liegt 2018 bei 7 866 Franken in der öffentlichen Verwaltung und bei 9 020 Franken im Bereich Erziehung und Unterricht. 6 377 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt derjenige im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 263 Franken).",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "02_05_00_00_00_507",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_05_00_00_00_508",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:17",
+		"id": 6528
+	},
+	{
+		"template": "template001",
 		"data-id": 6529,
 		"chart-id": 6529,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7062
+		],
+		"title": "Medianlohn im Dienstleistungssektor (III)",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Bruttomedianlohn liegt 2020 im Bereich Erziehung und Unterricht bei rund 8 800 Franken und in der öffentlichen Verwaltung bei rund 7 900 Franken. 6 470 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 306 Franken).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn im Dienstleistungssektor (III)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6529",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-08",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_508",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:19",
 		"id": 6529
 	},
 	{

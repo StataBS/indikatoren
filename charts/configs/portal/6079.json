@@ -5,47 +5,47 @@
       "data": [
         [
           "Schweiz",
-          -11.7
+          -12
         ],
         [
           "Deutschland",
-          -2.3
+          -1.7
         ],
         [
           "Italien",
-          -12.3
+          -11.2
         ],
         [
           "Türkei",
-          -5.2
+          -7
         ],
         [
           "EU-West + EFTA + UK",
-          -2.6
+          -2.2
         ],
         [
           "EU-Ost",
-          -8.6
+          -8.9
         ],
         [
           "Balkan",
-          -7.9
+          -8.6
         ],
         [
           "Mittel- und Südamerika",
-          -3.1
+          -2.7
         ],
         [
           "Arabische Länder",
-          -0.1
+          2.5
         ],
         [
           "Afrikanische Länder",
-          2.2
+          -0.1
         ],
         [
           "Übrige Länder",
-          -0.5
+          0.2
         ]
       ],
       "turboThreshold": 0
@@ -130,7 +130,7 @@
     "text": "Veränderung des Segregationsindex"
   },
   "subtitle": {
-    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2020 gegenüber 2001",
+    "text": "nach Staatsangehörigkeit, Basel-Stadt, 2021 gegenüber 2002",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -188,7 +188,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-4-20"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "colors": [
     "#b00000",

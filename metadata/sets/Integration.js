@@ -275,167 +275,159 @@ var indikatorensetData = [
 		"id": 6063
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6649"
-		],
 		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2001",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6064",
-		"kuerzelKunde": "A2-4",
-		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-08T08:04:05.055",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist 2001 eher klein. Bei den älteren Personen gibt es deutlich mehr Frauen als Männer.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_204",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6064,
 		"chart-id": 6064,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6649
+		],
+		"title": "Alterspyramide der Schweizerinnen und Schweizer",
+		"subtitle": "Basel-Stadt, 2002",
+		"lesehilfe": "Bei den älteren Personen gibt es 2002 deutlich mehr Frauen als Männer. Der Anteil der Kinder und Jugendlichen bis 19 Jahre ist kleiner als bei der ausländischen Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alterspyramide der Schweizerinnen und Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6064",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-4",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_204",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:21",
 		"id": 6064
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6650"
-		],
 		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2001",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6065",
-		"kuerzelKunde": "A2-6",
-		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-14T08:16:23.2323",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grössten Altersgruppen sind 2001 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen der 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_206",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6065,
 		"chart-id": 6065,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6650
+		],
+		"title": "Alterspyramide der Ausländerinnen und Ausländer",
+		"subtitle": "Basel-Stadt, 2002",
+		"lesehilfe": "Die grössten Altersgruppen sind 2002 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen die 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6065",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-6",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_206",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:25",
 		"id": 6065
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6651"
-		],
 		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6066",
-		"kuerzelKunde": "A2-5",
-		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-08T08:04:06.066",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2001 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"orderKey": "01_00_00_00_00_205",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6066,
 		"chart-id": 6066,
 		"filter": "",
-		"id": 6066
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6652"
+			6651
 		],
-		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6067",
-		"kuerzelKunde": "A2-7",
-		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"title": "Alterspyramide der Schweizerinnen und Schweizer",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Bei den älteren Personen gibt es 2021 deutlich mehr Frauen als Männer. Die beiden grössten Fünfjahresklassen bilden sowohl bei den Männern als auch bei den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:24.2424",
+		"description": "Alterspyramide der Schweizerinnen und Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6066",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-5",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei Männern und Frauen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"orderKey": "01_00_00_00_00_205",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_207",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:23",
+		"id": 6066
+	},
+	{
+		"template": "populationPyramid001",
 		"data-id": 6067,
 		"chart-id": 6067,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6652
+		],
+		"title": "Alterspyramide der Ausländerinnen und Ausländer",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Bei Männern und Frauen bilden 2021 die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen innerhalb der ausländischen Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6067",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-7",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_207",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:28",
 		"id": 6067
 	},
 	{
@@ -517,44 +509,42 @@ var indikatorensetData = [
 		"id": 6069
 	},
 	{
+		"template": "line001",
+		"data-id": 6070,
+		"chart-id": 6070,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6655"
+			6655
 		],
-		"template": "line001",
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6070",
-		"kuerzelKunde": "A2-8",
-		"description": "Ausländeranteil nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "2021 ist der Anteil der ausländischen Staatsangehörigen bei den 40- und 41-Jährigen mit je 55% am höchsten. 2011 wurden die höchsten Ausländeranteile bei den 33-Jährigen (57,2%) erreicht. 2001 lag das Maximum bei den 4-Jährigen (45,9%), während im Altersbereich der erwerbstätigen Bevölkerung der höchste Wert bei den 27-Jährigen lag (43,9%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:24.2424",
+		"description": "Ausländeranteil nach Alter",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6070",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-8",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2000 war der Anteil der Ausländerinnen und Ausländer am Total der Altersgruppe bei unter 6-jährigen Kindern sowie den 25- bis 29-jährigen jungen Erwachsenen am höchsten. In diesen Altersgruppen waren jeweils mehr als 40% der Personen ausländische Staatsangehörige. 2010 wurden die höchsten Ausländeranteile später, nämlich bei den 29- bis 38-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2020 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 31- bis 46-Jährigen (>50% Ausländerinnen und Ausländer am Total der Altersgruppe).",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_208",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_208",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6070,
-		"chart-id": 6070,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:30",
 		"id": 6070
 	},
 	{
@@ -846,7 +836,7 @@ var indikatorensetData = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wiesen Personen aus dem Balkan (31,5), der Türkei (28,2), afrikanischen (24,9) und arabischen Ländern (21,3) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2020 für die Deutschen (7,9). Der Segregationsindex der Schweizer lag im Jahr 2020 bei 16,2.",
+		"lesehilfe": "2021 weisen Personen aus dem Balkan (31,3) und der Türkei (27,4) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -871,48 +861,46 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-08T08:04:18",
+		"aktualisierungsdatum": "2022-06-17T09:56:32",
 		"id": 6078
 	},
 	{
+		"template": "template001",
+		"data-id": 6079,
+		"chart-id": 6079,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6664"
+			6664
 		],
-		"template": "template001",
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020 gegenüber 2001",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6079",
-		"kuerzelKunde": "A5-2",
-		"description": "Veränderung des Segregationsindex",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021 gegenüber 2002",
+		"lesehilfe": "Zwischen 2002 und 2021 sind die Segregationsindices fast aller Gruppen gesunken, d. h., diese Gruppen sind 2021 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer (-12,0 Punkte) und italienischen Staatsangehörigen (-11,2 Punkte).",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:40.4040",
+		"description": "Veränderung des Segregationsindex",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6079",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A5-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2001 und 2020 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2020 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den italienischen Staatsangehörigen (-12,3 Punkte) und den Schweizerinnen und Schweizern (-11,7 Punkte). Bei den Personen aus afrikanischen Ländern ist der Segregationsindex um 2,2 Punkte gestiegen.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"orderKey": "01_00_00_00_00_502",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_502",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6079,
-		"chart-id": 6079,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:34",
 		"id": 6079
 	},
 	{

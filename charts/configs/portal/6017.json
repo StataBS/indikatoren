@@ -9,35 +9,35 @@
       "data": [
         [
           "Schweiz",
-          51.64
+          51.2
         ],
         [
           "Deutschland",
-          49.36
+          48
         ],
         [
-          "UK",
-          44.35
+          "Spanien",
+          46.5
         ],
         [
           "Frankreich",
-          45.92
+          43.1
         ],
         [
           "Italien",
-          48.79
+          44.4
         ],
         [
           "USA",
-          49.38
+          51.9
         ],
         [
           "Übriges Ausland",
-          49.37
+          49.6
         ],
         [
           "Total",
-          50.13
+          49.7
         ]
       ],
       "name": "Frauen",
@@ -52,35 +52,35 @@
       "data": [
         [
           "Schweiz",
-          48.36
+          48.8
         ],
         [
           "Deutschland",
-          50.64
+          52
         ],
         [
-          "UK",
-          55.65
+          "Spanien",
+          53.5
         ],
         [
           "Frankreich",
-          54.08
+          56.9
         ],
         [
           "Italien",
-          51.21
+          55.6
         ],
         [
           "USA",
-          50.62
+          48.1
         ],
         [
           "Übriges Ausland",
-          50.63
+          50.4
         ],
         [
           "Total",
-          49.87
+          50.3
         ]
       ],
       "name": "Männer",
@@ -163,7 +163,7 @@
     "text": "Zugezogene nach Zuzugsland und Geschlecht"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2020",
+    "text": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -221,7 +221,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 17.6.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{point.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}%\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",

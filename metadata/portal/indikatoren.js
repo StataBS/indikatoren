@@ -11608,45 +11608,43 @@ var indikatoren = [
 		"id": 6016
 	},
 	{
+		"template": "template001",
+		"data-id": 6017,
+		"chart-id": 6017,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6766"
+			6766
 		],
-		"template": "template001",
 		"title": "Zugezogene nach Zuzugsland und Geschlecht",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "",
-		"kuerzelKunde": "2-7",
-		"description": "Zugezogene nach Zuzugsland und Geschlecht",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
+		"lesehilfe": "Knapp die Hälfte (49,7%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Die Zugezogenen aus den USA und der Schweiz weisen einen leicht höheren Frauenanteil auf (51,9% und 51,6%). Mehr Männer ziehen beispielsweise aus Frankreich zu (56,9%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:43.4343",
+		"description": "Zugezogene nach Zuzugsland und Geschlecht",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06017",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-7",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Gut die Hälfte (50,1%) aller nach Basel-Stadt zugezogenen Personen sind Frauen. Einen leicht höheren Frauenanteil weisen die Zugezogenen aus der Schweiz (51,6%) auf. Bei den aus dem Vereinigten Königreich und Frankreich zugezogenen Personen sind Männer klar in der Überzahl (55,7% und 54,1%).",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_007",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_007",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6017,
-		"chart-id": 6017,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:04",
 		"id": 6017
 	},
 	{
@@ -12797,129 +12795,123 @@ var indikatoren = [
 		"id": 6063
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6650"
-		],
 		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2001",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6065",
-		"kuerzelKunde": "A2-6",
-		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-14T08:16:23.2323",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die grössten Altersgruppen sind 2001 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen der 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_206",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6065,
 		"chart-id": 6065,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6650
+		],
+		"title": "Alterspyramide der Ausländerinnen und Ausländer",
+		"subtitle": "Basel-Stadt, 2002",
+		"lesehilfe": "Die grössten Altersgruppen sind 2002 bei den Männern diejenigen der 35- bis 39-Jährigen und bei den Frauen diejenigen die 30- bis 34-Jährigen. Die älteren Altersklassen sind deutlich schwächer besetzt als bei der Schweizer Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6065",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-6",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_206",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:25",
 		"id": 6065
 	},
 	{
-		"parentId": null,
-		"children": [
-			"6651"
-		],
 		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6066",
-		"kuerzelKunde": "A2-5",
-		"description": "Bevölkerungspyramide der Schweizerinnen und Schweizer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
-		"raeumlicheGliederung": [
-			"Kanton"
-		],
-		"aktualisierungsdatum": "2021-04-08T08:04:06.066",
-		"stufe1": "Kapitel A Bevölkerungsstruktur",
-		"stufe2": "",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist eher schmal, der Anteil der Kinder und Jugendlichen bis 19 Jahre ist eher klein. Im Vergleich zum Jahr 2001 hat er jedoch leicht zugenommen. <br>Bei den Männern verschmälert sich die Pyramide nach oben früher als bei den Frauen. Es gibt mehr ältere Frauen als ältere Männer. Die beiden grössten Fünfjahresklassen bilden bei den Männern wie den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_205",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6066,
 		"chart-id": 6066,
 		"filter": "",
-		"id": 6066
-	},
-	{
 		"parentId": null,
 		"children": [
-			"6652"
+			6651
 		],
-		"template": "populationPyramid001",
-		"title": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6067",
-		"kuerzelKunde": "A2-7",
-		"description": "Bevölkerungspyramide der Ausländerinnen und Ausländer",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"title": "Alterspyramide der Schweizerinnen und Schweizer",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Bei den älteren Personen gibt es 2021 deutlich mehr Frauen als Männer. Die beiden grössten Fünfjahresklassen bilden sowohl bei den Männern als auch bei den Frauen die 25- bis 29-Jährigen und die 55- bis 59-Jährigen.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten Schweizer Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:24.2424",
+		"description": "Alterspyramide der Schweizerinnen und Schweizer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6066",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-5",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Basis dieser Pyramide ist breiter als jene der Schweizerinnen und Schweizer, der Anteil der Kinder und Jugendlichen an der Bevölkerung ist höher. Bei Männern und Frauen bilden die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen.",
-		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"orderKey": "01_00_00_00_00_205",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_207",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:23",
+		"id": 6066
+	},
+	{
+		"template": "populationPyramid001",
 		"data-id": 6067,
 		"chart-id": 6067,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			6652
+		],
+		"title": "Alterspyramide der Ausländerinnen und Ausländer",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Bei Männern und Frauen bilden 2021 die 30- bis 34-Jährigen und die 35- bis 39-Jährigen die grössten Altersgruppen innerhalb der ausländischen Bevölkerung.",
+		"erlaeuterungen": "Anteil der Fünfjahresklasse des jeweiligen Geschlechts an der gesamten ausländischen Bevölkerung.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Kanton"
+		],
+		"description": "Alterspyramide der Ausländerinnen und Ausländer",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6067",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-7",
+		"stufe1": "Kapitel A Bevölkerungsstruktur",
+		"stufe2": "",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "01_00_00_00_00_207",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:28",
 		"id": 6067
 	},
 	{
@@ -13003,45 +12995,43 @@ var indikatoren = [
 		"id": 6069
 	},
 	{
+		"template": "line001",
+		"data-id": 6070,
+		"chart-id": 6070,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6655"
+			6655
 		],
-		"template": "line001",
 		"title": "Ausländeranteil nach Alter",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6070",
-		"kuerzelKunde": "A2-8",
-		"description": "Ausländeranteil nach Alter",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "2021 ist der Anteil der ausländischen Staatsangehörigen bei den 40- und 41-Jährigen mit je 55% am höchsten. 2011 wurden die höchsten Ausländeranteile bei den 33-Jährigen (57,2%) erreicht. 2001 lag das Maximum bei den 4-Jährigen (45,9%), während im Altersbereich der erwerbstätigen Bevölkerung der höchste Wert bei den 27-Jährigen lag (43,9%).",
+		"erlaeuterungen": "",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-14T08:16:24.2424",
+		"description": "Ausländeranteil nach Alter",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6070",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A2-8",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2000 war der Anteil der Ausländerinnen und Ausländer am Total der Altersgruppe bei unter 6-jährigen Kindern sowie den 25- bis 29-jährigen jungen Erwachsenen am höchsten. In diesen Altersgruppen waren jeweils mehr als 40% der Personen ausländische Staatsangehörige. 2010 wurden die höchsten Ausländeranteile später, nämlich bei den 29- bis 38-Jährigen erreicht, wo jeweils mehr als 50% der Personen einen ausländischen Pass besassen. Bis 2020 akzentuierte sich diese Entwicklung, am höchsten waren die Ausländeranteile nun bei den 31- bis 46-Jährigen (>50% Ausländerinnen und Ausländer am Total der Altersgruppe).",
-		"erlaeuterungen": "",
+		"orderKey": "01_00_00_00_00_208",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_208",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6070,
-		"chart-id": 6070,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:30",
 		"id": 6070
 	},
 	{
@@ -13340,7 +13330,7 @@ var indikatoren = [
 		],
 		"title": "Segregationsindex nach Staatsangehörigkeit",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "2020 wiesen Personen aus dem Balkan (31,5), der Türkei (28,2), afrikanischen (24,9) und arabischen Ländern (21,3) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese vier Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert waren. Der niedrigste Index ergab sich 2020 für die Deutschen (7,9). Der Segregationsindex der Schweizer lag im Jahr 2020 bei 16,2.",
+		"lesehilfe": "2021 weisen Personen aus dem Balkan (31,3) und der Türkei (27,4) die höchsten Segregationsindices auf. Die hohen Werte bedeuten, dass diese Bevölkerungsgruppen im Kanton Basel-Stadt am stärksten auf einzelne Gemeinden und Wohnviertel konzentriert sind.",
 		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -13366,49 +13356,47 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-11-08T08:04:18",
+		"aktualisierungsdatum": "2022-06-17T09:56:32",
 		"id": 6078
 	},
 	{
+		"template": "template001",
+		"data-id": 6079,
+		"chart-id": 6079,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6664"
+			6664
 		],
-		"template": "template001",
 		"title": "Veränderung des Segregationsindex",
-		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2020 gegenüber 2001",
-		"kennzahlenset": "Integration",
-		"kuerzel": "I.01.1.6079",
-		"kuerzelKunde": "A5-2",
-		"description": "Veränderung des Segregationsindex",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"subtitle": "nach Staatsangehörigkeit, Basel-Stadt, 2021 gegenüber 2002",
+		"lesehilfe": "Zwischen 2002 und 2021 sind die Segregationsindices fast aller Gruppen gesunken, d. h., diese Gruppen sind 2021 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei Schweizer (-12,0 Punkte) und italienischen Staatsangehörigen (-11,2 Punkte).",
+		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-04-20T15:07:40.4040",
+		"description": "Veränderung des Segregationsindex",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.6079",
+		"kennzahlenset": "Integration",
+		"kuerzelKunde": "A5-2",
 		"stufe1": "Kapitel A Bevölkerungsstruktur",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Zwischen 2001 und 2020 sind die Segregationsindices fast aller Gruppen gesunken, d. h. sie sind 2020 gleichmässiger über das Kantonsgebiet verteilt. Am stärksten war der Rückgang bei den italienischen Staatsangehörigen (-12,3 Punkte) und den Schweizerinnen und Schweizern (-11,7 Punkte). Bei den Personen aus afrikanischen Ländern ist der Segregationsindex um 2,2 Punkte gestiegen.",
-		"erlaeuterungen": "Der Segregationsindex ist ein Mass zur Beschreibung räumlicher Ungleichverteilungen von Bevölkerungsgruppen. Er misst hier, wie stark die Verteilung einer Bevölkerungsgruppe über das Kantonsgebiet von einer Gleichverteilung abweicht, wobei 0 absolute Gleichverteilung und 100 maximale Segregation bedeutet. Der Wert des Segregationsindexes lässt sich auch als Prozentanteil der betrachteten Gruppe interpretieren, der in ein anderes Quartier umziehen müsste, um gleich über das Kantonsgebiet verteilt zu sein wie die übrige Bevölkerung. Ein Segregationsindex von 0 bedeutet, dass der Anteil Personen einer Gruppe am Total der Bevölkerung in jedem Teilgebiet gleich gross ist.",
+		"orderKey": "01_00_00_00_00_502",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_502",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6079,
-		"chart-id": 6079,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:34",
 		"id": 6079
 	},
 	{
@@ -18954,45 +18942,43 @@ var indikatoren = [
 		"id": 6463
 	},
 	{
+		"template": "template001",
+		"data-id": 6464,
+		"chart-id": 6464,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"7050"
+			7050
 		],
-		"template": "template001",
 		"title": "Löhne nach Branche",
 		"subtitle": "Nordwestschweiz, Median in Franken",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6464",
-		"kuerzelKunde": "2-06",
-		"description": "Löhne nach Branche",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2020 mit einem monatlichen Bruttolohn von 11 785 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 638 Franken brutto bezahlt. Er beträgt damit rund zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 789 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:08.088",
+		"description": "Löhne nach Branche",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6464",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "2-06",
 		"stufe1": "2 Der Basler Arbeitsmarkt in der Übersicht",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Medianlohn auf dem Arbeitsmarkt der Nordwestschweiz wird im Jahr 2018 mit einem monatlichen Bruttolohn von 11 133 Franken in der Pharmazeutischen Industrie bezahlt. Der tiefste Medianlohn wird im Gastgewerbe mit 4 285 Franken brutto bezahlt. Er beträgt damit weniger als zwei Drittel des Medianlohns über alle Branchen der Nordwestschweiz von 6 714 Franken. In keinem anderen Branchenaggregat liegt der Medianlohn unter 5 000 Franken. Unter 6 000 Franken liegen die Medianlöhne der Branchen Handel und Reparatur, Verkehr und Lagerei, Gebäudebetreuung und Sicherheit sowie Personalvermittlung und -überlassung.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "01_00_00_00_00_401",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_401",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6464,
-		"chart-id": 6464,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:02",
 		"id": 6464
 	},
 	{
@@ -20816,87 +20802,83 @@ var indikatoren = [
 		"id": 6521
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7055"
-		],
 		"template": "template001",
-		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
-		"subtitle": "in Franken",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6522",
-		"kuerzelKunde": "3.5-01",
-		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:09.099",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2018 bei 6 714 Franken pro Monat und hat sich damit im Vergleich zu 2016 kaum verändert (+0,2%). Er liegt  weiterhin höher als im Landesdurchschnitt, aber tiefer als im Kanton Zürich. Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 4,1%, in der Gesamtschweiz um 5,1%.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_501",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6522,
 		"chart-id": 6522,
 		"filter": "",
-		"id": 6522
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7056"
+			7055
 		],
-		"template": "template001",
-		"title": "Medianlohn nach Geschlecht",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6523",
-		"kuerzelKunde": "3.5-02",
-		"description": "Medianlohn nach Geschlecht",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"title": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
+		"subtitle": "in Franken",
+		"lesehilfe": "Laut Lohnstrukturerhebung (LSE) liegt der Bruttomedianlohn in der Nordwestschweiz im Jahr 2020 bei 6 789 Franken pro Monat und ist damit im Vergleich zu 2018 um 1,1% gestiegen. Er liegt weiterhin über dem Landesdurchschnitt (6 665 Franken), aber tiefer als im Kanton Zürich (7 113 Franken). Im Vergleich zu 2010 stieg der Medianlohn in der Nordwestschweiz um 5,3%, in der Gesamtschweiz um 7,2%.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:10.1010",
+		"description": "Medianlohn in der Schweiz, der Nordwestschweiz und im Kanton Zürich",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6522",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-01",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Medianlohn der Männer in der Nordwestschweiz liegt 2018 bei 7 038 Franken brutto pro Monat. Die Frauen verdienen 2018 mit einem Medianlohn von 6 251 Franken 11,2% weniger als die Männer. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,89 im Jahr 2018 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "02_05_00_00_00_501",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_502",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:06",
+		"id": 6522
+	},
+	{
+		"template": "template001",
 		"data-id": 6523,
 		"chart-id": 6523,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7056
+		],
+		"title": "Medianlohn nach Geschlecht",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Medianlohn der Frauen liegt in der Nordwestschweiz 2020 knapp unter 6 400 Franken brutto pro Monat. Die Männer verdienen 2020 mit einem Medianlohn von 7 050 Franken 10,2% mehr als die Frauen. Das Verhältnis zwischen dem Medianlohn der Frauen und der Männer hat sich von 0,82 im Jahr 2010 auf 0,91 im Jahr 2020 erhöht, was einer Verringerung des Lohnunterschieds gleichkommt.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn nach Geschlecht",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6523",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-02",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_502",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:09",
 		"id": 6523
 	},
 	{
@@ -20942,213 +20924,203 @@ var indikatoren = [
 		"id": 6524
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7058"
-		],
 		"template": "line001",
-		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"subtitle": "in Franken, Nordwestschweiz, 2018",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6525",
-		"kuerzelKunde": "3.5-04",
-		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-03-23T08:42:16.1616",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor, wo der Bruttomedianlohn 2018 bei 6 492 Franken pro Monat liegt. Höhere Löhne verdienen die Grenzgänger (6 934 Franken) und die Schweizer (6 664 Franken), während die Niedergelassenen und die Aufenthalter rund 6 000 Franken verdienen. Die Angaben für die Kurzaufenthalter sind statistisch unsicher.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_504",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6525,
 		"chart-id": 6525,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7058
+		],
+		"title": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"subtitle": "in Franken, Nordwestschweiz, 2020",
+		"lesehilfe": "Die Ergebnisse der Lohnstrukturerhebung nach Herkunft und Aufenthaltsbewilligung liegen lediglich für die Privatwirtschaft vor. Hier liegt der Bruttomedianlohn 2020 bei 6 575 Franken pro Monat. Höhere Löhne verdienen Grenzgänger (6 798 Franken) und Schweizer (6 733 Franken), während die Löhne von Niedergelassenen (C) und Aufenthaltern (B) unter dem Durchschnitt liegen. Am tiefsten sind die Löhne von Kurzaufenthaltern (L).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in der Privatwirtschaft nach Bewilligungsart",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6525",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-04",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_504",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:11",
 		"id": 6525
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7059"
-		],
 		"template": "template001",
-		"title": "Medianlohn in Industrie und Baugewerbe",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6526",
-		"kuerzelKunde": "3.5-05",
-		"description": "Medianlohn in Industrie und Baugewerbe",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:12.1212",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2018 bei 7 383 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 133 Franken). In der Bauwirtschaft ist der Medianlohn 2018 auf 6 366 Franken gestiegen.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_505",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6526,
 		"chart-id": 6526,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7059
+		],
+		"title": "Medianlohn in Industrie und Baugewerbe",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "In der Industrie (inklusive Chemie und Pharma) liegt der Bruttomedianlohn 2020 bei 7 540 Franken. Am höchsten sind die Löhne in der Nordwestschweiz in der Pharmazeutischen Industrie (11 785 Franken). In der Bauwirtschaft ist der Medianlohn 2020 auf 6 213 Franken leicht gesunken.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn in Industrie und Baugewerbe",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6526",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-05",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_505",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:13",
 		"id": 6526
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7060"
-		],
 		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (I)",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6527",
-		"kuerzelKunde": "3.5-06",
-		"description": "Medianlohn im Dienstleistungssektor (I)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn in den dargestellten Branchen hat sich 2018 gegenüber 2016 verringert. Er liegt in der Branche Handel und Reparatur bei 5 752 Franken (-1,0%) und im Bereich Verkehr und Lagerei bei 5 549 Franken (-5,1%). Auch der ohnehin vergleichsweise tiefe Medianlohn im Gastgewerbe ist um 5,1% auf 4 285 Franken zurückgegangen. In der Branche Information und Kommunikation beträgt der Medianwert 8 323 Franken (-0,2%) monatlich.",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_506",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6527,
 		"chart-id": 6527,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7060
+		],
+		"title": "Medianlohn im Dienstleistungssektor (I)",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "2020 ist der Bruttomedianlohn in der Nordwestschweiz im Gastgewerbe mit 4 638 Franken weiterhin am tiefsten. In der Branche Handel und Reparatur (5 821 Franken) sowie im Bereich Verkehr und Lagerei (5 623 Franken) liegt der Medianlohn unter 6 000 Franken. In der Branche Information und Kommunikation beträgt er 8 719 Franken monatlich.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn im Dienstleistungssektor (I)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6527",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-06",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_506",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:15",
 		"id": 6527
 	},
 	{
-		"parentId": null,
-		"children": [
-			"7061"
-		],
 		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (II)",
-		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6528",
-		"kuerzelKunde": "3.5-07",
-		"description": "Medianlohn im Dienstleistungssektor (II)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
-		"raeumlicheGliederung": [
-			"Grossregion"
-		],
-		"aktualisierungsdatum": "2021-02-12T08:37:13.1313",
-		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
-		"stufe2": "3.5 Löhne",
-		"stufe3": "",
-		"stufe4": "",
-		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn 2018 ist in den Finanz- und Versicherungsdienstleistungen auf 9 039 Franken gestiegen. Im Bereich Beratung, Planung und Forschung beträgt er 7 945 Franken. Unterhalb von 6 000 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen (5 349 Franken) sowie in der Personalvermittlung und -überlassung (5 868 Franken).",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
-		"darstellungsart": "Diagramm",
-		"printformat": "",
-		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_507",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
-		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
 		"data-id": 6528,
 		"chart-id": 6528,
 		"filter": "",
-		"id": 6528
-	},
-	{
 		"parentId": null,
 		"children": [
-			"7062"
+			7061
 		],
-		"template": "template001",
-		"title": "Medianlohn im Dienstleistungssektor (III)",
+		"title": "Medianlohn im Dienstleistungssektor (II)",
 		"subtitle": "in Franken, Nordwestschweiz",
-		"kennzahlenset": "Arbeitsmarkt",
-		"kuerzel": "I.03.3.6529",
-		"kuerzelKunde": "3.5-08",
-		"description": "Medianlohn im Dienstleistungssektor (III)",
-		"thema": "03 Arbeit, Erwerb",
-		"unterthema": "Löhne",
+		"lesehilfe": "Der Bruttomedianlohn 2020 liegt im Bereich Finanz- und Versicherungsdienst-leistungen bei 9 066 Franken. Im Bereich Beratung, Planung und Forschung ist er auf 8 166 Franken gestiegen. Bei rund 5 600 Franken liegen die Medianlöhne im Branchenaggregat Gebäudebetreuung, Sicherheit, sonstige wirtschaftliche Dienstleistungen sowie in der Personalvermittlung und -überlassung.",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Grossregion"
 		],
-		"aktualisierungsdatum": "2021-02-12T08:37:14.1414",
+		"description": "Medianlohn im Dienstleistungssektor (II)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6528",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-07",
 		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
 		"stufe2": "3.5 Löhne",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Bruttomedianlohn liegt 2018 bei 7 866 Franken in der öffentlichen Verwaltung und bei 9 020 Franken im Bereich Erziehung und Unterricht. 6 377 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt derjenige im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 263 Franken).",
-		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"orderKey": "02_05_00_00_00_507",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "02_05_00_00_00_508",
-		"renderLink": [],
-		"quellenangabe": [
-			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
+		"aktualisierungsdatum": "2022-06-17T09:56:17",
+		"id": 6528
+	},
+	{
+		"template": "template001",
 		"data-id": 6529,
 		"chart-id": 6529,
 		"filter": "",
+		"parentId": null,
+		"children": [
+			7062
+		],
+		"title": "Medianlohn im Dienstleistungssektor (III)",
+		"subtitle": "in Franken, Nordwestschweiz",
+		"lesehilfe": "Der Bruttomedianlohn liegt 2020 im Bereich Erziehung und Unterricht bei rund 8 800 Franken und in der öffentlichen Verwaltung bei rund 7 900 Franken. 6 470 Franken beträgt der Medianlohn im Gesundheits- und Sozialwesen. Knapp darunter liegt er im Bereich Kultur, Unterhaltung und persönliche Dienstleistungen (6 306 Franken).",
+		"erlaeuterungen": "Ausgewertet wird jeweils der auf eine einheitliche Arbeitszeit (4 1/3 Wochen à 40 Stunden pro Monat) standardisierte Bruttomedianlohn: Für die Hälfte der Arbeitnehmenden liegt der standardisierte Bruttolohn über diesem Wert, für die andere Hälfte darunter.",
+		"quellenangabe": [
+			"Bundesamt für Statistik (BFS), Lohnstrukturerhebung (LSE)"
+		],
+		"externalLinks": [],
+		"renderLink": [],
+		"raeumlicheGliederung": [
+			"Grossregion"
+		],
+		"description": "Medianlohn im Dienstleistungssektor (III)",
+		"thema": "03 Arbeit, Erwerb",
+		"unterthema": "Löhne",
+		"kuerzel": "I.03.3.6529",
+		"kennzahlenset": "Arbeitsmarkt",
+		"kuerzelKunde": "3.5-08",
+		"stufe1": "3 Monitoring des Basler Arbeitsmarktes",
+		"stufe2": "3.5 Löhne",
+		"stufe3": "",
+		"stufe4": "",
+		"stufe5": "",
+		"orderKey": "02_05_00_00_00_508",
+		"darstellungsart": "Diagramm",
+		"printformat": "",
+		"visibleInPortal": true,
+		"datenInChartIntegriert": false,
+		"aktualisierungsdatum": "2022-06-17T09:56:19",
 		"id": 6529
 	},
 	{
@@ -21869,43 +21841,41 @@ var indikatoren = [
 		"id": 6631
 	},
 	{
+		"template": "spider001",
+		"data-id": 6630,
+		"chart-id": 6632,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "spider001",
 		"title": "Am Ring - Quartierradar",
-		"subtitle": "Ausgabe 2021",
-		"kennzahlenset": "Wohnviertel",
-		"kuerzel": "I.02.1.6632",
-		"kuerzelKunde": "QR-03",
-		"description": "Am Ring - Quartierradar",
-		"thema": "02 Raum, Umwelt",
-		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"subtitle": "Ausgabe 2022",
+		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
+		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:09.099",
+		"description": "Am Ring - Quartierradar",
+		"thema": "02 Raum, Umwelt",
+		"unterthema": "Räumliche Gliederung und Bodennutzung",
+		"kuerzel": "I.02.1.6632",
+		"kennzahlenset": "Wohnviertel",
+		"kuerzelKunde": "QR-03",
 		"stufe1": "Teil 1: Radar-Grafiken",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Wohnviertel Am Ring ist die Gymnasialquote relativ hoch. Die Bausubstanz zählt zu den ältesten im Kanton. Die Erwerbstätigenquote ist ebenfalls sehr hoch.",
-		"erlaeuterungen": "Die Grafik fasst 16 Indikatoren zusammen. Die Indikatoren sind den drei Bereichen <font color=\"923F8D\">Gesellschaft und Soziales</font>, <font color=\"68AB2B\">Raum und Umwelt</font> sowie <font color=\"689199\">Wirtschaft und Arbeit</font> zugeordnet. Die Werte der Indikatoren sind als Ränge im Vergleich zu allen anderen Basler Wohnvierteln und Gemeinden ausgewiesen. Das Wohnviertel oder die Gemeinde mit dem niedrigsten Wert des Indikators erhält Rang 1, mit dem höchsten Wert Rang 21 zugewiesen. Je grösser die graue Fläche, desto öfter erreicht das Wohnviertel oder die Gemeinde hohe Ränge bei den Indikatoren.",
+		"orderKey": "01_00_00_00_00_003",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_00_00_00_00_003",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6630,
-		"chart-id": 6632,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:47",
 		"id": 6632
 	},
 	{
@@ -24244,8 +24214,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel St. Alban",
-		"lesehilfe": "Im  Wohnviertel St. Alban stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Franzosen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Franzosen und auch Briten deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 35,4%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im  Wohnviertel St. Alban bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Franzosen. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Franzosen und Briten deutlich höher. Der Ausländeranteil beträgt im Wohnviertel 36,1%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -24270,7 +24240,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:32",
+		"aktualisierungsdatum": "2022-06-17T09:56:38",
 		"id": 6938
 	},
 	{
@@ -24282,8 +24252,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Gundeldingen",
-		"lesehilfe": "Im Wohnviertel Gundeldingen stellen Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Türken und Italienern. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher und Italiener etwas geringer, der Anteil Türken und auch der Personen aus den Balkanländern deutlich höher.<br>Der Ausländeranteil im Wohnviertel beträgt 40,0%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Gundeldingen bilden Deutsche die grösste ausländische Bevölkerungsgruppe, gefolgt von Italienern und Türken. Im Vergleich zum kantonalen Durchschnitt ist der Anteil Deutscher etwas geringer, der Anteil Italiener, Türken und  der Personen aus den Balkanländern deutlich höher. Der Ausländeranteil beträgt im Wohnviertel 39,6%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -24308,7 +24278,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:32",
+		"aktualisierungsdatum": "2022-06-17T09:56:40",
 		"id": 6939
 	},
 	{
@@ -24320,8 +24290,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bruderholz",
-		"lesehilfe": "Im Wohnviertel Bruderholz stellen Deutsche die grösste Bevölkerungsgruppe gefolgt von den Italienern, Briten und Franzosen. Im kantonalen Vergleich wohnen überdurchschnittlich viele Schweizer im Wohnviertel, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus.<br>Der Ausländeranteil im Wohnviertel beträgt 25%.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Im Wohnviertel Bruderholz bilden Deutsche die grösste Bevölkerungsgruppe gefolgt von Italienern, Briten und Franzosen. Im kantonalen Vergleich wohnen überdurchschnittlich viele Schweizer im Wohnviertel, die Anteile anderer Staatsangehörigkeiten fallen kleiner aus. Der Ausländeranteil beträgt im Wohnviertel 24,7%.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -24346,7 +24316,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:33",
+		"aktualisierungsdatum": "2022-06-17T09:56:42",
 		"id": 6940
 	},
 	{
@@ -24358,8 +24328,8 @@ var indikatoren = [
 		"children": [],
 		"title": "Ausländische Bevölkerung nach Staatsangehörigkeit",
 		"subtitle": "Wohnviertel Bachletten",
-		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe bilden Deutsche, gefolgt von Italienern, Spaniern und Briten. Im Vergleich zum kantonalen Durchschnitt ist der Anteil der Deutschen, Briten und Franzosen höher. <br>Der Ausländeranteil im Wohnviertel beträgt 22,5% und ist damit der niedrigste im Kanton.",
-		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2020 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
+		"lesehilfe": "Die grösste ausländische Bevölkerungsgruppe bilden Deutsche, gefolgt von Italienern, Spaniern und Briten. Im Vergleich zum kantonalen Durchschnitt ist der Anteil der Deutschen, Briten und Franzosen höher. Der Ausländeranteil ist mit 22,3% der niedrigste im Kanton.",
+		"erlaeuterungen": "Bevölkerungsbestand am Jahresende. Abgebildet sind Schweizer, die 10 grössten Ausländergruppen am Jahresende 2021 und sämtliche Nachfolgestaaten des ehemaligen Jugoslawien (die nur teilweise zu den Top 10 gehören); alle anderen Staaten sind unter «Übrige Länder» zusammengefasst.<br><br>Die Prozentangaben im Tooltip beziehen sich bei der Standardeinstellung auf die ausländische Bevölkerung im Wohnviertel. Wird in der Grafik die Schweizer Bevölkerung zusätzlich angezeigt, beziehen sich die Prozentangaben der einzelnen Bevölkerungsgruppen auf die gesamte Bevölkerungszahl des Wohnviertels. <br><br>Seit 2011 einschliesslich Personen an Meldeadressen.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
 		],
@@ -24384,7 +24354,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-06T05:44:33",
+		"aktualisierungsdatum": "2022-06-17T09:56:44",
 		"id": 6941
 	},
 	{
@@ -27707,7 +27677,7 @@ var indikatoren = [
 		],
 		"title": "Wohnbevölkerung",
 		"subtitle": "Wohnviertel Rosental, nach Bezirk",
-		"lesehilfe": "Im Bezirk Messe lebten Ende 2020 4 694 Einwohner. Dies sind 11,4% mehr als im Jahr 2001. Im Gesamtkanton hat die Bevölkerungszahl zwischen 2001 und 2020 weniger stark zugenommen (+7,7%). Im Bezirk Erlenmatt lebten bis zum Jahr 2008 nur wenige Personen (<200). Mit der Fertigstellung der Neuüberbauungen auf dem ehemaligen Areal der Deutschen Bahn stiegen in der Folge die Einwohnerzahlen. Ende 2020 wurden in diesem neuen Stadtteil 2 952 Einwohner registriert.",
+		"lesehilfe": "Im Bezirk Messe hat die Bevölkerung seit 2002 leicht zugenommen (+6,3%). Im Gesamtkanton hat die Bevölkerungszahl etwas stärker zugenommen (+7,3%). Ein drastischer Anstieg zeigt sich im Bezirk Erlenmatt: Mit dem Bau von Wohnungen auf dem ehemaligen Areal der Deutschen Bahn stieg die Einwohnerzahl von unter 200 bis zum Jahr 2008 auf 2 955 (2021).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -27733,7 +27703,7 @@ var indikatoren = [
 		"printformat": "",
 		"visibleInPortal": true,
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-02T08:18:05",
+		"aktualisierungsdatum": "2022-06-17T09:56:00",
 		"id": 7665
 	},
 	{
@@ -37378,45 +37348,43 @@ var indikatoren = [
 		"id": 8373
 	},
 	{
+		"template": "line001",
+		"data-id": 8379,
+		"chart-id": 8379,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"8953"
+			8953
 		],
-		"template": "line001",
 		"title": "Abhängigkeitsquotient",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Nachhaltigkeit",
-		"kuerzel": "I.01.1.08379",
-		"kuerzelKunde": "BE4",
-		"description": "Abhängigkeitsquotient",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Bestand und Struktur",
+		"lesehilfe": "Der Abhängigkeitsquotient für den Kanton Basel-Stadt beträgt 57,2 im Jahr 2021, d. h. auf 100 Personen im erwerbsfähigen Alter (20 bis 64 Jahre) kommen 57,2 Personen die jünger oder älter sind.",
+		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-07T08:33:19.1919",
+		"description": "Abhängigkeitsquotient",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Bestand und Struktur",
+		"kuerzel": "I.01.1.08379",
+		"kennzahlenset": "Nachhaltigkeit",
+		"kuerzelKunde": "BE4",
 		"stufe1": "Bereich Bevölkerung",
 		"stufe2": "Bevölkerung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Abhängigkeitsquotient liegt 2020 bei 56,5. Er hat seit 2011 leicht abgenommen, da die Zahl der 20- bis 64-Jährigen stärker zugenommen hat als das Total der unter 20-Jährigen und der über 64-Jährigen.",
-		"erlaeuterungen": "Der Abhängigkeitsquotient beschreibt das Verhältnis der Personen im Alter von 19 oder weniger Jahren plus der Personen von 65 oder mehr Jahren zu jenen im erwerbsfähigen Alter zwischen 20 und 64 Jahren. Das Verhältnis wird pro 100 Personen zwischen 20 und 64 Jahren ausgewiesen.",
+		"orderKey": "01_01_00_00_00_104",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"visibleInPortal": true,
-		"orderKey": "01_01_00_00_00_104",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8379,
-		"chart-id": 8379,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-17T09:56:36",
 		"id": 8379
 	},
 	{
