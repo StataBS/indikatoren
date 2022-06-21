@@ -167,7 +167,7 @@
     "text": "Zugezogene, Weggezogene und Wanderungssaldo"
   },
   "subtitle": {
-    "text": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2021",
+    "text": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -232,7 +232,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 13.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2022"
   },
   "exporting": {
     "filename": "6023"

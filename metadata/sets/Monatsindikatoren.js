@@ -184,7 +184,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-24T08:48:15",
+		"aktualisierungsdatum": "2022-06-21T08:33:25",
 		"id": 7515
 	},
 	{
@@ -196,7 +196,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Logiernächte nach Monat und Herkunft",
 		"subtitle": "Basel-Stadt",
-		"lesehilfe": "98 599 Logiernächte wurden im April 2022 in den Basler Hotelbetrieben gebucht, 17 061 bzw. 20,9% mehr als im März. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 68,0% bzw. 39 921 Übernachtungen. Die inländischen Gäste buchten 46 474 Logiernächte (+12,1%), die Gäste aus dem Ausland 52 125 Übernachtungen (+202,5%).",
+		"lesehilfe": "119 094 Logiernächte wurden im Mai 2022 in den Basler Hotelbetrieben gebucht, 20 495 bzw. 20,8% mehr als im April. Im Vergleich zum Vorjahresmonat entspricht dies einer Zunahme um 97,5% bzw. 58 795 Übernachtungen. Die inländischen Gäste buchten 53 727 Logiernächte (+25,7%), die Gäste aus dem Ausland 65 367 Übernachtungen (+272,4%).",
 		"erlaeuterungen": "Bei der Herkunft der Gäste ist der Wohnsitz massgebend und nicht die Staatsangehörigkeit.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -221,7 +221,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-18T07:50:55",
+		"aktualisierungsdatum": "2022-06-21T08:33:25",
 		"id": 7516
 	},
 	{
@@ -232,8 +232,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Auslastung der Hotels nach Kategorie",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien unter 50%.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Rund drei Viertel der verfügbaren Zimmer werden in 3- bis 5-Sterne-Hotels angeboten. Die Auslastung liegt aktuell in allen Kategorien über 50%.",
 		"erlaeuterungen": "Die Nettozimmerauslastung gibt an, wie oft ein Zimmer an den Tagen, an denen der Betrieb geöffnet war und das Zimmer zur Verfügung stand, belegt war.",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Tourismusstatistik"
@@ -258,7 +258,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-18T07:50:56",
+		"aktualisierungsdatum": "2022-06-21T08:33:26",
 		"id": 7517
 	},
 	{
@@ -269,8 +269,8 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [],
 		"title": "Bevölkerung nach Wohnviertel",
-		"subtitle": "Basel-Stadt, April",
-		"lesehilfe": "Im April 2022 sank die Einwohnerzahl gegenüber dem Vormonat in zwei Wohnvierteln. In 17 Wohnvierteln sowie in Riehen und Bettingen stieg sie.",
+		"subtitle": "Basel-Stadt, Mai",
+		"lesehilfe": "Im Mai 2022 stieg die Einwohnerzahl gegenüber dem Vormonat in elf Wohnvierteln und in Bettingen. In acht Wohnvierteln und in Riehen sank sie.",
 		"erlaeuterungen": "Die Karte zeigt auf der Ebene der Gemeinden und Wohnviertel die Einwohnerzahl (Punkte) am Ende des Monats und deren Veränderung gegenüber dem Ende des Vormonats (Flächen).",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -296,7 +296,7 @@ var indikatorensetData = [
 		"darstellungsart": "Karte",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-05-24T08:48:16",
+		"aktualisierungsdatum": "2022-06-21T08:33:26",
 		"id": 7763
 	},
 	{
