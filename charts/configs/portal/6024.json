@@ -350,7 +350,7 @@
     "text": "Entwicklung der aus dem Ausland Zugezogenen"
   },
   "subtitle": {
-    "text": "nach Zuzugsland, Basel-Stadt, indexiert (2012 = 100)",
+    "text": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2012 = 100)",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -428,7 +428,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 15.6.2022"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 21.6.2022"
   },
   "customFunctions": {
     "optimalAxisLabelDecimals": function (axis, formatString) {

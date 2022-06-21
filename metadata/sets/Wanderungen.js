@@ -92,7 +92,7 @@ var indikatorensetData = [
 			6762
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
-		"subtitle": "Basel-Stadt, 2021",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
 		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2021. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 909 Personen), danach folgen Personen aus Spanien (437), Frankreich (427),  Italien (362) und den Vereinigten Staaten (362). Die übrigen 3 231 Zuzügerinnen und Zuzüger verteilen sich auf über 120 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -118,7 +118,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:36",
+		"aktualisierungsdatum": "2022-06-21T08:33:28",
 		"id": 6013
 	},
 	{
@@ -131,7 +131,7 @@ var indikatorensetData = [
 			6765
 		],
 		"title": "Zugezogene nach Zuzugsland, bei denen die Staatsangehörigkeit dem Zuzugsland entspricht",
-		"subtitle": "Basel-Stadt",
+		"subtitle": "Schweiz und fünf wichtigste ausländische Zuzugsländer, Basel-Stadt",
 		"lesehilfe": "60% der Personen, die 2021 aus der Schweiz nach Basel-Stadt ziehen, sind Schweizer Staatsangehörige (2012: 58,5%). 75% der aus Deutschland zuwandernden Personen sind deutsche und 83% der aus Spanien zuziehenden Personen sind spanische Staatsangehörige.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -157,7 +157,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:37",
+		"aktualisierungsdatum": "2022-06-21T08:33:29",
 		"id": 6016
 	},
 	{
@@ -287,7 +287,7 @@ var indikatorensetData = [
 			6770
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland sowie nach Gemeinde und Wohnviertel",
-		"subtitle": "Basel-Stadt, 2021",
+		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
 		"lesehilfe": "2021 kamen 28% aller baselstädtischen Neuzuzügerinnen und Neuzuzüger aus Deutschland. Ihr Anteil ist in Bettingen (75%), Riehen (55%) und Hirzbrunnen (37%) besonders hoch. Personen aus den Vereinigten Staaten von Amerika ziehen überproportional häufig in die Altstadt Kleinbasel (15%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -314,7 +314,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-15T04:10:14",
+		"aktualisierungsdatum": "2022-06-21T08:33:28",
 		"id": 6021
 	},
 	{
@@ -369,7 +369,7 @@ var indikatorensetData = [
 			6772
 		],
 		"title": "Zugezogene, Weggezogene und Wanderungssaldo",
-		"subtitle": "nach Zuzugs- und Wegzugsland, Basel-Stadt, 2021",
+		"subtitle": "nach Zuzugs- und Wegzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, 2021",
 		"lesehilfe": "Betrachtet man die fünf wichtigsten ausländischen Zuzugsländer, verbuchte Basel-Stadt 2021 den grössten Zuzugsüberschuss gegenüber Deutschland (+666), danach folgt Spanien (+257).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -395,7 +395,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-13T08:03:36",
+		"aktualisierungsdatum": "2022-06-21T08:33:29",
 		"id": 6023
 	},
 	{
@@ -408,7 +408,7 @@ var indikatorensetData = [
 			6773
 		],
 		"title": "Entwicklung der aus dem Ausland Zugezogenen",
-		"subtitle": "nach Zuzugsland, Basel-Stadt, indexiert (2012 = 100)",
+		"subtitle": "nach Zuzugsland (fünf wichtigste ausländische Zuzugsländer), Basel-Stadt, indexiert (2012 = 100)",
 		"lesehilfe": "Frankreich weist 2021 im Vergleich zu 2012 den stärksten Zuwachs an Zugezogenen auf (+19%). Die Zuwanderung aus den USA hat am stärksten abgenommen (-29%).",
 		"erlaeuterungen": "",
 		"quellenangabe": [
@@ -434,7 +434,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-15T04:10:15",
+		"aktualisierungsdatum": "2022-06-21T08:33:29",
 		"id": 6024
 	},
 	{

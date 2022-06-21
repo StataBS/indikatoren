@@ -153,42 +153,40 @@ var indikatorensetData = [
 		"id": 4130
 	},
 	{
+		"template": "template001",
+		"data-id": 4131,
+		"chart-id": 4131,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Wohnungsbelegung",
 		"subtitle": "nach Belegungsart, Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4131",
-		"kuerzelKunde": "0.1.C",
-		"description": "Wohnungsbelegung",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Von den belegten Wohnungen im Kanton sind über alle abgebildeten Jahre hinweg rund 73% Mietwohnungen, knapp 11% Genossenschaftswohnungen und etwas über 15% Eigentümerwohnungen.",
+		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:05.055",
+		"description": "Wohnungsbelegung",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4131",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "0.1.C",
 		"stufe1": "Leitgedanke",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Mietwohnungsanteil beträgt stets rund 73%.",
-		"erlaeuterungen": "Die Daten beziehen sich auf die belegten Wohnungen (Haushalte). Unter sonstigen Wohnungen werden Notwohnungen der Sozialhilfe, subventionierte Wohnungen gemeinnütziger Institutionen, Dienst- und Abwartswohnungen gezählt.",
+		"orderKey": "01_00_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4131,
-		"chart-id": 4131,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-21T08:33:27",
 		"id": 4131
 	},
 	{
@@ -511,48 +509,46 @@ var indikatorensetData = [
 		"id": 4139
 	},
 	{
+		"template": "line001",
+		"data-id": 4140,
+		"chart-id": 4140,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"5815",
-			"6027",
-			"6247",
-			"8919"
+			5815,
+			6027,
+			6247,
+			8919
 		],
-		"template": "line001",
 		"title": "Mittlere Wohnfläche pro Person",
 		"subtitle": "in m², Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4140",
-		"kuerzelKunde": "1.3.A",
-		"description": "Mittlere Wohnfläche pro Person",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "2021 beträgt die mittlere Wohnfläche pro Person in Basel-Stadt 41,6 m². Zuvor nahm sie bis 2010 auf 42,1 m² zu, sank zwischenzeitlich auf 41,0 m² im Jahr 2018 und steigt seither wieder.",
+		"erlaeuterungen": "Stand jeweils per Jahresende. Ab 2012 kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-17T06:56:52.5252",
+		"description": "Mittlere Wohnfläche pro Person",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4140",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.3.A",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.3 Wohnraumnutzung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Die Wohnfläche pro Kopf nahm von 1980 bis 2010 um sechs Quadratmeter zu. Bis 2018 war ein leichter Rückgang zu verzeichnen. Ab 2019 nimmt sie wieder leicht zu.",
-		"erlaeuterungen": "Alle Berechnungen beziehen sich auf das Jahresende. Ab 2012 handelt es sich um kantonale Registerauswertungen, frühere Werte wurden auf Basis der Volkszählungen 1980, 1990 und 2000 berechnet.",
+		"orderKey": "02_03_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_03_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik",
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4140,
-		"chart-id": 4140,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-21T08:33:27",
 		"id": 4140
 	},
 	{
@@ -630,42 +626,40 @@ var indikatorensetData = [
 		"id": 4142
 	},
 	{
+		"template": "template001",
+		"data-id": 4143,
+		"chart-id": 4143,
+		"filter": "",
 		"parentId": null,
 		"children": [],
-		"template": "template001",
 		"title": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
 		"subtitle": "Basel-Stadt",
-		"kennzahlenset": "Wohnraumentwicklung",
-		"kuerzel": "I.09.1.4143",
-		"kuerzelKunde": "1.4.B",
-		"description": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
-		"thema": "09 Bau-, Wohnungswesen",
-		"unterthema": "Gebäude und Wohnungen",
+		"lesehilfe": "Die 10 997 Genossenschaftswohnungen welche 2021 im Kanton bewohnt sind entsprechen einem Anteil am Gesamtbestand von rund 11%.",
+		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-21T08:56:05.055",
+		"description": "Genossenschaftswohnungen und ihr Anteil am Wohnungsbestand",
+		"thema": "09 Bau-, Wohnungswesen",
+		"unterthema": "Gebäude und Wohnungen",
+		"kuerzel": "I.09.1.4143",
+		"kennzahlenset": "Wohnraumentwicklung",
+		"kuerzelKunde": "1.4.B",
 		"stufe1": "Ziel 1: Gesellschaftspolitik",
 		"stufe2": "1.4 Familiengerechter Wohnraum",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Anteil der Genossenschaftswohnungen am Gesamtbestand beträgt 2020 knapp 11%.",
-		"erlaeuterungen": "Es werden Wohnungen berücksichtigt, welche am Stichtag (31.12.) durch mindestens eine Person belegt sind.",
+		"orderKey": "02_04_00_00_00_000",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "02_04_00_00_00_000",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Gebäude- und Wohnungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 4143,
-		"chart-id": 4143,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-21T08:33:27",
 		"id": 4143
 	},
 	{
