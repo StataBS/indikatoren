@@ -44,21 +44,29 @@ npm start
 
 
 ## Get Charts from "Umweltbericht beider Basel"
-- Update metadata and tsv files as described above in section "Update charts from ftp server".
-- In the command line (e.g. in c9.io): run 
+- In Indikatoren-App (Access) go to > "Spezialtabellen" > "Umweltbericht Indikatoren" and run:
+    - Metadaten einlesen (gets Metadaten of all Indicators from UB-Webpage)
+    - Metadaten abgleichen (Imports Metadata to local Indicators DB)
+- Github: Create new [issue](https://github.com/statabs/indikatoren/) and [branch](https://github.com/statabs-test/indikatoren/)
+- VS Studio: pull, checkout branch
+- Copy metadata (JSON) and tsv files (only for incdicators where data is not copied from Umweltbericht) to branch as described above in section "Update charts from ftp server".
+- In the command line: run 
 ```javascript
-npm run build:umwelt_charts
+npm run build:create_umwelt_charts
+npm run build:clean_umwelt_charts
 ```
-- This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/configs/portal. 
-- If a Umwelt chart metadata's datenInChartIntegriert is false, the chart's Highcharts config is cleaned and saved as js file in charts/templates/[id].js. 
-This allows using a Umwelt chart Higcharts configuration with data from an externally provided tsv. 
-- If a Umwelt chart metadata's datenInChartIntegriert key is undefined or true, its tsv file is downloaded and saved to data/[id].tsv. 
-This allows retrieving the tsv file from the Highcharts hamburger menu.
-- Create svg files, e.g. by running the command 
+This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/configs/portal. 
+If a Umwelt chart metadata's datenInChartIntegriert is:
+    - false, the chart's Highcharts config is cleaned and saved as js file in charts/templates/[id].js (This allows using a Umwelt chart Higcharts configuration with data from an externally provided tsv (manually uploaded, default for all other indicators)).
+    - undefined or true: its tsv file is downloaded ftom UB-website and saved to data/[id].tsv (This allows retrieving the tsv file from the Highcharts hamburger menu.)
+
+- Create svg files by running the command 
 ```javascript
 npm run build
 ```
-
+- run local-server, [check everything](http://127.0.0.1:8084/?Indikatorenset=Umwelt)
+- add, commit, push
+- merge branch back to master (ask a git admin)
 
 ## URL Parameters
 

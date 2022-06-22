@@ -1,7 +1,7 @@
 {
   "chart": {
     "renderTo": "container_0403",
-    "type": "line",
+    "type": "column",
     "width": "485",
     "height": "415",
     "spacingBottom": 50,
@@ -153,8 +153,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pflanzen\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Pflanzen",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -167,10 +167,12 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020,
+      2021
     ],
     "floor": 0,
-    "ceiling": 7,
+    "ceiling": 9,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -228,7 +230,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -255,10 +261,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -276,6 +282,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Kantonales Laboratorium Basel-Stadt",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -320,7 +327,7 @@
   "navigator": {
     "enabled": false,
     "series": {
-      "type": "line",
+      "type": "column",
       "stacking": false
     },
     "xAxis": {
@@ -333,24 +340,26 @@
   "series": [
     {
       "includeInCSVExport": true,
-      "type": "line",
+      "stacking": null,
+      "type": "column",
       "showInNavigator": true,
       "name": "Hafen Kleinhünigen und Bahnhof St. Johann",
       "color": "#FF8028",
-      "id": "BS0403_2",
+      "id": "BS0403_1",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
         34,
-        128,
-        44,
-        8,
+        194,
+        36,
+        9,
         25,
-        59,
-        29,
-        24
+        68,
+        30,
+        40,
+        57,
+        33
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -370,7 +379,7 @@
       "showInNavigator": true,
       "name": "Zielwert",
       "color": "#444444",
-      "id": "0403_3",
+      "id": "0403_2",
       "valueSuffix": "Anzahl Pflanzen",
       "data": [
         0,
@@ -380,10 +389,11 @@
         0,
         0,
         0,
-        null
+        0,
+        0,
+        0
       ],
-      "visible": true,
-      "_symbolIndex": 1
+      "visible": true
     }
   ]
 }

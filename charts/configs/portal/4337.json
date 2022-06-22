@@ -153,8 +153,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003ETonnen\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003ETonnen",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -175,10 +175,12 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 15,
+    "ceiling": 17,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -236,7 +238,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -263,10 +269,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -284,6 +290,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -367,7 +374,9 @@
         292.7,
         282.5,
         274.8,
-        272.6
+        272.6,
+        267.2,
+        269.7
       ],
       "visible": true
     },
@@ -395,14 +404,15 @@
         58753.8,
         56838.1,
         57393.4,
-        57667.9,
-        55909.8,
-        54566.1,
-        54482.8
+        57737.4,
+        55978,
+        54639.4,
+        54679.5,
+        53517.2,
+        54351.1
       ],
       "visible": true,
-      "yAxis": 1,
-      "_symbolIndex": 0
+      "yAxis": 1
     }
   ]
 }

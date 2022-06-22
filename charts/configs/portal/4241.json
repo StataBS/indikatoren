@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Prozent, Basel-Stadt",
+    "text": "Prozent (Anteil an der Bevölkerung ab 15 Jahren in Privathaushalten), Basel-Stadt und Basel-Stadt und Basel-Landschaft",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -147,24 +147,19 @@
     }
   },
   "tooltip": {
-    "style": {
-      "fontSize": "1em"
-    },
-    "hideDelay": 200,
-    "padding": 8,
-    "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E%\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
-    "useHTML": true,
-    "outside": false
+    "shared": true
   },
   "xAxis": {
     "categories": [
+      1992,
+      1997,
       2002,
-      2012
+      2007,
+      2012,
+      2017
     ],
     "floor": 0,
-    "ceiling": 1,
+    "ceiling": 5,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -198,8 +193,8 @@
           "color": "#000000"
         },
         "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}%' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '%';
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
       "index": 0
@@ -222,7 +217,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -249,10 +248,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -270,6 +269,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Bundesamt für Statistik, Schweizerische Gesundheitsbefragung",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -334,10 +334,111 @@
       "name": "Medikamentenkonsum",
       "color": "#FF8028",
       "id": "BS1617_1",
-      "valueSuffix": "Prozent",
+      "valueSuffix": "Prozent (Anteil an der Bevölkerung ab 15 Jahren in Privathaushalten)",
       "data": [
+        null,
+        null,
         48,
-        53.7
+        null,
+        53.7,
+        null
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "marker": {
+        "enabled": true,
+        "radius": 5
+      },
+      "type": "errorbar",
+      "showInNavigator": true,
+      "name": "Konfidenzintervall (95%)",
+      "color": "#DC440E",
+      "id": "BS1617_2",
+      "valueSuffix": "Prozent (Anteil an der Bevölkerung ab 15 Jahren in Privathaushalten)",
+      "data": [
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          50.2,
+          57.2
+        ],
+        [
+          null,
+          null
+        ]
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Schweiz",
+      "color": "#73B97C",
+      "id": "BS&BL1617_7",
+      "valueSuffix": "Prozent (Anteil an der Bevölkerung ab 15 Jahren in Privathaushalten)",
+      "data": [
+        38.3,
+        40.7,
+        40.8,
+        46.3,
+        48.6,
+        50.3
+      ],
+      "visible": true
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": null,
+      "type": "errorbar",
+      "showInNavigator": true,
+      "name": "CH: Konfidenzintervall (95%)",
+      "color": "#68AB2B",
+      "id": "BS&BL1617_8",
+      "valueSuffix": "Prozent (Anteil an der Bevölkerung ab 15 Jahren in Privathaushalten)",
+      "data": [
+        [
+          37.4,
+          39.2
+        ],
+        [
+          39.8,
+          41.7
+        ],
+        [
+          39.9,
+          41.6
+        ],
+        [
+          45.4,
+          47.2
+        ],
+        [
+          47.7,
+          49.5
+        ],
+        [
+          49.5,
+          51.1
+        ]
       ],
       "visible": true
     }

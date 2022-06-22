@@ -121,7 +121,7 @@
     }
   },
   "subtitle": {
-    "text": "Hektaren und Prozent, Basel-Stadt und Basel-Landschaft",
+    "text": "Anzahl Stichproben und Prozent, Basel-Stadt und Basel-Landschaft",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,20 +153,18 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f})",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
   "xAxis": {
     "categories": [
-      1984,
-      1994,
-      2004,
-      2013
+      "Periode 1: 1984-2000",
+      "Periode 2: 2002-2014"
     ],
     "floor": 0,
-    "ceiling": 3,
+    "ceiling": 1,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -224,7 +222,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -251,10 +253,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -271,7 +273,8 @@
   },
   "credits": {
     "enabled": true,
-    "text": "Quelle: Schweizerisches Landesforstinventar (LFI)",
+    "text": "Quelle: Amt für Wald beider Basel",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -333,19 +336,55 @@
       "stack": "BS&BL",
       "type": "column",
       "showInNavigator": true,
-      "name": "Keine Angabe",
+      "name": "Hoch",
       "color": "#73B97C",
       "id": "BS&BL1509_1",
-      "valueSuffix": "Hektaren",
+      "valueSuffix": "Anzahl Stichproben",
       "data": [
-        1600,
-        400,
-        400,
-        400
+        487,
+        2242
       ],
       "visible": true,
       "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Eher hoch",
+      "color": "#68AB2B",
+      "id": "BS&BL1509_2",
+      "valueSuffix": "Anzahl Stichproben",
+      "data": [
+        2050,
+        5062
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Eher tief",
+      "color": "#007A2F",
+      "id": "BS&BL1509_3",
+      "valueSuffix": "Anzahl Stichproben",
+      "data": [
+        1281,
+        2287
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
       }
     },
     {
@@ -355,60 +394,35 @@
       "type": "column",
       "showInNavigator": true,
       "name": "Tief",
-      "color": "#68AB2B",
-      "id": "BS&BL1509_2",
-      "valueSuffix": "Hektaren",
-      "data": [
-        1600,
-        2400,
-        2400,
-        2000
-      ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BS&BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Mittel",
-      "color": "#007A2F",
-      "id": "BS&BL1509_3",
-      "valueSuffix": "Hektaren",
-      "data": [
-        7300,
-        7300,
-        4900,
-        5700
-      ],
-      "visible": true,
-      "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
-      }
-    },
-    {
-      "includeInCSVExport": true,
-      "stacking": "percent",
-      "stack": "BS&BL",
-      "type": "column",
-      "showInNavigator": true,
-      "name": "Hoch",
       "color": "#0A3B19",
       "id": "BS&BL1509_4",
-      "valueSuffix": "Hektaren",
+      "valueSuffix": "Anzahl Stichproben",
       "data": [
-        8500,
-        9000,
-        11300,
-        10900
+        587,
+        1005
       ],
       "visible": true,
       "tooltip": {
-        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ha (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
+      }
+    },
+    {
+      "includeInCSVExport": true,
+      "stacking": "percent",
+      "stack": "BS&BL",
+      "type": "column",
+      "showInNavigator": true,
+      "name": "Keine Angabe",
+      "color": "#FFDA80",
+      "id": "BS&BL1509_5",
+      "valueSuffix": "Anzahl Stichproben",
+      "data": [
+        14,
+        126
+      ],
+      "visible": true,
+      "tooltip": {
+        "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Stichproben (von {point.stackTotal: ,2f}) ({point.percentage:.1f}%)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E"
       }
     }
   ]

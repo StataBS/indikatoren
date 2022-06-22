@@ -19,7 +19,7 @@
 "template":"template001",
 "darstellungsart":"",
 "printformat":"", 
-"visible":true,
+"visible":false,
 "visibleInPortal":true,
 "orderKey":"16_00_00_00_00_000",
 "parentId":null,

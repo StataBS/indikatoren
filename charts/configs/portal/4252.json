@@ -153,8 +153,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Landwirtschaftsmaschinen  (von {point.stackTotal: ,2f})\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E Landwirtschaftsmaschinen  (von {point.stackTotal: ,2f})",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -189,10 +189,11 @@
       2016,
       2017,
       2018,
-      2019
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 29,
+    "ceiling": 30,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -250,7 +251,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -277,10 +282,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -298,6 +303,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Bundesamt für Statistik, Strassenfahrzeugbestand",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -337,10 +343,10 @@
     "enabled": false
   },
   "scrollbar": {
-    "enabled": false
+    "enabled": true
   },
   "navigator": {
-    "enabled": false,
+    "enabled": true,
     "series": {
       "type": "column",
       "stacking": "normal"
@@ -393,7 +399,8 @@
         34,
         34,
         32,
-        29
+        29,
+        27
       ],
       "visible": true
     },
@@ -437,7 +444,8 @@
         40,
         39,
         39,
-        41
+        41,
+        42
       ],
       "visible": true
     },
@@ -481,7 +489,8 @@
         50,
         50,
         48,
-        45
+        45,
+        48
       ],
       "visible": true
     },
@@ -525,6 +534,7 @@
         37,
         30,
         32,
+        33,
         33
       ],
       "visible": true
@@ -567,6 +577,7 @@
         6,
         6,
         6,
+        5,
         5,
         5,
         5
