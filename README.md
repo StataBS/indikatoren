@@ -57,8 +57,8 @@ npm run build:clean_umwelt_charts
 ```
 This uses casperJs / phantomJs to open all charts of Indikatorenset "Umwelt" and save their Highcharts configuration in charts/configs/portal. 
 If a Umwelt chart metadata's datenInChartIntegriert is:
-    - false, the chart's Highcharts config is cleaned and saved as js file in charts/templates/[id].js (This allows using a Umwelt chart Higcharts configuration with data from an externally provided tsv (manually uploaded, default for all other indicators)).
-    - undefined or true: its tsv file is downloaded ftom UB-website and saved to data/[id].tsv (This allows retrieving the tsv file from the Highcharts hamburger menu.)
+1) false, the chart's Highcharts config is cleaned and saved as js file in charts/templates/[id].js (This allows using a Umwelt chart Higcharts configuration with data from an externally provided tsv (manually uploaded, default for all other indicators)).
+2) undefined or true: its tsv file is downloaded ftom UB-website and saved to data/[id].tsv (This allows retrieving the tsv file from the Highcharts hamburger menu.)
 
 - Create svg files by running the command 
 ```javascript
