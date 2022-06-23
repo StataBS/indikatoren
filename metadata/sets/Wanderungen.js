@@ -93,7 +93,7 @@ var indikatorensetData = [
 		],
 		"title": "Aus dem Ausland Zugezogene nach Zuzugsland",
 		"subtitle": "fünf wichtigste ausländische Zuzugsländer, Basel-Stadt, 2021",
-		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2021. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 909 Personen), danach folgen Personen aus Spanien (437), Frankreich (427),  Italien (362) und den Vereinigten Staaten (362). Die übrigen 3 231 Zuzügerinnen und Zuzüger verteilen sich auf über 120 verschiedene Länder.",
+		"lesehilfe": "Die Grafik zeigt die fünf wichtigsten ausländischen Zuzugsländer des Jahres 2021. Die grösste Gruppe der aus dem Ausland Zugewanderten kommt aus Deutschland (1 909 Personen), danach folgen Personen aus Spanien (437), Frankreich (427),  Italien (410) und den Vereinigten Staaten (362). Die übrigen 3 231 Zuzügerinnen und Zuzüger verteilen sich auf über 120 verschiedene Länder.",
 		"erlaeuterungen": "",
 		"quellenangabe": [
 			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
@@ -118,7 +118,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2022-06-21T08:33:28",
+		"aktualisierungsdatum": "2022-06-23T11:29:20",
 		"id": 6013
 	},
 	{
