@@ -153,8 +153,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E% \u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E% ",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -185,10 +185,12 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 25,
+    "ceiling": 27,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -222,8 +224,8 @@
           "color": "#000000"
         },
         "formatter": function () {
-						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}%' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
-						  return this.axis.defaultLabelFormatter.call(this) + '%';
+						  /* workaround: add Suffix if necessary. get the already formatted string (e.g. thousands separator included) and add suffix. format: '{value:,.0f}' doesn't work with string-labels (e.g. 1613). BL/22.3.2017 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
 						}
       },
       "index": 0
@@ -246,7 +248,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -273,10 +279,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -294,6 +300,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -360,32 +367,34 @@
       "id": "BS1611_1",
       "valueSuffix": "Prozent (Anteil der Messstellen mit Überschreitungen des Anforderungswertes)",
       "data": [
-        1.11,
-        0.56,
-        0.35,
-        0.52,
-        0.52,
-        0.88,
-        0.7,
+        0.754,
+        0.142,
+        0.092,
+        0.172,
+        0.171,
+        0.382,
+        0.278,
         0,
-        0.2,
-        0.53,
-        0.45,
-        0.68,
-        0.19,
-        0.32,
-        0.29,
-        0.52,
-        1.01,
-        1.34,
-        0.98,
-        1.19,
-        1.43,
-        1.19,
-        0.29,
-        0.4,
-        0.6,
-        0.77
+        0.197,
+        0.263,
+        0.39,
+        0.603,
+        0.727,
+        0.773,
+        0.614,
+        0.62,
+        0.983,
+        1.519,
+        0.943,
+        0.945,
+        0.88,
+        0.626,
+        0.532,
+        0.439,
+        0.611,
+        0.658,
+        0.726,
+        0.47
       ],
       "visible": true
     }

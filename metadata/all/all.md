@@ -94,7 +94,7 @@ id | visible | visibleInPortal | indikatorenset
 4236 | true | true | Umwelt
 4237 | true | true | Umwelt
 4238 | true | true | Umwelt
-4239 | true | true | Umwelt
+4239 | false |  | Umwelt
 4240 | true | true | Umwelt
 4241 | true | true | Umwelt
 4242 | false |  | Umwelt
@@ -2131,6 +2131,7 @@ id | visible | visibleInPortal | indikatorenset
 9491 | true | true | Arbeitsmarkt
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
+9507 | true | true | Umwelt
 9625 | true | true | 
 9995 | true | false | 
 9996 | true | false | 

@@ -154,8 +154,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003ETonnen pro Einwohner (rechte Skala)\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003ETonnen pro Einwohner (rechte Skala)",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -171,10 +171,11 @@
       2017,
       2018,
       2019,
-      2020
+      2020,
+      2021
     ],
     "floor": 2010,
-    "ceiling": 2020,
+    "ceiling": 2021,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -232,7 +233,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -259,10 +264,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -280,6 +285,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -391,6 +397,10 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "visible": false
@@ -450,11 +460,14 @@
         [
           2020,
           null
+        ],
+        [
+          2021,
+          null
         ]
       ],
       "visible": true,
-      "yAxis": 1,
-      "_symbolIndex": 0
+      "yAxis": 1
     },
     {
       "includeInCSVExport": true,
@@ -500,7 +513,7 @@
         ],
         [
           2015,
-          4.28
+          4.27
         ],
         [
           2016,
@@ -508,24 +521,27 @@
         ],
         [
           2017,
-          4.09
+          4.08
         ],
         [
           2018,
-          4
+          3.99
         ],
         [
           2019,
-          3.9
+          3.89
         ],
         [
           2020,
-          3.81
+          3.8
+        ],
+        [
+          2021,
+          3.7
         ]
       ],
       "visible": true,
-      "yAxis": 1,
-      "_symbolIndex": 1
+      "yAxis": 1
     }
   ]
 }

@@ -111,7 +111,7 @@
     }
   },
   "title": {
-    "text": "Feinstaub-Immissionen",
+    "text": "Feinstaub-Immissionen (PM10)",
     "useHTML": true,
     "align": "left",
     "style": {
@@ -153,8 +153,8 @@
     "hideDelay": 200,
     "padding": 8,
     "headerFormat": "\u003Cspan class=\"user-tooltip\"\u003E\u003Cspan style=\"color:{point.color}; width: 10px; font-size: 1.8em;\"\u003E■\u003C\u002Fspan\u003E\u003Cspan style=\"font-size: 1em;\"\u003E {series.name}\u003C\u002Fspan\u003E\u003Cbr\u003E\u003Cspan class=\"user-tooltip-indent\"\u003E{point.key}:",
-    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E μg\u002Fm\u003Csup\u003E3\u003C\u002Fsup\u003E\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
-    "footerFormat": "",
+    "pointFormat": " \u003Cb\u003E{point.y}\u003C\u002Fb\u003E μg\u002Fm\u003Csup\u003E3\u003C\u002Fsup\u003E",
+    "footerFormat": "\u003C\u002Fspan\u003E\u003C\u002Fspan\u003E",
     "useHTML": true,
     "outside": false
   },
@@ -181,10 +181,12 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 21,
+    "ceiling": 23,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -242,7 +244,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -269,10 +275,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -290,6 +296,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Lufthygieneamt beider Basel",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -375,10 +382,11 @@
         21.2,
         18.7,
         19.1,
-        20.3
+        20.3,
+        18,
+        17.2
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -410,10 +418,11 @@
         18.3,
         16.1,
         16.2,
-        17.8
+        17.8,
+        15.2,
+        15.1
       ],
-      "visible": true,
-      "_symbolIndex": 1
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -445,10 +454,11 @@
         16.1,
         12.9,
         13.6,
-        14
+        14,
+        12.1,
+        12.1
       ],
-      "visible": true,
-      "_symbolIndex": 2
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -492,10 +502,11 @@
         20,
         20,
         20,
+        20,
+        20,
         20
       ],
-      "visible": true,
-      "_symbolIndex": 3
+      "visible": true
     }
   ]
 }

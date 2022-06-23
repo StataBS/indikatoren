@@ -472,7 +472,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 2021-12-23"
+    "text": "Quelle: Credit Suisse Group AG.\u003Cbr\u002F\u003EZuletzt geändert: 23.12.2021"
   },
   "tooltip": {
     "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E{series.name}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",

@@ -176,10 +176,12 @@
       2015,
       2016,
       2017,
-      2018
+      2018,
+      2019,
+      2020
     ],
     "floor": 0,
-    "ceiling": 24,
+    "ceiling": 26,
     "tickLength": 0,
     "title": {
       "enabled": false,
@@ -237,7 +239,11 @@
         "style": {
           "fontSize": "0.91666em",
           "color": "#000000"
-        }
+        },
+        "formatter": function () {
+						  /* see above, added BL/17.05.2021 */
+						  return this.axis.defaultLabelFormatter.call(this) + '';
+						}
       },
       "index": 1
     }
@@ -264,10 +270,10 @@
     },
     "arearange": {
       "lineWidth": 0,
-      "fillOpacity": 0.1,
+      "fillOpacity": 0.2,
       "zIndex": -1,
       "legend": {
-        "fillOpacity": 0.1
+        "fillOpacity": 0.2
       },
       "tooltip": {
         "crosshairs": true,
@@ -285,6 +291,7 @@
   "credits": {
     "enabled": true,
     "text": "Quelle: Amt für Umwelt und Energie Basel-Stadt",
+    "href": false,
     "style": {
       "color": "#000000",
       "fontSize": "0.8333em",
@@ -373,10 +380,11 @@
         14.73,
         14.72,
         14.83,
-        14.93
+        14.93,
+        15.06,
+        15.09
       ],
-      "visible": true,
-      "_symbolIndex": 0
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -486,10 +494,17 @@
         [
           13,
           17.1
+        ],
+        [
+          13.29,
+          17.41
+        ],
+        [
+          13,
+          17.42
         ]
       ],
-      "visible": true,
-      "_symbolIndex": 1
+      "visible": true
     },
     {
       "includeInCSVExport": true,
@@ -524,10 +539,11 @@
         11.8,
         11.04,
         11.45,
-        12.26
+        12.26,
+        11.68,
+        12.22
       ],
-      "visible": true,
-      "_symbolIndex": 2
+      "visible": true
     }
   ]
 }
