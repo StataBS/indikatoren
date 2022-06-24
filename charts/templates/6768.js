@@ -8,9 +8,9 @@
             parsed: function (columns) {
                 //Negate the numbers in the the 2nd column to create the left side of the population pyramid
                 var negateNumbersInColumn = function(columnIndex){
-                    columns.forEach(function(column, i, c) {
+                    Highcharts.each(columns, function(column, i, c) {
                         if (i == columnIndex){
-                            column.forEach(function(item, j, v){
+                            Highcharts.each(column, function(item, j, v){
                                 if (typeof(item) == 'number'){
                                     v[j] = -v[j];
                                 }
@@ -23,10 +23,11 @@
         },
         plotOptions: {
         series: {
-                minPointLength: 1.5
+                minPointLength: 2
                 }
              },
         yAxis:[{
+            gridLineColor: '#B9CFD7',
             max: 18000,
             tickInterval: 6000,
             min:0,
@@ -44,7 +45,7 @@
                 }
             },
              plotLines: [{
-                    value: 0,
+                    value: -0,
                     color: 'white',
                     width: 1,
                     zIndex: 4

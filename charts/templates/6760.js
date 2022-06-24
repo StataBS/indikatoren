@@ -28,12 +28,18 @@ global Highcharts
                     width: 2,
                     zIndex: 4
                 }],*/
-     plotLines: [{
+   /*  plotLines: [{
                     value: 0,
                     color: 'white',
                     width: 2,
                     zIndex: 4 //series have zIndex 3 by default
-                }],
+                }],*/
+               /* plotLines: [{
+                  color: '#B9CFD7',
+                  value: 0, 
+                  width: 1,
+                  zIndex: 4 //series have zIndex 3 by default
+                }]*/
 
   },
   "xAxis": {
