@@ -19,7 +19,7 @@
   "xAxis": {
     "type": "category",
     "labels": {
-      "rotation": -90 ,
+      "rotation": -45 ,
         "formatter": function() {
           return this.value
             .replace("Altstadt Grossbasel", "Altstadt GB")

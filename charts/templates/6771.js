@@ -1,4 +1,4 @@
-/*  global rheinDataEPSG2056
+/*  /*  global rheinDataEPSG2056
 	global Highcharts
 	global geojson_wohnviertelEPSG2056
 	global $
@@ -69,28 +69,28 @@ return {
 		colorAxis: {
 		            dataClassColor: 'category',
 		                   dataClasses: [{
-		                to: -1.0,
+		                to: -0.25,
 		                color: '#662673', //rgb(242,242,242)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>0 -0,99</span> <<span style='color: rgba(0,0,0,0)'>1</span>-1,00"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
+		                name:  "<span style='color: rgba(0,0,0,0)'>0 -0,99</span> <<span style='color: rgba(0,0,0,0)'>1</span>-0,25"//"<span style='color: rgba(0,0,0,0)'>0</span> <<span style='color: rgba(0,0,0,0)'>0</span>-1,00"
 		            }, {
-		                from: -0.99999,
-		                to:  -0.5,
-		                color: '#B375AB',//rgb(230,230,230)',
-		                name:  "<span style='color: rgba(0,0,0,0)'>0 </span>-0,99 −<span style='color: rgba(0,0,0,0)'>1</span>-0,50" //"-0,99 − -0,50"
+		                from: -0.25,
+		                to:  -0.01,
+		                color: '#E7CEE2',//rgb(230,230,230)',
+		                name:  "<span style='color: rgba(0,0,0,0)'>0 </span>-0,25 −<span style='color: rgba(0,0,0,0)'>-</span> -0,01" //"-0,99 − -0,50"
 		            }, {
-		                from: -0.499999,
-		                to:-0.000001,
-		                 color: '#E7CEE2',  //rgb(200,200,200)',
-		                 name: "<span style='color: rgba(0,0,0,0)' >0 </span>-0,49 −<span style='color: rgba(0,0,0,0)'>1</span>-0,01" //"-0,49 − -0,01" 
-		            },{
 		                from: 0,
-		                to: 0.79999,
-		                 color: '#D3E2E4', //rgb(153,153,153
-		                 name: "<span style='color: rgba(0,0,0,0)' >-0 </span>0,00 −<span style='color: rgba(0,0,0,0)'>1-</span>0,79"//" 0,00 − -0,79" //
+		                to:0.499,
+		                 color: '#D3E2E4',  //rgb(200,200,200)',
+		                 name: "<span style='color: rgba(0,0,0,0)'>-0</span> 0,00 −<span style='color: rgba(0,0,0,0)'>-0</span>0,49" //"-0,49 − -0,01" 
 		            },{
-		                from: 0.8,
-		                color: '#71A3B5', //rgb(60,60,60)
-		                name: "<span style='color: rgba(0,0,0,0)'>0 -0,99</span> ≥<span style='color: rgba(0,0,0,0)'>1-</span>0,80" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
+		                from: 0.5,
+		                to: 0.999,
+		                 color: '#689199', //rgb(153,153,153
+		                 name: "<span style='color: rgba(0,0,0,0)' >-0 </span>0,50 −<span style='color: rgba(0,0,0,0)'>1-</span>0,99"//" 0,00 − -0,79" //
+		            },{
+		                from: 1,
+		                color: '#083038', //rgb(60,60,60)
+		                name: "<span style='color: rgba(0,0,0,0)'>0 -0,99</span> ≥<span style='color: rgba(0,0,0,0)'>1-</span>1,00" //"<span style='color: rgba(0,0,0,0)'>7,0</span> ≥<span style='color: rgba(0,0,0,0)'>1</span> 0,80"
 		            }], 
         },
        
@@ -164,7 +164,7 @@ return {
 							'<table>'
 							+'<tr><td><span style="color:' + this.color + '">●</span></td> <td>' + this.series.name + ': </td> <td><b>' + Highcharts.numberFormat((this.value),2) + '</b></td></tr><br/>';
 						//add a tooltip row for each column
-						columnSeries.points || [].forEach(function(element, index, array){
+						Highcharts.each(columnSeries.points || [], function(element, index, array){
 							(columnSeries.visible) ? tooltipText += ('<tr><td><span style="color:' + element.color + '">●</span></td> <td>' + element.name + ': </td> <td><b>' + Highcharts.numberFormat((element.y),2) + '</b></td></tr><br/>') : undefined ;	
 						});
 						tooltipText += '</table>';

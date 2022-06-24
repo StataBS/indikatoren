@@ -76,7 +76,7 @@ for (i = 0; i < 3; i++) {
 		                from: 4,
 		                to:  5.999,
 		                color: '#FABD24',//rgb(230,230,230)',
-		                name: "<span style='color: rgba(0,0,0,0)'>1</span>4,00 −<span style='color: rgba(0,0,0,0)'>11</span>5,90"
+		                name: "<span style='color: rgba(0,0,0,0)'>1</span>4,00 −<span style='color: rgba(0,0,0,0)'>11</span>5,99"
 		            }, {
 		                from: 6,
 		                to:7.499,
