@@ -47,6 +47,7 @@ npm start
 - In Indikatoren-App (Access) go to > "Spezialtabellen" > "Umweltbericht Indikatoren" and run:
     - Metadaten einlesen (gets Metadaten of all Indicators from UB-Webpage)
     - Metadaten abgleichen (Imports Metadata to local Indicators DB)
+- Set all indicators to status "Bereit für Live" and click "publizieren" to export all JSONs with correct "zuletzt geändert" date
 - Github: Create new [issue](https://github.com/statabs/indikatoren/) and [branch](https://github.com/statabs-test/indikatoren/)
 - VS Studio: pull, checkout branch
 - Copy metadata (JSON) and tsv files (only for incdicators where data is not copied from Umweltbericht) to branch as described above in section "Update charts from ftp server".
