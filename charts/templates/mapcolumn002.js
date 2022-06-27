@@ -352,7 +352,16 @@
 			        	//class: 'columnLegend' 
 			        }).add();	                
             },
-	                
+			
+			addLegendRectangle: function(chart, x, y, width, height, fill, cssClass){
+            	return chart.renderer.rect(x, y, width, height).attr({
+    	            'stroke-width':0,
+    	            fill: fill,
+    	            zIndex: 6,
+    	            class: cssClass
+            	}).add();
+            },
+
             addLegendCircle: function(chart, x, y, radius, fill){
             	return chart.renderer.circle(x, y, radius, fill).attr({
 				    fill: fill,
