@@ -5,7 +5,6 @@
         	pointPadding: 0,
         	"stacking": "normal",
         	 "borderWidth": 0,
-             //groupPadding: 0,
         },
     scatter: {
         yAxis: 1,
@@ -15,11 +14,16 @@
               return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat( this.y, 1, ",", " ") + '%</b><br/>';
           }
         }
+    },
+    column: {
+      "tooltip": {
+        "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
+        "footerFormat": 'Total: <b>{point.total:,.0f}</b><br/>',
+      },
     }
   },
     yAxis: [
       {
-  	    //max: 6000000000,
   	    min: 0,
   	    tickAmount: 4,
         gridLineColor: '#B9CFD7', 
@@ -43,8 +47,6 @@
         opposite: true,
         min: 0,
         tickAmount: 4,
-        //max: 45,
-        //tickInterval: 15,
         gridLineColor: '#B9CFD7', 
         gridLineWidth: 0.5,
         lineColor: '#B9CFD7', 
@@ -70,8 +72,6 @@
    "tickInterval": 1,
           "labels": {
           	step: 1,
-            //"rotation": 0,
-            //"rotation": -90,
         }  
   },
   "legend": { 
@@ -102,7 +102,6 @@
                 symbol: 'circle', 
                 radius: 4
             },
-            //pointPlacement : -0.15,
         	yAxis: 1,
         },
         {
@@ -115,16 +114,11 @@
                 radius: 4
                 
             },
-            //pointPlacement : 0.15,
             stacking: false,
         	yAxis: 1,
         } 
-  //{"color": "#73ba7c", "index": 7, "legendIndex":7}, /**/  
-  //{"color": "#73ba7c", "index": 8, "legendIndex":8}, /**/    
+    
   ],
-  "tooltip": {
-    "pointFormat": '<span style="color:{point.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
-  },
   "chart": {
   	type: "column",
     "inverted": false,

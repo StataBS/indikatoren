@@ -22,10 +22,11 @@
     			id: 'dummy0',
     			color: "#FABD24",
     			grouping: false, 
+          
     		},
         {
 					linkedTo: 'dummy0',
-					colors: ["#FABD24","#FABD24","#FABD24","#ECE1D0","#FABD24","#FABD24","#FABD24","#FABD24"],  
+					colors: ["#FABD24","#FABD24","#FABD24","rgba(250,189,36,0.3)","#FABD24","#FABD24","#FABD24","#FABD24"],  
 					colorByPoint: true,
         },
     		{
@@ -36,7 +37,7 @@
     		},
         {
 					linkedTo: 'dummy1',
-					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","black","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
+					colors: ["#7F5F1A","#7F5F1A","#7F5F1A","rgba(127,95,26,0.3)","#7F5F1A","#7F5F1A","#7F5F1A","#7F5F1A"],  
 					colorByPoint: true,
         },
         {
@@ -131,6 +132,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    width: 450,
+    itemWidth: 180,
+    itemDistance: 0,
     "itemStyle": {
     	"fontWeight": "normal",
   	},
@@ -139,6 +143,7 @@
   	},
   },
    tooltip: {
+    headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
     "pointFormat": '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b><br/>',
     "shared": false
   },

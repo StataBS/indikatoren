@@ -38,7 +38,7 @@
           undefined
         ]
       ],
-      "name": "Ertrag 2010",
+      "name": "Quellensteuerertrag 2011",
       "turboThreshold": 0
     },
     {
@@ -47,7 +47,7 @@
         "#FABD24",
         "#FABD24",
         "#FABD24",
-        "#ECE1D0",
+        "rgba(250,189,36,0.3)",
         "#FABD24",
         "#FABD24",
         "#FABD24",
@@ -57,38 +57,38 @@
       "data": [
         [
           "Erwerb",
-          203962954
+          211927342
         ],
         [
           "Versicherung",
-          1602220
+          1549134
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          68658360
+          74792905
         ],
         [
           "Grenzgänger aus Frankreich",
-          64359877
+          67984777
         ],
         [
           "Künstler, Sport",
-          1293580
+          1230360
         ],
         [
           "Verwaltungsräte",
-          4234808
+          4670931
         ],
         [
           "Renten",
-          2617626
+          2218413
         ],
         [
           "Kapitalleistungen",
-          17262415
+          17378531
         ]
       ],
-      "name": "Ertrag 2010",
+      "name": "Quellensteuerertrag 2011",
       "turboThreshold": 0
     },
     {
@@ -129,7 +129,7 @@
           undefined
         ]
       ],
-      "name": "Ertrag 2019",
+      "name": "Quellensteuerertrag 2020",
       "turboThreshold": 0
     },
     {
@@ -138,7 +138,7 @@
         "#7F5F1A",
         "#7F5F1A",
         "#7F5F1A",
-        "black",
+        "rgba(127,95,26,0.3)",
         "#7F5F1A",
         "#7F5F1A",
         "#7F5F1A",
@@ -148,38 +148,38 @@
       "data": [
         [
           "Erwerb",
-          345257173
+          384091656
         ],
         [
           "Versicherung",
-          2479842
+          2895164
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          90403220
+          88694108
         ],
         [
           "Grenzgänger aus Frankreich",
-          73950933
+          75560864
         ],
         [
           "Künstler, Sport",
-          1452419
+          680725
         ],
         [
           "Verwaltungsräte",
-          20983520
+          21307154
         ],
         [
           "Renten",
-          3173356
+          3323633
         ],
         [
           "Kapitalleistungen",
-          31938963
+          32090701
         ]
       ],
-      "name": "Ertrag 2019",
+      "name": "Quellensteuerertrag 2020",
       "turboThreshold": 0
     },
     {
@@ -194,38 +194,38 @@
       "data": [
         [
           "Erwerb",
-          21195
+          23111
         ],
         [
           "Versicherung",
-          1763
+          1836
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          22022
+          23273
         ],
         [
           "Grenzgänger aus Frankreich",
-          20995
+          20357
         ],
         [
           "Künstler, Sport",
-          1455
+          1669
         ],
         [
           "Verwaltungsräte",
-          170
+          161
         ],
         [
           "Renten",
-          1241
+          1057
         ],
         [
           "Kapitalleistungen",
-          5533
+          5720
         ]
       ],
-      "name": "Veranlagungen 2010 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2011 (rechte Skala)",
       "turboThreshold": 0
     },
     {
@@ -240,38 +240,38 @@
       "data": [
         [
           "Erwerb",
-          34267
+          34311
         ],
         [
           "Versicherung",
-          2326
+          2498
         ],
         [
           "Grenzgänger Deutschland u.a.",
-          24806
+          23315
         ],
         [
           "Grenzgänger aus Frankreich",
-          22624
+          22340
         ],
         [
           "Künstler, Sport",
-          2449
+          1257
         ],
         [
           "Verwaltungsräte",
-          529
+          445
         ],
         [
           "Renten",
-          1592
+          1665
         ],
         [
           "Kapitalleistungen",
-          8706
+          8457
         ]
       ],
-      "name": "Veranlagungen 2019 (rechte Skala)",
+      "name": "Anzahl Veranlagungen 2020 (rechte Skala)",
       "turboThreshold": 0
     }
   ],
@@ -360,7 +360,7 @@
     "text": "Quellensteuerertrag nach Status"
   },
   "subtitle": {
-    "text": "in Franken, Basel-Stadt, 2010 und 2019",
+    "text": "in Franken, Basel-Stadt, 2011 und 2020",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -417,6 +417,9 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
+    "width": 450,
+    "itemWidth": 180,
+    "itemDistance": 0,
     "labelFormatter": function(){
     	return this.name.replace(' (', '<br/>(');
   	}
@@ -440,9 +443,10 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
   },
   "tooltip": {
+    "headerFormat": "\u003Cspan style=\"font-size: 10px\"\u003E {point.key}\u003C\u002Fspan\u003E\u003Cbr\u002F\u003E",
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
     "shared": false
   },
