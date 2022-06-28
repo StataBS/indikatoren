@@ -13,16 +13,17 @@
       }
     },
 
-    "xAxis": {
-      "type": "category",
-      "labels": {
-        y: 3,
-        step: 1,
+    xAxis: {
+      type: "category",
+      labels: {
         rotation: 0,
+        y: 3,
+        x: -5,
+        padding: 0,
+        step: 1,
         formatter: function () {
           return this.value.replace("und", "u.");
         },
-
       }
     },
     "yAxis": {

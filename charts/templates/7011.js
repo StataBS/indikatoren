@@ -3,7 +3,7 @@
   plotOptions: {
         series: {
         	"stacking": "normal",
-        	 pointWidth: 30,
+        	   pointWidth: 30,
              groupPadding: 0.1,
              borderWidth: 0,
         }
@@ -30,15 +30,16 @@
     "layout": "vertical",
     "verticalAlign": "top",
     "align": "right",
-    itemMarginTop: 0.3,
-    itemMarginBottom: 0.3,
+    itemMarginTop: 0,
+    itemMarginBottom: 1,
     labelFormatter: function(){
       return this.name
         .replace("Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)", "Öffentl. Verw., Sozialvers. (inkl. staatl. Schulen)")
         ;
     },
     "itemStyle": {
-    "fontWeight": "normal"
+    "fontWeight": "normal",
+    fontSize: "9px",  
     }
   },
 

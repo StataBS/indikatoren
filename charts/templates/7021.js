@@ -12,7 +12,7 @@
      }
   },
   "yAxis": {
-    tickAmount: 9,
+    tickAmount: 10,
 	"labels": {
 		"format": "{value:,.0f}",
 		"formatter": function(){

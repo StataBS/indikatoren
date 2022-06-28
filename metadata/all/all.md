@@ -1469,7 +1469,7 @@ id | visible | visibleInPortal | indikatorenset
 8291 | true | true | CMS Kennzahlen Soziales
 8292 | true | true | CMS Kennzahlen Soziales
 8293 | true | true | CMS Kennzahlen Soziales
-8294 | true | true | CMS Kennzahlen Soziales
+8294 | true | false | CMS Kennzahlen Soziales
 8314 | true | true | CMS Kennzahlen Soziales
 8315 | true | true | CMS Kennzahlen Soziales
 8316 | true | true | CMS Kennzahlen Soziales
@@ -2039,6 +2039,28 @@ id | visible | visibleInPortal | indikatorenset
 9294 | true | true | Soziales
 9295 | true | true | Soziales
 9298 | true | false | Soziales
+9315 | true | false | Steuern (Print)
+9316 | true | false | Steuern (Print)
+9317 | true | false | Steuern (Print)
+9318 | true | false | Steuern (Print)
+9319 | true | false | Steuern (Print)
+9320 | true | false | Steuern (Print)
+9321 | true | false | Steuern (Print)
+9322 | true | false | Steuern (Print)
+9323 | true | false | Steuern (Print)
+9324 | true | false | Steuern (Print)
+9325 | true | false | Steuern (Print)
+9326 | true | false | Steuern (Print)
+9327 | true | false | Steuern (Print)
+9328 | true | false | Steuern (Print)
+9329 | true | false | Steuern (Print)
+9330 | true | false | Steuern (Print)
+9331 | true | false | Steuern (Print)
+9332 | true | false | Steuern (Print)
+9333 | true | false | Steuern (Print)
+9334 | true | false | Steuern (Print)
+9335 | true | false | Steuern (Print)
+9336 | true | false | Leerstand (Print)
 9346 | true | true | 
 9359 | true | false | 
 9360 | true | false | 
@@ -2132,6 +2154,10 @@ id | visible | visibleInPortal | indikatorenset
 9492 | true | true | Arbeitsmarkt
 9493 | true | true | Arbeitsmarkt
 9507 | true | true | Umwelt
+9508 | true | false | Arbeitsmarkt (Print)
+9509 | true | false | Arbeitsmarkt (Print)
+9510 | true | false | Arbeitsmarkt (Print)
+9511 | true | false | Arbeitsmarkt (Print)
 9625 | true | true | 
 9995 | true | false | 
 9996 | true | false | 

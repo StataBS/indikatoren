@@ -33,13 +33,16 @@
       },
     },
     "legend": {
-      itemDistance: 0,
-      padding: 0,
-      symbolPadding: 0,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "align": "right",
+      padding: 1,
+      itemDistance: 8,
+      x: -30,
+      //"align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      },
       labelFormatter: function () {
         return this.name.replace("und", "u.");
       },

@@ -9,10 +9,8 @@
     },
     "yAxis": {
       tickAmount: 5,
-      labels: {
-        formatter: function(){
-          return Highcharts.numberFormat(this.value, 1);
-        }
+      "labels": {
+        format: "{value:,.0f}%"
       },
       /*tickInterval: 20,*/
       "min": 0,

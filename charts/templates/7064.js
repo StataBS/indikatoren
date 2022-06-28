@@ -3,7 +3,7 @@
     plotOptions: {
       series: {
         "stacking": "percent",
-        groupPadding: 0.2,
+        pointPadding: 0.2,
         borderWidth: 0,
       }
     },

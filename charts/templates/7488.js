@@ -26,38 +26,14 @@
       }
     },
     "min": 0,
-    tickAmount: 8,
+    tickAmount: 7,
   },
-  {
-      gridLineColor: '#B9CFD7', 
-      gridLineWidth: 0.5,
-      lineColor: '#B9CFD7', 
-    "title": {
-      "style": {
-        "color": "#000000",
-        "fontSize": null
-      },
-      "text": null
-    },
-    "labels": {
-      "format": "{value:,.0f}",
-      "style": {
-        "color": "#000000",
-        fontSize: "10px"
-      }
-    },
-    "min": 0,
-    "max": undefined,
-    tickAmount: 6,
-    tickInterval: 20,
-    "opposite": true
-  }
   ],
   "xAxis": {
     "tickInterval": 4,
      "type": "category",
      labels:{
-       x: 11,
+       x: 10.5,
        rotation: 0,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
@@ -69,7 +45,6 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     "align": "left",
-		//"y": 35,
     "itemStyle": {
       "fontWeight": "normal"
     }

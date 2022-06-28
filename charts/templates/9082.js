@@ -19,11 +19,11 @@
   },
   xAxis: {
     //type: "category",
-    min: 2011,
-    max: 2020,
+    //min: 2011,
+    //max: 2020,
     tickInterval: 1,
-    endOnTick: true,
-    startOnTick: true,
+    endOnTick: false,
+    startOnTick: false,
   },
   legend: {
     enabled: true,

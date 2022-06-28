@@ -30,18 +30,20 @@
   {"color": "#9f7c5a"}, /*Afrikanische Länder*/
   {"color": "#999999"}, /*Übrige Länder*/
   ],
-   "legend": {
+  "legend": {
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
     padding: 1,
+    itemDistance: 8,
     "align": "left",
     "itemStyle": {
       "fontWeight": "normal"
-    }, 
-    labelFormatter: function(){
-      return this.name.replace("&", "u.");
     },
+    labelFormatter: function () {
+      return this.name.replace("und", "u.");
+    },
+
   },
   "plotOptions": {
     "line": {

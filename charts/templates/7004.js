@@ -22,7 +22,7 @@ global Highcharts
   	"type": "category",
     "tickInterval": 4,
      labels:{
-          x: 11,
+         x: 11,
          rotation: 0,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
@@ -30,7 +30,6 @@ global Highcharts
      }  
   },
  "legend": { 
-     //y: 45,
      width: 320,
      itemWidth: 137,
      itemDistance: 0,
@@ -41,7 +40,8 @@ global Highcharts
     "align": "left",
     "itemStyle": {
     "fontWeight": "normal",
-    "fontSize": "9px"
+    "fontSize": "9px",
+    textOverflow: "none"
     }
   },
 

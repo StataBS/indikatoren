@@ -2,7 +2,6 @@
     return {
   "plotOptions": {
     "series": {
-      //"pointWidth": 25,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -36,7 +35,6 @@
     symbolPadding: 0,
     margin: 1,
     width: 105,
-    
     "itemStyle": {
       fontSize: "9px",
       textOverflow: null,
