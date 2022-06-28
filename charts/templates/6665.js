@@ -29,7 +29,16 @@
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "align": "left"
-    }
+      padding: 1,
+      itemDistance: 8,
+      "align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      },
+      labelFormatter: function () {
+        return this.name.replace("und", "u.");
+      },
+
+    },
   };
 }());

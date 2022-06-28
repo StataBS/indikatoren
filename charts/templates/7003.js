@@ -13,7 +13,8 @@ global Highcharts
         }
   },
   "yAxis": {
-      tickAmount: 8,
+      tickAmount: 7,
+      max: 6000,
           
     "labels": {
       "format": "{value:,.0f}",
@@ -37,7 +38,7 @@ global Highcharts
     "align": "left",
     width: 340,
    // itemWidth: 150,
-    margin: 20,
+   // margin: 20,
     itemMarginBottom: 0,
     labelFormatter: function(){
       return this.name

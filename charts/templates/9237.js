@@ -1,6 +1,7 @@
 (function(){
     return {
     "yAxis": [{
+    offset: -5,
     "labels": {
       "format": "{value:,.0f}",
       "formatter": function(){
@@ -17,6 +18,7 @@
     "title": "", 
   },
   {
+    offset: -5,
     "title": {
       "style": {
         "color": "#000000",
@@ -43,7 +45,7 @@
      "type": "category",
      labels:{
        rotation: 0,
-       x: 20,
+       x: 12,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);
 		},

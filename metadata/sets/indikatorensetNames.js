@@ -42,5 +42,6 @@ var indikatorensetNames = [
 	"Bevoelkerungsszenarien (Print)",
 	"Leerstand (Print)",
 	"Staedtevergleich",
+	"Steuern (Print)",
 	"Test"
 ];

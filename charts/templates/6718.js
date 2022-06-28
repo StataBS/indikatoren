@@ -9,18 +9,18 @@
         "colorByPoint": true
     }
   },
- "xAxis": {
+  "xAxis": {
     "type": "category",
     "labels": {
+      padding: -100,
       x: -5,
-      step: 1,
       y: 3,
-      rotation: 0,
-      formatter: function(){
-    	  return this.value.replace("und", "u.");	
-      },
-      
-    } 
+      step: 1,
+      "rotation": 0,
+      formatter: function () {
+        return this.value.replace('und EFTA', '+ EFTA').replace("und","u.");
+      }  
+    }
   },
   "yAxis": {
     tickInterval: 0.5,
@@ -53,10 +53,10 @@
     "verticalAlign": "top",
     "align": "left",
     "x": 35,
-	  //"y": 35,    
+    //"y": 35,    
     "itemStyle": {
       "fontWeight": "normal"
-    }
+    },
   },
    tooltip: {
     headerFormat: '<span style="font-size: 10px">{series.name}</span><br/>',

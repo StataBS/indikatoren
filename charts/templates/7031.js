@@ -34,14 +34,16 @@
   "legend": {
     "enabled": true,
     //"y": 45,
-    itemWidth: 170,
+    itemWidth: 150,
+    itemDistance: 0,
     width: 340,
     "layout": "horizontal",
     "verticalAlign": "top",
     "itemMarginBottom": 5,
     "align": "left",
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+      textOverflow: "none"
     }
   },
   "plotOptions": {

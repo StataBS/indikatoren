@@ -18,7 +18,8 @@
     }
   },  
   "yAxis": {
-    tickAmount: 11,
+    tickAmount: 10,
+    max: 4500,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -32,11 +33,12 @@
     y: -15,
     "layout": "vertical",
     "verticalAlign": "middle",
-    "itemMarginBottom": 5,
+    "align": "right",
+    "itemMarginBottom": 1,
     "align": "right",
     symbolPadding: 0,
-    //margin: 1,
-    width: 105,
+    margin: 1,
+    width: 109,
     "itemStyle": {
       fontSize: "9px",
       textOverflow: "undefined",

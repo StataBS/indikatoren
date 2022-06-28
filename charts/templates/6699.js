@@ -34,17 +34,20 @@
       },
     },
     "legend": {
-      //x:-1,
-      itemDistance: 0,
-      padding: 0,
-      symbolPadding: 0,
       "enabled": true,
       "layout": "horizontal",
       "verticalAlign": "top",
-      "align": "left",
+      padding: 1,
+      itemDistance: 8,
+      x: -30,
+      //"align": "left",
+      "itemStyle": {
+        "fontWeight": "normal"
+      },
       labelFormatter: function () {
         return this.name.replace("und", "u.");
       },
+
     },
     "series": [
       { "color": "#B00000", index: 10, legendIndex: 0 }, /*Schweiz*/

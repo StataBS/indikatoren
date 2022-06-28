@@ -8,6 +8,7 @@
     }
   },
   "yAxis": [{
+      offset: -5,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       lineColor: '#B9CFD7', 
@@ -29,6 +30,7 @@
     tickAmount: 7,
   },
   {
+      offset: -5,
       gridLineColor: '#B9CFD7', 
       gridLineWidth: 0.5,
       lineColor: '#B9CFD7', 
@@ -49,7 +51,6 @@
     "min": 0,
     "max": undefined,
     tickAmount: 7,
-    tickInterval: 20,
     "opposite": true
   }
   ],
@@ -57,7 +58,7 @@
     "tickInterval": 4,
      "type": "category",
      labels:{
-       x: 11,
+       x: 10.5,
        rotation: 0,
      		"formatter": function() {
    			 return this.value.split("-").slice(0, -1);

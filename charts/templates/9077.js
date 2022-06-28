@@ -46,8 +46,8 @@
   ],
   "xAxis": {
     //type: "linear",
-    type: "category",
-  	tickInterval: 1,
+    //type: "category",
+  	//tickInterval: 1,
   },
   "legend": {
     "enabled": true,

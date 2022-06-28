@@ -119,7 +119,7 @@
               distance: -15,
               format: '{point.percentage:.0f}'+ "%",
               style: {
-                  fontSize: "9px", 
+                  fontSize: "10px", 
                   fontWeight: "normal",
                   color: "black", 
                   textOutline: "0px black"

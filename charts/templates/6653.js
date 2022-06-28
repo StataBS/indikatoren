@@ -17,6 +17,7 @@
       labels: {
         rotation: 0,
         y: 3,
+        x: -5,
         padding: 0,
         step: 1,
         formatter: function () {

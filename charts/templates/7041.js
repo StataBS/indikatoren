@@ -7,7 +7,6 @@
         "series": {  
             pointPadding: 0,
             borderWidth: 0,
-            //pointWidth: 10, 
           "dataLabels": {
             "style": {
               "fontSize": "10px"
@@ -16,7 +15,10 @@
         },
       },
       "xAxis": {
-        tickInterval: 1
+        tickInterval: 1,
+        labels:{
+          rotation: 0,
+        }
       },
       "yAxis": {
           max: 200000,
@@ -52,7 +54,6 @@
         itemWidth: 140, 
         itemDistance: 1,
         itemMarginBottom: 5,
-		    //"y": 35,    
         "itemStyle": {
           "fontWeight": "normal"
         }
@@ -61,9 +62,7 @@
         "type": "column"
       },
 	tooltip: {
-           //headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
-           pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
+            pointFormat: '<span style="color:{point.color}">●</span> {series.name}: <b>{point.y:,.0f}</b><br/>'    
             }
 	};
 }());
-// JavaScript File

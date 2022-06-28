@@ -37,16 +37,15 @@
     "layout": "horizontal",
     "verticalAlign": "top",
     padding: 1,
+    itemDistance: 8,
     "align": "left",
-    itemWidth: 120,
-  width: 250,
-  itemStyle: {
-    textOverflow: "none",
-    whiteSpace: "nowrap"
-  },
-     labelFormatter: function(){
-      return this.name.replace("&", "u.");
+    "itemStyle": {
+      "fontWeight": "normal"
     },
+    labelFormatter: function () {
+      return this.name.replace("und", "u.");
+    },
+
   },
   "plotOptions": {
     "line": {

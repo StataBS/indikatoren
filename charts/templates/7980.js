@@ -50,8 +50,8 @@
         "layout": "horizontal",
         "verticalAlign": "top",
         "align": "left",
-        itemWidth: 130,
-        itemDistance: 5,
+        itemWidth: 132,
+        itemDistance: 4,
         itemMarginBottom: 5,
 		    //"y": 35,    
         "itemStyle": {

@@ -1,9 +1,7 @@
 (function(){
     return {
   "plotOptions": {
-
     "series": {
-      //"pointWidth": 25,
       "dataLabels": {
         "style": {
           "fontSize": "9px"
@@ -19,7 +17,8 @@
     }
   },  
   "yAxis": {
-    tickAmount: 9,
+    tickAmount: 8,
+    max: 350,
     "labels": {
       "format": "{value:,.0f}"
     },
@@ -37,7 +36,7 @@
     "align": "right",
     symbolPadding: 0,
     margin: 1,
-    width: 120,
+    width: 100,
     labelFormatter: function(){
       return this.name
         .replace("Boden, Fliesen, Tapeziererei", "Boden, Fliesen, <br/>Tapeziererei")
@@ -52,20 +51,12 @@
   },
   "series": [
     {
-      "color": "#661200",
-      "legendIndex": 3     
-    },
-    {
-      "color": "#B00000",
-      "legendIndex": 2     
-    },
-    {
       "color": "#FF8028",
-      "legendIndex": 1     
+      "legendIndex": 1
     },
     {
       "color": "#FABD24",
-      "legendIndex": 0     
+      "legendIndex": 0
     },
   ],
   "chart": {    

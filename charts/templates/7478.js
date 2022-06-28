@@ -2,7 +2,6 @@
     return {
   "plotOptions": {
     "series": {
-     // "pointWidth": 25,
       "dataLabels": {
         "style": {
           "fontSize": "10px"
@@ -33,11 +32,15 @@
   "legend": {
     "layout": "vertical",
     "verticalAlign": "top",
-    "itemMarginBottom": 2,
+    "itemMarginBottom": 1,
     "align": "right",
     symbolPadding: 0,
     margin: 1,
-    width: 120,
+    width: 109,
+    labelFormatter: function () {
+      return this.name.replace("Sonstiger", "Sonst.")
+      .replace("verschiedener", "versch.");
+    },
     "itemStyle": {
       fontSize: "9px",
       textOverflow: "undefined",

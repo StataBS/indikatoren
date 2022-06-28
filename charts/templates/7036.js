@@ -8,8 +8,8 @@
      },
   },
   "yAxis": {
-    min: 60,
-    max: 160,
+    min: 40,
+    max: 140,
     tickAmount: 11,
 	"labels": {
 		"format": "{value:,.0f}"
@@ -35,7 +35,8 @@
       return this.name.replace("Öffentliche Verwaltung, Sozialversicherungen (inkl. staatl. Bildungsinstitutionen)", "Öffentl. Verwaltung, Sozialvers. (inkl. staatl. Bildungsinst.)")
     },
     "itemStyle": {
-      "fontWeight": "normal"
+      "fontWeight": "normal",
+       textOverflow: "none"
     }
   },
   "plotOptions": {

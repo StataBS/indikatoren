@@ -47,7 +47,7 @@ yAxis: [
       },
       labels: {
         formatter: function(){
-          return Highcharts.numberFormat(this.value*100, 1) + "%";
+          return Highcharts.numberFormat(this.value*100, 2) + "%";
         },
           style: {
               color: "#000000"
@@ -116,7 +116,7 @@ series: [
       shared: true,
       headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
       pointFormatter: function(){ 
-          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+          return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
       }
     },
 },
@@ -142,7 +142,7 @@ series: [
     shared: true,
     headerFormat: '<span style="font-size: 10px"> {point.key}</span><br/>',
     pointFormatter: function(){ 
-        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 1, ",", " ") + '%</b><br/>';
+        return '<span style="color:' + this.color + '">●</span> ' + this.series.name + ': <b>' + Highcharts.numberFormat(100 * this.y, 2, ",", " ") + '%</b><br/>';
     }
   }
 },

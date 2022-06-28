@@ -2094,45 +2094,41 @@ var indikatorensetData = [
 		"id": 8293
 	},
 	{
+		"template": "mappie001",
+		"data-id": 8294,
+		"chart-id": 8294,
+		"filter": "",
+		"parentId": "6382",
+		"children": [],
 		"title": "Reineinkommen",
-		"subtitle": "nach Wohnviertel, Basel-Stadt, 2017",
-		"kuerzel": "I.18.2.08294",
-		"kuerzelKunde": "3-03",
-		"description": "Reineinkommen",
-		"thema": "18 Öffentliche Finanzen",
-		"unterthema": "Steuern",
-		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"subtitle": "nach Wohnviertel, Basel-Stadt, 2019",
+		"lesehilfe": "Der höchste Median des Reineinkommens 2019 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 74 100 Franken. Mit ca. 36 500 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
+		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2018; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Steuerstatistik",
+			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel"
 		],
-		"aktualisierungsdatum": "2020-05-18T17:05:54.5454",
+		"description": "Reineinkommen",
+		"thema": "18 Öffentliche Finanzen",
+		"unterthema": "Steuern",
+		"kuerzel": "I.18.2.08294",
+		"kennzahlenset": "CMS Kennzahlen Soziales",
+		"kuerzelKunde": "3-03",
 		"stufe1": "Sozialer Zusammenhalt",
 		"stufe2": "3.1 Allgemein",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der höchste Median des Reineinkommens 2017 liegt in der Einwohnergemeinde Bettingen vor und beträgt rund 67 300 Franken. Mit ca. 36 200 Franken verzeichnet das Wohnviertel Klybeck den tiefsten Wert.",
-		"erlaeuterungen": "Daten aus der Ordentlichen Veranlagung der natürlichen Personen in Basel-Stadt, Steuerjahr 2017; ohne Wochenaufenthalter, Unterjährige und Auswärtige. Eine Veranlagung kann zwei Personen umfassen. In Basel-Stadt wohnhafte Quellenbesteuerte mit Einkünften von unter 120 000 Franken pro Kalenderjahr sind in der Regel in den Auswertungen nicht erfasst.",
-		"template": "mappie001",
+		"orderKey": "03_01_00_00_00_303",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "03_01_00_00_00_303",
-		"parentId": 6382,
-		"children": [],
-		"renderLink": [
-			"6382"
-		],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Steuerstatistik",
-			"Kartengrundlage: Geodaten Kanton Basel-Stadt"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8294,
-		"chart-id": 8294,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-28T11:00:44",
 		"id": 8294
 	},
 	{
