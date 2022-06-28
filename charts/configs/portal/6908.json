@@ -7,7 +7,7 @@
       "data": [
         [
           "Veranlagungen",
-          81276
+          81655
         ],
         [
           "Summe Vermögenssteuer",
@@ -24,11 +24,11 @@
       "data": [
         [
           "Veranlagungen",
-          15246
+          15250
         ],
         [
           "Summe Vermögenssteuer",
-          4152338
+          4195241
         ]
       ],
       "name": "1 bis 199 999",
@@ -41,11 +41,11 @@
       "data": [
         [
           "Veranlagungen",
-          8090
+          8008
         ],
         [
           "Summe Vermögenssteuer",
-          10951656
+          11066449
         ]
       ],
       "name": "200 000 bis 499 999",
@@ -58,11 +58,11 @@
       "data": [
         [
           "Veranlagungen",
-          5181
+          5228
         ],
         [
           "Summe Vermögenssteuer",
-          17833141
+          18259103
         ]
       ],
       "name": "500 000 bis 999 999",
@@ -75,11 +75,11 @@
       "data": [
         [
           "Veranlagungen",
-          3510
+          3673
         ],
         [
           "Summe Vermögenssteuer",
-          26124094
+          27556002
         ]
       ],
       "name": "1 bis 1,999 Mio.",
@@ -92,11 +92,11 @@
       "data": [
         [
           "Veranlagungen",
-          3101
+          3374
         ],
         [
           "Summe Vermögenssteuer",
-          195387610
+          280888741
         ]
       ],
       "name": "2 Mio. u.m.",
@@ -189,7 +189,7 @@
       "color": "#000000"
     },
     "align": "left",
-    "text": "in Franken, Basel-Stadt, 2018"
+    "text": "in Franken, Basel-Stadt, 2019"
   },
   "navigation": {
     "menuItemStyle": {
@@ -250,7 +250,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 2021-8-10"
+    "text": "Quelle: Steuerstatistik Basel-Stadt.\u003Cbr\u002F\u003EZuletzt geändert: 28.6.2022"
   },
   "legend": {
     "layout": "vertical",

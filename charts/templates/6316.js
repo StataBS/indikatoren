@@ -52,7 +52,7 @@
         tooltip: {
           pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
         }
-      }, 
+      },
       {
         color: "#8B2223",
         type: "column",
@@ -84,7 +84,10 @@
       //pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> Tonnen ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total CO<sub>2</sub> Emissionen: <b>{point.total:,.0f}</b> Tonnen',
       //shared: false,
       useHTML: true,
-      outside: true
+      outside: true,
+      style: {
+        zIndex: 2000
+      }
     },
 
     legend: {
