@@ -1,0 +1,493 @@
+{
+  "series": [
+    {
+      "color": "#E7CEE2",
+      "stack": 0,
+      "data": [
+        [
+          "2012",
+          83850
+        ],
+        [
+          "2013",
+          28184
+        ],
+        [
+          "2014",
+          65363
+        ],
+        [
+          "2015",
+          91678
+        ],
+        [
+          "2016",
+          63857
+        ],
+        [
+          "2017",
+          54317
+        ],
+        [
+          "2018",
+          139818
+        ],
+        [
+          "2019",
+          193635
+        ],
+        [
+          "2020",
+          109692
+        ]
+      ],
+      "name": "W. gebaut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FFDA80",
+      "stack": 0,
+      "data": [
+        [
+          "2012",
+          2083
+        ],
+        [
+          "2013",
+          75249
+        ],
+        [
+          "2014",
+          49909
+        ],
+        [
+          "2015",
+          45772
+        ],
+        [
+          "2016",
+          207061
+        ],
+        [
+          "2017",
+          90757
+        ],
+        [
+          "2018",
+          54027
+        ],
+        [
+          "2019",
+          60407
+        ],
+        [
+          "2020",
+          54955
+        ]
+      ],
+      "name": "NW. gebaut",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#B375AB",
+      "showInLegend": "false",
+      "stack": 0,
+      "data": [
+        [
+          "2012",
+          -5765
+        ],
+        [
+          "2013",
+          -14183
+        ],
+        [
+          "2014",
+          -7745
+        ],
+        [
+          "2015",
+          -25537
+        ],
+        [
+          "2016",
+          -15710
+        ],
+        [
+          "2017",
+          -6772
+        ],
+        [
+          "2018",
+          -19788
+        ],
+        [
+          "2019",
+          -26867
+        ],
+        [
+          "2020",
+          -15339
+        ]
+      ],
+      "name": "W. abgebrochen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#FABD24",
+      "showInLegend": "false",
+      "stack": 0,
+      "data": [
+        [
+          "2012",
+          -15393
+        ],
+        [
+          "2013",
+          -4251
+        ],
+        [
+          "2014",
+          -35531
+        ],
+        [
+          "2015",
+          -15644
+        ],
+        [
+          "2016",
+          -69097
+        ],
+        [
+          "2017",
+          -24488
+        ],
+        [
+          "2018",
+          -57870
+        ],
+        [
+          "2019",
+          -26042
+        ],
+        [
+          "2020",
+          -22318
+        ]
+      ],
+      "name": "NW. abgebrochen",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#923F8D",
+      "type": "line",
+      "stack": 1,
+      "data": [
+        [
+          "2012",
+          78085
+        ],
+        [
+          "2013",
+          14001
+        ],
+        [
+          "2014",
+          57618
+        ],
+        [
+          "2015",
+          66141
+        ],
+        [
+          "2016",
+          48147
+        ],
+        [
+          "2017",
+          47545
+        ],
+        [
+          "2018",
+          120030
+        ],
+        [
+          "2019",
+          166768
+        ],
+        [
+          "2020",
+          94353
+        ]
+      ],
+      "name": "Wohnen Saldo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#CD9C00",
+      "type": "line",
+      "stack": 2,
+      "data": [
+        [
+          "2012",
+          -13310
+        ],
+        [
+          "2013",
+          70998
+        ],
+        [
+          "2014",
+          14378
+        ],
+        [
+          "2015",
+          30128
+        ],
+        [
+          "2016",
+          137964
+        ],
+        [
+          "2017",
+          66269
+        ],
+        [
+          "2018",
+          -3843
+        ],
+        [
+          "2019",
+          34365
+        ],
+        [
+          "2020",
+          32637
+        ]
+      ],
+      "name": "Nichtwohnen Saldo",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#3C3C3C",
+      "type": "line",
+      "stack": 3,
+      "data": [
+        [
+          "2012",
+          64775
+        ],
+        [
+          "2013",
+          84999
+        ],
+        [
+          "2014",
+          71996
+        ],
+        [
+          "2015",
+          96269
+        ],
+        [
+          "2016",
+          186111
+        ],
+        [
+          "2017",
+          113814
+        ],
+        [
+          "2018",
+          116187
+        ],
+        [
+          "2019",
+          201133
+        ],
+        [
+          "2020",
+          126990
+        ]
+      ],
+      "name": "Total Saldo",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000",
+        "textOverflow": "none"
+      }
+    },
+    "tickPositioner": function () {
+    var maxlabels = 10,
+      ext = this.getExtremes(),
+      i = Math.round(ext.max),
+      interval = Math.round((i - ext.min)/maxlabels),
+      pos = [i];
+    while (i >= ext.min) pos.unshift(i = i - interval);
+    return pos;
+  }
+  },
+  "chart": {
+    "type": "column",
+    "width": 485,
+    "height": 428,
+    "spacingBottom": 55,
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+					this.credits.element.onclick = function () { };
+
+					//for top-left legends with no x defined: move legend to x position of first yAxis
+					if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+						this.update(
+							{
+								legend: {
+									x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+								}
+							}
+						);
+					}
+				}
+    },
+    "marginRight": 25,
+    "renderTo": "container-9624"
+  },
+  "plotOptions": {
+    "series": {
+      "marker": {
+        "enabled": false
+      },
+      "stacking": "normal",
+      "pointPadding": 0,
+      "borderWidth": 0,
+      "pointWidth": 30
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Veränderung der Energiebezugsfläche"
+  },
+  "subtitle": {
+    "text": "in Quadratmeter, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "min": -100000,
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    }
+  },
+  "legend": {
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left",
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "itemWidth": 190,
+    "itemMarginBottom": 5
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
+  },
+  "customFunctions": {
+    "optimalAxisLabelDecimals": function (axis, formatString) {
+
+				//see https://forum.highcharts.com/highcharts-usage/how-to-have-all-yaxis-labels-show-same-number-of-decimals-t40826/ 
+				//function checks how many decimal places has a number
+				var countDecimals = function (value) {
+					if ((value % 1) != 0)
+						return value.toString().split(".")[1].length;
+					return 0;
+				};
+
+				var ticks = axis.tickPositions;
+				var howManyDecimals = 0;
+
+				//loop looks for the the largest number of decimal places
+				ticks.forEach(function (tick) {
+					if (countDecimals(tick) > howManyDecimals) {
+						howManyDecimals = countDecimals(tick);
+					}
+				});
+
+				//update labels so they have the same number of decimal places
+				axis.chart.update({
+					yAxis: [{
+						labels: {
+							//format: '{value:,.' + howManyDecimals + 'f}',
+							format: formatString.replace('howManyDecimals', howManyDecimals),
+						}
+					}, {
+						//second yAxis, if present
+					}]
+				}, true, true);
+			}
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E m\u003Csup\u003E2 \u003C\u002Fsup\u003E \u003Cbr\u002F\u003E",
+    "shared": false,
+    "useHTML": true
+  },
+  "exporting": {
+    "filename": "9624"
+  }
+}

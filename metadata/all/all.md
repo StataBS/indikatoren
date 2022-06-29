@@ -2158,7 +2158,27 @@ id | visible | visibleInPortal | indikatorenset
 9509 | true | false | Arbeitsmarkt (Print)
 9510 | true | false | Arbeitsmarkt (Print)
 9511 | true | false | Arbeitsmarkt (Print)
+9614 | true | true | Energiestatistik
+9615 | true | true | Energiestatistik
+9617 | true | true | Energiestatistik
+9618 | true | true | Energiestatistik
+9619 | true | true | Energiestatistik
+9620 | true | true | Energiestatistik
+9622 | true | true | Energiestatistik
+9623 | true | true | Energiestatistik
+9624 | true | true | Energiestatistik
 9625 | true | true | 
+9636 | true | false | Energiestatistik (Print)
+9641 | true | false | Energiestatistik (Print)
+9643 | true | false | Energiestatistik (Print)
+9646 | true | false | Energiestatistik (Print)
+9647 | true | false | Energiestatistik (Print)
+9648 | true | false | Energiestatistik (Print)
+9649 | true | false | Energiestatistik (Print)
+9650 | true | false | Energiestatistik (Print)
+9651 | true | false | Energiestatistik (Print)
+9654 | true | false | Energiestatistik (Print)
+9655 | true | false | Energiestatistik (Print)
 9995 | true | false | 
 9996 | true | false | 
 9997 | true | false | 

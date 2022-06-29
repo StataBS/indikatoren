@@ -1,0 +1,339 @@
+{
+  "series": [
+    {
+      "color": "#FF8028",
+      "type": "column",
+      "data": [
+        [
+          "2010",
+          503.116594
+        ],
+        [
+          "2012",
+          443.12365626
+        ],
+        [
+          "2014",
+          353.12950264
+        ],
+        [
+          "2016",
+          258.23841724
+        ],
+        [
+          "2018",
+          215.70116311
+        ],
+        [
+          "2020",
+          198.34706706
+        ]
+      ],
+      "name": "Heizöl",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#DC440E",
+      "type": "column",
+      "data": [
+        [
+          "2010",
+          1262.9277103
+        ],
+        [
+          "2012",
+          1157.7843572
+        ],
+        [
+          "2014",
+          983.79301066
+        ],
+        [
+          "2016",
+          932.60845667
+        ],
+        [
+          "2018",
+          692.60280622
+        ],
+        [
+          "2020",
+          694.91957457
+        ]
+      ],
+      "name": "Erdgas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#9E7C59",
+      "type": "column",
+      "data": [
+        [
+          "2010",
+          416.166948
+        ],
+        [
+          "2012",
+          405.048215
+        ],
+        [
+          "2014",
+          393.917677
+        ],
+        [
+          "2016",
+          378.591486
+        ],
+        [
+          "2018",
+          359.370153
+        ],
+        [
+          "2020",
+          224.836548
+        ]
+      ],
+      "name": "Benzin",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#C4AB91",
+      "type": "column",
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+        "footerFormat": "Total Endverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh"
+      },
+      "data": [
+        [
+          "2010",
+          397.66955678
+        ],
+        [
+          "2012",
+          351.14480156
+        ],
+        [
+          "2014",
+          373.994309
+        ],
+        [
+          "2016",
+          389.281783
+        ],
+        [
+          "2018",
+          398.445491
+        ],
+        [
+          "2020",
+          313.336111
+        ]
+      ],
+      "name": "Diesel",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#000000",
+      "type": "line",
+      "yAxis": 1,
+      "marker": {
+        "enabled": false
+      },
+      "tooltip": {
+        "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f}\u003C\u002Fb\u003E%\u003Cbr\u002F\u003E"
+      },
+      "data": [
+        [
+          "2010",
+          46.299649106
+        ],
+        [
+          "2012",
+          45.119943999
+        ],
+        [
+          "2014",
+          44.653853817
+        ],
+        [
+          "2016",
+          41.622813203
+        ],
+        [
+          "2018",
+          38.993030106
+        ],
+        [
+          "2020",
+          34.923057185
+        ]
+      ],
+      "name": "Anteil am Endenergieverbrauch (rechte Skala)",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9617",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 0,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "pointWidth": 30,
+      "stacking": "true"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "useHTML": true,
+    "text": "Endenergieverbrauch von fossilen Energieträgern"
+  },
+  "subtitle": {
+    "text": "in GWh, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": [
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "tickAmount": 4
+    },
+    {
+      "title": {
+        "text": null
+      },
+      "labels": {
+        "format": "{value:,.0f}%",
+        "style": {
+          "color": "black"
+        }
+      },
+      "min": 0,
+      "tickAmount": 4,
+      "opposite": true
+    }
+  ],
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal",
+      "textOverflow": "none",
+      "whiteSpace": "nowrap"
+    },
+    "useHTML": true,
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "itemMarginBottom": 5,
+    "align": "left",
+    "itemWidth": 150,
+    "width": 300
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f}\u003C\u002Fb\u003E GWh ({point.percentage:.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total Endverbrauch: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E GWh",
+    "shared": true,
+    "useHTML": true,
+    "outside": true,
+    "style": {
+      "zIndex": 2000
+    }
+  },
+  "exporting": {
+    "filename": "9617"
+  }
+}

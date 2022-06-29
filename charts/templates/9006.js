@@ -1,73 +1,110 @@
-(function(){
-    return {
-  plotOptions: {
-    series: {
-      dataLabels: {
-        style: {
-          fontSize: "10px"
-        }
+(function () {
+  return {
+    title: {
+      useHTML: true
+    },
+    plotOptions: {
+      series: {
+        borderWidth: 0,
+        pointWidth: 30,
+        dataLabels: {
+          style: {
+            fontSize: "10px"
+          }
+        },
+        stacking: "true"
+      }
+    },
+    xAxis: {
+      type: "category",
+    },
+    yAxis: [{
+      title: {
+        text: null
       },
-      stacking: "normal",
-    }
-  },
-  xAxis: {
-    type: "category"    
-  },  
-  yAxis: {
-    tickAmount: 7,
-    //max: 1800,
-    min: 0,
       labels: {
-      format: "{value:,.0f}"
+        format: "{value:,.0f}",
+        style: {
+          color: "black"
+        },
+      },
+      min: 0,
+      tickAmount: 4
     },
-    reversedStacks: true
-  },
-  tooltip: {
-    pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y} GWh</b> ({point.percentage:,.1f}%)<br/>',
-    footerFormat: 'Total: <b>{point.total:,.0f} GWh</b><br/>'
- },
-  legend: {
-    enabled: true,
-    layout: "horizontal",
-    verticalAlign: "top",
-    align: "left",
-    //alignColumns: false,
-    //itemWidth: 300,
-    itemDistance: 10,
-    itemStyle: {
-      fontWeight: "normal"
+    {
+      title: {
+        text: null
+      },
+      labels: {
+        format: "{value:,.0f}%",
+        style: {
+          color: "black"
+        },
+      },
+      min: 0,
+      tickAmount: 4,
+      opposite: true
     }
-  },
-  series: [
-    {
-      color: "#DC440E",
-      legendIndex: 0     
+    ],
+    series: [
+      {
+        color: "#B375AB",
+        type: "column"
+      }, 
+      {
+        color: "#689199",
+        type: "column"
+      },
+      {
+        color: "#D7E8D2",
+        type: "column"
+      },
+      {
+        color: "#73B97C",
+        type: "column"
+      },
+      {
+        color: "#000000",
+        type: "line",
+        yAxis: 1,
+        marker: {
+          enabled: false
+        },
+        tooltip: {
+          pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.1f}</b>%<br/>',
+        }
+      }
+    ],
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y:,.0f}</b> GWh ({point.percentage:.1f}%)<br/>', "footerFormat": 'Total Endverbrauch: <b>{point.total:,.0f}</b> GWh',
+      shared: true,
+      useHTML: true,
+      outside: true,
+      style: {
+        zIndex: 2000
+      }
     },
-    {
-      color:  "#FF8028", 
-      legendIndex: 1
+
+    legend: {
+      useHTML: true,
+      enabled: true,
+      layout: "horizontal",
+      verticalAlign: "top",
+      itemMarginBottom: 5,
+      align: "left",
+      itemWidth: 150,
+      width: 300,
+      itemStyle: {
+        fontWeight: "normal",
+        textOverflow: "none",
+        whiteSpace: "nowrap"
+
+      }
     },
-	  {
-      color:  "#A8C3CA", 
-      legendIndex: 2     
-    },
-    {
-      color:"#689199", 
-      legendIndex: 3
-    },
-    {
-      color:"#246370", 
-      legendIndex: 4
-    }/*,
-    {
-      color:"#083038", 
-      legendIndex: 5
-    }*/
-  ],
-  chart: {    
-    /*marginBottom: 75,
-    marginTop: 75,*/
-    type: "column"
-  }
-	}
+    chart: {
+      //"marginBottom": 75,
+      //"marginTop": 75,
+      type: "column"
+    }
+  };
 }());

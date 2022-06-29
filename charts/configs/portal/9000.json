@@ -1,311 +1,220 @@
 {
   "series": [
     {
-      "color": "#A8C3CA",
-      "legendIndex": 0,
+      "color": "#FF8028",
       "data": [
         [
-          "1995",
-          1666
-        ],
-        [
-          "2000",
-          1459
-        ],
-        [
-          "2004",
-          1189
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2010",
-          549.46
+          549.45872802
         ],
         [
           "2012",
-          478.83
+          478.82687971
         ],
         [
           "2014",
-          394.41
+          394.40897289
         ],
         [
           "2016",
-          302.8
+          302.80371524
         ],
         [
           "2018",
-          273.02
+          273.02334711
+        ],
+        [
+          "2020",
+          254.43051378
         ]
       ],
       "name": "Heizöl",
       "turboThreshold": 0
     },
     {
-      "color": "#689199",
-      "legendIndex": 1,
+      "color": "#DC440E",
       "data": [
         [
-          "1995",
-          629
-        ],
-        [
-          "2000",
-          726
-        ],
-        [
-          "2004",
-          756
-        ],
-        [
-          " ",
-          null
-        ],
-        [
           "2010",
-          813.84
+          1953.2763303
         ],
         [
           "2012",
-          756.19
+          1709.385958
         ],
         [
           "2014",
-          767.91
+          1412.120245
         ],
         [
           "2016",
-          767.87
+          1444.2696648
         ],
         [
           "2018",
-          757.82
-        ]
-      ],
-      "name": "Treibstoffe",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#246370",
-      "legendIndex": 2,
-      "data": [
-        [
-          "1995",
-          1911
+          1302.403626
         ],
         [
-          "2000",
-          1855
-        ],
-        [
-          "2004",
-          2019
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2010",
-          1961.02
-        ],
-        [
-          "2012",
-          1717.32
-        ],
-        [
-          "2014",
-          1420.1
-        ],
-        [
-          "2016",
-          1475.82
-        ],
-        [
-          "2018",
-          1336.41
+          "2020",
+          1239.129465
         ]
       ],
       "name": "Erdgas",
       "turboThreshold": 0
     },
     {
-      "color": "#FF8028",
-      "legendIndex": 3,
-      "data": [
-        [
-          "1995",
-          1413
-        ],
-        [
-          "2000",
-          1457
-        ],
-        [
-          "2004",
-          1572
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2010",
-          1254.74
-        ],
-        [
-          "2012",
-          1121.7
-        ],
-        [
-          "2014",
-          978.38
-        ],
-        [
-          "2016",
-          974.61
-        ],
-        [
-          "2018",
-          912.03
-        ]
-      ],
-      "name": "Elektrizität",
-      "turboThreshold": 0
-    },
-    {
-      "color": "#DC440E",
-      "legendIndex": 4,
-      "data": [
-        [
-          "1995",
-          643
-        ],
-        [
-          "2000",
-          665
-        ],
-        [
-          "2004",
-          568
-        ],
-        [
-          " ",
-          null
-        ],
-        [
-          "2010",
-          800.15
-        ],
-        [
-          "2012",
-          834.89
-        ],
-        [
-          "2014",
-          845.21
-        ],
-        [
-          "2016",
-          839.02
-        ],
-        [
-          "2018",
-          832.66
-        ]
-      ],
-      "name": "Abfall",
-      "turboThreshold": 0
-    },
-    {
       "color": "#B00000",
-      "legendIndex": 5,
       "data": [
         [
-          "1995",
-          null
-        ],
-        [
-          "2000",
-          null
-        ],
-        [
-          "2004",
-          null
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2010",
-          null
+          449.527804
         ],
         [
           "2012",
-          null
+          469.1767874
         ],
         [
           "2014",
-          null
+          473.2006668
         ],
         [
           "2016",
-          5.37
+          461.5393
         ],
         [
           "2018",
-          4.35
+          452.2819552
+        ],
+        [
+          "2020",
+          420.81897
         ]
       ],
-      "name": "Fern-\u002FNahwärme",
+      "name": "Kehricht und Industrieabfall (nicht erneuerbar)",
       "turboThreshold": 0
     },
     {
-      "color": "#661200",
-      "legendIndex": 6,
+      "color": "#B375AB",
       "data": [
         [
-          "1995",
-          228
-        ],
-        [
-          "2000",
-          221
-        ],
-        [
-          "2004",
-          251
-        ],
-        [
-          " ",
-          undefined
-        ],
-        [
           "2010",
-          382.82
+          1254.7354266
         ],
         [
           "2012",
-          445.56
+          1121.695894
         ],
         [
           "2014",
-          510.21
+          978.378343
         ],
         [
           "2016",
-          561.8
+          974.612639
         ],
         [
           "2018",
-          528.71
+          912.029764
+        ],
+        [
+          "2020",
+          875.1703953
         ]
       ],
-      "name": "Erneuerbare Energien",
+      "name": "Elektrizität (Bezug ausserkantonal)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#662673",
+      "data": [
+        [
+          "2010",
+          null
+        ],
+        [
+          "2012",
+          null
+        ],
+        [
+          "2014",
+          null
+        ],
+        [
+          "2016",
+          5.373957
+        ],
+        [
+          "2018",
+          4.345729
+        ],
+        [
+          "2020",
+          5.043015
+        ]
+      ],
+      "name": "Fern-\u002FNahwärme  (Bezug ausserkantonal)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#67401E",
+      "data": [
+        [
+          "2010",
+          813.83650481
+        ],
+        [
+          "2012",
+          756.19301656
+        ],
+        [
+          "2014",
+          767.911986
+        ],
+        [
+          "2016",
+          767.873269
+        ],
+        [
+          "2018",
+          757.815644
+        ],
+        [
+          "2020",
+          538.172659
+        ]
+      ],
+      "name": "Treibstoffe",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#007A2F",
+      "data": [
+        [
+          "2010",
+          740.7937143
+        ],
+        [
+          "2012",
+          818.77449895
+        ],
+        [
+          "2014",
+          889.73550071
+        ],
+        [
+          "2016",
+          970.35165685
+        ],
+        [
+          "2018",
+          943.10027636
+        ],
+        [
+          "2020",
+          1087.7475305
+        ]
+      ],
+      "name": "Erneuerbare",
       "turboThreshold": 0
     }
   ],
@@ -409,7 +318,6 @@
       },
       "format": "{value:,.0f}"
     },
-    "tickAmount": 6,
     "reversedStacks": true
   },
   "legend": {
@@ -420,7 +328,9 @@
     "enabled": true,
     "layout": "horizontal",
     "verticalAlign": "top",
-    "align": "left"
+    "align": "left",
+    "alignColumns": false,
+    "itemWidth": 300
   },
   "navigation": {
     "menuItemStyle": {
@@ -441,11 +351,11 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2020-9-21"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
   },
   "tooltip": {
-    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y}\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
-    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.0f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
   },
   "exporting": {
     "filename": "9000"
