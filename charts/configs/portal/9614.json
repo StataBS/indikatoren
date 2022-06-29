@@ -1,0 +1,361 @@
+{
+  "series": [
+    {
+      "color": "#D3E2E4",
+      "data": [
+        [
+          "2010",
+          7.35138
+        ],
+        [
+          "2012",
+          7.50696
+        ],
+        [
+          "2014",
+          7.51254
+        ],
+        [
+          "2016",
+          31.0744
+        ],
+        [
+          "2018",
+          34.01
+        ],
+        [
+          "2020",
+          27.559384
+        ]
+      ],
+      "name": "Biogas",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#A8C3CA",
+      "data": [
+        [
+          "2010",
+          350.623931
+        ],
+        [
+          "2012",
+          365.71107765
+        ],
+        [
+          "2014",
+          372.01287765
+        ],
+        [
+          "2016",
+          377.481412
+        ],
+        [
+          "2018",
+          380.375647
+        ],
+        [
+          "2020",
+          361.70347
+        ]
+      ],
+      "name": "Kehricht und Klärschlamm (vollständig erneuerbar)",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#689199",
+      "data": [
+        [
+          "2010",
+          210.2
+        ],
+        [
+          "2012",
+          260.3
+        ],
+        [
+          "2014",
+          282.55
+        ],
+        [
+          "2016",
+          279.136815
+        ],
+        [
+          "2018",
+          251.1643
+        ],
+        [
+          "2020",
+          283
+        ]
+      ],
+      "name": "Wasserkraft",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#2F656B",
+      "data": [
+        [
+          "2010",
+          147.0414
+        ],
+        [
+          "2012",
+          149.580497
+        ],
+        [
+          "2014",
+          176.54832006
+        ],
+        [
+          "2016",
+          210.71802892
+        ],
+        [
+          "2018",
+          198.49612722
+        ],
+        [
+          "2020",
+          323.48253908
+        ]
+      ],
+      "name": "Holz",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#D7E8D2",
+      "data": [
+        [
+          "2010",
+          3.4
+        ],
+        [
+          "2012",
+          6
+        ],
+        [
+          "2014",
+          13.101795
+        ],
+        [
+          "2016",
+          20.858757
+        ],
+        [
+          "2018",
+          22.660303
+        ],
+        [
+          "2020",
+          26.104851
+        ]
+      ],
+      "name": "Photovoltaik",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#73B97C",
+      "data": [
+        [
+          "2010",
+          7.1650033
+        ],
+        [
+          "2012",
+          9.2759643
+        ],
+        [
+          "2014",
+          11.853544
+        ],
+        [
+          "2016",
+          14.71428493
+        ],
+        [
+          "2018",
+          20.12082614
+        ],
+        [
+          "2020",
+          20.8669364
+        ]
+      ],
+      "name": "Thermische Solarenergie",
+      "turboThreshold": 0
+    },
+    {
+      "color": "#68AB2B",
+      "data": [
+        [
+          "2010",
+          15.012
+        ],
+        [
+          "2012",
+          20.4
+        ],
+        [
+          "2014",
+          26.156424
+        ],
+        [
+          "2016",
+          36.367959
+        ],
+        [
+          "2018",
+          36.273073
+        ],
+        [
+          "2020",
+          45.03035
+        ]
+      ],
+      "name": "Umweltwärme",
+      "turboThreshold": 0
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "uniqueNames": true,
+    "lineColor": "#B9CFD7",
+    "lineWidth": 0.5,
+    "tickLength": 0,
+    "title": {
+      "style": {
+        "color": "#000000"
+      }
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      }
+    }
+  },
+  "chart": {
+    "width": 485,
+    "height": 428,
+    "spacing": [
+      10,
+      10,
+      30,
+      10
+    ],
+    "borderColor": "#fbfbfb",
+    "backgroundColor": "#fbfbfb",
+    "style": {
+      "fontFamily": "Arial"
+    },
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "events": {
+      "load": function () {
+                    this.credits.element.onclick = function () { };
+
+                    //for top-left legends with no x defined: move legend to x position of first yAxis
+                    if (this['legend']['options']['align'] == 'left' && this['legend']['options']['verticalAlign'] == 'top' && this['legend']['options']['x'] == 0) {
+                        this.update(
+                            {
+                                legend: {
+                                    x: this.yAxis[0].left - this.spacingBox.x - this.legend.padding
+                                }
+                            }
+                        );
+                    }
+                }
+    },
+    "type": "column",
+    "renderTo": "container-9614",
+    "spacingBottom": 40
+  },
+  "plotOptions": {
+    "series": {
+      "borderWidth": 1e-7,
+      "dataLabels": {
+        "style": {
+          "fontSize": "10px"
+        }
+      },
+      "stacking": "normal"
+    }
+  },
+  "title": {
+    "align": "left",
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "bold",
+      "color": "#000000"
+    },
+    "text": "Bruttoenergieverbrauch Erneuerbare"
+  },
+  "subtitle": {
+    "text": "in GWh, Basel-Stadt",
+    "align": "left",
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "normal",
+      "color": "#000000"
+    }
+  },
+  "yAxis": {
+    "gridLineWidth": 0.5,
+    "gridLineColor": "#B9CFD7",
+    "lineColor": "#B9CFD7",
+    "title": {
+      "style": {
+        "color": "#000000",
+        "fontSize": null
+      },
+      "text": null
+    },
+    "labels": {
+      "style": {
+        "color": "#000000"
+      },
+      "format": "{value:,.0f}"
+    },
+    "reversedStacks": true
+  },
+  "legend": {
+    "symbolRadius": 0,
+    "itemStyle": {
+      "fontWeight": "normal"
+    },
+    "enabled": true,
+    "layout": "horizontal",
+    "verticalAlign": "top",
+    "align": "left"
+  },
+  "navigation": {
+    "menuItemStyle": {
+      "fontFamily": "\"Lucida Grande\", \"Lucida Sans Unicode\", Arial, Helvetica, sans-serif",
+      "padding": "2px 10px"
+    }
+  },
+  "credits": {
+    "enabled": true,
+    "style": {
+      "color": "#000000",
+      "fontSize": "10px",
+      "cursor": "default"
+    },
+    "position": {
+      "align": "left",
+      "verticalAlign": "bottom",
+      "x": 10,
+      "y": -25
+    },
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Energiestatistik.\u003Cbr\u002F\u003EZuletzt geändert: 29.6.2022"
+  },
+  "tooltip": {
+    "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y:,.1f} GWh\u003C\u002Fb\u003E ({point.percentage:,.1f}%)\u003Cbr\u002F\u003E",
+    "footerFormat": "Total: \u003Cb\u003E{point.total:,.0f} GWh\u003C\u002Fb\u003E\u003Cbr\u002F\u003E"
+  },
+  "exporting": {
+    "filename": "9614"
+  }
+}

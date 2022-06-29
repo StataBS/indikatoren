@@ -43,5 +43,6 @@ var indikatorensetNames = [
 	"Leerstand (Print)",
 	"Staedtevergleich",
 	"Steuern (Print)",
+	"Energiestatistik (Print)",
 	"Test"
 ];
