@@ -42,44 +42,42 @@ var indikatorensetData = [
 		"id": 6011
 	},
 	{
+		"template": "template001",
+		"data-id": 6012,
+		"chart-id": 6012,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6761"
+			6761
 		],
-		"template": "template001",
 		"title": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "",
-		"kuerzelKunde": "2-2",
-		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "2021 ergibt sich für den Kanton ein Wanderungsverlust von total 1 000 Personen. Dieser kommt vor allem dadurch zustande, dass mehr Schweizer den Kanton verlassen als zuziehen (-1 427). Bei den ausländischen Staatsangehörigen wird ein Plus von 427 Personen registriert. Im Vorjahr (2020) wurde ein Wanderungsgewinn von 956 Personen verzeichnet.",
+		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-26T08:36:41.4141",
+		"description": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06012",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-2",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "2020 ergibt sich für den Kanton ein Wanderungsgewinn von 956 Personen. Er kommt dadurch zustande, dass mehr ausländische Staatsangehörige aus dem Ausland nach Basel-Stadt zuziehen, als den Kanton in Richtung Ausland verlassen (+3 037). 2019 war der Wanderungsgewinn mit 1 214 höher ausgefallen.",
-		"erlaeuterungen": "Die Rubrik «Unbekannt» ist vor allem auf Wegzüger zurückzuführen, die ihre neue Adresse nicht angeben oder ohne Abmeldung wegziehen.",
+		"orderKey": "01_00_00_00_00_002",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_002",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6012,
-		"chart-id": 6012,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:20",
 		"id": 6012
 	},
 	{
@@ -318,45 +316,43 @@ var indikatorensetData = [
 		"id": 6021
 	},
 	{
+		"template": "mapcolumn002",
+		"data-id": 6022,
+		"chart-id": 6022,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6771"
+			6771
 		],
-		"template": "mapcolumn002",
 		"title": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.06022",
-		"kuerzelKunde": "2-12",
-		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2021 verbuchten die Wohnviertel Clara und Vorstädte die grössten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für die Wohnviertel Kleinhüningen und Breite. Betrachtet man die innerkantonalen Umzüge, wiesen Bettingen und das Wohnviertel Clara deutlich die grössten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner verzeichneten unter anderem die Wohnviertel Vorstädte und Wettstein. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen Clara und Bettingen auf. Die höchsten Bevölkerungsverluste verzeichneten die Wohnviertel Vorstädte und Klybeck.",
+		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-06-02T09:03:12.1212",
+		"description": "Bevölkerungssaldo räumlicher Bevölkerungsbewegungen pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.06022",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-12",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Der Wanderungssaldo pro 100 Einwohner illustriert, in welche baselstädtischen Wohnviertel mehr Personen aus anderen Kantonen oder aus dem Ausland zuziehen, als von dort abwandern. Im Jahr 2020 verbuchten die Wohnviertel Altstadt Grossbasel, Vorstädte, Am Ring, Altstadt Kleinbasel und Wettstein die höchsten Wanderungsgewinne. Deutliche Wanderungsverluste ergaben sich hingegen für das Hirzbrunnenquartier und die Gemeinde Bettingen. Betrachtet man die innerkantonalen Umzüge, wiesen die Altstadt Grossbasel, das St. Alban- und das Bruderholzquartier sowie die Gemeinden Riehen und Bettingen die stärksten Umzugsgewinne pro 100 Einwohner auf. Hohe Umzugsverluste pro 100 Einwohner kamen hingegen in den Wohnvierteln Gotthelf, Altstadt Kleinbasel, Clara, Rosental und Klybeck zustande. Die höchsten Bevölkerungssaldi infolge sämtlicher räumlicher Bevölkerungsbewegungen (Wanderungen über die Kantonsgrenzen hinweg und Umzüge innerhalb des Kantons) wiesen die Wohnviertel Altstadt Grossbasel, Am Ring, St.Alban und Wettstein sowie die Gemeinde Riehen auf. Die höchsten Bevölkerungsverluste infolge sämtlicher räumlicher Bevölkerungsbewegungen verzeichneten die Wohnviertel Gotthelf, Hirzbrunnen und Klybeck.",
-		"erlaeuterungen": "Der Wanderungssaldo ist die Differenz zwischen den von ausserhalb in den Kanton Zugezogenen und den aus Basel-Stadt Weggezogenen. Der Umzugssaldo stellt die Differenz zwischen den innerkantonalen Wohnungswechseln bezogen auf ein baselstädtisches Wohnviertel oder eine baselstädtische Gemeinde dar. Der Bevölkerungssaldo berücksichtigt die Differenz zwischen den Zu- und Wegzugsereignissen der inner- und ausserkantonalen Wanderungen.",
+		"orderKey": "01_00_00_00_00_012",
 		"darstellungsart": "Karte",
 		"printformat": "",
-		"orderKey": "01_00_00_00_00_012",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6022,
-		"chart-id": 6022,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:18",
 		"id": 6022
 	},
 	{
@@ -438,45 +434,43 @@ var indikatorensetData = [
 		"id": 6024
 	},
 	{
+		"template": "mappie002",
+		"data-id": 6025,
+		"chart-id": 6025,
+		"filter": "",
 		"parentId": null,
 		"children": [
-			"6774"
+			6774
 		],
-		"template": "mappie002",
 		"title": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"subtitle": "Basel-Stadt, 2020",
-		"kennzahlenset": "Wanderungen",
-		"kuerzel": "I.01.5.6025",
-		"kuerzelKunde": "2-10",
-		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
-		"thema": "01 Bevölkerung",
-		"unterthema": "Wanderungen",
+		"subtitle": "Basel-Stadt, 2021",
+		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger in Basel-Stadt kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. In der Gemeinde Bettingen ist der Anteil der Neuzuziehenden aus der Schweiz (62%) am höchsten. In den Wohnvierteln Breite, Gundeldingen, Bachletten und Iselin liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland gibt es beispielsweise in den Wohnvierteln Rosental, Clara und Wettstein. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Wohnviertel Hirzbrunnen und die Gemeinde Riehen mit jeweils 3 Personen.",
+		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
+		"quellenangabe": [
+			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Wohnviertel",
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2021-05-27T09:08:08.088",
+		"description": "Anteil Zugezogene nach Zuzugsland und Anzahl Zugezogene pro 100 Einwohner",
+		"thema": "01 Bevölkerung",
+		"unterthema": "Wanderungen",
+		"kuerzel": "I.01.5.6025",
+		"kennzahlenset": "Wanderungen",
+		"kuerzelKunde": "2-10",
 		"stufe1": "Kernindikatoren zu den Wanderungsbewegungen",
 		"stufe2": "",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "47% der Neuzuzügerinnen und Neuzuzüger kommen aus der Schweiz, 53% ziehen aus dem Ausland zu. Im Wohnviertel Bruderholz ist der Anteil der Neuzuziehenden aus der Schweiz (61%) am höchsten. In den Wohnvierteln Gundeldingen, Bachletten und Altstadt Kleinbasel sowie in der Gemeinde Bettingen liegt der Anteil der zugezogenen Personen, die bereits zuvor in der Schweiz gelebt haben, ebenfalls deutlich über dem kantonalen Durchschnitt. Überdurchschnittlich viele Zuzügerinnen und Zuzüger aus dem Ausland hingegen gibt es in den Wohnvierteln Vorstädte, Clara, Wettstein, Rosental und Klybeck mit einem Anteil von jeweils um 60% und mehr. Am meisten Zuziehende pro 100 Einwohner weisen die Wohnviertel Vorstädte und Rosental mit jeweils 11 Personen auf, am wenigsten das Hirzbrunnenquartier und die Gemeinde Bettingen mit jeweils 3 Personen.",
-		"erlaeuterungen": "Zugezogene mit unbekanntem Zuzugsort werden in diesem Indikator nicht berücksichtigt.",
+		"orderKey": "01_00_00_00_00_010",
 		"darstellungsart": "Karte",
 		"printformat": "map",
-		"orderKey": "01_00_00_00_00_010",
-		"renderLink": [],
-		"quellenangabe": [
-			"Statistisches Amt Basel-Stadt, Bevölkerungsstatistik"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 6025,
-		"chart-id": 6025,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:15",
 		"id": 6025
 	}
 ];

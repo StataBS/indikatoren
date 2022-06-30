@@ -164,44 +164,42 @@ var indikatorensetData = [
 		"id": 8353
 	},
 	{
+		"template": "template001",
+		"data-id": 8354,
+		"chart-id": 8354,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8471
+		],
 		"title": "Anteile Wertschöpfung nach Branche",
-		"subtitle": "Anteile an der Gesamtwertschöpfung, 2018",
-		"kuerzel": "",
-		"kuerzelKunde": "1.2-1",
-		"description": "Anteile Wertschöpfung nach Branche",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"subtitle": "Anteile an der Gesamtwertschöpfung, 2020",
+		"lesehilfe": "In Basel-Stadt erwirtschaften 2020 die Branchen Chemie und Pharma rund 44% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit rund 19% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (33% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie rund 8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31%). An zweiter Stelle folgt der Handel (11%).",
+		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:23.2323",
+		"description": "Anteile Wertschöpfung nach Branche",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08354",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-1",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "In Basel-Stadt erwirtschaften 2018 die Branchen Chemie und Pharma 43,7% der kantonalen Wertschöpfung. In Basel-Landschaft hat der Bereich Handel und Reparatur mit 18,2% den grössten Anteil. Im Kanton Jura sind wiederum die Hersteller von Investitionsgütern am stärksten vertreten (32,6% der Wertschöpfung). Diese Branche ist in Basel-Stadt fast bedeutungslos, in Basel-Landschaft erwirtschaftet sie 8,8%. In der gesamten Region (BS, BL, JU) trägt die chemisch-pharmazeutische Industrie am meisten zur Gesamtwertschöpfung bei (31,3%). An zweiter Stelle folgt der Handel (10,1%).",
-		"erlaeuterungen": "Die Anteile errechnen sich aus der jeweiligen nominalen Bruttowertschöpfung der Branche geteilt durch die Gesamtwertschöpfung in der jeweiligen Region.",
-		"template": "template001",
+		"orderKey": "01_02_00_00_00_001",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_001",
-		"parentId": null,
-		"children": [
-			"8471"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8354,
-		"chart-id": 8354,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:05",
 		"id": 8354
 	},
 	{
@@ -212,11 +210,13 @@ var indikatorensetData = [
 		"parentId": null,
 		"children": [
 			8472,
-			9361
+			9361,
+			9420,
+			9586
 		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -241,7 +241,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-10-04T08:37:33",
+		"aktualisierungsdatum": "2022-06-30T08:51:07",
 		"id": 8355
 	},
 	{
@@ -286,44 +286,42 @@ var indikatorensetData = [
 		"id": 8356
 	},
 	{
+		"template": "line001",
+		"data-id": 8357,
+		"chart-id": 8357,
+		"filter": "",
+		"parentId": null,
+		"children": [
+			8474
+		],
 		"title": "Entwicklung Wertschöpfung nach Branche, Jura",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"kuerzel": "I.04.2.08357",
-		"kuerzelKunde": "1.2-4",
-		"description": "Entwicklung Wertschöpfung nach Branche, Jura",
-		"thema": "04 Volkswirtschaft",
-		"unterthema": "Konjunktur",
-		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"lesehilfe": "Im Pandemiejahr 2020 ist die Wertschöpfung in vielen Branchen im Kanton Jura gesunken, aber am stärksten ist auch hier das Gastgewerbe betroffen. Deutlich zugenommen hat die realen Wertschöpfung im Baugewerbe sowie in den Finanz- und Versicherungsdienstleistungen.",
+		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
+		"quellenangabe": [
+			"BAK Economics"
+		],
+		"externalLinks": [],
+		"renderLink": [],
 		"raeumlicheGliederung": [
 			"Kanton"
 		],
-		"aktualisierungsdatum": "2020-07-07T09:09:24.2424",
+		"description": "Entwicklung Wertschöpfung nach Branche, Jura",
+		"thema": "04 Volkswirtschaft",
+		"unterthema": "Konjunktur",
+		"kuerzel": "I.04.2.08357",
+		"kennzahlenset": "Wirtschaftsbericht BS_BL_JU",
+		"kuerzelKunde": "1.2-4",
 		"stufe1": "1. Bruttoinlandprodukt und Unternehmensbewegungen",
 		"stufe2": "1.2 Wertschöpfung",
 		"stufe3": "",
 		"stufe4": "",
 		"stufe5": "",
-		"lesehilfe": "Im Kanton Jura hat das Branchenaggregat Freiberufliche, wissenschaftliche und technische Dienstleistungen das höchste Wachstum der realen Wertschöpfung (+27%) zwischen 2014 und 2018 erreicht. Rückläufig war die Wertschöpfung im Fahrzeugbau (-26%) und im Bereich Elektro/Optik/Maschinenindustrie (-13%).",
-		"erlaeuterungen": "Das Wachstum de realen Wertschöpfung wird in Preisen des Vorjahrs gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100). Aufgrund der sehr niedrigen Beschäftigtenzahlen sind für den Kanton Jura keine Wertschöpfungszahlen für die chemischen Industrie und für Pharma vorhanden.",
-		"template": "line001",
+		"orderKey": "01_02_00_00_00_004",
 		"darstellungsart": "Diagramm",
 		"printformat": "",
-		"orderKey": "01_02_00_00_00_004",
-		"parentId": null,
-		"children": [
-			"8474"
-		],
-		"renderLink": [],
-		"quellenangabe": [
-			"BAK Economics"
-		],
 		"datenInChartIntegriert": false,
-		"externalLinks": [
-			""
-		],
-		"data-id": 8357,
-		"chart-id": 8357,
-		"filter": "",
+		"aktualisierungsdatum": "2022-06-30T08:51:10",
 		"id": 8357
 	},
 	{

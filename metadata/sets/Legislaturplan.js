@@ -726,7 +726,7 @@ var indikatorensetData = [
 		"children": [],
 		"title": "Entwicklung Wertschöpfung nach Branche, Basel-Stadt",
 		"subtitle": "real, indexiert (2014 = 100)",
-		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2019 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 18% gestiegen. Genauso hoch war das Wertschöpfungswachstum im Maschinenbau; allerdings ist diese Branche, ebenso wie der Bereich Elektronik/Optik (-31%), sehr klein.",
+		"lesehilfe": "Die reale Wertschöpfung in der Pharmaindustrie in Basel-Stadt hat sich zwischen 2014 und 2020 mehr als verdoppelt. Die Wertschöpfung im Gesundheits- und Sozialwesen ist um 15% gestiegen. Im ersten Pandemiejahr 2020 ist die Wertschöpfung vor allem im Gastgewerbe und im Bereich Verkehr und Lagerei eingebrochen. Auch im Bereich Elektronik/Optik liegt die Wertschöpfung 2020 deutlich unter dem Niveau von 2014; allerdings ist dieser Bereich wie auch der Maschinenbau in Basel-Stadt sehr klein.",
 		"erlaeuterungen": "Das Wachstum der realen Wertschöpfung wird in Preisen des Vorjahres gerechnet. Hier sind die Daten indexiert (Wert im Jahr 2014 = 100).",
 		"quellenangabe": [
 			"BAK Economics"
@@ -751,7 +751,7 @@ var indikatorensetData = [
 		"darstellungsart": "Diagramm",
 		"printformat": "",
 		"datenInChartIntegriert": false,
-		"aktualisierungsdatum": "2021-12-23T02:24:23",
+		"aktualisierungsdatum": "2022-06-30T08:51:13",
 		"id": 9361
 	},
 	{

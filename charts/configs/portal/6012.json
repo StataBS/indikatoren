@@ -6,19 +6,19 @@
       "data": [
         [
           "Schweiz",
-          -305
+          -783
         ],
         [
           "Ausland",
-          35
+          -272
         ],
         [
           "Unbekannt",
-          -140
+          -372
         ],
         [
           "Total",
-          -410
+          -1427
         ]
       ],
       "name": "Schweizer",
@@ -30,19 +30,19 @@
       "data": [
         [
           "Schweiz",
-          -1140
+          -1507
         ],
         [
           "Ausland",
-          3037
+          2722
         ],
         [
           "Unbekannt",
-          -531
+          -788
         ],
         [
           "Total",
-          1366
+          427
         ]
       ],
       "name": "Ausländer",
@@ -54,19 +54,19 @@
       "data": [
         [
           "Schweiz",
-          -1445
+          -2290
         ],
         [
           "Ausland",
-          3072
+          2450
         ],
         [
           "Unbekannt",
-          -671
+          -1160
         ],
         [
           "Total",
-          956
+          -1000
         ]
       ],
       "name": "Total",
@@ -149,7 +149,7 @@
     "text": "Wanderungssaldo nach Staatsangehörigkeit, Zuzugs- und Wegzugsland"
   },
   "subtitle": {
-    "text": "Basel-Stadt, 2020",
+    "text": "Basel-Stadt, 2021",
     "align": "left",
     "style": {
       "fontSize": "12px",
@@ -176,7 +176,6 @@
     },
     "max": 3500,
     "tickInterval": 500,
-    "min": -1500,
     "plotLines": [
       {
         "color": "#B9CFD7",
@@ -214,7 +213,7 @@
       "x": 10,
       "y": -25
     },
-    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 2021-5-26"
+    "text": "Quelle: Statistisches Amt Basel-Stadt, Bevölkerungsstatistik.\u003Cbr\u002F\u003EZuletzt geändert: 30.6.2022"
   },
   "tooltip": {
     "pointFormat": "\u003Cspan style=\"color:{series.color}\"\u003E●\u003C\u002Fspan\u003E {series.name}: \u003Cb\u003E{point.y: ,.0f}\u003C\u002Fb\u003E\u003Cbr\u002F\u003E",
